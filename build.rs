@@ -1,4 +1,5 @@
 use chrono::DateTime;
+use itertools::Itertools;
 
 struct Group {
     name: String,
@@ -11,25 +12,56 @@ impl Group {
 }
 struct Subgroup {
     pub name: String,
-    pub codepoints: Vec<Emoji>,
+    pub emojis: Vec<Emoji>,
 }
 impl Subgroup {
     pub fn new(name: String) -> Self {
-	Self{name, codepoints: vec![]}
+	Self{name, emojis: vec![]}
     }
 }
+#[derive(Debug)]
 struct Emoji {
     pub codepoint: String,
-    pub qualifier: Status,
+    pub status: Status,
     pub glyph: String,
     pub introduction_version: f32,
-    pub canonical_name: String,
+    pub name: String,
 }
+impl Emoji {
+    pub fn new(line: &str) -> Self {
+	let first_components: Vec<&str> = line.split(";").collect();
+	let reformed_first = first_components.iter().skip(1).join(";");
+	let codepoint = first_components[0].trim().to_owned();
+	let second_components: Vec<&str> = reformed_first.split("#").collect();
+	let status = Status::new(second_components[0].trim());
+	let reformed_second = second_components.iter().skip(1).join("#");
+	let third_components: Vec<&str> = reformed_second.trim().split("E").collect();
+	let glyph = third_components[0].trim().to_owned();
+	let introduction_version = third_components
+	    .iter().skip(1).join("E").split(" ").nth(0)
+	    .unwrap().parse::<f32>().unwrap();
+	let name = third_components[1].split(" ").skip(1).join(" ");
+	Self{codepoint, status, glyph, introduction_version, name}
+    }
+}
+#[derive(Debug)]
 enum Status {
     Component,
     FullyQualified,
     MinimallyQualified,
     Unqualified,
+}
+impl Status {
+    pub fn new(name: &str) -> Self {
+	use crate::Status::*;
+	match name {
+	    "component" => Component,
+	    "fully-qualified" => FullyQualified,
+	    "minimally-qualified" => MinimallyQualified,
+	    "unqualified" => Unqualified,
+	    unknown => panic!("Unknown qualifier {}", unknown),
+	}
+    }
 }
 
 // This is using the `tokio` runtime. You'll need the following dependency:
@@ -62,29 +94,37 @@ async fn main() -> Result<(), reqwest::Error> {
 	    // - Publication Version
 	    if line.starts_with("# Date: ") {
 		date = DateTime::parse_from_str(
-		    &line.chars().skip("# Date: ".len()).collect::<String>().replace("GMT", "+0000"), "%F, %T %z")
+		    &line.chars().skip("# Date: ".len()).collect::<String>()
+			.replace("GMT", "+0000"), "%F, %T %z")
 		    .unwrap();
 	    }
 	    if line.starts_with("# Version: ") {
-		version = line.chars().skip("# Version: ".len()).collect::<String>().parse::<f32>();
+		version = line.chars().skip("# Version: ".len())
+		    .collect::<String>().parse::<f32>();
 	    }
 	    if line.starts_with("# group: ") {
-		let groupname = line.chars().skip("# group: ".len()).collect::<String>();
+		let groupname = line.chars().skip("# group: ".len())
+		    .collect::<String>();
 		groups.push(Group::new(groupname));
 	    }
 	    if line.starts_with("# subgroup: ") {
-		let subgroupname = line.chars().skip("# subgroup: ".len()).collect::<String>();
+		let subgroupname = line.chars().skip("# subgroup: ".len())
+		    .collect::<String>();
 		groups.last_mut().unwrap().subgroups.push(Subgroup::new(subgroupname));
 	    }
 	    continue;
 	}
-	//panic!("{}", line);
+	groups.last_mut().unwrap().subgroups.last_mut().unwrap().emojis
+	    .push(Emoji::new(line));
     }
 
     for group in groups {
 	println!("{}", group.name);
 	for subg in group.subgroups {
 	    println!("  {}", subg.name);
+	    for emoji in subg.emojis {
+		println!("    {:?}", emoji);
+	    }
 	}
     }
     
