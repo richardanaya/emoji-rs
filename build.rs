@@ -109,16 +109,16 @@ impl Emoji {
 impl ToTokens for Emoji {
     fn to_tokens(&self, tokens: &mut TokenStream) {
 	use Status::*;
-	let glyph = match self.status {
-	    Component | FullyQualified => self.glyph.clone(),
+	let glyph = &self.glyph;
+	let name = sanitize(&match self.status {
+	    Component | FullyQualified => self.name.clone(),
 	    Unqualified => format!("{}_Unqualified", self.glyph),
 	    MinimallyQualified => format!("{}_MinimallyQualified", self.glyph),
-	};
-	if sanitize(&self.name).to_uppercase().len() == 0 {
+	}).to_uppercase();
+	if name.len() == 0 {
 	    panic!("{:?}", self);
 	}
-	let ident = Ident::new(&sanitize(&self.name).to_uppercase()
-			       , Span::call_site());
+	let ident = Ident::new(&name, Span::call_site());
 	(quote!{
 	    pub const #ident: &'static str = #glyph;
 	}).to_tokens(tokens);
