@@ -1,5 +1,7 @@
 # emoji-rs
 
+<a href="https://docs.rs/emoji"><img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square" alt="docs.rs docs" /></a>
+
 A library of emoji and metadata of emoji
 
 
