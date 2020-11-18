@@ -112,8 +112,8 @@ impl ToTokens for Emoji {
 	let glyph = &self.glyph;
 	let name = sanitize(&match self.status {
 	    Component | FullyQualified => self.name.clone(),
-	    Unqualified => format!("{}_Unqualified", self.glyph),
-	    MinimallyQualified => format!("{}_MinimallyQualified", self.glyph),
+	    Unqualified => format!("{}_Unqualified", self.name),
+	    MinimallyQualified => format!("{}_MinimallyQualified", self.name),
 	}).to_uppercase();
 	if name.len() == 0 {
 	    panic!("{:?}", self);
