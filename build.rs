@@ -1,5 +1,6 @@
 use chrono::DateTime;
 use itertools::Itertools;
+use quote::quote;
 
 struct Group {
     name: String,
@@ -70,8 +71,8 @@ impl Status {
 #[cfg(not(target_arch = "wasm32"))]
 #[tokio::main]
 async fn main() -> Result<(), reqwest::Error> {
-    let mut date;
-    let mut version;
+    let mut date = "".to_owned();
+    let mut version = 0.0;
     let mut groups: Vec<Group> = vec![];
     
     
@@ -96,11 +97,11 @@ async fn main() -> Result<(), reqwest::Error> {
 		date = DateTime::parse_from_str(
 		    &line.chars().skip("# Date: ".len()).collect::<String>()
 			.replace("GMT", "+0000"), "%F, %T %z")
-		    .unwrap();
+		    .unwrap().to_rfc3339();
 	    }
 	    if line.starts_with("# Version: ") {
 		version = line.chars().skip("# Version: ".len())
-		    .collect::<String>().parse::<f32>();
+		    .collect::<String>().parse::<f32>().unwrap();
 	    }
 	    if line.starts_with("# group: ") {
 		let groupname = line.chars().skip("# group: ".len())
@@ -118,17 +119,21 @@ async fn main() -> Result<(), reqwest::Error> {
 	    .push(Emoji::new(line));
     }
 
-    for group in groups {
-	println!("{}", group.name);
-	for subg in group.subgroups {
-	    println!("  {}", subg.name);
-	    for emoji in subg.emojis {
-		println!("    {:?}", emoji);
-	    }
-	}
+    if version == 0.0 {
+	panic!("No unicode version found while parsing emoji data");
     }
-    
-    panic!("I'm here to dump stdout");
+    if date == "" {
+	panic!("No release date found while parsing emoji data");
+    }
+
+    let datestr = &date; // quote is picky
+    panic!("{}", quote!{
+	pub const UNICODE_VERSION: f32 = #version;
+	pub const UNICODE_RELEASE_TIME: &'static str = #datestr; // rfc3339 formatted chrono::DateTime
+	mod a {
+	    
+	}
+    });
     
     Ok(())
 }
