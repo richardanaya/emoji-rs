@@ -1,6 +1,22 @@
 use chrono::DateTime;
 use itertools::Itertools;
-use quote::quote;
+use quote::{quote, ToTokens};
+use proc_macro2::{TokenStream, Span, Ident};
+
+fn sanitize(input: &String) -> String {
+    input.replace(" ", "_")
+	.replace("-", "_")
+	.replace(":", "")
+	.replace(",", "")
+	.replace(".", "")
+	.replace("’", "")
+	.replace("&", "and")
+	.replace("#", "pound")
+	.replace("*", "asterisk")
+	.replace("1st", "first")
+	.replace("2nd", "second")
+	.replace("3rd", "third")
+}
 
 struct Group {
     name: String,
@@ -11,6 +27,18 @@ impl Group {
 	Self{name, subgroups: vec![]}
     }
 }
+impl ToTokens for Group {
+    fn to_tokens(&self, tokens: &mut TokenStream) {
+	let modname = Ident::new(&sanitize(&self.name).to_lowercase()
+				 , Span::call_site());
+	let subgroups = &self.subgroups;
+	(quote!{
+	    mod #modname {
+		#(#subgroups)*
+	    }
+	}).to_tokens(tokens);
+    }
+}
 struct Subgroup {
     pub name: String,
     pub emojis: Vec<Emoji>,
@@ -18,6 +46,18 @@ struct Subgroup {
 impl Subgroup {
     pub fn new(name: String) -> Self {
 	Self{name, emojis: vec![]}
+    }
+}
+impl ToTokens for Subgroup {
+    fn to_tokens(&self, tokens: &mut TokenStream) {
+	let modname = Ident::new(&sanitize(&self.name).to_lowercase()
+				 , Span::call_site());
+	let emojis = &self.emojis;
+	(quote!{
+	    mod #modname {
+		#(#emojis)*
+	    }
+	}).to_tokens(tokens);
     }
 }
 #[derive(Debug)]
@@ -43,6 +83,19 @@ impl Emoji {
 	    .unwrap().parse::<f32>().unwrap();
 	let name = third_components[1].split(" ").skip(1).join(" ");
 	Self{codepoint, status, glyph, introduction_version, name}
+    }
+}
+impl ToTokens for Emoji {
+    fn to_tokens(&self, tokens: &mut TokenStream) {
+	let glyph = &self.glyph;
+	if sanitize(&self.name).to_uppercase().len() == 0 {
+	    panic!("{:?}", self);
+	}
+	let ident = Ident::new(&sanitize(&self.name).to_uppercase()
+			       , Span::call_site());
+	(quote!{
+	    pub const #ident: &'static str = #glyph;
+	}).to_tokens(tokens);
     }
 }
 #[derive(Debug)]
@@ -130,9 +183,7 @@ async fn main() -> Result<(), reqwest::Error> {
     panic!("{}", quote!{
 	pub const UNICODE_VERSION: f32 = #version;
 	pub const UNICODE_RELEASE_TIME: &'static str = #datestr; // rfc3339 formatted chrono::DateTime
-	mod a {
-	    
-	}
+	#(#groups)*
     });
     
     Ok(())
