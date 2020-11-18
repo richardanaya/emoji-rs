@@ -4,6 +4,11 @@
 
 A library of emoji and metadata of emoji
 
+```rust
+fn main() {
+    println!("hello {}",emoji::food_and_drink::food_marine::CRAB);
+}
+```
 
 # License
 
