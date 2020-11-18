@@ -5,17 +5,34 @@ use proc_macro2::{TokenStream, Span, Ident};
 
 fn sanitize(input: &String) -> String {
     input.replace(" ", "_")
-	.replace("-", "_")
-	.replace(":", "")
-	.replace(",", "")
-	.replace(".", "")
-	.replace("’", "")
 	.replace("&", "and")
 	.replace("#", "pound")
 	.replace("*", "asterisk")
 	.replace("1st", "first")
 	.replace("2nd", "second")
 	.replace("3rd", "third")
+	.replace("(","")
+	.replace(")","")
+	.replace(":","")
+	.replace(".","")
+	.replace(".","")
+	.replace("'","")
+	.replace("’","")
+	.replace(",","")
+	.replace(",","")
+	.replace(",","")
+	.replace("-","_")
+	.replace("-","_")
+	.replace("“","_")
+	.replace("”","_")
+	.replace("!","")
+	.replace("Ñ","N")
+	.replace("Å","A")
+	.replace("É","E")
+	.replace("Ã","A")
+	.replace("Í","I")
+	.replace("Ç","C")
+	.replace("Ô","O")
 }
 
 struct Group {
@@ -78,10 +95,11 @@ impl Emoji {
 	let reformed_second = second_components.iter().skip(1).join("#");
 	let third_components: Vec<&str> = reformed_second.trim().split("E").collect();
 	let glyph = third_components[0].trim().to_owned();
-	let introduction_version = third_components
-	    .iter().skip(1).join("E").split(" ").nth(0)
+	let reformed_third = third_components
+	    .iter().skip(1).join("E");
+	let introduction_version = reformed_third.split(" ").nth(0)
 	    .unwrap().parse::<f32>().unwrap();
-	let name = third_components[1].split(" ").skip(1).join(" ");
+	let name = reformed_third.split(" ").skip(1).join(" ");
 	Self{codepoint, status, glyph, introduction_version, name}
     }
 }
