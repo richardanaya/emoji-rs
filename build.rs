@@ -2,6 +2,9 @@ use chrono::DateTime;
 use itertools::Itertools;
 use quote::{quote, ToTokens};
 use proc_macro2::{TokenStream, Span, Ident};
+use std::fs::File;
+use std::io::Write;
+use std::path::PathBuf;
 
 fn sanitize(input: &String) -> String {
     input.replace(" ", "_")
@@ -105,7 +108,12 @@ impl Emoji {
 }
 impl ToTokens for Emoji {
     fn to_tokens(&self, tokens: &mut TokenStream) {
-	let glyph = &self.glyph;
+	use Status::*;
+	let glyph = match self.status {
+	    Component | FullyQualified => self.glyph.clone(),
+	    Unqualified => format!("{}_Unqualified", self.glyph),
+	    MinimallyQualified => format!("{}_MinimallyQualified", self.glyph),
+	};
 	if sanitize(&self.name).to_uppercase().len() == 0 {
 	    panic!("{:?}", self);
 	}
@@ -198,11 +206,14 @@ async fn main() -> Result<(), reqwest::Error> {
     }
 
     let datestr = &date; // quote is picky
-    panic!("{}", quote!{
+    let dump = quote!{
 	pub const UNICODE_VERSION: f32 = #version;
 	pub const UNICODE_RELEASE_TIME: &'static str = #datestr; // rfc3339 formatted chrono::DateTime
 	#(#groups)*
-    });
+    };
+
+    let pb: PathBuf = format!("{}/emoji_data.rs", std::env::var("OUT_DIR").unwrap()).into();
+    File::create(pb).unwrap().write_all(format!("{}", dump).as_bytes());
     
     Ok(())
 }
