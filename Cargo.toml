@@ -3,10 +3,17 @@ name = "emoji"
 version = "0.1.1"
 authors = ["Richard Anaya"]
 edition = "2018"
+build = "build.rs"
 license = "MIT OR Apache-2.0"
 description = "A library of emoji"
-repository = "https://github.com/richardanaya/js-wasm"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+repository = "https://github.com/Shizcow/emoji-rs"
 
 [dependencies]
+phf = "0.8.0"
+
+[build-dependencies]
+xml-rs = "0.8.3"
+quote = "1.0.7"
+tokio = { version = "0.2", features = ["macros"] }
+reqwest = "0.10.8"
+chrono = "0.4.19"
