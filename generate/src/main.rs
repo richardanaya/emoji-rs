@@ -177,6 +177,8 @@ async fn main() -> Result<(), reqwest::Error> {
     
     
     //let res = reqwest::get("https://unicode.org/Public/cldr/38/cldr-tools-38.0.zip").await?;
+
+    
     let res = reqwest::get("https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt").await?;
 
     let body = res.text().await?;
@@ -233,10 +235,11 @@ async fn main() -> Result<(), reqwest::Error> {
 	panic!("No release date found while parsing emoji data");
     }
 
-    let datestr = &date; // quote is picky
     let dump = quote!{
+	/// The unicode release version that this crate is compiled against
 	pub const UNICODE_VERSION: f32 = #version;
-	pub const UNICODE_RELEASE_TIME: &'static str = #datestr; // rfc3339 formatted chrono::DateTime
+	/// The rfc3339 formatted time of the unicode release that this crate is compiled against
+	pub const UNICODE_RELEASE_TIME: &'static str = #date;
 	#(#groups)*
     };
 

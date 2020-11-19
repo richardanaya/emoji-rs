@@ -1,4 +1,6 @@
+#[doc = r" The unicode release version that this crate is compiled against"]
 pub const UNICODE_VERSION: f32 = 13.1f32;
+#[doc = r" The rfc3339 formatted time of the unicode release that this crate is compiled against"]
 pub const UNICODE_RELEASE_TIME: &'static str = "2020-08-28T05:24:13+00:00";
 pub mod smileys_and_emotion {
     #[path = "emoji_subgroup_cat_face.rs"]
