@@ -7,6 +7,9 @@ use std::io::Write;
 use std::path::PathBuf;
 use unidecode::unidecode;
 use std::process::Command;
+use xml::reader::{EventReader, XmlEvent};
+use std::collections::HashMap;
+
 
 fn sanitize(input: &String) -> String {
     unidecode(&input
@@ -68,10 +71,7 @@ impl ToTokens for Subgroup {
     fn to_tokens(&self, tokens: &mut TokenStream) {
 	let modname = Ident::new(&sanitize(&self.name).to_lowercase()
 				 , Span::call_site());
-	let path = format!("emoji_subgroup_{}.rs",
-		sanitize(&self.name).to_lowercase());
 	(quote!{
-	    #[path=#path]
 	    pub mod #modname;
 	}).to_tokens(tokens);
     }
@@ -83,10 +83,11 @@ struct Emoji {
     pub glyph: String,
     pub introduction_version: f32,
     pub name: String,
-    pub variants: Vec<Emoji>,
+    variants: Vec<Emoji>,
+    pub annotations: Vec<String>,
 }
 impl Emoji {
-    pub fn new(line: &str) -> Self {
+    pub fn new(line: &str, annotations: &HashMap<String, String>) -> Self {
 	let first_components: Vec<&str> = line.split(";").collect();
 	let reformed_first = first_components.iter().skip(1).join(";");
 	let codepoint = first_components[0].trim().to_owned();
@@ -100,7 +101,22 @@ impl Emoji {
 	let introduction_version = reformed_third.split(" ").nth(0)
 	    .unwrap().parse::<f32>().unwrap();
 	let name = reformed_third.split(" ").skip(1).join(" ");
-	Self{codepoint, status, glyph, introduction_version, name, variants: vec![]}
+	
+	let mut annotations: Vec<String> = match annotations.get(&glyph) {
+	    Some(annotation_string) => {
+		annotation_string.split("|").map(|a| a.trim().to_owned()).collect()
+	    },
+	    None => vec![]
+	};
+
+	annotations.sort();
+	annotations.dedup();
+	
+	Self{codepoint, status, glyph, introduction_version, name, variants: vec![], annotations}
+    }
+    pub fn add_variant(&mut self, mut variant: Emoji) {
+	self.annotations.append(&mut variant.annotations);
+	self.variants.push(variant);
     }
     pub fn ident(&self) -> String {
 	sanitize(&self.name).to_uppercase()
@@ -113,13 +129,17 @@ impl Emoji {
 	let introduction_version = self.introduction_version;
 	let variants: Vec<TokenStream> = self.variants.iter()
 	    .map(|e| e.tokens_internal()).collect();
+	let annotations = &self.annotations;
 	(quote!{
-		crate::Emoji{glyph: #glyph,
-			     codepoint: #codepoint,
-			     status: crate::Status::#status,
-			     introduction_version: #introduction_version,
-			     name: #name,
-			     variants: &[#(#variants),*]}
+	    crate::Emoji{
+		glyph: #glyph,
+		codepoint: #codepoint,
+		status: crate::Status::#status,
+		introduction_version: #introduction_version,
+		name: #name,
+		annotations: &[#(#annotations),*],
+		variants: &[#(#variants),*],
+	    }
 	}).into()
     }
 }
@@ -165,9 +185,6 @@ impl std::fmt::Display for Status {
     }
 }
 
-// This is using the `tokio` runtime. You'll need the following dependency:
-//
-// `tokio = { version = "0.2", features = ["macros"] }`
 #[cfg(not(target_arch = "wasm32"))]
 #[tokio::main]
 async fn main() -> Result<(), reqwest::Error> {
@@ -175,15 +192,43 @@ async fn main() -> Result<(), reqwest::Error> {
     let mut version = 0.0;
     let mut groups: Vec<Group> = vec![];
     
+    let annotation_res = reqwest::get("https://raw.githubusercontent.com/unicode-org/cldr/release-38/common/annotations/en.xml").await?;
+    let annotation_text = annotation_res.text().await?;
+
+    let mut annotations: HashMap<String, String> = HashMap::new();
+
+    let parser = EventReader::from_str(&annotation_text);
+    let mut current_glyph = None;
+    for e in parser {
+        match e {
+            Ok(XmlEvent::StartElement { attributes, .. }) => {
+		if let Some(cp) = attributes.into_iter()
+		    .find(|attr| attr.name.local_name == "cp") {
+			current_glyph = Some(cp.value);
+		    }
+            }
+            Ok(XmlEvent::Characters(data)) => {
+		if let Some(glyph) = current_glyph.clone() {
+		    let insert = match annotations.get(&glyph) {
+			Some(prev_entry) => vec![data, prev_entry.to_string()].join("|"),
+			None => data,
+		    };
+		    annotations.insert(glyph, insert);
+		}
+	    }
+            Err(e) => {
+                println!("Error: {}", e);
+                break;
+            }
+            _ => {}
+        }
+    }
     
-    //let res = reqwest::get("https://unicode.org/Public/cldr/38/cldr-tools-38.0.zip").await?;
+    let emoji_test = reqwest::get("https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt").await?;
 
-    
-    let res = reqwest::get("https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt").await?;
+    let emoji_test_text = emoji_test.text().await?;
 
-    let body = res.text().await?;
-
-    for line in body.split("\n") {
+    for line in emoji_test_text.split("\n") {
 	if line.len() == 0 {
 	    continue;
 	}
@@ -217,10 +262,10 @@ async fn main() -> Result<(), reqwest::Error> {
 	}
 	let emoji_list = &mut groups.last_mut().unwrap().subgroups.last_mut()
 	    .unwrap().emojis;
-	let new_emoji = Emoji::new(line);
+	let new_emoji = Emoji::new(line, &annotations);
 	match &mut emoji_list.last_mut() {
 	    Some(old_emoji) if old_emoji.ident() == new_emoji.ident() => {
-		old_emoji.variants.push(new_emoji);
+		old_emoji.add_variant(new_emoji);
 	    },
 	    _ => {
 		emoji_list.push(new_emoji);
@@ -262,7 +307,7 @@ async fn main() -> Result<(), reqwest::Error> {
 	}
 	for s in g.subgroups {
 	    let emojis = &s.emojis;
-	    let path = format!("emoji/src/{}/emoji_subgroup_{}.rs",
+	    let path = format!("emoji/src/{}/{}.rs",
 			       sanitize(&g.name).to_lowercase(),
 			       sanitize(&s.name).to_lowercase());
 	    let pb: PathBuf = path.clone().into();
