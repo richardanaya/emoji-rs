@@ -5,9 +5,11 @@ use proc_macro2::{TokenStream, Span, Ident};
 use std::fs::File;
 use std::io::Write;
 use std::path::PathBuf;
+use unidecode::unidecode;
 
 fn sanitize(input: &String) -> String {
-    input.replace(" ", "_")
+    let ret = unidecode(&input
+	.replace(" ", "_")
 	.replace("&", "and")
 	.replace("#", "pound")
 	.replace("*", "asterisk")
@@ -28,14 +30,11 @@ fn sanitize(input: &String) -> String {
 	.replace("-","_")
 	.replace("“","_")
 	.replace("”","_")
-	.replace("!","")
-	.replace("Ñ","N")
-	.replace("Å","A")
-	.replace("É","E")
-	.replace("Ã","A")
-	.replace("Í","I")
-	.replace("Ç","C")
-	.replace("Ô","O")
+	.replace("!",""));
+    if !ret.chars().all(|c|c.is_ascii()) {
+	panic!("Non ascii ident '{}'", ret);
+    }
+    ret
 }
 
 struct Group {
@@ -53,7 +52,7 @@ impl ToTokens for Group {
 				 , Span::call_site());
 	let subgroups = &self.subgroups;
 	(quote!{
-	    mod #modname {
+	    pub mod #modname {
 		#(#subgroups)*
 	    }
 	}).to_tokens(tokens);
@@ -74,7 +73,7 @@ impl ToTokens for Subgroup {
 				 , Span::call_site());
 	let emojis = &self.emojis;
 	(quote!{
-	    mod #modname {
+	    pub mod #modname {
 		#(#emojis)*
 	    }
 	}).to_tokens(tokens);
@@ -109,6 +108,9 @@ impl Emoji {
 impl ToTokens for Emoji {
     fn to_tokens(&self, tokens: &mut TokenStream) {
 	use Status::*;
+	if self.status != FullyQualified { // temporary, will remove in full implementation
+	    return;
+	}
 	let glyph = &self.glyph;
 	let name = sanitize(&match self.status {
 	    Component | FullyQualified => self.name.clone(),
@@ -124,7 +126,7 @@ impl ToTokens for Emoji {
 	}).to_tokens(tokens);
     }
 }
-#[derive(Debug)]
+#[derive(Debug, PartialEq)]
 enum Status {
     Component,
     FullyQualified,
@@ -213,7 +215,7 @@ async fn main() -> Result<(), reqwest::Error> {
     };
 
     let pb: PathBuf = format!("{}/emoji_data.rs", std::env::var("OUT_DIR").unwrap()).into();
-    File::create(pb).unwrap().write_all(format!("{}", dump).as_bytes());
+    File::create(pb).unwrap().write_all(format!("{}", dump).as_bytes()).unwrap();
     
     Ok(())
 }
