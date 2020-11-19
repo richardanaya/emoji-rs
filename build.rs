@@ -8,7 +8,7 @@ use std::path::PathBuf;
 use unidecode::unidecode;
 
 fn sanitize(input: &String) -> String {
-    let ret = unidecode(&input
+    unidecode(&input
 	.replace(" ", "_")
 	.replace("&", "and")
 	.replace("#", "pound")
@@ -30,11 +30,7 @@ fn sanitize(input: &String) -> String {
 	.replace("-","_")
 	.replace("“","_")
 	.replace("”","_")
-	.replace("!",""));
-    if !ret.chars().all(|c|c.is_ascii()) {
-	panic!("Non ascii ident '{}'", ret);
-    }
-    ret
+	.replace("!",""))
 }
 
 struct Group {
@@ -86,6 +82,7 @@ struct Emoji {
     pub glyph: String,
     pub introduction_version: f32,
     pub name: String,
+    pub variants: Vec<Emoji>,
 }
 impl Emoji {
     pub fn new(line: &str) -> Self {
@@ -102,27 +99,35 @@ impl Emoji {
 	let introduction_version = reformed_third.split(" ").nth(0)
 	    .unwrap().parse::<f32>().unwrap();
 	let name = reformed_third.split(" ").skip(1).join(" ");
-	Self{codepoint, status, glyph, introduction_version, name}
+	Self{codepoint, status, glyph, introduction_version, name, variants: vec![]}
+    }
+    pub fn ident(&self) -> String {
+	sanitize(&self.name).to_uppercase()
+    }
+    fn tokens_internal(&self) -> TokenStream {
+	let glyph = &self.glyph;
+	let codepoint = &self.codepoint;
+	let name = &self.name;
+	let status = Ident::new(&self.status.to_string(), Span::call_site());
+	let introduction_version = self.introduction_version;
+	let variants: Vec<TokenStream> = self.variants.iter()
+	    .map(|e| e.tokens_internal()).collect();
+	(quote!{
+		crate::Emoji{glyph: #glyph,
+			     codepoint: #codepoint,
+			     status: crate::Status::#status,
+			     introduction_version: #introduction_version,
+			     name: #name,
+			     variants: &[#(#variants),*]}
+	}).into()
     }
 }
 impl ToTokens for Emoji {
     fn to_tokens(&self, tokens: &mut TokenStream) {
-	use Status::*;
-	if self.status != FullyQualified { // temporary, will remove in full implementation
-	    return;
-	}
-	let glyph = &self.glyph;
-	let name = sanitize(&match self.status {
-	    Component | FullyQualified => self.name.clone(),
-	    Unqualified => format!("{}_Unqualified", self.name),
-	    MinimallyQualified => format!("{}_MinimallyQualified", self.name),
-	}).to_uppercase();
-	if name.len() == 0 {
-	    panic!("{:?}", self);
-	}
-	let ident = Ident::new(&name, Span::call_site());
+	let ident = Ident::new(&self.ident(), Span::call_site());
+	let tokns = self.tokens_internal();
 	(quote!{
-	    pub const #ident: &'static str = #glyph;
+	    pub const #ident: crate::Emoji = #tokns ;
 	}).to_tokens(tokens);
     }
 }
@@ -143,6 +148,17 @@ impl Status {
 	    "unqualified" => Unqualified,
 	    unknown => panic!("Unknown qualifier {}", unknown),
 	}
+    }
+}
+impl std::fmt::Display for Status {
+    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+	use Status::*;
+	write!(f, "{}", match self {
+	    Component => "Component",
+	    FullyQualified => "FullyQualified",
+	    MinimallyQualified => "MinimallyQualified",
+	    Unqualified => "Unqualified",
+	})
     }
 }
 
@@ -196,8 +212,17 @@ async fn main() -> Result<(), reqwest::Error> {
 	    }
 	    continue;
 	}
-	groups.last_mut().unwrap().subgroups.last_mut().unwrap().emojis
-	    .push(Emoji::new(line));
+	let emoji_list = &mut groups.last_mut().unwrap().subgroups.last_mut()
+	    .unwrap().emojis;
+	let new_emoji = Emoji::new(line);
+	match &mut emoji_list.last_mut() {
+	    Some(old_emoji) if old_emoji.ident() == new_emoji.ident() => {
+		old_emoji.variants.push(new_emoji);
+	    },
+	    _ => {
+		emoji_list.push(new_emoji);
+	    },
+	}
     }
 
     if version == 0.0 {
