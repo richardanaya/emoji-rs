@@ -6,6 +6,7 @@ use std::fs::File;
 use std::io::Write;
 use std::path::PathBuf;
 use unidecode::unidecode;
+use std::process::Command;
 
 fn sanitize(input: &String) -> String {
     unidecode(&input
@@ -126,8 +127,10 @@ impl ToTokens for Emoji {
     fn to_tokens(&self, tokens: &mut TokenStream) {
 	let ident = Ident::new(&self.ident(), Span::call_site());
 	let tokns = self.tokens_internal();
+	let glyph = &self.glyph;
 	(quote!{
-	    pub const #ident: crate::Emoji = #tokns ;
+	    #[doc = #glyph]
+	    pub const #ident: crate::Emoji = #tokns;
 	}).to_tokens(tokens);
     }
 }
@@ -238,8 +241,14 @@ async fn main() -> Result<(), reqwest::Error> {
     };
 
     // skeleton; writes the module structure
-    let pb: PathBuf = "emoji/src/emoji_data.rs".into();
+    let path = "emoji/src/emoji_data.rs";
+    let pb: PathBuf = path.clone().into();
     File::create(pb).unwrap().write_all(format!("{}", dump).as_bytes()).unwrap();
+    Command::new("rustfmt")
+        .arg(path)
+        .output()
+        .expect("Failed to execute command");
+
 
     for g in groups {
 	let dir = format!("emoji/src/{}",
@@ -250,13 +259,18 @@ async fn main() -> Result<(), reqwest::Error> {
 	}
 	for s in g.subgroups {
 	    let emojis = &s.emojis;
-	    let pb: PathBuf = format!("emoji/src/{}/emoji_subgroup_{}.rs",
-				      sanitize(&g.name).to_lowercase(),
-				      sanitize(&s.name).to_lowercase()).into();
+	    let path = format!("emoji/src/{}/emoji_subgroup_{}.rs",
+			       sanitize(&g.name).to_lowercase(),
+			       sanitize(&s.name).to_lowercase());
+	    let pb: PathBuf = path.clone().into();
 	    let dump = quote!{
 		#(#emojis)*
 	    };
 	    File::create(pb).unwrap().write_all(format!("{}", dump).as_bytes()).unwrap();
+	    Command::new("rustfmt")
+		.arg(path)
+		.output()
+		.expect("Failed to execute command");
 	}
     }
     
