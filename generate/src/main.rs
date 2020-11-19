@@ -67,11 +67,11 @@ impl ToTokens for Subgroup {
     fn to_tokens(&self, tokens: &mut TokenStream) {
 	let modname = Ident::new(&sanitize(&self.name).to_lowercase()
 				 , Span::call_site());
-	let emojis = &self.emojis;
+	let path = format!("emoji_subgroup_{}.rs",
+		sanitize(&self.name).to_lowercase());
 	(quote!{
-	    pub mod #modname {
-		#(#emojis)*
-	    }
+	    #[path=#path]
+	    pub mod #modname;
 	}).to_tokens(tokens);
     }
 }
@@ -176,8 +176,6 @@ async fn main() -> Result<(), reqwest::Error> {
     //let res = reqwest::get("https://unicode.org/Public/cldr/38/cldr-tools-38.0.zip").await?;
     let res = reqwest::get("https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt").await?;
 
-    println!("Status: {}", res.status());
-
     let body = res.text().await?;
 
     for line in body.split("\n") {
@@ -239,8 +237,28 @@ async fn main() -> Result<(), reqwest::Error> {
 	#(#groups)*
     };
 
-    let pb: PathBuf = format!("{}/emoji_data.rs", std::env::var("OUT_DIR").unwrap()).into();
+    // skeleton; writes the module structure
+    let pb: PathBuf = "emoji/src/emoji_data.rs".into();
     File::create(pb).unwrap().write_all(format!("{}", dump).as_bytes()).unwrap();
+
+    for g in groups {
+	let dir = format!("emoji/src/{}",
+			  sanitize(&g.name).to_lowercase());
+	let pb: PathBuf = dir.clone().into();
+	if !pb.exists() {
+	    std::fs::create_dir(dir).unwrap();
+	}
+	for s in g.subgroups {
+	    let emojis = &s.emojis;
+	    let pb: PathBuf = format!("emoji/src/{}/emoji_subgroup_{}.rs",
+				      sanitize(&g.name).to_lowercase(),
+				      sanitize(&s.name).to_lowercase()).into();
+	    let dump = quote!{
+		#(#emojis)*
+	    };
+	    File::create(pb).unwrap().write_all(format!("{}", dump).as_bytes()).unwrap();
+	}
+    }
     
     Ok(())
 }

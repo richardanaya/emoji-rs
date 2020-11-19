@@ -27,4 +27,4 @@ pub struct Emoji {
     pub variants: &'static [Emoji],
 }
 
-include!(concat!(env!("OUT_DIR"), "/emoji_data.rs"));
+include!("emoji_data.rs");
