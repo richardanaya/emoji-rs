@@ -5,7 +5,24 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "mobile phone",
-    annotations: &["cell", "mobile", "mobile phone", "phone", "telephone"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("mobile phone"),
+            keywords: &["cell", "mobile", "phone", "telephone"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kännykkä"),
+            keywords: &[
+                "kännykkä",
+                "matkapuhelin",
+                "mobiili",
+                "mobiililaite",
+                "puhelin",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "📲"]
@@ -16,12 +33,30 @@ pub const MOBILE_PHONE_WITH_ARROW: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "mobile phone with arrow",
     annotations: &[
-        "arrow",
-        "cell",
-        "mobile",
-        "mobile phone with arrow",
-        "phone",
-        "receive",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("mobile phone with arrow"),
+            keywords: &[
+                "arrow",
+                "cell",
+                "mobile",
+                "mobile phone with arrow",
+                "phone",
+                "receive",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kännykkä ja nuoli"),
+            keywords: &[
+                "kännykkä ja nuoli",
+                "matkapuhelin",
+                "nuoli",
+                "puhelin",
+                "puhelu",
+                "saapuva",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -32,7 +67,18 @@ pub const TELEPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "telephone",
-    annotations: &["phone", "telephone"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("telephone"),
+            keywords: &["phone", "telephone"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("puhelin"),
+            keywords: &["lankapuhelin", "puhelin"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "☎",
         codepoint: "260E",
@@ -50,7 +96,18 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "telephone receiver",
-    annotations: &["phone", "receiver", "telephone", "telephone receiver"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("telephone receiver"),
+            keywords: &["phone", "receiver", "telephone"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("luuri"),
+            keywords: &["kuuloke", "luuri", "puhelin"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "📟"]
@@ -60,7 +117,18 @@ pub const PAGER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pager",
-    annotations: &["pager"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("pager"),
+            keywords: &["pager"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("hakulaite"),
+            keywords: &["hakulaite"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "📠"]
@@ -70,6 +138,17 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fax machine",
-    annotations: &["fax", "fax machine"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("fax machine"),
+            keywords: &["fax", "fax machine"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("faksi"),
+            keywords: &["faksi", "faksilaite"],
+        },
+    ],
     variants: &[],
 };

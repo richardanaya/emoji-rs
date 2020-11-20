@@ -5,7 +5,18 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "money bag",
-    annotations: &["bag", "dollar", "money", "money bag", "moneybag"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("money bag"),
+            keywords: &["bag", "dollar", "money", "moneybag"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("rahasäkki"),
+            keywords: &["raha", "rahapussi", "rahasäkki", "säkki"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🪙"]
@@ -15,7 +26,18 @@ pub const COIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "coin",
-    annotations: &["coin", "gold", "metal", "money", "silver", "treasure"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("coin"),
+            keywords: &["coin", "gold", "metal", "money", "silver", "treasure"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kolikko"),
+            keywords: &["aarre", "hopea", "kolikko", "kulta", "metalli", "raha"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "💴"]
@@ -26,13 +48,16 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "yen banknote",
     annotations: &[
-        "banknote",
-        "bill",
-        "currency",
-        "money",
-        "note",
-        "yen",
-        "yen banknote",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("yen banknote"),
+            keywords: &["banknote", "bill", "currency", "money", "note", "yen"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("yen-seteli"),
+            keywords: &["pankki", "raha", "seteli", "valuutta", "yen", "yen-seteli"],
+        },
     ],
     variants: &[],
 };
@@ -44,13 +69,23 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "dollar banknote",
     annotations: &[
-        "banknote",
-        "bill",
-        "currency",
-        "dollar",
-        "dollar banknote",
-        "money",
-        "note",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("dollar banknote"),
+            keywords: &["banknote", "bill", "currency", "dollar", "money", "note"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("dollariseteli"),
+            keywords: &[
+                "dollari",
+                "dollariseteli",
+                "pankki",
+                "raha",
+                "seteli",
+                "valuutta",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -62,13 +97,16 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
     introduction_version: 1f32,
     name: "euro banknote",
     annotations: &[
-        "banknote",
-        "bill",
-        "currency",
-        "euro",
-        "euro banknote",
-        "money",
-        "note",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("euro banknote"),
+            keywords: &["banknote", "bill", "currency", "euro", "money", "note"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("euroseteli"),
+            keywords: &["euro", "euroseteli", "pankki", "raha", "seteli", "valuutta"],
+        },
     ],
     variants: &[],
 };
@@ -80,13 +118,23 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
     introduction_version: 1f32,
     name: "pound banknote",
     annotations: &[
-        "banknote",
-        "bill",
-        "currency",
-        "money",
-        "note",
-        "pound",
-        "pound banknote",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("pound banknote"),
+            keywords: &["banknote", "bill", "currency", "money", "note", "pound"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("puntaseteli"),
+            keywords: &[
+                "pankki",
+                "punta",
+                "puntaseteli",
+                "raha",
+                "seteli",
+                "valuutta",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -98,12 +146,30 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "money with wings",
     annotations: &[
-        "banknote",
-        "bill",
-        "fly",
-        "money",
-        "money with wings",
-        "wings",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("money with wings"),
+            keywords: &[
+                "banknote",
+                "bill",
+                "fly",
+                "money",
+                "money with wings",
+                "wings",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("rahalla on siivet"),
+            keywords: &[
+                "pankki",
+                "raha",
+                "rahalla on siivet",
+                "seteli",
+                "siivet",
+                "valuutta",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -114,7 +180,18 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "credit card",
-    annotations: &["card", "credit", "credit card", "money"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("credit card"),
+            keywords: &["card", "credit", "money"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("luottokortti"),
+            keywords: &["kortti", "luotto", "luottokortti", "pankki", "raha"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧾"]
@@ -124,7 +201,25 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "receipt",
-    annotations: &["accounting", "bookkeeping", "evidence", "proof", "receipt"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("receipt"),
+            keywords: &["accounting", "bookkeeping", "evidence", "proof", "receipt"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kuitti"),
+            keywords: &[
+                "kirjanpito",
+                "kuitti",
+                "kulut",
+                "tilinpito",
+                "todistus",
+                "tosite",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "💹"]
@@ -135,12 +230,33 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "chart increasing with yen",
     annotations: &[
-        "chart",
-        "chart increasing with yen",
-        "graph",
-        "growth",
-        "money",
-        "yen",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("chart increasing with yen"),
+            keywords: &[
+                "chart",
+                "chart increasing with yen",
+                "graph",
+                "growth",
+                "money",
+                "yen",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("yen ja nouseva käyrä"),
+            keywords: &[
+                "kasvu",
+                "käyrä",
+                "markkinat",
+                "nousu",
+                "pankki",
+                "raha",
+                "valuutta",
+                "yen",
+                "yen ja nouseva käyrä",
+            ],
+        },
     ],
     variants: &[],
 };

@@ -5,7 +5,18 @@ pub const CHEQUERED_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "chequered flag",
-    annotations: &["checkered", "chequered", "chequered flag", "racing"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("chequered flag"),
+            keywords: &["checkered", "chequered", "chequered flag", "racing"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ruutulippu"),
+            keywords: &["kilpa-ajot", "ruutukuvio", "ruutulippu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🚩"]
@@ -15,7 +26,18 @@ pub const TRIANGULAR_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "triangular flag",
-    annotations: &["post", "triangular flag"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("triangular flag"),
+            keywords: &["post", "triangular flag"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kolmiolippu"),
+            keywords: &["kolmiolippu", "lippu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🎌"]
@@ -26,11 +48,22 @@ pub const CROSSED_FLAGS: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "crossed flags",
     annotations: &[
-        "Japanese",
-        "celebration",
-        "cross",
-        "crossed",
-        "crossed flags",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("crossed flags"),
+            keywords: &[
+                "Japanese",
+                "celebration",
+                "cross",
+                "crossed",
+                "crossed flags",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("liput ristissä"),
+            keywords: &["Japani", "juhla", "liput ristissä", "ristityt"],
+        },
     ],
     variants: &[],
 };
@@ -41,7 +74,18 @@ pub const BLACK_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "black flag",
-    annotations: &["black flag", "waving"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("black flag"),
+            keywords: &["black flag", "waving"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("musta lippu"),
+            keywords: &["liehuva", "lippu", "musta"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🏳\u{fe0f}"]
@@ -51,7 +95,18 @@ pub const WHITE_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "white flag",
-    annotations: &["waving", "white flag"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("white flag"),
+            keywords: &["waving", "white flag"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("valkoinen lippu"),
+            keywords: &["liehuva", "lippu", "valkoinen"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🏳",
         codepoint: "1F3F3",
@@ -69,7 +124,18 @@ pub const RAINBOW_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "rainbow flag",
-    annotations: &["pride", "rainbow", "rainbow flag"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("rainbow flag"),
+            keywords: &["pride", "rainbow", "rainbow flag"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("sateenkaarilippu"),
+            keywords: &["liehuva", "lippu", "sateenkaari", "sateenkaarilippu"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🏳\u{200d}🌈",
         codepoint: "1F3F3 200D 1F308",
@@ -88,12 +154,16 @@ pub const TRANSGENDER_FLAG: crate::Emoji = crate::Emoji {
     introduction_version: 13f32,
     name: "transgender flag",
     annotations: &[
-        "flag",
-        "light blue",
-        "pink",
-        "transgender",
-        "transgender flag",
-        "white",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("transgender flag"),
+            keywords: &["flag", "light blue", "pink", "transgender", "white"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("translippu"),
+            keywords: &["lippu", "trans", "translippu", "transsukupuolinen"],
+        },
     ],
     variants: &[
         crate::Emoji {
@@ -133,11 +203,29 @@ pub const PIRATE_FLAG: crate::Emoji = crate::Emoji {
     introduction_version: 11f32,
     name: "pirate flag",
     annotations: &[
-        "Jolly Roger",
-        "pirate",
-        "pirate flag",
-        "plunder",
-        "treasure",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("pirate flag"),
+            keywords: &[
+                "Jolly Roger",
+                "pirate",
+                "pirate flag",
+                "plunder",
+                "treasure",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("merirosvolippu"),
+            keywords: &[
+                "aarre",
+                "lippu",
+                "merirosvolippu",
+                "pääkallolippu",
+                "rosvous",
+                "ryöstö",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🏴\u{200d}☠",

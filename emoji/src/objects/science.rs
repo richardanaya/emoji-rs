@@ -5,7 +5,18 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "alembic",
-    annotations: &["alembic", "chemistry", "tool"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("alembic"),
+            keywords: &["alembic", "chemistry", "tool"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("tislauskolvi"),
+            keywords: &["kemia", "tislauskolvi", "työkalu"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "⚗",
         codepoint: "2697",
@@ -24,12 +35,30 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
     introduction_version: 11f32,
     name: "test tube",
     annotations: &[
-        "chemist",
-        "chemistry",
-        "experiment",
-        "lab",
-        "science",
-        "test tube",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("test tube"),
+            keywords: &[
+                "chemist",
+                "chemistry",
+                "experiment",
+                "lab",
+                "science",
+                "test tube",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("koeputki"),
+            keywords: &[
+                "kemia",
+                "kemisti",
+                "koe",
+                "koeputki",
+                "laboratorio",
+                "tiede",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -41,12 +70,30 @@ pub const PETRI_DISH: crate::Emoji = crate::Emoji {
     introduction_version: 11f32,
     name: "petri dish",
     annotations: &[
-        "bacteria",
-        "biologist",
-        "biology",
-        "culture",
-        "lab",
-        "petri dish",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("petri dish"),
+            keywords: &[
+                "bacteria",
+                "biologist",
+                "biology",
+                "culture",
+                "lab",
+                "petri dish",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("petrimalja"),
+            keywords: &[
+                "bakteerikasvusto",
+                "bakteerit",
+                "biologi",
+                "laboratorio",
+                "petrimalja",
+                "viljely",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -57,7 +104,25 @@ pub const DNA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "dna",
-    annotations: &["biologist", "dna", "evolution", "gene", "genetics", "life"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("dna"),
+            keywords: &["biologist", "dna", "evolution", "gene", "genetics", "life"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("dna"),
+            keywords: &[
+                "biologi",
+                "dna",
+                "evoluutio",
+                "geeni",
+                "genetiikka",
+                "perimä",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🔬"]
@@ -67,7 +132,18 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "microscope",
-    annotations: &["microscope", "science", "tool"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("microscope"),
+            keywords: &["microscope", "science", "tool"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mikroskooppi"),
+            keywords: &["mikroskooppi", "työkalu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🔭"]
@@ -77,7 +153,18 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "telescope",
-    annotations: &["science", "telescope", "tool"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("telescope"),
+            keywords: &["science", "telescope", "tool"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kaukoputki"),
+            keywords: &["kaukoputki", "teleskooppi", "työkalu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "📡"]
@@ -87,6 +174,17 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "satellite antenna",
-    annotations: &["antenna", "dish", "satellite", "satellite antenna"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("satellite antenna"),
+            keywords: &["antenna", "dish", "satellite"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("lautasantenni"),
+            keywords: &["antenni", "lautanen", "lautasantenni", "satelliittiantenni"],
+        },
+    ],
     variants: &[],
 };

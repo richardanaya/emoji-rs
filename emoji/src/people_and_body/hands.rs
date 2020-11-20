@@ -5,7 +5,18 @@ pub const CLAPPING_HANDS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "clapping hands",
-    annotations: &["clap", "clapping hands", "hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("clapping hands"),
+            keywords: &["clap", "clapping hands", "hand"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("käsien taputus"),
+            keywords: &["käsi", "käsien taputus", "taputtaa", "vartalo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👏🏻"]
@@ -66,12 +77,31 @@ pub const RAISING_HANDS: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "raising hands",
     annotations: &[
-        "celebration",
-        "gesture",
-        "hand",
-        "hooray",
-        "raised",
-        "raising hands",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("raising hands"),
+            keywords: &[
+                "celebration",
+                "gesture",
+                "hand",
+                "hooray",
+                "raised",
+                "raising hands",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nousevat kädet"),
+            keywords: &[
+                "ele",
+                "hurraa",
+                "juhla",
+                "käsi",
+                "nostettu",
+                "nousevat kädet",
+                "vartalo",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -132,7 +162,18 @@ pub const OPEN_HANDS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "open hands",
-    annotations: &["hand", "open", "open hands"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("open hands"),
+            keywords: &["hand", "open", "open hands"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("avoimet kädet"),
+            keywords: &["avoimet kädet", "avoin", "käsi", "vartalo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👐🏻"]
@@ -192,7 +233,18 @@ pub const PALMS_UP_TOGETHER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "palms up together",
-    annotations: &["palms up together", "prayer"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("palms up together"),
+            keywords: &["palms up together", "prayer"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kämmenet vierekkäin"),
+            keywords: &["anelu", "kämmenet vierekkäin"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤲🏻"]
@@ -252,7 +304,18 @@ pub const HANDSHAKE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "handshake",
-    annotations: &["agreement", "hand", "handshake", "meeting", "shake"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("handshake"),
+            keywords: &["agreement", "hand", "handshake", "meeting", "shake"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kädenpuristus"),
+            keywords: &["kädenpuristus", "käsi", "kätellä", "sopimus", "tapaaminen"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🙏"]
@@ -263,14 +326,33 @@ pub const FOLDED_HANDS: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "folded hands",
     annotations: &[
-        "ask",
-        "folded hands",
-        "hand",
-        "high 5",
-        "high five",
-        "please",
-        "pray",
-        "thanks",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("folded hands"),
+            keywords: &[
+                "ask",
+                "folded hands",
+                "hand",
+                "high 5",
+                "high five",
+                "please",
+                "pray",
+                "thanks",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kämmenet yhdessä"),
+            keywords: &[
+                "kiitos",
+                "kumarrus",
+                "kämmenet yhdessä",
+                "pliis",
+                "pyyntö",
+                "rukous",
+                "yläfemma",
+            ],
+        },
     ],
     variants: &[],
 };

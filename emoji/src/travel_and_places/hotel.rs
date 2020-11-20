@@ -5,7 +5,18 @@ pub const BELLHOP_BELL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "bellhop bell",
-    annotations: &["bell", "bellhop", "bellhop bell", "hotel"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("bellhop bell"),
+            keywords: &["bell", "bellhop", "hotel"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("soittokello"),
+            keywords: &["hotelli", "hotellipoika", "kello", "soittokello"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🛎",
         codepoint: "1F6CE",
@@ -23,6 +34,23 @@ pub const LUGGAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "luggage",
-    annotations: &["luggage", "packing", "travel"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("luggage"),
+            keywords: &["luggage", "packing", "travel"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("matkatavara"),
+            keywords: &[
+                "matka",
+                "matkalaukku",
+                "matkatavara",
+                "matkustus",
+                "pakkaaminen",
+            ],
+        },
+    ],
     variants: &[],
 };

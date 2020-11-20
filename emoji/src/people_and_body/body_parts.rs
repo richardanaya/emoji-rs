@@ -5,7 +5,25 @@ pub const FLEXED_BICEPS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "flexed biceps",
-    annotations: &["biceps", "comic", "flex", "flexed biceps", "muscle"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("flexed biceps"),
+            keywords: &["biceps", "comic", "flex", "flexed biceps", "muscle"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pullistettu hauis"),
+            keywords: &[
+                "hauis",
+                "lihas",
+                "pullistaa",
+                "pullistettu hauis",
+                "sarjakuva",
+                "vartalo",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "💪🏻"]
@@ -65,7 +83,18 @@ pub const MECHANICAL_ARM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "mechanical arm",
-    annotations: &["accessibility", "mechanical arm", "prosthetic"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("mechanical arm"),
+            keywords: &["accessibility", "mechanical arm", "prosthetic"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("tekokäsi"),
+            keywords: &["esteettömyys", "tekokäsi"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🦿"]
@@ -75,7 +104,18 @@ pub const MECHANICAL_LEG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "mechanical leg",
-    annotations: &["accessibility", "mechanical leg", "prosthetic"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("mechanical leg"),
+            keywords: &["accessibility", "mechanical leg", "prosthetic"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("tekojalka"),
+            keywords: &["esteettömyys", "tekojalka"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🦵"]
@@ -85,7 +125,18 @@ pub const LEG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "leg",
-    annotations: &["kick", "leg", "limb"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("leg"),
+            keywords: &["kick", "leg", "limb"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("jalka"),
+            keywords: &["alaraaja", "jalka", "potkaista", "potku", "raaja"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🦵🏻"]
@@ -145,7 +196,18 @@ pub const FOOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "foot",
-    annotations: &["foot", "kick", "stomp"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("foot"),
+            keywords: &["foot", "kick", "stomp"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("jalkaterä"),
+            keywords: &["jalkaterä", "potkaista", "potku", "tallata", "töminä"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🦶🏻"]
@@ -205,7 +267,18 @@ pub const EAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ear",
-    annotations: &["body", "ear"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("ear"),
+            keywords: &["body", "ear"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("korva"),
+            keywords: &["korva", "pää", "vartalo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👂🏻"]
@@ -265,7 +338,24 @@ pub const EAR_WITH_HEARING_AID: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "ear with hearing aid",
-    annotations: &["accessibility", "ear with hearing aid", "hard of hearing"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("ear with hearing aid"),
+            keywords: &["accessibility", "ear with hearing aid", "hard of hearing"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kuulolaite korvassa"),
+            keywords: &[
+                "esteettömyys",
+                "huonokuuloinen",
+                "kuulolaite",
+                "kuulolaite korvassa",
+                "kuulonalenema",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🦻🏻"]
@@ -325,7 +415,18 @@ pub const NOSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "nose",
-    annotations: &["body", "nose"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("nose"),
+            keywords: &["body", "nose"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nenä"),
+            keywords: &["haju", "nenä", "pää", "tuoksu", "vartalo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👃🏻"]
@@ -385,7 +486,18 @@ pub const BRAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "brain",
-    annotations: &["brain", "intelligent"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("brain"),
+            keywords: &["brain", "intelligent"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("aivot"),
+            keywords: &["aivot", "pää", "vartalo", "viisas", "äly"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🫀"]
@@ -396,12 +508,23 @@ pub const ANATOMICAL_HEART: crate::Emoji = crate::Emoji {
     introduction_version: 13f32,
     name: "anatomical heart",
     annotations: &[
-        "anatomical",
-        "anatomical heart",
-        "cardiology",
-        "heart",
-        "organ",
-        "pulse",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("anatomical heart"),
+            keywords: &["anatomical", "cardiology", "heart", "organ", "pulse"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("sydän"),
+            keywords: &[
+                "elin",
+                "kardiologia",
+                "pulssi",
+                "sydän",
+                "syke",
+                "verenkierto",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -413,12 +536,23 @@ pub const LUNGS: crate::Emoji = crate::Emoji {
     introduction_version: 13f32,
     name: "lungs",
     annotations: &[
-        "breath",
-        "exhalation",
-        "inhalation",
-        "lungs",
-        "organ",
-        "respiration",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("lungs"),
+            keywords: &[
+                "breath",
+                "exhalation",
+                "inhalation",
+                "lungs",
+                "organ",
+                "respiration",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("keuhkot"),
+            keywords: &["elin", "hengitys", "henkäisy", "keuhkot"],
+        },
     ],
     variants: &[],
 };
@@ -429,7 +563,18 @@ pub const TOOTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "tooth",
-    annotations: &["dentist", "tooth"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("tooth"),
+            keywords: &["dentist", "tooth"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("hammas"),
+            keywords: &["hammas", "hammaslääkäri", "hampaisto"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🦴"]
@@ -439,7 +584,18 @@ pub const BONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "bone",
-    annotations: &["bone", "skeleton"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("bone"),
+            keywords: &["bone", "skeleton"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("luu"),
+            keywords: &["luu", "luuranko", "luusto"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👀"]
@@ -449,7 +605,18 @@ pub const EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "eyes",
-    annotations: &["eye", "eyes", "face"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("eyes"),
+            keywords: &["eye", "eyes", "face"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("silmät"),
+            keywords: &["naama", "silmä", "silmät", "vartalo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👁\u{fe0f}"]
@@ -459,7 +626,18 @@ pub const EYE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "eye",
-    annotations: &["body", "eye"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("eye"),
+            keywords: &["body", "eye"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("silmä"),
+            keywords: &["pää", "silmä", "vartalo"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "👁",
         codepoint: "1F441",
@@ -477,7 +655,18 @@ pub const TONGUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tongue",
-    annotations: &["body", "tongue"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("tongue"),
+            keywords: &["body", "tongue"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kieli"),
+            keywords: &["kieli", "pää", "suu", "uhma", "vartalo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👄"]
@@ -487,6 +676,17 @@ pub const MOUTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "mouth",
-    annotations: &["lips", "mouth"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("mouth"),
+            keywords: &["lips", "mouth"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("suu"),
+            keywords: &["huulet", "pää", "suu", "vartalo"],
+        },
+    ],
     variants: &[],
 };

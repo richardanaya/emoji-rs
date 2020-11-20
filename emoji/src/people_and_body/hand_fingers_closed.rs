@@ -5,7 +5,18 @@ pub const THUMBS_UP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "thumbs up",
-    annotations: &["+1", "hand", "thumb", "thumbs up", "up"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("thumbs up"),
+            keywords: &["+1", "hand", "thumb", "thumbs up", "up"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("peukalo ylös"),
+            keywords: &["+1", "käsi", "peukalo", "vartalo", "ylös"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👍🏻"]
@@ -65,7 +76,18 @@ pub const THUMBS_DOWN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "thumbs down",
-    annotations: &["-1", "down", "hand", "thumb", "thumbs down"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("thumbs down"),
+            keywords: &["-1", "down", "hand", "thumb", "thumbs down"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("peukalo alas"),
+            keywords: &["-1", "alas", "käsi", "peukalo", "vartalo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👎🏻"]
@@ -125,7 +147,25 @@ pub const RAISED_FIST: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "raised fist",
-    annotations: &["clenched", "fist", "hand", "punch", "raised fist"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("raised fist"),
+            keywords: &["clenched", "fist", "hand", "punch", "raised fist"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nostettu nyrkki"),
+            keywords: &[
+                "isku",
+                "käsi",
+                "nostettu nyrkki",
+                "nyrkki",
+                "puristettu",
+                "vartalo",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "✊🏻"]
@@ -185,7 +225,25 @@ pub const ONCOMING_FIST: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "oncoming fist",
-    annotations: &["clenched", "fist", "hand", "oncoming fist", "punch"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("oncoming fist"),
+            keywords: &["clenched", "fist", "hand", "oncoming fist", "punch"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kohti tuleva nyrkki"),
+            keywords: &[
+                "isku",
+                "kohti tuleva nyrkki",
+                "käsi",
+                "nyrkki",
+                "puristettu",
+                "vartalo",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👊🏻"]
@@ -245,7 +303,18 @@ pub const LEFT_FACING_FIST: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "left-facing fist",
-    annotations: &["fist", "left-facing fist", "leftwards"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("left-facing fist"),
+            keywords: &["fist", "left-facing fist", "leftwards"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nyrkki vasemmalle"),
+            keywords: &["nyrkki", "nyrkki vasemmalle", "vasen"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤛🏻"]
@@ -305,7 +374,18 @@ pub const RIGHT_FACING_FIST: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "right-facing fist",
-    annotations: &["fist", "right-facing fist", "rightwards"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("right-facing fist"),
+            keywords: &["fist", "right-facing fist", "rightwards"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nyrkki oikealle"),
+            keywords: &["nyrkki", "nyrkki oikealle", "oikea"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤜🏻"]

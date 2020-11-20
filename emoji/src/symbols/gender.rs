@@ -5,7 +5,18 @@ pub const FEMALE_SIGN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "female sign",
-    annotations: &["female sign", "woman"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("female sign"),
+            keywords: &["female sign", "woman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("Venus-symboli"),
+            keywords: &["Venus-symboli", "naissymboli"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "♀",
         codepoint: "2640",
@@ -23,7 +34,18 @@ pub const MALE_SIGN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "male sign",
-    annotations: &["male sign", "man"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("male sign"),
+            keywords: &["male sign", "man"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("Mars-symboli"),
+            keywords: &["Mars-symboli", "miessymboli"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "♂",
         codepoint: "2642",
@@ -41,7 +63,18 @@ pub const TRANSGENDER_SYMBOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "transgender symbol",
-    annotations: &["transgender", "transgender symbol"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("transgender symbol"),
+            keywords: &["transgender", "transgender symbol"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("transsymboli"),
+            keywords: &["trans", "transsukupuolinen", "transsymboli"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "⚧",
         codepoint: "26A7",

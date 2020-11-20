@@ -5,7 +5,18 @@ pub const BABY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "baby",
-    annotations: &["baby", "young"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("baby"),
+            keywords: &["baby", "young"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vauva"),
+            keywords: &["lapsi", "nuori", "vauva"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👶🏻"]
@@ -65,7 +76,18 @@ pub const CHILD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "child",
-    annotations: &["child", "gender-neutral", "unspecified gender", "young"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("child"),
+            keywords: &["child", "gender-neutral", "unspecified gender", "young"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("lapsi"),
+            keywords: &["lapsi", "lapsuus", "nuori", "sukupuolineutraali"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧒🏻"]
@@ -125,7 +147,18 @@ pub const BOY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "boy",
-    annotations: &["boy", "young"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("boy"),
+            keywords: &["boy", "young"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("poika"),
+            keywords: &["miespuolinen", "nuori", "poika"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👦🏻"]
@@ -185,7 +218,26 @@ pub const GIRL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "girl",
-    annotations: &["Virgo", "girl", "young", "zodiac"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("girl"),
+            keywords: &["Virgo", "girl", "young", "zodiac"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("tyttö"),
+            keywords: &[
+                "horoskooppi",
+                "horoskooppimerkki",
+                "neiti",
+                "neito",
+                "neitsyt",
+                "nuori",
+                "tyttö",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👧🏻"]
@@ -245,7 +297,25 @@ pub const PERSON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "person",
-    annotations: &["adult", "gender-neutral", "person", "unspecified gender"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person"),
+            keywords: &["adult", "gender-neutral", "person", "unspecified gender"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("aikuinen"),
+            keywords: &[
+                "aikaihminen",
+                "aikuinen",
+                "aikuisuus",
+                "keski-ikäinen",
+                "sukupuolineutraali",
+                "täysikasvuinen",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧑🏻"]
@@ -305,7 +375,24 @@ pub const PERSON_BLOND_HAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "person: blond hair",
-    annotations: &["blond", "blond-haired person", "hair", "person: blond hair"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person: blond hair"),
+            keywords: &["blond", "blond-haired person", "hair", "person: blond hair"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vaaleatukkainen henkilö"),
+            keywords: &[
+                "blondi",
+                "hiukset",
+                "vaalea",
+                "vaaleahiuksinen henkilö",
+                "vaaleatukkainen henkilö",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👱🏻"]
@@ -365,7 +452,18 @@ pub const MAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "man",
-    annotations: &["adult", "man"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man"),
+            keywords: &["adult", "man"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mies"),
+            keywords: &["mies", "miespuolinen"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👨🏻"]
@@ -425,7 +523,25 @@ pub const PERSON_BEARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "person: beard",
-    annotations: &["beard", "person", "person: beard"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person: beard"),
+            keywords: &["beard", "person", "person: beard"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("parrakas henkilö"),
+            keywords: &[
+                "karvainen",
+                "parrakas henkilö",
+                "parta",
+                "pulisongit",
+                "sänki",
+                "viikset",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧔🏻"]
@@ -485,7 +601,18 @@ pub const MAN_BEARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13.1f32,
     name: "man: beard",
-    annotations: &["beard", "man", "man: beard"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man: beard"),
+            keywords: &["beard", "man", "man: beard"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("parrakas mies"),
+            keywords: &["mies", "parrakas mies", "parta"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧔\u{200d}♂",
         codepoint: "1F9D4 200D 2642",
@@ -593,7 +720,18 @@ pub const WOMAN_BEARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13.1f32,
     name: "woman: beard",
-    annotations: &["beard", "woman", "woman: beard"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman: beard"),
+            keywords: &["beard", "woman", "woman: beard"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("parrakas nainen"),
+            keywords: &["nainen", "parrakas nainen", "parta"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧔\u{200d}♀",
         codepoint: "1F9D4 200D 2640",
@@ -941,7 +1079,18 @@ pub const WOMAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "woman",
-    annotations: &["adult", "woman"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman"),
+            keywords: &["adult", "woman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nainen"),
+            keywords: &["nainen", "naispuolinen"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👩🏻"]
@@ -1482,11 +1631,29 @@ pub const WOMAN_BLOND_HAIR: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "woman: blond hair",
     annotations: &[
-        "blond-haired woman",
-        "blonde",
-        "hair",
-        "woman",
-        "woman: blond hair",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman: blond hair"),
+            keywords: &[
+                "blond-haired woman",
+                "blonde",
+                "hair",
+                "woman",
+                "woman: blond hair",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vaaleatukkainen nainen"),
+            keywords: &[
+                "blondi",
+                "hiukset",
+                "nainen",
+                "vaalea",
+                "vaaleahiuksinen nainen",
+                "vaaleatukkainen nainen",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "👱\u{200d}♀",
@@ -1596,11 +1763,29 @@ pub const MAN_BLOND_HAIR: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "man: blond hair",
     annotations: &[
-        "blond",
-        "blond-haired man",
-        "hair",
-        "man",
-        "man: blond hair",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man: blond hair"),
+            keywords: &[
+                "blond",
+                "blond-haired man",
+                "hair",
+                "man",
+                "man: blond hair",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vaaleatukkainen mies"),
+            keywords: &[
+                "blondi",
+                "hiukset",
+                "mies",
+                "vaalea",
+                "vaaleahiuksinen mies",
+                "vaaleatukkainen mies",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "👱\u{200d}♂",
@@ -1710,11 +1895,28 @@ pub const OLDER_PERSON: crate::Emoji = crate::Emoji {
     introduction_version: 5f32,
     name: "older person",
     annotations: &[
-        "adult",
-        "gender-neutral",
-        "old",
-        "older person",
-        "unspecified gender",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("older person"),
+            keywords: &[
+                "adult",
+                "gender-neutral",
+                "old",
+                "older person",
+                "unspecified gender",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vanhus"),
+            keywords: &[
+                "ikäihminen",
+                "seniori",
+                "sukupuolineutraali",
+                "vanha",
+                "vanhus",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -1775,7 +1977,18 @@ pub const OLD_MAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "old man",
-    annotations: &["adult", "man", "old", "old man"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("old man"),
+            keywords: &["adult", "man", "old"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vanha mies"),
+            keywords: &["mies", "vanha"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👴🏻"]
@@ -1835,7 +2048,18 @@ pub const OLD_WOMAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "old woman",
-    annotations: &["adult", "old", "old woman", "woman"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("old woman"),
+            keywords: &["adult", "old", "woman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vanha nainen"),
+            keywords: &["nainen", "vanha"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👵🏻"]

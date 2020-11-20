@@ -5,7 +5,18 @@ pub const BATTERY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "battery",
-    annotations: &["battery"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("battery"),
+            keywords: &["battery"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("akku"),
+            keywords: &["akku", "akkuvirta", "paristo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🔌"]
@@ -15,7 +26,24 @@ pub const ELECTRIC_PLUG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "electric plug",
-    annotations: &["electric", "electric plug", "electricity", "plug"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("electric plug"),
+            keywords: &["electric", "electricity", "plug"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pistoke"),
+            keywords: &[
+                "pistoke",
+                "sähkö",
+                "sähköpistoke",
+                "sähkötöpseli",
+                "töpseli",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "💻"]
@@ -25,7 +53,18 @@ pub const LAPTOP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "laptop",
-    annotations: &["computer", "laptop", "pc", "personal"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("laptop"),
+            keywords: &["computer", "laptop", "pc", "personal"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kannettava tietokone"),
+            keywords: &["kannetava", "kannettava tietokone", "läppäri", "tietokone"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🖥\u{fe0f}"]
@@ -35,7 +74,18 @@ pub const DESKTOP_COMPUTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "desktop computer",
-    annotations: &["computer", "desktop", "desktop computer"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("desktop computer"),
+            keywords: &["computer", "desktop"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pöytäkone"),
+            keywords: &["pöytäkone", "tietokone"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🖥",
         codepoint: "1F5A5",
@@ -53,7 +103,18 @@ pub const PRINTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "printer",
-    annotations: &["computer", "printer"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("printer"),
+            keywords: &["computer", "printer"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("tulostin"),
+            keywords: &["printteri", "tietokone", "tulostin"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🖨",
         codepoint: "1F5A8",
@@ -71,7 +132,18 @@ pub const KEYBOARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "keyboard",
-    annotations: &["computer", "keyboard"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("keyboard"),
+            keywords: &["computer", "keyboard"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("näppäimistö"),
+            keywords: &["näppis", "näppäimet", "näppäimistö", "tietokone"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "⌨",
         codepoint: "2328",
@@ -89,7 +161,18 @@ pub const COMPUTER_MOUSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "computer mouse",
-    annotations: &["computer", "computer mouse"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("computer mouse"),
+            keywords: &["computer", "computer mouse"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("tietokoneen hiiri"),
+            keywords: &["hiiri", "tietokone", "tietokoneen hiiri"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🖱",
         codepoint: "1F5B1",
@@ -107,7 +190,18 @@ pub const TRACKBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "trackball",
-    annotations: &["computer", "trackball"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("trackball"),
+            keywords: &["computer", "trackball"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ohjauspallo"),
+            keywords: &["hiiri", "ohjauspallo", "tietokone"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🖲",
         codepoint: "1F5B2",
@@ -125,7 +219,18 @@ pub const COMPUTER_DISK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "computer disk",
-    annotations: &["computer", "computer disk", "disk", "minidisk", "optical"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("computer disk"),
+            keywords: &["computer", "disk", "minidisk", "optical"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("minidisk"),
+            keywords: &["levy", "minidisc", "minidisk", "tietokone"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "💾"]
@@ -135,7 +240,18 @@ pub const FLOPPY_DISK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "floppy disk",
-    annotations: &["computer", "disk", "floppy", "floppy disk"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("floppy disk"),
+            keywords: &["computer", "disk", "floppy"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("disketti"),
+            keywords: &["disketti", "korppu", "levyke", "tietokone"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "💿"]
@@ -145,7 +261,18 @@ pub const OPTICAL_DISK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "optical disk",
-    annotations: &["cd", "computer", "disk", "optical", "optical disk"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("optical disk"),
+            keywords: &["cd", "computer", "disk", "optical"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("CD"),
+            keywords: &["CD", "blu-ray", "dvd", "levy", "tietokone"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "📀"]
@@ -155,7 +282,18 @@ pub const DVD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dvd",
-    annotations: &["blu-ray", "computer", "disk", "dvd", "optical"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("dvd"),
+            keywords: &["blu-ray", "computer", "disk", "dvd", "optical"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("DVD"),
+            keywords: &["DVD", "blu-ray", "cd", "levy", "tietokone"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧮"]
@@ -165,6 +303,17 @@ pub const ABACUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "abacus",
-    annotations: &["abacus", "calculation"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("abacus"),
+            keywords: &["abacus", "calculation"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("helmitaulu"),
+            keywords: &["helmitaulu", "laskeminen"],
+        },
+    ],
     variants: &[],
 };

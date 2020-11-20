@@ -5,7 +5,18 @@ pub const FOUNTAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fountain",
-    annotations: &["fountain"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("fountain"),
+            keywords: &["fountain"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("suihkulähde"),
+            keywords: &["suihku", "suihkulähde", "vesi"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "⛺"]
@@ -15,7 +26,18 @@ pub const TENT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tent",
-    annotations: &["camping", "tent"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("tent"),
+            keywords: &["camping", "tent"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("teltta"),
+            keywords: &["leirintä", "teltta", "telttailu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🌁"]
@@ -25,7 +47,18 @@ pub const FOGGY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "foggy",
-    annotations: &["fog", "foggy"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("foggy"),
+            keywords: &["fog", "foggy"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("sumuinen"),
+            keywords: &["sumu", "sumuinen", "sää"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🌃"]
@@ -35,7 +68,18 @@ pub const NIGHT_WITH_STARS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "night with stars",
-    annotations: &["night", "night with stars", "star"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("night with stars"),
+            keywords: &["night", "night with stars", "star"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("tähtitaivas"),
+            keywords: &["sää", "tähti", "tähtitaivas", "yö"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🏙\u{fe0f}"]
@@ -45,7 +89,18 @@ pub const CITYSCAPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "cityscape",
-    annotations: &["city", "cityscape"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("cityscape"),
+            keywords: &["city", "cityscape"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kaupunkimaisema"),
+            keywords: &["kaupunki", "kaupunkimaisema", "rakennus"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🏙",
         codepoint: "1F3D9",
@@ -64,11 +119,22 @@ pub const SUNRISE_OVER_MOUNTAINS: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "sunrise over mountains",
     annotations: &[
-        "morning",
-        "mountain",
-        "sun",
-        "sunrise",
-        "sunrise over mountains",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("sunrise over mountains"),
+            keywords: &[
+                "morning",
+                "mountain",
+                "sun",
+                "sunrise",
+                "sunrise over mountains",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("auringonnousu vuorten takaa"),
+            keywords: &["aamu", "auringonnousu vuorten takaa", "aurinko", "sää"],
+        },
     ],
     variants: &[],
 };
@@ -79,7 +145,18 @@ pub const SUNRISE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sunrise",
-    annotations: &["morning", "sun", "sunrise"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("sunrise"),
+            keywords: &["morning", "sun", "sunrise"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("auringonnousu"),
+            keywords: &["aamu", "auringonnousu", "aurinko", "sää"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🌆"]
@@ -90,12 +167,29 @@ pub const CITYSCAPE_AT_DUSK: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "cityscape at dusk",
     annotations: &[
-        "city",
-        "cityscape at dusk",
-        "dusk",
-        "evening",
-        "landscape",
-        "sunset",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("cityscape at dusk"),
+            keywords: &[
+                "city",
+                "cityscape at dusk",
+                "dusk",
+                "evening",
+                "landscape",
+                "sunset",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kaupunkimaisema illanhämärässä"),
+            keywords: &[
+                "aurinko",
+                "ilta",
+                "kaupunki",
+                "kaupunkimaisema illanhämärässä",
+                "sää",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -106,7 +200,18 @@ pub const SUNSET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sunset",
-    annotations: &["dusk", "sun", "sunset"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("sunset"),
+            keywords: &["dusk", "sun", "sunset"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("auringonlasku"),
+            keywords: &["auringonlasku", "aurinko", "ilta", "sää"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🌉"]
@@ -116,7 +221,18 @@ pub const BRIDGE_AT_NIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bridge at night",
-    annotations: &["bridge", "bridge at night", "night"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("bridge at night"),
+            keywords: &["bridge", "bridge at night", "night"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("silta yöllä"),
+            keywords: &["silta", "silta yöllä", "sää", "yö"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "♨\u{fe0f}"]
@@ -126,7 +242,18 @@ pub const HOT_SPRINGS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hot springs",
-    annotations: &["hot", "hot springs", "hotsprings", "springs", "steaming"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("hot springs"),
+            keywords: &["hot", "hotsprings", "springs", "steaming"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kuumat lähteet"),
+            keywords: &["kuumat lähteet", "kylpylä", "lähde", "vesi"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "♨",
         codepoint: "2668",
@@ -144,7 +271,18 @@ pub const CAROUSEL_HORSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "carousel horse",
-    annotations: &["carousel", "carousel horse", "horse"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("carousel horse"),
+            keywords: &["carousel", "horse"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("karusellihevonen"),
+            keywords: &["hevonen", "karuselli", "karusellihevonen"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🎡"]
@@ -154,7 +292,18 @@ pub const FERRIS_WHEEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ferris wheel",
-    annotations: &["amusement park", "ferris", "ferris wheel", "wheel"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("ferris wheel"),
+            keywords: &["amusement park", "ferris", "wheel"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("maailmanpyörä"),
+            keywords: &["huvipuisto", "maailmanpyörä"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🎢"]
@@ -164,7 +313,18 @@ pub const ROLLER_COASTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "roller coaster",
-    annotations: &["amusement park", "coaster", "roller", "roller coaster"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("roller coaster"),
+            keywords: &["amusement park", "coaster", "roller"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vuoristorata"),
+            keywords: &["huvipuisto", "vuoristorata"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "💈"]
@@ -174,7 +334,18 @@ pub const BARBER_POLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "barber pole",
-    annotations: &["barber", "barber pole", "haircut", "pole"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("barber pole"),
+            keywords: &["barber", "haircut", "pole"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("punasiniraitainen pylväs"),
+            keywords: &["kampaaja", "parturi", "punasiniraitainen pylväs", "raidat"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🎪"]
@@ -184,6 +355,17 @@ pub const CIRCUS_TENT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "circus tent",
-    annotations: &["circus", "circus tent", "tent"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("circus tent"),
+            keywords: &["circus", "tent"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("sirkusteltta"),
+            keywords: &["sirkus", "sirkusteltta", "teltta"],
+        },
+    ],
     variants: &[],
 };

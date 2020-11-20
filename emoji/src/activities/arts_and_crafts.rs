@@ -6,12 +6,30 @@ pub const PERFORMING_ARTS: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "performing arts",
     annotations: &[
-        "art",
-        "mask",
-        "performing",
-        "performing arts",
-        "theater",
-        "theatre",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("performing arts"),
+            keywords: &[
+                "art",
+                "mask",
+                "performing",
+                "performing arts",
+                "theater",
+                "theatre",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("näyttämötaiteet"),
+            keywords: &[
+                "naamio",
+                "näytelmä",
+                "näyttämö",
+                "näyttämötaiteet",
+                "taide",
+                "teatteri",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -23,12 +41,23 @@ pub const FRAMED_PICTURE: crate::Emoji = crate::Emoji {
     introduction_version: 0.7f32,
     name: "framed picture",
     annotations: &[
-        "art",
-        "frame",
-        "framed picture",
-        "museum",
-        "painting",
-        "picture",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("framed picture"),
+            keywords: &[
+                "art",
+                "frame",
+                "framed picture",
+                "museum",
+                "painting",
+                "picture",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kuva kehyksissä"),
+            keywords: &["kehys", "kuva kehyksissä", "maalaus", "museo", "taide"],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🖼",
@@ -47,7 +76,18 @@ pub const ARTIST_PALETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "artist palette",
-    annotations: &["art", "artist palette", "museum", "painting", "palette"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("artist palette"),
+            keywords: &["art", "artist palette", "museum", "painting", "palette"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("taiteilijan paletti"),
+            keywords: &["maalari", "maali", "taide", "taiteilijan paletti"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧵"]
@@ -57,7 +97,25 @@ pub const THREAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "thread",
-    annotations: &["needle", "sewing", "spool", "string", "thread"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("thread"),
+            keywords: &["needle", "sewing", "spool", "string", "thread"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("lankarulla"),
+            keywords: &[
+                "lanka",
+                "lankarulla",
+                "neula",
+                "ompelu",
+                "rulla",
+                "rullalanka",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🪡"]
@@ -68,13 +126,32 @@ pub const SEWING_NEEDLE: crate::Emoji = crate::Emoji {
     introduction_version: 13f32,
     name: "sewing needle",
     annotations: &[
-        "embroidery",
-        "needle",
-        "sewing",
-        "sewing needle",
-        "stitches",
-        "sutures",
-        "tailoring",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("sewing needle"),
+            keywords: &[
+                "embroidery",
+                "needle",
+                "sewing",
+                "stitches",
+                "sutures",
+                "tailoring",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ompeluneula"),
+            keywords: &[
+                "kirjonta",
+                "käsinompelu",
+                "neula",
+                "ompelu",
+                "ompeluneula",
+                "parsiminen",
+                "silmäneula",
+                "tikit",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -85,7 +162,25 @@ pub const YARN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "yarn",
-    annotations: &["ball", "crochet", "knit", "yarn"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("yarn"),
+            keywords: &["ball", "crochet", "knit", "yarn"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("lankakerä"),
+            keywords: &[
+                "kerä",
+                "kutominen",
+                "lanka",
+                "lankakerä",
+                "neulominen",
+                "virkkaus",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🪢"]
@@ -95,6 +190,17 @@ pub const KNOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "knot",
-    annotations: &["knot", "rope", "tangled", "tie", "twine", "twist"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("knot"),
+            keywords: &["knot", "rope", "tangled", "tie", "twine", "twist"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("solmu"),
+            keywords: &["kiinnittää", "köysi", "naru", "solmu", "solmulla"],
+        },
+    ],
     variants: &[],
 };

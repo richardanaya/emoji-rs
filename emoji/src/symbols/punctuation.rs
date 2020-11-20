@@ -6,12 +6,29 @@ pub const DOUBLE_EXCLAMATION_MARK: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "double exclamation mark",
     annotations: &[
-        "!",
-        "!!",
-        "bangbang",
-        "double exclamation mark",
-        "exclamation",
-        "mark",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("double exclamation mark"),
+            keywords: &[
+                "!",
+                "!!",
+                "bangbang",
+                "double exclamation mark",
+                "exclamation",
+                "mark",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kaksoishuutomerkki"),
+            keywords: &[
+                "2",
+                "huutomerkki",
+                "kaksoishuutomerkki",
+                "merkki",
+                "välimerkki",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "‼",
@@ -31,15 +48,32 @@ pub const EXCLAMATION_QUESTION_MARK: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "exclamation question mark",
     annotations: &[
-        "!",
-        "!?",
-        "?",
-        "exclamation",
-        "exclamation question mark",
-        "interrobang",
-        "mark",
-        "punctuation",
-        "question",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("exclamation question mark"),
+            keywords: &[
+                "!",
+                "!?",
+                "?",
+                "exclamation",
+                "interrobang",
+                "mark",
+                "punctuation",
+                "question",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("huuto-kysymysmerkki"),
+            keywords: &[
+                "2",
+                "huuto-kysymysmerkki",
+                "huutomerkki",
+                "kysymysmerkki",
+                "merkki",
+                "välimerkki",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "⁉",
@@ -58,7 +92,18 @@ pub const RED_QUESTION_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red question mark",
-    annotations: &["?", "mark", "punctuation", "question", "red question mark"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("red question mark"),
+            keywords: &["?", "mark", "punctuation", "question", "red question mark"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kysymysmerkki"),
+            keywords: &["kysymysmerkki", "merkki", "välimerkki"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "❔"]
@@ -69,12 +114,28 @@ pub const WHITE_QUESTION_MARK: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "white question mark",
     annotations: &[
-        "?",
-        "mark",
-        "outlined",
-        "punctuation",
-        "question",
-        "white question mark",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("white question mark"),
+            keywords: &[
+                "?",
+                "mark",
+                "outlined",
+                "punctuation",
+                "question",
+                "white question mark",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("valkoinen kysymysmerkki"),
+            keywords: &[
+                "kysymysmerkki",
+                "merkki",
+                "valkoinen kysymysmerkki",
+                "välimerkki",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -86,12 +147,28 @@ pub const WHITE_EXCLAMATION_MARK: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "white exclamation mark",
     annotations: &[
-        "!",
-        "exclamation",
-        "mark",
-        "outlined",
-        "punctuation",
-        "white exclamation mark",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("white exclamation mark"),
+            keywords: &[
+                "!",
+                "exclamation",
+                "mark",
+                "outlined",
+                "punctuation",
+                "white exclamation mark",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("valkoinen huutomerkki"),
+            keywords: &[
+                "huutomerkki",
+                "merkki",
+                "valkoinen huutomerkki",
+                "välimerkki",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -103,11 +180,22 @@ pub const RED_EXCLAMATION_MARK: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "red exclamation mark",
     annotations: &[
-        "!",
-        "exclamation",
-        "mark",
-        "punctuation",
-        "red exclamation mark",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("red exclamation mark"),
+            keywords: &[
+                "!",
+                "exclamation",
+                "mark",
+                "punctuation",
+                "red exclamation mark",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("huutomerkki"),
+            keywords: &["huutomerkki", "merkki", "välimerkki"],
+        },
     ],
     variants: &[],
 };
@@ -118,7 +206,18 @@ pub const WAVY_DASH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wavy dash",
-    annotations: &["dash", "punctuation", "wavy", "wavy dash"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("wavy dash"),
+            keywords: &["dash", "punctuation", "wavy"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("aaltoviiva"),
+            keywords: &["aaltoileva", "aaltoviiva", "viiva", "välimerkki"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "〰",
         codepoint: "3030",

@@ -6,12 +6,23 @@ pub const SMILING_FACE_WITH_SUNGLASSES: crate::Emoji = crate::Emoji {
     introduction_version: 1f32,
     name: "smiling face with sunglasses",
     annotations: &[
-        "bright",
-        "cool",
-        "face",
-        "smiling face with sunglasses",
-        "sun",
-        "sunglasses",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("smiling face with sunglasses"),
+            keywords: &[
+                "bright",
+                "cool",
+                "face",
+                "smiling face with sunglasses",
+                "sun",
+                "sunglasses",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("aurinkolasihymy"),
+            keywords: &["aurinko", "aurinkolasihymy", "aurinkolasit", "cool", "hymy"],
+        },
     ],
     variants: &[],
 };
@@ -22,7 +33,18 @@ pub const NERD_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nerd face",
-    annotations: &["face", "geek", "nerd", "nerd face"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("nerd face"),
+            keywords: &["face", "geek", "nerd"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nörtti"),
+            keywords: &["jänöhammas", "naama", "nörtti", "silmälasit"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧐"]
@@ -32,6 +54,17 @@ pub const FACE_WITH_MONOCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "face with monocle",
-    annotations: &["face with monocle", "stuffy"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("face with monocle"),
+            keywords: &["face with monocle", "stuffy"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("monokkeli silmässä"),
+            keywords: &["kalkkis", "monokkeli silmässä", "vanhanaikainen"],
+        },
+    ],
     variants: &[],
 };

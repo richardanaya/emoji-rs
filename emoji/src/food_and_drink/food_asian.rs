@@ -5,7 +5,18 @@ pub const BENTO_BOX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bento box",
-    annotations: &["bento", "bento box", "box"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("bento box"),
+            keywords: &["bento", "box"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("bento-rasia"),
+            keywords: &["bento", "bento-rasia", "rasia"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍘"]
@@ -15,7 +26,18 @@ pub const RICE_CRACKER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "rice cracker",
-    annotations: &["cracker", "rice", "rice cracker"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("rice cracker"),
+            keywords: &["cracker", "rice"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("riisikakku"),
+            keywords: &["keksi", "riisi", "riisikakku"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍙"]
@@ -25,7 +47,18 @@ pub const RICE_BALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "rice ball",
-    annotations: &["Japanese", "ball", "rice", "rice ball"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("rice ball"),
+            keywords: &["Japanese", "ball", "rice"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("riisipallo"),
+            keywords: &["japanilainen", "pallo", "riisi", "riisipallo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍚"]
@@ -35,7 +68,18 @@ pub const COOKED_RICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cooked rice",
-    annotations: &["cooked", "cooked rice", "rice"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("cooked rice"),
+            keywords: &["cooked", "rice"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("keitetty riisi"),
+            keywords: &["keitetty", "riisi"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍛"]
@@ -45,7 +89,18 @@ pub const CURRY_RICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "curry rice",
-    annotations: &["curry", "curry rice", "rice"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("curry rice"),
+            keywords: &["curry", "rice"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("curry-riisi"),
+            keywords: &["curry", "curry-riisi", "riisi"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍜"]
@@ -55,7 +110,18 @@ pub const STEAMING_BOWL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "steaming bowl",
-    annotations: &["bowl", "noodle", "ramen", "steaming", "steaming bowl"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("steaming bowl"),
+            keywords: &["bowl", "noodle", "ramen", "steaming"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("höyryävä kulho"),
+            keywords: &["höyryävä", "kulho", "kuuma", "nuudeli", "ramen"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍝"]
@@ -65,7 +131,18 @@ pub const SPAGHETTI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "spaghetti",
-    annotations: &["pasta", "spaghetti"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("spaghetti"),
+            keywords: &["pasta", "spaghetti"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("spagetti"),
+            keywords: &["pasta", "spagetti"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍠"]
@@ -75,7 +152,23 @@ pub const ROASTED_SWEET_POTATO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "roasted sweet potato",
-    annotations: &["potato", "roasted", "roasted sweet potato", "sweet"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("roasted sweet potato"),
+            keywords: &["potato", "roasted", "sweet"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("paahdettu bataatti"),
+            keywords: &[
+                "bataatti",
+                "paahdettu",
+                "paistettu bataatti",
+                "uunipaahdettu",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍢"]
@@ -85,7 +178,18 @@ pub const ODEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "oden",
-    annotations: &["kebab", "oden", "seafood", "skewer", "stick"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("oden"),
+            keywords: &["kebab", "oden", "seafood", "skewer", "stick"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("oden"),
+            keywords: &["merenelävät", "oden", "tikku", "varras"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍣"]
@@ -95,7 +199,18 @@ pub const SUSHI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sushi",
-    annotations: &["sushi"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("sushi"),
+            keywords: &["sushi"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("sushi"),
+            keywords: &["raaka kala", "riisi", "sushi"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍤"]
@@ -105,7 +220,18 @@ pub const FRIED_SHRIMP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fried shrimp",
-    annotations: &["fried", "fried shrimp", "prawn", "shrimp", "tempura"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("fried shrimp"),
+            keywords: &["fried", "prawn", "shrimp", "tempura"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("paistettu katkarapu"),
+            keywords: &["katkarapu", "paistettu", "tempura"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍥"]
@@ -115,7 +241,18 @@ pub const FISH_CAKE_WITH_SWIRL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fish cake with swirl",
-    annotations: &["cake", "fish", "fish cake with swirl", "pastry", "swirl"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("fish cake with swirl"),
+            keywords: &["cake", "fish", "fish cake with swirl", "pastry", "swirl"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kalakakku"),
+            keywords: &["kakku", "kala", "kalakakku", "leivonnainen"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🥮"]
@@ -125,7 +262,18 @@ pub const MOON_CAKE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "moon cake",
-    annotations: &["autumn", "festival", "moon cake", "yuèbǐng"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("moon cake"),
+            keywords: &["autumn", "festival", "moon cake", "yuèbǐng"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kuukakku"),
+            keywords: &["juhla", "kuukakku", "syksy", "yuèbĭng"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🍡"]
@@ -135,7 +283,18 @@ pub const DANGO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dango",
-    annotations: &["Japanese", "dango", "dessert", "skewer", "stick", "sweet"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("dango"),
+            keywords: &["Japanese", "dango", "dessert", "skewer", "stick", "sweet"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("dango"),
+            keywords: &["dango", "japanilainen", "jälkiruoka", "makea", "tikku"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🥟"]
@@ -146,12 +305,23 @@ pub const DUMPLING: crate::Emoji = crate::Emoji {
     introduction_version: 5f32,
     name: "dumpling",
     annotations: &[
-        "dumpling",
-        "empanada",
-        "gyōza",
-        "jiaozi",
-        "pierogi",
-        "potsticker",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("dumpling"),
+            keywords: &[
+                "dumpling",
+                "empanada",
+                "gyōza",
+                "jiaozi",
+                "pierogi",
+                "potsticker",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("taikinanyytti"),
+            keywords: &["myky", "pelmeni", "taikinanyytti"],
+        },
     ],
     variants: &[],
 };
@@ -162,7 +332,18 @@ pub const FORTUNE_COOKIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "fortune cookie",
-    annotations: &["fortune cookie", "prophecy"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("fortune cookie"),
+            keywords: &["fortune cookie", "prophecy"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("onnenkeksi"),
+            keywords: &["ennustus", "onnenkeksi"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🥡"]
@@ -172,6 +353,17 @@ pub const TAKEOUT_BOX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "takeout box",
-    annotations: &["oyster pail", "takeout box"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("takeout box"),
+            keywords: &["oyster pail", "takeout box"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ateriarasia"),
+            keywords: &["ateriarasia", "noutoruoka"],
+        },
+    ],
     variants: &[],
 };

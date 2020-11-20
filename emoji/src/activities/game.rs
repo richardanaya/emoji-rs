@@ -5,7 +5,25 @@ pub const BULLSEYE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bullseye",
-    annotations: &["bullseye", "dart", "direct hit", "game", "hit", "target"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("bullseye"),
+            keywords: &["bullseye", "dart", "direct hit", "game", "hit", "target"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("napakymppi"),
+            keywords: &[
+                "darts",
+                "häränsilmä",
+                "kymmenen",
+                "napakymppi",
+                "tikka",
+                "tikkataulu",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🪀"]
@@ -15,7 +33,18 @@ pub const YO_YO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "yo-yo",
-    annotations: &["fluctuate", "toy", "yo-yo"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("yo-yo"),
+            keywords: &["fluctuate", "toy", "yo-yo"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("jojo"),
+            keywords: &["jojo", "jojoilla", "lelu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🪁"]
@@ -25,7 +54,18 @@ pub const KITE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "kite",
-    annotations: &["fly", "kite", "soar"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("kite"),
+            keywords: &["fly", "kite", "soar"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("leija"),
+            keywords: &["leija", "leijailla", "lennättää"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🎱"]
@@ -35,7 +75,18 @@ pub const POOL_8_BALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pool 8 ball",
-    annotations: &["8", "ball", "billiard", "eight", "game", "pool 8 ball"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("pool 8 ball"),
+            keywords: &["8", "ball", "billiard", "eight", "game", "pool 8 ball"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("biljardi"),
+            keywords: &["biljardi", "biljardipallo", "kasipallo", "pallo", "peli"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🔮"]
@@ -46,13 +97,31 @@ pub const CRYSTAL_BALL: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "crystal ball",
     annotations: &[
-        "ball",
-        "crystal",
-        "crystal ball",
-        "fairy tale",
-        "fantasy",
-        "fortune",
-        "tool",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("crystal ball"),
+            keywords: &[
+                "ball",
+                "crystal",
+                "fairy tale",
+                "fantasy",
+                "fortune",
+                "tool",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kristallipallo"),
+            keywords: &[
+                "ennustaja",
+                "ennustus",
+                "kristalli",
+                "kristallipallo",
+                "povaus",
+                "taika",
+                "tulevaisuus",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -63,7 +132,18 @@ pub const MAGIC_WAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "magic wand",
-    annotations: &["magic", "magic wand", "witch", "wizard"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("magic wand"),
+            keywords: &["magic", "magic wand", "witch", "wizard"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("taikasauva"),
+            keywords: &["noita", "taika", "taikasauva", "velho"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧿"]
@@ -74,12 +154,30 @@ pub const NAZAR_AMULET: crate::Emoji = crate::Emoji {
     introduction_version: 11f32,
     name: "nazar amulet",
     annotations: &[
-        "bead",
-        "charm",
-        "evil-eye",
-        "nazar",
-        "nazar amulet",
-        "talisman",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("nazar amulet"),
+            keywords: &[
+                "bead",
+                "charm",
+                "evil-eye",
+                "nazar",
+                "nazar amulet",
+                "talisman",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nazar-amuletti"),
+            keywords: &[
+                "amuletti",
+                "helmi",
+                "nazar-amuletti",
+                "paha silmä",
+                "taikakalu",
+                "talismaani",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -90,7 +188,18 @@ pub const VIDEO_GAME: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "video game",
-    annotations: &["controller", "game", "video game"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("video game"),
+            keywords: &["controller", "game", "video game"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("videopeli"),
+            keywords: &["ohjain", "peli", "videopeli"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🕹\u{fe0f}"]
@@ -100,7 +209,18 @@ pub const JOYSTICK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "joystick",
-    annotations: &["game", "joystick", "video game"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("joystick"),
+            keywords: &["game", "joystick", "video game"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("joystick"),
+            keywords: &["joystick", "ohjain", "sauvaohjain", "videopeli"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🕹",
         codepoint: "1F579",
@@ -118,7 +238,18 @@ pub const SLOT_MACHINE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "slot machine",
-    annotations: &["game", "slot", "slot machine"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("slot machine"),
+            keywords: &["game", "slot", "slot machine"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pelikone"),
+            keywords: &["kolikko", "pelikone", "rahapeli"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🎲"]
@@ -128,7 +259,18 @@ pub const GAME_DIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "game die",
-    annotations: &["dice", "die", "game", "game die"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("game die"),
+            keywords: &["dice", "die", "game"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("noppa"),
+            keywords: &["noppa", "noppakuutio", "peli"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧩"]
@@ -139,12 +281,23 @@ pub const PUZZLE_PIECE: crate::Emoji = crate::Emoji {
     introduction_version: 11f32,
     name: "puzzle piece",
     annotations: &[
-        "clue",
-        "interlocking",
-        "jigsaw",
-        "piece",
-        "puzzle",
-        "puzzle piece",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("puzzle piece"),
+            keywords: &["clue", "interlocking", "jigsaw", "piece", "puzzle"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("palapeli"),
+            keywords: &[
+                "arvoitus",
+                "pala",
+                "palapeli",
+                "vihje",
+                "yhteenliittynyt",
+                "yhteensopiva",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -155,7 +308,18 @@ pub const TEDDY_BEAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "teddy bear",
-    annotations: &["plaything", "plush", "stuffed", "teddy bear", "toy"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("teddy bear"),
+            keywords: &["plaything", "plush", "stuffed", "teddy bear", "toy"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nalle"),
+            keywords: &["lelu", "nalle", "pehmolelu", "teddykarhu", "täytetty"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🪅"]
@@ -165,7 +329,18 @@ pub const PINATA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "piñata",
-    annotations: &["celebration", "party", "piñata"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("piñata"),
+            keywords: &["celebration", "party", "piñata"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("piñata"),
+            keywords: &["juhlat", "juhlinta", "piñata"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🪆"]
@@ -175,7 +350,18 @@ pub const NESTING_DOLLS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "nesting dolls",
-    annotations: &["doll", "nesting", "nesting dolls", "russia"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("nesting dolls"),
+            keywords: &["doll", "nesting", "nesting dolls", "russia"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("maatuskanuket"),
+            keywords: &["maatuska", "maatuskanuket", "nukke", "venäläinen"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "♠\u{fe0f}"]
@@ -185,7 +371,18 @@ pub const SPADE_SUIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "spade suit",
-    annotations: &["card", "game", "spade suit"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("spade suit"),
+            keywords: &["card", "game", "spade suit"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pata"),
+            keywords: &["kortti", "korttipeli", "maa", "pata"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "♠",
         codepoint: "2660",
@@ -203,7 +400,18 @@ pub const HEART_SUIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "heart suit",
-    annotations: &["card", "game", "heart suit"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("heart suit"),
+            keywords: &["card", "game", "heart suit"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("hertta"),
+            keywords: &["hertta", "kortti", "korttipeli", "maa"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "♥",
         codepoint: "2665",
@@ -221,7 +429,18 @@ pub const DIAMOND_SUIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "diamond suit",
-    annotations: &["card", "diamond suit", "game"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("diamond suit"),
+            keywords: &["card", "diamond suit", "game"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ruutu"),
+            keywords: &["kortti", "korttipeli", "maa", "ruutu"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "♦",
         codepoint: "2666",
@@ -239,7 +458,18 @@ pub const CLUB_SUIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "club suit",
-    annotations: &["card", "club suit", "game"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("club suit"),
+            keywords: &["card", "club suit", "game"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("risti"),
+            keywords: &["kortti", "korttipeli", "maa", "risti"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "♣",
         codepoint: "2663",
@@ -257,7 +487,26 @@ pub const CHESS_PAWN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "chess pawn",
-    annotations: &["chess", "chess pawn", "dupe", "expendable"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("chess pawn"),
+            keywords: &["chess", "chess pawn", "dupe", "expendable"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("šakkipelin sotilas"),
+            keywords: &[
+                "nappula",
+                "pelinappula",
+                "punapaita",
+                "sotilas",
+                "uhrattavissa",
+                "šakki",
+                "šakkipelin sotilas",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "♟",
         codepoint: "265F",
@@ -275,7 +524,18 @@ pub const JOKER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "joker",
-    annotations: &["card", "game", "joker", "wildcard"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("joker"),
+            keywords: &["card", "game", "joker", "wildcard"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("jokeri"),
+            keywords: &["jokeri", "kortti", "korttipeli"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🀄"]
@@ -285,7 +545,18 @@ pub const MAHJONG_RED_DRAGON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "mahjong red dragon",
-    annotations: &["game", "mahjong", "mahjong red dragon", "red"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("mahjong red dragon"),
+            keywords: &["game", "mahjong", "mahjong red dragon", "red"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mahjong"),
+            keywords: &["keskusta", "lohikäärme", "mahjong", "peli", "punainen"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🎴"]
@@ -296,12 +567,30 @@ pub const FLOWER_PLAYING_CARDS: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "flower playing cards",
     annotations: &[
-        "Japanese",
-        "card",
-        "flower",
-        "flower playing cards",
-        "game",
-        "playing",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("flower playing cards"),
+            keywords: &[
+                "Japanese",
+                "card",
+                "flower",
+                "flower playing cards",
+                "game",
+                "playing",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kukkapelikortit"),
+            keywords: &[
+                "Japani",
+                "hanafuda",
+                "kortti",
+                "korttipeli",
+                "kukat",
+                "kukkapelikortit",
+            ],
+        },
     ],
     variants: &[],
 };

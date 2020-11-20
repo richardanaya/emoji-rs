@@ -6,12 +6,29 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
     introduction_version: 0.7f32,
     name: "globe showing Europe-Africa",
     annotations: &[
-        "Africa",
-        "Europe",
-        "earth",
-        "globe",
-        "globe showing Europe-Africa",
-        "world",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("globe showing Europe-Africa"),
+            keywords: &[
+                "Africa",
+                "Europe",
+                "earth",
+                "globe",
+                "globe showing Europe-Africa",
+                "world",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("maapallo jossa näkyy Eurooppa ja Afrikka"),
+            keywords: &[
+                "Afrikka",
+                "Eurooppa",
+                "maailma",
+                "maapallo",
+                "maapallo jossa näkyy Eurooppa ja Afrikka",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -23,11 +40,27 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
     introduction_version: 0.7f32,
     name: "globe showing Americas",
     annotations: &[
-        "Americas",
-        "earth",
-        "globe",
-        "globe showing Americas",
-        "world",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("globe showing Americas"),
+            keywords: &[
+                "Americas",
+                "earth",
+                "globe",
+                "globe showing Americas",
+                "world",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("maapallo jossa näkyy Amerikka"),
+            keywords: &[
+                "Amerikka",
+                "maailma",
+                "maapallo",
+                "maapallo jossa näkyy Amerikka",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -39,12 +72,29 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "globe showing Asia-Australia",
     annotations: &[
-        "Asia",
-        "Australia",
-        "earth",
-        "globe",
-        "globe showing Asia-Australia",
-        "world",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("globe showing Asia-Australia"),
+            keywords: &[
+                "Asia",
+                "Australia",
+                "earth",
+                "globe",
+                "globe showing Asia-Australia",
+                "world",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("maapallo jossa näkyy Aasia ja Australia"),
+            keywords: &[
+                "Aasia",
+                "Australia",
+                "maailma",
+                "maapallo",
+                "maapallo jossa näkyy Aasia ja Australia",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -56,11 +106,27 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
     introduction_version: 1f32,
     name: "globe with meridians",
     annotations: &[
-        "earth",
-        "globe",
-        "globe with meridians",
-        "meridians",
-        "world",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("globe with meridians"),
+            keywords: &[
+                "earth",
+                "globe",
+                "globe with meridians",
+                "meridians",
+                "world",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("maapallo jossa näkyy pituuspiirit"),
+            keywords: &[
+                "maailma",
+                "maapallo",
+                "maapallo jossa näkyy pituuspiirit",
+                "pituuspiirit",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -71,7 +137,18 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "world map",
-    annotations: &["map", "world", "world map"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("world map"),
+            keywords: &["map", "world"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("maailmankartta"),
+            keywords: &["kartta", "maailma", "maailmankartta"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🗺",
         codepoint: "1F5FA",
@@ -89,7 +166,18 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "map of Japan",
-    annotations: &["Japan", "map", "map of Japan"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("map of Japan"),
+            keywords: &["Japan", "map", "map of Japan"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("Japanin kartta"),
+            keywords: &["Japani", "Japanin kartta", "kartta"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧭"]
@@ -99,6 +187,17 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "compass",
-    annotations: &["compass", "magnetic", "navigation", "orienteering"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("compass"),
+            keywords: &["compass", "magnetic", "navigation", "orienteering"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kompassi"),
+            keywords: &["kompassi", "magneettinen", "navigointi", "suunnistus"],
+        },
+    ],
     variants: &[],
 };

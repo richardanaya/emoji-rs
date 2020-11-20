@@ -5,7 +5,18 @@ pub const CHURCH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "church",
-    annotations: &["Christian", "church", "cross", "religion"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("church"),
+            keywords: &["Christian", "church", "cross", "religion"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kirkko"),
+            keywords: &["kirkko", "kristinusko", "rakennus", "uskonto"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🕌"]
@@ -15,7 +26,18 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "mosque",
-    annotations: &["Muslim", "islam", "mosque", "religion"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("mosque"),
+            keywords: &["Muslim", "islam", "mosque", "religion"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("moskeija"),
+            keywords: &["islam", "moskeija", "muslimi", "rakennus", "uskonto"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🛕"]
@@ -25,7 +47,18 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "hindu temple",
-    annotations: &["hindu", "hindu temple", "temple"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("hindu temple"),
+            keywords: &["hindu", "temple"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("hindutemppeli"),
+            keywords: &["hindu", "hindutemppeli", "temppeli"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🕍"]
@@ -35,7 +68,24 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "synagogue",
-    annotations: &["Jew", "Jewish", "religion", "synagogue", "temple"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("synagogue"),
+            keywords: &["Jew", "Jewish", "religion", "synagogue", "temple"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("synagoga"),
+            keywords: &[
+                "juutalaisuus",
+                "rakennus",
+                "synagoga",
+                "temppeli",
+                "uskonto",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "⛩\u{fe0f}"]
@@ -45,7 +95,18 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "shinto shrine",
-    annotations: &["religion", "shinto", "shinto shrine", "shrine"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("shinto shrine"),
+            keywords: &["religion", "shinto", "shrine"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("shinto-temppeli"),
+            keywords: &["rakennus", "shinto-temppeli", "shintolaisuus", "uskonto"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "⛩",
         codepoint: "26E9",
@@ -63,6 +124,17 @@ pub const KAABA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "kaaba",
-    annotations: &["Muslim", "islam", "kaaba", "religion"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("kaaba"),
+            keywords: &["Muslim", "islam", "kaaba", "religion"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("Kaaba"),
+            keywords: &["Kaaba", "islam", "muslimi", "rakennus", "uskonto"],
+        },
+    ],
     variants: &[],
 };

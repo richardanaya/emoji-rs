@@ -84,10 +84,10 @@ struct Emoji {
     pub introduction_version: f32,
     pub name: String,
     variants: Vec<Emoji>,
-    pub annotations: Vec<String>,
+    pub annotations: Vec<Annotation>,
 }
 impl Emoji {
-    pub fn new(line: &str, annotations: &HashMap<String, String>) -> Self {
+    pub fn new(line: &str, annotations_map: &HashMap<String, Vec<Annotation>>) -> Self {
 	let first_components: Vec<&str> = line.split(";").collect();
 	let reformed_first = first_components.iter().skip(1).join(";");
 	let codepoint = first_components[0].trim().to_owned();
@@ -101,20 +101,25 @@ impl Emoji {
 	let introduction_version = reformed_third.split(" ").nth(0)
 	    .unwrap().parse::<f32>().unwrap();
 	let name = reformed_third.split(" ").skip(1).join(" ");
-	
-	let mut annotations: Vec<String> = match annotations.get(&glyph) {
-	    Some(annotation_string) => {
-		annotation_string.split("|").map(|a| a.trim().to_owned()).collect()
-	    },
-	    None => vec![]
-	};
 
-	annotations.sort();
-	annotations.dedup();
+	let annotations = match annotations_map.get(&glyph) {
+	    None => vec![],
+	    Some(a) => a.to_vec(),
+	};
 	
 	Self{codepoint, status, glyph, introduction_version, name, variants: vec![], annotations}
     }
     pub fn add_variant(&mut self, mut variant: Emoji) {
+	for a in &mut self.annotations {
+	    if let Some(a_other) = variant.annotations.iter_mut().find(|i| i.lang == a.lang) {
+		if a_other.tts.is_some() {
+		    if a.tts.is_none() {
+			a.tts = a_other.tts.clone();
+		    }
+		    a_other.tts = None;
+		}
+	    }
+	}
 	self.annotations.append(&mut variant.annotations);
 	self.variants.push(variant);
     }
@@ -184,45 +189,126 @@ impl std::fmt::Display for Status {
 	})
     }
 }
+#[derive(Debug, Clone)]
+struct Annotation {
+    lang: String,
+    pub tts: Option<String>, // TODO: cross reference with emoji.name
+    keywords: Vec<String>,
+}
+impl Annotation {
+    pub fn new(lang: String, tts: Option<String>, keywords: String) -> Self {
+	let mut s = Self{lang, tts, keywords: vec![]};
+	s.add_keywords(keywords);
+	s
+    }
+    pub fn add_keywords(&mut self, keywords: String) {
+	let mut v = keywords.split("|").map(|a| a.trim().to_owned()).collect();
+	self.keywords.append(&mut v);
+	self.keywords.sort();
+	self.keywords.dedup();
+    }
+}
+impl ToTokens for Annotation {
+    fn to_tokens(&self, tokens: &mut TokenStream) {
+	let lang = &self.lang;
+	let tts = match &self.tts {
+	    None => quote! {
+		None
+	    },
+	    Some(tts) => quote! {
+		Some(#tts)
+	    },
+	};
+	let keywords = &self.keywords;
+	(quote!{
+	    crate::Annotation {
+		lang: #lang,
+		tts: #tts,
+		keywords: &[#(#keywords),*],
+	    }
+	}).to_tokens(tokens);
+    }
+}
 
 #[cfg(not(target_arch = "wasm32"))]
 #[tokio::main]
 async fn main() -> Result<(), reqwest::Error> {
-    let annotation_langs = vec!["en"]; // will change in future
+    let annotation_langs = vec!["en", "fi"]; // will change in future
     let mut date = "".to_owned();
     let mut version = 0.0;
     let mut groups: Vec<Group> = vec![];
     
-    let annotation_res = reqwest::get("https://raw.githubusercontent.com/unicode-org/cldr/release-38/common/annotations/en.xml").await?;
-    let annotation_text = annotation_res.text().await?;
+    let mut annotations: HashMap<String, Vec<Annotation>> = HashMap::new();
 
-    let mut annotations: HashMap<String, String> = HashMap::new();
+    for lang in &annotation_langs {
+	let annotation_res = reqwest::get(&format!("https://raw.githubusercontent.com/unicode-org/cldr/release-38/common/annotations/{}.xml", lang)).await?;
+	let annotation_text = annotation_res.text().await?;
 
-    let parser = EventReader::from_str(&annotation_text);
-    let mut current_glyph = None;
-    for e in parser {
-        match e {
-            Ok(XmlEvent::StartElement { attributes, .. }) => {
-		if let Some(cp) = attributes.into_iter()
-		    .find(|attr| attr.name.local_name == "cp") {
-			current_glyph = Some(cp.value);
-		    }
-            }
-            Ok(XmlEvent::Characters(data)) => {
-		if let Some(glyph) = current_glyph.clone() {
-		    let insert = match annotations.get(&glyph) {
-			Some(prev_entry) => vec![data, prev_entry.to_string()].join("|"),
-			None => data,
-		    };
-		    annotations.insert(glyph, insert);
+	let parser = EventReader::from_str(&annotation_text);
+	let mut current_glyph = None;
+	let mut is_tts = false;
+	for e in parser {
+            match e {
+		Ok(XmlEvent::StartElement { attributes, .. }) => {
+		    if let Some(cp) = attributes.iter()
+			.find(|attr| attr.name.local_name == "cp") {
+			    current_glyph = Some(cp.value.clone());
+			}
+		    if let Some(tts) = attributes.into_iter()
+			.find(|attr| attr.name.local_name == "type") {
+			    is_tts = tts.value == "tts";
+			} else {
+			    is_tts = false;
+			}
 		}
-	    }
-            Err(e) => {
-                println!("Error: {}", e);
-                break;
+		Ok(XmlEvent::Characters(data)) => {
+		    if let Some(glyph) = current_glyph.clone() {
+			match annotations.get_mut(&glyph) {
+			    Some(prev_entry) => {
+				if let Some(same_lang) = prev_entry.iter_mut()
+				    .find(|s| &s.lang == lang) {
+					if is_tts {
+					    same_lang.tts = Some(data.trim().to_string());
+					} else {
+					    same_lang.add_keywords(data);
+					}
+				    } else {
+					prev_entry.push(if is_tts {
+					    Annotation::new(
+						lang.to_string(),
+						Some(data.trim().to_string()), "".to_owned(),
+					    )
+					} else {
+					    Annotation::new(
+						lang.to_string(),
+						None, data,
+					    )
+					});
+				    }
+			    },
+			    None => {
+				if is_tts {
+				    annotations.insert(glyph, vec![Annotation::new(
+					lang.to_string(),
+					Some(data.trim().to_string()), "".to_owned(),
+				    )]);
+				} else {
+				    annotations.insert(glyph, vec![Annotation::new(
+					lang.to_string(),
+					None, data,
+				    )]);
+				}
+			    },
+			};
+		    }
+		}
+		Err(e) => {
+                    println!("Error: {}", e);
+                    break;
+		}
+		_ => {}
             }
-            _ => {}
-        }
+	}
     }
     
     let emoji_test = reqwest::get("https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt").await?;
@@ -326,5 +412,5 @@ async fn main() -> Result<(), reqwest::Error> {
 	}
     }
     
-    Ok(())
+    Ok(()) // TODO: lookup_by_glyph() and variants
 }

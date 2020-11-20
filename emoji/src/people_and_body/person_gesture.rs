@@ -5,7 +5,18 @@ pub const PERSON_FROWNING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "person frowning",
-    annotations: &["frown", "gesture", "person frowning"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person frowning"),
+            keywords: &["frown", "gesture", "person frowning"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("surullinen henkilö"),
+            keywords: &["ele", "surullinen", "surullinen henkilö"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🙍🏻"]
@@ -65,7 +76,18 @@ pub const MAN_FROWNING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man frowning",
-    annotations: &["frowning", "gesture", "man", "man frowning"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man frowning"),
+            keywords: &["frowning", "gesture", "man"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("surullinen mies"),
+            keywords: &["harmi", "mies", "suru", "surullinen mies"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🙍\u{200d}♂",
         codepoint: "1F64D 200D 2642",
@@ -173,7 +195,18 @@ pub const WOMAN_FROWNING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman frowning",
-    annotations: &["frowning", "gesture", "woman", "woman frowning"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman frowning"),
+            keywords: &["frowning", "gesture", "woman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("surullinen nainen"),
+            keywords: &["harmi", "nainen", "suru", "surullinen nainen"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🙍\u{200d}♀",
         codepoint: "1F64D 200D 2640",
@@ -281,7 +314,18 @@ pub const PERSON_POUTING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "person pouting",
-    annotations: &["gesture", "person pouting", "pouting"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person pouting"),
+            keywords: &["gesture", "person pouting", "pouting"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mököttävä henkilö"),
+            keywords: &["ele", "mököttävä", "mököttävä henkilö"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🙎🏻"]
@@ -341,7 +385,18 @@ pub const MAN_POUTING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man pouting",
-    annotations: &["gesture", "man", "man pouting", "pouting"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man pouting"),
+            keywords: &["gesture", "man", "pouting"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mököttävä mies"),
+            keywords: &["harmi", "mies", "mököttävä mies", "mökötys"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🙎\u{200d}♂",
         codepoint: "1F64E 200D 2642",
@@ -449,7 +504,18 @@ pub const WOMAN_POUTING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman pouting",
-    annotations: &["gesture", "pouting", "woman", "woman pouting"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman pouting"),
+            keywords: &["gesture", "pouting", "woman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mököttävä nainen"),
+            keywords: &["harmi", "mököttävä nainen", "mökötys", "nainen"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🙎\u{200d}♀",
         codepoint: "1F64E 200D 2640",
@@ -558,11 +624,22 @@ pub const PERSON_GESTURING_NO: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "person gesturing NO",
     annotations: &[
-        "forbidden",
-        "gesture",
-        "hand",
-        "person gesturing NO",
-        "prohibited",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person gesturing NO"),
+            keywords: &[
+                "forbidden",
+                "gesture",
+                "hand",
+                "person gesturing NO",
+                "prohibited",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ei-ele"),
+            keywords: &["ei", "ei-ele", "ele", "kielletty", "käsi"],
+        },
     ],
     variants: &[],
 };
@@ -624,12 +701,29 @@ pub const MAN_GESTURING_NO: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "man gesturing NO",
     annotations: &[
-        "forbidden",
-        "gesture",
-        "hand",
-        "man",
-        "man gesturing NO",
-        "prohibited",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man gesturing NO"),
+            keywords: &[
+                "forbidden",
+                "gesture",
+                "hand",
+                "man",
+                "man gesturing NO",
+                "prohibited",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ei käy -merkkiä näyttävä mies"),
+            keywords: &[
+                "ei",
+                "ei käy -merkkiä näyttävä mies",
+                "ele",
+                "kielletty",
+                "mies",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🙅\u{200d}♂",
@@ -739,12 +833,29 @@ pub const WOMAN_GESTURING_NO: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "woman gesturing NO",
     annotations: &[
-        "forbidden",
-        "gesture",
-        "hand",
-        "prohibited",
-        "woman",
-        "woman gesturing NO",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman gesturing NO"),
+            keywords: &[
+                "forbidden",
+                "gesture",
+                "hand",
+                "prohibited",
+                "woman",
+                "woman gesturing NO",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ei käy -merkkiä näyttävä nainen"),
+            keywords: &[
+                "ei",
+                "ei käy -merkkiä näyttävä nainen",
+                "ele",
+                "kielletty",
+                "nainen",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🙅\u{200d}♀",
@@ -853,7 +964,18 @@ pub const PERSON_GESTURING_OK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "person gesturing OK",
-    annotations: &["OK", "gesture", "hand", "person gesturing OK"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person gesturing OK"),
+            keywords: &["OK", "gesture", "hand", "person gesturing OK"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ok-ele"),
+            keywords: &["ele", "käsi", "ok", "ok-ele"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🙆🏻"]
@@ -913,7 +1035,18 @@ pub const MAN_GESTURING_OK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man gesturing OK",
-    annotations: &["OK", "gesture", "hand", "man", "man gesturing OK"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man gesturing OK"),
+            keywords: &["OK", "gesture", "hand", "man", "man gesturing OK"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ok-merkkiä näyttävä mies"),
+            keywords: &["ele", "kyllä", "mies", "ok", "ok-merkkiä näyttävä mies"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🙆\u{200d}♂",
         codepoint: "1F646 200D 2642",
@@ -1021,7 +1154,18 @@ pub const WOMAN_GESTURING_OK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman gesturing OK",
-    annotations: &["OK", "gesture", "hand", "woman", "woman gesturing OK"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman gesturing OK"),
+            keywords: &["OK", "gesture", "hand", "woman", "woman gesturing OK"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ok-merkkiä näyttävä nainen"),
+            keywords: &["ele", "kyllä", "nainen", "ok", "ok-merkkiä näyttävä nainen"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🙆\u{200d}♀",
         codepoint: "1F646 200D 2640",
@@ -1130,12 +1274,29 @@ pub const PERSON_TIPPING_HAND: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "person tipping hand",
     annotations: &[
-        "hand",
-        "help",
-        "information",
-        "person tipping hand",
-        "sassy",
-        "tipping",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person tipping hand"),
+            keywords: &[
+                "hand",
+                "help",
+                "information",
+                "person tipping hand",
+                "sassy",
+                "tipping",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kämmentä ylöspäin näyttävä henkilö"),
+            keywords: &[
+                "apu",
+                "info",
+                "kämmentä ylöspäin näyttävä henkilö",
+                "käsi",
+                "nenäkäs",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -1196,7 +1357,18 @@ pub const MAN_TIPPING_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man tipping hand",
-    annotations: &["man", "man tipping hand", "sassy", "tipping hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man tipping hand"),
+            keywords: &["man", "man tipping hand", "sassy", "tipping hand"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kämmentä ylöspäin näyttävä mies"),
+            keywords: &["kämmentä ylöspäin näyttävä mies", "käsi", "mies", "nenäkäs"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "💁\u{200d}♂",
         codepoint: "1F481 200D 2642",
@@ -1304,7 +1476,23 @@ pub const WOMAN_TIPPING_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman tipping hand",
-    annotations: &["sassy", "tipping hand", "woman", "woman tipping hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman tipping hand"),
+            keywords: &["sassy", "tipping hand", "woman", "woman tipping hand"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kämmentä ylöspäin näyttävä nainen"),
+            keywords: &[
+                "kämmentä ylöspäin näyttävä nainen",
+                "käsi",
+                "nainen",
+                "nenäkäs",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "💁\u{200d}♀",
         codepoint: "1F481 200D 2640",
@@ -1412,7 +1600,24 @@ pub const PERSON_RAISING_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "person raising hand",
-    annotations: &["gesture", "hand", "happy", "person raising hand", "raised"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person raising hand"),
+            keywords: &["gesture", "hand", "happy", "person raising hand", "raised"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("iloinen henkilö viittaa"),
+            keywords: &[
+                "ele",
+                "iloinen",
+                "iloinen henkilö viittaa",
+                "käsi",
+                "nostettu",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🙋🏻"]
@@ -1472,7 +1677,18 @@ pub const MAN_RAISING_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man raising hand",
-    annotations: &["gesture", "man", "man raising hand", "raising hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man raising hand"),
+            keywords: &["gesture", "man", "man raising hand", "raising hand"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("viittaava mies"),
+            keywords: &["käsi", "mies", "viittaava mies", "viittaus"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🙋\u{200d}♂",
         codepoint: "1F64B 200D 2642",
@@ -1580,7 +1796,18 @@ pub const WOMAN_RAISING_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman raising hand",
-    annotations: &["gesture", "raising hand", "woman", "woman raising hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman raising hand"),
+            keywords: &["gesture", "raising hand", "woman", "woman raising hand"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("viittaava nainen"),
+            keywords: &["käsi", "nainen", "viittaava nainen", "viittaus"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🙋\u{200d}♀",
         codepoint: "1F64B 200D 2640",
@@ -1688,7 +1915,18 @@ pub const DEAF_PERSON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "deaf person",
-    annotations: &["accessibility", "deaf", "deaf person", "ear", "hear"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("deaf person"),
+            keywords: &["accessibility", "deaf", "deaf person", "ear", "hear"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kuuro ihminen"),
+            keywords: &["esteettömyys", "korva", "kuulo", "kuuro", "kuuro ihminen"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧏🏻"]
@@ -1748,7 +1986,18 @@ pub const DEAF_MAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "deaf man",
-    annotations: &["deaf", "deaf man", "man"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("deaf man"),
+            keywords: &["deaf", "man"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kuuro mies"),
+            keywords: &["kuuro", "mies"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧏\u{200d}♂",
         codepoint: "1F9CF 200D 2642",
@@ -1856,7 +2105,18 @@ pub const DEAF_WOMAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "deaf woman",
-    annotations: &["deaf", "deaf woman", "woman"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("deaf woman"),
+            keywords: &["deaf", "woman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kuuro nainen"),
+            keywords: &["kuuro", "nainen"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧏\u{200d}♀",
         codepoint: "1F9CF 200D 2640",
@@ -1964,7 +2224,24 @@ pub const PERSON_BOWING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "person bowing",
-    annotations: &["apology", "bow", "gesture", "person bowing", "sorry"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person bowing"),
+            keywords: &["apology", "bow", "gesture", "person bowing", "sorry"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kumartava henkilö"),
+            keywords: &[
+                "anteeksi",
+                "anteeksipyyntö",
+                "ele",
+                "kumarrus",
+                "kumartava henkilö",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🙇🏻"]
@@ -2025,13 +2302,22 @@ pub const MAN_BOWING: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "man bowing",
     annotations: &[
-        "apology",
-        "bowing",
-        "favor",
-        "gesture",
-        "man",
-        "man bowing",
-        "sorry",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man bowing"),
+            keywords: &["apology", "bowing", "favor", "gesture", "man", "sorry"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("syvään kumartava mies"),
+            keywords: &[
+                "anteeksipyyntö",
+                "ele",
+                "kumarrus",
+                "mies",
+                "syvään kumartava mies",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🙇\u{200d}♂",
@@ -2141,13 +2427,22 @@ pub const WOMAN_BOWING: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "woman bowing",
     annotations: &[
-        "apology",
-        "bowing",
-        "favor",
-        "gesture",
-        "sorry",
-        "woman",
-        "woman bowing",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman bowing"),
+            keywords: &["apology", "bowing", "favor", "gesture", "sorry", "woman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("syvään kumartava nainen"),
+            keywords: &[
+                "anteeksipyyntö",
+                "ele",
+                "kumarrus",
+                "nainen",
+                "syvään kumartava nainen",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🙇\u{200d}♀",
@@ -2257,11 +2552,28 @@ pub const PERSON_FACEPALMING: crate::Emoji = crate::Emoji {
     introduction_version: 3f32,
     name: "person facepalming",
     annotations: &[
-        "disbelief",
-        "exasperation",
-        "face",
-        "palm",
-        "person facepalming",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person facepalming"),
+            keywords: &[
+                "disbelief",
+                "exasperation",
+                "face",
+                "palm",
+                "person facepalming",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("peittää kasvot kädellä"),
+            keywords: &[
+                "epätoivo",
+                "kasvot",
+                "käsi",
+                "peittää kasvot kädellä",
+                "pettymys",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -2323,11 +2635,28 @@ pub const MAN_FACEPALMING: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "man facepalming",
     annotations: &[
-        "disbelief",
-        "exasperation",
-        "facepalm",
-        "man",
-        "man facepalming",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man facepalming"),
+            keywords: &[
+                "disbelief",
+                "exasperation",
+                "facepalm",
+                "man",
+                "man facepalming",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kasvonsa kädellä peittävä mies"),
+            keywords: &[
+                "kasvonsa kädellä peittävä mies",
+                "kasvot",
+                "käsi",
+                "mies",
+                "pettymys",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🤦\u{200d}♂",
@@ -2437,11 +2766,28 @@ pub const WOMAN_FACEPALMING: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "woman facepalming",
     annotations: &[
-        "disbelief",
-        "exasperation",
-        "facepalm",
-        "woman",
-        "woman facepalming",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman facepalming"),
+            keywords: &[
+                "disbelief",
+                "exasperation",
+                "facepalm",
+                "woman",
+                "woman facepalming",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kasvonsa kädellä peittävä nainen"),
+            keywords: &[
+                "kasvonsa kädellä peittävä nainen",
+                "kasvot",
+                "käsi",
+                "nainen",
+                "pettymys",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🤦\u{200d}♀",
@@ -2551,11 +2897,28 @@ pub const PERSON_SHRUGGING: crate::Emoji = crate::Emoji {
     introduction_version: 3f32,
     name: "person shrugging",
     annotations: &[
-        "doubt",
-        "ignorance",
-        "indifference",
-        "person shrugging",
-        "shrug",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person shrugging"),
+            keywords: &[
+                "doubt",
+                "ignorance",
+                "indifference",
+                "person shrugging",
+                "shrug",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("olkapäitään kohauttava henkilö"),
+            keywords: &[
+                "ei välitä",
+                "epäilys",
+                "kohauttaa",
+                "kohauttaa olkapäitään",
+                "olkapäitään kohauttava henkilö",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -2617,12 +2980,29 @@ pub const MAN_SHRUGGING: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "man shrugging",
     annotations: &[
-        "doubt",
-        "ignorance",
-        "indifference",
-        "man",
-        "man shrugging",
-        "shrug",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man shrugging"),
+            keywords: &[
+                "doubt",
+                "ignorance",
+                "indifference",
+                "man",
+                "man shrugging",
+                "shrug",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kämmeniään levittelevä mies"),
+            keywords: &[
+                "ei välitä",
+                "ihan sama",
+                "kohauttaa",
+                "kämmeniään levittelevä mies",
+                "mies",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🤷\u{200d}♂",
@@ -2732,12 +3112,29 @@ pub const WOMAN_SHRUGGING: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "woman shrugging",
     annotations: &[
-        "doubt",
-        "ignorance",
-        "indifference",
-        "shrug",
-        "woman",
-        "woman shrugging",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman shrugging"),
+            keywords: &[
+                "doubt",
+                "ignorance",
+                "indifference",
+                "shrug",
+                "woman",
+                "woman shrugging",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kämmeniään levittelevä nainen"),
+            keywords: &[
+                "ei välitä",
+                "ihan sama",
+                "kohauttaa",
+                "kämmeniään levittelevä nainen",
+                "nainen",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🤷\u{200d}♀",

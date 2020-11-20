@@ -1,6 +1,6 @@
 #[doc = r" The annotation languages this crate was compiled with"]
 #[doc = r#" Defaults to `["en"]`. Enable the `lang_XX` features for each language to include annotations for another language. For example, to include Finnish annotations, use the `lang_fi` feature."#]
-pub const ANNOTATION_LANGS: &'static [&'static str] = &["en"];
+pub const ANNOTATION_LANGS: &'static [&'static str] = &["en", "fi"];
 #[doc = r" The unicode release version that this crate is compiled against"]
 pub const UNICODE_VERSION: f32 = 13.1f32;
 #[doc = r" The rfc3339 formatted time of the unicode release that this crate is compiled against"]

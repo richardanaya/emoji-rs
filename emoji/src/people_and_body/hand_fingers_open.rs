@@ -5,7 +5,25 @@ pub const WAVING_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "waving hand",
-    annotations: &["hand", "wave", "waving", "waving hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("waving hand"),
+            keywords: &["hand", "wave", "waving"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("käden heilautus"),
+            keywords: &[
+                "heilautus",
+                "käden heilautus",
+                "käsi",
+                "vartalo",
+                "vilkuttaa",
+                "vilkutus",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👋🏻"]
@@ -65,7 +83,23 @@ pub const RAISED_BACK_OF_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "raised back of hand",
-    annotations: &["backhand", "raised", "raised back of hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("raised back of hand"),
+            keywords: &["backhand", "raised", "raised back of hand"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kämmenselkä koholla"),
+            keywords: &[
+                "kohotettu",
+                "kädenselkä",
+                "kädenselkä koholla",
+                "kämmenselkä koholla",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤚🏻"]
@@ -125,7 +159,24 @@ pub const HAND_WITH_FINGERS_SPLAYED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "hand with fingers splayed",
-    annotations: &["finger", "hand", "hand with fingers splayed", "splayed"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("hand with fingers splayed"),
+            keywords: &["finger", "hand", "hand with fingers splayed", "splayed"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nostettu käsi ja sormet erillään"),
+            keywords: &[
+                "käsi",
+                "levitetty",
+                "nostettu käsi ja sormet erillään",
+                "sormi",
+                "vartalo",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🖐",
         codepoint: "1F590",
@@ -193,7 +244,18 @@ pub const RAISED_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "raised hand",
-    annotations: &["hand", "high 5", "high five", "raised hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("raised hand"),
+            keywords: &["hand", "high 5", "high five", "raised hand"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nostettu käsi"),
+            keywords: &["käsi", "nostettu käsi", "vartalo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "✋🏻"]
@@ -253,7 +315,25 @@ pub const VULCAN_SALUTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "vulcan salute",
-    annotations: &["finger", "hand", "spock", "vulcan", "vulcan salute"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("vulcan salute"),
+            keywords: &["finger", "hand", "spock", "vulcan", "vulcan salute"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vulkanilaisten tervehdys"),
+            keywords: &[
+                "käsi",
+                "sormi",
+                "spock",
+                "vartalo",
+                "vulkanilainen",
+                "vulkanilaisten tervehdys",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🖖🏻"]

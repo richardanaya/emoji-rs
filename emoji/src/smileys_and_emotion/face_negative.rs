@@ -5,7 +5,18 @@ pub const FACE_WITH_STEAM_FROM_NOSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face with steam from nose",
-    annotations: &["face", "face with steam from nose", "triumph", "won"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("face with steam from nose"),
+            keywords: &["face", "face with steam from nose", "triumph", "won"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("höyryä nenästä"),
+            keywords: &["höyryä nenästä", "naama", "voittaja", "voitto"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "😡"]
@@ -16,13 +27,23 @@ pub const POUTING_FACE: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "pouting face",
     annotations: &[
-        "angry",
-        "face",
-        "mad",
-        "pouting",
-        "pouting face",
-        "rage",
-        "red",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("pouting face"),
+            keywords: &["angry", "face", "mad", "pouting", "rage", "red"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mököttävä"),
+            keywords: &[
+                "mököttävä",
+                "naama",
+                "punainen",
+                "raivo",
+                "suuttunut",
+                "vihainen",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -33,7 +54,18 @@ pub const ANGRY_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "angry face",
-    annotations: &["anger", "angry", "angry face", "face", "mad"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("angry face"),
+            keywords: &["anger", "angry", "face", "mad"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vihainen"),
+            keywords: &["kiukku", "naama", "raivo", "viha", "vihainen"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤬"]
@@ -43,7 +75,18 @@ pub const FACE_WITH_SYMBOLS_ON_MOUTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "face with symbols on mouth",
-    annotations: &["face with symbols on mouth", "swearing"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("face with symbols on mouth"),
+            keywords: &["face with symbols on mouth", "swearing"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("sensuroitu suu"),
+            keywords: &["kiroilu", "sensuroitu suu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "😈"]
@@ -54,12 +97,30 @@ pub const SMILING_FACE_WITH_HORNS: crate::Emoji = crate::Emoji {
     introduction_version: 1f32,
     name: "smiling face with horns",
     annotations: &[
-        "face",
-        "fairy tale",
-        "fantasy",
-        "horns",
-        "smile",
-        "smiling face with horns",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("smiling face with horns"),
+            keywords: &[
+                "face",
+                "fairy tale",
+                "fantasy",
+                "horns",
+                "smile",
+                "smiling face with horns",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pirullinen hymy ja sarvet"),
+            keywords: &[
+                "fantasia",
+                "hymy",
+                "naama",
+                "pirullinen hymy ja sarvet",
+                "sarvet",
+                "satu",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -71,12 +132,30 @@ pub const ANGRY_FACE_WITH_HORNS: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "angry face with horns",
     annotations: &[
-        "angry face with horns",
-        "demon",
-        "devil",
-        "face",
-        "fantasy",
-        "imp",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("angry face with horns"),
+            keywords: &[
+                "angry face with horns",
+                "demon",
+                "devil",
+                "face",
+                "fantasy",
+                "imp",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pikkupaholainen"),
+            keywords: &[
+                "demoni",
+                "fantasia",
+                "naama",
+                "pikkupaholainen",
+                "piru",
+                "satu",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -87,7 +166,18 @@ pub const SKULL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "skull",
-    annotations: &["death", "face", "fairy tale", "monster", "skull"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("skull"),
+            keywords: &["death", "face", "fairy tale", "monster", "skull"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pääkallo"),
+            keywords: &["hirviö", "kuolema", "naama", "pääkallo", "ruumis", "satu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "☠\u{fe0f}"]
@@ -98,12 +188,31 @@ pub const SKULL_AND_CROSSBONES: crate::Emoji = crate::Emoji {
     introduction_version: 1f32,
     name: "skull and crossbones",
     annotations: &[
-        "crossbones",
-        "death",
-        "face",
-        "monster",
-        "skull",
-        "skull and crossbones",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("skull and crossbones"),
+            keywords: &[
+                "crossbones",
+                "death",
+                "face",
+                "monster",
+                "skull",
+                "skull and crossbones",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pääkallo ja reisiluut"),
+            keywords: &[
+                "hirviö",
+                "kuolema",
+                "naama",
+                "pääkallo",
+                "pääkallo ja reisiluut",
+                "reisiluut",
+                "ruumis",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "☠",

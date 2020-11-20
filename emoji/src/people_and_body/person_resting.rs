@@ -5,7 +5,18 @@ pub const PERSON_IN_LOTUS_POSITION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "person in lotus position",
-    annotations: &["meditation", "person in lotus position", "yoga"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person in lotus position"),
+            keywords: &["meditation", "person in lotus position", "yoga"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("henkilö lootusasennossa"),
+            keywords: &["henkilö lootusasennossa", "jooga", "mietiskely"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧘🏻"]
@@ -65,7 +76,18 @@ pub const MAN_IN_LOTUS_POSITION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "man in lotus position",
-    annotations: &["man in lotus position", "meditation", "yoga"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man in lotus position"),
+            keywords: &["man in lotus position", "meditation", "yoga"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mies lootusasennossa"),
+            keywords: &["jooga", "mies lootusasennossa", "mietiskely"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧘\u{200d}♂",
         codepoint: "1F9D8 200D 2642",
@@ -173,7 +195,18 @@ pub const WOMAN_IN_LOTUS_POSITION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "woman in lotus position",
-    annotations: &["meditation", "woman in lotus position", "yoga"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman in lotus position"),
+            keywords: &["meditation", "woman in lotus position", "yoga"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nainen lootusasennossa"),
+            keywords: &["jooga", "mietiskely", "nainen lootusasennossa"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧘\u{200d}♀",
         codepoint: "1F9D8 200D 2640",
@@ -281,7 +314,18 @@ pub const PERSON_TAKING_BATH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "person taking bath",
-    annotations: &["bath", "bathtub", "person taking bath"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person taking bath"),
+            keywords: &["bath", "bathtub", "person taking bath"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kylpijä"),
+            keywords: &["kylpijä", "kylpy", "kylpyamme"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🛀🏻"]
@@ -341,7 +385,18 @@ pub const PERSON_IN_BED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "person in bed",
-    annotations: &["hotel", "person in bed", "sleep"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person in bed"),
+            keywords: &["hotel", "person in bed", "sleep"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nukkuja"),
+            keywords: &["hotelli", "nukkua", "nukkuja", "uni"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🛌🏻"]

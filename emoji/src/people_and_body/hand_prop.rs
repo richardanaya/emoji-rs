@@ -5,7 +5,18 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "writing hand",
-    annotations: &["hand", "write", "writing hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("writing hand"),
+            keywords: &["hand", "write", "writing hand"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kirjoittava käsi"),
+            keywords: &["kirjoittaa", "kirjoittava käsi", "käsi", "vartalo"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "✍",
         codepoint: "270D",
@@ -74,12 +85,23 @@ pub const NAIL_POLISH: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "nail polish",
     annotations: &[
-        "care",
-        "cosmetics",
-        "manicure",
-        "nail",
-        "nail polish",
-        "polish",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("nail polish"),
+            keywords: &["care", "cosmetics", "manicure", "nail", "polish"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kynsilakka"),
+            keywords: &[
+                "kosmetiikka",
+                "kynsi",
+                "kynsihuolto",
+                "kynsilakka",
+                "manikyyri",
+                "vartalo",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -140,7 +162,18 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "selfie",
-    annotations: &["camera", "phone", "selfie"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("selfie"),
+            keywords: &["camera", "phone", "selfie"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("selfie"),
+            keywords: &["kamera", "omakuva", "puhelin", "selfie"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤳🏻"]

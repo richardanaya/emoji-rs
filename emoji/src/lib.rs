@@ -24,8 +24,15 @@ pub struct Emoji {
     pub glyph: &'static str,
     pub introduction_version: f32,
     pub name: &'static str,
-    pub annotations: &'static [&'static str],
     pub variants: &'static [Emoji],
+    pub annotations: &'static [Annotation],
+}
+#[derive(Debug, PartialEq)]
+pub struct Annotation {
+    pub lang: &'static str,
+    pub tts: Option<&'static str>,
+    pub keywords: &'static [&'static str],
 }
 
 include!("emoji_data.rs");
+ 

@@ -5,7 +5,18 @@ pub const OK_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "OK hand",
-    annotations: &["OK", "OK hand", "hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("OK hand"),
+            keywords: &["OK", "hand"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ok-sormiele"),
+            keywords: &["käsi", "ok", "ok-sormiele", "vartalo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👌🏻"]
@@ -66,12 +77,30 @@ pub const PINCHED_FINGERS: crate::Emoji = crate::Emoji {
     introduction_version: 13f32,
     name: "pinched fingers",
     annotations: &[
-        "fingers",
-        "hand gesture",
-        "interrogation",
-        "pinched",
-        "pinched fingers",
-        "sarcastic",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("pinched fingers"),
+            keywords: &[
+                "fingers",
+                "hand gesture",
+                "interrogation",
+                "pinched",
+                "sarcastic",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("käsi supussa"),
+            keywords: &[
+                "kuulustelu",
+                "käsi supussa",
+                "käsiele",
+                "mitä",
+                "sarkastinen",
+                "sormet",
+                "supussa",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -132,7 +161,24 @@ pub const PINCHING_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "pinching hand",
-    annotations: &["pinching hand", "small amount"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("pinching hand"),
+            keywords: &["pinching hand", "small amount"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nipistävä käsi"),
+            keywords: &[
+                "hippunen",
+                "nipistysote",
+                "nipistävä käsi",
+                "pieni määrä",
+                "vähäinen määrä",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤏🏻"]
@@ -192,7 +238,18 @@ pub const VICTORY_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "victory hand",
-    annotations: &["hand", "v", "victory", "victory hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("victory hand"),
+            keywords: &["hand", "v", "victory"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("voitonmerkki"),
+            keywords: &["käsi", "v", "vartalo", "voitonmerkki", "voitto"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "✌",
         codepoint: "270C",
@@ -260,7 +317,18 @@ pub const CROSSED_FINGERS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "crossed fingers",
-    annotations: &["cross", "crossed fingers", "finger", "hand", "luck"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("crossed fingers"),
+            keywords: &["cross", "crossed fingers", "finger", "hand", "luck"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("sormet ristissä"),
+            keywords: &["käsi", "onni", "risti", "sormet ristissä", "sormi"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤞🏻"]
@@ -320,7 +388,18 @@ pub const LOVE_YOU_GESTURE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "love-you gesture",
-    annotations: &["ILY", "hand", "love-you gesture"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("love-you gesture"),
+            keywords: &["ILY", "hand", "love-you gesture"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("rakastan sinua -ele"),
+            keywords: &["fanitus", "käsi", "rakastan sinua -ele", "rakkaus"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤟🏻"]
@@ -380,7 +459,18 @@ pub const SIGN_OF_THE_HORNS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "sign of the horns",
-    annotations: &["finger", "hand", "horns", "rock-on", "sign of the horns"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("sign of the horns"),
+            keywords: &["finger", "hand", "horns", "rock-on", "sign of the horns"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("sarviele"),
+            keywords: &["käsi", "rock", "sarvet", "sarviele", "sormi", "vartalo"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤘🏻"]
@@ -440,7 +530,18 @@ pub const CALL_ME_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "call me hand",
-    annotations: &["call", "call me hand", "hand"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("call me hand"),
+            keywords: &["call", "call me hand", "hand"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("soita minulle"),
+            keywords: &["käsi", "soita", "soita minulle"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤙🏻"]

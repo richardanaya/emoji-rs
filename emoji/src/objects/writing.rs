@@ -5,7 +5,18 @@ pub const PENCIL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pencil",
-    annotations: &["pencil"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("pencil"),
+            keywords: &["pencil"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("lyijykynä"),
+            keywords: &["kynä", "lyijykynä"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "✏",
         codepoint: "270F",
@@ -23,7 +34,18 @@ pub const BLACK_NIB: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black nib",
-    annotations: &["black nib", "nib", "pen"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("black nib"),
+            keywords: &["black nib", "nib", "pen"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("musta kynänkärki"),
+            keywords: &["kynä", "musta kynänkärki", "mustekynä"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "✒",
         codepoint: "2712",
@@ -41,7 +63,18 @@ pub const FOUNTAIN_PEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "fountain pen",
-    annotations: &["fountain", "fountain pen", "pen"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("fountain pen"),
+            keywords: &["fountain", "pen"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("täytekynä"),
+            keywords: &["kynä", "mustekynä", "täytekynä"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🖋",
         codepoint: "1F58B",
@@ -59,7 +92,18 @@ pub const PEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "pen",
-    annotations: &["ballpoint", "pen"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("pen"),
+            keywords: &["ballpoint", "pen"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kuulakärkikynä"),
+            keywords: &["kuulakärkikynä", "kynä"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🖊",
         codepoint: "1F58A",
@@ -77,7 +121,18 @@ pub const PAINTBRUSH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "paintbrush",
-    annotations: &["paintbrush", "painting"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("paintbrush"),
+            keywords: &["paintbrush", "painting"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("sivellin"),
+            keywords: &["maalaaminen", "maali", "maalisuti", "sivellin"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🖌",
         codepoint: "1F58C",
@@ -95,7 +150,18 @@ pub const CRAYON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "crayon",
-    annotations: &["crayon"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("crayon"),
+            keywords: &["crayon"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("väriliitu"),
+            keywords: &["liitu", "väri", "väriliitu"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🖍",
         codepoint: "1F58D",
@@ -113,6 +179,17 @@ pub const MEMO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "memo",
-    annotations: &["memo", "pencil"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("memo"),
+            keywords: &["memo", "pencil"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("muistio"),
+            keywords: &["lyijykynä", "muistio"],
+        },
+    ],
     variants: &[],
 };

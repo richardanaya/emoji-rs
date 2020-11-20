@@ -5,7 +5,18 @@ pub const PERSON_FENCING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "person fencing",
-    annotations: &["fencer", "fencing", "person fencing", "sword"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person fencing"),
+            keywords: &["fencer", "fencing", "person fencing", "sword"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("miekkailija"),
+            keywords: &["liikunta", "miekka", "miekkailija", "miekkailu", "urheilu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🏇"]
@@ -15,7 +26,18 @@ pub const HORSE_RACING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "horse racing",
-    annotations: &["horse", "horse racing", "jockey", "racehorse", "racing"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("horse racing"),
+            keywords: &["horse", "jockey", "racehorse", "racing"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ratsastus"),
+            keywords: &["hevonen", "jockey", "kilparatsastus", "ratsastus", "ravit"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🏇🏻"]
@@ -75,7 +97,18 @@ pub const SKIER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "skier",
-    annotations: &["ski", "skier", "snow"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("skier"),
+            keywords: &["ski", "skier", "snow"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("hiihtäjä"),
+            keywords: &["hiihto", "hiihtäjä", "lumi", "sauvat", "sukset"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "⛷",
         codepoint: "26F7",
@@ -93,7 +126,18 @@ pub const SNOWBOARDER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "snowboarder",
-    annotations: &["ski", "snow", "snowboard", "snowboarder"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("snowboarder"),
+            keywords: &["ski", "snow", "snowboard", "snowboarder"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("lumilautailija"),
+            keywords: &["laskettelu", "lumi", "lumilauta", "lumilautailija"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🏂🏻"]
@@ -153,7 +197,18 @@ pub const PERSON_GOLFING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "person golfing",
-    annotations: &["ball", "golf", "person golfing"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person golfing"),
+            keywords: &["ball", "golf", "person golfing"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("golfaaja"),
+            keywords: &["golf", "golfaaja", "pallo"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🏌",
         codepoint: "1F3CC",
@@ -221,7 +276,18 @@ pub const MAN_GOLFING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man golfing",
-    annotations: &["golf", "man", "man golfing"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man golfing"),
+            keywords: &["golf", "man", "man golfing"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("golfaajamies"),
+            keywords: &["golf", "golfaajamies", "mies"],
+        },
+    ],
     variants: &[
         crate::Emoji {
             glyph: "🏌\u{200d}♂\u{fe0f}",
@@ -349,7 +415,18 @@ pub const WOMAN_GOLFING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman golfing",
-    annotations: &["golf", "woman", "woman golfing"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman golfing"),
+            keywords: &["golf", "woman", "woman golfing"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("golfaajanainen"),
+            keywords: &["golf", "golfaajanainen", "nainen"],
+        },
+    ],
     variants: &[
         crate::Emoji {
             glyph: "🏌\u{200d}♀\u{fe0f}",
@@ -477,7 +554,18 @@ pub const PERSON_SURFING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "person surfing",
-    annotations: &["person surfing", "surfing"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person surfing"),
+            keywords: &["person surfing", "surfing"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("surffaaja"),
+            keywords: &["lauta", "surffaaja", "surffaus"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🏄🏻"]
@@ -537,7 +625,18 @@ pub const MAN_SURFING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man surfing",
-    annotations: &["man", "man surfing", "surfing"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man surfing"),
+            keywords: &["man", "surfing"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("surffaajamies"),
+            keywords: &["lainelautailu", "mies", "surffaajamies", "surffaus"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🏄\u{200d}♂",
         codepoint: "1F3C4 200D 2642",
@@ -645,7 +744,18 @@ pub const WOMAN_SURFING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman surfing",
-    annotations: &["surfing", "woman", "woman surfing"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman surfing"),
+            keywords: &["surfing", "woman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("surffaajanainen"),
+            keywords: &["lainelautailu", "nainen", "surffaajanainen", "surffaus"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🏄\u{200d}♀",
         codepoint: "1F3C4 200D 2640",
@@ -753,7 +863,18 @@ pub const PERSON_ROWING_BOAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "person rowing boat",
-    annotations: &["boat", "person rowing boat", "rowboat"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person rowing boat"),
+            keywords: &["boat", "person rowing boat", "rowboat"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("soutaja"),
+            keywords: &["meri", "soutaa", "soutaja", "soutuvene", "vene"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🚣🏻"]
@@ -813,7 +934,18 @@ pub const MAN_ROWING_BOAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man rowing boat",
-    annotations: &["boat", "man", "man rowing boat", "rowboat"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man rowing boat"),
+            keywords: &["boat", "man", "man rowing boat", "rowboat"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("soutava mies"),
+            keywords: &["mies", "soutaja", "soutava mies"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🚣\u{200d}♂",
         codepoint: "1F6A3 200D 2642",
@@ -921,7 +1053,18 @@ pub const WOMAN_ROWING_BOAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman rowing boat",
-    annotations: &["boat", "rowboat", "woman", "woman rowing boat"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman rowing boat"),
+            keywords: &["boat", "rowboat", "woman", "woman rowing boat"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("soutava nainen"),
+            keywords: &["nainen", "soutaja", "soutava nainen"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🚣\u{200d}♀",
         codepoint: "1F6A3 200D 2640",
@@ -1029,7 +1172,18 @@ pub const PERSON_SWIMMING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "person swimming",
-    annotations: &["person swimming", "swim"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person swimming"),
+            keywords: &["person swimming", "swim"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("uimari"),
+            keywords: &["uimari", "uinti"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🏊🏻"]
@@ -1089,7 +1243,18 @@ pub const MAN_SWIMMING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man swimming",
-    annotations: &["man", "man swimming", "swim"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man swimming"),
+            keywords: &["man", "man swimming", "swim"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("uiva mies"),
+            keywords: &["mies", "uija", "uimari", "uiva mies"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🏊\u{200d}♂",
         codepoint: "1F3CA 200D 2642",
@@ -1197,7 +1362,18 @@ pub const WOMAN_SWIMMING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman swimming",
-    annotations: &["swim", "woman", "woman swimming"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman swimming"),
+            keywords: &["swim", "woman", "woman swimming"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("uiva nainen"),
+            keywords: &["nainen", "uija", "uimari", "uiva nainen"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🏊\u{200d}♀",
         codepoint: "1F3CA 200D 2640",
@@ -1305,7 +1481,18 @@ pub const PERSON_BOUNCING_BALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "person bouncing ball",
-    annotations: &["ball", "person bouncing ball"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person bouncing ball"),
+            keywords: &["ball", "person bouncing ball"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pallottelija"),
+            keywords: &["pallo", "pallottelija"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "⛹",
         codepoint: "26F9",
@@ -1373,7 +1560,18 @@ pub const MAN_BOUNCING_BALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man bouncing ball",
-    annotations: &["ball", "man", "man bouncing ball"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man bouncing ball"),
+            keywords: &["ball", "man", "man bouncing ball"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pallotteleva mies"),
+            keywords: &["palloilija", "pallomies", "pallotteleva mies", "poika"],
+        },
+    ],
     variants: &[
         crate::Emoji {
             glyph: "⛹\u{200d}♂\u{fe0f}",
@@ -1501,7 +1699,18 @@ pub const WOMAN_BOUNCING_BALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman bouncing ball",
-    annotations: &["ball", "woman", "woman bouncing ball"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman bouncing ball"),
+            keywords: &["ball", "woman", "woman bouncing ball"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pallotteleva nainen"),
+            keywords: &["palloilija", "pallonainen", "pallotteleva nainen", "tyttö"],
+        },
+    ],
     variants: &[
         crate::Emoji {
             glyph: "⛹\u{200d}♀\u{fe0f}",
@@ -1629,7 +1838,18 @@ pub const PERSON_LIFTING_WEIGHTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "person lifting weights",
-    annotations: &["lifter", "person lifting weights", "weight"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person lifting weights"),
+            keywords: &["lifter", "person lifting weights", "weight"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("painonnostaja"),
+            keywords: &["kehonrakennus", "painonnostaja", "painot", "treeni"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🏋",
         codepoint: "1F3CB",
@@ -1697,7 +1917,18 @@ pub const MAN_LIFTING_WEIGHTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man lifting weights",
-    annotations: &["man", "man lifting weights", "weight lifter"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man lifting weights"),
+            keywords: &["man", "man lifting weights", "weight lifter"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("painonnostajamies"),
+            keywords: &["mies", "painonnostajamies", "painonnosto"],
+        },
+    ],
     variants: &[
         crate::Emoji {
             glyph: "🏋\u{200d}♂\u{fe0f}",
@@ -1825,7 +2056,18 @@ pub const WOMAN_LIFTING_WEIGHTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman lifting weights",
-    annotations: &["weight lifter", "woman", "woman lifting weights"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman lifting weights"),
+            keywords: &["weight lifter", "woman", "woman lifting weights"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("painonnostajanainen"),
+            keywords: &["nainen", "painonnostajanainen", "painonnosto"],
+        },
+    ],
     variants: &[
         crate::Emoji {
             glyph: "🏋\u{200d}♀\u{fe0f}",
@@ -1953,7 +2195,18 @@ pub const PERSON_BIKING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "person biking",
-    annotations: &["bicycle", "biking", "cyclist", "person biking"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person biking"),
+            keywords: &["bicycle", "biking", "cyclist", "person biking"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pyöräilijä"),
+            keywords: &["polkupyörä", "pyörä", "pyöräilijä"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🚴🏻"]
@@ -2013,7 +2266,18 @@ pub const MAN_BIKING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man biking",
-    annotations: &["bicycle", "biking", "cyclist", "man", "man biking"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man biking"),
+            keywords: &["bicycle", "biking", "cyclist", "man"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pyöräilevä mies"),
+            keywords: &["mies", "pyöräilevä mies", "pyöräilijä"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🚴\u{200d}♂",
         codepoint: "1F6B4 200D 2642",
@@ -2121,7 +2385,18 @@ pub const WOMAN_BIKING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman biking",
-    annotations: &["bicycle", "biking", "cyclist", "woman", "woman biking"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman biking"),
+            keywords: &["bicycle", "biking", "cyclist", "woman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pyöräileva nainen"),
+            keywords: &["nainen", "pyöräileva nainen", "pyöräilijä"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🚴\u{200d}♀",
         codepoint: "1F6B4 200D 2640",
@@ -2230,12 +2505,29 @@ pub const PERSON_MOUNTAIN_BIKING: crate::Emoji = crate::Emoji {
     introduction_version: 1f32,
     name: "person mountain biking",
     annotations: &[
-        "bicycle",
-        "bicyclist",
-        "bike",
-        "cyclist",
-        "mountain",
-        "person mountain biking",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person mountain biking"),
+            keywords: &[
+                "bicycle",
+                "bicyclist",
+                "bike",
+                "cyclist",
+                "mountain",
+                "person mountain biking",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("maastopyöräilijä"),
+            keywords: &[
+                "maasto",
+                "maastopyöräilijä",
+                "polkupyörä",
+                "pyörä",
+                "pyöräilijä",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -2297,12 +2589,23 @@ pub const MAN_MOUNTAIN_BIKING: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "man mountain biking",
     annotations: &[
-        "bicycle",
-        "bike",
-        "cyclist",
-        "man",
-        "man mountain biking",
-        "mountain",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man mountain biking"),
+            keywords: &[
+                "bicycle",
+                "bike",
+                "cyclist",
+                "man",
+                "man mountain biking",
+                "mountain",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("maastopyöräilevä mies"),
+            keywords: &["maastopyöräilevä mies", "mies", "pyöräilijä", "vuori"],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🚵\u{200d}♂",
@@ -2412,13 +2715,16 @@ pub const WOMAN_MOUNTAIN_BIKING: crate::Emoji = crate::Emoji {
     introduction_version: 4f32,
     name: "woman mountain biking",
     annotations: &[
-        "bicycle",
-        "bike",
-        "biking",
-        "cyclist",
-        "mountain",
-        "woman",
-        "woman mountain biking",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman mountain biking"),
+            keywords: &["bicycle", "bike", "biking", "cyclist", "mountain", "woman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("maastopyöräilevä nainen"),
+            keywords: &["maastopyöräilevä nainen", "nainen", "pyöräilijä", "vuori"],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🚵\u{200d}♀",
@@ -2527,7 +2833,18 @@ pub const PERSON_CARTWHEELING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "person cartwheeling",
-    annotations: &["cartwheel", "gymnastics", "person cartwheeling"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person cartwheeling"),
+            keywords: &["cartwheel", "gymnastics", "person cartwheeling"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kärrynpyörä"),
+            keywords: &["kärrynpyörä", "liikunta", "urheilu", "voimistelu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤸🏻"]
@@ -2587,7 +2904,18 @@ pub const MAN_CARTWHEELING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man cartwheeling",
-    annotations: &["cartwheel", "gymnastics", "man", "man cartwheeling"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man cartwheeling"),
+            keywords: &["cartwheel", "gymnastics", "man", "man cartwheeling"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kärrynpyörää tekevä mies"),
+            keywords: &["kärrynpyörä", "kärrynpyörää tekevä mies", "mies"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🤸\u{200d}♂",
         codepoint: "1F938 200D 2642",
@@ -2695,7 +3023,18 @@ pub const WOMAN_CARTWHEELING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman cartwheeling",
-    annotations: &["cartwheel", "gymnastics", "woman", "woman cartwheeling"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman cartwheeling"),
+            keywords: &["cartwheel", "gymnastics", "woman", "woman cartwheeling"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kärrynpyörää tekevä nainen"),
+            keywords: &["kärrynpyörä", "kärrynpyörää tekevä nainen", "nainen"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🤸\u{200d}♀",
         codepoint: "1F938 200D 2640",
@@ -2803,7 +3142,18 @@ pub const PEOPLE_WRESTLING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "people wrestling",
-    annotations: &["people wrestling", "wrestle", "wrestler"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("people wrestling"),
+            keywords: &["people wrestling", "wrestle", "wrestler"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("painijat"),
+            keywords: &["liikunta", "painia", "painija", "painijat", "urheilu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤼\u{200d}♂\u{fe0f}"]
@@ -2813,7 +3163,18 @@ pub const MEN_WRESTLING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "men wrestling",
-    annotations: &["men", "men wrestling", "wrestle"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("men wrestling"),
+            keywords: &["men", "men wrestling", "wrestle"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("painivat miehet"),
+            keywords: &["judo", "kamppailu", "miehet", "painivat miehet"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🤼\u{200d}♂",
         codepoint: "1F93C 200D 2642",
@@ -2831,7 +3192,18 @@ pub const WOMEN_WRESTLING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "women wrestling",
-    annotations: &["women", "women wrestling", "wrestle"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("women wrestling"),
+            keywords: &["women", "women wrestling", "wrestle"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("painivat naiset"),
+            keywords: &["judo", "kamppailu", "naiset", "painivat naiset"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🤼\u{200d}♀",
         codepoint: "1F93C 200D 2640",
@@ -2849,7 +3221,18 @@ pub const PERSON_PLAYING_WATER_POLO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "person playing water polo",
-    annotations: &["person playing water polo", "polo", "water"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person playing water polo"),
+            keywords: &["person playing water polo", "polo", "water"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vesipalloilija"),
+            keywords: &["liikunta", "pallo", "urheilu", "vesi", "vesipalloilija"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤽🏻"]
@@ -2909,7 +3292,18 @@ pub const MAN_PLAYING_WATER_POLO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man playing water polo",
-    annotations: &["man", "man playing water polo", "water polo"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man playing water polo"),
+            keywords: &["man", "man playing water polo", "water polo"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vesipalloa pelaava mies"),
+            keywords: &["mies", "vesipallo", "vesipalloa pelaava mies"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🤽\u{200d}♂",
         codepoint: "1F93D 200D 2642",
@@ -3017,7 +3411,18 @@ pub const WOMAN_PLAYING_WATER_POLO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman playing water polo",
-    annotations: &["water polo", "woman", "woman playing water polo"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman playing water polo"),
+            keywords: &["water polo", "woman", "woman playing water polo"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vesipalloa pelaava nainen"),
+            keywords: &["nainen", "vesipallo", "vesipalloa pelaava nainen"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🤽\u{200d}♀",
         codepoint: "1F93D 200D 2640",
@@ -3125,7 +3530,24 @@ pub const PERSON_PLAYING_HANDBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "person playing handball",
-    annotations: &["ball", "handball", "person playing handball"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person playing handball"),
+            keywords: &["ball", "handball", "person playing handball"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("käsipalloilija"),
+            keywords: &[
+                "käsipallo",
+                "käsipalloilija",
+                "liikunta",
+                "pallo",
+                "urheilu",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤾🏻"]
@@ -3185,7 +3607,18 @@ pub const MAN_PLAYING_HANDBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man playing handball",
-    annotations: &["handball", "man", "man playing handball"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man playing handball"),
+            keywords: &["handball", "man", "man playing handball"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("käsipalloa pelaava mies"),
+            keywords: &["käsipallo", "käsipalloa pelaava mies", "mies"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🤾\u{200d}♂",
         codepoint: "1F93E 200D 2642",
@@ -3293,7 +3726,18 @@ pub const WOMAN_PLAYING_HANDBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman playing handball",
-    annotations: &["handball", "woman", "woman playing handball"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman playing handball"),
+            keywords: &["handball", "woman", "woman playing handball"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("käsipalloa pelaava nainen"),
+            keywords: &["käsipallo", "käsipalloa pelaava nainen", "nainen"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🤾\u{200d}♀",
         codepoint: "1F93E 200D 2640",
@@ -3401,7 +3845,18 @@ pub const PERSON_JUGGLING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "person juggling",
-    annotations: &["balance", "juggle", "multitask", "person juggling", "skill"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("person juggling"),
+            keywords: &["balance", "juggle", "multitask", "person juggling", "skill"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("jongleeraaja"),
+            keywords: &["jongleeraaja", "jongleeraus", "taito", "tasapainoilu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🤹🏻"]
@@ -3461,7 +3916,18 @@ pub const MAN_JUGGLING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "man juggling",
-    annotations: &["juggling", "man", "man juggling", "multitask"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man juggling"),
+            keywords: &["juggling", "man", "multitask"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("jongleeraava mies"),
+            keywords: &["jongleeraava mies", "jongleeraus", "mies"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🤹\u{200d}♂",
         codepoint: "1F939 200D 2642",
@@ -3569,7 +4035,18 @@ pub const WOMAN_JUGGLING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "woman juggling",
-    annotations: &["juggling", "multitask", "woman", "woman juggling"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman juggling"),
+            keywords: &["juggling", "multitask", "woman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("jongleeraava nainen"),
+            keywords: &["jongleeraava nainen", "jongleeraus", "nainen"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🤹\u{200d}♀",
         codepoint: "1F939 200D 2640",

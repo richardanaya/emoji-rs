@@ -6,12 +6,23 @@ pub const BABY_ANGEL: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "baby angel",
     annotations: &[
-        "angel",
-        "baby",
-        "baby angel",
-        "face",
-        "fairy tale",
-        "fantasy",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("baby angel"),
+            keywords: &["angel", "baby", "face", "fairy tale", "fantasy"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("enkelivauva"),
+            keywords: &[
+                "enkeli",
+                "enkelivauva",
+                "fantasia",
+                "naama",
+                "satu",
+                "vauva",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -73,12 +84,23 @@ pub const SANTA_CLAUS: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "Santa Claus",
     annotations: &[
-        "Christmas",
-        "Santa Claus",
-        "celebration",
-        "claus",
-        "father",
-        "santa",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("Santa Claus"),
+            keywords: &[
+                "Christmas",
+                "Santa Claus",
+                "celebration",
+                "claus",
+                "father",
+                "santa",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("joulupukki"),
+            keywords: &["fantasia", "joulu", "joulupukki", "juhla", "satu"],
+        },
     ],
     variants: &[],
 };
@@ -140,12 +162,23 @@ pub const MRS_CLAUS: crate::Emoji = crate::Emoji {
     introduction_version: 3f32,
     name: "Mrs. Claus",
     annotations: &[
-        "Christmas",
-        "Mrs.",
-        "Mrs. Claus",
-        "celebration",
-        "claus",
-        "mother",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("Mrs. Claus"),
+            keywords: &[
+                "Christmas",
+                "Mrs.",
+                "Mrs. Claus",
+                "celebration",
+                "claus",
+                "mother",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("joulupukin muori"),
+            keywords: &["joulu", "joulupukin muori", "muori"],
+        },
     ],
     variants: &[],
 };
@@ -206,7 +239,18 @@ pub const MX_CLAUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "mx claus",
-    annotations: &["Claus, christmas", "mx claus"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("mx claus"),
+            keywords: &["Claus, christmas", "mx claus"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("tonttu"),
+            keywords: &["joulutonttu", "tonttu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧑🏻\u{200d}🎄"]
@@ -266,7 +310,25 @@ pub const SUPERHERO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "superhero",
-    annotations: &["good", "hero", "heroine", "superhero", "superpower"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("superhero"),
+            keywords: &["good", "hero", "heroine", "superhero", "superpower"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("supersankari"),
+            keywords: &[
+                "hyvis",
+                "hyvä",
+                "sankari",
+                "sankaritar",
+                "supersankari",
+                "supervoimat",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🦸🏻"]
@@ -326,7 +388,24 @@ pub const MAN_SUPERHERO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "man superhero",
-    annotations: &["good", "hero", "man", "man superhero", "superpower"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man superhero"),
+            keywords: &["good", "hero", "man", "man superhero", "superpower"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("miessupersankari"),
+            keywords: &[
+                "hyvis",
+                "hyvä",
+                "miessupersankari",
+                "sankari",
+                "supervoimat",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🦸\u{200d}♂",
         codepoint: "1F9B8 200D 2642",
@@ -435,12 +514,30 @@ pub const WOMAN_SUPERHERO: crate::Emoji = crate::Emoji {
     introduction_version: 11f32,
     name: "woman superhero",
     annotations: &[
-        "good",
-        "hero",
-        "heroine",
-        "superpower",
-        "woman",
-        "woman superhero",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman superhero"),
+            keywords: &[
+                "good",
+                "hero",
+                "heroine",
+                "superpower",
+                "woman",
+                "woman superhero",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("naissupersankari"),
+            keywords: &[
+                "hyvis",
+                "hyvä",
+                "naissupersankari",
+                "sankari",
+                "sankaritar",
+                "supervoimat",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🦸\u{200d}♀",
@@ -549,7 +646,26 @@ pub const SUPERVILLAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "supervillain",
-    annotations: &["criminal", "evil", "superpower", "supervillain", "villain"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("supervillain"),
+            keywords: &["criminal", "evil", "superpower", "supervillain", "villain"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("superpahis"),
+            keywords: &[
+                "kelmi",
+                "konna",
+                "paha",
+                "rikollinen",
+                "roisto",
+                "superpahis",
+                "supervoimat",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🦹🏻"]
@@ -610,12 +726,31 @@ pub const MAN_SUPERVILLAIN: crate::Emoji = crate::Emoji {
     introduction_version: 11f32,
     name: "man supervillain",
     annotations: &[
-        "criminal",
-        "evil",
-        "man",
-        "man supervillain",
-        "superpower",
-        "villain",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man supervillain"),
+            keywords: &[
+                "criminal",
+                "evil",
+                "man",
+                "man supervillain",
+                "superpower",
+                "villain",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("miessuperpahis"),
+            keywords: &[
+                "kelmi",
+                "konna",
+                "miessuperpahis",
+                "paha",
+                "rikollinen",
+                "roisto",
+                "supervoimat",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🦹\u{200d}♂",
@@ -725,12 +860,31 @@ pub const WOMAN_SUPERVILLAIN: crate::Emoji = crate::Emoji {
     introduction_version: 11f32,
     name: "woman supervillain",
     annotations: &[
-        "criminal",
-        "evil",
-        "superpower",
-        "villain",
-        "woman",
-        "woman supervillain",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman supervillain"),
+            keywords: &[
+                "criminal",
+                "evil",
+                "superpower",
+                "villain",
+                "woman",
+                "woman supervillain",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("naissuperpahis"),
+            keywords: &[
+                "kelmi",
+                "konna",
+                "naissuperpahis",
+                "paha",
+                "rikollinen",
+                "roisto",
+                "supervoimat",
+            ],
+        },
     ],
     variants: &[crate::Emoji {
         glyph: "🦹\u{200d}♀",
@@ -839,7 +993,27 @@ pub const MAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "mage",
-    annotations: &["mage", "sorcerer", "sorceress", "witch", "wizard"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("mage"),
+            keywords: &["mage", "sorcerer", "sorceress", "witch", "wizard"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("velho"),
+            keywords: &[
+                "maagi",
+                "noita",
+                "sauva",
+                "taikasauva",
+                "taikavoima",
+                "taikuri",
+                "tietäjä",
+                "velho",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧙🏻"]
@@ -899,7 +1073,27 @@ pub const MAN_MAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "man mage",
-    annotations: &["man mage", "sorcerer", "wizard"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man mage"),
+            keywords: &["man mage", "sorcerer", "wizard"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("miesvelho"),
+            keywords: &[
+                "maagi",
+                "miesvelho",
+                "noita",
+                "sauva",
+                "taikasauva",
+                "taikavoima",
+                "taikuri",
+                "tietäjä",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧙\u{200d}♂",
         codepoint: "1F9D9 200D 2642",
@@ -1007,7 +1201,27 @@ pub const WOMAN_MAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "woman mage",
-    annotations: &["sorceress", "witch", "woman mage"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman mage"),
+            keywords: &["sorceress", "witch", "woman mage"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("naisvelho"),
+            keywords: &[
+                "maagi",
+                "naisvelho",
+                "noita",
+                "sauva",
+                "taikasauva",
+                "taikavoima",
+                "taikuri",
+                "tietäjä",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧙\u{200d}♀",
         codepoint: "1F9D9 200D 2640",
@@ -1115,7 +1329,27 @@ pub const FAIRY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "fairy",
-    annotations: &["Oberon", "Puck", "Titania", "fairy"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("fairy"),
+            keywords: &["Oberon", "Puck", "Titania", "fairy"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("keiju"),
+            keywords: &[
+                "Oberon",
+                "Puck",
+                "Titania",
+                "hyönteismäinen",
+                "ilmatar",
+                "keiju",
+                "keijukainen",
+                "luonnotar",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧚🏻"]
@@ -1175,7 +1409,18 @@ pub const MAN_FAIRY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "man fairy",
-    annotations: &["Oberon", "Puck", "man fairy"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man fairy"),
+            keywords: &["Oberon", "Puck", "man fairy"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mieskeiju"),
+            keywords: &["Oberon", "Puck", "hyönteismäinen", "mieskeiju", "siivet"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧚\u{200d}♂",
         codepoint: "1F9DA 200D 2642",
@@ -1283,7 +1528,26 @@ pub const WOMAN_FAIRY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "woman fairy",
-    annotations: &["Titania", "woman fairy"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman fairy"),
+            keywords: &["Titania", "woman fairy"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("naiskeiju"),
+            keywords: &[
+                "Titania",
+                "ilmatar",
+                "keijukainen",
+                "keijukuningatar",
+                "luonnotar",
+                "metsänneito",
+                "naiskeiju",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧚\u{200d}♀",
         codepoint: "1F9DA 200D 2640",
@@ -1391,7 +1655,26 @@ pub const VAMPIRE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "vampire",
-    annotations: &["Dracula", "undead", "vampire"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("vampire"),
+            keywords: &["Dracula", "undead", "vampire"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vampyyri"),
+            keywords: &[
+                "Dracula",
+                "elävä kuollut",
+                "hampaat",
+                "torahammas",
+                "vampyyri",
+                "verenhimo",
+                "verenimijä",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧛🏻"]
@@ -1451,7 +1734,26 @@ pub const MAN_VAMPIRE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "man vampire",
-    annotations: &["Dracula", "man vampire", "undead"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man vampire"),
+            keywords: &["Dracula", "man vampire", "undead"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("miesvampyyri"),
+            keywords: &[
+                "Dracula",
+                "elävä kuollut",
+                "hampaat",
+                "miesvampyyri",
+                "torahammas",
+                "verenhimo",
+                "verenimijä",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧛\u{200d}♂",
         codepoint: "1F9DB 200D 2642",
@@ -1559,7 +1861,25 @@ pub const WOMAN_VAMPIRE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "woman vampire",
-    annotations: &["undead", "woman vampire"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman vampire"),
+            keywords: &["undead", "woman vampire"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("naisvampyyri"),
+            keywords: &[
+                "elävä kuollut",
+                "hampaat",
+                "naisvampyyri",
+                "torahammas",
+                "verenhimo",
+                "verenimijä",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧛\u{200d}♀",
         codepoint: "1F9DB 200D 2640",
@@ -1667,7 +1987,24 @@ pub const MERPERSON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "merperson",
-    annotations: &["mermaid", "merman", "merperson", "merwoman"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("merperson"),
+            keywords: &["mermaid", "merman", "merperson", "merwoman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("merenväki"),
+            keywords: &[
+                "kalanpyrstö",
+                "merenhaltija",
+                "merenväki",
+                "vedenhaltija",
+                "vetehinen",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧜🏻"]
@@ -1727,7 +2064,27 @@ pub const MERMAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "merman",
-    annotations: &["Triton", "merman"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("merman"),
+            keywords: &["Triton", "merman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("merenmies"),
+            keywords: &[
+                "Ahti",
+                "Triton",
+                "kalanpyrstö",
+                "merenhaltija",
+                "merenmies",
+                "merenväki",
+                "vedenhaltija",
+                "vetehinen",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧜\u{200d}♂",
         codepoint: "1F9DC 200D 2642",
@@ -1835,7 +2192,25 @@ pub const MERMAID: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "mermaid",
-    annotations: &["mermaid", "merwoman"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("mermaid"),
+            keywords: &["mermaid", "merwoman"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("merenneito"),
+            keywords: &[
+                "kalanpyrstö",
+                "merenneito",
+                "merenväki",
+                "pyrstö",
+                "seireeni",
+                "vedenväki",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧜\u{200d}♀",
         codepoint: "1F9DC 200D 2640",
@@ -1943,7 +2318,25 @@ pub const ELF: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "elf",
-    annotations: &["elf", "magical"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("elf"),
+            keywords: &["elf", "magical"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("haltia"),
+            keywords: &[
+                "Legolas",
+                "alf",
+                "haltia",
+                "keiju",
+                "keijukainen",
+                "suippokorva",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧝🏻"]
@@ -2003,7 +2396,25 @@ pub const MAN_ELF: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "man elf",
-    annotations: &["magical", "man elf"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man elf"),
+            keywords: &["magical", "man elf"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mieshaltia"),
+            keywords: &[
+                "Legolas",
+                "alf",
+                "haltia",
+                "keiju",
+                "mieshaltia",
+                "suippokorva",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧝\u{200d}♂",
         codepoint: "1F9DD 200D 2642",
@@ -2111,7 +2522,25 @@ pub const WOMAN_ELF: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "woman elf",
-    annotations: &["magical", "woman elf"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman elf"),
+            keywords: &["magical", "woman elf"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("haltiatar"),
+            keywords: &[
+                "Galadriel",
+                "alf",
+                "haltia",
+                "haltiatar",
+                "keiju",
+                "suippokorva",
+            ],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧝\u{200d}♀",
         codepoint: "1F9DD 200D 2640",
@@ -2219,7 +2648,18 @@ pub const GENIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "genie",
-    annotations: &["djinn", "genie"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("genie"),
+            keywords: &["djinn", "genie"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("henki"),
+            keywords: &["genius", "henki", "jinni", "juno", "lamppu"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧞\u{200d}♂\u{fe0f}"]
@@ -2229,7 +2669,18 @@ pub const MAN_GENIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "man genie",
-    annotations: &["djinn", "man genie"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man genie"),
+            keywords: &["djinn", "man genie"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mieshenki"),
+            keywords: &["genius", "henki", "jinni", "lamppu", "mieshenki"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧞\u{200d}♂",
         codepoint: "1F9DE 200D 2642",
@@ -2247,7 +2698,18 @@ pub const WOMAN_GENIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "woman genie",
-    annotations: &["djinn", "woman genie"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman genie"),
+            keywords: &["djinn", "woman genie"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("naishenki"),
+            keywords: &["henki", "juno", "lamppu", "naishenki"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧞\u{200d}♀",
         codepoint: "1F9DE 200D 2640",
@@ -2265,7 +2727,18 @@ pub const ZOMBIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "zombie",
-    annotations: &["undead", "walking dead", "zombie"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("zombie"),
+            keywords: &["undead", "walking dead", "zombie"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("zombi"),
+            keywords: &["elävä kuollut", "tahdoton", "voodoo", "zombi", "zombie"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧟\u{200d}♂\u{fe0f}"]
@@ -2275,7 +2748,18 @@ pub const MAN_ZOMBIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "man zombie",
-    annotations: &["man zombie", "undead", "walking dead"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("man zombie"),
+            keywords: &["man zombie", "undead", "walking dead"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mieszombi"),
+            keywords: &["elävä kuollut", "mieszombi", "tahdoton", "voodoo", "zombie"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧟\u{200d}♂",
         codepoint: "1F9DF 200D 2642",
@@ -2293,7 +2777,18 @@ pub const WOMAN_ZOMBIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "woman zombie",
-    annotations: &["undead", "walking dead", "woman zombie"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman zombie"),
+            keywords: &["undead", "walking dead", "woman zombie"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("naiszombi"),
+            keywords: &["elävä kuollut", "naiszombi", "tahdoton", "voodoo", "zombie"],
+        },
+    ],
     variants: &[crate::Emoji {
         glyph: "🧟\u{200d}♀",
         codepoint: "1F9DF 200D 2640",

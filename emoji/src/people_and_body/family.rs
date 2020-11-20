@@ -6,12 +6,30 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
     introduction_version: 12f32,
     name: "people holding hands",
     annotations: &[
-        "couple",
-        "hand",
-        "hold",
-        "holding hands",
-        "people holding hands",
-        "person",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("people holding hands"),
+            keywords: &[
+                "couple",
+                "hand",
+                "hold",
+                "holding hands",
+                "people holding hands",
+                "person",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ihmiset käsi kädessä"),
+            keywords: &[
+                "henkilö",
+                "ihmiset käsi kädessä",
+                "käsi",
+                "pari",
+                "pitää",
+                "pitää toisiaan käsistä",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -281,11 +299,28 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
     introduction_version: 1f32,
     name: "women holding hands",
     annotations: &[
-        "couple",
-        "hand",
-        "holding hands",
-        "women",
-        "women holding hands",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("women holding hands"),
+            keywords: &[
+                "couple",
+                "hand",
+                "holding hands",
+                "women",
+                "women holding hands",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kaksi naista käsi kädessä"),
+            keywords: &[
+                "kaksi naista käsi kädessä",
+                "kädestä pitäminen",
+                "käsi",
+                "nainen",
+                "pariskunta",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -551,13 +586,31 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
     introduction_version: 0.6f32,
     name: "woman and man holding hands",
     annotations: &[
-        "couple",
-        "hand",
-        "hold",
-        "holding hands",
-        "man",
-        "woman",
-        "woman and man holding hands",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("woman and man holding hands"),
+            keywords: &[
+                "couple",
+                "hand",
+                "hold",
+                "holding hands",
+                "man",
+                "woman",
+                "woman and man holding hands",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mies ja nainen käsi kädessä"),
+            keywords: &[
+                "kädestä pitäminen",
+                "käsi",
+                "mies",
+                "mies ja nainen käsi kädessä",
+                "nainen",
+                "pariskunta",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -837,14 +890,30 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
     introduction_version: 1f32,
     name: "men holding hands",
     annotations: &[
-        "Gemini",
-        "couple",
-        "holding hands",
-        "man",
-        "men",
-        "men holding hands",
-        "twins",
-        "zodiac",
+        crate::Annotation {
+            lang: "en",
+            tts: Some("men holding hands"),
+            keywords: &[
+                "Gemini",
+                "couple",
+                "holding hands",
+                "man",
+                "men",
+                "men holding hands",
+                "twins",
+                "zodiac",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kaksi miestä käsi kädessä"),
+            keywords: &[
+                "kaksi miestä käsi kädessä",
+                "kaksonen",
+                "kaksoset",
+                "miespari",
+            ],
+        },
     ],
     variants: &[],
 };
@@ -1107,7 +1176,18 @@ pub const KISS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "kiss",
-    annotations: &["couple", "kiss"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("kiss"),
+            keywords: &["couple", "kiss"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pusu"),
+            keywords: &["pariskunta", "pusu", "romantiikka"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧑🏻\u{200d}❤\u{fe0f}\u{200d}💋\u{200d}🧑🏼"]
@@ -2887,7 +2967,24 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "couple with heart",
-    annotations: &["couple", "couple with heart", "love"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("couple with heart"),
+            keywords: &["couple", "couple with heart", "love"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pariskunta ja sydän"),
+            keywords: &[
+                "pariskunta",
+                "pariskunta ja sydän",
+                "rakkaus",
+                "romantiikka",
+                "sydän",
+            ],
+        },
+    ],
     variants: &[],
 };
 #[doc = "🧑🏻\u{200d}❤\u{fe0f}\u{200d}🧑🏼"]
@@ -4733,7 +4830,18 @@ pub const FAMILY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "family",
-    annotations: &["family"],
+    annotations: &[
+        crate::Annotation {
+            lang: "en",
+            tts: Some("family"),
+            keywords: &["family"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("perhe"),
+            keywords: &["isä", "lapsi", "perhe", "äiti"],
+        },
+    ],
     variants: &[],
 };
 #[doc = "👨\u{200d}👩\u{200d}👦"]
