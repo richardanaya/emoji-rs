@@ -5,6 +5,8 @@ pub const SHUFFLE_TRACKS_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "shuffle tracks button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const SHUFFLE_TRACKS_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["nappi", "nuoli", "painike", "ristissä", "sekoitus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔁"]
 pub const REPEAT_BUTTON: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const REPEAT_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "repeat button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -45,7 +48,6 @@ pub const REPEAT_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔂"]
 pub const REPEAT_SINGLE_BUTTON: crate::Emoji = crate::Emoji {
@@ -54,6 +56,8 @@ pub const REPEAT_SINGLE_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "repeat single button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -73,7 +77,6 @@ pub const REPEAT_SINGLE_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "▶\u{fe0f}"]
 pub const PLAY_BUTTON: crate::Emoji = crate::Emoji {
@@ -82,6 +85,17 @@ pub const PLAY_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "play button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "▶",
+        codepoint: "25B6",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "play button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -96,15 +110,6 @@ pub const PLAY_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "▶",
-        codepoint: "25B6",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "play button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⏩"]
 pub const FAST_FORWARD_BUTTON: crate::Emoji = crate::Emoji {
@@ -113,6 +118,8 @@ pub const FAST_FORWARD_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fast-forward button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -133,7 +140,6 @@ pub const FAST_FORWARD_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "⏭\u{fe0f}"]
 pub const NEXT_TRACK_BUTTON: crate::Emoji = crate::Emoji {
@@ -142,6 +148,17 @@ pub const NEXT_TRACK_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "next track button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⏭",
+        codepoint: "23ED",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "next track button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -168,15 +185,6 @@ pub const NEXT_TRACK_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⏭",
-        codepoint: "23ED",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "next track button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⏯\u{fe0f}"]
 pub const PLAY_OR_PAUSE_BUTTON: crate::Emoji = crate::Emoji {
@@ -185,6 +193,17 @@ pub const PLAY_OR_PAUSE_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "play or pause button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⏯",
+        codepoint: "23EF",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "play or pause button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -213,15 +232,6 @@ pub const PLAY_OR_PAUSE_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⏯",
-        codepoint: "23EF",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "play or pause button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "◀\u{fe0f}"]
 pub const REVERSE_BUTTON: crate::Emoji = crate::Emoji {
@@ -230,6 +240,17 @@ pub const REVERSE_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "reverse button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "◀",
+        codepoint: "25C0",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "reverse button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -249,15 +270,6 @@ pub const REVERSE_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "◀",
-        codepoint: "25C0",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "reverse button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⏪"]
 pub const FAST_REVERSE_BUTTON: crate::Emoji = crate::Emoji {
@@ -266,6 +278,8 @@ pub const FAST_REVERSE_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fast reverse button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -286,7 +300,6 @@ pub const FAST_REVERSE_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "⏮\u{fe0f}"]
 pub const LAST_TRACK_BUTTON: crate::Emoji = crate::Emoji {
@@ -295,6 +308,17 @@ pub const LAST_TRACK_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "last track button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⏮",
+        codepoint: "23EE",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "last track button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -321,15 +345,6 @@ pub const LAST_TRACK_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⏮",
-        codepoint: "23EE",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "last track button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🔼"]
 pub const UPWARDS_BUTTON: crate::Emoji = crate::Emoji {
@@ -338,6 +353,8 @@ pub const UPWARDS_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "upwards button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -350,7 +367,6 @@ pub const UPWARDS_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["kolmio", "nappi", "painike", "ylös"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⏫"]
 pub const FAST_UP_BUTTON: crate::Emoji = crate::Emoji {
@@ -359,6 +375,8 @@ pub const FAST_UP_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fast up button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -371,7 +389,6 @@ pub const FAST_UP_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["2", "kolmio", "nappi", "nopeasti ylös", "painike", "ylös"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔽"]
 pub const DOWNWARDS_BUTTON: crate::Emoji = crate::Emoji {
@@ -380,6 +397,8 @@ pub const DOWNWARDS_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "downwards button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -392,7 +411,6 @@ pub const DOWNWARDS_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["alas", "kolmio", "nappi", "painike"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⏬"]
 pub const FAST_DOWN_BUTTON: crate::Emoji = crate::Emoji {
@@ -401,6 +419,8 @@ pub const FAST_DOWN_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fast down button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -413,7 +433,6 @@ pub const FAST_DOWN_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["2", "alas", "kolmio", "nappi", "nopeasti alas", "painike"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⏸\u{fe0f}"]
 pub const PAUSE_BUTTON: crate::Emoji = crate::Emoji {
@@ -422,6 +441,17 @@ pub const PAUSE_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "pause button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⏸",
+        codepoint: "23F8",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "pause button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -434,15 +464,6 @@ pub const PAUSE_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["2", "nappi", "painike", "palkki", "pysäytä", "tauko"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⏸",
-        codepoint: "23F8",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "pause button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⏹\u{fe0f}"]
 pub const STOP_BUTTON: crate::Emoji = crate::Emoji {
@@ -451,6 +472,17 @@ pub const STOP_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "stop button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⏹",
+        codepoint: "23F9",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "stop button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -463,15 +495,6 @@ pub const STOP_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["lopeta", "nappi", "neliö", "painike", "pysäytä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⏹",
-        codepoint: "23F9",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "stop button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⏺\u{fe0f}"]
 pub const RECORD_BUTTON: crate::Emoji = crate::Emoji {
@@ -480,6 +503,17 @@ pub const RECORD_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "record button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⏺",
+        codepoint: "23FA",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "record button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -499,15 +533,6 @@ pub const RECORD_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⏺",
-        codepoint: "23FA",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "record button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⏏\u{fe0f}"]
 pub const EJECT_BUTTON: crate::Emoji = crate::Emoji {
@@ -516,6 +541,17 @@ pub const EJECT_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "eject button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⏏",
+        codepoint: "23CF",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "eject button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -528,15 +564,6 @@ pub const EJECT_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["anna", "avaus", "nappi", "painike", "poista"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⏏",
-        codepoint: "23CF",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "eject button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🎦"]
 pub const CINEMA: crate::Emoji = crate::Emoji {
@@ -545,6 +572,8 @@ pub const CINEMA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cinema",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -557,7 +586,6 @@ pub const CINEMA: crate::Emoji = crate::Emoji {
             keywords: &["elokuva", "kamera", "kuvata", "video", "videokuva"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔅"]
 pub const DIM_BUTTON: crate::Emoji = crate::Emoji {
@@ -566,6 +594,8 @@ pub const DIM_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "dim button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -578,7 +608,6 @@ pub const DIM_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["himmennä", "kirkkaus", "nappi", "painike", "vähennä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔆"]
 pub const BRIGHT_BUTTON: crate::Emoji = crate::Emoji {
@@ -587,6 +616,8 @@ pub const BRIGHT_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "bright button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -599,7 +630,6 @@ pub const BRIGHT_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["kirkasta", "kirkkaus", "lisää", "nappi", "painike"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📶"]
 pub const ANTENNA_BARS: crate::Emoji = crate::Emoji {
@@ -608,6 +638,8 @@ pub const ANTENNA_BARS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "antenna bars",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -628,7 +660,6 @@ pub const ANTENNA_BARS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📳"]
 pub const VIBRATION_MODE: crate::Emoji = crate::Emoji {
@@ -637,6 +668,8 @@ pub const VIBRATION_MODE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "vibration mode",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -656,7 +689,6 @@ pub const VIBRATION_MODE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📴"]
 pub const MOBILE_PHONE_OFF: crate::Emoji = crate::Emoji {
@@ -665,6 +697,8 @@ pub const MOBILE_PHONE_OFF: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "mobile phone off",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -683,5 +717,4 @@ pub const MOBILE_PHONE_OFF: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

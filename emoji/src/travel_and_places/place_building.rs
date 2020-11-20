@@ -5,6 +5,17 @@ pub const STADIUM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "stadium",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏟",
+        codepoint: "1F3DF",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "stadium",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const STADIUM: crate::Emoji = crate::Emoji {
             keywords: &["stadion", "urheilukatsomo"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏟",
-        codepoint: "1F3DF",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "stadium",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🏛\u{fe0f}"]
 pub const CLASSICAL_BUILDING: crate::Emoji = crate::Emoji {
@@ -34,6 +36,17 @@ pub const CLASSICAL_BUILDING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "classical building",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏛",
+        codepoint: "1F3DB",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "classical building",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -46,15 +59,6 @@ pub const CLASSICAL_BUILDING: crate::Emoji = crate::Emoji {
             keywords: &["antiikki", "klassinen rakennus", "klassismi", "rakennus"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏛",
-        codepoint: "1F3DB",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "classical building",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🏗\u{fe0f}"]
 pub const BUILDING_CONSTRUCTION: crate::Emoji = crate::Emoji {
@@ -63,6 +67,17 @@ pub const BUILDING_CONSTRUCTION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "building construction",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏗",
+        codepoint: "1F3D7",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "building construction",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -75,15 +90,6 @@ pub const BUILDING_CONSTRUCTION: crate::Emoji = crate::Emoji {
             keywords: &["rakennus", "rakennustyömaa", "työmaa"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏗",
-        codepoint: "1F3D7",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "building construction",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🧱"]
 pub const BRICK: crate::Emoji = crate::Emoji {
@@ -92,6 +98,8 @@ pub const BRICK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "brick",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -104,7 +112,6 @@ pub const BRICK: crate::Emoji = crate::Emoji {
             keywords: &["laasti", "muuri", "savi", "seinä", "tiilet", "tiili"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪨"]
 pub const ROCK: crate::Emoji = crate::Emoji {
@@ -113,6 +120,8 @@ pub const ROCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "rock",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -125,7 +134,6 @@ pub const ROCK: crate::Emoji = crate::Emoji {
             keywords: &["kallio", "kivi", "lohkare", "painava"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪵"]
 pub const WOOD: crate::Emoji = crate::Emoji {
@@ -134,6 +142,8 @@ pub const WOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "wood",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -146,7 +156,6 @@ pub const WOOD: crate::Emoji = crate::Emoji {
             keywords: &["halko", "puu", "puutavara", "pölkky"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛖"]
 pub const HUT: crate::Emoji = crate::Emoji {
@@ -155,6 +164,8 @@ pub const HUT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "hut",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -167,7 +178,6 @@ pub const HUT: crate::Emoji = crate::Emoji {
             keywords: &["jurtta", "maja", "mökki", "savimaja", "talo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏘\u{fe0f}"]
 pub const HOUSES: crate::Emoji = crate::Emoji {
@@ -176,6 +186,17 @@ pub const HOUSES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "houses",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏘",
+        codepoint: "1F3D8",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "houses",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -188,15 +209,6 @@ pub const HOUSES: crate::Emoji = crate::Emoji {
             keywords: &["rakennus", "talo", "taloryhmä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏘",
-        codepoint: "1F3D8",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "houses",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🏚\u{fe0f}"]
 pub const DERELICT_HOUSE: crate::Emoji = crate::Emoji {
@@ -205,6 +217,17 @@ pub const DERELICT_HOUSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "derelict house",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏚",
+        codepoint: "1F3DA",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "derelict house",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -217,15 +240,6 @@ pub const DERELICT_HOUSE: crate::Emoji = crate::Emoji {
             keywords: &["autiotalo", "hylätty", "rakennus", "talo", "tyhjä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏚",
-        codepoint: "1F3DA",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "derelict house",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🏠"]
 pub const HOUSE: crate::Emoji = crate::Emoji {
@@ -234,6 +248,8 @@ pub const HOUSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "house",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -246,7 +262,6 @@ pub const HOUSE: crate::Emoji = crate::Emoji {
             keywords: &["rakennus", "talo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏡"]
 pub const HOUSE_WITH_GARDEN: crate::Emoji = crate::Emoji {
@@ -255,6 +270,8 @@ pub const HOUSE_WITH_GARDEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "house with garden",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -267,7 +284,6 @@ pub const HOUSE_WITH_GARDEN: crate::Emoji = crate::Emoji {
             keywords: &["puutarha", "rakennus", "talo", "talo ja puutarha"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏢"]
 pub const OFFICE_BUILDING: crate::Emoji = crate::Emoji {
@@ -276,6 +292,8 @@ pub const OFFICE_BUILDING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "office building",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -288,7 +306,6 @@ pub const OFFICE_BUILDING: crate::Emoji = crate::Emoji {
             keywords: &["rakennus", "toimisto", "toimistorakennus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏣"]
 pub const JAPANESE_POST_OFFICE: crate::Emoji = crate::Emoji {
@@ -297,6 +314,8 @@ pub const JAPANESE_POST_OFFICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese post office",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -309,7 +328,6 @@ pub const JAPANESE_POST_OFFICE: crate::Emoji = crate::Emoji {
             keywords: &["Japani", "japanilainen postitoimisto", "posti", "rakennus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏤"]
 pub const POST_OFFICE: crate::Emoji = crate::Emoji {
@@ -318,6 +336,8 @@ pub const POST_OFFICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "post office",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -330,7 +350,6 @@ pub const POST_OFFICE: crate::Emoji = crate::Emoji {
             keywords: &["posti", "postitoimisto", "rakennus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏥"]
 pub const HOSPITAL: crate::Emoji = crate::Emoji {
@@ -339,6 +358,8 @@ pub const HOSPITAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hospital",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -351,7 +372,6 @@ pub const HOSPITAL: crate::Emoji = crate::Emoji {
             keywords: &["ensiapu", "hoito", "lääkäri", "rakennus", "sairaala"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏦"]
 pub const BANK: crate::Emoji = crate::Emoji {
@@ -360,6 +380,8 @@ pub const BANK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bank",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -372,7 +394,6 @@ pub const BANK: crate::Emoji = crate::Emoji {
             keywords: &["pankki", "rakennus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏨"]
 pub const HOTEL: crate::Emoji = crate::Emoji {
@@ -381,6 +402,8 @@ pub const HOTEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hotel",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -393,7 +416,6 @@ pub const HOTEL: crate::Emoji = crate::Emoji {
             keywords: &["hotelli", "majoitus", "rakennus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏩"]
 pub const LOVE_HOTEL: crate::Emoji = crate::Emoji {
@@ -402,6 +424,8 @@ pub const LOVE_HOTEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "love hotel",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -414,7 +438,6 @@ pub const LOVE_HOTEL: crate::Emoji = crate::Emoji {
             keywords: &["hotelli", "rakennus", "tunti", "tuntihotelli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏪"]
 pub const CONVENIENCE_STORE: crate::Emoji = crate::Emoji {
@@ -423,6 +446,8 @@ pub const CONVENIENCE_STORE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "convenience store",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -435,7 +460,6 @@ pub const CONVENIENCE_STORE: crate::Emoji = crate::Emoji {
             keywords: &["kauppa", "lähikauppa", "rakennus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏫"]
 pub const SCHOOL: crate::Emoji = crate::Emoji {
@@ -444,6 +468,8 @@ pub const SCHOOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "school",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -456,7 +482,6 @@ pub const SCHOOL: crate::Emoji = crate::Emoji {
             keywords: &["koulu", "oppi", "rakennus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏬"]
 pub const DEPARTMENT_STORE: crate::Emoji = crate::Emoji {
@@ -465,6 +490,8 @@ pub const DEPARTMENT_STORE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "department store",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -477,7 +504,6 @@ pub const DEPARTMENT_STORE: crate::Emoji = crate::Emoji {
             keywords: &["kauppa", "rakennus", "tavaratalo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏭"]
 pub const FACTORY: crate::Emoji = crate::Emoji {
@@ -486,6 +512,8 @@ pub const FACTORY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "factory",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -498,7 +526,6 @@ pub const FACTORY: crate::Emoji = crate::Emoji {
             keywords: &["rakennus", "tehdas", "tuotanto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏯"]
 pub const JAPANESE_CASTLE: crate::Emoji = crate::Emoji {
@@ -507,6 +534,8 @@ pub const JAPANESE_CASTLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese castle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -519,7 +548,6 @@ pub const JAPANESE_CASTLE: crate::Emoji = crate::Emoji {
             keywords: &["Japani", "japanilainen linna", "linna", "rakennus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏰"]
 pub const CASTLE: crate::Emoji = crate::Emoji {
@@ -528,6 +556,8 @@ pub const CASTLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "castle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -540,7 +570,6 @@ pub const CASTLE: crate::Emoji = crate::Emoji {
             keywords: &["linna", "länsimainen", "rakennus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💒"]
 pub const WEDDING: crate::Emoji = crate::Emoji {
@@ -549,6 +578,8 @@ pub const WEDDING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wedding",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -561,7 +592,6 @@ pub const WEDDING: crate::Emoji = crate::Emoji {
             keywords: &["häät", "kappeli", "romantiikka", "vihkiminen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🗼"]
 pub const TOKYO_TOWER: crate::Emoji = crate::Emoji {
@@ -570,6 +600,8 @@ pub const TOKYO_TOWER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Tokyo tower",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -582,7 +614,6 @@ pub const TOKYO_TOWER: crate::Emoji = crate::Emoji {
             keywords: &["Japani", "Tokio", "Tokyo Tower", "rakennus", "torni"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🗽"]
 pub const STATUE_OF_LIBERTY: crate::Emoji = crate::Emoji {
@@ -591,6 +622,8 @@ pub const STATUE_OF_LIBERTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Statue of Liberty",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -603,5 +636,4 @@ pub const STATUE_OF_LIBERTY: crate::Emoji = crate::Emoji {
             keywords: &["New York", "USA", "Vapaudenpatsas", "patsas", "vapaus"],
         },
     ],
-    variants: &[],
 };

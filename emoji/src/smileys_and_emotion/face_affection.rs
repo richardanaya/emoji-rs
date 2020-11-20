@@ -5,6 +5,8 @@ pub const SMILING_FACE_WITH_HEARTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "smiling face with hearts",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -28,7 +30,6 @@ pub const SMILING_FACE_WITH_HEARTS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😍"]
 pub const SMILING_FACE_WITH_HEART_EYES: crate::Emoji = crate::Emoji {
@@ -37,6 +38,8 @@ pub const SMILING_FACE_WITH_HEART_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "smiling face with heart-eyes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -62,7 +65,6 @@ pub const SMILING_FACE_WITH_HEART_EYES: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤩"]
 pub const STAR_STRUCK: crate::Emoji = crate::Emoji {
@@ -71,6 +73,8 @@ pub const STAR_STRUCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "star-struck",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -90,7 +94,6 @@ pub const STAR_STRUCK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😘"]
 pub const FACE_BLOWING_A_KISS: crate::Emoji = crate::Emoji {
@@ -99,6 +102,8 @@ pub const FACE_BLOWING_A_KISS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face blowing a kiss",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -111,7 +116,6 @@ pub const FACE_BLOWING_A_KISS: crate::Emoji = crate::Emoji {
             keywords: &["lentosuukko", "naama", "pusu", "sydän"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😗"]
 pub const KISSING_FACE: crate::Emoji = crate::Emoji {
@@ -120,6 +124,8 @@ pub const KISSING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "kissing face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -132,7 +138,6 @@ pub const KISSING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["naama", "pusu", "pusunaama", "suudelma", "suukko"],
         },
     ],
-    variants: &[],
 };
 #[doc = "☺\u{fe0f}"]
 pub const SMILING_FACE: crate::Emoji = crate::Emoji {
@@ -141,6 +146,17 @@ pub const SMILING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "smiling face",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☺",
+        codepoint: "263A",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "smiling face",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -153,15 +169,6 @@ pub const SMILING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["hymy", "hymynaama", "naama", "rento"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☺",
-        codepoint: "263A",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "smiling face",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "😚"]
 pub const KISSING_FACE_WITH_CLOSED_EYES: crate::Emoji = crate::Emoji {
@@ -170,6 +177,8 @@ pub const KISSING_FACE_WITH_CLOSED_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "kissing face with closed eyes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -194,7 +203,6 @@ pub const KISSING_FACE_WITH_CLOSED_EYES: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😙"]
 pub const KISSING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
@@ -203,6 +211,8 @@ pub const KISSING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "kissing face with smiling eyes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -227,7 +237,6 @@ pub const KISSING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥲"]
 pub const SMILING_FACE_WITH_TEAR: crate::Emoji = crate::Emoji {
@@ -236,6 +245,8 @@ pub const SMILING_FACE_WITH_TEAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "smiling face with tear",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -264,5 +275,4 @@ pub const SMILING_FACE_WITH_TEAR: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

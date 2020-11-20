@@ -5,6 +5,17 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "multiply",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "✖",
+        codepoint: "2716",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "multiply",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
             keywords: &["kertolasku", "kertomerkki", "merkki", "peruuta", "x", "×"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "✖",
-        codepoint: "2716",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "multiply",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "➕"]
 pub const PLUS: crate::Emoji = crate::Emoji {
@@ -34,6 +36,8 @@ pub const PLUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "plus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -46,7 +50,6 @@ pub const PLUS: crate::Emoji = crate::Emoji {
             keywords: &["+", "matematiikka", "plus", "plusmerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "➖"]
 pub const MINUS: crate::Emoji = crate::Emoji {
@@ -55,6 +58,8 @@ pub const MINUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "minus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -67,7 +72,6 @@ pub const MINUS: crate::Emoji = crate::Emoji {
             keywords: &["-", "matematiikka", "miinus", "miinusmerkki", "vähennys"],
         },
     ],
-    variants: &[],
 };
 #[doc = "➗"]
 pub const DIVIDE: crate::Emoji = crate::Emoji {
@@ -76,6 +80,8 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "divide",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -88,7 +94,6 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
             keywords: &["/", "jako", "jakomerkki", "jakoviiva", "matematiikka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "♾\u{fe0f}"]
 pub const INFINITY: crate::Emoji = crate::Emoji {
@@ -97,6 +102,17 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "infinity",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "♾",
+        codepoint: "267E",
+        status: crate::Status::Unqualified,
+        introduction_version: 11f32,
+        name: "infinity",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -116,13 +132,4 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "♾",
-        codepoint: "267E",
-        status: crate::Status::Unqualified,
-        introduction_version: 11f32,
-        name: "infinity",
-        annotations: &[],
-        variants: &[],
-    }],
 };

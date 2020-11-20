@@ -5,6 +5,8 @@ pub const NEW_MOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "new moon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const NEW_MOON: crate::Emoji = crate::Emoji {
             keywords: &["kuu", "pimeä", "sää", "taivaankappale", "uusikuu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌒"]
 pub const WAXING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const WAXING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "waxing crescent moon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -45,7 +48,6 @@ pub const WAXING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌓"]
 pub const FIRST_QUARTER_MOON: crate::Emoji = crate::Emoji {
@@ -54,6 +56,8 @@ pub const FIRST_QUARTER_MOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "first quarter moon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -72,7 +76,6 @@ pub const FIRST_QUARTER_MOON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌔"]
 pub const WAXING_GIBBOUS_MOON: crate::Emoji = crate::Emoji {
@@ -81,6 +84,8 @@ pub const WAXING_GIBBOUS_MOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "waxing gibbous moon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -99,7 +104,6 @@ pub const WAXING_GIBBOUS_MOON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌕"]
 pub const FULL_MOON: crate::Emoji = crate::Emoji {
@@ -108,6 +112,8 @@ pub const FULL_MOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "full moon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -120,7 +126,6 @@ pub const FULL_MOON: crate::Emoji = crate::Emoji {
             keywords: &["kuu", "sää", "taivaankappale", "täysi", "täysikuu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌖"]
 pub const WANING_GIBBOUS_MOON: crate::Emoji = crate::Emoji {
@@ -129,6 +134,8 @@ pub const WANING_GIBBOUS_MOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "waning gibbous moon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -147,7 +154,6 @@ pub const WANING_GIBBOUS_MOON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌗"]
 pub const LAST_QUARTER_MOON: crate::Emoji = crate::Emoji {
@@ -156,6 +162,8 @@ pub const LAST_QUARTER_MOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "last quarter moon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -174,7 +182,6 @@ pub const LAST_QUARTER_MOON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌘"]
 pub const WANING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
@@ -183,6 +190,8 @@ pub const WANING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "waning crescent moon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -202,7 +211,6 @@ pub const WANING_CRESCENT_MOON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌙"]
 pub const CRESCENT_MOON: crate::Emoji = crate::Emoji {
@@ -211,6 +219,8 @@ pub const CRESCENT_MOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "crescent moon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -223,7 +233,6 @@ pub const CRESCENT_MOON: crate::Emoji = crate::Emoji {
             keywords: &["kuu", "kuunsirppi", "sirppi", "sää", "taivaankappale"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌚"]
 pub const NEW_MOON_FACE: crate::Emoji = crate::Emoji {
@@ -232,6 +241,8 @@ pub const NEW_MOON_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "new moon face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -244,7 +255,6 @@ pub const NEW_MOON_FACE: crate::Emoji = crate::Emoji {
             keywords: &["kasvot", "kuu", "sää", "taivaankappale", "uudenkuun kasvot"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌛"]
 pub const FIRST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
@@ -253,6 +263,8 @@ pub const FIRST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "first quarter moon face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -272,7 +284,6 @@ pub const FIRST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌜"]
 pub const LAST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
@@ -281,6 +292,8 @@ pub const LAST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "last quarter moon face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -300,7 +313,6 @@ pub const LAST_QUARTER_MOON_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌡\u{fe0f}"]
 pub const THERMOMETER: crate::Emoji = crate::Emoji {
@@ -309,6 +321,17 @@ pub const THERMOMETER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "thermometer",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🌡",
+        codepoint: "1F321",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "thermometer",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -321,15 +344,6 @@ pub const THERMOMETER: crate::Emoji = crate::Emoji {
             keywords: &["lämpömittari", "lämpötila", "sää"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🌡",
-        codepoint: "1F321",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "thermometer",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "☀\u{fe0f}"]
 pub const SUN: crate::Emoji = crate::Emoji {
@@ -338,6 +352,17 @@ pub const SUN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sun",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☀",
+        codepoint: "2600",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "sun",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -350,15 +375,6 @@ pub const SUN: crate::Emoji = crate::Emoji {
             keywords: &["aurinko", "helle", "paiste", "säteet", "sää"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☀",
-        codepoint: "2600",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "sun",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌝"]
 pub const FULL_MOON_FACE: crate::Emoji = crate::Emoji {
@@ -367,6 +383,8 @@ pub const FULL_MOON_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "full moon face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -379,7 +397,6 @@ pub const FULL_MOON_FACE: crate::Emoji = crate::Emoji {
             keywords: &["kasvot", "kuu", "sää", "täysikuu kasvoilla", "valo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌞"]
 pub const SUN_WITH_FACE: crate::Emoji = crate::Emoji {
@@ -388,6 +405,8 @@ pub const SUN_WITH_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "sun with face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -407,7 +426,6 @@ pub const SUN_WITH_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪐"]
 pub const RINGED_PLANET: crate::Emoji = crate::Emoji {
@@ -416,6 +434,8 @@ pub const RINGED_PLANET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "ringed planet",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -428,7 +448,6 @@ pub const RINGED_PLANET: crate::Emoji = crate::Emoji {
             keywords: &["Saturnus", "rengasplaneetta"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⭐"]
 pub const STAR: crate::Emoji = crate::Emoji {
@@ -437,6 +456,8 @@ pub const STAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "star",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -449,7 +470,6 @@ pub const STAR: crate::Emoji = crate::Emoji {
             keywords: &["tähti", "valkoinen tähti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌟"]
 pub const GLOWING_STAR: crate::Emoji = crate::Emoji {
@@ -458,6 +478,8 @@ pub const GLOWING_STAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "glowing star",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -477,7 +499,6 @@ pub const GLOWING_STAR: crate::Emoji = crate::Emoji {
             keywords: &["loistava tähti", "loiste", "säihke", "tähti", "valo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌠"]
 pub const SHOOTING_STAR: crate::Emoji = crate::Emoji {
@@ -486,6 +507,8 @@ pub const SHOOTING_STAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "shooting star",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -498,7 +521,6 @@ pub const SHOOTING_STAR: crate::Emoji = crate::Emoji {
             keywords: &["avaruus", "toive", "tähdenlento", "tähti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌌"]
 pub const MILKY_WAY: crate::Emoji = crate::Emoji {
@@ -507,6 +529,8 @@ pub const MILKY_WAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "milky way",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -519,7 +543,6 @@ pub const MILKY_WAY: crate::Emoji = crate::Emoji {
             keywords: &["avaruus", "galaksi", "linnunrata", "sää"],
         },
     ],
-    variants: &[],
 };
 #[doc = "☁\u{fe0f}"]
 pub const CLOUD: crate::Emoji = crate::Emoji {
@@ -528,6 +551,17 @@ pub const CLOUD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cloud",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☁",
+        codepoint: "2601",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "cloud",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -540,15 +574,6 @@ pub const CLOUD: crate::Emoji = crate::Emoji {
             keywords: &["pilvi", "sää"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☁",
-        codepoint: "2601",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "cloud",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⛅"]
 pub const SUN_BEHIND_CLOUD: crate::Emoji = crate::Emoji {
@@ -557,6 +582,8 @@ pub const SUN_BEHIND_CLOUD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sun behind cloud",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -569,7 +596,6 @@ pub const SUN_BEHIND_CLOUD: crate::Emoji = crate::Emoji {
             keywords: &["aurinko", "aurinko pilvessä", "pilvi", "sää"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⛈\u{fe0f}"]
 pub const CLOUD_WITH_LIGHTNING_AND_RAIN: crate::Emoji = crate::Emoji {
@@ -578,6 +604,17 @@ pub const CLOUD_WITH_LIGHTNING_AND_RAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "cloud with lightning and rain",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⛈",
+        codepoint: "26C8",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "cloud with lightning and rain",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -597,15 +634,6 @@ pub const CLOUD_WITH_LIGHTNING_AND_RAIN: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⛈",
-        codepoint: "26C8",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "cloud with lightning and rain",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌤\u{fe0f}"]
 pub const SUN_BEHIND_SMALL_CLOUD: crate::Emoji = crate::Emoji {
@@ -614,6 +642,17 @@ pub const SUN_BEHIND_SMALL_CLOUD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "sun behind small cloud",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🌤",
+        codepoint: "1F324",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "sun behind small cloud",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -626,15 +665,6 @@ pub const SUN_BEHIND_SMALL_CLOUD: crate::Emoji = crate::Emoji {
             keywords: &["aurinko", "aurinko ja pieni pilvi", "pilvi", "sää"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🌤",
-        codepoint: "1F324",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "sun behind small cloud",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌥\u{fe0f}"]
 pub const SUN_BEHIND_LARGE_CLOUD: crate::Emoji = crate::Emoji {
@@ -643,6 +673,17 @@ pub const SUN_BEHIND_LARGE_CLOUD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "sun behind large cloud",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🌥",
+        codepoint: "1F325",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "sun behind large cloud",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -655,15 +696,6 @@ pub const SUN_BEHIND_LARGE_CLOUD: crate::Emoji = crate::Emoji {
             keywords: &["aurinko", "aurinko ja suuri pilvi", "pilvi", "sää"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🌥",
-        codepoint: "1F325",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "sun behind large cloud",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌦\u{fe0f}"]
 pub const SUN_BEHIND_RAIN_CLOUD: crate::Emoji = crate::Emoji {
@@ -672,6 +704,17 @@ pub const SUN_BEHIND_RAIN_CLOUD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "sun behind rain cloud",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🌦",
+        codepoint: "1F326",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "sun behind rain cloud",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -684,15 +727,6 @@ pub const SUN_BEHIND_RAIN_CLOUD: crate::Emoji = crate::Emoji {
             keywords: &["aurinko", "aurinko sadepilvessä", "pilvi", "sade", "sää"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🌦",
-        codepoint: "1F326",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "sun behind rain cloud",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌧\u{fe0f}"]
 pub const CLOUD_WITH_RAIN: crate::Emoji = crate::Emoji {
@@ -701,6 +735,17 @@ pub const CLOUD_WITH_RAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "cloud with rain",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🌧",
+        codepoint: "1F327",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "cloud with rain",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -713,15 +758,6 @@ pub const CLOUD_WITH_RAIN: crate::Emoji = crate::Emoji {
             keywords: &["pilvi", "sade", "sadepilvi", "sää"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🌧",
-        codepoint: "1F327",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "cloud with rain",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌨\u{fe0f}"]
 pub const CLOUD_WITH_SNOW: crate::Emoji = crate::Emoji {
@@ -730,6 +766,17 @@ pub const CLOUD_WITH_SNOW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "cloud with snow",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🌨",
+        codepoint: "1F328",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "cloud with snow",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -742,15 +789,6 @@ pub const CLOUD_WITH_SNOW: crate::Emoji = crate::Emoji {
             keywords: &["lumi", "lumisade", "lumisadepilvi", "pilvi", "pyry", "sää"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🌨",
-        codepoint: "1F328",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "cloud with snow",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌩\u{fe0f}"]
 pub const CLOUD_WITH_LIGHTNING: crate::Emoji = crate::Emoji {
@@ -759,6 +797,17 @@ pub const CLOUD_WITH_LIGHTNING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "cloud with lightning",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🌩",
+        codepoint: "1F329",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "cloud with lightning",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -771,15 +820,6 @@ pub const CLOUD_WITH_LIGHTNING: crate::Emoji = crate::Emoji {
             keywords: &["pilvi", "salama", "sää", "ukkonen", "ukkospilvi"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🌩",
-        codepoint: "1F329",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "cloud with lightning",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌪\u{fe0f}"]
 pub const TORNADO: crate::Emoji = crate::Emoji {
@@ -788,6 +828,17 @@ pub const TORNADO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "tornado",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🌪",
+        codepoint: "1F32A",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "tornado",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -800,15 +851,6 @@ pub const TORNADO: crate::Emoji = crate::Emoji {
             keywords: &["hirmumyrsky", "hurrikaani", "sää", "tornado"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🌪",
-        codepoint: "1F32A",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "tornado",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌫\u{fe0f}"]
 pub const FOG: crate::Emoji = crate::Emoji {
@@ -817,6 +859,17 @@ pub const FOG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "fog",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🌫",
+        codepoint: "1F32B",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "fog",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -829,15 +882,6 @@ pub const FOG: crate::Emoji = crate::Emoji {
             keywords: &["sumu", "sää", "usva", "utu"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🌫",
-        codepoint: "1F32B",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "fog",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌬\u{fe0f}"]
 pub const WIND_FACE: crate::Emoji = crate::Emoji {
@@ -846,6 +890,17 @@ pub const WIND_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "wind face",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🌬",
+        codepoint: "1F32C",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "wind face",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -858,15 +913,6 @@ pub const WIND_FACE: crate::Emoji = crate::Emoji {
             keywords: &["pilvi", "puhuri", "puuska", "sää", "tuuli"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🌬",
-        codepoint: "1F32C",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "wind face",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌀"]
 pub const CYCLONE: crate::Emoji = crate::Emoji {
@@ -875,6 +921,8 @@ pub const CYCLONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cyclone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -887,7 +935,6 @@ pub const CYCLONE: crate::Emoji = crate::Emoji {
             keywords: &["hirmumyrsky", "pyörre", "pyörremyrsky", "sykloni", "sää"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌈"]
 pub const RAINBOW: crate::Emoji = crate::Emoji {
@@ -896,6 +943,8 @@ pub const RAINBOW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "rainbow",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -908,7 +957,6 @@ pub const RAINBOW: crate::Emoji = crate::Emoji {
             keywords: &["aurinko", "sade", "sateenkaari", "sää"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌂"]
 pub const CLOSED_UMBRELLA: crate::Emoji = crate::Emoji {
@@ -917,6 +965,8 @@ pub const CLOSED_UMBRELLA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "closed umbrella",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -935,7 +985,6 @@ pub const CLOSED_UMBRELLA: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "☂\u{fe0f}"]
 pub const UMBRELLA: crate::Emoji = crate::Emoji {
@@ -944,6 +993,17 @@ pub const UMBRELLA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "umbrella",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☂",
+        codepoint: "2602",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "umbrella",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -956,15 +1016,6 @@ pub const UMBRELLA: crate::Emoji = crate::Emoji {
             keywords: &["asuste", "sade", "sateenvarjo", "sää"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☂",
-        codepoint: "2602",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "umbrella",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "☔"]
 pub const UMBRELLA_WITH_RAIN_DROPS: crate::Emoji = crate::Emoji {
@@ -973,6 +1024,8 @@ pub const UMBRELLA_WITH_RAIN_DROPS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "umbrella with rain drops",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -998,7 +1051,6 @@ pub const UMBRELLA_WITH_RAIN_DROPS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "⛱\u{fe0f}"]
 pub const UMBRELLA_ON_GROUND: crate::Emoji = crate::Emoji {
@@ -1007,6 +1059,17 @@ pub const UMBRELLA_ON_GROUND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "umbrella on ground",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⛱",
+        codepoint: "26F1",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "umbrella on ground",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1019,15 +1082,6 @@ pub const UMBRELLA_ON_GROUND: crate::Emoji = crate::Emoji {
             keywords: &["aurinko", "aurinkovarjo", "sää", "varjo"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⛱",
-        codepoint: "26F1",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "umbrella on ground",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⚡"]
 pub const HIGH_VOLTAGE: crate::Emoji = crate::Emoji {
@@ -1036,6 +1090,8 @@ pub const HIGH_VOLTAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "high voltage",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1055,7 +1111,6 @@ pub const HIGH_VOLTAGE: crate::Emoji = crate::Emoji {
             keywords: &["korkeajännite", "sähkö", "sähköisku", "vaara", "virta"],
         },
     ],
-    variants: &[],
 };
 #[doc = "❄\u{fe0f}"]
 pub const SNOWFLAKE: crate::Emoji = crate::Emoji {
@@ -1064,6 +1119,17 @@ pub const SNOWFLAKE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "snowflake",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "❄",
+        codepoint: "2744",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "snowflake",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1076,15 +1142,6 @@ pub const SNOWFLAKE: crate::Emoji = crate::Emoji {
             keywords: &["hiutale", "kylmä", "lumi", "lumihiutale", "sää"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "❄",
-        codepoint: "2744",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "snowflake",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "☃\u{fe0f}"]
 pub const SNOWMAN: crate::Emoji = crate::Emoji {
@@ -1093,6 +1150,17 @@ pub const SNOWMAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "snowman",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☃",
+        codepoint: "2603",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "snowman",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1105,15 +1173,6 @@ pub const SNOWMAN: crate::Emoji = crate::Emoji {
             keywords: &["kylmä", "lumi", "lumiukko", "sää"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☃",
-        codepoint: "2603",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "snowman",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⛄"]
 pub const SNOWMAN_WITHOUT_SNOW: crate::Emoji = crate::Emoji {
@@ -1122,6 +1181,8 @@ pub const SNOWMAN_WITHOUT_SNOW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "snowman without snow",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1134,7 +1195,6 @@ pub const SNOWMAN_WITHOUT_SNOW: crate::Emoji = crate::Emoji {
             keywords: &["kylmä", "lumi", "lumiukko", "lumiukko ilman lunta", "sää"],
         },
     ],
-    variants: &[],
 };
 #[doc = "☄\u{fe0f}"]
 pub const COMET: crate::Emoji = crate::Emoji {
@@ -1143,6 +1203,17 @@ pub const COMET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "comet",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☄",
+        codepoint: "2604",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "comet",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1155,15 +1226,6 @@ pub const COMET: crate::Emoji = crate::Emoji {
             keywords: &["avaruus", "komeetta", "pyrstötähti"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☄",
-        codepoint: "2604",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "comet",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🔥"]
 pub const FIRE: crate::Emoji = crate::Emoji {
@@ -1172,6 +1234,8 @@ pub const FIRE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fire",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1184,7 +1248,6 @@ pub const FIRE: crate::Emoji = crate::Emoji {
             keywords: &["liekki", "lieska", "nuotio", "tuli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💧"]
 pub const DROPLET: crate::Emoji = crate::Emoji {
@@ -1193,6 +1256,8 @@ pub const DROPLET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "droplet",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1205,7 +1270,6 @@ pub const DROPLET: crate::Emoji = crate::Emoji {
             keywords: &["hiki", "pisara", "sää", "tippa", "vesi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌊"]
 pub const WATER_WAVE: crate::Emoji = crate::Emoji {
@@ -1214,6 +1278,8 @@ pub const WATER_WAVE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "water wave",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1226,5 +1292,4 @@ pub const WATER_WAVE: crate::Emoji = crate::Emoji {
             keywords: &["aalto", "meri", "tyrsky", "valtameri", "vesi"],
         },
     ],
-    variants: &[],
 };

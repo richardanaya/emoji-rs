@@ -5,6 +5,8 @@ pub const RELIEVED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "relieved face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const RELIEVED_FACE: crate::Emoji = crate::Emoji {
             keywords: &["helpottunut", "helpotus", "naama"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😔"]
 pub const PENSIVE_FACE: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const PENSIVE_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pensive face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -44,7 +47,6 @@ pub const PENSIVE_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😪"]
 pub const SLEEPY_FACE: crate::Emoji = crate::Emoji {
@@ -53,6 +55,8 @@ pub const SLEEPY_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sleepy face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -65,7 +69,6 @@ pub const SLEEPY_FACE: crate::Emoji = crate::Emoji {
             keywords: &["naama", "unelias", "uni"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤤"]
 pub const DROOLING_FACE: crate::Emoji = crate::Emoji {
@@ -74,6 +77,8 @@ pub const DROOLING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "drooling face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -86,7 +91,6 @@ pub const DROOLING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["kasvot", "kuola", "kuolaava", "kuolata", "naama"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😴"]
 pub const SLEEPING_FACE: crate::Emoji = crate::Emoji {
@@ -95,6 +99,8 @@ pub const SLEEPING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "sleeping face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -107,5 +113,4 @@ pub const SLEEPING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["naama", "nukkuva", "uni", "zzz"],
         },
     ],
-    variants: &[],
 };

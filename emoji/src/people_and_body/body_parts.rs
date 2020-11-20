@@ -5,6 +5,8 @@ pub const FLEXED_BICEPS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "flexed biceps",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -24,7 +26,6 @@ pub const FLEXED_BICEPS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "💪🏻"]
 pub const FLEXED_BICEPS_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -33,8 +34,9 @@ pub const FLEXED_BICEPS_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "flexed biceps: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "💪🏼"]
 pub const FLEXED_BICEPS_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -43,8 +45,9 @@ pub const FLEXED_BICEPS_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "flexed biceps: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "💪🏽"]
 pub const FLEXED_BICEPS_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -53,8 +56,9 @@ pub const FLEXED_BICEPS_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "flexed biceps: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "💪🏾"]
 pub const FLEXED_BICEPS_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -63,8 +67,9 @@ pub const FLEXED_BICEPS_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "flexed biceps: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "💪🏿"]
 pub const FLEXED_BICEPS_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -73,8 +78,9 @@ pub const FLEXED_BICEPS_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "flexed biceps: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦾"]
 pub const MECHANICAL_ARM: crate::Emoji = crate::Emoji {
@@ -83,6 +89,8 @@ pub const MECHANICAL_ARM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "mechanical arm",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -95,7 +103,6 @@ pub const MECHANICAL_ARM: crate::Emoji = crate::Emoji {
             keywords: &["esteettömyys", "tekokäsi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦿"]
 pub const MECHANICAL_LEG: crate::Emoji = crate::Emoji {
@@ -104,6 +111,8 @@ pub const MECHANICAL_LEG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "mechanical leg",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -116,7 +125,6 @@ pub const MECHANICAL_LEG: crate::Emoji = crate::Emoji {
             keywords: &["esteettömyys", "tekojalka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦵"]
 pub const LEG: crate::Emoji = crate::Emoji {
@@ -125,6 +133,8 @@ pub const LEG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "leg",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -137,7 +147,6 @@ pub const LEG: crate::Emoji = crate::Emoji {
             keywords: &["alaraaja", "jalka", "potkaista", "potku", "raaja"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦵🏻"]
 pub const LEG_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -146,8 +155,9 @@ pub const LEG_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "leg: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦵🏼"]
 pub const LEG_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -156,8 +166,9 @@ pub const LEG_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "leg: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦵🏽"]
 pub const LEG_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -166,8 +177,9 @@ pub const LEG_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "leg: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦵🏾"]
 pub const LEG_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -176,8 +188,9 @@ pub const LEG_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "leg: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦵🏿"]
 pub const LEG_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -186,8 +199,9 @@ pub const LEG_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "leg: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦶"]
 pub const FOOT: crate::Emoji = crate::Emoji {
@@ -196,6 +210,8 @@ pub const FOOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "foot",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -208,7 +224,6 @@ pub const FOOT: crate::Emoji = crate::Emoji {
             keywords: &["jalkaterä", "potkaista", "potku", "tallata", "töminä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦶🏻"]
 pub const FOOT_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -217,8 +232,9 @@ pub const FOOT_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "foot: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦶🏼"]
 pub const FOOT_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -227,8 +243,9 @@ pub const FOOT_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "foot: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦶🏽"]
 pub const FOOT_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -237,8 +254,9 @@ pub const FOOT_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "foot: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦶🏾"]
 pub const FOOT_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -247,8 +265,9 @@ pub const FOOT_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "foot: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦶🏿"]
 pub const FOOT_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -257,8 +276,9 @@ pub const FOOT_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "foot: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👂"]
 pub const EAR: crate::Emoji = crate::Emoji {
@@ -267,6 +287,8 @@ pub const EAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ear",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -279,7 +301,6 @@ pub const EAR: crate::Emoji = crate::Emoji {
             keywords: &["korva", "pää", "vartalo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "👂🏻"]
 pub const EAR_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -288,8 +309,9 @@ pub const EAR_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "ear: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👂🏼"]
 pub const EAR_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -298,8 +320,9 @@ pub const EAR_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "ear: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👂🏽"]
 pub const EAR_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -308,8 +331,9 @@ pub const EAR_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "ear: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👂🏾"]
 pub const EAR_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -318,8 +342,9 @@ pub const EAR_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "ear: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👂🏿"]
 pub const EAR_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -328,8 +353,9 @@ pub const EAR_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "ear: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦻"]
 pub const EAR_WITH_HEARING_AID: crate::Emoji = crate::Emoji {
@@ -338,6 +364,8 @@ pub const EAR_WITH_HEARING_AID: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "ear with hearing aid",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -356,7 +384,6 @@ pub const EAR_WITH_HEARING_AID: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦻🏻"]
 pub const EAR_WITH_HEARING_AID_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -365,8 +392,9 @@ pub const EAR_WITH_HEARING_AID_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "ear with hearing aid: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦻🏼"]
 pub const EAR_WITH_HEARING_AID_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -375,8 +403,9 @@ pub const EAR_WITH_HEARING_AID_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emo
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "ear with hearing aid: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦻🏽"]
 pub const EAR_WITH_HEARING_AID_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -385,8 +414,9 @@ pub const EAR_WITH_HEARING_AID_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "ear with hearing aid: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦻🏾"]
 pub const EAR_WITH_HEARING_AID_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -395,8 +425,9 @@ pub const EAR_WITH_HEARING_AID_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoj
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "ear with hearing aid: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🦻🏿"]
 pub const EAR_WITH_HEARING_AID_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -405,8 +436,9 @@ pub const EAR_WITH_HEARING_AID_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "ear with hearing aid: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👃"]
 pub const NOSE: crate::Emoji = crate::Emoji {
@@ -415,6 +447,8 @@ pub const NOSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "nose",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -427,7 +461,6 @@ pub const NOSE: crate::Emoji = crate::Emoji {
             keywords: &["haju", "nenä", "pää", "tuoksu", "vartalo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "👃🏻"]
 pub const NOSE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -436,8 +469,9 @@ pub const NOSE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nose: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👃🏼"]
 pub const NOSE_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -446,8 +480,9 @@ pub const NOSE_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nose: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👃🏽"]
 pub const NOSE_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -456,8 +491,9 @@ pub const NOSE_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nose: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👃🏾"]
 pub const NOSE_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -466,8 +502,9 @@ pub const NOSE_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nose: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👃🏿"]
 pub const NOSE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -476,8 +513,9 @@ pub const NOSE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nose: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🧠"]
 pub const BRAIN: crate::Emoji = crate::Emoji {
@@ -486,6 +524,8 @@ pub const BRAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "brain",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -498,7 +538,6 @@ pub const BRAIN: crate::Emoji = crate::Emoji {
             keywords: &["aivot", "pää", "vartalo", "viisas", "äly"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🫀"]
 pub const ANATOMICAL_HEART: crate::Emoji = crate::Emoji {
@@ -507,6 +546,8 @@ pub const ANATOMICAL_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "anatomical heart",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -526,7 +567,6 @@ pub const ANATOMICAL_HEART: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🫁"]
 pub const LUNGS: crate::Emoji = crate::Emoji {
@@ -535,6 +575,8 @@ pub const LUNGS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "lungs",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -554,7 +596,6 @@ pub const LUNGS: crate::Emoji = crate::Emoji {
             keywords: &["elin", "hengitys", "henkäisy", "keuhkot"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦷"]
 pub const TOOTH: crate::Emoji = crate::Emoji {
@@ -563,6 +604,8 @@ pub const TOOTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "tooth",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -575,7 +618,6 @@ pub const TOOTH: crate::Emoji = crate::Emoji {
             keywords: &["hammas", "hammaslääkäri", "hampaisto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦴"]
 pub const BONE: crate::Emoji = crate::Emoji {
@@ -584,6 +626,8 @@ pub const BONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "bone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -596,7 +640,6 @@ pub const BONE: crate::Emoji = crate::Emoji {
             keywords: &["luu", "luuranko", "luusto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "👀"]
 pub const EYES: crate::Emoji = crate::Emoji {
@@ -605,6 +648,8 @@ pub const EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "eyes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -617,7 +662,6 @@ pub const EYES: crate::Emoji = crate::Emoji {
             keywords: &["naama", "silmä", "silmät", "vartalo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "👁\u{fe0f}"]
 pub const EYE: crate::Emoji = crate::Emoji {
@@ -626,6 +670,17 @@ pub const EYE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "eye",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "👁",
+        codepoint: "1F441",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "eye",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -638,15 +693,6 @@ pub const EYE: crate::Emoji = crate::Emoji {
             keywords: &["pää", "silmä", "vartalo"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "👁",
-        codepoint: "1F441",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "eye",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "👅"]
 pub const TONGUE: crate::Emoji = crate::Emoji {
@@ -655,6 +701,8 @@ pub const TONGUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tongue",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -667,7 +715,6 @@ pub const TONGUE: crate::Emoji = crate::Emoji {
             keywords: &["kieli", "pää", "suu", "uhma", "vartalo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "👄"]
 pub const MOUTH: crate::Emoji = crate::Emoji {
@@ -676,6 +723,8 @@ pub const MOUTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "mouth",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -688,5 +737,4 @@ pub const MOUTH: crate::Emoji = crate::Emoji {
             keywords: &["huulet", "pää", "suu", "vartalo"],
         },
     ],
-    variants: &[],
 };

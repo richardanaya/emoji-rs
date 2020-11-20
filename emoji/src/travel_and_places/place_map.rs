@@ -5,6 +5,8 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "globe showing Europe-Africa",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -30,7 +32,6 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌎"]
 pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
@@ -39,6 +40,8 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "globe showing Americas",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -62,7 +65,6 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌏"]
 pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
@@ -71,6 +73,8 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "globe showing Asia-Australia",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -96,7 +100,6 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌐"]
 pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
@@ -105,6 +108,8 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "globe with meridians",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -128,7 +133,6 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🗺\u{fe0f}"]
 pub const WORLD_MAP: crate::Emoji = crate::Emoji {
@@ -137,6 +141,17 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "world map",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🗺",
+        codepoint: "1F5FA",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "world map",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -149,15 +164,6 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
             keywords: &["kartta", "maailma", "maailmankartta"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🗺",
-        codepoint: "1F5FA",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "world map",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🗾"]
 pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
@@ -166,6 +172,8 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "map of Japan",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -178,7 +186,6 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
             keywords: &["Japani", "Japanin kartta", "kartta"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧭"]
 pub const COMPASS: crate::Emoji = crate::Emoji {
@@ -187,6 +194,8 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "compass",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -199,5 +208,4 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
             keywords: &["kompassi", "magneettinen", "navigointi", "suunnistus"],
         },
     ],
-    variants: &[],
 };

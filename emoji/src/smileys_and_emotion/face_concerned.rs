@@ -5,6 +5,8 @@ pub const CONFUSED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "confused face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const CONFUSED_FACE: crate::Emoji = crate::Emoji {
             keywords: &["häkeltynyt", "hämmennys", "hämmentynyt", "naama"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😟"]
 pub const WORRIED_FACE: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const WORRIED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "worried face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const WORRIED_FACE: crate::Emoji = crate::Emoji {
             keywords: &["huolestunut", "huoli", "naama"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🙁"]
 pub const SLIGHTLY_FROWNING_FACE: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const SLIGHTLY_FROWNING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "slightly frowning face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const SLIGHTLY_FROWNING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["hieman surullinen", "naama", "surullinen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "☹\u{fe0f}"]
 pub const FROWNING_FACE: crate::Emoji = crate::Emoji {
@@ -68,6 +71,17 @@ pub const FROWNING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "frowning face",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☹",
+        codepoint: "2639",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "frowning face",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,15 +94,6 @@ pub const FROWNING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["naama", "suru", "surullinen", "tuomitseva"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☹",
-        codepoint: "2639",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "frowning face",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "😮"]
 pub const FACE_WITH_OPEN_MOUTH: crate::Emoji = crate::Emoji {
@@ -97,6 +102,8 @@ pub const FACE_WITH_OPEN_MOUTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "face with open mouth",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -109,7 +116,6 @@ pub const FACE_WITH_OPEN_MOUTH: crate::Emoji = crate::Emoji {
             keywords: &["auki", "empatia", "naama", "suu", "yllättynyt"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😯"]
 pub const HUSHED_FACE: crate::Emoji = crate::Emoji {
@@ -118,6 +124,8 @@ pub const HUSHED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "hushed face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -130,7 +138,6 @@ pub const HUSHED_FACE: crate::Emoji = crate::Emoji {
             keywords: &["järkyttynyt", "naama", "sanaton", "yllättynyt"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😲"]
 pub const ASTONISHED_FACE: crate::Emoji = crate::Emoji {
@@ -139,6 +146,8 @@ pub const ASTONISHED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "astonished face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -151,7 +160,6 @@ pub const ASTONISHED_FACE: crate::Emoji = crate::Emoji {
             keywords: &["ihmetys", "järkyttynyt", "naama", "tosi", "ällistynyt"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😳"]
 pub const FLUSHED_FACE: crate::Emoji = crate::Emoji {
@@ -160,6 +168,8 @@ pub const FLUSHED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "flushed face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -172,7 +182,6 @@ pub const FLUSHED_FACE: crate::Emoji = crate::Emoji {
             keywords: &["naama", "punastunut", "tyrmistynyt"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥺"]
 pub const PLEADING_FACE: crate::Emoji = crate::Emoji {
@@ -181,6 +190,8 @@ pub const PLEADING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "pleading face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -193,7 +204,6 @@ pub const PLEADING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["anova", "koiranpentuilme", "sääli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😦"]
 pub const FROWNING_FACE_WITH_OPEN_MOUTH: crate::Emoji = crate::Emoji {
@@ -202,6 +212,8 @@ pub const FROWNING_FACE_WITH_OPEN_MOUTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "frowning face with open mouth",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -226,7 +238,6 @@ pub const FROWNING_FACE_WITH_OPEN_MOUTH: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😧"]
 pub const ANGUISHED_FACE: crate::Emoji = crate::Emoji {
@@ -235,6 +246,8 @@ pub const ANGUISHED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "anguished face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -247,7 +260,6 @@ pub const ANGUISHED_FACE: crate::Emoji = crate::Emoji {
             keywords: &["ahdistunut", "ahdistus", "hätä", "naama"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😨"]
 pub const FEARFUL_FACE: crate::Emoji = crate::Emoji {
@@ -256,6 +268,8 @@ pub const FEARFUL_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fearful face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -268,7 +282,6 @@ pub const FEARFUL_FACE: crate::Emoji = crate::Emoji {
             keywords: &["naama", "pelko", "pelokas", "pelästynyt"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😰"]
 pub const ANXIOUS_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
@@ -277,6 +290,8 @@ pub const ANXIOUS_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "anxious face with sweat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -304,7 +319,6 @@ pub const ANXIOUS_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😥"]
 pub const SAD_BUT_RELIEVED_FACE: crate::Emoji = crate::Emoji {
@@ -313,6 +327,8 @@ pub const SAD_BUT_RELIEVED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sad but relieved face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -337,7 +353,6 @@ pub const SAD_BUT_RELIEVED_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😢"]
 pub const CRYING_FACE: crate::Emoji = crate::Emoji {
@@ -346,6 +361,8 @@ pub const CRYING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "crying face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -358,7 +375,6 @@ pub const CRYING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["itkevä", "itku", "kyynel", "naama", "surullinen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😭"]
 pub const LOUDLY_CRYING_FACE: crate::Emoji = crate::Emoji {
@@ -367,6 +383,8 @@ pub const LOUDLY_CRYING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "loudly crying face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -386,7 +404,6 @@ pub const LOUDLY_CRYING_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😱"]
 pub const FACE_SCREAMING_IN_FEAR: crate::Emoji = crate::Emoji {
@@ -395,6 +412,8 @@ pub const FACE_SCREAMING_IN_FEAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face screaming in fear",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -414,7 +433,6 @@ pub const FACE_SCREAMING_IN_FEAR: crate::Emoji = crate::Emoji {
             keywords: &["Munch", "huuto", "naama", "pelko", "pelokas"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😖"]
 pub const CONFOUNDED_FACE: crate::Emoji = crate::Emoji {
@@ -423,6 +441,8 @@ pub const CONFOUNDED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "confounded face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -435,7 +455,6 @@ pub const CONFOUNDED_FACE: crate::Emoji = crate::Emoji {
             keywords: &["hämmentynyt", "naama", "pöyristynyt", "tyrmistynyt"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😣"]
 pub const PERSEVERING_FACE: crate::Emoji = crate::Emoji {
@@ -444,6 +463,8 @@ pub const PERSEVERING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "persevering face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -462,7 +483,6 @@ pub const PERSEVERING_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😞"]
 pub const DISAPPOINTED_FACE: crate::Emoji = crate::Emoji {
@@ -471,6 +491,8 @@ pub const DISAPPOINTED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "disappointed face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -483,7 +505,6 @@ pub const DISAPPOINTED_FACE: crate::Emoji = crate::Emoji {
             keywords: &["naama", "pettymys", "pettynyt"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😓"]
 pub const DOWNCAST_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
@@ -492,6 +513,8 @@ pub const DOWNCAST_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "downcast face with sweat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -504,7 +527,6 @@ pub const DOWNCAST_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
             keywords: &["hiki", "kylmä", "kylmänhiki", "naama"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😩"]
 pub const WEARY_FACE: crate::Emoji = crate::Emoji {
@@ -513,6 +535,8 @@ pub const WEARY_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "weary face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -525,7 +549,6 @@ pub const WEARY_FACE: crate::Emoji = crate::Emoji {
             keywords: &["naama", "poikki", "uupumus", "uupunut", "väsynyt"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😫"]
 pub const TIRED_FACE: crate::Emoji = crate::Emoji {
@@ -534,6 +557,8 @@ pub const TIRED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tired face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -546,7 +571,6 @@ pub const TIRED_FACE: crate::Emoji = crate::Emoji {
             keywords: &["naama", "uupumus", "väsymys", "väsynyt"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥱"]
 pub const YAWNING_FACE: crate::Emoji = crate::Emoji {
@@ -555,6 +579,8 @@ pub const YAWNING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "yawning face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -567,5 +593,4 @@ pub const YAWNING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["haukotteleva naama", "haukotus", "kyllästynyt", "väsynyt"],
         },
     ],
-    variants: &[],
 };

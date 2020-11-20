@@ -5,6 +5,8 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "see-no-evil monkey",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -24,7 +26,6 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
             keywords: &["apina", "ei", "ele", "en näe pahaa", "kielletty"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🙉"]
 pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
@@ -33,6 +34,8 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hear-no-evil monkey",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -52,7 +55,6 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
             keywords: &["apina", "ei", "ele", "en kuule pahaa", "kielletty"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🙊"]
 pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
@@ -61,6 +63,8 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "speak-no-evil monkey",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,5 +84,4 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
             keywords: &["apina", "en puhu pahaa", "kielletty"],
         },
     ],
-    variants: &[],
 };

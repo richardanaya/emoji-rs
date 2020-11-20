@@ -5,6 +5,8 @@ pub const SYRINGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "syringe",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -25,7 +27,6 @@ pub const SYRINGE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🩸"]
 pub const DROP_OF_BLOOD: crate::Emoji = crate::Emoji {
@@ -34,6 +35,8 @@ pub const DROP_OF_BLOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "drop of blood",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -53,7 +56,6 @@ pub const DROP_OF_BLOOD: crate::Emoji = crate::Emoji {
             keywords: &["kuukautiset", "lääketiede", "verenluovutus", "veripisara"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💊"]
 pub const PILL: crate::Emoji = crate::Emoji {
@@ -62,6 +64,8 @@ pub const PILL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pill",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -74,7 +78,6 @@ pub const PILL: crate::Emoji = crate::Emoji {
             keywords: &["lääke", "lääketiede", "lääkäri", "pilleri", "tauti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🩹"]
 pub const ADHESIVE_BANDAGE: crate::Emoji = crate::Emoji {
@@ -83,6 +86,8 @@ pub const ADHESIVE_BANDAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "adhesive bandage",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -95,7 +100,6 @@ pub const ADHESIVE_BANDAGE: crate::Emoji = crate::Emoji {
             keywords: &["haava", "hoito", "laastari"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🩺"]
 pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
@@ -104,6 +108,8 @@ pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "stethoscope",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -116,5 +122,4 @@ pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
             keywords: &["kuuntelu", "lääkäri", "stetoskooppi", "sydän"],
         },
     ],
-    variants: &[],
 };

@@ -5,6 +5,17 @@ pub const UP_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "up arrow",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⬆",
+        codepoint: "2B06",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "up arrow",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -23,15 +34,6 @@ pub const UP_ARROW: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⬆",
-        codepoint: "2B06",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "up arrow",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "↗\u{fe0f}"]
 pub const UP_RIGHT_ARROW: crate::Emoji = crate::Emoji {
@@ -40,6 +42,17 @@ pub const UP_RIGHT_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "up-right arrow",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "↗",
+        codepoint: "2197",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "up-right arrow",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -64,15 +77,6 @@ pub const UP_RIGHT_ARROW: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "↗",
-        codepoint: "2197",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "up-right arrow",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "➡\u{fe0f}"]
 pub const RIGHT_ARROW: crate::Emoji = crate::Emoji {
@@ -81,6 +85,17 @@ pub const RIGHT_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "right arrow",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "➡",
+        codepoint: "27A1",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "right arrow",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -99,15 +114,6 @@ pub const RIGHT_ARROW: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "➡",
-        codepoint: "27A1",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "right arrow",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "↘\u{fe0f}"]
 pub const DOWN_RIGHT_ARROW: crate::Emoji = crate::Emoji {
@@ -116,6 +122,17 @@ pub const DOWN_RIGHT_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "down-right arrow",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "↘",
+        codepoint: "2198",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "down-right arrow",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -140,15 +157,6 @@ pub const DOWN_RIGHT_ARROW: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "↘",
-        codepoint: "2198",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "down-right arrow",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⬇\u{fe0f}"]
 pub const DOWN_ARROW: crate::Emoji = crate::Emoji {
@@ -157,6 +165,17 @@ pub const DOWN_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "down arrow",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⬇",
+        codepoint: "2B07",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "down arrow",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -175,15 +194,6 @@ pub const DOWN_ARROW: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⬇",
-        codepoint: "2B07",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "down arrow",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "↙\u{fe0f}"]
 pub const DOWN_LEFT_ARROW: crate::Emoji = crate::Emoji {
@@ -192,6 +202,17 @@ pub const DOWN_LEFT_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "down-left arrow",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "↙",
+        codepoint: "2199",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "down-left arrow",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -216,15 +237,6 @@ pub const DOWN_LEFT_ARROW: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "↙",
-        codepoint: "2199",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "down-left arrow",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⬅\u{fe0f}"]
 pub const LEFT_ARROW: crate::Emoji = crate::Emoji {
@@ -233,6 +245,17 @@ pub const LEFT_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "left arrow",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⬅",
+        codepoint: "2B05",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "left arrow",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -251,15 +274,6 @@ pub const LEFT_ARROW: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⬅",
-        codepoint: "2B05",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "left arrow",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "↖\u{fe0f}"]
 pub const UP_LEFT_ARROW: crate::Emoji = crate::Emoji {
@@ -268,6 +282,17 @@ pub const UP_LEFT_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "up-left arrow",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "↖",
+        codepoint: "2196",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "up-left arrow",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -292,15 +317,6 @@ pub const UP_LEFT_ARROW: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "↖",
-        codepoint: "2196",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "up-left arrow",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "↕\u{fe0f}"]
 pub const UP_DOWN_ARROW: crate::Emoji = crate::Emoji {
@@ -309,6 +325,17 @@ pub const UP_DOWN_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "up-down arrow",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "↕",
+        codepoint: "2195",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "up-down arrow",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -321,15 +348,6 @@ pub const UP_DOWN_ARROW: crate::Emoji = crate::Emoji {
             keywords: &["nuoli", "nuoli ylös ja alas", "suunta"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "↕",
-        codepoint: "2195",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "up-down arrow",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "↔\u{fe0f}"]
 pub const LEFT_RIGHT_ARROW: crate::Emoji = crate::Emoji {
@@ -338,6 +356,17 @@ pub const LEFT_RIGHT_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "left-right arrow",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "↔",
+        codepoint: "2194",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "left-right arrow",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -350,15 +379,6 @@ pub const LEFT_RIGHT_ARROW: crate::Emoji = crate::Emoji {
             keywords: &["nuoli", "nuoli oikealle ja vasemmalle", "suunta"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "↔",
-        codepoint: "2194",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "left-right arrow",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "↩\u{fe0f}"]
 pub const RIGHT_ARROW_CURVING_LEFT: crate::Emoji = crate::Emoji {
@@ -367,6 +387,17 @@ pub const RIGHT_ARROW_CURVING_LEFT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "right arrow curving left",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "↩",
+        codepoint: "21A9",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "right arrow curving left",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -379,15 +410,6 @@ pub const RIGHT_ARROW_CURVING_LEFT: crate::Emoji = crate::Emoji {
             keywords: &["nuoli", "vasemmalle kääntyvä nuoli"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "↩",
-        codepoint: "21A9",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "right arrow curving left",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "↪\u{fe0f}"]
 pub const LEFT_ARROW_CURVING_RIGHT: crate::Emoji = crate::Emoji {
@@ -396,6 +418,17 @@ pub const LEFT_ARROW_CURVING_RIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "left arrow curving right",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "↪",
+        codepoint: "21AA",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "left arrow curving right",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -408,15 +441,6 @@ pub const LEFT_ARROW_CURVING_RIGHT: crate::Emoji = crate::Emoji {
             keywords: &["nuoli", "oikealle kääntyvä nuoli"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "↪",
-        codepoint: "21AA",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "left arrow curving right",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⤴\u{fe0f}"]
 pub const RIGHT_ARROW_CURVING_UP: crate::Emoji = crate::Emoji {
@@ -425,6 +449,17 @@ pub const RIGHT_ARROW_CURVING_UP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "right arrow curving up",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⤴",
+        codepoint: "2934",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "right arrow curving up",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -437,15 +472,6 @@ pub const RIGHT_ARROW_CURVING_UP: crate::Emoji = crate::Emoji {
             keywords: &["nuoli", "ylös", "ylös kääntyvä nuoli"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⤴",
-        codepoint: "2934",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "right arrow curving up",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⤵\u{fe0f}"]
 pub const RIGHT_ARROW_CURVING_DOWN: crate::Emoji = crate::Emoji {
@@ -454,6 +480,17 @@ pub const RIGHT_ARROW_CURVING_DOWN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "right arrow curving down",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⤵",
+        codepoint: "2935",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "right arrow curving down",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -466,15 +503,6 @@ pub const RIGHT_ARROW_CURVING_DOWN: crate::Emoji = crate::Emoji {
             keywords: &["alas", "alas kääntyvä nuoli", "nuoli"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⤵",
-        codepoint: "2935",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "right arrow curving down",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🔃"]
 pub const CLOCKWISE_VERTICAL_ARROWS: crate::Emoji = crate::Emoji {
@@ -483,6 +511,8 @@ pub const CLOCKWISE_VERTICAL_ARROWS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "clockwise vertical arrows",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -500,7 +530,6 @@ pub const CLOCKWISE_VERTICAL_ARROWS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔄"]
 pub const COUNTERCLOCKWISE_ARROWS_BUTTON: crate::Emoji = crate::Emoji {
@@ -509,6 +538,8 @@ pub const COUNTERCLOCKWISE_ARROWS_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "counterclockwise arrows button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -527,7 +558,6 @@ pub const COUNTERCLOCKWISE_ARROWS_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["nuolet vastapäivään", "nuoli", "vastapäivään"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔙"]
 pub const BACK_ARROW: crate::Emoji = crate::Emoji {
@@ -536,6 +566,8 @@ pub const BACK_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "BACK arrow",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -548,7 +580,6 @@ pub const BACK_ARROW: crate::Emoji = crate::Emoji {
             keywords: &["BACK-nuoli", "nuoli", "takaisin"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔚"]
 pub const END_ARROW: crate::Emoji = crate::Emoji {
@@ -557,6 +588,8 @@ pub const END_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "END arrow",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -569,7 +602,6 @@ pub const END_ARROW: crate::Emoji = crate::Emoji {
             keywords: &["END-nuoli", "lopeta", "nuoli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔛"]
 pub const ON_ARROW: crate::Emoji = crate::Emoji {
@@ -578,6 +610,8 @@ pub const ON_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ON! arrow",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -590,7 +624,6 @@ pub const ON_ARROW: crate::Emoji = crate::Emoji {
             keywords: &["ON!-nuoli", "nuoli", "päällä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔜"]
 pub const SOON_ARROW: crate::Emoji = crate::Emoji {
@@ -599,6 +632,8 @@ pub const SOON_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "SOON arrow",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -611,7 +646,6 @@ pub const SOON_ARROW: crate::Emoji = crate::Emoji {
             keywords: &["SOON-nuoli", "nuoli", "tulossa"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔝"]
 pub const TOP_ARROW: crate::Emoji = crate::Emoji {
@@ -620,6 +654,8 @@ pub const TOP_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "TOP arrow",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -632,5 +668,4 @@ pub const TOP_ARROW: crate::Emoji = crate::Emoji {
             keywords: &["TOP-nuoli", "alkuun", "nuoli"],
         },
     ],
-    variants: &[],
 };

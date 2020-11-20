@@ -5,6 +5,8 @@ pub const ATM_SIGN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ATM sign",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const ATM_SIGN: crate::Emoji = crate::Emoji {
             keywords: &["automaatti", "otto", "pankki", "pankkiautomaatti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚮"]
 pub const LITTER_IN_BIN_SIGN: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const LITTER_IN_BIN_SIGN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "litter in bin sign",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const LITTER_IN_BIN_SIGN: crate::Emoji = crate::Emoji {
             keywords: &["roska", "roskakori", "roskat-merkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚰"]
 pub const POTABLE_WATER: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const POTABLE_WATER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "potable water",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const POTABLE_WATER: crate::Emoji = crate::Emoji {
             keywords: &["juoma", "juomakelpoista vettä", "juotava", "vesi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "♿"]
 pub const WHEELCHAIR_SYMBOL: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const WHEELCHAIR_SYMBOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wheelchair symbol",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,7 +85,6 @@ pub const WHEELCHAIR_SYMBOL: crate::Emoji = crate::Emoji {
             keywords: &["esteettömyys", "pyörätuoli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚹"]
 pub const MENS_ROOM: crate::Emoji = crate::Emoji {
@@ -89,6 +93,8 @@ pub const MENS_ROOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "men’s room",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -101,7 +107,6 @@ pub const MENS_ROOM: crate::Emoji = crate::Emoji {
             keywords: &["miesten wc", "miestenhuone", "vessa", "wc"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚺"]
 pub const WOMENS_ROOM: crate::Emoji = crate::Emoji {
@@ -110,6 +115,8 @@ pub const WOMENS_ROOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "women’s room",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -122,7 +129,6 @@ pub const WOMENS_ROOM: crate::Emoji = crate::Emoji {
             keywords: &["naisten wc", "naistenhuone", "vessa", "wc"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚻"]
 pub const RESTROOM: crate::Emoji = crate::Emoji {
@@ -131,6 +137,8 @@ pub const RESTROOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "restroom",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -143,7 +151,6 @@ pub const RESTROOM: crate::Emoji = crate::Emoji {
             keywords: &["saniteetti", "vessa", "wc"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚼"]
 pub const BABY_SYMBOL: crate::Emoji = crate::Emoji {
@@ -152,6 +159,8 @@ pub const BABY_SYMBOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "baby symbol",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -164,7 +173,6 @@ pub const BABY_SYMBOL: crate::Emoji = crate::Emoji {
             keywords: &["lapsenhoito", "vauva", "vauva-merkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚾"]
 pub const WATER_CLOSET: crate::Emoji = crate::Emoji {
@@ -173,6 +181,8 @@ pub const WATER_CLOSET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "water closet",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -185,7 +195,6 @@ pub const WATER_CLOSET: crate::Emoji = crate::Emoji {
             keywords: &["huussi", "käymälä", "vessa", "wc"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛂"]
 pub const PASSPORT_CONTROL: crate::Emoji = crate::Emoji {
@@ -194,6 +203,8 @@ pub const PASSPORT_CONTROL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "passport control",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -206,7 +217,6 @@ pub const PASSPORT_CONTROL: crate::Emoji = crate::Emoji {
             keywords: &["passi", "passintarkastus", "tarkastus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛃"]
 pub const CUSTOMS: crate::Emoji = crate::Emoji {
@@ -215,6 +225,8 @@ pub const CUSTOMS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "customs",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -227,7 +239,6 @@ pub const CUSTOMS: crate::Emoji = crate::Emoji {
             keywords: &["tulli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛄"]
 pub const BAGGAGE_CLAIM: crate::Emoji = crate::Emoji {
@@ -236,6 +247,8 @@ pub const BAGGAGE_CLAIM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "baggage claim",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -248,7 +261,6 @@ pub const BAGGAGE_CLAIM: crate::Emoji = crate::Emoji {
             keywords: &["hihna", "luovutus", "matkatavarat"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛅"]
 pub const LEFT_LUGGAGE: crate::Emoji = crate::Emoji {
@@ -257,6 +269,8 @@ pub const LEFT_LUGGAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "left luggage",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -274,5 +288,4 @@ pub const LEFT_LUGGAGE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

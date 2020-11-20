@@ -5,6 +5,8 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "crocodile",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
             keywords: &["krokotiili"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐢"]
 pub const TURTLE: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "turtle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
             keywords: &["kilpikonna"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦎"]
 pub const LIZARD: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "lizard",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
             keywords: &["lisko", "matelija"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐍"]
 pub const SNAKE: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "snake",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -86,7 +91,6 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐲"]
 pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
@@ -95,6 +99,8 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dragon face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -107,7 +113,6 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
             keywords: &["lohikäärme", "lohikäärmeen naama", "naama", "satu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐉"]
 pub const DRAGON: crate::Emoji = crate::Emoji {
@@ -116,6 +121,8 @@ pub const DRAGON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "dragon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -128,7 +135,6 @@ pub const DRAGON: crate::Emoji = crate::Emoji {
             keywords: &["lohikäärme", "satu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦕"]
 pub const SAUROPOD: crate::Emoji = crate::Emoji {
@@ -137,6 +143,8 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "sauropod",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -149,7 +157,6 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
             keywords: &["brontosaurus", "dinosaurus", "sauropodi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦖"]
 pub const T_REX: crate::Emoji = crate::Emoji {
@@ -158,6 +165,8 @@ pub const T_REX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "T-Rex",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -170,5 +179,4 @@ pub const T_REX: crate::Emoji = crate::Emoji {
             keywords: &["dinosaurus", "hirmulisko", "tyrannosaurus rex"],
         },
     ],
-    variants: &[],
 };

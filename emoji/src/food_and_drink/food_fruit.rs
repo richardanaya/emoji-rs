@@ -5,6 +5,8 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grapes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "kasvi", "rypäle", "viinirypäle", "viinirypäleet"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍈"]
 pub const MELON: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const MELON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "melon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const MELON: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "kasvi", "meloni"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍉"]
 pub const WATERMELON: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "watermelon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "kasvi", "vesimeloni"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍊"]
 pub const TANGERINE: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tangerine",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,7 +85,6 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
             keywords: &["appelsiini", "hedelmä", "kasvi", "mandariini"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍋"]
 pub const LEMON: crate::Emoji = crate::Emoji {
@@ -89,6 +93,8 @@ pub const LEMON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "lemon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -101,7 +107,6 @@ pub const LEMON: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "kasvi", "sitrus", "sitruuna"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍌"]
 pub const BANANA: crate::Emoji = crate::Emoji {
@@ -110,6 +115,8 @@ pub const BANANA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "banana",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -122,7 +129,6 @@ pub const BANANA: crate::Emoji = crate::Emoji {
             keywords: &["banaani", "hedelmä", "kasvi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍍"]
 pub const PINEAPPLE: crate::Emoji = crate::Emoji {
@@ -131,6 +137,8 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pineapple",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -143,7 +151,6 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
             keywords: &["ananas", "hedelmä", "kasvi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥭"]
 pub const MANGO: crate::Emoji = crate::Emoji {
@@ -152,6 +159,8 @@ pub const MANGO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "mango",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -164,7 +173,6 @@ pub const MANGO: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "mango", "trooppinen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍎"]
 pub const RED_APPLE: crate::Emoji = crate::Emoji {
@@ -173,6 +181,8 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red apple",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -185,7 +195,6 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "kasvi", "omena", "punainen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍏"]
 pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
@@ -194,6 +203,8 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "green apple",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -206,7 +217,6 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "kasvi", "omena", "vihreä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍐"]
 pub const PEAR: crate::Emoji = crate::Emoji {
@@ -215,6 +225,8 @@ pub const PEAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "pear",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -227,7 +239,6 @@ pub const PEAR: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "kasvi", "päärynä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍑"]
 pub const PEACH: crate::Emoji = crate::Emoji {
@@ -236,6 +247,8 @@ pub const PEACH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "peach",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -248,7 +261,6 @@ pub const PEACH: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "kasvi", "persikka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍒"]
 pub const CHERRIES: crate::Emoji = crate::Emoji {
@@ -257,6 +269,8 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cherries",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -269,7 +283,6 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "kasvi", "kirsikat", "kirsikka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍓"]
 pub const STRAWBERRY: crate::Emoji = crate::Emoji {
@@ -278,6 +291,8 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "strawberry",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -290,7 +305,6 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "kasvi", "mansikka", "marja"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🫐"]
 pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
@@ -299,6 +313,8 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "blueberries",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -311,7 +327,6 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
             keywords: &["marja", "mustikat", "mustikka", "sininen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥝"]
 pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
@@ -320,6 +335,8 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "kiwi fruit",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -332,7 +349,6 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
             keywords: &["hedelmä", "kiivi", "ruoka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍅"]
 pub const TOMATO: crate::Emoji = crate::Emoji {
@@ -341,6 +357,8 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tomato",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -353,7 +371,6 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "kasvis", "tomaatti", "vihannes"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🫒"]
 pub const OLIVE: crate::Emoji = crate::Emoji {
@@ -362,6 +379,8 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "olive",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -374,7 +393,6 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
             keywords: &["oliivi", "ruoka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥥"]
 pub const COCONUT: crate::Emoji = crate::Emoji {
@@ -383,6 +401,8 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "coconut",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -395,5 +415,4 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
             keywords: &["kookospähkinä", "palmu"],
         },
     ],
-    variants: &[],
 };

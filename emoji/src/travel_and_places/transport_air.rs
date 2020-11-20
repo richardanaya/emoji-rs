@@ -5,6 +5,17 @@ pub const AIRPLANE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "airplane",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "✈",
+        codepoint: "2708",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "airplane",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const AIRPLANE: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "lentokone"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "✈",
-        codepoint: "2708",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "airplane",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🛩\u{fe0f}"]
 pub const SMALL_AIRPLANE: crate::Emoji = crate::Emoji {
@@ -34,6 +36,17 @@ pub const SMALL_AIRPLANE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "small airplane",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🛩",
+        codepoint: "1F6E9",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "small airplane",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -46,15 +59,6 @@ pub const SMALL_AIRPLANE: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "lentokone", "pienkone"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🛩",
-        codepoint: "1F6E9",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "small airplane",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🛫"]
 pub const AIRPLANE_DEPARTURE: crate::Emoji = crate::Emoji {
@@ -63,6 +67,8 @@ pub const AIRPLANE_DEPARTURE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "airplane departure",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -81,7 +87,6 @@ pub const AIRPLANE_DEPARTURE: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "lentokone", "lähtevä", "lähtö"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛬"]
 pub const AIRPLANE_ARRIVAL: crate::Emoji = crate::Emoji {
@@ -90,6 +95,8 @@ pub const AIRPLANE_ARRIVAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "airplane arrival",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -109,7 +116,6 @@ pub const AIRPLANE_ARRIVAL: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "laskeutuminen", "lentokone", "saapuva"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪂"]
 pub const PARACHUTE: crate::Emoji = crate::Emoji {
@@ -118,6 +124,8 @@ pub const PARACHUTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "parachute",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -130,7 +138,6 @@ pub const PARACHUTE: crate::Emoji = crate::Emoji {
             keywords: &["laskuvarjo", "laskuvarjohyppy", "riippuliito", "varjoliito"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💺"]
 pub const SEAT: crate::Emoji = crate::Emoji {
@@ -139,6 +146,8 @@ pub const SEAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "seat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -151,7 +160,6 @@ pub const SEAT: crate::Emoji = crate::Emoji {
             keywords: &["istuin", "tuoli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚁"]
 pub const HELICOPTER: crate::Emoji = crate::Emoji {
@@ -160,6 +168,8 @@ pub const HELICOPTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "helicopter",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -172,7 +182,6 @@ pub const HELICOPTER: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "helikopteri"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚟"]
 pub const SUSPENSION_RAILWAY: crate::Emoji = crate::Emoji {
@@ -181,6 +190,8 @@ pub const SUSPENSION_RAILWAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "suspension railway",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -200,7 +211,6 @@ pub const SUSPENSION_RAILWAY: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚠"]
 pub const MOUNTAIN_CABLEWAY: crate::Emoji = crate::Emoji {
@@ -209,6 +219,8 @@ pub const MOUNTAIN_CABLEWAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "mountain cableway",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -229,7 +241,6 @@ pub const MOUNTAIN_CABLEWAY: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚡"]
 pub const AERIAL_TRAMWAY: crate::Emoji = crate::Emoji {
@@ -238,6 +249,8 @@ pub const AERIAL_TRAMWAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "aerial tramway",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -250,7 +263,6 @@ pub const AERIAL_TRAMWAY: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "gondoli", "kaapeli", "köysirata", "rata"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛰\u{fe0f}"]
 pub const SATELLITE: crate::Emoji = crate::Emoji {
@@ -259,6 +271,17 @@ pub const SATELLITE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "satellite",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🛰",
+        codepoint: "1F6F0",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "satellite",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -271,15 +294,6 @@ pub const SATELLITE: crate::Emoji = crate::Emoji {
             keywords: &["avaruus", "satelliitti", "tekokuu"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🛰",
-        codepoint: "1F6F0",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "satellite",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🚀"]
 pub const ROCKET: crate::Emoji = crate::Emoji {
@@ -288,6 +302,8 @@ pub const ROCKET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "rocket",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -300,7 +316,6 @@ pub const ROCKET: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "avaruus", "raketti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛸"]
 pub const FLYING_SAUCER: crate::Emoji = crate::Emoji {
@@ -309,6 +324,8 @@ pub const FLYING_SAUCER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "flying saucer",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -321,5 +338,4 @@ pub const FLYING_SAUCER: crate::Emoji = crate::Emoji {
             keywords: &["UFO", "lentävä lautanen"],
         },
     ],
-    variants: &[],
 };

@@ -5,6 +5,17 @@ pub const MEDICAL_SYMBOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 4f32,
     name: "medical symbol",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚕",
+        codepoint: "2695",
+        status: crate::Status::Unqualified,
+        introduction_version: 4f32,
+        name: "medical symbol",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const MEDICAL_SYMBOL: crate::Emoji = crate::Emoji {
             keywords: &["Asklepioksen sauva", "lääketieteen symboli"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⚕",
-        codepoint: "2695",
-        status: crate::Status::Unqualified,
-        introduction_version: 4f32,
-        name: "medical symbol",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "♻\u{fe0f}"]
 pub const RECYCLING_SYMBOL: crate::Emoji = crate::Emoji {
@@ -34,6 +36,17 @@ pub const RECYCLING_SYMBOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "recycling symbol",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "♻",
+        codepoint: "267B",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "recycling symbol",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -46,15 +59,6 @@ pub const RECYCLING_SYMBOL: crate::Emoji = crate::Emoji {
             keywords: &["kierrättää", "kierrätys", "kierrätyssymboli"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "♻",
-        codepoint: "267B",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "recycling symbol",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⚜\u{fe0f}"]
 pub const FLEUR_DE_LIS: crate::Emoji = crate::Emoji {
@@ -63,6 +67,17 @@ pub const FLEUR_DE_LIS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "fleur-de-lis",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚜",
+        codepoint: "269C",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "fleur-de-lis",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -81,15 +96,6 @@ pub const FLEUR_DE_LIS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⚜",
-        codepoint: "269C",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "fleur-de-lis",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🔱"]
 pub const TRIDENT_EMBLEM: crate::Emoji = crate::Emoji {
@@ -98,6 +104,8 @@ pub const TRIDENT_EMBLEM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "trident emblem",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -110,7 +118,6 @@ pub const TRIDENT_EMBLEM: crate::Emoji = crate::Emoji {
             keywords: &["ankkuri", "atrain", "kolme", "kolmikärki", "laiva", "meri"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📛"]
 pub const NAME_BADGE: crate::Emoji = crate::Emoji {
@@ -119,6 +126,8 @@ pub const NAME_BADGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "name badge",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -131,7 +140,6 @@ pub const NAME_BADGE: crate::Emoji = crate::Emoji {
             keywords: &["kyltti", "lappu", "nimi", "nimikyltti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔰"]
 pub const JAPANESE_SYMBOL_FOR_BEGINNER: crate::Emoji = crate::Emoji {
@@ -140,6 +148,8 @@ pub const JAPANESE_SYMBOL_FOR_BEGINNER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese symbol for beginner",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -165,7 +175,6 @@ pub const JAPANESE_SYMBOL_FOR_BEGINNER: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "⭕"]
 pub const HOLLOW_RED_CIRCLE: crate::Emoji = crate::Emoji {
@@ -174,6 +183,8 @@ pub const HOLLOW_RED_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hollow red circle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -186,7 +197,6 @@ pub const HOLLOW_RED_CIRCLE: crate::Emoji = crate::Emoji {
             keywords: &["O", "suuri ympyrä", "ympyrä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "✅"]
 pub const CHECK_MARK_BUTTON: crate::Emoji = crate::Emoji {
@@ -195,6 +205,8 @@ pub const CHECK_MARK_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "check mark button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -213,7 +225,6 @@ pub const CHECK_MARK_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "☑\u{fe0f}"]
 pub const CHECK_BOX_WITH_CHECK: crate::Emoji = crate::Emoji {
@@ -222,6 +233,17 @@ pub const CHECK_BOX_WITH_CHECK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "check box with check",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☑",
+        codepoint: "2611",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "check box with check",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -240,15 +262,6 @@ pub const CHECK_BOX_WITH_CHECK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☑",
-        codepoint: "2611",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "check box with check",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "✔\u{fe0f}"]
 pub const CHECK_MARK: crate::Emoji = crate::Emoji {
@@ -257,6 +270,17 @@ pub const CHECK_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "check mark",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "✔",
+        codepoint: "2714",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "check mark",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -275,15 +299,6 @@ pub const CHECK_MARK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "✔",
-        codepoint: "2714",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "check mark",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "❌"]
 pub const CROSS_MARK: crate::Emoji = crate::Emoji {
@@ -292,6 +307,8 @@ pub const CROSS_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cross mark",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -318,7 +335,6 @@ pub const CROSS_MARK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "❎"]
 pub const CROSS_MARK_BUTTON: crate::Emoji = crate::Emoji {
@@ -327,6 +343,8 @@ pub const CROSS_MARK_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cross mark button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -346,7 +364,6 @@ pub const CROSS_MARK_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "➰"]
 pub const CURLY_LOOP: crate::Emoji = crate::Emoji {
@@ -355,6 +372,8 @@ pub const CURLY_LOOP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "curly loop",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -367,7 +386,6 @@ pub const CURLY_LOOP: crate::Emoji = crate::Emoji {
             keywords: &["kaareva silmukka", "silmukka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "➿"]
 pub const DOUBLE_CURLY_LOOP: crate::Emoji = crate::Emoji {
@@ -376,6 +394,8 @@ pub const DOUBLE_CURLY_LOOP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "double curly loop",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -388,7 +408,6 @@ pub const DOUBLE_CURLY_LOOP: crate::Emoji = crate::Emoji {
             keywords: &["2", "kaksoissilmukka", "nauhuri", "silmukka", "vastaaja"],
         },
     ],
-    variants: &[],
 };
 #[doc = "〽\u{fe0f}"]
 pub const PART_ALTERNATION_MARK: crate::Emoji = crate::Emoji {
@@ -397,6 +416,17 @@ pub const PART_ALTERNATION_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "part alternation mark",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "〽",
+        codepoint: "303D",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "part alternation mark",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -409,15 +439,6 @@ pub const PART_ALTERNATION_MARK: crate::Emoji = crate::Emoji {
             keywords: &["ioriten", "japani", "merkki", "osanvaihtomerkki"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "〽",
-        codepoint: "303D",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "part alternation mark",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "✳\u{fe0f}"]
 pub const EIGHT_SPOKED_ASTERISK: crate::Emoji = crate::Emoji {
@@ -426,6 +447,17 @@ pub const EIGHT_SPOKED_ASTERISK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "eight-spoked asterisk",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "✳",
+        codepoint: "2733",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "eight-spoked asterisk",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -444,15 +476,6 @@ pub const EIGHT_SPOKED_ASTERISK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "✳",
-        codepoint: "2733",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "eight-spoked asterisk",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "✴\u{fe0f}"]
 pub const EIGHT_POINTED_STAR: crate::Emoji = crate::Emoji {
@@ -461,6 +484,17 @@ pub const EIGHT_POINTED_STAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "eight-pointed star",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "✴",
+        codepoint: "2734",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "eight-pointed star",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -479,15 +513,6 @@ pub const EIGHT_POINTED_STAR: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "✴",
-        codepoint: "2734",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "eight-pointed star",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "❇\u{fe0f}"]
 pub const SPARKLE: crate::Emoji = crate::Emoji {
@@ -496,6 +521,17 @@ pub const SPARKLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sparkle",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "❇",
+        codepoint: "2747",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "sparkle",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -508,15 +544,6 @@ pub const SPARKLE: crate::Emoji = crate::Emoji {
             keywords: &["kipinä", "säihke", "tähti"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "❇",
-        codepoint: "2747",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "sparkle",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "©\u{fe0f}"]
 pub const COPYRIGHT: crate::Emoji = crate::Emoji {
@@ -525,6 +552,17 @@ pub const COPYRIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "copyright",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "©",
+        codepoint: "00A9",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "copyright",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -537,15 +575,6 @@ pub const COPYRIGHT: crate::Emoji = crate::Emoji {
             keywords: &["C", "tekijänoikeus", "tekijänoikeusmerkki"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "©",
-        codepoint: "00A9",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "copyright",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "®\u{fe0f}"]
 pub const REGISTERED: crate::Emoji = crate::Emoji {
@@ -554,6 +583,17 @@ pub const REGISTERED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "registered",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "®",
+        codepoint: "00AE",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "registered",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -566,15 +606,6 @@ pub const REGISTERED: crate::Emoji = crate::Emoji {
             keywords: &["R", "rekisteröity", "rekisteröity-merkki"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "®",
-        codepoint: "00AE",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "registered",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "™\u{fe0f}"]
 pub const TRADE_MARK: crate::Emoji = crate::Emoji {
@@ -583,6 +614,17 @@ pub const TRADE_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "trade mark",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "™",
+        codepoint: "2122",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "trade mark",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -595,13 +637,4 @@ pub const TRADE_MARK: crate::Emoji = crate::Emoji {
             keywords: &["TM", "merkki", "tavaramerkki"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "™",
-        codepoint: "2122",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "trade mark",
-        annotations: &[],
-        variants: &[],
-    }],
 };

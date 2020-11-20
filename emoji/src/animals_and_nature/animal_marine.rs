@@ -5,6 +5,8 @@ pub const SPOUTING_WHALE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "spouting whale",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const SPOUTING_WHALE: crate::Emoji = crate::Emoji {
             keywords: &["naama", "suihkuttaa", "suihkuttava valas", "valas"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐋"]
 pub const WHALE: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const WHALE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "whale",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const WHALE: crate::Emoji = crate::Emoji {
             keywords: &["valas"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐬"]
 pub const DOLPHIN: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const DOLPHIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dolphin",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const DOLPHIN: crate::Emoji = crate::Emoji {
             keywords: &["delfiini", "flipper"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦭"]
 pub const SEAL: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const SEAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "seal",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,7 +85,6 @@ pub const SEAL: crate::Emoji = crate::Emoji {
             keywords: &["hylje", "merileijona"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐟"]
 pub const FISH: crate::Emoji = crate::Emoji {
@@ -89,6 +93,8 @@ pub const FISH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fish",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -101,7 +107,6 @@ pub const FISH: crate::Emoji = crate::Emoji {
             keywords: &["horoskooppi", "horoskooppimerkki", "kala", "kalat"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐠"]
 pub const TROPICAL_FISH: crate::Emoji = crate::Emoji {
@@ -110,6 +115,8 @@ pub const TROPICAL_FISH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tropical fish",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -122,7 +129,6 @@ pub const TROPICAL_FISH: crate::Emoji = crate::Emoji {
             keywords: &["kala", "trooppinen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐡"]
 pub const BLOWFISH: crate::Emoji = crate::Emoji {
@@ -131,6 +137,8 @@ pub const BLOWFISH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "blowfish",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -143,7 +151,6 @@ pub const BLOWFISH: crate::Emoji = crate::Emoji {
             keywords: &["kala", "pallokala"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦈"]
 pub const SHARK: crate::Emoji = crate::Emoji {
@@ -152,6 +159,8 @@ pub const SHARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "shark",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -164,7 +173,6 @@ pub const SHARK: crate::Emoji = crate::Emoji {
             keywords: &["hai", "kala"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐙"]
 pub const OCTOPUS: crate::Emoji = crate::Emoji {
@@ -173,6 +181,8 @@ pub const OCTOPUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "octopus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -185,7 +195,6 @@ pub const OCTOPUS: crate::Emoji = crate::Emoji {
             keywords: &["mustekala"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐚"]
 pub const SPIRAL_SHELL: crate::Emoji = crate::Emoji {
@@ -194,6 +203,8 @@ pub const SPIRAL_SHELL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "spiral shell",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -206,5 +217,4 @@ pub const SPIRAL_SHELL: crate::Emoji = crate::Emoji {
             keywords: &["kotilo", "kuori"],
         },
     ],
-    variants: &[],
 };

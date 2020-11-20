@@ -5,6 +5,8 @@ pub const PLACE_OF_WORSHIP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "place of worship",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -23,7 +25,6 @@ pub const PLACE_OF_WORSHIP: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "⚛\u{fe0f}"]
 pub const ATOM_SYMBOL: crate::Emoji = crate::Emoji {
@@ -32,6 +33,17 @@ pub const ATOM_SYMBOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "atom symbol",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚛",
+        codepoint: "269B",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "atom symbol",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -44,15 +56,6 @@ pub const ATOM_SYMBOL: crate::Emoji = crate::Emoji {
             keywords: &["ateisti", "atomi"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⚛",
-        codepoint: "269B",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "atom symbol",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🕉\u{fe0f}"]
 pub const OM: crate::Emoji = crate::Emoji {
@@ -61,6 +64,17 @@ pub const OM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "om",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🕉",
+        codepoint: "1F549",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "om",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,15 +94,6 @@ pub const OM: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🕉",
-        codepoint: "1F549",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "om",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "✡\u{fe0f}"]
 pub const STAR_OF_DAVID: crate::Emoji = crate::Emoji {
@@ -97,6 +102,17 @@ pub const STAR_OF_DAVID: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "star of David",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "✡",
+        codepoint: "2721",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "star of David",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -123,15 +139,6 @@ pub const STAR_OF_DAVID: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "✡",
-        codepoint: "2721",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "star of David",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "☸\u{fe0f}"]
 pub const WHEEL_OF_DHARMA: crate::Emoji = crate::Emoji {
@@ -140,6 +147,17 @@ pub const WHEEL_OF_DHARMA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "wheel of dharma",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☸",
+        codepoint: "2638",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "wheel of dharma",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -160,15 +178,6 @@ pub const WHEEL_OF_DHARMA: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☸",
-        codepoint: "2638",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "wheel of dharma",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "☯\u{fe0f}"]
 pub const YIN_YANG: crate::Emoji = crate::Emoji {
@@ -177,6 +186,17 @@ pub const YIN_YANG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "yin yang",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☯",
+        codepoint: "262F",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "yin yang",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -189,15 +209,6 @@ pub const YIN_YANG: crate::Emoji = crate::Emoji {
             keywords: &["jang", "jin", "jin ja jang", "tao", "taolaisuus", "uskonto"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☯",
-        codepoint: "262F",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "yin yang",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "✝\u{fe0f}"]
 pub const LATIN_CROSS: crate::Emoji = crate::Emoji {
@@ -206,6 +217,17 @@ pub const LATIN_CROSS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "latin cross",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "✝",
+        codepoint: "271D",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "latin cross",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -218,15 +240,6 @@ pub const LATIN_CROSS: crate::Emoji = crate::Emoji {
             keywords: &["kristinusko", "latinalainen risti", "risti", "uskonto"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "✝",
-        codepoint: "271D",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "latin cross",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "☦\u{fe0f}"]
 pub const ORTHODOX_CROSS: crate::Emoji = crate::Emoji {
@@ -235,6 +248,17 @@ pub const ORTHODOX_CROSS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "orthodox cross",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☦",
+        codepoint: "2626",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "orthodox cross",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -253,15 +277,6 @@ pub const ORTHODOX_CROSS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☦",
-        codepoint: "2626",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "orthodox cross",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "☪\u{fe0f}"]
 pub const STAR_AND_CRESCENT: crate::Emoji = crate::Emoji {
@@ -270,6 +285,17 @@ pub const STAR_AND_CRESCENT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "star and crescent",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☪",
+        codepoint: "262A",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "star and crescent",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -289,15 +315,6 @@ pub const STAR_AND_CRESCENT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☪",
-        codepoint: "262A",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "star and crescent",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "☮\u{fe0f}"]
 pub const PEACE_SYMBOL: crate::Emoji = crate::Emoji {
@@ -306,6 +323,17 @@ pub const PEACE_SYMBOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "peace symbol",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☮",
+        codepoint: "262E",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "peace symbol",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -318,15 +346,6 @@ pub const PEACE_SYMBOL: crate::Emoji = crate::Emoji {
             keywords: &["rauha", "rauhansymboli"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☮",
-        codepoint: "262E",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "peace symbol",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🕎"]
 pub const MENORAH: crate::Emoji = crate::Emoji {
@@ -335,6 +354,8 @@ pub const MENORAH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "menorah",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -353,7 +374,6 @@ pub const MENORAH: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔯"]
 pub const DOTTED_SIX_POINTED_STAR: crate::Emoji = crate::Emoji {
@@ -362,6 +382,8 @@ pub const DOTTED_SIX_POINTED_STAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dotted six-pointed star",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -379,5 +401,4 @@ pub const DOTTED_SIX_POINTED_STAR: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

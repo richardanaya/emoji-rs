@@ -5,6 +5,17 @@ pub const SPEAKING_HEAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "speaking head",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🗣",
+        codepoint: "1F5E3",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "speaking head",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -24,15 +35,6 @@ pub const SPEAKING_HEAD: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🗣",
-        codepoint: "1F5E3",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "speaking head",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "👤"]
 pub const BUST_IN_SILHOUETTE: crate::Emoji = crate::Emoji {
@@ -41,6 +43,8 @@ pub const BUST_IN_SILHOUETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bust in silhouette",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -53,7 +57,6 @@ pub const BUST_IN_SILHOUETTE: crate::Emoji = crate::Emoji {
             keywords: &["rintakuva", "rintasiluetti", "siluetti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "👥"]
 pub const BUSTS_IN_SILHOUETTE: crate::Emoji = crate::Emoji {
@@ -62,6 +65,8 @@ pub const BUSTS_IN_SILHOUETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "busts in silhouette",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -74,7 +79,6 @@ pub const BUSTS_IN_SILHOUETTE: crate::Emoji = crate::Emoji {
             keywords: &["kaksi rintasiluettia", "rintakuva", "siluetti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🫂"]
 pub const PEOPLE_HUGGING: crate::Emoji = crate::Emoji {
@@ -83,6 +87,8 @@ pub const PEOPLE_HUGGING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "people hugging",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -95,7 +101,6 @@ pub const PEOPLE_HUGGING: crate::Emoji = crate::Emoji {
             keywords: &["halaus", "hei", "kiitos", "näkemiin"],
         },
     ],
-    variants: &[],
 };
 #[doc = "👣"]
 pub const FOOTPRINTS: crate::Emoji = crate::Emoji {
@@ -104,6 +109,8 @@ pub const FOOTPRINTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "footprints",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -116,5 +123,4 @@ pub const FOOTPRINTS: crate::Emoji = crate::Emoji {
             keywords: &["jalanjäljet", "jalanjäljki", "jälki", "vaatteet", "vartalo"],
         },
     ],
-    variants: &[],
 };

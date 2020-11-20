@@ -5,6 +5,17 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "alembic",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚗",
+        codepoint: "2697",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "alembic",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
             keywords: &["kemia", "tislauskolvi", "työkalu"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⚗",
-        codepoint: "2697",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "alembic",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🧪"]
 pub const TEST_TUBE: crate::Emoji = crate::Emoji {
@@ -34,6 +36,8 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "test tube",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -60,7 +64,6 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧫"]
 pub const PETRI_DISH: crate::Emoji = crate::Emoji {
@@ -69,6 +72,8 @@ pub const PETRI_DISH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "petri dish",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -95,7 +100,6 @@ pub const PETRI_DISH: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧬"]
 pub const DNA: crate::Emoji = crate::Emoji {
@@ -104,6 +108,8 @@ pub const DNA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "dna",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -123,7 +129,6 @@ pub const DNA: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔬"]
 pub const MICROSCOPE: crate::Emoji = crate::Emoji {
@@ -132,6 +137,8 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "microscope",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -144,7 +151,6 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
             keywords: &["mikroskooppi", "työkalu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔭"]
 pub const TELESCOPE: crate::Emoji = crate::Emoji {
@@ -153,6 +159,8 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "telescope",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -165,7 +173,6 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
             keywords: &["kaukoputki", "teleskooppi", "työkalu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📡"]
 pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
@@ -174,6 +181,8 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "satellite antenna",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -186,5 +195,4 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
             keywords: &["antenni", "lautanen", "lautasantenni", "satelliittiantenni"],
         },
     ],
-    variants: &[],
 };

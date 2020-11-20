@@ -5,6 +5,8 @@ pub const GRINNING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "grinning face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const GRINNING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["hymy", "kasvot", "leveä hymy", "naama", "virnistys"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😃"]
 pub const GRINNING_FACE_WITH_BIG_EYES: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const GRINNING_FACE_WITH_BIG_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning face with big eyes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -44,7 +47,6 @@ pub const GRINNING_FACE_WITH_BIG_EYES: crate::Emoji = crate::Emoji {
             keywords: &["auki", "hymy", "kasvot", "naama", "suu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😄"]
 pub const GRINNING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
@@ -53,6 +55,8 @@ pub const GRINNING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning face with smiling eyes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,7 +84,6 @@ pub const GRINNING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😁"]
 pub const BEAMING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
@@ -89,6 +92,8 @@ pub const BEAMING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "beaming face with smiling eyes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -114,7 +119,6 @@ pub const BEAMING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😆"]
 pub const GRINNING_SQUINTING_FACE: crate::Emoji = crate::Emoji {
@@ -123,6 +127,8 @@ pub const GRINNING_SQUINTING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning squinting face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -150,7 +156,6 @@ pub const GRINNING_SQUINTING_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😅"]
 pub const GRINNING_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
@@ -159,6 +164,8 @@ pub const GRINNING_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning face with sweat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -185,7 +192,6 @@ pub const GRINNING_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤣"]
 pub const ROLLING_ON_THE_FLOOR_LAUGHING: crate::Emoji = crate::Emoji {
@@ -194,6 +200,8 @@ pub const ROLLING_ON_THE_FLOOR_LAUGHING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "rolling on the floor laughing",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -214,7 +222,6 @@ pub const ROLLING_ON_THE_FLOOR_LAUGHING: crate::Emoji = crate::Emoji {
             keywords: &["kasvot", "kippura", "naama", "nauraa", "nauraa kippurassa"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😂"]
 pub const FACE_WITH_TEARS_OF_JOY: crate::Emoji = crate::Emoji {
@@ -223,6 +230,8 @@ pub const FACE_WITH_TEARS_OF_JOY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face with tears of joy",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -241,7 +250,6 @@ pub const FACE_WITH_TEARS_OF_JOY: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🙂"]
 pub const SLIGHTLY_SMILING_FACE: crate::Emoji = crate::Emoji {
@@ -250,6 +258,8 @@ pub const SLIGHTLY_SMILING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "slightly smiling face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -262,7 +272,6 @@ pub const SLIGHTLY_SMILING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["hymy", "naama", "pieni hymy"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🙃"]
 pub const UPSIDE_DOWN_FACE: crate::Emoji = crate::Emoji {
@@ -271,6 +280,8 @@ pub const UPSIDE_DOWN_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "upside-down face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -283,7 +294,6 @@ pub const UPSIDE_DOWN_FACE: crate::Emoji = crate::Emoji {
             keywords: &["naama", "väärinpäin", "ylösalainen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😉"]
 pub const WINKING_FACE: crate::Emoji = crate::Emoji {
@@ -292,6 +302,8 @@ pub const WINKING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "winking face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -312,7 +324,6 @@ pub const WINKING_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😊"]
 pub const SMILING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
@@ -321,6 +332,8 @@ pub const SMILING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "smiling face with smiling eyes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -339,7 +352,6 @@ pub const SMILING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
             keywords: &["hymy", "naama", "punastunut", "silmä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😇"]
 pub const SMILING_FACE_WITH_HALO: crate::Emoji = crate::Emoji {
@@ -348,6 +360,8 @@ pub const SMILING_FACE_WITH_HALO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "smiling face with halo",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -375,5 +389,4 @@ pub const SMILING_FACE_WITH_HALO: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

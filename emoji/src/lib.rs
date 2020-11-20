@@ -26,6 +26,7 @@ pub struct Emoji {
     pub name: &'static str,
     pub variants: &'static [Emoji],
     pub annotations: &'static [Annotation],
+    pub is_variant: bool,
 }
 #[derive(Debug, PartialEq)]
 pub struct Annotation {

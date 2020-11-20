@@ -5,6 +5,8 @@ pub const MUSICAL_SCORE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "musical score",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const MUSICAL_SCORE: crate::Emoji = crate::Emoji {
             keywords: &["musiikki", "nuotti", "nuottiavain", "nuottiviivasto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎵"]
 pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "musical note",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
             keywords: &["musiikki", "nuotti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎶"]
 pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "musical notes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
             keywords: &["musiikki", "nuotteja", "nuotti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎙\u{fe0f}"]
 pub const STUDIO_MICROPHONE: crate::Emoji = crate::Emoji {
@@ -68,6 +71,17 @@ pub const STUDIO_MICROPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "studio microphone",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🎙",
+        codepoint: "1F399",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "studio microphone",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -86,15 +100,6 @@ pub const STUDIO_MICROPHONE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🎙",
-        codepoint: "1F399",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "studio microphone",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🎚\u{fe0f}"]
 pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
@@ -103,6 +108,17 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "level slider",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🎚",
+        codepoint: "1F39A",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "level slider",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -121,15 +137,6 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🎚",
-        codepoint: "1F39A",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "level slider",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🎛\u{fe0f}"]
 pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
@@ -138,6 +145,17 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "control knobs",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🎛",
+        codepoint: "1F39B",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "control knobs",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -150,15 +168,6 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
             keywords: &["musiikki", "nuppi", "säädin", "säätimet"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🎛",
-        codepoint: "1F39B",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "control knobs",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🎤"]
 pub const MICROPHONE: crate::Emoji = crate::Emoji {
@@ -167,6 +176,8 @@ pub const MICROPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "microphone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -179,7 +190,6 @@ pub const MICROPHONE: crate::Emoji = crate::Emoji {
             keywords: &["karaoke", "mikki", "mikrofoni"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎧"]
 pub const HEADPHONE: crate::Emoji = crate::Emoji {
@@ -188,6 +198,8 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "headphone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -200,7 +212,6 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
             keywords: &["korvanappi", "kuuloke", "nappi", "nappikuuloke"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📻"]
 pub const RADIO: crate::Emoji = crate::Emoji {
@@ -209,6 +220,8 @@ pub const RADIO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "radio",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -221,5 +234,4 @@ pub const RADIO: crate::Emoji = crate::Emoji {
             keywords: &["radio", "vastaanotin"],
         },
     ],
-    variants: &[],
 };

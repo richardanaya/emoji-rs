@@ -5,6 +5,8 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 1f32,
     name: "light skin tone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -23,7 +25,6 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏼"]
 pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -32,6 +33,8 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 1f32,
     name: "medium-light skin tone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -50,7 +53,6 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏽"]
 pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -59,6 +61,8 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 1f32,
     name: "medium skin tone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -78,7 +82,6 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏾"]
 pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -87,6 +90,8 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 1f32,
     name: "medium-dark skin tone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -105,7 +110,6 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏿"]
 pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -114,6 +118,8 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 1f32,
     name: "dark skin tone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -126,5 +132,4 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
             keywords: &["emojin muokkaus", "fitzpatrick", "iho", "sävy", "tumma iho"],
         },
     ],
-    variants: &[],
 };

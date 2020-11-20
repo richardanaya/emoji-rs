@@ -5,6 +5,17 @@ pub const WARNING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "warning",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚠",
+        codepoint: "26A0",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "warning",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const WARNING: crate::Emoji = crate::Emoji {
             keywords: &["muu vaara", "vaara", "varoitus"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⚠",
-        codepoint: "26A0",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "warning",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🚸"]
 pub const CHILDREN_CROSSING: crate::Emoji = crate::Emoji {
@@ -34,6 +36,8 @@ pub const CHILDREN_CROSSING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "children crossing",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -58,7 +62,6 @@ pub const CHILDREN_CROSSING: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "⛔"]
 pub const NO_ENTRY: crate::Emoji = crate::Emoji {
@@ -67,6 +70,8 @@ pub const NO_ENTRY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "no entry",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -79,7 +84,6 @@ pub const NO_ENTRY: crate::Emoji = crate::Emoji {
             keywords: &["ajosuunta", "ei", "kielletty", "liikenne", "sallittu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚫"]
 pub const PROHIBITED: crate::Emoji = crate::Emoji {
@@ -88,6 +92,8 @@ pub const PROHIBITED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "prohibited",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -100,7 +106,6 @@ pub const PROHIBITED: crate::Emoji = crate::Emoji {
             keywords: &["ei", "kielletty", "liikenne", "pääsy"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚳"]
 pub const NO_BICYCLES: crate::Emoji = crate::Emoji {
@@ -109,6 +114,8 @@ pub const NO_BICYCLES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "no bicycles",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -135,7 +142,6 @@ pub const NO_BICYCLES: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚭"]
 pub const NO_SMOKING: crate::Emoji = crate::Emoji {
@@ -144,6 +150,8 @@ pub const NO_SMOKING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "no smoking",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -156,7 +164,6 @@ pub const NO_SMOKING: crate::Emoji = crate::Emoji {
             keywords: &["kielletty", "tupakka", "tupakointi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚯"]
 pub const NO_LITTERING: crate::Emoji = crate::Emoji {
@@ -165,6 +172,8 @@ pub const NO_LITTERING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "no littering",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -184,7 +193,6 @@ pub const NO_LITTERING: crate::Emoji = crate::Emoji {
             keywords: &["kielletty", "roska", "roskaaminen kielletty"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚱"]
 pub const NON_POTABLE_WATER: crate::Emoji = crate::Emoji {
@@ -193,6 +201,8 @@ pub const NON_POTABLE_WATER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "non-potable water",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -210,7 +220,6 @@ pub const NON_POTABLE_WATER: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚷"]
 pub const NO_PEDESTRIANS: crate::Emoji = crate::Emoji {
@@ -219,6 +228,8 @@ pub const NO_PEDESTRIANS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "no pedestrians",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -238,7 +249,6 @@ pub const NO_PEDESTRIANS: crate::Emoji = crate::Emoji {
             keywords: &["jalankulkija", "jalankulku kielletty", "kielletty"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📵"]
 pub const NO_MOBILE_PHONES: crate::Emoji = crate::Emoji {
@@ -247,6 +257,8 @@ pub const NO_MOBILE_PHONES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "no mobile phones",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -266,7 +278,6 @@ pub const NO_MOBILE_PHONES: crate::Emoji = crate::Emoji {
             keywords: &["ei matkapuhelimia", "kielletty", "matkapuhelin", "puhelin"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔞"]
 pub const NO_ONE_UNDER_EIGHTEEN: crate::Emoji = crate::Emoji {
@@ -275,6 +286,8 @@ pub const NO_ONE_UNDER_EIGHTEEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "no one under eighteen",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -301,7 +314,6 @@ pub const NO_ONE_UNDER_EIGHTEEN: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "☢\u{fe0f}"]
 pub const RADIOACTIVE: crate::Emoji = crate::Emoji {
@@ -310,6 +322,17 @@ pub const RADIOACTIVE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "radioactive",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☢",
+        codepoint: "2622",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "radioactive",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -328,15 +351,6 @@ pub const RADIOACTIVE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☢",
-        codepoint: "2622",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "radioactive",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "☣\u{fe0f}"]
 pub const BIOHAZARD: crate::Emoji = crate::Emoji {
@@ -345,6 +359,17 @@ pub const BIOHAZARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "biohazard",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☣",
+        codepoint: "2623",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "biohazard",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -357,13 +382,4 @@ pub const BIOHAZARD: crate::Emoji = crate::Emoji {
             keywords: &["biologinen", "biovaara", "vaara"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☣",
-        codepoint: "2623",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "biohazard",
-        annotations: &[],
-        variants: &[],
-    }],
 };

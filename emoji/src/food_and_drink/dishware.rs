@@ -5,6 +5,8 @@ pub const CHOPSTICKS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "chopsticks",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const CHOPSTICKS: crate::Emoji = crate::Emoji {
             keywords: &["aterimet", "ruokailu", "syömäpuikot"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍽\u{fe0f}"]
 pub const FORK_AND_KNIFE_WITH_PLATE: crate::Emoji = crate::Emoji {
@@ -26,6 +27,17 @@ pub const FORK_AND_KNIFE_WITH_PLATE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "fork and knife with plate",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🍽",
+        codepoint: "1F37D",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "fork and knife with plate",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -51,15 +63,6 @@ pub const FORK_AND_KNIFE_WITH_PLATE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🍽",
-        codepoint: "1F37D",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "fork and knife with plate",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🍴"]
 pub const FORK_AND_KNIFE: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const FORK_AND_KNIFE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fork and knife",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -86,7 +91,6 @@ pub const FORK_AND_KNIFE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥄"]
 pub const SPOON: crate::Emoji = crate::Emoji {
@@ -95,6 +99,8 @@ pub const SPOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "spoon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -107,7 +113,6 @@ pub const SPOON: crate::Emoji = crate::Emoji {
             keywords: &["aterimet", "lusikka", "ruokailu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔪"]
 pub const KITCHEN_KNIFE: crate::Emoji = crate::Emoji {
@@ -116,6 +121,8 @@ pub const KITCHEN_KNIFE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "kitchen knife",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -142,7 +149,6 @@ pub const KITCHEN_KNIFE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏺"]
 pub const AMPHORA: crate::Emoji = crate::Emoji {
@@ -151,6 +157,8 @@ pub const AMPHORA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "amphora",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -171,5 +179,4 @@ pub const AMPHORA: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

@@ -5,6 +5,8 @@ pub const SAXOPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "saxophone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const SAXOPHONE: crate::Emoji = crate::Emoji {
             keywords: &["instrumentti", "musiikki", "saksofoni"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪗"]
 pub const ACCORDION: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const ACCORDION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "accordion",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const ACCORDION: crate::Emoji = crate::Emoji {
             keywords: &["haitari", "hanuri", "harmonikka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎸"]
 pub const GUITAR: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const GUITAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "guitar",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const GUITAR: crate::Emoji = crate::Emoji {
             keywords: &["instrumentti", "kitara", "musiikki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎹"]
 pub const MUSICAL_KEYBOARD: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const MUSICAL_KEYBOARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "musical keyboard",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -92,7 +97,6 @@ pub const MUSICAL_KEYBOARD: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎺"]
 pub const TRUMPET: crate::Emoji = crate::Emoji {
@@ -101,6 +105,8 @@ pub const TRUMPET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "trumpet",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -113,7 +119,6 @@ pub const TRUMPET: crate::Emoji = crate::Emoji {
             keywords: &["instrumentti", "musiikki", "torvi", "trumpetti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎻"]
 pub const VIOLIN: crate::Emoji = crate::Emoji {
@@ -122,6 +127,8 @@ pub const VIOLIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "violin",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -134,7 +141,6 @@ pub const VIOLIN: crate::Emoji = crate::Emoji {
             keywords: &["instrumentti", "jousi", "musiikki", "viulu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪕"]
 pub const BANJO: crate::Emoji = crate::Emoji {
@@ -143,6 +149,8 @@ pub const BANJO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "banjo",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -155,7 +163,6 @@ pub const BANJO: crate::Emoji = crate::Emoji {
             keywords: &["banjo", "kielisoitin", "musiikki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥁"]
 pub const DRUM: crate::Emoji = crate::Emoji {
@@ -164,6 +171,8 @@ pub const DRUM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "drum",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -176,7 +185,6 @@ pub const DRUM: crate::Emoji = crate::Emoji {
             keywords: &["musiikki", "rumpu", "rumpukapula"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪘"]
 pub const LONG_DRUM: crate::Emoji = crate::Emoji {
@@ -185,6 +193,8 @@ pub const LONG_DRUM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "long drum",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -197,5 +207,4 @@ pub const LONG_DRUM: crate::Emoji = crate::Emoji {
             keywords: &["conga", "congarumpu", "rumpu", "rytmi"],
         },
     ],
-    variants: &[],
 };

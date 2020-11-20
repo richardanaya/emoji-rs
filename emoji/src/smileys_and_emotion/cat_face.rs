@@ -5,6 +5,8 @@ pub const GRINNING_CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning cat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -24,7 +26,6 @@ pub const GRINNING_CAT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😸"]
 pub const GRINNING_CAT_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
@@ -33,6 +34,8 @@ pub const GRINNING_CAT_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning cat with smiling eyes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +62,6 @@ pub const GRINNING_CAT_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😹"]
 pub const CAT_WITH_TEARS_OF_JOY: crate::Emoji = crate::Emoji {
@@ -68,6 +70,8 @@ pub const CAT_WITH_TEARS_OF_JOY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cat with tears of joy",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -87,7 +91,6 @@ pub const CAT_WITH_TEARS_OF_JOY: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😻"]
 pub const SMILING_CAT_WITH_HEART_EYES: crate::Emoji = crate::Emoji {
@@ -96,6 +99,8 @@ pub const SMILING_CAT_WITH_HEART_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "smiling cat with heart-eyes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -125,7 +130,6 @@ pub const SMILING_CAT_WITH_HEART_EYES: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😼"]
 pub const CAT_WITH_WRY_SMILE: crate::Emoji = crate::Emoji {
@@ -134,6 +138,8 @@ pub const CAT_WITH_WRY_SMILE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cat with wry smile",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -160,7 +166,6 @@ pub const CAT_WITH_WRY_SMILE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😽"]
 pub const KISSING_CAT: crate::Emoji = crate::Emoji {
@@ -169,6 +174,8 @@ pub const KISSING_CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "kissing cat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -187,7 +194,6 @@ pub const KISSING_CAT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🙀"]
 pub const WEARY_CAT: crate::Emoji = crate::Emoji {
@@ -196,6 +202,8 @@ pub const WEARY_CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "weary cat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -208,7 +216,6 @@ pub const WEARY_CAT: crate::Emoji = crate::Emoji {
             keywords: &["kissa", "naama", "oho", "yllättynyt"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😿"]
 pub const CRYING_CAT: crate::Emoji = crate::Emoji {
@@ -217,6 +224,8 @@ pub const CRYING_CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "crying cat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -236,7 +245,6 @@ pub const CRYING_CAT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😾"]
 pub const POUTING_CAT: crate::Emoji = crate::Emoji {
@@ -245,6 +253,8 @@ pub const POUTING_CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pouting cat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -257,5 +267,4 @@ pub const POUTING_CAT: crate::Emoji = crate::Emoji {
             keywords: &["kissa", "mököttävä", "naama"],
         },
     ],
-    variants: &[],
 };

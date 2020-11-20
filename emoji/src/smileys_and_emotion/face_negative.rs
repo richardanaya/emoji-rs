@@ -5,6 +5,8 @@ pub const FACE_WITH_STEAM_FROM_NOSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face with steam from nose",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const FACE_WITH_STEAM_FROM_NOSE: crate::Emoji = crate::Emoji {
             keywords: &["höyryä nenästä", "naama", "voittaja", "voitto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😡"]
 pub const POUTING_FACE: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const POUTING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pouting face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -45,7 +48,6 @@ pub const POUTING_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😠"]
 pub const ANGRY_FACE: crate::Emoji = crate::Emoji {
@@ -54,6 +56,8 @@ pub const ANGRY_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "angry face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -66,7 +70,6 @@ pub const ANGRY_FACE: crate::Emoji = crate::Emoji {
             keywords: &["kiukku", "naama", "raivo", "viha", "vihainen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤬"]
 pub const FACE_WITH_SYMBOLS_ON_MOUTH: crate::Emoji = crate::Emoji {
@@ -75,6 +78,8 @@ pub const FACE_WITH_SYMBOLS_ON_MOUTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "face with symbols on mouth",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -87,7 +92,6 @@ pub const FACE_WITH_SYMBOLS_ON_MOUTH: crate::Emoji = crate::Emoji {
             keywords: &["kiroilu", "sensuroitu suu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😈"]
 pub const SMILING_FACE_WITH_HORNS: crate::Emoji = crate::Emoji {
@@ -96,6 +100,8 @@ pub const SMILING_FACE_WITH_HORNS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "smiling face with horns",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -122,7 +128,6 @@ pub const SMILING_FACE_WITH_HORNS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "👿"]
 pub const ANGRY_FACE_WITH_HORNS: crate::Emoji = crate::Emoji {
@@ -131,6 +136,8 @@ pub const ANGRY_FACE_WITH_HORNS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "angry face with horns",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -157,7 +164,6 @@ pub const ANGRY_FACE_WITH_HORNS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "💀"]
 pub const SKULL: crate::Emoji = crate::Emoji {
@@ -166,6 +172,8 @@ pub const SKULL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "skull",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -178,7 +186,6 @@ pub const SKULL: crate::Emoji = crate::Emoji {
             keywords: &["hirviö", "kuolema", "naama", "pääkallo", "ruumis", "satu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "☠\u{fe0f}"]
 pub const SKULL_AND_CROSSBONES: crate::Emoji = crate::Emoji {
@@ -187,6 +194,17 @@ pub const SKULL_AND_CROSSBONES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "skull and crossbones",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☠",
+        codepoint: "2620",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "skull and crossbones",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -214,13 +232,4 @@ pub const SKULL_AND_CROSSBONES: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☠",
-        codepoint: "2620",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "skull and crossbones",
-        annotations: &[],
-        variants: &[],
-    }],
 };

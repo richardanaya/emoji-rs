@@ -5,6 +5,8 @@ pub const BOUQUET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bouquet",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const BOUQUET: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "kukka", "kukkakimppu", "romantiikka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌸"]
 pub const CHERRY_BLOSSOM: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const CHERRY_BLOSSOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cherry blossom",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const CHERRY_BLOSSOM: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "kirsikankukka", "kirsikka", "kukka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💮"]
 pub const WHITE_FLOWER: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const WHITE_FLOWER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white flower",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const WHITE_FLOWER: crate::Emoji = crate::Emoji {
             keywords: &["kukka", "valkoinen kukka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏵\u{fe0f}"]
 pub const ROSETTE: crate::Emoji = crate::Emoji {
@@ -68,6 +71,17 @@ pub const ROSETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "rosette",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏵",
+        codepoint: "1F3F5",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "rosette",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,15 +94,6 @@ pub const ROSETTE: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "ruusuke"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏵",
-        codepoint: "1F3F5",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "rosette",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌹"]
 pub const ROSE: crate::Emoji = crate::Emoji {
@@ -97,6 +102,8 @@ pub const ROSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "rose",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -109,7 +116,6 @@ pub const ROSE: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "kukka", "ruusu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥀"]
 pub const WILTED_FLOWER: crate::Emoji = crate::Emoji {
@@ -118,6 +124,8 @@ pub const WILTED_FLOWER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "wilted flower",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -130,7 +138,6 @@ pub const WILTED_FLOWER: crate::Emoji = crate::Emoji {
             keywords: &["kukka", "nuutunut"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌺"]
 pub const HIBISCUS: crate::Emoji = crate::Emoji {
@@ -139,6 +146,8 @@ pub const HIBISCUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hibiscus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -151,7 +160,6 @@ pub const HIBISCUS: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "kiinanruusu", "kukka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌻"]
 pub const SUNFLOWER: crate::Emoji = crate::Emoji {
@@ -160,6 +168,8 @@ pub const SUNFLOWER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sunflower",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -172,7 +182,6 @@ pub const SUNFLOWER: crate::Emoji = crate::Emoji {
             keywords: &["auringonkukka", "aurinko", "kasvi", "kukka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌼"]
 pub const BLOSSOM: crate::Emoji = crate::Emoji {
@@ -181,6 +190,8 @@ pub const BLOSSOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "blossom",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -193,7 +204,6 @@ pub const BLOSSOM: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "kukinta", "kukka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌷"]
 pub const TULIP: crate::Emoji = crate::Emoji {
@@ -202,6 +212,8 @@ pub const TULIP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tulip",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -214,5 +226,4 @@ pub const TULIP: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "kukka", "tulppaani"],
         },
     ],
-    variants: &[],
 };

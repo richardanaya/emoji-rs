@@ -5,6 +5,8 @@ pub const MOVIE_CAMERA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "movie camera",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const MOVIE_CAMERA: crate::Emoji = crate::Emoji {
             keywords: &["elokuva", "elokuvakamera", "kamera", "kuvaukset"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎞\u{fe0f}"]
 pub const FILM_FRAMES: crate::Emoji = crate::Emoji {
@@ -26,6 +27,17 @@ pub const FILM_FRAMES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "film frames",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🎞",
+        codepoint: "1F39E",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "film frames",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,15 +50,6 @@ pub const FILM_FRAMES: crate::Emoji = crate::Emoji {
             keywords: &["elokuva", "filminauha", "filmirulla"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🎞",
-        codepoint: "1F39E",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "film frames",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "📽\u{fe0f}"]
 pub const FILM_PROJECTOR: crate::Emoji = crate::Emoji {
@@ -55,6 +58,17 @@ pub const FILM_PROJECTOR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "film projector",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "📽",
+        codepoint: "1F4FD",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "film projector",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -73,15 +87,6 @@ pub const FILM_PROJECTOR: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "📽",
-        codepoint: "1F4FD",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "film projector",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🎬"]
 pub const CLAPPER_BOARD: crate::Emoji = crate::Emoji {
@@ -90,6 +95,8 @@ pub const CLAPPER_BOARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "clapper board",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -102,7 +109,6 @@ pub const CLAPPER_BOARD: crate::Emoji = crate::Emoji {
             keywords: &["elokuva", "klaffi", "klaffitaulu", "kuvaukset"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📺"]
 pub const TELEVISION: crate::Emoji = crate::Emoji {
@@ -111,6 +117,8 @@ pub const TELEVISION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "television",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -123,7 +131,6 @@ pub const TELEVISION: crate::Emoji = crate::Emoji {
             keywords: &["televisio", "telkkari", "tv", "video"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📷"]
 pub const CAMERA: crate::Emoji = crate::Emoji {
@@ -132,6 +139,8 @@ pub const CAMERA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "camera",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -144,7 +153,6 @@ pub const CAMERA: crate::Emoji = crate::Emoji {
             keywords: &["kamera", "video"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📸"]
 pub const CAMERA_WITH_FLASH: crate::Emoji = crate::Emoji {
@@ -153,6 +161,8 @@ pub const CAMERA_WITH_FLASH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "camera with flash",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -165,7 +175,6 @@ pub const CAMERA_WITH_FLASH: crate::Emoji = crate::Emoji {
             keywords: &["kamera", "kamera ja salama", "salama", "video"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📹"]
 pub const VIDEO_CAMERA: crate::Emoji = crate::Emoji {
@@ -174,6 +183,8 @@ pub const VIDEO_CAMERA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "video camera",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -186,7 +197,6 @@ pub const VIDEO_CAMERA: crate::Emoji = crate::Emoji {
             keywords: &["kamera", "video", "videokamera"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📼"]
 pub const VIDEOCASSETTE: crate::Emoji = crate::Emoji {
@@ -195,6 +205,8 @@ pub const VIDEOCASSETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "videocassette",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -207,7 +219,6 @@ pub const VIDEOCASSETTE: crate::Emoji = crate::Emoji {
             keywords: &["VHS", "nauha", "video", "videokasetti", "videonauha"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔍"]
 pub const MAGNIFYING_GLASS_TILTED_LEFT: crate::Emoji = crate::Emoji {
@@ -216,6 +227,8 @@ pub const MAGNIFYING_GLASS_TILTED_LEFT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "magnifying glass tilted left",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -241,7 +254,6 @@ pub const MAGNIFYING_GLASS_TILTED_LEFT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔎"]
 pub const MAGNIFYING_GLASS_TILTED_RIGHT: crate::Emoji = crate::Emoji {
@@ -250,6 +262,8 @@ pub const MAGNIFYING_GLASS_TILTED_RIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "magnifying glass tilted right",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -275,7 +289,6 @@ pub const MAGNIFYING_GLASS_TILTED_RIGHT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🕯\u{fe0f}"]
 pub const CANDLE: crate::Emoji = crate::Emoji {
@@ -284,6 +297,17 @@ pub const CANDLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "candle",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🕯",
+        codepoint: "1F56F",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "candle",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -296,15 +320,6 @@ pub const CANDLE: crate::Emoji = crate::Emoji {
             keywords: &["kynttilä", "valo"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🕯",
-        codepoint: "1F56F",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "candle",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "💡"]
 pub const LIGHT_BULB: crate::Emoji = crate::Emoji {
@@ -313,6 +328,8 @@ pub const LIGHT_BULB: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "light bulb",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -325,7 +342,6 @@ pub const LIGHT_BULB: crate::Emoji = crate::Emoji {
             keywords: &["ajatus", "hehkulamppu", "lamppu", "sähkö", "valo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔦"]
 pub const FLASHLIGHT: crate::Emoji = crate::Emoji {
@@ -334,6 +350,8 @@ pub const FLASHLIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "flashlight",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -346,7 +364,6 @@ pub const FLASHLIGHT: crate::Emoji = crate::Emoji {
             keywords: &["lamppu", "sähkö", "taskulamppu", "valo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏮"]
 pub const RED_PAPER_LANTERN: crate::Emoji = crate::Emoji {
@@ -355,6 +372,8 @@ pub const RED_PAPER_LANTERN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red paper lantern",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -374,7 +393,6 @@ pub const RED_PAPER_LANTERN: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪔"]
 pub const DIYA_LAMP: crate::Emoji = crate::Emoji {
@@ -383,6 +401,8 @@ pub const DIYA_LAMP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "diya lamp",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -395,5 +415,4 @@ pub const DIYA_LAMP: crate::Emoji = crate::Emoji {
             keywords: &["diya", "lamppu", "savilamppu", "öljy", "öljylamppu"],
         },
     ],
-    variants: &[],
 };

@@ -5,6 +5,17 @@ pub const ENVELOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "envelope",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "✉",
+        codepoint: "2709",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "envelope",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const ENVELOPE: crate::Emoji = crate::Emoji {
             keywords: &["e-mail", "kirje", "kirjekuori", "sähköposti", "viesti"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "✉",
-        codepoint: "2709",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "envelope",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "📧"]
 pub const E_MAIL: crate::Emoji = crate::Emoji {
@@ -34,6 +36,8 @@ pub const E_MAIL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "e-mail",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -46,7 +50,6 @@ pub const E_MAIL: crate::Emoji = crate::Emoji {
             keywords: &["e-mail", "sähköposti", "sähköpostiviesti", "viesti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📨"]
 pub const INCOMING_ENVELOPE: crate::Emoji = crate::Emoji {
@@ -55,6 +58,8 @@ pub const INCOMING_ENVELOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "incoming envelope",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -76,7 +81,6 @@ pub const INCOMING_ENVELOPE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📩"]
 pub const ENVELOPE_WITH_ARROW: crate::Emoji = crate::Emoji {
@@ -85,6 +89,8 @@ pub const ENVELOPE_WITH_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "envelope with arrow",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -112,7 +118,6 @@ pub const ENVELOPE_WITH_ARROW: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📤"]
 pub const OUTBOX_TRAY: crate::Emoji = crate::Emoji {
@@ -121,6 +126,8 @@ pub const OUTBOX_TRAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "outbox tray",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -139,7 +146,6 @@ pub const OUTBOX_TRAY: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📥"]
 pub const INBOX_TRAY: crate::Emoji = crate::Emoji {
@@ -148,6 +154,8 @@ pub const INBOX_TRAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "inbox tray",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -166,7 +174,6 @@ pub const INBOX_TRAY: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📦"]
 pub const PACKAGE: crate::Emoji = crate::Emoji {
@@ -175,6 +182,8 @@ pub const PACKAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "package",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -187,7 +196,6 @@ pub const PACKAGE: crate::Emoji = crate::Emoji {
             keywords: &["laatikko", "lähetys", "paketti", "pakkaus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📫"]
 pub const CLOSED_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
@@ -196,6 +204,8 @@ pub const CLOSED_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "closed mailbox with raised flag",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -219,7 +229,6 @@ pub const CLOSED_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📪"]
 pub const CLOSED_MAILBOX_WITH_LOWERED_FLAG: crate::Emoji = crate::Emoji {
@@ -228,6 +237,8 @@ pub const CLOSED_MAILBOX_WITH_LOWERED_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "closed mailbox with lowered flag",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -252,7 +263,6 @@ pub const CLOSED_MAILBOX_WITH_LOWERED_FLAG: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📬"]
 pub const OPEN_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
@@ -261,6 +271,8 @@ pub const OPEN_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "open mailbox with raised flag",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -283,7 +295,6 @@ pub const OPEN_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📭"]
 pub const OPEN_MAILBOX_WITH_LOWERED_FLAG: crate::Emoji = crate::Emoji {
@@ -292,6 +303,8 @@ pub const OPEN_MAILBOX_WITH_LOWERED_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "open mailbox with lowered flag",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -316,7 +329,6 @@ pub const OPEN_MAILBOX_WITH_LOWERED_FLAG: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📮"]
 pub const POSTBOX: crate::Emoji = crate::Emoji {
@@ -325,6 +337,8 @@ pub const POSTBOX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "postbox",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -337,7 +351,6 @@ pub const POSTBOX: crate::Emoji = crate::Emoji {
             keywords: &["posti", "postilaatikko"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🗳\u{fe0f}"]
 pub const BALLOT_BOX_WITH_BALLOT: crate::Emoji = crate::Emoji {
@@ -346,6 +359,17 @@ pub const BALLOT_BOX_WITH_BALLOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "ballot box with ballot",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🗳",
+        codepoint: "1F5F3",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "ballot box with ballot",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -358,13 +382,4 @@ pub const BALLOT_BOX_WITH_BALLOT: crate::Emoji = crate::Emoji {
             keywords: &["uurna", "vaali", "äänestyslippu", "ääni", "ääniuurna"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🗳",
-        codepoint: "1F5F3",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "ballot box with ballot",
-        annotations: &[],
-        variants: &[],
-    }],
 };

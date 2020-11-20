@@ -5,6 +5,8 @@ pub const CRAB: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "crab",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const CRAB: crate::Emoji = crate::Emoji {
             keywords: &["horoskooppi", "horoskooppimerkki", "rapu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦞"]
 pub const LOBSTER: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const LOBSTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "lobster",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -45,7 +48,6 @@ pub const LOBSTER: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦐"]
 pub const SHRIMP: crate::Emoji = crate::Emoji {
@@ -54,6 +56,8 @@ pub const SHRIMP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "shrimp",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -66,7 +70,6 @@ pub const SHRIMP: crate::Emoji = crate::Emoji {
             keywords: &["katkarapu", "ruoka", "äyriäiset"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦑"]
 pub const SQUID: crate::Emoji = crate::Emoji {
@@ -75,6 +78,8 @@ pub const SQUID: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "squid",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -87,7 +92,6 @@ pub const SQUID: crate::Emoji = crate::Emoji {
             keywords: &["kalmari", "mustekala", "ruoka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦪"]
 pub const OYSTER: crate::Emoji = crate::Emoji {
@@ -96,6 +100,8 @@ pub const OYSTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "oyster",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -108,5 +114,4 @@ pub const OYSTER: crate::Emoji = crate::Emoji {
             keywords: &["helmi", "osteri", "sukellus"],
         },
     ],
-    variants: &[],
 };

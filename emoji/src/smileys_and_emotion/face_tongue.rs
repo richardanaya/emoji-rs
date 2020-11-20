@@ -5,6 +5,8 @@ pub const FACE_SAVORING_FOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face savoring food",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -32,7 +34,6 @@ pub const FACE_SAVORING_FOOD: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😛"]
 pub const FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
@@ -41,6 +42,8 @@ pub const FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "face with tongue",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -53,7 +56,6 @@ pub const FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
             keywords: &["kieli", "kieli ulkona", "naama"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😜"]
 pub const WINKING_FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
@@ -62,6 +64,8 @@ pub const WINKING_FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "winking face with tongue",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -88,7 +92,6 @@ pub const WINKING_FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤪"]
 pub const ZANY_FACE: crate::Emoji = crate::Emoji {
@@ -97,6 +100,8 @@ pub const ZANY_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "zany face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -109,7 +114,6 @@ pub const ZANY_FACE: crate::Emoji = crate::Emoji {
             keywords: &["eripari", "mielipuoli", "silmät", "virne"],
         },
     ],
-    variants: &[],
 };
 #[doc = "😝"]
 pub const SQUINTING_FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
@@ -118,6 +122,8 @@ pub const SQUINTING_FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "squinting face with tongue",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -144,7 +150,6 @@ pub const SQUINTING_FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤑"]
 pub const MONEY_MOUTH_FACE: crate::Emoji = crate::Emoji {
@@ -153,6 +158,8 @@ pub const MONEY_MOUTH_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "money-mouth face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -165,5 +172,4 @@ pub const MONEY_MOUTH_FACE: crate::Emoji = crate::Emoji {
             keywords: &["dollarisilmät ja rahasuu", "naama", "raha", "suu"],
         },
     ],
-    variants: &[],
 };

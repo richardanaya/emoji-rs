@@ -5,6 +5,8 @@ pub const BREAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bread",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const BREAD: crate::Emoji = crate::Emoji {
             keywords: &["leipä", "pala"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥐"]
 pub const CROISSANT: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "croissant",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
             keywords: &["croissant", "leipä", "ranskalainen", "ruoka", "voisarvi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥖"]
 pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "baguette bread",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
             keywords: &["leipä", "patonki", "ranskalainen", "ruoka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🫓"]
 pub const FLATBREAD: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "flatbread",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,7 +85,6 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
             keywords: &["arepa", "lavash", "naan", "pita", "rieska"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥨"]
 pub const PRETZEL: crate::Emoji = crate::Emoji {
@@ -89,6 +93,8 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "pretzel",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -101,7 +107,6 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
             keywords: &["kierretty", "pretzel", "rinkilä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥯"]
 pub const BAGEL: crate::Emoji = crate::Emoji {
@@ -110,6 +115,8 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "bagel",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -122,7 +129,6 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
             keywords: &["bageli", "leivonnainen", "rinkeli", "vesirinkeli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥞"]
 pub const PANCAKES: crate::Emoji = crate::Emoji {
@@ -131,6 +137,8 @@ pub const PANCAKES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "pancakes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -150,7 +158,6 @@ pub const PANCAKES: crate::Emoji = crate::Emoji {
             keywords: &["lettu", "letut", "ohukainen", "pannukakku", "ruoka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧇"]
 pub const WAFFLE: crate::Emoji = crate::Emoji {
@@ -159,6 +166,8 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "waffle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -171,7 +180,6 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
             keywords: &["päättämätön", "ratkaisematon", "vohveli", "vohvelirauta"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧀"]
 pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
@@ -180,6 +188,8 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "cheese wedge",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -192,7 +202,6 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
             keywords: &["juusto", "juustopala"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍖"]
 pub const MEAT_ON_BONE: crate::Emoji = crate::Emoji {
@@ -201,6 +210,8 @@ pub const MEAT_ON_BONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "meat on bone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -213,7 +224,6 @@ pub const MEAT_ON_BONE: crate::Emoji = crate::Emoji {
             keywords: &["liha", "lihaa luineen", "luu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍗"]
 pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
@@ -222,6 +232,8 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "poultry leg",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -234,7 +246,6 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
             keywords: &["kana", "kanankoipi", "koipi", "luu", "siipikarja"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥩"]
 pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
@@ -243,6 +254,8 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "cut of meat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -261,7 +274,6 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥓"]
 pub const BACON: crate::Emoji = crate::Emoji {
@@ -270,6 +282,8 @@ pub const BACON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "bacon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -282,7 +296,6 @@ pub const BACON: crate::Emoji = crate::Emoji {
             keywords: &["liha", "pekoni", "ruoka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍔"]
 pub const HAMBURGER: crate::Emoji = crate::Emoji {
@@ -291,6 +304,8 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hamburger",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -303,7 +318,6 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
             keywords: &["hampurilainen", "jauhelihapihvi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍟"]
 pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
@@ -312,6 +326,8 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "french fries",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -324,7 +340,6 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
             keywords: &["ranskalaiset", "tikkuperunat"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍕"]
 pub const PIZZA: crate::Emoji = crate::Emoji {
@@ -333,6 +348,8 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pizza",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -345,7 +362,6 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
             keywords: &["juusto", "pizza", "siivu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌭"]
 pub const HOT_DOG: crate::Emoji = crate::Emoji {
@@ -354,6 +370,8 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "hot dog",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -366,7 +384,6 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
             keywords: &["hodari", "hot dog", "makkara", "nakki", "sämpylä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥪"]
 pub const SANDWICH: crate::Emoji = crate::Emoji {
@@ -375,6 +392,8 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "sandwich",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -387,7 +406,6 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
             keywords: &["kerrosleipä", "leipä", "täyte", "voileipä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌮"]
 pub const TACO: crate::Emoji = crate::Emoji {
@@ -396,6 +414,8 @@ pub const TACO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "taco",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -408,7 +428,6 @@ pub const TACO: crate::Emoji = crate::Emoji {
             keywords: &["meksikolainen", "taco"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌯"]
 pub const BURRITO: crate::Emoji = crate::Emoji {
@@ -417,6 +436,8 @@ pub const BURRITO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "burrito",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -429,7 +450,6 @@ pub const BURRITO: crate::Emoji = crate::Emoji {
             keywords: &["burrito", "meksikolainen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🫔"]
 pub const TAMALE: crate::Emoji = crate::Emoji {
@@ -438,6 +458,8 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "tamale",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -450,7 +472,6 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
             keywords: &["käärö", "meksikolainen", "tamal"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥙"]
 pub const STUFFED_FLATBREAD: crate::Emoji = crate::Emoji {
@@ -459,6 +480,8 @@ pub const STUFFED_FLATBREAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "stuffed flatbread",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -479,7 +502,6 @@ pub const STUFFED_FLATBREAD: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧆"]
 pub const FALAFEL: crate::Emoji = crate::Emoji {
@@ -488,6 +510,8 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "falafel",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -500,7 +524,6 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
             keywords: &["falafel", "kasvispyörykkä", "kikherne"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥚"]
 pub const EGG: crate::Emoji = crate::Emoji {
@@ -509,6 +532,8 @@ pub const EGG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "egg",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -521,7 +546,6 @@ pub const EGG: crate::Emoji = crate::Emoji {
             keywords: &["kananmuna", "ruoka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍳"]
 pub const COOKING: crate::Emoji = crate::Emoji {
@@ -530,6 +554,8 @@ pub const COOKING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cooking",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -542,7 +568,6 @@ pub const COOKING: crate::Emoji = crate::Emoji {
             keywords: &["kokkaus", "paistinpannu", "ruoka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥘"]
 pub const SHALLOW_PAN_OF_FOOD: crate::Emoji = crate::Emoji {
@@ -551,6 +576,8 @@ pub const SHALLOW_PAN_OF_FOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "shallow pan of food",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -570,7 +597,6 @@ pub const SHALLOW_PAN_OF_FOOD: crate::Emoji = crate::Emoji {
             keywords: &["paella", "paellapannu", "pata", "pataruoka", "ruoka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍲"]
 pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
@@ -579,6 +605,8 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pot of food",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -591,7 +619,6 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
             keywords: &["pata", "ruokakulho"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🫕"]
 pub const FONDUE: crate::Emoji = crate::Emoji {
@@ -600,6 +627,8 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "fondue",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -619,7 +648,6 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥣"]
 pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
@@ -628,6 +656,8 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "bowl with spoon",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -640,7 +670,6 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
             keywords: &["aamiainen", "kulho ja lusikka", "murot"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥗"]
 pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
@@ -649,6 +678,8 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "green salad",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -661,7 +692,6 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
             keywords: &["ruoka", "salaatti", "vihreä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍿"]
 pub const POPCORN: crate::Emoji = crate::Emoji {
@@ -670,6 +700,8 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "popcorn",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -682,7 +714,6 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
             keywords: &["maissi", "popcorn"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧈"]
 pub const BUTTER: crate::Emoji = crate::Emoji {
@@ -691,6 +722,8 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "butter",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -703,7 +736,6 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
             keywords: &["maitotuote", "voi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧂"]
 pub const SALT: crate::Emoji = crate::Emoji {
@@ -712,6 +744,8 @@ pub const SALT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "salt",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -724,7 +758,6 @@ pub const SALT: crate::Emoji = crate::Emoji {
             keywords: &["mauste", "sirotin", "suola", "suolasirotin"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥫"]
 pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
@@ -733,6 +766,8 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "canned food",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -745,5 +780,4 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
             keywords: &["purkki", "säilyketölkki"],
         },
     ],
-    variants: &[],
 };

@@ -5,6 +5,8 @@ pub const FROG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "frog",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,5 +19,4 @@ pub const FROG: crate::Emoji = crate::Emoji {
             keywords: &["naama", "sammakko", "sammakon naama"],
         },
     ],
-    variants: &[],
 };

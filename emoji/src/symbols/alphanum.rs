@@ -5,6 +5,8 @@ pub const INPUT_LATIN_UPPERCASE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "input latin uppercase",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -25,7 +27,6 @@ pub const INPUT_LATIN_UPPERCASE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔡"]
 pub const INPUT_LATIN_LOWERCASE: crate::Emoji = crate::Emoji {
@@ -34,6 +35,8 @@ pub const INPUT_LATIN_LOWERCASE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "input latin lowercase",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -54,7 +57,6 @@ pub const INPUT_LATIN_LOWERCASE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔢"]
 pub const INPUT_NUMBERS: crate::Emoji = crate::Emoji {
@@ -63,6 +65,8 @@ pub const INPUT_NUMBERS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "input numbers",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -75,7 +79,6 @@ pub const INPUT_NUMBERS: crate::Emoji = crate::Emoji {
             keywords: &["1234", "numerot", "syötä", "syötä numeroja"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔣"]
 pub const INPUT_SYMBOLS: crate::Emoji = crate::Emoji {
@@ -84,6 +87,8 @@ pub const INPUT_SYMBOLS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "input symbols",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -96,7 +101,6 @@ pub const INPUT_SYMBOLS: crate::Emoji = crate::Emoji {
             keywords: &["merkit", "symbolit", "syötä", "syötä merkkejä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔤"]
 pub const INPUT_LATIN_LETTERS: crate::Emoji = crate::Emoji {
@@ -105,6 +109,8 @@ pub const INPUT_LATIN_LETTERS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "input latin letters",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -123,7 +129,6 @@ pub const INPUT_LATIN_LETTERS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🅰\u{fe0f}"]
 pub const A_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
@@ -132,6 +137,17 @@ pub const A_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "A button (blood type)",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🅰",
+        codepoint: "1F170",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "A button (blood type)",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -144,15 +160,6 @@ pub const A_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
             keywords: &["A-veriryhmä", "a", "veriryhmä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🅰",
-        codepoint: "1F170",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "A button (blood type)",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🆎"]
 pub const AB_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
@@ -161,6 +168,8 @@ pub const AB_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "AB button (blood type)",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -173,7 +182,6 @@ pub const AB_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
             keywords: &["AB-veriryhmä", "ab", "veriryhmä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🅱\u{fe0f}"]
 pub const B_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
@@ -182,6 +190,17 @@ pub const B_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "B button (blood type)",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🅱",
+        codepoint: "1F171",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "B button (blood type)",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -194,15 +213,6 @@ pub const B_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
             keywords: &["B-veriryhmä", "b", "veriryhmä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🅱",
-        codepoint: "1F171",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "B button (blood type)",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🆑"]
 pub const CL_BUTTON: crate::Emoji = crate::Emoji {
@@ -211,6 +221,8 @@ pub const CL_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "CL button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -223,7 +235,6 @@ pub const CL_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["cl", "kumita", "pyyhi", "pyyhi-näppäin"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🆒"]
 pub const COOL_BUTTON: crate::Emoji = crate::Emoji {
@@ -232,6 +243,8 @@ pub const COOL_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "COOL button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -244,7 +257,6 @@ pub const COOL_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["COOL", "laatikko", "siistiä", "teksti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🆓"]
 pub const FREE_BUTTON: crate::Emoji = crate::Emoji {
@@ -253,6 +265,8 @@ pub const FREE_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "FREE button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -265,7 +279,6 @@ pub const FREE_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["FREE", "ilmainen", "laatikko", "teksti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "ℹ\u{fe0f}"]
 pub const INFORMATION: crate::Emoji = crate::Emoji {
@@ -274,6 +287,17 @@ pub const INFORMATION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "information",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "ℹ",
+        codepoint: "2139",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "information",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -286,15 +310,6 @@ pub const INFORMATION: crate::Emoji = crate::Emoji {
             keywords: &["i", "info", "info-piste", "tietoja"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "ℹ",
-        codepoint: "2139",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "information",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🆔"]
 pub const ID_BUTTON: crate::Emoji = crate::Emoji {
@@ -303,6 +318,8 @@ pub const ID_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ID button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -315,7 +332,6 @@ pub const ID_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["ID", "henkilöllisyystodistus", "id", "identiteetti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "Ⓜ\u{fe0f}"]
 pub const CIRCLED_M: crate::Emoji = crate::Emoji {
@@ -324,6 +340,17 @@ pub const CIRCLED_M: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "circled M",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "Ⓜ",
+        codepoint: "24C2",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "circled M",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -336,15 +363,6 @@ pub const CIRCLED_M: crate::Emoji = crate::Emoji {
             keywords: &["m", "m ympyrässä", "metro", "ympyrä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "Ⓜ",
-        codepoint: "24C2",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "circled M",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🆕"]
 pub const NEW_BUTTON: crate::Emoji = crate::Emoji {
@@ -353,6 +371,8 @@ pub const NEW_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "NEW button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -365,7 +385,6 @@ pub const NEW_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["NEW", "laatikko", "teksti", "uusi", "uutta"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🆖"]
 pub const NG_BUTTON: crate::Emoji = crate::Emoji {
@@ -374,6 +393,8 @@ pub const NG_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "NG button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -386,7 +407,6 @@ pub const NG_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["NG", "good", "moka", "ng", "no", "teksti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🅾\u{fe0f}"]
 pub const O_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
@@ -395,6 +415,17 @@ pub const O_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "O button (blood type)",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🅾",
+        codepoint: "1F17E",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "O button (blood type)",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -407,15 +438,6 @@ pub const O_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
             keywords: &["O-veriryhmä", "o", "veriryhmä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🅾",
-        codepoint: "1F17E",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "O button (blood type)",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🆗"]
 pub const OK_BUTTON: crate::Emoji = crate::Emoji {
@@ -424,6 +446,8 @@ pub const OK_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "OK button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -436,7 +460,6 @@ pub const OK_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["OK", "laatikko", "okay", "okei", "selvä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🅿\u{fe0f}"]
 pub const P_BUTTON: crate::Emoji = crate::Emoji {
@@ -445,6 +468,17 @@ pub const P_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "P button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🅿",
+        codepoint: "1F17F",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "P button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -457,15 +491,6 @@ pub const P_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["P", "merkki", "p", "parkkipaikka", "pysäköinti"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🅿",
-        codepoint: "1F17F",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "P button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🆘"]
 pub const SOS_BUTTON: crate::Emoji = crate::Emoji {
@@ -474,6 +499,8 @@ pub const SOS_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "SOS button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -486,7 +513,6 @@ pub const SOS_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["SOS", "apua", "hätämerkki", "merkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🆙"]
 pub const UP_BUTTON: crate::Emoji = crate::Emoji {
@@ -495,6 +521,8 @@ pub const UP_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "UP! button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -507,7 +535,6 @@ pub const UP_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["UP!", "huutomerkki", "merkki", "päivitys", "up", "uutta"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🆚"]
 pub const VS_BUTTON: crate::Emoji = crate::Emoji {
@@ -516,6 +543,8 @@ pub const VS_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "VS button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -528,7 +557,6 @@ pub const VS_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["VS", "merkki", "versus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🈁"]
 pub const JAPANESE__HERE__BUTTON: crate::Emoji = crate::Emoji {
@@ -537,6 +565,8 @@ pub const JAPANESE__HERE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “here” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -560,7 +590,6 @@ pub const JAPANESE__HERE__BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🈂\u{fe0f}"]
 pub const JAPANESE__SERVICE_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
@@ -569,6 +598,17 @@ pub const JAPANESE__SERVICE_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “service charge” button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🈂",
+        codepoint: "1F202",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "Japanese “service charge” button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -592,15 +632,6 @@ pub const JAPANESE__SERVICE_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🈂",
-        codepoint: "1F202",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "Japanese “service charge” button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🈷\u{fe0f}"]
 pub const JAPANESE__MONTHLY_AMOUNT__BUTTON: crate::Emoji = crate::Emoji {
@@ -609,6 +640,17 @@ pub const JAPANESE__MONTHLY_AMOUNT__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “monthly amount” button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🈷",
+        codepoint: "1F237",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "Japanese “monthly amount” button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -631,15 +673,6 @@ pub const JAPANESE__MONTHLY_AMOUNT__BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🈷",
-        codepoint: "1F237",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "Japanese “monthly amount” button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🈶"]
 pub const JAPANESE__NOT_FREE_OF_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
@@ -648,6 +681,8 @@ pub const JAPANESE__NOT_FREE_OF_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “not free of charge” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -666,7 +701,6 @@ pub const JAPANESE__NOT_FREE_OF_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["japani", "kirjoitusmerkki", "maksullinen-kirjainmerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🈯"]
 pub const JAPANESE__RESERVED__BUTTON: crate::Emoji = crate::Emoji {
@@ -675,6 +709,8 @@ pub const JAPANESE__RESERVED__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “reserved” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -693,7 +729,6 @@ pub const JAPANESE__RESERVED__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["japani", "kirjoitusmerkki", "varattu-kirjainmerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🉐"]
 pub const JAPANESE__BARGAIN__BUTTON: crate::Emoji = crate::Emoji {
@@ -702,6 +737,8 @@ pub const JAPANESE__BARGAIN__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “bargain” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -720,7 +757,6 @@ pub const JAPANESE__BARGAIN__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["hyvä ostos -kirjainmerkki", "japani", "kirjoitusmerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🈹"]
 pub const JAPANESE__DISCOUNT__BUTTON: crate::Emoji = crate::Emoji {
@@ -729,6 +765,8 @@ pub const JAPANESE__DISCOUNT__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “discount” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -747,7 +785,6 @@ pub const JAPANESE__DISCOUNT__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["alennus-kirjoitusmerkki", "japani", "kirjoitusmerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🈚"]
 pub const JAPANESE__FREE_OF_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
@@ -756,6 +793,8 @@ pub const JAPANESE__FREE_OF_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “free of charge” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -774,7 +813,6 @@ pub const JAPANESE__FREE_OF_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["japani", "kirjoitusmerkki", "maksuton-kirjainmerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🈲"]
 pub const JAPANESE__PROHIBITED__BUTTON: crate::Emoji = crate::Emoji {
@@ -783,6 +821,8 @@ pub const JAPANESE__PROHIBITED__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “prohibited” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -801,7 +841,6 @@ pub const JAPANESE__PROHIBITED__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["japani", "kielletty-kirjoitusmerkki", "kirjoitusmerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🉑"]
 pub const JAPANESE__ACCEPTABLE__BUTTON: crate::Emoji = crate::Emoji {
@@ -810,6 +849,8 @@ pub const JAPANESE__ACCEPTABLE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “acceptable” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -828,7 +869,6 @@ pub const JAPANESE__ACCEPTABLE__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["hyväksyttävä-kirjoitusmerkki", "kiina", "kirjoitusmerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🈸"]
 pub const JAPANESE__APPLICATION__BUTTON: crate::Emoji = crate::Emoji {
@@ -837,6 +877,8 @@ pub const JAPANESE__APPLICATION__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “application” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -855,7 +897,6 @@ pub const JAPANESE__APPLICATION__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["hakemus-kirjoitusmerkki", "kiina", "kirjoitusmerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🈴"]
 pub const JAPANESE__PASSING_GRADE__BUTTON: crate::Emoji = crate::Emoji {
@@ -864,6 +905,8 @@ pub const JAPANESE__PASSING_GRADE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “passing grade” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -886,7 +929,6 @@ pub const JAPANESE__PASSING_GRADE__BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🈳"]
 pub const JAPANESE__VACANCY__BUTTON: crate::Emoji = crate::Emoji {
@@ -895,6 +937,8 @@ pub const JAPANESE__VACANCY__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “vacancy” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -913,7 +957,6 @@ pub const JAPANESE__VACANCY__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["kiina", "kirjoitusmerkki", "tyhjä-kirjoitusmerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "㊗\u{fe0f}"]
 pub const JAPANESE__CONGRATULATIONS__BUTTON: crate::Emoji = crate::Emoji {
@@ -922,6 +965,17 @@ pub const JAPANESE__CONGRATULATIONS__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “congratulations” button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "㊗",
+        codepoint: "3297",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "Japanese “congratulations” button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -940,15 +994,6 @@ pub const JAPANESE__CONGRATULATIONS__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["kiina", "kirjoitusmerkki", "onnittelut-kirjoitusmerkki"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "㊗",
-        codepoint: "3297",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "Japanese “congratulations” button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "㊙\u{fe0f}"]
 pub const JAPANESE__SECRET__BUTTON: crate::Emoji = crate::Emoji {
@@ -957,6 +1002,17 @@ pub const JAPANESE__SECRET__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “secret” button",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "㊙",
+        codepoint: "3299",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "Japanese “secret” button",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -975,15 +1031,6 @@ pub const JAPANESE__SECRET__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["kiina", "kirjoitusmerkki", "salainen-kirjoitusmerkki"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "㊙",
-        codepoint: "3299",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "Japanese “secret” button",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🈺"]
 pub const JAPANESE__OPEN_FOR_BUSINESS__BUTTON: crate::Emoji = crate::Emoji {
@@ -992,6 +1039,8 @@ pub const JAPANESE__OPEN_FOR_BUSINESS__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “open for business” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1010,7 +1059,6 @@ pub const JAPANESE__OPEN_FOR_BUSINESS__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["avoinna-kirjoitusmerkki", "kiina", "kirjoitusmerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🈵"]
 pub const JAPANESE__NO_VACANCY__BUTTON: crate::Emoji = crate::Emoji {
@@ -1019,6 +1067,8 @@ pub const JAPANESE__NO_VACANCY__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “no vacancy” button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1037,5 +1087,4 @@ pub const JAPANESE__NO_VACANCY__BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["kiina", "kirjoitusmerkki", "täynnä-kirjoitusmerkki"],
         },
     ],
-    variants: &[],
 };

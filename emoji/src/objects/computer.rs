@@ -5,6 +5,8 @@ pub const BATTERY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "battery",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const BATTERY: crate::Emoji = crate::Emoji {
             keywords: &["akku", "akkuvirta", "paristo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔌"]
 pub const ELECTRIC_PLUG: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const ELECTRIC_PLUG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "electric plug",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -44,7 +47,6 @@ pub const ELECTRIC_PLUG: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "💻"]
 pub const LAPTOP: crate::Emoji = crate::Emoji {
@@ -53,6 +55,8 @@ pub const LAPTOP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "laptop",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -65,7 +69,6 @@ pub const LAPTOP: crate::Emoji = crate::Emoji {
             keywords: &["kannetava", "kannettava tietokone", "läppäri", "tietokone"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🖥\u{fe0f}"]
 pub const DESKTOP_COMPUTER: crate::Emoji = crate::Emoji {
@@ -74,6 +77,17 @@ pub const DESKTOP_COMPUTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "desktop computer",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🖥",
+        codepoint: "1F5A5",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "desktop computer",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -86,15 +100,6 @@ pub const DESKTOP_COMPUTER: crate::Emoji = crate::Emoji {
             keywords: &["pöytäkone", "tietokone"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🖥",
-        codepoint: "1F5A5",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "desktop computer",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🖨\u{fe0f}"]
 pub const PRINTER: crate::Emoji = crate::Emoji {
@@ -103,6 +108,17 @@ pub const PRINTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "printer",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🖨",
+        codepoint: "1F5A8",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "printer",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -115,15 +131,6 @@ pub const PRINTER: crate::Emoji = crate::Emoji {
             keywords: &["printteri", "tietokone", "tulostin"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🖨",
-        codepoint: "1F5A8",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "printer",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⌨\u{fe0f}"]
 pub const KEYBOARD: crate::Emoji = crate::Emoji {
@@ -132,6 +139,17 @@ pub const KEYBOARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "keyboard",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⌨",
+        codepoint: "2328",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "keyboard",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -144,15 +162,6 @@ pub const KEYBOARD: crate::Emoji = crate::Emoji {
             keywords: &["näppis", "näppäimet", "näppäimistö", "tietokone"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⌨",
-        codepoint: "2328",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "keyboard",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🖱\u{fe0f}"]
 pub const COMPUTER_MOUSE: crate::Emoji = crate::Emoji {
@@ -161,6 +170,17 @@ pub const COMPUTER_MOUSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "computer mouse",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🖱",
+        codepoint: "1F5B1",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "computer mouse",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -173,15 +193,6 @@ pub const COMPUTER_MOUSE: crate::Emoji = crate::Emoji {
             keywords: &["hiiri", "tietokone", "tietokoneen hiiri"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🖱",
-        codepoint: "1F5B1",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "computer mouse",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🖲\u{fe0f}"]
 pub const TRACKBALL: crate::Emoji = crate::Emoji {
@@ -190,6 +201,17 @@ pub const TRACKBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "trackball",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🖲",
+        codepoint: "1F5B2",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "trackball",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -202,15 +224,6 @@ pub const TRACKBALL: crate::Emoji = crate::Emoji {
             keywords: &["hiiri", "ohjauspallo", "tietokone"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🖲",
-        codepoint: "1F5B2",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "trackball",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "💽"]
 pub const COMPUTER_DISK: crate::Emoji = crate::Emoji {
@@ -219,6 +232,8 @@ pub const COMPUTER_DISK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "computer disk",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -231,7 +246,6 @@ pub const COMPUTER_DISK: crate::Emoji = crate::Emoji {
             keywords: &["levy", "minidisc", "minidisk", "tietokone"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💾"]
 pub const FLOPPY_DISK: crate::Emoji = crate::Emoji {
@@ -240,6 +254,8 @@ pub const FLOPPY_DISK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "floppy disk",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -252,7 +268,6 @@ pub const FLOPPY_DISK: crate::Emoji = crate::Emoji {
             keywords: &["disketti", "korppu", "levyke", "tietokone"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💿"]
 pub const OPTICAL_DISK: crate::Emoji = crate::Emoji {
@@ -261,6 +276,8 @@ pub const OPTICAL_DISK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "optical disk",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -273,7 +290,6 @@ pub const OPTICAL_DISK: crate::Emoji = crate::Emoji {
             keywords: &["CD", "blu-ray", "dvd", "levy", "tietokone"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📀"]
 pub const DVD: crate::Emoji = crate::Emoji {
@@ -282,6 +298,8 @@ pub const DVD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dvd",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -294,7 +312,6 @@ pub const DVD: crate::Emoji = crate::Emoji {
             keywords: &["DVD", "blu-ray", "cd", "levy", "tietokone"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧮"]
 pub const ABACUS: crate::Emoji = crate::Emoji {
@@ -303,6 +320,8 @@ pub const ABACUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "abacus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -315,5 +334,4 @@ pub const ABACUS: crate::Emoji = crate::Emoji {
             keywords: &["helmitaulu", "laskeminen"],
         },
     ],
-    variants: &[],
 };

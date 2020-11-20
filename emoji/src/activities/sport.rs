@@ -5,6 +5,8 @@ pub const SOCCER_BALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "soccer ball",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const SOCCER_BALL: crate::Emoji = crate::Emoji {
             keywords: &["jalkapallo", "pallo", "urheilu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⚾"]
 pub const BASEBALL: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const BASEBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "baseball",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const BASEBALL: crate::Emoji = crate::Emoji {
             keywords: &["baseball", "pallo", "pesäpallo", "urheilu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥎"]
 pub const SOFTBALL: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const SOFTBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "softball",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const SOFTBALL: crate::Emoji = crate::Emoji {
             keywords: &["pallo", "räpylä", "softball"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏀"]
 pub const BASKETBALL: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const BASKETBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "basketball",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,7 +85,6 @@ pub const BASKETBALL: crate::Emoji = crate::Emoji {
             keywords: &["koripallo", "pallo", "urheilu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏐"]
 pub const VOLLEYBALL: crate::Emoji = crate::Emoji {
@@ -89,6 +93,8 @@ pub const VOLLEYBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "volleyball",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -101,7 +107,6 @@ pub const VOLLEYBALL: crate::Emoji = crate::Emoji {
             keywords: &["lentopallo", "ottelu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏈"]
 pub const AMERICAN_FOOTBALL: crate::Emoji = crate::Emoji {
@@ -110,6 +115,8 @@ pub const AMERICAN_FOOTBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "american football",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -127,7 +134,6 @@ pub const AMERICAN_FOOTBALL: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏉"]
 pub const RUGBY_FOOTBALL: crate::Emoji = crate::Emoji {
@@ -136,6 +142,8 @@ pub const RUGBY_FOOTBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "rugby football",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -148,7 +156,6 @@ pub const RUGBY_FOOTBALL: crate::Emoji = crate::Emoji {
             keywords: &["jalkapallo", "pallo", "rugby", "rugby-pallo", "urheilu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎾"]
 pub const TENNIS: crate::Emoji = crate::Emoji {
@@ -157,6 +164,8 @@ pub const TENNIS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tennis",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -169,7 +178,6 @@ pub const TENNIS: crate::Emoji = crate::Emoji {
             keywords: &["pallo", "tennis", "tennispallo", "urheilu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥏"]
 pub const FLYING_DISC: crate::Emoji = crate::Emoji {
@@ -178,6 +186,8 @@ pub const FLYING_DISC: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "flying disc",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -190,7 +200,6 @@ pub const FLYING_DISC: crate::Emoji = crate::Emoji {
             keywords: &["Frisbee", "kiekko", "liitokiekko", "ultimate"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎳"]
 pub const BOWLING: crate::Emoji = crate::Emoji {
@@ -199,6 +208,8 @@ pub const BOWLING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bowling",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -211,7 +222,6 @@ pub const BOWLING: crate::Emoji = crate::Emoji {
             keywords: &["keila", "keilailu", "keilapallo", "pallo", "peli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏏"]
 pub const CRICKET_GAME: crate::Emoji = crate::Emoji {
@@ -220,6 +230,8 @@ pub const CRICKET_GAME: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "cricket game",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -232,7 +244,6 @@ pub const CRICKET_GAME: crate::Emoji = crate::Emoji {
             keywords: &["kriketti", "maila", "ottelu", "pallo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏑"]
 pub const FIELD_HOCKEY: crate::Emoji = crate::Emoji {
@@ -241,6 +252,8 @@ pub const FIELD_HOCKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "field hockey",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -253,7 +266,6 @@ pub const FIELD_HOCKEY: crate::Emoji = crate::Emoji {
             keywords: &["hockey", "maahockey", "maila", "ottelu", "pallo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏒"]
 pub const ICE_HOCKEY: crate::Emoji = crate::Emoji {
@@ -262,6 +274,8 @@ pub const ICE_HOCKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "ice hockey",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -274,7 +288,6 @@ pub const ICE_HOCKEY: crate::Emoji = crate::Emoji {
             keywords: &["jää", "jääkiekko ja maila", "kiekko", "maila", "ottelu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥍"]
 pub const LACROSSE: crate::Emoji = crate::Emoji {
@@ -283,6 +296,8 @@ pub const LACROSSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "lacrosse",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -295,7 +310,6 @@ pub const LACROSSE: crate::Emoji = crate::Emoji {
             keywords: &["haavipallo", "lacrosse", "maali", "maila", "pallo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏓"]
 pub const PING_PONG: crate::Emoji = crate::Emoji {
@@ -304,6 +318,8 @@ pub const PING_PONG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "ping pong",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -323,7 +339,6 @@ pub const PING_PONG: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏸"]
 pub const BADMINTON: crate::Emoji = crate::Emoji {
@@ -332,6 +347,8 @@ pub const BADMINTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "badminton",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -344,7 +361,6 @@ pub const BADMINTON: crate::Emoji = crate::Emoji {
             keywords: &["maila", "ottelu", "sulka", "sulkapallo", "sulkapallomaila"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥊"]
 pub const BOXING_GLOVE: crate::Emoji = crate::Emoji {
@@ -353,6 +369,8 @@ pub const BOXING_GLOVE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "boxing glove",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -371,7 +389,6 @@ pub const BOXING_GLOVE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥋"]
 pub const MARTIAL_ARTS_UNIFORM: crate::Emoji = crate::Emoji {
@@ -380,6 +397,8 @@ pub const MARTIAL_ARTS_UNIFORM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "martial arts uniform",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -407,7 +426,6 @@ pub const MARTIAL_ARTS_UNIFORM: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥅"]
 pub const GOAL_NET: crate::Emoji = crate::Emoji {
@@ -416,6 +434,8 @@ pub const GOAL_NET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "goal net",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -428,7 +448,6 @@ pub const GOAL_NET: crate::Emoji = crate::Emoji {
             keywords: &["liikunta", "maali", "maaliverkko", "urheilu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⛳"]
 pub const FLAG_IN_HOLE: crate::Emoji = crate::Emoji {
@@ -437,6 +456,8 @@ pub const FLAG_IN_HOLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "flag in hole",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -449,7 +470,6 @@ pub const FLAG_IN_HOLE: crate::Emoji = crate::Emoji {
             keywords: &["golf", "lippu", "lippu reiän päällä", "reikä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⛸\u{fe0f}"]
 pub const ICE_SKATE: crate::Emoji = crate::Emoji {
@@ -458,6 +478,17 @@ pub const ICE_SKATE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "ice skate",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⛸",
+        codepoint: "26F8",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "ice skate",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -470,15 +501,6 @@ pub const ICE_SKATE: crate::Emoji = crate::Emoji {
             keywords: &["jää", "luistelu", "luistin"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⛸",
-        codepoint: "26F8",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "ice skate",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🎣"]
 pub const FISHING_POLE: crate::Emoji = crate::Emoji {
@@ -487,6 +509,8 @@ pub const FISHING_POLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fishing pole",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -499,7 +523,6 @@ pub const FISHING_POLE: crate::Emoji = crate::Emoji {
             keywords: &["kalastus", "onki", "onkivapa", "virveli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤿"]
 pub const DIVING_MASK: crate::Emoji = crate::Emoji {
@@ -508,6 +531,8 @@ pub const DIVING_MASK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "diving mask",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -520,7 +545,6 @@ pub const DIVING_MASK: crate::Emoji = crate::Emoji {
             keywords: &["snorkkelisetti", "snorklaus", "sukellus", "sukellusmaski"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎽"]
 pub const RUNNING_SHIRT: crate::Emoji = crate::Emoji {
@@ -529,6 +553,8 @@ pub const RUNNING_SHIRT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "running shirt",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -541,7 +567,6 @@ pub const RUNNING_SHIRT: crate::Emoji = crate::Emoji {
             keywords: &["juokseminen", "juoksupaita", "nauha", "paita"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🎿"]
 pub const SKIS: crate::Emoji = crate::Emoji {
@@ -550,6 +575,8 @@ pub const SKIS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "skis",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -562,7 +589,6 @@ pub const SKIS: crate::Emoji = crate::Emoji {
             keywords: &["hiihto", "lumi", "sauvat", "sukset"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛷"]
 pub const SLED: crate::Emoji = crate::Emoji {
@@ -571,6 +597,8 @@ pub const SLED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "sled",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -583,7 +611,6 @@ pub const SLED: crate::Emoji = crate::Emoji {
             keywords: &["kelkka", "kouru", "lasku"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥌"]
 pub const CURLING_STONE: crate::Emoji = crate::Emoji {
@@ -592,6 +619,8 @@ pub const CURLING_STONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "curling stone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -604,5 +633,4 @@ pub const CURLING_STONE: crate::Emoji = crate::Emoji {
             keywords: &["curling-kivi", "jää", "kivi"],
         },
     ],
-    variants: &[],
 };

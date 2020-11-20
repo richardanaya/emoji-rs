@@ -5,6 +5,8 @@ pub const NOTEBOOK_WITH_DECORATIVE_COVER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "notebook with decorative cover",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -30,7 +32,6 @@ pub const NOTEBOOK_WITH_DECORATIVE_COVER: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📕"]
 pub const CLOSED_BOOK: crate::Emoji = crate::Emoji {
@@ -39,6 +40,8 @@ pub const CLOSED_BOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "closed book",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -51,7 +54,6 @@ pub const CLOSED_BOOK: crate::Emoji = crate::Emoji {
             keywords: &["kirja", "suljettu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📖"]
 pub const OPEN_BOOK: crate::Emoji = crate::Emoji {
@@ -60,6 +62,8 @@ pub const OPEN_BOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "open book",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -72,7 +76,6 @@ pub const OPEN_BOOK: crate::Emoji = crate::Emoji {
             keywords: &["avoin", "kirja"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📗"]
 pub const GREEN_BOOK: crate::Emoji = crate::Emoji {
@@ -81,6 +84,8 @@ pub const GREEN_BOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "green book",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -93,7 +98,6 @@ pub const GREEN_BOOK: crate::Emoji = crate::Emoji {
             keywords: &["kirja", "vihreä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📘"]
 pub const BLUE_BOOK: crate::Emoji = crate::Emoji {
@@ -102,6 +106,8 @@ pub const BLUE_BOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "blue book",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -114,7 +120,6 @@ pub const BLUE_BOOK: crate::Emoji = crate::Emoji {
             keywords: &["kirja", "sininen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📙"]
 pub const ORANGE_BOOK: crate::Emoji = crate::Emoji {
@@ -123,6 +128,8 @@ pub const ORANGE_BOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "orange book",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -135,7 +142,6 @@ pub const ORANGE_BOOK: crate::Emoji = crate::Emoji {
             keywords: &["kirja", "oranssi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📚"]
 pub const BOOKS: crate::Emoji = crate::Emoji {
@@ -144,6 +150,8 @@ pub const BOOKS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "books",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -156,7 +164,6 @@ pub const BOOKS: crate::Emoji = crate::Emoji {
             keywords: &["kirja", "kirjapino", "kirjat", "kirjoja"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📓"]
 pub const NOTEBOOK: crate::Emoji = crate::Emoji {
@@ -165,6 +172,8 @@ pub const NOTEBOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "notebook",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -177,7 +186,6 @@ pub const NOTEBOOK: crate::Emoji = crate::Emoji {
             keywords: &["kirja", "lehtiö", "muistikirja", "muistio"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📒"]
 pub const LEDGER: crate::Emoji = crate::Emoji {
@@ -186,6 +194,8 @@ pub const LEDGER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ledger",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -198,7 +208,6 @@ pub const LEDGER: crate::Emoji = crate::Emoji {
             keywords: &["kirja", "kirjanpito", "lehtiö", "tilikirja"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📃"]
 pub const PAGE_WITH_CURL: crate::Emoji = crate::Emoji {
@@ -207,6 +216,8 @@ pub const PAGE_WITH_CURL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "page with curl",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -219,7 +230,6 @@ pub const PAGE_WITH_CURL: crate::Emoji = crate::Emoji {
             keywords: &["asiakirja", "dokumentti", "käännetty sivu", "sivu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📜"]
 pub const SCROLL: crate::Emoji = crate::Emoji {
@@ -228,6 +238,8 @@ pub const SCROLL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "scroll",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -240,7 +252,6 @@ pub const SCROLL: crate::Emoji = crate::Emoji {
             keywords: &["kirjakäärö", "käärö", "paperi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📄"]
 pub const PAGE_FACING_UP: crate::Emoji = crate::Emoji {
@@ -249,6 +260,8 @@ pub const PAGE_FACING_UP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "page facing up",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -261,7 +274,6 @@ pub const PAGE_FACING_UP: crate::Emoji = crate::Emoji {
             keywords: &["asiakirja", "dokumentti", "sivu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📰"]
 pub const NEWSPAPER: crate::Emoji = crate::Emoji {
@@ -270,6 +282,8 @@ pub const NEWSPAPER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "newspaper",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -282,7 +296,6 @@ pub const NEWSPAPER: crate::Emoji = crate::Emoji {
             keywords: &["lehti", "sanomalehti", "uutiset"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🗞\u{fe0f}"]
 pub const ROLLED_UP_NEWSPAPER: crate::Emoji = crate::Emoji {
@@ -291,6 +304,17 @@ pub const ROLLED_UP_NEWSPAPER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "rolled-up newspaper",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🗞",
+        codepoint: "1F5DE",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "rolled-up newspaper",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -309,15 +333,6 @@ pub const ROLLED_UP_NEWSPAPER: crate::Emoji = crate::Emoji {
             keywords: &["lehti", "rulla", "sanomalehti rullalla", "uutiset"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🗞",
-        codepoint: "1F5DE",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "rolled-up newspaper",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "📑"]
 pub const BOOKMARK_TABS: crate::Emoji = crate::Emoji {
@@ -326,6 +341,8 @@ pub const BOOKMARK_TABS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bookmark tabs",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -343,7 +360,6 @@ pub const BOOKMARK_TABS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔖"]
 pub const BOOKMARK: crate::Emoji = crate::Emoji {
@@ -352,6 +368,8 @@ pub const BOOKMARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bookmark",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -364,7 +382,6 @@ pub const BOOKMARK: crate::Emoji = crate::Emoji {
             keywords: &["kirjanmerkki", "merkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏷\u{fe0f}"]
 pub const LABEL: crate::Emoji = crate::Emoji {
@@ -373,6 +390,17 @@ pub const LABEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "label",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏷",
+        codepoint: "1F3F7",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "label",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -385,13 +413,4 @@ pub const LABEL: crate::Emoji = crate::Emoji {
             keywords: &["etiketti", "kortti", "lappu", "lipuke"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏷",
-        codepoint: "1F3F7",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "label",
-        annotations: &[],
-        variants: &[],
-    }],
 };

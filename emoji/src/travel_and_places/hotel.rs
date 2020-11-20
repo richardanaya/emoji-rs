@@ -5,6 +5,17 @@ pub const BELLHOP_BELL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "bellhop bell",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🛎",
+        codepoint: "1F6CE",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "bellhop bell",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const BELLHOP_BELL: crate::Emoji = crate::Emoji {
             keywords: &["hotelli", "hotellipoika", "kello", "soittokello"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🛎",
-        codepoint: "1F6CE",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "bellhop bell",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🧳"]
 pub const LUGGAGE: crate::Emoji = crate::Emoji {
@@ -34,6 +36,8 @@ pub const LUGGAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "luggage",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -52,5 +56,4 @@ pub const LUGGAGE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

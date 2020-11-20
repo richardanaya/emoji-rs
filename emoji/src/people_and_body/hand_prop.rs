@@ -5,6 +5,17 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "writing hand",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "✍",
+        codepoint: "270D",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "writing hand",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const WRITING_HAND: crate::Emoji = crate::Emoji {
             keywords: &["kirjoittaa", "kirjoittava käsi", "käsi", "vartalo"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "✍",
-        codepoint: "270D",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "writing hand",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "✍🏻"]
 pub const WRITING_HAND_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -34,8 +36,9 @@ pub const WRITING_HAND_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "writing hand: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "✍🏼"]
 pub const WRITING_HAND_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -44,8 +47,9 @@ pub const WRITING_HAND_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "writing hand: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "✍🏽"]
 pub const WRITING_HAND_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -54,8 +58,9 @@ pub const WRITING_HAND_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "writing hand: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "✍🏾"]
 pub const WRITING_HAND_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -64,8 +69,9 @@ pub const WRITING_HAND_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "writing hand: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "✍🏿"]
 pub const WRITING_HAND_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -74,8 +80,9 @@ pub const WRITING_HAND_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "writing hand: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "💅"]
 pub const NAIL_POLISH: crate::Emoji = crate::Emoji {
@@ -84,6 +91,8 @@ pub const NAIL_POLISH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "nail polish",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -103,7 +112,6 @@ pub const NAIL_POLISH: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "💅🏻"]
 pub const NAIL_POLISH_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -112,8 +120,9 @@ pub const NAIL_POLISH_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nail polish: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "💅🏼"]
 pub const NAIL_POLISH_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -122,8 +131,9 @@ pub const NAIL_POLISH_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nail polish: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "💅🏽"]
 pub const NAIL_POLISH_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -132,8 +142,9 @@ pub const NAIL_POLISH_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nail polish: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "💅🏾"]
 pub const NAIL_POLISH_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -142,8 +153,9 @@ pub const NAIL_POLISH_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nail polish: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "💅🏿"]
 pub const NAIL_POLISH_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -152,8 +164,9 @@ pub const NAIL_POLISH_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nail polish: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🤳"]
 pub const SELFIE: crate::Emoji = crate::Emoji {
@@ -162,6 +175,8 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "selfie",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -174,7 +189,6 @@ pub const SELFIE: crate::Emoji = crate::Emoji {
             keywords: &["kamera", "omakuva", "puhelin", "selfie"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤳🏻"]
 pub const SELFIE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -183,8 +197,9 @@ pub const SELFIE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "selfie: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🤳🏼"]
 pub const SELFIE_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -193,8 +208,9 @@ pub const SELFIE_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "selfie: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🤳🏽"]
 pub const SELFIE_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -203,8 +219,9 @@ pub const SELFIE_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "selfie: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🤳🏾"]
 pub const SELFIE_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -213,8 +230,9 @@ pub const SELFIE_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "selfie: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🤳🏿"]
 pub const SELFIE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -223,6 +241,7 @@ pub const SELFIE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "selfie: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };

@@ -5,6 +5,8 @@ pub const BABY_BOTTLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "baby bottle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const BABY_BOTTLE: crate::Emoji = crate::Emoji {
             keywords: &["juoda", "maito", "pullo", "tuttipullo", "vauva"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥛"]
 pub const GLASS_OF_MILK: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const GLASS_OF_MILK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "glass of milk",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const GLASS_OF_MILK: crate::Emoji = crate::Emoji {
             keywords: &["juoma", "lasi", "maito", "maitolasi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "☕"]
 pub const HOT_BEVERAGE: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const HOT_BEVERAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hot beverage",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const HOT_BEVERAGE: crate::Emoji = crate::Emoji {
             keywords: &["höyryävä", "juoda", "juoma", "kahvi", "kuuma", "tee"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🫖"]
 pub const TEAPOT: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const TEAPOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "teapot",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,7 +85,6 @@ pub const TEAPOT: crate::Emoji = crate::Emoji {
             keywords: &["juoda", "pannu", "tee", "teepannu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍵"]
 pub const TEACUP_WITHOUT_HANDLE: crate::Emoji = crate::Emoji {
@@ -89,6 +93,8 @@ pub const TEACUP_WITHOUT_HANDLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "teacup without handle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -115,7 +121,6 @@ pub const TEACUP_WITHOUT_HANDLE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍶"]
 pub const SAKE: crate::Emoji = crate::Emoji {
@@ -124,6 +129,8 @@ pub const SAKE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sake",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -136,7 +143,6 @@ pub const SAKE: crate::Emoji = crate::Emoji {
             keywords: &["baari", "juoma", "kuppi", "pullo", "riisiviini", "sake"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍾"]
 pub const BOTTLE_WITH_POPPING_CORK: crate::Emoji = crate::Emoji {
@@ -145,6 +151,8 @@ pub const BOTTLE_WITH_POPPING_CORK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "bottle with popping cork",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -171,7 +179,6 @@ pub const BOTTLE_WITH_POPPING_CORK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍷"]
 pub const WINE_GLASS: crate::Emoji = crate::Emoji {
@@ -180,6 +187,8 @@ pub const WINE_GLASS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wine glass",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -192,7 +201,6 @@ pub const WINE_GLASS: crate::Emoji = crate::Emoji {
             keywords: &["baari", "juoda", "juoma", "lasi", "viini", "viinilasi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍸"]
 pub const COCKTAIL_GLASS: crate::Emoji = crate::Emoji {
@@ -201,6 +209,8 @@ pub const COCKTAIL_GLASS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cocktail glass",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -213,7 +223,6 @@ pub const COCKTAIL_GLASS: crate::Emoji = crate::Emoji {
             keywords: &["baari", "cocktail", "cocktaillasi", "juoda", "lasi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍹"]
 pub const TROPICAL_DRINK: crate::Emoji = crate::Emoji {
@@ -222,6 +231,8 @@ pub const TROPICAL_DRINK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tropical drink",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -234,7 +245,6 @@ pub const TROPICAL_DRINK: crate::Emoji = crate::Emoji {
             keywords: &["baari", "juoda", "lasi", "trooppinen drinkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍺"]
 pub const BEER_MUG: crate::Emoji = crate::Emoji {
@@ -243,6 +253,8 @@ pub const BEER_MUG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "beer mug",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -255,7 +267,6 @@ pub const BEER_MUG: crate::Emoji = crate::Emoji {
             keywords: &["baari", "juoda", "olut", "oluttuoppi", "tuoppi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍻"]
 pub const CLINKING_BEER_MUGS: crate::Emoji = crate::Emoji {
@@ -264,6 +275,8 @@ pub const CLINKING_BEER_MUGS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "clinking beer mugs",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -283,7 +296,6 @@ pub const CLINKING_BEER_MUGS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥂"]
 pub const CLINKING_GLASSES: crate::Emoji = crate::Emoji {
@@ -292,6 +304,8 @@ pub const CLINKING_GLASSES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "clinking glasses",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -304,7 +318,6 @@ pub const CLINKING_GLASSES: crate::Emoji = crate::Emoji {
             keywords: &["juhlia", "juoda", "kilisevät lasit", "kilistää", "lasi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥃"]
 pub const TUMBLER_GLASS: crate::Emoji = crate::Emoji {
@@ -313,6 +326,8 @@ pub const TUMBLER_GLASS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "tumbler glass",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -325,7 +340,6 @@ pub const TUMBLER_GLASS: crate::Emoji = crate::Emoji {
             keywords: &["juomalasi", "paukku", "viina", "viski"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥤"]
 pub const CUP_WITH_STRAW: crate::Emoji = crate::Emoji {
@@ -334,6 +348,8 @@ pub const CUP_WITH_STRAW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "cup with straw",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -346,7 +362,6 @@ pub const CUP_WITH_STRAW: crate::Emoji = crate::Emoji {
             keywords: &["juoma", "lasi ja pilli", "mehu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧋"]
 pub const BUBBLE_TEA: crate::Emoji = crate::Emoji {
@@ -355,6 +370,8 @@ pub const BUBBLE_TEA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "bubble tea",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -367,7 +384,6 @@ pub const BUBBLE_TEA: crate::Emoji = crate::Emoji {
             keywords: &["helmi", "kupla", "kuplatee", "maito", "tee"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧃"]
 pub const BEVERAGE_BOX: crate::Emoji = crate::Emoji {
@@ -376,6 +392,8 @@ pub const BEVERAGE_BOX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "beverage box",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -388,7 +406,6 @@ pub const BEVERAGE_BOX: crate::Emoji = crate::Emoji {
             keywords: &["juomatetra", "pillijuoma"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧉"]
 pub const MATE: crate::Emoji = crate::Emoji {
@@ -397,6 +414,8 @@ pub const MATE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "mate",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -409,7 +428,6 @@ pub const MATE: crate::Emoji = crate::Emoji {
             keywords: &["juoma", "mate"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧊"]
 pub const ICE: crate::Emoji = crate::Emoji {
@@ -418,6 +436,8 @@ pub const ICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "ice",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -430,5 +450,4 @@ pub const ICE: crate::Emoji = crate::Emoji {
             keywords: &["jääkuutio", "kylmä"],
         },
     ],
-    variants: &[],
 };

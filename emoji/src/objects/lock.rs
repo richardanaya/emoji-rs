@@ -5,6 +5,8 @@ pub const LOCKED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "locked",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const LOCKED: crate::Emoji = crate::Emoji {
             keywords: &["kiinni", "lukko"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔓"]
 pub const UNLOCKED: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const UNLOCKED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "unlocked",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const UNLOCKED: crate::Emoji = crate::Emoji {
             keywords: &["auki", "avata", "lukko"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔏"]
 pub const LOCKED_WITH_PEN: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const LOCKED_WITH_PEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "locked with pen",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -65,7 +69,6 @@ pub const LOCKED_WITH_PEN: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔐"]
 pub const LOCKED_WITH_KEY: crate::Emoji = crate::Emoji {
@@ -74,6 +77,8 @@ pub const LOCKED_WITH_KEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "locked with key",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -86,7 +91,6 @@ pub const LOCKED_WITH_KEY: crate::Emoji = crate::Emoji {
             keywords: &["avain", "avain ja lukko kiinni", "kiinni", "lukko", "turva"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔑"]
 pub const KEY: crate::Emoji = crate::Emoji {
@@ -95,6 +99,8 @@ pub const KEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "key",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -107,7 +113,6 @@ pub const KEY: crate::Emoji = crate::Emoji {
             keywords: &["avain", "lukittu", "salasana"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🗝\u{fe0f}"]
 pub const OLD_KEY: crate::Emoji = crate::Emoji {
@@ -116,6 +121,17 @@ pub const OLD_KEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "old key",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🗝",
+        codepoint: "1F5DD",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "old key",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -128,13 +144,4 @@ pub const OLD_KEY: crate::Emoji = crate::Emoji {
             keywords: &["avain", "lukko", "vanha", "vihje"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🗝",
-        codepoint: "1F5DD",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "old key",
-        annotations: &[],
-        variants: &[],
-    }],
 };

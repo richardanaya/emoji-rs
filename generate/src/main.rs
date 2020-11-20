@@ -85,6 +85,7 @@ struct Emoji {
     pub name: String,
     variants: Vec<Emoji>,
     pub annotations: Vec<Annotation>,
+    is_variant: bool,
 }
 impl Emoji {
     pub fn new(line: &str, annotations_map: &HashMap<String, Vec<Annotation>>) -> Self {
@@ -107,9 +108,10 @@ impl Emoji {
 	    Some(a) => a.to_vec(),
 	};
 	
-	Self{codepoint, status, glyph, introduction_version, name, variants: vec![], annotations}
+	Self{codepoint, status, glyph, introduction_version, name, variants: vec![], annotations, is_variant: false}
     }
     pub fn add_variant(&mut self, mut variant: Emoji) {
+	variant.is_variant = true;
 	for a in &mut self.annotations {
 	    if let Some(a_other) = variant.annotations.iter_mut().find(|i| i.lang == a.lang) {
 		if a_other.tts.is_some() {
@@ -135,6 +137,7 @@ impl Emoji {
 	let variants: Vec<TokenStream> = self.variants.iter()
 	    .map(|e| e.tokens_internal()).collect();
 	let annotations = &self.annotations;
+	let is_variant = &self.is_variant;
 	(quote!{
 	    crate::Emoji{
 		glyph: #glyph,
@@ -142,8 +145,9 @@ impl Emoji {
 		status: crate::Status::#status,
 		introduction_version: #introduction_version,
 		name: #name,
-		annotations: &[#(#annotations),*],
+		is_variant: #is_variant,
 		variants: &[#(#variants),*],
+		annotations: &[#(#annotations),*],
 	    }
 	}).into()
     }
@@ -192,7 +196,7 @@ impl std::fmt::Display for Status {
 #[derive(Debug, Clone)]
 struct Annotation {
     lang: String,
-    pub tts: Option<String>, // TODO: cross reference with emoji.name
+    pub tts: Option<String>,
     keywords: Vec<String>,
 }
 impl Annotation {

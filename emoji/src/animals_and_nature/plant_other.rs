@@ -5,6 +5,8 @@ pub const SEEDLING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "seedling",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const SEEDLING: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "taimi", "verso"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪴"]
 pub const POTTED_PLANT: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const POTTED_PLANT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "potted plant",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -55,7 +58,6 @@ pub const POTTED_PLANT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌲"]
 pub const EVERGREEN_TREE: crate::Emoji = crate::Emoji {
@@ -64,6 +66,8 @@ pub const EVERGREEN_TREE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "evergreen tree",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -76,7 +80,6 @@ pub const EVERGREEN_TREE: crate::Emoji = crate::Emoji {
             keywords: &["ikivihreä", "kasvi", "puu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌳"]
 pub const DECIDUOUS_TREE: crate::Emoji = crate::Emoji {
@@ -85,6 +88,8 @@ pub const DECIDUOUS_TREE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "deciduous tree",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -97,7 +102,6 @@ pub const DECIDUOUS_TREE: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "lehtipuu", "palmu", "puu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌴"]
 pub const PALM_TREE: crate::Emoji = crate::Emoji {
@@ -106,6 +110,8 @@ pub const PALM_TREE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "palm tree",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -118,7 +124,6 @@ pub const PALM_TREE: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "palmu", "puu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌵"]
 pub const CACTUS: crate::Emoji = crate::Emoji {
@@ -127,6 +132,8 @@ pub const CACTUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cactus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -139,7 +146,6 @@ pub const CACTUS: crate::Emoji = crate::Emoji {
             keywords: &["kaktus", "kasvi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌾"]
 pub const SHEAF_OF_RICE: crate::Emoji = crate::Emoji {
@@ -148,6 +154,8 @@ pub const SHEAF_OF_RICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sheaf of rice",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -160,7 +168,6 @@ pub const SHEAF_OF_RICE: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "riisi", "riisikasvi", "tähkä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🌿"]
 pub const HERB: crate::Emoji = crate::Emoji {
@@ -169,6 +176,8 @@ pub const HERB: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "herb",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -181,7 +190,6 @@ pub const HERB: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "lehti", "yrtti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "☘\u{fe0f}"]
 pub const SHAMROCK: crate::Emoji = crate::Emoji {
@@ -190,6 +198,17 @@ pub const SHAMROCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "shamrock",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☘",
+        codepoint: "2618",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "shamrock",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -202,15 +221,6 @@ pub const SHAMROCK: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "kolmiapila"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "☘",
-        codepoint: "2618",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "shamrock",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🍀"]
 pub const FOUR_LEAF_CLOVER: crate::Emoji = crate::Emoji {
@@ -219,6 +229,8 @@ pub const FOUR_LEAF_CLOVER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "four leaf clover",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -231,7 +243,6 @@ pub const FOUR_LEAF_CLOVER: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "lehti", "neliapila", "nelilehtinen", "neljä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍁"]
 pub const MAPLE_LEAF: crate::Emoji = crate::Emoji {
@@ -240,6 +251,8 @@ pub const MAPLE_LEAF: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "maple leaf",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -252,7 +265,6 @@ pub const MAPLE_LEAF: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "lehti", "putoava", "vaahtera", "vaahteranlehti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍂"]
 pub const FALLEN_LEAF: crate::Emoji = crate::Emoji {
@@ -261,6 +273,8 @@ pub const FALLEN_LEAF: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fallen leaf",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -273,7 +287,6 @@ pub const FALLEN_LEAF: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "lehti", "pudonnut lehti", "putoava"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🍃"]
 pub const LEAF_FLUTTERING_IN_WIND: crate::Emoji = crate::Emoji {
@@ -282,6 +295,8 @@ pub const LEAF_FLUTTERING_IN_WIND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "leaf fluttering in wind",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -294,5 +309,4 @@ pub const LEAF_FLUTTERING_IN_WIND: crate::Emoji = crate::Emoji {
             keywords: &["kasvi", "lehti", "lehti tuulessa", "puhaltaa", "tuuli"],
         },
     ],
-    variants: &[],
 };

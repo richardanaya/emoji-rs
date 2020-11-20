@@ -5,6 +5,8 @@ pub const FACE_WITH_MEDICAL_MASK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face with medical mask",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -32,7 +34,6 @@ pub const FACE_WITH_MEDICAL_MASK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤒"]
 pub const FACE_WITH_THERMOMETER: crate::Emoji = crate::Emoji {
@@ -41,6 +42,8 @@ pub const FACE_WITH_THERMOMETER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "face with thermometer",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -68,7 +71,6 @@ pub const FACE_WITH_THERMOMETER: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤕"]
 pub const FACE_WITH_HEAD_BANDAGE: crate::Emoji = crate::Emoji {
@@ -77,6 +79,8 @@ pub const FACE_WITH_HEAD_BANDAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "face with head-bandage",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -95,7 +99,6 @@ pub const FACE_WITH_HEAD_BANDAGE: crate::Emoji = crate::Emoji {
             keywords: &["kipeä", "naama", "naama ja pääside", "side", "vamma"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤢"]
 pub const NAUSEATED_FACE: crate::Emoji = crate::Emoji {
@@ -104,6 +107,8 @@ pub const NAUSEATED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "nauseated face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -116,7 +121,6 @@ pub const NAUSEATED_FACE: crate::Emoji = crate::Emoji {
             keywords: &["kasvot", "oksentaa", "pahoinvoida", "pahoinvoiva"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤮"]
 pub const FACE_VOMITING: crate::Emoji = crate::Emoji {
@@ -125,6 +129,8 @@ pub const FACE_VOMITING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "face vomiting",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -137,7 +143,6 @@ pub const FACE_VOMITING: crate::Emoji = crate::Emoji {
             keywords: &["naama", "oksentaa", "oksentava", "pahoinvointi", "yrjötä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤧"]
 pub const SNEEZING_FACE: crate::Emoji = crate::Emoji {
@@ -146,6 +151,8 @@ pub const SNEEZING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "sneezing face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -165,7 +172,6 @@ pub const SNEEZING_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥵"]
 pub const HOT_FACE: crate::Emoji = crate::Emoji {
@@ -174,6 +180,8 @@ pub const HOT_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "hot face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -200,7 +208,6 @@ pub const HOT_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥶"]
 pub const COLD_FACE: crate::Emoji = crate::Emoji {
@@ -209,6 +216,8 @@ pub const COLD_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "cold face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -235,7 +244,6 @@ pub const COLD_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥴"]
 pub const WOOZY_FACE: crate::Emoji = crate::Emoji {
@@ -244,6 +252,8 @@ pub const WOOZY_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "woozy face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -270,7 +280,6 @@ pub const WOOZY_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😵"]
 pub const KNOCKED_OUT_FACE: crate::Emoji = crate::Emoji {
@@ -279,6 +288,8 @@ pub const KNOCKED_OUT_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "knocked-out face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -298,7 +309,6 @@ pub const KNOCKED_OUT_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "😵\u{200d}💫"]
 pub const FACE_WITH_SPIRAL_EYES: crate::Emoji = crate::Emoji {
@@ -307,6 +317,8 @@ pub const FACE_WITH_SPIRAL_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13.1f32,
     name: "face with spiral eyes",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -333,7 +345,6 @@ pub const FACE_WITH_SPIRAL_EYES: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤯"]
 pub const EXPLODING_HEAD: crate::Emoji = crate::Emoji {
@@ -342,6 +353,8 @@ pub const EXPLODING_HEAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "exploding head",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -361,5 +374,4 @@ pub const EXPLODING_HEAD: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

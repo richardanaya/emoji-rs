@@ -5,6 +5,8 @@ pub const HAMMER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hammer",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const HAMMER: crate::Emoji = crate::Emoji {
             keywords: &["työkalu", "vasara"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪓"]
 pub const AXE: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const AXE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "axe",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const AXE: crate::Emoji = crate::Emoji {
             keywords: &["hakata", "halkoa", "kirves", "pilkkoa", "puu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⛏\u{fe0f}"]
 pub const PICK: crate::Emoji = crate::Emoji {
@@ -47,6 +49,17 @@ pub const PICK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "pick",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⛏",
+        codepoint: "26CF",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "pick",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,15 +72,6 @@ pub const PICK: crate::Emoji = crate::Emoji {
             keywords: &["hakku", "kaivaa", "kaivos", "työkalu"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⛏",
-        codepoint: "26CF",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "pick",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⚒\u{fe0f}"]
 pub const HAMMER_AND_PICK: crate::Emoji = crate::Emoji {
@@ -76,6 +80,17 @@ pub const HAMMER_AND_PICK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "hammer and pick",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚒",
+        codepoint: "2692",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "hammer and pick",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -88,15 +103,6 @@ pub const HAMMER_AND_PICK: crate::Emoji = crate::Emoji {
             keywords: &["hakku", "hakku ja vasara", "työkalu", "vasara"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⚒",
-        codepoint: "2692",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "hammer and pick",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🛠\u{fe0f}"]
 pub const HAMMER_AND_WRENCH: crate::Emoji = crate::Emoji {
@@ -105,6 +111,17 @@ pub const HAMMER_AND_WRENCH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "hammer and wrench",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🛠",
+        codepoint: "1F6E0",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "hammer and wrench",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -117,15 +134,6 @@ pub const HAMMER_AND_WRENCH: crate::Emoji = crate::Emoji {
             keywords: &["jakoavain", "jakoavain ja vasara", "työkalu", "vasara"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🛠",
-        codepoint: "1F6E0",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "hammer and wrench",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🗡\u{fe0f}"]
 pub const DAGGER: crate::Emoji = crate::Emoji {
@@ -134,6 +142,17 @@ pub const DAGGER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "dagger",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🗡",
+        codepoint: "1F5E1",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "dagger",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -146,15 +165,6 @@ pub const DAGGER: crate::Emoji = crate::Emoji {
             keywords: &["ase", "teräase", "tikari", "veitsi"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🗡",
-        codepoint: "1F5E1",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "dagger",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⚔\u{fe0f}"]
 pub const CROSSED_SWORDS: crate::Emoji = crate::Emoji {
@@ -163,6 +173,17 @@ pub const CROSSED_SWORDS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "crossed swords",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚔",
+        codepoint: "2694",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "crossed swords",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -175,15 +196,6 @@ pub const CROSSED_SWORDS: crate::Emoji = crate::Emoji {
             keywords: &["ase", "miekat ristissä", "miekka"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⚔",
-        codepoint: "2694",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "crossed swords",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🔫"]
 pub const WATER_PISTOL: crate::Emoji = crate::Emoji {
@@ -192,6 +204,8 @@ pub const WATER_PISTOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "water pistol",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -206,7 +220,6 @@ pub const WATER_PISTOL: crate::Emoji = crate::Emoji {
             keywords: &["pistooli", "pyssy", "revolveri", "vesipyssy"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪃"]
 pub const BOOMERANG: crate::Emoji = crate::Emoji {
@@ -215,6 +228,8 @@ pub const BOOMERANG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "boomerang",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -227,7 +242,6 @@ pub const BOOMERANG: crate::Emoji = crate::Emoji {
             keywords: &["australia", "bumerangi", "kimmota takaisin", "seuraus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏹"]
 pub const BOW_AND_ARROW: crate::Emoji = crate::Emoji {
@@ -236,6 +250,8 @@ pub const BOW_AND_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "bow and arrow",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -264,7 +280,6 @@ pub const BOW_AND_ARROW: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛡\u{fe0f}"]
 pub const SHIELD: crate::Emoji = crate::Emoji {
@@ -273,6 +288,17 @@ pub const SHIELD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "shield",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🛡",
+        codepoint: "1F6E1",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "shield",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -285,15 +311,6 @@ pub const SHIELD: crate::Emoji = crate::Emoji {
             keywords: &["ase", "kilpi"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🛡",
-        codepoint: "1F6E1",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "shield",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🪚"]
 pub const CARPENTRY_SAW: crate::Emoji = crate::Emoji {
@@ -302,6 +319,8 @@ pub const CARPENTRY_SAW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "carpentry saw",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -314,7 +333,6 @@ pub const CARPENTRY_SAW: crate::Emoji = crate::Emoji {
             keywords: &["käsisaha", "puuseppä", "saha", "sahatavara", "työkalu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔧"]
 pub const WRENCH: crate::Emoji = crate::Emoji {
@@ -323,6 +341,8 @@ pub const WRENCH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wrench",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -335,7 +355,6 @@ pub const WRENCH: crate::Emoji = crate::Emoji {
             keywords: &["jakoavain", "työkalu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪛"]
 pub const SCREWDRIVER: crate::Emoji = crate::Emoji {
@@ -344,6 +363,8 @@ pub const SCREWDRIVER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "screwdriver",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -356,7 +377,6 @@ pub const SCREWDRIVER: crate::Emoji = crate::Emoji {
             keywords: &["meisseli", "ruuvi", "ruuvimeisseli", "työkalu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔩"]
 pub const NUT_AND_BOLT: crate::Emoji = crate::Emoji {
@@ -365,6 +385,8 @@ pub const NUT_AND_BOLT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "nut and bolt",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -377,7 +399,6 @@ pub const NUT_AND_BOLT: crate::Emoji = crate::Emoji {
             keywords: &["mutteri", "ruuvi", "ruuvi ja mutteri", "työkalu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⚙\u{fe0f}"]
 pub const GEAR: crate::Emoji = crate::Emoji {
@@ -386,6 +407,17 @@ pub const GEAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "gear",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚙",
+        codepoint: "2699",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "gear",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -398,15 +430,6 @@ pub const GEAR: crate::Emoji = crate::Emoji {
             keywords: &["hammasratas", "työkalu"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⚙",
-        codepoint: "2699",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "gear",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🗜\u{fe0f}"]
 pub const CLAMP: crate::Emoji = crate::Emoji {
@@ -415,6 +438,17 @@ pub const CLAMP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "clamp",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🗜",
+        codepoint: "1F5DC",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "clamp",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -427,15 +461,6 @@ pub const CLAMP: crate::Emoji = crate::Emoji {
             keywords: &["puristin", "ruuvipenkki", "ruuvipuristin", "työkalu"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🗜",
-        codepoint: "1F5DC",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "clamp",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⚖\u{fe0f}"]
 pub const BALANCE_SCALE: crate::Emoji = crate::Emoji {
@@ -444,6 +469,17 @@ pub const BALANCE_SCALE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "balance scale",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚖",
+        codepoint: "2696",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "balance scale",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -463,15 +499,6 @@ pub const BALANCE_SCALE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⚖",
-        codepoint: "2696",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "balance scale",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🦯"]
 pub const WHITE_CANE: crate::Emoji = crate::Emoji {
@@ -480,6 +507,8 @@ pub const WHITE_CANE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "white cane",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -492,7 +521,6 @@ pub const WHITE_CANE: crate::Emoji = crate::Emoji {
             keywords: &["esteettömyys", "sokea", "valkoinen keppi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔗"]
 pub const LINK: crate::Emoji = crate::Emoji {
@@ -501,6 +529,8 @@ pub const LINK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "link",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -513,7 +543,6 @@ pub const LINK: crate::Emoji = crate::Emoji {
             keywords: &["ketju", "lenkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⛓\u{fe0f}"]
 pub const CHAINS: crate::Emoji = crate::Emoji {
@@ -522,6 +551,17 @@ pub const CHAINS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "chains",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⛓",
+        codepoint: "26D3",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "chains",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -534,15 +574,6 @@ pub const CHAINS: crate::Emoji = crate::Emoji {
             keywords: &["ketju", "ketjut"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⛓",
-        codepoint: "26D3",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "chains",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🪝"]
 pub const HOOK: crate::Emoji = crate::Emoji {
@@ -551,6 +582,8 @@ pub const HOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "hook",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -570,7 +603,6 @@ pub const HOOK: crate::Emoji = crate::Emoji {
             keywords: &["haka", "koukku", "koukuttaa"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧰"]
 pub const TOOLBOX: crate::Emoji = crate::Emoji {
@@ -579,6 +611,8 @@ pub const TOOLBOX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "toolbox",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -598,7 +632,6 @@ pub const TOOLBOX: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧲"]
 pub const MAGNET: crate::Emoji = crate::Emoji {
@@ -607,6 +640,8 @@ pub const MAGNET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "magnet",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -624,7 +659,6 @@ pub const MAGNET: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪜"]
 pub const LADDER: crate::Emoji = crate::Emoji {
@@ -633,6 +667,8 @@ pub const LADDER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "ladder",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -645,5 +681,4 @@ pub const LADDER: crate::Emoji = crate::Emoji {
             keywords: &["askelma", "kiivetä", "tikapuut", "tikkaat"],
         },
     ],
-    variants: &[],
 };

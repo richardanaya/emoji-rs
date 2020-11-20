@@ -5,6 +5,17 @@ pub const PENCIL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pencil",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "✏",
+        codepoint: "270F",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "pencil",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const PENCIL: crate::Emoji = crate::Emoji {
             keywords: &["kynä", "lyijykynä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "✏",
-        codepoint: "270F",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "pencil",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "✒\u{fe0f}"]
 pub const BLACK_NIB: crate::Emoji = crate::Emoji {
@@ -34,6 +36,17 @@ pub const BLACK_NIB: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black nib",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "✒",
+        codepoint: "2712",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "black nib",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -46,15 +59,6 @@ pub const BLACK_NIB: crate::Emoji = crate::Emoji {
             keywords: &["kynä", "musta kynänkärki", "mustekynä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "✒",
-        codepoint: "2712",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "black nib",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🖋\u{fe0f}"]
 pub const FOUNTAIN_PEN: crate::Emoji = crate::Emoji {
@@ -63,6 +67,17 @@ pub const FOUNTAIN_PEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "fountain pen",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🖋",
+        codepoint: "1F58B",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "fountain pen",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -75,15 +90,6 @@ pub const FOUNTAIN_PEN: crate::Emoji = crate::Emoji {
             keywords: &["kynä", "mustekynä", "täytekynä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🖋",
-        codepoint: "1F58B",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "fountain pen",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🖊\u{fe0f}"]
 pub const PEN: crate::Emoji = crate::Emoji {
@@ -92,6 +98,17 @@ pub const PEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "pen",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🖊",
+        codepoint: "1F58A",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "pen",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -104,15 +121,6 @@ pub const PEN: crate::Emoji = crate::Emoji {
             keywords: &["kuulakärkikynä", "kynä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🖊",
-        codepoint: "1F58A",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "pen",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🖌\u{fe0f}"]
 pub const PAINTBRUSH: crate::Emoji = crate::Emoji {
@@ -121,6 +129,17 @@ pub const PAINTBRUSH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "paintbrush",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🖌",
+        codepoint: "1F58C",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "paintbrush",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -133,15 +152,6 @@ pub const PAINTBRUSH: crate::Emoji = crate::Emoji {
             keywords: &["maalaaminen", "maali", "maalisuti", "sivellin"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🖌",
-        codepoint: "1F58C",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "paintbrush",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🖍\u{fe0f}"]
 pub const CRAYON: crate::Emoji = crate::Emoji {
@@ -150,6 +160,17 @@ pub const CRAYON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "crayon",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🖍",
+        codepoint: "1F58D",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "crayon",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -162,15 +183,6 @@ pub const CRAYON: crate::Emoji = crate::Emoji {
             keywords: &["liitu", "väri", "väriliitu"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🖍",
-        codepoint: "1F58D",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "crayon",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "📝"]
 pub const MEMO: crate::Emoji = crate::Emoji {
@@ -179,6 +191,8 @@ pub const MEMO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "memo",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -191,5 +205,4 @@ pub const MEMO: crate::Emoji = crate::Emoji {
             keywords: &["lyijykynä", "muistio"],
         },
     ],
-    variants: &[],
 };

@@ -5,6 +5,17 @@ pub const DOUBLE_EXCLAMATION_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "double exclamation mark",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "‼",
+        codepoint: "203C",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "double exclamation mark",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -30,15 +41,6 @@ pub const DOUBLE_EXCLAMATION_MARK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "‼",
-        codepoint: "203C",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "double exclamation mark",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⁉\u{fe0f}"]
 pub const EXCLAMATION_QUESTION_MARK: crate::Emoji = crate::Emoji {
@@ -47,6 +49,17 @@ pub const EXCLAMATION_QUESTION_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "exclamation question mark",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⁉",
+        codepoint: "2049",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "exclamation question mark",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -75,15 +88,6 @@ pub const EXCLAMATION_QUESTION_MARK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⁉",
-        codepoint: "2049",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "exclamation question mark",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "❓"]
 pub const RED_QUESTION_MARK: crate::Emoji = crate::Emoji {
@@ -92,6 +96,8 @@ pub const RED_QUESTION_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red question mark",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -104,7 +110,6 @@ pub const RED_QUESTION_MARK: crate::Emoji = crate::Emoji {
             keywords: &["kysymysmerkki", "merkki", "välimerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "❔"]
 pub const WHITE_QUESTION_MARK: crate::Emoji = crate::Emoji {
@@ -113,6 +118,8 @@ pub const WHITE_QUESTION_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white question mark",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -137,7 +144,6 @@ pub const WHITE_QUESTION_MARK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "❕"]
 pub const WHITE_EXCLAMATION_MARK: crate::Emoji = crate::Emoji {
@@ -146,6 +152,8 @@ pub const WHITE_EXCLAMATION_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white exclamation mark",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -170,7 +178,6 @@ pub const WHITE_EXCLAMATION_MARK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "❗"]
 pub const RED_EXCLAMATION_MARK: crate::Emoji = crate::Emoji {
@@ -179,6 +186,8 @@ pub const RED_EXCLAMATION_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red exclamation mark",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -197,7 +206,6 @@ pub const RED_EXCLAMATION_MARK: crate::Emoji = crate::Emoji {
             keywords: &["huutomerkki", "merkki", "välimerkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "〰\u{fe0f}"]
 pub const WAVY_DASH: crate::Emoji = crate::Emoji {
@@ -206,6 +214,17 @@ pub const WAVY_DASH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wavy dash",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "〰",
+        codepoint: "3030",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "wavy dash",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -218,13 +237,4 @@ pub const WAVY_DASH: crate::Emoji = crate::Emoji {
             keywords: &["aaltoileva", "aaltoviiva", "viiva", "välimerkki"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "〰",
-        codepoint: "3030",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "wavy dash",
-        annotations: &[],
-        variants: &[],
-    }],
 };

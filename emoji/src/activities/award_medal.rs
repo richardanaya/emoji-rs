@@ -5,6 +5,17 @@ pub const MILITARY_MEDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "military medal",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🎖",
+        codepoint: "1F396",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "military medal",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const MILITARY_MEDAL: crate::Emoji = crate::Emoji {
             keywords: &["armeija", "juhla", "kunniamerkki", "mitali"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🎖",
-        codepoint: "1F396",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "military medal",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🏆"]
 pub const TROPHY: crate::Emoji = crate::Emoji {
@@ -34,6 +36,8 @@ pub const TROPHY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "trophy",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -46,7 +50,6 @@ pub const TROPHY: crate::Emoji = crate::Emoji {
             keywords: &["palkinto", "pokaali"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏅"]
 pub const SPORTS_MEDAL: crate::Emoji = crate::Emoji {
@@ -55,6 +58,8 @@ pub const SPORTS_MEDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "sports medal",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -67,7 +72,6 @@ pub const SPORTS_MEDAL: crate::Emoji = crate::Emoji {
             keywords: &["mitali", "urheilumitali"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥇"]
 pub const FIRST_PLACE_MEDAL: crate::Emoji = crate::Emoji {
@@ -76,6 +80,8 @@ pub const FIRST_PLACE_MEDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "1st place medal",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -88,7 +94,6 @@ pub const FIRST_PLACE_MEDAL: crate::Emoji = crate::Emoji {
             keywords: &["ensimmäinen", "kulta", "kultamitali", "mitali", "voittaja"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥈"]
 pub const SECOND_PLACE_MEDAL: crate::Emoji = crate::Emoji {
@@ -97,6 +102,8 @@ pub const SECOND_PLACE_MEDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "2nd place medal",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -109,7 +116,6 @@ pub const SECOND_PLACE_MEDAL: crate::Emoji = crate::Emoji {
             keywords: &["hopea", "hopeamitali", "mitali", "toinen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥉"]
 pub const THIRD_PLACE_MEDAL: crate::Emoji = crate::Emoji {
@@ -118,6 +124,8 @@ pub const THIRD_PLACE_MEDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "3rd place medal",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -130,5 +138,4 @@ pub const THIRD_PLACE_MEDAL: crate::Emoji = crate::Emoji {
             keywords: &["kolmas", "mitali", "pronssi", "pronssimitali"],
         },
     ],
-    variants: &[],
 };

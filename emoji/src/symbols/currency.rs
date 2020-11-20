@@ -5,6 +5,8 @@ pub const CURRENCY_EXCHANGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "currency exchange",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const CURRENCY_EXCHANGE: crate::Emoji = crate::Emoji {
             keywords: &["pankki", "raha", "vaihto", "valuutanvaihto", "valuutta"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💲"]
 pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "heavy dollar sign",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,5 +41,4 @@ pub const HEAVY_DOLLAR_SIGN: crate::Emoji = crate::Emoji {
             keywords: &["dollari", "paksu dollarimerkki", "raha", "valuutta"],
         },
     ],
-    variants: &[],
 };

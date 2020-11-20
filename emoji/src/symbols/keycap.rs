@@ -5,16 +5,18 @@ pub const KEYCAP_POUND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: #",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "#\u{20e3}",
         codepoint: "0023 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "keycap: #",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "*\u{fe0f}\u{20e3}"]
 pub const KEYCAP_ASTERISK: crate::Emoji = crate::Emoji {
@@ -23,16 +25,18 @@ pub const KEYCAP_ASTERISK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 2f32,
     name: "keycap: *",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "*\u{20e3}",
         codepoint: "002A 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 2f32,
         name: "keycap: *",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "0\u{fe0f}\u{20e3}"]
 pub const KEYCAP_0: crate::Emoji = crate::Emoji {
@@ -41,16 +45,18 @@ pub const KEYCAP_0: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: 0",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "0\u{20e3}",
         codepoint: "0030 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "keycap: 0",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "1\u{fe0f}\u{20e3}"]
 pub const KEYCAP_1: crate::Emoji = crate::Emoji {
@@ -59,16 +65,18 @@ pub const KEYCAP_1: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: 1",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "1\u{20e3}",
         codepoint: "0031 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "keycap: 1",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "2\u{fe0f}\u{20e3}"]
 pub const KEYCAP_2: crate::Emoji = crate::Emoji {
@@ -77,16 +85,18 @@ pub const KEYCAP_2: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: 2",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "2\u{20e3}",
         codepoint: "0032 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "keycap: 2",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "3\u{fe0f}\u{20e3}"]
 pub const KEYCAP_3: crate::Emoji = crate::Emoji {
@@ -95,16 +105,18 @@ pub const KEYCAP_3: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: 3",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "3\u{20e3}",
         codepoint: "0033 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "keycap: 3",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "4\u{fe0f}\u{20e3}"]
 pub const KEYCAP_4: crate::Emoji = crate::Emoji {
@@ -113,16 +125,18 @@ pub const KEYCAP_4: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: 4",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "4\u{20e3}",
         codepoint: "0034 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "keycap: 4",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "5\u{fe0f}\u{20e3}"]
 pub const KEYCAP_5: crate::Emoji = crate::Emoji {
@@ -131,16 +145,18 @@ pub const KEYCAP_5: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: 5",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "5\u{20e3}",
         codepoint: "0035 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "keycap: 5",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "6\u{fe0f}\u{20e3}"]
 pub const KEYCAP_6: crate::Emoji = crate::Emoji {
@@ -149,16 +165,18 @@ pub const KEYCAP_6: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: 6",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "6\u{20e3}",
         codepoint: "0036 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "keycap: 6",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "7\u{fe0f}\u{20e3}"]
 pub const KEYCAP_7: crate::Emoji = crate::Emoji {
@@ -167,16 +185,18 @@ pub const KEYCAP_7: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: 7",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "7\u{20e3}",
         codepoint: "0037 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "keycap: 7",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "8\u{fe0f}\u{20e3}"]
 pub const KEYCAP_8: crate::Emoji = crate::Emoji {
@@ -185,16 +205,18 @@ pub const KEYCAP_8: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: 8",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "8\u{20e3}",
         codepoint: "0038 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "keycap: 8",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "9\u{fe0f}\u{20e3}"]
 pub const KEYCAP_9: crate::Emoji = crate::Emoji {
@@ -203,16 +225,18 @@ pub const KEYCAP_9: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: 9",
-    annotations: &[],
+    is_variant: false,
     variants: &[crate::Emoji {
         glyph: "9\u{20e3}",
         codepoint: "0039 20E3",
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "keycap: 9",
-        annotations: &[],
+        is_variant: true,
         variants: &[],
+        annotations: &[],
     }],
+    annotations: &[],
 };
 #[doc = "🔟"]
 pub const KEYCAP_10: crate::Emoji = crate::Emoji {
@@ -221,6 +245,7 @@ pub const KEYCAP_10: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "keycap: 10",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };

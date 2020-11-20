@@ -5,6 +5,17 @@ pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "snow-capped mountain",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏔",
+        codepoint: "1F3D4",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "snow-capped mountain",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,15 +28,6 @@ pub const SNOW_CAPPED_MOUNTAIN: crate::Emoji = crate::Emoji {
             keywords: &["kylmä", "lumi", "lumihuippuinen vuori", "vuori"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏔",
-        codepoint: "1F3D4",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "snow-capped mountain",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⛰\u{fe0f}"]
 pub const MOUNTAIN: crate::Emoji = crate::Emoji {
@@ -34,6 +36,17 @@ pub const MOUNTAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "mountain",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⛰",
+        codepoint: "26F0",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "mountain",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -46,15 +59,6 @@ pub const MOUNTAIN: crate::Emoji = crate::Emoji {
             keywords: &["vuori", "vuoristo"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⛰",
-        codepoint: "26F0",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "mountain",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🌋"]
 pub const VOLCANO: crate::Emoji = crate::Emoji {
@@ -63,6 +67,8 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "volcano",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -75,7 +81,6 @@ pub const VOLCANO: crate::Emoji = crate::Emoji {
             keywords: &["sää", "tulivuorenpurkaus", "tulivuori", "vuori"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🗻"]
 pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
@@ -84,6 +89,8 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "mount fuji",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -96,7 +103,6 @@ pub const MOUNT_FUJI: crate::Emoji = crate::Emoji {
             keywords: &["Fuji", "Fuji-vuori", "vuori"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏕\u{fe0f}"]
 pub const CAMPING: crate::Emoji = crate::Emoji {
@@ -105,6 +111,17 @@ pub const CAMPING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "camping",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏕",
+        codepoint: "1F3D5",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "camping",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -117,15 +134,6 @@ pub const CAMPING: crate::Emoji = crate::Emoji {
             keywords: &["leiri", "leirintäalue", "teltta", "telttailu"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏕",
-        codepoint: "1F3D5",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "camping",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🏖\u{fe0f}"]
 pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
@@ -134,6 +142,17 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "beach with umbrella",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏖",
+        codepoint: "1F3D6",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "beach with umbrella",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -146,15 +165,6 @@ pub const BEACH_WITH_UMBRELLA: crate::Emoji = crate::Emoji {
             keywords: &["aurinkovarjo", "ranta", "ranta ja aurinkovarjo"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏖",
-        codepoint: "1F3D6",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "beach with umbrella",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🏜\u{fe0f}"]
 pub const DESERT: crate::Emoji = crate::Emoji {
@@ -163,6 +173,17 @@ pub const DESERT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "desert",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏜",
+        codepoint: "1F3DC",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "desert",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -175,15 +196,6 @@ pub const DESERT: crate::Emoji = crate::Emoji {
             keywords: &["aavikko", "autiomaa", "kaktus"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏜",
-        codepoint: "1F3DC",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "desert",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🏝\u{fe0f}"]
 pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
@@ -192,6 +204,17 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "desert island",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏝",
+        codepoint: "1F3DD",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "desert island",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -204,15 +227,6 @@ pub const DESERT_ISLAND: crate::Emoji = crate::Emoji {
             keywords: &["autio", "autiosaari", "saari"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏝",
-        codepoint: "1F3DD",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "desert island",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🏞\u{fe0f}"]
 pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
@@ -221,6 +235,17 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "national park",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏞",
+        codepoint: "1F3DE",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "national park",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -233,13 +258,4 @@ pub const NATIONAL_PARK: crate::Emoji = crate::Emoji {
             keywords: &["kansallispuisto", "puisto"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏞",
-        codepoint: "1F3DE",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "national park",
-        annotations: &[],
-        variants: &[],
-    }],
 };

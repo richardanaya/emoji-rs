@@ -5,6 +5,8 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pile of poo",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -25,7 +27,6 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤡"]
 pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
@@ -34,6 +35,8 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "clown face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -46,7 +49,6 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
             keywords: &["kasvot", "klovni", "pelle"],
         },
     ],
-    variants: &[],
 };
 #[doc = "👹"]
 pub const OGRE: crate::Emoji = crate::Emoji {
@@ -55,6 +57,8 @@ pub const OGRE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ogre",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -82,7 +86,6 @@ pub const OGRE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "👺"]
 pub const GOBLIN: crate::Emoji = crate::Emoji {
@@ -91,6 +94,8 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "goblin",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -119,7 +124,6 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "👻"]
 pub const GHOST: crate::Emoji = crate::Emoji {
@@ -128,6 +132,8 @@ pub const GHOST: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ghost",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -147,7 +153,6 @@ pub const GHOST: crate::Emoji = crate::Emoji {
             keywords: &["fantasia", "hirviö", "kummitus", "naama", "olio", "satu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "👽"]
 pub const ALIEN: crate::Emoji = crate::Emoji {
@@ -156,6 +161,8 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "alien",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -175,7 +182,6 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
             keywords: &["alien", "avaruusolio", "olio"],
         },
     ],
-    variants: &[],
 };
 #[doc = "👾"]
 pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
@@ -184,6 +190,8 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "alien monster",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -209,7 +217,6 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤖"]
 pub const ROBOT: crate::Emoji = crate::Emoji {
@@ -218,6 +225,8 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "robot",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -230,5 +239,4 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
             keywords: &["hirviö", "naama", "robotti", "robottinaama"],
         },
     ],
-    variants: &[],
 };

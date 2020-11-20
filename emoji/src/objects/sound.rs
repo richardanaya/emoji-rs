@@ -5,6 +5,8 @@ pub const MUTED_SPEAKER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "muted speaker",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -24,7 +26,6 @@ pub const MUTED_SPEAKER: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔈"]
 pub const SPEAKER_LOW_VOLUME: crate::Emoji = crate::Emoji {
@@ -33,6 +34,8 @@ pub const SPEAKER_LOW_VOLUME: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "speaker low volume",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -45,7 +48,6 @@ pub const SPEAKER_LOW_VOLUME: crate::Emoji = crate::Emoji {
             keywords: &["alhainen", "hiljainen kaiutin", "äänenvoimakkuus"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔉"]
 pub const SPEAKER_MEDIUM_VOLUME: crate::Emoji = crate::Emoji {
@@ -54,6 +56,8 @@ pub const SPEAKER_MEDIUM_VOLUME: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "speaker medium volume",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -71,7 +75,6 @@ pub const SPEAKER_MEDIUM_VOLUME: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔊"]
 pub const SPEAKER_HIGH_VOLUME: crate::Emoji = crate::Emoji {
@@ -80,6 +83,8 @@ pub const SPEAKER_HIGH_VOLUME: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "speaker high volume",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -98,7 +103,6 @@ pub const SPEAKER_HIGH_VOLUME: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📢"]
 pub const LOUDSPEAKER: crate::Emoji = crate::Emoji {
@@ -107,6 +111,8 @@ pub const LOUDSPEAKER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "loudspeaker",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -119,7 +125,6 @@ pub const LOUDSPEAKER: crate::Emoji = crate::Emoji {
             keywords: &["huomio", "keskusradio", "kova", "kovaääninen", "ääni"],
         },
     ],
-    variants: &[],
 };
 #[doc = "📣"]
 pub const MEGAPHONE: crate::Emoji = crate::Emoji {
@@ -128,6 +133,8 @@ pub const MEGAPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "megaphone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -146,7 +153,6 @@ pub const MEGAPHONE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "📯"]
 pub const POSTAL_HORN: crate::Emoji = crate::Emoji {
@@ -155,6 +161,8 @@ pub const POSTAL_HORN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "postal horn",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -167,7 +175,6 @@ pub const POSTAL_HORN: crate::Emoji = crate::Emoji {
             keywords: &["posti", "postitorvi", "torvi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔔"]
 pub const BELL: crate::Emoji = crate::Emoji {
@@ -176,6 +183,8 @@ pub const BELL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bell",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -188,7 +197,6 @@ pub const BELL: crate::Emoji = crate::Emoji {
             keywords: &["kello", "kirkonkello", "sointi", "ääni"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔕"]
 pub const BELL_WITH_SLASH: crate::Emoji = crate::Emoji {
@@ -197,6 +205,8 @@ pub const BELL_WITH_SLASH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "bell with slash",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -223,5 +233,4 @@ pub const BELL_WITH_SLASH: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

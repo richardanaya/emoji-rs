@@ -5,8 +5,9 @@ pub const FLAG_ENGLAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "flag: England",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🏴\u{e0067}\u{e0062}\u{e0073}\u{e0063}\u{e0074}\u{e007f}"]
 pub const FLAG_SCOTLAND: crate::Emoji = crate::Emoji {
@@ -15,8 +16,9 @@ pub const FLAG_SCOTLAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "flag: Scotland",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🏴\u{e0067}\u{e0062}\u{e0077}\u{e006c}\u{e0073}\u{e007f}"]
 pub const FLAG_WALES: crate::Emoji = crate::Emoji {
@@ -25,6 +27,7 @@ pub const FLAG_WALES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "flag: Wales",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };

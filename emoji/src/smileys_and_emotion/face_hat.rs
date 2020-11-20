@@ -5,6 +5,8 @@ pub const COWBOY_HAT_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "cowboy hat face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const COWBOY_HAT_FACE: crate::Emoji = crate::Emoji {
             keywords: &["cowboy", "cowboy-hattu", "hattu", "kasvot"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥳"]
 pub const PARTYING_FACE: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const PARTYING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "partying face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const PARTYING_FACE: crate::Emoji = crate::Emoji {
             keywords: &["hattu", "juhla", "juhlia", "juhliva", "pilli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🥸"]
 pub const DISGUISED_FACE: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const DISGUISED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "disguised face",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -74,5 +78,4 @@ pub const DISGUISED_FACE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

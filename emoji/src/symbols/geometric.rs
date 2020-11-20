@@ -5,6 +5,8 @@ pub const RED_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red circle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const RED_CIRCLE: crate::Emoji = crate::Emoji {
             keywords: &["muoto", "punainen", "ympyrä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟠"]
 pub const ORANGE_CIRCLE: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const ORANGE_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "orange circle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const ORANGE_CIRCLE: crate::Emoji = crate::Emoji {
             keywords: &["oranssi", "ympyrä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟡"]
 pub const YELLOW_CIRCLE: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const YELLOW_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "yellow circle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const YELLOW_CIRCLE: crate::Emoji = crate::Emoji {
             keywords: &["keltainen", "ympyrä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟢"]
 pub const GREEN_CIRCLE: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const GREEN_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "green circle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,7 +85,6 @@ pub const GREEN_CIRCLE: crate::Emoji = crate::Emoji {
             keywords: &["vihreä", "ympyrä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔵"]
 pub const BLUE_CIRCLE: crate::Emoji = crate::Emoji {
@@ -89,6 +93,8 @@ pub const BLUE_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "blue circle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -101,7 +107,6 @@ pub const BLUE_CIRCLE: crate::Emoji = crate::Emoji {
             keywords: &["muoto", "sininen", "ympyrä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟣"]
 pub const PURPLE_CIRCLE: crate::Emoji = crate::Emoji {
@@ -110,6 +115,8 @@ pub const PURPLE_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "purple circle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -122,7 +129,6 @@ pub const PURPLE_CIRCLE: crate::Emoji = crate::Emoji {
             keywords: &["violetti", "ympyrä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟤"]
 pub const BROWN_CIRCLE: crate::Emoji = crate::Emoji {
@@ -131,6 +137,8 @@ pub const BROWN_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "brown circle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -143,7 +151,6 @@ pub const BROWN_CIRCLE: crate::Emoji = crate::Emoji {
             keywords: &["ruskea", "ympyrä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⚫"]
 pub const BLACK_CIRCLE: crate::Emoji = crate::Emoji {
@@ -152,6 +159,8 @@ pub const BLACK_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black circle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -164,7 +173,6 @@ pub const BLACK_CIRCLE: crate::Emoji = crate::Emoji {
             keywords: &["muoto", "musta ympyrä", "ympyrä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⚪"]
 pub const WHITE_CIRCLE: crate::Emoji = crate::Emoji {
@@ -173,6 +181,8 @@ pub const WHITE_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white circle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -185,7 +195,6 @@ pub const WHITE_CIRCLE: crate::Emoji = crate::Emoji {
             keywords: &["muoto", "valkoinen ympyrä", "ympyrä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟥"]
 pub const RED_SQUARE: crate::Emoji = crate::Emoji {
@@ -194,6 +203,8 @@ pub const RED_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "red square",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -206,7 +217,6 @@ pub const RED_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["neliö", "punainen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟧"]
 pub const ORANGE_SQUARE: crate::Emoji = crate::Emoji {
@@ -215,6 +225,8 @@ pub const ORANGE_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "orange square",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -227,7 +239,6 @@ pub const ORANGE_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["neliö", "oranssi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟨"]
 pub const YELLOW_SQUARE: crate::Emoji = crate::Emoji {
@@ -236,6 +247,8 @@ pub const YELLOW_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "yellow square",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -248,7 +261,6 @@ pub const YELLOW_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["keltainen", "neliö"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟩"]
 pub const GREEN_SQUARE: crate::Emoji = crate::Emoji {
@@ -257,6 +269,8 @@ pub const GREEN_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "green square",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -269,7 +283,6 @@ pub const GREEN_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["neliö", "vihreä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟦"]
 pub const BLUE_SQUARE: crate::Emoji = crate::Emoji {
@@ -278,6 +291,8 @@ pub const BLUE_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "blue square",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -290,7 +305,6 @@ pub const BLUE_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["neliö", "sininen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟪"]
 pub const PURPLE_SQUARE: crate::Emoji = crate::Emoji {
@@ -299,6 +313,8 @@ pub const PURPLE_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "purple square",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -311,7 +327,6 @@ pub const PURPLE_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["neliö", "violetti"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🟫"]
 pub const BROWN_SQUARE: crate::Emoji = crate::Emoji {
@@ -320,6 +335,8 @@ pub const BROWN_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "brown square",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -332,7 +349,6 @@ pub const BROWN_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["neliö", "ruskea"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⬛"]
 pub const BLACK_LARGE_SQUARE: crate::Emoji = crate::Emoji {
@@ -341,6 +357,8 @@ pub const BLACK_LARGE_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black large square",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -353,7 +371,6 @@ pub const BLACK_LARGE_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["iso musta neliö", "muoto", "neliö"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⬜"]
 pub const WHITE_LARGE_SQUARE: crate::Emoji = crate::Emoji {
@@ -362,6 +379,8 @@ pub const WHITE_LARGE_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white large square",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -374,7 +393,6 @@ pub const WHITE_LARGE_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["iso valkoinen neliö", "muoto", "neliö"],
         },
     ],
-    variants: &[],
 };
 #[doc = "◼\u{fe0f}"]
 pub const BLACK_MEDIUM_SQUARE: crate::Emoji = crate::Emoji {
@@ -383,6 +401,17 @@ pub const BLACK_MEDIUM_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black medium square",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "◼",
+        codepoint: "25FC",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "black medium square",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -395,15 +424,6 @@ pub const BLACK_MEDIUM_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["keskikokoinen musta neliö", "muoto", "neliö"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "◼",
-        codepoint: "25FC",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "black medium square",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "◻\u{fe0f}"]
 pub const WHITE_MEDIUM_SQUARE: crate::Emoji = crate::Emoji {
@@ -412,6 +432,17 @@ pub const WHITE_MEDIUM_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white medium square",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "◻",
+        codepoint: "25FB",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "white medium square",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -424,15 +455,6 @@ pub const WHITE_MEDIUM_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["keskikokoinen valkoinen neliö", "muoto", "neliö"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "◻",
-        codepoint: "25FB",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "white medium square",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "◾"]
 pub const BLACK_MEDIUM_SMALL_SQUARE: crate::Emoji = crate::Emoji {
@@ -441,6 +463,8 @@ pub const BLACK_MEDIUM_SMALL_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black medium-small square",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -453,7 +477,6 @@ pub const BLACK_MEDIUM_SMALL_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["muoto", "neliö", "pienehkö musta neliö"],
         },
     ],
-    variants: &[],
 };
 #[doc = "◽"]
 pub const WHITE_MEDIUM_SMALL_SQUARE: crate::Emoji = crate::Emoji {
@@ -462,6 +485,8 @@ pub const WHITE_MEDIUM_SMALL_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white medium-small square",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -474,7 +499,6 @@ pub const WHITE_MEDIUM_SMALL_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["muoto", "neliö", "pienehkö valkoinen neliö"],
         },
     ],
-    variants: &[],
 };
 #[doc = "▪\u{fe0f}"]
 pub const BLACK_SMALL_SQUARE: crate::Emoji = crate::Emoji {
@@ -483,6 +507,17 @@ pub const BLACK_SMALL_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black small square",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "▪",
+        codepoint: "25AA",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "black small square",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -495,15 +530,6 @@ pub const BLACK_SMALL_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["muoto", "neliö", "pieni musta neliö"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "▪",
-        codepoint: "25AA",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "black small square",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "▫\u{fe0f}"]
 pub const WHITE_SMALL_SQUARE: crate::Emoji = crate::Emoji {
@@ -512,6 +538,17 @@ pub const WHITE_SMALL_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white small square",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "▫",
+        codepoint: "25AB",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.6f32,
+        name: "white small square",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -524,15 +561,6 @@ pub const WHITE_SMALL_SQUARE: crate::Emoji = crate::Emoji {
             keywords: &["muoto", "neliö", "pieni valkoinen neliö"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "▫",
-        codepoint: "25AB",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.6f32,
-        name: "white small square",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🔶"]
 pub const LARGE_ORANGE_DIAMOND: crate::Emoji = crate::Emoji {
@@ -541,6 +569,8 @@ pub const LARGE_ORANGE_DIAMOND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "large orange diamond",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -553,7 +583,6 @@ pub const LARGE_ORANGE_DIAMOND: crate::Emoji = crate::Emoji {
             keywords: &["iso oranssi vinoneliö", "muoto", "oranssi", "vinoneliö"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔷"]
 pub const LARGE_BLUE_DIAMOND: crate::Emoji = crate::Emoji {
@@ -562,6 +591,8 @@ pub const LARGE_BLUE_DIAMOND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "large blue diamond",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -574,7 +605,6 @@ pub const LARGE_BLUE_DIAMOND: crate::Emoji = crate::Emoji {
             keywords: &["iso sininen vinoneliö", "muoto", "sininen", "vinoneliö"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔸"]
 pub const SMALL_ORANGE_DIAMOND: crate::Emoji = crate::Emoji {
@@ -583,6 +613,8 @@ pub const SMALL_ORANGE_DIAMOND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "small orange diamond",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -595,7 +627,6 @@ pub const SMALL_ORANGE_DIAMOND: crate::Emoji = crate::Emoji {
             keywords: &["muoto", "oranssi", "pieni oranssi vinoneliö", "vinoneliö"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔹"]
 pub const SMALL_BLUE_DIAMOND: crate::Emoji = crate::Emoji {
@@ -604,6 +635,8 @@ pub const SMALL_BLUE_DIAMOND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "small blue diamond",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -616,7 +649,6 @@ pub const SMALL_BLUE_DIAMOND: crate::Emoji = crate::Emoji {
             keywords: &["muoto", "pieni sininen vinoneliö", "sininen", "vinoneliö"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔺"]
 pub const RED_TRIANGLE_POINTED_UP: crate::Emoji = crate::Emoji {
@@ -625,6 +657,8 @@ pub const RED_TRIANGLE_POINTED_UP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red triangle pointed up",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -637,7 +671,6 @@ pub const RED_TRIANGLE_POINTED_UP: crate::Emoji = crate::Emoji {
             keywords: &["kolmio", "muoto", "punainen", "punainen kolmio kärki ylös"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔻"]
 pub const RED_TRIANGLE_POINTED_DOWN: crate::Emoji = crate::Emoji {
@@ -646,6 +679,8 @@ pub const RED_TRIANGLE_POINTED_DOWN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red triangle pointed down",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -658,7 +693,6 @@ pub const RED_TRIANGLE_POINTED_DOWN: crate::Emoji = crate::Emoji {
             keywords: &["kolmio", "muoto", "punainen", "punainen kolmio kärki alas"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💠"]
 pub const DIAMOND_WITH_A_DOT: crate::Emoji = crate::Emoji {
@@ -667,6 +701,8 @@ pub const DIAMOND_WITH_A_DOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "diamond with a dot",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -685,7 +721,6 @@ pub const DIAMOND_WITH_A_DOT: crate::Emoji = crate::Emoji {
             keywords: &["kukka", "muoto", "vinoneliö", "vinoneliö/kukka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔘"]
 pub const RADIO_BUTTON: crate::Emoji = crate::Emoji {
@@ -694,6 +729,8 @@ pub const RADIO_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "radio button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -706,7 +743,6 @@ pub const RADIO_BUTTON: crate::Emoji = crate::Emoji {
             keywords: &["muoto", "valinta", "valintanappi", "valintaruutu", "ympyrä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔳"]
 pub const WHITE_SQUARE_BUTTON: crate::Emoji = crate::Emoji {
@@ -715,6 +751,8 @@ pub const WHITE_SQUARE_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white square button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -739,7 +777,6 @@ pub const WHITE_SQUARE_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🔲"]
 pub const BLACK_SQUARE_BUTTON: crate::Emoji = crate::Emoji {
@@ -748,6 +785,8 @@ pub const BLACK_SQUARE_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black square button",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -766,5 +805,4 @@ pub const BLACK_SQUARE_BUTTON: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

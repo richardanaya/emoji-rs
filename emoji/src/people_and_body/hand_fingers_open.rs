@@ -5,6 +5,8 @@ pub const WAVING_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "waving hand",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -24,7 +26,6 @@ pub const WAVING_HAND: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "👋🏻"]
 pub const WAVING_HAND_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -33,8 +34,9 @@ pub const WAVING_HAND_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "waving hand: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👋🏼"]
 pub const WAVING_HAND_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -43,8 +45,9 @@ pub const WAVING_HAND_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "waving hand: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👋🏽"]
 pub const WAVING_HAND_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -53,8 +56,9 @@ pub const WAVING_HAND_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "waving hand: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👋🏾"]
 pub const WAVING_HAND_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -63,8 +67,9 @@ pub const WAVING_HAND_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "waving hand: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "👋🏿"]
 pub const WAVING_HAND_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -73,8 +78,9 @@ pub const WAVING_HAND_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "waving hand: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🤚"]
 pub const RAISED_BACK_OF_HAND: crate::Emoji = crate::Emoji {
@@ -83,6 +89,8 @@ pub const RAISED_BACK_OF_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "raised back of hand",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -100,7 +108,6 @@ pub const RAISED_BACK_OF_HAND: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🤚🏻"]
 pub const RAISED_BACK_OF_HAND_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -109,8 +116,9 @@ pub const RAISED_BACK_OF_HAND_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "raised back of hand: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🤚🏼"]
 pub const RAISED_BACK_OF_HAND_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -119,8 +127,9 @@ pub const RAISED_BACK_OF_HAND_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoj
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "raised back of hand: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🤚🏽"]
 pub const RAISED_BACK_OF_HAND_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -129,8 +138,9 @@ pub const RAISED_BACK_OF_HAND_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "raised back of hand: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🤚🏾"]
 pub const RAISED_BACK_OF_HAND_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -139,8 +149,9 @@ pub const RAISED_BACK_OF_HAND_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "raised back of hand: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🤚🏿"]
 pub const RAISED_BACK_OF_HAND_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -149,8 +160,9 @@ pub const RAISED_BACK_OF_HAND_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "raised back of hand: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🖐\u{fe0f}"]
 pub const HAND_WITH_FINGERS_SPLAYED: crate::Emoji = crate::Emoji {
@@ -159,6 +171,17 @@ pub const HAND_WITH_FINGERS_SPLAYED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "hand with fingers splayed",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🖐",
+        codepoint: "1F590",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "hand with fingers splayed",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -177,15 +200,6 @@ pub const HAND_WITH_FINGERS_SPLAYED: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🖐",
-        codepoint: "1F590",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "hand with fingers splayed",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🖐🏻"]
 pub const HAND_WITH_FINGERS_SPLAYED_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -194,8 +208,9 @@ pub const HAND_WITH_FINGERS_SPLAYED_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "hand with fingers splayed: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🖐🏼"]
 pub const HAND_WITH_FINGERS_SPLAYED_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -204,8 +219,9 @@ pub const HAND_WITH_FINGERS_SPLAYED_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "hand with fingers splayed: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🖐🏽"]
 pub const HAND_WITH_FINGERS_SPLAYED_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -214,8 +230,9 @@ pub const HAND_WITH_FINGERS_SPLAYED_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoj
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "hand with fingers splayed: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🖐🏾"]
 pub const HAND_WITH_FINGERS_SPLAYED_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -224,8 +241,9 @@ pub const HAND_WITH_FINGERS_SPLAYED_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate:
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "hand with fingers splayed: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🖐🏿"]
 pub const HAND_WITH_FINGERS_SPLAYED_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -234,8 +252,9 @@ pub const HAND_WITH_FINGERS_SPLAYED_DARK_SKIN_TONE: crate::Emoji = crate::Emoji 
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "hand with fingers splayed: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "✋"]
 pub const RAISED_HAND: crate::Emoji = crate::Emoji {
@@ -244,6 +263,8 @@ pub const RAISED_HAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "raised hand",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -256,7 +277,6 @@ pub const RAISED_HAND: crate::Emoji = crate::Emoji {
             keywords: &["käsi", "nostettu käsi", "vartalo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "✋🏻"]
 pub const RAISED_HAND_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -265,8 +285,9 @@ pub const RAISED_HAND_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "raised hand: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "✋🏼"]
 pub const RAISED_HAND_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -275,8 +296,9 @@ pub const RAISED_HAND_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "raised hand: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "✋🏽"]
 pub const RAISED_HAND_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -285,8 +307,9 @@ pub const RAISED_HAND_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "raised hand: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "✋🏾"]
 pub const RAISED_HAND_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -295,8 +318,9 @@ pub const RAISED_HAND_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "raised hand: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "✋🏿"]
 pub const RAISED_HAND_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -305,8 +329,9 @@ pub const RAISED_HAND_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "raised hand: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🖖"]
 pub const VULCAN_SALUTE: crate::Emoji = crate::Emoji {
@@ -315,6 +340,8 @@ pub const VULCAN_SALUTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "vulcan salute",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -334,7 +361,6 @@ pub const VULCAN_SALUTE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🖖🏻"]
 pub const VULCAN_SALUTE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -343,8 +369,9 @@ pub const VULCAN_SALUTE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "vulcan salute: light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🖖🏼"]
 pub const VULCAN_SALUTE_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -353,8 +380,9 @@ pub const VULCAN_SALUTE_MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "vulcan salute: medium-light skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🖖🏽"]
 pub const VULCAN_SALUTE_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -363,8 +391,9 @@ pub const VULCAN_SALUTE_MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "vulcan salute: medium skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🖖🏾"]
 pub const VULCAN_SALUTE_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -373,8 +402,9 @@ pub const VULCAN_SALUTE_MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "vulcan salute: medium-dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };
 #[doc = "🖖🏿"]
 pub const VULCAN_SALUTE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
@@ -383,6 +413,7 @@ pub const VULCAN_SALUTE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "vulcan salute: dark skin tone",
-    annotations: &[],
+    is_variant: false,
     variants: &[],
+    annotations: &[],
 };

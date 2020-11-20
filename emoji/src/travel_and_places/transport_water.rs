@@ -5,6 +5,8 @@ pub const ANCHOR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "anchor",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const ANCHOR: crate::Emoji = crate::Emoji {
             keywords: &["alus", "ankkuri", "laiva", "merenkulku", "meri"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⛵"]
 pub const SAILBOAT: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const SAILBOAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sailboat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const SAILBOAT: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "alus", "jahti", "meri", "purjevene", "vene"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛶"]
 pub const CANOE: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const CANOE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "canoe",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const CANOE: crate::Emoji = crate::Emoji {
             keywords: &["kanootti", "vene"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚤"]
 pub const SPEEDBOAT: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const SPEEDBOAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "speedboat",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,7 +85,6 @@ pub const SPEEDBOAT: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "meri", "moottorivene", "pikavene", "vene"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛳\u{fe0f}"]
 pub const PASSENGER_SHIP: crate::Emoji = crate::Emoji {
@@ -89,6 +93,17 @@ pub const PASSENGER_SHIP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "passenger ship",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🛳",
+        codepoint: "1F6F3",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "passenger ship",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -108,15 +123,6 @@ pub const PASSENGER_SHIP: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🛳",
-        codepoint: "1F6F3",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "passenger ship",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⛴\u{fe0f}"]
 pub const FERRY: crate::Emoji = crate::Emoji {
@@ -125,6 +131,17 @@ pub const FERRY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "ferry",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⛴",
+        codepoint: "26F4",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "ferry",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -137,15 +154,6 @@ pub const FERRY: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "alus", "laiva", "lautta", "meri"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⛴",
-        codepoint: "26F4",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "ferry",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🛥\u{fe0f}"]
 pub const MOTOR_BOAT: crate::Emoji = crate::Emoji {
@@ -154,6 +162,17 @@ pub const MOTOR_BOAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "motor boat",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🛥",
+        codepoint: "1F6E5",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "motor boat",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -166,15 +185,6 @@ pub const MOTOR_BOAT: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "meri", "moottorivene", "pikavene", "vene"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🛥",
-        codepoint: "1F6E5",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "motor boat",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🚢"]
 pub const SHIP: crate::Emoji = crate::Emoji {
@@ -183,6 +193,8 @@ pub const SHIP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ship",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -195,5 +207,4 @@ pub const SHIP: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "alus", "laiva", "meri"],
         },
     ],
-    variants: &[],
 };

@@ -5,6 +5,8 @@ pub const LOCOMOTIVE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "locomotive",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const LOCOMOTIVE: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "juna", "rautatie", "veturi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚃"]
 pub const RAILWAY_CAR: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const RAILWAY_CAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "railway car",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const RAILWAY_CAR: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "juna", "junavaunu", "raitiovaunu", "rautatie"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚄"]
 pub const HIGH_SPEED_TRAIN: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const HIGH_SPEED_TRAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "high-speed train",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -72,7 +76,6 @@ pub const HIGH_SPEED_TRAIN: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚅"]
 pub const BULLET_TRAIN: crate::Emoji = crate::Emoji {
@@ -81,6 +84,8 @@ pub const BULLET_TRAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bullet train",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -100,7 +105,6 @@ pub const BULLET_TRAIN: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚆"]
 pub const TRAIN: crate::Emoji = crate::Emoji {
@@ -109,6 +113,8 @@ pub const TRAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "train",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -121,7 +127,6 @@ pub const TRAIN: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "juna", "rautatie"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚇"]
 pub const METRO: crate::Emoji = crate::Emoji {
@@ -130,6 +135,8 @@ pub const METRO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "metro",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -142,7 +149,6 @@ pub const METRO: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "maanalainen", "metro"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚈"]
 pub const LIGHT_RAIL: crate::Emoji = crate::Emoji {
@@ -151,6 +157,8 @@ pub const LIGHT_RAIL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "light rail",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -163,7 +171,6 @@ pub const LIGHT_RAIL: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "juna", "kevytraidejuna", "rautatie"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚉"]
 pub const STATION: crate::Emoji = crate::Emoji {
@@ -172,6 +179,8 @@ pub const STATION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "station",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -184,7 +193,6 @@ pub const STATION: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "asema", "juna", "rautatie"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚊"]
 pub const TRAM: crate::Emoji = crate::Emoji {
@@ -193,6 +201,8 @@ pub const TRAM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "tram",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -205,7 +215,6 @@ pub const TRAM: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "raiteet", "raitioliikenne"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚝"]
 pub const MONORAIL: crate::Emoji = crate::Emoji {
@@ -214,6 +223,8 @@ pub const MONORAIL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "monorail",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -226,7 +237,6 @@ pub const MONORAIL: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "monorail", "raide", "yksiraidejuna"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚞"]
 pub const MOUNTAIN_RAILWAY: crate::Emoji = crate::Emoji {
@@ -235,6 +245,8 @@ pub const MOUNTAIN_RAILWAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "mountain railway",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -247,7 +259,6 @@ pub const MOUNTAIN_RAILWAY: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "funikulaari", "juna", "rautatie", "rinnerata"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚋"]
 pub const TRAM_CAR: crate::Emoji = crate::Emoji {
@@ -256,6 +267,8 @@ pub const TRAM_CAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "tram car",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -268,7 +281,6 @@ pub const TRAM_CAR: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "raiteet", "raitiovaunu", "ratikka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚌"]
 pub const BUS: crate::Emoji = crate::Emoji {
@@ -277,6 +289,8 @@ pub const BUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -289,7 +303,6 @@ pub const BUS: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "bussi", "linja-auto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚍"]
 pub const ONCOMING_BUS: crate::Emoji = crate::Emoji {
@@ -298,6 +311,8 @@ pub const ONCOMING_BUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "oncoming bus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -310,7 +325,6 @@ pub const ONCOMING_BUS: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "bussi", "linja-auto", "saapuva bussi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚎"]
 pub const TROLLEYBUS: crate::Emoji = crate::Emoji {
@@ -319,6 +333,8 @@ pub const TROLLEYBUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "trolleybus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -331,7 +347,6 @@ pub const TROLLEYBUS: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "johdinauto", "johdinbussi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚐"]
 pub const MINIBUS: crate::Emoji = crate::Emoji {
@@ -340,6 +355,8 @@ pub const MINIBUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "minibus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -359,7 +376,6 @@ pub const MINIBUS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚑"]
 pub const AMBULANCE: crate::Emoji = crate::Emoji {
@@ -368,6 +384,8 @@ pub const AMBULANCE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ambulance",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -380,7 +398,6 @@ pub const AMBULANCE: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "ambulanssi", "auto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚒"]
 pub const FIRE_ENGINE: crate::Emoji = crate::Emoji {
@@ -389,6 +406,8 @@ pub const FIRE_ENGINE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fire engine",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -401,7 +420,6 @@ pub const FIRE_ENGINE: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "paloauto", "tulipalo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚓"]
 pub const POLICE_CAR: crate::Emoji = crate::Emoji {
@@ -410,6 +428,8 @@ pub const POLICE_CAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "police car",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -422,7 +442,6 @@ pub const POLICE_CAR: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "poliisi", "poliisiauto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚔"]
 pub const ONCOMING_POLICE_CAR: crate::Emoji = crate::Emoji {
@@ -431,6 +450,8 @@ pub const ONCOMING_POLICE_CAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "oncoming police car",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -449,7 +470,6 @@ pub const ONCOMING_POLICE_CAR: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚕"]
 pub const TAXI: crate::Emoji = crate::Emoji {
@@ -458,6 +478,8 @@ pub const TAXI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "taxi",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -470,7 +492,6 @@ pub const TAXI: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "taksi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚖"]
 pub const ONCOMING_TAXI: crate::Emoji = crate::Emoji {
@@ -479,6 +500,8 @@ pub const ONCOMING_TAXI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "oncoming taxi",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -491,7 +514,6 @@ pub const ONCOMING_TAXI: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "saapuva taksi", "taksi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚗"]
 pub const AUTOMOBILE: crate::Emoji = crate::Emoji {
@@ -500,6 +522,8 @@ pub const AUTOMOBILE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "automobile",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -512,7 +536,6 @@ pub const AUTOMOBILE: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚘"]
 pub const ONCOMING_AUTOMOBILE: crate::Emoji = crate::Emoji {
@@ -521,6 +544,8 @@ pub const ONCOMING_AUTOMOBILE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "oncoming automobile",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -533,7 +558,6 @@ pub const ONCOMING_AUTOMOBILE: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "saapuva auto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚙"]
 pub const SPORT_UTILITY_VEHICLE: crate::Emoji = crate::Emoji {
@@ -542,6 +566,8 @@ pub const SPORT_UTILITY_VEHICLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sport utility vehicle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -554,7 +580,6 @@ pub const SPORT_UTILITY_VEHICLE: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "katumaasturi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛻"]
 pub const PICKUP_TRUCK: crate::Emoji = crate::Emoji {
@@ -563,6 +588,8 @@ pub const PICKUP_TRUCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "pickup truck",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -575,7 +602,6 @@ pub const PICKUP_TRUCK: crate::Emoji = crate::Emoji {
             keywords: &["avolava", "lava-auto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚚"]
 pub const DELIVERY_TRUCK: crate::Emoji = crate::Emoji {
@@ -584,6 +610,8 @@ pub const DELIVERY_TRUCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "delivery truck",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -596,7 +624,6 @@ pub const DELIVERY_TRUCK: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "kuljetusauto", "rekka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚛"]
 pub const ARTICULATED_LORRY: crate::Emoji = crate::Emoji {
@@ -605,6 +632,8 @@ pub const ARTICULATED_LORRY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "articulated lorry",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -617,7 +646,6 @@ pub const ARTICULATED_LORRY: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "rekka", "rekka-auto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚜"]
 pub const TRACTOR: crate::Emoji = crate::Emoji {
@@ -626,6 +654,8 @@ pub const TRACTOR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "tractor",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -638,7 +668,6 @@ pub const TRACTOR: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "auto", "traktori"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🏎\u{fe0f}"]
 pub const RACING_CAR: crate::Emoji = crate::Emoji {
@@ -647,6 +676,17 @@ pub const RACING_CAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "racing car",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏎",
+        codepoint: "1F3CE",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "racing car",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -659,15 +699,6 @@ pub const RACING_CAR: crate::Emoji = crate::Emoji {
             keywords: &["auto", "kilpa-ajot", "kilpa-auto"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏎",
-        codepoint: "1F3CE",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "racing car",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🏍\u{fe0f}"]
 pub const MOTORCYCLE: crate::Emoji = crate::Emoji {
@@ -676,6 +707,17 @@ pub const MOTORCYCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "motorcycle",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏍",
+        codepoint: "1F3CD",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "motorcycle",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -688,15 +730,6 @@ pub const MOTORCYCLE: crate::Emoji = crate::Emoji {
             keywords: &["kilpa-ajot", "moottoripyörä"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🏍",
-        codepoint: "1F3CD",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "motorcycle",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🛵"]
 pub const MOTOR_SCOOTER: crate::Emoji = crate::Emoji {
@@ -705,6 +738,8 @@ pub const MOTOR_SCOOTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "motor scooter",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -717,7 +752,6 @@ pub const MOTOR_SCOOTER: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "skootteri"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦽"]
 pub const MANUAL_WHEELCHAIR: crate::Emoji = crate::Emoji {
@@ -726,6 +760,8 @@ pub const MANUAL_WHEELCHAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "manual wheelchair",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -738,7 +774,6 @@ pub const MANUAL_WHEELCHAIR: crate::Emoji = crate::Emoji {
             keywords: &["esteettömyys", "käsikäyttöinen pyörätuoli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦼"]
 pub const MOTORIZED_WHEELCHAIR: crate::Emoji = crate::Emoji {
@@ -747,6 +782,8 @@ pub const MOTORIZED_WHEELCHAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "motorized wheelchair",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -759,7 +796,6 @@ pub const MOTORIZED_WHEELCHAIR: crate::Emoji = crate::Emoji {
             keywords: &["esteettömyys", "moottoroitu pyörätuoli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛺"]
 pub const AUTO_RICKSHAW: crate::Emoji = crate::Emoji {
@@ -768,6 +804,8 @@ pub const AUTO_RICKSHAW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "auto rickshaw",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -780,7 +818,6 @@ pub const AUTO_RICKSHAW: crate::Emoji = crate::Emoji {
             keywords: &["autorikša", "tuktuk"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚲"]
 pub const BICYCLE: crate::Emoji = crate::Emoji {
@@ -789,6 +826,8 @@ pub const BICYCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bicycle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -801,7 +840,6 @@ pub const BICYCLE: crate::Emoji = crate::Emoji {
             keywords: &["ajoneuvo", "polkupyörä", "pyörä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛴"]
 pub const KICK_SCOOTER: crate::Emoji = crate::Emoji {
@@ -810,6 +848,8 @@ pub const KICK_SCOOTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "kick scooter",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -822,7 +862,6 @@ pub const KICK_SCOOTER: crate::Emoji = crate::Emoji {
             keywords: &["lauta", "potku", "potkulauta"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛹"]
 pub const SKATEBOARD: crate::Emoji = crate::Emoji {
@@ -831,6 +870,8 @@ pub const SKATEBOARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "skateboard",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -843,7 +884,6 @@ pub const SKATEBOARD: crate::Emoji = crate::Emoji {
             keywords: &["rullalauta", "skeittilauta"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛼"]
 pub const ROLLER_SKATE: crate::Emoji = crate::Emoji {
@@ -852,6 +892,8 @@ pub const ROLLER_SKATE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "roller skate",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -864,7 +906,6 @@ pub const ROLLER_SKATE: crate::Emoji = crate::Emoji {
             keywords: &["luistin", "rullaluistin"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚏"]
 pub const BUS_STOP: crate::Emoji = crate::Emoji {
@@ -873,6 +914,8 @@ pub const BUS_STOP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bus stop",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -885,7 +928,6 @@ pub const BUS_STOP: crate::Emoji = crate::Emoji {
             keywords: &["asema", "bussipysäkki", "pysäkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛣\u{fe0f}"]
 pub const MOTORWAY: crate::Emoji = crate::Emoji {
@@ -894,6 +936,17 @@ pub const MOTORWAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "motorway",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🛣",
+        codepoint: "1F6E3",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "motorway",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -906,15 +959,6 @@ pub const MOTORWAY: crate::Emoji = crate::Emoji {
             keywords: &["moottoritie", "pikatie", "tie"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🛣",
-        codepoint: "1F6E3",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "motorway",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🛤\u{fe0f}"]
 pub const RAILWAY_TRACK: crate::Emoji = crate::Emoji {
@@ -923,6 +967,17 @@ pub const RAILWAY_TRACK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "railway track",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🛤",
+        codepoint: "1F6E4",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "railway track",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -935,15 +990,6 @@ pub const RAILWAY_TRACK: crate::Emoji = crate::Emoji {
             keywords: &["juna", "junaraide", "rautatie"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🛤",
-        codepoint: "1F6E4",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "railway track",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🛢\u{fe0f}"]
 pub const OIL_DRUM: crate::Emoji = crate::Emoji {
@@ -952,6 +998,17 @@ pub const OIL_DRUM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "oil drum",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🛢",
+        codepoint: "1F6E2",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "oil drum",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -964,15 +1021,6 @@ pub const OIL_DRUM: crate::Emoji = crate::Emoji {
             keywords: &["tynnyri", "öljy", "öljytynnyri"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🛢",
-        codepoint: "1F6E2",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "oil drum",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "⛽"]
 pub const FUEL_PUMP: crate::Emoji = crate::Emoji {
@@ -981,6 +1029,8 @@ pub const FUEL_PUMP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fuel pump",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -993,7 +1043,6 @@ pub const FUEL_PUMP: crate::Emoji = crate::Emoji {
             keywords: &["asema", "bensapumppu", "bensiini", "polttoaine"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚨"]
 pub const POLICE_CAR_LIGHT: crate::Emoji = crate::Emoji {
@@ -1002,6 +1051,8 @@ pub const POLICE_CAR_LIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "police car light",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1014,7 +1065,6 @@ pub const POLICE_CAR_LIGHT: crate::Emoji = crate::Emoji {
             keywords: &["hälytys", "poliisi", "poliisiauton valo", "valo"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚥"]
 pub const HORIZONTAL_TRAFFIC_LIGHT: crate::Emoji = crate::Emoji {
@@ -1023,6 +1073,8 @@ pub const HORIZONTAL_TRAFFIC_LIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "horizontal traffic light",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1040,7 +1092,6 @@ pub const HORIZONTAL_TRAFFIC_LIGHT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚦"]
 pub const VERTICAL_TRAFFIC_LIGHT: crate::Emoji = crate::Emoji {
@@ -1049,6 +1100,8 @@ pub const VERTICAL_TRAFFIC_LIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "vertical traffic light",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1066,7 +1119,6 @@ pub const VERTICAL_TRAFFIC_LIGHT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🛑"]
 pub const STOP_SIGN: crate::Emoji = crate::Emoji {
@@ -1075,6 +1127,8 @@ pub const STOP_SIGN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "stop sign",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1087,7 +1141,6 @@ pub const STOP_SIGN: crate::Emoji = crate::Emoji {
             keywords: &["merkki", "pysähtymismerkki", "pysähtyä"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🚧"]
 pub const CONSTRUCTION: crate::Emoji = crate::Emoji {
@@ -1096,6 +1149,8 @@ pub const CONSTRUCTION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "construction",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -1108,5 +1163,4 @@ pub const CONSTRUCTION: crate::Emoji = crate::Emoji {
             keywords: &["este", "rakennustyömaan merkki"],
         },
     ],
-    variants: &[],
 };

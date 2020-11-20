@@ -5,6 +5,8 @@ pub const TURKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "turkey",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const TURKEY: crate::Emoji = crate::Emoji {
             keywords: &["kalkkuna", "lintu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐔"]
 pub const CHICKEN: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const CHICKEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "chicken",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const CHICKEN: crate::Emoji = crate::Emoji {
             keywords: &["kana", "lintu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐓"]
 pub const ROOSTER: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const ROOSTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "rooster",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const ROOSTER: crate::Emoji = crate::Emoji {
             keywords: &["kukko", "lintu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐣"]
 pub const HATCHING_CHICK: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const HATCHING_CHICK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hatching chick",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,7 +85,6 @@ pub const HATCHING_CHICK: crate::Emoji = crate::Emoji {
             keywords: &["kananpoika", "kuoriutuva", "lintu", "tipu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐤"]
 pub const BABY_CHICK: crate::Emoji = crate::Emoji {
@@ -89,6 +93,8 @@ pub const BABY_CHICK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "baby chick",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -101,7 +107,6 @@ pub const BABY_CHICK: crate::Emoji = crate::Emoji {
             keywords: &["kananpoika", "lintu", "tipu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐥"]
 pub const FRONT_FACING_BABY_CHICK: crate::Emoji = crate::Emoji {
@@ -110,6 +115,8 @@ pub const FRONT_FACING_BABY_CHICK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "front-facing baby chick",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -122,7 +129,6 @@ pub const FRONT_FACING_BABY_CHICK: crate::Emoji = crate::Emoji {
             keywords: &["kananpoika", "lintu", "tipu", "tipu edestäpäin"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐦"]
 pub const BIRD: crate::Emoji = crate::Emoji {
@@ -131,6 +137,8 @@ pub const BIRD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bird",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -143,7 +151,6 @@ pub const BIRD: crate::Emoji = crate::Emoji {
             keywords: &["lintu", "pikkulintu", "turkoosi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🐧"]
 pub const PENGUIN: crate::Emoji = crate::Emoji {
@@ -152,6 +159,8 @@ pub const PENGUIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "penguin",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -164,7 +173,6 @@ pub const PENGUIN: crate::Emoji = crate::Emoji {
             keywords: &["lintu", "pingviini"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🕊\u{fe0f}"]
 pub const DOVE: crate::Emoji = crate::Emoji {
@@ -173,6 +181,17 @@ pub const DOVE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "dove",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🕊",
+        codepoint: "1F54A",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "dove",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -185,15 +204,6 @@ pub const DOVE: crate::Emoji = crate::Emoji {
             keywords: &["kyyhky", "lentää", "lintu", "rauha"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "🕊",
-        codepoint: "1F54A",
-        status: crate::Status::Unqualified,
-        introduction_version: 0.7f32,
-        name: "dove",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🦅"]
 pub const EAGLE: crate::Emoji = crate::Emoji {
@@ -202,6 +212,8 @@ pub const EAGLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "eagle",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -214,7 +226,6 @@ pub const EAGLE: crate::Emoji = crate::Emoji {
             keywords: &["kotka", "lintu"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦆"]
 pub const DUCK: crate::Emoji = crate::Emoji {
@@ -223,6 +234,8 @@ pub const DUCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "duck",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -235,7 +248,6 @@ pub const DUCK: crate::Emoji = crate::Emoji {
             keywords: &["lintu", "sorsa"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦢"]
 pub const SWAN: crate::Emoji = crate::Emoji {
@@ -244,6 +256,8 @@ pub const SWAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "swan",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -256,7 +270,6 @@ pub const SWAN: crate::Emoji = crate::Emoji {
             keywords: &["joutsen", "lintu", "ruma ankanpoikanen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦉"]
 pub const OWL: crate::Emoji = crate::Emoji {
@@ -265,6 +278,8 @@ pub const OWL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "owl",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -277,7 +292,6 @@ pub const OWL: crate::Emoji = crate::Emoji {
             keywords: &["lintu", "pöllö", "viisas"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦤"]
 pub const DODO: crate::Emoji = crate::Emoji {
@@ -286,6 +300,8 @@ pub const DODO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "dodo",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -298,7 +314,6 @@ pub const DODO: crate::Emoji = crate::Emoji {
             keywords: &["Mauritius", "dodo", "lentokyvytön", "sukupuutto"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪶"]
 pub const FEATHER: crate::Emoji = crate::Emoji {
@@ -307,6 +322,8 @@ pub const FEATHER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "feather",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -319,7 +336,6 @@ pub const FEATHER: crate::Emoji = crate::Emoji {
             keywords: &["höyhen", "keveä", "lento", "lintu", "sulka"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦩"]
 pub const FLAMINGO: crate::Emoji = crate::Emoji {
@@ -328,6 +344,8 @@ pub const FLAMINGO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "flamingo",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -340,7 +358,6 @@ pub const FLAMINGO: crate::Emoji = crate::Emoji {
             keywords: &["flamingo", "pramea", "trooppinen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦚"]
 pub const PEACOCK: crate::Emoji = crate::Emoji {
@@ -349,6 +366,8 @@ pub const PEACOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "peacock",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -368,7 +387,6 @@ pub const PEACOCK: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦜"]
 pub const PARROT: crate::Emoji = crate::Emoji {
@@ -377,6 +395,8 @@ pub const PARROT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "parrot",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -389,5 +409,4 @@ pub const PARROT: crate::Emoji = crate::Emoji {
             keywords: &["lintu", "merirosvo", "papukaija", "puhe", "puhuva"],
         },
     ],
-    variants: &[],
 };

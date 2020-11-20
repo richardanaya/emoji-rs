@@ -5,6 +5,8 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "money bag",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
             keywords: &["raha", "rahapussi", "rahasäkki", "säkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪙"]
 pub const COIN: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const COIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "coin",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const COIN: crate::Emoji = crate::Emoji {
             keywords: &["aarre", "hopea", "kolikko", "kulta", "metalli", "raha"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💴"]
 pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "yen banknote",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
             keywords: &["pankki", "raha", "seteli", "valuutta", "yen", "yen-seteli"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💵"]
 pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dollar banknote",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -87,7 +92,6 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "💶"]
 pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
@@ -96,6 +100,8 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "euro banknote",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -108,7 +114,6 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
             keywords: &["euro", "euroseteli", "pankki", "raha", "seteli", "valuutta"],
         },
     ],
-    variants: &[],
 };
 #[doc = "💷"]
 pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
@@ -117,6 +122,8 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "pound banknote",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -136,7 +143,6 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "💸"]
 pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
@@ -145,6 +151,8 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "money with wings",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -171,7 +179,6 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "💳"]
 pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
@@ -180,6 +187,8 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "credit card",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -192,7 +201,6 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
             keywords: &["kortti", "luotto", "luottokortti", "pankki", "raha"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🧾"]
 pub const RECEIPT: crate::Emoji = crate::Emoji {
@@ -201,6 +209,8 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "receipt",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -220,7 +230,6 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "💹"]
 pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
@@ -229,6 +238,8 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "chart increasing with yen",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -258,5 +269,4 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

@@ -5,6 +5,8 @@ pub const ARIES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Aries",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const ARIES: crate::Emoji = crate::Emoji {
             keywords: &["horoskooppi", "horoskooppimerkki", "oinas", "oinas-merkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "♉"]
 pub const TAURUS: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const TAURUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Taurus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const TAURUS: crate::Emoji = crate::Emoji {
             keywords: &["horoskooppi", "horoskooppimerkki", "härkä", "härkä-merkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "♊"]
 pub const GEMINI: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const GEMINI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Gemini",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -65,7 +69,6 @@ pub const GEMINI: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "♋"]
 pub const CANCER: crate::Emoji = crate::Emoji {
@@ -74,6 +77,8 @@ pub const CANCER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Cancer",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -86,7 +91,6 @@ pub const CANCER: crate::Emoji = crate::Emoji {
             keywords: &["horoskooppi", "horoskooppimerkki", "rapu", "rapu-merkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "♌"]
 pub const LEO: crate::Emoji = crate::Emoji {
@@ -95,6 +99,8 @@ pub const LEO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Leo",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -112,7 +118,6 @@ pub const LEO: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "♍"]
 pub const VIRGO: crate::Emoji = crate::Emoji {
@@ -121,6 +126,8 @@ pub const VIRGO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Virgo",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -138,7 +145,6 @@ pub const VIRGO: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "♎"]
 pub const LIBRA: crate::Emoji = crate::Emoji {
@@ -147,6 +153,8 @@ pub const LIBRA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Libra",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -159,7 +167,6 @@ pub const LIBRA: crate::Emoji = crate::Emoji {
             keywords: &["horoskooppi", "horoskooppimerkki", "vaaka", "vaaka-merkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "♏"]
 pub const SCORPIO: crate::Emoji = crate::Emoji {
@@ -168,6 +175,8 @@ pub const SCORPIO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Scorpio",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -185,7 +194,6 @@ pub const SCORPIO: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "♐"]
 pub const SAGITTARIUS: crate::Emoji = crate::Emoji {
@@ -194,6 +202,8 @@ pub const SAGITTARIUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Sagittarius",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -211,7 +221,6 @@ pub const SAGITTARIUS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "♑"]
 pub const CAPRICORN: crate::Emoji = crate::Emoji {
@@ -220,6 +229,8 @@ pub const CAPRICORN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Capricorn",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -237,7 +248,6 @@ pub const CAPRICORN: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "♒"]
 pub const AQUARIUS: crate::Emoji = crate::Emoji {
@@ -246,6 +256,8 @@ pub const AQUARIUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Aquarius",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -263,7 +275,6 @@ pub const AQUARIUS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "♓"]
 pub const PISCES: crate::Emoji = crate::Emoji {
@@ -272,6 +283,8 @@ pub const PISCES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Pisces",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -284,7 +297,6 @@ pub const PISCES: crate::Emoji = crate::Emoji {
             keywords: &["horoskooppi", "horoskooppimerkki", "kalat", "kalat-merkki"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⛎"]
 pub const OPHIUCHUS: crate::Emoji = crate::Emoji {
@@ -293,6 +305,8 @@ pub const OPHIUCHUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Ophiuchus",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -312,5 +326,4 @@ pub const OPHIUCHUS: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };

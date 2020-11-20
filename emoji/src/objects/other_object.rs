@@ -5,6 +5,8 @@ pub const CIGARETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cigarette",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const CIGARETTE: crate::Emoji = crate::Emoji {
             keywords: &["savuke", "tupakointi"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⚰\u{fe0f}"]
 pub const COFFIN: crate::Emoji = crate::Emoji {
@@ -26,6 +27,17 @@ pub const COFFIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "coffin",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚰",
+        codepoint: "26B0",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "coffin",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,15 +50,6 @@ pub const COFFIN: crate::Emoji = crate::Emoji {
             keywords: &["arkku", "kuolema", "ruumisarkku"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⚰",
-        codepoint: "26B0",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "coffin",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🪦"]
 pub const HEADSTONE: crate::Emoji = crate::Emoji {
@@ -55,6 +58,8 @@ pub const HEADSTONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "headstone",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -67,7 +72,6 @@ pub const HEADSTONE: crate::Emoji = crate::Emoji {
             keywords: &["hauta", "hautakivi", "hautausmaa"],
         },
     ],
-    variants: &[],
 };
 #[doc = "⚱\u{fe0f}"]
 pub const FUNERAL_URN: crate::Emoji = crate::Emoji {
@@ -76,6 +80,17 @@ pub const FUNERAL_URN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "funeral urn",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚱",
+        codepoint: "26B1",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "funeral urn",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -88,15 +103,6 @@ pub const FUNERAL_URN: crate::Emoji = crate::Emoji {
             keywords: &["hautajaiset", "kuolema", "tuhkauurna", "uurna"],
         },
     ],
-    variants: &[crate::Emoji {
-        glyph: "⚱",
-        codepoint: "26B1",
-        status: crate::Status::Unqualified,
-        introduction_version: 1f32,
-        name: "funeral urn",
-        annotations: &[],
-        variants: &[],
-    }],
 };
 #[doc = "🗿"]
 pub const MOAI: crate::Emoji = crate::Emoji {
@@ -105,6 +111,8 @@ pub const MOAI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "moai",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -124,7 +132,6 @@ pub const MOAI: crate::Emoji = crate::Emoji {
             ],
         },
     ],
-    variants: &[],
 };
 #[doc = "🪧"]
 pub const PLACARD: crate::Emoji = crate::Emoji {
@@ -133,6 +140,8 @@ pub const PLACARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "placard",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -145,5 +154,4 @@ pub const PLACARD: crate::Emoji = crate::Emoji {
             keywords: &["kyltti", "mielenosoitus", "protesti"],
         },
     ],
-    variants: &[],
 };

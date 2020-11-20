@@ -5,6 +5,8 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 11f32,
     name: "red hair",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -17,7 +19,6 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
             keywords: &["punainen tukka", "punapää", "punatukkainen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦱"]
 pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
@@ -26,6 +27,8 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 11f32,
     name: "curly hair",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -38,7 +41,6 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
             keywords: &["afrotukka", "kihara tukka", "kiharatukkainen"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦳"]
 pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
@@ -47,6 +49,8 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 11f32,
     name: "white hair",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -59,7 +63,6 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
             keywords: &["harmaa", "hiukset", "valkoinen", "valkotukkainen", "vanha"],
         },
     ],
-    variants: &[],
 };
 #[doc = "🦲"]
 pub const BALD: crate::Emoji = crate::Emoji {
@@ -68,6 +71,8 @@ pub const BALD: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 11f32,
     name: "bald",
+    is_variant: false,
+    variants: &[],
     annotations: &[
         crate::Annotation {
             lang: "en",
@@ -80,5 +85,4 @@ pub const BALD: crate::Emoji = crate::Emoji {
             keywords: &["ajeltu", "ei tukkaa", "kalju", "kemoterapia"],
         },
     ],
-    variants: &[],
 };
