@@ -11,9 +11,206 @@ pub const BABY_ANGEL: crate::Emoji = crate::Emoji {
     variants: &[],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("baba-engel"),
+            keywords: &[
+                "baba",
+                "baba-engel",
+                "engel",
+                "fantasie",
+                "gesig",
+                "sprokie",
+            ],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ሕፃኑ መልዓክ"),
+            keywords: &["ሕፃኑ መልዓክ", "ሕፃን", "መልዓክ", "ምናባዊ", "ተረት ተረት", "ፊት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("طفل ملاك"),
+            keywords: &["حدوتة", "طفل ملاك", "ملاك", "وجه"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("শিশ\u{9c1} দেৱদ\u{9c2}ত"),
+            keywords: &[
+                "কল\u{9cd}পন\u{9be}",
+                "দেৱদ\u{9c2}ত",
+                "পৰীৰ স\u{9be}ধ\u{9c1}",
+                "ম\u{9c1}খ",
+                "শিশ\u{9c1}",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("körpə mələk"),
+            keywords: &["fantastika", "körpə", "mələk", "nağıl", "üz"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("анёлак"),
+            keywords: &["анёл", "анёлак", "дзіця", "казачны", "німб"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("ангелче"),
+            keywords: &["ангел", "ангелче", "бебе", "лице", "приказка"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("শিশ\u{9c1} অ\u{9cd}য\u{9be}ঞ\u{9cd}জেল"),
+            keywords: &[
+                "কল\u{9cd}পন\u{9be}",
+                "দেবদ\u{9c2}ত",
+                "ম\u{9c1}খ",
+                "র\u{9c2}পকথ\u{9be}",
+                "শিশ\u{9c1} অ\u{9cd}য\u{9be}ঞ\u{9cd}জেল",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("babig ael"),
+            keywords: &["ael", "babig"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("anđelak"),
+            keywords: &["anđelak", "anđeo", "bajka", "beba", "fantazija"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("angelet"),
+            keywords: &["ales", "angelet", "bebè", "fantasia", "àngel"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎤᏍᏗ ᏗᎧᎿᏩᏗᏙᎯ"),
+            keywords: &[
+                "ᎠᏓᏪᎯ ᎧᏃᎮᏓ",
+                "ᎤᎧᏛ",
+                "ᎤᏍᏗ",
+                "ᎤᏍᏗ ᏗᎧᎿᏩᏗᏙᎯ",
+                "ᎰᏩ ᏂᎨᏒᎾ",
+                "ᏗᎧᏅᏩᏗᏙᎯ",
+            ],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("andílek"),
+            keywords: &[
+                "andílek", "anděl", "dítě", "fantasy", "pohádka", "smajlík", "tvář", "výraz",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("babi angel"),
+            keywords: &["angel", "babi", "ffantasi", "wyneb"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("babyengel"),
+            keywords: &["babyengel", "engel"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Putte"),
+            keywords: &["Engel", "Gesicht", "Märchen", "Putte"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("μωρό άγγελος"),
+            keywords: &["άγγελος", "μωρό", "παραμύθι", "πρόσωπο", "φαντασία"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("baby angel"),
             keywords: &["angel", "baby", "face", "fairy tale", "fantasy"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("bebé ángel"),
+            keywords: &["bebé", "cara", "cuento", "ángel"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("cara de ángel bebé"),
+            keywords: &["bebé", "cara", "cara de ángel bebé", "cuento", "ángel"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "bebé",
+                "cara",
+                "cara de ángel bebé",
+                "cuento de hadas",
+                "fantasía",
+                "ángel",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("inglibeebi"),
+            keywords: &[
+                "ingel",
+                "inglibeebi",
+                "inglilaps",
+                "laps",
+                "lapsenägu",
+                "muinasjutt",
+            ],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("aingeru-itxura duen haurtxoa"),
+            keywords: &[
+                "aingeru-itxura duen haurtxoa",
+                "aingerua",
+                "aurpegia",
+                "fantasia",
+                "haurtxoa",
+                "ipuina",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("فرشته کوچولو"),
+            keywords: &[
+                "بچه",
+                "صورت",
+                "فانتزی",
+                "فرشته",
+                "فرشته کوچولو",
+                "پری",
+                "کودک",
+            ],
         },
         crate::Annotation {
             lang: "fi",
@@ -26,6 +223,735 @@ pub const BABY_ANGEL: crate::Emoji = crate::Emoji {
                 "satu",
                 "vauva",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("sanggol na anghel"),
+            keywords: &[
+                "angel",
+                "anghel",
+                "baby",
+                "fantasy",
+                "mukha",
+                "sanggol",
+                "sanggol na anghel",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("pinkabarnaeingil"),
+            keywords: &[
+                "andlit",
+                "eingil",
+                "pinkabarnaeingil",
+                "pinkubarn",
+                "trúgv",
+                "ævintýr",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("bébé ange"),
+            keywords: &["ange", "bébé", "fantastique", "visage"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("aingeal óg"),
+            keywords: &["aingeal", "aingeal óg"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("aingeal òg"),
+            keywords: &[
+                "aingeal",
+                "aingeal òg",
+                "aodann",
+                "fantastach",
+                "faoinsgeul",
+                "leanabh",
+                "naoidhean",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("anxiño"),
+            keywords: &["anxiño", "anxo", "bebé"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("બાળ દ\u{ac7}વદ\u{ac2}ત"),
+            keywords: &[
+                "ચહ\u{ac7}રો",
+                "દ\u{ac7}વદ\u{ac2}ત",
+                "પરી કથા",
+                "બાળ દ\u{ac7}વદ\u{ac2}ત",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("jaririn malaika"),
+            keywords: &[
+                "fuska",
+                "jariri",
+                "jaririn malaika",
+                "labarin aljana",
+                "malaika",
+                "tatsuniya",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("מלאך תינוק"),
+            keywords: &["אגדה", "מלאך", "פנטסיה", "תינוק"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("नन\u{94d}ही परी"),
+            keywords: &[
+                "च\u{947}हरा",
+                "नन\u{94d}ही परी",
+                "नन\u{94d}ही\u{902} परी",
+                "परी",
+                "फ\u{948}\u{902}ट\u{947}सी",
+                "बच\u{94d}ची",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("beba anđeo"),
+            keywords: &["anđeo", "bajka", "beba", "lice", "mašta"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("babaangyal"),
+            keywords: &["angyal", "arc", "baba", "babaangyal", "mese"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("մանուկ-հրեշտակ"),
+            keywords: &[
+                "դեմք",
+                "երեխա",
+                "հեքիաթ",
+                "հրեշտակ",
+                "մանուկ-հրեշտակ",
+                "ֆանտազիա",
+            ],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("malaikat bayi"),
+            keywords: &["bayi", "dongeng", "fantasi", "malaikat", "muka", "wajah"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("mụo ọma nwata ọhụrụ"),
+            keywords: &[
+                "akarọakọ",
+                "arọrarọ",
+                "ihu",
+                "mmụọ ọma",
+                "mụo ọma nwata ọhụrụ",
+                "nwata ọhụrụ",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("barnsengill"),
+            keywords: &["andlit", "barnsengill", "engill", "ævintýri"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("angioletto"),
+            keywords: &["angelo", "angioletto", "faccina", "favola"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("天使"),
+            keywords: &["エンジェル", "天使", "顔"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("malaékat bayi"),
+            keywords: &["bayi", "dongeng", "fantasi", "malaékat", "rai"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ბავშვი ანგელოზი"),
+            keywords: &[
+                "ანგელოზი",
+                "ბავშვი",
+                "ზღაპარი",
+                "სახე",
+                "ფანტაზია",
+                "ფანტასტიკა",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("кішкентай періште"),
+            keywords: &[
+                "бет",
+                "ертегі",
+                "кішкентай періште",
+                "періште",
+                "сәби",
+                "қиял",
+            ],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("babyengel"),
+            keywords: &["babyengel", "engel"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ទេពធ\u{17b8}តាត\u{17bc}ច"),
+            keywords: &[
+                "ទេពធ\u{17b8}តា",
+                "ទេពធ\u{17b8}តាត\u{17bc}ច",
+                "ម\u{17bb}ខទេពធ\u{17b8}តាត\u{17bc}ច",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಶ\u{cbf}ಶು ದೇವತ\u{cc6}"),
+            keywords: &["ದೇವತ\u{cc6}", "ಶ\u{cbf}ಶು ದೇವತ\u{cc6}"],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("아기 천사"),
+            keywords: &["아기 천사", "천사"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("बाल परी"),
+            keywords: &["च\u{947}रो", "नवलकथा", "परी", "परी कथा", "बाल"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("бала периште"),
+            keywords: &["бала", "бет", "жомок", "периште", "фантастика"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Engelchen"),
+            keywords: &[
+                "Bëbee",
+                "Engel",
+                "Engelchen",
+                "Fantasie",
+                "Gesiicht",
+                "Mäerchen",
+                "Puppelchen",
+            ],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ນາງຟ\u{ec9}າເດ\u{eb1}ກ"),
+            keywords: &["ນາງຟ\u{ec9}າ", "ນາງຟ\u{ec9}າເດ\u{eb1}ກ", "ເທບນ\u{eb4}ຍາຍ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("angeliukas"),
+            keywords: &[
+                "angelas",
+                "angeliukas",
+                "fantazija",
+                "kūdikis",
+                "pasaka",
+                "veidas",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("mazs eņģelītis"),
+            keywords: &[
+                "eņģelis",
+                "fantāzija",
+                "mazs eņģelītis",
+                "mazulis",
+                "pasaka",
+                "seja",
+            ],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("pīpī anahera"),
+            keywords: &[
+                "anahera",
+                "kanohi",
+                "kōrero pakiwaitara",
+                "moemoeā",
+                "pēpi",
+                "pīpī anahera",
+            ],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("бебе ангел"),
+            keywords: &["ангел", "бебе", "насмевка", "невиност", "ореол"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ക\u{d41}ഞ\u{d4d}ഞ\u{d41}മ\u{d3e}ല\u{d3e}ഖ"),
+            keywords: &[
+                "ക\u{d41}ഞ\u{d4d}ഞ\u{d41}മ\u{d3e}ല\u{d3e}ഖ",
+                "ക\u{d41}ഞ\u{d4d}ഞ\u{d4d}",
+                "ഫ\u{d3e}ന\u{d4d}റസി",
+                "മ\u{d3e}ല\u{d3e}ഖ",
+                "മ\u{d41}ഖം",
+                "മ\u{d41}ത\u{d4d}തശ\u{d4d}ശിക\u{d4d}കഥ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("нялх сахиусан тэнгэр"),
+            keywords: &[
+                "инээмсэглэл",
+                "нялх",
+                "нялх сахиусан тэнгэр",
+                "сахиусан тэнгэр",
+                "төсөөлөл",
+            ],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("बाल द\u{947}वद\u{942}त"),
+            keywords: &[
+                "आवड",
+                "च\u{947}हरा",
+                "द\u{947}वद\u{942}त",
+                "परी कथा",
+                "बाल द\u{947}वद\u{942}त",
+                "बाळ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("pari-pari bayi"),
+            keywords: &[
+                "bayi",
+                "cerita dongeng",
+                "fantasi",
+                "malaikat",
+                "muka",
+                "pari-pari bayi",
+            ],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("anġlu tarbija"),
+            keywords: &["anġlu", "fantasija", "tarbija", "wiċċ", "ħrafa"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("နတ\u{103a}သမ\u{102e}းကလေး"),
+            keywords: &[
+                "ကလေး",
+                "စ\u{102d}တ\u{103a}က\u{1030}းယဉ\u{103a}",
+                "နတ\u{103a}သမ\u{102e}း",
+                "နတ\u{103a}သမ\u{102e}း ပ\u{102f}\u{1036}ပြင\u{103a}",
+                "နတ\u{103a}သမ\u{102e}းကလေး",
+                "မျက\u{103a}န\u{103e}ာ",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("babyengel"),
+            keywords: &["ansikt", "babyengel", "engel", "eventyr"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("बच\u{94d}चा परी"),
+            keywords: &[
+                "अन\u{941}हार",
+                "ख\u{947}स\u{94d}रा कल\u{94d}पना",
+                "परी",
+                "परीको कथा",
+                "बच\u{94d}चा",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("baby-engel"),
+            keywords: &[
+                "baby",
+                "baby-engel",
+                "engel",
+                "fantasie",
+                "gezicht",
+                "sprookje",
+            ],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("babyengel"),
+            keywords: &["andlet", "babyengel", "engel", "eventyr"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଶ\u{b3f}ଶ\u{b41} ଦେବଦ\u{b42}ତ"),
+            keywords: &[
+                "କଳ\u{b4d}ପନ\u{b3e}",
+                "ଦେବଦ\u{b42}ତ",
+                "ପରୀ କ\u{b3e}ହ\u{b3e}ଣୀ",
+                "ମ\u{b41}ହ\u{b01}",
+                "ଶ\u{b3f}ଶ\u{b41}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਦ\u{a47}ਵਦ\u{a42}ਤ ਬ\u{a71}ਚਾ"),
+            keywords: &[
+                "ਚਿਹਰਾ",
+                "ਦ\u{a47}ਵਦ\u{a42}ਤ",
+                "ਦ\u{a47}ਵਦ\u{a42}ਤ ਬ\u{a71}ਚਾ",
+                "ਪਰੀ ਕਹਾਣੀ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("فرشتہ بال"),
+            keywords: &["بال", "تصور", "دی شکل", "فرشتہ", "پریاں دی کہانی"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Bẹ\u{301}bí Énjẹl"),
+            keywords: &[
+                "Bebí",
+                "Bẹ\u{301}bí Énjẹl",
+                "Dédrim",
+                "Fes",
+                "Torí Abaut Spírit-dẹm Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
+                "Éngẹl",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("aniołek"),
+            keywords: &["aniołek", "bajka", "buzia aniołka", "fantasy"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("ماشوم فرښته"),
+            keywords: &[
+                "خيال",
+                "د ښاپيرو کيسه",
+                "فرشته",
+                "ماشوم",
+                "ماشوم فرښته",
+                "مخ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("bebê anjo"),
+            keywords: &["anjo", "bebê anjo", "conto de fadas", "rosto"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("anjo bebé"),
+            keywords: &["anjo", "bebé", "cara", "conto de fadas", "fantasia"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("wawa angel"),
+            keywords: &["angel", "fantasia", "hadas willana", "uya", "wawa"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("bebeluș îngeraș"),
+            keywords: &[
+                "basm",
+                "bebeluș",
+                "bebeluș îngeraș",
+                "fantezie",
+                "față",
+                "înger",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-569"),
+            keywords: &["E10-569"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("ангелочек"),
+            keywords: &[
+                "ангел",
+                "ангелочек",
+                "дитя",
+                "крылья",
+                "лик",
+                "нимб",
+                "фэнтези",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("akamalayika"),
+            keywords: &[
+                "akamalayika",
+                "amakabyankuru",
+                "isura",
+                "marayika",
+                "uruhinja",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ننڍي پري"),
+            keywords: &["ننڍي پري", "پري، ننڍي، چهرو، پرين جي ڪهاڻي، تصور"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ළදර\u{dd4} ස\u{dd4}රද\u{dd6}තය\u{dcf}"),
+            keywords: &[
+                "ම\u{dd4}හ\u{dd4}ණ",
+                "ස\u{dd2}හ\u{dd2}න ලෝකය",
+                "ස\u{dd4}රංඟන\u{dcf} කථ\u{dcf}ව",
+                "ස\u{dd4}රද\u{dd6}තය\u{dcf}",
+                "ළදර\u{dd4}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("anjelik"),
+            keywords: &["anjel", "anjelik", "bábä", "rozprávka", "tvár"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("angelček"),
+            keywords: &[
+                "angel",
+                "angelček",
+                "dojenček",
+                "fantazija",
+                "obraz",
+                "pravljica",
+            ],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("malaa’igta caruurta"),
+            keywords: &[
+                "canug",
+                "khiyaali",
+                "malaa’ig",
+                "malaa’igta caruurta",
+                "sheeko cirfiid",
+                "waji",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("engjëll bebe"),
+            keywords: &["bebe", "engjëll", "fantazi", "fytyrë", "përrallë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("беба анђео"),
+            keywords: &["aнђeo", "бajкa", "бeбa", "беба анђео", "лице", "мaштa"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["беба анђео"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("beba anđeo"),
+            keywords: &["anđeo", "bajka", "beba", "lice", "mašta"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["beba anđeo"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("bebisängel"),
+            keywords: &["bebisängel", "saga", "ängel"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("mtoto malaika"),
+            keywords: &["kichimbakazi", "malaika", "mtoto", "njozi", "uso"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("குழந\u{bcd}தை ஏஞ\u{bcd}சல\u{bcd}"),
+            keywords: &[
+                "ஏஞ\u{bcd}சல\u{bcd}",
+                "குழந\u{bcd}தை ஏஞ\u{bcd}சல\u{bcd}",
+                "தேவதை",
+                "தேவதைக\u{bcd} கதை",
+                "முகம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("బ\u{c3f}డ\u{c4d}డ రూపంల\u{c4b} ద\u{c47}వత"),
+            keywords: &[
+                "ద\u{c47}వత",
+                "బ\u{c3f}డ\u{c4d}డ",
+                "బ\u{c3f}డ\u{c4d}డ రూపంల\u{c4b} ద\u{c47}వత",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("кӯдаки фаришта"),
+            keywords: &[
+                "афсона",
+                "кӯдак",
+                "кӯдаки фаришта",
+                "малоика",
+                "рӯй",
+                "тахайюлот",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("นางฟ\u{e49}าเด\u{e47}ก"),
+            keywords: &["นางฟ\u{e49}า", "นางฟ\u{e49}าเด\u{e47}ก", "เทพน\u{e34}ยาย"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("bäbek perişde"),
+            keywords: &["bäbek", "erteki", "hyýal", "perişde", "ýüz"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("ʻangelo valevale"),
+            keywords: &["ʻangelo valevale"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("bebek melek"),
+            keywords: &["bebek melek", "melek", "peri masalı", "yüz"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("بوۋاق پەرىشتە"),
+            keywords: &[
+                "بوۋاق پەرىشتە",
+                "بوۋاق چۆچەك",
+                "فانتازىيە",
+                "پەرىشتە",
+                "چىراي",
+            ],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("янголятко"),
+            keywords: &[
+                "ангел",
+                "казка",
+                "немовля",
+                "обличчя",
+                "фантазія",
+                "янголятко",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("بے بی فرشتہ"),
+            keywords: &["افسانوی", "بچہ", "بے بی فرشتہ", "فرشتہ", "چہرہ"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("chaqaloq farishta"),
+            keywords: &["chaqaloq", "ertak", "fantaziya", "farishta", "yuz"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("thiên thần nhỏ"),
+            keywords: &[
+                "bé con",
+                "mặt",
+                "thiên thần",
+                "thiên thần nhỏ",
+                "truyện cổ tích",
+                "tưởng tượng",
+            ],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("liiru malaaka"),
+            keywords: &[
+                "feem",
+                "kanam",
+                "liir",
+                "liiru malaaka",
+                "léebu fee",
+                "malaaka",
+            ],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ingelosi elusana"),
+            keywords: &[
+                "iingcali",
+                "ingelosi",
+                "ingelosi elusana",
+                "intsomi",
+                "ubuso",
+                "usana",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("ángẹli ìkókó"),
+            keywords: &[
+                "ojú",
+                "àlá",
+                "ángẹli ìkókó",
+                "áńgẹ\u{301}lì",
+                "ìkókó",
+                "ìtàn ọmọdé",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("寶貝天使"),
+            keywords: &["天使", "嬰兒", "寶貝天使", "幻想", "童話", "臉"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("宝贝天使"),
+            keywords: &["天使", "婴儿", "宝贝天使", "幻想", "童话", "脸"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("小天使"),
+            keywords: &["儿童", "天使", "孩子", "小天使"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("天使"),
+            keywords: &["兒童", "天使", "孩子"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("天使嬰兒"),
+            keywords: &["天使", "天使嬰兒", "嬰兒", "童話"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ingelosi eyingane"),
+            keywords: &["ingane", "ingelosi", "ingelosi eyingane", "ubuso"],
         },
     ],
 };
@@ -107,6 +1033,126 @@ pub const SANTA_CLAUS: crate::Emoji = crate::Emoji {
     variants: &[],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("Kersvader"),
+            keywords: &["Kersfees", "Kersvader", "vader", "viering"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("አባባ ገና"),
+            keywords: &["አባባ ገና", "አባት", "ክብረ በዓል", "የገና አባት", "ገና"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("بابا نويل"),
+            keywords: &["بابا نويل", "سانتا", "سانتا كلوز", "عيد الميلاد"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("চ\u{9be}ণ\u{9cd}ট\u{9be} ক\u{9cd}ল’জ"),
+            keywords: &[
+                "উদয\u{9be}পন",
+                "ক\u{9cd}ল’জ",
+                "খ\u{9cd}ৰীষ\u{9cd}টম\u{9be}চ",
+                "চ\u{9be}ণ\u{9cd}ট\u{9be}",
+                "পিত\u{9c3}",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("Santa Klaus"),
+            keywords: &[
+                "Santa Klaus",
+                "ata",
+                "bayram",
+                "milad",
+                "nağıl",
+                "santa",
+                "santa klaus",
+            ],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("Санта Клаус"),
+            keywords: &["Санта Клаус", "дзед мароз", "каляды", "раство", "свята"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("дядо коледа"),
+            keywords: &["дядо", "коледа", "празнуване", "приказка", "фантастичен"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("স\u{9be}ন\u{9cd}ত\u{9be} ক\u{9cd}লজ"),
+            keywords: &[
+                "উদয\u{9be}পন কর\u{9be}",
+                "ক\u{9cd}রিসম\u{9be}স",
+                "ব\u{9be}ব\u{9be}",
+                "র\u{9c2}পকথ\u{9be}",
+                "স\u{9be}ন\u{9cd}ত\u{9be} ক\u{9cd}লজ",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("Tad Nedeleg"),
+            keywords: &["Nedeleg", "Tad Nedeleg", "fest", "gouel", "lid", "tad"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("djed mraz"),
+            keywords: &["božić", "djed mraz", "nova godina", "praznici"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("pare Noel"),
+            keywords: &["Nadal", "Noel", "pare"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏧᏠᎦᎴᏓ"),
+            keywords: &["ᎠᎵᎮᎵᏍᏗᎢ", "ᎡᏙᏓ", "ᏓᏂᏍᏓᏲᎯᎲᎢ", "ᏧᏠᎦᎴᏓ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("Santa Claus"),
+            keywords: &[
+                "Santa Claus",
+                "fantasy",
+                "oslava",
+                "otec",
+                "pohádka",
+                "santa",
+                "vánoce",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("Siôn Corn"),
+            keywords: &["Nadolig", "Siôn Corn", "dathliad", "santa"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("julemand"),
+            keywords: &["jul", "julemand", "nisse"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Weihnachtsmann"),
+            keywords: &["Weihnachten", "Weihnachtsmann"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("Άι Βασίλης"),
+            keywords: &[
+                "Άι Βασίλης",
+                "Χριστούγεννα",
+                "γιορτή",
+                "παραμύθι",
+                "πατέρας",
+                "φαντασία",
+            ],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("Santa Claus"),
             keywords: &[
@@ -119,9 +1165,858 @@ pub const SANTA_CLAUS: crate::Emoji = crate::Emoji {
             ],
         },
         crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &[
+                "Christmas",
+                "Father Christmas",
+                "Santa Claus",
+                "celebration",
+                "claus",
+                "father",
+                "santa",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("Santa"),
+            keywords: &[
+                "Christmas",
+                "Father Christmas",
+                "Santa",
+                "Santa Claus",
+                "celebration",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["Christmas", "Claus", "Father", "Santa", "celebration"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("Papá Noel"),
+            keywords: &[
+                "Navidad",
+                "Papá Noel",
+                "celebración",
+                "claus",
+                "papá noel",
+                "santa",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("Santa Claus"),
+            keywords: &[
+                "Navidad",
+                "Papá Noel",
+                "Santa Claus",
+                "fiesta",
+                "noel",
+                "papá",
+                "santa",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "Navidad",
+                "Papá Noel",
+                "Santa Claus",
+                "claus",
+                "noel",
+                "papá",
+                "santa",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("jõuluvana"),
+            keywords: &["jõulud", "jõuluvana", "muinasjutt"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("aita noel"),
+            keywords: &["aita", "aita noel", "fantasia", "gabonak", "ospakizun"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("بابا نوئل"),
+            keywords: &[
+                "بابا نوئل",
+                "جشن",
+                "جن و پری",
+                "سانتا",
+                "فانتزی",
+                "پدر",
+                "کریسمس",
+            ],
+        },
+        crate::Annotation {
             lang: "fi",
             tts: Some("joulupukki"),
             keywords: &["fantasia", "joulu", "joulupukki", "juhla", "satu"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("santa claus"),
+            keywords: &[
+                "Christmas",
+                "Pasko",
+                "Santa Claus",
+                "holiday",
+                "santa",
+                "santa claus",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("jólamaðurin"),
+            keywords: &["jól", "jólamaður", "jólamaðurin", "maður"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("père Noël"),
+            keywords: &["noël", "père", "père Noël"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["Noël", "célébration", "fête", "père"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("Daidí na Nollag"),
+            keywords: &[
+                "Daidí na Nollag",
+                "Nollaig",
+                "Saintí",
+                "San Nioclás",
+                "Santa",
+                "ceiliúradh",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("bodach na Nollaig"),
+            keywords: &[
+                "Nollaig",
+                "athair",
+                "bodach na Nollaig",
+                "bodach na nollaig",
+                "comharrachadh",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("Papá Noel"),
+            keywords: &["Nadal", "Papá Noel", "Santa Claus", "celebración"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સા\u{a82}તા ક\u{acd}લોઝ"),
+            keywords: &[
+                "ઉજવણી",
+                "નાતાલ",
+                "ફાધર ક\u{acd}રિસમસ",
+                "સા\u{a82}તા",
+                "સા\u{a82}તા ક\u{acd}લોઝ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("Santa Claus"),
+            keywords: &[
+                "Kirsimati",
+                "Santa Claus",
+                "claus",
+                "santa",
+                "shagali",
+                "uba",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("סנטה קלאוס"),
+            keywords: &["חג המולד", "מתנות", "סנטה", "סנטה קלאוס"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("स\u{948}\u{902}टा क\u{94d}लॉज\u{93c}"),
+            keywords: &[
+                "क\u{94d}रिसमस",
+                "फ\u{93c}ादर क\u{94d}रिसमस",
+                "समारोह",
+                "सा\u{902}ता",
+                "सा\u{902}ता क\u{94d}लाज",
+                "स\u{948}\u{902}टा क\u{94d}लॉज\u{93c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("Djed Božićnjak"),
+            keywords: &[
+                "Djed Božićnjak",
+                "bajka",
+                "božić",
+                "djed mraz",
+                "mašta",
+                "slavlje",
+            ],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("mikulás"),
+            keywords: &["arc", "fej", "mikulás", "télapó", "ünnep", "ünneplés"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("սանտա կլաուս"),
+            keywords: &[
+                "հայր",
+                "հեքիաթ",
+                "սանտա",
+                "սանտա կլաուս",
+                "սուրբ ծնունդ",
+                "տոն",
+                "ֆանտազիա",
+            ],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("Sinterklas"),
+            keywords: &[
+                "Sinterklas",
+                "dongeng",
+                "fantasi",
+                "natal",
+                "perayaan",
+                "santa",
+            ],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("Nna Ekeresìmesi"),
+            keywords: &[
+                "Ekeresìmesì",
+                "Emume",
+                "Nna Ekeresìmesi",
+                "claus",
+                "nna",
+                "santa",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("jólasveinn"),
+            keywords: &["hátíð", "jól", "jólasveinn"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("Babbo Natale"),
+            keywords: &["Babbo Natale", "Natale", "festa"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("サンタ"),
+            keywords: &["クリスマス", "サンタ", "サンタクロース", "顔"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("Sinter Klas"),
+            keywords: &["Klas", "Natal", "Sinter Klas", "bapa", "pista"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("სანტა კლაუსი"),
+            keywords: &[
+                "აღნიშვნა",
+                "ახალი წელი",
+                "ზეიმი",
+                "ზღაპარი",
+                "თოვლის ბაბუა",
+                "კალანდა",
+                "მამა",
+                "სანტა",
+                "სანტა კლაუსი",
+                "ფანტაზია",
+                "ფანტასტიკა",
+                "შობა",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("санта клаус"),
+            keywords: &["Рождество", "клаус", "санта", "тойлау", "әке"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("julemand"),
+            keywords: &["jul", "julemand", "nisse"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("តាណ\u{17bc}អែល"),
+            keywords: &[
+                "ការប\u{17d2}រារព\u{17d2}ធព\u{17b7}ធ\u{17b8}",
+                "គ\u{17d2}រ\u{17b7}ស\u{17d2}ដស\u{17d2}មាស",
+                "តាណ\u{17bc}អែល",
+                "ប\u{17bb}ណ\u{17d2}យណ\u{17bc}អែល",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಸಾಂತಾ ಕ\u{ccd}ಲಾಜ\u{ccd}"),
+            keywords: &[
+                "ಆಚರಣ\u{cc6}",
+                "ಕ\u{ccd}ರ\u{cbf}ಸ\u{ccd}ಮಸ\u{ccd}",
+                "ಕ\u{ccd}ಲಾಸ\u{ccd}",
+                "ತಂದ\u{cc6}",
+                "ಸಂತಾ",
+                "ಸಾಂಟಾ ಕ\u{ccd}ಲಾಸ\u{ccd}",
+                "ಸಾಂತಾ ಕ\u{ccd}ಲಾಜ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("산타클로스"),
+            keywords: &["산타", "산타 할아버지", "산타클로스", "크리스마스"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("सा\u{902}ता क\u{94d}लॉज"),
+            keywords: &[
+                "क\u{94d}लॉज",
+                "ख\u{94d}रिस\u{94d}तमस",
+                "बाप\u{942}य",
+                "सा\u{902}ता",
+                "स\u{941}वाळो",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("аяз ата"),
+            keywords: &["ата", "аяз ата", "клаус", "майрам", "рождество"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Kleeschen"),
+            keywords: &["Chrëschtdag", "Feier", "Kleeschen", "Papp"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຊານຕາຄລ\u{eb1}ອສ"),
+            keywords: &["ຄຣ\u{eb4}ສມາດ", "ຊາຕາຄຣ\u{eb1}ອສ", "ຊານຕາຄລ\u{eb1}ອສ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("Kalėdų senelis"),
+            keywords: &["Kalėdos", "Kalėdų senelis", "senelis", "tėvas", "šventė"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("Ziemassvētku vecītis"),
+            keywords: &[
+                "Ziemassvētku vecītis",
+                "santaklauss",
+                "vecītis",
+                "ziemassvētki",
+            ],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("hana koko"),
+            keywords: &["hana", "kirihimete", "koko", "matua", "whakanuinga"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("дедо мраз"),
+            keywords: &[
+                "дедо мраз",
+                "нова година",
+                "прослава",
+                "сказна",
+                "фантазија",
+            ],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("സ\u{d3e}ന\u{d4d}ത\u{d3e}ക\u{d4d}ലോസ\u{d4d}"),
+            keywords: &[
+                "അച\u{d4d}ചൻ",
+                "ആഘോഷം",
+                "ക\u{d4d}രിസ\u{d4d}\u{200c}ത\u{d41}മസ\u{d4d}",
+                "മ\u{d41}ത\u{d4d}തശ\u{d4d}ശിക\u{d4d}കഥ",
+                "സ\u{d3e}ന\u{d4d}ത",
+                "സ\u{d3e}ന\u{d4d}ത\u{d3e}ക\u{d4d}ലോസ\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("Санта Клаус"),
+            keywords: &[
+                "Зул сарын баяр",
+                "Санта Клаус",
+                "аав",
+                "баяр тэмдэглэх",
+                "клаус",
+                "санта",
+            ],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("सा\u{902}ता क\u{94d}लॉज"),
+            keywords: &[
+                "उत\u{94d}सव",
+                "क\u{94d}लॉज",
+                "ख\u{94d}रिसमस",
+                "फादर",
+                "सा\u{902}ता",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("santa klaus"),
+            keywords: &[
+                "bapa",
+                "cerita dongeng",
+                "fantasi",
+                "krismas",
+                "perayaan",
+                "santa",
+                "santa klaus",
+            ],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("Santa Klaws"),
+            keywords: &[
+                "Milied",
+                "Santa Klaws",
+                "klaws",
+                "missier",
+                "santa",
+                "ċelebarazzjoni",
+            ],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ဆန\u{103a}တာ ကလော\u{1037}စ\u{103a}"),
+            keywords: &[
+                "ခရစ\u{103a}စမတ\u{103a}",
+                "ဆန\u{103a}တာ",
+                "ဆန\u{103a}တာ ကလော\u{1037}စ\u{103a}",
+                "အောင\u{103a}ပ\u{103d}\u{1032}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("julenissen"),
+            keywords: &["feiring", "jul", "julenissen", "nissefar", "nissen"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("सान\u{94d}ता क\u{94d}लज"),
+            keywords: &[
+                "ख\u{947}स\u{94d}रा कल\u{94d}पना",
+                "परीको कथा",
+                "ब\u{941}बा",
+                "समारोह",
+                "सान\u{94d}ता",
+                "सान\u{94d}ता क\u{94d}लज",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("kerstman"),
+            keywords: &["Kerstmis", "kerstman", "viering"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("julenissen"),
+            keywords: &["feiring", "jul", "julenissen", "nissefar", "nissen"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ସ\u{b3e}ଣ\u{b4d}ଟ\u{b3e} କ\u{b4d}ଲସ\u{b4d}\u{200d}"),
+            keywords: &[
+                "ଉତ\u{b4d}ସବ",
+                "କ\u{b4d}ଲସ\u{b4d}\u{200d}",
+                "ଖ\u{b4d}ରୀଷ\u{b4d}ଟମ\u{b3e}ସ\u{b4d}",
+                "ପ\u{b3f}ତ\u{b3e}",
+                "ସ\u{b3e}ଣ\u{b4d}ଟ\u{b3e}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਸ\u{a48}\u{a02}ਟਾ ਕਲਾਜ\u{a3c}"),
+            keywords: &[
+                "ਕ\u{a4d}ਰਿਸਮਸ",
+                "ਜਸ\u{a3c}ਨ",
+                "ਪਿਤਾ ਕ\u{a4d}ਰਿਸਮਸ",
+                "ਸ\u{a48}\u{a02}ਟਾ",
+                "ਸ\u{a48}\u{a02}ਟਾ ਕਲਾਜ\u{a3c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("سنٹا کلاز"),
+            keywords: &["جزو", "سانتا", "سنٹا کلاز", "منانا", "پی\u{651}و", "کرسمس"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Sántá Klọz"),
+            keywords: &[
+                "Fáda",
+                "Klọz",
+                "Krísmas",
+                "Papá",
+                "Sánta",
+                "Sántá Klọz",
+                "Sẹlibréshọn",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("Święty Mikołaj"),
+            keywords: &[
+                "boże narodzenie",
+                "legenda",
+                "Święty Mikołaj",
+                "święta",
+                "święty mikołaj",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("سانټا کلاز"),
+            keywords: &["بابا", "سانټا", "لمانځل", "کرسمس", "کلاز"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("Papai Noel"),
+            keywords: &["Natal", "Noel", "Papai Noel", "comemoração"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("pai natal"),
+            keywords: &["celebração", "conto de fadas", "fantasia", "natal", "pai"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("Papa Noel"),
+            keywords: &["Navidad", "Papa Noel", "noel", "papa", "raymi", "tata"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("Moș Crăciun"),
+            keywords: &["Crăciun", "Moș Crăciun", "moș", "sărbătoare"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-330"),
+            keywords: &["E10-330"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("Санта-Клаус"),
+            keywords: &[
+                "Санта-Клаус",
+                "дед мороз",
+                "дедушка мороз",
+                "клаус",
+                "новый год",
+                "рождество",
+                "санта",
+                "санта-клаус",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("Papa Noheli"),
+            keywords: &["Noheli", "Papa Noheli", "data", "ibirori", "papa"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("سانتا ڪلاز"),
+            keywords: &["سانتا ڪلاز", "ڪرشمس، جشن، پي، سانتا، ڪلاز"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("නත\u{dca}තල\u{dca} ස\u{dd3}ය\u{dcf}"),
+            keywords: &[
+                "නත\u{dca}තල\u{dca} ස\u{dd3}ය\u{dcf}",
+                "ප\u{dd2}ය\u{dcf}",
+                "ස\u{dd2}හ\u{dd2}න ලෝකය",
+                "ස\u{dd4}රංඟන\u{dcf} කථ\u{dcf}ව",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("Santa"),
+            keywords: &["Santa", "Santa Claus", "muž", "oslava", "santa", "vianoce"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("Božiček"),
+            keywords: &[
+                "Božiček",
+                "božič",
+                "božiček",
+                "fantazija",
+                "oče",
+                "pravljica",
+                "slavje",
+            ],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("Aabaha Ciidda Masiixigga"),
+            keywords: &[
+                "Aabaha Ciidda Masiixigga",
+                "Aabaha ciidda Masiixigga",
+                "Alla ka cabsi",
+                "Ciidda Masiixigga",
+                "aabaha farxdda",
+                "aabe",
+                "dabbaaldeg",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("babagjyshi i krishtlindjes"),
+            keywords: &[
+                "babagjyshi i krishtlindjes",
+                "festim",
+                "krishtlindje",
+                "përrallë",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("Деда Мраз"),
+            keywords: &[
+                "Деда Мраз",
+                "бajкa",
+                "бoжић",
+                "бoжић бата",
+                "дeда мрaз",
+                "мaштa",
+                "прослава",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("Дјед Мраз"),
+            keywords: &["Дјед Мраз"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("Deda Mraz"),
+            keywords: &[
+                "Deda Mraz",
+                "bajka",
+                "božić",
+                "božić bata",
+                "deda mraz",
+                "mašta",
+                "proslava",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("Djed Mraz"),
+            keywords: &["Djed Mraz"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("jultomte"),
+            keywords: &["högtid", "jul", "jultomte", "tomten"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("baba krismasi"),
+            keywords: &["baba", "kichimbakazi", "krismasi", "njozi", "sherehe"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("கிறிஸ\u{bcd}துமஸ\u{bcd} த\u{bbe}த\u{bcd}த\u{bbe}"),
+            keywords: &[
+                "கிறிஸ\u{bcd}துமஸ\u{bcd}",
+                "கொண\u{bcd}ட\u{bbe}ட\u{bcd}டம\u{bcd}",
+                "த\u{bbe}த\u{bcd}த\u{bbe}",
+                "பரிசு",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("శ\u{c3e}ంట\u{c3e} క\u{c4d}ల\u{c3e}స\u{c4d}"),
+            keywords: &[
+                "క\u{c4d}ర\u{c3f}స\u{c4d}మస\u{c4d}",
+                "ఫ\u{c3e}దర\u{c4d} క\u{c4d}ర\u{c3f}స\u{c4d}మస\u{c4d}",
+                "వ\u{c47}డుక",
+                "శ\u{c3e}ంట\u{c3e}",
+                "శ\u{c3e}ంట\u{c3e} క\u{c4d}ల\u{c3e}స\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("бобои барфӣ"),
+            keywords: &[
+                "бобои барфӣ",
+                "клаус",
+                "мавлуди Исо",
+                "падар",
+                "санта",
+                "ҷашн",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ซานต\u{e49}า"),
+            keywords: &["คร\u{e34}สต\u{e4c}มาส", "ซานตาคลอส", "ซานต\u{e49}า"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("Aýaz baba"),
+            keywords: &[
+                "Aýaz baba",
+                "Roždestwo",
+                "aýaz",
+                "baba",
+                "baýramçylyk",
+                "kaka",
+            ],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("Sānita Kalausi"),
+            keywords: &["Sānita Kalausi", "tangata"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("Noel Baba"),
+            keywords: &["Noel Baba", "kutlama", "noel", "santa claus"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("مىلاد بوۋاي"),
+            keywords: &["بوۋاي", "تەبرىكلەش", "مىلاد", "نورۇز"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("Санта Клаус"),
+            keywords: &[
+                "Різдво",
+                "Санта Клаус",
+                "Святий Миколай",
+                "дід",
+                "святкування",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("سانتا کلاز"),
+            keywords: &["باپ", "جشن", "سانتا", "سانتا کلاز", "کرسمس"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("santa-klaus"),
+            keywords: &[
+                "ertak",
+                "fantaziya",
+                "nishonlash",
+                "qorbobo",
+                "santa",
+                "santa-klaus",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("Ông già Noel"),
+            keywords: &[
+                "Giáng sinh",
+                "cha",
+                "claus",
+                "lễ kỷ niệm",
+                "santa",
+                "Ông già Noel",
+                "Ông già Noen",
+            ],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("Pere nowel"),
+            keywords: &["Pere nowel", "màggal", "nowel", "papa", "pere"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("U-Santa Claus"),
+            keywords: &[
+                "Ikrismesi",
+                "U-Santa Claus",
+                "u-claus",
+                "u-santa",
+                "umbhiyozo",
+                "utata",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Baba Keresi"),
+            keywords: &["Baba Keresi", "ayẹyẹ", "baba", "kérésì"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("聖誕老人"),
+            keywords: &["天父", "慶祝", "聖誕節", "聖誕老人"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("圣诞老人"),
+            keywords: &["圣诞老人", "圣诞节", "天父", "庆祝"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("圣诞老人"),
+            keywords: &["圣诞", "圣诞老人", "节日"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("聖誕老人"),
+            keywords: &["聖誕老人", "聖誕老公公"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["慶祝", "聖誕節", "聖誕老人"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ubaba ukhisimusi"),
+            keywords: &["insumansumane", "ubaba", "ukhisimusi", "umbungazo"],
         },
     ],
 };
@@ -191,36 +2086,7 @@ pub const SANTA_CLAUS_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     annotations: &[],
 };
 #[doc = "🤶"]
-pub const MRS_CLAUS: crate::Emoji = crate::Emoji {
-    glyph: "🤶",
-    codepoint: "1F936",
-    status: crate::Status::FullyQualified,
-    introduction_version: 3f32,
-    name: "Mrs. Claus",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("Mrs. Claus"),
-            keywords: &[
-                "Christmas",
-                "Mrs.",
-                "Mrs. Claus",
-                "celebration",
-                "claus",
-                "mother",
-            ],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("joulupukin muori"),
-            keywords: &["joulu", "joulupukin muori", "muori"],
-        },
-    ],
-};
+pub const MRS_CLAUS : crate :: Emoji = crate :: Emoji { glyph : "🤶" , codepoint : "1F936" , status : crate :: Status :: FullyQualified , introduction_version : 3f32 , name : "Mrs. Claus" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("Moeder Kersfees") , keywords : & ["Kersfees" , "Kersmoeder" , "Moeder Kersfees" , "moeder" , "viering"] , } , crate :: Annotation { lang : "am" , tts : Some ("የገና እናት") , keywords : & ["እናት" , "ወ/ሮ ከላውስ" , "የገና እናት" , "ገና"] , } , crate :: Annotation { lang : "ar" , tts : Some ("سيدة سانتا كلوز") , keywords : & ["أم" , "سانتا كلوز" , "سيدة سانتا كلوز" , "كريسماس"] , } , crate :: Annotation { lang : "as" , tts : Some ("মিচেচ ক\u{9cd}ল’জ") , keywords : & ["উদয\u{9be}পন" , "ক\u{9cd}ল’জ" , "খ\u{9cd}ৰীষ\u{9cd}টম\u{9be}চ" , "ম\u{9be}ত\u{9c3}" , "মিচেচ ক\u{9cd}ল’জ"] , } , crate :: Annotation { lang : "az" , tts : Some ("xanım Klaus") , keywords : & ["Klaus" , "Milad" , "ana" , "bayram" , "xanım"] , } , crate :: Annotation { lang : "be" , tts : Some ("місіс Клаус") , keywords : & ["каляды" , "місіс Клаус" , "місіс клаус" , "новы год" , "снягурка"] , } , crate :: Annotation { lang : "bg" , tts : Some ("баба коледа") , keywords : & ["баба" , "коледа"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ম\u{9be}দ\u{9be}র খ\u{9cd}রিষ\u{9cd}টম\u{9be}স") , keywords : & ["খ\u{9cd}রিষ\u{9cd}টম\u{9be}স" , "ম\u{9be}" , "ম\u{9be}দ\u{9be}র খ\u{9cd}রিষ\u{9cd}টম\u{9be}স" , "মিসেস ক\u{9cd}লজ"] , } , crate :: Annotation { lang : "br" , tts : Some ("Mamm Nedeleg") , keywords : & ["Mamm Nedeleg" , "Nedeleg" , "fest" , "gouel" , "lid" , "mamm"] , } , crate :: Annotation { lang : "bs" , tts : Some ("Baka Mraz") , keywords : & ["Baka Mraz" , "Božić" , "Djeda Mraz" , "žena"] , } , crate :: Annotation { lang : "ca" , tts : Some ("mare Noel") , keywords : & ["Nadal" , "Noel" , "còfia" , "mare" , "àvia"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᎨᏯ ᎦᏁᎵ. ᏧᏠᎦᎴᏓ") , keywords : & ["ᎠᎨᏯ ᎦᏁᎵ." , "ᎠᎨᏯ ᎦᏁᎵ. ᏧᏠᎦᎴᏓ" , "ᎠᎾᎵᎮᎵᎬᎢ" , "ᎡᏥ" , "ᏓᏂᏍᏓᏲᎯᎲᎢ" , "ᏧᏠᎦᎴᏓ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("Santa Clausová") , keywords : & ["Santa Clausová" , "fantasy" , "matka" , "oslava" , "pohádka" , "santa" , "vánoce"] , } , crate :: Annotation { lang : "cy" , tts : Some ("Siân Corn") , keywords : & ["Siân Corn" , "mam" , "y Nadolig"] , } , crate :: Annotation { lang : "da" , tts : Some ("julemandens kone") , keywords : & ["dame" , "fru julemand" , "jul" , "julekvinde" , "julemandens kone" , "kvinde"] , } , crate :: Annotation { lang : "de" , tts : Some ("Weihnachtsfrau") , keywords : & ["Weihnachten" , "Weihnachtsfrau"] , } , crate :: Annotation { lang : "el" , tts : Some ("Κυρία Άι Βασίλη") , keywords : & ["Άι Βασίλης" , "Κυρία Άι Βασίλη" , "Χριστούγεννα" , "γιορτές"] , } , crate :: Annotation { lang : "en" , tts : Some ("Mrs. Claus") , keywords : & ["Christmas" , "Mrs." , "Mrs. Claus" , "celebration" , "claus" , "mother"] , } , crate :: Annotation { lang : "en_001" , tts : Some ("Mrs Claus") , keywords : & ["Christmas" , "Mrs" , "Mrs Claus" , "celebration" , "claus" , "mother"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["Christmas" , "Mrs Claus" , "Mrs Santa Claus" , "celebration"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("Mrs. Claus") , keywords : & ["Christmas" , "Claus" , "Mother" , "Mrs." , "celebration"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("Mamá Noel") , keywords : & ["Mamá Noel" , "Navidad" , "abuela" , "mamá" , "noel"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["Mamá Noel" , "Navidad" , "mamá" , "mamá noel" , "señora Claus"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["Claus" , "Mamá" , "Navidad" , "Noel" , "Señora" , "fiesta"] , } , crate :: Annotation { lang : "et" , tts : Some ("jõuluvana abikaasa") , keywords : & ["abikaasa" , "jõuluvana"] , } , crate :: Annotation { lang : "eu" , tts : Some ("gabonetako ama") , keywords : & ["ama" , "gabonak" , "gabonetako ama"] , } , crate :: Annotation { lang : "fa" , tts : Some ("مامان نوئل") , keywords : & ["خاله ریزه" , "مادربزرگ" , "مامان بزرگ" , "مامان نوئل" , "پیرزن" , "کریسمس"] , } , crate :: Annotation { lang : "fi" , tts : Some ("joulupukin muori") , keywords : & ["joulu" , "joulupukin muori" , "muori"] , } , crate :: Annotation { lang : "fil" , tts : Some ("Mrs Claus") , keywords : & ["Mrs Claus" , "Mrs. Claus" , "mother christmas" , "nanay" , "pasko"] , } , crate :: Annotation { lang : "fo" , tts : Some ("jólakonan") , keywords : & ["jól" , "jólakona" , "jólakonan" , "kona" , "kvinna"] , } , crate :: Annotation { lang : "fr" , tts : Some ("mère Noël") , keywords : & ["Noël" , "mère"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["Noël" , "célébration" , "fête" , "mère"] , } , crate :: Annotation { lang : "ga" , tts : Some ("Bean Uí Claus") , keywords : & ["Bean Uí Claus" , "bean" , "hata" , "hata nollag" , "nollaig"] , } , crate :: Annotation { lang : "gd" , tts : Some ("bean Bodach na Nollaig") , keywords : & ["bean" , "bean Bodach na Nollaig" , "bodach na nollaig" , "comharrachadh" , "màthair" , "nollaig"] , } , crate :: Annotation { lang : "gl" , tts : Some ("Mamá Noel") , keywords : & ["Mamá Noel" , "Nadal" , "mamá" , "señora Noel"] , } , crate :: Annotation { lang : "gu" , tts : Some ("મધર ક\u{acd}રિસ\u{acd}મસ") , keywords : & ["ક\u{acd}રિસ\u{acd}મસ" , "મધર"] , } , crate :: Annotation { lang : "ha" , tts : Some ("Matar Claus") , keywords : & ["Kirsimati" , "Matar" , "Matar Claus" , "claus" , "shagalin biki" , "uwa"] , } , crate :: Annotation { lang : "he" , tts : Some ("גב׳ סנטה") , keywords : & ["גב׳ סנטה" , "גב’ קלאוס" , "חג המולד" , "סנטה"] , } , crate :: Annotation { lang : "hi" , tts : Some ("मिस\u{947}ज\u{93c} क\u{94d}लाज") , keywords : & ["Mrs.क\u{94d}लॉस" , "क\u{94d}रिस\u{94d}मस" , "मा\u{902}" , "मिस\u{947}ज\u{93c} क\u{94d}लाज"] , } , crate :: Annotation { lang : "hr" , tts : Some ("Baka Mraz") , keywords : & ["Baka Mraz" , "Božić" , "žena"] , } , crate :: Annotation { lang : "hu" , tts : Some ("mikulás ruhás anyó") , keywords : & ["anyó" , "karácsony" , "mikulás ruhás anyó"] , } , crate :: Annotation { lang : "hy" , tts : Some ("Ձմեռ տատ") , keywords : & ["Ձմեռ տատ" , "նոր տարի" , "սուրբ ծնունդ" , "տատիկ"] , } , crate :: Annotation { lang : "id" , tts : Some ("Nyonya Sinterklas") , keywords : & ["Nyonya Sinterklas" , "ibu" , "nenek" , "oma"] , } , crate :: Annotation { lang : "ig" , tts : Some ("Nne Ekeresìmesi") , keywords : & ["Mrs." , "Nne Ekeresìmesi" , "claus" , "ekeresìmesì" , "nne" , "Ènwemụaṅụrị"] , } , crate :: Annotation { lang : "is" , tts : Some ("jólamamma") , keywords : & ["amma" , "jól" , "jólamamma" , "mamma"] , } , crate :: Annotation { lang : "it" , tts : Some ("Mamma Natale") , keywords : & ["Mamma Natale" , "mamma natale" , "natale"] , } , crate :: Annotation { lang : "ja" , tts : Some ("女性のサンタ") , keywords : & ["クリスマス" , "サンタクロース" , "女" , "女性" , "女性のサンタ"] , } , crate :: Annotation { lang : "jv" , tts : Some ("Ibu Klas") , keywords : & ["Ibu Klas" , "Klas" , "Natal" , "ibu" , "pista"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ქალბატონი კლაუსი") , keywords : & ["დედა" , "ქალბატონი კლაუსი" , "შობა"] , } , crate :: Annotation { lang : "kk" , tts : Some ("ақшақар") , keywords : & ["ақшақар"] , } , crate :: Annotation { lang : "kl" , tts : Some ("juledame") , keywords : & ["dame" , "fru julemand" , "jul" , "juledame" , "julekvinde" , "julemandinde" , "kvinde"] , } , crate :: Annotation { lang : "km" , tts : Some ("លោកយាយណ\u{17bc}អែល") , keywords : & ["ការប\u{17d2}រារព\u{17d2}ធ" , "គ\u{17d2}រ\u{17b8}ស\u{17d2}ដស\u{17d2}មាស" , "ប\u{17bb}ណ\u{17d2}យណ\u{17bc}អែល" , "ម\u{17d2}ដាយ" , "យាយណ\u{17bc}អែល" , "លោកយាយណ\u{17bc}អែល"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಕ\u{ccd}ರ\u{cbf}ಸ\u{ccd}\u{200c}ಮಸ\u{ccd} ತಾಯ\u{cbf}") , keywords : & ["ಕ\u{ccd}ರ\u{cbf}ಸ\u{ccd}\u{200c}ಮಸ\u{ccd}" , "ತಾಯ\u{cbf}" , "ಮ\u{cbf}. ಕ\u{ccd}ಲಾಸ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("산타할머니") , keywords : & ["산타" , "산타클로스" , "산타할머니" , "크리스마스"] , } , crate :: Annotation { lang : "kok" , tts : Some ("श\u{94d}रीमती क\u{94d}लॉज") , keywords : & ["श\u{94d}रीमती क\u{94d}लॉज" , "स\u{941}वाळो । नाताळ । क\u{94d}लॉज । आवय । श\u{94d}रीमती. । श\u{94d}रीमती. क\u{94d}लॉज"] , } , crate :: Annotation { lang : "ky" , tts : Some ("миссис клаус") , keywords : & ["миссис клаус" , "рождество"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Dem Kleesche seng Fra") , keywords : & ["Chrëschtdag" , "Dem Kleesche seng Fra" , "Feier" , "Fra" , "Kleeschen" , "Mamm"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ແມ\u{ec8}ຄຣ\u{eb4}ສມາສ") , keywords : & ["ຄຣ\u{eb4}ສມາສ" , "ນາງຄລອສ" , "ແມ\u{ec8}" , "ແມ\u{ec8}ຄຣ\u{eb4}ສມາສ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("ponia Claus") , keywords : & ["Kalėdos" , "mama" , "ponia" , "ponia Claus" , "šventė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("Ziemassvētku omīte") , keywords : & ["Ziemassvētku omīte" , "omīte" , "salavecis" , "ziemassvētki" , "ziemassvētku vecītis"] , } , crate :: Annotation { lang : "mi" , tts : Some ("kuia koko") , keywords : & ["kirihimete" , "koko" , "kuia" , "whaea" , "whakanuinga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("баба мразица") , keywords : & ["баба" , "мразица"] , } , crate :: Annotation { lang : "ml" , tts : Some ("മദർ ക\u{d4d}രിസ\u{d4d}മസ\u{d4d}") , keywords : & ["അമ\u{d4d}മ" , "ക\u{d4d}രിസ\u{d4d}മസ\u{d4d}" , "മദർ ക\u{d4d}രിസ\u{d4d}മസ\u{d4d}" , "മിസിസ\u{d4d} ക\u{d4d}ലോസ\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("Зулсарын хатагтай") , keywords : & ["Зулсар" , "Зулсарын хатагтай" , "Хатагтай" , "эх"] , } , crate :: Annotation { lang : "mr" , tts : Some ("मदर ख\u{94d}रिसमस") , keywords : & ["उत\u{94d}सव" , "क\u{94d}लॉज" , "ख\u{94d}रिसमस" , "मदर" , "श\u{94d}रीमती"] , } , crate :: Annotation { lang : "ms" , tts : Some ("Pn. Claus") , keywords : & ["Pn. Claus" , "ibu" , "krismas" , "puan claus"] , } , crate :: Annotation { lang : "mt" , tts : Some ("Is-Sinjura Klaws") , keywords : & ["Is-Sinjura" , "Klaws" , "il-Milied" , "omm" , "ċelebarazzjoni"] , } , crate :: Annotation { lang : "my" , tts : Some ("မစ\u{1039}စစ\u{103a} စန\u{103a}တာကလော\u{1037}စ\u{103a}") , keywords : & ["ခရစ\u{103a}စမတ\u{103a}" , "မစ\u{1039}စစ\u{103a} စန\u{103a}တာကလော\u{1037}စ\u{103a}" , "မ\u{102d}ခင\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("julenissemor") , keywords : & ["jul" , "julenissemor" , "mor" , "nisse"] , } , crate :: Annotation { lang : "ne" , tts : Some ("श\u{94d}रीमती क\u{94d}लज") , keywords : & ["आमा" , "उत\u{94d}सव" , "क\u{94d}रिस\u{94d}मस" , "क\u{94d}लज" , "श\u{94d}रीमती" , "श\u{94d}रीमान\u{94d}"] , } , crate :: Annotation { lang : "nl" , tts : Some ("kerstvrouw") , keywords : & ["kerstmis" , "kerstvrouw" , "moedertje kerst"] , } , crate :: Annotation { lang : "nn" , tts : Some ("julenissemor") , keywords : & ["jul" , "julenissemor" , "mor" , "nisse"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଶ\u{b4d}ରୀମତୀ କ\u{b4d}ଲସ\u{b4d}\u{200d}") , keywords : & ["ଖ\u{b4d}ରୀଷ\u{b4d}ଟମ\u{b3e}ସ\u{b4d} । ଉତ\u{b4d}ସବ ପ\u{b3e}ଳନ । ମ\u{b3e}ଆ । ଶ\u{b4d}ରୀମତୀ । କ\u{b4d}ଲସ\u{b4d}\u{200d}" , "ଶ\u{b4d}ରୀମତୀ କ\u{b4d}ଲସ\u{b4d}\u{200d}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਸ\u{a3c}\u{a4d}ਰੀਮਤੀ ਕਲਾਜ\u{a3c}") , keywords : & ["ਕ\u{a4d}ਰਿਸਮਿਸ" , "ਮਾ\u{a02}" , "ਸ\u{a3c}\u{a4d}ਰੀਮਤੀ ਕਲਾਜ\u{a3c}"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("مسز کلاز") , keywords : & ["جزو" , "ماں" , "مسز" , "مسز کلاز" , "منانا" , "کرسمس"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Misis Klọz") , keywords : & ["Klọz" , "Krísmas" , "Mamá" , "Misis" , "Mọ\u{301}da" , "Sẹlibréshọn"] , } , crate :: Annotation { lang : "pl" , tts : Some ("żona św. Mikołaja") , keywords : & ["mikołaj" , "mikołajowa" , "święta" , "żona św. Mikołaja"] , } , crate :: Annotation { lang : "ps" , tts : Some ("ميرمن کلاز") , keywords : & ["سانټا" , "لمانځل" , "مور" , "ميرمن کلاز" , "کرسمس" , "کلاز"] , } , crate :: Annotation { lang : "pt" , tts : Some ("Mamãe Noel") , keywords : & ["Mamãe Noel" , "Natal" , "Noel" , "comemoração"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("mãe natal") , keywords : & ["mãe" , "natal" , "senhora Noel"] , } , crate :: Annotation { lang : "qu" , tts : Some ("Mama Noel") , keywords : & ["Mama Noel" , "Navidad" , "mama" , "noel" , "raymi"] , } , crate :: Annotation { lang : "ro" , tts : Some ("Doamna Crăciun") , keywords : & ["Crăciun" , "Doamna Crăciun" , "doamna" , "sărbătoare"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1048") , keywords : & ["E10-1048"] , } , crate :: Annotation { lang : "ru" , tts : Some ("миссис Клаус") , keywords : & ["миссис Клаус" , "миссис клаус" , "новый год" , "рождество" , "снегурочка"] , } , crate :: Annotation { lang : "rw" , tts : Some ("Mama Noheli") , keywords : & ["Mama Noheli" , "Noheli" , "ibirori" , "madamazela." , "mama" , "papa Noheli"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڪلاز جي مائي") , keywords : & ["ڪرشمس، جشن، ماء\u{64f}، مائي، ڪلاز" , "ڪلاز جي مائي"] , } , crate :: Annotation { lang : "si" , tts : Some ("නතල\u{dca} ආච\u{dca}ච\u{dd2}") , keywords : & ["අම\u{dca}ම\u{dcf}" , "නතල\u{dca} ආච\u{dca}ච\u{dd2}" , "නත\u{dca}තල"] , } , crate :: Annotation { lang : "sk" , tts : Some ("pani Santová") , keywords : & ["oslava" , "pani Santová" , "santa" , "vianoce" , "žena"] , } , crate :: Annotation { lang : "sl" , tts : Some ("gospa Božiček") , keywords : & ["Božič" , "gospa" , "gospa Božiček"] , } , crate :: Annotation { lang : "so" , tts : Some ("Marwada Masiixigga") , keywords : & ["Alla ka cabsi" , "Marwada Masiixigga" , "Marwo" , "ciidda masiixigga" , "dabbaaldeg" , "hooyo"] , } , crate :: Annotation { lang : "sq" , tts : Some ("gjyshe krishtlindjesh") , keywords : & ["gjyshe" , "gjyshe krishtlindjesh" , "krishtlindje"] , } , crate :: Annotation { lang : "sr" , tts : Some ("бака Мраз") , keywords : & ["бака" , "бака Мраз" , "божић" , "мраз"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("baka Mraz") , keywords : & ["baka" , "baka Mraz" , "božić" , "mraz"] , } , crate :: Annotation { lang : "sv" , tts : Some ("tomtemor") , keywords : & ["jul" , "mor" , "nisse" , "tomtemor"] , } , crate :: Annotation { lang : "sw" , tts : Some ("mkongwe") , keywords : & ["bibi" , "mkongwe" , "nyanya"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("கிறிஸ\u{bcd}துமஸ\u{bcd} ப\u{bbe}ட\u{bcd}டி") , keywords : & ["கிறிஸ\u{bcd}துமஸ\u{bcd}" , "ச\u{bbe}ன\u{bcd}ட\u{bbe}" , "த\u{bbe}த\u{bcd}த\u{bbe}" , "ப\u{bbe}ட\u{bcd}டி"] , } , crate :: Annotation { lang : "te" , tts : Some ("శ\u{c4d}ర\u{c40}మత\u{c3f} శ\u{c3e}ంట\u{c3e}") , keywords : & ["క\u{c4d}ర\u{c3f}స\u{c4d}మస\u{c4d}" , "తల\u{c4d}ల\u{c3f}" , "మ\u{c3f}స\u{c46}స\u{c4d} క\u{c4d}ల\u{c3e}జ\u{c4d}" , "శ\u{c4d}ర\u{c40}మత\u{c3f} శ\u{c3e}ంట\u{c3e}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("Хонум Клаус") , keywords : & ["Мавлуди Исо" , "Хонум Клаус" , "клаус" , "модар" , "хонум" , "ҷашн"] , } , crate :: Annotation { lang : "th" , tts : Some ("นางซานต\u{e49}า") , keywords : & ["คร\u{e34}สต\u{e4c}มาส" , "นางซานต\u{e49}า" , "นางแซนต\u{e49}า" , "แม\u{e48}"] , } , crate :: Annotation { lang : "tk" , tts : Some ("Aýaz mama") , keywords : & ["Aýaz mama" , "Hanym" , "Roždestwo" , "baýramçylyk" , "eje" , "klaus"] , } , crate :: Annotation { lang : "to" , tts : Some ("Sānita Kalausi fefine") , keywords : & ["Sānita Kalausi" , "Sānita Kalausi fefine" , "fefine"] , } , crate :: Annotation { lang : "tr" , tts : Some ("Noel Anne") , keywords : & ["Noel Anne" , "anne" , "noel"] , } , crate :: Annotation { lang : "ug" , tts : Some ("مىلاد موماي") , keywords : & ["بايرام" , "تەبرىكلەش" , "مىلاد" , "مىلاد موماي"] , } , crate :: Annotation { lang : "uk" , tts : Some ("Пані Клаус") , keywords : & ["Пані Клаус" , "Різдво" , "жінка"] , } , crate :: Annotation { lang : "ur" , tts : Some ("مدر کرسمس") , keywords : & ["مدر" , "کرسمس"] , } , crate :: Annotation { lang : "uz" , tts : Some ("qorqiz") , keywords : & ["qorqiz" , "rojdestvo"] , } , crate :: Annotation { lang : "vi" , tts : Some ("mẹ giáng sinh") , keywords : & ["bà già Noel" , "giáng sinh" , "mẹ" , "mẹ giáng sinh"] , } , crate :: Annotation { lang : "wo" , tts : Some ("meer nowel") , keywords : & ["meer" , "màggal" , "nowel" , "yaay"] , } , crate :: Annotation { lang : "xh" , tts : Some ("UNksz. Claus") , keywords : & ["UNksz. Claus" , "ikrismesi" , "u-claus" , "uNksz." , "umama" , "umbhiyozo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Arabinrin Keresi") , keywords : & ["Arabinrin Keresi" , "[kẹrẹsí" , "ayẹyẹ" , "kérésì" , "omidan" , "ìyá"] , } , crate :: Annotation { lang : "yue" , tts : Some ("女聖誕老人") , keywords : & ["女聖誕老人" , "媽媽" , "慶祝" , "聖誕節"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("女圣诞老人") , keywords : & ["圣诞节" , "女圣诞老人" , "妈妈" , "庆祝"] , } , crate :: Annotation { lang : "zh" , tts : Some ("圣诞奶奶") , keywords : & ["圣诞" , "圣诞奶奶" , "奶奶" , "老妈"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("聖誕老奶奶") , keywords : & ["奶" , "老" , "聖" , "聖誕老奶奶" , "誕"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("聖誕婆婆") , keywords : & ["慶祝" , "聖誕婆婆" , "聖誕節"] , } , crate :: Annotation { lang : "zu" , tts : Some ("umama kakhisimusi") , keywords : & ["uNkosikazi Claus" , "ukhisimuzi" , "umama" , "umama kakhisimusi"] , }] , } ;
 #[doc = "🤶🏻"]
 pub const MRS_CLAUS_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "🤶🏻",
@@ -299,14 +2165,584 @@ pub const MX_CLAUS: crate::Emoji = crate::Emoji {
     variants: &[],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("mx claus"),
+            keywords: &["Claus, Kersfeess", "mx claus"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ሚክስ ክላውስ"),
+            keywords: &["ሚክስ ክላውስ", "ክላውስ, ገና"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("كلوز"),
+            keywords: &["عيد الميلاد", "كلوز"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("মেক\u{9cd}স ক\u{9cd}ল’জ"),
+            keywords: &[
+                "ক\u{9cd}ল’জ, খ\u{9cd}ৰীষ\u{9cd}টম\u{9be}চ",
+                "মেক\u{9cd}স ক\u{9cd}ল’জ",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("mx klaus"),
+            keywords: &["Klaus, milad", "mx klaus"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("спадарыня Клаус"),
+            keywords: &["Клаус, каляды, Раство", "спадарыня Клаус"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("г-х коледа"),
+            keywords: &["г-х коледа", "коледа"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ম\u{9cd}য\u{9be}ক\u{9cd}স ক\u{9cd}লস"),
+            keywords: &[
+                "কল\u{9cd}স, ক\u{9cd}রিসম\u{9be}স",
+                "ম\u{9cd}য\u{9be}ক\u{9cd}স ক\u{9cd}লস",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("g. Mraz"),
+            keywords: &["Djeda Mraz, božić", "g. Mraz"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("Noel"),
+            keywords: &["Noel", "Noel, Nadal"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏧᏠᏱ ᏧᏠᎦᎴᏓ"),
+            keywords: &["ᏧᏠᎦᎴᏓ, ᏓᏂᏍᏓᏲᎯᎲᎢ", "ᏧᏠᏱ ᏧᏠᎦᎴᏓ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("Santa"),
+            keywords: &[
+                "Santa",
+                "fantasy",
+                "oslava",
+                "pohádka",
+                "santa",
+                "santa claus",
+                "vánoce",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("mx claus"),
+            keywords: &["Claus, nadolig", "mx claus"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("julenisse"),
+            keywords: &["jul", "julenisse", "nisse"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Weihnachtsperson"),
+            keywords: &["Weihnachten", "Weihnachtsperson"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("Άγιος Βασίλης"),
+            keywords: &["Άγιος Βασίλης", "Άι Βασίλης", "Χριστούγεννα"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("mx claus"),
             keywords: &["Claus, christmas", "mx claus"],
         },
         crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("Mx. Claus"),
+            keywords: &["Claus, Christmas", "Mx. Claus"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("Noel"),
+            keywords: &["Navidad", "Noel", "noel"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("papá noel"),
+            keywords: &["Claus", "Navidad", "Papá Noel", "Santa", "papá noel"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["Claus", "Navidad", "Santa Claus", "papá noel"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("päkats"),
+            keywords: &["päkapikk", "päkapikk, jõulud", "päkats"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("bizarzuri"),
+            keywords: &["bizar zuri", "bizarzuri"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("نوئل"),
+            keywords: &["نوئل", "نوئل، کریسمس"],
+        },
+        crate::Annotation {
             lang: "fi",
             tts: Some("tonttu"),
             keywords: &["joulutonttu", "tonttu"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("mx claus"),
+            keywords: &["Claus, pasko", "mx claus"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("santa"),
+            keywords: &["Santa, noël", "santa"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("personnage de Noël"),
+            keywords: &["Noël", "personnage de Noël"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("Saintí"),
+            keywords: &["Saintí"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("Neach na Nollaig"),
+            keywords: &[
+                "Neach na Nollaig",
+                "bean Bodach na Nollaig",
+                "bodach na Nollaig",
+                "neach",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("señora Noel"),
+            keywords: &["Nadal", "Noel", "señora Noel"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("એમએક\u{acd}સ ક\u{acd}લોઝ"),
+            keywords: &["એમએક\u{acd}સ ક\u{acd}લોઝ", "ક\u{acd}લોઝ, નાતાલ"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("קלאוס"),
+            keywords: &["גב׳ סנטה", "גב’ קלאוס", "חג המולד", "סנטה", "קלאוס"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("एम एक\u{94d}स क\u{94d}ला\u{945}\u{945}\u{945}\u{945}ज\u{93c}"),
+            keywords: &[
+                "एम एक\u{94d}स क\u{94d}ला\u{945}\u{945}\u{945}\u{945}ज\u{93c}",
+                "एम एक\u{94d}स क\u{94d}लॉज\u{93c}",
+                "क\u{94d}ला\u{945}\u{945}\u{945}\u{945}ज\u{93c}, क\u{94d}रिसमस",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("osoba Mraz"),
+            keywords: &["Mraz, Božić", "osoba Mraz"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("télapó"),
+            keywords: &["Mikulás, karácsony", "télapó"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("Ձմեռ պապ"),
+            keywords: &["Ձմեռ պապ", "Ձմեռ պապ, Սուրբ ծնունդ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("manusia sinterklas"),
+            keywords: &["Natal, Sinterklas", "manusia sinterklas"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("frú sveinki"),
+            keywords: &["Sveinki, jól", "frú sveinki"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("Santa Claus"),
+            keywords: &["Claus, Natale", "Santa Claus"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("サンタさん"),
+            keywords: &["クリスマス", "サンタさん", "サンタクロース"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("bapa/ibu klas"),
+            keywords: &["Klas, natal", "bapa/ibu klas"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("სანტა"),
+            keywords: &["კლაუსი", "სანტა", "შობა"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("клаус мырза"),
+            keywords: &["Клаус, рождество", "клаус мырза"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ប\u{17bb}រសណ\u{17bc}អែល"),
+            keywords: &[
+                "ប\u{17bb}ណ\u{17d2}យណ\u{17bc}អែល គ\u{17d2}រ\u{17b8}ស\u{17d2}តស\u{17d2}មាស",
+                "ប\u{17bb}រសណ\u{17bc}អែល",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಎಂಎಕ\u{ccd}ಸ\u{ccd}\u{200c} ಕ\u{ccd}ಲಾಸ\u{ccd}\u{200c}"),
+            keywords: &[
+                "ಎಂಎಕ\u{ccd}ಸ\u{ccd}\u{200c} ಕ\u{ccd}ಲಾಸ\u{ccd}\u{200c}",
+                "ಕ\u{ccd}ಲಾಸ\u{ccd}, ಕ\u{ccd}ರ\u{cbf}ಸ\u{ccd}\u{200c}ಮಸ\u{ccd}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("산타"),
+            keywords: &["산타", "산타클로스", "크리스마스"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("म\u{945}क\u{94d}स क\u{94d}लॉज"),
+            keywords: &[
+                "क\u{94d}लॉज, नाताळ । म\u{945}क\u{94d}स क\u{94d}लॉज",
+                "म\u{945}क\u{94d}स क\u{94d}लॉज",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("клаус"),
+            keywords: &["Клаус, рождество", "клаус", "рожд клаус"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຄລ\u{eb1}ອສ (ບ\u{ecd}\u{ec8}\u{200b}ລະ\u{200b}ບ\u{eb8}\u{200b}ເພດ)"),
+            keywords: &[
+                "ຄລ\u{eb1}ອສ (ບ\u{ecd}\u{ec8}\u{200b}ລະ\u{200b}ບ\u{eb8}\u{200b}ເພດ)",
+                "ຄລ\u{eb1}ອສ, ຄຣ\u{eb4}ສມາສ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("Kalėdų asmuo"),
+            keywords: &["Kalėdos", "Kalėdų asmuo"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("dzimumneitrāls santaklauss"),
+            keywords: &["Ziemassvētku santaklauss", "dzimumneitrāls santaklauss"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("лице Мраз"),
+            keywords: &["Мраз, Божиќ", "лице Мраз"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("എംഎക\u{d4d}സ\u{d4d} സ\u{d3e}ൻറക\u{d4d}ലോസ\u{d4d}"),
+            keywords: &[
+                "എംഎക\u{d4d}സ\u{d4d} സ\u{d3e}ൻറക\u{d4d}ലോസ\u{d4d}",
+                "സ\u{d3e}ൻറക\u{d4d}ലോസ\u{d4d}, ക\u{d4d}രിസ\u{d4d}മസ\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("хатагтай клаус"),
+            keywords: &["Клаус, зул сар", "хатагтай клаус"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("mx क\u{94d}लॉज"),
+            keywords: &[
+                "mx क\u{94d}लॉज",
+                "क\u{94d}लॉज, ख\u{94d}रिसमस । mx क\u{94d}लॉज",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("orang claus"),
+            keywords: &["Claus, krismas", "orang claus"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("မစ\u{1039}စ\u{103a} ကလော\u{1037}စ\u{103a}"),
+            keywords: &[
+                "ခရစ\u{103a}စမတ\u{103a} ကလော\u{1037}စ\u{103a}",
+                "မစ\u{1039}စ\u{103a} ကလော\u{1037}စ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("julenisse"),
+            keywords: &["feiring", "jul", "julenisse", "nisse", "person"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("म\u{947}क\u{94d}स क\u{94d}लज"),
+            keywords: &[
+                "क\u{94d}लज, क\u{94d}रिस\u{94d}मस",
+                "म\u{947}क\u{94d}स क\u{94d}लज",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("kersttransgender"),
+            keywords: &["Kerstman, kerst", "kersttransgender"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("julenisse"),
+            keywords: &["feiring", "jul", "julenisse", "nisse", "person"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ମେକ\u{b4d}ସ କ\u{b4d}ଲସ\u{b4d}"),
+            keywords: &[
+                "କ\u{b4d}ଲସ\u{b4d}, ଖ\u{b4d}ରୀଷ\u{b4d}ଟମ\u{b3e}ସ",
+                "ମେକ\u{b4d}ସ କ\u{b4d}ଲସ\u{b4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਐਮਐਕਸ ਕਲਾਜ\u{a3c}"),
+            keywords: &["ਐਮਐਕਸ ਕਲਾਜ\u{a3c}", "ਕਲਾਜ\u{a3c}, ਕ\u{a4d}ਰਿਸਮਸ"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Mx Klọz"),
+            keywords: &["Klọz, Krísmas", "Mx Klọz"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("Mikołajka"),
+            keywords: &["Boże Narodzenie", "Mikołaj", "Mikołajka", "święta"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("میکس کلاز"),
+            keywords: &["میکس کلاز", "کلاز، کرسمس"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("noel"),
+            keywords: &["Noel, natal", "noel"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("Sra. Natal"),
+            keywords: &["Natal", "Sra. Natal"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("mx claus"),
+            keywords: &["Claus, navidad", "mx claus"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("Crăciun"),
+            keywords: &["Crăciun"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E13-084"),
+            keywords: &["E13-084"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("Санта"),
+            keywords: &["Дед Мороз", "Клаус", "Новый год", "Рождество", "Санта"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("مڪس ڪلاز"),
+            keywords: &["مڪس ڪلاز", "ڪلاز، ڪرسمس"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("නත\u{dca}තල\u{dca} ස\u{dd3}ය"),
+            keywords: &[
+                "නත\u{dca}තල\u{dca} ස\u{dd3}ය",
+                "නත\u{dca}තල\u{dca} ස\u{dd3}ය\u{dcf}",
+                "ස\u{dd3}ය\u{dcf}, නත\u{dca}තල",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("Mx Santa"),
+            keywords: &["Mx Santa", "oslava", "santa", "vianoce"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("mx božiček"),
+            keywords: &["božiček, božič", "mx božiček"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("mx claus"),
+            keywords: &["Claus, ciida masiixiga", "mx claus"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("zx klaus"),
+            keywords: &["Klaus, krishtlindje", "zx klaus"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("особа Мраз"),
+            keywords: &["Мраз, Божић", "особа Мраз"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("osoba Mraz"),
+            keywords: &["Mraz, Božić", "osoba Mraz"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("könsneutral tomte"),
+            keywords: &["könsneutral tomte", "tomte, jul"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kichimbakazi yeyote"),
+            keywords: &["kichimbakazi yeyote", "kichimbakazi, krismasi"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("மேக\u{bcd}ஸ\u{bcd} க\u{bcd}ள\u{bbe}ஸ\u{bcd}"),
+            keywords: &[
+                "க\u{bcd}ள\u{bbe}ஸ\u{bcd}, கிறிஸ\u{bcd}துமஸ\u{bcd}",
+                "மேக\u{bcd}ஸ\u{bcd} க\u{bcd}ள\u{bbe}ஸ\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("మ\u{c3e}క\u{c4d}స\u{c4d} క\u{c4d}ల\u{c4c}జ\u{c4d}"),
+            keywords: &[
+                "క\u{c4d}ల\u{c4c}జ\u{c4d}, క\u{c4d}ర\u{c3f}స\u{c4d}టమస\u{c4d}",
+                "మ\u{c3e}క\u{c4d}స\u{c4d} క\u{c4d}ల\u{c4c}జ\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ซานตาคลอส"),
+            keywords: &["ซานตาคลอส", "ซานต\u{e49}า, คร\u{e34}สต\u{e4c}มาส"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("maks klaus"),
+            keywords: &["Klaus, roždestwo", "maks klaus"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("Sānita Kalausi tokotaha"),
+            keywords: &["Sānita Kalausi tokotaha"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("cinsiyet belirtmeyen noel karakteri"),
+            keywords: &["Noel figürü", "cinsiyet belirtmeyen noel karakteri", "noel"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("Мікс Клаус"),
+            keywords: &["Мікс Клаус"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("میکس کلاؤز"),
+            keywords: &["میکس کلاؤز", "کلاؤز، کرسمس"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("miks-klauz"),
+            keywords: &["klauz, rojdestvo", "miks-klauz"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("bà già Noel"),
+            keywords: &["Noel, giáng sinh", "bà già Noel"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("聖誕打扮"),
+            keywords: &["打扮", "聖誕打扮", "聖誕老人"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("圣诞打扮"),
+            keywords: &["圣诞打扮", "圣诞老人", "打扮"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("圣诞人"),
+            keywords: &["人", "圣诞", "圣诞人"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("跨性別聖誕老人"),
+            keywords: &["聖誕老人", "跨性別聖誕老人"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("跨性別聖誕老人"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("u-mx claus"),
+            keywords: &["Claus, ukhisimusi", "mx claus", "u-mx claus"],
         },
     ],
 };
@@ -388,9 +2824,205 @@ pub const SUPERHERO: crate::Emoji = crate::Emoji {
     variants: &[],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("superheld"),
+            keywords: &["goeie", "held", "heldin", "superheld", "superkrag"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ጀግና"),
+            keywords: &["ጀግና", "ጀግና ሴት", "ጥሩ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("بطل خارق"),
+            keywords: &["بطل", "بطل خارق", "بطلة", "طيب", "قوة خارقة"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("চ\u{9c1}প\u{9be}ৰহিৰ’"),
+            keywords: &[
+                "চ\u{9c1}প\u{9be}ৰপ\u{9be}ৱ\u{9be}ৰ",
+                "চ\u{9c1}প\u{9be}ৰহিৰ’",
+                "ভ\u{9be}ল",
+                "হিৰ’",
+                "হিৰ’ইন",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("superqəhrəman"),
+            keywords: &["qəhrəman", "supergüc", "superqəhrəman", "xeyirxah"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("супергерой"),
+            keywords: &["гераіня", "герой", "дабро", "супергерой", "суперсіла"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("жена супергерой"),
+            keywords: &[
+                "героиня",
+                "героична",
+                "добра",
+                "жена супергерой",
+                "суперсили",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("স\u{9c1}প\u{9be}রহিরো"),
+            keywords: &[
+                "ভ\u{9be}লো",
+                "স\u{9c1}প\u{9be}রপ\u{9be}ওয\u{9bc}\u{9be}র",
+                "স\u{9c1}প\u{9be}রহিরো",
+                "হিরো",
+                "হিরোইন",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("gourharoz"),
+            keywords: &["gourharoz", "haroz"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("superheroj"),
+            keywords: &["dobro", "heroina", "heroj", "superheroj", "supermoć"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("superheroi"),
+            keywords: &["bo", "heroi", "heroïna", "superheroi", "súperpoder"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏄᎬᏫᏳᏒᎩ ᏩᏥᎸᏉᏛ"),
+            keywords: &["ᎣᏍᏓ", "ᏄᎬᏫᏳᏒᎩ ᎤᏟᏂᎩᏓ", "ᏄᎬᏫᏳᏒᎩ ᏩᏥᎸᏉᏛ", "ᏩᏥᎸᏉᏛ", "ᏬᏂᎸᏉᏛᎢ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("superhrdinská postava"),
+            keywords: &[
+                "hrdina",
+                "hrdinka",
+                "kladná postava",
+                "superhrdina",
+                "superhrdinka",
+                "superhrdinská postava",
+                "superschopnost",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("archarwr"),
+            keywords: &["archarwr", "archbŵer", "arwr", "arwres", "da"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("superhelt"),
+            keywords: &["god", "helt", "heltinde", "superhelt", "superkraft"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Superheld(in)"),
+            keywords: &[
+                "Comic",
+                "Held",
+                "Superheld",
+                "Superheld(in)",
+                "Superkraft",
+                "gut",
+                "Übermensch",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("υπερήρωας"),
+            keywords: &["ήρωας", "ηρωίδα", "καλός", "υπερήρωας", "υπερδύναμη"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("superhero"),
             keywords: &["good", "hero", "heroine", "superhero", "superpower"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("personaje de superhéroe"),
+            keywords: &[
+                "bien",
+                "heroína",
+                "héroe",
+                "personaje de superhéroe",
+                "superheroína",
+                "superhéroe",
+                "superpoder",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("superheroína"),
+            keywords: &["bien", "heroína", "héroe", "superheroína", "superpoder"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("superkangelane"),
+            keywords: &[
+                "hea",
+                "kangelane",
+                "kangelanna",
+                "superkangelane",
+                "supervõime",
+            ],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("superheroi"),
+            keywords: &["heroi", "on", "superbotere", "superheroi"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("ابرقهرمان"),
+            keywords: &[
+                "ابرقدرت",
+                "ابرقهرمان",
+                "خوب",
+                "دلاور",
+                "شیرزن",
+                "شیرمرد",
+                "قهرمان",
+            ],
         },
         crate::Annotation {
             lang: "fi",
@@ -403,6 +3035,599 @@ pub const SUPERHERO: crate::Emoji = crate::Emoji {
                 "supersankari",
                 "supervoimat",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("superhero"),
+            keywords: &[
+                "babaeng superhero",
+                "hero",
+                "heroine",
+                "superhero",
+                "superpower",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("superhetja"),
+            keywords: &["góður", "hetja", "super", "superhetja", "yvirnátúrligur"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("super-héros"),
+            keywords: &["bien", "heroïne", "héros", "super-héros", "super-pouvoir"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("superhéros"),
+            keywords: &["gentil", "héros", "héroïne", "super pouvoirs", "superhéros"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("sárlaoch"),
+            keywords: &["banlaoch", "laoch", "maith", "sárchumhacht", "sárlaoch"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("sàr-ghaisgeach"),
+            keywords: &[
+                "cumhachd",
+                "gaisgeach",
+                "math",
+                "oil-chumhachd",
+                "super",
+                "sàr-ghaisgeach",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("heroe"),
+            keywords: &["heroe", "superheroe", "superheroína", "superpoderes"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સ\u{ac1}પરહીરો"),
+            keywords: &[
+                "ગ\u{ac1}ણવાન",
+                "સ\u{ac1}પરપાવર",
+                "સ\u{ac1}પરહીરો",
+                "હીરો",
+                "હીરોઇન",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("גיבור על"),
+            keywords: &[
+                "גיבור",
+                "גיבור על",
+                "גיבורה",
+                "גיבורת על",
+                "טוב",
+                "כוחות על",
+            ],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("स\u{941}परहीरो"),
+            keywords: &[
+                "बढ\u{93c}िया",
+                "स\u{941}परपॉवर",
+                "स\u{941}परहीरो",
+                "हीरो",
+                "हीरोइन",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("superheroj"),
+            keywords: &[
+                "dobročinitelj",
+                "junak",
+                "junakinja",
+                "superheroj",
+                "supermoći",
+            ],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("szuperhős"),
+            keywords: &["hős", "hősnő", "jó", "szuperhős", "szuperképesség"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("սուպերհերոս"),
+            keywords: &["գերուժ", "լավ", "հերոս", "հերոսուհի", "սուպերհերոս"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("pahlawan super"),
+            keywords: &[
+                "baik",
+                "kekuatan super",
+                "pahlawan",
+                "pahlawan super",
+                "pahlawan wanita",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("ofurhetja"),
+            keywords: &["góð", "hetja", "kvenhetja", "ofurhetja", "ofurkraftur"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("supereroe"),
+            keywords: &["eroina", "supereroe", "supereroina", "superpoteri"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("スーパーヒーロー"),
+            keywords: &["スーパーヒーロー", "ヒロイン", "ヒーロー", "善", "超人"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("satriya mandraguna"),
+            keywords: &[
+                "becik",
+                "kadigdayan linuwih",
+                "satriya",
+                "satriya mandraguna",
+                "srikandhi",
+            ],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("სუპერგმირი"),
+            keywords: &["ზებუნებრივი", "კეთილი", "სუპერგმირი", "ქალი გმირი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("супер батыр"),
+            keywords: &["батыр", "жақсы", "супер батыр", "супер күш"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ក\u{17c6}ព\u{17bc}លវ\u{17b8}រជន"),
+            keywords: &[
+                "ក\u{17c6}ព\u{17bc}លវ\u{17b8}រជន",
+                "ថាមពលព\u{17b7}សេស",
+                "ល\u{17d2}អ",
+                "វ\u{17b8}រនារ\u{17b8}",
+                "វ\u{17b8}រប\u{17bb}រស",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಹೀರೊ"),
+            keywords: &[
+                "ಉತ\u{ccd}ತಮ",
+                "ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಪವರ\u{ccd}",
+                "ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಹೀರೊ",
+                "ಹೀರೊ",
+                "ಹೀರೊಯ\u{cbf}ನ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("히로인"),
+            keywords: &["정의", "초능력", "히로인", "히어로"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("स\u{941}परहिरो"),
+            keywords: &[
+                "उत\u{94d}तम",
+                "स\u{941}परपावर",
+                "स\u{941}परहिरो",
+                "हिरो",
+                "हिरोईन",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("супер баатыр"),
+            keywords: &[
+                "баатыр",
+                "баатыр кыз",
+                "жакшы",
+                "супер баатыр",
+                "эбегейсиз зор күч",
+            ],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ສ\u{eb8}ດຍອດພະເອກ"),
+            keywords: &[
+                "ຈອມພະລ\u{eb1}ງ",
+                "ດ\u{eb5}",
+                "ບ\u{eb1}ນຈອມພະລ\u{eb1}ງ",
+                "ພະເອກ",
+                "ມາດພະເອກ",
+                "ສ\u{eb8}ດຍອດພະເອກ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("superherojus"),
+            keywords: &["geras", "herojus", "herojė", "supergalia", "superherojus"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("supervaronis"),
+            keywords: &["labais", "superspēks", "supervaronis", "varone", "varonis"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("суперхерој"),
+            keywords: &["добро", "суперсила", "суперхерој", "хероина", "херој"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("സ\u{d42}പ\u{d4d}പർഹീറോ"),
+            keywords: &[
+                "അമ\u{d3e}ന\u{d41}ഷികശക\u{d4d}തി",
+                "നല\u{d4d}ലത\u{d4d}",
+                "ന\u{d3e}യകൻ",
+                "ന\u{d3e}യിക",
+                "സ\u{d42}പ\u{d4d}പർഹീറോ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("супер баатар"),
+            keywords: &["баатар", "сайн", "супер баатар", "супер хүч"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("स\u{941}परहिरो"),
+            keywords: &["छान", "स\u{941}परपॉवर", "स\u{941}परहिरो", "हिरो", "हिरोइन"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("adiwira"),
+            keywords: &[
+                "adi wira",
+                "adiwira",
+                "baik",
+                "sangat berkuasa",
+                "wira",
+                "wirawati",
+            ],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("လ\u{1030}စ\u{103d}မ\u{103a}းကောင\u{103a}း"),
+            keywords: &[
+                "ကောင\u{103a}းမ\u{103d}န\u{103a}ခြင\u{103a}း",
+                "လ\u{1030}စ\u{103d}မ\u{103a}းကောင\u{103a}း",
+                "သ\u{1030}ရ\u{1032}ကောင\u{103a}း",
+                "အစ\u{103d}မ\u{103a}း",
+                "အမျ\u{102d}\u{102f}းသမ\u{102e}း လ\u{1030}စ\u{103d}မ\u{103a}းကောင\u{103a}း",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("superhelt"),
+            keywords: &["god", "helt", "heltinne", "superhelt", "superkrefter"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("स\u{941}परहिरो"),
+            keywords: &[
+                "राम\u{94d}रो",
+                "स\u{941}परपावर",
+                "स\u{941}परहिरो",
+                "हिरो",
+                "हिरोइन",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("superheld"),
+            keywords: &["goed", "held", "heldin", "superheld", "superkrachten"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("superhelt"),
+            keywords: &["god", "helt", "heltinne", "superhelt", "superkrefter"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ସ\u{b41}ପର\u{b4d}\u{200c}ହ\u{b3f}ରୋ"),
+            keywords: &[
+                "ଭଲ",
+                "ସ\u{b41}ପର\u{b4d}\u{200c} ପ\u{b3e}ୱ\u{b3e}ର",
+                "ସ\u{b41}ପର\u{b4d}\u{200c}ହ\u{b3f}ରୋ",
+                "ହ\u{b3f}ରୋ",
+                "ହ\u{b3f}ରୋଇନ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਸ\u{a41}ਪਰ-ਹੀਰ\u{a4b}"),
+            keywords: &[
+                "ਵਧੀਆ",
+                "ਸ\u{a41}ਪਰ-ਹੀਰ\u{a4b}",
+                "ਸ\u{a41}ਪਰਪਾਵਰ",
+                "ਹੀਰ\u{a4b}",
+                "ਹੀਰ\u{a4b}ਇਨ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Supahíro"),
+            keywords: &["Bẹtá", "Gud", "Híro", "Supahíro", "Supapáwa", "Wúmán Híro"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("superbohater"),
+            keywords: &[
+                "bohater",
+                "bohaterka",
+                "pozytywny",
+                "superbohater",
+                "supermoc",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("لوي اتل"),
+            keywords: &["اتل", "اتله", "لوي اتل", "لوي قوت", "ښه"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("super-herói"),
+            keywords: &[
+                "boa",
+                "bom",
+                "heroína",
+                "herói",
+                "super-herói",
+                "superpoder",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["bom", "heroína", "herói", "super-herói", "superpoder"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("superheroe"),
+            keywords: &["allin", "heroe", "heroina", "superheroe", "superpoder"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("supererou"),
+            keywords: &[
+                "bun",
+                "eroină",
+                "erou",
+                "supererou",
+                "superputere",
+                "superputeri",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E11-041"),
+            keywords: &["E11-041"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("супергерой"),
+            keywords: &["героиня", "герой", "супергерой", "супермен", "суперсила"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("سپر هيرو"),
+            keywords: &["بهترين", "سپر هيرو", "سپر پاور", "هيرو", "هيروئين"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ස\u{dd4}ප\u{dd2}ර\u{dd2} ව\u{dd3}රය\u{dcf}"),
+            keywords: &[
+                "ව\u{dd3}රයෙක\u{dca}",
+                "ස\u{dd4}ප\u{dd2}ර\u{dd2} බලයක\u{dca}",
+                "ස\u{dd4}ප\u{dd2}ර\u{dd2} ව\u{dd3}රය\u{dcf}",
+                "හෙරෝය\u{dd2}න\u{dca}",
+                "හොඳය\u{dd2}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("superhrdina"),
+            keywords: &[
+                "hrdina",
+                "hrdinka",
+                "superhrdina",
+                "superschopnosť",
+                "superčlovek",
+            ],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("superjunak/superjunakinja"),
+            keywords: &[
+                "dober",
+                "junak",
+                "junakinja",
+                "super moč",
+                "superjunak/superjunakinja",
+            ],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("halyeey ah"),
+            keywords: &[
+                "awood sareeysa",
+                "geesi",
+                "geesiyad",
+                "halyeey ah",
+                "wanaagsan",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("superhero"),
+            keywords: &["hero", "heroinë", "superfuqi", "superhero", "zemërmirë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("супер херој"),
+            keywords: &["добро", "супер моћ", "супер херој", "херој"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("суперхерој"),
+            keywords: &["суперхерој"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("super heroj"),
+            keywords: &["dobro", "heroj", "super heroj", "super moć"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("superheroj"),
+            keywords: &["superheroj"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("superhjälte"),
+            keywords: &[
+                "god",
+                "hjälte",
+                "hjältinna",
+                "superhjälte",
+                "superkraft",
+                "superkrafter",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("shujaa"),
+            keywords: &[
+                "mzuri",
+                "nguvu zisizo za kawaida",
+                "shujaa",
+                "shujaa wa kike",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("சூப\u{bcd}பர\u{bcd}ஹ\u{bc0}ரோ"),
+            keywords: &[
+                "சூப\u{bcd}பர\u{bcd}பவர\u{bcd}",
+                "சூப\u{bcd}பர\u{bcd}ஹ\u{bc0}ரோ",
+                "நல\u{bcd}லவர\u{bcd}",
+                "ஹ\u{bc0}ரோ",
+                "ஹ\u{bc0}ரோயின\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("సూపర\u{c4d}\u{200c}హ\u{c40}ర\u{c4b}"),
+            keywords: &[
+                "మంచ\u{c3f}",
+                "సూపర\u{c4d}\u{200c}పవర\u{c4d}",
+                "సూపర\u{c4d}\u{200c}హ\u{c40}ర\u{c4b}",
+                "హ\u{c40}ర\u{c4b}",
+                "హ\u{c40}ర\u{c4b}య\u{c3f}న\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ซ\u{e38}ปเปอร\u{e4c}ฮ\u{e35}โร\u{e48}"),
+            keywords: &[
+                "จอมพล\u{e31}ง",
+                "ซ\u{e38}ปเปอร\u{e4c}ฮ\u{e35}โร\u{e48}",
+                "ฮ\u{e35}โร\u{e48}",
+                "เก\u{e48}ง",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("supergahryman"),
+            keywords: &["gahryman", "gowy", "supergahryman", "supergüýç"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tokotaha ivimālohi"),
+            keywords: &["tokotaha ivimālohi"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("süper kahraman"),
+            keywords: &[
+                "iyi",
+                "kadın kahraman",
+                "kahraman",
+                "süper güç",
+                "süper kahraman",
+            ],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("супергерой"),
+            keywords: &["герой", "героїня", "добро", "супергерой", "суперсила"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("سپر ہیرو"),
+            keywords: &["اچھا", "سپر پاور", "سپر ہیرو", "ہیرو", "ہیروئن"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("superqahramon"),
+            keywords: &["qahramon", "superkuch", "supermen", "superqahramon", "zo‘r"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("siêu anh hùng"),
+            keywords: &[
+                "anh hùng",
+                "nữ anh hùng",
+                "siêu anh hùng",
+                "siêu năng lực",
+                "tốt",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("超人"),
+            keywords: &["好", "英雄", "超人", "超級"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("超人"),
+            keywords: &["好", "英雄", "超人", "超级"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("超级英雄"),
+            keywords: &["女英雄", "好人", "英雄", "超级英雄", "超能力"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("超級英雄"),
+            keywords: &["天賦", "女英雄", "英雄", "超級英雄", "超能力"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("超人"),
+            keywords: &["天賦", "英雄", "超人", "超能力"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("iqhawe"),
+            keywords: &["good", "hero", "heroine", "iqhawe", "superpower"],
         },
     ],
 };
@@ -495,9 +3720,201 @@ pub const MAN_SUPERHERO: crate::Emoji = crate::Emoji {
     }],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("manlike superheld"),
+            keywords: &["goeie", "held", "man", "manlike superheld", "superkrag"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የወንድ ጀግና"),
+            keywords: &["ወንድ", "የወንድ ጀግና", "ጀግና", "ጥሩ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("بطل خارق رجل"),
+            keywords: &["بطل", "بطل خارق رجل", "رجل", "طيب", "قوة خارقة"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("প\u{9c1}ৰ\u{9c1}ষ চ\u{9c1}প\u{9be}ৰহিৰ’"),
+            keywords: &[
+                "চ\u{9c1}প\u{9be}ৰপ\u{9be}ৱ\u{9be}ৰ",
+                "প\u{9c1}ৰ\u{9c1}ষ",
+                "প\u{9c1}ৰ\u{9c1}ষ চ\u{9c1}প\u{9be}ৰহিৰ’",
+                "ভ\u{9be}ল",
+                "হিৰ’",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("kişi superqəhrəman"),
+            keywords: &[
+                "kişi",
+                "kişi superqəhrəman",
+                "qəhrəman",
+                "supergüc",
+                "xeyirxah",
+            ],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("мужчына-супергерой"),
+            keywords: &[
+                "герой",
+                "дабро",
+                "мужчына",
+                "мужчына-супергерой",
+                "суперсіла",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("супергерой"),
+            keywords: &["герой", "добър", "супергерой", "супермен", "суперсила"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("প\u{9c1}র\u{9c1}ষ স\u{9c1}প\u{9be}রহিরো"),
+            keywords: &[
+                "প\u{9c1}র\u{9c1}ষ",
+                "প\u{9c1}র\u{9c1}ষ স\u{9c1}প\u{9be}রহিরো",
+                "ভ\u{9be}লো",
+                "স\u{9c1}প\u{9be}রপ\u{9be}ওয\u{9bc}\u{9be}র",
+                "হিরো",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("superheroj muškarac"),
+            keywords: &[
+                "dobro",
+                "heroj",
+                "muškarac",
+                "superheroj muškarac",
+                "supermoć",
+            ],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("home superheroi"),
+            keywords: &["bo", "heroi", "home", "home superheroi", "superpoder"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᏍᎦᏯ ᏄᎬᏫᏳᏒᎩ ᏩᏥᎸᏉᏛ"),
+            keywords: &["ᎠᏍᎦᏯ", "ᎠᏍᎦᏯ ᏄᎬᏫᏳᏒᎩ ᏩᏥᎸᏉᏛ", "ᎣᏍᏓ", "ᏄᎬᏫᏳᏒᎩ ᎤᏟᏂᎩᏓ", "ᏩᏥᎸᏉᏛ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("superhrdina"),
+            keywords: &[
+                "hrdina",
+                "kladná postava",
+                "muž",
+                "superhrdina",
+                "superschopnost",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("archarwr gwrywaidd"),
+            keywords: &["archarwr gwrywaidd", "archbŵer", "arwr", "da", "dyn"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("mandlig superhelt"),
+            keywords: &["god", "helt", "mand", "mandlig superhelt", "superkraft"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Superheld"),
+            keywords: &["Held", "Superheld"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("άντρας υπερήρωας"),
+            keywords: &["άντρας", "άντρας υπερήρωας", "ήρωας", "καλός", "υπερδύναμη"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("man superhero"),
             keywords: &["good", "hero", "man", "man superhero", "superpower"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("superhéroe"),
+            keywords: &[
+                "bueno",
+                "hombre",
+                "héroe",
+                "superhombre",
+                "superhéroe",
+                "superpoder",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("superhéroe"),
+            keywords: &["bien", "hombre", "héroe", "superhéroe", "superpoder"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("superhéroe"),
+            keywords: &["superhéroe"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("meeskangelane"),
+            keywords: &["hea", "kangelane", "mees", "meeskangelane", "supervõimed"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("gizonezko superheroi"),
+            keywords: &[
+                "gizon",
+                "gizonezko superheroi",
+                "heroi",
+                "on",
+                "superbotere",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("ابرقهرمان مرد"),
+            keywords: &[
+                "ابرقدرت",
+                "ابرقهرمان",
+                "ابرقهرمان مرد",
+                "خوب",
+                "دلاور",
+                "شیرمرد",
+                "قهرمان",
+            ],
         },
         crate::Annotation {
             lang: "fi",
@@ -509,6 +3926,651 @@ pub const MAN_SUPERHERO: crate::Emoji = crate::Emoji {
                 "sankari",
                 "supervoimat",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("lalaking superhero"),
+            keywords: &[
+                "hero",
+                "lalaki",
+                "lalaking superhero",
+                "malakas",
+                "superhero",
+                "superpower",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("mannlig superhetja"),
+            keywords: &[
+                "góður",
+                "hetja",
+                "mannlig superhetja",
+                "maður",
+                "super",
+                "yvirnát´úrligur",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("super-héros homme"),
+            keywords: &[
+                "bien",
+                "homme",
+                "héros",
+                "super-héros homme",
+                "super-pouvoir",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("super-héros"),
+            keywords: &["super-héros"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("fear-sárlaoch"),
+            keywords: &["fear", "fear-sárlaoch", "laoch", "maith", "sárchumhacht"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("sàr-ghaisgeach fireann"),
+            keywords: &[
+                "cumhachd",
+                "fireannach",
+                "gaisgeach",
+                "math",
+                "oil-chumhachd",
+                "super",
+                "sàr-ghaisgeach",
+                "sàr-ghaisgeach fireann",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("superheroe"),
+            keywords: &["heroe", "home", "superheroe", "superpoderes"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("પ\u{ac1}ર\u{ac1}ષ સ\u{ac1}પરહીરો"),
+            keywords: &[
+                "ગ\u{ac1}ણવાન",
+                "પ\u{ac1}ર\u{ac1}ષ",
+                "પ\u{ac1}ર\u{ac1}ષ સ\u{ac1}પરહીરો",
+                "સ\u{ac1}પરપાવર",
+                "હીરો",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("סופרמן"),
+            keywords: &["גיבור", "גיבור על", "סופרמן"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("प\u{941}र\u{941}ष स\u{941}परहीरो"),
+            keywords: &[
+                "प\u{941}र\u{941}ष",
+                "प\u{941}र\u{941}ष स\u{941}परहीरो",
+                "बढ\u{93c}िया",
+                "स\u{941}परपॉवर",
+                "हीरो",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("superjunak"),
+            keywords: &[
+                "dobročinitelj",
+                "junak",
+                "muškarac",
+                "superjunak",
+                "supermoći",
+            ],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("férfi szuperhős"),
+            keywords: &[
+                "férfi",
+                "férfi szuperhős",
+                "hős",
+                "hősnő",
+                "jó",
+                "szuperképesség",
+            ],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("տղամարդ սուպերհերոս"),
+            keywords: &["գերուժ", "լավ", "հերոս", "տղամարդ", "տղամարդ սուպերհերոս"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("pahlawan super pria"),
+            keywords: &[
+                "baik",
+                "kekuatan super",
+                "pahlawan",
+                "pahlawan super pria",
+                "pria",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("ofurmaður"),
+            keywords: &["góður", "hetja", "maður", "ofurkraftur", "ofurmaður"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("supereroe uomo"),
+            keywords: &["eroe", "supereroe", "uomo"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("男性のスーパーヒーロー"),
+            keywords: &["ヒーロー", "善", "男性", "男性のスーパーヒーロー", "超人"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("satriya mandraguna lanang"),
+            keywords: &[
+                "becik",
+                "kadigdayan linuwih",
+                "lanang",
+                "satriya",
+                "satriya mandraguna lanang",
+            ],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("სუპერგმირი კაცი"),
+            keywords: &["გმირი", "ზებუნებრივი", "კაცი", "კეთილი", "სუპერგმირი კაცი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("еркек супер батыр"),
+            keywords: &["батыр", "ер", "еркек супер батыр", "жақсы", "супер күш"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("វ\u{17b8}រប\u{17bb}រស"),
+            keywords: &[
+                "ថាមពលព\u{17b7}សេស",
+                "នារ\u{17b8}",
+                "ល\u{17d2}អ",
+                "វ\u{17b8}រនារ\u{17b8}",
+                "វ\u{17b8}រប\u{17bb}រស",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಪುರುಷ ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಹೀರೊ"),
+            keywords: &[
+                "ಉತ\u{ccd}ತಮ",
+                "ಪುರುಷ",
+                "ಪುರುಷ ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಹೀರೊ",
+                "ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಪವರ\u{ccd}",
+                "ಹೀರೊ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("남자 히어로"),
+            keywords: &["남자", "정의", "초능력", "히어로"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("दादलो स\u{941}परहिरो"),
+            keywords: &[
+                "उत\u{94d}तम",
+                "दादलो",
+                "दादलो स\u{941}परहिरो",
+                "स\u{941}परपावर",
+                "हिरो",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("баатыр жигит"),
+            keywords: &["баатыр", "жакшы", "жигит", "эбегейсиз зор күч"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ພະເອກຍອດຊາຍ"),
+            keywords: &[
+                "ຈອມພະລ\u{eb1}ງ",
+                "ດ\u{eb5}",
+                "ບ\u{eb8}ລ\u{eb8}ດ",
+                "ພະເອກ",
+                "ພະເອກຍອດຊາຍ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("vyras superherojus"),
+            keywords: &[
+                "geras",
+                "herojus",
+                "supergalia",
+                "vyras",
+                "vyras superherojus",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("vīrietis supervaronis"),
+            keywords: &[
+                "labais",
+                "superspēks",
+                "varonis",
+                "vīrietis",
+                "vīrietis supervaronis",
+            ],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("маж суперхерој"),
+            keywords: &["добро", "маж", "маж суперхерој", "суперсила", "херој"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("മ\u{d3e}ൻ സ\u{d42}പ\u{d4d}പർഹീറോ"),
+            keywords: &[
+                "അമ\u{d3e}ന\u{d41}ഷികശക\u{d4d}തി",
+                "നല\u{d4d}ലത\u{d4d}",
+                "ന\u{d3e}യകൻ",
+                "പ\u{d41}ര\u{d41}ഷൻ",
+                "മ\u{d3e}ൻ സ\u{d42}പ\u{d4d}പർഹീറോ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("эрэгтэй супер баатар"),
+            keywords: &[
+                "баатар",
+                "сайн",
+                "супер хүч",
+                "эрэгтэй",
+                "эрэгтэй супер баатар",
+            ],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("प\u{941}र\u{942}ष स\u{941}परहिरो"),
+            keywords: &[
+                "छान",
+                "प\u{941}र\u{942}ष",
+                "प\u{941}र\u{942}ष स\u{941}परहिरो",
+                "स\u{941}परपॉवर",
+                "हीरो",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("adi wira lelaki"),
+            keywords: &[
+                "adi wira lelaki",
+                "baik",
+                "lelaki",
+                "sangat berkuasa",
+                "wira",
+            ],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အမျ\u{102d}\u{102f}းသား လ\u{1030}စ\u{103d}မ\u{103a}းကောင\u{103a}း"),
+            keywords: &[
+                "ကောင\u{103a}မ\u{103d}န\u{103a}သော",
+                "သ\u{1030}ရ\u{1032}ကောင\u{103a}း",
+                "အစ\u{103d}မ\u{103a}း",
+                "အမျ\u{102d}\u{102f}းသား",
+                "အမျ\u{102d}\u{102f}းသား လ\u{1030}စ\u{103d}မ\u{103a}းကောင\u{103a}း",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("mannlig superhelt"),
+            keywords: &["god", "helt", "mann", "mannlig superhelt", "superkrefter"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("छोरामान\u{94d}छ\u{947} स\u{941}परहिरो"),
+            keywords: &[
+                "छोरामान\u{94d}छ\u{947}",
+                "छोरामान\u{94d}छ\u{947} स\u{941}परहिरो",
+                "राम\u{94d}रो",
+                "स\u{941}परपावर",
+                "हिरो",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("mannelijke superheld"),
+            keywords: &[
+                "goed",
+                "held",
+                "man",
+                "mannelijke superheld",
+                "superkrachten",
+            ],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("mannleg superhelt"),
+            keywords: &["god", "helt", "mann", "mannleg superhelt", "superkrefter"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ପ\u{b41}ର\u{b41}ଷ ସ\u{b41}ପର\u{b4d}\u{200c} ହ\u{b3f}ରୋ"),
+            keywords: &[
+                "ପ\u{b41}ର\u{b41}ଷ",
+                "ପ\u{b41}ର\u{b41}ଷ ସ\u{b41}ପର\u{b4d}\u{200c} ହ\u{b3f}ରୋ",
+                "ଭଲ",
+                "ସ\u{b41}ପର\u{b4d}\u{200c} ପ\u{b3e}ୱ\u{b3e}ର",
+                "ହ\u{b3f}ରୋ",
+                "ହ\u{b3f}ରୋଇନ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਪ\u{a41}ਰਸ\u{a3c} ਸ\u{a41}ਪਰਹੀਰ\u{a4b}"),
+            keywords: &[
+                "ਪ\u{a41}ਰਸ\u{a3c}",
+                "ਪ\u{a41}ਰਸ\u{a3c} ਸ\u{a41}ਪਰਹੀਰ\u{a4b}",
+                "ਵਧੀਆ",
+                "ਸ\u{a41}ਪਰਪਾਵਰ",
+                "ਹੀਰ\u{a4b}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Mán Supahíro"),
+            keywords: &["Bẹtá", "Gud", "Híro", "Man", "Mán Supahíro", "Supapáwa"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("mężczyzna superbohater"),
+            keywords: &[
+                "bohater",
+                "mężczyzna",
+                "mężczyzna superbohater",
+                "pozytywny",
+                "supermoc",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("سړی لوي اتل"),
+            keywords: &["اتل", "سړی", "سړی لوي اتل", "لوي قوت", "ښه"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("homem super-herói"),
+            keywords: &["bom", "herói", "homem", "homem super-herói", "superpoder"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["bom", "herói", "homem", "homem super-herói", "superpoder"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("runa superheroe"),
+            keywords: &["allin", "heroe", "runa", "runa superheroe", "superpoder"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("supererou bărbat"),
+            keywords: &["bun", "bărbat", "erou", "supererou bărbat", "superputere"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E11-043"),
+            keywords: &["E11-043"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("мужчина-супергерой"),
+            keywords: &[
+                "герой",
+                "мужчина-супергерой",
+                "супергерой",
+                "супермен",
+                "суперсила",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("مرد سپر هيرو"),
+            keywords: &["بهترين", "سپر پاور", "مرد", "مرد سپر هيرو", "هيرو"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ම\u{dd2}න\u{dd2}ස\u{dcf} ස\u{dd4}ප\u{dd2}ර\u{dd2} ව\u{dd3}රය\u{dcf}"),
+            keywords: &[
+                "ම\u{dd2}න\u{dd2}ස\u{dcf}",
+                "ම\u{dd2}න\u{dd2}ස\u{dcf} ස\u{dd4}ප\u{dd2}ර\u{dd2} ව\u{dd3}රය\u{dcf}",
+                "ව\u{dd3}රයෙක\u{dca}",
+                "ස\u{dd4}ප\u{dd2}ර\u{dd2} බලවත\u{dcf}",
+                "හොඳය\u{dd2}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("supermuž"),
+            keywords: &["hrdina", "muž", "supermuž", "superschopnosť"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("superjunak"),
+            keywords: &["dober", "junak", "moški", "super moč", "superjunak"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("nin halyeey ah"),
+            keywords: &[
+                "awood sareeysa",
+                "geesi",
+                "nin",
+                "nin halyeey ah",
+                "wanaagsan",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("burrë superhero"),
+            keywords: &[
+                "burrë",
+                "burrë superhero",
+                "hero",
+                "heroinë",
+                "superfuqi",
+                "zemërmirë",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("мушкарац супер херој"),
+            keywords: &[
+                "добро",
+                "мушкарац",
+                "мушкарац супер херој",
+                "супер моћ",
+                "херој",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("мушкарац суперхерој"),
+            keywords: &["мушкарац суперхерој"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("muškarac super heroj"),
+            keywords: &[
+                "dobro",
+                "heroj",
+                "muškarac",
+                "muškarac super heroj",
+                "super moć",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("muškarac superheroj"),
+            keywords: &["muškarac superheroj"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("manlig superhjälte"),
+            keywords: &["god", "hjälte", "man", "manlig superhjälte", "superkraft"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("shujaa wa kiume"),
+            keywords: &[
+                "mwanamume",
+                "mzuri",
+                "nguvu zisizo za kawaida",
+                "shujaa",
+                "shujaa wa kiume",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஆண\u{bcd} சூப\u{bcd}பர\u{bcd} ஹ\u{bc0}ரோ"),
+            keywords: &[
+                "ஆண\u{bcd}",
+                "ஆண\u{bcd} சூப\u{bcd}பர\u{bcd} ஹ\u{bc0}ரோ",
+                "சூப\u{bcd}பர\u{bcd}பவர\u{bcd}",
+                "நல\u{bcd}லவர\u{bcd}",
+                "ஹ\u{bc0}ரோ",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("మ\u{c46}న\u{c4d} సూపర\u{c4d}\u{200c}హ\u{c40}ర\u{c4b}"),
+            keywords: &[
+                "మంచ\u{c3f}",
+                "మ\u{c46}న\u{c4d} సూపర\u{c4d}\u{200c}హ\u{c40}ర\u{c4b}",
+                "మ\u{c4d}య\u{c3e}న\u{c4d}",
+                "సూపర\u{c4d}\u{200c}పవర\u{c4d}",
+                "హ\u{c40}ర\u{c4b}",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("พระเอก"),
+            keywords: &[
+                "จอมพล\u{e31}ง",
+                "ต\u{e31}วพ\u{e48}อ",
+                "ผ\u{e39}\u{e49}ชาย",
+                "พระเอก",
+                "ฮ\u{e35}โร\u{e48}",
+                "เก\u{e48}ง",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("erkek supergahryman"),
+            keywords: &[
+                "erkek adam",
+                "erkek supergahryman",
+                "gahryman",
+                "gowy",
+                "supergüýç",
+            ],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tangata ivimālohi"),
+            keywords: &["tangata ivimālohi"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("erkek süper kahraman"),
+            keywords: &[
+                "erkek",
+                "erkek süper kahraman",
+                "iyi",
+                "kahraman",
+                "süper güç",
+            ],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("чоловік-супергерой"),
+            keywords: &[
+                "герой",
+                "добро",
+                "суперсила",
+                "чоловік",
+                "чоловік-супергерой",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("مرد سپر ہیرو"),
+            keywords: &["اچھا", "سپر پاور", "مرد", "مرد سپر ہیرو", "ہیرو"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("erkak qahramon"),
+            keywords: &[
+                "erkak qahramon",
+                "qahramon",
+                "superkuch",
+                "supermen",
+                "zo‘r",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("nam siêu anh hùng"),
+            keywords: &[
+                "anh hùng",
+                "nam giới",
+                "nam siêu anh hùng",
+                "siêu năng lực",
+                "tốt",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("男超人"),
+            keywords: &["好", "男", "男超人", "英雄", "超級"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("男超人"),
+            keywords: &["好", "男", "男超人", "英雄", "超级"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("男超级英雄"),
+            keywords: &["好人", "男人", "男超级英雄", "英雄", "超能力"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("超人"),
+            keywords: &["天賦", "男人", "英雄", "超人", "超能力"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("男超人"),
+            keywords: &["天賦", "男", "男超人", "英雄", "超人", "超能力"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("man superhero"),
+            keywords: &["good", "hero", "man", "man superhero", "superpower"],
         },
     ],
 };
@@ -656,6 +4718,155 @@ pub const WOMAN_SUPERHERO: crate::Emoji = crate::Emoji {
     }],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("vroulike superheld"),
+            keywords: &["goeie", "held", "heldin", "superkrag", "vroulike superheld"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የሴት ጀግና"),
+            keywords: &["ሴት", "የሴት ጀግና", "ጀግና", "ጥሩ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("بطلة خارقة"),
+            keywords: &["بطل", "بطلة", "بطلة خارقة", "سيدة", "طيب", "قوة خارقة"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("মহিল\u{9be} চ\u{9c1}প\u{9be}ৰহিৰ’"),
+            keywords: &[
+                "চ\u{9c1}প\u{9be}ৰপ\u{9be}ৱ\u{9be}ৰ",
+                "ভ\u{9be}ল",
+                "মহিল\u{9be}",
+                "মহিল\u{9be} চ\u{9c1}প\u{9be}ৰহিৰ’",
+                "হিৰ’",
+                "হিৰ’ইন",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("qadın superqəhrəman"),
+            keywords: &[
+                "qadın",
+                "qadın superqəhrəman",
+                "qəhrəman",
+                "supergüc",
+                "xeyirxah",
+            ],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("жанчына-супергерой"),
+            keywords: &[
+                "гераіня",
+                "герой",
+                "дабро",
+                "жанчына",
+                "жанчына-супергерой",
+                "суперсіла",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("супергерой от женски пол"),
+            keywords: &[
+                "героиня",
+                "герой",
+                "жена",
+                "праведна",
+                "способности",
+                "супергерой от женски пол",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("মহিল\u{9be} স\u{9c1}প\u{9be}রহিরো"),
+            keywords: &[
+                "ভ\u{9be}লো",
+                "মহিল\u{9be}",
+                "মহিল\u{9be} স\u{9c1}প\u{9be}রহিরো",
+                "স\u{9c1}প\u{9be}রপ\u{9be}ওয\u{9bc}\u{9be}র",
+                "হিরো",
+                "হিরোইন",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("superheroj žena"),
+            keywords: &["dobro", "heroina", "heroj", "superheroj žena", "supermoć"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("dona superheroïna"),
+            keywords: &["bo", "dona", "dona superheroïna", "heroïna", "superpoder"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᎨᏯ ᏄᎬᏫᏳᏒᎩ ᏩᏥᎸᏉᏛ"),
+            keywords: &[
+                "ᎠᎨᏯ",
+                "ᎠᎨᏯ ᏄᎬᏫᏳᏒᎩ ᏩᏥᎸᏉᏛ",
+                "ᎣᏍᏓ",
+                "ᏄᎬᏫᏳᏒᎩ ᎤᏟᏂᎩᏓ",
+                "ᏩᏥᎸᏉᏛ",
+                "ᏬᏂᎸᏉᏛᎢ",
+            ],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("superhrdinka"),
+            keywords: &[
+                "hrdinka",
+                "kladná postava",
+                "superhrdina",
+                "superhrdinka",
+                "superschopnost",
+                "žena",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("archarwr benywaidd"),
+            keywords: &[
+                "archarwr benywaidd",
+                "archbŵer",
+                "arwr",
+                "arwres",
+                "da",
+                "menyw",
+            ],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("kvindelig superhelt"),
+            keywords: &[
+                "god",
+                "helt",
+                "heltinde",
+                "kvinde",
+                "kvindelig superhelt",
+                "superkraft",
+            ],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Heldin"),
+            keywords: &["Heldin", "Superheldin"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("γυναίκα υπερήρωας"),
+            keywords: &[
+                "ήρωας",
+                "γυναίκα",
+                "γυναίκα υπερήρωας",
+                "ηρωίδα",
+                "καλή",
+                "υπερδύναμη",
+            ],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("woman superhero"),
             keywords: &[
@@ -668,6 +4879,96 @@ pub const WOMAN_SUPERHERO: crate::Emoji = crate::Emoji {
             ],
         },
         crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("superheroína"),
+            keywords: &[
+                "heroína",
+                "héroe",
+                "mujer",
+                "superheroína",
+                "superhéroe",
+                "superpoder",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("mujer superheroína"),
+            keywords: &[
+                "bien",
+                "heroína",
+                "héroe",
+                "mujer",
+                "mujer superheroína",
+                "superpoder",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("mujer superheroína"),
+            keywords: &["mujer superheroína"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("naissuperkangelane"),
+            keywords: &[
+                "hea",
+                "kangelane",
+                "kangelanna",
+                "naine",
+                "naissuperkangelane",
+                "supervõimed",
+            ],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("emakumezko superheroi"),
+            keywords: &[
+                "emakume",
+                "emakumezko superheroi",
+                "heroi",
+                "on",
+                "superbotere",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("ابرقهرمان زن"),
+            keywords: &[
+                "ابرقدرت",
+                "ابرقهرمان",
+                "ابرقهرمان زن",
+                "خوب",
+                "دلاور",
+                "شیرزن",
+                "قهرمان",
+            ],
+        },
+        crate::Annotation {
             lang: "fi",
             tts: Some("naissupersankari"),
             keywords: &[
@@ -677,6 +4978,768 @@ pub const WOMAN_SUPERHERO: crate::Emoji = crate::Emoji {
                 "sankari",
                 "sankaritar",
                 "supervoimat",
+            ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("babaeng superhero"),
+            keywords: &[
+                "babae",
+                "babaeng superhero",
+                "hero",
+                "superhero",
+                "superpower",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("kvinnulig superhetja"),
+            keywords: &[
+                "góð",
+                "hetja",
+                "kvinnulig superhetja",
+                "super",
+                "yvirnátúrlig",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("super-héroïne"),
+            keywords: &[
+                "bien",
+                "femme",
+                "héros",
+                "héroïne",
+                "super-héroïne",
+                "super-pouvoir",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "bien, femme, héroïne, héros, super pouvoir",
+                "super-héroïne",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("ban-sárlaoch"),
+            keywords: &[
+                "ban-sárlaoch",
+                "banloach",
+                "bean",
+                "laoch",
+                "maith",
+                "sárchumhacht",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("sàr-ghaisgeach boireann"),
+            keywords: &[
+                "boireannach",
+                "cumhachd",
+                "gaisgeach",
+                "math",
+                "oil-chumhachd",
+                "super",
+                "sàr-ghaisgeach",
+                "sàr-ghaisgeach boireann",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("superheroína"),
+            keywords: &["heroe", "heroína", "muller", "superheroína", "supermuller"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સ\u{acd}ત\u{acd}રી સ\u{ac1}પરહીરો"),
+            keywords: &[
+                "ગ\u{ac1}ણવાન",
+                "સ\u{ac1}પરપાવર",
+                "સ\u{acd}ત\u{acd}રી",
+                "સ\u{acd}ત\u{acd}રી સ\u{ac1}પરહીરો",
+                "હીરો",
+                "હીરોઇન",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("סופרוומן"),
+            keywords: &["אישה", "גיבורה", "גיבורת על", "סופרוומן"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("महिला स\u{941}परहीरो"),
+            keywords: &[
+                "बढ\u{93c}िया",
+                "महिला",
+                "महिला स\u{941}परहीरो",
+                "स\u{941}परपॉवर",
+                "हीरो",
+                "हीरोइन",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("superjunakinja"),
+            keywords: &[
+                "dobročinitelj",
+                "junak",
+                "junakinja",
+                "superjunakinja",
+                "supermoći",
+                "žena",
+            ],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("női szuperhős"),
+            keywords: &[
+                "hős",
+                "hősnő",
+                "jó",
+                "nő",
+                "női szuperhős",
+                "szuperképesség",
+            ],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("կին սուպերհերոս"),
+            keywords: &["գերուժ", "լավ", "կին սուպերհերոս", "հերոս", "հերոսուհի"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("pahlawan super wanita"),
+            keywords: &[
+                "baik",
+                "kekuatan super",
+                "pahlawan",
+                "pahlawan super wanita",
+                "wanita",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("ofurkona"),
+            keywords: &[
+                "góð",
+                "hetja",
+                "kona",
+                "kvenhetja",
+                "ofurkona",
+                "ofurkraftur",
+            ],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("supereroina"),
+            keywords: &["donna", "supereroina", "superpoteri"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("女性のスーパーヒーロー"),
+            keywords: &[
+                "ヒロイン",
+                "ヒーロー",
+                "善",
+                "女性",
+                "女性のスーパーヒーロー",
+                "超人",
+            ],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("srikandhi"),
+            keywords: &[
+                "becik",
+                "kadigdayan linuwih",
+                "satriya",
+                "srikandhi",
+                "wadon",
+            ],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("სუპერგმირი ქალი"),
+            keywords: &[
+                "გმირი",
+                "გმირი ქალი",
+                "ზებუნებრივი",
+                "კეთილი",
+                "სუპერგმირი ქალი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("батыр әйел"),
+            keywords: &["батыр", "жақсы", "супер күш", "әйел"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("វ\u{17b8}រនារ\u{17b8}"),
+            keywords: &[
+                "ថាមពលព\u{17b7}សេស",
+                "នារ\u{17b8}",
+                "ល\u{17d2}អ",
+                "វ\u{17b8}រនារ\u{17b8}",
+                "វ\u{17b8}រប\u{17bb}រស",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಮಹ\u{cbf}ಳಾ ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಹೀರೊ"),
+            keywords: &[
+                "ಉತ\u{ccd}ತಮ",
+                "ಮಹ\u{cbf}ಳಾ ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಹೀರೊ",
+                "ಮಹ\u{cbf}ಳ\u{cc6}",
+                "ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಪವರ\u{ccd}",
+                "ಹೀರೊ",
+                "ಹೀರೊಯ\u{cbf}ನ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("여자 히어로"),
+            keywords: &["여성", "여자 히어로", "정의", "초능력", "히로인", "히어로"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("बायल स\u{941}परहिरो"),
+            keywords: &[
+                "उत\u{94d}तम",
+                "बायल",
+                "बायल स\u{941}परहिरो",
+                "स\u{941}परपावर",
+                "हिरो",
+                "हिरोईन",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("супер баатыр кыз"),
+            keywords: &[
+                "аял",
+                "баатыр",
+                "баатыр кыз",
+                "жакшы",
+                "супер баатыр кыз",
+                "эбегейсиз зор күч",
+            ],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ສ\u{eb8}ດຍອດນາງເອກ"),
+            keywords: &[
+                "ຈອມພະລ\u{eb1}ງ",
+                "ດ\u{eb5}",
+                "ພະເອກ",
+                "ມາດນາງເອກ",
+                "ສ\u{eb8}ດຍອດນາງເອກ",
+                "ແມ\u{ec8}ຍ\u{eb4}ງ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("moteris superherojė"),
+            keywords: &[
+                "geras",
+                "herojus",
+                "herojė",
+                "moteris",
+                "moteris superherojė",
+                "supergalia",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("sieviete supervarone"),
+            keywords: &[
+                "labais",
+                "sieviete",
+                "sieviete supervarone",
+                "superspēks",
+                "varone",
+                "varonis",
+            ],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("жена-суперхерој"),
+            keywords: &[
+                "добро",
+                "жена",
+                "жена-суперхерој",
+                "суперсила",
+                "хероина",
+                "херој",
+            ],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("വ\u{d41}മൺ സ\u{d42}പ\u{d4d}പർഹീറോ"),
+            keywords: &[
+                "അമ\u{d3e}ന\u{d41}ഷികശക\u{d4d}തി",
+                "നല\u{d4d}ലത\u{d4d}",
+                "ന\u{d3e}യകൻ",
+                "ന\u{d3e}യിക",
+                "വ\u{d41}മൺ സ\u{d42}പ\u{d4d}പർഹീറോ",
+                "സ\u{d4d}\u{200c}ത\u{d4d}രീ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("эмэгтэй супер баатар"),
+            keywords: &["баатар", "сайн", "супер хүч", "эмэгтэй супер баатар"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("महिला स\u{941}परहिरो"),
+            keywords: &[
+                "छान",
+                "महिला",
+                "महिला स\u{941}परहिरो",
+                "स\u{941}परपॉवर",
+                "हीरो",
+                "हीरोईन",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("adi wira wanita"),
+            keywords: &[
+                "adi wira wanita",
+                "baik",
+                "sangat berkuasa",
+                "wanita",
+                "wira",
+                "wirawati",
+            ],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အမျ\u{102d}\u{102f}းသမ\u{102e}း လ\u{1030}စ\u{103d}မ\u{103a}းကောင\u{103a}း"),
+            keywords: &[
+                "ကောင\u{103a}းမ\u{103d}န\u{103a}သော",
+                "သ\u{1030}ရ\u{1032}ကောင\u{103a}း",
+                "အစ\u{103d}မ\u{103a}း",
+                "အမျ\u{102d}\u{102f}းသမ\u{102e}း",
+                "အမျ\u{102d}\u{102f}းသမ\u{102e}း လ\u{1030}စ\u{103d}မ\u{103a}းကောင\u{103a}း",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("kvinnelig superhelt"),
+            keywords: &[
+                "god",
+                "helt",
+                "heltinne",
+                "kvinne",
+                "kvinnelig superhelt",
+                "superkrefter",
+            ],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("छोरीमान\u{94d}छ\u{947} स\u{941}परहिरो"),
+            keywords: &[
+                "छोरीमान\u{94d}छ\u{947}",
+                "छोरीमान\u{94d}छ\u{947} स\u{941}परहिरो",
+                "राम\u{94d}रो",
+                "स\u{941}परपावर",
+                "हिरो",
+                "हिरोइन",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("vrouwelijke superheld"),
+            keywords: &[
+                "goed",
+                "held",
+                "heldin",
+                "superkrachten",
+                "vrouw",
+                "vrouwelijke superheld",
+            ],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("kvinneleg superhelt"),
+            keywords: &[
+                "god",
+                "helt",
+                "heltinne",
+                "kvinne",
+                "kvinneleg superhelt",
+                "superkrefter",
+            ],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ମହ\u{b3f}ଳ\u{b3e} ସ\u{b41}ପର\u{b4d}\u{200c} ହ\u{b3f}ରୋ"),
+            keywords: &[
+                "ଭଲ",
+                "ମହ\u{b3f}ଳ\u{b3e}",
+                "ମହ\u{b3f}ଳ\u{b3e} ସ\u{b41}ପର\u{b4d}\u{200c} ହ\u{b3f}ରୋ",
+                "ସ\u{b41}ପର\u{b4d}\u{200c} ପ\u{b3e}ୱ\u{b3e}ର",
+                "ହ\u{b3f}ରୋ",
+                "ହ\u{b3f}ରୋଇନ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਇਸਤਰੀ ਸ\u{a41}ਪਰਹੀਰ\u{a4b}"),
+            keywords: &[
+                "ਇਸਤਰੀ",
+                "ਇਸਤਰੀ ਸ\u{a41}ਪਰਹੀਰ\u{a4b}",
+                "ਵਧੀਆ",
+                "ਸ\u{a41}ਪਰਪਾਵਰ",
+                "ਹੀਰ\u{a4b}",
+                "ਹੀਰ\u{a4b}ਇਨ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Wúmán Supahíro"),
+            keywords: &[
+                "Bẹtá",
+                "Gud",
+                "Híro",
+                "Supapáwa",
+                "Wúman",
+                "Wúman Supahíro",
+                "Wúmán Híro",
+                "Wúmán Supahíro",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("kobieta superbohater"),
+            keywords: &[
+                "bohaterka",
+                "kobieta",
+                "kobieta superbohater",
+                "pozytywna",
+                "supermoc",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("ښځه لوي اتله"),
+            keywords: &["اتل", "اتله", "لوي اتل", "ښځه", "ښځه لوي اتله"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("super-heroína"),
+            keywords: &[
+                "boa",
+                "heroína",
+                "herói",
+                "mulher",
+                "super-heroína",
+                "superpoder",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["boa", "heroína", "herói", "super-heroína", "superpoder"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("warmi superheroe"),
+            keywords: &[
+                "allin",
+                "heroe",
+                "heroina",
+                "superpoder",
+                "warmi",
+                "warmi superheroe",
+            ],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("supererou femeie"),
+            keywords: &[
+                "bună",
+                "eroină",
+                "erou",
+                "femeie",
+                "supererou femeie",
+                "superputere",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E11-042"),
+            keywords: &["E11-042"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("женщина-супергерой"),
+            keywords: &[
+                "героиня",
+                "женщина-супергерой",
+                "супервумен",
+                "супергероиня",
+                "суперсила",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("عورت سپر هيرو"),
+            keywords: &[
+                "بهترين",
+                "سپر پاور",
+                "عورت",
+                "عورت سپر هيرو",
+                "هيرو",
+                "هيروئين",
+            ],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ක\u{dcf}න\u{dca}ත\u{dcf} ස\u{dd4}ප\u{dd2}ර\u{dd2} ව\u{dd3}රය\u{dcf}"),
+            keywords: &[
+                "ක\u{dcf}න\u{dca}ත\u{dcf} ස\u{dd4}ප\u{dd2}ර\u{dd2} ව\u{dd3}රය\u{dcf}",
+                "ක\u{dcf}න\u{dca}ත\u{dcf}ව",
+                "ව\u{dd3}රයෙක\u{dca}",
+                "ස\u{dd4}ප\u{dd2}ර\u{dd2} බලය",
+                "හ\u{dd2}රෝය\u{dd2}න\u{dca}",
+                "හොඳය\u{dd2}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("superžena"),
+            keywords: &["hrdinka", "superschopnosť", "superžena", "žena"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("superjunakinja"),
+            keywords: &["dober", "junak", "junakinja", "super moč", "superjunakinja"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("haweeney geesinnimadeedu sareeyso"),
+            keywords: &[
+                "awood sareeysa",
+                "geesi",
+                "geesiyad",
+                "haweeney",
+                "haweeney geesinnimadeedu sareeyso",
+                "wanagsan",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("superheroinë"),
+            keywords: &[
+                "grua",
+                "hero",
+                "heroinë",
+                "superfuqi",
+                "superheroinë",
+                "zemërmirë",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("жена супер херој"),
+            keywords: &["добро", "жена", "жена супер херој", "супер моћ", "хероина"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("жена суперхерој"),
+            keywords: &["жена суперхерој"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("žena super heroj"),
+            keywords: &["dobro", "heroina", "super moć", "žena", "žena super heroj"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("žena superheroj"),
+            keywords: &["žena superheroj"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("kvinnlig superhjälte"),
+            keywords: &[
+                "god",
+                "hjälte",
+                "hjältinna",
+                "kvinna",
+                "kvinnlig superhjälte",
+                "man",
+                "superkraft",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("shujaa wa kike"),
+            keywords: &[
+                "mwanamke",
+                "mzuri",
+                "nguvu zisizo za kawaida",
+                "shujaa",
+                "shujaa wa kike",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("பெண\u{bcd} சூப\u{bcd}பர\u{bcd} ஹ\u{bc0}ரோ"),
+            keywords: &[
+                "சூப\u{bcd}பர\u{bcd}பவர\u{bcd}",
+                "நல\u{bcd}லவர\u{bcd}",
+                "பெண\u{bcd}",
+                "பெண\u{bcd} சூப\u{bcd}பர\u{bcd} ஹ\u{bc0}ரோ",
+                "ஹ\u{bc0}ரோ",
+                "ஹ\u{bc0}ரோயின\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ఉమ\u{c46}న\u{c4d} సూపర\u{c4d}\u{200c}హ\u{c40}ర\u{c4b}"),
+            keywords: &[
+                "ఉమ\u{c46}న\u{c4d} సూపర\u{c4d}\u{200c}హ\u{c40}ర\u{c4b}",
+                "మంచ\u{c3f}",
+                "మ\u{c4d}య\u{c3e}న\u{c4d}",
+                "సూపర\u{c4d}\u{200c}పవర\u{c4d}",
+                "హ\u{c40}ర\u{c4b}",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ยอดหญ\u{e34}ง"),
+            keywords: &[
+                "จอมพล\u{e31}ง",
+                "ต\u{e31}วแม\u{e48}",
+                "ผ\u{e39}\u{e49}หญ\u{e34}ง",
+                "ยอดหญ\u{e34}ง",
+                "ฮ\u{e35}โร\u{e48}",
+                "เก\u{e48}ง",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("zenan supergahryman"),
+            keywords: &[
+                "gahryman",
+                "gowy",
+                "supergüýç",
+                "zenan",
+                "zenan supergahryman",
+            ],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("fefine ivimālohi"),
+            keywords: &["fefine ivimālohi"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("kadın süper kahraman"),
+            keywords: &[
+                "iyi",
+                "kadın",
+                "kadın süper kahraman",
+                "kahraman",
+                "süper güç",
+            ],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("жінка-супергерой"),
+            keywords: &[
+                "герой",
+                "добро",
+                "жінка",
+                "жінка-супергерой",
+                "супер",
+                "супервумен",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("خاتون سپر ہیرو"),
+            keywords: &[
+                "اچھا",
+                "خاتون سپر ہیرو",
+                "سپر پاور",
+                "عورت",
+                "ہیرو",
+                "ہیروئن",
+            ],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("ayol superqahramon"),
+            keywords: &[
+                "ayol",
+                "ayol superqahramon",
+                "qahramon",
+                "superkuch",
+                "zo‘r",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("nữ siêu anh hùng"),
+            keywords: &[
+                "anh hùng",
+                "nữ anh hùng",
+                "nữ siêu anh hùng",
+                "phụ nữ",
+                "siêu năng lực",
+                "tốt",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("女超人"),
+            keywords: &["女", "女超人", "好", "英雄", "超級"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("女超人"),
+            keywords: &["女", "女超人", "好", "英雄", "超级"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("女超级英雄"),
+            keywords: &["女人", "女超级英雄", "好人", "英雄", "超能力"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("女超人"),
+            keywords: &["天賦", "女英雄", "女超人", "英雄", "超能力"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["天賦", "女", "女超人", "英雄", "超人", "超能力"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("woman superhero"),
+            keywords: &[
+                "good",
+                "hero",
+                "heroine",
+                "superpower",
+                "woman",
+                "woman superhero",
             ],
         },
     ],
@@ -814,9 +5877,199 @@ pub const SUPERVILLAIN: crate::Emoji = crate::Emoji {
     variants: &[],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("superskurk"),
+            keywords: &["boos", "krimineel", "skurk", "superkrag", "superskurk"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የጀግና ምስል"),
+            keywords: &["ሃያል", "ተንኮለኛ", "ክፉ", "ወንጀል", "የጀግና ምስል"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("شرير خارق"),
+            keywords: &[
+                "جريمة",
+                "شر",
+                "شرير",
+                "شرير خارق",
+                "شريرة",
+                "قوة خارقة",
+                "مجرم",
+            ],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("চ\u{9c1}প\u{9be}ৰভিলেইন"),
+            keywords: &[
+                "অপৰ\u{9be}ধী",
+                "চ\u{9c1}প\u{9be}ৰপ\u{9be}ৱ\u{9be}ৰ",
+                "চ\u{9c1}প\u{9be}ৰভিলেইন",
+                "দ\u{9c1}ষ\u{9cd}ট",
+                "ভিলেইন",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("supercani"),
+            keywords: &["cani", "cinayətkar", "pis", "supercani", "supergüc"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("суперзлачынца"),
+            keywords: &["злачынца", "зло", "ліхадзей", "суперзлачынца", "суперсіла"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("суперзлодей"),
+            keywords: &["зло", "злодей", "престъпник", "суперзлодей", "суперсила"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("স\u{9c1}প\u{9be}রভিলেন"),
+            keywords: &[
+                "অসৎ",
+                "উৎস\u{9c1}ক",
+                "ভিলেন",
+                "স\u{9c1}প\u{9be}রপ\u{9be}ওয\u{9bc}\u{9be}র",
+                "স\u{9c1}প\u{9be}রভিলেন",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("super zlikovac"),
+            keywords: &[
+                "kriminalac",
+                "super zlikovac",
+                "supermoć",
+                "zlikovac",
+                "zlo",
+            ],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("superdolent"),
+            keywords: &["criminal", "dolent", "malvat", "superdolent", "superpoder"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏄᎬᏫᏳᏒᎩ ᎠᏍᎦᏂ"),
+            keywords: &["ᎠᏍᎦᏂ", "ᎤᏍᎦᏅᏨᎯ ᎨᏒᎢ", "ᎤᏐᏅᎢ", "ᏄᎬᏫᏳᏒᎩ ᎠᏍᎦᏂ", "ᏄᎬᏫᏳᏒᎩ ᎤᏟᏂᎩᏓ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("superzločinec"),
+            keywords: &[
+                "superpadouch",
+                "superschopnost",
+                "superzloduch",
+                "superzločinec",
+                "zločinec",
+                "záporná postava",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("archleidr"),
+            keywords: &["archbŵer", "archleidr", "drwg", "dyn drwg", "troseddwr"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("superskurk"),
+            keywords: &["kriminel", "ond", "skurk", "superkraft", "superskurk"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Bösewicht"),
+            keywords: &["Bösewicht", "böse"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("αρχικακός"),
+            keywords: &["αρχικακός", "κακοποιός", "κακό", "κακός", "υπερδύναμη"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("supervillain"),
             keywords: &["criminal", "evil", "superpower", "supervillain", "villain"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("personaje de supervillano"),
+            keywords: &[
+                "mal",
+                "personaje de supervillano",
+                "superpoder",
+                "supervillana",
+                "supervillano",
+                "villana",
+                "villano",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("supervillano"),
+            keywords: &["delito", "mal", "superpoder", "supervillano", "villano"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("superkurikael"),
+            keywords: &[
+                "kuri",
+                "kurikael",
+                "kurjategija",
+                "superkurikael",
+                "supervõimed",
+            ],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("superbilau"),
+            keywords: &["bilau", "gaizto", "kriminal", "superbilau", "superbotere"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("ابرشرور"),
+            keywords: &[
+                "آدم شرور",
+                "ابرشرور",
+                "ابرقدرت",
+                "اهریمن",
+                "تبهکار",
+                "شرور بزرگ",
+                "مجرم",
+            ],
         },
         crate::Annotation {
             lang: "fi",
@@ -830,6 +6083,648 @@ pub const SUPERVILLAIN: crate::Emoji = crate::Emoji {
                 "superpahis",
                 "supervoimat",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("supervillain"),
+            keywords: &["criminal", "kaaway", "kalaban", "masama", "supervillain"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("superskálkur"),
+            keywords: &[
+                "bakbeist",
+                "illmenni",
+                "skálkur",
+                "super",
+                "superskálkur",
+                "óndur",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("super-vilain"),
+            keywords: &[
+                "criminel",
+                "mal",
+                "méchant",
+                "super-pouvoir",
+                "super-vilain",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("sárbhithiúnach"),
+            keywords: &[
+                "bithiúnach",
+                "coirpeach",
+                "drochdhuine",
+                "olc",
+                "sárbhithiúnach",
+                "sárchumhacht",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("sàr-shlaightear"),
+            keywords: &[
+                "cumhachd",
+                "eucoireach",
+                "oil-chumhachd",
+                "olc",
+                "slaightear",
+                "super",
+                "sàr-shlaightear",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("vilán"),
+            keywords: &["malo", "superpoderes", "vilán"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સ\u{ac1}પરવિલન"),
+            keywords: &[
+                "ખલનાયક",
+                "ગ\u{ac1}ન\u{ac7}ગાર",
+                "દ\u{ac1}ષ\u{acd}ટ",
+                "વિલન",
+                "સ\u{ac1}પરપાવર",
+                "સ\u{ac1}પરવિલન",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("נבל על"),
+            keywords: &["כוחות הרשע", "נבל", "נבל על", "פושע", "רשע"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("स\u{941}परविल\u{947}न"),
+            keywords: &[
+                "अपराधी",
+                "ब\u{941}राई",
+                "विल\u{947}न",
+                "स\u{941}परपॉवर",
+                "स\u{941}परविल\u{947}न",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("zločinac"),
+            keywords: &["kriminalac", "supermoći", "zlo", "zločinac"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("főgonosz"),
+            keywords: &["bűnöző", "főgonosz", "gazember", "gonosz", "szuperképesség"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("սուպերչարագործ"),
+            keywords: &["գերուժ", "հանցագործ", "չարագործ", "չարիք", "սուպերչարագործ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("penjahat super"),
+            keywords: &[
+                "jahat",
+                "kekuatan super",
+                "kriminal",
+                "penjahat",
+                "penjahat super",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("skúrkur"),
+            keywords: &["glæpamaður", "illmenni", "illur", "ofurkraftur", "skúrkur"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("supercattivo"),
+            keywords: &["cattivo", "criminale", "supercattivo", "superpotere"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("悪役"),
+            keywords: &["ヴィラン", "悪", "悪役", "犯人", "超人"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("mungsuh digdaya"),
+            keywords: &[
+                "ala",
+                "kadigdayan linuwih",
+                "mungsuh",
+                "mungsuh digdaya",
+                "wong jahat",
+            ],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ბოროტი გმირი"),
+            keywords: &[
+                "ბოროტი",
+                "ბოროტი გმირი",
+                "ზებუნებრივი",
+                "კრიმინალი",
+                "უარყოფითი გმირი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("супер зұлым"),
+            keywords: &["залым", "супер зұлым", "супер күш", "шайтан", "қылмыстық"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ក\u{17c6}ព\u{17bc}លជនអាក\u{17d2}រក\u{17cb}"),
+            keywords: &[
+                "ក\u{17c6}ព\u{17bc}លជនអាក\u{17d2}រក\u{17cb}",
+                "ជនអាក\u{17d2}រក\u{17cb}",
+                "ថាមពលព\u{17b7}សេស",
+                "អាក\u{17d2}រក\u{17cb}",
+                "ឧក\u{17d2}រ\u{17b7}ដ\u{17d2}ឋជន",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ವ\u{cbf}ಲನ\u{ccd}"),
+            keywords: &[
+                "ಅಪರಾಧ\u{cbf}",
+                "ಖಳನಾಯಕ",
+                "ದುಷ\u{ccd}ಟ",
+                "ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಪವರ\u{ccd}",
+                "ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ವ\u{cbf}ಲನ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("슈퍼 악당"),
+            keywords: &["범죄자", "빌런", "슈퍼 악당", "악당", "초능력"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("स\u{941}परविलन"),
+            keywords: &[
+                "ग\u{941}न\u{94d}या\u{902}वकारी",
+                "वायट",
+                "विलन",
+                "स\u{941}परपावर",
+                "स\u{941}परविलन",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("карасантай"),
+            keywords: &[
+                "зөөкүр",
+                "карасантай",
+                "кылмышкер",
+                "терс каарман",
+                "эбегейсиз зор күч",
+            ],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຈອມວາຍລ\u{ec9}າຍ"),
+            keywords: &[
+                "ຈອມພະລ\u{eb1}ງ",
+                "ຈອມວາຍລ\u{ec9}າຍ",
+                "ຊ\u{ebb}\u{ec8}ວຮ\u{ec9}າຍ",
+                "ວາຍລ\u{ec9}າຍ",
+                "ສ\u{eb5}\u{ec8}ງຊ\u{ebb}\u{ec8}ວຮ\u{ec9}າຍ",
+                "ອາດສະຍາກອນ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("superpiktadarys"),
+            keywords: &[
+                "blogas",
+                "nusikaltėlis",
+                "piktadarys",
+                "supergalia",
+                "superpiktadarys",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("superļaunais"),
+            keywords: &[
+                "krimināls",
+                "nelietis",
+                "superspēks",
+                "superļaunais",
+                "ļaunums",
+            ],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("супер-негативец"),
+            keywords: &[
+                "зло",
+                "криминалец",
+                "негативец",
+                "супер-негативец",
+                "суперсила",
+            ],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("സ\u{d42}പ\u{d4d}പർവില\u{d4d}ലൻ"),
+            keywords: &[
+                "അമ\u{d3e}ന\u{d41}ഷികശക\u{d4d}\u{200c}തി",
+                "ക\u{d4d}രിമിനൽ",
+                "ദ\u{d41}ഷ\u{d4d}\u{200c}ടത",
+                "പ\u{d4d}രതിന\u{d3e}യകൻ",
+                "സ\u{d42}പ\u{d4d}പർവില\u{d4d}ലൻ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("ид шидийн хүчтэй эсрэг дүр"),
+            keywords: &[
+                "гэмт хэрэг",
+                "ид шидийн хүчтэй эсрэг дүр",
+                "супер хүч",
+                "чөтгөр",
+                "эсрэг гол дүр",
+            ],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("स\u{941}परव\u{94d}हीलन"),
+            keywords: &[
+                "ग\u{941}न\u{94d}ह\u{947}गार",
+                "द\u{941}ष\u{94d}ट",
+                "व\u{94d}हीलन",
+                "स\u{941}परपॉवर",
+                "स\u{941}परव\u{94d}हीलन",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("ketua penjahat"),
+            keywords: &[
+                "jahat",
+                "ketua penjahat",
+                "penjahat",
+                "penjenayah",
+                "sangat berkuasa",
+            ],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ထ\u{102d}ပ\u{103a}တန\u{103a}း လ\u{1030}ဆ\u{102d}\u{102f}း"),
+            keywords: &[
+                "ထ\u{102d}ပ\u{103a}တန\u{103a}း လ\u{1030}ဆ\u{102d}\u{102f}း",
+                "မကောင\u{103a}းဆ\u{102d}\u{102f}းဝါး",
+                "ရာဇဝတ\u{103a}ကောင\u{103a}",
+                "လ\u{1030}ဆ\u{102d}\u{102f}း",
+                "အစ\u{103d}မ\u{103a}း",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("superskurk"),
+            keywords: &["kriminell", "ond", "skurk", "superkrefter", "superskurk"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("स\u{941}परभिल\u{947}न"),
+            keywords: &[
+                "अपराधी",
+                "द\u{941}ष\u{94d}ट",
+                "भिल\u{947}न",
+                "स\u{941}परपावर",
+                "स\u{941}परभिल\u{947}न",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("superschurk"),
+            keywords: &[
+                "boef",
+                "crimineel",
+                "slecht",
+                "superkrachten",
+                "superschurk",
+            ],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("superskurk"),
+            keywords: &["kriminell", "skurk", "superkrefter", "superskurk", "vond"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ସ\u{b41}ପର\u{b4d}\u{200c} ଭ\u{b3f}ଲ\u{b3f}ୟ\u{b3e}ନ\u{b4d}\u{200c}"),
+            keywords: &[
+                "ଅପର\u{b3e}ଧୀ",
+                "ଦ\u{b41}ଷ\u{b4d}ଟ",
+                "ଭ\u{b3f}ଲ\u{b3f}ୟ\u{b3e}ନ\u{b4d}\u{200c}",
+                "ସ\u{b41}ପର\u{b4d}\u{200c} ପ\u{b3e}ୱ\u{b3e}ର",
+                "ସ\u{b41}ପର\u{b4d}\u{200c} ଭ\u{b3f}ଲ\u{b3f}ୟ\u{b3e}ନ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਮਹਾ\u{a02}-ਖਲਨਾਇਕ"),
+            keywords: &[
+                "ਅਪਰਾਧੀ",
+                "ਖਲਨਾਇਕ",
+                "ਦ\u{a41}ਸ\u{a3c}ਟ",
+                "ਮਹਾ\u{a02}-ਖਲਨਾਇਕ",
+                "ਸ\u{a41}ਪਰਪਾਵਰ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Wíkẹ\u{301}d Krímínal"),
+            keywords: &[
+                "Bad",
+                "Bád Pẹ\u{301}sin",
+                "Krímínal",
+                "Pẹ\u{301}sin Wé Bád Wẹ\u{301}l Wẹl",
+                "Supapáwa",
+                "Wíkẹd",
+                "Wíkẹ\u{301}d Krímínal",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("superłotr"),
+            keywords: &[
+                "czarny charakter",
+                "przestępca",
+                "supermoc",
+                "superłotr",
+                "złoczyńca",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("لوي ورانکاری"),
+            keywords: &["جنايتکار", "خراب", "لوي قوت", "لوي ورانکاری", "ورانکاری"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("supervilão"),
+            keywords: &["criminoso", "mal", "superpoder", "supervilão", "vilão"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["criminoso", "mau", "superpoder", "supervilão", "vilão"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("supervillano"),
+            keywords: &["criminal", "supay", "superpoder", "supervillano", "villano"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("super-ticălos"),
+            keywords: &[
+                "criminal",
+                "malefic",
+                "super-ticălos",
+                "superputere",
+                "ticălos",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E11-044"),
+            keywords: &["E11-044"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("суперзлодей"),
+            keywords: &["зло", "злодей", "суперзлодей"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("سپر ولن"),
+            keywords: &["برائي", "سپر ولن", "سپر پاور", "ولن", "ڏوهي"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ස\u{dd4}ප\u{dd2}ර\u{dd2} ද\u{dd4}ෂ\u{dca}ටය\u{dcf}"),
+            keywords: &[
+                "අපර\u{dcf}ධක\u{dcf}රයෙක\u{dca}",
+                "ද\u{dd4}ෂ\u{dca}ටය\u{dcf}",
+                "නරකය\u{dd2}",
+                "ස\u{dd4}ප\u{dd2}ර\u{dd2} ද\u{dd4}ෂ\u{dca}ටය\u{dcf}",
+                "ස\u{dd4}ප\u{dd2}ර\u{dd2} බලවත\u{dcf}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("superdarebácka bytosť"),
+            keywords: &[
+                "darebák",
+                "superdarebácka bytosť",
+                "superschopnosť",
+                "zlo",
+                "zloduch",
+                "zločinec",
+            ],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("super negativec"),
+            keywords: &[
+                "kriminalec",
+                "negativec",
+                "super moč",
+                "super negativec",
+                "zloben",
+            ],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("qof sheyddaankiisu sareeyo"),
+            keywords: &[
+                "awood sareeysa",
+                "dambiile",
+                "qof sheyddaankiisu sareeyo",
+                "sheyddaan ah",
+                "xun",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("superzuzar"),
+            keywords: &["i lig", "kriminel", "superfuqi", "superzuzar", "zemërkeq"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("негативац"),
+            keywords: &["зло", "злочинац", "криминал", "негативац", "супер моћ"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["негативац"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("negativac"),
+            keywords: &["kriminal", "negativac", "super moć", "zlo", "zločinac"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["negativac"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("superskurk"),
+            keywords: &[
+                "brottsling",
+                "elak",
+                "ond",
+                "skurk",
+                "superkraft",
+                "superkrafter",
+                "superskurk",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("jambazi sugu"),
+            keywords: &[
+                "jambazi",
+                "jambazi sugu",
+                "mhalifu",
+                "nguvu zisizo za kawaida",
+                "uovu",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("சூப\u{bcd}பர\u{bcd} வில\u{bcd}லன\u{bcd}"),
+            keywords: &[
+                "குற\u{bcd}றவ\u{bbe}ளி",
+                "சூப\u{bcd}பர\u{bcd} பவர\u{bcd}",
+                "சூப\u{bcd}பர\u{bcd} வில\u{bcd}லன\u{bcd}",
+                "த\u{bc0}யவர\u{bcd}",
+                "வில\u{bcd}லன\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("సూపర\u{c4d}\u{200c}వ\u{c3f}లన\u{c4d}"),
+            keywords: &[
+                "క\u{c4d}ర\u{c3f}మ\u{c3f}నల\u{c4d}",
+                "చ\u{c46}డు",
+                "వ\u{c3f}లన\u{c4d}",
+                "సూపర\u{c4d}\u{200c}పవర\u{c4d}",
+                "సూపర\u{c4d}\u{200c}వ\u{c3f}లన\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ยอดมน\u{e38}ษย\u{e4c}"),
+            keywords: &[
+                "ต\u{e31}วร\u{e49}าย",
+                "ป\u{e35}ศาจ",
+                "ผ\u{e39}\u{e49}ร\u{e49}าย",
+                "ยอดมน\u{e38}ษย\u{e4c}",
+                "อาชญากร",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("superbetpäl"),
+            keywords: &["betpäl", "erbet", "jenaýatçy", "superbetpäl", "supergüýç"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tokotaha kākā"),
+            keywords: &["tokotaha kākā"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("süper kötü"),
+            keywords: &["kötü", "suçlu", "süper güç", "süper kötü", "şeytani"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("суперзлодій"),
+            keywords: &["зло", "злодій", "злочинець", "суперзлодій", "суперсила"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("سپر ولن"),
+            keywords: &["برائی", "سپر ولن", "سپر پاور", "مجرم", "ولن"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("salbiy superqahramon"),
+            keywords: &[
+                "jinoyat",
+                "salbiy qahramon",
+                "salbiy superqahramon",
+                "superkuch",
+                "yovuz",
+                "yovuzlik",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("nhân vật siêu phản diện"),
+            keywords: &[
+                "nhân vật phản diện",
+                "nhân vật siêu phản diện",
+                "siêu năng lực",
+                "tội phạm",
+                "ác",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("超級壞人"),
+            keywords: &["壞人", "犯罪", "超人", "超級壞人", "邪惡"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("超级坏人"),
+            keywords: &["坏人", "犯罪", "超人", "超级坏人", "邪恶"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("超级大坏蛋"),
+            keywords: &["坏蛋", "恶魔", "罪犯", "超级大坏蛋", "超能力"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("超級反派"),
+            keywords: &["反派", "犯罪", "超級反派", "超能力", "邪惡"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("supervillain"),
+            keywords: &["criminal", "evil", "superpower", "supervillain", "villain"],
         },
     ],
 };
@@ -899,55 +6794,7 @@ pub const SUPERVILLAIN_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     annotations: &[],
 };
 #[doc = "🦹\u{200d}♂\u{fe0f}"]
-pub const MAN_SUPERVILLAIN: crate::Emoji = crate::Emoji {
-    glyph: "🦹\u{200d}♂\u{fe0f}",
-    codepoint: "1F9B9 200D 2642 FE0F",
-    status: crate::Status::FullyQualified,
-    introduction_version: 11f32,
-    name: "man supervillain",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[crate::Emoji {
-        glyph: "🦹\u{200d}♂",
-        codepoint: "1F9B9 200D 2642",
-        status: crate::Status::MinimallyQualified,
-        introduction_version: 11f32,
-        name: "man supervillain",
-        group: "People & Body",
-        subgroup: "person-fantasy",
-        is_variant: true,
-        variants: &[],
-        annotations: &[],
-    }],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("man supervillain"),
-            keywords: &[
-                "criminal",
-                "evil",
-                "man",
-                "man supervillain",
-                "superpower",
-                "villain",
-            ],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("miessuperpahis"),
-            keywords: &[
-                "kelmi",
-                "konna",
-                "miessuperpahis",
-                "paha",
-                "rikollinen",
-                "roisto",
-                "supervoimat",
-            ],
-        },
-    ],
-};
+pub const MAN_SUPERVILLAIN : crate :: Emoji = crate :: Emoji { glyph : "🦹\u{200d}♂\u{fe0f}" , codepoint : "1F9B9 200D 2642 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 11f32 , name : "man supervillain" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [crate :: Emoji { glyph : "🦹\u{200d}♂" , codepoint : "1F9B9 200D 2642" , status : crate :: Status :: MinimallyQualified , introduction_version : 11f32 , name : "man supervillain" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("manlike superskurk") , keywords : & ["boos" , "krimineel" , "man" , "manlike superskurk" , "skurk" , "superkrag"] , } , crate :: Annotation { lang : "am" , tts : Some ("የወንድ ጀግና ምስል") , keywords : & ["ሃያል" , "ሰው" , "ተንኮለኛ" , "ክፉ" , "ወንጀለኛ" , "የወንድ ጀግና ምስል"] , } , crate :: Annotation { lang : "ar" , tts : Some ("شرير خارق رجل") , keywords : & ["جريمة" , "رجل" , "شر" , "شرير" , "شرير خارق رجل" , "قوة خارقة" , "مجرم"] , } , crate :: Annotation { lang : "as" , tts : Some ("প\u{9c1}ৰ\u{9c1}ষ চ\u{9c1}প\u{9be}ৰভিলেইন") , keywords : & ["অপৰ\u{9be}ধী" , "চ\u{9c1}প\u{9be}ৰপ\u{9be}ৱ\u{9be}ৰ" , "দ\u{9c1}ষ\u{9cd}ট" , "প\u{9c1}ৰ\u{9c1}ষ" , "প\u{9c1}ৰ\u{9c1}ষ চ\u{9c1}প\u{9be}ৰভিলেইন" , "ভিলেইন"] , } , crate :: Annotation { lang : "az" , tts : Some ("kişi supercani") , keywords : & ["cani" , "kişi" , "kişi supercani" , "kriminal" , "pis" , "supergüc"] , } , crate :: Annotation { lang : "be" , tts : Some ("суперзлачынец") , keywords : & ["злачынца" , "зло" , "ліхадзей" , "мужчына" , "суперзлачынец" , "суперсіла"] , } , crate :: Annotation { lang : "bg" , tts : Some ("мъж суперзлодей") , keywords : & ["зло" , "злодей" , "мъж" , "мъж суперзлодей" , "престъпник" , "суперсила"] , } , crate :: Annotation { lang : "bn" , tts : Some ("প\u{9c1}র\u{9c1}ষ স\u{9c1}প\u{9be}রভিলেন") , keywords : & ["অপর\u{9be}ধী" , "প\u{9c1}র\u{9c1}ষ" , "প\u{9c1}র\u{9c1}ষ স\u{9c1}প\u{9be}রভিলেন" , "ভিলেন" , "মন\u{9cd}দ" , "স\u{9c1}প\u{9be}রপ\u{9be}ওয\u{9bc}\u{9be}র"] , } , crate :: Annotation { lang : "bs" , tts : Some ("muškarac super zlikovac") , keywords : & ["kriminalac" , "muškarac" , "muškarac super zlikovac" , "supermoć" , "zlikovac" , "zlo"] , } , crate :: Annotation { lang : "ca" , tts : Some ("home superdolent") , keywords : & ["criminal" , "dolent" , "home" , "home superdolent" , "malvat" , "superpoder"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏍᎦᏯ ᏄᎬᏫᏳᏒᎩ ᎠᏍᎦᏂ") , keywords : & ["ᎠᏍᎦᏂ" , "ᎠᏍᎦᏯ" , "ᎠᏍᎦᏯ ᏄᎬᏫᏳᏒᎩ ᎠᏍᎦᏂ" , "ᎤᏍᎦᏅᏨᎯ ᎨᏒᎢ" , "ᎤᏐᏅᎢ" , "ᏄᎬᏫᏳᏒᎩ ᎤᏟᏂᎩᏓ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("superpadouch") , keywords : & ["muž" , "padouch" , "superpadouch" , "superschopnost" , "superzločinec" , "záporná postava"] , } , crate :: Annotation { lang : "cy" , tts : Some ("archleidr gwrywaidd") , keywords : & ["archbŵer" , "archleidr gwrywaidd" , "drwg" , "dyn" , "troseddwr"] , } , crate :: Annotation { lang : "da" , tts : Some ("mandlig superskurk") , keywords : & ["kriminel" , "mand" , "mandlig superskurk" , "ond" , "skurk" , "superkraft"] , } , crate :: Annotation { lang : "de" , tts : Some ("männlicher Bösewicht") , keywords : & ["Bösewicht" , "böse" , "männlicher Bösewicht"] , } , crate :: Annotation { lang : "el" , tts : Some ("άντρας αρχικακός") , keywords : & ["άντρας" , "άντρας αρχικακός" , "κακοποιός" , "κακό" , "κακός" , "υπερδύναμη"] , } , crate :: Annotation { lang : "en" , tts : Some ("man supervillain") , keywords : & ["criminal" , "evil" , "man" , "man supervillain" , "superpower" , "villain"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("supervillano") , keywords : & ["hombre" , "mal" , "malvado" , "supervillano" , "villano"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("hombre supervillano") , keywords : & ["delito" , "hombre" , "hombre supervillano" , "mal" , "superpoder" , "villano"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("hombre supervillano") , keywords : & ["hombre supervillano"] , } , crate :: Annotation { lang : "et" , tts : Some ("meessoost superkurikael") , keywords : & ["kuri" , "kurikael" , "kurjategija" , "mees" , "meessoost superkurikael" , "supervõimed"] , } , crate :: Annotation { lang : "eu" , tts : Some ("gizonezko superbilau") , keywords : & ["bilau" , "gaizto" , "gizon" , "gizonezko superbilau" , "kriminal" , "superbotere"] , } , crate :: Annotation { lang : "fa" , tts : Some ("ابرشرور مرد") , keywords : & ["آدم شرور" , "ابرشرور مرد" , "ابرقدرت" , "اهریمن" , "تبهکار" , "مرد"] , } , crate :: Annotation { lang : "fi" , tts : Some ("miessuperpahis") , keywords : & ["kelmi" , "konna" , "miessuperpahis" , "paha" , "rikollinen" , "roisto" , "supervoimat"] , } , crate :: Annotation { lang : "fil" , tts : Some ("lalaking supervillain") , keywords : & ["kalaban" , "kontrabida" , "kriminal" , "lalaki" , "lalaking supervillain" , "superpower"] , } , crate :: Annotation { lang : "fo" , tts : Some ("mannligur superskálkur") , keywords : & ["bakbeist" , "illmenni" , "mannligur superskálkur" , "maður" , "skálkur" , "super" , "óndur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("super-vilain homme") , keywords : & ["criminel" , "homme" , "mal" , "méchant" , "super-pouvoir" , "super-vilain homme"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["criminel, homme, mal, méchant, super pouvoir" , "super-vilain homme"] , } , crate :: Annotation { lang : "ga" , tts : Some ("fear-dhrochdhuine") , keywords : & ["coirpeach" , "drochdhuine" , "fear" , "fear-dhrochdhuine" , "olc" , "sárchumhacht"] , } , crate :: Annotation { lang : "gd" , tts : Some ("sàr-shlaightear fireann") , keywords : & ["cumhachd" , "eucoireach" , "fireannach" , "oil-chumhachd" , "olc" , "slaightear" , "super" , "sàr-shlaightear fireann"] , } , crate :: Annotation { lang : "gl" , tts : Some ("supervil´án") , keywords : & ["home" , "malo" , "superpoderes" , "supervil´án" , "vilán"] , } , crate :: Annotation { lang : "gu" , tts : Some ("પ\u{ac1}ર\u{ac1}ષ સ\u{ac1}પરવિલન") , keywords : & ["ખલનાયક" , "ગ\u{ac1}ન\u{ac7}ગાર" , "દ\u{ac1}ષ\u{acd}ટ" , "પ\u{ac1}ર\u{ac1}ષ" , "પ\u{ac1}ર\u{ac1}ષ સ\u{ac1}પરવિલન" , "વિલન" , "સ\u{ac1}પરપાવર"] , } , crate :: Annotation { lang : "he" , tts : Some ("רשע בעל כוחות על") , keywords : & ["כוחות הרשע" , "כוחות על" , "נבל" , "פושע" , "רשע" , "רשע בעל כוחות על"] , } , crate :: Annotation { lang : "hi" , tts : Some ("प\u{941}र\u{941}ष स\u{941}परविल\u{947}न") , keywords : & ["अपराधी" , "प\u{941}र\u{941}ष" , "प\u{941}र\u{941}ष स\u{941}परविल\u{947}न" , "ब\u{941}राई" , "विल\u{947}न" , "स\u{941}परपॉवर"] , } , crate :: Annotation { lang : "hr" , tts : Some ("stripovski zločinac") , keywords : & ["kriminalac" , "muškarac" , "stripovski zločinac" , "supermoći" , "zlo" , "zločinac"] , } , crate :: Annotation { lang : "hu" , tts : Some ("férfi főgonosz") , keywords : & ["bűnöző" , "férfi" , "férfi főgonosz" , "gazember" , "gonosz" , "szuperképesség"] , } , crate :: Annotation { lang : "hy" , tts : Some ("տղամարդ չարագործ") , keywords : & ["գերուժ" , "հանցագործ" , "չարագործ" , "չարիք" , "տղամարդ"] , } , crate :: Annotation { lang : "id" , tts : Some ("penjahat super pria") , keywords : & ["jahat" , "kekuatan super" , "kriminal" , "penjahat" , "penjahat super pria" , "pria"] , } , crate :: Annotation { lang : "is" , tts : Some ("illmenni") , keywords : & ["glæpamaður" , "illmenni" , "illur" , "ofurkraftur" , "skúrkur"] , } , crate :: Annotation { lang : "it" , tts : Some ("supercattivo uomo") , keywords : & ["cattivo" , "criminale" , "supercattivo uomo" , "superpotere" , "uomo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("男性の悪役") , keywords : & ["ヴィラン" , "悪" , "犯人" , "男性" , "男性の悪役" , "超人"] , } , crate :: Annotation { lang : "jv" , tts : Some ("mungsuh digdaya lanang") , keywords : & ["ala" , "kadigdayan linuwih" , "lanang" , "mungsuh" , "mungsuh digdaya lanang" , "wong jahat"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ბოროტი გმირი კაცი") , keywords : & ["ბოროტი" , "ბოროტი გმირი კაცი" , "ზებუნებრივი" , "კაცი" , "კრიმინალი" , "უარყოფითი გმირი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("ер супер залым") , keywords : & ["ер" , "ер супер залым" , "залым" , "супер күш" , "шайтан" , "қылмыстық"] , } , crate :: Annotation { lang : "km" , tts : Some ("ក\u{17c6}ព\u{17bc}លប\u{17bb}រសអាក\u{17d2}រក\u{17cb}") , keywords : & ["ក\u{17c6}ព\u{17bc}លប\u{17bb}រសអាក\u{17d2}រក\u{17cb}" , "ជនអាក\u{17d2}រក\u{17cb}" , "ថាមពលព\u{17b7}សេស" , "ប\u{17bb}រស" , "អាក\u{17d2}រក\u{17cb}" , "ឧក\u{17d2}រ\u{17b7}ដ\u{17d2}ឋជន"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಪುರುಷ ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ವ\u{cbf}ಲನ\u{ccd}") , keywords : & ["ಅಪರಾಧ\u{cbf}" , "ದುಷ\u{ccd}ಟ" , "ಪುರುಷ" , "ಪುರುಷ ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ವ\u{cbf}ಲನ\u{ccd}" , "ವ\u{cbf}ಲನ\u{ccd}" , "ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಪವರ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("남자 슈퍼 악당") , keywords : & ["남자 슈퍼 악당" , "범죄자" , "빌런" , "악당" , "초능력"] , } , crate :: Annotation { lang : "kok" , tts : Some ("दादलो स\u{941}परविलन") , keywords : & ["ग\u{941}न\u{94d}या\u{902}वकारी" , "दादलो" , "दादलो स\u{941}परविलन" , "दादलो स\u{941}परविल\u{947}न" , "वायट" , "विल\u{947}न" , "स\u{941}परपावर"] , } , crate :: Annotation { lang : "ky" , tts : Some ("карасантай жигит") , keywords : & ["зөөкүр" , "карасантай жигит" , "кылмышкер" , "терс каарман" , "эбегейсиз зор күч" , "эркек"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ພະຍາມານຈອມວາຍລ\u{ec9}າຍ") , keywords : & ["ຈອມພະລ\u{eb1}ງ" , "ຜ\u{eb9}\u{ec9}ຊາຍ" , "ພະຍາມານຈອມວາຍລ\u{ec9}າຍ" , "ວາຍລ\u{ec9}າຍ" , "ສ\u{eb5}\u{ec8}ງຊ\u{ebb}\u{ec8}ວຮ\u{ec9}າຍ" , "ອາດສະຍາກອນ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("vyras piktadarys") , keywords : & ["blogas" , "nusikaltėlis" , "piktadarys" , "supergalia" , "vyras"] , } , crate :: Annotation { lang : "lv" , tts : Some ("superļaunais vīrietis") , keywords : & ["krimināls" , "nelietis" , "superspēks" , "superļaunais vīrietis" , "vīrietis" , "ļaunums"] , } , crate :: Annotation { lang : "mk" , tts : Some ("маж супернегативец") , keywords : & ["зло" , "криминалец" , "маж" , "маж супернегативец" , "негативец" , "суперсила"] , } , crate :: Annotation { lang : "ml" , tts : Some ("മ\u{d3e}ൻ സ\u{d42}പ\u{d4d}പർവില\u{d4d}ലൻ") , keywords : & ["അമ\u{d3e}ന\u{d41}ഷികശക\u{d4d}തി" , "ക\u{d4d}രിമിനൽ" , "ദ\u{d41}ഷ\u{d4d}\u{200c}ടത" , "പ\u{d41}ര\u{d41}ഷൻ" , "മ\u{d3e}ൻ സ\u{d42}പ\u{d4d}പർവില\u{d4d}ലൻ" , "വില\u{d4d}ലൻ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("ид шидийн хүчтэй эрэгтэй эсрэг дүр") , keywords : & ["гэмт хэрэг" , "ид шидийн хүчтэй эрэгтэй эсрэг дүр" , "супер хүч" , "чөтгөр" , "эрэгтэй" , "эсрэг гол дүр"] , } , crate :: Annotation { lang : "mr" , tts : Some ("प\u{941}र\u{941}ष स\u{941}परव\u{94d}हीलन") , keywords : & ["ग\u{941}न\u{94d}ह\u{947}गार" , "द\u{941}ष\u{94d}ट" , "प\u{941}र\u{941}ष स\u{941}परव\u{94d}हीलन" , "प\u{941}र\u{942}ष" , "व\u{94d}हीलन" , "स\u{941}परपॉवर"] , } , crate :: Annotation { lang : "ms" , tts : Some ("ketua penjahat lelaki") , keywords : & ["jahat" , "ketua penjahat lelaki" , "lelaki" , "penjahat" , "penjenayah" , "sangat berkuasa"] , } , crate :: Annotation { lang : "my" , tts : Some ("အမျ\u{102d}\u{102f}းသား ထ\u{102d}ပ\u{103a}တန\u{103a}းလ\u{1030}ဆ\u{102d}\u{102f}း") , keywords : & ["မကောင\u{103a}းဆ\u{102d}\u{102f}းဝါး" , "ရာဇဝတ\u{103a}ကောင\u{103a}" , "လ\u{1030}ဆ\u{102d}\u{102f}း" , "အစ\u{103d}မ\u{103a}း" , "အမျ\u{102d}\u{102f}းသား" , "အမျ\u{102d}\u{102f}းသား ထ\u{102d}ပ\u{103a}တန\u{103a}းလ\u{1030}ဆ\u{102d}\u{102f}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("mannlig superskurk") , keywords : & ["kriminell" , "mann" , "mannlig superskurk" , "ond" , "skurk" , "superkrefter"] , } , crate :: Annotation { lang : "ne" , tts : Some ("छोरामान\u{94d}छ\u{947} स\u{941}परभिल\u{947}न") , keywords : & ["अपराधी" , "छोरामान\u{94d}छ\u{947}" , "छोरामान\u{94d}छ\u{947} स\u{941}परभिल\u{947}न" , "द\u{941}ष\u{94d}ट" , "भिल\u{947}न" , "स\u{941}परपावर"] , } , crate :: Annotation { lang : "nl" , tts : Some ("mannelijke superschurk") , keywords : & ["boef" , "crimineel" , "man" , "mannelijke superschurk" , "slecht" , "superkrachten"] , } , crate :: Annotation { lang : "nn" , tts : Some ("mannleg superskurk") , keywords : & ["kriminell" , "mann" , "mannleg superskurk" , "skurk" , "superkrefter" , "vond"] , } , crate :: Annotation { lang : "or" , tts : Some ("ପ\u{b41}ର\u{b41}ଷ ସ\u{b41}ପର\u{b4d}\u{200c} ଭ\u{b3f}ଲ\u{b3f}ୟ\u{b3e}ନ\u{b4d}\u{200c}") , keywords : & ["ଅପର\u{b3e}ଧୀ" , "ଦ\u{b41}ଷ\u{b4d}ଟ" , "ପ\u{b41}ର\u{b41}ଷ" , "ପ\u{b41}ର\u{b41}ଷ ସ\u{b41}ପର\u{b4d}\u{200c} ଭ\u{b3f}ଲ\u{b3f}ୟ\u{b3e}ନ\u{b4d}\u{200c}" , "ଭ\u{b3f}ଲ\u{b3f}ୟ\u{b3e}ନ\u{b4d}\u{200c}" , "ସ\u{b41}ପର\u{b4d}\u{200c} ପ\u{b3e}ୱ\u{b3e}ର"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਪ\u{a41}ਰਸ\u{a3c} ਮਹਾ\u{a02}-ਖਲਨਾਇਕ") , keywords : & ["ਅਪਰਾਧੀ" , "ਖਲਨਾਇਕ" , "ਦ\u{a41}ਸ\u{a3c}ਟ" , "ਪ\u{a41}ਰਸ\u{a3c}" , "ਪ\u{a41}ਰਸ\u{a3c} ਮਹਾ\u{a02}-ਖਲਨਾਇਕ" , "ਸ\u{a41}ਪਰਪਾਵਰ"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Wíkẹ\u{301}d Mán Krímínal") , keywords : & ["Bad" , "Bád Pẹ\u{301}sin" , "Krímínal" , "Man Wé Bád Wẹ\u{301}l Wẹl" , "Supapáwa" , "Wíkẹd" , "Wíkẹ\u{301}d Mán Krímínal"] , } , crate :: Annotation { lang : "pl" , tts : Some ("mężczyzna superłotr") , keywords : & ["czarny bohater" , "mężczyzna" , "mężczyzna superłotr" , "przestępca" , "supermoc" , "złoczyńca"] , } , crate :: Annotation { lang : "ps" , tts : Some ("سړی لوي ورانکاری") , keywords : & ["جنايتکار" , "خراب" , "سړی لوي ورانکاری" , "لوي قوت" , "ورانکاری"] , } , crate :: Annotation { lang : "pt" , tts : Some ("homem supervilão") , keywords : & ["criminoso" , "homem" , "homem supervilão" , "mal" , "superpoder" , "vilão"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["criminoso" , "homem" , "homem supervilão" , "mau" , "superpoderoso" , "vilão"] , } , crate :: Annotation { lang : "qu" , tts : Some ("runa supervillano") , keywords : & ["criminal" , "runa" , "runa supervillano" , "supay" , "superpoder" , "villano"] , } , crate :: Annotation { lang : "ro" , tts : Some ("super-ticălos bărbat") , keywords : & ["bărbat" , "criminal" , "malefic" , "super-ticălos bărbat" , "superputere" , "ticălos"] , } , crate :: Annotation { lang : "root" , tts : Some ("E11-046") , keywords : & ["E11-046"] , } , crate :: Annotation { lang : "ru" , tts : Some ("мужчина-суперзлодей") , keywords : & ["зло" , "злодей" , "мужчина-суперзлодей" , "суперзлодей"] , } , crate :: Annotation { lang : "sd" , tts : Some ("مرد سپر ولن") , keywords : & ["برائي" , "سپر پاور" , "مرد" , "مرد سپر ولن" , "ولن" , "ڏوهي"] , } , crate :: Annotation { lang : "si" , tts : Some ("ප\u{dd2}ර\u{dd2}ම\u{dd2} ස\u{dd4}ප\u{dd2}ර\u{dd2} ද\u{dd4}ෂ\u{dca}ටය\u{dcf}") , keywords : & ["අපර\u{dcf}ධක\u{dcf}රයෙක\u{dca}" , "ද\u{dd4}ෂ\u{dca}ටය\u{dcf}" , "නරකය\u{dd2}" , "ප\u{dd2}ර\u{dd2}ම\u{dd2} ස\u{dd4}ප\u{dd2}ර\u{dd2} ද\u{dd4}ෂ\u{dca}ටය\u{dcf}" , "ම\u{dd2}න\u{dd2}ස\u{dcf}" , "ස\u{dd4}ප\u{dd2}ර\u{dd2} බලවත\u{dcf}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("superdarebák") , keywords : & ["darebák" , "muž" , "superdarebák" , "superschopnosť" , "zlo" , "zloduch" , "zločinec"] , } , crate :: Annotation { lang : "sl" , tts : Some ("moški super negativec") , keywords : & ["kriminalec" , "moški" , "moški super negativec" , "negativec" , "super moč" , "zloben"] , } , crate :: Annotation { lang : "so" , tts : Some ("nin sheyddaannimadiisu sareeyso") , keywords : & ["awood sareeysa" , "dambiile" , "nin" , "nin sheyddaannimadiisu sareeyso" , "nin sheyddannimadiisu sareeyso" , "qof sheyddaan ah" , "xun"] , } , crate :: Annotation { lang : "sq" , tts : Some ("burrë superzuzar") , keywords : & ["burrë superzuzar" , "i lig" , "kriminel" , "superfuqi" , "zuzar"] , } , crate :: Annotation { lang : "sr" , tts : Some ("мушкарац негативац") , keywords : & ["зло" , "криминал" , "мушкарац" , "негативац" , "супер моћ"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["мушкарац негативац"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("muškarac negativac") , keywords : & ["kriminal" , "muškarac" , "negativac" , "super moć" , "zlo"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["muškarac negativac"] , } , crate :: Annotation { lang : "sv" , tts : Some ("manlig superskurk") , keywords : & ["brottsling" , "man" , "manlig superskurk" , "ond" , "skurk" , "superkraft"] , } , crate :: Annotation { lang : "sw" , tts : Some ("jambazi wa kiume") , keywords : & ["jambazi" , "jambazi wa kiume" , "mhalifu" , "mwanamume" , "nguvu zisizo za kawaida" , "uovu"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஆண\u{bcd} சூப\u{bcd}பர\u{bcd} வில\u{bcd}லன\u{bcd}") , keywords : & ["ஆண\u{bcd}" , "ஆண\u{bcd} சூப\u{bcd}பர\u{bcd} வில\u{bcd}லன\u{bcd}" , "குற\u{bcd}றவ\u{bbe}ளி" , "சூப\u{bcd}பர\u{bcd} பவர\u{bcd}" , "த\u{bc0}யவர\u{bcd}" , "வில\u{bcd}லன\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("మ\u{c4d}య\u{c3e}న\u{c4d} సూపర\u{c4d}\u{200c}వ\u{c3f}లన\u{c4d}") , keywords : & ["క\u{c4d}ర\u{c3f}మ\u{c3f}నల\u{c4d}" , "చ\u{c46}డు" , "మ\u{c4d}య\u{c3e}న\u{c4d}" , "మ\u{c4d}య\u{c3e}న\u{c4d} సూపర\u{c4d}\u{200c}వ\u{c3f}లన\u{c4d}" , "వ\u{c3f}లన\u{c4d}" , "సూపర\u{c4d}\u{200c}పవర\u{c4d}"] , } , crate :: Annotation { lang : "th" , tts : Some ("ต\u{e31}วโกง") , keywords : & ["ต\u{e31}วร\u{e49}าย" , "ต\u{e31}วโกง" , "ป\u{e35}ศาจ" , "ผ\u{e39}\u{e49}ชาย" , "ผ\u{e39}\u{e49}ร\u{e49}าย" , "อาชญากร"] , } , crate :: Annotation { lang : "tk" , tts : Some ("erkek superbetpäl") , keywords : & ["betpäl" , "erbet" , "erkek adam" , "erkek superbetpäl" , "jenaýatçy" , "supergüýç"] , } , crate :: Annotation { lang : "to" , tts : Some ("tangata kākā") , keywords : & ["tangata kākā"] , } , crate :: Annotation { lang : "tr" , tts : Some ("erkek süper kötü") , keywords : & ["erkek" , "erkek süper kötü" , "kötü" , "suçlu" , "süper güç" , "şeytani"] , } , crate :: Annotation { lang : "uk" , tts : Some ("суперлиходій") , keywords : & ["зло" , "злодій" , "злочинець" , "суперлиходій" , "суперсила" , "чоловік"] , } , crate :: Annotation { lang : "ur" , tts : Some ("مرد سپر ولن") , keywords : & ["برائی" , "سپر پاور" , "مجرم" , "مرد" , "مرد سپر ولن" , "ولن"] , } , crate :: Annotation { lang : "uz" , tts : Some ("salbiy erkak superqahramon") , keywords : & ["erkak" , "jinoyat" , "salbiy" , "superkuch" , "superqahramon" , "yovuz" , "yovuzlik"] , } , crate :: Annotation { lang : "vi" , tts : Some ("nam siêu phản diện") , keywords : & ["nam giới" , "nam siêu phản diện" , "nhân vật phản diện" , "siêu năng lực" , "tội phạm" , "ác"] , } , crate :: Annotation { lang : "yue" , tts : Some ("超級男壞人") , keywords : & ["壞人" , "犯罪" , "超人" , "超級男壞人" , "邪惡｜男"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("超级男坏人") , keywords : & ["坏人" , "犯罪" , "超人" , "超级男坏人" , "邪恶｜男"] , } , crate :: Annotation { lang : "zh" , tts : Some ("男超级大坏蛋") , keywords : & ["坏蛋" , "男人" , "男超级大坏蛋" , "罪犯" , "超能力"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("男超級反派") , keywords : & ["反派" , "犯罪" , "男人" , "男超級反派" , "超能力" , "邪惡"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "zu" , tts : Some ("man supervillain") , keywords : & ["criminal" , "evil" , "man" , "man supervillain" , "superpower" , "villain"] , }] , } ;
 #[doc = "🦹🏻\u{200d}♂\u{fe0f}"]
 pub const MAN_SUPERVILLAIN_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "🦹🏻\u{200d}♂\u{fe0f}",
@@ -1069,55 +6916,7 @@ pub const MAN_SUPERVILLAIN_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     annotations: &[],
 };
 #[doc = "🦹\u{200d}♀\u{fe0f}"]
-pub const WOMAN_SUPERVILLAIN: crate::Emoji = crate::Emoji {
-    glyph: "🦹\u{200d}♀\u{fe0f}",
-    codepoint: "1F9B9 200D 2640 FE0F",
-    status: crate::Status::FullyQualified,
-    introduction_version: 11f32,
-    name: "woman supervillain",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[crate::Emoji {
-        glyph: "🦹\u{200d}♀",
-        codepoint: "1F9B9 200D 2640",
-        status: crate::Status::MinimallyQualified,
-        introduction_version: 11f32,
-        name: "woman supervillain",
-        group: "People & Body",
-        subgroup: "person-fantasy",
-        is_variant: true,
-        variants: &[],
-        annotations: &[],
-    }],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("woman supervillain"),
-            keywords: &[
-                "criminal",
-                "evil",
-                "superpower",
-                "villain",
-                "woman",
-                "woman supervillain",
-            ],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("naissuperpahis"),
-            keywords: &[
-                "kelmi",
-                "konna",
-                "naissuperpahis",
-                "paha",
-                "rikollinen",
-                "roisto",
-                "supervoimat",
-            ],
-        },
-    ],
-};
+pub const WOMAN_SUPERVILLAIN : crate :: Emoji = crate :: Emoji { glyph : "🦹\u{200d}♀\u{fe0f}" , codepoint : "1F9B9 200D 2640 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 11f32 , name : "woman supervillain" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [crate :: Emoji { glyph : "🦹\u{200d}♀" , codepoint : "1F9B9 200D 2640" , status : crate :: Status :: MinimallyQualified , introduction_version : 11f32 , name : "woman supervillain" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("vroulike superskurk") , keywords : & ["boos" , "krimineel" , "skurk" , "superkrag" , "vrou" , "vroulike superskurk"] , } , crate :: Annotation { lang : "am" , tts : Some ("የሴት ጀግና ምስል") , keywords : & ["ሃያል" , "ተንኮለኛ" , "ክፉ" , "ወንጀል" , "የሴት ጀግና ምስል"] , } , crate :: Annotation { lang : "ar" , tts : Some ("شريرة خارقة") , keywords : & ["جريمة" , "شر" , "شريرة" , "شريرة خارقة" , "قوة خارقة" , "مجرمة"] , } , crate :: Annotation { lang : "as" , tts : Some ("মহিল\u{9be} চ\u{9c1}প\u{9be}ৰভিলেইন") , keywords : & ["অপৰ\u{9be}ধী" , "চ\u{9c1}প\u{9be}ৰপ\u{9be}ৱ\u{9be}ৰ" , "দ\u{9c1}ষ\u{9cd}ট" , "ভিলেইন" , "মহিল\u{9be}" , "মহিল\u{9be} চ\u{9c1}প\u{9be}ৰভিলেইন"] , } , crate :: Annotation { lang : "az" , tts : Some ("qadın supercani") , keywords : & ["cani" , "kriminal" , "pis" , "qadın" , "qadın supercani" , "supergüc"] , } , crate :: Annotation { lang : "be" , tts : Some ("суперзлачынка") , keywords : & ["жанчына" , "злачынца" , "зло" , "ліхадзей" , "суперзлачынка" , "суперсіла"] , } , crate :: Annotation { lang : "bg" , tts : Some ("жена суперзлодей") , keywords : & ["жена" , "жена суперзлодей" , "зло" , "злодей" , "престъпник" , "суперсила"] , } , crate :: Annotation { lang : "bn" , tts : Some ("মহিল\u{9be} স\u{9c1}প\u{9be}রভিলেন") , keywords : & ["অপর\u{9be}ধী" , "ভিলেন" , "মন\u{9cd}দ" , "মহিল\u{9be}" , "মহিল\u{9be} স\u{9c1}প\u{9be}রভিলেন" , "স\u{9c1}প\u{9be}রপ\u{9be}ওয\u{9bc}\u{9be}র"] , } , crate :: Annotation { lang : "bs" , tts : Some ("žena super zlikovac") , keywords : & ["kriminalac" , "supermoć" , "zlikovac" , "zlo" , "žena super zlikovac"] , } , crate :: Annotation { lang : "ca" , tts : Some ("dona superdolenta") , keywords : & ["criminal" , "dolenta" , "dona" , "dona superdolenta" , "malvada" , "superpoder"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᎨᏯ ᏄᎬᏫᏳᏒᎩ ᎠᏍᎦᏂ") , keywords : & ["ᎠᎨᏯ" , "ᎠᎨᏯ ᏄᎬᏫᏳᏒᎩ ᎠᏍᎦᏂ" , "ᎠᏍᎦᏂ" , "ᎤᏍᎦᏅᏨᎯ ᎨᏒᎢ" , "ᎤᏐᏅᎢ" , "ᏄᎬᏫᏳᏒᎩ ᎤᏟᏂᎩᏓ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("superpadouška") , keywords : & ["padouška" , "superpadouška" , "superschopnost" , "superzloduška" , "záporná postava" , "žena"] , } , crate :: Annotation { lang : "cy" , tts : Some ("archleidr benywaidd") , keywords : & ["archbŵer" , "archleidr benywaidd" , "drwg" , "dyn drwg" , "menyw" , "troseddwr"] , } , crate :: Annotation { lang : "da" , tts : Some ("kvindelig superskurk") , keywords : & ["kriminel" , "kvinde" , "kvindelig superskurk" , "ond" , "skurk" , "superkraft"] , } , crate :: Annotation { lang : "de" , tts : Some ("weiblicher Bösewicht") , keywords : & ["Bösewicht" , "böse" , "weiblicher Bösewicht"] , } , crate :: Annotation { lang : "el" , tts : Some ("γυναίκα αρχικακός") , keywords : & ["γυναίκα" , "γυναίκα αρχικακός" , "κακή" , "κακοποιός" , "κακό" , "υπερδύναμη"] , } , crate :: Annotation { lang : "en" , tts : Some ("woman supervillain") , keywords : & ["criminal" , "evil" , "superpower" , "villain" , "woman" , "woman supervillain"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("supervillana") , keywords : & ["mal" , "malvada" , "mujer" , "supervillana" , "villana"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("supervillana") , keywords : & ["delito" , "mal" , "mujer" , "superpoder" , "supervillana" , "villana"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("supervillana") , keywords : & ["supervillana"] , } , crate :: Annotation { lang : "et" , tts : Some ("naissoost superkurikael") , keywords : & ["kuri" , "kurikael" , "kurjategija" , "naine" , "naissoost superkurikael" , "supervõimed"] , } , crate :: Annotation { lang : "eu" , tts : Some ("emakumezko superbilau") , keywords : & ["bilau" , "emakume" , "emakumezko superbilau" , "gaizto" , "kriminal" , "superbotere"] , } , crate :: Annotation { lang : "fa" , tts : Some ("ابرشرور زن") , keywords : & ["آدم شرور" , "ابرشرور زن" , "ابرقدرت" , "اهریمن" , "تبهکار" , "زن"] , } , crate :: Annotation { lang : "fi" , tts : Some ("naissuperpahis") , keywords : & ["kelmi" , "konna" , "naissuperpahis" , "paha" , "rikollinen" , "roisto" , "supervoimat"] , } , crate :: Annotation { lang : "fil" , tts : Some ("babaeng supervillain") , keywords : & ["babae" , "babaeng supervillain" , "kalaban" , "kontrabida" , "kriminal" , "superpower"] , } , crate :: Annotation { lang : "fo" , tts : Some ("kvinnuligur superskálkur") , keywords : & ["bakbeist" , "illmenni" , "kona" , "kvinna" , "kvinnuligur superskálkur" , "skálkur" , "super" , "ónd"] , } , crate :: Annotation { lang : "fr" , tts : Some ("super-vilain femme") , keywords : & ["criminelle" , "femme" , "mal" , "méchante" , "super-pouvoir" , "super-vilain femme"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["criminelle, femme, mal, méchante, super pouvoir" , "super-vilain femme"] , } , crate :: Annotation { lang : "ga" , tts : Some ("ban-drochdhuine") , keywords : & ["ban-drochdhuine" , "bean" , "coirpeach" , "drochdhuine" , "olc" , "sárchumhacht"] , } , crate :: Annotation { lang : "gd" , tts : Some ("sàr-shlaightear boireann") , keywords : & ["boireannach" , "cumhachd" , "eucoireach" , "oil-chumhachd" , "olc" , "slaightear" , "super" , "sàr-shlaightear boireann"] , } , crate :: Annotation { lang : "gl" , tts : Some ("supervilá") , keywords : & ["mala" , "muller" , "superpoderes" , "supervilá" , "vilá"] , } , crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}ત\u{acd}રી સ\u{ac1}પરવિલન") , keywords : & ["ખલનાયક" , "ગ\u{ac1}ન\u{ac7}ગાર" , "દ\u{ac1}ષ\u{acd}ટ" , "વિલન" , "સ\u{ac1}પરપાવર" , "સ\u{acd}ત\u{acd}રી" , "સ\u{acd}ત\u{acd}રી સ\u{ac1}પરવિલન"] , } , crate :: Annotation { lang : "he" , tts : Some ("מרשעת על") , keywords : & ["כוחות הרשע" , "מרשעת" , "מרשעת על" , "פושעת"] , } , crate :: Annotation { lang : "hi" , tts : Some ("महिला स\u{941}परविल\u{947}न") , keywords : & ["अपराधी" , "ब\u{941}राई" , "महिला" , "महिला स\u{941}परविल\u{947}न" , "विल\u{947}न" , "स\u{941}परपॉवर"] , } , crate :: Annotation { lang : "hr" , tts : Some ("stripovska zločinka") , keywords : & ["kriminalka" , "stripovska zločinka" , "supermoći" , "zlo" , "zločinka" , "žena"] , } , crate :: Annotation { lang : "hu" , tts : Some ("női főgonosz") , keywords : & ["bűnöző" , "gazember" , "gonosz" , "nő" , "női főgonosz" , "szuperképesség"] , } , crate :: Annotation { lang : "hy" , tts : Some ("կին չարագործ") , keywords : & ["գերուժ" , "կին" , "հանցագործ" , "չարագործ" , "չարիք"] , } , crate :: Annotation { lang : "id" , tts : Some ("penjahat super wanita") , keywords : & ["jahat" , "kekuatan super" , "kriminal" , "penjahat" , "penjahat super wanita" , "wanita"] , } , crate :: Annotation { lang : "is" , tts : Some ("illkvendi") , keywords : & ["glæpamaður" , "ill" , "illkvendi" , "kona" , "ofurkraftur"] , } , crate :: Annotation { lang : "it" , tts : Some ("supercattiva") , keywords : & ["cattivo" , "criminale" , "donna" , "supercattiva" , "superpotere"] , } , crate :: Annotation { lang : "ja" , tts : Some ("女性の悪役") , keywords : & ["ヴィラン" , "女性" , "女性の悪役" , "悪" , "犯人" , "超人"] , } , crate :: Annotation { lang : "jv" , tts : Some ("mungsuh digdaya wadon") , keywords : & ["ala" , "kadigdayan linuwih" , "mungsuh" , "mungsuh digdaya wadon" , "penjahat wadon" , "wadon"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ბოროტი გმირი ქალი") , keywords : & ["ბოროტი" , "ბოროტი გმირი ქალი" , "ზებუნებრივი" , "კრიმინალი" , "უარყოფითი გმირი" , "ქალი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("әйел супер залым") , keywords : & ["залым" , "супер күш" , "шайтан" , "қылмыстық" , "әйел" , "әйел супер залым"] , } , crate :: Annotation { lang : "km" , tts : Some ("ក\u{17c6}ព\u{17bc}លនារ\u{17b8}អាក\u{17d2}រក\u{17cb}") , keywords : & ["ក\u{17c6}ព\u{17bc}លនារ\u{17b8}អាក\u{17d2}រក\u{17cb}" , "ជនអាក\u{17d2}រក\u{17cb}" , "ថាមពលព\u{17b7}សេស" , "នារ\u{17b8}" , "អាក\u{17d2}រក\u{17cb}" , "ឧក\u{17d2}រ\u{17b7}ដ\u{17d2}ឋជន"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಮಹ\u{cbf}ಳ\u{cc6} ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ವ\u{cbf}ಲನ\u{ccd}") , keywords : & ["ಅಪರಾಧ\u{cbf}" , "ದುಷ\u{ccd}ಟ" , "ಮಹ\u{cbf}ಳ\u{cc6}" , "ಮಹ\u{cbf}ಳ\u{cc6} ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ವ\u{cbf}ಲನ\u{ccd}" , "ವ\u{cbf}ಲನ\u{ccd}" , "ಸ\u{cc2}ಪರ\u{ccd}\u{200c}ಪವರ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("여자 슈퍼 악당") , keywords : & ["범죄자" , "빌런" , "악당" , "여자" , "여자 슈퍼 악당" , "초능력"] , } , crate :: Annotation { lang : "kok" , tts : Some ("बायल स\u{941}परविल\u{947}न") , keywords : & ["ग\u{941}न\u{94d}या\u{902}वकारी" , "बायल" , "बायल स\u{941}परविल\u{947}न" , "वायट" , "विल\u{947}न" , "स\u{941}परपावर"] , } , crate :: Annotation { lang : "ky" , tts : Some ("карасантай кыз") , keywords : & ["зөөкүр" , "карасантай кыз" , "кыз" , "кылмышкер" , "терс каарман" , "эбегейсиз зор күч"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ນາງມານຈອມວາຍລ\u{ec9}າຍ") , keywords : & ["ນາງມານຈອມວາຍລ\u{ec9}າຍ" , "ວາຍລ\u{ec9}າຍ" , "ສ\u{eb5}\u{ec8}ງຊ\u{ebb}\u{ec8}ວຮ\u{ec9}າຍ" , "ອາດສະຍາກອນ" , "ເພດຍ\u{eb5}ງ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("moteris piktadarė") , keywords : & ["bloga" , "moteris" , "nusikaltėlė" , "piktadarė" , "supergalia"] , } , crate :: Annotation { lang : "lv" , tts : Some ("superļaunā sieviete") , keywords : & ["krimināls" , "nelietis" , "sieviete" , "superspēks" , "superļaunā sieviete" , "ļaunums"] , } , crate :: Annotation { lang : "mk" , tts : Some ("жена супернегативец") , keywords : & ["жена" , "жена супернегативец" , "зло" , "криминалец" , "негативец" , "суперсила"] , } , crate :: Annotation { lang : "ml" , tts : Some ("വ\u{d41}മൺ സ\u{d42}പ\u{d4d}പർവില\u{d4d}ലൻ") , keywords : & ["അമ\u{d3e}ന\u{d41}ഷികശക\u{d4d}തി" , "ക\u{d4d}രിമിനൽ" , "ദ\u{d41}ഷ\u{d4d}\u{200c}ടത" , "വില\u{d4d}ലൻ" , "വ\u{d41}മൺ സ\u{d42}പ\u{d4d}പർവില\u{d4d}ലൻ" , "സ\u{d4d}\u{200c}ത\u{d4d}രീ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("ид шидийн хүчтэй эмэгтэй эсрэг дүр") , keywords : & ["гол дүрийн эсрэг дүр" , "гэмт хэрэг" , "ид шидийн хүчтэй эмэгтэй эсрэг дүр" , "супер хүч" , "чөтгөр" , "эмэгтэй"] , } , crate :: Annotation { lang : "mr" , tts : Some ("महिला स\u{941}परव\u{94d}हीलन") , keywords : & ["ग\u{941}न\u{94d}ह\u{947}गार" , "द\u{941}ष\u{94d}ट" , "महिला" , "महिला स\u{941}परव\u{94d}हीलन" , "व\u{94d}हीलन" , "स\u{941}परपॉवर"] , } , crate :: Annotation { lang : "ms" , tts : Some ("ketua penjahat wanita") , keywords : & ["jahat" , "ketua penjahat wanita" , "penjahat" , "penjenayah" , "sangat berkuasa" , "wanita"] , } , crate :: Annotation { lang : "my" , tts : Some ("အမျ\u{102d}\u{102f}းသမ\u{102e}း ထ\u{102d}ပ\u{103a}တန\u{103a}းလ\u{1030}ဆ\u{102d}\u{102f}း") , keywords : & ["မကောင\u{103a}းဆ\u{102d}\u{102f}းဝါး" , "ရာဇဝတ\u{103a}ကောင\u{103a}" , "လ\u{1030}ဆ\u{102d}\u{102f}း" , "အစ\u{103d}မ\u{103a}း" , "အမျ\u{102d}\u{102f}းသမ\u{102e}း" , "အမျ\u{102d}\u{102f}းသမ\u{102e}း ထ\u{102d}ပ\u{103a}တန\u{103a}းလ\u{1030}ဆ\u{102d}\u{102f}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("kvinnelig superskurk") , keywords : & ["kriminell" , "kvinne" , "kvinnelig superskurk" , "ond" , "skurk" , "superkrefter"] , } , crate :: Annotation { lang : "ne" , tts : Some ("छोरीमान\u{94d}छ\u{947} स\u{941}परभिल\u{947}न") , keywords : & ["अपराधी" , "छोरीमान\u{94d}छ\u{947}" , "छोरीमान\u{94d}छ\u{947} स\u{941}परभिल\u{947}न" , "द\u{941}ष\u{94d}ट" , "भिल\u{947}न" , "स\u{941}परपावर"] , } , crate :: Annotation { lang : "nl" , tts : Some ("vrouwelijke superschurk") , keywords : & ["boef" , "crimineel" , "slecht" , "superkrachten" , "vrouw" , "vrouwelijke superschurk"] , } , crate :: Annotation { lang : "nn" , tts : Some ("kvinneleg superskurk") , keywords : & ["kriminell" , "kvinne" , "kvinneleg superskurk" , "skurk" , "superkrefter" , "vond"] , } , crate :: Annotation { lang : "or" , tts : Some ("ମହ\u{b3f}ଳ\u{b3e} ସ\u{b41}ପର\u{b4d}\u{200c} ଭ\u{b3f}ଲ\u{b3f}ୟ\u{b3e}ନ") , keywords : & ["ଅପର\u{b3e}ଧୀ" , "ଦ\u{b41}ଷ\u{b4d}ଟ" , "ଭ\u{b3f}ଲ\u{b3f}ୟ\u{b3e}ନ\u{b4d}\u{200c}" , "ମହ\u{b3f}ଳ\u{b3e}" , "ମହ\u{b3f}ଳ\u{b3e} ସ\u{b41}ପର\u{b4d}\u{200c} ଭ\u{b3f}ଲ\u{b3f}ୟ\u{b3e}ନ" , "ସ\u{b41}ପର\u{b4d}\u{200c} ପ\u{b3e}ୱ\u{b3e}ର"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਇਸਤਰੀ ਮਹਾ\u{a02}-ਖਲਨਾਇਕ") , keywords : & ["ਅਪਰਾਧੀ" , "ਇਸਤਰੀ" , "ਇਸਤਰੀ ਮਹਾ\u{a02}-ਖਲਨਾਇਕ" , "ਖਲਨਾਇਕ" , "ਦ\u{a41}ਸ\u{a3c}ਟ" , "ਸ\u{a41}ਪਰਪਾਵਰ"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Wíkẹ\u{301}d Wúmán Krímínal") , keywords : & ["Bad" , "Bád Pẹ\u{301}sin" , "Krímínal" , "Supapáwa" , "Wíkẹd" , "Wíkẹ\u{301}d Wúmán Krímínal" , "Wúman" , "Wúman Wé Bád Wẹ\u{301}l Wẹl"] , } , crate :: Annotation { lang : "pl" , tts : Some ("kobieta superłotr") , keywords : & ["czarny bohater" , "kobieta" , "kobieta superłotr" , "przestępca" , "supermoc" , "złoczyńca"] , } , crate :: Annotation { lang : "ps" , tts : Some ("ښځه لوي ورانکارې") , keywords : & ["جنايتکار" , "خراب" , "لوي قوت" , "ورانکاری" , "ښځه لوي ورانکاری" , "ښځه لوي ورانکارې"] , } , crate :: Annotation { lang : "pt" , tts : Some ("supervilã") , keywords : & ["criminosa" , "mulher" , "má" , "superpoder" , "supervilã" , "vilã"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("mulher supervilã") , keywords : & ["criminosa" , "mulher" , "mulher supervilã" , "má" , "superpoder" , "vilã"] , } , crate :: Annotation { lang : "qu" , tts : Some ("warmi supervillana") , keywords : & ["criminal" , "supay" , "superpoder" , "villana" , "warmi" , "warmi supervillana"] , } , crate :: Annotation { lang : "ro" , tts : Some ("super-ticălos femeie") , keywords : & ["criminală" , "femeie" , "malefică" , "super-ticălos femeie" , "superputere" , "ticăloasă"] , } , crate :: Annotation { lang : "root" , tts : Some ("E11-045") , keywords : & ["E11-045"] , } , crate :: Annotation { lang : "ru" , tts : Some ("женщина-суперзлодей") , keywords : & ["женщина-суперзлодей" , "зло" , "злодей" , "суперзлодей"] , } , crate :: Annotation { lang : "sd" , tts : Some ("عورت سپر ولن") , keywords : & ["برائي" , "سپر پاور" , "عورت" , "عورت سپر ولن" , "ولن" , "ڏوهي"] , } , crate :: Annotation { lang : "si" , tts : Some ("ක\u{dcf}න\u{dca}ත\u{dcf}ව ද\u{dd4}ෂ\u{dca}ටය\u{dcf}") , keywords : & ["අපර\u{dcf}ධක\u{dcf}රයෙක\u{dca}" , "ක\u{dcf}න\u{dca}ත\u{dcf}ව ද\u{dd4}ෂ\u{dca}ටය\u{dcf}" , "ක\u{dcf}න\u{dca}ත\u{dcf}වක\u{dca}" , "ද\u{dd4}ෂ\u{dca}ටය\u{dcf}" , "නරකය\u{dd2}" , "ස\u{dd4}ප\u{dd2}ර\u{dd2} බලවත\u{dcf}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("superdarebáčka") , keywords : & ["darebák" , "superdarebáčka" , "superschopnosť" , "zlo" , "zloduch" , "zločinec" , "žena"] , } , crate :: Annotation { lang : "sl" , tts : Some ("super negativka") , keywords : & ["kriminalka" , "negativka" , "super moč" , "super negativka" , "zlobna" , "ženska"] , } , crate :: Annotation { lang : "so" , tts : Some ("haweeney shayddaannimadeedu sareeyso") , keywords : & ["awood sareeysa" , "dambiile" , "haweeney" , "haweeney shayddaannimadeedu sareeyso" , "qof sheyddaan ah" , "xun"] , } , crate :: Annotation { lang : "sq" , tts : Some ("superzuzare") , keywords : & ["e ligë" , "kriminele" , "superfuqi" , "superzuzare" , "zuzare"] , } , crate :: Annotation { lang : "sr" , tts : Some ("жена негативац") , keywords : & ["жена" , "жена негативац" , "зло" , "злочинац" , "криминал" , "супер моћ"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["жена негативац"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("žena negativac") , keywords : & ["kriminal" , "super moć" , "zlo" , "zločinac" , "žena" , "žena negativac"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["žena negativac"] , } , crate :: Annotation { lang : "sv" , tts : Some ("kvinnlig superskurk") , keywords : & ["brottsling" , "kvinna" , "kvinnlig superskurk" , "ond" , "skurk" , "superkraft"] , } , crate :: Annotation { lang : "sw" , tts : Some ("jambazi wa kike") , keywords : & ["jambazi" , "jambazi wa kike" , "mhalifu" , "mwanamke" , "nguvu zisizo za kawaida" , "uovu"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("சூப\u{bcd}பர\u{bcd} வில\u{bcd}லி") , keywords : & ["குற\u{bcd}றவ\u{bbe}ளி" , "சூப\u{bcd}பர\u{bcd} பவர\u{bcd}" , "சூப\u{bcd}பர\u{bcd} வில\u{bcd}லி" , "த\u{bc0}யவர\u{bcd}" , "வில\u{bcd}லன\u{bcd}" , "வில\u{bcd}லி"] , } , crate :: Annotation { lang : "te" , tts : Some ("ఉమ\u{c46}న\u{c4d} సూపర\u{c4d}\u{200c}వ\u{c3f}లన\u{c4d}") , keywords : & ["ఉమ\u{c46}న\u{c4d}" , "ఉమ\u{c46}న\u{c4d} సూపర\u{c4d}\u{200c}వ\u{c3f}లన\u{c4d}" , "క\u{c4d}ర\u{c3f}మ\u{c3f}నల\u{c4d}" , "చ\u{c46}డు" , "వ\u{c3f}లన\u{c4d}" , "సూపర\u{c4d}\u{200c}పవర\u{c4d}"] , } , crate :: Annotation { lang : "th" , tts : Some ("นางร\u{e49}าย") , keywords : & ["ต\u{e31}วร\u{e49}าย" , "นางร\u{e49}าย" , "ป\u{e35}ศาจ" , "ผ\u{e39}\u{e49}ร\u{e49}าย" , "ผ\u{e39}\u{e49}หญ\u{e34}ง" , "อาชญากร"] , } , crate :: Annotation { lang : "tk" , tts : Some ("zenan superbetpäl") , keywords : & ["betpäl" , "erbet" , "jenaýatçy" , "supergüýç" , "zenan" , "zenan superbetpäl"] , } , crate :: Annotation { lang : "to" , tts : Some ("fefine kākā") , keywords : & ["fefine kākā"] , } , crate :: Annotation { lang : "tr" , tts : Some ("kadın süper kötü") , keywords : & ["kadın" , "kadın süper kötü" , "kötü" , "suçlu" , "süper güç" , "şeytani"] , } , crate :: Annotation { lang : "uk" , tts : Some ("суперлиходійка") , keywords : & ["жінка" , "зло" , "злодій" , "злочинець" , "суперлиходійка" , "суперсила"] , } , crate :: Annotation { lang : "ur" , tts : Some ("خاتون سپر ولن") , keywords : & ["برائی" , "خاتون سپر ولن" , "سپر پاور" , "عورت" , "مجرم" , "ولن"] , } , crate :: Annotation { lang : "uz" , tts : Some ("salbiy ayol superqahramon") , keywords : & ["jinoyat" , "salbiy ayol superqahramon" , "salbiy qahramon" , "superkuch" , "yovuz" , "yovuzlik"] , } , crate :: Annotation { lang : "vi" , tts : Some ("nữ siêu phản diện") , keywords : & ["nhân vật phản diện" , "nữ siêu phản diện" , "phụ nữ" , "siêu năng lực" , "tội phạm" , "ác"] , } , crate :: Annotation { lang : "yue" , tts : Some ("超級女壞人") , keywords : & ["壞人" , "犯罪" , "超人" , "超級女壞人" , "邪惡｜女"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("超级女坏人") , keywords : & ["坏人" , "犯罪" , "超人" , "超级女坏人" , "邪恶｜女"] , } , crate :: Annotation { lang : "zh" , tts : Some ("女超级大坏蛋") , keywords : & ["坏蛋" , "女人" , "女超级大坏蛋" , "罪犯" , "超能力"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("女超級反派") , keywords : & ["反派" , "女人" , "女超級反派" , "犯罪" , "超能力" , "邪惡"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "zu" , tts : Some ("woman supervillain") , keywords : & ["criminal" , "evil" , "superpower" , "villain" , "woman" , "woman supervillain"] , }] , } ;
 #[doc = "🦹🏻\u{200d}♀\u{fe0f}"]
 pub const WOMAN_SUPERVILLAIN_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "🦹🏻\u{200d}♀\u{fe0f}",
@@ -1239,38 +7038,7 @@ pub const WOMAN_SUPERVILLAIN_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     annotations: &[],
 };
 #[doc = "🧙"]
-pub const MAGE: crate::Emoji = crate::Emoji {
-    glyph: "🧙",
-    codepoint: "1F9D9",
-    status: crate::Status::FullyQualified,
-    introduction_version: 5f32,
-    name: "mage",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("mage"),
-            keywords: &["mage", "sorcerer", "sorceress", "witch", "wizard"],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("velho"),
-            keywords: &[
-                "maagi",
-                "noita",
-                "sauva",
-                "taikasauva",
-                "taikavoima",
-                "taikuri",
-                "tietäjä",
-                "velho",
-            ],
-        },
-    ],
-};
+pub const MAGE : crate :: Emoji = crate :: Emoji { glyph : "🧙" , codepoint : "1F9D9" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "mage" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("magus") , keywords : & ["heks" , "magus" , "toorder" , "towenaar" , "towenares"] , } , crate :: Annotation { lang : "am" , tts : Some ("አስማት") , keywords : & ["አስማት"] , } , crate :: Annotation { lang : "ar" , tts : Some ("سحرة") , keywords : & ["سحرة"] , } , crate :: Annotation { lang : "as" , tts : Some ("য\u{9be}দ\u{9c1}কৰ") , keywords : & ["ঐন\u{9cd}দ\u{9cd}ৰজ\u{9be}লিক" , "ড\u{9be}ইনি" , "ম\u{9be}য\u{9bc}\u{9be}বী" , "য\u{9be}দ\u{9c1}কৰ" , "য\u{9be}দ\u{9c1}কৰী"] , } , crate :: Annotation { lang : "az" , tts : Some ("maq") , keywords : & ["cadugər" , "küpəgirən qarı" , "maq" , "ovsunçu" , "sehrbaz"] , } , crate :: Annotation { lang : "be" , tts : Some ("чараўнік") , keywords : & ["ведзьма" , "вядзьмак" , "чараўнік" , "чараўніца"] , } , crate :: Annotation { lang : "bg" , tts : Some ("жена магьосник") , keywords : & ["вещица" , "жена магьосник" , "магьосница"] , } , crate :: Annotation { lang : "bn" , tts : Some ("মেজ") , keywords : & ["উইচ" , "উইজ\u{9be}র\u{9cd}ড" , "জ\u{9be}দ\u{9c1}কর" , "জ\u{9be}দ\u{9c1}করী" , "মেজ"] , } , crate :: Annotation { lang : "br" , tts : Some ("maj") , keywords : & ["maj" , "sorser"] , } , crate :: Annotation { lang : "bs" , tts : Some ("čarobnjak") , keywords : & ["mag" , "vještica" , "vrač" , "čarobnjak" , "čarobnjakinja"] , } , crate :: Annotation { lang : "ca" , tts : Some ("mag") , keywords : & ["bruixa" , "bruixot" , "fetiller" , "fetillera" , "mag"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏓᏪ") , keywords : & ["ᎠᏓᏪ" , "ᏗᏓᏁᏎᏍᎩ" , "ᏗᏓᏁᏎᏍᎩ ᎠᎨᏯ" , "ᏗᏙᏂᏍᎩ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("mág") , keywords : & ["kouzelník" , "mág" , "čaroděj" , "čarodějník"] , } , crate :: Annotation { lang : "cy" , tts : Some ("dewin") , keywords : & ["dewin" , "gwrach" , "swynwr" , "swynwraig"] , } , crate :: Annotation { lang : "da" , tts : Some ("magiker") , keywords : & ["magi" , "magiker" , "mand"] , } , crate :: Annotation { lang : "de" , tts : Some ("Magier(in)") , keywords : & ["Hexe" , "Hexenmeister" , "Magier(in)" , "Zauberer" , "Zauberin"] , } , crate :: Annotation { lang : "el" , tts : Some ("μάγος") , keywords : & ["μάγισσα" , "μάγος"] , } , crate :: Annotation { lang : "en" , tts : Some ("mage") , keywords : & ["mage" , "sorcerer" , "sorceress" , "witch" , "wizard"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("persona maga") , keywords : & ["bruja" , "brujo" , "hechicera" , "hechicero" , "persona maga"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("maag") , keywords : & ["maag" , "nõiamoor" , "nõid" , "võlur"] , } , crate :: Annotation { lang : "eu" , tts : Some ("mago") , keywords : & ["azti" , "mago" , "sorgin"] , } , crate :: Annotation { lang : "fa" , tts : Some ("ساحر") , keywords : & ["افسونگر" , "جادوگر" , "جادوگر زن" , "ساحر" , "ساحره"] , } , crate :: Annotation { lang : "fi" , tts : Some ("velho") , keywords : & ["maagi" , "noita" , "sauva" , "taikasauva" , "taikavoima" , "taikuri" , "tietäjä" , "velho"] , } , crate :: Annotation { lang : "fil" , tts : Some ("salamangkero") , keywords : & ["mangkukulam" , "salamangkero" , "wizard"] , } , crate :: Annotation { lang : "fo" , tts : Some ("persónur sum dugir gand") , keywords : & ["fólk" , "galdur" , "persónur sum dugir gand" , "ævintýr"] , } , crate :: Annotation { lang : "fr" , tts : Some ("mage") , keywords : & ["ensorceleur" , "mage" , "magicien" , "sorcier" , "sorcière"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["enchanteur" , "mage" , "magicien" , "sorcier" , "sorcière"] , } , crate :: Annotation { lang : "ga" , tts : Some ("duine draíochta") , keywords : & ["asarlaí" , "cailleach" , "draoi" , "duine draíochta"] , } , crate :: Annotation { lang : "gd" , tts : Some ("draoidh") , keywords : & ["ban-draoidh" , "bana-bhuidseach" , "buidseach" , "draoidh"] , } , crate :: Annotation { lang : "gl" , tts : Some ("feiticeiro") , keywords : & ["druída" , "feiticeiro" , "meigo"] , } , crate :: Annotation { lang : "gu" , tts : Some ("મ\u{ac7}જ") , keywords : & ["મ\u{ac7}જ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("mai dabo") , keywords : & ["mai dabo" , "maye" , "mayya"] , } , crate :: Annotation { lang : "he" , tts : Some ("קוסם") , keywords : & ["אשף" , "כישוף" , "מכשף" , "קוסם" , "קסם"] , } , crate :: Annotation { lang : "hi" , tts : Some ("जाद\u{942}गर, करामाती") , keywords : & ["जाद\u{942}गर" , "जाद\u{942}गर, करामाती" , "जाद\u{942}गरनी" , "भ\u{942}तसाधक" , "भ\u{942}तसाधिका"] , } , crate :: Annotation { lang : "hr" , tts : Some ("magičar") , keywords : & ["magičar" , "vještac" , "vještica"] , } , crate :: Annotation { lang : "hu" , tts : Some ("varázsló") , keywords : & ["boszorkány" , "boszorkánymester" , "mágus" , "varázsló"] , } , crate :: Annotation { lang : "hy" , tts : Some ("մոգ") , keywords : & ["կախարդ" , "մոգ"] , } , crate :: Annotation { lang : "id" , tts : Some ("magi") , keywords : & ["magi" , "penyihir" , "tukang sihir"] , } , crate :: Annotation { lang : "ig" , tts : Some ("onye abrakatabra") , keywords : & ["dibia nwanyị" , "dibịa nwoke" , "nwanyị kwenyere n’ike abrakatabra" , "nwoke kwenyere n’ike abrakatabra" , "onye abrakatabra"] , } , crate :: Annotation { lang : "is" , tts : Some ("galdramaður") , keywords : & ["galdramaður" , "norn" , "seiðkarl" , "seiðkona"] , } , crate :: Annotation { lang : "it" , tts : Some ("mago") , keywords : & ["mago" , "strega" , "stregone"] , } , crate :: Annotation { lang : "ja" , tts : Some ("魔法使い") , keywords : & ["魔女" , "魔法" , "魔法使い"] , } , crate :: Annotation { lang : "jv" , tts : Some ("wong winasis") , keywords : & ["bagawan" , "dhukun" , "resi" , "wong winasis"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ჯადოქარი") , keywords : & ["გრძნეული" , "თვალთმაქცი" , "კუდიანი" , "მაგი" , "მაჩხიბი" , "მისანი" , "ჯადოსანი" , "ჯადოქარი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("сиқыршы") , keywords : & ["сиқыршы"] , } , crate :: Annotation { lang : "km" , tts : Some ("អ\u{17d2}នកវេទមន\u{17d2}ត") , keywords : & ["ធ\u{17d2}មប\u{17cb}" , "អ\u{17d2}នកមន\u{17d2}តអាគម" , "អ\u{17d2}នកវេទមន\u{17d2}ត"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಮಂತ\u{ccd}ರವಾದ\u{cbf}") , keywords : & ["ಮಂತ\u{ccd}ರವಾದ\u{cbf}" , "ಮಾಟಗಾತ\u{cbf}" , "ವ\u{cbf}ಜಾರ\u{ccd}ಡ\u{ccd}" , "ಸೋರ\u{ccd}ಸ\u{cc6}ರರ\u{ccd}" , "ಸೋರ\u{ccd}ಸ\u{ccd}\u{200c}ರ\u{cc6}ಸ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("마법사") , keywords : & ["마녀" , "마법사"] , } , crate :: Annotation { lang : "kok" , tts : Some ("जाद\u{942}टोणो करपी") , keywords : & ["च\u{947}टकीण" , "च\u{947}ट\u{942}क" , "जाद\u{942}टोणो करपी" , "सोरस\u{947}रर" , "सोरस\u{947}र\u{947}स"] , } , crate :: Annotation { lang : "ky" , tts : Some ("сыйкырчы") , keywords : & ["жадыгер" , "маг" , "сыйкырчы"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Zauberer(in)") , keywords : & ["Hex" , "Hexemeeschter" , "Zauberer" , "Zauberer(in)"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຜ\u{eb9}\u{ec9}ວ\u{eb4}ເສດ") , keywords : & ["ນ\u{eb1}ກເວດຊາຍ" , "ນ\u{eb1}ກເວດຍ\u{eb4}ງ" , "ຜ\u{eb9}\u{ec9}ວ\u{eb4}ເສດ" , "ພ\u{ecd}\u{ec8}ມ\u{ebb}ດ" , "ແມ\u{ec8}ມ\u{ebb}ດ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("magas") , keywords : & ["burtininkas" , "kerėtoja" , "kerėtojas" , "magas" , "ragana"] , } , crate :: Annotation { lang : "lv" , tts : Some ("mags") , keywords : & ["burvis" , "mags" , "ragana"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tāngata matakite") , keywords : & ["rūānuku" , "tohunga mākutu" , "tāngata matakite" , "wahine mākutu"] , } , crate :: Annotation { lang : "mk" , tts : Some ("магичар") , keywords : & ["вештерка" , "волшебник" , "магичар" , "маѓепсник" , "маѓепсница"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ജ\u{d3e}ലവിദ\u{d4d}യ അറിയ\u{d41}ന\u{d4d}നയ\u{d3e}ൾ") , keywords : & ["ജ\u{d3e}ലവിദ\u{d4d}യ അറിയ\u{d41}ന\u{d4d}നയ\u{d3e}ൾ" , "മന\u{d4d}ത\u{d4d}രവ\u{d3e}ദി" , "മ\u{d3e}ന\u{d4d}ത\u{d4d}രികൻ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("шидтэн") , keywords : & ["бөө" , "илбэчин" , "шидтэн" , "шулам"] , } , crate :: Annotation { lang : "mr" , tts : Some ("जाद\u{941}गर") , keywords : & ["च\u{947}टकीण" , "च\u{947}टक\u{94d}या" , "जाद\u{941}गर" , "जाद\u{941}गार" , "विझार\u{94d}ड"] , } , crate :: Annotation { lang : "ms" , tts : Some ("ahli silap mata") , keywords : & ["ahli sihir" , "ahli silap mata" , "dukun sihir"] , } , crate :: Annotation { lang : "mt" , tts : Some ("magu") , keywords : & ["magu" , "saħħar" , "saħħara"] , } , crate :: Annotation { lang : "my" , tts : Some ("မ\u{103e}ော\u{103a}ဆရာ") , keywords : & ["စ\u{102f}န\u{103a}းမ" , "မ\u{103e}ော\u{103a}ဆရာ" , "ဝ\u{102d}ဇ\u{1039}ဇာ"] , } , crate :: Annotation { lang : "nb" , tts : Some ("trollperson") , keywords : & ["heks" , "trollkvinne" , "trollmann" , "trollperson"] , } , crate :: Annotation { lang : "ne" , tts : Some ("जाद\u{941}गर") , keywords : & ["जाद\u{941}गर" , "ट\u{941}नाम\u{941}ना जान\u{94d}न\u{947} छोरामान\u{94d}छ\u{947}" , "ट\u{941}नाम\u{941}ना जान\u{94d}न\u{947} छोरीमान\u{94d}छ\u{947}" , "बोक\u{94d}सा" , "बोक\u{94d}सी"] , } , crate :: Annotation { lang : "nl" , tts : Some ("magiër") , keywords : & ["heks" , "magiër" , "tovenaar" , "tovenares"] , } , crate :: Annotation { lang : "nn" , tts : Some ("trollperson") , keywords : & ["heks" , "trollkvinne" , "trollmann" , "trollperson"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଯ\u{b3e}ଦ\u{b41}କର") , keywords : & ["ଯ\u{b3e}ଦ\u{b41}କର" , "ଯ\u{b3e}ଦ\u{b41}କର । ଡ\u{b3e}ହ\u{b3e}ଣୀ । ଯ\u{b3e}ଦ\u{b41}କର । ତନ\u{b4d}ତ\u{b4d}ରକ\u{b3e}ର\u{b3f}ଣୀ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਜਾਦ\u{a42}ਗਰ") , keywords : & ["ਜਾਦ\u{a42}ਗਰ" , "ਜਾਦ\u{a42}ਗਰਨੀ" , "ਡ\u{a48}ਣ" , "ਸਹਾਇਕ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("جادوگر") , keywords : & ["جادوگر" , "جادوگرنی"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Majíshan") , keywords : & ["Jujú Man" , "Jujú Wúman" , "Majíkshan" , "Majíshan" , "Man Wích" , "Wích"] , } , crate :: Annotation { lang : "pl" , tts : Some ("mag") , keywords : & ["czarnoksiężnik" , "czarodziej" , "mag"] , } , crate :: Annotation { lang : "ps" , tts : Some ("جادوګر") , keywords : & ["جادوګر" , "جادوګره" , "مداري" , "ويزارډ" , "کوډګره"] , } , crate :: Annotation { lang : "pt" , tts : Some ("mago") , keywords : & ["bruxa" , "feiticeira" , "maga" , "mago"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["bruxa" , "bruxo" , "feiticeira" , "feiticeiro" , "maga" , "mago"] , } , crate :: Annotation { lang : "qu" , tts : Some ("watuq") , keywords : & ["runa layqa" , "runa watuq" , "warmi layqa" , "warmi watuq" , "watuq"] , } , crate :: Annotation { lang : "ro" , tts : Some ("mag") , keywords : & ["mag" , "magician" , "vraci" , "vrăjitor"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1130") , keywords : & ["E10-1130"] , } , crate :: Annotation { lang : "ru" , tts : Some ("маг") , keywords : & ["волшебник" , "маг" , "чародей"] , } , crate :: Annotation { lang : "rw" , tts : Some ("umumaji") , keywords : & ["umumaji" , "umupfumu" , "umupfumukazi" , "umurozi"] , } , crate :: Annotation { lang : "sd" , tts : Some ("جادوگر") , keywords : & ["جادوگر" , "جادوگر، ڏائڻ، جادوگر، جادوگرني"] , } , crate :: Annotation { lang : "si" , tts : Some ("ම\u{dcf}ය\u{dcf}කර\u{dd4}ව\u{dcf}") , keywords : & ["මන\u{dca}ත\u{dca}\u{200d}රක\u{dcf}ර\u{dd2}ය" , "ම\u{dcf}ය\u{dcf}කර\u{dd4}ව\u{dcf}" , "ම\u{dcf}ය\u{dcf}ක\u{dcf}ර\u{dd2}ය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("čarodejná bytosť") , keywords : & ["bosorák" , "kúzelník" , "strigôň" , "čarodejná bytosť" , "čarodejník"] , } , crate :: Annotation { lang : "sl" , tts : Some ("oseba, ki čara") , keywords : & ["oseba, ki čara" , "čarovnica" , "čarovnik"] , } , crate :: Annotation { lang : "so" , tts : Some ("sixiroole") , keywords : & ["naag saaxirad" , "saaxir" , "saaxirad" , "sixir yaqaan" , "sixiroole" , "xirfadda sixirka"] , } , crate :: Annotation { lang : "sq" , tts : Some ("magjistar") , keywords : & ["magjistar" , "magjistricë" , "shtrigë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("маг") , keywords : & ["вештица" , "маг" , "чаробњак"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("mag") , keywords : & ["mag" , "veštica" , "čarobnjak"] , } , crate :: Annotation { lang : "sv" , tts : Some ("magiker") , keywords : & ["häxa" , "magiker" , "trollkarl"] , } , crate :: Annotation { lang : "sw" , tts : Some ("mlozi") , keywords : & ["mchawi" , "mchawi wa kike" , "mlozi" , "mlozi mwanamke"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("மந\u{bcd}திரவ\u{bbe}தி") , keywords : & ["மந\u{bcd}திரவ\u{bbe}தி" , "ம\u{bbe}யவித\u{bcd}தைக\u{bcd}க\u{bbe}ரர\u{bcd}" , "ம\u{bbe}ய\u{bbe}வி"] , } , crate :: Annotation { lang : "te" , tts : Some ("ఇంద\u{c4d}రజ\u{c3e}ల\u{c3f}కుడు") , keywords : & ["ఇంద\u{c4d}రజ\u{c3e}ల\u{c3f}కుడు" , "ఇంద\u{c4d}రజ\u{c3e}ల\u{c3f}కుర\u{c3e}లు" , "మంత\u{c4d}రగత\u{c4d}త\u{c46}" , "మ\u{c3e}ంత\u{c4d}ర\u{c3f}కుడు"] , } , crate :: Annotation { lang : "tg" , tts : Some ("коҳин") , keywords : & ["зани афсунгар" , "коҳин" , "марди афсунгар" , "соҳир" , "ҷодугар"] , } , crate :: Annotation { lang : "th" , tts : Some ("น\u{e31}กเวทย\u{e4c}") , keywords : & ["น\u{e31}กเวทย\u{e4c}" , "ผ\u{e39}\u{e49}ว\u{e34}เศษ" , "พ\u{e48}อมด" , "แม\u{e48}มด"] , } , crate :: Annotation { lang : "tk" , tts : Some ("jadygöý") , keywords : & ["dogagöý" , "gözbagçy" , "jadygöý" , "porhan"] , } , crate :: Annotation { lang : "to" , tts : Some ("tokotaha taula-faʻahikehe") , keywords : & ["tokotaha taula-faʻahikehe"] , } , crate :: Annotation { lang : "tr" , tts : Some ("büyücü") , keywords : & ["büyücü" , "cadı" , "sihirbaz"] , } , crate :: Annotation { lang : "ug" , tts : Some ("سېھرىگەر") , keywords : & ["جادۇ" , "جادۇگەر" , "سھېرى" , "سېھرىگەر"] , } , crate :: Annotation { lang : "uk" , tts : Some ("маг") , keywords : & ["відьма" , "маг" , "чаклун" , "чаклунка" , "чародій"] , } , crate :: Annotation { lang : "ur" , tts : Some ("جادوگر") , keywords : & ["جادوگر" , "جادوگرنی" , "ساحر" , "ماہر جادوگر" , "ڈائن"] , } , crate :: Annotation { lang : "uz" , tts : Some ("sehrgar") , keywords : & ["afsungar" , "jodugar" , "kohin" , "sehrgar"] , } , crate :: Annotation { lang : "vi" , tts : Some ("pháp sư") , keywords : & ["bà cốt" , "pháp sư" , "phù thủy" , "thầy phù thuỷ" , "đạo sĩ"] , } , crate :: Annotation { lang : "wo" , tts : Some ("mage") , keywords : & ["dëmm" , "luxuskat" , "mage"] , } , crate :: Annotation { lang : "xh" , tts : Some ("i-mage") , keywords : & ["i-mage" , "igqwirha" , "igqwirhakazi" , "umntu onobugqi"] , } , crate :: Annotation { lang : "yo" , tts : Some ("onídán") , keywords : & ["onídán" , "oṣó" , "àjẹ\u{301}"] , } , crate :: Annotation { lang : "yue" , tts : Some ("巫師") , keywords : & ["女巫" , "巫婆" , "巫師" , "男巫"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("巫师") , keywords : & ["女巫" , "巫婆" , "巫师" , "男巫"] , } , crate :: Annotation { lang : "zh" , tts : Some ("法师") , keywords : & ["女巫" , "女魔术师" , "法师" , "男巫" , "男魔术师"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("魔術師") , keywords : & ["魔術師"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("巫師") , keywords : & ["巫師" , "術士" , "魔法師"] , } , crate :: Annotation { lang : "zu" , tts : Some ("i-mage") , keywords : & ["i-mage" , "isangoma" , "iwizadi" , "izangoma" , "umthakathi"] , }] , } ;
 #[doc = "🧙🏻"]
 pub const MAGE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "🧙🏻",
@@ -1360,9 +7128,153 @@ pub const MAN_MAGE: crate::Emoji = crate::Emoji {
     }],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("manlike magus"),
+            keywords: &["manlike magus", "towenaar"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("አስማተኛ ወንድ"),
+            keywords: &["አስማተኛ ወንድ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("ساحر"),
+            keywords: &["ساحر"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("প\u{9c1}ৰ\u{9c1}ষ য\u{9be}দ\u{9c1}কৰ"),
+            keywords: &["প\u{9c1}ৰ\u{9c1}ষ য\u{9be}দ\u{9c1}কৰ", "য\u{9be}দ\u{9c1}কৰ"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("kişi maq"),
+            keywords: &["kişi maq", "ovsunçu", "sehrbaz"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("чарадзей"),
+            keywords: &["вядзьмак", "чарадзей", "чараўнік"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("мъж магьосник"),
+            keywords: &["вълшебник", "мъж магьосник", "чародей"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("প\u{9c1}র\u{9c1}ষ মেজ"),
+            keywords: &[
+                "উইজ\u{9be}র\u{9cd}ড",
+                "জ\u{9be}দ\u{9c1}কর",
+                "প\u{9c1}র\u{9c1}ষ মেজ",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("hudour"),
+            keywords: &["hudour"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("muškarac čarobnjak"),
+            keywords: &["mag", "muškarac čarobnjak", "čarobnjak"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("home mag"),
+            keywords: &["bruixot", "fetiller", "home mag"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᏍᎦᏯ ᎠᏓᏪ"),
+            keywords: &["ᎠᏍᎦᏯ ᎠᏓᏪ", "ᎠᏓᏪ", "ᏗᏓᏁᏎᏍᎩ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("čaroděj"),
+            keywords: &["kouzelník", "mág", "čaroděj", "čarodějník"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("dewin gwrywaidd"),
+            keywords: &["dewin", "dewin gwrywaidd", "swynwr"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("mandlig magiker"),
+            keywords: &["magi", "mand", "mandlig magiker"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Magier"),
+            keywords: &["Hexenmeister", "Magier", "Zauberer"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("άντρας μάγος"),
+            keywords: &["άντρας μάγος", "μάγος"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("man mage"),
             keywords: &["man mage", "sorcerer", "wizard"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("mago"),
+            keywords: &["brujo", "hechicero", "mago"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("meesmaag"),
+            keywords: &["meesmaag", "võlur"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("gizon mago"),
+            keywords: &["belagile", "gizon mago"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("ساحر مرد"),
+            keywords: &["ساحر", "ساحر مرد", "طلسم\u{200c}گر مرد", "مرد جادوگر"],
         },
         crate::Annotation {
             lang: "fi",
@@ -1377,6 +7289,505 @@ pub const MAN_MAGE: crate::Emoji = crate::Emoji {
                 "taikuri",
                 "tietäjä",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("lalaking salamangkero"),
+            keywords: &["lalaking salamangkero", "wizard"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("gandakallur"),
+            keywords: &[
+                "gandakallur",
+                "gandur",
+                "kallur",
+                "maður",
+                "trøllmaður",
+                "ævintýr",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("mage homme"),
+            keywords: &["mage homme", "magicien", "sorcier"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["enchanteur", "homme", "mage", "magicien", "sorcier"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("fear draíochta"),
+            keywords: &["draoi", "fear draíochta"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("draoidh fireann"),
+            keywords: &["buidseach", "draoidh", "draoidh fireann"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("meigo"),
+            keywords: &["druída", "feiticeiro", "meigo"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("પ\u{ac1}ર\u{ac1}ષ મ\u{ac7}જ"),
+            keywords: &["પ\u{ac1}ર\u{ac1}ષ મ\u{ac7}જ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("mutum mai dabo"),
+            keywords: &["maye", "mutum mai dabo"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("קוסם עם זקן"),
+            keywords: &["כישוף", "מכשף", "קוסם", "קוסם עם זקן", "קסם"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("करामाती प\u{941}र\u{941}ष"),
+            keywords: &["करामाती प\u{941}र\u{941}ष", "जाद\u{942}गर", "भ\u{942}तसाधक"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("čarobnjak"),
+            keywords: &["vještac", "čarobnjak"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("férfi varázsló"),
+            keywords: &["boszorkánymester", "férfi varázsló", "mágus"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("կախարդ"),
+            keywords: &["կախարդ", "մոգ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("magi pria"),
+            keywords: &["magi pria", "penyihir", "tukang sihir"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("nwoke abrakatabra"),
+            keywords: &[
+                "dibia nwoke",
+                "nwoke abrakatabra",
+                "nwoke kwenyere n’ike abrakatabra",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("galdrakarl"),
+            keywords: &["galdrakarl", "seiðkarl"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("mago uomo"),
+            keywords: &["mago", "mago uomo", "stregone"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("男の魔法使い"),
+            keywords: &["男", "男の魔法使い", "男性", "魔法使い"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("wong winasis lanang"),
+            keywords: &["bagawan", "dhukun", "wong winasis lanang"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ჯადოქარი კაცი"),
+            keywords: &["მისანი", "ჯადოსანი", "ჯადოქარი", "ჯადოქარი კაცი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("ер сиқыршы"),
+            keywords: &["ер сиқыршы"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("អ\u{17d2}នកវេទមន\u{17d2}តប\u{17d2}រ\u{17bb}ស"),
+            keywords: &[
+                "ធ\u{17d2}មប\u{17cb}ប\u{17d2}រ\u{17bb}ស",
+                "អ\u{17d2}នកមន\u{17d2}តអាគមប\u{17d2}រ\u{17bb}ស",
+                "អ\u{17d2}នកវេទមន\u{17d2}តប\u{17d2}រ\u{17bb}ស",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಪುರುಷ ಮಂತ\u{ccd}ರವಾದ\u{cbf}"),
+            keywords: &[
+                "ಪುರುಷ ಮಂತ\u{ccd}ರವಾದ\u{cbf}",
+                "ವ\u{cbf}ಜಾರ\u{ccd}ಡ\u{ccd}",
+                "ಸೋರ\u{ccd}ಸರರ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("남자 마법사"),
+            keywords: &["남자 마법사", "마법사"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("जाद\u{942}टोणो करपी दादलो"),
+            keywords: &[
+                "जाद\u{942}टोणो करपी दादलो",
+                "व\u{94d}हिझार\u{94d}ड",
+                "सोरस\u{947}रर",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("эркек сыйкырчы"),
+            keywords: &["сыйкырчы", "эркек сыйкырчы"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Zauberer"),
+            keywords: &["Hexemeeschter", "Zauberer"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຜ\u{eb9}\u{ec9}ວ\u{eb4}ເສດຊາຍ"),
+            keywords: &["ຜ\u{eb9}\u{ec9}ວ\u{eb4}ເສດຊາຍ", "ພ\u{ecd}\u{ec8}ມ\u{ebb}ດ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("vyras magas"),
+            keywords: &["burtininkas", "kerėtojas", "vyras magas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("zintnieks"),
+            keywords: &["burvis", "zintnieks"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tohunga matakite"),
+            keywords: &["rūānuku", "tohunga matakite", "tohunga mākutu"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("маж магичар"),
+            keywords: &["волшебник", "маж магичар", "маѓепсник"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ജ\u{d3e}ലവിദ\u{d4d}യക\u{d4d}ക\u{d3e}രൻ"),
+            keywords: &[
+                "ജ\u{d3e}ലവിദ\u{d4d}യക\u{d4d}ക\u{d3e}രൻ",
+                "മന\u{d4d}ത\u{d4d}രവ\u{d3e}ദി",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("эрэгтэй шидтэн"),
+            keywords: &["бөө", "чөтгөр", "эрэгтэй шидтэн"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("प\u{941}र\u{942}ष जाद\u{941}गर"),
+            keywords: &[
+                "च\u{947}टकीण",
+                "च\u{947}टक\u{94d}या",
+                "प\u{941}र\u{942}ष जाद\u{941}गर",
+                "प\u{941}र\u{942}ष जाद\u{941}गार",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("ahli sihir lelaki"),
+            keywords: &["ahli sihir lelaki", "dukun sihir lelaki"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("raġel magu"),
+            keywords: &["assistent", "raġel magu", "saħħar"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အမျ\u{102d}\u{102f}းသား မ\u{103e}ော\u{103a}ဆရာ"),
+            keywords: &[
+                "မ\u{103e}ော\u{103a}ဆရာ",
+                "အမျ\u{102d}\u{102f}းသား မ\u{103e}ော\u{103a}ဆရာ",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("trollmann"),
+            keywords: &["heksemester", "trollmann"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("छोरामान\u{94d}छ\u{947} जाद\u{941}गर"),
+            keywords: &[
+                "छोरामान\u{94d}छ\u{947} जाद\u{941}गर",
+                "ट\u{941}नाम\u{941}ना जान\u{94d}न\u{947} छोरामान\u{94d}छ\u{947}",
+                "बोक\u{94d}सा",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("mannelijke magiër"),
+            keywords: &["heksenmeester", "mannelijke magiër", "tovenaar"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("trollmann"),
+            keywords: &["heksemeister", "trollmann"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ପ\u{b41}ର\u{b41}ଷ ଯ\u{b3e}ଦ\u{b41}କର"),
+            keywords: &[
+                "ପ\u{b41}ର\u{b41}ଷ ଯ\u{b3e}ଦ\u{b41}କର",
+                "ଯ\u{b3e}ଦ\u{b41}କର । ତ\u{b3e}ନ\u{b4d}ତ\u{b4d}ର\u{b3f}କ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਆਦਮੀ ਜਾਦ\u{a42}ਗਰ"),
+            keywords: &["ਆਦਮੀ ਜਾਦ\u{a42}ਗਰ", "ਜਾਦ\u{a42}ਗਰ", "ਸਹਾਇਕ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("جادوگر بندہ"),
+            keywords: &["جادوگر", "جادوگر بندہ"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Mán Majíshan"),
+            keywords: &["Jujú Man", "Man Wích", "Mán Majíkshan", "Mán Majíshan"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("mężczyzna mag"),
+            keywords: &["czarnoksiężnik", "czarodziej", "mężczyzna mag"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("سړی جادوګر"),
+            keywords: &["جادوګره", "سړی جادوګر", "کوډګر"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("homem mago"),
+            keywords: &["feiticeiro", "homem mago", "mago"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["bruxo", "feiticeiro", "homem mago"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("tata watuq"),
+            keywords: &["layqa", "tata watuq", "watuq"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("bărbat mag"),
+            keywords: &["bărbat mag", "magician", "vraci", "vrăjitor"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1251"),
+            keywords: &["E10-1251"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("волшебник"),
+            keywords: &["волшебник", "маг", "чародей"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("umumajigabo"),
+            keywords: &["umumajigabo", "umupfumu"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("مرد، جادوگر"),
+            keywords: &["جادوگر", "مرد، جادوگر"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ප\u{dd2}ර\u{dd2}ම\u{dd2} ම\u{dcf}ය\u{dcf}කර\u{dd4}ව\u{dcf}"),
+            keywords: &[
+                "ප\u{dd2}ර\u{dd2}ම\u{dd2} ම\u{dcf}ය\u{dcf}කර\u{dd4}ව\u{dcf}",
+                "මන\u{dca}ත\u{dca}\u{200d}රකර\u{dd4}ව\u{dcf}",
+                "ම\u{dcf}ය\u{dcf}කර\u{dd4}ව\u{dcf}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("čarodejník"),
+            keywords: &["bosorák", "kúzelník", "strigôň", "čarodejník"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("čarovnik"),
+            keywords: &["mag", "čarodej", "čarovnik"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("nin xirfad u leh sixirka"),
+            keywords: &["nin xirfad u leh sixirka", "saaxir", "saaxirad"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("burrë magjistar"),
+            keywords: &["burrë magjistar", "magjistar", "shtrigan"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("чаробњак"),
+            keywords: &["вештац", "чаробњак"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["чаробњак"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("čarobnjak"),
+            keywords: &["veštac", "čarobnjak"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["čarobnjak"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("manlig magiker"),
+            keywords: &["manlig magiker", "trollkarl"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("mchawi wa kiume"),
+            keywords: &["mchawi wa kiume", "mlozi wa kiume"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஆண\u{bcd} மந\u{bcd}திரவ\u{bbe}தி"),
+            keywords: &["ஆண\u{bcd}", "மந\u{bcd}திரவ\u{bbe}தி", "ம\u{bbe}ய\u{bbe}வி"],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("మంత\u{c4d}రగ\u{c3e}డు"),
+            keywords: &[
+                "ఇంద\u{c4d}రజ\u{c3e}ల\u{c3f}కుడు",
+                "మంత\u{c4d}రగ\u{c3e}డు",
+                "మ\u{c3e}ంత\u{c4d}ర\u{c3f}కుడు",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("марди коҳин"),
+            keywords: &["марди афсунгар", "марди коҳин", "соҳир"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("พ\u{e48}อมด"),
+            keywords: &["ผ\u{e39}\u{e49}ว\u{e34}เศษ", "พ\u{e48}อมด"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("jadygöý erkek"),
+            keywords: &["gözbagçy", "jadygöý", "jadygöý erkek"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tangata taula-faʻahikehe"),
+            keywords: &["tangata taula-faʻahikehe"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("erkek büyücü"),
+            keywords: &["büyücü", "erkek büyücü", "sihirbaz"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئەر سېھرىگەر"),
+            keywords: &["ئەر سېھرىگەر", "جادۇگەر", "سېھرىگەر"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("чаклун"),
+            keywords: &["чаклун", "чародій"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("جادوگر آدمی"),
+            keywords: &["جادوگر", "جادوگر آدمی"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("erkak sehrgar"),
+            keywords: &["afsungar", "erkak sehrgar", "jodugar", "kohin"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("pháp sư nam"),
+            keywords: &["pháp sư", "pháp sư nam", "phù thủy"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("mage bu góor"),
+            keywords: &["dëmm", "luxuskat", "mage bu góor"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("i-mage eyindoda"),
+            keywords: &["i-mage eyindoda", "igqwirha", "umntu onobugqi"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Ọkùnrin onídán"),
+            keywords: &["Oṣó", "Ọkùnrin onídán"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("男巫師"),
+            keywords: &["巫師", "男巫", "男巫師"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("男巫师"),
+            keywords: &["巫师", "男巫", "男巫师"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("男法师"),
+            keywords: &["男巫", "男法师", "男魔术师"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("男巫"),
+            keywords: &["男巫"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("男巫師"),
+            keywords: &["巫師", "男巫師", "男魔法師", "魔法師"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("i-mage yowesilisa"),
+            keywords: &["i-mage yowesilisa", "isangoma", "iwizadi"],
         },
     ],
 };
@@ -1524,9 +7935,153 @@ pub const WOMAN_MAGE: crate::Emoji = crate::Emoji {
     }],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("vroulike magus"),
+            keywords: &["heks", "towenares", "vroulike magus"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("አስማተኛ ሴት"),
+            keywords: &["አስማተኛ ሴት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("ساحرة"),
+            keywords: &["ساحرة"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("মহিল\u{9be} য\u{9be}দ\u{9c1}কৰ"),
+            keywords: &[
+                "ড\u{9be}ইনি",
+                "মহিল\u{9be} য\u{9be}দ\u{9c1}কৰ",
+                "য\u{9be}দ\u{9c1}কৰণী",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("qadın maq"),
+            keywords: &["cadugər", "küpəgirən qarı", "qadın maq"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("чараўніца"),
+            keywords: &["ведзьма", "чарадзейка", "чараўніца"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("магьосница"),
+            keywords: &["вълшебница", "магьосница", "чародейка"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("মহিল\u{9be} মেজ"),
+            keywords: &["উইচ", "জ\u{9be}দ\u{9c1}করী", "মহিল\u{9be} মেজ"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("hudourez"),
+            keywords: &["hudourez"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("žena čarobnjak"),
+            keywords: &["vještica", "čarobnica", "žena čarobnjak"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("dona maga"),
+            keywords: &["bruixa", "dona maga", "fetillera"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᎨᏯ ᎠᏓᏪ"),
+            keywords: &["ᎠᎨᏯ ᎠᏓᏪ", "ᏗᏓᏁᏎᏍᎩ", "ᏗᏙᏂᏍᎩ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("čarodějka"),
+            keywords: &["kouzelnice", "mágyně", "vědma", "čarodějka", "čarodějnice"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("dewin benywaidd"),
+            keywords: &["dewin benywaidd", "dewines", "gwrach", "swynwraig"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("kvindelig magiker"),
+            keywords: &["kvinde", "kvindelig magiker", "magi", "troldkvinde"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Magierin"),
+            keywords: &["Hexe", "Magierin", "Zauberin"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("μάγισσα"),
+            keywords: &["μάγισσα"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("woman mage"),
             keywords: &["sorceress", "witch", "woman mage"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("maga"),
+            keywords: &["bruja", "hechicera", "maga"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("naismaag"),
+            keywords: &["naismaag", "nõid"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("emakume mago"),
+            keywords: &["emakume mago", "sorgin"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("ساحر زن"),
+            keywords: &["افسونگر", "جادوگر زن", "زن جادوگر", "ساحر زن", "ساحره"],
         },
         crate::Annotation {
             lang: "fi",
@@ -1541,6 +8096,504 @@ pub const WOMAN_MAGE: crate::Emoji = crate::Emoji {
                 "taikuri",
                 "tietäjä",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("babaeng salamangkero"),
+            keywords: &["babaeng salamangkero", "mangkukulam"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("gandakelling"),
+            keywords: &[
+                "gandakelling",
+                "gandakona",
+                "gandur",
+                "kelling",
+                "kona",
+                "kvinna",
+                "ævintýr",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("mage femme"),
+            keywords: &["ensorceleuse", "mage femme", "sorcière"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["enchanteresse", "femme", "mage", "magicienne", "sorcière"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("bean dhraíochta"),
+            keywords: &["bean dhraíochta", "cailleach"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("ban-draoidh"),
+            keywords: &["ban-draoidh", "bana-bhuidseach"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("meiga"),
+            keywords: &["bruxa", "feiticeira", "meiga"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સ\u{acd}ત\u{acd}રી મ\u{ac7}જ"),
+            keywords: &["સ\u{acd}ત\u{acd}રી મ\u{ac7}જ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("mace mai dabo"),
+            keywords: &["mace mai dabo", "mayya"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("קוסמת"),
+            keywords: &["כישוף", "מכשפה", "קוסמת", "קסם"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("करामाती महिला"),
+            keywords: &["करामाती महिला", "जाद\u{942}गरनी", "भ\u{942}तसाधिका"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("čarobnica"),
+            keywords: &["vještica", "čarobnica"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("varázslónő"),
+            keywords: &["boszorkány", "varázslónő"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("կախարդուհի"),
+            keywords: &["կախարդ", "կախարդուհի", "կին", "վհուկ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("magi wanita"),
+            keywords: &["magi wanita", "penyihir", "tukang sihir"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("nwanyị onye abrakatabra"),
+            keywords: &[
+                "dibia nwanyị",
+                "nwanyị kwenyere n’ike abrakatabra",
+                "nwanyị onye abrakatabra",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("galdrakona"),
+            keywords: &["galdrakona", "norn", "seiðkona"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("maga"),
+            keywords: &["maga", "strega"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("女の魔法使い"),
+            keywords: &["女", "女の魔法使い", "女性", "魔女", "魔法使い"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("wong winasis wadon"),
+            keywords: &["bagawan", "dhukun", "wong winasis wadon"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ჯადოქარი ქალი"),
+            keywords: &["ალქაჯი", "კუდიანი", "ჯადოქარი ქალი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("әйел сиқыршы"),
+            keywords: &["әйел сиқыршы"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("អ\u{17d2}នកវេទមន\u{17d2}តស\u{17d2}រ\u{17b8}"),
+            keywords: &[
+                "ធ\u{17d2}មប\u{17cb}ស\u{17d2}រ\u{17b8}",
+                "អ\u{17d2}នកមន\u{17d2}តអាគមស\u{17d2}រ\u{17b8}",
+                "អ\u{17d2}នកវេទមន\u{17d2}តស\u{17d2}រ\u{17b8}",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಮಹ\u{cbf}ಳಾ ಮಂತ\u{ccd}ರವಾದ\u{cbf}"),
+            keywords: &[
+                "ಮಹ\u{cbf}ಳಾ ಮಂತ\u{ccd}ರವಾದ\u{cbf}",
+                "ಮಾಟಗಾತ\u{cbf}",
+                "ಸೋರ\u{ccd}ಸ\u{cc6}ಸ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("여자 마법사"),
+            keywords: &["마녀", "마법사", "여자 마법사"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("जाद\u{942}टोणो करपी बायल"),
+            keywords: &["च\u{947}टकीण", "जाद\u{942}टोणो करपी बायल", "सोरस\u{947}रस"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("аял сыйкырчы"),
+            keywords: &["аял сыйкырчы", "мастан"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Hex"),
+            keywords: &["Hex"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຜ\u{eb9}\u{ec9}ວ\u{eb4}ເສດຍ\u{eb4}ງ"),
+            keywords: &["ຜ\u{eb9}\u{ec9}ວ\u{eb4}ເສດຍ\u{eb4}ງ", "ແມ\u{ec8}ມ\u{ebb}ດ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("magė"),
+            keywords: &["kerėtoja", "magė", "ragana"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("zintniece"),
+            keywords: &["burve", "ragana", "zintniece"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("wahine matakite"),
+            keywords: &["wahine matakite", "wahine mākutu"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("жена магичар"),
+            keywords: &["вештерка", "жена магичар", "маѓепсница"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ജ\u{d3e}ലവിദ\u{d4d}യക\u{d4d}ക\u{d3e}രി"),
+            keywords: &[
+                "ജ\u{d3e}ലവിദ\u{d4d}യക\u{d4d}ക\u{d3e}രി",
+                "മന\u{d4d}ത\u{d4d}രവ\u{d3e}ദിനി",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("эмэгтэй шидтэн"),
+            keywords: &["бөө", "шулам", "эмэгтэй шидтэн"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("महिला जाद\u{941}गर"),
+            keywords: &["च\u{947}टकीण", "च\u{947}टक\u{94d}या", "महिला जाद\u{941}गर"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("ahli sihir wanita"),
+            keywords: &["ahli sihir wanita", "dukun sihir wanita"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("mara magu"),
+            keywords: &["mara magu", "saħħar", "saħħara"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အမျ\u{102d}\u{102f}းသမ\u{102e}း မ\u{103e}ော\u{103a}ဆရာ"),
+            keywords: &[
+                "စ\u{102f}န\u{103a}း",
+                "အမျ\u{102d}\u{102f}းသမ\u{102e}း မ\u{103e}ော\u{103a}ဆရာ",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("trollkvinne"),
+            keywords: &["heks", "trollkvinne"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("छोरीमान\u{94d}छ\u{947} जाद\u{941}गर"),
+            keywords: &[
+                "छोरीमान\u{94d}छ\u{947} जाद\u{941}गर",
+                "ट\u{941}नाम\u{941}ना जान\u{94d}न\u{947} छोरीमान\u{94d}छ\u{947}",
+                "बोक\u{94d}सी",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("vrouwelijke magiër"),
+            keywords: &["heks", "tovenares", "vrouwelijke magiër"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("trollkvinne"),
+            keywords: &["heks", "trollkvinne"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ମହ\u{b3f}ଳ\u{b3e} ଯ\u{b3e}ଦ\u{b41}କର"),
+            keywords: &[
+                "ଡ\u{b3e}ହ\u{b3e}ଣୀ । ତନ\u{b4d}ତ\u{b4d}ରକ\u{b3e}ର\u{b3f}ଣୀ",
+                "ମହ\u{b3f}ଳ\u{b3e} ଯ\u{b3e}ଦ\u{b41}କର",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਜਾਦ\u{a42}ਗਰਨੀ"),
+            keywords: &["ਚ\u{a41}ੜ\u{a48}ਲ", "ਜਾਦ\u{a42}ਗਰਨੀ", "ਡ\u{a48}ਣ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("جادوگر زنانی"),
+            keywords: &["جادوگر زنانی", "جادوگرنی"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Wúmán Majíshan"),
+            keywords: &[
+                "Jujú Wúman",
+                "Wúmán Majíkshan",
+                "Wúmán Majíshan",
+                "Wúmán Wích",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("kobieta mag"),
+            keywords: &["czarownica", "kobieta mag", "wiedźma"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("ښځه جادوګره"),
+            keywords: &["جادوګره", "ښځه جادوګره", "کوډګره"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("maga"),
+            keywords: &["bruxa", "feiticeira", "maga"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("maga"),
+            keywords: &["bruxa", "feiticeira", "maga"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("warmi watuq"),
+            keywords: &["bruja", "layqa", "warmi watuq"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("femeie mag"),
+            keywords: &["femeie mag", "magiciană", "vrăjitoare"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1250"),
+            keywords: &["E10-1250"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("волшебница"),
+            keywords: &["ведьма", "волшебница", "чародейка"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("umumajikazi"),
+            keywords: &["umumajikazi", "umupfumukazi", "umurozi"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("عورت جادوگرني"),
+            keywords: &["عورت جادوگرني", "ڏائڻ، جادوگرني"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ම\u{dcf}ය\u{dcf}ක\u{dcf}ර\u{dd2}ය"),
+            keywords: &[
+                "මන\u{dca}ත\u{dca}\u{200d}රක\u{dcf}ර\u{dd2}ය",
+                "ම\u{dcf}ය\u{dcf}ක\u{dcf}ර\u{dd2}ය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("čarodejníčka"),
+            keywords: &["bosorka", "kúzelníčka", "striga", "čarodejníčka"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("čarovnica"),
+            keywords: &["čarodejka", "čarovnica"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("naag xirfad u leh sixirka"),
+            keywords: &["naag saaxirad", "naag xirfad u leh sixirka", "saaxirad"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("magjistare"),
+            keywords: &["magjistare", "magjistricë", "shtrigë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("чаробница"),
+            keywords: &["вештица", "чаробница"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["чаробница"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("čarobnica"),
+            keywords: &["veštica", "čarobnica"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["čarobnica"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("kvinnlig magiker"),
+            keywords: &["häxa", "kvinnlig magiker"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("mlozi wa kike"),
+            keywords: &["mchawi", "mchawi wa kike", "mlozi wa kike"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("பெண\u{bcd} மந\u{bcd}திரவ\u{bbe}தி"),
+            keywords: &[
+                "சூனியக\u{bcd}க\u{bbe}ரி",
+                "பெண\u{bcd} மந\u{bcd}திரவ\u{bbe}தி",
+                "ம\u{bbe}ய\u{bbe}வி",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("మంత\u{c4d}రగత\u{c4d}త\u{c46}"),
+            keywords: &[
+                "ఇంద\u{c4d}రజ\u{c3e}ల\u{c3f}కుర\u{c3e}లు",
+                "మంత\u{c4d}రగత\u{c4d}త\u{c46}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("зани коҳин"),
+            keywords: &["зани афсунгар", "зани коҳин", "ҷодугар"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("แม\u{e48}มด"),
+            keywords: &["ผ\u{e39}\u{e49}ว\u{e34}เศษ", "แม\u{e48}มด"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("jadygöý aýal"),
+            keywords: &["dogagöý", "jadygöý", "jadygöý aýal"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("fefine taula-faʻahikehe"),
+            keywords: &["fefine taula-faʻahikehe"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("kadın büyücü"),
+            keywords: &["büyücü", "cadı", "kadın büyücü"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئايال سېھرىگەر"),
+            keywords: &["ئايال سېھرىگەر", "داخان", "سېھرىگەر"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("чаклунка"),
+            keywords: &["відьма", "чаклунка", "чародійка"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("جادوگر عورت"),
+            keywords: &["جادوگر عورت", "جادوگرنی", "چڑیل"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("ayol sehrgar"),
+            keywords: &["ayol sehrgar", "jodugar", "kohin"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("pháp sư nữ"),
+            keywords: &["bà cốt", "pháp sư nữ", "phù thủy"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("mage bu jigéen"),
+            keywords: &["dëmm", "mage bu jigéen"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("i-mage elibhinqa"),
+            keywords: &["i-mage elibhinqa", "igqwirha", "igqwirhakazi"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Obìnrin onídán"),
+            keywords: &["Obìnrin onídán", "àjé\u{329}", "àjẹ\u{301}"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("女巫師"),
+            keywords: &["女巫", "女巫師", "巫婆"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("女巫师"),
+            keywords: &["女巫", "女巫师", "巫婆"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("女法师"),
+            keywords: &["女巫", "女法师", "女魔术师"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("女巫師"),
+            keywords: &["女巫師"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["女巫", "女巫師", "女術士", "女魔法師", "巫婆"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("i-mage yowesifazane"),
+            keywords: &["i-mage yowesifazane", "isangoma", "umthakathi"],
         },
     ],
 };
@@ -1677,9 +8730,162 @@ pub const FAIRY: crate::Emoji = crate::Emoji {
     variants: &[],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("feetjie"),
+            keywords: &["Oberan", "Puck", "Tatania", "feetjie"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ጠንቋይ"),
+            keywords: &["ጠንቋይ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("جني\u{651}ة خيالية"),
+            keywords: &["جني\u{651}ة", "جني\u{651}ة خيالية"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("পৰী"),
+            keywords: &["অবেৰ’ন", "ট\u{9be}ইটেনিয\u{9bc}\u{9be}", "প\u{9be}ক", "পৰী"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("pəri"),
+            keywords: &["Oberon", "Puck", "Titania", "pəri"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("фея"),
+            keywords: &["Абэрон", "Пак", "Тытанія", "фея"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("фея"),
+            keywords: &["Оберон", "Пук", "Титания", "фея"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("পরী"),
+            keywords: &[
+                "ওবোরন",
+                "ট\u{9be}ইটেনিয\u{9bc}\u{9be}",
+                "দ\u{9c1}ষ\u{9cd}ট\u{9c1} ছেলে",
+                "পরী",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("boudig"),
+            keywords: &["Titania", "boudig"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("vila"),
+            keywords: &["Oberon", "Puck", "Titania", "vila"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("fada"),
+            keywords: &["Oberó", "Puck", "Titània", "fada"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏴᏫ ᎤᏍᏗ ᎦᏃᎯᎵᏙᎯ"),
+            keywords: &["ᎣᏩᎾᏂ", "ᏋᎩ", "ᏘᏔᏂᏯ", "ᏴᏫ ᎤᏍᏗ ᎦᏃᎯᎵᏙᎯ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("víla"),
+            keywords: &["duch", "oberon", "puk", "skřítek", "titánie", "víla"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("tylwyth teg"),
+            keywords: &["Oberon", "Puck", "Titania", "tylwyth teg"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("fe"),
+            keywords: &["fe", "magi"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Märchenfee"),
+            keywords: &["Märchenfee", "Oberon", "Puck", "Titania"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("νεράιδα"),
+            keywords: &["Oberon", "Puck", "Titania", "νεράιδα"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("fairy"),
             keywords: &["Oberon", "Puck", "Titania", "fairy"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("hada"),
+            keywords: &["campanilla", "hada", "oberón", "puck", "titania"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["campanita", "hada", "oberón", "puck", "titania"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("haldjas"),
+            keywords: &["Oberon", "Puck", "Titania", "haldjas"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("maitagarri"),
+            keywords: &["Oberon", "Puck", "Titania", "maitagarri"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("پری"),
+            keywords: &[
+                "ابرون",
+                "تیتانیا",
+                "جن و پری",
+                "ملکه پریان",
+                "هاب\u{200c}گابلین",
+                "پادشاه پریان",
+                "پری",
+            ],
         },
         crate::Annotation {
             lang: "fi",
@@ -1694,6 +8900,504 @@ pub const FAIRY: crate::Emoji = crate::Emoji {
                 "keijukainen",
                 "luonnotar",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("diwata"),
+            keywords: &["Oberon", "Puck", "Titania", "diwata"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("álva"),
+            keywords: &["álva", "álvur", "ævintýr"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("personnage féérique"),
+            keywords: &["Obéron", "Puck", "Titania", "personnage féérique"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["fée", "personnage féérique"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("síog"),
+            keywords: &["síog"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("sìthiche"),
+            keywords: &["oberon", "puck", "sìth", "sìthiche", "titania"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("fada"),
+            keywords: &["fada"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("પરી"),
+            keywords: &["પરી"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("aljana"),
+            keywords: &["Oberon", "Puck", "Titania", "aljana"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("פיה"),
+            keywords: &["טיטניה", "טינקרבל", "פיה"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("परी"),
+            keywords: &["ऑब\u{947}रॉन", "टाइट\u{948}निया", "पक", "परी"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("vilinsko biće"),
+            keywords: &["Kosjenka", "Malik Tintilinić", "vilinsko biće"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("tündér"),
+            keywords: &["Oberon", "Puck", "Titánia", "tündér"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("փերի"),
+            keywords: &["Տիտանիա", "Օբերոն", "փերի"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("peri"),
+            keywords: &["Oberon", "Puck", "Titania", "peri"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akụkọ"),
+            keywords: &["Oberon", "Puck", "Titania", "akụkọ"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("álfur"),
+            keywords: &["Bokki", "Títanía", "Óberon", "álfur"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("fata"),
+            keywords: &["Oberon", "Puck", "Titania", "fata"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("妖精"),
+            keywords: &["オベロン", "パック", "伝説", "妖精", "魔法"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("bangsa dewi"),
+            keywords: &["Oberon", "Puck", "Titania", "bangsa dewi", "dewi"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ფერია"),
+            keywords: &["ტიტანია", "ფერია"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("пері"),
+            keywords: &["пері"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("មន\u{17bb}ស\u{17d2}សទេព"),
+            keywords: &[
+                "ទ\u{17b8}តានៀ",
+                "ផាក\u{17cb}",
+                "មន\u{17bb}ស\u{17d2}សទេព",
+                "អ\u{17bc}បេរ\u{17c9}\u{17bb}ន",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಯಕ\u{ccd}ಷ\u{cc6}"),
+            keywords: &[
+                "ಒಬ\u{cc6}ರಾನ\u{ccd}",
+                "ಟ\u{cbf}ಟಾನ\u{cbf}ಯಾ",
+                "ಪಕ\u{ccd}",
+                "ಯಕ\u{ccd}ಷ\u{cc6}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("요정"),
+            keywords: &["요정"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("परी"),
+            keywords: &["ओब\u{947}रॉन", "टिटानीया", "पक", "परी"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("фея"),
+            keywords: &["Оберон", "Титания", "гоблин", "фея"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Fee"),
+            keywords: &["Fee", "Oberon", "Puck", "Titania"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ນາງຟ\u{ec9}າ"),
+            keywords: &[
+                "ທ\u{eb4}ທາເນຍ",
+                "ນາງຟ\u{ec9}າ",
+                "ພ\u{eb1}ກ",
+                "ໂອເບ\u{eb5}ຣອນ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("fėja"),
+            keywords: &["Oberon", "Puck", "Titania", "fėja"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("feja"),
+            keywords: &["Oberons", "Paks", "Titānija", "feja"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("patupaiarehe"),
+            keywords: &["Oberon", "Puck", "Titania", "patupaiarehe"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("самовила"),
+            keywords: &["Оберон", "Пак", "Титанија", "самовила"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("യക\u{d4d}ഷിഗന\u{d4d}ധർവ\u{d4d}വ\u{d3e}ദികൾ"),
+            keywords: &[
+                "ഒബ\u{d4d}റോൺ",
+                "ടൈറ\u{d4d}റ\u{d3e}നിയ",
+                "പ\u{d41}ക\u{d4d}ക\u{d4d}",
+                "യക\u{d4d}ഷിഗന\u{d4d}ധർവ\u{d4d}വ\u{d3e}ദികൾ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("дагина"),
+            keywords: &["Оберон", "Питания", "Пук", "дагина"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("परी"),
+            keywords: &["ओब\u{947}रॉन", "टायट\u{947}निया", "पक", "परी"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("pari-pari"),
+            keywords: &["Oberon", "Puck", "Titania", "pari-pari"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("fatatina"),
+            keywords: &["Oberon", "Puck", "Titania", "fatatina"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("နတ\u{103a}သမ\u{102e}း"),
+            keywords: &[
+                "တ\u{102d}\u{102f}က\u{103a}တန\u{103a}န\u{102e}းရား",
+                "နတ\u{103a}သမ\u{102e}း",
+                "ပက\u{103a}ခ\u{103a}",
+                "အ\u{102d}\u{102f}ဘာရ\u{103d}န\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("fe"),
+            keywords: &["Oberon", "Puck", "Titania", "fe"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("परी"),
+            keywords: &["ओब\u{947}रन", "टिटानिया", "पक", "परी"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("elfje"),
+            keywords: &["Oberon", "Puck", "Titania", "elfje"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("fe"),
+            keywords: &["Oberon", "Puck", "Titania", "fe"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ପରୀ"),
+            keywords: &[
+                "ତ\u{b3f}ତ\u{b3e}ନ\u{b3f}ଆ । ପ\u{b41}କ\u{b4d}\u{200d} । ଓବେରନ\u{b4d}\u{200d}",
+                "ପରୀ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਪਰੀ"),
+            keywords: &["ਓਬ\u{a47}ਰਨ", "ਟਿਟ\u{a48}ਨਿਆ", "ਪਰੀ", "ਪ\u{a71}ਕ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("فیری"),
+            keywords: &["اوبیرون", "شرارتی ب\u{64f}ھتنا", "فیری", "ٹائیٹانیا"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Spírit Wé Rizẹ\u{301}mbúl Taíní Húmánbin"),
+            keywords: &[
+                "Obẹ\u{301}rọn: Kíng Ọf Spírit-dẹm Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
+                "Pọk: Wọ\u{301}n Spírít Wé de Lív Fọ Íngland",
+                "Spírit Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
+                "Títánia: Kwín Ọf Spírit-dem Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("wróżka"),
+            keywords: &["Oberon", "Puk", "Tytania", "wróżka"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("ښاپيرۍ"),
+            keywords: &["اوبيرون", "تيتانيه", "پک", "ښاپيرۍ"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("fada"),
+            keywords: &["fada"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("hada"),
+            keywords: &["Oberon", "Puck", "Titania", "hada"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("zână"),
+            keywords: &["Oberon", "Puck", "Titania", "zână"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1131"),
+            keywords: &["E10-1131"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("фея"),
+            keywords: &["Динь-Динь", "Титания", "крылья", "сказка", "фея", "фэнтези"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("umuzimu"),
+            keywords: &["Oberoni", "Paka", "Titaniya", "umuzimu"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("پري"),
+            keywords: &["پري", "پرين جي راڻي، ڀوت، پرين جو راجا"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ස\u{dd4}රඟන"),
+            keywords: &[
+                "ඔබෙරෝන\u{dca}",
+                "ටය\u{dd2}ට\u{dcf}න\u{dd2}ය\u{dcf}",
+                "පක\u{dca}",
+                "ස\u{dd4}රඟන",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("rozprávková bytosť"),
+            keywords: &["rozprávka", "rozprávková bytosť"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("vilinsko bitje"),
+            keywords: &["vilinsko bitje"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("qurux badan"),
+            keywords: &["boqorka quruxda", "naag qurux badan", "qurux badan"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("zanë"),
+            keywords: &["Oberoni", "Puku", "Titania", "zanë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("вила"),
+            keywords: &["Оберон", "Пак", "Титанија", "вила"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("vila"),
+            keywords: &["Oberon", "Pak", "Titanija", "vila"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("fé"),
+            keywords: &["Oberon", "Puck", "Titania", "fé", "älva"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kichimbakazi"),
+            keywords: &[
+                "jini",
+                "kichimbakazi",
+                "kichimbakazi malkia",
+                "kichimbakazi mfalme",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("கற\u{bcd}பனைக\u{bcd} கத\u{bbe}ப\u{bbe}த\u{bcd}திரம\u{bcd}"),
+            keywords: &[
+                "ஓபெர\u{bbe}ன\u{bcd}",
+                "கற\u{bcd}பனைக\u{bcd} கத\u{bbe}ப\u{bbe}த\u{bcd}திரம\u{bcd}",
+                "டைட\u{bcd}ட\u{bbe}னிய\u{bbe}",
+                "பக\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("జ\u{c3e}నపద ప\u{c3e}త\u{c4d}ర"),
+            keywords: &[
+                "ఓబ\u{c46}ర\u{c3e}న\u{c4d}",
+                "జ\u{c3e}నపద ప\u{c3e}త\u{c4d}ర",
+                "ట\u{c3f}ట\u{c3e}న\u{c3f}య\u{c3e}",
+                "పక\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("парӣ"),
+            keywords: &["Оберон", "Парии бад", "Титания", "парӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("นางฟ\u{e49}า"),
+            keywords: &["นางฟ\u{e49}า", "แฟร\u{e35}\u{e48}"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("peri"),
+            keywords: &["Oberon", "Puk", "Titaniýa", "peri"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("feeli"),
+            keywords: &["feeli"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("peri"),
+            keywords: &["Oberon", "Puck", "Titania", "peri"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئەرۋاھ"),
+            keywords: &["ئوبېرون", "ئەرۋاھ", "تىتانىيە", "مۇزتوپ"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("фея"),
+            keywords: &["Оберон", "Пак", "Титанія", "фея"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("پری"),
+            keywords: &["اوبیران", "ٹائٹینیا", "پری", "پک"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("pari"),
+            keywords: &["Titaniya", "ertak", "pari", "qanot", "sohira"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("tiên"),
+            keywords: &["Oberon", "Puck", "Titania", "tiên"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("fee"),
+            keywords: &["Oberon", "Puk", "Titania", "fee"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("umkholonjane"),
+            keywords: &["I-Titania", "i-Oberon", "i-Puck", "umkholonjane"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Iwin"),
+            keywords: &["Iwin", "Oberon", "Puck", "Titania"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("仙子"),
+            keywords: &["仙子", "奧布朗", "帕克", "提泰妮婭"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("仙子"),
+            keywords: &["仙子", "奥布朗", "帕克", "提泰妮娅"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("精灵"),
+            keywords: &["天卫三", "天卫十五", "天卫四", "精灵"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("仙女"),
+            keywords: &["仙女"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("仙子"),
+            keywords: &["仙子", "妖精"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("nganekwane"),
+            keywords: &["i-Oberon", "i-Puck", "i-Titania", "nganekwane"],
         },
     ],
 };
@@ -1786,14 +9490,644 @@ pub const MAN_FAIRY: crate::Emoji = crate::Emoji {
     }],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("manlike fee"),
+            keywords: &["Oberon", "Puck", "manlike fee"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ጠንቋይ ወንድ"),
+            keywords: &["ጠንቋይ ወንድ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("جن\u{651}ي"),
+            keywords: &["جن\u{651}ي"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("দেৱদ\u{9c2}ত"),
+            keywords: &["অবেৰ’ন", "দেৱদ\u{9c2}ত", "প\u{9be}ক"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("kişi pəri"),
+            keywords: &["Oberon", "Puck", "kişi pəri"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("мужчына-фея"),
+            keywords: &["Абэрон", "Пак", "мужчына-фея"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("мъж фея"),
+            keywords: &["Оберон", "Пук", "мъж фея"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ছেলে পরী"),
+            keywords: &["ওবোরন", "ছেলে পরী", "দ\u{9c1}ষ\u{9cd}ট\u{9c1} ছেলে"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("vilenjak"),
+            keywords: &["Oberon", "Puck", "vilenjak"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("home fada"),
+            keywords: &["Oberó", "Puck", "home fada"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᏍᎦᏯ ᏴᏫ ᎤᏍᏗ ᎦᏃᎯᎵᏙᎯ"),
+            keywords: &["ᎠᏍᎦᏯ ᏴᏫ ᎤᏍᏗ ᎦᏃᎯᎵᏙᎯ", "ᎣᏆᏯᏂ", "ᏋᎩ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("okřídlený skřítek"),
+            keywords: &["oberon", "okřídlený skřítek", "puk", "vílák"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("tylwythen teg"),
+            keywords: &["Oberon", "Puck", "tylwythen teg"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("mandlig fe"),
+            keywords: &["magi", "mand", "mandlig fe"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("männliche Fee"),
+            keywords: &["Oberon", "Puck", "Zauberer", "männliche Fee"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("νεράιδος"),
+            keywords: &["Oberon", "Puck", "νεράιδος"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("man fairy"),
             keywords: &["Oberon", "Puck", "man fairy"],
         },
         crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("hada hombre"),
+            keywords: &["hada", "hada hombre", "oberón", "puck"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("meeshaldjas"),
+            keywords: &["Oberon", "Puck", "meeshaldjas"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("(gizon) maitagarri"),
+            keywords: &["(gizon) maitagarri", "Oberon", "Puck"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("پری مرد"),
+            keywords: &[
+                "ابرون",
+                "جن و پری",
+                "لولو",
+                "هاب\u{200c}گابلین",
+                "پادشاه پریان",
+                "پری مرد",
+            ],
+        },
+        crate::Annotation {
             lang: "fi",
             tts: Some("mieskeiju"),
             keywords: &["Oberon", "Puck", "hyönteismäinen", "mieskeiju", "siivet"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("lalaking diwata"),
+            keywords: &["Oberon", "Puck", "lalaking diwata"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("mannligur álvur"),
+            keywords: &["mannligur álvur", "maður", "álvur", "ævintýr"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("féetaud"),
+            keywords: &["Obéron", "Puck", "féetaud"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["féetaud", "homme"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("sióg fhireann"),
+            keywords: &["sióg fearann", "sióg fhireann"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("sìtheach"),
+            keywords: &["oberon", "puck", "sìth", "sìtheach"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("fada de sexo masculino"),
+            keywords: &["fada", "fada de sexo masculino", "home"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("પ\u{ac1}ર\u{ac1}ષ પરી"),
+            keywords: &["પ\u{ac1}ર\u{ac1}ષ પરી"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("mutum aljani"),
+            keywords: &["Oberon", "Puck", "mutum aljani"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("פיה בן"),
+            keywords: &["אוברון", "פוק", "פיה בן"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("द\u{947}वद\u{942}त"),
+            keywords: &["ऑब\u{947}रॉन", "द\u{947}वद\u{942}त", "पक"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("kućni duh"),
+            keywords: &["Malik Tintilinić", "kućni duh"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("férfi tündér"),
+            keywords: &["Oberon", "Puck", "férfi tündér"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("տղամարդ-փերի"),
+            keywords: &["Օբերոն", "տղամարդ-փերի"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("peri pria"),
+            keywords: &["Oberon", "Puck", "peri pria"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akụkọ nwoke"),
+            keywords: &["Oberon", "Puck", "akụkọ nwoke"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("álfakarl"),
+            keywords: &["álfakarl"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("folletto alato"),
+            keywords: &["Oberon", "Puck", "folletto alato"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("男の妖精"),
+            keywords: &["妖精", "男", "男の妖精", "男性"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("dewa"),
+            keywords: &["Oberon", "Puck", "dewa"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("კაცი ფერია"),
+            keywords: &["კაცი ფერია", "ობერონი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("ер пері"),
+            keywords: &["ер пері"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ទេវប\u{17bb}ត\u{17d2}រ"),
+            keywords: &[
+                "ទេវប\u{17bb}ត\u{17d2}រ",
+                "ផាក\u{17cb}",
+                "អ\u{17bc}បេរ\u{17c9}\u{17bb}ន",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಪುರುಷ ಕಾಲ\u{ccd}ಪನ\u{cbf}ಕ"),
+            keywords: &[
+                "ಒಬ\u{cc6}ರನ\u{ccd}",
+                "ಪಕ\u{ccd}",
+                "ಪುರುಷ ಕಾಲ\u{ccd}ಪನ\u{cbf}ಕ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("남자 요정"),
+            keywords: &["남자 요정"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("दादलो परी"),
+            keywords: &["ऑब\u{947}रॉन", "दादलो परी", "पक"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("эркек фея"),
+            keywords: &["Оберон", "гоблин", "эркек фея"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("männlech Fee"),
+            keywords: &["Oberon", "Puck", "männlech Fee"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ເທວະດາ"),
+            keywords: &["ພ\u{eb1}ກ", "ເທວະດາ", "ໂອເບ\u{eb5}ຣອນ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("burtininkas"),
+            keywords: &["Oberon", "Puck", "burtininkas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("laumiņš"),
+            keywords: &["Oberons", "Paks", "laumiņš", "pasaku burvis"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("patupaiarehe tāne"),
+            keywords: &["Oberon", "Puck", "patupaiarehe tāne"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("виленик"),
+            keywords: &["Оберон", "Пак", "виленик"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ഗന\u{d4d}ധർവ\u{d4d}വൻ"),
+            keywords: &[
+                "ഒബ\u{d4d}റോൺ",
+                "ഗന\u{d4d}ധർവ\u{d4d}വൻ",
+                "പ\u{d41}ക\u{d4d}ക\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("эрэгтэй илбэчин"),
+            keywords: &["Оберон", "Пук", "эрэгтэй илбэчин"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("प\u{941}र\u{942}ष परी"),
+            keywords: &["ओब\u{947}रॉन", "पक", "प\u{941}र\u{942}ष परी"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("pari-pari lelaki"),
+            keywords: &["Oberon", "Puck", "pari-pari lelaki"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("fatat maskil"),
+            keywords: &["Oberon", "Puck", "fatat maskil"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("နတ\u{103a}သားငယ\u{103a}"),
+            keywords: &[
+                "နတ\u{103a}သားငယ\u{103a}",
+                "ပက\u{103a}ခ\u{103a}",
+                "အ\u{102d}\u{102f}ဘာရ\u{103d}န\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("mannlig fe"),
+            keywords: &["Oberon", "Puck", "fe", "mannlig fe"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("द\u{947}वद\u{942}त"),
+            keywords: &["ओब\u{947}रन", "द\u{947}वद\u{942}त", "पक"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("mannelijk elfje"),
+            keywords: &["Oberon", "Puck", "mannelijk elfje"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("mannleg fe"),
+            keywords: &["Oberon", "Puck", "fe", "mannleg fe"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ପ\u{b41}ର\u{b41}ଷ ପରୀ"),
+            keywords: &[
+                "ପ\u{b41}କ\u{b4d}\u{200d} । ଓବେରନ\u{b4d}\u{200d}",
+                "ପ\u{b41}ର\u{b41}ଷ ପରୀ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਆਦਮੀ ਪਰੀ"),
+            keywords: &["ਆਦਮੀ ਪਰੀ", "ਓਬ\u{a47}ਰਨ", "ਪ\u{a71}ਕ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("فیری بندہ"),
+            keywords: &["اوبیرون", "شرارتی ب\u{64f}ھتنا", "فیری بندہ"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Bád Spírit Wé Rizẹ\u{301}mbúl Smọ\u{301}l Man"),
+            keywords: &[
+                "Bád Spírit Wé Rizẹ\u{301}mbúl Smọ\u{301}l Man",
+                "Mán Spírit Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
+                "Obẹ\u{301}rọn: Kíng Ọf Spírit-dẹm Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
+                "Pọk: Wọ\u{301}n Spírít Wé de Lív Fọ Íngland",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("mężczyzna wróżka"),
+            keywords: &["Oberon", "Puk", "mężczyzna wróżka"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("سړی خاپېری"),
+            keywords: &["اوبيرون", "سړی خاپېری", "پک"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("homem fada"),
+            keywords: &["fada", "homem fada"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["homem fada", "homem-fada"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("tata hada"),
+            keywords: &["Oberon", "Puck", "tata hada"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("bărbat zână"),
+            keywords: &["Oberon", "Puck", "bărbat zână"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1253"),
+            keywords: &["E10-1253"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("мужчина-фея"),
+            keywords: &[
+                "крылья",
+                "мужчина",
+                "мужчина-фея",
+                "сказка",
+                "фея",
+                "фэнтези",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("umuzimugabo"),
+            keywords: &["Oberoni", "Paka", "umuzimugabo"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("مرد فرشتو"),
+            keywords: &["مرد فرشتو", "ڀوت، پرين جو راجا"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ප\u{dd2}ර\u{dd2}ම\u{dd2} ස\u{dd4}රඟන"),
+            keywords: &[
+                "ඔබෙරෝන\u{dca}",
+                "පක\u{dca}",
+                "ප\u{dd2}ර\u{dd2}ම\u{dd2} ස\u{dd4}රඟන",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("škriatok"),
+            keywords: &["rozprávka", "škriatok"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("vilinec"),
+            keywords: &["vilinec"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("nin qurux badan"),
+            keywords: &["nin qurux badan"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("burrë zanë"),
+            keywords: &["Oberoni", "Puku", "burrë zanë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("вилењак"),
+            keywords: &["Оберон", "Пак", "вилењак"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("vilenjak"),
+            keywords: &["Oberon", "Pak", "vilenjak"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("manlig älva"),
+            keywords: &["Oberon", "Puck", "manlig älva"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kichimbakazi wa kiume"),
+            keywords: &["jini", "kichimbakazi mfalme", "kichimbakazi wa kiume"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஆண\u{bcd} கற\u{bcd}பனைக\u{bcd} கத\u{bbe}ப\u{bbe}த\u{bcd}திரம\u{bcd}"),
+            keywords: &[
+                "ஆண\u{bcd} கற\u{bcd}பனைக\u{bcd} கத\u{bbe}ப\u{bbe}த\u{bcd}திரம\u{bcd}",
+                "ஓபெர\u{bbe}ன\u{bcd}",
+                "பக\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("జ\u{c3e}నపద స\u{c3e}హన మ\u{c3e}ంత\u{c4d}ర\u{c3f}కుడు"),
+            keywords: &[
+                "ఓబ\u{c46}ర\u{c3e}న\u{c4d}",
+                "జ\u{c3e}నపద స\u{c3e}హన మ\u{c3e}ంత\u{c4d}ర\u{c3f}కుడు",
+                "పక\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("парии мард"),
+            keywords: &["Оберон", "Парии бад", "парии мард"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("เทพบ\u{e38}ตร"),
+            keywords: &["เทพบ\u{e38}ตร", "แฟร\u{e35}\u{e48}ผ\u{e39}\u{e49}ชาย"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("peri erkek"),
+            keywords: &["Oberon", "Puk", "peri erkek"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("feeli tangata"),
+            keywords: &["feeli tangata"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("erkek peri"),
+            keywords: &["Oberon", "Puck", "erkek peri"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئەر ئەرۋاھ"),
+            keywords: &["ئوبېرون", "ئەر ئەرۋاھ", "مۇزتوپ"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("чоловік-фея"),
+            keywords: &["Оберон", "Пак", "чоловік-фея"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("مرد پری"),
+            keywords: &["اوبیران", "مرد پری", "پک"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("erkak pari"),
+            keywords: &["erkak", "erkak pari", "qanot", "sehrgar"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("ông tiên"),
+            keywords: &["Oberon", "Puck", "ông tiên"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("fee bu góor"),
+            keywords: &["Oberon", "Puk", "fee bu góor"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("umkholonjane oyindoda"),
+            keywords: &["I-Oberon", "I-Puck", "umkholonjane oyindoda"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Iwin ọkùnrin"),
+            keywords: &["Iwin ọkùnrin", "Oberon", "Puck"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("男仙子"),
+            keywords: &["奧布朗", "帕克", "男仙子"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("男仙子"),
+            keywords: &["奥布朗", "帕克", "男仙子"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("仙人"),
+            keywords: &["仙人", "仙男", "天卫十五", "天卫四", "男精灵"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("男妖精"),
+            keywords: &["男妖精"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("男仙子"),
+            keywords: &["男仙子", "男妖精"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ngelosi yesilisa"),
+            keywords: &["i-Oberon", "i-Puck", "ngelosi yesilisa"],
         },
     ],
 };
@@ -1941,9 +10275,148 @@ pub const WOMAN_FAIRY: crate::Emoji = crate::Emoji {
     }],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("vroulike feetjie"),
+            keywords: &["Tatania", "vroulike feetjie"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ጠንቋይ ሴት"),
+            keywords: &["ጠንቋይ ሴት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("جن\u{651}ية"),
+            keywords: &["جن\u{651}ية"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("স\u{9c1}ন\u{9cd}দৰী পৰী"),
+            keywords: &[
+                "ট\u{9be}ইটেনিয\u{9bc}\u{9be}",
+                "পৰী",
+                "স\u{9c1}ন\u{9cd}দৰী পৰী",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("qadın pəri"),
+            keywords: &["Titania", "qadın pəri"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("жанчына-фея"),
+            keywords: &["Тытанія", "жанчына-фея"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("жена фея"),
+            keywords: &["Титания", "жена фея"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("মহিল\u{9be} পরী"),
+            keywords: &["ট\u{9be}ইটেনিয\u{9bc}\u{9be}", "মহিল\u{9be} পরী"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("žena vila"),
+            keywords: &["Titania", "žena vila"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("dona fada"),
+            keywords: &["Titània", "dona fada"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᎨᏯ ᏴᏫ ᎤᏍᏗ ᎦᏃᎯᎵᏙᎯ"),
+            keywords: &["ᎠᎨᏯ ᏴᏫ ᎤᏍᏗ ᎦᏃᎯᎵᏙᎯ", "ᏘᏔᏂᏯ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("okřídlená víla"),
+            keywords: &["divoženka", "elfka", "okřídlená víla", "rusalka", "titánie"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("tylwythen deg"),
+            keywords: &["Titania", "tylwythen deg"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("kvindelig fe"),
+            keywords: &["kvinde", "kvindelig fe", "magi"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Fee"),
+            keywords: &["Fee", "Titania"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("γυναίκα νεράιδα"),
+            keywords: &["Titania", "γυναίκα νεράιδα"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("woman fairy"),
             keywords: &["Titania", "woman fairy"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("hada mujer"),
+            keywords: &["campanilla", "hada", "hada mujer", "titania"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("naishaldjas"),
+            keywords: &["Titania", "naishaldjas"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("(emakume) maitagarri"),
+            keywords: &["(emakume) maitagarri", "Titania"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("پری زن"),
+            keywords: &["تیتانیا", "ملکه پریان", "پری زن"],
         },
         crate::Annotation {
             lang: "fi",
@@ -1957,6 +10430,492 @@ pub const WOMAN_FAIRY: crate::Emoji = crate::Emoji {
                 "metsänneito",
                 "naiskeiju",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("babaeng diwata"),
+            keywords: &["Titania", "babaeng diwata"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("kvinnulig álva"),
+            keywords: &[
+                "kona",
+                "kvinna",
+                "kvinnulig álva",
+                "álva",
+                "álvadrotning",
+                "ævintýr",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("fée"),
+            keywords: &["Titania", "fée"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["femme", "fée"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("sióg bhaineann"),
+            keywords: &["sióg bhaineann", "sióga baineann"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("bean-shìthe"),
+            keywords: &["bean-shìthe", "sìth", "titania"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("fada de sexo feminino"),
+            keywords: &[
+                "Campaíña",
+                "fada",
+                "fada de sexo feminino",
+                "fada madriña",
+                "muller",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સ\u{acd}ત\u{acd}રી પરી"),
+            keywords: &["સ\u{acd}ત\u{acd}રી પરી"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("mace aljana"),
+            keywords: &["Titania", "mace aljana"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("פיה בת"),
+            keywords: &["טיטניה", "טינקרבל", "פיה בת"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("अप\u{94d}सरा"),
+            keywords: &["अप\u{94d}सरा", "टाइट\u{948}निया"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("vila"),
+            keywords: &["Kosjenka", "vila"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("női tündér"),
+            keywords: &["Titánia", "női tündér"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("կին-փերի"),
+            keywords: &["Տիտանիա", "կին-փերի"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("peri wanita"),
+            keywords: &["Titania", "peri wanita"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akụkọ nwanyị"),
+            keywords: &["Titania", "akụkọ nwanyị"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("álfadís"),
+            keywords: &["álfadís"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("fata donna"),
+            keywords: &["Titania", "fata donna"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("女の妖精"),
+            keywords: &["女", "女の妖精", "女性", "妖精"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("dewi"),
+            keywords: &["Titania", "dewi"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ქალი ფერია"),
+            keywords: &["ალი", "ტიტანია", "ქალი ფერია"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("әйел пері"),
+            keywords: &["әйел пері"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ទេពធ\u{17b8}តា"),
+            keywords: &["ទ\u{17b8}តានៀ", "ទេពធ\u{17b8}តា"],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಮಹ\u{cbf}ಳ\u{cc6} ಕಾಲ\u{ccd}ಪನ\u{cbf}ಕ"),
+            keywords: &[
+                "ಟ\u{cbf}ಟಾನ\u{cbf}ಯ",
+                "ಮಹ\u{cbf}ಳಾ ಯಕ\u{ccd}ಷ\u{cc6}",
+                "ಮಹ\u{cbf}ಳ\u{cc6} ಕಾಲ\u{ccd}ಪನ\u{cbf}ಕ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("여자 요정"),
+            keywords: &["여자 요정"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("बायल परी"),
+            keywords: &["टिटानीया", "बायल परी"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("аял фея"),
+            keywords: &["Титания", "аял фея"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("weiblech Fee"),
+            keywords: &["Titania", "weiblech Fee"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ນາງຟ\u{ec9}າຍ\u{eb4}ງ"),
+            keywords: &["ທ\u{eb4}ທາເນຍ", "ນາງຟ\u{ec9}າຍ\u{eb4}ງ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("moteris fėja"),
+            keywords: &["Titania", "moteris fėja"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("laumiņa"),
+            keywords: &["Titānija", "laumiņa"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("patupaiarehe wahine"),
+            keywords: &["Titania", "patupaiarehe wahine"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("жена самовила"),
+            keywords: &["Титанија", "жена самовила"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("യക\u{d4d}ഷി"),
+            keywords: &["ടൈറ\u{d4d}റ\u{d3e}നിയ", "യക\u{d4d}ഷി"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("эмэгтэй илбэчин"),
+            keywords: &["Титания", "эмэгтэй илбэчин"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("स\u{94d}त\u{94d}री परी"),
+            keywords: &["टायटानिया", "स\u{94d}त\u{94d}री परी"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("pari-pari wanita"),
+            keywords: &["Titania", "pari-pari wanita"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("fatat femminil"),
+            keywords: &["Titania", "fatat femminil"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("နတ\u{103a}သမ\u{102e}းငယ\u{103a}"),
+            keywords: &[
+                "တ\u{102d}\u{102f}က\u{103a}တန\u{103a}န\u{102e}းရား",
+                "နတ\u{103a}သမ\u{102e}းငယ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("kvinnelig fe"),
+            keywords: &["Titania", "fe", "kvinnelig fe"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("छोरीमान\u{94d}छ\u{947} परी"),
+            keywords: &["छोरीमान\u{94d}छ\u{947} परी", "टिटानिया"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("vrouwelijk elfje"),
+            keywords: &["Titania", "vrouwelijk elfje"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("kvinneleg fe"),
+            keywords: &["Titania", "fe", "kvinneleg fe"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ମହ\u{b3f}ଳ\u{b3e} ପରୀ"),
+            keywords: &["ତ\u{b3f}ତ\u{b3e}ନ\u{b3f}ଆ", "ମହ\u{b3f}ଳ\u{b3e} ପରୀ"],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਇਸਤਰੀ ਪਰੀ"),
+            keywords: &["ਇਸਤਰੀ ਪਰੀ", "ਟਿਟ\u{a48}ਨਿਆ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("فیری زنانی"),
+            keywords: &["فیری زنانی", "ٹائیٹانیا"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Bád Spírit Wé Rizẹ\u{301}mbúl Smọ\u{301}l Wúmán"),
+            keywords: &[
+                "Bád Spírit Wé Rizẹ\u{301}mbúl Smọ\u{301}l Wúmán",
+                "Títánia: Kwín Ọf Spírit-dem Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
+                "Wúman Spírit Wé Rizẹ\u{301}mbúl Taíní Húmánbin",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("kobieta wróżka"),
+            keywords: &["Tytania", "kobieta wróżka"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("ښځه ښاپيرۍ"),
+            keywords: &["تيتانيه", "ښځه ښاپيرۍ"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("mulher fada"),
+            keywords: &["fada", "mulher fada"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["mulher fada", "mulher-fada"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("warmi hada"),
+            keywords: &["Titania", "warmi hada"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("femeie zână"),
+            keywords: &["Titania", "femeie zână"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1252"),
+            keywords: &["E10-1252"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("женщина-фея"),
+            keywords: &[
+                "Динь-Динь",
+                "Титания",
+                "женщина-фея",
+                "крылья",
+                "сказка",
+                "фея",
+                "фэнтези",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("umuzimukazi"),
+            keywords: &["Titaniya", "umuzimukazi"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("عورت پري"),
+            keywords: &["عورت پري", "پرين جي راڻي"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ස\u{dd4}රංගන\u{dcf}ව"),
+            keywords: &["ටය\u{dd2}ට\u{dcf}න\u{dd2}ය\u{dcf}", "ස\u{dd4}රංගන\u{dcf}ව"],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("víla"),
+            keywords: &["rozprávka", "víla"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("vila"),
+            keywords: &["vila"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("naag qurux badan"),
+            keywords: &["naag qurux badan", "qurux badan"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("grua zanë"),
+            keywords: &["Titania", "grua zanë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("жена вила"),
+            keywords: &["Титанија", "жена вила"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("žena vila"),
+            keywords: &["Titanija", "žena vila"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("kvinnlig fé"),
+            keywords: &["Titania", "kvinnlig fé", "kvinnlig älva"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kichimbakazi wa kike"),
+            keywords: &["kichimbakazi malkia", "kichimbakazi wa kike"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("பெண\u{bcd} கற\u{bcd}பனைக\u{bcd} கத\u{bbe}ப\u{bbe}த\u{bcd}திரம\u{bcd}"),
+            keywords: &[
+                "டைட\u{bcd}ட\u{bbe}னிய\u{bbe}",
+                "பெண\u{bcd} கற\u{bcd}பனைக\u{bcd} கத\u{bbe}ப\u{bbe}த\u{bcd}திரம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("జ\u{c3e}నపద స\u{c3e}హన మంత\u{c4d}రగత\u{c4d}త\u{c46}"),
+            keywords: &[
+                "జ\u{c3e}నపద స\u{c3e}హన మంత\u{c4d}రగత\u{c4d}త\u{c46}",
+                "ట\u{c3f}ట\u{c3e}న\u{c3f}య\u{c3e}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("парии зан"),
+            keywords: &["Титания", "парии зан"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("เทพธ\u{e34}ดา"),
+            keywords: &[
+                "เทพธ\u{e34}ดา",
+                "แฟร\u{e35}\u{e48}ผ\u{e39}\u{e49}หญ\u{e34}ง",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("perizat"),
+            keywords: &["Titaniýa", "perizat"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("feeli fefine"),
+            keywords: &["feeli fefine"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("kadın peri"),
+            keywords: &["Titania", "kadın peri"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئايال ئەرۋاھ"),
+            keywords: &["ئايال ئەرۋاھ", "تىتانىيە"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("жінка-фея"),
+            keywords: &["Титанія", "жінка-фея"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("پری عورت"),
+            keywords: &["ٹائٹینیا", "پری عورت"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("ayol pari"),
+            keywords: &["Titaniya", "ayol pari"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("bà tiên"),
+            keywords: &["Titania", "bà tiên"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("fee bu jigéen"),
+            keywords: &["Titania", "fee bu jigéen"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("umkholonjane olibhinqa"),
+            keywords: &["I-Titania", "umkholonjane olibhinqa"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Iwin obìnrin"),
+            keywords: &["Iwin obìnrin", "Tìtàníà"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("女仙子"),
+            keywords: &["女仙子", "提泰妮婭"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("女仙子"),
+            keywords: &["女仙子", "提泰妮娅"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("仙女"),
+            keywords: &["仙女", "女精灵", "妖精王后"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("女妖精"),
+            keywords: &["女妖精"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("女仙子"),
+            keywords: &["女仙子", "女妖精"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ngelosi yesifazane"),
+            keywords: &["i-Titania", "ngelosi yesifazane"],
         },
     ],
 };
@@ -2093,9 +11052,157 @@ pub const VAMPIRE: crate::Emoji = crate::Emoji {
     variants: &[],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("vampier"),
+            keywords: &["Dracula", "vampier"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ጥርስ ያለው ጭራቅ"),
+            keywords: &["ጥርስ ያለው ጭራቅ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مص\u{651}اص دماء"),
+            keywords: &["مص\u{651}اص دماء"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ভেম\u{9cd}প\u{9be}য\u{9bc}\u{9be}ৰ"),
+            keywords: &[
+                "অম\u{9c3}ত\u{9cd}য\u{9c1}",
+                "ড\u{9cd}ৰ\u{9be}ক\u{9c1}ল\u{9be}",
+                "ভেম\u{9cd}প\u{9be}য\u{9bc}\u{9be}ৰ",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("vampir"),
+            keywords: &["Drakula", "vampir", "xortdan"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("вампір"),
+            keywords: &["Дракула", "бессмяротны", "вампір"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("вампирка"),
+            keywords: &["Дракула", "вампирка", "немъртва"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ভ\u{9cd}য\u{9be}ম\u{9cd}প\u{9be}য\u{9bc}\u{9be}র"),
+            keywords: &[
+                "আধমর\u{9be}",
+                "ড\u{9cd}র\u{9be}ক\u{9c1}ল\u{9be}",
+                "ভ\u{9cd}য\u{9be}ম\u{9cd}প\u{9be}য\u{9bc}\u{9be}র",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("suner/ez-gwad"),
+            keywords: &["Dracula", "suner-gwad", "suner/ez-gwad"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("vampir"),
+            keywords: &["Drakula", "vampir", "živi mrtvac"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("vampir"),
+            keywords: &["Dràcula", "mort vivent", "morta vivent", "vampir"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎩᎦ ᎠᏓᏁᎩᎡᎯ"),
+            keywords: &["ᎤᏲᎱᏒ ᏂᎨᏒᎾ", "ᎩᎦ ᎠᏓᏁᎩᎡᎯ", "ᎩᎦ ᎠᏗᏔᏍᎩ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("obličej upíra"),
+            keywords: &["drákula", "nemrtvý", "obličej upíra", "vampýr"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("fampir"),
+            keywords: &["Draciwla", "fampir", "meirw byw"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("vampyr"),
+            keywords: &["Dracula", "vampyr"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Vampir"),
+            keywords: &["Dracula", "Untoter", "Vampir"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("βρυκόλακας"),
+            keywords: &["Δράκουλας", "απέθαντη", "βρυκόλακας"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("vampire"),
             keywords: &["Dracula", "undead", "vampire"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("vampiro"),
+            keywords: &["drácula", "muerto viviente", "no muerto", "vampiro"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["drácula", "muerto viviente", "vampiro"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("vampiir"),
+            keywords: &["Dracula", "surematu", "vampiir"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("banpiro"),
+            keywords: &["Drakula", "banpiro", "hildako bizidun"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("خون\u{200c}آشام"),
+            keywords: &["خون\u{200c}آشام", "دراکولا", "مرده متحرک"],
         },
         crate::Annotation {
             lang: "fi",
@@ -2109,6 +11216,495 @@ pub const VAMPIRE: crate::Emoji = crate::Emoji {
                 "verenhimo",
                 "verenimijä",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("bampira"),
+            keywords: &["Drakula", "bampira", "buhay na patay"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("vampýrur"),
+            keywords: &["blóðsúgvari", "drakula", "vampýrur"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("vampire"),
+            keywords: &["Dracula", "mort-vivant", "vampire"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["Dracula", "mort-vivant", "vampire"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("vaimpír"),
+            keywords: &["Dracula", "neamh-mharbh", "vaimpír"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("bhampair"),
+            keywords: &["bhampair", "closach", "dracula"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("criatura vampírica"),
+            keywords: &["criatura vampírica", "vampiro"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("પિચાશ"),
+            keywords: &["પિચાશ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("mai shan jini"),
+            keywords: &["Dracula", "mai shan jini", "mara mutuwa"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("ערפד"),
+            keywords: &["דרקולה", "חי מת", "ערפד"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("व\u{948}म\u{94d}पायर"),
+            keywords: &[
+                "ड\u{94d}र\u{948}क\u{94d}य\u{941}ला",
+                "मर कर भी जीवित",
+                "व\u{948}म\u{94d}पायर",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("neživa osoba"),
+            keywords: &["Drakula", "neživa osoba"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("vámpír"),
+            keywords: &["Drakula", "vámpír", "élőhalott"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("վամպիր"),
+            keywords: &["Դրակուլա", "ատամներ", "արյուն", "վամպիր"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("vampir"),
+            keywords: &["Drakula", "mayat hidup", "vampir"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ọmị ọbara"),
+            keywords: &["Dracula", "akụkọ mmụọ", "ọmị ọbara"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("vampíra"),
+            keywords: &["Drakúla", "hinir ódauðlegu", "vampíra"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("vampiro"),
+            keywords: &["Dracula", "morto vivente", "vampiro"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("吸血鬼"),
+            keywords: &["ドラキュラ", "バンパイア", "吸血鬼"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("vampir"),
+            keywords: &["Drakula", "lelembut", "vampir"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ვამპირი"),
+            keywords: &["დრაკულა", "ვამპირი", "ცოცხალ-მკვდარი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("вампир"),
+            keywords: &["вампир"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ប\u{17b7}សាចជញ\u{17d2}ជក\u{17cb}ឈាម"),
+            keywords: &[
+                "ត\u{17d2}រាខ\u{17d2}យ\u{17bc}ឡា",
+                "ប\u{17b7}សាចជញ\u{17d2}ជក\u{17cb}ឈាម",
+                "ប\u{17b7}សាចម\u{17b7}នចេះស\u{17d2}លាប\u{17cb}",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ರಕ\u{ccd}ತಪ\u{cbf}ಶಾಚ\u{cbf}"),
+            keywords: &[
+                "ಡ\u{ccd}ರಾಕುಲಾ",
+                "ರಕ\u{ccd}ತಪ\u{cbf}ಶಾಚ\u{cbf}",
+                "ವ\u{ccd}ಯಾಂಪೈರ\u{ccd}",
+                "ಶವ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("뱀파이어"),
+            keywords: &["드라큘라", "뱀파이어", "언데드"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("पिशाच\u{94d}च"),
+            keywords: &["ड\u{94d}र\u{945}क\u{941}ला", "न मरपी", "पिशाच\u{94d}च"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("кан соргуч"),
+            keywords: &["Дракула", "кан соргуч", "өлбөс"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Vampir"),
+            keywords: &["Dracula", "Vampir", "ondout"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ແວມພາຍ"),
+            keywords: &["ຜ\u{eb5}ດ\u{eb4}ບ", "ແດຣກຄ\u{eb4}ວລາ", "ແວມພາຍ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("vampyras"),
+            keywords: &["Drakula", "nemirtingas", "vampyras"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("vampīrs"),
+            keywords: &["Drakula", "nemirstīgais", "vampīrs"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("kaitoto"),
+            keywords: &["Dracula", "kaitoto", "oramate"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("вампир"),
+            keywords: &["Дракула", "вампир", "жив мртовец"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("രക\u{d4d}തരക\u{d4d}ഷസ\u{d4d}സ\u{d4d}"),
+            keywords: &[
+                "അൺഡെഡ\u{d4d}",
+                "ഡ\u{d4d}ര\u{d3e}ക\u{d4d}ക\u{d41}ള",
+                "രക\u{d4d}തരക\u{d4d}ഷസ\u{d4d}സ\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("цус сорогч"),
+            keywords: &["Дракула", "цус сорогч", "үхээгүй"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("व\u{94d}ह\u{901}पायर"),
+            keywords: &[
+                "जिव\u{902}त नसल\u{947}ला",
+                "ड\u{94d}र\u{945}क\u{94d}य\u{941}ला",
+                "व\u{94d}ह\u{901}पायर",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("puntianak"),
+            keywords: &["Dracula", "mayat hidup", "puntianak"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("vampira"),
+            keywords: &["Dracula", "qam mil-mewt", "vampira"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("သ\u{103d}ေးစ\u{102f}ပ\u{103a}ဖ\u{102f}တ\u{103a}ကောင\u{103a}"),
+            keywords: &[
+                "ဒရက\u{103a}က\u{1030}လာ",
+                "မသေန\u{102d}\u{102f}င\u{103a}သော",
+                "သ\u{103d}ေးစ\u{102f}ပ\u{103a}ဖ\u{102f}တ\u{103a}ကောင\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("vampyr"),
+            keywords: &["Dracula", "vampyr", "vandød"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("पिशाच"),
+            keywords: &["पिशाच", "भ\u{942}त", "म\u{943}त आत\u{94d}मा"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("vampier"),
+            keywords: &["Dracula", "ondode", "vampier"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("vampyr"),
+            keywords: &["Dracula", "vampyr", "vandød"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ପ\u{b3f}ଶ\u{b3e}ଚ"),
+            keywords: &[
+                "ଡ\u{b4d}ର\u{b3e}କ\u{b41}ଲ\u{b3e} । ପ\u{b4d}ରେତ\u{b3e}ତ\u{b4d}ମ\u{b3e}",
+                "ପ\u{b3f}ଶ\u{b3e}ଚ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਪਿਸ\u{a3c}ਾਚ"),
+            keywords: &["ਜੀਉ\u{a02}ਦਾ", "ਡਰ\u{a48}ਕ\u{a41}ਲਾ", "ਪਿਸ\u{a3c}ਾਚ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("خونخوار بلا"),
+            keywords: &["آسیب", "خونخوار بلا", "ڈریکولا"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Vámpáya"),
+            keywords: &["Drakúla", "Vámpáya", "Zombí"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("wampir"),
+            keywords: &["Drakula", "nieumarli", "wampir"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("بلا"),
+            keywords: &["بلا", "نامړ", "ډریکولا"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("vampiro"),
+            keywords: &["Drácula", "vampiro"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["Drácula", "morto-vivo", "vampiro"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("vampiro"),
+            keywords: &["Dracula", "mana wañusqa", "vampiro"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("vampir"),
+            keywords: &["Dracula", "strigoi", "vampir"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1132"),
+            keywords: &["E10-1132"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("вампир"),
+            keywords: &["Дракула", "вампир", "граф", "зубы", "кровь"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("ivampire"),
+            keywords: &["Darakula", "ingabo", "ivampire"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڏائڻ"),
+            keywords: &["ڀوت، جن", "ڏائڻ", "ڏاهڻ"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("වැම\u{dca}පයර\u{dca}"),
+            keywords: &[
+                "ඩ\u{dca}\u{200d}රක\u{dd2}ය\u{dd6}ල\u{dcf}",
+                "නොමැර\u{dd4}ණ\u{dd4}",
+                "වැම\u{dca}පයර\u{dca}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("upírska bytosť"),
+            keywords: &["drakula", "upíri", "upírska bytosť"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("vampirji"),
+            keywords: &["Drakula", "nesmrtnost", "vampir", "vampirji"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("reer-aakhiraad dhiig cab ah"),
+            keywords: &[
+                "aan dhiman",
+                "cirfiid",
+                "nin reer-aakhiraad dhiig cab ah",
+                "reer-aakhiraad dhiig cab ah",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("vampir"),
+            keywords: &["Drakula", "i pavdekur", "vampir"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("вампир"),
+            keywords: &["Дракула", "вампир", "повампирен"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("vampir"),
+            keywords: &["Drakula", "povampiren", "vampir"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("vampyr"),
+            keywords: &["Drakula", "vampyr", "vandöd"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("mnyonya damu"),
+            keywords: &["Dracula", "mnyonya damu", "zimwi"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("இரத\u{bcd}தக\u{bcd} க\u{bbe}ட\u{bcd}டேரி"),
+            keywords: &[
+                "இரத\u{bcd}தக\u{bcd} க\u{bbe}ட\u{bcd}டேரி",
+                "டிர\u{bbe}குல\u{bbe}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("రక\u{c4d}తప\u{c3f}ప\u{c3e}స\u{c3f}"),
+            keywords: &[
+                "డ\u{c4d}ర\u{c3e}క\u{c4d}యుల\u{c3e}",
+                "మరణం ల\u{c47}న\u{c3f}ద\u{c3f}",
+                "రక\u{c4d}తప\u{c3f}ప\u{c3e}స\u{c3f}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("вампир"),
+            keywords: &["Дракула", "вампир", "вампирҳо"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("แวมไพร\u{e4c}"),
+            keywords: &["อมตะ", "แดร\u{e47}กค\u{e39}ล\u{e48}า", "แวมไพร\u{e4c}"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("wampir"),
+            keywords: &["Drakula", "wampir", "ölümsiz"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tokotaha misi toto"),
+            keywords: &["tokotaha misi toto"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("vampir"),
+            keywords: &["Drakula", "hortlak", "vampir"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("قانخور مۇردا"),
+            keywords: &["دراكۇلا", "قانخور مۇردا", "مۇردا"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("вампір"),
+            keywords: &["Дракула", "вампір", "нежить"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("خون خوار"),
+            keywords: &["خون خوار", "زندہ", "ڈریکلا"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("vampir"),
+            keywords: &["Drakula", "qon", "tish", "vampir"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("ma cà rồng"),
+            keywords: &["Dracula", "ma cà rồng", "xác sống"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("wàmpiir"),
+            keywords: &["Dracula", "bu deewul", "wàmpiir"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("i-vampire"),
+            keywords: &["I-Dracula", "i-vampire", "ongafanga"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Fánpáyà"),
+            keywords: &["Dàràkúlà", "Fánpáyà", "àìkú"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("吸血鬼"),
+            keywords: &["亡靈", "吸血鬼", "德古拉"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("吸血鬼"),
+            keywords: &["亡灵", "吸血鬼", "德古拉"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("吸血鬼"),
+            keywords: &["不死族", "吸血鬼"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("吸血鬼"),
+            keywords: &["吸血鬼"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["Vote 不死族", "吸血鬼", "德古拉"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ivemphaya"),
+            keywords: &["ivemphaya", "ongafile", "u-Dracula"],
         },
     ],
 };
@@ -2178,48 +11774,7 @@ pub const VAMPIRE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     annotations: &[],
 };
 #[doc = "🧛\u{200d}♂\u{fe0f}"]
-pub const MAN_VAMPIRE: crate::Emoji = crate::Emoji {
-    glyph: "🧛\u{200d}♂\u{fe0f}",
-    codepoint: "1F9DB 200D 2642 FE0F",
-    status: crate::Status::FullyQualified,
-    introduction_version: 5f32,
-    name: "man vampire",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[crate::Emoji {
-        glyph: "🧛\u{200d}♂",
-        codepoint: "1F9DB 200D 2642",
-        status: crate::Status::MinimallyQualified,
-        introduction_version: 5f32,
-        name: "man vampire",
-        group: "People & Body",
-        subgroup: "person-fantasy",
-        is_variant: true,
-        variants: &[],
-        annotations: &[],
-    }],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("man vampire"),
-            keywords: &["Dracula", "man vampire", "undead"],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("miesvampyyri"),
-            keywords: &[
-                "Dracula",
-                "elävä kuollut",
-                "hampaat",
-                "miesvampyyri",
-                "torahammas",
-                "verenhimo",
-                "verenimijä",
-            ],
-        },
-    ],
-};
+pub const MAN_VAMPIRE : crate :: Emoji = crate :: Emoji { glyph : "🧛\u{200d}♂\u{fe0f}" , codepoint : "1F9DB 200D 2642 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "man vampire" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [crate :: Emoji { glyph : "🧛\u{200d}♂" , codepoint : "1F9DB 200D 2642" , status : crate :: Status :: MinimallyQualified , introduction_version : 5f32 , name : "man vampire" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("manlike vampier") , keywords : & ["Dracula" , "manlike vampier"] , } , crate :: Annotation { lang : "am" , tts : Some ("ጥርስ ያለው ወንድ ጭራቅ") , keywords : & ["ጥርስ ያለው ወንድ ጭራቅ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مصاص دماء") , keywords : & ["مصاص دماء"] , } , crate :: Annotation { lang : "as" , tts : Some ("প\u{9c1}ৰ\u{9c1}ষ ভেম\u{9cd}প\u{9be}য\u{9bc}\u{9be}ৰ") , keywords : & ["অম\u{9c3}ত\u{9cd}য\u{9c1}" , "ড\u{9cd}ৰ\u{9be}ক\u{9c1}ল\u{9be}" , "প\u{9c1}ৰ\u{9c1}ষ ভেম\u{9cd}প\u{9be}য\u{9bc}\u{9be}ৰ"] , } , crate :: Annotation { lang : "az" , tts : Some ("kişi vampir") , keywords : & ["Drakula" , "kişi vampir" , "xortdan"] , } , crate :: Annotation { lang : "be" , tts : Some ("мужчына-вампір") , keywords : & ["Дракула" , "бессмяротны" , "мужчына-вампір"] , } , crate :: Annotation { lang : "bg" , tts : Some ("мъж вампир") , keywords : & ["Дракула" , "мъж вампир" , "немъртъв"] , } , crate :: Annotation { lang : "bn" , tts : Some ("প\u{9c1}র\u{9c1}ষ ভ\u{9cd}য\u{9be}ম\u{9cd}প\u{9be}য\u{9bc}\u{9be}র") , keywords : & ["আধমর\u{9be}" , "ড\u{9cd}র\u{9be}ক\u{9c1}ল\u{9be}" , "প\u{9c1}র\u{9c1}ষ ভ\u{9cd}য\u{9be}ম\u{9cd}প\u{9be}য\u{9bc}\u{9be}র"] , } , crate :: Annotation { lang : "br" , tts : Some ("suner-gwad") , keywords : & ["Dracula" , "suner-gwad"] , } , crate :: Annotation { lang : "bs" , tts : Some ("muškarac vampir") , keywords : & ["Drakula" , "muškarac vampir" , "živi mrtvac"] , } , crate :: Annotation { lang : "ca" , tts : Some ("home vampir") , keywords : & ["Dràcula" , "home vampir" , "mort vivent"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏍᎦᏯ ᎩᎦ ᎠᏓᏁᎩᏛᎯ") , keywords : & ["ᎠᏍᎦᏯ ᎩᎦ ᎠᏓᏁᎩᏛᎯ" , "ᎤᏲᎱᏒ ᏂᎨᏒᎾ" , "ᎩᎦ ᎠᏗᏔᏍᎩ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("upír") , keywords : & ["drákula" , "nemrtvý" , "upír" , "vampýr"] , } , crate :: Annotation { lang : "cy" , tts : Some ("fampir gwrywaidd") , keywords : & ["Draciwla" , "fampir gwrywaidd" , "meirw byw"] , } , crate :: Annotation { lang : "da" , tts : Some ("mandlig vampyr") , keywords : & ["Dracula" , "mandlig vampyr"] , } , crate :: Annotation { lang : "de" , tts : Some ("männlicher Vampir") , keywords : & ["Dracula" , "Untoter" , "männlicher Vampir"] , } , crate :: Annotation { lang : "el" , tts : Some ("άντρας βρυκόλακας") , keywords : & ["Δράκουλας" , "άντρας βρυκόλακας" , "απέθαντος"] , } , crate :: Annotation { lang : "en" , tts : Some ("man vampire") , keywords : & ["Dracula" , "man vampire" , "undead"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("vampiro hombre") , keywords : & ["drácula" , "muerto viviente" , "no muerto" , "vampiro hombre"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["drácula" , "muerto viviente" , "vampiro" , "vampiro hombre"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("meesvampiir") , keywords : & ["Dracula" , "meesvampiir" , "surematu"] , } , crate :: Annotation { lang : "eu" , tts : Some ("gizon banpiro") , keywords : & ["Drakula" , "gizon banpiro" , "hildako bizidun"] , } , crate :: Annotation { lang : "fa" , tts : Some ("خون\u{200c}آشام مرد") , keywords : & ["خون\u{200c}آشام مرد" , "دراکولا" , "مرده متحرک"] , } , crate :: Annotation { lang : "fi" , tts : Some ("miesvampyyri") , keywords : & ["Dracula" , "elävä kuollut" , "hampaat" , "miesvampyyri" , "torahammas" , "verenhimo" , "verenimijä"] , } , crate :: Annotation { lang : "fil" , tts : Some ("lalaking bampira") , keywords : & ["Drakula" , "buhay na patay" , "lalaking bampira"] , } , crate :: Annotation { lang : "fo" , tts : Some ("mannligur vampýrur") , keywords : & ["blóðsúgvari" , "drakula" , "mannligur vampýrur" , "maður"] , } , crate :: Annotation { lang : "fr" , tts : Some ("vampire homme") , keywords : & ["Dracula" , "mort-vivant" , "vampire homme"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["Dracula" , "homme" , "mort-vivant" , "vampire"] , } , crate :: Annotation { lang : "ga" , tts : Some ("vaimpír fhireann") , keywords : & ["Dracula" , "fear" , "neamh-mharbh" , "vaimpír" , "vaimpír fhireann"] , } , crate :: Annotation { lang : "gd" , tts : Some ("bhampair fireann") , keywords : & ["bhampair fireann" , "closach" , "dracula"] , } , crate :: Annotation { lang : "gl" , tts : Some ("vampiro") , keywords : & ["Drácula" , "home" , "vampiro"] , } , crate :: Annotation { lang : "gu" , tts : Some ("પ\u{ac1}ર\u{ac1}ષ પિચાશ") , keywords : & ["પ\u{ac1}ર\u{ac1}ષ પિચાશ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("mutum mai shan jini") , keywords : & ["Dracula" , "mara mutuwa" , "mutum mai shan jini"] , } , crate :: Annotation { lang : "he" , tts : Some ("ערפד בן") , keywords : & ["דרקולה" , "ערפד בן"] , } , crate :: Annotation { lang : "hi" , tts : Some ("प\u{941}र\u{941}ष व\u{948}म\u{94d}पायर") , keywords : & ["ड\u{94d}र\u{948}क\u{94d}य\u{941}ला" , "प\u{941}र\u{941}ष व\u{948}म\u{94d}पायर" , "मर कर भी जीवित"] , } , crate :: Annotation { lang : "hr" , tts : Some ("vampir") , keywords : & ["Drakula" , "vampir"] , } , crate :: Annotation { lang : "hu" , tts : Some ("férfi vámpír") , keywords : & ["Drakula" , "férfi vámpír" , "élőhalott" , "élőholt"] , } , crate :: Annotation { lang : "hy" , tts : Some ("տղամարդ-վամպիր") , keywords : & ["Դրակուլա" , "ատամներ" , "արյուն" , "տղամարդ-վամպիր"] , } , crate :: Annotation { lang : "id" , tts : Some ("vampir pria") , keywords : & ["Drakula" , "mayat hidup" , "vampir pria"] , } , crate :: Annotation { lang : "ig" , tts : Some ("nwoke ọmị ọbara") , keywords : & ["Dracula" , "akụkọ mmụọ" , "nwoke ọmị ọbara"] , } , crate :: Annotation { lang : "is" , tts : Some ("karlkyns vampíra") , keywords : & ["Drakúla" , "hinir ódauðlegu" , "karlkyns vampíra"] , } , crate :: Annotation { lang : "it" , tts : Some ("vampiro uomo") , keywords : & ["Dracula" , "morto vivente" , "vampiro uomo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("男の吸血鬼") , keywords : & ["ドラキュラ" , "バンパイア" , "吸血鬼" , "男" , "男の吸血鬼" , "男性"] , } , crate :: Annotation { lang : "jv" , tts : Some ("vampir lanang") , keywords : & ["Drakula" , "lelembut" , "vampir lanang"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ვამპირი კაცი") , keywords : & ["დრაკულა" , "ვამპირი კაცი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("ер вампир") , keywords : & ["ер вампир"] , } , crate :: Annotation { lang : "km" , tts : Some ("ប\u{17b7}សាចប\u{17d2}រ\u{17bb}សជញ\u{17d2}ជក\u{17cb}ឈាម") , keywords : & ["ត\u{17d2}រាខ\u{17d2}យ\u{17bc}ឡា" , "ប\u{17b7}សាចប\u{17d2}រ\u{17bb}សជញ\u{17d2}ជក\u{17cb}ឈាម" , "ប\u{17b7}សាចម\u{17b7}នចេះស\u{17d2}លាប\u{17cb}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಪುರುಷ ರಕ\u{ccd}ತಪ\u{cbf}ಶಾಚ\u{cbf}") , keywords : & ["ಡ\u{ccd}ರಾಕುಲಾ" , "ಪುರುಷ ರಕ\u{ccd}ತಪ\u{cbf}ಶಾಚ\u{cbf}" , "ಪುರುಷ ವ\u{ccd}ಯಾಂಪೇರ\u{ccd}" , "ಶವ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("남자 뱀파이어") , keywords : & ["남자 뱀파이어" , "드라큘라" , "언데드"] , } , crate :: Annotation { lang : "kok" , tts : Some ("दादलो पिशाच\u{94d}च") , keywords : & ["ड\u{94d}र\u{945}क\u{941}ला" , "दादलो पिशाच\u{94d}च" , "न मरपी"] , } , crate :: Annotation { lang : "ky" , tts : Some ("эркек кан соргуч") , keywords : & ["Дракула" , "эркек кан соргуч" , "өлбөс"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Vampirmann") , keywords : & ["Dracula" , "Vampirmann" , "ondout"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ແວມພາຍຊາຍ") , keywords : & ["ຜ\u{eb5}ດ\u{eb4}ບ" , "ແດຣກຄ\u{eb4}ວລາ" , "ແວມພາຍຊາຍ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("vampyras vyras") , keywords : & ["Drakula" , "nemirtingas" , "vampyras vyras"] , } , crate :: Annotation { lang : "lv" , tts : Some ("vīriešu kārtas vampīrs") , keywords : & ["Drakula" , "nemirstīgais" , "vīriešu kārtas vampīrs"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tāne kaitoto") , keywords : & ["Dracula" , "oramate" , "tāne kaitoto"] , } , crate :: Annotation { lang : "mk" , tts : Some ("маж вампир") , keywords : & ["Дракула" , "жив мртовец" , "маж вампир"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ആൺ രക\u{d4d}തരക\u{d4d}ഷസ\u{d4d}സ\u{d4d}") , keywords : & ["അൺഡെഡ\u{d4d}" , "ആൺ രക\u{d4d}തരക\u{d4d}ഷസ\u{d4d}സ\u{d4d}" , "ഡ\u{d4d}ര\u{d3e}ക\u{d4d}ക\u{d41}ള"] , } , crate :: Annotation { lang : "mn" , tts : Some ("эрэгтэй цус сорогч") , keywords : & ["Дракула" , "эрэгтэй цус сорогч" , "үхээгүй"] , } , crate :: Annotation { lang : "mr" , tts : Some ("प\u{941}र\u{942}ष व\u{94d}ह\u{901}पायर") , keywords : & ["जिव\u{902}त नसल\u{947}ला" , "ड\u{94d}र\u{945}क\u{94d}य\u{941}ला" , "प\u{941}र\u{942}ष व\u{94d}ह\u{901}पायर"] , } , crate :: Annotation { lang : "ms" , tts : Some ("puntianak lelaki") , keywords : & ["Dracula" , "mayat hidup" , "puntianak lelaki"] , } , crate :: Annotation { lang : "mt" , tts : Some ("raġel vampira") , keywords : & ["Dracula" , "qam mil-mewt" , "raġel vampira"] , } , crate :: Annotation { lang : "my" , tts : Some ("အမျ\u{102d}\u{102f}းသား သ\u{103d}ေးစ\u{102f}ပ\u{103a}ဖ\u{102f}တ\u{103a}ကောင\u{103a}") , keywords : & ["ဒရက\u{103a}က\u{1030}လာ" , "မသေန\u{102d}\u{102f}င\u{103a}သော" , "အမျ\u{102d}\u{102f}းသား သ\u{103d}ေးစ\u{102f}ပ\u{103a}ဖ\u{102f}တ\u{103a}ကောင\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("mannlig vampyr") , keywords : & ["Dracula" , "mannlig vampyr" , "vandød"] , } , crate :: Annotation { lang : "ne" , tts : Some ("म\u{941}र\u{94d}कट\u{94d}टा") , keywords : & ["भ\u{942}त" , "म\u{941}र\u{94d}कट\u{94d}टा" , "म\u{943}त आत\u{94d}मा"] , } , crate :: Annotation { lang : "nl" , tts : Some ("mannelijke vampier") , keywords : & ["Dracula" , "mannelijke vampier" , "ondode"] , } , crate :: Annotation { lang : "nn" , tts : Some ("mannleg vampyr") , keywords : & ["Dracula" , "mannleg vampyr" , "vandød"] , } , crate :: Annotation { lang : "or" , tts : Some ("ପ\u{b41}ର\u{b41}ଷ ପ\u{b3f}ଶ\u{b3e}ଚ") , keywords : & ["ଡ\u{b4d}ର\u{b3e}କ\u{b41}ଲ\u{b3e} । ପ\u{b4d}ରେତ\u{b3e}ତ\u{b4d}ମ\u{b3e}" , "ପ\u{b41}ର\u{b41}ଷ ପ\u{b3f}ଶ\u{b3e}ଚ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਆਦਮੀ ਪਿਸ\u{a3c}ਾਚ") , keywords : & ["ਆਦਮੀ ਪਿਸ\u{a3c}ਾਚ" , "ਜੀਉ\u{a02}ਦਾ" , "ਡਰ\u{a48}ਕ\u{a41}ਲਾ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("خونخوار مرد") , keywords : & ["آسیب" , "خونخوار مرد" , "ڈریکولا"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Mán Vámpáya") , keywords : & ["Drakúla" , "Dẹ\u{301}d Pẹ\u{301}sin Wé De Dú Laik Sé I Dé Alaif" , "Mán Vámpáya"] , } , crate :: Annotation { lang : "pl" , tts : Some ("mężczyzna wampir") , keywords : & ["Drakula" , "mężczyzna wampir" , "nieumarły"] , } , crate :: Annotation { lang : "ps" , tts : Some ("سړی بلا") , keywords : & ["سړی بلا" , "نا مړ" , "ډریکولا"] , } , crate :: Annotation { lang : "pt" , tts : Some ("homem vampiro") , keywords : & ["Drácula" , "homem vampiro" , "vampiro"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["Drácula" , "homem vampiro" , "homem-vampiro" , "morto-vivo"] , } , crate :: Annotation { lang : "qu" , tts : Some ("tata vampiro") , keywords : & ["Dracula" , "mana wañusqa" , "tata vampiro"] , } , crate :: Annotation { lang : "ro" , tts : Some ("bărbat vampir") , keywords : & ["Dracula" , "bărbat vampir" , "strigoi"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1255") , keywords : & ["E10-1255"] , } , crate :: Annotation { lang : "ru" , tts : Some ("мужчина-вампир") , keywords : & ["Дракула" , "вампир" , "граф" , "зубы" , "кровь" , "мужчина" , "мужчина-вампир"] , } , crate :: Annotation { lang : "rw" , tts : Some ("ivampayagabo") , keywords : & ["Darakula" , "ingabo" , "ivampayagabo"] , } , crate :: Annotation { lang : "sd" , tts : Some ("مرد ڀوت") , keywords : & ["مرد ڀوت" , "ڀوت، جن"] , } , crate :: Annotation { lang : "si" , tts : Some ("ප\u{dd2}ර\u{dd2}ම\u{dd2} වැම\u{dca}පයර\u{dca}") , keywords : & ["ඩ\u{dca}\u{200d}රක\u{dd2}ය\u{dd6}ල\u{dcf}" , "නොමැර\u{dd4}ණ\u{dd4}" , "ප\u{dd2}ර\u{dd2}ම\u{dd2} වැම\u{dca}පයර\u{dca}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("upír") , keywords : & ["drakula" , "muž" , "upír"] , } , crate :: Annotation { lang : "sl" , tts : Some ("vampir") , keywords : & ["Drakula" , "moški vampir" , "nesmrtnost" , "vampir"] , } , crate :: Annotation { lang : "so" , tts : Some ("nin reer-aakhiraad dhiig cab ah") , keywords : & ["aan dhiman" , "cirfiid" , "nin reer-aakhiraad dhiig cab ah"] , } , crate :: Annotation { lang : "sq" , tts : Some ("burrë vampir") , keywords : & ["Drakula" , "burrë vampir" , "i pavdekur"] , } , crate :: Annotation { lang : "sr" , tts : Some ("мушки вампир") , keywords : & ["Дракула" , "мушки вампир" , "повампирен"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("muški vampir") , keywords : & ["Drakula" , "muški vampir" , "povampiren"] , } , crate :: Annotation { lang : "sv" , tts : Some ("manlig vampyr") , keywords : & ["Drakula" , "manlig vampyr" , "vandöd"] , } , crate :: Annotation { lang : "sw" , tts : Some ("mnyonya damu wa kiume") , keywords : & ["Dracula" , "mnyonya damu wa kiume" , "zimwi"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஆண\u{bcd} இரத\u{bcd}தக\u{bcd} க\u{bbe}ட\u{bcd}டேரி") , keywords : & ["ஆண\u{bcd} இரத\u{bcd}தக\u{bcd} க\u{bbe}ட\u{bcd}டேரி" , "ச\u{bbe}க\u{bbe}வரம\u{bcd} பெற\u{bcd}றது" , "டிர\u{bbe}குல\u{bbe}"] , } , crate :: Annotation { lang : "te" , tts : Some ("మగ రక\u{c4d}తప\u{c3f}ప\u{c3e}స\u{c3f}") , keywords : & ["డ\u{c4d}ర\u{c3e}క\u{c4d}యుల\u{c3e}" , "మగ రక\u{c4d}తప\u{c3f}ప\u{c3e}స\u{c3f}" , "మరణం ల\u{c47}న\u{c3f}ద\u{c3f}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("мардии вампир") , keywords : & ["Дракула" , "вампирҳо" , "мардии вампир"] , } , crate :: Annotation { lang : "th" , tts : Some ("แวมไพร\u{e4c}ผ\u{e39}\u{e49}ชาย") , keywords : & ["อมตะ" , "แดร\u{e47}กค\u{e39}ล\u{e48}า" , "แวมไพร\u{e4c}ผ\u{e39}\u{e49}ชาย"] , } , crate :: Annotation { lang : "tk" , tts : Some ("wampir erkek") , keywords : & ["Drakula" , "wampir erkek" , "ölümsiz"] , } , crate :: Annotation { lang : "to" , tts : Some ("tangata misi toto") , keywords : & ["tangata misi toto"] , } , crate :: Annotation { lang : "tr" , tts : Some ("erkek vampir") , keywords : & ["Drakula" , "erkek vampir" , "hortlak"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئەر مۇردا") , keywords : & ["ئەر مۇردا" , "دراكۇلا" , "مۇردا"] , } , crate :: Annotation { lang : "uk" , tts : Some ("чоловік-вампір") , keywords : & ["Дракула" , "вампір" , "упир" , "чоловік-вампір"] , } , crate :: Annotation { lang : "ur" , tts : Some ("خون خوار آدمی") , keywords : & ["خون خوار آدمی" , "زندہ" , "ڈریکلا"] , } , crate :: Annotation { lang : "uz" , tts : Some ("erkak vampir") , keywords : & ["Drakula" , "erkak" , "erkak vampir" , "qon" , "tish"] , } , crate :: Annotation { lang : "vi" , tts : Some ("ma cà rồng nam") , keywords : & ["Dracula" , "ma cà rồng nam" , "xác sống"] , } , crate :: Annotation { lang : "wo" , tts : Some ("wàmpiir bu góor") , keywords : & ["Dracula" , "bu deewul" , "wàmpiir bu góor"] , } , crate :: Annotation { lang : "xh" , tts : Some ("i-vampire eyindoda") , keywords : & ["I-Dracula" , "i-vampire eyindoda" , "ongafanga"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Fánpáyà ọkùnrin") , keywords : & ["Dàràkúlà" , "Fánpáyà ọkùnrin" , "àìkú"] , } , crate :: Annotation { lang : "yue" , tts : Some ("男吸血鬼") , keywords : & ["亡靈" , "德古拉" , "男吸血鬼"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("男吸血鬼") , keywords : & ["亡灵" , "德古拉" , "男吸血鬼"] , } , crate :: Annotation { lang : "zh" , tts : Some ("男吸血鬼") , keywords : & ["男不死族" , "男吸血鬼"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("男吸血鬼") , keywords : & ["男吸血鬼"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["不死族" , "德古拉｜男吸血鬼" , "男吸血鬼"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ivemphaya lendoda") , keywords : & ["ivemphaya lendoda" , "udracula ongafile"] , }] , } ;
 #[doc = "🧛🏻\u{200d}♂\u{fe0f}"]
 pub const MAN_VAMPIRE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "🧛🏻\u{200d}♂\u{fe0f}",
@@ -2341,47 +11896,7 @@ pub const MAN_VAMPIRE_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     annotations: &[],
 };
 #[doc = "🧛\u{200d}♀\u{fe0f}"]
-pub const WOMAN_VAMPIRE: crate::Emoji = crate::Emoji {
-    glyph: "🧛\u{200d}♀\u{fe0f}",
-    codepoint: "1F9DB 200D 2640 FE0F",
-    status: crate::Status::FullyQualified,
-    introduction_version: 5f32,
-    name: "woman vampire",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[crate::Emoji {
-        glyph: "🧛\u{200d}♀",
-        codepoint: "1F9DB 200D 2640",
-        status: crate::Status::MinimallyQualified,
-        introduction_version: 5f32,
-        name: "woman vampire",
-        group: "People & Body",
-        subgroup: "person-fantasy",
-        is_variant: true,
-        variants: &[],
-        annotations: &[],
-    }],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("woman vampire"),
-            keywords: &["undead", "woman vampire"],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("naisvampyyri"),
-            keywords: &[
-                "elävä kuollut",
-                "hampaat",
-                "naisvampyyri",
-                "torahammas",
-                "verenhimo",
-                "verenimijä",
-            ],
-        },
-    ],
-};
+pub const WOMAN_VAMPIRE : crate :: Emoji = crate :: Emoji { glyph : "🧛\u{200d}♀\u{fe0f}" , codepoint : "1F9DB 200D 2640 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "woman vampire" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [crate :: Emoji { glyph : "🧛\u{200d}♀" , codepoint : "1F9DB 200D 2640" , status : crate :: Status :: MinimallyQualified , introduction_version : 5f32 , name : "woman vampire" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("vroulike vampier") , keywords : & ["lewende dooies" , "vroulike vampier"] , } , crate :: Annotation { lang : "am" , tts : Some ("ጥርስ ያላት ሴት ጭራቅ") , keywords : & ["ጥርስ ያላት ሴት ጭራቅ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مص\u{651}اصة دماء") , keywords : & ["مص\u{651}اصة دماء"] , } , crate :: Annotation { lang : "as" , tts : Some ("মহিল\u{9be} ভেম\u{9cd}প\u{9be}য\u{9bc}\u{9be}ৰ") , keywords : & ["অম\u{9c3}ত\u{9cd}য\u{9c1}" , "মহিল\u{9be} ভেম\u{9cd}প\u{9be}য\u{9bc}\u{9be}ৰ"] , } , crate :: Annotation { lang : "az" , tts : Some ("qadın vampir") , keywords : & ["qadın vampir" , "xortdan"] , } , crate :: Annotation { lang : "be" , tts : Some ("вампірка") , keywords : & ["бессмяротны" , "вампірка"] , } , crate :: Annotation { lang : "bg" , tts : Some ("жена вампир") , keywords : & ["жена вампир" , "немъртъв"] , } , crate :: Annotation { lang : "bn" , tts : Some ("মহিল\u{9be} ভ\u{9cd}য\u{9be}ম\u{9cd}প\u{9be}য\u{9bc}\u{9be}র") , keywords : & ["আধমর\u{9be}" , "মহিল\u{9be} ভ\u{9cd}য\u{9be}ম\u{9cd}প\u{9be}য\u{9bc}\u{9be}র"] , } , crate :: Annotation { lang : "br" , tts : Some ("sunerez-gwad") , keywords : & ["sunerez-gwad"] , } , crate :: Annotation { lang : "bs" , tts : Some ("vampirica") , keywords : & ["vampirica" , "živi mrtvac"] , } , crate :: Annotation { lang : "ca" , tts : Some ("dona vampir") , keywords : & ["dona vampir" , "morta vivent" , "vampiressa"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᎨᏯ ᎩᎦ ᎠᏓᏁᎩᎡᎯ") , keywords : & ["ᎠᎨᏯ ᎩᎦ ᎠᏓᏁᎩᎡᎯ" , "ᎤᏲᎱᏒᎢ ᏂᎨᏒᎾ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("upírka") , keywords : & ["nemrtvá" , "upírka" , "vampýrka"] , } , crate :: Annotation { lang : "cy" , tts : Some ("fampir benywaidd") , keywords : & ["fampir benywaidd" , "meirw byw"] , } , crate :: Annotation { lang : "da" , tts : Some ("kvindelig vampyr") , keywords : & ["kvindelig vampyr" , "vampyr"] , } , crate :: Annotation { lang : "de" , tts : Some ("weiblicher Vampir") , keywords : & ["Untoter" , "weiblicher Vampir"] , } , crate :: Annotation { lang : "el" , tts : Some ("γυναίκα βρυκόλακας") , keywords : & ["απέθαντη" , "γυναίκα βρυκόλακας"] , } , crate :: Annotation { lang : "en" , tts : Some ("woman vampire") , keywords : & ["undead" , "woman vampire"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("vampiresa") , keywords : & ["muerta viviente" , "no muerta" , "vampiresa"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["muerta viviente" , "vampiresa"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("naisvampiir") , keywords : & ["naisvampiir" , "surematu"] , } , crate :: Annotation { lang : "eu" , tts : Some ("emakume banpiro") , keywords : & ["emakume banpiro" , "hildako bizidun"] , } , crate :: Annotation { lang : "fa" , tts : Some ("دراکولای زن") , keywords : & ["دراکولای زن" , "زن دراکولا" , "مرده متحرک"] , } , crate :: Annotation { lang : "fi" , tts : Some ("naisvampyyri") , keywords : & ["elävä kuollut" , "hampaat" , "naisvampyyri" , "torahammas" , "verenhimo" , "verenimijä"] , } , crate :: Annotation { lang : "fil" , tts : Some ("babaeng bampira") , keywords : & ["babaeng bampira" , "buhay na patay"] , } , crate :: Annotation { lang : "fo" , tts : Some ("kvinnuligur vampýrur") , keywords : & ["blóðsúgvari" , "drakula" , "kona" , "kvinna" , "kvinnuligur vampýrur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("vampire femme") , keywords : & ["morte-vivante" , "vampire femme"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["femme" , "morte-vivante" , "vampire"] , } , crate :: Annotation { lang : "ga" , tts : Some ("vaimpír bhaineann") , keywords : & ["bean" , "neamh-mharbh" , "vaimpír baineann" , "vaimpír bhaineann"] , } , crate :: Annotation { lang : "gd" , tts : Some ("bhampair boireann") , keywords : & ["bhampair boireann" , "closach"] , } , crate :: Annotation { lang : "gl" , tts : Some ("vampiresa") , keywords : & ["muller" , "vampiresa" , "vampiro"] , } , crate :: Annotation { lang : "gu" , tts : Some ("મહિલા પિશાચ") , keywords : & ["મહિલા પિશાચ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("mace mai shan jini") , keywords : & ["mace mai shan jini" , "mara mutuwa"] , } , crate :: Annotation { lang : "he" , tts : Some ("ערפדית") , keywords : & ["באפי" , "דרוסילה" , "ערפדית"] , } , crate :: Annotation { lang : "hi" , tts : Some ("महिला व\u{948}म\u{94d}पायर") , keywords : & ["मर कर भी जीवित" , "महिला व\u{948}म\u{94d}पायर"] , } , crate :: Annotation { lang : "hr" , tts : Some ("vampirica") , keywords : & ["neživa" , "vampirica"] , } , crate :: Annotation { lang : "hu" , tts : Some ("női vámpír") , keywords : & ["női vámpír" , "élőhalott" , "élőholt"] , } , crate :: Annotation { lang : "hy" , tts : Some ("կին-վամպիր") , keywords : & ["ատամներ" , "արյուն" , "կին" , "կին-վամպիր" , "վամպիր"] , } , crate :: Annotation { lang : "id" , tts : Some ("vampir wanita") , keywords : & ["mayat hidup" , "vampir wanita"] , } , crate :: Annotation { lang : "ig" , tts : Some ("nwanyị ọmị obara") , keywords : & ["akụkọ mmụọ" , "nwanyị ọmị obara"] , } , crate :: Annotation { lang : "is" , tts : Some ("kvenkyns vampíra") , keywords : & ["hinir ódauðlegu" , "kvenkyns vampíra"] , } , crate :: Annotation { lang : "it" , tts : Some ("vampira") , keywords : & ["non morto" , "vampira"] , } , crate :: Annotation { lang : "ja" , tts : Some ("女の吸血鬼") , keywords : & ["ドラキュラ" , "バンパイア" , "吸血鬼" , "女" , "女の吸血鬼" , "女性"] , } , crate :: Annotation { lang : "jv" , tts : Some ("vampir wadon") , keywords : & ["lelembut" , "vampir wadon"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ვამპირი ქალი") , keywords : & ["ვამპირი ქალი" , "ცოცხალ-მკვდარი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("әйел вампир") , keywords : & ["әйел вампир"] , } , crate :: Annotation { lang : "km" , tts : Some ("ប\u{17b7}សាចស\u{17d2}រ\u{17b8}ជញ\u{17d2}ជក\u{17cb}ឈាម") , keywords : & ["ប\u{17b7}សាចម\u{17b7}នចេះស\u{17d2}លាប\u{17cb}" , "ប\u{17b7}សាចស\u{17d2}រ\u{17b8}ជញ\u{17d2}ជក\u{17cb}ឈាម"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಮಹ\u{cbf}ಳ\u{cc6} ರಕ\u{ccd}ತಪ\u{cbf}ಶಾಚ\u{cbf}") , keywords : & ["ಮಹ\u{cbf}ಳಾ ವ\u{ccd}ಯಾಂಪೇರ\u{ccd}" , "ಮಹ\u{cbf}ಳ\u{cc6} ರಕ\u{ccd}ತಪ\u{cbf}ಶಾಚ\u{cbf}" , "ಶವ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("여자 뱀파이어") , keywords : & ["드라큘라" , "언데드" , "여자 뱀파이어"] , } , crate :: Annotation { lang : "kok" , tts : Some ("बायल पिशाच\u{94d}च") , keywords : & ["न मरपी" , "बायल पिशाच\u{94d}च"] , } , crate :: Annotation { lang : "ky" , tts : Some ("аял кан соргуч") , keywords : & ["аял кан соргуч" , "өлбөс"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Vampirfra") , keywords : & ["Vampirfra" , "ondout"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ແວມພາຍຍ\u{eb4}ງ") , keywords : & ["ຜ\u{eb5}ດ\u{eb4}ບ" , "ແວມພາຍຍ\u{eb4}ງ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("vampyrė") , keywords : & ["nemirtingas" , "vampyrė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("vampīre") , keywords : & ["nemirstīgs" , "vampīre"] , } , crate :: Annotation { lang : "mi" , tts : Some ("wahine kaitoto") , keywords : & ["oramate" , "wahine kaitoto"] , } , crate :: Annotation { lang : "mk" , tts : Some ("жена вампир") , keywords : & ["жена вампир" , "жив мртовец"] , } , crate :: Annotation { lang : "ml" , tts : Some ("പെൺ രക\u{d4d}തരക\u{d4d}ഷസ\u{d4d}സ\u{d4d}") , keywords : & ["അൺഡെഡ\u{d4d}" , "പെൺ രക\u{d4d}തരക\u{d4d}ഷസ\u{d4d}സ\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("эмэгтэй цус сорогч") , keywords : & ["эмэгтэй цус сорогч" , "үхээгүй"] , } , crate :: Annotation { lang : "mr" , tts : Some ("स\u{94d}त\u{94d}री व\u{94d}ह\u{901}पायर") , keywords : & ["जिव\u{902}त नसल\u{947}ला" , "स\u{94d}त\u{94d}री व\u{94d}ह\u{901}पायर"] , } , crate :: Annotation { lang : "ms" , tts : Some ("puntianak wanita") , keywords : & ["mayat hidup" , "puntianak wanita"] , } , crate :: Annotation { lang : "mt" , tts : Some ("mara vampira") , keywords : & ["mara vampira" , "qam mil-mewt"] , } , crate :: Annotation { lang : "my" , tts : Some ("အမျ\u{102d}\u{102f}းသမ\u{102e}း သ\u{103d}ေးစ\u{102f}ပ\u{103a}ဖ\u{102f}တ\u{103a}ကောင\u{103a}") , keywords : & ["မသေန\u{102d}\u{102f}င\u{103a}သော" , "အမျ\u{102d}\u{102f}းသမ\u{102e}း သ\u{103d}ေးစ\u{102f}ပ\u{103a}ဖ\u{102f}တ\u{103a}ကောင\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("kvinnelig vampyr") , keywords : & ["kvinnelig vampyr" , "vandød"] , } , crate :: Annotation { lang : "ne" , tts : Some ("किचकन\u{94d}नी") , keywords : & ["किचकन\u{94d}नी" , "म\u{943}त आत\u{94d}मा"] , } , crate :: Annotation { lang : "nl" , tts : Some ("vrouwelijke vampier") , keywords : & ["ondode" , "vrouwelijke vampier"] , } , crate :: Annotation { lang : "nn" , tts : Some ("kvinneleg vampyr") , keywords : & ["kvinneleg vampyr" , "vandød"] , } , crate :: Annotation { lang : "or" , tts : Some ("ମହ\u{b3f}ଳ\u{b3e} ପ\u{b3f}ଶ\u{b3e}ଚ") , keywords : & ["ପ\u{b4d}ରେତ\u{b3e}ତ\u{b4d}ମ\u{b3e}" , "ମହ\u{b3f}ଳ\u{b3e} ପ\u{b3f}ଶ\u{b3e}ଚ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਮਾਦਾ ਪਿਸ\u{a3c}ਾਚ") , keywords : & ["ਜੀਉ\u{a02}ਦਾ" , "ਮਾਦਾ ਪਿਸ\u{a3c}ਾਚ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("خونخوار زنانی") , keywords : & ["آسیب" , "خونخوار زنانی"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Wúmán Vámpáya") , keywords : & ["Dẹ\u{301}d Pẹ\u{301}sin Wé De Dú Laik Sé I Dé Alaif" , "Wúmán Vámpáya"] , } , crate :: Annotation { lang : "pl" , tts : Some ("kobieta wampir") , keywords : & ["kobieta wampir" , "nieumarli"] , } , crate :: Annotation { lang : "ps" , tts : Some ("ښځه بلا") , keywords : & ["نامړ" , "ښځه بلا"] , } , crate :: Annotation { lang : "pt" , tts : Some ("mulher vampira") , keywords : & ["mulher vampira" , "vampira"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("vampira") , keywords : & ["morta-viva" , "vampira"] , } , crate :: Annotation { lang : "qu" , tts : Some ("warmi vampiro") , keywords : & ["mana wañusqa" , "warmi vampiro"] , } , crate :: Annotation { lang : "ro" , tts : Some ("femeie vampir") , keywords : & ["femeie vampir" , "strigoaie"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1254") , keywords : & ["E10-1254"] , } , crate :: Annotation { lang : "ru" , tts : Some ("женщина-вампир") , keywords : & ["вампирша" , "женщина" , "женщина-вампир" , "зубы" , "кровь"] , } , crate :: Annotation { lang : "rw" , tts : Some ("ivampayakazi") , keywords : & ["abatarapfuye" , "ivampayakazi"] , } , crate :: Annotation { lang : "sd" , tts : Some ("عورت ڀوت") , keywords : & ["جن" , "عورت ڀوت"] , } , crate :: Annotation { lang : "si" , tts : Some ("ගැණ\u{dd4} වැම\u{dca}පයර\u{dca}") , keywords : & ["ගැණ\u{dd4} වැම\u{dca}පයර\u{dca}" , "නොමැර\u{dd4}ණ\u{dd4}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("upírka") , keywords : & ["upír" , "upírka" , "žena"] , } , crate :: Annotation { lang : "sl" , tts : Some ("vampirka") , keywords : & ["nesmrtnost" , "vampirka"] , } , crate :: Annotation { lang : "so" , tts : Some ("naag reer-aakhiraad dhiig cab ah") , keywords : & ["aan dhimanayn" , "naag reer-aakhiraad dhiig cab ah"] , } , crate :: Annotation { lang : "sq" , tts : Some ("grua vampir") , keywords : & ["e pavdekur" , "grua vampir"] , } , crate :: Annotation { lang : "sr" , tts : Some ("женски вампир") , keywords : & ["женски вампир" , "повампирен"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("ženski vampir") , keywords : & ["povampiren" , "ženski vampir"] , } , crate :: Annotation { lang : "sv" , tts : Some ("kvinnlig vampyr") , keywords : & ["kvinnlig vampyr" , "vandöd"] , } , crate :: Annotation { lang : "sw" , tts : Some ("mnyonya damu wa kike") , keywords : & ["mnyonya damu wa kike" , "zimwi"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("பெண\u{bcd} இரத\u{bcd}தக\u{bcd} க\u{bbe}ட\u{bcd}டேரி") , keywords : & ["ச\u{bbe}க\u{bbe}வரம\u{bcd} பெற\u{bcd}றது" , "பெண\u{bcd} இரத\u{bcd}தக\u{bcd} க\u{bbe}ட\u{bcd}டேரி"] , } , crate :: Annotation { lang : "te" , tts : Some ("ఆడ రక\u{c4d}తప\u{c3f}ప\u{c3e}స\u{c3f}") , keywords : & ["ఆడ రక\u{c4d}తప\u{c3f}ప\u{c3e}స\u{c3f}" , "మరణం ల\u{c47}న\u{c3f}ద\u{c3f}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("зани вампир") , keywords : & ["вампирҳо" , "зани вампир"] , } , crate :: Annotation { lang : "th" , tts : Some ("แวมไพร\u{e4c}ผ\u{e39}\u{e49}หญ\u{e34}ง") , keywords : & ["อมตะ" , "แวมไพร\u{e4c}ผ\u{e39}\u{e49}หญ\u{e34}ง"] , } , crate :: Annotation { lang : "tk" , tts : Some ("wampir aýal") , keywords : & ["wampir aýal" , "ölümsiz"] , } , crate :: Annotation { lang : "to" , tts : Some ("fefine misi toto") , keywords : & ["fefine misi toto"] , } , crate :: Annotation { lang : "tr" , tts : Some ("kadın vampir") , keywords : & ["hortlak" , "kadın vampir"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئايال مۇردا") , keywords : & ["ئايال مۇردا" , "مۇردا"] , } , crate :: Annotation { lang : "uk" , tts : Some ("жінка-вампір") , keywords : & ["жінка-вампір" , "упириця"] , } , crate :: Annotation { lang : "ur" , tts : Some ("خون خوار عورت") , keywords : & ["خون خوار عورت" , "زندہ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("ayol vampir") , keywords : & ["ayol" , "ayol vampir" , "qon" , "tish"] , } , crate :: Annotation { lang : "vi" , tts : Some ("ma cà rồng nữ") , keywords : & ["ma cà rồng nữ" , "xác sống"] , } , crate :: Annotation { lang : "wo" , tts : Some ("wàmpiir bu jigéen") , keywords : & ["bu deewul" , "wàmpiir bu jigéen"] , } , crate :: Annotation { lang : "xh" , tts : Some ("i-vampire elibhinqa") , keywords : & ["i-vampire elibhinqa" , "ongafanga"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Fánpáyà obìnrin") , keywords : & ["Fánpáyà obìnrin" , "àìlèkú"] , } , crate :: Annotation { lang : "yue" , tts : Some ("女吸血鬼") , keywords : & ["亡靈" , "女吸血鬼"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("女吸血鬼") , keywords : & ["亡灵" , "女吸血鬼"] , } , crate :: Annotation { lang : "zh" , tts : Some ("女吸血鬼") , keywords : & ["女不死族" , "女吸血鬼"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("女吸血鬼") , keywords : & ["女吸血鬼"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["不死族" , "女吸血鬼" , "德古拉｜女吸血鬼"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ivemphaya lesifazane") , keywords : & ["ivemphaya lesifazane" , "ngafile"] , }] , } ;
 #[doc = "🧛🏻\u{200d}♀\u{fe0f}"]
 pub const WOMAN_VAMPIRE_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     glyph: "🧛🏻\u{200d}♀\u{fe0f}",
@@ -2515,9 +12030,172 @@ pub const MERPERSON: crate::Emoji = crate::Emoji {
     variants: &[],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("meerpersoon"),
+            keywords: &["meerman", "meermin", "meerpersoon"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ግማሽ ሰው ግማሽ ዓሳ"),
+            keywords: &["ግማሽ ሰው ግማሽ ዓሳ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مخلوق بحري بجسد بشري وذيل سمكة"),
+            keywords: &[
+                "كائن بحري بجسد بشري وذيل سمكة",
+                "مخلوق بحري بجسد بشري وذيل سمكة",
+            ],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("মৎস\u{9cd}যব\u{9cd}যক\u{9cd}তি"),
+            keywords: &[
+                "মৎস\u{9cd}যকন\u{9cd}য\u{9be}",
+                "মৎস\u{9cd}যপ\u{9c1}ৰ\u{9c1}ষ",
+                "মৎস\u{9cd}যব\u{9cd}যক\u{9cd}তি",
+                "মৎস\u{9cd}যমহিল\u{9be}",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("dəniz adamı"),
+            keywords: &["dəniz adamı", "dəniz kişisi", "dəniz qadını", "su pərisi"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("русалкі"),
+            keywords: &["жанчына", "мужчына", "русалка", "русалкі"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("жена амфибия"),
+            keywords: &["жена амфибия", "мъж амфибия", "русалка", "човек амфибия"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ম\u{9be}রপ\u{9be}র\u{9cd}সেন"),
+            keywords: &[
+                "ম\u{9be}রউইমেন",
+                "ম\u{9be}রপ\u{9be}র\u{9cd}সেন",
+                "ম\u{9be}রমেড",
+                "ম\u{9be}রমেন",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("sirena"),
+            keywords: &["muškarac", "sirena", "žena"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("persona sirena"),
+            keywords: &["dona sirena", "persona sirena", "sirena"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏴᏫ ᎠᏣᏗ ᎤᎬᎭᏟ"),
+            keywords: &["ᎠᎨᏯ ᎠᏣᏗ ᎤᎬᎭᏟ", "ᎠᏍᎦᏯ ᎠᏣᏗ ᎤᎬᎭᏟ", "ᏴᏫ ᎠᏣᏗ ᎤᎬᎭᏟ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("mořská bytost"),
+            keywords: &[
+                "moře",
+                "mořská",
+                "mořská bytost",
+                "mořský",
+                "muž",
+                "nymfa",
+                "panic",
+                "panna",
+                "postava",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("môrberson"),
+            keywords: &["morwas", "môr-fenyw", "môr-forwyn", "môrberson"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("havvæsen"),
+            keywords: &["hav", "havfolk", "havvæsen"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Wassermensch"),
+            keywords: &["Meerjungfrau", "Wasserfrau", "Wassermann", "Wassermensch"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("γοργόνα"),
+            keywords: &["γοργόνα", "γοργόνος"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("merperson"),
             keywords: &["mermaid", "merman", "merperson", "merwoman"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("persona sirena"),
+            keywords: &["persona sirena", "sirena"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["persona sirena", "sirena", "sireno"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("näkk"),
+            keywords: &["meesnäkk", "merineitsi", "naisnäkk", "näkk"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("itsas izaki"),
+            keywords: &["itsas izaki", "lamina", "sirena"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("دریامردمان"),
+            keywords: &[
+                "بالاتنه انسان پایین\u{200c}تنه ماهی",
+                "دریازن",
+                "دریامردمان",
+                "پری دریایی",
+            ],
         },
         crate::Annotation {
             lang: "fi",
@@ -2529,6 +12207,570 @@ pub const MERPERSON: crate::Emoji = crate::Emoji {
                 "vedenhaltija",
                 "vetehinen",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("merperson"),
+            keywords: &["lalaking sirena", "merperson", "sirena"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("havfólk"),
+            keywords: &["hav", "havfrúgv", "havfólk", "havmaður"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("créature aquatique"),
+            keywords: &["créature aquatique", "sirène", "triton"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["créature aquatique", "sirène", "triton"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("duine murúch"),
+            keywords: &["duine murúch"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("neach-mara"),
+            keywords: &[
+                "duine-mara",
+                "maighdeann-chuain",
+                "maighdeann-mhara",
+                "neach-mara",
+                "sluagh-mara",
+                "òigh-mhara",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("serea"),
+            keywords: &["serea"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("મરપર\u{acd}સન"),
+            keywords: &["મરપર\u{acd}સન"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("aljanun ruwa"),
+            keywords: &[
+                "aljanar ruwa",
+                "aljanin ruwa",
+                "aljanun ruwa",
+                "babbar aljanar ruwa",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("בתולת ים"),
+            keywords: &["בת הים", "בתולת ים"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("मत\u{94d}स\u{94d}यमानव"),
+            keywords: &[
+                "मत\u{94d}स\u{94d}यकन\u{94d}या",
+                "मत\u{94d}स\u{94d}यप\u{941}र\u{941}ष",
+                "मत\u{94d}स\u{94d}यमानव",
+                "मत\u{94d}स\u{94d}यस\u{94d}त\u{94d}री",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("morska sirena"),
+            keywords: &["morska sirena", "muška sirena", "sirena"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("sellő"),
+            keywords: &["hablegény", "hableány", "sellő"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("մարդաձուկ"),
+            keywords: &["մարդաձուկ", "ջրահարս", "տրիտոն"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("orang duyung"),
+            keywords: &[
+                "orang duyung",
+                "pria duyung",
+                "putri duyung",
+                "wanita duyung",
+            ],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("onyewọta"),
+            keywords: &["mamịwọta", "nwanyịwọta", "onyewọta", "papịwọta"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("sæbúi"),
+            keywords: &["hafmeyja", "hafmær", "marbendill", "sæbúi"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("sirena"),
+            keywords: &["sirena"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("人魚"),
+            keywords: &["マーマン", "マーメイド", "人魚"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("duyung"),
+            keywords: &["duyung", "duyung lanang", "duyung wadon"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ადამიანთევზა"),
+            keywords: &["ადამიანთევზა", "ალი", "კაცთევზა", "ქალთევზა"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("теңіз тұрғыны"),
+            keywords: &["теңіз тұрғыны"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("មន\u{17bb}ស\u{17d2}សមច\u{17d2}ឆា"),
+            keywords: &[
+                "នាងមច\u{17d2}ឆា",
+                "ប\u{17d2}រ\u{17bb}សមច\u{17d2}ឆា",
+                "មន\u{17bb}ស\u{17d2}សមច\u{17d2}ឆា",
+                "ស\u{17d2}រ\u{17b8}មច\u{17d2}ឆា",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಮತ\u{ccd}ಸ\u{ccd}ಯ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}"),
+            keywords: &[
+                "ಮತ\u{ccd}ಸ\u{ccd}ಯ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}",
+                "ಮತ\u{ccd}ಸ\u{ccd}ಯಕನ\u{ccd}ಯ\u{cc6}",
+                "ಮತ\u{ccd}ಸ\u{ccd}ಯಪುರುಷ",
+                "ಮತ\u{ccd}ಸ\u{ccd}ಯಮಹ\u{cbf}ಳ\u{cc6}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("인어"),
+            keywords: &["인어"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("मत\u{94d}स\u{94d}यव\u{94d}यक\u{94d}ती"),
+            keywords: &[
+                "जलपरा",
+                "जलपरी",
+                "जलव\u{94d}यक\u{94d}ती",
+                "मत\u{94d}स\u{94d}यव\u{94d}यक\u{94d}ती",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("сууда жашаган жандык (русалка сымал)"),
+            keywords: &[
+                "аял русалка",
+                "русалка",
+                "сууда жашаган жандык (русалка сымал)",
+                "эркек русалка",
+            ],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Mierpersoun"),
+            keywords: &["Mierjonfra", "Miermann", "Mierpersoun"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ເງ\u{eb7}ອກຜ\u{eb9}\u{ec9}ຊາຍ"),
+            keywords: &[
+                "ນາງເງ\u{eb7}ອກ",
+                "ເງ\u{eb7}ອກ",
+                "ເງ\u{eb7}ອກຜ\u{eb9}\u{ec9}ຊາຍ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("undinius"),
+            keywords: &["undinius", "undinė", "undinėlė"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("cilvēks nāra"),
+            keywords: &["cilvēks nāra", "nāra", "nāris", "nārveidīgs"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tangata-ika"),
+            keywords: &["tangata-ika", "tāne-ika", "wahine-ika"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("морско лице"),
+            keywords: &["морска жена", "морски маж", "морско лице", "сирена"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("മത\u{d4d}സ\u{d4d}യമന\u{d41}ഷ\u{d4d}യൻ"),
+            keywords: &[
+                "മത\u{d4d}സ\u{d4d}യകന\u{d4d}യക",
+                "മത\u{d4d}സ\u{d4d}യനരൻ",
+                "മത\u{d4d}സ\u{d4d}യമന\u{d41}ഷ\u{d4d}യൻ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("лусын хүн"),
+            keywords: &[
+                "лусын дагина",
+                "лусын хүн",
+                "лусын эмэгтэй",
+                "лусын эрэгтэй",
+            ],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("मरपर\u{94d}सन"),
+            keywords: &[
+                "जलपरी",
+                "प\u{941}र\u{942}ष जलपरी",
+                "मरपर\u{94d}सन",
+                "मरव\u{94d}ह\u{941}मन",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("manusia duyung"),
+            keywords: &[
+                "duyung betina",
+                "duyung jantan",
+                "ikan duyung",
+                "manusia duyung",
+            ],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("merperson"),
+            keywords: &["merman", "merperson", "merwoman", "serena"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ရေလ\u{1030}"),
+            keywords: &["ရေလ\u{1030}", "ရေသ\u{1030}ထ\u{102e}း", "ရေသ\u{1030}မ"],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("havperson"),
+            keywords: &["havfrue", "havkvinne", "havmann", "havperson"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("मत\u{94d}स\u{94d}यमान\u{94d}छ\u{947}"),
+            keywords: &[
+                "जलपरी",
+                "मत\u{94d}स\u{94d}यछोरामान\u{94d}छ\u{947}",
+                "मत\u{94d}स\u{94d}यछोरीमान\u{94d}छ\u{947}",
+                "मत\u{94d}स\u{94d}यमान\u{94d}छ\u{947}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("zeemeermin"),
+            keywords: &["meerman", "meermin", "sirene", "zeemeermin"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("havperson"),
+            keywords: &["havfrue", "havkvinne", "havmann", "havperson"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ମରପର\u{b4d}ସନ"),
+            keywords: &[
+                "ମତ\u{b4d}ସ\u{b3e}ଗଂନ\u{b3e}",
+                "ମରପର\u{b4d}ସନ",
+                "ମରପର\u{b4d}ସନ\u{b4d}",
+                "ମରମ\u{b4d}ୟ\u{b3e}ନ\u{b4d} । ମରଓମ\u{b4d}ୟ\u{b3e}ନ\u{b4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਜਲ ਮਾਨਵ"),
+            keywords: &["ਜਲ ਔਰਤ", "ਜਲ ਪ\u{a41}ਰਸ\u{a3c}", "ਜਲ ਮਾਨਵ", "ਜਲਪਰੀ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("جل دیو"),
+            keywords: &["جل دیو", "جل مانس", "جل پری", "ماہی زن"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Pẹ\u{301}sin Wé Bi Mamíwọtá"),
+            keywords: &[
+                "Mamíwọtá",
+                "Mán Mamíwọtá",
+                "Pẹ\u{301}sin Wé Bi Mamíwọtá",
+                "Wúmán Mamíwọtá",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("syrena"),
+            keywords: &["syrena"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("مرپرسن"),
+            keywords: &["مرميډ مرمين", "مرپرسن", "مرښځه"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("pessoa sereia"),
+            keywords: &["pessoa sereia", "sereia"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("tritão"),
+            keywords: &["sereia", "tritão"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("runa sirena"),
+            keywords: &["runa sirena", "sirena", "tata triton", "warmi sirena"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("persoană sirenă"),
+            keywords: &["persoană sirenă", "sirene", "sirenă"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1133"),
+            keywords: &["E10-1133"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("русалка"),
+            keywords: &["полурыба", "русалка", "тритон"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("muntusamaki"),
+            keywords: &[
+                "madamusamaki",
+                "mugabosamaki",
+                "mukobwasamaki",
+                "muntusamaki",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ميل پرسن"),
+            keywords: &["جل پري، جل مانس", "ميل پرسن"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ද\u{dd2}යක\u{dd2}ඳ\u{dd4}ර\u{dd4}"),
+            keywords: &[
+                "ද\u{dd2}යක\u{dd2}ඳ\u{dd4}ර\u{dcf}",
+                "ද\u{dd2}යක\u{dd2}ඳ\u{dd4}ර\u{dd2}ය",
+                "ද\u{dd2}යක\u{dd2}ඳ\u{dd4}ර\u{dd4}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("morská bytosť"),
+            keywords: &["more", "morská bytosť", "muž", "panna"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("morska oseba"),
+            keywords: &[
+                "morska deklica",
+                "morska oseba",
+                "morska ženska",
+                "morski mož",
+            ],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("qof cajiib ah"),
+            keywords: &[
+                "gabareey-maanyo",
+                "haweeney cajiib ah",
+                "qof cajiib ah",
+                "wiilo-maanyo",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("sirenë deti"),
+            keywords: &["sirenë deti"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("особа из мора"),
+            keywords: &["особа из мора", "сирена"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("osoba iz mora"),
+            keywords: &["osoba iz mora", "sirena"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("vattenväsen"),
+            keywords: &["näcken", "sjöjungfru", "sjörå", "vattenväsen"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("nguva mtu"),
+            keywords: &["nguva", "nguva dume", "nguva kike", "nguva mtu"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("கடல\u{bcd}மனிதன\u{bcd}"),
+            keywords: &["கடல\u{bcd}கன\u{bcd}னி", "கடல\u{bcd}மனிதன\u{bcd}"],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("జల వ\u{c4d}యక\u{c4d}త\u{c3f}"),
+            keywords: &[
+                "జల వ\u{c4d}యక\u{c4d}త\u{c3f}",
+                "జలకన\u{c4d}య",
+                "జలపురుషుడు",
+                "జలస\u{c4d}త\u{c4d}ర\u{c40}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("шахси обӣ"),
+            keywords: &["марди обӣ", "парии обӣ", "шахси обӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("คร\u{e36}\u{e48}งคนคร\u{e36}\u{e48}งปลา"),
+            keywords: &["คร\u{e36}\u{e48}งคนคร\u{e36}\u{e48}งปลา", "เมอร\u{e4c}เมด"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("suw adam"),
+            keywords: &["suw adam", "suw erkegi", "suw gyzy", "suw perisi"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tokotaha meimeite"),
+            keywords: &["tokotaha meimeite"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("balık insan"),
+            keywords: &["balık insan"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("بېلىق ئادەم"),
+            keywords: &["بېلقىز", "بېلىق ئادەم", "سۇ پەرىسى", "سۇپەرىسى"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("казкова водяна істота"),
+            keywords: &[
+                "жінка-русалка",
+                "казкова водяна істота",
+                "русалка",
+                "чоловік-русалка",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("پانی کے جاندار"),
+            keywords: &["جل پری", "پانی کے جاندار"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("suv parisi"),
+            keywords: &["suv parisi", "triton", "yarim baliq", "yarim odam"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("người cá"),
+            keywords: &["chàng tiên cá", "công chúa cá", "người cá", "nàng tiên cá"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("sireen bu nit"),
+            keywords: &[
+                "sireen",
+                "sireen bu góor",
+                "sireen bu jigéen",
+                "sireen bu nit",
+            ],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("i-merperson"),
+            keywords: &[
+                "i-merperson",
+                "i-merwoman",
+                "indoda-ntlazi yasentsomini",
+                "intombi-ntlazi yasentsomini",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Yemọja ènìyàn"),
+            keywords: &["Yemọja", "Yemọja ènìyàn"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("人魚"),
+            keywords: &["人魚", "女美人魚", "男美人魚", "美人魚"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("人鱼"),
+            keywords: &["人鱼", "女美人鱼", "男美人鱼", "美人鱼"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("人鱼"),
+            keywords: &["人鱼", "女人鱼", "男人鱼", "美人鱼"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("人魚"),
+            keywords: &["人魚"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("i-merperson"),
+            keywords: &["i-mermaid", "i-merman", "i-merperson", "i-merwoman"],
         },
     ],
 };
@@ -2621,9 +12863,156 @@ pub const MERMAN: crate::Emoji = crate::Emoji {
     }],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("meerman"),
+            keywords: &["Triton", "meerman"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ወንድ ግማሽ ሰው ግማሽ ዓሳ"),
+            keywords: &["ወንድ ግማሽ ሰው ግማሽ ዓሳ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مخلوق له جسد رجل وذيل سمكة"),
+            keywords: &["مخلوق له جسد رجل وذيل سمكة"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("মৎস\u{9cd}যপ\u{9c1}ৰ\u{9c1}ষ"),
+            keywords: &["ট\u{9cd}ৰ\u{9be}ইট’ন", "মৎস\u{9cd}যপ\u{9c1}ৰ\u{9c1}ষ"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("dəniz kişisi"),
+            keywords: &["Triton", "dəniz kişisi"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("мужчына-русалка"),
+            keywords: &["Трытон", "мужчына-русалка"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("мъж амфибия"),
+            keywords: &["Тритон", "мъж амфибия"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ম\u{9be}রম\u{9cd}য\u{9be}ন"),
+            keywords: &["ট\u{9cd}রিটন", "ম\u{9be}রম\u{9cd}য\u{9be}ন"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("morgan"),
+            keywords: &["morgan"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("muškarac sirena"),
+            keywords: &["Triton", "muškarac sirena"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("home sirena"),
+            keywords: &["Tritó", "home sirena"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᏍᎦᏯ ᎠᏣᏗ ᎤᎬᎭᏟ"),
+            keywords: &["ᎠᏍᎦᏯ ᎠᏣᏗ ᎤᎬᎭᏟ", "ᎠᏓᎯᏍᏙᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("mořský muž"),
+            keywords: &[
+                "mořský",
+                "mořský muž",
+                "nymfa",
+                "panic",
+                "poseidón",
+                "tritón",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("morwas"),
+            keywords: &["Triton", "morwas"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("havmand"),
+            keywords: &["Triton", "hav", "havmand", "mand"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Wassermann"),
+            keywords: &["Triton", "Wassermann"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("γοργόνος"),
+            keywords: &["Τρίτων", "γοργόνος"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("merman"),
             keywords: &["Triton", "merman"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("sirena hombre"),
+            keywords: &["sirena", "sirena hombre", "tritón"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("sireno"),
+            keywords: &["sirena", "sirena hombre", "sireno", "tritón"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("meesnäkk"),
+            keywords: &["Triton", "meesnäkk"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("gizon-itxurako itsas izaki"),
+            keywords: &["Triton", "gizon-itxurako itsas izaki"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("دریامرد"),
+            keywords: &["تریتون", "دریامرد"],
         },
         crate::Annotation {
             lang: "fi",
@@ -2638,6 +13027,463 @@ pub const MERMAN: crate::Emoji = crate::Emoji {
                 "vedenhaltija",
                 "vetehinen",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("lalaking sirena"),
+            keywords: &["Triton", "lalaking sirena"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("havmaður"),
+            keywords: &["havmaður", "triton"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("triton"),
+            keywords: &["Triton", "triton"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["triton"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("murúch fir"),
+            keywords: &["murúch fir", "tríotón"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("duine-mara"),
+            keywords: &["Lìr", "Triton", "duine-mara", "sluagh-mara"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("serea de sexo masculino"),
+            keywords: &["home", "serea", "serea de sexo masculino"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("મરમ\u{ac7}ન"),
+            keywords: &["મરમ\u{ac7}ન"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("aljanin ruwa"),
+            keywords: &["Triton", "aljanin ruwa"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("בן ים"),
+            keywords: &["בן ים", "טריטון"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("मत\u{94d}स\u{94d}यप\u{941}र\u{941}ष"),
+            keywords: &["ट\u{94d}राइटन", "मत\u{94d}स\u{94d}यप\u{941}र\u{941}ष"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("muška sirena"),
+            keywords: &["Triton", "muška sirena"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("férfi sellő"),
+            keywords: &["Triton", "férfi sellő"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("տրիտոն"),
+            keywords: &["ձուկ", "տղամարդ", "տրիտոն"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("pria duyung"),
+            keywords: &["Triton", "pria duyung"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("nwokewọta"),
+            keywords: &["Tritọn", "nwokewọta"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("marbendill"),
+            keywords: &["Tríton", "marbendill"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("tritone"),
+            keywords: &["Tritone", "tritone"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("マーマン"),
+            keywords: &["マーマン", "人魚", "男", "男性"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("duyung lanang"),
+            keywords: &["Triton", "duyung lanang"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("კაცთევზა"),
+            keywords: &["კაცთევზა", "ტრიტონი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("құйрықты"),
+            keywords: &["тритон", "құйрықты"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ប\u{17d2}រ\u{17bb}សមច\u{17d2}ឆា"),
+            keywords: &["ត\u{17d2}រាយត\u{17bb}ន", "ប\u{17d2}រ\u{17bb}សមច\u{17d2}ឆា"],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಮತ\u{ccd}ಸ\u{ccd}ಯ ಪುರುಷ"),
+            keywords: &["ಟ\u{ccd}ರ\u{cbf}ಟನ\u{ccd}", "ಮತ\u{ccd}ಸ\u{ccd}ಯ ಪುರುಷ"],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("남자 인어"),
+            keywords: &["남자 인어"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("मत\u{94d}स\u{94d}यदादलो"),
+            keywords: &["ट\u{94d}रायटन", "मत\u{94d}स\u{94d}यदादलो"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("эркек русалка"),
+            keywords: &["Тритон", "эркек русалка"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Miermann"),
+            keywords: &["Miermann", "Triton"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ເງ\u{eb7}ອກຊາຍ"),
+            keywords: &["ເງ\u{eb7}ອກຊາຍ", "ໄທຣທ\u{eb1}ນ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("vandenis/undinius"),
+            keywords: &["Tritonas", "vandenis/undinius"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("vīrietis nāra"),
+            keywords: &["Tritons", "vīrietis nāra"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tāne-ika"),
+            keywords: &["Tiritono", "tāne-ika"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("маж сирена"),
+            keywords: &["маж сирена"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("മത\u{d4d}സ\u{d4d}യനരൻ"),
+            keywords: &["ട\u{d4d}രിട\u{d4d}ടോൺ", "മത\u{d4d}സ\u{d4d}യനരൻ"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("лусын хаан"),
+            keywords: &["Тритон", "лусын хаан"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("मरम\u{945}न"),
+            keywords: &["ट\u{94d}रायटन", "मरम\u{945}न"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("duyung jantan"),
+            keywords: &["Triton", "duyung jantan"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("merman"),
+            keywords: &["Triton", "merman"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ရေသ\u{1030}ထ\u{102e}း"),
+            keywords: &[
+                "ထရ\u{103d}\u{102d}င\u{103a}တ\u{103d}န\u{103a}",
+                "ရေသ\u{1030}ထ\u{102e}း",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("havmann"),
+            keywords: &["Triton", "havmann"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("मत\u{94d}स\u{94d}यछोरामान\u{94d}छ\u{947}"),
+            keywords: &["ट\u{94d}रिटन", "मत\u{94d}स\u{94d}यछोरामान\u{94d}छ\u{947}"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("zeemeerman"),
+            keywords: &["Triton", "zeemeerman"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("havmann"),
+            keywords: &["Triton", "havmann"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ମରମ\u{b4d}ୟ\u{b3e}ନ\u{b4d}"),
+            keywords: &[
+                "ଟ\u{b4d}ର\u{b3e}ଇଟନ\u{b4d}\u{200d}",
+                "ମରମ\u{b4d}ୟ\u{b3e}ନ\u{b4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਜਲ ਪ\u{a41}ਰਸ\u{a3c}"),
+            keywords: &["ਜਲ ਪ\u{a41}ਰਸ\u{a3c}", "ਟ\u{a4d}ਰਾਈਟਨ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("جل مانس"),
+            keywords: &["جل مانس", "ٹرائی ٹن"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Mán Mamíwọtá"),
+            keywords: &[
+                "Mán Mamíwọtá",
+                "Trítọn: Wọ\u{301}n Bád Spírit Wé De Lív Fọ Wọta",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("mężczyzna syrena"),
+            keywords: &["Tryton", "mężczyzna syrena"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("مرمین"),
+            keywords: &["مرمین", "ټريټان"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("sereio"),
+            keywords: &["Tritão", "sereio"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("tritão (homem)"),
+            keywords: &["Tritão", "tritão", "tritão (homem)"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("tata triton"),
+            keywords: &["Triton", "tata triton"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("bărbat sirenă"),
+            keywords: &["Triton", "bărbat sirenă"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1257"),
+            keywords: &["E10-1257"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("тритон"),
+            keywords: &["мужчина", "полурыба", "русалка", "тритон"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("mugabosamaki"),
+            keywords: &["Tirito", "mugabosamaki"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("جل مانس"),
+            keywords: &["جل مانس", "ساگر ديوتا"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ප\u{dd2}ර\u{dd2}ම\u{dd2} ද\u{dd2}යක\u{dd2}ඳ\u{dd4}ර\u{dcf}"),
+            keywords: &[
+                "ට\u{dca}\u{200d}ර\u{dd2}ටෝන\u{dca}",
+                "ප\u{dd2}ර\u{dd2}ම\u{dd2} ද\u{dd2}යක\u{dd2}ඳ\u{dd4}ර\u{dcf}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("morský muž"),
+            keywords: &["more", "morský muž", "muž"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("morski mož"),
+            keywords: &["Triton", "morski mož"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("wiilo-maanyo"),
+            keywords: &["ninka gabareey-maanyada", "wiilo-maanyo"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("burrë sirenë"),
+            keywords: &["Triton", "burrë sirenë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("мушкарац из мора"),
+            keywords: &["Тритон", "мушкарац из мора"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("muškarac iz mora"),
+            keywords: &["Triton", "muškarac iz mora"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("strömkarl"),
+            keywords: &["Triton", "strömkarl"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("nguva dume"),
+            keywords: &["nguva Triton", "nguva dume"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஆண\u{bcd} கடல\u{bcd}மனிதன\u{bcd}"),
+            keywords: &["ஆண\u{bcd} கடல\u{bcd}மனிதன\u{bcd}", "டிரைட\u{bcd}டன\u{bcd}"],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("జలపురుషుడు"),
+            keywords: &["జలపురుషుడు", "ట\u{c4d}ర\u{c3f}టన\u{c4d}"],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("марди обӣ"),
+            keywords: &["Самандар", "марди обӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("เง\u{e37}อกชาย"),
+            keywords: &["เง\u{e37}อกชาย"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("suw erkegi"),
+            keywords: &["Triton şa", "suw erkegi"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tangata meimeite"),
+            keywords: &["tangata meimeite"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("balık adam"),
+            keywords: &["balık adam"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("بېلىق ئەر"),
+            keywords: &["بېلىق ئەر", "ترىتون"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("чоловік-русалка"),
+            keywords: &["Тритон", "чоловік-русалка"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("جل مانس"),
+            keywords: &["جل مانس", "سمندری دیوتا"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("triton"),
+            keywords: &["erkak", "triton", "yarim baliq", "yarim erkak"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("chàng tiên cá"),
+            keywords: &["chàng tiên cá", "thần nửa người nửa cá"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("sireen bu góor"),
+            keywords: &["Fettu ñatti bopp", "sireen bu góor"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("i-merman"),
+            keywords: &["I-Triton", "i-merman"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Yemọja ọkùnrin"),
+            keywords: &["Triton", "Yemọja ọkùnrin"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("男美人魚"),
+            keywords: &["Triton", "男美人魚"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("男美人鱼"),
+            keywords: &["Triton", "男美人鱼"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("男人鱼"),
+            keywords: &["特里同", "男人鱼"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("男人魚"),
+            keywords: &["男人魚"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["男人魚", "男人魚｜人魚"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("i-merman"),
+            keywords: &["i-Triton", "i-merman"],
         },
     ],
 };
@@ -2785,9 +13631,149 @@ pub const MERMAID: crate::Emoji = crate::Emoji {
     }],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("meermin"),
+            keywords: &["meermin"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ሴት ግማሽ ሰው ግማሽ ዓሳ"),
+            keywords: &["ሴት ግማሽ ሰው ግማሽ ዓሳ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("حورية بحر"),
+            keywords: &["حورية بحر", "عروسة البحر"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("মৎস\u{9cd}যকন\u{9cd}য\u{9be}"),
+            keywords: &["মৎস\u{9cd}যকন\u{9cd}য\u{9be}", "মৎস\u{9cd}যমহিল\u{9be}"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("su pərisi"),
+            keywords: &["dəniz qadını", "su pərisi"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("русалка"),
+            keywords: &["жанчына-русалка", "русалка"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("русалка"),
+            keywords: &["жена амфибия", "русалка"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ম\u{9be}রমেড"),
+            keywords: &["ম\u{9be}রউইমেন", "ম\u{9be}রমেড"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("morganez"),
+            keywords: &["morganez"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("žena sirena"),
+            keywords: &["sirena", "žena"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("sirena"),
+            keywords: &["dona sirena", "sirena"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᎨᏯ ᎠᏣᏗ ᎤᎬᎭᏟ"),
+            keywords: &["ᎠᎨᏯ ᎠᏣᏗ ᎠᎹ", "ᎠᎨᏯ ᎠᏣᏗ ᎤᎬᎭᏟ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("mořská panna"),
+            keywords: &["mořská", "mořská panna", "nymfa", "víla", "žena"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("môr-forwyn"),
+            keywords: &["môr-fenyw", "môr-forwyn"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("havfrue"),
+            keywords: &["hav", "havfrue", "kvinde"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Meerjungfrau"),
+            keywords: &["Meerjungfrau", "Nixe", "Wasserfrau"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("γυναίκα γοργόνα"),
+            keywords: &["γοργόνα", "γυναίκα γοργόνα"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("mermaid"),
             keywords: &["mermaid", "merwoman"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("sirena"),
+            keywords: &["sirena"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["sirena", "sirena mujer"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("merineitsi"),
+            keywords: &["merineitsi", "naisnäkk"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("lamina"),
+            keywords: &["lamina", "sirena"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("پری دریایی"),
+            keywords: &["دریازن", "پری دریایی"],
         },
         crate::Annotation {
             lang: "fi",
@@ -2800,6 +13786,481 @@ pub const MERMAID: crate::Emoji = crate::Emoji {
                 "seireeni",
                 "vedenväki",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("sirena"),
+            keywords: &["babaeng sirena", "sirena"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("havfrúgv"),
+            keywords: &["havfrúgv"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("sirène"),
+            keywords: &["sirène"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("murúch"),
+            keywords: &["bean", "murúch"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("maighdeann-mhara"),
+            keywords: &[
+                "maighdeann-chuain",
+                "maighdeann-mhara",
+                "sluagh-mara",
+                "òigh-mhara",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("serea de sexo feminino"),
+            keywords: &["muller", "serea", "serea de sexo feminino"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("મરમ\u{ac7}ઈડ"),
+            keywords: &["મરમ\u{ac7}ઈડ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("aljanar ruwa"),
+            keywords: &["aljanar ruwa", "babbar aljanar ruwa"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("בת הים"),
+            keywords: &["בת הים", "סירונית"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("मत\u{94d}स\u{94d}यकन\u{94d}या"),
+            keywords: &[
+                "मत\u{94d}स\u{94d}यकन\u{94d}या",
+                "मत\u{94d}स\u{94d}यस\u{94d}त\u{94d}री",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("sirena"),
+            keywords: &["sirena", "ženska sirena"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("sellőlány"),
+            keywords: &["női sellő", "sellőlány"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("ջրահարս"),
+            keywords: &["կին", "ձուկ", "ջրահարս"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("putri duyung"),
+            keywords: &["putri duyung", "wanita duyung"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("mamịwọta"),
+            keywords: &["mamịwọta", "nwanyịwọta"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("hafmeyja"),
+            keywords: &["hafmeyja", "hafmær"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("sirena donna"),
+            keywords: &["sirena", "sirena donna"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("マーメイド"),
+            keywords: &["マーメイド", "人魚", "女", "女性"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("duyung wadon"),
+            keywords: &["duyung wadon"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ქალთევზა"),
+            keywords: &["ალი", "ქალთევზა"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("су перісі"),
+            keywords: &["су перісі"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("នាងមច\u{17d2}ឆា"),
+            keywords: &["នាងមច\u{17d2}ឆា", "ស\u{17d2}រ\u{17b8}មច\u{17d2}ឆា"],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಮತ\u{ccd}ಸ\u{ccd}ಯ ಕನ\u{ccd}ಯ\u{cc6}"),
+            keywords: &[
+                "ಮತ\u{ccd}ಸ\u{ccd}ಯ ಕನ\u{ccd}ಯ\u{cc6}",
+                "ಮತ\u{ccd}ಸ\u{ccd}ಯ ಮಹ\u{cbf}ಳ\u{cc6}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("여자 인어"),
+            keywords: &["여자 인어"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("मत\u{94d}स\u{94d}यकन\u{94d}या"),
+            keywords: &["मत\u{94d}स\u{94d}यकन\u{94d}या", "मत\u{94d}स\u{94d}यबायल"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("русалка"),
+            keywords: &["аял русалка", "русалка"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Mierjongfra"),
+            keywords: &["Mierfra", "Mierjongfra"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ນາງເງ\u{eb7}ອກ"),
+            keywords: &["ນາງເງ\u{eb7}ອກ", "ເງ\u{eb7}ອກຜ\u{eb9}\u{ec9}ຍ\u{eb4}ງ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("undinėlė"),
+            keywords: &["undinėlė"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("nāra"),
+            keywords: &["nāra", "sieviete nāra"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("hine-ika"),
+            keywords: &["hine-ika", "wahine-ika"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("сирена"),
+            keywords: &["морска жена", "сирена"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("മത\u{d4d}സ\u{d4d}യകന\u{d4d}യക"),
+            keywords: &[
+                "മത\u{d4d}സ\u{d4d}യകന\u{d4d}യക",
+                "മത\u{d4d}സ\u{d4d}യസ\u{d4d}\u{200c}ത\u{d4d}രീ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("лусын дагина"),
+            keywords: &["лусын дагина", "лусын эмэгтэй"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("जलपरी"),
+            keywords: &["जलपरी", "मरव\u{94d}ह\u{941}मन"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("ikan duyung"),
+            keywords: &["duyung jantan", "ikan duyung"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("serena"),
+            keywords: &["merwoman", "serena"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ရေသ\u{1030}မ"),
+            keywords: &[
+                "ရေသ\u{1030}မ",
+                "ရေသ\u{1030}မ (အမျ\u{102d}\u{102f}းသမ\u{102e}း)",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("havfrue"),
+            keywords: &["havfrue", "havkvinne"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("जलपरी"),
+            keywords: &["जलपरी", "मत\u{94d}स\u{94d}यछोरीमान\u{94d}छ\u{947}"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("sirene"),
+            keywords: &["meermin", "sirene"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("havfrue"),
+            keywords: &["havfrue", "havkvinne"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ମତ\u{b4d}ସ\u{b3e}ଗଂନ\u{b3e}"),
+            keywords: &["ମତ\u{b4d}ସ\u{b3e}ଗଂନ\u{b3e}", "ମରଓମ\u{b4d}ୟ\u{b3e}ନ\u{b4d}"],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਜਲਪਰੀ"),
+            keywords: &["ਜਲ ਔਰਤ", "ਜਲਪਰੀ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ماہی زن"),
+            keywords: &["جل پری", "ماہی زن"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Wúmán Mamíwọtá"),
+            keywords: &["Mamíwọtá", "Wúmán Mamíwọtá"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("kobieta syrena"),
+            keywords: &["kobieta syrena", "syrena"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("مرمیڈ"),
+            keywords: &["مرمیڈ"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("sereia"),
+            keywords: &["sereia"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("sirena"),
+            keywords: &["sirena", "warmi sirena"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("sirenă"),
+            keywords: &["sirenă"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1256"),
+            keywords: &["E10-1256"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("женщина-русалка"),
+            keywords: &["женщина", "женщина-русалка", "полурыба", "русалка"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("makobwasamaki"),
+            keywords: &["madamusamaki", "makobwasamaki"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("جل پري"),
+            keywords: &["جل پري"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ද\u{dd2}යක\u{dd2}ඳ\u{dd4}ර\u{dcf}"),
+            keywords: &[
+                "ද\u{dd2}යක\u{dd2}ඳ\u{dd4}ර\u{dcf}",
+                "ද\u{dd2}යක\u{dd2}ඳ\u{dd4}ර\u{dd2}ය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("morská panna"),
+            keywords: &["more", "morská panna", "panna"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("morska deklica"),
+            keywords: &["morska deklica"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("gabreey-maanyo"),
+            keywords: &["gabareey-maanyo", "gabreey-maanyo", "haweeney cajiib ah"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("grua sirenë"),
+            keywords: &["grua sirenë", "sirenë deti"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("сирена"),
+            keywords: &["жена из мора", "сирена"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("sirena"),
+            keywords: &["sirena", "žena iz mora"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("sjöjungfru"),
+            keywords: &["sjöjungfru", "sjörå"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("nguva"),
+            keywords: &["nguva", "nguva kike"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("கடல\u{bcd}கன\u{bcd}னி"),
+            keywords: &[
+                "கடல\u{bcd}கன\u{bcd}னி",
+                "கடல\u{bcd}மனிதன\u{bcd}",
+                "பெண\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("జలకన\u{c4d}య"),
+            keywords: &["జలకన\u{c4d}య", "జలస\u{c4d}త\u{c4d}ర\u{c40}"],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("парии обӣ"),
+            keywords: &["парии обӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("เง\u{e37}อก"),
+            keywords: &["เง\u{e37}อก"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("suw gyzy"),
+            keywords: &["suw aýaly", "suw gyzy"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("fefine meimeite"),
+            keywords: &["fefine meimeite"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("denizkızı"),
+            keywords: &["balık kadın", "denizkızı"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("بېلىق قىز"),
+            keywords: &["بېلىق قىز", "سۇ پەرىسى"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("русалка"),
+            keywords: &["жінка-русалка", "русалка"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("جل پری"),
+            keywords: &["جل پری", "سمندری عورت"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("ayol suv parisi"),
+            keywords: &[
+                "ayol",
+                "ayol suv parisi",
+                "suv parisi",
+                "yarim ayol",
+                "yarim baliq",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("nàng tiên cá"),
+            keywords: &["công chúa cá", "nàng tiên cá"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("sireen"),
+            keywords: &["sireen", "sireen bu jigéen"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("intombi-ntlanzi yasentsomini"),
+            keywords: &["i-merwoman", "intombi-ntlanzi yasentsomini"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("iyemọja"),
+            keywords: &["Yemọja obìnrin", "iyemọja"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("美人魚"),
+            keywords: &["女美人魚", "美人魚"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("美人鱼"),
+            keywords: &["女美人鱼", "美人鱼"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("美人鱼"),
+            keywords: &["女人鱼", "美人鱼"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("美人魚"),
+            keywords: &["美人魚"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["美人魚", "美人魚｜人魚"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("i-mermaid"),
+            keywords: &["i-mermaid", "i-merwoman"],
         },
     ],
 };
@@ -2936,9 +14397,144 @@ pub const ELF: crate::Emoji = crate::Emoji {
     variants: &[],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("elf"),
+            keywords: &["elf", "toweragtig"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ኤልፍ"),
+            keywords: &["ኤልፍ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("جن\u{651}ي صغير"),
+            keywords: &["إلف", "إيلف", "جن\u{651}ي صغير", "كائن سحري", "مخلوق سحري"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("যোগীনী"),
+            keywords: &["য\u{9be}দ\u{9c1}কৰী", "যোগীনী"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("elf"),
+            keywords: &["elf", "sehrli"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("эльф"),
+            keywords: &["казачныя", "эльф"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("елф"),
+            keywords: &["елф", "магическо"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("এল\u{9cd}ফ"),
+            keywords: &["এল\u{9cd}ফ", "জ\u{9be}দ\u{9c1}করী"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("patuljak"),
+            keywords: &["magija", "patuljak"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("elf"),
+            keywords: &["elf", "màgic"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏴᏫ ᎤᏍᏆᏂᎪᏗᏳ"),
+            keywords: &["ᎤᏕᎵᏛ ᎬᏗ ᎠᏛᏁᎸᏗ", "ᏴᏫ ᎤᏍᏆᏂᎪᏗᏳ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("obličej elfa"),
+            keywords: &["elf", "kouzelná", "les", "magie", "obličej elfa", "postava"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("coblyn"),
+            keywords: &["coblyn", "hudol"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("elver"),
+            keywords: &["elver", "magi"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Elf(e)"),
+            keywords: &["Elbe", "Elben", "Elbin", "Elf(e)", "magisch"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ξωτικό"),
+            keywords: &["μαγικό", "ξωτικό"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("elf"),
             keywords: &["elf", "magical"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("elfo"),
+            keywords: &["elfo", "mágico"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("päkapikk"),
+            keywords: &["maagiline", "päkapikk"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("elfo"),
+            keywords: &["elfo", "magiko"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("ا\u{650}لف"),
+            keywords: &["ا\u{650}لف", "جادویی", "سحرآمیز"],
         },
         crate::Annotation {
             lang: "fi",
@@ -2951,6 +14547,473 @@ pub const ELF: crate::Emoji = crate::Emoji {
                 "keijukainen",
                 "suippokorva",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("duwende"),
+            keywords: &["duwende", "mahiwaga"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("álvur"),
+            keywords: &["álva", "álvur", "ævintýr"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("elfe"),
+            keywords: &["elfe", "magique"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("lucharachán"),
+            keywords: &["draíochtúil", "lucharachán", "síogaí"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("ailbhear"),
+            keywords: &["ailbhear", "draoidheach"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("elfo"),
+            keywords: &["elfo"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ઈલ\u{acd}ફ"),
+            keywords: &["ઈલ\u{acd}ફ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("jinsiri"),
+            keywords: &["abin dabo", "jinsiri"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("אלף"),
+            keywords: &["אלף", "יצור קסום"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("जाद\u{941}ई प\u{94d}राणी"),
+            keywords: &["जाद\u{941}ई", "जाद\u{941}ई प\u{94d}राणी"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("šumski vilenjak"),
+            keywords: &["magično", "šumski vilenjak"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("tünde"),
+            keywords: &["mágikus", "tünde"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("էլֆ"),
+            keywords: &["էլֆ", "կախարդական", "կախարդանք", "հեքիաթ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("kurcaci"),
+            keywords: &["ajaib", "kurcaci"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("elfụ"),
+            keywords: &["elfụ", "àbràkàtabrà"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("huldumaður"),
+            keywords: &[
+                "galdrar",
+                "huldumaður",
+                "töfrandi",
+                "töfrar",
+                "yfirnáttúrleiki",
+            ],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("elfo"),
+            keywords: &["elfo", "magico"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("エルフ"),
+            keywords: &["エルフ", "妖精", "小妖精"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("peri"),
+            keywords: &["ajaib", "peri"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ელფი"),
+            keywords: &["ელფი", "ზღაპარი", "მაგიური", "ჯადოსნული"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("ергежейлі"),
+            keywords: &["ергежейлі"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("អែលហ\u{17d2}វ"),
+            keywords: &["ដែលចេះវេទមន\u{17d2}ត", "អែលហ\u{17d2}វ"],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಯಕ\u{ccd}ಷ\u{cbf}ಣ\u{cbf}"),
+            keywords: &["ಮಾಂತ\u{ccd}ರ\u{cbf}ಕ", "ಯಕ\u{ccd}ಷ\u{cbf}ಣ\u{cbf}"],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("엘프"),
+            keywords: &["엘프"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("वनद\u{947}वता"),
+            keywords: &["जाद\u{941}ई", "वनद\u{947}वता"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("эльф"),
+            keywords: &["сыйкырдуу", "эльф"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Elf"),
+            keywords: &["Elf", "magesch"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ເອວຟ\u{ecc}"),
+            keywords: &["ວ\u{eb4}ເສດ", "ເອວຟ\u{ecc}"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("elfas"),
+            keywords: &["elfas", "magiškas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("elfs"),
+            keywords: &["elfs", "maģisks"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("erepe"),
+            keywords: &["erepe", "mākutu"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("шумски елф"),
+            keywords: &["магично", "шумски елф"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ദ\u{d41}ർഭ\u{d42}തം"),
+            keywords: &["ദ\u{d41}ർഭ\u{d42}തം", "മ\u{d3e}ന\u{d4d}ത\u{d4d}രികം"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("одой хүн"),
+            keywords: &["ид шидийн", "одой хүн"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("वनद\u{947}व"),
+            keywords: &["चमत\u{94d}कारी", "वनद\u{947}व"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("orang halus"),
+            keywords: &["ajaib", "orang halus"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("għafrit"),
+            keywords: &["għafrit", "maġiku"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("နတ\u{103a}သ\u{1030}ငယ\u{103a}"),
+            keywords: &["နတ\u{103a}သ\u{1030}ငယ\u{103a}", "ပယောဂဆန\u{103a}သော"],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("alv"),
+            keywords: &["alv", "magi"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("सानो मानव जस\u{94d}तो जीव"),
+            keywords: &["जाद\u{941}मय", "सानो मानव जस\u{94d}तो जीव"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("elf"),
+            keywords: &["elf", "magisch"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("alv"),
+            keywords: &["alv", "magi"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଅପ\u{b4d}ସର\u{b3e}"),
+            keywords: &[
+                "ଅପ\u{b4d}ସର\u{b3e}",
+                "କ\u{b41}ହ\u{b41}କ ସମ\u{b4d}ବନ\u{b4d}ଧୀୟ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਬ\u{a4c}ਣਾ"),
+            keywords: &["ਜਾਦ\u{a42}ਈ", "ਬ\u{a4c}ਣਾ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ب\u{64f}ھوت"),
+            keywords: &["ب\u{64f}ھوت", "جادوئی"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Ẹlf"),
+            keywords: &[
+                "Bád Spírit",
+                "Dẹ\u{301}vul",
+                "Jujú",
+                "Májik",
+                "Sétan",
+                "Ẹlf",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("elf"),
+            keywords: &["elf", "magiczny"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("ګوړا"),
+            keywords: &["جادويي", "ګوړا"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("elfo"),
+            keywords: &["elfo", "mágico"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["elfo", "mágico"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("elfo"),
+            keywords: &["elfo", "magico"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("elf"),
+            keywords: &["elf", "magie"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1134"),
+            keywords: &["E10-1134"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("эльф"),
+            keywords: &["магия", "сказка", "уши", "фэнтези", "эльф"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("ishitani"),
+            keywords: &["bitangaje", "ishitani"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("بونا"),
+            keywords: &["بونا", "جادو"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("එල\u{dca}ෆ\u{dca}"),
+            keywords: &["ඉන\u{dca}ද\u{dca}රජ\u{dcf}ල\u{dd2}ක", "එල\u{dca}ෆ\u{dca}"],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("lesná bytosť"),
+            keywords: &["fantasy", "lesná bytosť"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("škrati"),
+            keywords: &["vilin", "čarovnija", "škrati"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("ruuxaan"),
+            keywords: &["ruuxaan", "sixir ah"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("kukudh"),
+            keywords: &["kukudh", "magjik"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("виловњак"),
+            keywords: &["виловњак", "магично"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("vilovnjak"),
+            keywords: &["magično", "vilovnjak"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("alv"),
+            keywords: &["alv", "magisk"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kibwengo"),
+            keywords: &["kibwengo", "mazingaombwe"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("எல\u{bcd}ஃப\u{bcd}"),
+            keywords: &[
+                "எல\u{bcd}ஃப\u{bcd}",
+                "கற\u{bcd}பனைக\u{bcd} கத\u{bbe}ப\u{bbe}த\u{bcd}திரம\u{bcd}",
+                "மந\u{bcd}திரவ\u{bbe}தம\u{bcd}",
+                "ம\u{bbe}யக\u{bcd}கதை",
+                "மேஜிக\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ఎల\u{c4d}ఫ\u{c4d}"),
+            keywords: &["ఎల\u{c4d}ఫ\u{c4d}", "మ\u{c3e}ంత\u{c4d}ర\u{c3f}క"],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("пакана"),
+            keywords: &["пакана", "соҳирӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("เอลฟ\u{e4c}"),
+            keywords: &["จอมเวทย\u{e4c}", "เอลฟ\u{e4c}"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("elf"),
+            keywords: &["elf", "jadyly"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("kiʻi feeli"),
+            keywords: &["kiʻi feeli"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("elf"),
+            keywords: &["elf", "sihirli"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("پىر"),
+            keywords: &["سېھرىي", "پىر"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("ельф"),
+            keywords: &["ельф", "магічний"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("پریت"),
+            keywords: &["جادوئی", "پریت"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("elf"),
+            keywords: &["elf", "ertak", "quloq", "sehrli"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("yêu ma"),
+            keywords: &["phép thuật", "yêu ma"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("elfe"),
+            keywords: &["elfe", "yéeme"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("uhili"),
+            keywords: &["ubugqi", "uhili"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Egbére"),
+            keywords: &["Egbére", "ìdán"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("小精靈"),
+            keywords: &["小精靈", "神奇"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("小精灵"),
+            keywords: &["小精灵", "神奇"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("小精灵"),
+            keywords: &["小精灵", "魔术"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("小精靈"),
+            keywords: &["小精靈"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("精靈"),
+            keywords: &["精靈", "精靈｜魔法"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("i-elf"),
+            keywords: &["i-elf", "mlingo"],
         },
     ],
 };
@@ -3043,9 +15106,155 @@ pub const MAN_ELF: crate::Emoji = crate::Emoji {
     }],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("manlike elf"),
+            keywords: &["manlike elf", "toweragtig"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ወንድ ኤልፍ"),
+            keywords: &["ወንድ ኤልፍ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("جن\u{651}ي صغير ذكر"),
+            keywords: &[
+                "جن\u{651}ي صغير ذكر",
+                "ذكر إلف",
+                "ذكر إيلف",
+                "كائن سحري",
+                "مخلوق سحري",
+            ],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("প\u{9c1}ৰ\u{9c1}ষ এল\u{9cd}ফ"),
+            keywords: &["প\u{9c1}ৰ\u{9c1}ষ এল\u{9cd}ফ", "য\u{9be}দ\u{9c1}কৰ"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("kişi elf"),
+            keywords: &["kişi elf", "sehrli"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("мужчына-эльф"),
+            keywords: &["казачны", "мужчына-эльф"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("мъж елф"),
+            keywords: &["вълшебен", "мъж елф"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("প\u{9c1}র\u{9c1}ষ এল\u{9cd}ফ"),
+            keywords: &["জ\u{9be}দ\u{9c1}করী", "প\u{9c1}র\u{9c1}ষ এল\u{9cd}ফ"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("elf"),
+            keywords: &["elf"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("muškarac patuljak"),
+            keywords: &["magija", "muškarac patuljak"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("home elf"),
+            keywords: &["home elf", "màgic", "màgica"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᏍᎦᏯ ᏴᏫ ᎢᏳᏍᏗ"),
+            keywords: &["ᎠᏍᎦᏯ ᏴᏫ ᎢᏳᏍᏗ", "ᎤᏕᎵᏛ ᎬᏗ ᎠᏛᏁᎸᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("elf"),
+            keywords: &["elf", "kouzelná", "les", "lesní", "magie", "muž", "postava"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("coblyn gwrwywaidd"),
+            keywords: &["coblyn gwrwywaidd", "hudol"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("elvermand"),
+            keywords: &["elvermand", "magi", "mand"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Elf"),
+            keywords: &["Alb", "Elbe", "Elf", "magisch"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("άντρας ξωτικό"),
+            keywords: &["άντρας ξωτικό", "μαγικός"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("man elf"),
             keywords: &["magical", "man elf"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("elfo hombre"),
+            keywords: &["elfo", "elfo hombre", "mágico"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("meespäkapikk"),
+            keywords: &["maagiline", "meespäkapikk"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("gizon elfo"),
+            keywords: &["gizon elfo", "magiko"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("ا\u{650}لف مرد"),
+            keywords: &["ا\u{650}لف مرد", "جادویی", "سحرآمیز"],
         },
         crate::Annotation {
             lang: "fi",
@@ -3058,6 +15267,480 @@ pub const MAN_ELF: crate::Emoji = crate::Emoji {
                 "mieshaltia",
                 "suippokorva",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("lalaking duwende"),
+            keywords: &["lalaking duwende", "mahiwaga"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("mannfólka álvur"),
+            keywords: &["mannfólka álvur", "maður", "álvur", "ævintýr"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("elfe homme"),
+            keywords: &["elfe homme", "magique"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["elfe", "homme", "magique"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("síofra fireann"),
+            keywords: &["draíochtúil", "síofra fireann", "síogaí"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("ailbhear fireann"),
+            keywords: &["ailbhear fireann", "draoidheach"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("elfo de sexo masculino"),
+            keywords: &["elfo", "elfo de sexo masculino"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("પ\u{ac1}ર\u{ac1}ષ ઈલ\u{acd}ફ"),
+            keywords: &["પ\u{ac1}ર\u{ac1}ષ ઈલ\u{acd}ફ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("jinsiri namiji"),
+            keywords: &["abin dabo", "jinsiri namiji"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("אלף בן"),
+            keywords: &["אלף בן", "יצור קסום"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("जाद\u{941}ई प\u{941}र\u{941}ष"),
+            keywords: &["जाद\u{941}ई", "जाद\u{941}ई प\u{941}र\u{941}ष"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("vilenjak"),
+            keywords: &["magično", "vilenjak"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("férfi tünde"),
+            keywords: &["férfi tünde", "mágikus"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("տղամարդ-էլֆ"),
+            keywords: &["կախարդական", "հեքիաթ", "տղամարդ-էլֆ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("kurcaci pria"),
+            keywords: &["ajaib", "kurcaci pria"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("nwoke elfụ"),
+            keywords: &["nwoke elfụ", "àbràkàtabrà"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("huldukarl"),
+            keywords: &["huldukarl"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("elfo uomo"),
+            keywords: &["elfo uomo", "magico"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("男のエルフ"),
+            keywords: &["エルフ", "男", "男のエルフ", "男性"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("peri lanang"),
+            keywords: &["ajaib", "peri lanang"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("კაცი ელფი"),
+            keywords: &["ზღაპარი", "კაცი ელფი", "მაგიური", "ჯადოსნული"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("ер ергежейлі"),
+            keywords: &["ер ергежейлі"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("អែលហ\u{17d2}វប\u{17d2}រ\u{17bb}ស"),
+            keywords: &["ដែលចេះវេទមន\u{17d2}ត", "អែលហ\u{17d2}វប\u{17d2}រ\u{17bb}ស"],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಪುರುಷ ಯಕ\u{ccd}ಷ"),
+            keywords: &["ಪುರುಷ ಯಕ\u{ccd}ಷ", "ಮಾಂತ\u{ccd}ರ\u{cbf}ಕ"],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("남자 엘프"),
+            keywords: &["남자 엘프"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("वनद\u{947}व"),
+            keywords: &["जाद\u{941}ई", "वनद\u{947}व"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("эркек эльф"),
+            keywords: &["сыйкырдуу", "эркек эльф"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Elfemann"),
+            keywords: &["Elfemann", "magesch"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ເອວຟ\u{ecc}ຜ\u{eb9}\u{ec9}ຊາຍ"),
+            keywords: &["ວ\u{eb4}ເສດ", "ເອວຟ\u{ecc}ຜ\u{eb9}\u{ec9}ຊາຍ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("elfas vyras"),
+            keywords: &["elfas vyras", "magiškas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("elfu vīrietis"),
+            keywords: &["elfu vīrietis", "maģisks"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("erepe tāne"),
+            keywords: &["erepe tāne", "mākutu"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("маж шумски елф"),
+            keywords: &["магично", "маж шумски елф"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ആൺ ദ\u{d41}ർഭ\u{d42}തം"),
+            keywords: &["ആൺ ദ\u{d41}ർഭ\u{d42}തം", "മ\u{d3e}ന\u{d4d}ത\u{d4d}രികം"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("эрэгтэй одой"),
+            keywords: &["ид шидийн", "эрэгтэй одой"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("वनद\u{947}वता"),
+            keywords: &["चमत\u{94d}कारी", "वनद\u{947}वता"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("orang halus lelaki"),
+            keywords: &["ajaib", "orang halus lelaki"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("għafrit raġel"),
+            keywords: &["għafrit raġel", "maġiku"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အမျ\u{102d}\u{102f}းသား နတ\u{103a}သ\u{1030}ငယ\u{103a}"),
+            keywords: &[
+                "ပယောဂဆန\u{103a}သော",
+                "အမျ\u{102d}\u{102f}းသား နတ\u{103a}သ\u{1030}ငယ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("mannlig alv"),
+            keywords: &["magi", "mannlig alv"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("सानो छोरोमान\u{94d}छ\u{947}को स\u{94d}वर\u{941}प भएको जीव"),
+            keywords: &[
+                "जाद\u{941}मय",
+                "सानो छोरोमान\u{94d}छ\u{947}को स\u{94d}वर\u{941}प भएको जीव",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("mannelijke elf"),
+            keywords: &["magisch", "mannelijke elf"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("mannleg alv"),
+            keywords: &["magi", "mannleg alv"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ପ\u{b41}ର\u{b41}ଷ ଏଲଫ\u{b4d}\u{200d}"),
+            keywords: &[
+                "କ\u{b41}ହ\u{b41}କ ସମ\u{b4d}ବନ\u{b4d}ଧୀୟ",
+                "ପ\u{b41}ର\u{b41}ଷ ଏଲଫ\u{b4d}\u{200d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਬ\u{a4c}ਣਾ ਆਦਮੀ"),
+            keywords: &["ਜਾਦ\u{a42}ਈ", "ਬ\u{a4c}ਣਾ ਆਦਮੀ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ب\u{64f}ھوت بندا"),
+            keywords: &["ب\u{64f}ھوت بندا", "جادوئی"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Mán Ẹlf"),
+            keywords: &["Májik", "Mán Ẹlf"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("mężczyzna elf"),
+            keywords: &["magiczny", "mężczyzna elf"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("سړی ګوړا"),
+            keywords: &["جادويي", "سړی ګوړا"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("elfo homem"),
+            keywords: &["duende homem", "elfo", "elfo homem"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("elfo (homem)"),
+            keywords: &["elfo (homem)", "mágico"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("tata elfo"),
+            keywords: &["magico", "tata elfo"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("bărbat elf"),
+            keywords: &["bărbat elf", "magie"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1259"),
+            keywords: &["E10-1259"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("мужчина-эльф"),
+            keywords: &[
+                "магия",
+                "мужчина",
+                "мужчина-эльф",
+                "сказка",
+                "уши",
+                "фэнтези",
+                "эльф",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("ishitanigabo"),
+            keywords: &["bitangaje", "ishitanigabo"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("مرد بونا"),
+            keywords: &["جادو", "مرد بونا"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ප\u{dd2}ර\u{dd2}ම\u{dd2} එල\u{dca}ෆ\u{dca}"),
+            keywords: &[
+                "ප\u{dd2}ර\u{dd2}ම\u{dd2} එල\u{dca}ෆ\u{dca}",
+                "ම\u{dcf}ය\u{dcf}ව\u{dd3}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("elf"),
+            keywords: &["elf", "fantasy"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("škrat"),
+            keywords: &["vilin", "čarovnija", "škrat"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("ruuxaanta ragga"),
+            keywords: &["ruuxaanta ragga", "sixir ah"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("burrë kukudh"),
+            keywords: &["burrë kukudh", "magjik"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("мушкарац виловњак"),
+            keywords: &["магичан мушкарац", "мушкарац виловњак"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("muškarac vilovnjak"),
+            keywords: &["magičan muškarac", "muškarac vilovnjak"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("manlig alv"),
+            keywords: &["magisk", "manlig alv"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kibwengo dume"),
+            keywords: &["kibwengo dume", "mazingaombwe"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஆண\u{bcd} எல\u{bcd}ஃப\u{bcd}"),
+            keywords: &[
+                "ஆண\u{bcd} எல\u{bcd}ஃப\u{bcd}",
+                "கற\u{bcd}பனைக\u{bcd} கத\u{bbe}ப\u{bbe}த\u{bcd}திரம\u{bcd}",
+                "மந\u{bcd}திரவ\u{bbe}தம\u{bcd}",
+                "ம\u{bbe}யக\u{bcd}கதை",
+                "மேஜிக\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("మ\u{c3e}ంత\u{c4d}ర\u{c3f}కుడు"),
+            keywords: &[
+                "మ\u{c3e}ంత\u{c4d}ర\u{c3f}క",
+                "మ\u{c3e}ంత\u{c4d}ర\u{c3f}కుడు",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("марди пакана"),
+            keywords: &["марди пакана", "соҳирӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("เอลฟ\u{e4c}ผ\u{e39}\u{e49}ชาย"),
+            keywords: &["จอมเวทย\u{e4c}", "เอลฟ\u{e4c}ผ\u{e39}\u{e49}ชาย"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("erkek elf"),
+            keywords: &["erkek elf", "jadyly"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("kiʻi feeli tangata"),
+            keywords: &["kiʻi feeli tangata"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("erkek elf"),
+            keywords: &["erkek elf", "sihirli"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئەر پىر"),
+            keywords: &["ئەر پىر", "سېھرىي"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("чоловік-ельф"),
+            keywords: &["чарівний", "чоловік-ельф"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("پریت آدمی"),
+            keywords: &["جادوئی", "پریت آدمی"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("erkak elf"),
+            keywords: &["erkak", "erkak elf", "ertak", "quloq", "sehrli"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("nam quỷ"),
+            keywords: &["nam quỷ", "phép thuật"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("elfe bu góor"),
+            keywords: &["elfe bu góor", "yéeme"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("uhili oyindoda"),
+            keywords: &["ubugqi", "uhili oyindoda"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("egbére ọkùnrin"),
+            keywords: &["egbére ọkùnrin", "ìdán"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("男精靈"),
+            keywords: &["男精靈", "神奇"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("男精灵"),
+            keywords: &["男精灵", "神奇"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("男小精灵"),
+            keywords: &["男小精灵", "男性魔术"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("男精靈"),
+            keywords: &["男精靈"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["男精靈", "男精靈｜魔法"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("i-elf yesilisa"),
+            keywords: &["i-elf yesilisa", "mlingo"],
         },
     ],
 };
@@ -3205,9 +15888,155 @@ pub const WOMAN_ELF: crate::Emoji = crate::Emoji {
     }],
     annotations: &[
         crate::Annotation {
+            lang: "af",
+            tts: Some("vroulike elf"),
+            keywords: &["toweragtig", "vroulike elf"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ሴት ኤልፍ"),
+            keywords: &["ሴት ኤልፍ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("جني\u{651}ة صغيرة"),
+            keywords: &[
+                "أنثى إلف",
+                "أنثى إيلف",
+                "جني\u{651}ة صغيرة",
+                "كائن سحري",
+                "مخلوقة سحرية",
+            ],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("মহিল\u{9be} এল\u{9cd}ফ"),
+            keywords: &["মহিল\u{9be} এল\u{9cd}ফ", "য\u{9be}দ\u{9c1}কৰী"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("qadın elf"),
+            keywords: &["qadın elf", "sehrli"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("эльфійка"),
+            keywords: &["казачная", "эльфійка"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("жена елф"),
+            keywords: &["вълшебен", "жена елф"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("মহিল\u{9be} এল\u{9cd}ফ"),
+            keywords: &["জ\u{9be}দ\u{9c1}করী", "মহিল\u{9be} এল\u{9cd}ফ"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("elfez"),
+            keywords: &["elfez"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("žena patuljak"),
+            keywords: &["magija", "žena patuljak"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("dona elfa"),
+            keywords: &["dona elfa", "màgic", "màgica"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᎨᏯ ᏴᏫ ᎢᏳᏍᏗ"),
+            keywords: &["ᎠᎨᏯ ᏴᏫ ᎢᏳᏍᏗ", "ᎤᏕᎵᏛ ᎬᏗ ᎠᏛᏁᎸᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("elfka"),
+            keywords: &["divoženka", "elfka", "kouzelná", "les", "magie", "postava"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("coblyn benywaidd"),
+            keywords: &["coblyn benywaidd", "hudol"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("elverkvinde"),
+            keywords: &["elverkvinde", "kvinde", "magi"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Elfe"),
+            keywords: &["Elbin", "Elfe", "magisch"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("γυναίκα ξωτικό"),
+            keywords: &["γυναίκα ξωτικό", "μαγική"],
+        },
+        crate::Annotation {
             lang: "en",
             tts: Some("woman elf"),
             keywords: &["magical", "woman elf"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("elfa"),
+            keywords: &["elfa", "mujer", "mágico"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("naispäkapikk"),
+            keywords: &["maagiline", "naispäkapikk"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("emakume elfo"),
+            keywords: &["emakume elfo", "magiko"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("ا\u{650}لف زن"),
+            keywords: &["ا\u{650}لف زن", "جادویی", "سحرآمیز"],
         },
         crate::Annotation {
             lang: "fi",
@@ -3220,6 +16049,475 @@ pub const WOMAN_ELF: crate::Emoji = crate::Emoji {
                 "keiju",
                 "suippokorva",
             ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("babaeng duwende"),
+            keywords: &["babaeng duwende", "mahiwaga"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("konufólka álva"),
+            keywords: &["konufólka álva", "maður", "álva", "ævintýr"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("elfe femme"),
+            keywords: &["elfe femme", "magique"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["elfe", "femme", "magique"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("síofra baineann"),
+            keywords: &["draíochtúil", "síofra baineann", "síofróg"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("bean-ailbhear"),
+            keywords: &["bean-ailbhear", "draoidheach"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("elfo de sexo feminino"),
+            keywords: &["elfa", "elfo de sexo feminino"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સ\u{acd}ત\u{acd}રી ઈલ\u{acd}ફ"),
+            keywords: &["સ\u{acd}ત\u{acd}રી ઈલ\u{acd}ફ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("jinsiri na mace"),
+            keywords: &["abin dabo", "jinsiri na mace"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("אלפית"),
+            keywords: &["אלפית", "יצור קסום"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("जाद\u{941}ई स\u{94d}त\u{94d}री"),
+            keywords: &["जाद\u{941}ई", "जाद\u{941}ई स\u{94d}त\u{94d}री"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("vilenjakinja"),
+            keywords: &["magično", "vilenjakinja"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("női tünde"),
+            keywords: &["mágikus", "női tünde"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("կին-էլֆ"),
+            keywords: &["կախարդական", "կախարդանք", "կին-էլֆ", "հեքիաթ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("kurcaci wanita"),
+            keywords: &["ajaib", "kurcaci wanita"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("nwanyị elfụ"),
+            keywords: &["nwanyị elfụ", "àbràkàtabrà"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("huldukona"),
+            keywords: &["huldukona"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("elfo donna"),
+            keywords: &["elfo donna", "magico"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("女のエルフ"),
+            keywords: &["エルフ", "女", "女のエルフ", "女性"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("peri wadon"),
+            keywords: &["ajaib", "peri wadon"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ქალი ელფი"),
+            keywords: &["ზღაპარი", "მაგიური", "ქალი ელფი", "ჯადოსნული"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("әйел ергежейлі"),
+            keywords: &["әйел ергежейлі"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("អែលហ\u{17d2}វស\u{17d2}រ\u{17b8}"),
+            keywords: &["ដែលចេះវេទមន\u{17d2}ត", "អែលហ\u{17d2}វស\u{17d2}រ\u{17b8}"],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಮಹ\u{cbf}ಳ\u{cc6} ಯಕ\u{ccd}ಷ\u{cbf}ಣ\u{cbf}"),
+            keywords: &[
+                "ಮಹ\u{cbf}ಳ\u{cc6} ಯಕ\u{ccd}ಷ\u{cbf}ಣ\u{cbf}",
+                "ಮಾಂತ\u{ccd}ರ\u{cbf}ಕ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("여자 엘프"),
+            keywords: &["여자 엘프"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("वन द\u{947}वी"),
+            keywords: &["जाद\u{941}ई", "वन द\u{947}वी"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("аял эльф"),
+            keywords: &["аял эльф", "кереметтүү"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Elfefra"),
+            keywords: &["Elfefra", "magesch"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ເອວຟ\u{ecc}ຜ\u{eb9}\u{ec9}ຍ\u{eb4}ງ"),
+            keywords: &["ວ\u{eb4}ເສດ", "ເອວຟ\u{ecc}ຜ\u{eb9}\u{ec9}ຍ\u{eb4}ງ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("elfė"),
+            keywords: &["elfė", "magiška"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("elfa"),
+            keywords: &["elfa", "maģiska"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("erepe wahine"),
+            keywords: &["erepe wahine", "mākutu"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("жена шумски елф"),
+            keywords: &["жена шумски елф", "магично"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("പെൺ ദ\u{d41}ർഭ\u{d42}തം"),
+            keywords: &["പെൺ ദ\u{d41}ർഭ\u{d42}തം", "മ\u{d3e}ന\u{d4d}ത\u{d4d}രികം"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("эмэгтэй одой"),
+            keywords: &["ид шидийн", "эмэгтэй одой"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("वनद\u{947}वी"),
+            keywords: &["चमत\u{94d}कारी", "वनद\u{947}वी"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("orang halus wanita"),
+            keywords: &["ajaib", "orang halus wanita"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("għafrit mara"),
+            keywords: &["għafrit mara", "maġiku"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အမျ\u{102d}\u{102f}းသမ\u{102e}း နတ\u{103a}သ\u{1030}ငယ\u{103a}"),
+            keywords: &[
+                "ပယောဂဆန\u{103a}သော",
+                "အမျ\u{102d}\u{102f}းသမ\u{102e}း နတ\u{103a}သ\u{1030}ငယ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("kvinnelig alv"),
+            keywords: &["kvinnelig alv", "magi"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("सानो छोरीमान\u{94d}छ\u{947}को स\u{94d}वर\u{941}प भएको जीव"),
+            keywords: &[
+                "जाद\u{941}मय",
+                "सानो छोरीमान\u{94d}छ\u{947}को स\u{94d}वर\u{941}प भएको जीव",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("vrouwelijke elf"),
+            keywords: &["magisch", "vrouwelijke elf"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("kvinneleg alv"),
+            keywords: &["kvinneleg alv", "magi"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ମହ\u{b3f}ଳ\u{b3e} ଅପ\u{b4d}ସର\u{b3e}"),
+            keywords: &[
+                "କ\u{b41}ହ\u{b41}କ ସମ\u{b4d}ବନ\u{b4d}ଧୀୟ",
+                "ମହ\u{b3f}ଳ\u{b3e} ଅପ\u{b4d}ସର\u{b3e}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਬ\u{a4c}ਣੀ"),
+            keywords: &["ਜਾਦ\u{a42}ਈ", "ਬ\u{a4c}ਣੀ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ب\u{64f}ھوت زنانی"),
+            keywords: &["ب\u{64f}ھوت زنانی", "جادوئی"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Wúmán Ẹlf"),
+            keywords: &["Májik", "Wúmán Ẹlf"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("kobieta elf"),
+            keywords: &["kobieta elf", "magiczny"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("ښځه ګوړا"),
+            keywords: &["جادويي", "ښځه ګوړا"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("elfa"),
+            keywords: &["duende mulher", "elfa"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("elfo (mulher)"),
+            keywords: &["elfo (mulher)", "mágico"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("warmi elfo"),
+            keywords: &["magico", "warmi elfo"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("femeie elf"),
+            keywords: &["elfă", "femeie elf", "magie"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1258"),
+            keywords: &["E10-1258"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("женщина-эльф"),
+            keywords: &["женщина-эльф", "магия", "фэнтези", "эльф", "эльфийка"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("ishitanikazi"),
+            keywords: &["bitangaje", "ishitanikazi"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("عورت بونا"),
+            keywords: &["جادو", "عورت بونا"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ගෑන\u{dd4} එල\u{dca}ෆ\u{dca}"),
+            keywords: &[
+                "ඉන\u{dca}ද\u{dca}රජ\u{dcf}ල\u{dd2}ක",
+                "ගෑන\u{dd4} එල\u{dca}ෆ\u{dca}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("elfka"),
+            keywords: &["elfka", "fantasy"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("škratovka"),
+            keywords: &["vilinka", "škratovka"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("ruuxaanta haweenka"),
+            keywords: &["ruuxaanta haweenka", "sixir ah"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("grua kukudh"),
+            keywords: &["grua kukudh", "magjik"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("жена виловњак"),
+            keywords: &["жена виловњак", "магична жена"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("žena vilovnjak"),
+            keywords: &["magična žena", "žena vilovnjak"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("kvinnlig alv"),
+            keywords: &["kvinnlig alv", "magisk"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kibwengo cha kike"),
+            keywords: &["kibwengo cha kike", "kibwengo wa kike", "mazingaombwe"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("பெண\u{bcd} எல\u{bcd}ஃப\u{bcd}"),
+            keywords: &[
+                "கற\u{bcd}பனைக\u{bcd} கத\u{bbe}ப\u{bbe}த\u{bcd}திரம\u{bcd}",
+                "பெண\u{bcd} எல\u{bcd}ஃப\u{bcd}",
+                "மந\u{bcd}திரவ\u{bbe}தம\u{bcd}",
+                "ம\u{bbe}யக\u{bcd}கதை",
+                "மேஜிக\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("మ\u{c3e}ంత\u{c4d}ర\u{c3f}కుర\u{c3e}లు"),
+            keywords: &[
+                "మ\u{c3e}ంత\u{c4d}ర\u{c3f}క",
+                "మ\u{c3e}ంత\u{c4d}ర\u{c3f}కుర\u{c3e}లు",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("зани пакана"),
+            keywords: &["зани пакана", "соҳирӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("เอลฟ\u{e4c}ผ\u{e39}\u{e49}หญ\u{e34}ง"),
+            keywords: &["จอมเวทย\u{e4c}", "เอลฟ\u{e4c}ผ\u{e39}\u{e49}หญ\u{e34}ง"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("aýal elf"),
+            keywords: &["aýal elf", "jadyly"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("kiʻi feeli fefine"),
+            keywords: &["kiʻi feeli fefine"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("kadın elf"),
+            keywords: &["kadın elf", "sihirli"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئايال پىر"),
+            keywords: &["ئايال پىر", "سېھرىي"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("жінка-ельф"),
+            keywords: &["жінка-ельф", "чарівна"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("پریت عورت"),
+            keywords: &["جادوئی", "پریت عورت"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("ayol elf"),
+            keywords: &["ayol", "ayol elf", "ertak", "quloq", "sehrli"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("nữ quỷ"),
+            keywords: &["nữ quỷ", "phép thuật"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("elfe bu jigéen"),
+            keywords: &["elfe bu jigéen", "yéeme"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("uhili olibhinqa"),
+            keywords: &["ubugqi", "uhili olibhinqa"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("egbére obìnrin"),
+            keywords: &["egbére obìnrin", "ìdán"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("女精靈"),
+            keywords: &["女精靈", "神奇"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("女精灵"),
+            keywords: &["女精灵", "神奇"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("女小精灵"),
+            keywords: &["女小精灵", "女性魔术"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("女精靈"),
+            keywords: &["女精靈"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["女精靈", "女精靈｜魔法"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("i-elf yesifazane"),
+            keywords: &["i-elf yesifazane", "okomlingo"],
         },
     ],
 };
@@ -3344,190 +16642,14 @@ pub const WOMAN_ELF_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     annotations: &[],
 };
 #[doc = "🧞"]
-pub const GENIE: crate::Emoji = crate::Emoji {
-    glyph: "🧞",
-    codepoint: "1F9DE",
-    status: crate::Status::FullyQualified,
-    introduction_version: 5f32,
-    name: "genie",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("genie"),
-            keywords: &["djinn", "genie"],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("henki"),
-            keywords: &["genius", "henki", "jinni", "juno", "lamppu"],
-        },
-    ],
-};
+pub const GENIE : crate :: Emoji = crate :: Emoji { glyph : "🧞" , codepoint : "1F9DE" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "genie" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("towergees") , keywords : & ["djinn" , "towergees"] , } , crate :: Annotation { lang : "am" , tts : Some ("ጅኒ") , keywords : & ["ጅኒ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مارد سحري") , keywords : & ["مارد سحري"] , } , crate :: Annotation { lang : "as" , tts : Some ("জিন") , keywords : & ["জিন" , "প\u{9cd}ৰেত"] , } , crate :: Annotation { lang : "az" , tts : Some ("cin") , keywords : & ["cin"] , } , crate :: Annotation { lang : "be" , tts : Some ("джын") , keywords : & ["джын"] , } , crate :: Annotation { lang : "bg" , tts : Some ("женски джин") , keywords : & ["джин" , "дух" , "женски джин"] , } , crate :: Annotation { lang : "bn" , tts : Some ("জীনি") , keywords : & ["জীনি" , "জ\u{9cd}বীন জ\u{9be}তি"] , } , crate :: Annotation { lang : "bs" , tts : Some ("duh iz boce") , keywords : & ["duh iz boce" , "džin"] , } , crate :: Annotation { lang : "ca" , tts : Some ("geni") , keywords : & ["geni"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᏥᎾᏱ") , keywords : & ["ᏥᎾᏱ" , "ᏥᏂ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("duch z lahve") , keywords : & ["aladin" , "duch" , "duch z lahve" , "džin" , "lahev" , "lampa"] , } , crate :: Annotation { lang : "cy" , tts : Some ("genie") , keywords : & ["djinn" , "genie"] , } , crate :: Annotation { lang : "da" , tts : Some ("magisk ånd") , keywords : & ["lampe" , "magi" , "magisk ånd"] , } , crate :: Annotation { lang : "de" , tts : Some ("Flaschengeist") , keywords : & ["Dschinn" , "Flaschengeist"] , } , crate :: Annotation { lang : "el" , tts : Some ("τζίνι") , keywords : & ["τζίνι"] , } , crate :: Annotation { lang : "en" , tts : Some ("genie") , keywords : & ["djinn" , "genie"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("genio") , keywords : & ["genio" , "lámpara"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("džinn") , keywords : & ["džinn"] , } , crate :: Annotation { lang : "eu" , tts : Some ("iratxo") , keywords : & ["djinn" , "iratxo"] , } , crate :: Annotation { lang : "fa" , tts : Some ("جن") , keywords : & ["جن" , "غول چراغ"] , } , crate :: Annotation { lang : "fi" , tts : Some ("henki") , keywords : & ["genius" , "henki" , "jinni" , "juno" , "lamppu"] , } , crate :: Annotation { lang : "fil" , tts : Some ("genie") , keywords : & ["djinn" , "genie"] , } , crate :: Annotation { lang : "fo" , tts : Some ("andi") , keywords : & ["andi" , "ævintýr"] , } , crate :: Annotation { lang : "fr" , tts : Some ("génie") , keywords : & ["djinn" , "génie"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("ginid") , keywords : & ["ginid" , "sióg"] , } , crate :: Annotation { lang : "gd" , tts : Some ("taibhse Arabach") , keywords : & ["djinn" , "genie" , "taibhse" , "taibhse Arabach"] , } , crate :: Annotation { lang : "gl" , tts : Some ("xenio") , keywords : & ["desexos" , "xenio"] , } , crate :: Annotation { lang : "gu" , tts : Some ("જીની") , keywords : & ["જીની"] , } , crate :: Annotation { lang : "ha" , tts : Some ("aljanin larabawa") , keywords : & ["aljani" , "aljanin larabawa"] , } , crate :: Annotation { lang : "he" , tts : Some ("שד") , keywords : & ["אשמדאי" , "ג׳יני" , "שד" , "שדון"] , } , crate :: Annotation { lang : "hi" , tts : Some ("जिन\u{94d}न") , keywords : & ["जिनी" , "जिन\u{94d}न"] , } , crate :: Annotation { lang : "hr" , tts : Some ("džin") , keywords : & ["duh" , "džin"] , } , crate :: Annotation { lang : "hu" , tts : Some ("dzsinn") , keywords : & ["dzsinn"] , } , crate :: Annotation { lang : "hy" , tts : Some ("ջին") , keywords : & ["հեքիաթ" , "ջին"] , } , crate :: Annotation { lang : "id" , tts : Some ("jin") , keywords : & ["jin"] , } , crate :: Annotation { lang : "ig" , tts : Some ("nwa mmegbu") , keywords : & ["mmụọ siri ike" , "nwa mmegbu"] , } , crate :: Annotation { lang : "is" , tts : Some ("andi") , keywords : & ["andi" , "djinn"] , } , crate :: Annotation { lang : "it" , tts : Some ("genio") , keywords : & ["djinn" , "genio"] , } , crate :: Annotation { lang : "ja" , tts : Some ("精霊") , keywords : & ["精霊" , "魔神"] , } , crate :: Annotation { lang : "jv" , tts : Some ("bangsa jim") , keywords : & ["bangsa jim" , "jin"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ჯინი") , keywords : & ["ლამპარი" , "ჯინი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("жын") , keywords : & ["жын"] , } , crate :: Annotation { lang : "km" , tts : Some ("ជ\u{17b8}ន\u{17b8}") , keywords : & ["ជ\u{17b8}ន" , "ជ\u{17b8}ន\u{17b8}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಜ\u{cbf}ನೀ") , keywords : & ["ಜ\u{cbf}ಂಜನ\u{ccd}" , "ಜ\u{cbf}ನೀ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("지니") , keywords : & ["정령" , "지니"] , } , crate :: Annotation { lang : "kok" , tts : Some ("जिनी") , keywords : & ["जिनी" , "जीन"] , } , crate :: Annotation { lang : "ky" , tts : Some ("жин") , keywords : & ["жин"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Genie") , keywords : & ["Djinn" , "Genie"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຈ\u{eb4}ນ\u{eb5}\u{ec8}") , keywords : & ["ຈ\u{eb4}ນ\u{eb5}\u{ec8}" , "ດ\u{eb5}ຈ\u{eb4}ນ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("dvasia") , keywords : & ["dvasia" , "džinas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("džins") , keywords : & ["burvis" , "džins"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tūrehu") , keywords : & ["djinn" , "tūrehu"] , } , crate :: Annotation { lang : "mk" , tts : Some ("џини") , keywords : & ["џин" , "џини"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ജിന\u{d4d}ന\u{d4d}") , keywords : & ["ജിന\u{d4d}ന\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("жини") , keywords : & ["Жин" , "жини"] , } , crate :: Annotation { lang : "mr" , tts : Some ("जिनी") , keywords : & ["जिनी" , "जिन\u{94d}न"] , } , crate :: Annotation { lang : "ms" , tts : Some ("jin") , keywords : & ["jin"] , } , crate :: Annotation { lang : "mt" , tts : Some ("ġenju") , keywords : & ["djinn" , "ġenju"] , } , crate :: Annotation { lang : "my" , tts : Some ("မ\u{102e}းခ\u{103d}က\u{103a}စောင\u{1037}\u{103a}ဘ\u{102e}လ\u{1030}း") , keywords : & ["မ\u{102e}းခ\u{103d}က\u{103a}စောင\u{1037}\u{103a} နတ\u{103a}ဘ\u{102e}လ\u{1030}းတစ\u{103a}မျ\u{102d}\u{102f}း" , "မ\u{102e}းခ\u{103d}က\u{103a}စောင\u{1037}\u{103a}ဘ\u{102e}လ\u{1030}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("ånd") , keywords : & ["djinn" , "ånd"] , } , crate :: Annotation { lang : "ne" , tts : Some ("अलौ\u{902}किक शक\u{94d}ति") , keywords : & ["अलौ\u{902}किक शक\u{94d}ति" , "जिन"] , } , crate :: Annotation { lang : "nl" , tts : Some ("geest in de fles") , keywords : & ["djinn" , "geest in de fles"] , } , crate :: Annotation { lang : "nn" , tts : Some ("ånd") , keywords : & ["djinn" , "ånd"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଜ\u{b3f}ନ\u{b3f}") , keywords : & ["ଜ\u{b3f}ନ\u{b3f}" , "ଜ\u{b3f}ନ\u{b4d}ନ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਜਿ\u{a70}ਨ") , keywords : & ["ਜਿਨੀ" , "ਜਿ\u{a70}ਨ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("جن") , keywords : & ["جن" , "ل\u{64f}کی ہوئی مخلوق"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Jiínii") , keywords : & ["Bád Spírit Wé Im Nem Na Jiínii" , "Bád Spírit Wé Im Nem Na Jíin" , "Jiínii" , "Jíin"] , } , crate :: Annotation { lang : "pl" , tts : Some ("dżin") , keywords : & ["dżin"] , } , crate :: Annotation { lang : "ps" , tts : Some ("جینی") , keywords : & ["جين" , "جینی"] , } , crate :: Annotation { lang : "pt" , tts : Some ("gênio") , keywords : & ["gênio"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("génio") , keywords : & ["djinn" , "génio"] , } , crate :: Annotation { lang : "qu" , tts : Some ("genio lamparamanta") , keywords : & ["genio" , "genio lamparamanta"] , } , crate :: Annotation { lang : "ro" , tts : Some ("duh") , keywords : & ["djinn" , "duh"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1135") , keywords : & ["E10-1135"] , } , crate :: Annotation { lang : "ru" , tts : Some ("джинн") , keywords : & ["джинн" , "лампа" , "потереть" , "сказка"] , } , crate :: Annotation { lang : "rw" , tts : Some ("igini") , keywords : & ["igini" , "ijini"] , } , crate :: Annotation { lang : "sd" , tts : Some ("جن") , keywords : & ["جن"] , } , crate :: Annotation { lang : "si" , tts : Some ("බහ\u{dd2}රවය\u{dcf}") , keywords : & ["ජ\u{dd2}න\u{dca}" , "බහ\u{dd2}රවය\u{dcf}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("džin") , keywords : & ["džin" , "fľaša" , "lampa"] , } , crate :: Annotation { lang : "sl" , tts : Some ("duh iz steklenice") , keywords : & ["duh iz steklenice"] , } , crate :: Annotation { lang : "so" , tts : Some ("jinka") , keywords : & ["jinka" , "sixirka jinka"] , } , crate :: Annotation { lang : "sq" , tts : Some ("xhind") , keywords : & ["xhind"] , } , crate :: Annotation { lang : "sr" , tts : Some ("добри дух") , keywords : & ["добри дух" , "џин"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("dobri duh") , keywords : & ["dobri duh" , "džin"] , } , crate :: Annotation { lang : "sv" , tts : Some ("ande") , keywords : & ["ande" , "djinn"] , } , crate :: Annotation { lang : "sw" , tts : Some ("jini") , keywords : & ["jini" , "pepo jini"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஜ\u{bc0}னி") , keywords : & ["ஜ\u{bc0}னி" , "டிஜின\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("జ\u{c3f}న\u{c40}") , keywords : & ["జ\u{c3f}న\u{c40}" , "జ\u{c3f}న\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("ҷин") , keywords : & ["ҷин"] , } , crate :: Annotation { lang : "th" , tts : Some ("ย\u{e31}กษ\u{e4c}จ\u{e35}น\u{e35}\u{e48}") , keywords : & ["ย\u{e31}กษ\u{e4c}จ\u{e34}นน\u{e35}\u{e48}" , "ย\u{e31}กษ\u{e4c}จ\u{e35}น\u{e35}\u{e48}"] , } , crate :: Annotation { lang : "tk" , tts : Some ("jyn-arwah") , keywords : & ["jyn" , "jyn-arwah"] , } , crate :: Annotation { lang : "to" , tts : Some ("faʻahikehe") , keywords : & ["faʻahikehe"] , } , crate :: Annotation { lang : "tr" , tts : Some ("cin") , keywords : & ["cin"] , } , crate :: Annotation { lang : "ug" , tts : Some ("شاياتۇن") , keywords : & ["جىن" , "شاياتۇن"] , } , crate :: Annotation { lang : "uk" , tts : Some ("джин") , keywords : & ["джин"] , } , crate :: Annotation { lang : "ur" , tts : Some ("جن") , keywords : & ["جن"] , } , crate :: Annotation { lang : "uz" , tts : Some ("jin") , keywords : & ["afsun" , "chiroq" , "ertak" , "jin"] , } , crate :: Annotation { lang : "vi" , tts : Some ("thần") , keywords : & ["ma thần" , "thần"] , } , crate :: Annotation { lang : "wo" , tts : Some ("jinne") , keywords : & ["jinne"] , } , crate :: Annotation { lang : "xh" , tts : Some ("i-genie") , keywords : & ["i-djinn" , "i-genie"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Ànjọ\u{300}nnú") , keywords : & ["Ànjọ\u{300}nnú" , "Ànjọ\u{300}nnú arabia"] , } , crate :: Annotation { lang : "yue" , tts : Some ("神燈精靈") , keywords : & ["巨靈" , "神燈精靈"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("神灯精灵") , keywords : & ["巨灵" , "神灯精灵"] , } , crate :: Annotation { lang : "zh" , tts : Some ("妖怪") , keywords : & ["妖怪" , "神灵"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("精靈") , keywords : & ["精靈"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("燈神") , keywords : & ["燈神" , "精靈｜燈神"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ijeni") , keywords : & ["i-djinn" , "ijeni"] , }] , } ;
 #[doc = "🧞\u{200d}♂\u{fe0f}"]
-pub const MAN_GENIE: crate::Emoji = crate::Emoji {
-    glyph: "🧞\u{200d}♂\u{fe0f}",
-    codepoint: "1F9DE 200D 2642 FE0F",
-    status: crate::Status::FullyQualified,
-    introduction_version: 5f32,
-    name: "man genie",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[crate::Emoji {
-        glyph: "🧞\u{200d}♂",
-        codepoint: "1F9DE 200D 2642",
-        status: crate::Status::MinimallyQualified,
-        introduction_version: 5f32,
-        name: "man genie",
-        group: "People & Body",
-        subgroup: "person-fantasy",
-        is_variant: true,
-        variants: &[],
-        annotations: &[],
-    }],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("man genie"),
-            keywords: &["djinn", "man genie"],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("mieshenki"),
-            keywords: &["genius", "henki", "jinni", "lamppu", "mieshenki"],
-        },
-    ],
-};
+pub const MAN_GENIE : crate :: Emoji = crate :: Emoji { glyph : "🧞\u{200d}♂\u{fe0f}" , codepoint : "1F9DE 200D 2642 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "man genie" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [crate :: Emoji { glyph : "🧞\u{200d}♂" , codepoint : "1F9DE 200D 2642" , status : crate :: Status :: MinimallyQualified , introduction_version : 5f32 , name : "man genie" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("manlike towergees") , keywords : & ["djinn" , "manlike towergees"] , } , crate :: Annotation { lang : "am" , tts : Some ("ወንድ ጅኒ") , keywords : & ["ወንድ ጅኒ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مارد") , keywords : & ["مارد"] , } , crate :: Annotation { lang : "as" , tts : Some ("প\u{9c1}ৰ\u{9c1}ষৰ আত\u{9cd}ম\u{9be}") , keywords : & ["প\u{9c1}ৰ\u{9c1}ষৰ আত\u{9cd}ম\u{9be}" , "প\u{9cd}ৰেত"] , } , crate :: Annotation { lang : "az" , tts : Some ("kişi cin") , keywords : & ["cin" , "kişi cin"] , } , crate :: Annotation { lang : "be" , tts : Some ("мужчына-джын") , keywords : & ["джын" , "мужчына-джын"] , } , crate :: Annotation { lang : "bg" , tts : Some ("мъж джин") , keywords : & ["джин" , "мъж джин"] , } , crate :: Annotation { lang : "bn" , tts : Some ("প\u{9c1}র\u{9c1}ষ জীনি") , keywords : & ["জ\u{9cd}বীন জ\u{9be}তি" , "প\u{9c1}র\u{9c1}ষ জীনি"] , } , crate :: Annotation { lang : "bs" , tts : Some ("muškarac duh iz boce") , keywords : & ["džin" , "muškarac duh iz boce"] , } , crate :: Annotation { lang : "ca" , tts : Some ("home geni") , keywords : & ["geni" , "home geni"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏍᎦᏯ ᏥᎾᏱ") , keywords : & ["ᎠᏍᎦᏯ ᏥᎾᏱ" , "ᏥᏂ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("džin") , keywords : & ["aladin" , "duch" , "džin" , "lahev" , "lampa" , "muž"] , } , crate :: Annotation { lang : "cy" , tts : Some ("genie gwrywaidd") , keywords : & ["djinn" , "genie gwrywaidd"] , } , crate :: Annotation { lang : "da" , tts : Some ("mandlig magisk ånd") , keywords : & ["magi" , "mand" , "mandlig magisk ånd"] , } , crate :: Annotation { lang : "de" , tts : Some ("männlicher Flaschengeist") , keywords : & ["Dschinn" , "männlicher Flaschengeist"] , } , crate :: Annotation { lang : "el" , tts : Some ("άντρας τζίνι") , keywords : & ["άντρας τζίνι" , "τζίνι"] , } , crate :: Annotation { lang : "en" , tts : Some ("man genie") , keywords : & ["djinn" , "man genie"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("genio hombre") , keywords : & ["djinn" , "genio" , "genio hombre" , "lámpara"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("meesdžinn") , keywords : & ["džinn" , "meesdžinn"] , } , crate :: Annotation { lang : "eu" , tts : Some ("gizon iratxo") , keywords : & ["djinn" , "gizon iratxo"] , } , crate :: Annotation { lang : "fa" , tts : Some ("مرد جن") , keywords : & ["جن" , "جن مرد" , "غول چراغ" , "مرد جن"] , } , crate :: Annotation { lang : "fi" , tts : Some ("mieshenki") , keywords : & ["genius" , "henki" , "jinni" , "lamppu" , "mieshenki"] , } , crate :: Annotation { lang : "fil" , tts : Some ("lalaking genie") , keywords : & ["djinn" , "lalaking genie"] , } , crate :: Annotation { lang : "fo" , tts : Some ("mannligur andi") , keywords : & ["andi" , "mannligur andi" , "maður" , "ævintýr"] , } , crate :: Annotation { lang : "fr" , tts : Some ("génie homme") , keywords : & ["djinn" , "génie homme"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["djinn" , "génie" , "homme"] , } , crate :: Annotation { lang : "ga" , tts : Some ("ginid fhireann") , keywords : & ["fearann" , "ginid" , "ginid fhireann" , "sióg"] , } , crate :: Annotation { lang : "gd" , tts : Some ("taibhse fhireann") , keywords : & ["djinn" , "genie" , "taibhse" , "taibhse fhireann"] , } , crate :: Annotation { lang : "gl" , tts : Some ("xenio de sexo masculino") , keywords : & ["desexos" , "xenio" , "xenio de sexo masculino"] , } , crate :: Annotation { lang : "gu" , tts : Some ("પ\u{ac1}ર\u{ac1}ષ જીની") , keywords : & ["પ\u{ac1}ર\u{ac1}ષ જીની"] , } , crate :: Annotation { lang : "ha" , tts : Some ("aljanin larabawa namiji") , keywords : & ["aljani" , "aljanin larabawa namiji"] , } , crate :: Annotation { lang : "he" , tts : Some ("דמון") , keywords : & ["אשמדאי" , "ג׳יני" , "דמון" , "שד" , "שדון"] , } , crate :: Annotation { lang : "hi" , tts : Some ("प\u{941}र\u{941}ष जिन\u{94d}न") , keywords : & ["जिन\u{94d}न" , "प\u{941}र\u{941}ष जिन\u{94d}न"] , } , crate :: Annotation { lang : "hr" , tts : Some ("muški džin") , keywords : & ["duh" , "muški džin"] , } , crate :: Annotation { lang : "hu" , tts : Some ("férfi dzsinn") , keywords : & ["dzsinn" , "férfi dzsinn"] , } , crate :: Annotation { lang : "hy" , tts : Some ("տղամարդ ջին") , keywords : & ["հեքիաթ" , "ջին" , "տղամարդ ջին"] , } , crate :: Annotation { lang : "id" , tts : Some ("jin pria") , keywords : & ["jin" , "jin pria"] , } , crate :: Annotation { lang : "ig" , tts : Some ("nwoke mmegbu") , keywords : & ["mmụọ siri ike" , "nwoke mmegbu"] , } , crate :: Annotation { lang : "is" , tts : Some ("karlkyns andi") , keywords : & ["djinn" , "karlkyns andi"] , } , crate :: Annotation { lang : "it" , tts : Some ("genio uomo") , keywords : & ["djinn" , "genio uomo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("男の精霊") , keywords : & ["男" , "男の精霊" , "男性" , "精霊" , "魔神"] , } , crate :: Annotation { lang : "jv" , tts : Some ("jim lanang") , keywords : & ["jim lanang" , "jin"] , } , crate :: Annotation { lang : "ka" , tts : Some ("კაცი ჯინი") , keywords : & ["კაცი ჯინი" , "ლამპარი" , "ჯინი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("ер жын") , keywords : & ["ер жын"] , } , crate :: Annotation { lang : "km" , tts : Some ("ជ\u{17b8}ន\u{17b8}ប\u{17d2}រ\u{17bb}ស") , keywords : & ["ជ\u{17b8}ន" , "ជ\u{17b8}ន\u{17b8}ប\u{17d2}រ\u{17bb}ស"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಪುರುಷ ಜ\u{cbf}ನೀ") , keywords : & ["ಜ\u{cbf}ನೀ" , "ಪುರುಷ ಜ\u{cbf}ನೀ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("남자 지니") , keywords : & ["남자 지니" , "정령"] , } , crate :: Annotation { lang : "kok" , tts : Some ("दादलो जीन") , keywords : & ["जीन" , "दादलो जिनी" , "दादलो जीन"] , } , crate :: Annotation { lang : "ky" , tts : Some ("эркек жин") , keywords : & ["жин" , "эркек жин"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Geniemann") , keywords : & ["Djinn" , "Geniemann"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຈ\u{eb4}ນ\u{eb5}\u{ec8}ຊາຍ") , keywords : & ["ຈ\u{eb4}ນ\u{eb5}\u{ec8}ຊາຍ" , "ດ\u{eb5}ຈ\u{eb4}ນ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("džinas") , keywords : & ["džinas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("vīrietis džins") , keywords : & ["burvis" , "džins" , "vīrietis džins"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tāne tūrehu") , keywords : & ["djinn" , "tāne tūrehu"] , } , crate :: Annotation { lang : "mk" , tts : Some ("маж џини") , keywords : & ["маж џини" , "џин"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ആൺ ജിന\u{d4d}ന\u{d4d}") , keywords : & ["ആൺ ജിന\u{d4d}ന\u{d4d}" , "ജിന\u{d4d}ന\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("эрэгтэй жини") , keywords : & ["жинь" , "эрэгтэй жини"] , } , crate :: Annotation { lang : "mr" , tts : Some ("प\u{941}र\u{942}ष जिनी") , keywords : & ["जिन\u{94d}न" , "प\u{941}र\u{942}ष जिनी"] , } , crate :: Annotation { lang : "ms" , tts : Some ("jin jantan") , keywords : & ["jin" , "jin jantan"] , } , crate :: Annotation { lang : "mt" , tts : Some ("ġenju raġel") , keywords : & ["djinn" , "ġenju raġel"] , } , crate :: Annotation { lang : "my" , tts : Some ("အမျ\u{102d}\u{102f}းသား မ\u{102e}းခ\u{103d}က\u{103a}စောင\u{1037}\u{103a}ဘ\u{102e}းလ\u{1030}း") , keywords : & ["မ\u{102e}းခ\u{103d}က\u{103a}စောင\u{1037}\u{103a} နတ\u{103a}ဘ\u{102e}လ\u{1030}းတစ\u{103a}မျ\u{102d}\u{102f}း" , "အမျ\u{102d}\u{102f}းသား မ\u{102e}းခ\u{103d}က\u{103a}စောင\u{1037}\u{103a}ဘ\u{102e}းလ\u{1030}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("mannlig ånd") , keywords : & ["djinn" , "mannlig ånd"] , } , crate :: Annotation { lang : "ne" , tts : Some ("अलौ\u{902}किक शक\u{94d}ति भएको छोरामान\u{94d}छ\u{947}") , keywords : & ["अलौ\u{902}किक शक\u{94d}ति भएको छोरामान\u{94d}छ\u{947}" , "जिन"] , } , crate :: Annotation { lang : "nl" , tts : Some ("mannelijke geest in de fles") , keywords : & ["djinn" , "mannelijke geest in de fles"] , } , crate :: Annotation { lang : "nn" , tts : Some ("mannleg ånd") , keywords : & ["djinn" , "mannleg ånd"] , } , crate :: Annotation { lang : "or" , tts : Some ("ପ\u{b41}ର\u{b41}ଷ ଜ\u{b3f}ନ\u{b3f}") , keywords : & ["ଜ\u{b3f}ନ\u{b4d}ନ" , "ପ\u{b41}ର\u{b41}ଷ ଜ\u{b3f}ନ\u{b3f}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਪ\u{a41}ਰਸ\u{a3c} ਜਿ\u{a70}ਨ") , keywords : & ["ਜਿਨੀ" , "ਪ\u{a41}ਰਸ\u{a3c} ਜਿ\u{a70}ਨ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("مرد جن") , keywords : & ["ل\u{64f}کی ہوئی مخلوق" , "مرد جن"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Mán Jiínii") , keywords : & ["Bád Spírit" , "Jíin" , "Mán Jiínii"] , } , crate :: Annotation { lang : "pl" , tts : Some ("mężczyzna dżin") , keywords : & ["dżin" , "mężczyzna dżin"] , } , crate :: Annotation { lang : "ps" , tts : Some ("سړی جینی") , keywords : & ["جين" , "سړی جینی"] , } , crate :: Annotation { lang : "pt" , tts : Some ("homem gênio") , keywords : & ["homem gênio"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("génio (homem)") , keywords : & ["djinn" , "génio (homem)"] , } , crate :: Annotation { lang : "qu" , tts : Some ("tata genio lamparamanta") , keywords : & ["genio" , "tata genio lamparamanta"] , } , crate :: Annotation { lang : "ro" , tts : Some ("bărbat duh") , keywords : & ["bărbat duh" , "djinn"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1261") , keywords : & ["E10-1261"] , } , crate :: Annotation { lang : "ru" , tts : Some ("мужчина-джинн") , keywords : & ["джинн" , "лампа" , "мужчина" , "мужчина-джинн" , "потереть" , "сказка"] , } , crate :: Annotation { lang : "rw" , tts : Some ("iginigabo") , keywords : & ["iginigabo" , "ijini"] , } , crate :: Annotation { lang : "sd" , tts : Some ("مرد جن") , keywords : & ["جن" , "مرد جن"] , } , crate :: Annotation { lang : "si" , tts : Some ("ප\u{dd2}ර\u{dd2}ම\u{dd2} බහ\u{dd2}රවය\u{dcf}") , keywords : & ["ජ\u{dd2}න\u{dca}" , "ප\u{dd2}ර\u{dd2}ම\u{dd2} බහ\u{dd2}රවය\u{dcf}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("mužský džin") , keywords : & ["džin" , "fľaša" , "lampa" , "mužský džin"] , } , crate :: Annotation { lang : "sl" , tts : Some ("moški duh iz steklenice") , keywords : & ["moški duh iz steklenice"] , } , crate :: Annotation { lang : "so" , tts : Some ("jinka ragga") , keywords : & ["jinka" , "jinka ragga"] , } , crate :: Annotation { lang : "sq" , tts : Some ("burrë xhind") , keywords : & ["burrë xhind" , "xhind"] , } , crate :: Annotation { lang : "sr" , tts : Some ("мушки добри дух") , keywords : & ["мушки добри дух" , "мушки џин"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("muški dobri duh") , keywords : & ["muški dobri duh" , "muški džin"] , } , crate :: Annotation { lang : "sv" , tts : Some ("manlig ande") , keywords : & ["ande" , "manlig ande" , "manlig djinn"] , } , crate :: Annotation { lang : "sw" , tts : Some ("jini dume") , keywords : & ["jini dume" , "mazimwi dume"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஆண\u{bcd} ஜ\u{bc0}னி") , keywords : & ["ஆண\u{bcd} ஜ\u{bc0}னி" , "டிஜின\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("పురుష జ\u{c3f}న\u{c40}") , keywords : & ["జ\u{c3f}న\u{c4d}" , "పురుష జ\u{c3f}న\u{c40}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("марди ҷин") , keywords : & ["марди ҷин" , "ҷин"] , } , crate :: Annotation { lang : "th" , tts : Some ("ย\u{e31}กษ\u{e4c}จ\u{e35}น\u{e35}\u{e48}ชาย") , keywords : & ["ย\u{e31}กษ\u{e4c}จ\u{e34}นน\u{e35}\u{e48}ชาย" , "ย\u{e31}กษ\u{e4c}จ\u{e35}น\u{e35}\u{e48}ชาย"] , } , crate :: Annotation { lang : "tk" , tts : Some ("erkek jyn") , keywords : & ["erkek jyn" , "jyn"] , } , crate :: Annotation { lang : "to" , tts : Some ("faʻahikehe tangata") , keywords : & ["faʻahikehe tangata"] , } , crate :: Annotation { lang : "tr" , tts : Some ("erkek cin") , keywords : & ["cin" , "erkek cin"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئەر جىن") , keywords : & ["ئەر جىن" , "جىن"] , } , crate :: Annotation { lang : "uk" , tts : Some ("чоловік-джин") , keywords : & ["джин" , "чоловік-джин"] , } , crate :: Annotation { lang : "ur" , tts : Some ("مرد جن") , keywords : & ["جن" , "مرد جن"] , } , crate :: Annotation { lang : "uz" , tts : Some ("erkak jin") , keywords : & ["afsun" , "chiroq" , "erkak" , "erkak jin" , "ertak"] , } , crate :: Annotation { lang : "vi" , tts : Some ("nam thần") , keywords : & ["ma thần" , "nam thần"] , } , crate :: Annotation { lang : "wo" , tts : Some ("jinne ju góor") , keywords : & ["jinne" , "jinne ju góor"] , } , crate :: Annotation { lang : "xh" , tts : Some ("indoda ye-genie") , keywords : & ["i-djinn" , "indoda ye-genie"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Ànjọ\u{300}nnú ọkùnrin") , keywords : & ["Ànjọ\u{300}nnú arabia" , "Ànjọ\u{300}nnú ọkùnrin"] , } , crate :: Annotation { lang : "yue" , tts : Some ("男神燈精靈") , keywords : & ["巨靈" , "男神燈精靈"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("男神灯精灵") , keywords : & ["巨灵" , "男神灯精灵"] , } , crate :: Annotation { lang : "zh" , tts : Some ("男妖怪") , keywords : & ["男妖怪" , "男神灵"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("藍精靈") , keywords : & ["藍精靈"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("男燈神") , keywords : & ["男燈神" , "精靈｜男燈神"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ijeni yesilisa") , keywords : & ["i-djinn" , "ijeni yesilisa"] , }] , } ;
 #[doc = "🧞\u{200d}♀\u{fe0f}"]
-pub const WOMAN_GENIE: crate::Emoji = crate::Emoji {
-    glyph: "🧞\u{200d}♀\u{fe0f}",
-    codepoint: "1F9DE 200D 2640 FE0F",
-    status: crate::Status::FullyQualified,
-    introduction_version: 5f32,
-    name: "woman genie",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[crate::Emoji {
-        glyph: "🧞\u{200d}♀",
-        codepoint: "1F9DE 200D 2640",
-        status: crate::Status::MinimallyQualified,
-        introduction_version: 5f32,
-        name: "woman genie",
-        group: "People & Body",
-        subgroup: "person-fantasy",
-        is_variant: true,
-        variants: &[],
-        annotations: &[],
-    }],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("woman genie"),
-            keywords: &["djinn", "woman genie"],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("naishenki"),
-            keywords: &["henki", "juno", "lamppu", "naishenki"],
-        },
-    ],
-};
+pub const WOMAN_GENIE : crate :: Emoji = crate :: Emoji { glyph : "🧞\u{200d}♀\u{fe0f}" , codepoint : "1F9DE 200D 2640 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "woman genie" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [crate :: Emoji { glyph : "🧞\u{200d}♀" , codepoint : "1F9DE 200D 2640" , status : crate :: Status :: MinimallyQualified , introduction_version : 5f32 , name : "woman genie" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("vroulike towergees") , keywords : & ["djinn" , "vroulike towergees"] , } , crate :: Annotation { lang : "am" , tts : Some ("ሴት ጅኒ") , keywords : & ["ሴት ጅኒ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("ماردة") , keywords : & ["ماردة"] , } , crate :: Annotation { lang : "as" , tts : Some ("মহিল\u{9be}ৰ আত\u{9cd}ম\u{9be}") , keywords : & ["প\u{9cd}ৰেত" , "মহিল\u{9be}ৰ আত\u{9cd}ম\u{9be}"] , } , crate :: Annotation { lang : "az" , tts : Some ("qadın cin") , keywords : & ["cin" , "qadın cin"] , } , crate :: Annotation { lang : "be" , tts : Some ("жанчына-джын") , keywords : & ["джын" , "жанчына-джын"] , } , crate :: Annotation { lang : "bg" , tts : Some ("жена джин") , keywords : & ["джин" , "жена джин"] , } , crate :: Annotation { lang : "bn" , tts : Some ("মহিল\u{9be} জীনি") , keywords : & ["জ\u{9cd}বীন জ\u{9be}তি" , "মহিল\u{9be} জীনি"] , } , crate :: Annotation { lang : "bs" , tts : Some ("žena duh iz boce") , keywords : & ["džin" , "žena duh iz boce"] , } , crate :: Annotation { lang : "ca" , tts : Some ("dona geni") , keywords : & ["dona geni" , "geni"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᎨᏯ ᏥᎾᏱ") , keywords : & ["ᎠᎨᏯ ᏥᎾᏱ" , "ᏥᏂ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("džinka") , keywords : & ["aladin" , "duch" , "džin" , "džinka" , "lahev" , "lampa" , "žena"] , } , crate :: Annotation { lang : "cy" , tts : Some ("genie benywaidd") , keywords : & ["djinn" , "genie benywaidd"] , } , crate :: Annotation { lang : "da" , tts : Some ("kvindelig magisk ånd") , keywords : & ["kvinde" , "kvindelig magisk ånd" , "magi"] , } , crate :: Annotation { lang : "de" , tts : Some ("weiblicher Flaschengeist") , keywords : & ["Dschinn" , "weiblicher Flaschengeist"] , } , crate :: Annotation { lang : "el" , tts : Some ("γυναίκα τζίνι") , keywords : & ["γυναίκα τζίνι" , "τζίνι"] , } , crate :: Annotation { lang : "en" , tts : Some ("woman genie") , keywords : & ["djinn" , "woman genie"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("genio mujer") , keywords : & ["genio" , "genio mujer" , "lámpara"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("naisdžinn") , keywords : & ["džinn" , "naisdžinn"] , } , crate :: Annotation { lang : "eu" , tts : Some ("emakume iratxo") , keywords : & ["djinn" , "emakume iratxo"] , } , crate :: Annotation { lang : "fa" , tts : Some ("زن جن") , keywords : & ["جن" , "جن زن" , "زن جن" , "غول چراغ"] , } , crate :: Annotation { lang : "fi" , tts : Some ("naishenki") , keywords : & ["henki" , "juno" , "lamppu" , "naishenki"] , } , crate :: Annotation { lang : "fil" , tts : Some ("babaeng genie") , keywords : & ["babaeng genie" , "djinn"] , } , crate :: Annotation { lang : "fo" , tts : Some ("kvinnuligur andi") , keywords : & ["andi" , "kona" , "kvinna" , "kvinnuligur andi" , "ævintýr"] , } , crate :: Annotation { lang : "fr" , tts : Some ("génie femme") , keywords : & ["djinn" , "génie femme"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["djinn" , "femme" , "génie"] , } , crate :: Annotation { lang : "ga" , tts : Some ("ginid bhaineann") , keywords : & ["baineann" , "ginid" , "ginid bhaineann" , "sióg"] , } , crate :: Annotation { lang : "gd" , tts : Some ("taibhse bhoireann") , keywords : & ["djinn" , "genie" , "taibhse" , "taibhse bhoireann"] , } , crate :: Annotation { lang : "gl" , tts : Some ("xenio de sexo feminino") , keywords : & ["desexos" , "xenia" , "xenio de sexo feminino"] , } , crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}ત\u{acd}રી જીની") , keywords : & ["સ\u{acd}ત\u{acd}રી જીની"] , } , crate :: Annotation { lang : "ha" , tts : Some ("aljanin larabawa na mace") , keywords : & ["aljani" , "aljanin larabawa na mace"] , } , crate :: Annotation { lang : "he" , tts : Some ("שדה") , keywords : & ["ג׳יני" , "שדה" , "שדונית"] , } , crate :: Annotation { lang : "hi" , tts : Some ("स\u{94d}त\u{94d}री जिन\u{94d}न") , keywords : & ["जिन\u{94d}न" , "स\u{94d}त\u{94d}री जिन\u{94d}न"] , } , crate :: Annotation { lang : "hr" , tts : Some ("ženski džin") , keywords : & ["duh" , "ženski džin"] , } , crate :: Annotation { lang : "hu" , tts : Some ("női dzsinn") , keywords : & ["dzsinn" , "női dzsinn"] , } , crate :: Annotation { lang : "hy" , tts : Some ("կին ջին") , keywords : & ["կին ջին" , "հեքիաթ" , "ջին"] , } , crate :: Annotation { lang : "id" , tts : Some ("jin wanita") , keywords : & ["jin" , "jin wanita"] , } , crate :: Annotation { lang : "ig" , tts : Some ("nwanyị mmegbu") , keywords : & ["mmụọ siri ike" , "nwanyị mmegbu"] , } , crate :: Annotation { lang : "is" , tts : Some ("kvenkyns andi") , keywords : & ["djinn" , "kvenkyns andi"] , } , crate :: Annotation { lang : "it" , tts : Some ("genio donna") , keywords : & ["djinn" , "genio donna"] , } , crate :: Annotation { lang : "ja" , tts : Some ("女の精霊") , keywords : & ["女" , "女の精霊" , "女性" , "精霊" , "魔神"] , } , crate :: Annotation { lang : "jv" , tts : Some ("jim wadon") , keywords : & ["jim wadon" , "jin"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ქალი ჯინი") , keywords : & ["ლამპარი" , "ქალი ჯინი" , "ჯინი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("әйел жын") , keywords : & ["әйел жын"] , } , crate :: Annotation { lang : "km" , tts : Some ("ជ\u{17b8}ន\u{17b8}ស\u{17d2}រ\u{17b8}") , keywords : & ["ជ\u{17b8}ន" , "ជ\u{17b8}ន\u{17b8}ស\u{17d2}រ\u{17b8}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಮಹ\u{cbf}ಳ\u{cc6} ಜ\u{cbf}ನೀ") , keywords : & ["ಜ\u{cbf}ಂಜನ\u{ccd}" , "ಮಹ\u{cbf}ಳ\u{cc6} ಜ\u{cbf}ನೀ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("여자 지니") , keywords : & ["여자 지니" , "정령"] , } , crate :: Annotation { lang : "kok" , tts : Some ("बायल जिनी") , keywords : & ["जीन" , "बायल जिनी"] , } , crate :: Annotation { lang : "ky" , tts : Some ("албарсты") , keywords : & ["албарсты" , "жин"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Geniefra") , keywords : & ["Djinn" , "Geniefra"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຈ\u{eb4}ນ\u{eb5}\u{ec8}ຍ\u{eb4}ງ") , keywords : & ["ຈ\u{eb4}ນ\u{eb5}\u{ec8}ຍ\u{eb4}ງ" , "ດ\u{eb5}ຈ\u{eb4}ນ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("džinė") , keywords : & ["džinė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("sieviete džins") , keywords : & ["džins" , "sieviete džins"] , } , crate :: Annotation { lang : "mi" , tts : Some ("wahine tūrehu") , keywords : & ["djinn" , "wahine tūrehu"] , } , crate :: Annotation { lang : "mk" , tts : Some ("жена џини") , keywords : & ["жена џини" , "џин"] , } , crate :: Annotation { lang : "ml" , tts : Some ("പെൺ ജിന\u{d4d}ന\u{d4d}") , keywords : & ["ജിന\u{d4d}ന\u{d4d}" , "പെൺ ജിന\u{d4d}ന\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("Эмэгтэй жини") , keywords : & ["Эмэгтэй жини" , "жинь"] , } , crate :: Annotation { lang : "mr" , tts : Some ("स\u{94d}त\u{94d}री जिनी") , keywords : & ["जिन\u{94d}न" , "स\u{94d}त\u{94d}री जिनी"] , } , crate :: Annotation { lang : "ms" , tts : Some ("jin betina") , keywords : & ["jin" , "jin betina"] , } , crate :: Annotation { lang : "mt" , tts : Some ("ġenju mara") , keywords : & ["djinn" , "ġenju mara"] , } , crate :: Annotation { lang : "my" , tts : Some ("အမျ\u{102d}\u{102f}းသမ\u{102e}း မ\u{102e}းခ\u{103d}က\u{103a}စောင\u{1037}\u{103a}ဘ\u{102e}းလ\u{1030}း") , keywords : & ["မ\u{102e}းခ\u{103d}က\u{103a}စောင\u{1037}\u{103a} နတ\u{103a}ဘ\u{102e}လ\u{1030}းတစ\u{103a}မျ\u{102d}\u{102f}း" , "အမျ\u{102d}\u{102f}းသမ\u{102e}း မ\u{102e}းခ\u{103d}က\u{103a}စောင\u{1037}\u{103a}ဘ\u{102e}းလ\u{1030}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("kvinnelig ånd") , keywords : & ["djinn" , "kvinnelig ånd"] , } , crate :: Annotation { lang : "ne" , tts : Some ("अलौ\u{902}किक शक\u{94d}ति भएकी छोरीमान\u{94d}छ\u{947}") , keywords : & ["अलौ\u{902}किक शक\u{94d}ति भएकी छोरीमान\u{94d}छ\u{947}" , "जिन"] , } , crate :: Annotation { lang : "nl" , tts : Some ("vrouwelijke geest in de fles") , keywords : & ["djinn" , "vrouwelijke geest in de fles"] , } , crate :: Annotation { lang : "nn" , tts : Some ("kvinneleg ånd") , keywords : & ["djinn" , "kvinneleg ånd"] , } , crate :: Annotation { lang : "or" , tts : Some ("ମହ\u{b3f}ଳ\u{b3e} ଜ\u{b3f}ନ\u{b3f}") , keywords : & ["ଜ\u{b3f}ନ\u{b4d}ନ" , "ମହ\u{b3f}ଳ\u{b3e} ଜ\u{b3f}ନ\u{b3f}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਔਰਤ ਜਿ\u{a70}ਨ") , keywords : & ["ਔਰਤ ਜਿ\u{a70}ਨ" , "ਜਿਨੀ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("زنانی جن") , keywords : & ["زنانی جن" , "ل\u{64f}کی ہوئی مخلوق"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Wúmán Jiínii") , keywords : & ["Bád Spírit" , "Jíin" , "Wúmán Jiínii"] , } , crate :: Annotation { lang : "pl" , tts : Some ("kobieta dżin") , keywords : & ["dżin" , "kobieta dżin"] , } , crate :: Annotation { lang : "ps" , tts : Some ("ښځه جینی") , keywords : & ["جين" , "ښځه جینی"] , } , crate :: Annotation { lang : "pt" , tts : Some ("mulher gênio") , keywords : & ["mulher gênio"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("génio (mulher)") , keywords : & ["djinn" , "génio (mulher)"] , } , crate :: Annotation { lang : "qu" , tts : Some ("warmi genio lamparamanta") , keywords : & ["genio" , "warmi genio lamparamanta"] , } , crate :: Annotation { lang : "ro" , tts : Some ("femeie duh") , keywords : & ["djinn" , "femeie duh"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1260") , keywords : & ["E10-1260"] , } , crate :: Annotation { lang : "ru" , tts : Some ("женщина-джинн") , keywords : & ["джинн" , "женщина" , "женщина-джинн" , "лампа" , "потереть" , "сказка"] , } , crate :: Annotation { lang : "rw" , tts : Some ("iginikazi") , keywords : & ["iginikazi" , "ijini"] , } , crate :: Annotation { lang : "sd" , tts : Some ("عورت جن") , keywords : & ["جن" , "عورت جن"] , } , crate :: Annotation { lang : "si" , tts : Some ("ගැන\u{dd4} බහ\u{dd2}රවය\u{dcf}") , keywords : & ["ගැන\u{dd4} බහ\u{dd2}රවය\u{dcf}" , "ජ\u{dd2}න\u{dca}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("ženský džin") , keywords : & ["džin" , "fľaša" , "lampa" , "ženský džin"] , } , crate :: Annotation { lang : "sl" , tts : Some ("ženski duh iz steklenice") , keywords : & ["ženski duh iz steklenice"] , } , crate :: Annotation { lang : "so" , tts : Some ("jinka haweenka") , keywords : & ["jinka" , "jinka haweenka"] , } , crate :: Annotation { lang : "sq" , tts : Some ("grua xhind") , keywords : & ["grua xhind" , "xhind"] , } , crate :: Annotation { lang : "sr" , tts : Some ("женски добри дух") , keywords : & ["женски добри дух" , "женски џин"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("ženski dobri duh") , keywords : & ["ženski dobri duh" , "ženski džin"] , } , crate :: Annotation { lang : "sv" , tts : Some ("kvinnlig ande") , keywords : & ["djinn" , "kvinnlig ande"] , } , crate :: Annotation { lang : "sw" , tts : Some ("jini la kike") , keywords : & ["jini la kike" , "mazimwi"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("பெண\u{bcd} ஜ\u{bc0}னி") , keywords : & ["டிஜின\u{bcd}" , "பெண\u{bcd} ஜ\u{bc0}னி"] , } , crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}త\u{c4d}ర\u{c40} జ\u{c3f}న\u{c40}") , keywords : & ["జ\u{c3f}న\u{c4d}" , "స\u{c4d}త\u{c4d}ర\u{c40} జ\u{c3f}న\u{c40}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("зани ҷин") , keywords : & ["зани ҷин" , "ҷин"] , } , crate :: Annotation { lang : "th" , tts : Some ("ย\u{e31}กษ\u{e4c}จ\u{e35}น\u{e35}\u{e48}หญ\u{e34}ง") , keywords : & ["ย\u{e31}กษ\u{e4c}จ\u{e34}นน\u{e35}\u{e48}หญ\u{e34}ง" , "ย\u{e31}กษ\u{e4c}จ\u{e35}น\u{e35}\u{e48}หญ\u{e34}ง"] , } , crate :: Annotation { lang : "tk" , tts : Some ("aýal jyn") , keywords : & ["aýal jyn" , "jyn"] , } , crate :: Annotation { lang : "to" , tts : Some ("faʻahikehe fefine") , keywords : & ["faʻahikehe fefine"] , } , crate :: Annotation { lang : "tr" , tts : Some ("kadın cin") , keywords : & ["cin" , "kadın cin"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئايال جىن") , keywords : & ["ئايال جىن" , "جىن"] , } , crate :: Annotation { lang : "uk" , tts : Some ("жінка-джин") , keywords : & ["джин" , "жінка-джин"] , } , crate :: Annotation { lang : "ur" , tts : Some ("عورت جن") , keywords : & ["جن" , "عورت جن"] , } , crate :: Annotation { lang : "uz" , tts : Some ("ayol jin") , keywords : & ["afsun" , "ayol" , "ayol jin" , "chiroq" , "ertak"] , } , crate :: Annotation { lang : "vi" , tts : Some ("nữ thần") , keywords : & ["ma thần" , "nữ thần"] , } , crate :: Annotation { lang : "wo" , tts : Some ("jinne ju jigéen") , keywords : & ["jinne" , "jinne ju jigéen"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ibhinqa le-genie") , keywords : & ["i-djinn" , "ibhinqa le-genie"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Ànjọ\u{300}nnú obìnrin") , keywords : & ["Ànjọ\u{300}nnú arabia" , "Ànjọ\u{300}nnú obìnrin"] , } , crate :: Annotation { lang : "yue" , tts : Some ("女神燈精靈") , keywords : & ["女神燈精靈" , "巨靈"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("女神灯精灵") , keywords : & ["女神灯精灵" , "巨灵"] , } , crate :: Annotation { lang : "zh" , tts : Some ("女妖怪") , keywords : & ["女妖怪" , "女神灵"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("女藍精靈") , keywords : & ["女藍精靈"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("女燈神") , keywords : & ["女燈神" , "精靈｜女燈神"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ijeni yesifazane") , keywords : & ["i-djinn" , "ijeni yesifazane"] , }] , } ;
 #[doc = "🧟"]
-pub const ZOMBIE: crate::Emoji = crate::Emoji {
-    glyph: "🧟",
-    codepoint: "1F9DF",
-    status: crate::Status::FullyQualified,
-    introduction_version: 5f32,
-    name: "zombie",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("zombie"),
-            keywords: &["undead", "walking dead", "zombie"],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("zombi"),
-            keywords: &["elävä kuollut", "tahdoton", "voodoo", "zombi", "zombie"],
-        },
-    ],
-};
+pub const ZOMBIE : crate :: Emoji = crate :: Emoji { glyph : "🧟" , codepoint : "1F9DF" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "zombie" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("zombie") , keywords : & ["lewende dooies" , "wandelende dooies" , "zombie"] , } , crate :: Annotation { lang : "am" , tts : Some ("ዞምቢ") , keywords : & ["ዞምቢ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("زومبي") , keywords : & ["زومبي"] , } , crate :: Annotation { lang : "as" , tts : Some ("জম\u{9cd}বি") , keywords : & ["অম\u{9c3}ত\u{9cd}য\u{9c1}" , "জম\u{9cd}বি" , "ৱ\u{9be}কিং ডেড"] , } , crate :: Annotation { lang : "az" , tts : Some ("zombi") , keywords : & ["gəzən ölü" , "xortdan" , "zombi"] , } , crate :: Annotation { lang : "be" , tts : Some ("зомбі") , keywords : & ["жывы мярцвяк" , "зомбі"] , } , crate :: Annotation { lang : "bg" , tts : Some ("зомби") , keywords : & ["зомби" , "немъртъв" , "ходещи мъртви"] , } , crate :: Annotation { lang : "bn" , tts : Some ("জম\u{9cd}বি") , keywords : & ["আধমর\u{9be}" , "ওয\u{9bc}\u{9be}কিং ডেড" , "জম\u{9cd}বি"] , } , crate :: Annotation { lang : "bs" , tts : Some ("zombi") , keywords : & ["hodajući mrtvac" , "zombi" , "živi mrtvac"] , } , crate :: Annotation { lang : "ca" , tts : Some ("zombi") , keywords : & ["mort vivent" , "walking dead" , "zombi"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏲᎱᏒ ᎤᏗᏛᏓ") , keywords : & ["ᎠᎢᏒᎢ ᎤᏲᎱᏒᎢ" , "ᎤᏲᎱᏒ ᎤᏗᏛᏓ" , "ᎤᏲᎱᏒᎯ ᏂᎨᏒᎾ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("zombie") , keywords : & ["chodící" , "ghúl" , "mrtvola" , "mrtvá" , "mrtvý" , "nemrtvá" , "nemrtvý" , "zombie"] , } , crate :: Annotation { lang : "cy" , tts : Some ("sombi") , keywords : & ["meirw ar droed" , "meirw byw" , "sombi"] , } , crate :: Annotation { lang : "da" , tts : Some ("zombie") , keywords : & ["levende død" , "zombie"] , } , crate :: Annotation { lang : "de" , tts : Some ("Zombie") , keywords : & ["Untoter" , "Zombie" , "wandelnder Toter"] , } , crate :: Annotation { lang : "el" , tts : Some ("ζόμπι") , keywords : & ["απέθαντος" , "ζόμπι" , "νεκροζώντανος"] , } , crate :: Annotation { lang : "en" , tts : Some ("zombie") , keywords : & ["undead" , "walking dead" , "zombie"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("zombi") , keywords : & ["caminante" , "muerto viviente" , "no muerto" , "zombi"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("persona zombi") , keywords : & ["persona zombi"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("zombi") , keywords : & ["elav surnu" , "surematu" , "zombi"] , } , crate :: Annotation { lang : "eu" , tts : Some ("zonbi") , keywords : & ["hildako bizidun" , "hildako ibiltari" , "zonbi"] , } , crate :: Annotation { lang : "fa" , tts : Some ("مرده متحرک") , keywords : & ["جسد متحرک" , "زامبی" , "مرده متحرک"] , } , crate :: Annotation { lang : "fi" , tts : Some ("zombi") , keywords : & ["elävä kuollut" , "tahdoton" , "voodoo" , "zombi" , "zombie"] , } , crate :: Annotation { lang : "fil" , tts : Some ("zombie") , keywords : & ["buhay na patay" , "walking dead" , "zombie"] , } , crate :: Annotation { lang : "fo" , tts : Some ("sombi") , keywords : & ["sombi" , "uppvakningur" , "zombie"] , } , crate :: Annotation { lang : "fr" , tts : Some ("zombie") , keywords : & ["mort-vivant" , "zombie"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("zombaí") , keywords : & ["neamh-mharbh" , "zombaí"] , } , crate :: Annotation { lang : "gd" , tts : Some ("zombie") , keywords : & ["closach" , "coiseachd" , "marbh" , "zombie"] , } , crate :: Annotation { lang : "gl" , tts : Some ("zombi") , keywords : & ["Walking Dead" , "non-morto" , "zombi"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ઝોમ\u{acd}બી") , keywords : & ["ઝોમ\u{acd}બી"] , } , crate :: Annotation { lang : "ha" , tts : Some ("gaya mai rai") , keywords : & ["gaya mai motsi" , "gaya mai rai" , "mara mutuwa"] , } , crate :: Annotation { lang : "he" , tts : Some ("זומבי") , keywords : & ["זומבי" , "מת מהלך"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ज\u{93c}ॉम\u{94d}बी") , keywords : & ["ज\u{93c}ॉम\u{94d}बी" , "मर कर भी जीवित" , "वॉकि\u{902}ग ड\u{947}ड"] , } , crate :: Annotation { lang : "hr" , tts : Some ("zombi") , keywords : & ["zombi" , "živi mrtvac"] , } , crate :: Annotation { lang : "hu" , tts : Some ("zombi") , keywords : & ["sétáló halott" , "zombi" , "élőhalott" , "élőholt"] , } , crate :: Annotation { lang : "hy" , tts : Some ("զոմբի") , keywords : & ["զոմբի" , "կենդանի" , "մարդ" , "մեռել"] , } , crate :: Annotation { lang : "id" , tts : Some ("zombi") , keywords : & ["mayat berjalan" , "mayat hidup" , "zombi"] , } , crate :: Annotation { lang : "ig" , tts : Some ("onye nwụrụ anwụ na-aga ije") , keywords : & ["akụkọ mmụọ" , "ndị nwụrụ anwụ na-aga ije" , "onye nwụrụ anwụ na-aga ije"] , } , crate :: Annotation { lang : "is" , tts : Some ("uppvakningur") , keywords : & ["hinir gangandi dauðu" , "hinir ódauðlegu" , "uppvakningur"] , } , crate :: Annotation { lang : "it" , tts : Some ("zombie") , keywords : & ["morto vivente" , "zombie"] , } , crate :: Annotation { lang : "ja" , tts : Some ("ゾンビ") , keywords : & ["ゾンビ" , "ホラー"] , } , crate :: Annotation { lang : "jv" , tts : Some ("zombi") , keywords : & ["lelembut" , "setan bentayangan" , "zombi"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ზომბი") , keywords : & ["ზომბი" , "ცოცხალ-მკვდარი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("зомби") , keywords : & ["зомби"] , } , crate :: Annotation { lang : "km" , tts : Some ("ហ\u{17d2}ស\u{17c6}ប\u{17ca}\u{17b8}") , keywords : & ["ខ\u{17d2}មោចដើរ" , "ប\u{17b7}សាចម\u{17b7}នចេះស\u{17d2}លាប\u{17cb}" , "ហ\u{17d2}ស\u{17c6}ប\u{17ca}\u{17b8}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಜೊಂಬ\u{cbf}") , keywords : & ["ಜೊಂಬ\u{cbf}" , "ನಡ\u{cc6}ದಾಡುವ ಶವ" , "ಶವ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("좀비") , keywords : & ["언데드" , "워킹 데드" , "좀비"] , } , crate :: Annotation { lang : "kok" , tts : Some ("झोम\u{94d}बी") , keywords : & ["चलपी प\u{94d}र\u{947}ता\u{902}" , "झोम\u{94d}बी" , "न मरपी"] , } , crate :: Annotation { lang : "ky" , tts : Some ("зомби") , keywords : & ["басып жүргөн өлүк" , "зомби" , "өлбөс"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Zombie") , keywords : & ["Zombie" , "ondout"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຊອມບ\u{eb5}\u{ec9}") , keywords : & ["ຊອມບ\u{eb5}\u{ec9}" , "ຜ\u{eb5}ດ\u{eb4}ບ" , "ວອກຄ\u{eb4}ງເດດ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("zombis") , keywords : & ["nemirtingas" , "vaikštantis numirėlis" , "zombis"] , } , crate :: Annotation { lang : "lv" , tts : Some ("zombijs") , keywords : & ["dzīvais mironis" , "nemirstīgs" , "zombijs"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tūpāpaku") , keywords : & ["oramate" , "tūpāpaku" , "tūpāpaku hīkoi"] , } , crate :: Annotation { lang : "mk" , tts : Some ("зомби") , keywords : & ["жив мртовец" , "зомби"] , } , crate :: Annotation { lang : "ml" , tts : Some ("വേത\u{d3e}ളം") , keywords : & ["അൺഡെഡ\u{d4d}" , "വ\u{d3e}ക\u{d4d}കിംഗ\u{d4d} ഡെഡ\u{d4d}" , "വേത\u{d3e}ളം"] , } , crate :: Annotation { lang : "mn" , tts : Some ("зомби") , keywords : & ["зомби" , "үхээгүй"] , } , crate :: Annotation { lang : "mr" , tts : Some ("झोम\u{94d}बी") , keywords : & ["चालणारा म\u{943}त" , "जिव\u{902}त नसल\u{947}ला" , "झोम\u{94d}बी"] , } , crate :: Annotation { lang : "ms" , tts : Some ("zombi") , keywords : & ["bangkai bernyawa" , "mayat hidup" , "zombi"] , } , crate :: Annotation { lang : "mt" , tts : Some ("żombi") , keywords : & ["mejtin jimxu" , "qam mil-mewt" , "żombi"] , } , crate :: Annotation { lang : "my" , tts : Some ("ဖ\u{102f}တ\u{103a}ကောင\u{103a}") , keywords : & ["ဖ\u{102f}တ\u{103a}ကောင\u{103a}" , "မသေသော" , "လမ\u{103a}းလျ\u{103e}ောက\u{103a}နေသည\u{1037}\u{103a} အသေကောင\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("zombie") , keywords : & ["udød" , "vandød" , "zombie"] , } , crate :: Annotation { lang : "ne" , tts : Some ("व\u{94d}य\u{941}\u{901}त\u{947}को म\u{943}त मान\u{94d}छ\u{947}") , keywords : & ["म\u{941}र\u{94d}कट\u{94d}टा" , "म\u{943}त आत\u{94d}मा" , "व\u{94d}य\u{941}\u{901}त\u{947}को म\u{943}त मान\u{94d}छ\u{947}"] , } , crate :: Annotation { lang : "nl" , tts : Some ("zombie") , keywords : & ["lopende dode" , "ondode" , "zombie"] , } , crate :: Annotation { lang : "nn" , tts : Some ("zombie") , keywords : & ["udød" , "vandød" , "zombie"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଜୋମ\u{b4d}ବ\u{b3f}") , keywords : & ["ଜୋମ\u{b4d}ବ\u{b3f}" , "ପ\u{b4d}ରେତ\u{b3e}ତ\u{b4d}ମ\u{b3e} । ଚ\u{b3e}ଲ\u{b41}ଥ\u{b3f}ବ\u{b3e} ମ\u{b43}ତ ଶରୀର"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਜ\u{a3c}\u{a4c}\u{a02}ਬੀ") , keywords : & ["ਜ\u{a3c}\u{a4c}\u{a02}ਬੀ" , "ਜੀਉ\u{a02}ਦਾ" , "ਤ\u{a41}ਰਦਾ ਮਰਿਆ ਆਦਮੀ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("زومبی") , keywords : & ["آسیب" , "ت\u{64f}ردی پ\u{650}ھردی لاش" , "زومبی"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Zombí") , keywords : & ["Dẹ\u{301}d Pẹ\u{301}sin Wé De Dú Laik Sé I Dé Alaif" , "Dẹ\u{301}d Pẹ\u{301}sin Wé De Waká" , "Zombí"] , } , crate :: Annotation { lang : "pl" , tts : Some ("zombie") , keywords : & ["chodzące trupy" , "nieumarli" , "zombie"] , } , crate :: Annotation { lang : "ps" , tts : Some ("زومبی") , keywords : & ["زومبي" , "زومبی" , "مړ ګرځېدل" , "نا مړ"] , } , crate :: Annotation { lang : "pt" , tts : Some ("zumbi") , keywords : & ["cazumbi" , "zumbi"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("zombie") , keywords : & ["morto-vivo" , "zombie"] , } , crate :: Annotation { lang : "qu" , tts : Some ("zombi") , keywords : & ["mana wañusqa" , "zombi"] , } , crate :: Annotation { lang : "ro" , tts : Some ("zombi") , keywords : & ["morți vii" , "strigoi" , "zombi"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1136") , keywords : & ["E10-1136"] , } , crate :: Annotation { lang : "ru" , tts : Some ("зомби") , keywords : & ["живой" , "зомби" , "мертвец"] , } , crate :: Annotation { lang : "rw" , tts : Some ("izombi") , keywords : & ["abapfuye bahagaze" , "abatarapfuye" , "izombi"] , } , crate :: Annotation { lang : "sd" , tts : Some ("زومبي") , keywords : & ["زومبي" , "ڀوت، موئل هلندي"] , } , crate :: Annotation { lang : "si" , tts : Some ("සොම\u{dca}බ\u{dd2}") , keywords : & ["නොමැර\u{dd4}ණ\u{dd4}" , "මැර\u{dd3} ඇව\u{dd2}ද\u{dd2}ම" , "සොම\u{dca}බ\u{dd2}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("zombia") , keywords : & ["mátoha" , "mŕtvola" , "zombia"] , } , crate :: Annotation { lang : "sl" , tts : Some ("zombi") , keywords : & ["nemrtev" , "zombi" , "živi mrtvec"] , } , crate :: Annotation { lang : "so" , tts : Some ("qof dhintay soo noolaaday") , keywords : & ["aan dhiman" , "mayd socda" , "qof dhintay soo noolaaday"] , } , crate :: Annotation { lang : "sq" , tts : Some ("zombi") , keywords : & ["i pa vdekur" , "i vdekur që ecën" , "zombi"] , } , crate :: Annotation { lang : "sr" , tts : Some ("зомби") , keywords : & ["зомби" , "повампирен" , "ходајући мртвац"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("zombi") , keywords : & ["hodajući mrtvac" , "povampiren" , "zombi"] , } , crate :: Annotation { lang : "sv" , tts : Some ("zombie") , keywords : & ["levande död" , "odöd" , "vandöd" , "zombie"] , } , crate :: Annotation { lang : "sw" , tts : Some ("dubwana") , keywords : & ["dubwana" , "mazimwi" , "zimwi"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஜோம\u{bcd}பி") , keywords : & ["ச\u{bbe}க\u{bbe}வரம\u{bcd} பெற\u{bcd}றது" , "ஜோம\u{bcd}பி"] , } , crate :: Annotation { lang : "te" , tts : Some ("జ\u{c3e}ంబ\u{c40}") , keywords : & ["జ\u{c3e}ంబ\u{c40}" , "నడ\u{c3f}చ\u{c47} శవం" , "మరణం ల\u{c47}న\u{c3f}ద\u{c3f}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("зомби") , keywords : & ["вампирҳо" , "зомби" , "мурдаҳои роҳгард"] , } , crate :: Annotation { lang : "th" , tts : Some ("ซอมบ\u{e35}\u{e49}") , keywords : & ["ซอมบ\u{e35}\u{e49}" , "ผ\u{e35}ด\u{e34}บ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("zombi") , keywords : & ["zombi" , "ölümsiz" , "ýöreýän öli"] , } , crate :: Annotation { lang : "to" , tts : Some ("tēvolo") , keywords : & ["tēvolo"] , } , crate :: Annotation { lang : "tr" , tts : Some ("zombi") , keywords : & ["hortlak" , "yürüyen ölü" , "zombi"] , } , crate :: Annotation { lang : "ug" , tts : Some ("زومبى") , keywords : & ["تىرىك مۇردا" , "زومبى" , "مۇردا"] , } , crate :: Annotation { lang : "uk" , tts : Some ("зомбі") , keywords : & ["живий мрець" , "зомбі" , "нечисть"] , } , crate :: Annotation { lang : "ur" , tts : Some ("زندہ مردہ") , keywords : & ["زندہ" , "زندہ مردہ" , "چلتا پھرتا مردہ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("zombi") , keywords : & ["murda" , "tirik" , "zombi"] , } , crate :: Annotation { lang : "vi" , tts : Some ("xác chết sống lại") , keywords : & ["xác chết sống lại" , "xác sống"] , } , crate :: Annotation { lang : "wo" , tts : Some ("zombi") , keywords : & ["bu deewul" , "néew buy dox" , "zombi"] , } , crate :: Annotation { lang : "xh" , tts : Some ("isithunzela") , keywords : & ["isidumbu esihambayo" , "isithunzela" , "ongafanga"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Ẹbọra") , keywords : & ["Àìlèkú" , "àkúdáàyà" , "Ẹbọra"] , } , crate :: Annotation { lang : "yue" , tts : Some ("殭屍") , keywords : & ["亡靈" , "殭屍" , "行屍"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("殭尸") , keywords : & ["亡灵" , "殭尸" , "行尸"] , } , crate :: Annotation { lang : "zh" , tts : Some ("僵尸") , keywords : & ["不死族" , "僵尸" , "行尸走肉"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("殭屍") , keywords : & ["殭屍"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("喪屍") , keywords : & ["喪屍" , "喪屍｜殭屍｜不死人｜行屍"] , } , crate :: Annotation { lang : "zu" , tts : Some ("isilwane") , keywords : & ["hamba efile" , "isilwane" , "ngafile"] , }] , } ;
 #[doc = "🧟\u{200d}♂\u{fe0f}"]
-pub const MAN_ZOMBIE: crate::Emoji = crate::Emoji {
-    glyph: "🧟\u{200d}♂\u{fe0f}",
-    codepoint: "1F9DF 200D 2642 FE0F",
-    status: crate::Status::FullyQualified,
-    introduction_version: 5f32,
-    name: "man zombie",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[crate::Emoji {
-        glyph: "🧟\u{200d}♂",
-        codepoint: "1F9DF 200D 2642",
-        status: crate::Status::MinimallyQualified,
-        introduction_version: 5f32,
-        name: "man zombie",
-        group: "People & Body",
-        subgroup: "person-fantasy",
-        is_variant: true,
-        variants: &[],
-        annotations: &[],
-    }],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("man zombie"),
-            keywords: &["man zombie", "undead", "walking dead"],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("mieszombi"),
-            keywords: &["elävä kuollut", "mieszombi", "tahdoton", "voodoo", "zombie"],
-        },
-    ],
-};
+pub const MAN_ZOMBIE : crate :: Emoji = crate :: Emoji { glyph : "🧟\u{200d}♂\u{fe0f}" , codepoint : "1F9DF 200D 2642 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "man zombie" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [crate :: Emoji { glyph : "🧟\u{200d}♂" , codepoint : "1F9DF 200D 2642" , status : crate :: Status :: MinimallyQualified , introduction_version : 5f32 , name : "man zombie" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("manlike zombie") , keywords : & ["lewende dooies" , "manlike zombie" , "wandelende dooies"] , } , crate :: Annotation { lang : "am" , tts : Some ("ወንድ ዞምቢ") , keywords : & ["ወንድ ዞምቢ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("رجل زومبي") , keywords : & ["رجل زومبي"] , } , crate :: Annotation { lang : "as" , tts : Some ("প\u{9c1}ৰ\u{9c1}ষ জম\u{9cd}বি") , keywords : & ["অম\u{9c3}ত\u{9cd}য\u{9c1}" , "প\u{9c1}ৰ\u{9c1}ষ জম\u{9cd}বি" , "ৱ\u{9be}কিং ডেড"] , } , crate :: Annotation { lang : "az" , tts : Some ("kişi zombi") , keywords : & ["gəzən ölü" , "kişi zombi" , "xortdan"] , } , crate :: Annotation { lang : "be" , tts : Some ("мужчына-зомбі") , keywords : & ["жывы мярцвяк" , "мужчына-зомбі"] , } , crate :: Annotation { lang : "bg" , tts : Some ("мъж зомби") , keywords : & ["мъж зомби" , "немъртъв" , "ходещ мъртъв"] , } , crate :: Annotation { lang : "bn" , tts : Some ("প\u{9c1}র\u{9c1}ষ জম\u{9cd}বি") , keywords : & ["আধমর\u{9be}" , "ওয\u{9bc}\u{9be}কিং ডেড" , "প\u{9c1}র\u{9c1}ষ জম\u{9cd}বি"] , } , crate :: Annotation { lang : "br" , tts : Some ("zombi") , keywords : & ["zombi"] , } , crate :: Annotation { lang : "bs" , tts : Some ("muškarac zombi") , keywords : & ["hodajući mrtvac" , "muškarac zombi" , "živi mrtvac"] , } , crate :: Annotation { lang : "ca" , tts : Some ("home zombi") , keywords : & ["home zombi" , "mort vivent"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏍᎦᏯ ᎤᏲᎱᏒ ᎤᏗᏛᏓ") , keywords : & ["ᎠᎢᏒᎢ ᎤᏲᎱᏒᎢ" , "ᎠᏍᎦᏯ ᎤᏲᎱᏒ ᎤᏗᏛᏓ" , "ᎤᏲᎱᏒᎯ ᏂᎨᏒᎾ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("nemrtvý muž") , keywords : & ["chodící" , "ghúl" , "mrtvola" , "mrtvý" , "nemrtvý" , "nemrtvý muž" , "zombie" , "zombík"] , } , crate :: Annotation { lang : "cy" , tts : Some ("sombi gwrywaidd") , keywords : & ["meirw ar droed" , "meirw byw" , "sombi gwrywaidd"] , } , crate :: Annotation { lang : "da" , tts : Some ("mandlig zombie") , keywords : & ["lavende død" , "mand" , "mandlig zombie"] , } , crate :: Annotation { lang : "de" , tts : Some ("männlicher Zombie") , keywords : & ["Untoter" , "männlicher Zombie" , "wandelnder Toter"] , } , crate :: Annotation { lang : "de_CH" , tts : Some ("Zombiemann") , keywords : & ["Zombiemann"] , } , crate :: Annotation { lang : "el" , tts : Some ("άντρας ζόμπι") , keywords : & ["άντρας ζόμπι" , "απέθαντοι" , "νεκροζώντανοι"] , } , crate :: Annotation { lang : "en" , tts : Some ("man zombie") , keywords : & ["man zombie" , "undead" , "walking dead"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("zombi hombre") , keywords : & ["caminante" , "muerto viviente" , "no muerto" , "zombi hombre"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["muerto viviente" , "zombi hombre"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("meeszombi") , keywords : & ["elav surnu" , "meeszombi" , "surematu"] , } , crate :: Annotation { lang : "eu" , tts : Some ("gizon zonbi") , keywords : & ["gizon zonbi" , "hildako bizidun" , "hildako ibiltari"] , } , crate :: Annotation { lang : "fa" , tts : Some ("مرده متحرک مرد") , keywords : & ["جسد متحرک" , "زامبی زن" , "مرده متحرک زن" , "مرده متحرک مرد"] , } , crate :: Annotation { lang : "fi" , tts : Some ("mieszombi") , keywords : & ["elävä kuollut" , "mieszombi" , "tahdoton" , "voodoo" , "zombie"] , } , crate :: Annotation { lang : "fil" , tts : Some ("lalaking zombie") , keywords : & ["buhay na patay" , "lalaking zombie" , "walking dead"] , } , crate :: Annotation { lang : "fo" , tts : Some ("mannligur sombi") , keywords : & ["mannligur sombi" , "maður" , "sombi" , "uppvakningur" , "zombie"] , } , crate :: Annotation { lang : "fr" , tts : Some ("zombie homme") , keywords : & ["mort-vivant" , "zombie homme"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["homme" , "mort-vivant" , "zombie"] , } , crate :: Annotation { lang : "ga" , tts : Some ("zombaí fireann") , keywords : & ["fearann" , "neamh-mharbh" , "zombaí" , "zombaí fireann"] , } , crate :: Annotation { lang : "gd" , tts : Some ("zombie fireann") , keywords : & ["closach" , "coiseachd" , "marbh" , "zombie fireann"] , } , crate :: Annotation { lang : "gl" , tts : Some ("zombi de sexo masculino") , keywords : & ["Walking Dead" , "home" , "non-morto" , "zombi de sexo masculino"] , } , crate :: Annotation { lang : "gu" , tts : Some ("પ\u{ac1}ર\u{ac1}ષ ઝોમ\u{acd}બી") , keywords : & ["પ\u{ac1}ર\u{ac1}ષ ઝોમ\u{acd}બી"] , } , crate :: Annotation { lang : "ha" , tts : Some ("gaya mai rai namiji") , keywords : & ["gaya mai motsi" , "gaya mai rai namiji" , "mara mutuwa"] , } , crate :: Annotation { lang : "he" , tts : Some ("זומבי גבר") , keywords : & ["זומבי גבר" , "מת מהלך"] , } , crate :: Annotation { lang : "hi" , tts : Some ("प\u{941}र\u{941}ष ज\u{93c}ॉम\u{94d}बी") , keywords : & ["प\u{941}र\u{941}ष ज\u{93c}ॉम\u{94d}बी" , "मर कर भी जीवित" , "वॉकि\u{902}ग ड\u{947}ड"] , } , crate :: Annotation { lang : "hr" , tts : Some ("muški zombi") , keywords : & ["muški zombi" , "živi mrtvac"] , } , crate :: Annotation { lang : "hu" , tts : Some ("férfi zombi") , keywords : & ["férfi zombi" , "sétáló halott" , "élőhalott" , "élőholt"] , } , crate :: Annotation { lang : "hy" , tts : Some ("տղամարդ զոմբի") , keywords : & ["կենդանի" , "մեռել" , "տղամարդ" , "տղամարդ զոմբի"] , } , crate :: Annotation { lang : "id" , tts : Some ("zombi pria") , keywords : & ["mayat berjalan" , "mayat hidup" , "zombi pria"] , } , crate :: Annotation { lang : "ig" , tts : Some ("nwoke nwụrụ anwụ na-aga ije") , keywords : & ["akụkọ mmụọ" , "ndị nwụrụ anwụ na-aga ije" , "nwoke nwụrụ anwụ na-aga ije"] , } , crate :: Annotation { lang : "is" , tts : Some ("karlkyns uppvakningur") , keywords : & ["hinir gangandi dauðu" , "hinir ódauðlegu" , "karlkyns uppvakningur"] , } , crate :: Annotation { lang : "it" , tts : Some ("zombie uomo") , keywords : & ["morto vivente" , "zombie uomo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("男のゾンビ") , keywords : & ["ゾンビ" , "ホラー" , "男" , "男のゾンビ" , "男性"] , } , crate :: Annotation { lang : "jv" , tts : Some ("zombi lanang") , keywords : & ["lelembut" , "setan bentayangan" , "zombi lanang"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ზომბი კაცი") , keywords : & ["ზომბი კაცი" , "ცოცხალ-მკვდარი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("ер зомби") , keywords : & ["ер зомби"] , } , crate :: Annotation { lang : "km" , tts : Some ("ហ\u{17d2}ស\u{17c6}ប\u{17ca}\u{17b8}ប\u{17d2}រ\u{17bb}ស") , keywords : & ["ខ\u{17d2}មោចដើរ" , "ប\u{17b7}សាចម\u{17b7}នចេះស\u{17d2}លាប\u{17cb}" , "ហ\u{17d2}ស\u{17c6}ប\u{17ca}\u{17b8}ប\u{17d2}រ\u{17bb}ស"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಪುರುಷ ಜೊಂಬ\u{cbf}") , keywords : & ["ನಡ\u{cc6}ದಾಡುವ ಶವ" , "ಪುರುಷ ಜೊಂಬ\u{cbf}" , "ಶವ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("남자 좀비") , keywords : & ["남자 좀비" , "언데드" , "워킹 데드"] , } , crate :: Annotation { lang : "kok" , tts : Some ("दादलो झोम\u{94d}बी") , keywords : & ["चलपी प\u{94d}र\u{947}त" , "दादलो झोम\u{94d}बी" , "न मरपी"] , } , crate :: Annotation { lang : "ky" , tts : Some ("эркек зомби") , keywords : & ["басып жүргөн өлүк" , "эркек зомби" , "өлбөс"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Zombiemann") , keywords : & ["Zombie" , "Zombiemann" , "ondout"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຊອມບ\u{eb5}\u{ec9}ຜ\u{eb9}\u{ec9}ຊາຍ") , keywords : & ["ຊອມບ\u{eb5}\u{ec9}ຜ\u{eb9}\u{ec9}ຊາຍ" , "ຜ\u{eb5}ດ\u{eb4}ບ" , "ວອກຄ\u{eb4}ງເດດ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("zombis vyras") , keywords : & ["nemirtingas" , "vaikštantis numirėlis" , "zombis vyras"] , } , crate :: Annotation { lang : "lv" , tts : Some ("zombijvīrietis") , keywords : & ["nemirstīgs" , "staigājošais mironis" , "vīrietis zombijs" , "zombijvīrietis"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tāne tūpāpaku") , keywords : & ["oramate" , "tāne tūpāpaku" , "tūpāpaku hīkoi"] , } , crate :: Annotation { lang : "mk" , tts : Some ("маж зомби") , keywords : & ["жив мртовец" , "зомби" , "маж зомби"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ആൺ വേത\u{d3e}ളം") , keywords : & ["അൺഡെഡ\u{d4d}" , "ആൺ വേത\u{d3e}ളം" , "വ\u{d3e}ക\u{d4d}കിംഗ\u{d4d} ഡെഡ\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("эрэгтэй зомби") , keywords : & ["зомби" , "эрэгтэй зомби" , "үхээгүй"] , } , crate :: Annotation { lang : "mr" , tts : Some ("प\u{941}र\u{942}ष झोम\u{94d}बी") , keywords : & ["चालणारा म\u{943}त" , "जिव\u{902}त नसल\u{947}ला" , "प\u{941}र\u{942}ष झोम\u{94d}बी"] , } , crate :: Annotation { lang : "ms" , tts : Some ("zombi lelaki") , keywords : & ["bangkai bernyawa" , "mayat hidup" , "zombi lelaki"] , } , crate :: Annotation { lang : "mt" , tts : Some ("raġel żombi") , keywords : & ["mejtin jimxu" , "qam mil-mewt" , "raġel żombi"] , } , crate :: Annotation { lang : "my" , tts : Some ("အမျ\u{102d}\u{102f}းသား ဖ\u{102f}တ\u{103a}ကောင\u{103a}") , keywords : & ["မသေသော" , "လမ\u{103a}းလျ\u{103e}ောက\u{103a}နေသည\u{1037}\u{103a} အသေကောင\u{103a}" , "အမျ\u{102d}\u{102f}းသား ဖ\u{102f}တ\u{103a}ကောင\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("mannlig zombie") , keywords : & ["mannlig zombie" , "udød" , "vandød"] , } , crate :: Annotation { lang : "ne" , tts : Some ("व\u{94d}य\u{941}\u{901}त\u{947}को म\u{943}त छोरामान\u{94d}छ\u{947}") , keywords : & ["म\u{941}र\u{94d}कट\u{94d}टा" , "म\u{943}त आत\u{94d}मा" , "व\u{94d}य\u{941}\u{901}त\u{947}को म\u{943}त छोरामान\u{94d}छ\u{947}"] , } , crate :: Annotation { lang : "nl" , tts : Some ("mannelijke zombie") , keywords : & ["lopende dode" , "mannelijke zombie" , "ondode"] , } , crate :: Annotation { lang : "nn" , tts : Some ("mannleg zombie") , keywords : & ["mannleg zombie" , "udød" , "vandød"] , } , crate :: Annotation { lang : "or" , tts : Some ("ପ\u{b41}ର\u{b41}ଷ ଜୋମ\u{b4d}ବ\u{b3f}") , keywords : & ["ପ\u{b41}ର\u{b41}ଷ ଜୋମ\u{b4d}ବ\u{b3f}" , "ପ\u{b4d}ରେତ\u{b3e}ତ\u{b4d}ମ\u{b3e} । ଚ\u{b3e}ଲ\u{b41}ଥ\u{b3f}ବ\u{b3e} ମ\u{b43}ତ ଶରୀର"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਪ\u{a41}ਰਸ\u{a3c} ਜ\u{a3c}\u{a4c}\u{a02}ਬੀ") , keywords : & ["ਜੀਉ\u{a02}ਦਾ" , "ਤ\u{a41}ਰਦਾ ਮਰਿਆ ਆਦਮੀ" , "ਪ\u{a41}ਰਸ\u{a3c} ਜ\u{a3c}\u{a4c}\u{a02}ਬੀ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("بندا زومبی") , keywords : & ["آسیب" , "بندا زومبی" , "ت\u{64f}ردی پ\u{650}ھردی لاش"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Mán Zombí") , keywords : & ["Dẹ\u{301}d Pẹ\u{301}sin Wé De Dú Laik Sé I Dé Alaif" , "Dẹ\u{301}d Pẹ\u{301}sin Wé De Waká" , "Mán Zombí"] , } , crate :: Annotation { lang : "pl" , tts : Some ("mężczyzna zombie") , keywords : & ["chodzące trupy" , "mężczyzna zombie" , "nieumarli"] , } , crate :: Annotation { lang : "ps" , tts : Some ("سړی زومبی") , keywords : & ["سړی زومبي" , "سړی زومبی" , "نامړ" , "ګرځنده مړی"] , } , crate :: Annotation { lang : "pt" , tts : Some ("homem zumbi") , keywords : & ["cazumbi" , "homem zumbi"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("morto-vivo") , keywords : & ["homem zombie" , "morto-vivo"] , } , crate :: Annotation { lang : "qu" , tts : Some ("tata zombi") , keywords : & ["mana wañusqa" , "tata zombi" , "zombi"] , } , crate :: Annotation { lang : "ro" , tts : Some ("bărbat zombi") , keywords : & ["bărbat zombi" , "morți vii" , "strigoi"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1263") , keywords : & ["E10-1263"] , } , crate :: Annotation { lang : "ru" , tts : Some ("мужчина-зомби") , keywords : & ["живой" , "живой метрвец" , "зомби" , "мертвец" , "мужчина" , "мужчина-зомби"] , } , crate :: Annotation { lang : "rw" , tts : Some ("izombigabo") , keywords : & ["abapfuye bahagaze" , "abatarapfuye" , "izombigabo"] , } , crate :: Annotation { lang : "sd" , tts : Some ("مرد زومبي") , keywords : & ["مرد زومبي" , "ڀوت، موئل هلندي"] , } , crate :: Annotation { lang : "si" , tts : Some ("ප\u{dd2}ර\u{dd2}ම\u{dd2} සොම\u{dca}බ\u{dd2}") , keywords : & ["නොමැර\u{dd4}ණ\u{dd4}" , "ප\u{dd2}ර\u{dd2}ම\u{dd2} සොම\u{dca}බ\u{dd2}" , "මැර\u{dd3} ඇව\u{dd2}ද\u{dd2}ම"] , } , crate :: Annotation { lang : "sk" , tts : Some ("mužská zombia") , keywords : & ["mužská zombia" , "mátoha" , "mŕtvola"] , } , crate :: Annotation { lang : "sl" , tts : Some ("zombi moški") , keywords : & ["nemrtev" , "zombi moški" , "živi mrtvec"] , } , crate :: Annotation { lang : "so" , tts : Some ("nin dhintay oo soo noolaaday") , keywords : & ["aan dhiman" , "mayd socda" , "nin dhintay oo soo noolaaday" , "nin dhintay soo laabtay"] , } , crate :: Annotation { lang : "sq" , tts : Some ("burrë zombi") , keywords : & ["burrë zombi" , "i pa vdekur" , "i vdekur që ecën"] , } , crate :: Annotation { lang : "sr" , tts : Some ("мушкарац зомби") , keywords : & ["мушкарац зомби" , "повампирена" , "ходајућа мртвакиња"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("muškarac zombi") , keywords : & ["hodajuća mrtvakinja" , "muškarac zombi" , "povampirena"] , } , crate :: Annotation { lang : "sv" , tts : Some ("manlig zombie") , keywords : & ["levande död" , "manlig zombie" , "odöd" , "vandöd"] , } , crate :: Annotation { lang : "sw" , tts : Some ("dubwana dume") , keywords : & ["dubwana" , "dubwana dume" , "zimwi"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஆண\u{bcd} ஜோம\u{bcd}பி") , keywords : & ["ஆண\u{bcd} ஜோம\u{bcd}பி" , "ச\u{bbe}க\u{bbe}வரம\u{bcd} பெற\u{bcd}றது"] , } , crate :: Annotation { lang : "te" , tts : Some ("పురుష జ\u{c3e}ంబ\u{c40}") , keywords : & ["నడ\u{c3f}చ\u{c47} శవం" , "పురుష జ\u{c3e}ంబ\u{c40}" , "మరణం ల\u{c47}న\u{c3f}వ\u{c3f}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("марди зомби") , keywords : & ["вампирҳо" , "марди зомби" , "мурдаҳои роҳгард"] , } , crate :: Annotation { lang : "th" , tts : Some ("ซอมบ\u{e35}\u{e49}ผ\u{e39}\u{e49}ชาย") , keywords : & ["ซอมบ\u{e35}\u{e49}ผ\u{e39}\u{e49}ชาย" , "ผ\u{e35}ด\u{e34}บ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("erkek zombi") , keywords : & ["erkek zombi" , "ölümsiz" , "ýöreýän öli"] , } , crate :: Annotation { lang : "to" , tts : Some ("tēvolo tangata") , keywords : & ["tēvolo tangata"] , } , crate :: Annotation { lang : "tr" , tts : Some ("erkek zombi") , keywords : & ["erkek zombi" , "hortlak" , "yürüyen ölü"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئەر زومبى") , keywords : & ["ئەر زومبى" , "تىرىك مۇردا" , "مۇردا"] , } , crate :: Annotation { lang : "uk" , tts : Some ("чоловік-зомбі") , keywords : & ["живий мрець" , "зомбі" , "упир" , "чоловік-зомбі"] , } , crate :: Annotation { lang : "ur" , tts : Some ("زندہ مردہ مرد") , keywords : & ["زندہ" , "زندہ مردہ مرد" , "چلتا پھرتا مردہ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("erkak zombi") , keywords : & ["erkak" , "erkak zombi" , "murda" , "tirik"] , } , crate :: Annotation { lang : "vi" , tts : Some ("xác chết nam sống lại") , keywords : & ["xác chết nam sống lại" , "xác chết sống lại" , "xác sống"] , } , crate :: Annotation { lang : "wo" , tts : Some ("zombi bu góor") , keywords : & ["bu deewul" , "néew buy dox" , "zombi bu góor"] , } , crate :: Annotation { lang : "xh" , tts : Some ("isithunzela esiyindoda") , keywords : & ["isidumbu esihambayo" , "isithunzela esiyindoda" , "ongafanga"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Ẹbọra ọkùnrin") , keywords : & ["Àìlèkú" , "àkúdáàyà" , "Ẹbọra ọkùnrin"] , } , crate :: Annotation { lang : "yue" , tts : Some ("男殭屍") , keywords : & ["亡靈" , "男殭屍" , "行屍"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("男殭尸") , keywords : & ["亡灵" , "男殭尸" , "行尸"] , } , crate :: Annotation { lang : "zh" , tts : Some ("男僵尸") , keywords : & ["男僵尸" , "男行尸走肉"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("男殭屍") , keywords : & ["男殭屍"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("男喪屍") , keywords : & ["男喪屍" , "男喪屍｜男殭屍｜不死人｜行屍"] , } , crate :: Annotation { lang : "zu" , tts : Some ("isipoki sowesilisa") , keywords : & ["hamba efile" , "isipoki sowesilisa" , "ngafile"] , }] , } ;
 #[doc = "🧟\u{200d}♀\u{fe0f}"]
-pub const WOMAN_ZOMBIE: crate::Emoji = crate::Emoji {
-    glyph: "🧟\u{200d}♀\u{fe0f}",
-    codepoint: "1F9DF 200D 2640 FE0F",
-    status: crate::Status::FullyQualified,
-    introduction_version: 5f32,
-    name: "woman zombie",
-    group: "People & Body",
-    subgroup: "person-fantasy",
-    is_variant: false,
-    variants: &[crate::Emoji {
-        glyph: "🧟\u{200d}♀",
-        codepoint: "1F9DF 200D 2640",
-        status: crate::Status::MinimallyQualified,
-        introduction_version: 5f32,
-        name: "woman zombie",
-        group: "People & Body",
-        subgroup: "person-fantasy",
-        is_variant: true,
-        variants: &[],
-        annotations: &[],
-    }],
-    annotations: &[
-        crate::Annotation {
-            lang: "en",
-            tts: Some("woman zombie"),
-            keywords: &["undead", "walking dead", "woman zombie"],
-        },
-        crate::Annotation {
-            lang: "fi",
-            tts: Some("naiszombi"),
-            keywords: &["elävä kuollut", "naiszombi", "tahdoton", "voodoo", "zombie"],
-        },
-    ],
-};
+pub const WOMAN_ZOMBIE : crate :: Emoji = crate :: Emoji { glyph : "🧟\u{200d}♀\u{fe0f}" , codepoint : "1F9DF 200D 2640 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "woman zombie" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : false , variants : & [crate :: Emoji { glyph : "🧟\u{200d}♀" , codepoint : "1F9DF 200D 2640" , status : crate :: Status :: MinimallyQualified , introduction_version : 5f32 , name : "woman zombie" , group : "People & Body" , subgroup : "person-fantasy" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("vroulike zombie") , keywords : & ["lewende dooies" , "vroulike zombie" , "wandelende dooies"] , } , crate :: Annotation { lang : "am" , tts : Some ("ሴት ዞምቢ") , keywords : & ["ሴት ዞምቢ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("امرأة زومبي") , keywords : & ["امرأة زومبي"] , } , crate :: Annotation { lang : "as" , tts : Some ("মহিল\u{9be} জম\u{9cd}বি") , keywords : & ["অম\u{9c3}ত\u{9cd}য\u{9c1}" , "মহিল\u{9be} জম\u{9cd}বি" , "ৱ\u{9be}কিং ডেড"] , } , crate :: Annotation { lang : "az" , tts : Some ("qadın zombi") , keywords : & ["gəzən ölü" , "qadın zombi" , "xortdan"] , } , crate :: Annotation { lang : "be" , tts : Some ("жанчына-зомбі") , keywords : & ["жанчына-зомбі" , "жывы мярцвяк"] , } , crate :: Annotation { lang : "bg" , tts : Some ("жена зомби") , keywords : & ["жена зомби" , "немъртва" , "ходеща мъртва"] , } , crate :: Annotation { lang : "bn" , tts : Some ("মহিল\u{9be} জম\u{9cd}বি") , keywords : & ["আধমর\u{9be}" , "ওয\u{9bc}\u{9be}কিং ডেড" , "মহিল\u{9be} জম\u{9cd}বি"] , } , crate :: Annotation { lang : "br" , tts : Some ("zombiez") , keywords : & ["zombiez"] , } , crate :: Annotation { lang : "bs" , tts : Some ("žena zombi") , keywords : & ["hodajući mrtvac" , "žena zombi" , "živi mrtvac"] , } , crate :: Annotation { lang : "ca" , tts : Some ("dona zombi") , keywords : & ["dona zombi" , "morta vivent"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᎨᏯ ᎤᏲᎱᏒ ᎤᏗᏛᏓ") , keywords : & ["ᎠᎢᏒᎢ ᎤᏲᎱᏒᎢ" , "ᎠᎨᏯ ᎤᏲᎱᏒ ᎤᏗᏛᏓ" , "ᎤᏲᎱᏒᎯ ᏂᎨᏒᎾ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("nemrtvá žena") , keywords : & ["chodící" , "ghúl" , "mrtvola" , "mrtvá" , "nemrtvá" , "nemrtvá žena" , "zombice" , "zombie"] , } , crate :: Annotation { lang : "cy" , tts : Some ("sombi benywaidd") , keywords : & ["meirw ar droed" , "meirw byw" , "sombi benywaidd"] , } , crate :: Annotation { lang : "da" , tts : Some ("kvindelig zombie") , keywords : & ["kvinde" , "kvindelig zombie" , "levende død"] , } , crate :: Annotation { lang : "de" , tts : Some ("weiblicher Zombie") , keywords : & ["Untote" , "wandelnde Tote" , "weiblicher Zombie"] , } , crate :: Annotation { lang : "el" , tts : Some ("γυναίκα ζόμπι") , keywords : & ["απέθαντη" , "γυναίκα ζόμπι" , "νεκροζώντανη"] , } , crate :: Annotation { lang : "en" , tts : Some ("woman zombie") , keywords : & ["undead" , "walking dead" , "woman zombie"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("zombi mujer") , keywords : & ["caminante" , "muerta viviente" , "no muerta" , "zombi mujer"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["muerta viviente" , "zombi hombre" , "zombi mujer"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("naiszombi") , keywords : & ["elav surnu" , "naiszombi" , "surematu"] , } , crate :: Annotation { lang : "eu" , tts : Some ("emakume zonbi") , keywords : & ["emakume zonbi" , "hildako bizidun" , "hildako ibiltari"] , } , crate :: Annotation { lang : "fa" , tts : Some ("مرده متحرک زن") , keywords : & ["جسد متحرک" , "زامبی مرد" , "مرده متحرک زن" , "مرده متحرک مرد"] , } , crate :: Annotation { lang : "fi" , tts : Some ("naiszombi") , keywords : & ["elävä kuollut" , "naiszombi" , "tahdoton" , "voodoo" , "zombie"] , } , crate :: Annotation { lang : "fil" , tts : Some ("babaeng zombie") , keywords : & ["babaeng zombie" , "buhay na patay" , "walking dead"] , } , crate :: Annotation { lang : "fo" , tts : Some ("kvinnuligur sombi") , keywords : & ["kona" , "kvinna" , "kvinnuligur sombi" , "sombi" , "uppvakna" , "zombie"] , } , crate :: Annotation { lang : "fr" , tts : Some ("zombie femme") , keywords : & ["morte-vivante" , "zombie femme"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["femme" , "morte-vivante" , "zombie"] , } , crate :: Annotation { lang : "ga" , tts : Some ("zombaí baineann") , keywords : & ["baineann" , "neamh-mharbh" , "zombaí"] , } , crate :: Annotation { lang : "gd" , tts : Some ("zombie boireann") , keywords : & ["closach" , "coiseachd" , "marbh" , "zombie boireann"] , } , crate :: Annotation { lang : "gl" , tts : Some ("zombi de sexo feminino") , keywords : & ["Walking Dead" , "muller" , "non-morta" , "zombi de sexo feminino"] , } , crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}ત\u{acd}રી ઝોમ\u{acd}બી") , keywords : & ["સ\u{acd}ત\u{acd}રી ઝોમ\u{acd}બી"] , } , crate :: Annotation { lang : "ha" , tts : Some ("gaya mai rai na mace") , keywords : & ["gaya mai motsi" , "gaya mai rai na mace" , "mara mutuwa"] , } , crate :: Annotation { lang : "he" , tts : Some ("זומבי אישה") , keywords : & ["זומבי אישה" , "מתה מהלכת"] , } , crate :: Annotation { lang : "hi" , tts : Some ("महिला ज\u{93c}ॉम\u{94d}बी") , keywords : & ["मर कर भी जीवित" , "महिला ज\u{93c}ॉम\u{94d}बी" , "वॉकि\u{902}ग ड\u{947}ड"] , } , crate :: Annotation { lang : "hr" , tts : Some ("ženski zombi") , keywords : & ["ženski zombi" , "živi mrtvac"] , } , crate :: Annotation { lang : "hu" , tts : Some ("női zombi") , keywords : & ["női zombi" , "sétáló halott" , "élőhalott" , "élőholt"] , } , crate :: Annotation { lang : "hy" , tts : Some ("կին զոմբի") , keywords : & ["կենդանի" , "կին" , "կին զոմբի" , "մեռել"] , } , crate :: Annotation { lang : "id" , tts : Some ("zombi wanita") , keywords : & ["mayat berjalan" , "mayat hidup" , "zombi wanita"] , } , crate :: Annotation { lang : "ig" , tts : Some ("nwanyị nwụrụ anwụ na-aga ije") , keywords : & ["akụkọ mmụọ" , "ndị nwụrụ anwụ na-aga ije" , "nwanyị nwụrụ anwụ na-aga ije"] , } , crate :: Annotation { lang : "is" , tts : Some ("kvenkyns uppvakningur") , keywords : & ["hinir gangandi dauðu" , "hinir ódauðlegu" , "kvenkyns uppvakningur"] , } , crate :: Annotation { lang : "it" , tts : Some ("zombie donna") , keywords : & ["morto vivente" , "zombie donna"] , } , crate :: Annotation { lang : "ja" , tts : Some ("女のゾンビ") , keywords : & ["ゾンビ" , "ホラー" , "女" , "女のゾンビ" , "女性"] , } , crate :: Annotation { lang : "jv" , tts : Some ("zombi wadon") , keywords : & ["lelembut" , "setan bentayangan" , "zombi wadon"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ზომბი ქალი") , keywords : & ["ზომბი ქალი" , "ცოცხალ-მკვდარი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("әйел зомби") , keywords : & ["әйел зомби"] , } , crate :: Annotation { lang : "km" , tts : Some ("ហ\u{17d2}ស\u{17c6}ប\u{17ca}\u{17b8}ស\u{17d2}រ\u{17b8}") , keywords : & ["ខ\u{17d2}មោចដើរ" , "ប\u{17b7}សាចម\u{17b7}នចេះស\u{17d2}លាប\u{17cb}" , "ហ\u{17d2}ស\u{17c6}ប\u{17ca}\u{17b8}ស\u{17d2}រ\u{17b8}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಮಹ\u{cbf}ಳ\u{cc6} ಜೊಂಬ\u{cbf}") , keywords : & ["ನಡ\u{cc6}ದಾಡುವ ಶವ" , "ಮಹ\u{cbf}ಳ\u{cc6} ಜೊಂಬ\u{cbf}" , "ಶವ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("여자 좀비") , keywords : & ["언데드" , "여자 좀비" , "워킹데드"] , } , crate :: Annotation { lang : "kok" , tts : Some ("बायल झोम\u{94d}बी") , keywords : & ["चलपी प\u{94d}र\u{947}त" , "न मरपी" , "बायल झोम\u{94d}बी"] , } , crate :: Annotation { lang : "ky" , tts : Some ("аял зомби") , keywords : & ["аял зомби" , "басып жүргөн өлүк" , "өлбөс"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Zombiefra") , keywords : & ["Zombie" , "Zombiefra" , "ondout"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຊອມບ\u{eb5}\u{ec9}ຍ\u{eb4}ງ") , keywords : & ["ຊອມບ\u{eb5}\u{ec9}ຍ\u{eb4}ງ" , "ຜ\u{eb5}ດ\u{eb4}ບ" , "ວອກຄ\u{eb4}ງເດດ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("zombė") , keywords : & ["nemirtinga" , "vaikštanti numirėlė" , "zombė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("zombijsieviete") , keywords : & ["nemirstīgs" , "sieviete zombijs" , "staigājošais mironis" , "zombijsieviete"] , } , crate :: Annotation { lang : "mi" , tts : Some ("wahine tūpāpaku") , keywords : & ["oramate" , "tūpāpaku hīkoi" , "wahine tūpāpaku"] , } , crate :: Annotation { lang : "mk" , tts : Some ("жена зомби") , keywords : & ["жена зомби" , "жив мртовец" , "зомби"] , } , crate :: Annotation { lang : "ml" , tts : Some ("പെൺ വേത\u{d3e}ളം") , keywords : & ["അൺഡെഡ\u{d4d}" , "പെൺ വേത\u{d3e}ളം" , "വ\u{d3e}ക\u{d4d}കിംഗ\u{d4d} ഡെഡ\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("эмэгтэй зомби") , keywords : & ["зомби" , "эмэгтэй зомби" , "үхээгүй"] , } , crate :: Annotation { lang : "mr" , tts : Some ("स\u{94d}त\u{94d}री झोम\u{94d}बी") , keywords : & ["चालणारा म\u{943}त" , "जिव\u{902}त नसल\u{947}ला" , "स\u{94d}त\u{94d}री झोम\u{94d}बी"] , } , crate :: Annotation { lang : "ms" , tts : Some ("zombi wanita") , keywords : & ["bangkai bernyawa" , "mayat hidup" , "zombi wanita"] , } , crate :: Annotation { lang : "mt" , tts : Some ("mara żombi") , keywords : & ["mara żombi" , "mejtin jimxu" , "qam mil-mewt"] , } , crate :: Annotation { lang : "my" , tts : Some ("အမျ\u{102d}\u{102f}းသမ\u{102e}း ဖ\u{102f}တ\u{103a}ကောင\u{103a}") , keywords : & ["မသေသော" , "လမ\u{103a}းလျ\u{103e}ောက\u{103a}နေသည\u{1037}\u{103a} အသေကောင\u{103a}" , "အမျ\u{102d}\u{102f}းသမ\u{102e}း ဖ\u{102f}တ\u{103a}ကောင\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("kvinnelig zombie") , keywords : & ["kvinnelig zombie" , "udød" , "vandød"] , } , crate :: Annotation { lang : "ne" , tts : Some ("व\u{94d}य\u{941}\u{901}त\u{947}को म\u{943}त छोरीमान\u{94d}छ\u{947}") , keywords : & ["म\u{941}र\u{94d}कट\u{94d}टा" , "म\u{943}त आत\u{94d}मा" , "व\u{94d}य\u{941}\u{901}त\u{947}को म\u{943}त छोरीमान\u{94d}छ\u{947}"] , } , crate :: Annotation { lang : "nl" , tts : Some ("vrouwelijke zombie") , keywords : & ["lopende dode" , "ondode" , "vrouwelijke zombie"] , } , crate :: Annotation { lang : "nn" , tts : Some ("kvinneleg zombie") , keywords : & ["kvinneleg zombie" , "udød" , "vandød"] , } , crate :: Annotation { lang : "or" , tts : Some ("ମହ\u{b3f}ଳ\u{b3e} ଜୋମ\u{b4d}ବ\u{b3f}") , keywords : & ["ପ\u{b4d}ରେତ\u{b3e}ତ\u{b4d}ମ\u{b3e} । ଚ\u{b3e}ଲ\u{b41}ଥ\u{b3f}ବ\u{b3e} ମ\u{b43}ତ ଶରୀର" , "ମହ\u{b3f}ଳ\u{b3e} ଜୋମ\u{b4d}ବ\u{b3f}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਔਰਤ ਜ\u{a3c}\u{a4c}\u{a02}ਬੀ") , keywords : & ["ਔਰਤ ਜ\u{a3c}\u{a4c}\u{a02}ਬੀ" , "ਜੀਉ\u{a02}ਦਾ" , "ਤ\u{a41}ਰਦਾ ਮਰਿਆ ਆਦਮੀ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("زنانی زومبی") , keywords : & ["آسیب" , "ت\u{64f}ردی پ\u{650}ھردی لاش" , "زنانی زومبی"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Wúmán Zombí") , keywords : & ["Dẹ\u{301}d Pẹ\u{301}sin Wé De Dú Laik Sé I Dé Alaif" , "Dẹ\u{301}d Pẹ\u{301}sin Wé De Waká" , "Wúmán Zombí"] , } , crate :: Annotation { lang : "pl" , tts : Some ("kobieta zombie") , keywords : & ["chodzące trupy" , "kobieta zombie" , "nieumarli"] , } , crate :: Annotation { lang : "ps" , tts : Some ("ښځه زومبی") , keywords : & ["نامړ" , "ښځه زومبي" , "ښځه زومبی" , "ګرځنده مړی"] , } , crate :: Annotation { lang : "pt" , tts : Some ("mulher zumbi") , keywords : & ["cazumbi" , "mulher zumbi"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("morta-viva") , keywords : & ["morta-viva" , "mulher zombie"] , } , crate :: Annotation { lang : "qu" , tts : Some ("warmi zombi") , keywords : & ["mana wañusqa" , "warmi zombi" , "zombi"] , } , crate :: Annotation { lang : "ro" , tts : Some ("femeie zombi") , keywords : & ["femeie zombi" , "morți vii" , "strigoi"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1262") , keywords : & ["E10-1262"] , } , crate :: Annotation { lang : "ru" , tts : Some ("женщина-зомби") , keywords : & ["женщина" , "женщина-зомби" , "живой" , "зомби" , "мертвец"] , } , crate :: Annotation { lang : "rw" , tts : Some ("izombikazi") , keywords : & ["abapfuye bahagaze" , "abatarapfuye" , "izombikazi"] , } , crate :: Annotation { lang : "sd" , tts : Some ("عورت زومبي") , keywords : & ["عورت زومبي" , "ڀوت، موئل هلندي"] , } , crate :: Annotation { lang : "si" , tts : Some ("ගැන\u{dd4} සොම\u{dca}බ\u{dd2}") , keywords : & ["ගැන\u{dd4} සොම\u{dca}බ\u{dd2}" , "නොමැර\u{dd4}ණ\u{dd4}" , "මැර\u{dd3} ඇව\u{dd2}ද\u{dd2}ම"] , } , crate :: Annotation { lang : "sk" , tts : Some ("ženská zombia") , keywords : & ["mátoha" , "mŕtvola" , "ženská zombia"] , } , crate :: Annotation { lang : "sl" , tts : Some ("zombi ženska") , keywords : & ["nemrtev" , "zombi ženska" , "živi mrtvec"] , } , crate :: Annotation { lang : "so" , tts : Some ("haweeney dhimatay soo laabatay") , keywords : & ["aan dhiman" , "haweeney dhimatay soo laabatay" , "haweeney dhimatay soo noolaatay" , "mayd socda"] , } , crate :: Annotation { lang : "sq" , tts : Some ("grua zombi") , keywords : & ["grua zombi" , "i pa vdekur" , "i vdekur që ecën"] , } , crate :: Annotation { lang : "sr" , tts : Some ("жена зомби") , keywords : & ["жена зомби" , "повампирен" , "ходајући мртвац"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["жена зомби"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("žena zombi") , keywords : & ["hodajući mrtvac" , "povampiren" , "žena zombi"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["žena zombi"] , } , crate :: Annotation { lang : "sv" , tts : Some ("kvinnlig zombie") , keywords : & ["kvinnlig zombie" , "levande död" , "odöd" , "vandöd"] , } , crate :: Annotation { lang : "sw" , tts : Some ("dubwana jike") , keywords : & ["dubwana jike" , "mazimwi" , "zimwi"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("பெண\u{bcd} ஜோம\u{bcd}பி") , keywords : & ["ச\u{bbe}க\u{bbe}வரம\u{bcd} பெற\u{bcd}றது" , "பெண\u{bcd} ஜோம\u{bcd}பி"] , } , crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}త\u{c4d}ర\u{c40} జ\u{c3e}ంబ\u{c40}") , keywords : & ["నడ\u{c3f}చ\u{c47} శవం" , "మరణం ల\u{c47}న\u{c3f}ద\u{c3f}" , "స\u{c4d}త\u{c4d}ర\u{c40} జ\u{c3e}ంబ\u{c40}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("зани зомби") , keywords : & ["вампирҳо" , "зани зомби" , "мурдаҳои роҳгард"] , } , crate :: Annotation { lang : "th" , tts : Some ("ซอมบ\u{e35}\u{e49}ผ\u{e39}\u{e49}หญ\u{e34}ง") , keywords : & ["ซอมบ\u{e35}\u{e49}ผ\u{e39}\u{e49}หญ\u{e34}ง" , "ผ\u{e35}ด\u{e34}บ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("aýal zombi") , keywords : & ["aýal zombi" , "ölümsiz" , "ýöreýän öli"] , } , crate :: Annotation { lang : "to" , tts : Some ("tēvolo fefine") , keywords : & ["tēvolo fefine"] , } , crate :: Annotation { lang : "tr" , tts : Some ("kadın zombi") , keywords : & ["hortlak" , "kadın zombi" , "yürüyen ölü"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئايال زومبى") , keywords : & ["ئايال زومبى" , "تىرىك مۇردا" , "مۇردا"] , } , crate :: Annotation { lang : "uk" , tts : Some ("жінка-зомбі") , keywords : & ["живий мрець" , "жінка-зомбі" , "зомбі" , "нечисть" , "упириця"] , } , crate :: Annotation { lang : "ur" , tts : Some ("زندہ مردہ عورت") , keywords : & ["زندہ" , "زندہ مردہ عورت" , "چلتا پھرتا مردہ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("ayol zombi") , keywords : & ["ayol" , "ayol zombi" , "murda" , "tirik"] , } , crate :: Annotation { lang : "vi" , tts : Some ("xác chết nữ sống lại") , keywords : & ["xác chết nữ sống lại" , "xác chết sống lại" , "xác sống"] , } , crate :: Annotation { lang : "wo" , tts : Some ("zombi bu jigéen") , keywords : & ["bu deewul" , "néew buy dox" , "zombi bu jigéen"] , } , crate :: Annotation { lang : "xh" , tts : Some ("isithunzela esilibhinqa") , keywords : & ["isidumbu esihambayo" , "isithunzela esilibhinqa" , "ongafanga"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Ẹbọra obìnrin") , keywords : & ["Àìlèkú" , "àkúdáàyà" , "Ẹbọra obìnrin"] , } , crate :: Annotation { lang : "yue" , tts : Some ("女殭屍") , keywords : & ["亡靈" , "女殭屍" , "行屍"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("女殭尸") , keywords : & ["亡灵" , "女殭尸" , "行尸"] , } , crate :: Annotation { lang : "zh" , tts : Some ("女僵尸") , keywords : & ["女僵尸" , "女行尸走肉"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("女殭屍") , keywords : & ["女殭屍"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("女喪屍") , keywords : & ["女喪屍" , "女喪屍｜女殭屍｜不死人｜行屍"] , } , crate :: Annotation { lang : "zu" , tts : Some ("isilwane sowesifazane") , keywords : & ["hamba efile" , "isilwane sowesifazane" , "ngafile"] , }] , } ;

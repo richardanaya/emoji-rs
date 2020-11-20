@@ -244,15 +244,19 @@ impl ToTokens for Annotation {
 #[cfg(not(target_arch = "wasm32"))]
 #[tokio::main]
 async fn main() -> Result<(), reqwest::Error> {
-    let annotation_langs = vec!["en", "fi"]; // will change in future
+    let annotation_langs = vec!["af", "am", "ar", "ar_SA", "as", "ast", "az", "be", "bg", "bn", "br", "bs", "ca", "ccp", "ceb", "chr", "ckb", "cs", "cy", "da", "de", "de_CH", "doi", "el", "en", "en_001", "en_AU", "en_CA", "en_GB", "en_IN", "es", "es_419", "es_MX", "es_US", "et", "eu", "fa", "fi", "fil", "fo", "fr", "fr_CA", "ga", "gd", "gl", "gu", "ha", "ha_NE", "he", "hi", "hr", "hu", "hy", "ia", "id", "ig", "is", "it", "ja", "jv", "ka", "kab", "kk", "kl", "km", "kn", "ko", "kok", "ku", "ky", "lb", "lo", "lt", "lv", "mai", "mi", "mk", "ml", "mn", "mni", "mr", "ms", "mt", "my", "nb", "ne", "nl", "nn", "or", "pa", "pa_Arab", "pcm", "pl", "ps", "pt", "pt_PT", "qu", "rm", "ro", "root", "ru", "rw", "sa", "sat", "sd", "si", "sk", "sl", "so", "sq", "sr", "sr_Cyrl", "sr_Cyrl_BA", "sr_Latn", "sr_Latn_BA", "su", "sv", "sw", "sw_KE", "ta", "te", "tg", "th", "ti", "tk", "to", "tr", "tt", "ug", "uk", "ur", "uz", "vi", "wo", "xh", "yo", "yo_BJ", "yue", "yue_Hans", "zh", "zh_Hant", "zh_Hant_HK", "zu"];
+    // let annotation_langs = vec!["en"];
+    let langs_len = annotation_langs.len();
     let mut date = "".to_owned();
     let mut version = 0.0;
     let mut groups: Vec<Group> = vec![];
     
     let mut annotations: HashMap<String, Vec<Annotation>> = HashMap::new();
 
-    for lang in &annotation_langs {
-	let annotation_res = reqwest::get(&format!("https://raw.githubusercontent.com/unicode-org/cldr/release-38/common/annotations/{}.xml", lang)).await?;
+    for (i, lang) in annotation_langs.clone().into_iter().enumerate() {
+	println!("Processing annotations for language {}. Progress {}/{}",
+		 lang, i, langs_len);
+	let annotation_res = reqwest::get(&format!("https://raw.githubusercontent.com/unicode-org/cldr/release-38/common/annotations/{}.xml", lang)).await?; // I know this should be properly async with every lang but I really don't want to go through the effort of implementing it right now
 	let annotation_text = annotation_res.text().await?;
 
 	let parser = EventReader::from_str(&annotation_text);
@@ -314,13 +318,14 @@ async fn main() -> Result<(), reqwest::Error> {
 		    }
 		}
 		Err(e) => {
-                    println!("Error: {}", e);
-                    break;
+                    panic!("xml parse error for language {}: {}", lang, e);
 		}
 		_ => {}
             }
 	}
     }
+
+    println!("Annotation processing done. Compiling into emoji list");
     
     let emoji_test = reqwest::get("https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt").await?;
 
@@ -379,6 +384,9 @@ async fn main() -> Result<(), reqwest::Error> {
     if date == "" {
 	panic!("No release date found while parsing emoji data");
     }
+
+    
+    println!("Emoji list done. Turning into rust and dumping to file.");
 
     let dump = quote!{
 	/// The annotation languages this crate was compiled with
