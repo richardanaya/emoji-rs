@@ -5,6 +5,8 @@ pub const ZIPPER_MOUTH_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "zipper-mouth face",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const FACE_WITH_RAISED_EYEBROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "face with raised eyebrow",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -55,6 +59,8 @@ pub const NEUTRAL_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "neutral face",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -77,6 +83,8 @@ pub const EXPRESSIONLESS_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "expressionless face",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -105,6 +113,8 @@ pub const FACE_WITHOUT_MOUTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "face without mouth",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -127,6 +137,8 @@ pub const FACE_IN_CLOUDS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13.1f32,
     name: "face in clouds",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "😶\u{200d}🌫",
@@ -134,6 +146,8 @@ pub const FACE_IN_CLOUDS: crate::Emoji = crate::Emoji {
         status: crate::Status::MinimallyQualified,
         introduction_version: 13.1f32,
         name: "face in clouds",
+        group: "Smileys & Emotion",
+        subgroup: "face-neutral-skeptical",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -168,6 +182,8 @@ pub const SMIRKING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "smirking face",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -190,6 +206,8 @@ pub const UNAMUSED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "unamused face",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -212,6 +230,8 @@ pub const FACE_WITH_ROLLING_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "face with rolling eyes",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -240,6 +260,8 @@ pub const GRIMACING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "grimacing face",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -262,6 +284,8 @@ pub const FACE_EXHALING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13.1f32,
     name: "face exhaling",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -300,6 +324,8 @@ pub const LYING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "lying face",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
     is_variant: false,
     variants: &[],
     annotations: &[

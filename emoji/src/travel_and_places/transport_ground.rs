@@ -5,6 +5,8 @@ pub const LOCOMOTIVE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "locomotive",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const RAILWAY_CAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "railway car",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const HIGH_SPEED_TRAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "high-speed train",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -84,6 +90,8 @@ pub const BULLET_TRAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bullet train",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -113,6 +121,8 @@ pub const TRAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "train",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -135,6 +145,8 @@ pub const METRO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "metro",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -157,6 +169,8 @@ pub const LIGHT_RAIL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "light rail",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -179,6 +193,8 @@ pub const STATION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "station",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -201,6 +217,8 @@ pub const TRAM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "tram",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -223,6 +241,8 @@ pub const MONORAIL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "monorail",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -245,6 +265,8 @@ pub const MOUNTAIN_RAILWAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "mountain railway",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -267,6 +289,8 @@ pub const TRAM_CAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "tram car",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -289,6 +313,8 @@ pub const BUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bus",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -311,6 +337,8 @@ pub const ONCOMING_BUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "oncoming bus",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -333,6 +361,8 @@ pub const TROLLEYBUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "trolleybus",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -355,6 +385,8 @@ pub const MINIBUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "minibus",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -384,6 +416,8 @@ pub const AMBULANCE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ambulance",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -406,6 +440,8 @@ pub const FIRE_ENGINE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fire engine",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -428,6 +464,8 @@ pub const POLICE_CAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "police car",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -450,6 +488,8 @@ pub const ONCOMING_POLICE_CAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "oncoming police car",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -478,6 +518,8 @@ pub const TAXI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "taxi",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -500,6 +542,8 @@ pub const ONCOMING_TAXI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "oncoming taxi",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -522,6 +566,8 @@ pub const AUTOMOBILE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "automobile",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -544,6 +590,8 @@ pub const ONCOMING_AUTOMOBILE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "oncoming automobile",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -566,6 +614,8 @@ pub const SPORT_UTILITY_VEHICLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sport utility vehicle",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -588,6 +638,8 @@ pub const PICKUP_TRUCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "pickup truck",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -610,6 +662,8 @@ pub const DELIVERY_TRUCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "delivery truck",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -632,6 +686,8 @@ pub const ARTICULATED_LORRY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "articulated lorry",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -654,6 +710,8 @@ pub const TRACTOR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "tractor",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -676,6 +734,8 @@ pub const RACING_CAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "racing car",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🏎",
@@ -683,6 +743,8 @@ pub const RACING_CAR: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "racing car",
+        group: "Travel & Places",
+        subgroup: "transport-ground",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -707,6 +769,8 @@ pub const MOTORCYCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "motorcycle",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🏍",
@@ -714,6 +778,8 @@ pub const MOTORCYCLE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "motorcycle",
+        group: "Travel & Places",
+        subgroup: "transport-ground",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -738,6 +804,8 @@ pub const MOTOR_SCOOTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "motor scooter",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -760,6 +828,8 @@ pub const MANUAL_WHEELCHAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "manual wheelchair",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -782,6 +852,8 @@ pub const MOTORIZED_WHEELCHAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "motorized wheelchair",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -804,6 +876,8 @@ pub const AUTO_RICKSHAW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "auto rickshaw",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -826,6 +900,8 @@ pub const BICYCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bicycle",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -848,6 +924,8 @@ pub const KICK_SCOOTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "kick scooter",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -870,6 +948,8 @@ pub const SKATEBOARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "skateboard",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -892,6 +972,8 @@ pub const ROLLER_SKATE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "roller skate",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -914,6 +996,8 @@ pub const BUS_STOP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bus stop",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -936,6 +1020,8 @@ pub const MOTORWAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "motorway",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🛣",
@@ -943,6 +1029,8 @@ pub const MOTORWAY: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "motorway",
+        group: "Travel & Places",
+        subgroup: "transport-ground",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -967,6 +1055,8 @@ pub const RAILWAY_TRACK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "railway track",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🛤",
@@ -974,6 +1064,8 @@ pub const RAILWAY_TRACK: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "railway track",
+        group: "Travel & Places",
+        subgroup: "transport-ground",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -998,6 +1090,8 @@ pub const OIL_DRUM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "oil drum",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🛢",
@@ -1005,6 +1099,8 @@ pub const OIL_DRUM: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "oil drum",
+        group: "Travel & Places",
+        subgroup: "transport-ground",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -1029,6 +1125,8 @@ pub const FUEL_PUMP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fuel pump",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1051,6 +1149,8 @@ pub const POLICE_CAR_LIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "police car light",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1073,6 +1173,8 @@ pub const HORIZONTAL_TRAFFIC_LIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "horizontal traffic light",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1100,6 +1202,8 @@ pub const VERTICAL_TRAFFIC_LIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "vertical traffic light",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1127,6 +1231,8 @@ pub const STOP_SIGN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "stop sign",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1149,6 +1255,8 @@ pub const CONSTRUCTION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "construction",
+    group: "Travel & Places",
+    subgroup: "transport-ground",
     is_variant: false,
     variants: &[],
     annotations: &[

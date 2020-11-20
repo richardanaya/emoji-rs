@@ -5,6 +5,8 @@ pub const SMILING_FACE_WITH_SUNGLASSES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "smiling face with sunglasses",
+    group: "Smileys & Emotion",
+    subgroup: "face-glasses",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -34,6 +36,8 @@ pub const NERD_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "nerd face",
+    group: "Smileys & Emotion",
+    subgroup: "face-glasses",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -56,6 +60,8 @@ pub const FACE_WITH_MONOCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "face with monocle",
+    group: "Smileys & Emotion",
+    subgroup: "face-glasses",
     is_variant: false,
     variants: &[],
     annotations: &[

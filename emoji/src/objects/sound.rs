@@ -5,6 +5,8 @@ pub const MUTED_SPEAKER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "muted speaker",
+    group: "Objects",
+    subgroup: "sound",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -34,6 +36,8 @@ pub const SPEAKER_LOW_VOLUME: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "speaker low volume",
+    group: "Objects",
+    subgroup: "sound",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -56,6 +60,8 @@ pub const SPEAKER_MEDIUM_VOLUME: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "speaker medium volume",
+    group: "Objects",
+    subgroup: "sound",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -83,6 +89,8 @@ pub const SPEAKER_HIGH_VOLUME: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "speaker high volume",
+    group: "Objects",
+    subgroup: "sound",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -111,6 +119,8 @@ pub const LOUDSPEAKER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "loudspeaker",
+    group: "Objects",
+    subgroup: "sound",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -133,6 +143,8 @@ pub const MEGAPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "megaphone",
+    group: "Objects",
+    subgroup: "sound",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -161,6 +173,8 @@ pub const POSTAL_HORN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "postal horn",
+    group: "Objects",
+    subgroup: "sound",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -183,6 +197,8 @@ pub const BELL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bell",
+    group: "Objects",
+    subgroup: "sound",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -205,6 +221,8 @@ pub const BELL_WITH_SLASH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "bell with slash",
+    group: "Objects",
+    subgroup: "sound",
     is_variant: false,
     variants: &[],
     annotations: &[

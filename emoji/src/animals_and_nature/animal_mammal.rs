@@ -5,6 +5,8 @@ pub const MONKEY_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "monkey face",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const MONKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "monkey",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const GORILLA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "gorilla",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const ORANGUTAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "orangutan",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const DOG_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dog face",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -115,6 +125,8 @@ pub const DOG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "dog",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -137,6 +149,8 @@ pub const GUIDE_DOG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "guide dog",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -159,6 +173,8 @@ pub const SERVICE_DOG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "service dog",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -181,6 +197,8 @@ pub const POODLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "poodle",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -203,6 +221,8 @@ pub const WOLF: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wolf",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -225,6 +245,8 @@ pub const FOX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "fox",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -247,6 +269,8 @@ pub const RACCOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "raccoon",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -269,6 +293,8 @@ pub const CAT_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cat face",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -291,6 +317,8 @@ pub const CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "cat",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -313,6 +341,8 @@ pub const BLACK_CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "black cat",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -335,6 +365,8 @@ pub const LION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "lion",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -363,6 +395,8 @@ pub const TIGER_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tiger face",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -385,6 +419,8 @@ pub const TIGER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "tiger",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -407,6 +443,8 @@ pub const LEOPARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "leopard",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -429,6 +467,8 @@ pub const HORSE_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "horse face",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -451,6 +491,8 @@ pub const HORSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "horse",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -481,6 +523,8 @@ pub const UNICORN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "unicorn",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -503,6 +547,8 @@ pub const ZEBRA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "zebra",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -525,6 +571,8 @@ pub const DEER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "deer",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -547,6 +595,8 @@ pub const BISON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "bison",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -569,6 +619,8 @@ pub const COW_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cow face",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -591,6 +643,8 @@ pub const OX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "ox",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -613,6 +667,8 @@ pub const WATER_BUFFALO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "water buffalo",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -635,6 +691,8 @@ pub const COW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "cow",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -657,6 +715,8 @@ pub const PIG_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pig face",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -679,6 +739,8 @@ pub const PIG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "pig",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -701,6 +763,8 @@ pub const BOAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "boar",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -723,6 +787,8 @@ pub const PIG_NOSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pig nose",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -745,6 +811,8 @@ pub const RAM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "ram",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -773,6 +841,8 @@ pub const EWE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ewe",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -795,6 +865,8 @@ pub const GOAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "goat",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -817,6 +889,8 @@ pub const CAMEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "camel",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -839,6 +913,8 @@ pub const TWO_HUMP_CAMEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "two-hump camel",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -861,6 +937,8 @@ pub const LLAMA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "llama",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -883,6 +961,8 @@ pub const GIRAFFE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "giraffe",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -905,6 +985,8 @@ pub const ELEPHANT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "elephant",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -927,6 +1009,8 @@ pub const MAMMOTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "mammoth",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -949,6 +1033,8 @@ pub const RHINOCEROS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "rhinoceros",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -971,6 +1057,8 @@ pub const HIPPOPOTAMUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "hippopotamus",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -993,6 +1081,8 @@ pub const MOUSE_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "mouse face",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1015,6 +1105,8 @@ pub const MOUSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "mouse",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1037,6 +1129,8 @@ pub const RAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "rat",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1059,6 +1153,8 @@ pub const HAMSTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hamster",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1081,6 +1177,8 @@ pub const RABBIT_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "rabbit face",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1110,6 +1208,8 @@ pub const RABBIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "rabbit",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1132,6 +1232,8 @@ pub const CHIPMUNK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "chipmunk",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🐿",
@@ -1139,6 +1241,8 @@ pub const CHIPMUNK: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "chipmunk",
+        group: "Animals & Nature",
+        subgroup: "animal-mammal",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -1163,6 +1267,8 @@ pub const BEAVER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "beaver",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1185,6 +1291,8 @@ pub const HEDGEHOG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "hedgehog",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1207,6 +1315,8 @@ pub const BAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "bat",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1229,6 +1339,8 @@ pub const BEAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bear",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1251,6 +1363,8 @@ pub const POLAR_BEAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "polar bear",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🐻\u{200d}❄",
@@ -1258,6 +1372,8 @@ pub const POLAR_BEAR: crate::Emoji = crate::Emoji {
         status: crate::Status::MinimallyQualified,
         introduction_version: 13f32,
         name: "polar bear",
+        group: "Animals & Nature",
+        subgroup: "animal-mammal",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -1282,6 +1398,8 @@ pub const KOALA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "koala",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1304,6 +1422,8 @@ pub const PANDA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "panda",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1326,6 +1446,8 @@ pub const SLOTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "sloth",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1348,6 +1470,8 @@ pub const OTTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "otter",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1370,6 +1494,8 @@ pub const SKUNK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "skunk",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1392,6 +1518,8 @@ pub const KANGAROO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "kangaroo",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1414,6 +1542,8 @@ pub const BADGER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "badger",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1436,6 +1566,8 @@ pub const PAW_PRINTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "paw prints",
+    group: "Animals & Nature",
+    subgroup: "animal-mammal",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const MOVIE_CAMERA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "movie camera",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const FILM_FRAMES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "film frames",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🎞",
@@ -34,6 +38,8 @@ pub const FILM_FRAMES: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "film frames",
+        group: "Objects",
+        subgroup: "light & video",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -58,6 +64,8 @@ pub const FILM_PROJECTOR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "film projector",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "📽",
@@ -65,6 +73,8 @@ pub const FILM_PROJECTOR: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "film projector",
+        group: "Objects",
+        subgroup: "light & video",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -95,6 +105,8 @@ pub const CLAPPER_BOARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "clapper board",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -117,6 +129,8 @@ pub const TELEVISION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "television",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -139,6 +153,8 @@ pub const CAMERA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "camera",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -161,6 +177,8 @@ pub const CAMERA_WITH_FLASH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "camera with flash",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -183,6 +201,8 @@ pub const VIDEO_CAMERA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "video camera",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -205,6 +225,8 @@ pub const VIDEOCASSETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "videocassette",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -227,6 +249,8 @@ pub const MAGNIFYING_GLASS_TILTED_LEFT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "magnifying glass tilted left",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -262,6 +286,8 @@ pub const MAGNIFYING_GLASS_TILTED_RIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "magnifying glass tilted right",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -297,6 +323,8 @@ pub const CANDLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "candle",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🕯",
@@ -304,6 +332,8 @@ pub const CANDLE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "candle",
+        group: "Objects",
+        subgroup: "light & video",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -328,6 +358,8 @@ pub const LIGHT_BULB: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "light bulb",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -350,6 +382,8 @@ pub const FLASHLIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "flashlight",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -372,6 +406,8 @@ pub const RED_PAPER_LANTERN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red paper lantern",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -401,6 +437,8 @@ pub const DIYA_LAMP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "diya lamp",
+    group: "Objects",
+    subgroup: "light & video",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const SAXOPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "saxophone",
+    group: "Objects",
+    subgroup: "musical-instrument",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const ACCORDION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "accordion",
+    group: "Objects",
+    subgroup: "musical-instrument",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const GUITAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "guitar",
+    group: "Objects",
+    subgroup: "musical-instrument",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const MUSICAL_KEYBOARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "musical keyboard",
+    group: "Objects",
+    subgroup: "musical-instrument",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -105,6 +113,8 @@ pub const TRUMPET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "trumpet",
+    group: "Objects",
+    subgroup: "musical-instrument",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -127,6 +137,8 @@ pub const VIOLIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "violin",
+    group: "Objects",
+    subgroup: "musical-instrument",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -149,6 +161,8 @@ pub const BANJO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "banjo",
+    group: "Objects",
+    subgroup: "musical-instrument",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -171,6 +185,8 @@ pub const DRUM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "drum",
+    group: "Objects",
+    subgroup: "musical-instrument",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -193,6 +209,8 @@ pub const LONG_DRUM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "long drum",
+    group: "Objects",
+    subgroup: "musical-instrument",
     is_variant: false,
     variants: &[],
     annotations: &[

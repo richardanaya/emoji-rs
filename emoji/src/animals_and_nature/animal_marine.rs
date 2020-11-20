@@ -5,6 +5,8 @@ pub const SPOUTING_WHALE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "spouting whale",
+    group: "Animals & Nature",
+    subgroup: "animal-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const WHALE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "whale",
+    group: "Animals & Nature",
+    subgroup: "animal-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const DOLPHIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dolphin",
+    group: "Animals & Nature",
+    subgroup: "animal-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const SEAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "seal",
+    group: "Animals & Nature",
+    subgroup: "animal-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const FISH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fish",
+    group: "Animals & Nature",
+    subgroup: "animal-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -115,6 +125,8 @@ pub const TROPICAL_FISH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tropical fish",
+    group: "Animals & Nature",
+    subgroup: "animal-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -137,6 +149,8 @@ pub const BLOWFISH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "blowfish",
+    group: "Animals & Nature",
+    subgroup: "animal-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -159,6 +173,8 @@ pub const SHARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "shark",
+    group: "Animals & Nature",
+    subgroup: "animal-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -181,6 +197,8 @@ pub const OCTOPUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "octopus",
+    group: "Animals & Nature",
+    subgroup: "animal-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -203,6 +221,8 @@ pub const SPIRAL_SHELL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "spiral shell",
+    group: "Animals & Nature",
+    subgroup: "animal-marine",
     is_variant: false,
     variants: &[],
     annotations: &[

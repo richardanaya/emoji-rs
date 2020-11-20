@@ -5,6 +5,8 @@ pub const BENTO_BOX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bento box",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const RICE_CRACKER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "rice cracker",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const RICE_BALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "rice ball",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const COOKED_RICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cooked rice",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const CURRY_RICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "curry rice",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -115,6 +125,8 @@ pub const STEAMING_BOWL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "steaming bowl",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -137,6 +149,8 @@ pub const SPAGHETTI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "spaghetti",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -159,6 +173,8 @@ pub const ROASTED_SWEET_POTATO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "roasted sweet potato",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -186,6 +202,8 @@ pub const ODEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "oden",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -208,6 +226,8 @@ pub const SUSHI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sushi",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -230,6 +250,8 @@ pub const FRIED_SHRIMP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fried shrimp",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -252,6 +274,8 @@ pub const FISH_CAKE_WITH_SWIRL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fish cake with swirl",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -274,6 +298,8 @@ pub const MOON_CAKE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "moon cake",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -296,6 +322,8 @@ pub const DANGO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dango",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -318,6 +346,8 @@ pub const DUMPLING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "dumpling",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -347,6 +377,8 @@ pub const FORTUNE_COOKIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "fortune cookie",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -369,6 +401,8 @@ pub const TAKEOUT_BOX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "takeout box",
+    group: "Food & Drink",
+    subgroup: "food-asian",
     is_variant: false,
     variants: &[],
     annotations: &[

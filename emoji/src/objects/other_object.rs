@@ -5,6 +5,8 @@ pub const CIGARETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cigarette",
+    group: "Objects",
+    subgroup: "other-object",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const COFFIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "coffin",
+    group: "Objects",
+    subgroup: "other-object",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "⚰",
@@ -34,6 +38,8 @@ pub const COFFIN: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 1f32,
         name: "coffin",
+        group: "Objects",
+        subgroup: "other-object",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -58,6 +64,8 @@ pub const HEADSTONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "headstone",
+    group: "Objects",
+    subgroup: "other-object",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -80,6 +88,8 @@ pub const FUNERAL_URN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "funeral urn",
+    group: "Objects",
+    subgroup: "other-object",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "⚱",
@@ -87,6 +97,8 @@ pub const FUNERAL_URN: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 1f32,
         name: "funeral urn",
+        group: "Objects",
+        subgroup: "other-object",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -111,6 +123,8 @@ pub const MOAI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "moai",
+    group: "Objects",
+    subgroup: "other-object",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -140,6 +154,8 @@ pub const PLACARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "placard",
+    group: "Objects",
+    subgroup: "other-object",
     is_variant: false,
     variants: &[],
     annotations: &[

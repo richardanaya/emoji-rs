@@ -5,6 +5,8 @@ pub const INPUT_LATIN_UPPERCASE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "input latin uppercase",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -35,6 +37,8 @@ pub const INPUT_LATIN_LOWERCASE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "input latin lowercase",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -65,6 +69,8 @@ pub const INPUT_NUMBERS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "input numbers",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -87,6 +93,8 @@ pub const INPUT_SYMBOLS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "input symbols",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -109,6 +117,8 @@ pub const INPUT_LATIN_LETTERS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "input latin letters",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -137,6 +147,8 @@ pub const A_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "A button (blood type)",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🅰",
@@ -144,6 +156,8 @@ pub const A_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "A button (blood type)",
+        group: "Symbols",
+        subgroup: "alphanum",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -168,6 +182,8 @@ pub const AB_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "AB button (blood type)",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -190,6 +206,8 @@ pub const B_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "B button (blood type)",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🅱",
@@ -197,6 +215,8 @@ pub const B_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "B button (blood type)",
+        group: "Symbols",
+        subgroup: "alphanum",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -221,6 +241,8 @@ pub const CL_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "CL button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -243,6 +265,8 @@ pub const COOL_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "COOL button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -265,6 +289,8 @@ pub const FREE_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "FREE button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -287,6 +313,8 @@ pub const INFORMATION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "information",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "ℹ",
@@ -294,6 +322,8 @@ pub const INFORMATION: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "information",
+        group: "Symbols",
+        subgroup: "alphanum",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -318,6 +348,8 @@ pub const ID_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ID button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -340,6 +372,8 @@ pub const CIRCLED_M: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "circled M",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "Ⓜ",
@@ -347,6 +381,8 @@ pub const CIRCLED_M: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "circled M",
+        group: "Symbols",
+        subgroup: "alphanum",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -371,6 +407,8 @@ pub const NEW_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "NEW button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -393,6 +431,8 @@ pub const NG_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "NG button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -415,6 +455,8 @@ pub const O_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "O button (blood type)",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🅾",
@@ -422,6 +464,8 @@ pub const O_BUTTON_BLOOD_TYPE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "O button (blood type)",
+        group: "Symbols",
+        subgroup: "alphanum",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -446,6 +490,8 @@ pub const OK_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "OK button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -468,6 +514,8 @@ pub const P_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "P button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🅿",
@@ -475,6 +523,8 @@ pub const P_BUTTON: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "P button",
+        group: "Symbols",
+        subgroup: "alphanum",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -499,6 +549,8 @@ pub const SOS_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "SOS button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -521,6 +573,8 @@ pub const UP_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "UP! button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -543,6 +597,8 @@ pub const VS_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "VS button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -565,6 +621,8 @@ pub const JAPANESE__HERE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “here” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -598,6 +656,8 @@ pub const JAPANESE__SERVICE_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “service charge” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🈂",
@@ -605,6 +665,8 @@ pub const JAPANESE__SERVICE_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "Japanese “service charge” button",
+        group: "Symbols",
+        subgroup: "alphanum",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -640,6 +702,8 @@ pub const JAPANESE__MONTHLY_AMOUNT__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “monthly amount” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🈷",
@@ -647,6 +711,8 @@ pub const JAPANESE__MONTHLY_AMOUNT__BUTTON: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "Japanese “monthly amount” button",
+        group: "Symbols",
+        subgroup: "alphanum",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -681,6 +747,8 @@ pub const JAPANESE__NOT_FREE_OF_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “not free of charge” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -709,6 +777,8 @@ pub const JAPANESE__RESERVED__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “reserved” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -737,6 +807,8 @@ pub const JAPANESE__BARGAIN__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “bargain” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -765,6 +837,8 @@ pub const JAPANESE__DISCOUNT__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “discount” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -793,6 +867,8 @@ pub const JAPANESE__FREE_OF_CHARGE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “free of charge” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -821,6 +897,8 @@ pub const JAPANESE__PROHIBITED__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “prohibited” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -849,6 +927,8 @@ pub const JAPANESE__ACCEPTABLE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “acceptable” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -877,6 +957,8 @@ pub const JAPANESE__APPLICATION__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “application” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -905,6 +987,8 @@ pub const JAPANESE__PASSING_GRADE__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “passing grade” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -937,6 +1021,8 @@ pub const JAPANESE__VACANCY__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “vacancy” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -965,6 +1051,8 @@ pub const JAPANESE__CONGRATULATIONS__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “congratulations” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "㊗",
@@ -972,6 +1060,8 @@ pub const JAPANESE__CONGRATULATIONS__BUTTON: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "Japanese “congratulations” button",
+        group: "Symbols",
+        subgroup: "alphanum",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -1002,6 +1092,8 @@ pub const JAPANESE__SECRET__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “secret” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "㊙",
@@ -1009,6 +1101,8 @@ pub const JAPANESE__SECRET__BUTTON: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "Japanese “secret” button",
+        group: "Symbols",
+        subgroup: "alphanum",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -1039,6 +1133,8 @@ pub const JAPANESE__OPEN_FOR_BUSINESS__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “open for business” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1067,6 +1163,8 @@ pub const JAPANESE__NO_VACANCY__BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese “no vacancy” button",
+    group: "Symbols",
+    subgroup: "alphanum",
     is_variant: false,
     variants: &[],
     annotations: &[

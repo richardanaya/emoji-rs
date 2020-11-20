@@ -5,6 +5,8 @@ pub const GLASSES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "glasses",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "sunglasses",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🕶",
@@ -34,6 +38,8 @@ pub const SUNGLASSES: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "sunglasses",
+        group: "Objects",
+        subgroup: "clothing",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -58,6 +64,8 @@ pub const GOGGLES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "goggles",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -80,6 +88,8 @@ pub const LAB_COAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "lab coat",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -108,6 +118,8 @@ pub const SAFETY_VEST: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "safety vest",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -130,6 +142,8 @@ pub const NECKTIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "necktie",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -152,6 +166,8 @@ pub const T_SHIRT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "t-shirt",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -174,6 +190,8 @@ pub const JEANS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "jeans",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -196,6 +214,8 @@ pub const SCARF: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "scarf",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -218,6 +238,8 @@ pub const GLOVES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "gloves",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -240,6 +262,8 @@ pub const COAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "coat",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -262,6 +286,8 @@ pub const SOCKS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "socks",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -284,6 +310,8 @@ pub const DRESS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dress",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -306,6 +334,8 @@ pub const KIMONO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "kimono",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -328,6 +358,8 @@ pub const SARI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "sari",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -350,6 +382,8 @@ pub const ONE_PIECE_SWIMSUIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "one-piece swimsuit",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -372,6 +406,8 @@ pub const BRIEFS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "briefs",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -400,6 +436,8 @@ pub const SHORTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "shorts",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -422,6 +460,8 @@ pub const BIKINI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bikini",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -444,6 +484,8 @@ pub const WOMANS_CLOTHES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "woman’s clothes",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -466,6 +508,8 @@ pub const PURSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "purse",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -488,6 +532,8 @@ pub const HANDBAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "handbag",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -510,6 +556,8 @@ pub const CLUTCH_BAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "clutch bag",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -532,6 +580,8 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "shopping bags",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🛍",
@@ -539,6 +589,8 @@ pub const SHOPPING_BAGS: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "shopping bags",
+        group: "Objects",
+        subgroup: "clothing",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -563,6 +615,8 @@ pub const BACKPACK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "backpack",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -585,6 +639,8 @@ pub const THONG_SANDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "thong sandal",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -620,6 +676,8 @@ pub const MANS_SHOE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "man’s shoe",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -642,6 +700,8 @@ pub const RUNNING_SHOE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "running shoe",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -664,6 +724,8 @@ pub const HIKING_BOOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "hiking boot",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -693,6 +755,8 @@ pub const FLAT_SHOE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "flat shoe",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -715,6 +779,8 @@ pub const HIGH_HEELED_SHOE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "high-heeled shoe",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -737,6 +803,8 @@ pub const WOMANS_SANDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "woman’s sandal",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -759,6 +827,8 @@ pub const BALLET_SHOES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "ballet shoes",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -781,6 +851,8 @@ pub const WOMANS_BOOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "woman’s boot",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -803,6 +875,8 @@ pub const CROWN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "crown",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -825,6 +899,8 @@ pub const WOMANS_HAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "woman’s hat",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -847,6 +923,8 @@ pub const TOP_HAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "top hat",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -869,6 +947,8 @@ pub const GRADUATION_CAP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "graduation cap",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -898,6 +978,8 @@ pub const BILLED_CAP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "billed cap",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -920,6 +1002,8 @@ pub const MILITARY_HELMET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "military helmet",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -948,6 +1032,8 @@ pub const RESCUE_WORKERS_HELMET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "rescue worker’s helmet",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "⛑",
@@ -955,6 +1041,8 @@ pub const RESCUE_WORKERS_HELMET: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "rescue worker’s helmet",
+        group: "Objects",
+        subgroup: "clothing",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -993,6 +1081,8 @@ pub const PRAYER_BEADS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "prayer beads",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1022,6 +1112,8 @@ pub const LIPSTICK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "lipstick",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1044,6 +1136,8 @@ pub const RING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ring",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -1066,6 +1160,8 @@ pub const GEM_STONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "gem stone",
+    group: "Objects",
+    subgroup: "clothing",
     is_variant: false,
     variants: &[],
     annotations: &[

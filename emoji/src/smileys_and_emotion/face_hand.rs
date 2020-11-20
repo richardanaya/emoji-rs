@@ -5,6 +5,8 @@ pub const HUGGING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "hugging face",
+    group: "Smileys & Emotion",
+    subgroup: "face-hand",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const FACE_WITH_HAND_OVER_MOUTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "face with hand over mouth",
+    group: "Smileys & Emotion",
+    subgroup: "face-hand",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const SHUSHING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "shushing face",
+    group: "Smileys & Emotion",
+    subgroup: "face-hand",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const THINKING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "thinking face",
+    group: "Smileys & Emotion",
+    subgroup: "face-hand",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "multiply",
+    group: "Symbols",
+    subgroup: "math",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "✖",
@@ -12,6 +14,8 @@ pub const MULTIPLY: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "multiply",
+        group: "Symbols",
+        subgroup: "math",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -36,6 +40,8 @@ pub const PLUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "plus",
+    group: "Symbols",
+    subgroup: "math",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -58,6 +64,8 @@ pub const MINUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "minus",
+    group: "Symbols",
+    subgroup: "math",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -80,6 +88,8 @@ pub const DIVIDE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "divide",
+    group: "Symbols",
+    subgroup: "math",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -102,6 +112,8 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "infinity",
+    group: "Symbols",
+    subgroup: "math",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "♾",
@@ -109,6 +121,8 @@ pub const INFINITY: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 11f32,
         name: "infinity",
+        group: "Symbols",
+        subgroup: "math",
         is_variant: true,
         variants: &[],
         annotations: &[],

@@ -5,6 +5,8 @@ pub const CHOPSTICKS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "chopsticks",
+    group: "Food & Drink",
+    subgroup: "dishware",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const FORK_AND_KNIFE_WITH_PLATE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "fork and knife with plate",
+    group: "Food & Drink",
+    subgroup: "dishware",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🍽",
@@ -34,6 +38,8 @@ pub const FORK_AND_KNIFE_WITH_PLATE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "fork and knife with plate",
+        group: "Food & Drink",
+        subgroup: "dishware",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -71,6 +77,8 @@ pub const FORK_AND_KNIFE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fork and knife",
+    group: "Food & Drink",
+    subgroup: "dishware",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -99,6 +107,8 @@ pub const SPOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "spoon",
+    group: "Food & Drink",
+    subgroup: "dishware",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -121,6 +131,8 @@ pub const KITCHEN_KNIFE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "kitchen knife",
+    group: "Food & Drink",
+    subgroup: "dishware",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -157,6 +169,8 @@ pub const AMPHORA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "amphora",
+    group: "Food & Drink",
+    subgroup: "dishware",
     is_variant: false,
     variants: &[],
     annotations: &[

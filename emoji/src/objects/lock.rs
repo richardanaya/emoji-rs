@@ -5,6 +5,8 @@ pub const LOCKED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "locked",
+    group: "Objects",
+    subgroup: "lock",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const UNLOCKED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "unlocked",
+    group: "Objects",
+    subgroup: "lock",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const LOCKED_WITH_PEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "locked with pen",
+    group: "Objects",
+    subgroup: "lock",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -77,6 +83,8 @@ pub const LOCKED_WITH_KEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "locked with key",
+    group: "Objects",
+    subgroup: "lock",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -99,6 +107,8 @@ pub const KEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "key",
+    group: "Objects",
+    subgroup: "lock",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -121,6 +131,8 @@ pub const OLD_KEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "old key",
+    group: "Objects",
+    subgroup: "lock",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🗝",
@@ -128,6 +140,8 @@ pub const OLD_KEY: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "old key",
+        group: "Objects",
+        subgroup: "lock",
         is_variant: true,
         variants: &[],
         annotations: &[],

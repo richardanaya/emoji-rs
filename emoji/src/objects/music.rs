@@ -5,6 +5,8 @@ pub const MUSICAL_SCORE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "musical score",
+    group: "Objects",
+    subgroup: "music",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "musical note",
+    group: "Objects",
+    subgroup: "music",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "musical notes",
+    group: "Objects",
+    subgroup: "music",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const STUDIO_MICROPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "studio microphone",
+    group: "Objects",
+    subgroup: "music",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🎙",
@@ -78,6 +86,8 @@ pub const STUDIO_MICROPHONE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "studio microphone",
+        group: "Objects",
+        subgroup: "music",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -108,6 +118,8 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "level slider",
+    group: "Objects",
+    subgroup: "music",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🎚",
@@ -115,6 +127,8 @@ pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "level slider",
+        group: "Objects",
+        subgroup: "music",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -145,6 +159,8 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "control knobs",
+    group: "Objects",
+    subgroup: "music",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🎛",
@@ -152,6 +168,8 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "control knobs",
+        group: "Objects",
+        subgroup: "music",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -176,6 +194,8 @@ pub const MICROPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "microphone",
+    group: "Objects",
+    subgroup: "music",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -198,6 +218,8 @@ pub const HEADPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "headphone",
+    group: "Objects",
+    subgroup: "music",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -220,6 +242,8 @@ pub const RADIO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "radio",
+    group: "Objects",
+    subgroup: "music",
     is_variant: false,
     variants: &[],
     annotations: &[

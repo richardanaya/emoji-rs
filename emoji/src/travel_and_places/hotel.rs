@@ -5,6 +5,8 @@ pub const BELLHOP_BELL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "bellhop bell",
+    group: "Travel & Places",
+    subgroup: "hotel",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🛎",
@@ -12,6 +14,8 @@ pub const BELLHOP_BELL: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "bellhop bell",
+        group: "Travel & Places",
+        subgroup: "hotel",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -36,6 +40,8 @@ pub const LUGGAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "luggage",
+    group: "Travel & Places",
+    subgroup: "hotel",
     is_variant: false,
     variants: &[],
     annotations: &[

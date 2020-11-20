@@ -5,6 +5,8 @@ pub const SPEAKING_HEAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "speaking head",
+    group: "People & Body",
+    subgroup: "person-symbol",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🗣",
@@ -12,6 +14,8 @@ pub const SPEAKING_HEAD: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "speaking head",
+        group: "People & Body",
+        subgroup: "person-symbol",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -43,6 +47,8 @@ pub const BUST_IN_SILHOUETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bust in silhouette",
+    group: "People & Body",
+    subgroup: "person-symbol",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -65,6 +71,8 @@ pub const BUSTS_IN_SILHOUETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "busts in silhouette",
+    group: "People & Body",
+    subgroup: "person-symbol",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -87,6 +95,8 @@ pub const PEOPLE_HUGGING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "people hugging",
+    group: "People & Body",
+    subgroup: "person-symbol",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -109,6 +119,8 @@ pub const FOOTPRINTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "footprints",
+    group: "People & Body",
+    subgroup: "person-symbol",
     is_variant: false,
     variants: &[],
     annotations: &[

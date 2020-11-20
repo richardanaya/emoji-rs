@@ -5,6 +5,8 @@ pub const JACK_O_LANTERN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "jack-o-lantern",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -39,6 +41,8 @@ pub const CHRISTMAS_TREE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Christmas tree",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -61,6 +65,8 @@ pub const FIREWORKS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fireworks",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -83,6 +89,8 @@ pub const SPARKLER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sparkler",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -105,6 +113,8 @@ pub const FIRECRACKER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "firecracker",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -134,6 +144,8 @@ pub const SPARKLES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sparkles",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -156,6 +168,8 @@ pub const BALLOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "balloon",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -178,6 +192,8 @@ pub const PARTY_POPPER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "party popper",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -200,6 +216,8 @@ pub const CONFETTI_BALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "confetti ball",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -222,6 +240,8 @@ pub const TANABATA_TREE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tanabata tree",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -244,6 +264,8 @@ pub const PINE_DECORATION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pine decoration",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -272,6 +294,8 @@ pub const JAPANESE_DOLLS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese dolls",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -300,6 +324,8 @@ pub const CARP_STREAMER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "carp streamer",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -322,6 +348,8 @@ pub const WIND_CHIME: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wind chime",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -344,6 +372,8 @@ pub const MOON_VIEWING_CEREMONY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "moon viewing ceremony",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -366,6 +396,8 @@ pub const RED_ENVELOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "red envelope",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -402,6 +434,8 @@ pub const RIBBON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ribbon",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -424,6 +458,8 @@ pub const WRAPPED_GIFT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wrapped gift",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -446,6 +482,8 @@ pub const REMINDER_RIBBON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "reminder ribbon",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🎗",
@@ -453,6 +491,8 @@ pub const REMINDER_RIBBON: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "reminder ribbon",
+        group: "Activities",
+        subgroup: "event",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -483,6 +523,8 @@ pub const ADMISSION_TICKETS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "admission tickets",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🎟",
@@ -490,6 +532,8 @@ pub const ADMISSION_TICKETS: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "admission tickets",
+        group: "Activities",
+        subgroup: "event",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -514,6 +558,8 @@ pub const TICKET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ticket",
+    group: "Activities",
+    subgroup: "event",
     is_variant: false,
     variants: &[],
     annotations: &[

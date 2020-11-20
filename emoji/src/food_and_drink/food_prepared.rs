@@ -5,6 +5,8 @@ pub const BREAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bread",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const CROISSANT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "croissant",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const BAGUETTE_BREAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "baguette bread",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const FLATBREAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "flatbread",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const PRETZEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "pretzel",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -115,6 +125,8 @@ pub const BAGEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "bagel",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -137,6 +149,8 @@ pub const PANCAKES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "pancakes",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -166,6 +180,8 @@ pub const WAFFLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "waffle",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -188,6 +204,8 @@ pub const CHEESE_WEDGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "cheese wedge",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -210,6 +228,8 @@ pub const MEAT_ON_BONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "meat on bone",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -232,6 +252,8 @@ pub const POULTRY_LEG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "poultry leg",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -254,6 +276,8 @@ pub const CUT_OF_MEAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "cut of meat",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -282,6 +306,8 @@ pub const BACON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "bacon",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -304,6 +330,8 @@ pub const HAMBURGER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hamburger",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -326,6 +354,8 @@ pub const FRENCH_FRIES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "french fries",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -348,6 +378,8 @@ pub const PIZZA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pizza",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -370,6 +402,8 @@ pub const HOT_DOG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "hot dog",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -392,6 +426,8 @@ pub const SANDWICH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "sandwich",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -414,6 +450,8 @@ pub const TACO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "taco",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -436,6 +474,8 @@ pub const BURRITO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "burrito",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -458,6 +498,8 @@ pub const TAMALE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "tamale",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -480,6 +522,8 @@ pub const STUFFED_FLATBREAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "stuffed flatbread",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -510,6 +554,8 @@ pub const FALAFEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "falafel",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -532,6 +578,8 @@ pub const EGG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "egg",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -554,6 +602,8 @@ pub const COOKING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cooking",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -576,6 +626,8 @@ pub const SHALLOW_PAN_OF_FOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "shallow pan of food",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -605,6 +657,8 @@ pub const POT_OF_FOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pot of food",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -627,6 +681,8 @@ pub const FONDUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "fondue",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -656,6 +712,8 @@ pub const BOWL_WITH_SPOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "bowl with spoon",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -678,6 +736,8 @@ pub const GREEN_SALAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "green salad",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -700,6 +760,8 @@ pub const POPCORN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "popcorn",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -722,6 +784,8 @@ pub const BUTTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "butter",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -744,6 +808,8 @@ pub const SALT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "salt",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -766,6 +832,8 @@ pub const CANNED_FOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "canned food",
+    group: "Food & Drink",
+    subgroup: "food-prepared",
     is_variant: false,
     variants: &[],
     annotations: &[

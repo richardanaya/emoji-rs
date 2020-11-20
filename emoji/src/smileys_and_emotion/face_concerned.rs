@@ -5,6 +5,8 @@ pub const CONFUSED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "confused face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const WORRIED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "worried face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const SLIGHTLY_FROWNING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "slightly frowning face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const FROWNING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "frowning face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "☹",
@@ -78,6 +86,8 @@ pub const FROWNING_FACE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "frowning face",
+        group: "Smileys & Emotion",
+        subgroup: "face-concerned",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -102,6 +112,8 @@ pub const FACE_WITH_OPEN_MOUTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "face with open mouth",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -124,6 +136,8 @@ pub const HUSHED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "hushed face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -146,6 +160,8 @@ pub const ASTONISHED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "astonished face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -168,6 +184,8 @@ pub const FLUSHED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "flushed face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -190,6 +208,8 @@ pub const PLEADING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "pleading face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -212,6 +232,8 @@ pub const FROWNING_FACE_WITH_OPEN_MOUTH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "frowning face with open mouth",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -246,6 +268,8 @@ pub const ANGUISHED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "anguished face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -268,6 +292,8 @@ pub const FEARFUL_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fearful face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -290,6 +316,8 @@ pub const ANXIOUS_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "anxious face with sweat",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -327,6 +355,8 @@ pub const SAD_BUT_RELIEVED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sad but relieved face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -361,6 +391,8 @@ pub const CRYING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "crying face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -383,6 +415,8 @@ pub const LOUDLY_CRYING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "loudly crying face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -412,6 +446,8 @@ pub const FACE_SCREAMING_IN_FEAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face screaming in fear",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -441,6 +477,8 @@ pub const CONFOUNDED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "confounded face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -463,6 +501,8 @@ pub const PERSEVERING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "persevering face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -491,6 +531,8 @@ pub const DISAPPOINTED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "disappointed face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -513,6 +555,8 @@ pub const DOWNCAST_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "downcast face with sweat",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -535,6 +579,8 @@ pub const WEARY_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "weary face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -557,6 +603,8 @@ pub const TIRED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tired face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -579,6 +627,8 @@ pub const YAWNING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "yawning face",
+    group: "Smileys & Emotion",
+    subgroup: "face-concerned",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const MOBILE_PHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "mobile phone",
+    group: "Objects",
+    subgroup: "phone",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -33,6 +35,8 @@ pub const MOBILE_PHONE_WITH_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "mobile phone with arrow",
+    group: "Objects",
+    subgroup: "phone",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -69,6 +73,8 @@ pub const TELEPHONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "telephone",
+    group: "Objects",
+    subgroup: "phone",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "☎",
@@ -76,6 +82,8 @@ pub const TELEPHONE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "telephone",
+        group: "Objects",
+        subgroup: "phone",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -100,6 +108,8 @@ pub const TELEPHONE_RECEIVER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "telephone receiver",
+    group: "Objects",
+    subgroup: "phone",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -122,6 +132,8 @@ pub const PAGER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pager",
+    group: "Objects",
+    subgroup: "phone",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -144,6 +156,8 @@ pub const FAX_MACHINE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fax machine",
+    group: "Objects",
+    subgroup: "phone",
     is_variant: false,
     variants: &[],
     annotations: &[

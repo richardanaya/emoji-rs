@@ -5,6 +5,8 @@ pub const ANCHOR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "anchor",
+    group: "Travel & Places",
+    subgroup: "transport-water",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const SAILBOAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sailboat",
+    group: "Travel & Places",
+    subgroup: "transport-water",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const CANOE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "canoe",
+    group: "Travel & Places",
+    subgroup: "transport-water",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const SPEEDBOAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "speedboat",
+    group: "Travel & Places",
+    subgroup: "transport-water",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const PASSENGER_SHIP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "passenger ship",
+    group: "Travel & Places",
+    subgroup: "transport-water",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🛳",
@@ -100,6 +110,8 @@ pub const PASSENGER_SHIP: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "passenger ship",
+        group: "Travel & Places",
+        subgroup: "transport-water",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -131,6 +143,8 @@ pub const FERRY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "ferry",
+    group: "Travel & Places",
+    subgroup: "transport-water",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "⛴",
@@ -138,6 +152,8 @@ pub const FERRY: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "ferry",
+        group: "Travel & Places",
+        subgroup: "transport-water",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -162,6 +178,8 @@ pub const MOTOR_BOAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "motor boat",
+    group: "Travel & Places",
+    subgroup: "transport-water",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🛥",
@@ -169,6 +187,8 @@ pub const MOTOR_BOAT: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "motor boat",
+        group: "Travel & Places",
+        subgroup: "transport-water",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -193,6 +213,8 @@ pub const SHIP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ship",
+    group: "Travel & Places",
+    subgroup: "transport-water",
     is_variant: false,
     variants: &[],
     annotations: &[

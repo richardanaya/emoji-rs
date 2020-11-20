@@ -5,6 +5,8 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "globe showing Europe-Africa",
+    group: "Travel & Places",
+    subgroup: "place-map",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -40,6 +42,8 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "globe showing Americas",
+    group: "Travel & Places",
+    subgroup: "place-map",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -73,6 +77,8 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "globe showing Asia-Australia",
+    group: "Travel & Places",
+    subgroup: "place-map",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -108,6 +114,8 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "globe with meridians",
+    group: "Travel & Places",
+    subgroup: "place-map",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -141,6 +149,8 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "world map",
+    group: "Travel & Places",
+    subgroup: "place-map",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🗺",
@@ -148,6 +158,8 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "world map",
+        group: "Travel & Places",
+        subgroup: "place-map",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -172,6 +184,8 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "map of Japan",
+    group: "Travel & Places",
+    subgroup: "place-map",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -194,6 +208,8 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "compass",
+    group: "Travel & Places",
+    subgroup: "place-map",
     is_variant: false,
     variants: &[],
     annotations: &[

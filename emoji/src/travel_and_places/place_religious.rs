@@ -5,6 +5,8 @@ pub const CHURCH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "church",
+    group: "Travel & Places",
+    subgroup: "place-religious",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const MOSQUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "mosque",
+    group: "Travel & Places",
+    subgroup: "place-religious",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const HINDU_TEMPLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "hindu temple",
+    group: "Travel & Places",
+    subgroup: "place-religious",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const SYNAGOGUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "synagogue",
+    group: "Travel & Places",
+    subgroup: "place-religious",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -99,6 +107,8 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "shinto shrine",
+    group: "Travel & Places",
+    subgroup: "place-religious",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "⛩",
@@ -106,6 +116,8 @@ pub const SHINTO_SHRINE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "shinto shrine",
+        group: "Travel & Places",
+        subgroup: "place-religious",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -130,6 +142,8 @@ pub const KAABA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "kaaba",
+    group: "Travel & Places",
+    subgroup: "place-religious",
     is_variant: false,
     variants: &[],
     annotations: &[

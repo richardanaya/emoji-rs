@@ -5,6 +5,8 @@ pub const SOCCER_BALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "soccer ball",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const BASEBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "baseball",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const SOFTBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "softball",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const BASKETBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "basketball",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const VOLLEYBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "volleyball",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -115,6 +125,8 @@ pub const AMERICAN_FOOTBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "american football",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -142,6 +154,8 @@ pub const RUGBY_FOOTBALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "rugby football",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -164,6 +178,8 @@ pub const TENNIS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tennis",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -186,6 +202,8 @@ pub const FLYING_DISC: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "flying disc",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -208,6 +226,8 @@ pub const BOWLING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bowling",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -230,6 +250,8 @@ pub const CRICKET_GAME: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "cricket game",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -252,6 +274,8 @@ pub const FIELD_HOCKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "field hockey",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -274,6 +298,8 @@ pub const ICE_HOCKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "ice hockey",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -296,6 +322,8 @@ pub const LACROSSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "lacrosse",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -318,6 +346,8 @@ pub const PING_PONG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "ping pong",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -347,6 +377,8 @@ pub const BADMINTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "badminton",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -369,6 +401,8 @@ pub const BOXING_GLOVE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "boxing glove",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -397,6 +431,8 @@ pub const MARTIAL_ARTS_UNIFORM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "martial arts uniform",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -434,6 +470,8 @@ pub const GOAL_NET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "goal net",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -456,6 +494,8 @@ pub const FLAG_IN_HOLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "flag in hole",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -478,6 +518,8 @@ pub const ICE_SKATE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "ice skate",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "⛸",
@@ -485,6 +527,8 @@ pub const ICE_SKATE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "ice skate",
+        group: "Activities",
+        subgroup: "sport",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -509,6 +553,8 @@ pub const FISHING_POLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fishing pole",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -531,6 +577,8 @@ pub const DIVING_MASK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "diving mask",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -553,6 +601,8 @@ pub const RUNNING_SHIRT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "running shirt",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -575,6 +625,8 @@ pub const SKIS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "skis",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -597,6 +649,8 @@ pub const SLED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "sled",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -619,6 +673,8 @@ pub const CURLING_STONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "curling stone",
+    group: "Activities",
+    subgroup: "sport",
     is_variant: false,
     variants: &[],
     annotations: &[

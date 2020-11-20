@@ -5,6 +5,8 @@ pub const DOOR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "door",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const ELEVATOR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "elevator",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const MIRROR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "mirror",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const WINDOW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "window",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -107,6 +115,8 @@ pub const BED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "bed",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🛏",
@@ -114,6 +124,8 @@ pub const BED: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "bed",
+        group: "Objects",
+        subgroup: "household",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -138,6 +150,8 @@ pub const COUCH_AND_LAMP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "couch and lamp",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🛋",
@@ -145,6 +159,8 @@ pub const COUCH_AND_LAMP: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "couch and lamp",
+        group: "Objects",
+        subgroup: "household",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -169,6 +185,8 @@ pub const CHAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "chair",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -191,6 +209,8 @@ pub const TOILET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "toilet",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -213,6 +233,8 @@ pub const PLUNGER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "plunger",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -235,6 +257,8 @@ pub const SHOWER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "shower",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -257,6 +281,8 @@ pub const BATHTUB: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "bathtub",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -279,6 +305,8 @@ pub const MOUSE_TRAP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "mouse trap",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -301,6 +329,8 @@ pub const RAZOR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "razor",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -323,6 +353,8 @@ pub const LOTION_BOTTLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "lotion bottle",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -358,6 +390,8 @@ pub const SAFETY_PIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "safety pin",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -380,6 +414,8 @@ pub const BROOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "broom",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -402,6 +438,8 @@ pub const BASKET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "basket",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -424,6 +462,8 @@ pub const ROLL_OF_PAPER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "roll of paper",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -452,6 +492,8 @@ pub const BUCKET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "bucket",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -474,6 +516,8 @@ pub const SOAP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "soap",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -503,6 +547,8 @@ pub const TOOTHBRUSH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "toothbrush",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -540,6 +586,8 @@ pub const SPONGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "sponge",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -569,6 +617,8 @@ pub const FIRE_EXTINGUISHER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "fire extinguisher",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -597,6 +647,8 @@ pub const SHOPPING_CART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "shopping cart",
+    group: "Objects",
+    subgroup: "household",
     is_variant: false,
     variants: &[],
     annotations: &[

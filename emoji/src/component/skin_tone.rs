@@ -5,6 +5,8 @@ pub const LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 1f32,
     name: "light skin tone",
+    group: "Component",
+    subgroup: "skin-tone",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -33,6 +35,8 @@ pub const MEDIUM_LIGHT_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 1f32,
     name: "medium-light skin tone",
+    group: "Component",
+    subgroup: "skin-tone",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -61,6 +65,8 @@ pub const MEDIUM_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 1f32,
     name: "medium skin tone",
+    group: "Component",
+    subgroup: "skin-tone",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -90,6 +96,8 @@ pub const MEDIUM_DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 1f32,
     name: "medium-dark skin tone",
+    group: "Component",
+    subgroup: "skin-tone",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -118,6 +126,8 @@ pub const DARK_SKIN_TONE: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 1f32,
     name: "dark skin tone",
+    group: "Component",
+    subgroup: "skin-tone",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const SNAIL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "snail",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const BUTTERFLY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "butterfly",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const BUG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bug",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const ANT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ant",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const HONEYBEE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "honeybee",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -115,6 +125,8 @@ pub const BEETLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "beetle",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -137,6 +149,8 @@ pub const LADY_BEETLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "lady beetle",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -159,6 +173,8 @@ pub const CRICKET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "cricket",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -181,6 +197,8 @@ pub const COCKROACH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "cockroach",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -203,6 +221,8 @@ pub const SPIDER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "spider",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🕷",
@@ -210,6 +230,8 @@ pub const SPIDER: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "spider",
+        group: "Animals & Nature",
+        subgroup: "animal-bug",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -234,6 +256,8 @@ pub const SPIDER_WEB: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "spider web",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🕸",
@@ -241,6 +265,8 @@ pub const SPIDER_WEB: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "spider web",
+        group: "Animals & Nature",
+        subgroup: "animal-bug",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -265,6 +291,8 @@ pub const SCORPION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "scorpion",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -287,6 +315,8 @@ pub const MOSQUITO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "mosquito",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -318,6 +348,8 @@ pub const FLY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "fly",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -340,6 +372,8 @@ pub const WORM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "worm",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -362,6 +396,8 @@ pub const MICROBE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "microbe",
+    group: "Animals & Nature",
+    subgroup: "animal-bug",
     is_variant: false,
     variants: &[],
     annotations: &[

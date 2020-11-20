@@ -5,6 +5,8 @@ pub const PERFORMING_ARTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "performing arts",
+    group: "Activities",
+    subgroup: "arts & crafts",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -41,6 +43,8 @@ pub const FRAMED_PICTURE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "framed picture",
+    group: "Activities",
+    subgroup: "arts & crafts",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🖼",
@@ -48,6 +52,8 @@ pub const FRAMED_PICTURE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "framed picture",
+        group: "Activities",
+        subgroup: "arts & crafts",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -79,6 +85,8 @@ pub const ARTIST_PALETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "artist palette",
+    group: "Activities",
+    subgroup: "arts & crafts",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -101,6 +109,8 @@ pub const THREAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "thread",
+    group: "Activities",
+    subgroup: "arts & crafts",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -130,6 +140,8 @@ pub const SEWING_NEEDLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "sewing needle",
+    group: "Activities",
+    subgroup: "arts & crafts",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -168,6 +180,8 @@ pub const YARN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "yarn",
+    group: "Activities",
+    subgroup: "arts & crafts",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -197,6 +211,8 @@ pub const KNOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "knot",
+    group: "Activities",
+    subgroup: "arts & crafts",
     is_variant: false,
     variants: &[],
     annotations: &[

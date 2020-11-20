@@ -5,6 +5,8 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "alembic",
+    group: "Objects",
+    subgroup: "science",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "⚗",
@@ -12,6 +14,8 @@ pub const ALEMBIC: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 1f32,
         name: "alembic",
+        group: "Objects",
+        subgroup: "science",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -36,6 +40,8 @@ pub const TEST_TUBE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "test tube",
+    group: "Objects",
+    subgroup: "science",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -72,6 +78,8 @@ pub const PETRI_DISH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "petri dish",
+    group: "Objects",
+    subgroup: "science",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -108,6 +116,8 @@ pub const DNA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "dna",
+    group: "Objects",
+    subgroup: "science",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -137,6 +147,8 @@ pub const MICROSCOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "microscope",
+    group: "Objects",
+    subgroup: "science",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -159,6 +171,8 @@ pub const TELESCOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "telescope",
+    group: "Objects",
+    subgroup: "science",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -181,6 +195,8 @@ pub const SATELLITE_ANTENNA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "satellite antenna",
+    group: "Objects",
+    subgroup: "science",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const AIRPLANE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "airplane",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "✈",
@@ -12,6 +14,8 @@ pub const AIRPLANE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "airplane",
+        group: "Travel & Places",
+        subgroup: "transport-air",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -36,6 +40,8 @@ pub const SMALL_AIRPLANE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "small airplane",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🛩",
@@ -43,6 +49,8 @@ pub const SMALL_AIRPLANE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "small airplane",
+        group: "Travel & Places",
+        subgroup: "transport-air",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -67,6 +75,8 @@ pub const AIRPLANE_DEPARTURE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "airplane departure",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -95,6 +105,8 @@ pub const AIRPLANE_ARRIVAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "airplane arrival",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -124,6 +136,8 @@ pub const PARACHUTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "parachute",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -146,6 +160,8 @@ pub const SEAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "seat",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -168,6 +184,8 @@ pub const HELICOPTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "helicopter",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -190,6 +208,8 @@ pub const SUSPENSION_RAILWAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "suspension railway",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -219,6 +239,8 @@ pub const MOUNTAIN_CABLEWAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "mountain cableway",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -249,6 +271,8 @@ pub const AERIAL_TRAMWAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "aerial tramway",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -271,6 +295,8 @@ pub const SATELLITE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "satellite",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🛰",
@@ -278,6 +304,8 @@ pub const SATELLITE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "satellite",
+        group: "Travel & Places",
+        subgroup: "transport-air",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -302,6 +330,8 @@ pub const ROCKET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "rocket",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -324,6 +354,8 @@ pub const FLYING_SAUCER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "flying saucer",
+    group: "Travel & Places",
+    subgroup: "transport-air",
     is_variant: false,
     variants: &[],
     annotations: &[

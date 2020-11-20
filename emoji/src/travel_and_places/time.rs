@@ -5,6 +5,8 @@ pub const HOURGLASS_DONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hourglass done",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const HOURGLASS_NOT_DONE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hourglass not done",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const WATCH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "watch",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const ALARM_CLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "alarm clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const STOPWATCH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "stopwatch",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "⏱",
@@ -100,6 +110,8 @@ pub const STOPWATCH: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 1f32,
         name: "stopwatch",
+        group: "Travel & Places",
+        subgroup: "time",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -124,6 +136,8 @@ pub const TIMER_CLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "timer clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "⏲",
@@ -131,6 +145,8 @@ pub const TIMER_CLOCK: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 1f32,
         name: "timer clock",
+        group: "Travel & Places",
+        subgroup: "time",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -155,6 +171,8 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "mantelpiece clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🕰",
@@ -162,6 +180,8 @@ pub const MANTELPIECE_CLOCK: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "mantelpiece clock",
+        group: "Travel & Places",
+        subgroup: "time",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -186,6 +206,8 @@ pub const TWELVE_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "twelve o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -217,6 +239,8 @@ pub const TWELVE_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "twelve-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -247,6 +271,8 @@ pub const ONE_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "one o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -278,6 +304,8 @@ pub const ONE_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "one-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -308,6 +336,8 @@ pub const TWO_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "two o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -339,6 +369,8 @@ pub const TWO_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "two-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -369,6 +401,8 @@ pub const THREE_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "three o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -400,6 +434,8 @@ pub const THREE_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "three-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -430,6 +466,8 @@ pub const FOUR_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "four o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -461,6 +499,8 @@ pub const FOUR_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "four-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -491,6 +531,8 @@ pub const FIVE_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "five o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -522,6 +564,8 @@ pub const FIVE_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "five-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -552,6 +596,8 @@ pub const SIX_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "six o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -583,6 +629,8 @@ pub const SIX_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "six-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -613,6 +661,8 @@ pub const SEVEN_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "seven o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -643,6 +693,8 @@ pub const SEVEN_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "seven-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -673,6 +725,8 @@ pub const EIGHT_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "eight o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -704,6 +758,8 @@ pub const EIGHT_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "eight-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -734,6 +790,8 @@ pub const NINE_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "nine o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -765,6 +823,8 @@ pub const NINE_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "nine-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -795,6 +855,8 @@ pub const TEN_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ten o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -826,6 +888,8 @@ pub const TEN_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "ten-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -856,6 +920,8 @@ pub const ELEVEN_OCLOCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "eleven o’clock",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -887,6 +953,8 @@ pub const ELEVEN_THIRTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "eleven-thirty",
+    group: "Travel & Places",
+    subgroup: "time",
     is_variant: false,
     variants: &[],
     annotations: &[

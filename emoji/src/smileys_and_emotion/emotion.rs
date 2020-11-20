@@ -5,6 +5,8 @@ pub const KISS_MARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "kiss mark",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const LOVE_LETTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "love letter",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -56,6 +60,8 @@ pub const HEART_WITH_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "heart with arrow",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -78,6 +84,8 @@ pub const HEART_WITH_RIBBON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "heart with ribbon",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -100,6 +108,8 @@ pub const SPARKLING_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sparkling heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -122,6 +132,8 @@ pub const GROWING_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "growing heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -150,6 +162,8 @@ pub const BEATING_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "beating heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -172,6 +186,8 @@ pub const REVOLVING_HEARTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "revolving hearts",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -194,6 +210,8 @@ pub const TWO_HEARTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "two hearts",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -216,6 +234,8 @@ pub const HEART_DECORATION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "heart decoration",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -238,6 +258,8 @@ pub const HEART_EXCLAMATION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "heart exclamation",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "❣",
@@ -245,6 +267,8 @@ pub const HEART_EXCLAMATION: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 1f32,
         name: "heart exclamation",
+        group: "Smileys & Emotion",
+        subgroup: "emotion",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -269,6 +293,8 @@ pub const BROKEN_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "broken heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -291,6 +317,8 @@ pub const HEART_ON_FIRE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13.1f32,
     name: "heart on fire",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "❤\u{200d}🔥",
@@ -298,6 +326,8 @@ pub const HEART_ON_FIRE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 13.1f32,
         name: "heart on fire",
+        group: "Smileys & Emotion",
+        subgroup: "emotion",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -337,6 +367,8 @@ pub const MENDING_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13.1f32,
     name: "mending heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "❤\u{200d}🩹",
@@ -344,6 +376,8 @@ pub const MENDING_HEART: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 13.1f32,
         name: "mending heart",
+        group: "Smileys & Emotion",
+        subgroup: "emotion",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -384,6 +418,8 @@ pub const RED_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "❤",
@@ -391,6 +427,8 @@ pub const RED_HEART: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "red heart",
+        group: "Smileys & Emotion",
+        subgroup: "emotion",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -415,6 +453,8 @@ pub const ORANGE_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "orange heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -437,6 +477,8 @@ pub const YELLOW_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "yellow heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -459,6 +501,8 @@ pub const GREEN_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "green heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -481,6 +525,8 @@ pub const BLUE_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "blue heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -503,6 +549,8 @@ pub const PURPLE_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "purple heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -525,6 +573,8 @@ pub const BROWN_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "brown heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -547,6 +597,8 @@ pub const BLACK_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "black heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -569,6 +621,8 @@ pub const WHITE_HEART: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "white heart",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -591,6 +645,8 @@ pub const HUNDRED_POINTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hundred points",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -613,6 +669,8 @@ pub const ANGER_SYMBOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "anger symbol",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -635,6 +693,8 @@ pub const COLLISION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "collision",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -657,6 +717,8 @@ pub const DIZZY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dizzy",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -679,6 +741,8 @@ pub const SWEAT_DROPLETS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sweat droplets",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -701,6 +765,8 @@ pub const DASHING_AWAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dashing away",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -723,6 +789,8 @@ pub const HOLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "hole",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🕳",
@@ -730,6 +798,8 @@ pub const HOLE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "hole",
+        group: "Smileys & Emotion",
+        subgroup: "emotion",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -754,6 +824,8 @@ pub const BOMB: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bomb",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -776,6 +848,8 @@ pub const SPEECH_BALLOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "speech balloon",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -805,6 +879,8 @@ pub const EYE_IN_SPEECH_BUBBLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 2f32,
     name: "eye in speech bubble",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[
         crate::Emoji {
@@ -813,6 +889,8 @@ pub const EYE_IN_SPEECH_BUBBLE: crate::Emoji = crate::Emoji {
             status: crate::Status::Unqualified,
             introduction_version: 2f32,
             name: "eye in speech bubble",
+            group: "Smileys & Emotion",
+            subgroup: "emotion",
             is_variant: true,
             variants: &[],
             annotations: &[],
@@ -823,6 +901,8 @@ pub const EYE_IN_SPEECH_BUBBLE: crate::Emoji = crate::Emoji {
             status: crate::Status::Unqualified,
             introduction_version: 2f32,
             name: "eye in speech bubble",
+            group: "Smileys & Emotion",
+            subgroup: "emotion",
             is_variant: true,
             variants: &[],
             annotations: &[],
@@ -833,6 +913,8 @@ pub const EYE_IN_SPEECH_BUBBLE: crate::Emoji = crate::Emoji {
             status: crate::Status::Unqualified,
             introduction_version: 2f32,
             name: "eye in speech bubble",
+            group: "Smileys & Emotion",
+            subgroup: "emotion",
             is_variant: true,
             variants: &[],
             annotations: &[],
@@ -864,6 +946,8 @@ pub const LEFT_SPEECH_BUBBLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 2f32,
     name: "left speech bubble",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🗨",
@@ -871,6 +955,8 @@ pub const LEFT_SPEECH_BUBBLE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 2f32,
         name: "left speech bubble",
+        group: "Smileys & Emotion",
+        subgroup: "emotion",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -895,6 +981,8 @@ pub const RIGHT_ANGER_BUBBLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "right anger bubble",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🗯",
@@ -902,6 +990,8 @@ pub const RIGHT_ANGER_BUBBLE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "right anger bubble",
+        group: "Smileys & Emotion",
+        subgroup: "emotion",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -932,6 +1022,8 @@ pub const THOUGHT_BALLOON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "thought balloon",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -954,6 +1046,8 @@ pub const ZZZ: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "zzz",
+    group: "Smileys & Emotion",
+    subgroup: "emotion",
     is_variant: false,
     variants: &[],
     annotations: &[

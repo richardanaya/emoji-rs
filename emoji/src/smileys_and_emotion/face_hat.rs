@@ -5,6 +5,8 @@ pub const COWBOY_HAT_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "cowboy hat face",
+    group: "Smileys & Emotion",
+    subgroup: "face-hat",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const PARTYING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "partying face",
+    group: "Smileys & Emotion",
+    subgroup: "face-hat",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const DISGUISED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "disguised face",
+    group: "Smileys & Emotion",
+    subgroup: "face-hat",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "money bag",
+    group: "Objects",
+    subgroup: "money",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const COIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "coin",
+    group: "Objects",
+    subgroup: "money",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "yen banknote",
+    group: "Objects",
+    subgroup: "money",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dollar banknote",
+    group: "Objects",
+    subgroup: "money",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -100,6 +108,8 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "euro banknote",
+    group: "Objects",
+    subgroup: "money",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -122,6 +132,8 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "pound banknote",
+    group: "Objects",
+    subgroup: "money",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -151,6 +163,8 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "money with wings",
+    group: "Objects",
+    subgroup: "money",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -187,6 +201,8 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "credit card",
+    group: "Objects",
+    subgroup: "money",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -209,6 +225,8 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "receipt",
+    group: "Objects",
+    subgroup: "money",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -238,6 +256,8 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "chart increasing with yen",
+    group: "Objects",
+    subgroup: "money",
     is_variant: false,
     variants: &[],
     annotations: &[

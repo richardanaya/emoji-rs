@@ -5,6 +5,8 @@ pub const AVOCADO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "avocado",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const EGGPLANT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "eggplant",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const POTATO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "potato",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const CARROT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "carrot",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const EAR_OF_CORN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ear of corn",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -115,6 +125,8 @@ pub const HOT_PEPPER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "hot pepper",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🌶",
@@ -122,6 +134,8 @@ pub const HOT_PEPPER: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "hot pepper",
+        group: "Food & Drink",
+        subgroup: "food-vegetable",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -146,6 +160,8 @@ pub const BELL_PEPPER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "bell pepper",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -168,6 +184,8 @@ pub const CUCUMBER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "cucumber",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -190,6 +208,8 @@ pub const LEAFY_GREEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "leafy green",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -218,6 +238,8 @@ pub const BROCCOLI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "broccoli",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -240,6 +262,8 @@ pub const GARLIC: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "garlic",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -262,6 +286,8 @@ pub const ONION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "onion",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -284,6 +310,8 @@ pub const MUSHROOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "mushroom",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -306,6 +334,8 @@ pub const PEANUTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "peanuts",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -328,6 +358,8 @@ pub const CHESTNUT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "chestnut",
+    group: "Food & Drink",
+    subgroup: "food-vegetable",
     is_variant: false,
     variants: &[],
     annotations: &[

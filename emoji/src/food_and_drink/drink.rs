@@ -5,6 +5,8 @@ pub const BABY_BOTTLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "baby bottle",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const GLASS_OF_MILK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "glass of milk",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const HOT_BEVERAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hot beverage",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const TEAPOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "teapot",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const TEACUP_WITHOUT_HANDLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "teacup without handle",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -129,6 +139,8 @@ pub const SAKE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sake",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -151,6 +163,8 @@ pub const BOTTLE_WITH_POPPING_CORK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "bottle with popping cork",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -187,6 +201,8 @@ pub const WINE_GLASS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wine glass",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -209,6 +225,8 @@ pub const COCKTAIL_GLASS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cocktail glass",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -231,6 +249,8 @@ pub const TROPICAL_DRINK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tropical drink",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -253,6 +273,8 @@ pub const BEER_MUG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "beer mug",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -275,6 +297,8 @@ pub const CLINKING_BEER_MUGS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "clinking beer mugs",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -304,6 +328,8 @@ pub const CLINKING_GLASSES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "clinking glasses",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -326,6 +352,8 @@ pub const TUMBLER_GLASS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "tumbler glass",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -348,6 +376,8 @@ pub const CUP_WITH_STRAW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "cup with straw",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -370,6 +400,8 @@ pub const BUBBLE_TEA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "bubble tea",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -392,6 +424,8 @@ pub const BEVERAGE_BOX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "beverage box",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -414,6 +448,8 @@ pub const MATE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "mate",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -436,6 +472,8 @@ pub const ICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "ice",
+    group: "Food & Drink",
+    subgroup: "drink",
     is_variant: false,
     variants: &[],
     annotations: &[

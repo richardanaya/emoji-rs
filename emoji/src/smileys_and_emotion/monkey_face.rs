@@ -5,6 +5,8 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "see-no-evil monkey",
+    group: "Smileys & Emotion",
+    subgroup: "monkey-face",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -34,6 +36,8 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hear-no-evil monkey",
+    group: "Smileys & Emotion",
+    subgroup: "monkey-face",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -63,6 +67,8 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "speak-no-evil monkey",
+    group: "Smileys & Emotion",
+    subgroup: "monkey-face",
     is_variant: false,
     variants: &[],
     annotations: &[

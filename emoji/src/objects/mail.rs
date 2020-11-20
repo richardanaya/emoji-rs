@@ -5,6 +5,8 @@ pub const ENVELOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "envelope",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "✉",
@@ -12,6 +14,8 @@ pub const ENVELOPE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "envelope",
+        group: "Objects",
+        subgroup: "mail",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -36,6 +40,8 @@ pub const E_MAIL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "e-mail",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -58,6 +64,8 @@ pub const INCOMING_ENVELOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "incoming envelope",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -89,6 +97,8 @@ pub const ENVELOPE_WITH_ARROW: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "envelope with arrow",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -126,6 +136,8 @@ pub const OUTBOX_TRAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "outbox tray",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -154,6 +166,8 @@ pub const INBOX_TRAY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "inbox tray",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -182,6 +196,8 @@ pub const PACKAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "package",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -204,6 +220,8 @@ pub const CLOSED_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "closed mailbox with raised flag",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -237,6 +255,8 @@ pub const CLOSED_MAILBOX_WITH_LOWERED_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "closed mailbox with lowered flag",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -271,6 +291,8 @@ pub const OPEN_MAILBOX_WITH_RAISED_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "open mailbox with raised flag",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -303,6 +325,8 @@ pub const OPEN_MAILBOX_WITH_LOWERED_FLAG: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "open mailbox with lowered flag",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -337,6 +361,8 @@ pub const POSTBOX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "postbox",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -359,6 +385,8 @@ pub const BALLOT_BOX_WITH_BALLOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "ballot box with ballot",
+    group: "Objects",
+    subgroup: "mail",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🗳",
@@ -366,6 +394,8 @@ pub const BALLOT_BOX_WITH_BALLOT: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "ballot box with ballot",
+        group: "Objects",
+        subgroup: "mail",
         is_variant: true,
         variants: &[],
         annotations: &[],

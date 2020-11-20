@@ -5,6 +5,8 @@ pub const GRINNING_CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning cat",
+    group: "Smileys & Emotion",
+    subgroup: "cat-face",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -34,6 +36,8 @@ pub const GRINNING_CAT_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning cat with smiling eyes",
+    group: "Smileys & Emotion",
+    subgroup: "cat-face",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -70,6 +74,8 @@ pub const CAT_WITH_TEARS_OF_JOY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cat with tears of joy",
+    group: "Smileys & Emotion",
+    subgroup: "cat-face",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -99,6 +105,8 @@ pub const SMILING_CAT_WITH_HEART_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "smiling cat with heart-eyes",
+    group: "Smileys & Emotion",
+    subgroup: "cat-face",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -138,6 +146,8 @@ pub const CAT_WITH_WRY_SMILE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cat with wry smile",
+    group: "Smileys & Emotion",
+    subgroup: "cat-face",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -174,6 +184,8 @@ pub const KISSING_CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "kissing cat",
+    group: "Smileys & Emotion",
+    subgroup: "cat-face",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -202,6 +214,8 @@ pub const WEARY_CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "weary cat",
+    group: "Smileys & Emotion",
+    subgroup: "cat-face",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -224,6 +238,8 @@ pub const CRYING_CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "crying cat",
+    group: "Smileys & Emotion",
+    subgroup: "cat-face",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -253,6 +269,8 @@ pub const POUTING_CAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pouting cat",
+    group: "Smileys & Emotion",
+    subgroup: "cat-face",
     is_variant: false,
     variants: &[],
     annotations: &[

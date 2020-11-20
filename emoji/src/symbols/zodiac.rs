@@ -5,6 +5,8 @@ pub const ARIES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Aries",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const TAURUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Taurus",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const GEMINI: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Gemini",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -77,6 +83,8 @@ pub const CANCER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Cancer",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -99,6 +107,8 @@ pub const LEO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Leo",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -126,6 +136,8 @@ pub const VIRGO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Virgo",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -153,6 +165,8 @@ pub const LIBRA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Libra",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -175,6 +189,8 @@ pub const SCORPIO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Scorpio",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -202,6 +218,8 @@ pub const SAGITTARIUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Sagittarius",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -229,6 +247,8 @@ pub const CAPRICORN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Capricorn",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -256,6 +276,8 @@ pub const AQUARIUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Aquarius",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -283,6 +305,8 @@ pub const PISCES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Pisces",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -305,6 +329,8 @@ pub const OPHIUCHUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Ophiuchus",
+    group: "Symbols",
+    subgroup: "zodiac",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const CRAB: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "crab",
+    group: "Food & Drink",
+    subgroup: "food-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const LOBSTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "lobster",
+    group: "Food & Drink",
+    subgroup: "food-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -56,6 +60,8 @@ pub const SHRIMP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "shrimp",
+    group: "Food & Drink",
+    subgroup: "food-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -78,6 +84,8 @@ pub const SQUID: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "squid",
+    group: "Food & Drink",
+    subgroup: "food-marine",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -100,6 +108,8 @@ pub const OYSTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "oyster",
+    group: "Food & Drink",
+    subgroup: "food-marine",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const FACE_WITH_MEDICAL_MASK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face with medical mask",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -42,6 +44,8 @@ pub const FACE_WITH_THERMOMETER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "face with thermometer",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -79,6 +83,8 @@ pub const FACE_WITH_HEAD_BANDAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "face with head-bandage",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -107,6 +113,8 @@ pub const NAUSEATED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "nauseated face",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -129,6 +137,8 @@ pub const FACE_VOMITING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "face vomiting",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -151,6 +161,8 @@ pub const SNEEZING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "sneezing face",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -180,6 +192,8 @@ pub const HOT_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "hot face",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -216,6 +230,8 @@ pub const COLD_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "cold face",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -252,6 +268,8 @@ pub const WOOZY_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "woozy face",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -288,6 +306,8 @@ pub const KNOCKED_OUT_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "knocked-out face",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -317,6 +337,8 @@ pub const FACE_WITH_SPIRAL_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13.1f32,
     name: "face with spiral eyes",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -353,6 +375,8 @@ pub const EXPLODING_HEAD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "exploding head",
+    group: "Smileys & Emotion",
+    subgroup: "face-unwell",
     is_variant: false,
     variants: &[],
     annotations: &[

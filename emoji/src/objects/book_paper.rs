@@ -5,6 +5,8 @@ pub const NOTEBOOK_WITH_DECORATIVE_COVER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "notebook with decorative cover",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -40,6 +42,8 @@ pub const CLOSED_BOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "closed book",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -62,6 +66,8 @@ pub const OPEN_BOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "open book",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -84,6 +90,8 @@ pub const GREEN_BOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "green book",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -106,6 +114,8 @@ pub const BLUE_BOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "blue book",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -128,6 +138,8 @@ pub const ORANGE_BOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "orange book",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -150,6 +162,8 @@ pub const BOOKS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "books",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -172,6 +186,8 @@ pub const NOTEBOOK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "notebook",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -194,6 +210,8 @@ pub const LEDGER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ledger",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -216,6 +234,8 @@ pub const PAGE_WITH_CURL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "page with curl",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -238,6 +258,8 @@ pub const SCROLL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "scroll",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -260,6 +282,8 @@ pub const PAGE_FACING_UP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "page facing up",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -282,6 +306,8 @@ pub const NEWSPAPER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "newspaper",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -304,6 +330,8 @@ pub const ROLLED_UP_NEWSPAPER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "rolled-up newspaper",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🗞",
@@ -311,6 +339,8 @@ pub const ROLLED_UP_NEWSPAPER: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "rolled-up newspaper",
+        group: "Objects",
+        subgroup: "book-paper",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -341,6 +371,8 @@ pub const BOOKMARK_TABS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bookmark tabs",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -368,6 +400,8 @@ pub const BOOKMARK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bookmark",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -390,6 +424,8 @@ pub const LABEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "label",
+    group: "Objects",
+    subgroup: "book-paper",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🏷",
@@ -397,6 +433,8 @@ pub const LABEL: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "label",
+        group: "Objects",
+        subgroup: "book-paper",
         is_variant: true,
         variants: &[],
         annotations: &[],

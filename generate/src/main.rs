@@ -86,9 +86,12 @@ struct Emoji {
     variants: Vec<Emoji>,
     pub annotations: Vec<Annotation>,
     is_variant: bool,
+    group: String,
+    subgroup: String,
 }
 impl Emoji {
-    pub fn new(line: &str, annotations_map: &HashMap<String, Vec<Annotation>>) -> Self {
+    pub fn new(line: &str, annotations_map: &HashMap<String, Vec<Annotation>>,
+	       group: String, subgroup: String) -> Self {
 	let first_components: Vec<&str> = line.split(";").collect();
 	let reformed_first = first_components.iter().skip(1).join(";");
 	let codepoint = first_components[0].trim().to_owned();
@@ -108,7 +111,7 @@ impl Emoji {
 	    Some(a) => a.to_vec(),
 	};
 	
-	Self{codepoint, status, glyph, introduction_version, name, variants: vec![], annotations, is_variant: false}
+	Self{codepoint, status, glyph, introduction_version, name, variants: vec![], annotations, is_variant: false, group, subgroup}
     }
     pub fn add_variant(&mut self, mut variant: Emoji) {
 	variant.is_variant = true;
@@ -138,6 +141,8 @@ impl Emoji {
 	    .map(|e| e.tokens_internal()).collect();
 	let annotations = &self.annotations;
 	let is_variant = &self.is_variant;
+	let group = &self.group;
+	let subgroup = &self.subgroup;
 	(quote!{
 	    crate::Emoji{
 		glyph: #glyph,
@@ -145,6 +150,8 @@ impl Emoji {
 		status: crate::Status::#status,
 		introduction_version: #introduction_version,
 		name: #name,
+		group: #group,
+		subgroup: #subgroup,
 		is_variant: #is_variant,
 		variants: &[#(#variants),*],
 		annotations: &[#(#annotations),*],
@@ -351,9 +358,11 @@ async fn main() -> Result<(), reqwest::Error> {
 	    }
 	    continue;
 	}
+	let groupname = groups.last().unwrap().name.clone();
+	let subgroupname = groups.last().unwrap().subgroups.last().unwrap().name.clone();
 	let emoji_list = &mut groups.last_mut().unwrap().subgroups.last_mut()
 	    .unwrap().emojis;
-	let new_emoji = Emoji::new(line, &annotations);
+	let new_emoji = Emoji::new(line, &annotations, groupname, subgroupname);
 	match &mut emoji_list.last_mut() {
 	    Some(old_emoji) if old_emoji.ident() == new_emoji.ident() => {
 		old_emoji.add_variant(new_emoji);

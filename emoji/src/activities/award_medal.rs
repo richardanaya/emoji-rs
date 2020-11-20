@@ -5,6 +5,8 @@ pub const MILITARY_MEDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "military medal",
+    group: "Activities",
+    subgroup: "award-medal",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🎖",
@@ -12,6 +14,8 @@ pub const MILITARY_MEDAL: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "military medal",
+        group: "Activities",
+        subgroup: "award-medal",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -36,6 +40,8 @@ pub const TROPHY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "trophy",
+    group: "Activities",
+    subgroup: "award-medal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -58,6 +64,8 @@ pub const SPORTS_MEDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "sports medal",
+    group: "Activities",
+    subgroup: "award-medal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -80,6 +88,8 @@ pub const FIRST_PLACE_MEDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "1st place medal",
+    group: "Activities",
+    subgroup: "award-medal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -102,6 +112,8 @@ pub const SECOND_PLACE_MEDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "2nd place medal",
+    group: "Activities",
+    subgroup: "award-medal",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -124,6 +136,8 @@ pub const THIRD_PLACE_MEDAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "3rd place medal",
+    group: "Activities",
+    subgroup: "award-medal",
     is_variant: false,
     variants: &[],
     annotations: &[

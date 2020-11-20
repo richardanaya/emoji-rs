@@ -5,6 +5,8 @@ pub const SYRINGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "syringe",
+    group: "Objects",
+    subgroup: "medical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -35,6 +37,8 @@ pub const DROP_OF_BLOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "drop of blood",
+    group: "Objects",
+    subgroup: "medical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -64,6 +68,8 @@ pub const PILL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pill",
+    group: "Objects",
+    subgroup: "medical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -86,6 +92,8 @@ pub const ADHESIVE_BANDAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "adhesive bandage",
+    group: "Objects",
+    subgroup: "medical",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -108,6 +116,8 @@ pub const STETHOSCOPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "stethoscope",
+    group: "Objects",
+    subgroup: "medical",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const RED_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red circle",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const ORANGE_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "orange circle",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const YELLOW_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "yellow circle",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const GREEN_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "green circle",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const BLUE_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "blue circle",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -115,6 +125,8 @@ pub const PURPLE_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "purple circle",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -137,6 +149,8 @@ pub const BROWN_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "brown circle",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -159,6 +173,8 @@ pub const BLACK_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black circle",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -181,6 +197,8 @@ pub const WHITE_CIRCLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white circle",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -203,6 +221,8 @@ pub const RED_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "red square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -225,6 +245,8 @@ pub const ORANGE_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "orange square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -247,6 +269,8 @@ pub const YELLOW_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "yellow square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -269,6 +293,8 @@ pub const GREEN_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "green square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -291,6 +317,8 @@ pub const BLUE_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "blue square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -313,6 +341,8 @@ pub const PURPLE_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "purple square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -335,6 +365,8 @@ pub const BROWN_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "brown square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -357,6 +389,8 @@ pub const BLACK_LARGE_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black large square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -379,6 +413,8 @@ pub const WHITE_LARGE_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white large square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -401,6 +437,8 @@ pub const BLACK_MEDIUM_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black medium square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "◼",
@@ -408,6 +446,8 @@ pub const BLACK_MEDIUM_SQUARE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "black medium square",
+        group: "Symbols",
+        subgroup: "geometric",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -432,6 +472,8 @@ pub const WHITE_MEDIUM_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white medium square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "◻",
@@ -439,6 +481,8 @@ pub const WHITE_MEDIUM_SQUARE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "white medium square",
+        group: "Symbols",
+        subgroup: "geometric",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -463,6 +507,8 @@ pub const BLACK_MEDIUM_SMALL_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black medium-small square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -485,6 +531,8 @@ pub const WHITE_MEDIUM_SMALL_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white medium-small square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -507,6 +555,8 @@ pub const BLACK_SMALL_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black small square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "▪",
@@ -514,6 +564,8 @@ pub const BLACK_SMALL_SQUARE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "black small square",
+        group: "Symbols",
+        subgroup: "geometric",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -538,6 +590,8 @@ pub const WHITE_SMALL_SQUARE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white small square",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "▫",
@@ -545,6 +599,8 @@ pub const WHITE_SMALL_SQUARE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "white small square",
+        group: "Symbols",
+        subgroup: "geometric",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -569,6 +625,8 @@ pub const LARGE_ORANGE_DIAMOND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "large orange diamond",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -591,6 +649,8 @@ pub const LARGE_BLUE_DIAMOND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "large blue diamond",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -613,6 +673,8 @@ pub const SMALL_ORANGE_DIAMOND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "small orange diamond",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -635,6 +697,8 @@ pub const SMALL_BLUE_DIAMOND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "small blue diamond",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -657,6 +721,8 @@ pub const RED_TRIANGLE_POINTED_UP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red triangle pointed up",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -679,6 +745,8 @@ pub const RED_TRIANGLE_POINTED_DOWN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red triangle pointed down",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -701,6 +769,8 @@ pub const DIAMOND_WITH_A_DOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "diamond with a dot",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -729,6 +799,8 @@ pub const RADIO_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "radio button",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -751,6 +823,8 @@ pub const WHITE_SQUARE_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white square button",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -785,6 +859,8 @@ pub const BLACK_SQUARE_BUTTON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "black square button",
+    group: "Symbols",
+    subgroup: "geometric",
     is_variant: false,
     variants: &[],
     annotations: &[

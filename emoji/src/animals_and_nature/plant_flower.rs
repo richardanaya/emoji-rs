@@ -5,6 +5,8 @@ pub const BOUQUET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bouquet",
+    group: "Animals & Nature",
+    subgroup: "plant-flower",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const CHERRY_BLOSSOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cherry blossom",
+    group: "Animals & Nature",
+    subgroup: "plant-flower",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const WHITE_FLOWER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "white flower",
+    group: "Animals & Nature",
+    subgroup: "plant-flower",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const ROSETTE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "rosette",
+    group: "Animals & Nature",
+    subgroup: "plant-flower",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🏵",
@@ -78,6 +86,8 @@ pub const ROSETTE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "rosette",
+        group: "Animals & Nature",
+        subgroup: "plant-flower",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -102,6 +112,8 @@ pub const ROSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "rose",
+    group: "Animals & Nature",
+    subgroup: "plant-flower",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -124,6 +136,8 @@ pub const WILTED_FLOWER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "wilted flower",
+    group: "Animals & Nature",
+    subgroup: "plant-flower",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -146,6 +160,8 @@ pub const HIBISCUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hibiscus",
+    group: "Animals & Nature",
+    subgroup: "plant-flower",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -168,6 +184,8 @@ pub const SUNFLOWER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sunflower",
+    group: "Animals & Nature",
+    subgroup: "plant-flower",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -190,6 +208,8 @@ pub const BLOSSOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "blossom",
+    group: "Animals & Nature",
+    subgroup: "plant-flower",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -212,6 +232,8 @@ pub const TULIP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tulip",
+    group: "Animals & Nature",
+    subgroup: "plant-flower",
     is_variant: false,
     variants: &[],
     annotations: &[

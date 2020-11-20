@@ -5,6 +5,8 @@ pub const SOFT_ICE_CREAM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "soft ice cream",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -35,6 +37,8 @@ pub const SHAVED_ICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "shaved ice",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -64,6 +68,8 @@ pub const ICE_CREAM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ice cream",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -86,6 +92,8 @@ pub const DOUGHNUT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "doughnut",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -108,6 +116,8 @@ pub const COOKIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cookie",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -130,6 +140,8 @@ pub const BIRTHDAY_CAKE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "birthday cake",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -167,6 +179,8 @@ pub const SHORTCAKE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "shortcake",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -196,6 +210,8 @@ pub const CUPCAKE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "cupcake",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -224,6 +240,8 @@ pub const PIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "pie",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -246,6 +264,8 @@ pub const CHOCOLATE_BAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "chocolate bar",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -268,6 +288,8 @@ pub const CANDY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "candy",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -290,6 +312,8 @@ pub const LOLLIPOP: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "lollipop",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -312,6 +336,8 @@ pub const CUSTARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "custard",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -334,6 +360,8 @@ pub const HONEY_POT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "honey pot",
+    group: "Food & Drink",
+    subgroup: "food-sweet",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const SEEDLING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "seedling",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const POTTED_PLANT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "potted plant",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -66,6 +70,8 @@ pub const EVERGREEN_TREE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "evergreen tree",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -88,6 +94,8 @@ pub const DECIDUOUS_TREE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "deciduous tree",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -110,6 +118,8 @@ pub const PALM_TREE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "palm tree",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -132,6 +142,8 @@ pub const CACTUS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cactus",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -154,6 +166,8 @@ pub const SHEAF_OF_RICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sheaf of rice",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -176,6 +190,8 @@ pub const HERB: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "herb",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -198,6 +214,8 @@ pub const SHAMROCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "shamrock",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "☘",
@@ -205,6 +223,8 @@ pub const SHAMROCK: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 1f32,
         name: "shamrock",
+        group: "Animals & Nature",
+        subgroup: "plant-other",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -229,6 +249,8 @@ pub const FOUR_LEAF_CLOVER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "four leaf clover",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -251,6 +273,8 @@ pub const MAPLE_LEAF: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "maple leaf",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -273,6 +297,8 @@ pub const FALLEN_LEAF: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fallen leaf",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -295,6 +321,8 @@ pub const LEAF_FLUTTERING_IN_WIND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "leaf fluttering in wind",
+    group: "Animals & Nature",
+    subgroup: "plant-other",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const CROCODILE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "crocodile",
+    group: "Animals & Nature",
+    subgroup: "animal-reptile",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const TURTLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "turtle",
+    group: "Animals & Nature",
+    subgroup: "animal-reptile",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const LIZARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "lizard",
+    group: "Animals & Nature",
+    subgroup: "animal-reptile",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const SNAKE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "snake",
+    group: "Animals & Nature",
+    subgroup: "animal-reptile",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -99,6 +107,8 @@ pub const DRAGON_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "dragon face",
+    group: "Animals & Nature",
+    subgroup: "animal-reptile",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -121,6 +131,8 @@ pub const DRAGON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "dragon",
+    group: "Animals & Nature",
+    subgroup: "animal-reptile",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -143,6 +155,8 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "sauropod",
+    group: "Animals & Nature",
+    subgroup: "animal-reptile",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -165,6 +179,8 @@ pub const T_REX: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "T-Rex",
+    group: "Animals & Nature",
+    subgroup: "animal-reptile",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const FOUNTAIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "fountain",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const TENT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tent",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const FOGGY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "foggy",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const NIGHT_WITH_STARS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "night with stars",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const CITYSCAPE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "cityscape",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🏙",
@@ -100,6 +110,8 @@ pub const CITYSCAPE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "cityscape",
+        group: "Travel & Places",
+        subgroup: "place-other",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -124,6 +136,8 @@ pub const SUNRISE_OVER_MOUNTAINS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sunrise over mountains",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -152,6 +166,8 @@ pub const SUNRISE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sunrise",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -174,6 +190,8 @@ pub const CITYSCAPE_AT_DUSK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cityscape at dusk",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -209,6 +227,8 @@ pub const SUNSET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sunset",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -231,6 +251,8 @@ pub const BRIDGE_AT_NIGHT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bridge at night",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -253,6 +275,8 @@ pub const HOT_SPRINGS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hot springs",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "♨",
@@ -260,6 +284,8 @@ pub const HOT_SPRINGS: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "hot springs",
+        group: "Travel & Places",
+        subgroup: "place-other",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -284,6 +310,8 @@ pub const CAROUSEL_HORSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "carousel horse",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -306,6 +334,8 @@ pub const FERRIS_WHEEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ferris wheel",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -328,6 +358,8 @@ pub const ROLLER_COASTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "roller coaster",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -350,6 +382,8 @@ pub const BARBER_POLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "barber pole",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -372,6 +406,8 @@ pub const CIRCUS_TENT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "circus tent",
+    group: "Travel & Places",
+    subgroup: "place-other",
     is_variant: false,
     variants: &[],
     annotations: &[

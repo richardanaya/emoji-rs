@@ -5,6 +5,8 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pile of poo",
+    group: "Smileys & Emotion",
+    subgroup: "face-costume",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -35,6 +37,8 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "clown face",
+    group: "Smileys & Emotion",
+    subgroup: "face-costume",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -57,6 +61,8 @@ pub const OGRE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ogre",
+    group: "Smileys & Emotion",
+    subgroup: "face-costume",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -94,6 +100,8 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "goblin",
+    group: "Smileys & Emotion",
+    subgroup: "face-costume",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -132,6 +140,8 @@ pub const GHOST: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ghost",
+    group: "Smileys & Emotion",
+    subgroup: "face-costume",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -161,6 +171,8 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "alien",
+    group: "Smileys & Emotion",
+    subgroup: "face-costume",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -190,6 +202,8 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "alien monster",
+    group: "Smileys & Emotion",
+    subgroup: "face-costume",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -225,6 +239,8 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "robot",
+    group: "Smileys & Emotion",
+    subgroup: "face-costume",
     is_variant: false,
     variants: &[],
     annotations: &[

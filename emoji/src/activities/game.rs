@@ -5,6 +5,8 @@ pub const BULLSEYE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bullseye",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -34,6 +36,8 @@ pub const YO_YO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "yo-yo",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -56,6 +60,8 @@ pub const KITE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 12f32,
     name: "kite",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -78,6 +84,8 @@ pub const POOL_8_BALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pool 8 ball",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -100,6 +108,8 @@ pub const CRYSTAL_BALL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "crystal ball",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -137,6 +147,8 @@ pub const MAGIC_WAND: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "magic wand",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -159,6 +171,8 @@ pub const NAZAR_AMULET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "nazar amulet",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -195,6 +209,8 @@ pub const VIDEO_GAME: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "video game",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -217,6 +233,8 @@ pub const JOYSTICK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "joystick",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🕹",
@@ -224,6 +242,8 @@ pub const JOYSTICK: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "joystick",
+        group: "Activities",
+        subgroup: "game",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -248,6 +268,8 @@ pub const SLOT_MACHINE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "slot machine",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -270,6 +292,8 @@ pub const GAME_DIE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "game die",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -292,6 +316,8 @@ pub const PUZZLE_PIECE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "puzzle piece",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -321,6 +347,8 @@ pub const TEDDY_BEAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "teddy bear",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -343,6 +371,8 @@ pub const PINATA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "piñata",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -365,6 +395,8 @@ pub const NESTING_DOLLS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "nesting dolls",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -387,6 +419,8 @@ pub const SPADE_SUIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "spade suit",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "♠",
@@ -394,6 +428,8 @@ pub const SPADE_SUIT: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "spade suit",
+        group: "Activities",
+        subgroup: "game",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -418,6 +454,8 @@ pub const HEART_SUIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "heart suit",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "♥",
@@ -425,6 +463,8 @@ pub const HEART_SUIT: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "heart suit",
+        group: "Activities",
+        subgroup: "game",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -449,6 +489,8 @@ pub const DIAMOND_SUIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "diamond suit",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "♦",
@@ -456,6 +498,8 @@ pub const DIAMOND_SUIT: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "diamond suit",
+        group: "Activities",
+        subgroup: "game",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -480,6 +524,8 @@ pub const CLUB_SUIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "club suit",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "♣",
@@ -487,6 +533,8 @@ pub const CLUB_SUIT: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "club suit",
+        group: "Activities",
+        subgroup: "game",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -511,6 +559,8 @@ pub const CHESS_PAWN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "chess pawn",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "♟",
@@ -518,6 +568,8 @@ pub const CHESS_PAWN: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 11f32,
         name: "chess pawn",
+        group: "Activities",
+        subgroup: "game",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -550,6 +602,8 @@ pub const JOKER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "joker",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -572,6 +626,8 @@ pub const MAHJONG_RED_DRAGON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "mahjong red dragon",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -594,6 +650,8 @@ pub const FLOWER_PLAYING_CARDS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "flower playing cards",
+    group: "Activities",
+    subgroup: "game",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const ATM_SIGN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "ATM sign",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const LITTER_IN_BIN_SIGN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "litter in bin sign",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const POTABLE_WATER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "potable water",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const WHEELCHAIR_SYMBOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wheelchair symbol",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const MENS_ROOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "men’s room",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -115,6 +125,8 @@ pub const WOMENS_ROOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "women’s room",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -137,6 +149,8 @@ pub const RESTROOM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "restroom",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -159,6 +173,8 @@ pub const BABY_SYMBOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "baby symbol",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -181,6 +197,8 @@ pub const WATER_CLOSET: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "water closet",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -203,6 +221,8 @@ pub const PASSPORT_CONTROL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "passport control",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -225,6 +245,8 @@ pub const CUSTOMS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "customs",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -247,6 +269,8 @@ pub const BAGGAGE_CLAIM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "baggage claim",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -269,6 +293,8 @@ pub const LEFT_LUGGAGE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "left luggage",
+    group: "Symbols",
+    subgroup: "transport-sign",
     is_variant: false,
     variants: &[],
     annotations: &[

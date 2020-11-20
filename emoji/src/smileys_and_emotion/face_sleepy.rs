@@ -5,6 +5,8 @@ pub const RELIEVED_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "relieved face",
+    group: "Smileys & Emotion",
+    subgroup: "face-sleepy",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const PENSIVE_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pensive face",
+    group: "Smileys & Emotion",
+    subgroup: "face-sleepy",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -55,6 +59,8 @@ pub const SLEEPY_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "sleepy face",
+    group: "Smileys & Emotion",
+    subgroup: "face-sleepy",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -77,6 +83,8 @@ pub const DROOLING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "drooling face",
+    group: "Smileys & Emotion",
+    subgroup: "face-sleepy",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -99,6 +107,8 @@ pub const SLEEPING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "sleeping face",
+    group: "Smileys & Emotion",
+    subgroup: "face-sleepy",
     is_variant: false,
     variants: &[],
     annotations: &[

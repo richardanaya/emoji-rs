@@ -5,6 +5,8 @@ pub const STADIUM: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "stadium",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🏟",
@@ -12,6 +14,8 @@ pub const STADIUM: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "stadium",
+        group: "Travel & Places",
+        subgroup: "place-building",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -36,6 +40,8 @@ pub const CLASSICAL_BUILDING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "classical building",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🏛",
@@ -43,6 +49,8 @@ pub const CLASSICAL_BUILDING: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "classical building",
+        group: "Travel & Places",
+        subgroup: "place-building",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -67,6 +75,8 @@ pub const BUILDING_CONSTRUCTION: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "building construction",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🏗",
@@ -74,6 +84,8 @@ pub const BUILDING_CONSTRUCTION: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "building construction",
+        group: "Travel & Places",
+        subgroup: "place-building",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -98,6 +110,8 @@ pub const BRICK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "brick",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -120,6 +134,8 @@ pub const ROCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "rock",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -142,6 +158,8 @@ pub const WOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "wood",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -164,6 +182,8 @@ pub const HUT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "hut",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -186,6 +206,8 @@ pub const HOUSES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "houses",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🏘",
@@ -193,6 +215,8 @@ pub const HOUSES: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "houses",
+        group: "Travel & Places",
+        subgroup: "place-building",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -217,6 +241,8 @@ pub const DERELICT_HOUSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.7f32,
     name: "derelict house",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "🏚",
@@ -224,6 +250,8 @@ pub const DERELICT_HOUSE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.7f32,
         name: "derelict house",
+        group: "Travel & Places",
+        subgroup: "place-building",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -248,6 +276,8 @@ pub const HOUSE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "house",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -270,6 +300,8 @@ pub const HOUSE_WITH_GARDEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "house with garden",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -292,6 +324,8 @@ pub const OFFICE_BUILDING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "office building",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -314,6 +348,8 @@ pub const JAPANESE_POST_OFFICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese post office",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -336,6 +372,8 @@ pub const POST_OFFICE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "post office",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -358,6 +396,8 @@ pub const HOSPITAL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hospital",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -380,6 +420,8 @@ pub const BANK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "bank",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -402,6 +444,8 @@ pub const HOTEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "hotel",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -424,6 +468,8 @@ pub const LOVE_HOTEL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "love hotel",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -446,6 +492,8 @@ pub const CONVENIENCE_STORE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "convenience store",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -468,6 +516,8 @@ pub const SCHOOL: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "school",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -490,6 +540,8 @@ pub const DEPARTMENT_STORE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "department store",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -512,6 +564,8 @@ pub const FACTORY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "factory",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -534,6 +588,8 @@ pub const JAPANESE_CASTLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Japanese castle",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -556,6 +612,8 @@ pub const CASTLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "castle",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -578,6 +636,8 @@ pub const WEDDING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "wedding",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -600,6 +660,8 @@ pub const TOKYO_TOWER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Tokyo tower",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -622,6 +684,8 @@ pub const STATUE_OF_LIBERTY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "Statue of Liberty",
+    group: "Travel & Places",
+    subgroup: "place-building",
     is_variant: false,
     variants: &[],
     annotations: &[

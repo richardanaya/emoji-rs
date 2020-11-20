@@ -5,6 +5,8 @@ pub const GRINNING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "grinning face",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const GRINNING_FACE_WITH_BIG_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning face with big eyes",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -55,6 +59,8 @@ pub const GRINNING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning face with smiling eyes",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -92,6 +98,8 @@ pub const BEAMING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "beaming face with smiling eyes",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -127,6 +135,8 @@ pub const GRINNING_SQUINTING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning squinting face",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -164,6 +174,8 @@ pub const GRINNING_FACE_WITH_SWEAT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grinning face with sweat",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -200,6 +212,8 @@ pub const ROLLING_ON_THE_FLOOR_LAUGHING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "rolling on the floor laughing",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -230,6 +244,8 @@ pub const FACE_WITH_TEARS_OF_JOY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face with tears of joy",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -258,6 +274,8 @@ pub const SLIGHTLY_SMILING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "slightly smiling face",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -280,6 +298,8 @@ pub const UPSIDE_DOWN_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "upside-down face",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -302,6 +322,8 @@ pub const WINKING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "winking face",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -332,6 +354,8 @@ pub const SMILING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "smiling face with smiling eyes",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -360,6 +384,8 @@ pub const SMILING_FACE_WITH_HALO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "smiling face with halo",
+    group: "Smileys & Emotion",
+    subgroup: "face-smiling",
     is_variant: false,
     variants: &[],
     annotations: &[

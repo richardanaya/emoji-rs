@@ -5,6 +5,8 @@ pub const SMILING_FACE_WITH_HEARTS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "smiling face with hearts",
+    group: "Smileys & Emotion",
+    subgroup: "face-affection",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -38,6 +40,8 @@ pub const SMILING_FACE_WITH_HEART_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "smiling face with heart-eyes",
+    group: "Smileys & Emotion",
+    subgroup: "face-affection",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -73,6 +77,8 @@ pub const STAR_STRUCK: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "star-struck",
+    group: "Smileys & Emotion",
+    subgroup: "face-affection",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -102,6 +108,8 @@ pub const FACE_BLOWING_A_KISS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face blowing a kiss",
+    group: "Smileys & Emotion",
+    subgroup: "face-affection",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -124,6 +132,8 @@ pub const KISSING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "kissing face",
+    group: "Smileys & Emotion",
+    subgroup: "face-affection",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -146,6 +156,8 @@ pub const SMILING_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "smiling face",
+    group: "Smileys & Emotion",
+    subgroup: "face-affection",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "☺",
@@ -153,6 +165,8 @@ pub const SMILING_FACE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "smiling face",
+        group: "Smileys & Emotion",
+        subgroup: "face-affection",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -177,6 +191,8 @@ pub const KISSING_FACE_WITH_CLOSED_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "kissing face with closed eyes",
+    group: "Smileys & Emotion",
+    subgroup: "face-affection",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -211,6 +227,8 @@ pub const KISSING_FACE_WITH_SMILING_EYES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "kissing face with smiling eyes",
+    group: "Smileys & Emotion",
+    subgroup: "face-affection",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -245,6 +263,8 @@ pub const SMILING_FACE_WITH_TEAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "smiling face with tear",
+    group: "Smileys & Emotion",
+    subgroup: "face-affection",
     is_variant: false,
     variants: &[],
     annotations: &[

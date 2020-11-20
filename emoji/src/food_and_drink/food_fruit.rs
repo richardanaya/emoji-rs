@@ -5,6 +5,8 @@ pub const GRAPES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "grapes",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const MELON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "melon",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const WATERMELON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "watermelon",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const TANGERINE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tangerine",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -93,6 +101,8 @@ pub const LEMON: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "lemon",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -115,6 +125,8 @@ pub const BANANA: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "banana",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -137,6 +149,8 @@ pub const PINEAPPLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "pineapple",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -159,6 +173,8 @@ pub const MANGO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 11f32,
     name: "mango",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -181,6 +197,8 @@ pub const RED_APPLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "red apple",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -203,6 +221,8 @@ pub const GREEN_APPLE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "green apple",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -225,6 +245,8 @@ pub const PEAR: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "pear",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -247,6 +269,8 @@ pub const PEACH: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "peach",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -269,6 +293,8 @@ pub const CHERRIES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "cherries",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -291,6 +317,8 @@ pub const STRAWBERRY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "strawberry",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -313,6 +341,8 @@ pub const BLUEBERRIES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "blueberries",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -335,6 +365,8 @@ pub const KIWI_FRUIT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 3f32,
     name: "kiwi fruit",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -357,6 +389,8 @@ pub const TOMATO: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "tomato",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -379,6 +413,8 @@ pub const OLIVE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 13f32,
     name: "olive",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -401,6 +437,8 @@ pub const COCONUT: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "coconut",
+    group: "Food & Drink",
+    subgroup: "food-fruit",
     is_variant: false,
     variants: &[],
     annotations: &[

@@ -5,6 +5,8 @@ pub const WARNING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "warning",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "⚠",
@@ -12,6 +14,8 @@ pub const WARNING: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 0.6f32,
         name: "warning",
+        group: "Symbols",
+        subgroup: "warning",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -36,6 +40,8 @@ pub const CHILDREN_CROSSING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "children crossing",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -70,6 +76,8 @@ pub const NO_ENTRY: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "no entry",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -92,6 +100,8 @@ pub const PROHIBITED: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "prohibited",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -114,6 +124,8 @@ pub const NO_BICYCLES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "no bicycles",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -150,6 +162,8 @@ pub const NO_SMOKING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "no smoking",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -172,6 +186,8 @@ pub const NO_LITTERING: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "no littering",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -201,6 +217,8 @@ pub const NON_POTABLE_WATER: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "non-potable water",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -228,6 +246,8 @@ pub const NO_PEDESTRIANS: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "no pedestrians",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -257,6 +277,8 @@ pub const NO_MOBILE_PHONES: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "no mobile phones",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -286,6 +308,8 @@ pub const NO_ONE_UNDER_EIGHTEEN: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "no one under eighteen",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -322,6 +346,8 @@ pub const RADIOACTIVE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "radioactive",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "☢",
@@ -329,6 +355,8 @@ pub const RADIOACTIVE: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 1f32,
         name: "radioactive",
+        group: "Symbols",
+        subgroup: "warning",
         is_variant: true,
         variants: &[],
         annotations: &[],
@@ -359,6 +387,8 @@ pub const BIOHAZARD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "biohazard",
+    group: "Symbols",
+    subgroup: "warning",
     is_variant: false,
     variants: &[crate::Emoji {
         glyph: "☣",
@@ -366,6 +396,8 @@ pub const BIOHAZARD: crate::Emoji = crate::Emoji {
         status: crate::Status::Unqualified,
         introduction_version: 1f32,
         name: "biohazard",
+        group: "Symbols",
+        subgroup: "warning",
         is_variant: true,
         variants: &[],
         annotations: &[],

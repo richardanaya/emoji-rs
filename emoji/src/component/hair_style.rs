@@ -5,6 +5,8 @@ pub const RED_HAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 11f32,
     name: "red hair",
+    group: "Component",
+    subgroup: "hair-style",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -27,6 +29,8 @@ pub const CURLY_HAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 11f32,
     name: "curly hair",
+    group: "Component",
+    subgroup: "hair-style",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -49,6 +53,8 @@ pub const WHITE_HAIR: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 11f32,
     name: "white hair",
+    group: "Component",
+    subgroup: "hair-style",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -71,6 +77,8 @@ pub const BALD: crate::Emoji = crate::Emoji {
     status: crate::Status::Component,
     introduction_version: 11f32,
     name: "bald",
+    group: "Component",
+    subgroup: "hair-style",
     is_variant: false,
     variants: &[],
     annotations: &[

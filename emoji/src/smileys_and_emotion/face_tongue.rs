@@ -5,6 +5,8 @@ pub const FACE_SAVORING_FOOD: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "face savoring food",
+    group: "Smileys & Emotion",
+    subgroup: "face-tongue",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -42,6 +44,8 @@ pub const FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "face with tongue",
+    group: "Smileys & Emotion",
+    subgroup: "face-tongue",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -64,6 +68,8 @@ pub const WINKING_FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "winking face with tongue",
+    group: "Smileys & Emotion",
+    subgroup: "face-tongue",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -100,6 +106,8 @@ pub const ZANY_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 5f32,
     name: "zany face",
+    group: "Smileys & Emotion",
+    subgroup: "face-tongue",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -122,6 +130,8 @@ pub const SQUINTING_FACE_WITH_TONGUE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 0.6f32,
     name: "squinting face with tongue",
+    group: "Smileys & Emotion",
+    subgroup: "face-tongue",
     is_variant: false,
     variants: &[],
     annotations: &[
@@ -158,6 +168,8 @@ pub const MONEY_MOUTH_FACE: crate::Emoji = crate::Emoji {
     status: crate::Status::FullyQualified,
     introduction_version: 1f32,
     name: "money-mouth face",
+    group: "Smileys & Emotion",
+    subgroup: "face-tongue",
     is_variant: false,
     variants: &[],
     annotations: &[

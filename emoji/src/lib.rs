@@ -24,6 +24,8 @@ pub struct Emoji {
     pub glyph: &'static str,
     pub introduction_version: f32,
     pub name: &'static str,
+    pub group: &'static str,
+    pub subgroup: &'static str,
     pub variants: &'static [Emoji],
     pub annotations: &'static [Annotation],
     pub is_variant: bool,
