@@ -1,5 +1,674 @@
 #[doc = "🎼"]
-pub const MUSICAL_SCORE : crate :: Emoji = crate :: Emoji { glyph : "🎼" , codepoint : "1F3BC" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "musical score" , group : "Objects" , subgroup : "music" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("musiekbalk") , keywords : & ["balk" , "musiek" , "musiekbalk" , "partituur"] , } , crate :: Annotation { lang : "am" , tts : Some ("ሙዚቃዊ ውጤት") , keywords : & ["ሙዚቃ" , "ሙዚቃዊ ውጤት" , "ውጤት"] , } , crate :: Annotation { lang : "ar" , tts : Some ("علامة موسيقية") , keywords : & ["سكور" , "علامة موسيقية" , "موسيقى"] , } , crate :: Annotation { lang : "as" , tts : Some ("সংগীতৰ লিখিত ৰ\u{9c2}প") , keywords : & ["সংগীত" , "সংগীত-ৰচন\u{9be}" , "সংগীতৰ লিখিত ৰ\u{9c2}প"] , } , crate :: Annotation { lang : "az" , tts : Some ("musiqi partiturası") , keywords : & ["musiqi" , "musiqi partiturası" , "partitura"] , } , crate :: Annotation { lang : "be" , tts : Some ("партытура") , keywords : & ["запіс" , "музыка" , "музычны" , "нота" , "партытура"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Нотен запис") , keywords : & ["Нотен запис" , "запис" , "музика"] , } , crate :: Annotation { lang : "bn" , tts : Some ("সঙ\u{9cd}গীতের স\u{9cd}কোর") , keywords : & ["সঙ\u{9cd}গীত" , "সঙ\u{9cd}গীতের স\u{9cd}কোর" , "স\u{9cd}কোর"] , } , crate :: Annotation { lang : "br" , tts : Some ("skrid-sonerezh") , keywords : & ["kevrollenn" , "skrid-sonerezh" , "sonerezh"] , } , crate :: Annotation { lang : "bs" , tts : Some ("notni zapis") , keywords : & ["muzika" , "note" , "notni zapis" , "partitura"] , } , crate :: Annotation { lang : "ca" , tts : Some ("pentagrama") , keywords : & ["música" , "pentagrama"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᏗᎧᏃᎩᏓ ᎪᏪᎳᏅ") , keywords : & ["ᎪᏪᎳᏅ" , "ᏗᎧᏃᎩᏍᏗ" , "ᏗᎧᏃᎩᏓ ᎪᏪᎳᏅ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("notová osnova") , keywords : & ["hudba" , "notová osnova" , "notový" , "noty" , "zápis"] , } , crate :: Annotation { lang : "cy" , tts : Some ("sgôr cerddorol") , keywords : & ["cerddoriaeth" , "sgôr" , "sgôr cerddorol"] , } , crate :: Annotation { lang : "da" , tts : Some ("partitur") , keywords : & ["g-nøgle" , "musik" , "partitur"] , } , crate :: Annotation { lang : "de" , tts : Some ("Notenschlüssel") , keywords : & ["Musik" , "Noten" , "Notenschlüssel" , "Partitur" , "Violinschlüssel"] , } , crate :: Annotation { lang : "el" , tts : Some ("παρτιτούρα") , keywords : & ["μουσική" , "παρτιτούρα" , "πεντάγραμμο"] , } , crate :: Annotation { lang : "en" , tts : Some ("musical score") , keywords : & ["music" , "musical score" , "score"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("pentagrama") , keywords : & ["música" , "partitura" , "pentagrama"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("clave de sol") , keywords : & ["clave" , "clave de sol" , "música" , "partitura" , "pentagrama" , "sol"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("partitura") , keywords : & ["partitura"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["clave" , "clave de sol" , "música" , "partitura" , "pentagrama"] , } , crate :: Annotation { lang : "et" , tts : Some ("noodijoonestik") , keywords : & ["muusika" , "noodijoonestik" , "noot"] , } , crate :: Annotation { lang : "eu" , tts : Some ("notazio musikala") , keywords : & ["musika" , "notazio" , "notazio musikala"] , } , crate :: Annotation { lang : "fa" , tts : Some ("پارتیتور") , keywords : & ["خط حامل" , "موسیقی" , "نت" , "پارتیتور" , "کلید سل"] , } , crate :: Annotation { lang : "fi" , tts : Some ("nuottiviivasto") , keywords : & ["musiikki" , "nuotti" , "nuottiavain" , "nuottiviivasto"] , } , crate :: Annotation { lang : "fil" , tts : Some ("musical score") , keywords : & ["iskor" , "kanta" , "musical score" , "musika" , "tugtog"] , } , crate :: Annotation { lang : "fo" , tts : Some ("fjølrøddabók") , keywords : & ["fjølrøddabók" , "partiturur" , "tónleikur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("partition") , keywords : & ["musique" , "partition"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("scór ceoil") , keywords : & ["ceol" , "scór" , "scór ceoil"] , } , crate :: Annotation { lang : "gd" , tts : Some ("iuchair-ghleus") , keywords : & ["ceòl" , "iuchair-ghleus" , "sgàla" , "sgòr"] , } , crate :: Annotation { lang : "gl" , tts : Some ("clave de sol") , keywords : & ["clave de sol" , "música" , "pentagrama" , "solfexo"] , } , crate :: Annotation { lang : "gu" , tts : Some ("સ\u{a82}ગીત માટ\u{ac7}ની લખાણ") , keywords : & ["લખાણ" , "સ\u{a82}ગીત" , "સ\u{a82}ગીત માટ\u{ac7}ની લખાણ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("alamar kiɗa") , keywords : & ["alama" , "alamar kiɗa" , "kiɗa"] , } , crate :: Annotation { lang : "he" , tts : Some ("מפתח סול") , keywords : & ["מוזיקה" , "מפתח סול" , "תווים"] , } , crate :: Annotation { lang : "hi" , tts : Some ("स\u{902}गीत स\u{94d}कोर") , keywords : & ["स\u{902}गीत" , "स\u{94d}कोर"] , } , crate :: Annotation { lang : "hr" , tts : Some ("notno crtovlje") , keywords : & ["crtovlje" , "glazba" , "notno crtovlje"] , } , crate :: Annotation { lang : "hu" , tts : Some ("zenei kotta") , keywords : & ["kotta" , "zene" , "zenei kotta"] , } , crate :: Annotation { lang : "hy" , tts : Some ("սոլի բանալի") , keywords : & ["երաժշտություն" , "սոլի բանալի"] , } , crate :: Annotation { lang : "id" , tts : Some ("naskah musik") , keywords : & ["musik" , "naskah musik" , "skor"] , } , crate :: Annotation { lang : "ig" , tts : Some ("akara egwu") , keywords : & ["akara" , "egwu"] , } , crate :: Annotation { lang : "is" , tts : Some ("nótnaskrif") , keywords : & ["G-lykill" , "nótnaskrif" , "tónlist"] , } , crate :: Annotation { lang : "it" , tts : Some ("pentagramma") , keywords : & ["musica" , "partitura" , "pentagramma"] , } , crate :: Annotation { lang : "ja" , tts : Some ("楽譜") , keywords : & ["スコア" , "ト音記号" , "五線譜" , "楽譜" , "音楽"] , } , crate :: Annotation { lang : "jv" , tts : Some ("notasi musik") , keywords : & ["musik" , "notasi"] , } , crate :: Annotation { lang : "ka" , tts : Some ("მუსიკალური პარტიტურა") , keywords : & ["მუსიკა" , "მუსიკალური პარტიტურა" , "პარტიტურა"] , } , crate :: Annotation { lang : "kk" , tts : Some ("партитура") , keywords : & ["музыка" , "партитура"] , } , crate :: Annotation { lang : "kl" , tts : Some ("partitur") , keywords : & ["g-nøgle" , "musik" , "partitur"] , } , crate :: Annotation { lang : "km" , tts : Some ("ណោតភ\u{17d2}លេងព\u{17b8}ក\u{17d2}រោយឆ\u{17d2}ន\u{17bc}តផ\u{17d2}តេកប\u{17d2}រា\u{17c6}") , keywords : & ["ណោតភ\u{17d2}លេងព\u{17b8}ក\u{17d2}រោយឆ\u{17d2}ន\u{17bc}តផ\u{17d2}តេកប\u{17d2}រា\u{17c6}" , "ណោតភ\u{17d2}លេងភ\u{17d2}លេង" , "តន\u{17d2}ត\u{17d2}រ\u{17b8}" , "ភ\u{17d2}លេង"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಸಂಗೀತ ಸ\u{ccd}ಕೋರ\u{ccd}") , keywords : & ["ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}" , "ಸಂಗೀತ" , "ಸ\u{ccd}ಕೋರ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("높은음자리표") , keywords : & ["높은음자리" , "높은음자리표" , "악보" , "음악"] , } , crate :: Annotation { lang : "kok" , tts : Some ("स\u{902}गाताचो स\u{94d}वर") , keywords : & ["स\u{902}गाताचो स\u{94d}वर" , "स\u{902}गीत" , "स\u{902}गीताचो स\u{94d}वर" , "स\u{94d}वर"] , } , crate :: Annotation { lang : "ky" , tts : Some ("музыкалык ачкыч") , keywords : & ["ачкыч" , "музыка" , "музыкалык ачкыч"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Partitioun") , keywords : & ["Musek" , "Partitioun"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ສ\u{eb1}ນຍາລ\u{eb1}ກເພງ") , keywords : & ["ສ\u{eb1}ນຍາລ\u{eb1}ກເພງ" , "ໂນດເພງ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("partitūra") , keywords : & ["muzika" , "partitūra"] , } , crate :: Annotation { lang : "lv" , tts : Some ("nošu līnijas") , keywords : & ["mūzika" , "notis" , "nošu līnijas"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tuhinga puoro") , keywords : & ["puoro" , "tuhinga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("петолиние") , keywords : & ["виолински" , "клуч" , "музика" , "петолиние"] , } , crate :: Annotation { lang : "ml" , tts : Some ("മ\u{d4d}യ\u{d42}സിക\u{d4d} സ\u{d4d}കോർ") , keywords : & ["മ\u{d4d}യ\u{d42}സിക\u{d4d} സ\u{d4d}കോർ" , "സംഗീതം" , "സ\u{d4d}കോർ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("нотны шугам") , keywords : & ["нот" , "нотны шугам" , "хөгжим" , "шугам"] , } , crate :: Annotation { lang : "mr" , tts : Some ("स\u{902}गीतात वापरल\u{947} जाणारी लिपी") , keywords : & ["स\u{902}गीत" , "स\u{902}गीतात वापरल\u{947} जाणारी लिपी" , "स\u{94d}कोअर"] , } , crate :: Annotation { lang : "ms" , tts : Some ("skor muzik") , keywords : & ["muzik" , "skor"] , } , crate :: Annotation { lang : "mt" , tts : Some ("partitura mużikali") , keywords : & ["mużika" , "partitura" , "partitura mużikali"] , } , crate :: Annotation { lang : "my" , tts : Some ("တေးသ\u{103d}ား သင\u{103a}\u{1039}ကေတ") , keywords : & ["ဂ\u{102e}တ" , "ဂ\u{102e}တ သင\u{103a}\u{1039}ကေတ" , "တေးသ\u{103d}ား သင\u{103a}\u{1039}ကေတ"] , } , crate :: Annotation { lang : "nb" , tts : Some ("musikk") , keywords : & ["g-nøkkel" , "musikk" , "notetegn"] , } , crate :: Annotation { lang : "ne" , tts : Some ("सा\u{902}गीतिक स\u{94d}कोर") , keywords : & ["सा\u{902}गीतिक" , "स\u{94d}कोर"] , } , crate :: Annotation { lang : "nl" , tts : Some ("notenschift") , keywords : & ["muziek" , "notenschift" , "partituur"] , } , crate :: Annotation { lang : "nn" , tts : Some ("musikk") , keywords : & ["g-nøkkel" , "musikk" , "noteteikn"] , } , crate :: Annotation { lang : "or" , tts : Some ("ସଙ\u{b4d}ଗୀତ ସମ\u{b4d}ବନ\u{b4d}ଧୀୟ ସ\u{b4d}କୋର\u{b4d}\u{200c}") , keywords : & ["ସଙ\u{b4d}ଗୀତ" , "ସଙ\u{b4d}ଗୀତ ସମ\u{b4d}ବନ\u{b4d}ଧୀୟ ସ\u{b4d}କୋର\u{b4d}\u{200c}" , "ସ\u{b4d}କୋର\u{b4d}\u{200c}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਸ\u{a70}ਗੀਤਕ ਸਕ\u{a4b}ਰ") , keywords : & ["ਸਕ\u{a4b}ਰ" , "ਸ\u{a70}ਗੀਤ" , "ਸ\u{a70}ਗੀਤਕ ਸਕ\u{a4b}ਰ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("موسیقی دا سکور") , keywords : & ["سکور" , "موسیقی" , "موسیقی دا سکور"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Miúzíkál Skọ") , keywords : & ["Miúzik" , "Miúzíkál Skọ" , "Skọ"] , } , crate :: Annotation { lang : "pl" , tts : Some ("partytura") , keywords : & ["klucz" , "muzyka" , "nuty" , "partytura" , "pięciolinia"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د موسیقۍ نمرې") , keywords : & ["د موسیقۍ نمرې" , "موسيقي" , "نمرې"] , } , crate :: Annotation { lang : "pt" , tts : Some ("partitura musical") , keywords : & ["música" , "partitura" , "partitura musical"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("pauta") , keywords : & ["música" , "partitura" , "pauta"] , } , crate :: Annotation { lang : "qu" , tts : Some ("partitura") , keywords : & ["partitura"] , } , crate :: Annotation { lang : "ro" , tts : Some ("partitură") , keywords : & ["cheia sol" , "muzică" , "partitură" , "portativ"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-380") , keywords : & ["E10-380"] , } , crate :: Annotation { lang : "ru" , tts : Some ("нотный стан") , keywords : & ["ключ" , "музыка" , "нотный стан" , "ноты" , "скрипичный"] , } , crate :: Annotation { lang : "rw" , tts : Some ("akarango k’umuziki") , keywords : & ["akarango k’umuziki" , "inota" , "umuziki"] , } , crate :: Annotation { lang : "sd" , tts : Some ("موسيقي جو دڪان") , keywords : & ["موسيقي جو دڪان" , "موسيقي، اسڪور"] , } , crate :: Annotation { lang : "si" , tts : Some ("සංග\u{dd3}ත ත\u{dcf}රත\u{dcf}ව") , keywords : & ["ත\u{dcf}රත\u{dcf}ව" , "සංග\u{dd3}ත ත\u{dcf}රත\u{dcf}ව" , "සංග\u{dd3}තය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("notová osnova") , keywords : & ["hudba" , "notová osnova" , "osnova"] , } , crate :: Annotation { lang : "sl" , tts : Some ("partitura") , keywords : & ["glasba" , "partitura"] , } , crate :: Annotation { lang : "so" , tts : Some ("xaashida muusika") , keywords : & ["muusik" , "xaashi" , "xaashida muusika"] , } , crate :: Annotation { lang : "sq" , tts : Some ("pentagram") , keywords : & ["muzikë" , "pentagram"] , } , crate :: Annotation { lang : "sr" , tts : Some ("нотни запис") , keywords : & ["музика" , "ноте" , "нотни запис"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("notni zapis") , keywords : & ["muzika" , "note" , "notni zapis"] , } , crate :: Annotation { lang : "sv" , tts : Some ("g-klav") , keywords : & ["g-klav" , "musik" , "noter"] , } , crate :: Annotation { lang : "sw" , tts : Some ("karatasi ya muziki") , keywords : & ["karatasi ya muziki" , "muziki"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("இசைக\u{bcd} கோர\u{bcd}ப\u{bcd}பு") , keywords : & ["இசை" , "இசைக\u{bcd} கோர\u{bcd}ப\u{bcd}பு" , "கோர\u{bcd}ப\u{bcd}பு"] , } , crate :: Annotation { lang : "te" , tts : Some ("సంగ\u{c40}త రచన") , keywords : & ["రచన" , "సంగ\u{c40}త రచన" , "సంగ\u{c40}తం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("партитура") , keywords : & ["мусиқӣ" , "нота" , "партитура"] , } , crate :: Annotation { lang : "th" , tts : Some ("บรรท\u{e31}ดห\u{e49}าเส\u{e49}น") , keywords : & ["ก\u{e38}ญแจซอล" , "บรรท\u{e31}ดห\u{e49}าเส\u{e49}น" , "โน\u{e49}ตเพลง"] , } , crate :: Annotation { lang : "tk" , tts : Some ("partitura") , keywords : & ["aýdym-saz" , "aýdym-saz nyşany" , "partitura"] , } , crate :: Annotation { lang : "to" , tts : Some ("pepa hiva") , keywords : & ["pepa hiva"] , } , crate :: Annotation { lang : "tr" , tts : Some ("sol anahtarı") , keywords : & ["müzik" , "partisyon" , "sol anahtarı"] , } , crate :: Annotation { lang : "ug" , tts : Some ("مۇزىكا يازمىسى") , keywords : & ["مۇزىكا" , "مۇزىكا يازمىسى" , "يازما"] , } , crate :: Annotation { lang : "uk" , tts : Some ("партитура") , keywords : & ["музичний" , "партитура"] , } , crate :: Annotation { lang : "ur" , tts : Some ("میوزیکل اسکور") , keywords : & ["اسکور" , "موسیقی" , "میوزیکل اسکور"] , } , crate :: Annotation { lang : "uz" , tts : Some ("musiqa kaliti") , keywords : & ["kalit" , "musiqa" , "musiqa kaliti"] , } , crate :: Annotation { lang : "vi" , tts : Some ("khuông nhạc") , keywords : & ["bản nhạc" , "khuông nhạc" , "nhạc"] , } , crate :: Annotation { lang : "wo" , tts : Some ("kle misik") , keywords : & ["kle" , "misik"] , } , crate :: Annotation { lang : "xh" , tts : Some ("inqaku lomculo") , keywords : & ["inqaku" , "inqaku lomculo" , "umculo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("akọsilẹ orin") , keywords : & ["akọsilẹ orin" , "akọsílẹ\u{300}" , "orin"] , } , crate :: Annotation { lang : "yue" , tts : Some ("樂譜") , keywords : & ["樂譜" , "音樂"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("乐谱") , keywords : & ["乐谱" , "音乐"] , } , crate :: Annotation { lang : "zh" , tts : Some ("乐谱") , keywords : & ["乐谱" , "五线谱" , "音乐" , "音符"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("樂譜") , keywords : & ["樂譜" , "音樂"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "zu" , tts : Some ("umbhalo womculo") , keywords : & ["umbhalo" , "umbhalo womculo" , "umculo"] , }] , } ;
+pub const MUSICAL_SCORE: crate::Emoji = crate::Emoji {
+    glyph: "🎼",
+    codepoint: "1F3BC",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "musical score",
+    group: "Objects",
+    subgroup: "music",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("musiekbalk"),
+            keywords: &["balk", "musiek", "musiekbalk", "partituur"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ሙዚቃዊ ውጤት"),
+            keywords: &["ሙዚቃ", "ሙዚቃዊ ውጤት", "ውጤት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("علامة موسيقية"),
+            keywords: &["سكور", "علامة موسيقية", "موسيقى"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("সংগীতৰ লিখিত ৰ\u{9c2}প"),
+            keywords: &["সংগীত", "সংগীত-ৰচন\u{9be}", "সংগীতৰ লিখিত ৰ\u{9c2}প"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("musiqi partiturası"),
+            keywords: &["musiqi", "musiqi partiturası", "partitura"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("партытура"),
+            keywords: &["запіс", "музыка", "музычны", "нота", "партытура"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Нотен запис"),
+            keywords: &["Нотен запис", "запис", "музика"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("সঙ\u{9cd}গীতের স\u{9cd}কোর"),
+            keywords: &["সঙ\u{9cd}গীত", "সঙ\u{9cd}গীতের স\u{9cd}কোর", "স\u{9cd}কোর"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("skrid-sonerezh"),
+            keywords: &["kevrollenn", "skrid-sonerezh", "sonerezh"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("notni zapis"),
+            keywords: &["muzika", "note", "notni zapis", "partitura"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("pentagrama"),
+            keywords: &["música", "pentagrama"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏗᎧᏃᎩᏓ ᎪᏪᎳᏅ"),
+            keywords: &["ᎪᏪᎳᏅ", "ᏗᎧᏃᎩᏍᏗ", "ᏗᎧᏃᎩᏓ ᎪᏪᎳᏅ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("notová osnova"),
+            keywords: &["hudba", "notová osnova", "notový", "noty", "zápis"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("sgôr cerddorol"),
+            keywords: &["cerddoriaeth", "sgôr", "sgôr cerddorol"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("partitur"),
+            keywords: &["g-nøgle", "musik", "partitur"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Notenschlüssel"),
+            keywords: &[
+                "Musik",
+                "Noten",
+                "Notenschlüssel",
+                "Partitur",
+                "Violinschlüssel",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("παρτιτούρα"),
+            keywords: &["μουσική", "παρτιτούρα", "πεντάγραμμο"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("musical score"),
+            keywords: &["music", "musical score", "score"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("pentagrama"),
+            keywords: &["música", "partitura", "pentagrama"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("clave de sol"),
+            keywords: &[
+                "clave",
+                "clave de sol",
+                "música",
+                "partitura",
+                "pentagrama",
+                "sol",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("partitura"),
+            keywords: &["partitura"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["clave", "clave de sol", "música", "partitura", "pentagrama"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("noodijoonestik"),
+            keywords: &["muusika", "noodijoonestik", "noot"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("notazio musikala"),
+            keywords: &["musika", "notazio", "notazio musikala"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("پارتیتور"),
+            keywords: &["خط حامل", "موسیقی", "نت", "پارتیتور", "کلید سل"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nuottiviivasto"),
+            keywords: &["musiikki", "nuotti", "nuottiavain", "nuottiviivasto"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("musical score"),
+            keywords: &["iskor", "kanta", "musical score", "musika", "tugtog"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("fjølrøddabók"),
+            keywords: &["fjølrøddabók", "partiturur", "tónleikur"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("partition"),
+            keywords: &["musique", "partition"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("scór ceoil"),
+            keywords: &["ceol", "scór", "scór ceoil"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("iuchair-ghleus"),
+            keywords: &["ceòl", "iuchair-ghleus", "sgàla", "sgòr"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("clave de sol"),
+            keywords: &["clave de sol", "música", "pentagrama", "solfexo"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સ\u{a82}ગીત માટ\u{ac7}ની લખાણ"),
+            keywords: &["લખાણ", "સ\u{a82}ગીત", "સ\u{a82}ગીત માટ\u{ac7}ની લખાણ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("alamar kiɗa"),
+            keywords: &["alama", "alamar kiɗa", "kiɗa"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("מפתח סול"),
+            keywords: &["מוזיקה", "מפתח סול", "תווים"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("स\u{902}गीत स\u{94d}कोर"),
+            keywords: &["स\u{902}गीत", "स\u{94d}कोर"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("notno crtovlje"),
+            keywords: &["crtovlje", "glazba", "notno crtovlje"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("zenei kotta"),
+            keywords: &["kotta", "zene", "zenei kotta"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("սոլի բանալի"),
+            keywords: &["երաժշտություն", "սոլի բանալի"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("naskah musik"),
+            keywords: &["musik", "naskah musik", "skor"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akara egwu"),
+            keywords: &["akara", "egwu"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("nótnaskrif"),
+            keywords: &["G-lykill", "nótnaskrif", "tónlist"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("pentagramma"),
+            keywords: &["musica", "partitura", "pentagramma"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("楽譜"),
+            keywords: &["スコア", "ト音記号", "五線譜", "楽譜", "音楽"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("notasi musik"),
+            keywords: &["musik", "notasi"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("მუსიკალური პარტიტურა"),
+            keywords: &["მუსიკა", "მუსიკალური პარტიტურა", "პარტიტურა"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("партитура"),
+            keywords: &["музыка", "партитура"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("partitur"),
+            keywords: &["g-nøgle", "musik", "partitur"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some(
+                "ណោតភ\u{17d2}លេងព\u{17b8}ក\u{17d2}រោយឆ\u{17d2}ន\u{17bc}តផ\u{17d2}តេកប\u{17d2}រា\u{17c6}",
+            ),
+            keywords: &[
+                "ណោតភ\u{17d2}លេងព\u{17b8}ក\u{17d2}រោយឆ\u{17d2}ន\u{17bc}តផ\u{17d2}តេកប\u{17d2}រា\u{17c6}",
+                "ណោតភ\u{17d2}លេងភ\u{17d2}លេង",
+                "តន\u{17d2}ត\u{17d2}រ\u{17b8}",
+                "ភ\u{17d2}លេង",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಸಂಗೀತ ಸ\u{ccd}ಕೋರ\u{ccd}"),
+            keywords: &[
+                "ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}",
+                "ಸಂಗೀತ",
+                "ಸ\u{ccd}ಕೋರ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("높은음자리표"),
+            keywords: &["높은음자리", "높은음자리표", "악보", "음악"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("स\u{902}गाताचो स\u{94d}वर"),
+            keywords: &[
+                "स\u{902}गाताचो स\u{94d}वर",
+                "स\u{902}गीत",
+                "स\u{902}गीताचो स\u{94d}वर",
+                "स\u{94d}वर",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("музыкалык ачкыч"),
+            keywords: &["ачкыч", "музыка", "музыкалык ачкыч"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Partitioun"),
+            keywords: &["Musek", "Partitioun"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ສ\u{eb1}ນຍາລ\u{eb1}ກເພງ"),
+            keywords: &["ສ\u{eb1}ນຍາລ\u{eb1}ກເພງ", "ໂນດເພງ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("partitūra"),
+            keywords: &["muzika", "partitūra"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("nošu līnijas"),
+            keywords: &["mūzika", "notis", "nošu līnijas"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tuhinga puoro"),
+            keywords: &["puoro", "tuhinga"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("петолиние"),
+            keywords: &["виолински", "клуч", "музика", "петолиние"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("മ\u{d4d}യ\u{d42}സിക\u{d4d} സ\u{d4d}കോർ"),
+            keywords: &[
+                "മ\u{d4d}യ\u{d42}സിക\u{d4d} സ\u{d4d}കോർ",
+                "സംഗീതം",
+                "സ\u{d4d}കോർ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("нотны шугам"),
+            keywords: &["нот", "нотны шугам", "хөгжим", "шугам"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("स\u{902}गीतात वापरल\u{947} जाणारी लिपी"),
+            keywords: &[
+                "स\u{902}गीत",
+                "स\u{902}गीतात वापरल\u{947} जाणारी लिपी",
+                "स\u{94d}कोअर",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("skor muzik"),
+            keywords: &["muzik", "skor"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("partitura mużikali"),
+            keywords: &["mużika", "partitura", "partitura mużikali"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("တေးသ\u{103d}ား သင\u{103a}\u{1039}ကေတ"),
+            keywords: &[
+                "ဂ\u{102e}တ",
+                "ဂ\u{102e}တ သင\u{103a}\u{1039}ကေတ",
+                "တေးသ\u{103d}ား သင\u{103a}\u{1039}ကေတ",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("musikk"),
+            keywords: &["g-nøkkel", "musikk", "notetegn"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("सा\u{902}गीतिक स\u{94d}कोर"),
+            keywords: &["सा\u{902}गीतिक", "स\u{94d}कोर"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("notenschift"),
+            keywords: &["muziek", "notenschift", "partituur"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("musikk"),
+            keywords: &["g-nøkkel", "musikk", "noteteikn"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ସଙ\u{b4d}ଗୀତ ସମ\u{b4d}ବନ\u{b4d}ଧୀୟ ସ\u{b4d}କୋର\u{b4d}\u{200c}"),
+            keywords: &[
+                "ସଙ\u{b4d}ଗୀତ",
+                "ସଙ\u{b4d}ଗୀତ ସମ\u{b4d}ବନ\u{b4d}ଧୀୟ ସ\u{b4d}କୋର\u{b4d}\u{200c}",
+                "ସ\u{b4d}କୋର\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਸ\u{a70}ਗੀਤਕ ਸਕ\u{a4b}ਰ"),
+            keywords: &["ਸਕ\u{a4b}ਰ", "ਸ\u{a70}ਗੀਤ", "ਸ\u{a70}ਗੀਤਕ ਸਕ\u{a4b}ਰ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("موسیقی دا سکور"),
+            keywords: &["سکور", "موسیقی", "موسیقی دا سکور"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Miúzíkál Skọ"),
+            keywords: &["Miúzik", "Miúzíkál Skọ", "Skọ"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("partytura"),
+            keywords: &["klucz", "muzyka", "nuty", "partytura", "pięciolinia"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د موسیقۍ نمرې"),
+            keywords: &["د موسیقۍ نمرې", "موسيقي", "نمرې"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("partitura musical"),
+            keywords: &["música", "partitura", "partitura musical"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("pauta"),
+            keywords: &["música", "partitura", "pauta"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("partitura"),
+            keywords: &["partitura"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("partitură"),
+            keywords: &["cheia sol", "muzică", "partitură", "portativ"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-380"),
+            keywords: &["E10-380"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("нотный стан"),
+            keywords: &["ключ", "музыка", "нотный стан", "ноты", "скрипичный"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("akarango k’umuziki"),
+            keywords: &["akarango k’umuziki", "inota", "umuziki"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("موسيقي جو دڪان"),
+            keywords: &["موسيقي جو دڪان", "موسيقي، اسڪور"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("සංග\u{dd3}ත ත\u{dcf}රත\u{dcf}ව"),
+            keywords: &[
+                "ත\u{dcf}රත\u{dcf}ව",
+                "සංග\u{dd3}ත ත\u{dcf}රත\u{dcf}ව",
+                "සංග\u{dd3}තය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("notová osnova"),
+            keywords: &["hudba", "notová osnova", "osnova"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("partitura"),
+            keywords: &["glasba", "partitura"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("xaashida muusika"),
+            keywords: &["muusik", "xaashi", "xaashida muusika"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("pentagram"),
+            keywords: &["muzikë", "pentagram"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("нотни запис"),
+            keywords: &["музика", "ноте", "нотни запис"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("notni zapis"),
+            keywords: &["muzika", "note", "notni zapis"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("g-klav"),
+            keywords: &["g-klav", "musik", "noter"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("karatasi ya muziki"),
+            keywords: &["karatasi ya muziki", "muziki"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("இசைக\u{bcd} கோர\u{bcd}ப\u{bcd}பு"),
+            keywords: &[
+                "இசை",
+                "இசைக\u{bcd} கோர\u{bcd}ப\u{bcd}பு",
+                "கோர\u{bcd}ப\u{bcd}பு",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("సంగ\u{c40}త రచన"),
+            keywords: &["రచన", "సంగ\u{c40}త రచన", "సంగ\u{c40}తం"],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("партитура"),
+            keywords: &["мусиқӣ", "нота", "партитура"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("บรรท\u{e31}ดห\u{e49}าเส\u{e49}น"),
+            keywords: &[
+                "ก\u{e38}ญแจซอล",
+                "บรรท\u{e31}ดห\u{e49}าเส\u{e49}น",
+                "โน\u{e49}ตเพลง",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("partitura"),
+            keywords: &["aýdym-saz", "aýdym-saz nyşany", "partitura"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("pepa hiva"),
+            keywords: &["pepa hiva"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("sol anahtarı"),
+            keywords: &["müzik", "partisyon", "sol anahtarı"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("مۇزىكا يازمىسى"),
+            keywords: &["مۇزىكا", "مۇزىكا يازمىسى", "يازما"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("партитура"),
+            keywords: &["музичний", "партитура"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("میوزیکل اسکور"),
+            keywords: &["اسکور", "موسیقی", "میوزیکل اسکور"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("musiqa kaliti"),
+            keywords: &["kalit", "musiqa", "musiqa kaliti"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("khuông nhạc"),
+            keywords: &["bản nhạc", "khuông nhạc", "nhạc"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("kle misik"),
+            keywords: &["kle", "misik"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("inqaku lomculo"),
+            keywords: &["inqaku", "inqaku lomculo", "umculo"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("akọsilẹ orin"),
+            keywords: &["akọsilẹ orin", "akọsílẹ\u{300}", "orin"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("樂譜"),
+            keywords: &["樂譜", "音樂"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("乐谱"),
+            keywords: &["乐谱", "音乐"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("乐谱"),
+            keywords: &["乐谱", "五线谱", "音乐", "音符"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("樂譜"),
+            keywords: &["樂譜", "音樂"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("umbhalo womculo"),
+            keywords: &["umbhalo", "umbhalo womculo", "umculo"],
+        },
+    ],
+};
 #[doc = "🎵"]
 pub const MUSICAL_NOTE: crate::Emoji = crate::Emoji {
     glyph: "🎵",
@@ -1342,7 +2011,855 @@ pub const MUSICAL_NOTES: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🎙\u{fe0f}"]
-pub const STUDIO_MICROPHONE : crate :: Emoji = crate :: Emoji { glyph : "🎙\u{fe0f}" , codepoint : "1F399 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "studio microphone" , group : "Objects" , subgroup : "music" , is_variant : false , variants : & [crate :: Emoji { glyph : "🎙" , codepoint : "1F399" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "studio microphone" , group : "Objects" , subgroup : "music" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("ateljeemikrofoon") , keywords : & ["ateljee" , "ateljeemikrofoon" , "mikrofoon" , "musiek"] , } , crate :: Annotation { lang : "am" , tts : Some ("የስቲዲዮ ማይክራፎን") , keywords : & ["ሙዚቃ" , "ማይክ" , "ማይክራፎን" , "ስቲዲዮ" , "የስቲዲዮ ማይክራፎን"] , } , crate :: Annotation { lang : "ar" , tts : Some ("ميكروفون استوديو") , keywords : & ["استوديو" , "مايك" , "موسيقى" , "ميكروفون"] , } , crate :: Annotation { lang : "as" , tts : Some ("ষ\u{9cd}ট\u{9c1}ডিঅ’ ম\u{9be}ইক\u{9cd}ৰ’ফোন") , keywords : & ["ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}ৰ’ফোন" , "ষ\u{9cd}ট\u{9c1}ডিঅ’"] , } , crate :: Annotation { lang : "az" , tts : Some ("studiya mikrafonu") , keywords : & ["mik" , "mikrofon" , "musiqi" , "studio" , "studiya mikrafonu"] , } , crate :: Annotation { lang : "be" , tts : Some ("студыйны мікрафон") , keywords : & ["музыка" , "музычная" , "мікрафон" , "студыйны мікрафон" , "студыя"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Студиен микрофон") , keywords : & ["Студиен микрофон" , "микрофон" , "музика" , "студио"] , } , crate :: Annotation { lang : "bn" , tts : Some ("স\u{9cd}ট\u{9c1}ডিও ম\u{9be}ইক\u{9cd}রোফোন") , keywords : & ["ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}রোফোন" , "সঙ\u{9cd}গীত" , "স\u{9cd}ট\u{9c1}ডিও"] , } , crate :: Annotation { lang : "br" , tts : Some ("mikrofon studio") , keywords : & ["mikro" , "mikrofon" , "sonerezh" , "studio"] , } , crate :: Annotation { lang : "bs" , tts : Some ("studijski mikrofon") , keywords : & ["mikrofon" , "pjevanje" , "studijski mikrofon" , "studio"] , } , crate :: Annotation { lang : "ca" , tts : Some ("micròfon d’estudi") , keywords : & ["estudi" , "micròfon" , "micròfon d’estudi" , "música"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ") , keywords : & ["ᎦᏂᏱᏍᎩ" , "ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ" , "ᏗᎧᏃᎩᏍᏗ" , "ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ" , "ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("studiový mikrofon") , keywords : & ["hudba" , "mikrofon" , "studio" , "studiový mikrofon"] , } , crate :: Annotation { lang : "cy" , tts : Some ("meicroffon stiwdio") , keywords : & ["cerddoriaeth" , "meic" , "meicroffon" , "stiwdio"] , } , crate :: Annotation { lang : "da" , tts : Some ("studiemikrofon") , keywords : & ["mikrofon" , "musik" , "studie" , "studiemikrofon"] , } , crate :: Annotation { lang : "de" , tts : Some ("Studiomikrofon") , keywords : & ["Mikrofon" , "Studiomikrofon"] , } , crate :: Annotation { lang : "el" , tts : Some ("μικρόφωνο στούντιο") , keywords : & ["μικρόφωνο" , "μουσική" , "στούντιο"] , } , crate :: Annotation { lang : "en" , tts : Some ("studio microphone") , keywords : & ["mic" , "microphone" , "music" , "studio"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("micrófono de estudio") , keywords : & ["estudio" , "micrófono" , "micrófono de estudio" , "música"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("micrófono de grabación") , keywords : & ["estudio" , "grabación" , "micrófono" , "micrófono de grabación" , "voz"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("stuudiomikrofon") , keywords : & ["mikrofon" , "muusika" , "stuudio" , "stuudiomikrofon"] , } , crate :: Annotation { lang : "eu" , tts : Some ("estudioko mikrofonoa") , keywords : & ["estudio" , "estudioko mikrofonoa" , "mikrofono" , "musika"] , } , crate :: Annotation { lang : "fa" , tts : Some ("میکروفون استودیویی") , keywords : & ["استودیو" , "موسیقی" , "میکروفون" , "میکروفون استودیویی"] , } , crate :: Annotation { lang : "fi" , tts : Some ("studiomikrofoni") , keywords : & ["levytys" , "mikrofoni" , "musiikki" , "studiomikrofoni" , "äänitys"] , } , crate :: Annotation { lang : "fil" , tts : Some ("mikroponong pang-studio") , keywords : & ["kanta" , "mikropono" , "mikroponong pang-studio" , "musika" , "studio"] , } , crate :: Annotation { lang : "fo" , tts : Some ("ljóðstovumikrofon") , keywords : & ["ljóðfatur" , "ljóðstovumikrofon" , "ljóðtak" , "mikrofon"] , } , crate :: Annotation { lang : "fr" , tts : Some ("micro de studio") , keywords : & ["micro" , "micro de studio"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("micreafón stiúideo") , keywords : & ["ceol" , "mic" , "micreafón" , "stiúideo"] , } , crate :: Annotation { lang : "gd" , tts : Some ("micreofon stiùideo") , keywords : & ["ceòl" , "mic" , "micreofon" , "stiùideo" , "stiùidio"] , } , crate :: Annotation { lang : "gl" , tts : Some ("micrófono de gravación") , keywords : & ["gravación" , "micrófono" , "micrófono de gravación" , "música" , "radio"] , } , crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}ટ\u{ac2}ડિયો માઇક\u{acd}રોફોન") , keywords : & ["માઇક" , "માઇક\u{acd}રોફોન" , "મ\u{acd}ય\u{ac1}ઝિક" , "સ\u{a82}ગીત" , "સ\u{acd}ટ\u{ac2}ડિયો"] , } , crate :: Annotation { lang : "ha" , tts : Some ("makurofon na sutudiyo") , keywords : & ["kiɗa" , "makurofon" , "makurofon na sutudiyo" , "sutudiyo"] , } , crate :: Annotation { lang : "he" , tts : Some ("מיקרופון אולפן") , keywords : & ["אולפן" , "הקלטה" , "מוזיקה" , "מיקרופון" , "שירה"] , } , crate :: Annotation { lang : "hi" , tts : Some ("स\u{94d}ट\u{942}डियो माइक\u{94d}रोफ\u{93c}ोन") , keywords : & ["माइक" , "माइक\u{94d}रोफ\u{93c}ोन" , "स\u{902}गीत" , "स\u{94d}ट\u{942}डियो"] , } , crate :: Annotation { lang : "hr" , tts : Some ("studijski mikrofon") , keywords : & ["glazba" , "mikrofon" , "studijski mikrofon" , "studio"] , } , crate :: Annotation { lang : "hu" , tts : Some ("stúdiómikrofon") , keywords : & ["mikrofon" , "stúdió" , "stúdiómikrofon" , "zene"] , } , crate :: Annotation { lang : "hy" , tts : Some ("ստուդիայի խոսափող") , keywords : & ["երաժշտություն" , "խոսափող" , "ստուդիա" , "ստուդիայի խոսափող"] , } , crate :: Annotation { lang : "id" , tts : Some ("mikrofon studio") , keywords : & ["mik" , "mikrofon" , "musik" , "studio"] , } , crate :: Annotation { lang : "ig" , tts : Some ("igweokwu nkwụrụonwe ụlọegwu") , keywords : & ["egwu" , "igweokwu" , "igweokwu nkwụrụonwe" , "igweokwu nkwụrụonwe ụlọegwu" , "ụlọegwu"] , } , crate :: Annotation { lang : "is" , tts : Some ("hljóðnemi í hljóðveri") , keywords : & ["hljóðnemi" , "hljóðnemi í hljóðveri" , "hljóðver" , "tónlist"] , } , crate :: Annotation { lang : "it" , tts : Some ("microfono radiofonico") , keywords : & ["microfoni" , "microfoni da studio" , "microfono" , "microfono da studio" , "microfono radiofonico"] , } , crate :: Annotation { lang : "ja" , tts : Some ("スタジオマイク") , keywords : & ["スタジオマイク" , "マイク" , "音楽"] , } , crate :: Annotation { lang : "jv" , tts : Some ("mikropon studio") , keywords : & ["mik" , "mikropon" , "musik" , "studio"] , } , crate :: Annotation { lang : "ka" , tts : Some ("სტუდიური მიკროფონი") , keywords : & ["მიკროფონი" , "მუსიკა" , "სტუდია" , "სტუდიური მიკროფონი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("студио микрофоны") , keywords : & ["мик" , "микрофон" , "музыка" , "студио" , "студио микрофоны"] , } , crate :: Annotation { lang : "kl" , tts : Some ("studiemikrofon") , keywords : & ["mikrofon" , "musik" , "studie" , "studiemikrofon"] , } , crate :: Annotation { lang : "km" , tts : Some ("ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}នស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}") , keywords : & ["តន\u{17d2}ត\u{17d2}រ\u{17b8}" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}នស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}" , "ម\u{17c9}ៃក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន" , "ស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យោ" , "ស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಸ\u{ccd}ಟುಡ\u{cbf}ಯೊ ಮೈಕ\u{ccd}ರೋಫೋನ\u{ccd}") , keywords : & ["ಮೈಕ\u{ccd}ರೋಫೋನ\u{ccd}" , "ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}" , "ಸಂಗೀತ" , "ಸ\u{ccd}ಟುಡ\u{cbf}ಯೊ ಮೈಕ\u{ccd}ರೋಫೋನ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("스튜디오 마이크") , keywords : & ["마이크" , "사회자 마이크" , "스튜디오 마이크"] , } , crate :: Annotation { lang : "kok" , tts : Some ("स\u{94d}ट\u{941}डियो मायक\u{94d}रोफोन") , keywords : & ["मायक" , "मायक\u{94d}रोफोन" , "स\u{902}गीत" , "स\u{94d}ट\u{941}डियो"] , } , crate :: Annotation { lang : "ky" , tts : Some ("студия микрофону") , keywords : & ["микрофон" , "музыка" , "студия" , "студия микрофону"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Studiosmikro") , keywords : & ["Mikro" , "Musek" , "Studio" , "Studiosmikro"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ໄມສະຕ\u{eb9}ດ\u{eb5}ໂອ") , keywords : & ["ສະຕ\u{eb9}ດ\u{eb5}ໂອ" , "ເພງ" , "ໄມສະຕ\u{eb9}ດ\u{eb5}ໂອ" , "ໄມໂຄຣໂຟນ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("studijos mikrofonas") , keywords : & ["mikrofonas" , "muzika" , "studija" , "studijos mikrofonas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("studijas mikrofons") , keywords : & ["mikrofons" , "studija" , "studijas mikrofons"] , } , crate :: Annotation { lang : "mi" , tts : Some ("hopuoro taiwhanga") , keywords : & ["hopuoro" , "puoro" , "taiwhanga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("студиски микрофон") , keywords : & ["микрофон" , "музика" , "студио" , "студиски микрофон"] , } , crate :: Annotation { lang : "ml" , tts : Some ("സ\u{d4d}റ\u{d4d}റ\u{d41}ഡിയോ മൈക\u{d4d}രോഫോൺ") , keywords : & ["മൈക\u{d4d}ക\u{d4d}" , "മൈക\u{d4d}രോഫോൺ" , "മ\u{d4d}യ\u{d42}സിക\u{d4d}ക\u{d4d}" , "സംഗീതം" , "സ\u{d4d}\u{200c}റ\u{d4d}റ\u{d41}ഡിയോ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("студийн микрофон") , keywords : & ["мик" , "микрофон" , "студи" , "студийн микрофон" , "хөгжим"] , } , crate :: Annotation { lang : "mr" , tts : Some ("स\u{94d}ट\u{941}डिओ मायक\u{94d}रोफोन") , keywords : & ["माइक" , "मायक\u{94d}रोफान" , "स\u{902}गीत" , "स\u{94d}ट\u{941}डिओ" , "स\u{94d}ट\u{941}डिओ मायक\u{94d}रोफोन"] , } , crate :: Annotation { lang : "ms" , tts : Some ("mikrofon studio") , keywords : & ["mikrofon" , "muzik" , "studio"] , } , crate :: Annotation { lang : "mt" , tts : Some ("mikrofonu tal-istudjo") , keywords : & ["mik" , "mikrofonu" , "mikrofonu tal-istudjo" , "mużika" , "studjo"] , } , crate :: Annotation { lang : "my" , tts : Some ("စတ\u{1030}ဒ\u{102e}ယ\u{102d}\u{102f} မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း") , keywords : & ["ဂ\u{102e}တ" , "စတ\u{1030}ဒ\u{102e}ယ\u{102d}\u{102f}" , "မ\u{102d}\u{102f}က\u{103a}" , "မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("studiomikrofon") , keywords : & ["mik" , "mikrofon" , "musikk" , "studio" , "studiomikrofon"] , } , crate :: Annotation { lang : "ne" , tts : Some ("स\u{94d}ट\u{941}डियोवाला माइक\u{94d}रोफोन") , keywords : & ["माइक\u{94d}रोफोन" , "स\u{902}गीत" , "स\u{94d}ट\u{941}डियो" , "स\u{94d}ट\u{941}डियोवाला माइक\u{94d}रोफोन"] , } , crate :: Annotation { lang : "nl" , tts : Some ("studiomicrofoon") , keywords : & ["microfoon" , "muziek" , "studio" , "studiomicrofoon"] , } , crate :: Annotation { lang : "nn" , tts : Some ("studiomikrofon") , keywords : & ["mik" , "mikrofon" , "musikk" , "studio" , "studiomikrofon"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଷ\u{b4d}ଟ\u{b41}ଡ\u{b3f}ଓ ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}\u{200c}") , keywords : & ["ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}\u{200c}" , "ମ\u{b3e}ଇକ\u{b4d}\u{200c}" , "ଷ\u{b4d}ଟ\u{b41}ଡ\u{b3f}ଓ" , "ସଙ\u{b4d}ଗୀତ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਸਟ\u{a42}ਡੀਓ ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a4b}ਨ") , keywords : & ["ਮਾਈਕ" , "ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a4b}ਨ" , "ਸਟ\u{a42}ਡੀਓ" , "ਸ\u{a70}ਗੀਤ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("سٹوڈیو مائیکروفون") , keywords : & ["سٹوڈیو" , "مائک" , "مائیکروفون" , "موسیقی"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Stúdió Maikrofon") , keywords : & ["Maik" , "Maikrofon" , "Miúzik" , "Stúdio" , "Stúdió Maikrofon"] , } , crate :: Annotation { lang : "pl" , tts : Some ("mikrofon studyjny") , keywords : & ["mikrofon" , "muzyka" , "nagrywać" , "studio" , "studyjny"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د سټوډیو مایکروفون") , keywords : & ["د سټوډیو مایکروفون" , "سټوډيو" , "مايک" , "مايکروفون" , "موسيقي"] , } , crate :: Annotation { lang : "pt" , tts : Some ("microfone de estúdio") , keywords : & ["estúdio" , "microfone" , "microfone de estúdio" , "música"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("microfone de estúdio") , keywords : & ["estúdio" , "microfone" , "microfone de estúdio" , "música"] , } , crate :: Annotation { lang : "qu" , tts : Some ("microfono estudiomanta") , keywords : & ["estudio" , "micro" , "microfono" , "microfono estudiomanta" , "takiy"] , } , crate :: Annotation { lang : "ro" , tts : Some ("microfon de studio") , keywords : & ["microfon" , "microfon de studio" , "muzică" , "studio"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-347") , keywords : & ["E10-347"] , } , crate :: Annotation { lang : "ru" , tts : Some ("студийный микрофон") , keywords : & ["вокал" , "звук" , "микрофон" , "музыка" , "пение" , "студийный микрофон"] , } , crate :: Annotation { lang : "rw" , tts : Some ("indangururamajwi ya sitidiyo") , keywords : & ["indangurura" , "indangururamajwi" , "indangururamajwi ya sitidiyo" , "sitidiyo" , "umuziki"] , } , crate :: Annotation { lang : "sd" , tts : Some ("اسٽوڊيو جو مائيڪروفون") , keywords : & ["اسٽوڊيو" , "اسٽوڊيو جو مائيڪروفون" , "مائيڪ" , "مائيڪروفون" , "موسيقي"] , } , crate :: Annotation { lang : "si" , tts : Some ("ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}ර මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය") , keywords : & ["ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}ර මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය" , "ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}රය" , "මය\u{dd2}ක\u{dca}" , "මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය" , "සංග\u{dd3}තය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("štúdiový mikrofón") , keywords : & ["hudba" , "mikrofón" , "štúdio" , "štúdiový mikrofón"] , } , crate :: Annotation { lang : "sl" , tts : Some ("studijski mikrofon") , keywords : & ["glasba" , "mikrofon" , "studijski mikrofon" , "studio"] , } , crate :: Annotation { lang : "so" , tts : Some ("mikirifoonka istuudyaha") , keywords : & ["istuudyow" , "mik" , "mikirifoon" , "mikirifoonka istuudyaha" , "muusik"] , } , crate :: Annotation { lang : "sq" , tts : Some ("mikrofon studioje") , keywords : & ["mikrofon" , "mikrofon studioje" , "muzikë" , "studio"] , } , crate :: Annotation { lang : "sr" , tts : Some ("студијски микрофон") , keywords : & ["микрофон" , "музика" , "студио" , "студијски микрофон"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["студијски микрофон"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("studijski mikrofon") , keywords : & ["mikrofon" , "muzika" , "studijski mikrofon" , "studio"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["studijski mikrofon"] , } , crate :: Annotation { lang : "sv" , tts : Some ("studiomikrofon") , keywords : & ["mikrofon" , "sjunga" , "studiomikrofon"] , } , crate :: Annotation { lang : "sw" , tts : Some ("maikrofoni ya studio") , keywords : & ["maikrofoni" , "maikrofoni ya studio" , "muziki" , "studio"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஸ\u{bcd}டூடியோ மைக\u{bcd}ரோஃபோன\u{bcd}") , keywords : & ["இசை" , "ப\u{bbe}ட\u{bcd}டு" , "மைக\u{bcd}" , "ஸ\u{bcd}டூடியோ மைக\u{bcd}ரோஃபோன\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}టూడ\u{c3f}య\u{c4b} మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}") , keywords : & ["మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}" , "సంగ\u{c40}తం" , "స\u{c4d}టూడ\u{c3f}య\u{c4b}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("микрофони студия") , keywords : & ["мик" , "микрофон" , "микрофони студия" , "мусиқӣ" , "студия"] , } , crate :: Annotation { lang : "th" , tts : Some ("ไมค\u{e4c}สต\u{e39}ด\u{e34}โอ") , keywords : & ["สต\u{e39}ด\u{e34}โอ" , "เพลง" , "ไมค\u{e4c}" , "ไมค\u{e4c}สต\u{e39}ด\u{e34}โอ" , "ไมโครโฟน"] , } , crate :: Annotation { lang : "tk" , tts : Some ("studiýa mikrofony") , keywords : & ["aýdym-saz" , "mik" , "mikrofon" , "studiýa" , "studiýa mikrofony"] , } , crate :: Annotation { lang : "to" , tts : Some ("maikalofone fakamafolalea") , keywords : & ["maikalofone fakamafolalea"] , } , crate :: Annotation { lang : "tr" , tts : Some ("stüdyo mikrofonu") , keywords : & ["mikrofon" , "müzik" , "stüdyo" , "stüdyo mikrofonu"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئىستۇدىيە مىكروفونى") , keywords : & ["ئىستۇدىيە" , "ئىستۇدىيە مىكروفونى" , "مىك" , "مىكروفون" , "مۇزىكا"] , } , crate :: Annotation { lang : "uk" , tts : Some ("студійний мікрофон") , keywords : & ["музичний" , "мікрофон" , "студійний мікрофон" , "студія"] , } , crate :: Annotation { lang : "ur" , tts : Some ("اسٹوڈیو مائیکروفون") , keywords : & ["اسٹوڈیو" , "مائیک" , "مائیکروفون" , "موسیقی"] , } , crate :: Annotation { lang : "uz" , tts : Some ("studiya mikrofoni") , keywords : & ["mikrofon" , "musiqa" , "studiya" , "studiya mikrofoni"] , } , crate :: Annotation { lang : "vi" , tts : Some ("micrô phòng thu âm") , keywords : & ["micrô" , "micrô phòng thu âm" , "nhạc" , "phòng thu"] , } , crate :: Annotation { lang : "wo" , tts : Some ("mikrofonu studio") , keywords : & ["mikro" , "mikrofon" , "mikrofonu studio" , "misik" , "studio"] , } , crate :: Annotation { lang : "xh" , tts : Some ("i-microphone yestudiyo") , keywords : & ["i-mic" , "i-microphone" , "i-microphone yestudiyo" , "istudiyo" , "umculo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("maikurofóònù sítúdíò") , keywords : & ["ilé-agódo" , "maikurofóònù" , "maikurofóònù sítúdíò" , "maikì" , "orin"] , } , crate :: Annotation { lang : "yue" , tts : Some ("錄音室咪高峰") , keywords : & ["咪" , "咪高峰" , "錄音室" , "錄音室咪高峰" , "音樂"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("录音室咪高峰") , keywords : & ["咪" , "咪高峰" , "录音室" , "录音室咪高峰" , "音乐"] , } , crate :: Annotation { lang : "zh" , tts : Some ("录音室麦克风") , keywords : & ["录音室" , "录音室麦克风" , "音乐" , "麦" , "麦克" , "麦克风"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("錄音室麥克風") , keywords : & ["錄音室麥克風" , "麥克風"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("錄音室咪高風") , keywords : & ["咪高風" , "錄音室咪高風"] , } , crate :: Annotation { lang : "zu" , tts : Some ("imakhrofoni yasestudiyo") , keywords : & ["imakhrofoni" , "imakhrofoni yasestudiyo" , "imayikhi" , "istudiyo" , "umculo"] , }] , } ;
+pub const STUDIO_MICROPHONE: crate::Emoji = crate::Emoji {
+    glyph: "🎙\u{fe0f}",
+    codepoint: "1F399 FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.7f32,
+    name: "studio microphone",
+    group: "Objects",
+    subgroup: "music",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🎙",
+        codepoint: "1F399",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "studio microphone",
+        group: "Objects",
+        subgroup: "music",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("ateljeemikrofoon"),
+            keywords: &["ateljee", "ateljeemikrofoon", "mikrofoon", "musiek"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የስቲዲዮ ማይክራፎን"),
+            keywords: &["ሙዚቃ", "ማይክ", "ማይክራፎን", "ስቲዲዮ", "የስቲዲዮ ማይክራፎን"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("ميكروفون استوديو"),
+            keywords: &["استوديو", "مايك", "موسيقى", "ميكروفون"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ষ\u{9cd}ট\u{9c1}ডিঅ’ ম\u{9be}ইক\u{9cd}ৰ’ফোন"),
+            keywords: &[
+                "ম\u{9be}ইক",
+                "ম\u{9be}ইক\u{9cd}ৰ’ফোন",
+                "ষ\u{9cd}ট\u{9c1}ডিঅ’",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("studiya mikrafonu"),
+            keywords: &["mik", "mikrofon", "musiqi", "studio", "studiya mikrafonu"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("студыйны мікрафон"),
+            keywords: &[
+                "музыка",
+                "музычная",
+                "мікрафон",
+                "студыйны мікрафон",
+                "студыя",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Студиен микрофон"),
+            keywords: &["Студиен микрофон", "микрофон", "музика", "студио"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("স\u{9cd}ট\u{9c1}ডিও ম\u{9be}ইক\u{9cd}রোফোন"),
+            keywords: &[
+                "ম\u{9be}ইক",
+                "ম\u{9be}ইক\u{9cd}রোফোন",
+                "সঙ\u{9cd}গীত",
+                "স\u{9cd}ট\u{9c1}ডিও",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("mikrofon studio"),
+            keywords: &["mikro", "mikrofon", "sonerezh", "studio"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("studijski mikrofon"),
+            keywords: &["mikrofon", "pjevanje", "studijski mikrofon", "studio"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("micròfon d’estudi"),
+            keywords: &["estudi", "micròfon", "micròfon d’estudi", "música"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ"),
+            keywords: &[
+                "ᎦᏂᏱᏍᎩ",
+                "ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ",
+                "ᏗᎧᏃᎩᏍᏗ",
+                "ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ",
+                "ᏧᏂᏃᎩᏍᏙᏗ ᎧᏅᏑᎸ ᏍᏓᏱ ᎦᏃᏴᎵᏍᏗᏍᎩ",
+            ],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("studiový mikrofon"),
+            keywords: &["hudba", "mikrofon", "studio", "studiový mikrofon"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("meicroffon stiwdio"),
+            keywords: &["cerddoriaeth", "meic", "meicroffon", "stiwdio"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("studiemikrofon"),
+            keywords: &["mikrofon", "musik", "studie", "studiemikrofon"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Studiomikrofon"),
+            keywords: &["Mikrofon", "Studiomikrofon"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("μικρόφωνο στούντιο"),
+            keywords: &["μικρόφωνο", "μουσική", "στούντιο"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("studio microphone"),
+            keywords: &["mic", "microphone", "music", "studio"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("micrófono de estudio"),
+            keywords: &["estudio", "micrófono", "micrófono de estudio", "música"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("micrófono de grabación"),
+            keywords: &[
+                "estudio",
+                "grabación",
+                "micrófono",
+                "micrófono de grabación",
+                "voz",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("stuudiomikrofon"),
+            keywords: &["mikrofon", "muusika", "stuudio", "stuudiomikrofon"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("estudioko mikrofonoa"),
+            keywords: &["estudio", "estudioko mikrofonoa", "mikrofono", "musika"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("میکروفون استودیویی"),
+            keywords: &["استودیو", "موسیقی", "میکروفون", "میکروفون استودیویی"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("studiomikrofoni"),
+            keywords: &[
+                "levytys",
+                "mikrofoni",
+                "musiikki",
+                "studiomikrofoni",
+                "äänitys",
+            ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("mikroponong pang-studio"),
+            keywords: &[
+                "kanta",
+                "mikropono",
+                "mikroponong pang-studio",
+                "musika",
+                "studio",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("ljóðstovumikrofon"),
+            keywords: &["ljóðfatur", "ljóðstovumikrofon", "ljóðtak", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("micro de studio"),
+            keywords: &["micro", "micro de studio"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("micreafón stiúideo"),
+            keywords: &["ceol", "mic", "micreafón", "stiúideo"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("micreofon stiùideo"),
+            keywords: &["ceòl", "mic", "micreofon", "stiùideo", "stiùidio"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("micrófono de gravación"),
+            keywords: &[
+                "gravación",
+                "micrófono",
+                "micrófono de gravación",
+                "música",
+                "radio",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સ\u{acd}ટ\u{ac2}ડિયો માઇક\u{acd}રોફોન"),
+            keywords: &[
+                "માઇક",
+                "માઇક\u{acd}રોફોન",
+                "મ\u{acd}ય\u{ac1}ઝિક",
+                "સ\u{a82}ગીત",
+                "સ\u{acd}ટ\u{ac2}ડિયો",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("makurofon na sutudiyo"),
+            keywords: &["kiɗa", "makurofon", "makurofon na sutudiyo", "sutudiyo"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("מיקרופון אולפן"),
+            keywords: &["אולפן", "הקלטה", "מוזיקה", "מיקרופון", "שירה"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("स\u{94d}ट\u{942}डियो माइक\u{94d}रोफ\u{93c}ोन"),
+            keywords: &[
+                "माइक",
+                "माइक\u{94d}रोफ\u{93c}ोन",
+                "स\u{902}गीत",
+                "स\u{94d}ट\u{942}डियो",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("studijski mikrofon"),
+            keywords: &["glazba", "mikrofon", "studijski mikrofon", "studio"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("stúdiómikrofon"),
+            keywords: &["mikrofon", "stúdió", "stúdiómikrofon", "zene"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("ստուդիայի խոսափող"),
+            keywords: &["երաժշտություն", "խոսափող", "ստուդիա", "ստուդիայի խոսափող"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("mikrofon studio"),
+            keywords: &["mik", "mikrofon", "musik", "studio"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("igweokwu nkwụrụonwe ụlọegwu"),
+            keywords: &[
+                "egwu",
+                "igweokwu",
+                "igweokwu nkwụrụonwe",
+                "igweokwu nkwụrụonwe ụlọegwu",
+                "ụlọegwu",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("hljóðnemi í hljóðveri"),
+            keywords: &["hljóðnemi", "hljóðnemi í hljóðveri", "hljóðver", "tónlist"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("microfono radiofonico"),
+            keywords: &[
+                "microfoni",
+                "microfoni da studio",
+                "microfono",
+                "microfono da studio",
+                "microfono radiofonico",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("スタジオマイク"),
+            keywords: &["スタジオマイク", "マイク", "音楽"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("mikropon studio"),
+            keywords: &["mik", "mikropon", "musik", "studio"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("სტუდიური მიკროფონი"),
+            keywords: &["მიკროფონი", "მუსიკა", "სტუდია", "სტუდიური მიკროფონი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("студио микрофоны"),
+            keywords: &["мик", "микрофон", "музыка", "студио", "студио микрофоны"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("studiemikrofon"),
+            keywords: &["mikrofon", "musik", "studie", "studiemikrofon"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some(
+                "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}នស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}",
+            ),
+            keywords: &[
+                "តន\u{17d2}ត\u{17d2}រ\u{17b8}",
+                "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន",
+                "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}នស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}",
+                "ម\u{17c9}ៃក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន",
+                "ស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យោ",
+                "ស\u{17d2}ទ\u{17bc}ឌ\u{17b8}យ\u{17c9}\u{17bc}",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಸ\u{ccd}ಟುಡ\u{cbf}ಯೊ ಮೈಕ\u{ccd}ರೋಫೋನ\u{ccd}"),
+            keywords: &[
+                "ಮೈಕ\u{ccd}ರೋಫೋನ\u{ccd}",
+                "ಮ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}ಕ\u{ccd}",
+                "ಸಂಗೀತ",
+                "ಸ\u{ccd}ಟುಡ\u{cbf}ಯೊ ಮೈಕ\u{ccd}ರೋಫೋನ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("스튜디오 마이크"),
+            keywords: &["마이크", "사회자 마이크", "스튜디오 마이크"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("स\u{94d}ट\u{941}डियो मायक\u{94d}रोफोन"),
+            keywords: &[
+                "मायक",
+                "मायक\u{94d}रोफोन",
+                "स\u{902}गीत",
+                "स\u{94d}ट\u{941}डियो",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("студия микрофону"),
+            keywords: &["микрофон", "музыка", "студия", "студия микрофону"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Studiosmikro"),
+            keywords: &["Mikro", "Musek", "Studio", "Studiosmikro"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ໄມສະຕ\u{eb9}ດ\u{eb5}ໂອ"),
+            keywords: &[
+                "ສະຕ\u{eb9}ດ\u{eb5}ໂອ",
+                "ເພງ",
+                "ໄມສະຕ\u{eb9}ດ\u{eb5}ໂອ",
+                "ໄມໂຄຣໂຟນ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("studijos mikrofonas"),
+            keywords: &["mikrofonas", "muzika", "studija", "studijos mikrofonas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("studijas mikrofons"),
+            keywords: &["mikrofons", "studija", "studijas mikrofons"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("hopuoro taiwhanga"),
+            keywords: &["hopuoro", "puoro", "taiwhanga"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("студиски микрофон"),
+            keywords: &["микрофон", "музика", "студио", "студиски микрофон"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("സ\u{d4d}റ\u{d4d}റ\u{d41}ഡിയോ മൈക\u{d4d}രോഫോൺ"),
+            keywords: &[
+                "മൈക\u{d4d}ക\u{d4d}",
+                "മൈക\u{d4d}രോഫോൺ",
+                "മ\u{d4d}യ\u{d42}സിക\u{d4d}ക\u{d4d}",
+                "സംഗീതം",
+                "സ\u{d4d}\u{200c}റ\u{d4d}റ\u{d41}ഡിയോ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("студийн микрофон"),
+            keywords: &["мик", "микрофон", "студи", "студийн микрофон", "хөгжим"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("स\u{94d}ट\u{941}डिओ मायक\u{94d}रोफोन"),
+            keywords: &[
+                "माइक",
+                "मायक\u{94d}रोफान",
+                "स\u{902}गीत",
+                "स\u{94d}ट\u{941}डिओ",
+                "स\u{94d}ट\u{941}डिओ मायक\u{94d}रोफोन",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("mikrofon studio"),
+            keywords: &["mikrofon", "muzik", "studio"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("mikrofonu tal-istudjo"),
+            keywords: &[
+                "mik",
+                "mikrofonu",
+                "mikrofonu tal-istudjo",
+                "mużika",
+                "studjo",
+            ],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "စတ\u{1030}ဒ\u{102e}ယ\u{102d}\u{102f} မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း",
+            ),
+            keywords: &[
+                "ဂ\u{102e}တ",
+                "စတ\u{1030}ဒ\u{102e}ယ\u{102d}\u{102f}",
+                "မ\u{102d}\u{102f}က\u{103a}",
+                "မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("studiomikrofon"),
+            keywords: &["mik", "mikrofon", "musikk", "studio", "studiomikrofon"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("स\u{94d}ट\u{941}डियोवाला माइक\u{94d}रोफोन"),
+            keywords: &[
+                "माइक\u{94d}रोफोन",
+                "स\u{902}गीत",
+                "स\u{94d}ट\u{941}डियो",
+                "स\u{94d}ट\u{941}डियोवाला माइक\u{94d}रोफोन",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("studiomicrofoon"),
+            keywords: &["microfoon", "muziek", "studio", "studiomicrofoon"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("studiomikrofon"),
+            keywords: &["mik", "mikrofon", "musikk", "studio", "studiomikrofon"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଷ\u{b4d}ଟ\u{b41}ଡ\u{b3f}ଓ ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}\u{200c}"),
+            keywords: &[
+                "ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}\u{200c}",
+                "ମ\u{b3e}ଇକ\u{b4d}\u{200c}",
+                "ଷ\u{b4d}ଟ\u{b41}ଡ\u{b3f}ଓ",
+                "ସଙ\u{b4d}ଗୀତ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਸਟ\u{a42}ਡੀਓ ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a4b}ਨ"),
+            keywords: &[
+                "ਮਾਈਕ",
+                "ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a4b}ਨ",
+                "ਸਟ\u{a42}ਡੀਓ",
+                "ਸ\u{a70}ਗੀਤ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("سٹوڈیو مائیکروفون"),
+            keywords: &["سٹوڈیو", "مائک", "مائیکروفون", "موسیقی"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Stúdió Maikrofon"),
+            keywords: &["Maik", "Maikrofon", "Miúzik", "Stúdio", "Stúdió Maikrofon"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("mikrofon studyjny"),
+            keywords: &["mikrofon", "muzyka", "nagrywać", "studio", "studyjny"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د سټوډیو مایکروفون"),
+            keywords: &[
+                "د سټوډیو مایکروفون",
+                "سټوډيو",
+                "مايک",
+                "مايکروفون",
+                "موسيقي",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("microfone de estúdio"),
+            keywords: &["estúdio", "microfone", "microfone de estúdio", "música"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("microfone de estúdio"),
+            keywords: &["estúdio", "microfone", "microfone de estúdio", "música"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("microfono estudiomanta"),
+            keywords: &[
+                "estudio",
+                "micro",
+                "microfono",
+                "microfono estudiomanta",
+                "takiy",
+            ],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("microfon de studio"),
+            keywords: &["microfon", "microfon de studio", "muzică", "studio"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-347"),
+            keywords: &["E10-347"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("студийный микрофон"),
+            keywords: &[
+                "вокал",
+                "звук",
+                "микрофон",
+                "музыка",
+                "пение",
+                "студийный микрофон",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("indangururamajwi ya sitidiyo"),
+            keywords: &[
+                "indangurura",
+                "indangururamajwi",
+                "indangururamajwi ya sitidiyo",
+                "sitidiyo",
+                "umuziki",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("اسٽوڊيو جو مائيڪروفون"),
+            keywords: &[
+                "اسٽوڊيو",
+                "اسٽوڊيو جو مائيڪروفون",
+                "مائيڪ",
+                "مائيڪروفون",
+                "موسيقي",
+            ],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}ර මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය"),
+            keywords: &[
+                "ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}ර මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය",
+                "ච\u{dd2}ත\u{dca}\u{200d}ර\u{dcf}ග\u{dcf}රය",
+                "මය\u{dd2}ක\u{dca}",
+                "මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය",
+                "සංග\u{dd3}තය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("štúdiový mikrofón"),
+            keywords: &["hudba", "mikrofón", "štúdio", "štúdiový mikrofón"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("studijski mikrofon"),
+            keywords: &["glasba", "mikrofon", "studijski mikrofon", "studio"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("mikirifoonka istuudyaha"),
+            keywords: &[
+                "istuudyow",
+                "mik",
+                "mikirifoon",
+                "mikirifoonka istuudyaha",
+                "muusik",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("mikrofon studioje"),
+            keywords: &["mikrofon", "mikrofon studioje", "muzikë", "studio"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("студијски микрофон"),
+            keywords: &["микрофон", "музика", "студио", "студијски микрофон"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["студијски микрофон"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("studijski mikrofon"),
+            keywords: &["mikrofon", "muzika", "studijski mikrofon", "studio"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["studijski mikrofon"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("studiomikrofon"),
+            keywords: &["mikrofon", "sjunga", "studiomikrofon"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("maikrofoni ya studio"),
+            keywords: &["maikrofoni", "maikrofoni ya studio", "muziki", "studio"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஸ\u{bcd}டூடியோ மைக\u{bcd}ரோஃபோன\u{bcd}"),
+            keywords: &[
+                "இசை",
+                "ப\u{bbe}ட\u{bcd}டு",
+                "மைக\u{bcd}",
+                "ஸ\u{bcd}டூடியோ மைக\u{bcd}ரோஃபோன\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("స\u{c4d}టూడ\u{c3f}య\u{c4b} మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}"),
+            keywords: &[
+                "మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}",
+                "సంగ\u{c40}తం",
+                "స\u{c4d}టూడ\u{c3f}య\u{c4b}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("микрофони студия"),
+            keywords: &["мик", "микрофон", "микрофони студия", "мусиқӣ", "студия"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ไมค\u{e4c}สต\u{e39}ด\u{e34}โอ"),
+            keywords: &[
+                "สต\u{e39}ด\u{e34}โอ",
+                "เพลง",
+                "ไมค\u{e4c}",
+                "ไมค\u{e4c}สต\u{e39}ด\u{e34}โอ",
+                "ไมโครโฟน",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("studiýa mikrofony"),
+            keywords: &[
+                "aýdym-saz",
+                "mik",
+                "mikrofon",
+                "studiýa",
+                "studiýa mikrofony",
+            ],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("maikalofone fakamafolalea"),
+            keywords: &["maikalofone fakamafolalea"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("stüdyo mikrofonu"),
+            keywords: &["mikrofon", "müzik", "stüdyo", "stüdyo mikrofonu"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئىستۇدىيە مىكروفونى"),
+            keywords: &[
+                "ئىستۇدىيە",
+                "ئىستۇدىيە مىكروفونى",
+                "مىك",
+                "مىكروفون",
+                "مۇزىكا",
+            ],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("студійний мікрофон"),
+            keywords: &["музичний", "мікрофон", "студійний мікрофон", "студія"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("اسٹوڈیو مائیکروفون"),
+            keywords: &["اسٹوڈیو", "مائیک", "مائیکروفون", "موسیقی"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("studiya mikrofoni"),
+            keywords: &["mikrofon", "musiqa", "studiya", "studiya mikrofoni"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("micrô phòng thu âm"),
+            keywords: &["micrô", "micrô phòng thu âm", "nhạc", "phòng thu"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("mikrofonu studio"),
+            keywords: &["mikro", "mikrofon", "mikrofonu studio", "misik", "studio"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("i-microphone yestudiyo"),
+            keywords: &[
+                "i-mic",
+                "i-microphone",
+                "i-microphone yestudiyo",
+                "istudiyo",
+                "umculo",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("maikurofóònù sítúdíò"),
+            keywords: &[
+                "ilé-agódo",
+                "maikurofóònù",
+                "maikurofóònù sítúdíò",
+                "maikì",
+                "orin",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("錄音室咪高峰"),
+            keywords: &["咪", "咪高峰", "錄音室", "錄音室咪高峰", "音樂"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("录音室咪高峰"),
+            keywords: &["咪", "咪高峰", "录音室", "录音室咪高峰", "音乐"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("录音室麦克风"),
+            keywords: &["录音室", "录音室麦克风", "音乐", "麦", "麦克", "麦克风"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("錄音室麥克風"),
+            keywords: &["錄音室麥克風", "麥克風"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("錄音室咪高風"),
+            keywords: &["咪高風", "錄音室咪高風"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("imakhrofoni yasestudiyo"),
+            keywords: &[
+                "imakhrofoni",
+                "imakhrofoni yasestudiyo",
+                "imayikhi",
+                "istudiyo",
+                "umculo",
+            ],
+        },
+    ],
+};
 #[doc = "🎚\u{fe0f}"]
 pub const LEVEL_SLIDER: crate::Emoji = crate::Emoji {
     glyph: "🎚\u{fe0f}",
@@ -2919,7 +4436,680 @@ pub const CONTROL_KNOBS: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🎤"]
-pub const MICROPHONE : crate :: Emoji = crate :: Emoji { glyph : "🎤" , codepoint : "1F3A4" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "microphone" , group : "Objects" , subgroup : "music" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("mikrofoon") , keywords : & ["karaoke" , "mikrofoon" , "musiek"] , } , crate :: Annotation { lang : "am" , tts : Some ("ማይክራፎን") , keywords : & ["ማይክ" , "ማይክራፎን" , "ካሮኬ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("ميكروفون") , keywords : & ["كاراوكي" , "مايك" , "ميكروفون"] , } , crate :: Annotation { lang : "as" , tts : Some ("ম\u{9be}ইক\u{9cd}ৰ’ফোন") , keywords : & ["ক\u{9be}ৰ\u{9be}ওকি" , "ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}ৰ’ফোন"] , } , crate :: Annotation { lang : "az" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon"] , } , crate :: Annotation { lang : "be" , tts : Some ("мікрафон") , keywords : & ["караоке" , "музыка" , "мікрафон"] , } , crate :: Annotation { lang : "bg" , tts : Some ("микрофон") , keywords : & ["караоке" , "микрофон"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ম\u{9be}ইক\u{9cd}রোফোন") , keywords : & ["ক\u{9be}র\u{9be}ওকে" , "ম\u{9be}ইক" , "ম\u{9be}ইক\u{9cd}রোফোন"] , } , crate :: Annotation { lang : "br" , tts : Some ("mikrofon") , keywords : & ["mikro" , "mikrofon" , "sonerezh"] , } , crate :: Annotation { lang : "bs" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "pjevanje"] , } , crate :: Annotation { lang : "ca" , tts : Some ("micròfon") , keywords : & ["karaoke" , "micròfon"] , } , crate :: Annotation { lang : "ccp" , tts : Some ("𑄟\u{1112d}𑄇\u{11133}𑄢\u{1112e}𑄜\u{1112e}𑄚\u{11134}") , keywords : & ["𑄟\u{1112d}𑄇\u{11133}𑄢\u{1112e}𑄜\u{1112e}𑄚\u{11134}"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᏫᎦᏬᏂᏍᏙᏗ") , keywords : & ["ᎦᏂᏱᏍᎩ" , "ᏓᏂᏃᎩᏍᎬ" , "ᏫᎦᏬᏂᏍᏙᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , crate :: Annotation { lang : "cy" , tts : Some ("meicroffon") , keywords : & ["caraoce" , "meic" , "meicroffon"] , } , crate :: Annotation { lang : "da" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "sang" , "synge"] , } , crate :: Annotation { lang : "de" , tts : Some ("Mikrofon") , keywords : & ["Karaoke" , "Mikrofon" , "Singen" , "Unterhaltung"] , } , crate :: Annotation { lang : "el" , tts : Some ("μικρόφωνο") , keywords : & ["καραόκε" , "μικρόφωνο"] , } , crate :: Annotation { lang : "en" , tts : Some ("microphone") , keywords : & ["karaoke" , "mic" , "microphone"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("micrófono") , keywords : & ["entretenimiento" , "karaoke" , "micro" , "micrófono"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["entretenimiento" , "karaoke" , "micrófono" , "música"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , crate :: Annotation { lang : "eu" , tts : Some ("mikrofonoa") , keywords : & ["karaoke" , "mikrofono" , "mikrofonoa"] , } , crate :: Annotation { lang : "fa" , tts : Some ("میکروفون") , keywords : & ["میکروفون" , "کارائوکه"] , } , crate :: Annotation { lang : "fi" , tts : Some ("mikrofoni") , keywords : & ["karaoke" , "mikki" , "mikrofoni"] , } , crate :: Annotation { lang : "fil" , tts : Some ("mikropono") , keywords : & ["karaoke" , "mik" , "mikropono"] , } , crate :: Annotation { lang : "fo" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "ljóðfatur" , "ljóðtak" , "mikrofon"] , } , crate :: Annotation { lang : "fr" , tts : Some ("micro") , keywords : & ["karaoke" , "micro"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("micreafón") , keywords : & ["karoke" , "micreafón" , "siamsaíocht"] , } , crate :: Annotation { lang : "gd" , tts : Some ("micreofon") , keywords : & ["karaoke" , "mic" , "micreofon"] , } , crate :: Annotation { lang : "gl" , tts : Some ("micrófono") , keywords : & ["karaoke" , "micrófono"] , } , crate :: Annotation { lang : "gu" , tts : Some ("માઇક\u{acd}રોફોન") , keywords : & ["કારાઓક" , "મનોર\u{a82}જન" , "માઇક" , "માઇક\u{acd}રોફોન"] , } , crate :: Annotation { lang : "ha" , tts : Some ("makurofon") , keywords : & ["karaoke" , "makurofon"] , } , crate :: Annotation { lang : "he" , tts : Some ("מיקרופון") , keywords : & ["הקלטה" , "מוזיקה" , "מיקרופון" , "קריוקי" , "שירה"] , } , crate :: Annotation { lang : "hi" , tts : Some ("माइक\u{94d}रोफ\u{93c}ोन") , keywords : & ["क\u{948}रिओकी" , "माइक" , "माइक\u{94d}रोफ\u{93c}ोन"] , } , crate :: Annotation { lang : "hr" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , crate :: Annotation { lang : "hu" , tts : Some ("mikrofon") , keywords : & ["hangjegyek" , "karaoke" , "mikrofon" , "zene"] , } , crate :: Annotation { lang : "hy" , tts : Some ("խոսափող") , keywords : & ["խոսափող" , "կարաոկե"] , } , crate :: Annotation { lang : "id" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon"] , } , crate :: Annotation { lang : "ig" , tts : Some ("igweokwu nkwụrụonwe") , keywords : & ["igweokwu" , "igweokwu nkwụrụonwe" , "karaoke"] , } , crate :: Annotation { lang : "is" , tts : Some ("hljóðnemi") , keywords : & ["hljóðnemi" , "karaoke" , "karókí" , "míkrófónn" , "skemmtun"] , } , crate :: Annotation { lang : "it" , tts : Some ("microfono") , keywords : & ["Karaoke" , "microfono"] , } , crate :: Annotation { lang : "ja" , tts : Some ("マイク") , keywords : & ["カラオケ" , "マイク" , "歌" , "音楽"] , } , crate :: Annotation { lang : "jv" , tts : Some ("mikropon") , keywords : & ["karaoke" , "mik" , "mikropon"] , } , crate :: Annotation { lang : "ka" , tts : Some ("მიკროფონი") , keywords : & ["კარაოკე" , "მიკროფონი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("микрофон") , keywords : & ["караоке" , "мик" , "микрофон"] , } , crate :: Annotation { lang : "kl" , tts : Some ("mikrofon") , keywords : & ["mikrofon" , "sang" , "synge"] , } , crate :: Annotation { lang : "km" , tts : Some ("ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}ន\u{17b7}ងណោតភ\u{17d2}លេងប\u{17b8}") , keywords : & ["ណោតភ\u{17d2}លេង" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}" , "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}ន\u{17b7}ងណោតភ\u{17d2}លេងប\u{17b8}" , "ម\u{17c9}ៃក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಮೈಕ\u{ccd}ರೋಫೋನ\u{ccd}") , keywords : & ["ಕರೋಕ\u{cc6}" , "ಮನರಂಜನ\u{cc6}" , "ಮೈಕ\u{ccd}ರೋಫೋನ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("마이크") , keywords : & ["가라오케" , "노래방" , "마이크" , "행사"] , } , crate :: Annotation { lang : "kok" , tts : Some ("मायक\u{94d}रोफोन") , keywords : & ["काराओक\u{947}" , "मायक" , "मायक\u{94d}रोफोन"] , } , crate :: Annotation { lang : "ky" , tts : Some ("микрофон") , keywords : & ["караоке" , "микрофон"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Mikro") , keywords : & ["Karaoke" , "Mikro"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ໄມ") , keywords : & ["ໄມ" , "ໄມໂຄຣໂຟນ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("mikrofonas") , keywords : & ["karaokė" , "mikrofonas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("mikrofons") , keywords : & ["karaoke" , "mikrofons"] , } , crate :: Annotation { lang : "mi" , tts : Some ("hopuoro") , keywords : & ["hopuoro" , "karaoke"] , } , crate :: Annotation { lang : "mk" , tts : Some ("микрофон") , keywords : & ["микрофон" , "музика"] , } , crate :: Annotation { lang : "ml" , tts : Some ("മൈക\u{d4d}രോഫോൺ") , keywords : & ["കരോക\u{d4d}കെ" , "പ\u{d3e}ട\u{d4d}ട\u{d4d}" , "മൈക\u{d4d}രോഫോൺ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("микрофон") , keywords : & ["караоке" , "микрофон"] , } , crate :: Annotation { lang : "mr" , tts : Some ("मायक\u{94d}रोफोन") , keywords : & ["कराओक\u{947}" , "माइक" , "मायक\u{94d}रोफोन"] , } , crate :: Annotation { lang : "ms" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mike" , "mikrofon"] , } , crate :: Annotation { lang : "mt" , tts : Some ("mikrofonu") , keywords : & ["karaoke" , "mik" , "mikrofonu"] , } , crate :: Annotation { lang : "my" , tts : Some ("မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း") , keywords : & ["ကာရာအ\u{102d}\u{102f}ကေ" , "မ\u{102d}\u{102f}က\u{103a}" , "မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon" , "musikk" , "underholdning"] , } , crate :: Annotation { lang : "ne" , tts : Some ("माइक\u{94d}रोफोन") , keywords : & ["कारावोक\u{947}" , "माइक" , "माइक\u{94d}रोफोन"] , } , crate :: Annotation { lang : "nl" , tts : Some ("microfoon") , keywords : & ["karaoke" , "microfoon"] , } , crate :: Annotation { lang : "nn" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon" , "musikk" , "underhaldning"] , } , crate :: Annotation { lang : "or" , tts : Some ("ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}") , keywords : & ["କ\u{b3e}ର\u{b3e}ଓକ\u{b4d}\u{200c}" , "ମନୋରଞ\u{b4d}ଜନ" , "ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}" , "ମ\u{b3e}ଇକ\u{b4d}\u{200c}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a3c}\u{a4b}ਨ") , keywords : & ["ਕਾਰਾਓਕ\u{a47}" , "ਮਨ\u{a4b}ਰ\u{a70}ਜਨ" , "ਮਾਈਕ" , "ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a3c}\u{a4b}ਨ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("مائیکروفون") , keywords : & ["مائک" , "مائیکروفون" , "کیراوکی"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Maikrofon") , keywords : & ["Kariókẹ" , "Maik" , "Maikrofon"] , } , crate :: Annotation { lang : "pl" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "muzyka"] , } , crate :: Annotation { lang : "ps" , tts : Some ("میکروفون") , keywords : & ["مايک" , "مايکروفون" , "میکروفون" , "کاروک"] , } , crate :: Annotation { lang : "pt" , tts : Some ("microfone") , keywords : & ["entretenimento" , "karaokê" , "mic" , "microfone"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("microfone") , keywords : & ["karaoke" , "microfone"] , } , crate :: Annotation { lang : "qu" , tts : Some ("micrófono") , keywords : & ["micrófono"] , } , crate :: Annotation { lang : "ro" , tts : Some ("microfon") , keywords : & ["karaoke" , "microfon" , "muzică"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-356") , keywords : & ["E10-356"] , } , crate :: Annotation { lang : "ru" , tts : Some ("микрофон") , keywords : & ["звук" , "караоке" , "микрофон" , "пение"] , } , crate :: Annotation { lang : "rw" , tts : Some ("mikoro") , keywords : & ["indangururamajwi" , "karawoke" , "mikoro"] , } , crate :: Annotation { lang : "sd" , tts : Some ("مائيڪروفون") , keywords : & ["مائيڪ" , "مائيڪروفون" , "ڪرائوڪي"] , } , crate :: Annotation { lang : "si" , tts : Some ("මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය") , keywords : & ["කැරොකේ" , "මය\u{dd2}ක\u{dca}" , "මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("mikrofón") , keywords : & ["karaoke" , "mikrofón"] , } , crate :: Annotation { lang : "sl" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , crate :: Annotation { lang : "so" , tts : Some ("mikirifon") , keywords : & ["karooke" , "mik" , "mikirifon" , "mikirifoon"] , } , crate :: Annotation { lang : "sq" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , crate :: Annotation { lang : "sr" , tts : Some ("микрофон") , keywords : & ["кaрaoкe" , "микрoфoн" , "микрофон"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , crate :: Annotation { lang : "sv" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon" , "sjunga"] , } , crate :: Annotation { lang : "sw" , tts : Some ("maikrofoni") , keywords : & ["karaoke" , "maikrofoni"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("மைக\u{bcd}ரோஃபோன\u{bcd}") , keywords : & ["கரோக\u{bcd}கி" , "ப\u{bbe}ட\u{bcd}டு" , "பேச\u{bcd}சு" , "மைக\u{bcd}" , "மைக\u{bcd}ரோஃபோன\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}") , keywords : & ["క\u{c3e}ర\u{c4b}క\u{c47}" , "ప\u{c4d}రసంగం" , "మ\u{c48}క\u{c4d}" , "మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}" , "వ\u{c3f}న\u{c4b}దం" , "సంగ\u{c40}తం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("микрофон") , keywords : & ["караоке" , "мик" , "микрофон"] , } , crate :: Annotation { lang : "th" , tts : Some ("ไมโครโฟน") , keywords : & ["คาราโอเกะ" , "สต\u{e39}ด\u{e34}โอ" , "เพลง" , "ไมค\u{e4c}" , "ไมโครโฟน"] , } , crate :: Annotation { lang : "tk" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mik" , "mikrofon"] , } , crate :: Annotation { lang : "to" , tts : Some ("maikalofone") , keywords : & ["maikalofone"] , } , crate :: Annotation { lang : "tr" , tts : Some ("mikrofon") , keywords : & ["Karaoke" , "eğlence" , "mikrofon"] , } , crate :: Annotation { lang : "ug" , tts : Some ("مىكروفون") , keywords : & ["كارائوكى" , "مىكروفون"] , } , crate :: Annotation { lang : "uk" , tts : Some ("мікрофон") , keywords : & ["караоке" , "мікрофон"] , } , crate :: Annotation { lang : "ur" , tts : Some ("مائیکروفون") , keywords : & ["مائیک" , "مائیکروفون" , "موسیقی"] , } , crate :: Annotation { lang : "uz" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikrofon"] , } , crate :: Annotation { lang : "vi" , tts : Some ("micrô") , keywords : & ["karaoke" , "micrô"] , } , crate :: Annotation { lang : "wo" , tts : Some ("mikrofon") , keywords : & ["karaoke" , "mikro" , "mikrofon"] , } , crate :: Annotation { lang : "xh" , tts : Some ("imayikhrofowuni") , keywords : & ["i-karaoke" , "i-mic" , "imayikhrofowuni"] , } , crate :: Annotation { lang : "yo" , tts : Some ("ẹ\u{300}rọ gbohùngbohùn kékeré") , keywords : & ["maikurofóònù" , "ẹ\u{300}rọ gbohùngbohùn kékeré"] , } , crate :: Annotation { lang : "yue" , tts : Some ("咪") , keywords : & ["卡拉 OK" , "咪"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("咪") , keywords : & ["卡拉 OK" , "咪"] , } , crate :: Annotation { lang : "zh" , tts : Some ("麦克风") , keywords : & ["卡拉OK" , "唱K" , "唱歌" , "麦" , "麦克" , "麦克风"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("麥克風") , keywords : & ["k歌" , "卡拉OK" , "唱歌" , "麥克風"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("咪高風") , keywords : & ["卡拉OK" , "咪高風" , "唱歌" , "歌"] , } , crate :: Annotation { lang : "zu" , tts : Some ("imakhrofoni") , keywords : & ["ikhariyokhi" , "imakhrofoni" , "imayikhi"] , }] , } ;
+pub const MICROPHONE: crate::Emoji = crate::Emoji {
+    glyph: "🎤",
+    codepoint: "1F3A4",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "microphone",
+    group: "Objects",
+    subgroup: "music",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("mikrofoon"),
+            keywords: &["karaoke", "mikrofoon", "musiek"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ማይክራፎን"),
+            keywords: &["ማይክ", "ማይክራፎን", "ካሮኬ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("ميكروفون"),
+            keywords: &["كاراوكي", "مايك", "ميكروفون"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ম\u{9be}ইক\u{9cd}ৰ’ফোন"),
+            keywords: &[
+                "ক\u{9be}ৰ\u{9be}ওকি",
+                "ম\u{9be}ইক",
+                "ম\u{9be}ইক\u{9cd}ৰ’ফোন",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mik", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("мікрафон"),
+            keywords: &["караоке", "музыка", "мікрафон"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("микрофон"),
+            keywords: &["караоке", "микрофон"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ম\u{9be}ইক\u{9cd}রোফোন"),
+            keywords: &[
+                "ক\u{9be}র\u{9be}ওকে",
+                "ম\u{9be}ইক",
+                "ম\u{9be}ইক\u{9cd}রোফোন",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("mikrofon"),
+            keywords: &["mikro", "mikrofon", "sonerezh"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikrofon", "pjevanje"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("micròfon"),
+            keywords: &["karaoke", "micròfon"],
+        },
+        crate::Annotation {
+            lang: "ccp",
+            tts: Some("𑄟\u{1112d}𑄇\u{11133}𑄢\u{1112e}𑄜\u{1112e}𑄚\u{11134}"),
+            keywords: &["𑄟\u{1112d}𑄇\u{11133}𑄢\u{1112e}𑄜\u{1112e}𑄚\u{11134}"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏫᎦᏬᏂᏍᏙᏗ"),
+            keywords: &["ᎦᏂᏱᏍᎩ", "ᏓᏂᏃᎩᏍᎬ", "ᏫᎦᏬᏂᏍᏙᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("meicroffon"),
+            keywords: &["caraoce", "meic", "meicroffon"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikrofon", "sang", "synge"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Mikrofon"),
+            keywords: &["Karaoke", "Mikrofon", "Singen", "Unterhaltung"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("μικρόφωνο"),
+            keywords: &["καραόκε", "μικρόφωνο"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("microphone"),
+            keywords: &["karaoke", "mic", "microphone"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("micrófono"),
+            keywords: &["entretenimiento", "karaoke", "micro", "micrófono"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["entretenimiento", "karaoke", "micrófono", "música"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("mikrofonoa"),
+            keywords: &["karaoke", "mikrofono", "mikrofonoa"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("میکروفون"),
+            keywords: &["میکروفون", "کارائوکه"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("mikrofoni"),
+            keywords: &["karaoke", "mikki", "mikrofoni"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("mikropono"),
+            keywords: &["karaoke", "mik", "mikropono"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "ljóðfatur", "ljóðtak", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("micro"),
+            keywords: &["karaoke", "micro"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("micreafón"),
+            keywords: &["karoke", "micreafón", "siamsaíocht"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("micreofon"),
+            keywords: &["karaoke", "mic", "micreofon"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("micrófono"),
+            keywords: &["karaoke", "micrófono"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("માઇક\u{acd}રોફોન"),
+            keywords: &["કારાઓક", "મનોર\u{a82}જન", "માઇક", "માઇક\u{acd}રોફોન"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("makurofon"),
+            keywords: &["karaoke", "makurofon"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("מיקרופון"),
+            keywords: &["הקלטה", "מוזיקה", "מיקרופון", "קריוקי", "שירה"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("माइक\u{94d}रोफ\u{93c}ोन"),
+            keywords: &["क\u{948}रिओकी", "माइक", "माइक\u{94d}रोफ\u{93c}ोन"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("mikrofon"),
+            keywords: &["hangjegyek", "karaoke", "mikrofon", "zene"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("խոսափող"),
+            keywords: &["խոսափող", "կարաոկե"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mik", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("igweokwu nkwụrụonwe"),
+            keywords: &["igweokwu", "igweokwu nkwụrụonwe", "karaoke"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("hljóðnemi"),
+            keywords: &["hljóðnemi", "karaoke", "karókí", "míkrófónn", "skemmtun"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("microfono"),
+            keywords: &["Karaoke", "microfono"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("マイク"),
+            keywords: &["カラオケ", "マイク", "歌", "音楽"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("mikropon"),
+            keywords: &["karaoke", "mik", "mikropon"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("მიკროფონი"),
+            keywords: &["კარაოკე", "მიკროფონი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("микрофон"),
+            keywords: &["караоке", "мик", "микрофон"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("mikrofon"),
+            keywords: &["mikrofon", "sang", "synge"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some(
+                "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}ន\u{17b7}ងណោតភ\u{17d2}លេងប\u{17b8}",
+            ),
+            keywords: &[
+                "ណោតភ\u{17d2}លេង",
+                "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}",
+                "ម\u{17b8}ក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន\u{200b}ន\u{17b7}ងណោតភ\u{17d2}លេងប\u{17b8}",
+                "ម\u{17c9}ៃក\u{17d2}រ\u{17bc}ហ\u{17d2}វ\u{17bc}ន",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಮೈಕ\u{ccd}ರೋಫೋನ\u{ccd}"),
+            keywords: &["ಕರೋಕ\u{cc6}", "ಮನರಂಜನ\u{cc6}", "ಮೈಕ\u{ccd}ರೋಫೋನ\u{ccd}"],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("마이크"),
+            keywords: &["가라오케", "노래방", "마이크", "행사"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("मायक\u{94d}रोफोन"),
+            keywords: &["काराओक\u{947}", "मायक", "मायक\u{94d}रोफोन"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("микрофон"),
+            keywords: &["караоке", "микрофон"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Mikro"),
+            keywords: &["Karaoke", "Mikro"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ໄມ"),
+            keywords: &["ໄມ", "ໄມໂຄຣໂຟນ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("mikrofonas"),
+            keywords: &["karaokė", "mikrofonas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("mikrofons"),
+            keywords: &["karaoke", "mikrofons"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("hopuoro"),
+            keywords: &["hopuoro", "karaoke"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("микрофон"),
+            keywords: &["микрофон", "музика"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("മൈക\u{d4d}രോഫോൺ"),
+            keywords: &[
+                "കരോക\u{d4d}കെ",
+                "പ\u{d3e}ട\u{d4d}ട\u{d4d}",
+                "മൈക\u{d4d}രോഫോൺ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("микрофон"),
+            keywords: &["караоке", "микрофон"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("मायक\u{94d}रोफोन"),
+            keywords: &["कराओक\u{947}", "माइक", "मायक\u{94d}रोफोन"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mike", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("mikrofonu"),
+            keywords: &["karaoke", "mik", "mikrofonu"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း"),
+            keywords: &[
+                "ကာရာအ\u{102d}\u{102f}ကေ",
+                "မ\u{102d}\u{102f}က\u{103a}",
+                "မ\u{102d}\u{102f}က\u{103a}ကရ\u{102d}\u{102f}ဖ\u{102f}န\u{103a}း",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mik", "mikrofon", "musikk", "underholdning"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("माइक\u{94d}रोफोन"),
+            keywords: &["कारावोक\u{947}", "माइक", "माइक\u{94d}रोफोन"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("microfoon"),
+            keywords: &["karaoke", "microfoon"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mik", "mikrofon", "musikk", "underhaldning"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}"),
+            keywords: &[
+                "କ\u{b3e}ର\u{b3e}ଓକ\u{b4d}\u{200c}",
+                "ମନୋରଞ\u{b4d}ଜନ",
+                "ମ\u{b3e}ଇକ\u{b4d}ରୋଫୋନ\u{b4d}",
+                "ମ\u{b3e}ଇକ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a3c}\u{a4b}ਨ"),
+            keywords: &[
+                "ਕਾਰਾਓਕ\u{a47}",
+                "ਮਨ\u{a4b}ਰ\u{a70}ਜਨ",
+                "ਮਾਈਕ",
+                "ਮਾਈਕ\u{a4d}ਰ\u{a4b}ਫ\u{a3c}\u{a4b}ਨ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("مائیکروفون"),
+            keywords: &["مائک", "مائیکروفون", "کیراوکی"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Maikrofon"),
+            keywords: &["Kariókẹ", "Maik", "Maikrofon"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikrofon", "muzyka"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("میکروفون"),
+            keywords: &["مايک", "مايکروفون", "میکروفون", "کاروک"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("microfone"),
+            keywords: &["entretenimento", "karaokê", "mic", "microfone"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("microfone"),
+            keywords: &["karaoke", "microfone"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("micrófono"),
+            keywords: &["micrófono"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("microfon"),
+            keywords: &["karaoke", "microfon", "muzică"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-356"),
+            keywords: &["E10-356"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("микрофон"),
+            keywords: &["звук", "караоке", "микрофон", "пение"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("mikoro"),
+            keywords: &["indangururamajwi", "karawoke", "mikoro"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("مائيڪروفون"),
+            keywords: &["مائيڪ", "مائيڪروفون", "ڪرائوڪي"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය"),
+            keywords: &[
+                "කැරොකේ",
+                "මය\u{dd2}ක\u{dca}",
+                "මය\u{dd2}ක\u{dca}\u{200d}රෆෝනය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("mikrofón"),
+            keywords: &["karaoke", "mikrofón"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("mikirifon"),
+            keywords: &["karooke", "mik", "mikirifon", "mikirifoon"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("микрофон"),
+            keywords: &["кaрaoкe", "микрoфoн", "микрофон"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikrofon", "sjunga"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("maikrofoni"),
+            keywords: &["karaoke", "maikrofoni"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("மைக\u{bcd}ரோஃபோன\u{bcd}"),
+            keywords: &[
+                "கரோக\u{bcd}கி",
+                "ப\u{bbe}ட\u{bcd}டு",
+                "பேச\u{bcd}சு",
+                "மைக\u{bcd}",
+                "மைக\u{bcd}ரோஃபோன\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}"),
+            keywords: &[
+                "క\u{c3e}ర\u{c4b}క\u{c47}",
+                "ప\u{c4d}రసంగం",
+                "మ\u{c48}క\u{c4d}",
+                "మ\u{c48}క\u{c4d}ర\u{c4b}ఫ\u{c4b}న\u{c4d}",
+                "వ\u{c3f}న\u{c4b}దం",
+                "సంగ\u{c40}తం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("микрофон"),
+            keywords: &["караоке", "мик", "микрофон"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ไมโครโฟน"),
+            keywords: &[
+                "คาราโอเกะ",
+                "สต\u{e39}ด\u{e34}โอ",
+                "เพลง",
+                "ไมค\u{e4c}",
+                "ไมโครโฟน",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mik", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("maikalofone"),
+            keywords: &["maikalofone"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("mikrofon"),
+            keywords: &["Karaoke", "eğlence", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("مىكروفون"),
+            keywords: &["كارائوكى", "مىكروفون"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("мікрофон"),
+            keywords: &["караоке", "мікрофон"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("مائیکروفون"),
+            keywords: &["مائیک", "مائیکروفون", "موسیقی"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("micrô"),
+            keywords: &["karaoke", "micrô"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("mikrofon"),
+            keywords: &["karaoke", "mikro", "mikrofon"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("imayikhrofowuni"),
+            keywords: &["i-karaoke", "i-mic", "imayikhrofowuni"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("ẹ\u{300}rọ gbohùngbohùn kékeré"),
+            keywords: &["maikurofóònù", "ẹ\u{300}rọ gbohùngbohùn kékeré"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("咪"),
+            keywords: &["卡拉 OK", "咪"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("咪"),
+            keywords: &["卡拉 OK", "咪"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("麦克风"),
+            keywords: &["卡拉OK", "唱K", "唱歌", "麦", "麦克", "麦克风"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("麥克風"),
+            keywords: &["k歌", "卡拉OK", "唱歌", "麥克風"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("咪高風"),
+            keywords: &["卡拉OK", "咪高風", "唱歌", "歌"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("imakhrofoni"),
+            keywords: &["ikhariyokhi", "imakhrofoni", "imayikhi"],
+        },
+    ],
+};
 #[doc = "🎧"]
 pub const HEADPHONE: crate::Emoji = crate::Emoji {
     glyph: "🎧",

@@ -5259,7 +5259,731 @@ pub const HOUSES: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🏚\u{fe0f}"]
-pub const DERELICT_HOUSE : crate :: Emoji = crate :: Emoji { glyph : "🏚\u{fe0f}" , codepoint : "1F3DA FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "derelict house" , group : "Travel & Places" , subgroup : "place-building" , is_variant : false , variants : & [crate :: Emoji { glyph : "🏚" , codepoint : "1F3DA" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "derelict house" , group : "Travel & Places" , subgroup : "place-building" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("vervalle huis") , keywords : & ["gebou" , "huis" , "vervalle"] , } , crate :: Annotation { lang : "am" , tts : Some ("የተተወ የቤት ግንባታ") , keywords : & ["ሕንጻ" , "ቤት" , "የተተወ የቤት ግንባታ" , "ደርሊክት"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مبنى مهجور") , keywords : & ["حطام" , "مباني" , "مبنى مهجور" , "منزل"] , } , crate :: Annotation { lang : "as" , tts : Some ("পৰিত\u{9cd}যক\u{9cd}ত ঘৰ") , keywords : & ["ঘৰ" , "পৰিত\u{9cd}যক\u{9cd}ত"] , } , crate :: Annotation { lang : "az" , tts : Some ("baxımsız ev binası") , keywords : & ["baxımsız ev binası" , "bina" , "ev" , "tərk edilmiş"] , } , crate :: Annotation { lang : "be" , tts : Some ("закінуты дом") , keywords : & ["будынак" , "дом" , "закінуты" , "занядбаны"] , } , crate :: Annotation { lang : "bg" , tts : Some ("запусната къща") , keywords : & ["запусната" , "къща" , "сграда"] , } , crate :: Annotation { lang : "bn" , tts : Some ("পরিত\u{9cd}যক\u{9cd}ত গ\u{9c3}হনির\u{9cd}ম\u{9be}ণ") , keywords : & ["পরিত\u{9cd}যক\u{9cd}ত" , "পরিত\u{9cd}যক\u{9cd}ত গ\u{9c3}হনির\u{9cd}ম\u{9be}ণ" , "ব\u{9be}ড\u{9bc}ি" , "বিল\u{9cd}ডিং"] , } , crate :: Annotation { lang : "br" , tts : Some ("ti dilezet") , keywords : & ["dilezet" , "ti"] , } , crate :: Annotation { lang : "bs" , tts : Some ("napuštena kuća") , keywords : & ["kuća" , "napuštena" , "zgrada"] , } , crate :: Annotation { lang : "ca" , tts : Some ("casa abandonada") , keywords : & ["abandonada" , "casa" , "ruïnes"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏁᏍᎦᏬᏍᎦ ᎦᎵᏦᏕ") , keywords : & ["ᎠᏁᏍᎦᏬᏍᎦ" , "ᎦᎵᏦᏕ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("opuštěný dům") , keywords : & ["budova" , "dům" , "opuštěný"] , } , crate :: Annotation { lang : "cy" , tts : Some ("tŷ gwag") , keywords : & ["adeilad" , "gwag" , "tŷ"] , } , crate :: Annotation { lang : "da" , tts : Some ("faldefærdigt hus") , keywords : & ["bygning" , "faldefærdig" , "faldefærdigt hus" , "hus"] , } , crate :: Annotation { lang : "de" , tts : Some ("verfallenes Haus") , keywords : & ["Gebäude" , "Haus" , "heruntergekommen" , "verfallen" , "verfallenes Haus" , "verlassen"] , } , crate :: Annotation { lang : "el" , tts : Some ("εγκαταλελειμμένο σπίτι") , keywords : & ["εγκαταλελειμμένο" , "κτίριο" , "σπίτι"] , } , crate :: Annotation { lang : "en" , tts : Some ("derelict house") , keywords : & ["derelict" , "house"] , } , crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["derelict" , "dilapidated" , "house"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("casa abandonada") , keywords : & ["abandonada" , "casa" , "deshabitada" , "inhabitada" , "vacía"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("edificio abandonado") , keywords : & ["abandonada" , "casa" , "deshabitada" , "edificio abandonado" , "inhabitada" , "vacía"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("mahajäetud maja") , keywords : & ["hoone" , "mahajäetud" , "maja"] , } , crate :: Annotation { lang : "eu" , tts : Some ("etxe abandonatua") , keywords : & ["abandonatu" , "eraikin" , "etxe" , "etxe abandonatua"] , } , crate :: Annotation { lang : "fa" , tts : Some ("خانه\u{654} متروکه") , keywords : & ["خانه" , "خانه\u{654} متروکه" , "ساختمان" , "متروک"] , } , crate :: Annotation { lang : "fi" , tts : Some ("autiotalo") , keywords : & ["autiotalo" , "hylätty" , "rakennus" , "talo" , "tyhjä"] , } , crate :: Annotation { lang : "fil" , tts : Some ("napabayaang bahay") , keywords : & ["bahay" , "guguho" , "gusali" , "napabayaan" , "napabayaang bahay"] , } , crate :: Annotation { lang : "fo" , tts : Some ("vanrøkt hús") , keywords : & ["hús" , "oyði" , "vanrøkt"] , } , crate :: Annotation { lang : "fr" , tts : Some ("maison abandonnée") , keywords : & ["maison" , "maison abandonnée"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["abandonnée" , "maison" , "ruine"] , } , crate :: Annotation { lang : "ga" , tts : Some ("teach tréigthe") , keywords : & ["foirgneamh" , "teach" , "tréigthe"] , } , crate :: Annotation { lang : "gd" , tts : Some ("tobhta") , keywords : & ["taigh" , "tobhta"] , } , crate :: Annotation { lang : "gl" , tts : Some ("casa abandonada") , keywords : & ["abandonada" , "casa" , "deshabitada" , "en ruínas"] , } , crate :: Annotation { lang : "gu" , tts : Some ("વ\u{ac7}રાન ઘરની બિલ\u{acd}ડિ\u{a82}ગ") , keywords : & ["ઘર" , "વ\u{ac7}રાન" , "વ\u{ac7}રાન ઘરની બિલ\u{acd}ડિ\u{a82}ગ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("zaizayayyen gida") , keywords : & ["gida" , "zaizayayye" , "zaizayayyen gida"] , } , crate :: Annotation { lang : "he" , tts : Some ("בית מוזנח") , keywords : & ["בית מוזנח" , "ישן" , "מוזנח" , "נטוש"] , } , crate :: Annotation { lang : "hi" , tts : Some ("वीरान घर का भवन, अक\u{947}ली इमारत") , keywords : & ["अक\u{947}ली इमारत" , "वीरान घर" , "वीरान घर का भवन" , "वीरान घर का भवन, अक\u{947}ली इमारत"] , } , crate :: Annotation { lang : "hr" , tts : Some ("zapuštena kuća") , keywords : & ["kuća" , "zapuštena kuća" , "zapušteno" , "zgrada"] , } , crate :: Annotation { lang : "hu" , tts : Some ("elhagyatott ház") , keywords : & ["elhagyatott" , "ház" , "épület"] , } , crate :: Annotation { lang : "hy" , tts : Some ("լքված շինություն") , keywords : & ["լքված" , "լքված շինություն" , "շենք" , "տուն"] , } , crate :: Annotation { lang : "id" , tts : Some ("rumah terlantar") , keywords : & ["bangunan" , "rumah" , "terlantar"] , } , crate :: Annotation { lang : "ig" , tts : Some ("ụlọ gbara ọkụ") , keywords : & ["gbara ọkụ" , "ụlọ" , "ụlọ gbara ọkụ"] , } , crate :: Annotation { lang : "is" , tts : Some ("niðurnítt hús") , keywords : & ["bygging" , "hús" , "niðurnítt"] , } , crate :: Annotation { lang : "it" , tts : Some ("casa in rovina") , keywords : & ["casa" , "casa in rovina" , "disabitata" , "fatiscente" , "rudere"] , } , crate :: Annotation { lang : "ja" , tts : Some ("廃屋") , keywords : & ["家" , "廃屋" , "建物" , "空き家"] , } , crate :: Annotation { lang : "jv" , tts : Some ("omah bobrok") , keywords : & ["bobrok" , "omah"] , } , crate :: Annotation { lang : "ka" , tts : Some ("მიტოვებული საცხოვრებელი შენობა") , keywords : & ["მიტოვებული" , "მიტოვებული საცხოვრებელი შენობა" , "სახლი" , "შენობა"] , } , crate :: Annotation { lang : "kab" , tts : Some ("axxam yettwaḍeggren") , keywords : & ["axxam yettwaḍeggren"] , } , crate :: Annotation { lang : "kk" , tts : Some ("қараусыз қалған үй") , keywords : & ["қараусыз" , "қараусыз қалған үй" , "құру" , "үй"] , } , crate :: Annotation { lang : "kl" , tts : Some ("faldefærdigt hus") , keywords : & ["bygning" , "faldefærdig" , "faldefærdigt hus" , "hus"] , } , crate :: Annotation { lang : "km" , tts : Some ("ផ\u{17d2}ទះបោះបង\u{17cb}ចោល") , keywords : & ["ផ\u{17d2}ទះ" , "ផ\u{17d2}ទះចាស\u{17cb}" , "ផ\u{17d2}ទះទ\u{17d2}រ\u{17bb}ឌទ\u{17d2}រោម" , "ផ\u{17d2}ទះបោះបង\u{17cb}ចោល"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಡ\u{cc6}ರ\u{ccd}ಲ\u{cbf}ಕ\u{ccd}ಟ\u{ccd} ಮನ\u{cc6} ಕಟ\u{ccd}ಟಡ") , keywords : & ["ಕಟ\u{ccd}ಟಡ" , "ಡ\u{cc6}ರ\u{ccd}ಲ\u{cbf}ಕ\u{ccd}ಟ\u{ccd} ಮನ\u{cc6} ಕಟ\u{ccd}ಟಡ" , "ನ\u{cbf}ವಾಸ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("낡은 주택 건물") , keywords : & ["건물" , "낡은 주택 건물" , "노후" , "주택"] , } , crate :: Annotation { lang : "kok" , tts : Some ("ब\u{947}ढव घर") , keywords : & ["घर" , "ब\u{947}ढव"] , } , crate :: Annotation { lang : "ky" , tts : Some ("каралбаган үй") , keywords : & ["каралбаган" , "ээн" , "ээси жок" , "үй"] , } , crate :: Annotation { lang : "lb" , tts : Some ("eidelt Haus") , keywords : & ["Haus" , "eidel" , "eidelt Haus"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ອາຄານເຮ\u{eb7}ອນຮ\u{ec9}າງ") , keywords : & ["ອາຄານ" , "ອາຄານເຮ\u{eb7}ອນຮ\u{ec9}າງ" , "ຮ\u{ec9}າງ" , "ເຮ\u{eb7}ອນ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("apleistas pastatas") , keywords : & ["apleistas" , "apleistas pastatas" , "namas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("pamesta ēka") , keywords : & ["māja" , "nolaists" , "pamesta ēka" , "pamests" , "ēka"] , } , crate :: Annotation { lang : "mi" , tts : Some ("whare pāea") , keywords : & ["pāea" , "whare"] , } , crate :: Annotation { lang : "mk" , tts : Some ("напуштена куќа") , keywords : & ["куќа" , "напуштена"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ആൾത\u{d4d}ത\u{d3e}മസം ഇല\u{d4d}ല\u{d3e}ത\u{d4d}ത വീട\u{d4d}") , keywords : & ["ആൾത\u{d4d}ത\u{d3e}മസം ഇല\u{d4d}ല\u{d3e}ത\u{d4d}ത വീട\u{d4d}" , "ആൾപ\u{d4d}പ\u{d3e}ർപ\u{d4d}പില\u{d4d}ല\u{d3e}ത\u{d4d}ത വീട\u{d4d}" , "കെട\u{d4d}ടിടം" , "വീട\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("балгас") , keywords : & ["байшин" , "балгас"] , } , crate :: Annotation { lang : "mr" , tts : Some ("मोडकळीला आल\u{947}ल\u{947} घर") , keywords : & ["घराची इमारत" , "मोडकळीला आल\u{947}ल\u{947} घर"] , } , crate :: Annotation { lang : "ms" , tts : Some ("rumah terbiar") , keywords : & ["bangunan" , "rumah" , "terbiar"] , } , crate :: Annotation { lang : "mt" , tts : Some ("dar mitluqa") , keywords : & ["dar" , "mitluqa"] , } , crate :: Annotation { lang : "my" , tts : Some ("စ\u{103d}န\u{1037}\u{103a}ပစ\u{103a}အ\u{102d}မ\u{103a}ရာ") , keywords : & ["စ\u{103d}န\u{1037}\u{103a}ပစ\u{103a}အ\u{102d}မ\u{103a}ရာ" , "အ\u{102d}မ\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("falleferdig hus") , keywords : & ["bygning" , "falleferdig" , "forlatt" , "hus"] , } , crate :: Annotation { lang : "ne" , tts : Some ("ड\u{947}रिलिक\u{94d}ट घर निर\u{94d}माण") , keywords : & ["घर" , "जीर\u{94d}ण" , "ड\u{947}रिलिक\u{94d}ट घर निर\u{94d}माण"] , } , crate :: Annotation { lang : "nl" , tts : Some ("vervallen huis") , keywords : & ["huis" , "vervallen"] , } , crate :: Annotation { lang : "nn" , tts : Some ("falleferdig hus") , keywords : & ["bygning" , "falleferdig" , "forlate" , "hus"] , } , crate :: Annotation { lang : "or" , tts : Some ("ପର\u{b3f}ତ\u{b4d}ୟକ\u{b4d}ତ ଘର") , keywords : & ["ଘର" , "ପର\u{b3f}ତ\u{b4d}ୟକ\u{b4d}ତ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਖਸਤਾ ਹਾਲਤ ਘਰ") , keywords : & ["ਇਮਾਰਤ" , "ਖਸਤਾ ਹਾਲਤ" , "ਖਸਤਾ ਹਾਲਤ ਘਰ" , "ਖਾਲੀ ਘਰ" , "ਘਰ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("متروکہ گھر") , keywords : & ["لاوارث" , "متروکہ گھر" , "گھر"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Haus Wé Dé Fọ Bád Kọndíshọn") , keywords : & ["Bád Kọndíshọn" , "Haus" , "Haus Wé Dé Fọ Bád Kọndíshọn"] , } , crate :: Annotation { lang : "pl" , tts : Some ("stary dom") , keywords : & ["podupadły" , "ruina" , "stary" , "stary dom" , "zniszczony" , "zrujnowany"] , } , crate :: Annotation { lang : "ps" , tts : Some ("متروک کور") , keywords : & ["متروک کور" , "کور"] , } , crate :: Annotation { lang : "pt" , tts : Some ("casa abandonada") , keywords : & ["casa" , "casa abandonada"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("casa em ruínas") , keywords : & ["abandonado" , "casa" , "casa abandonada" , "casa em ruínas"] , } , crate :: Annotation { lang : "qu" , tts : Some ("saqisqa wasi") , keywords : & ["saqisqa" , "wasi"] , } , crate :: Annotation { lang : "ro" , tts : Some ("casă părăsită") , keywords : & ["abandonată" , "casă" , "casă părăsită"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-410") , keywords : & ["E10-410"] , } , crate :: Annotation { lang : "ru" , tts : Some ("заброшенный дом") , keywords : & ["дом" , "заброшенный" , "упадок"] , } , crate :: Annotation { lang : "rw" , tts : Some ("inzu itakibabwamo") , keywords : & ["inzu" , "inzu itakibabwamo" , "itakibarwamo"] , } , crate :: Annotation { lang : "sd" , tts : Some ("لاوارث گهر") , keywords : & ["لاوارث گهر" , "لاوارث، گهر"] , } , crate :: Annotation { lang : "si" , tts : Some ("අත\u{dca} හැර දමන ලද න\u{dd2}ව\u{dcf}ස ගොඩනැග\u{dd2}ල\u{dca}ල") , keywords : & ["අත\u{dca} හැර දමන ලද" , "අත\u{dca} හැර දමන ලද න\u{dd2}ව\u{dcf}ස ගොඩනැග\u{dd2}ල\u{dca}ල" , "ඉද\u{dd2} ක\u{dd2}ර\u{dd3}ම" , "න\u{dd2}වස"] , } , crate :: Annotation { lang : "sk" , tts : Some ("opustený dom") , keywords : & ["budova" , "dom" , "opustený dom" , "spustnutý dom"] , } , crate :: Annotation { lang : "sl" , tts : Some ("zapuščena hiša") , keywords : & ["hiša" , "zapuščena hiša" , "zapuščeno" , "zgradba"] , } , crate :: Annotation { lang : "so" , tts : Some ("guri burbursan") , keywords : & ["burbur" , "guri" , "guri burbursan"] , } , crate :: Annotation { lang : "sq" , tts : Some ("shtëpi e braktisur") , keywords : & ["e braktisur" , "ndërtesë" , "shtëpi" , "shtëpi e braktisur"] , } , crate :: Annotation { lang : "sr" , tts : Some ("запуштена кућа") , keywords : & ["зaпуштeнo" , "запуштена кућа" , "кућa"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["запуштена кућа"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("zapuštena kuća") , keywords : & ["kuća" , "zapuštena kuća" , "zapušteno"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["zapuštena kuća"] , } , crate :: Annotation { lang : "sv" , tts : Some ("fallfärdigt hus") , keywords : & ["fallfärdigt hus" , "förfallet" , "hus" , "öde" , "ödehus"] , } , crate :: Annotation { lang : "sw" , tts : Some ("jengo la nyumba lililochakaa") , keywords : & ["chakaa" , "jengo" , "jengo la nyumba lililochakaa" , "nyumba"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ய\u{bbe}ரும\u{bcd} இல\u{bcd}ல\u{bbe}மல\u{bcd} மோசம\u{bbe}ன நிலையில\u{bcd} இருக\u{bcd}கும\u{bcd} வ\u{bc0}டு") , keywords : & ["ப\u{bbe}ழடைந\u{bcd}த வ\u{bc0}டு" , "மோசம\u{bbe}ன நிலையில\u{bcd} உள\u{bcd}ள வ\u{bc0}டு" , "ய\u{bbe}ரும\u{bcd} இல\u{bcd}ல\u{bbe}மல\u{bcd} மோசம\u{bbe}ன நிலையில\u{bcd} இருக\u{bcd}கும\u{bcd} வ\u{bc0}டு" , "வ\u{bc0}டு"] , } , crate :: Annotation { lang : "te" , tts : Some ("న\u{c3f}వస\u{c3f}ంచన\u{c3f} భవనం") , keywords : & ["ఇల\u{c4d}లు" , "న\u{c3f}వస\u{c3f}ంచన\u{c3f}" , "భవనం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("хонаи бесоҳиб") , keywords : & ["бесоҳиб" , "хона" , "хонаи бесоҳиб"] , } , crate :: Annotation { lang : "th" , tts : Some ("บ\u{e49}านร\u{e49}าง") , keywords : & ["บ\u{e49}าน" , "บ\u{e49}านร\u{e49}าง" , "รกร\u{e49}าง"] , } , crate :: Annotation { lang : "tk" , tts : Some ("taşlanan jaý") , keywords : & ["jaý" , "taşlanan"] , } , crate :: Annotation { lang : "to" , tts : Some ("lusaʻanga") , keywords : & ["lusaʻanga"] , } , crate :: Annotation { lang : "tr" , tts : Some ("terkedilmiş ev") , keywords : & ["bina" , "ev" , "harabe" , "terkedilmiş ev"] , } , crate :: Annotation { lang : "ug" , tts : Some ("تاشلاندۇق ئۆي") , keywords : & ["ئۆي" , "تاشلاندۇق"] , } , crate :: Annotation { lang : "uk" , tts : Some ("занедбаний будинок") , keywords : & ["будинок" , "будівля" , "занедбаний будинок" , "покинутий"] , } , crate :: Annotation { lang : "ur" , tts : Some ("ویران گھر کی عمارت") , keywords : & ["ویران" , "ویران گھر کی عمارت" , "گھر"] , } , crate :: Annotation { lang : "uz" , tts : Some ("tashlandiq uy") , keywords : & ["bino" , "tashlandiq" , "uy"] , } , crate :: Annotation { lang : "vi" , tts : Some ("ngôi nhà bỏ hoang") , keywords : & ["bỏ hoang" , "ngôi nhà" , "ngôi nhà bỏ hoang"] , } , crate :: Annotation { lang : "wo" , tts : Some ("kër gu gent") , keywords : & ["gent" , "kër" , "kër gu gent"] , } , crate :: Annotation { lang : "xh" , tts : Some ("indlu eyekiweyo") , keywords : & ["eyekiweyo" , "indlu"] , } , crate :: Annotation { lang : "yo" , tts : Some ("ilé àìdára") , keywords : & ["ilé" , "àìdára"] , } , crate :: Annotation { lang : "yue" , tts : Some ("荒廢嘅房屋") , keywords : & ["房屋" , "荒廢" , "荒廢嘅房屋"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("荒废嘅房屋") , keywords : & ["房屋" , "荒废" , "荒废嘅房屋"] , } , crate :: Annotation { lang : "zh" , tts : Some ("废墟") , keywords : & ["废墟" , "荒宅" , "荒废" , "鬼屋"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("廢墟") , keywords : & ["廢墟" , "荒宅"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("荒廢嘅屋") , keywords : & ["廢墟" , "廢棄" , "殘破" , "破舊" , "老舊" , "荒廢嘅屋"] , } , crate :: Annotation { lang : "zu" , tts : Some ("isakhiwo sendlu esinganakiwe") , keywords : & ["indlu" , "isakhiwo sendlu esinganakiwe"] , }] , } ;
+pub const DERELICT_HOUSE: crate::Emoji = crate::Emoji {
+    glyph: "🏚\u{fe0f}",
+    codepoint: "1F3DA FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.7f32,
+    name: "derelict house",
+    group: "Travel & Places",
+    subgroup: "place-building",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏚",
+        codepoint: "1F3DA",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "derelict house",
+        group: "Travel & Places",
+        subgroup: "place-building",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("vervalle huis"),
+            keywords: &["gebou", "huis", "vervalle"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የተተወ የቤት ግንባታ"),
+            keywords: &["ሕንጻ", "ቤት", "የተተወ የቤት ግንባታ", "ደርሊክት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مبنى مهجور"),
+            keywords: &["حطام", "مباني", "مبنى مهجور", "منزل"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("পৰিত\u{9cd}যক\u{9cd}ত ঘৰ"),
+            keywords: &["ঘৰ", "পৰিত\u{9cd}যক\u{9cd}ত"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("baxımsız ev binası"),
+            keywords: &["baxımsız ev binası", "bina", "ev", "tərk edilmiş"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("закінуты дом"),
+            keywords: &["будынак", "дом", "закінуты", "занядбаны"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("запусната къща"),
+            keywords: &["запусната", "къща", "сграда"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("পরিত\u{9cd}যক\u{9cd}ত গ\u{9c3}হনির\u{9cd}ম\u{9be}ণ"),
+            keywords: &[
+                "পরিত\u{9cd}যক\u{9cd}ত",
+                "পরিত\u{9cd}যক\u{9cd}ত গ\u{9c3}হনির\u{9cd}ম\u{9be}ণ",
+                "ব\u{9be}ড\u{9bc}ি",
+                "বিল\u{9cd}ডিং",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("ti dilezet"),
+            keywords: &["dilezet", "ti"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("napuštena kuća"),
+            keywords: &["kuća", "napuštena", "zgrada"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("casa abandonada"),
+            keywords: &["abandonada", "casa", "ruïnes"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᏁᏍᎦᏬᏍᎦ ᎦᎵᏦᏕ"),
+            keywords: &["ᎠᏁᏍᎦᏬᏍᎦ", "ᎦᎵᏦᏕ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("opuštěný dům"),
+            keywords: &["budova", "dům", "opuštěný"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("tŷ gwag"),
+            keywords: &["adeilad", "gwag", "tŷ"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("faldefærdigt hus"),
+            keywords: &["bygning", "faldefærdig", "faldefærdigt hus", "hus"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("verfallenes Haus"),
+            keywords: &[
+                "Gebäude",
+                "Haus",
+                "heruntergekommen",
+                "verfallen",
+                "verfallenes Haus",
+                "verlassen",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("εγκαταλελειμμένο σπίτι"),
+            keywords: &["εγκαταλελειμμένο", "κτίριο", "σπίτι"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("derelict house"),
+            keywords: &["derelict", "house"],
+        },
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["derelict", "dilapidated", "house"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("casa abandonada"),
+            keywords: &["abandonada", "casa", "deshabitada", "inhabitada", "vacía"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("edificio abandonado"),
+            keywords: &[
+                "abandonada",
+                "casa",
+                "deshabitada",
+                "edificio abandonado",
+                "inhabitada",
+                "vacía",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("mahajäetud maja"),
+            keywords: &["hoone", "mahajäetud", "maja"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("etxe abandonatua"),
+            keywords: &["abandonatu", "eraikin", "etxe", "etxe abandonatua"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("خانه\u{654} متروکه"),
+            keywords: &["خانه", "خانه\u{654} متروکه", "ساختمان", "متروک"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("autiotalo"),
+            keywords: &["autiotalo", "hylätty", "rakennus", "talo", "tyhjä"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("napabayaang bahay"),
+            keywords: &[
+                "bahay",
+                "guguho",
+                "gusali",
+                "napabayaan",
+                "napabayaang bahay",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("vanrøkt hús"),
+            keywords: &["hús", "oyði", "vanrøkt"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("maison abandonnée"),
+            keywords: &["maison", "maison abandonnée"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["abandonnée", "maison", "ruine"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("teach tréigthe"),
+            keywords: &["foirgneamh", "teach", "tréigthe"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("tobhta"),
+            keywords: &["taigh", "tobhta"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("casa abandonada"),
+            keywords: &["abandonada", "casa", "deshabitada", "en ruínas"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("વ\u{ac7}રાન ઘરની બિલ\u{acd}ડિ\u{a82}ગ"),
+            keywords: &["ઘર", "વ\u{ac7}રાન", "વ\u{ac7}રાન ઘરની બિલ\u{acd}ડિ\u{a82}ગ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("zaizayayyen gida"),
+            keywords: &["gida", "zaizayayye", "zaizayayyen gida"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("בית מוזנח"),
+            keywords: &["בית מוזנח", "ישן", "מוזנח", "נטוש"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("वीरान घर का भवन, अक\u{947}ली इमारत"),
+            keywords: &[
+                "अक\u{947}ली इमारत",
+                "वीरान घर",
+                "वीरान घर का भवन",
+                "वीरान घर का भवन, अक\u{947}ली इमारत",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("zapuštena kuća"),
+            keywords: &["kuća", "zapuštena kuća", "zapušteno", "zgrada"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("elhagyatott ház"),
+            keywords: &["elhagyatott", "ház", "épület"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("լքված շինություն"),
+            keywords: &["լքված", "լքված շինություն", "շենք", "տուն"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("rumah terlantar"),
+            keywords: &["bangunan", "rumah", "terlantar"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ụlọ gbara ọkụ"),
+            keywords: &["gbara ọkụ", "ụlọ", "ụlọ gbara ọkụ"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("niðurnítt hús"),
+            keywords: &["bygging", "hús", "niðurnítt"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("casa in rovina"),
+            keywords: &[
+                "casa",
+                "casa in rovina",
+                "disabitata",
+                "fatiscente",
+                "rudere",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("廃屋"),
+            keywords: &["家", "廃屋", "建物", "空き家"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("omah bobrok"),
+            keywords: &["bobrok", "omah"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("მიტოვებული საცხოვრებელი შენობა"),
+            keywords: &[
+                "მიტოვებული",
+                "მიტოვებული საცხოვრებელი შენობა",
+                "სახლი",
+                "შენობა",
+            ],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("axxam yettwaḍeggren"),
+            keywords: &["axxam yettwaḍeggren"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("қараусыз қалған үй"),
+            keywords: &["қараусыз", "қараусыз қалған үй", "құру", "үй"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("faldefærdigt hus"),
+            keywords: &["bygning", "faldefærdig", "faldefærdigt hus", "hus"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ផ\u{17d2}ទះបោះបង\u{17cb}ចោល"),
+            keywords: &[
+                "ផ\u{17d2}ទះ",
+                "ផ\u{17d2}ទះចាស\u{17cb}",
+                "ផ\u{17d2}ទះទ\u{17d2}រ\u{17bb}ឌទ\u{17d2}រោម",
+                "ផ\u{17d2}ទះបោះបង\u{17cb}ចោល",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಡ\u{cc6}ರ\u{ccd}ಲ\u{cbf}ಕ\u{ccd}ಟ\u{ccd} ಮನ\u{cc6} ಕಟ\u{ccd}ಟಡ"),
+            keywords: &[
+                "ಕಟ\u{ccd}ಟಡ",
+                "ಡ\u{cc6}ರ\u{ccd}ಲ\u{cbf}ಕ\u{ccd}ಟ\u{ccd} ಮನ\u{cc6} ಕಟ\u{ccd}ಟಡ",
+                "ನ\u{cbf}ವಾಸ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("낡은 주택 건물"),
+            keywords: &["건물", "낡은 주택 건물", "노후", "주택"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("ब\u{947}ढव घर"),
+            keywords: &["घर", "ब\u{947}ढव"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("каралбаган үй"),
+            keywords: &["каралбаган", "ээн", "ээси жок", "үй"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("eidelt Haus"),
+            keywords: &["Haus", "eidel", "eidelt Haus"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ອາຄານເຮ\u{eb7}ອນຮ\u{ec9}າງ"),
+            keywords: &[
+                "ອາຄານ",
+                "ອາຄານເຮ\u{eb7}ອນຮ\u{ec9}າງ",
+                "ຮ\u{ec9}າງ",
+                "ເຮ\u{eb7}ອນ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("apleistas pastatas"),
+            keywords: &["apleistas", "apleistas pastatas", "namas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("pamesta ēka"),
+            keywords: &["māja", "nolaists", "pamesta ēka", "pamests", "ēka"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("whare pāea"),
+            keywords: &["pāea", "whare"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("напуштена куќа"),
+            keywords: &["куќа", "напуштена"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ആൾത\u{d4d}ത\u{d3e}മസം ഇല\u{d4d}ല\u{d3e}ത\u{d4d}ത വീട\u{d4d}"),
+            keywords: &[
+                "ആൾത\u{d4d}ത\u{d3e}മസം ഇല\u{d4d}ല\u{d3e}ത\u{d4d}ത വീട\u{d4d}",
+                "ആൾപ\u{d4d}പ\u{d3e}ർപ\u{d4d}പില\u{d4d}ല\u{d3e}ത\u{d4d}ത വീട\u{d4d}",
+                "കെട\u{d4d}ടിടം",
+                "വീട\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("балгас"),
+            keywords: &["байшин", "балгас"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("मोडकळीला आल\u{947}ल\u{947} घर"),
+            keywords: &["घराची इमारत", "मोडकळीला आल\u{947}ल\u{947} घर"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("rumah terbiar"),
+            keywords: &["bangunan", "rumah", "terbiar"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("dar mitluqa"),
+            keywords: &["dar", "mitluqa"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("စ\u{103d}န\u{1037}\u{103a}ပစ\u{103a}အ\u{102d}မ\u{103a}ရာ"),
+            keywords: &[
+                "စ\u{103d}န\u{1037}\u{103a}ပစ\u{103a}အ\u{102d}မ\u{103a}ရာ",
+                "အ\u{102d}မ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("falleferdig hus"),
+            keywords: &["bygning", "falleferdig", "forlatt", "hus"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("ड\u{947}रिलिक\u{94d}ट घर निर\u{94d}माण"),
+            keywords: &[
+                "घर",
+                "जीर\u{94d}ण",
+                "ड\u{947}रिलिक\u{94d}ट घर निर\u{94d}माण",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("vervallen huis"),
+            keywords: &["huis", "vervallen"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("falleferdig hus"),
+            keywords: &["bygning", "falleferdig", "forlate", "hus"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ପର\u{b3f}ତ\u{b4d}ୟକ\u{b4d}ତ ଘର"),
+            keywords: &["ଘର", "ପର\u{b3f}ତ\u{b4d}ୟକ\u{b4d}ତ"],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਖਸਤਾ ਹਾਲਤ ਘਰ"),
+            keywords: &["ਇਮਾਰਤ", "ਖਸਤਾ ਹਾਲਤ", "ਖਸਤਾ ਹਾਲਤ ਘਰ", "ਖਾਲੀ ਘਰ", "ਘਰ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("متروکہ گھر"),
+            keywords: &["لاوارث", "متروکہ گھر", "گھر"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Haus Wé Dé Fọ Bád Kọndíshọn"),
+            keywords: &["Bád Kọndíshọn", "Haus", "Haus Wé Dé Fọ Bád Kọndíshọn"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("stary dom"),
+            keywords: &[
+                "podupadły",
+                "ruina",
+                "stary",
+                "stary dom",
+                "zniszczony",
+                "zrujnowany",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("متروک کور"),
+            keywords: &["متروک کور", "کور"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("casa abandonada"),
+            keywords: &["casa", "casa abandonada"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("casa em ruínas"),
+            keywords: &["abandonado", "casa", "casa abandonada", "casa em ruínas"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("saqisqa wasi"),
+            keywords: &["saqisqa", "wasi"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("casă părăsită"),
+            keywords: &["abandonată", "casă", "casă părăsită"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-410"),
+            keywords: &["E10-410"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("заброшенный дом"),
+            keywords: &["дом", "заброшенный", "упадок"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("inzu itakibabwamo"),
+            keywords: &["inzu", "inzu itakibabwamo", "itakibarwamo"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("لاوارث گهر"),
+            keywords: &["لاوارث گهر", "لاوارث، گهر"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("අත\u{dca} හැර දමන ලද න\u{dd2}ව\u{dcf}ස ගොඩනැග\u{dd2}ල\u{dca}ල"),
+            keywords: &[
+                "අත\u{dca} හැර දමන ලද",
+                "අත\u{dca} හැර දමන ලද න\u{dd2}ව\u{dcf}ස ගොඩනැග\u{dd2}ල\u{dca}ල",
+                "ඉද\u{dd2} ක\u{dd2}ර\u{dd3}ම",
+                "න\u{dd2}වස",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("opustený dom"),
+            keywords: &["budova", "dom", "opustený dom", "spustnutý dom"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("zapuščena hiša"),
+            keywords: &["hiša", "zapuščena hiša", "zapuščeno", "zgradba"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("guri burbursan"),
+            keywords: &["burbur", "guri", "guri burbursan"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("shtëpi e braktisur"),
+            keywords: &["e braktisur", "ndërtesë", "shtëpi", "shtëpi e braktisur"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("запуштена кућа"),
+            keywords: &["зaпуштeнo", "запуштена кућа", "кућa"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["запуштена кућа"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("zapuštena kuća"),
+            keywords: &["kuća", "zapuštena kuća", "zapušteno"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["zapuštena kuća"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("fallfärdigt hus"),
+            keywords: &["fallfärdigt hus", "förfallet", "hus", "öde", "ödehus"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("jengo la nyumba lililochakaa"),
+            keywords: &["chakaa", "jengo", "jengo la nyumba lililochakaa", "nyumba"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some(
+                "ய\u{bbe}ரும\u{bcd} இல\u{bcd}ல\u{bbe}மல\u{bcd} மோசம\u{bbe}ன நிலையில\u{bcd} இருக\u{bcd}கும\u{bcd} வ\u{bc0}டு",
+            ),
+            keywords: &[
+                "ப\u{bbe}ழடைந\u{bcd}த வ\u{bc0}டு",
+                "மோசம\u{bbe}ன நிலையில\u{bcd} உள\u{bcd}ள வ\u{bc0}டு",
+                "ய\u{bbe}ரும\u{bcd} இல\u{bcd}ல\u{bbe}மல\u{bcd} மோசம\u{bbe}ன நிலையில\u{bcd} இருக\u{bcd}கும\u{bcd} வ\u{bc0}டு",
+                "வ\u{bc0}டு",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("న\u{c3f}వస\u{c3f}ంచన\u{c3f} భవనం"),
+            keywords: &["ఇల\u{c4d}లు", "న\u{c3f}వస\u{c3f}ంచన\u{c3f}", "భవనం"],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("хонаи бесоҳиб"),
+            keywords: &["бесоҳиб", "хона", "хонаи бесоҳиб"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("บ\u{e49}านร\u{e49}าง"),
+            keywords: &["บ\u{e49}าน", "บ\u{e49}านร\u{e49}าง", "รกร\u{e49}าง"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("taşlanan jaý"),
+            keywords: &["jaý", "taşlanan"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("lusaʻanga"),
+            keywords: &["lusaʻanga"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("terkedilmiş ev"),
+            keywords: &["bina", "ev", "harabe", "terkedilmiş ev"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("تاشلاندۇق ئۆي"),
+            keywords: &["ئۆي", "تاشلاندۇق"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("занедбаний будинок"),
+            keywords: &["будинок", "будівля", "занедбаний будинок", "покинутий"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("ویران گھر کی عمارت"),
+            keywords: &["ویران", "ویران گھر کی عمارت", "گھر"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("tashlandiq uy"),
+            keywords: &["bino", "tashlandiq", "uy"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("ngôi nhà bỏ hoang"),
+            keywords: &["bỏ hoang", "ngôi nhà", "ngôi nhà bỏ hoang"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("kër gu gent"),
+            keywords: &["gent", "kër", "kër gu gent"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("indlu eyekiweyo"),
+            keywords: &["eyekiweyo", "indlu"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("ilé àìdára"),
+            keywords: &["ilé", "àìdára"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("荒廢嘅房屋"),
+            keywords: &["房屋", "荒廢", "荒廢嘅房屋"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("荒废嘅房屋"),
+            keywords: &["房屋", "荒废", "荒废嘅房屋"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("废墟"),
+            keywords: &["废墟", "荒宅", "荒废", "鬼屋"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("廢墟"),
+            keywords: &["廢墟", "荒宅"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("荒廢嘅屋"),
+            keywords: &["廢墟", "廢棄", "殘破", "破舊", "老舊", "荒廢嘅屋"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("isakhiwo sendlu esinganakiwe"),
+            keywords: &["indlu", "isakhiwo sendlu esinganakiwe"],
+        },
+    ],
+};
 #[doc = "🏠"]
 pub const HOUSE: crate::Emoji = crate::Emoji {
     glyph: "🏠",
@@ -7314,7 +8038,765 @@ pub const OFFICE_BUILDING: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🏣"]
-pub const JAPANESE_POST_OFFICE : crate :: Emoji = crate :: Emoji { glyph : "🏣" , codepoint : "1F3E3" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "Japanese post office" , group : "Travel & Places" , subgroup : "place-building" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("japanse poskantoor") , keywords : & ["gebou" , "japannees" , "japanse poskantoor" , "pos"] , } , crate :: Annotation { lang : "am" , tts : Some ("የጃፓን ፖስታ ቤት") , keywords : & ["ሕንጻ" , "የጃፓን" , "የጃፓን ፖስታ ቤት" , "ፖስታ ቤት"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مكتب بريد ياباني") , keywords : & ["بريد" , "مكتب بريد" , "مكتب بريد ياباني"] , } , crate :: Annotation { lang : "as" , tts : Some ("জ\u{9be}প\u{9be}নী ড\u{9be}ক ঘৰ") , keywords : & ["জ\u{9be}প\u{9be}নী" , "জ\u{9be}প\u{9be}নী ড\u{9be}ক ঘৰ" , "ড\u{9be}ক"] , } , crate :: Annotation { lang : "az" , tts : Some ("yapon poçt idarəsi") , keywords : & ["bina" , "poçt" , "yapon" , "yapon poçt idarəsi"] , } , crate :: Annotation { lang : "be" , tts : Some ("японскі паштамт") , keywords : & ["будынак" , "пошта" , "юбінкёку" , "японскі" , "японскі паштамт"] , } , crate :: Annotation { lang : "bg" , tts : Some ("японска поща") , keywords : & ["поща" , "сграда" , "японска поща" , "японски"] , } , crate :: Annotation { lang : "bn" , tts : Some ("জ\u{9be}প\u{9be}নি পোস\u{9cd}ট অফিস") , keywords : & ["জ\u{9be}প\u{9be}নি" , "জ\u{9be}প\u{9be}নি পোস\u{9cd}ট অফিস" , "পোস\u{9cd}ট" , "বিল\u{9cd}ডিং"] , } , crate :: Annotation { lang : "br" , tts : Some ("ti-post japanat") , keywords : & ["japanat" , "post" , "ti-post"] , } , crate :: Annotation { lang : "bs" , tts : Some ("japanska pošta") , keywords : & ["japanska" , "pošta" , "zgrada"] , } , crate :: Annotation { lang : "ca" , tts : Some ("oficina de correus japonesa") , keywords : & ["correus" , "japonesa" , "oficina" , "oficina de correus japonesa"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᏣᏩᏂᏏ ᎪᏪᎵ ᏧᏂᏍᏚᎢᏍᏗ") , keywords : & ["ᎪᏪᎵ ᏗᎦᏁᏍᏗᎢ" , "ᏣᏩᏂᏏ ᎪᏪᎵ ᏧᏂᏍᏚᎢᏍᏗ" , "ᏣᏱᏂᏏ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("japonská pošta") , keywords : & ["budova" , "japonská pošta" , "japonský" , "pošta"] , } , crate :: Annotation { lang : "cy" , tts : Some ("swyddfa bost Japaneaidd") , keywords : & ["Japaneaidd" , "adeilad" , "post" , "swyddfa bost Japaneaidd"] , } , crate :: Annotation { lang : "da" , tts : Some ("japansk posthus") , keywords : & ["japansk" , "posthus" , "postkontor"] , } , crate :: Annotation { lang : "de" , tts : Some ("japanisches Postgebäude") , keywords : & ["Japan" , "Post" , "japanisches Postgebäude"] , } , crate :: Annotation { lang : "el" , tts : Some ("ιαπωνικό ταχυδρομείο") , keywords : & ["ιαπωνικό" , "κτίριο" , "ταχυδρομείο"] , } , crate :: Annotation { lang : "en" , tts : Some ("Japanese post office") , keywords : & ["Japanese" , "Japanese post office" , "post"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("oficina de correos japonesa") , keywords : & ["correos" , "edificio" , "japón" , "oficina de correos" , "oficina de correos japonesa"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("oficina de correo japonesa") , keywords : & ["correo" , "edificio" , "oficina" , "oficina de correo japonesa"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("Jaapani postkontor") , keywords : & ["Jaapani postkontor" , "hoone" , "post"] , } , crate :: Annotation { lang : "eu" , tts : Some ("japoniako postetxea") , keywords : & ["eraikin" , "japonia" , "japoniako postetxea" , "posta"] , } , crate :: Annotation { lang : "fa" , tts : Some ("پست\u{200c}خانه\u{654} ژاپنی") , keywords : & ["ساختمان" , "پست" , "پست\u{200c}خانه\u{654} ژاپنی" , "ژاپنی"] , } , crate :: Annotation { lang : "fi" , tts : Some ("japanilainen postitoimisto") , keywords : & ["Japani" , "japanilainen postitoimisto" , "posti" , "rakennus"] , } , crate :: Annotation { lang : "fil" , tts : Some ("japanese post office") , keywords : & ["gusali" , "japanese" , "japanese post office" , "post office"] , } , crate :: Annotation { lang : "fo" , tts : Some ("japanskt posthús") , keywords : & ["japanskt" , "posthús" , "poststova" , "postverk"] , } , crate :: Annotation { lang : "fr" , tts : Some ("bureau de poste japonais") , keywords : & ["Japon" , "bureau de poste japonais" , "bâtiment" , "poste"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["bureau de poste japonais" , "bâtiment" , "japon" , "poste" , "poste japonaise"] , } , crate :: Annotation { lang : "ga" , tts : Some ("oifig an phoist de chuid na Seapáine") , keywords : & ["oifig an phoist" , "oifig an phoist Seapánach" , "oifig an phoist de chuid na Seapáine" , "post"] , } , crate :: Annotation { lang : "gd" , tts : Some ("oifis-puist Sheapanach") , keywords : & ["iapanach" , "oifis-puist Sheapanach" , "post" , "seapanach"] , } , crate :: Annotation { lang : "gl" , tts : Some ("oficina de correos xaponesa") , keywords : & ["correo" , "correo postal" , "edificio" , "oficina" , "oficina de correos xaponesa"] , } , crate :: Annotation { lang : "gu" , tts : Some ("જાપાની પોસ\u{acd}ટ ઑફિસ") , keywords : & ["ઈમારત" , "જાપાની" , "જાપાની પોસ\u{acd}ટ ઑફિસ" , "પોસ\u{acd}ટ" , "પોસ\u{acd}ટ ઑફિસ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("gidan waya Na Japan") , keywords : & ["Na Japan" , "gidan waya" , "gidan waya Na Japan"] , } , crate :: Annotation { lang : "he" , tts : Some ("בית דואר ביפן") , keywords : & ["בית דואר ביפן" , "בניין" , "דואר יפן"] , } , crate :: Annotation { lang : "hi" , tts : Some ("जापानी डाकघर, डाक भवन") , keywords : & ["जापानी" , "जापानी डाकघर, डाक भवन" , "डाक" , "डाकघर" , "भवन"] , } , crate :: Annotation { lang : "hr" , tts : Some ("japanski poštanski ured") , keywords : & ["japan" , "japanski poštanski ured" , "pošta" , "zgrada"] , } , crate :: Annotation { lang : "hu" , tts : Some ("japán postahivatal") , keywords : & ["japán" , "japán postahivatal" , "posta" , "épület"] , } , crate :: Annotation { lang : "hy" , tts : Some ("ճապոնական փոստատուն") , keywords : & ["ճապոնական" , "շենք" , "փոստատուն"] , } , crate :: Annotation { lang : "id" , tts : Some ("kantor pos Jepang") , keywords : & ["gedung" , "jepang" , "kantor pos Jepang" , "pos"] , } , crate :: Annotation { lang : "ig" , tts : Some ("ụlọ nzipu ozi Ndị Japan") , keywords : & ["Ndị Japan" , "nzipu" , "ụlọ nzipu ozi Ndị Japan"] , } , crate :: Annotation { lang : "is" , tts : Some ("japanskt pósthús") , keywords : & ["japan" , "japanskt pósthús" , "pósthús"] , } , crate :: Annotation { lang : "it" , tts : Some ("ufficio postale giapponese") , keywords : & ["edificio" , "giapponese" , "posta" , "ufficio postale" , "ufficio postale giapponese"] , } , crate :: Annotation { lang : "ja" , tts : Some ("郵便局") , keywords : & ["建物" , "郵便" , "郵便局"] , } , crate :: Annotation { lang : "jv" , tts : Some ("kantor pos ing Jepang") , keywords : & ["Jepang" , "kantor pos ing Jepang" , "pos"] , } , crate :: Annotation { lang : "ka" , tts : Some ("იაპონური საფოსტო განყოფილება") , keywords : & ["იაპონური" , "იაპონური საფოსტო განყოფილება" , "ფოსტა" , "შენობა"] , } , crate :: Annotation { lang : "kab" , tts : Some ("tanazent tajapunit") , keywords : & ["tanazent tajapunit"] , } , crate :: Annotation { lang : "kk" , tts : Some ("жапондық пошта") , keywords : & ["жапон" , "жапондық пошта" , "пошта" , "ғимарат"] , } , crate :: Annotation { lang : "kl" , tts : Some ("japansk posthus") , keywords : & ["japansk" , "posthus" , "postkontor"] , } , crate :: Annotation { lang : "km" , tts : Some ("ប\u{17c9}\u{17bb}ស\u{17d2}ត\u{17b7}\u{17cd}ប\u{17d2}រៃសន\u{17b8}យ\u{17cd}ជប\u{17c9}\u{17bb}ន") , keywords : & ["ប\u{17c9}\u{17bb}ស\u{17d2}ត\u{17b7}\u{17cd}ប\u{17d2}រៃសន\u{17b8}យ\u{17cd}ជប\u{17c9}\u{17bb}ន" , "ប\u{17d2}រៃសន\u{17b8}យ\u{17cd}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಜಪಾನೀಸ\u{ccd} ಅಂಚ\u{cc6} ಕಛೇರ\u{cbf}") , keywords : & ["ಅಂಚ\u{cc6} ಕಛೇರ\u{cbf}" , "ಜಪಾನೀಸ\u{ccd}" , "ಜಪಾನೀಸ\u{ccd} ಅಂಚ\u{cc6} ಕಛೇರ\u{cbf}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("일본 우체국") , keywords : & ["건물" , "우체국" , "일본"] , } , crate :: Annotation { lang : "kok" , tts : Some ("जपानी टपाल कच\u{947}री") , keywords : & ["जपानी" , "जपानी टपाल कच\u{947}री" , "टपाल"] , } , crate :: Annotation { lang : "ky" , tts : Some ("жапон почтасы") , keywords : & ["жапон почтасы" , "жапончо" , "имарат" , "почта"] , } , crate :: Annotation { lang : "lb" , tts : Some ("japanesche Postbüro") , keywords : & ["Post" , "japanesch" , "japanesche Postbüro"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຫ\u{ec9}ອງການໄປສະນ\u{eb5}ຍ\u{eb5}\u{ec8}ປ\u{eb8}\u{ec8}ນ") , keywords : & ["ຍ\u{eb5}\u{ec8}ປ\u{eb8}\u{ec8}ນ" , "ຫ\u{ec9}ອງການໄປສະນ\u{eb5}" , "ຫ\u{ec9}ອງການໄປສະນ\u{eb5}ຍ\u{eb5}\u{ec8}ປ\u{eb8}\u{ec8}ນ" , "ອາຄານ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("japoniškas paštas") , keywords : & ["japoniškas paštas" , "japonų" , "paštas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("japāņu pasta nodaļa") , keywords : & ["japāņu" , "japāņu pasta nodaļa" , "māja" , "pasts" , "ēka"] , } , crate :: Annotation { lang : "mi" , tts : Some ("poutāpeta Hapanīhi") , keywords : & ["Hapanīhi" , "poutāpeta Hapanīhi" , "pōhi"] , } , crate :: Annotation { lang : "mk" , tts : Some ("јапонска пошта") , keywords : & ["пошта" , "јапонска"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ജ\u{d3e}പ\u{d4d}പനീസ\u{d4d} പോസ\u{d4d}റ\u{d4d}റ\u{d4d} ഓഫീസ\u{d4d}") , keywords : & ["ഓഫീസ\u{d4d}" , "ജ\u{d3e}പ\u{d4d}പനീസ\u{d4d}" , "ജ\u{d3e}പ\u{d4d}പനീസ\u{d4d} പോസ\u{d4d}റ\u{d4d}റ\u{d4d} ഓഫീസ\u{d4d}" , "തപ\u{d3e}ൽ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("японы шуудан") , keywords : & ["барилга" , "шуудан" , "япон" , "японы шуудан"] , } , crate :: Annotation { lang : "mr" , tts : Some ("जपानी पोस\u{94d}ट ऑफिस") , keywords : & ["जपानी" , "जपानी पोस\u{94d}ट ऑफिस" , "पोस\u{94d}ट"] , } , crate :: Annotation { lang : "ms" , tts : Some ("Pejabat pos Jepun") , keywords : & ["Pejabat pos Jepun" , "bangunan" , "jepun" , "pos"] , } , crate :: Annotation { lang : "mt" , tts : Some ("uffiċċju tal-posta Ġappuniż") , keywords : & ["posta" , "uffiċċju tal-posta Ġappuniż" , "Ġappuniż"] , } , crate :: Annotation { lang : "my" , tts : Some ("ဂျပန\u{103a} စာတ\u{102d}\u{102f}က\u{103a}") , keywords : & ["ဂျပန\u{103a}" , "ဂျပန\u{103a}စာတ\u{102d}\u{102f}က\u{103a}" , "စာတ\u{102d}\u{102f}က\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("japansk postkontor") , keywords : & ["bygning" , "japansk" , "japansk postkontor" , "post"] , } , crate :: Annotation { lang : "ne" , tts : Some ("जापानिज ह\u{941}लाक") , keywords : & ["जापानिज ह\u{941}लाक" , "जापानी" , "ह\u{941}लाक"] , } , crate :: Annotation { lang : "nl" , tts : Some ("Japans postkantoor") , keywords : & ["Japans" , "Japans postkantoor" , "post"] , } , crate :: Annotation { lang : "nn" , tts : Some ("japansk postkontor") , keywords : & ["bygning" , "japansk" , "japansk postkontor" , "post"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଜ\u{b3e}ପ\u{b3e}ନୀ ଡ\u{b3e}କ ଘର") , keywords : & ["ଅଟ\u{b4d}ଟ\u{b3e}ଳ\u{b3f}କ\u{b3e}" , "ଜ\u{b3e}ପ\u{b3e}ନୀ" , "ଜ\u{b3e}ପ\u{b3e}ନୀ ଡ\u{b3e}କ ଘର" , "ଡ\u{b3e}କ" , "ଡ\u{b3e}କଘର"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਜਾਪਾਨੀ ਡਾਕਘਰ") , keywords : & ["ਇਮਾਰਤ" , "ਜਾਪਾਨੀ" , "ਜਾਪਾਨੀ ਡਾਕ ਘਰ" , "ਜਾਪਾਨੀ ਡਾਕਘਰ" , "ਡਾਕ" , "ਡਾਕ ਘਰ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("جاپانیاں دا ڈاکخانہ") , keywords : & ["جاپانی" , "جاپانیاں دا ڈاکخانہ" , "فوجی چوکی"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Japán Póst Ọ\u{301}fis") , keywords : & ["Japan" , "Japán Póst Ọ\u{301}fis" , "Post"] , } , crate :: Annotation { lang : "pl" , tts : Some ("japońska poczta") , keywords : & ["budynek" , "japońska poczta" , "poczta"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د جاپان پوستي دفتر") , keywords : & ["جاپاني" , "د جاپان پوستي دفتر" , "د جاپان پوستې دفتر" , "پوسته"] , } , crate :: Annotation { lang : "pt" , tts : Some ("correio japonês") , keywords : & ["correio" , "japonês" , "oriental" , "prédio"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("estação de correios japonesa") , keywords : & ["correios" , "edifício" , "estação de correios japonesa" , "japonês"] , } , crate :: Annotation { lang : "qu" , tts : Some ("Japónmanta oficina chaskipaq") , keywords : & ["Japones" , "Japónmanta oficina chaskipaq" , "chaski"] , } , crate :: Annotation { lang : "ro" , tts : Some ("oficiu poștal japonez") , keywords : & ["Japonia" , "oficiu poștal japonez" , "poștă"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-419") , keywords : & ["E10-419"] , } , crate :: Annotation { lang : "ru" , tts : Some ("японская почта") , keywords : & ["здание" , "почта" , "япония" , "японская почта"] , } , crate :: Annotation { lang : "rw" , tts : Some ("ibiro by’iposita by’ubuyapani") , keywords : & ["Umuyapani" , "ibiro by’iposita by’ubuyapani" , "icyapa"] , } , crate :: Annotation { lang : "sd" , tts : Some ("جاپاني پوسٽ آفيس") , keywords : & ["جاپاني پوسٽ آفيس" , "جاپاني، پوسٽ"] , } , crate :: Annotation { lang : "si" , tts : Some ("ජපන\u{dca} තැපැල\u{dca} ක\u{dcf}ර\u{dca}ය\u{dcf}ලය") , keywords : & ["ගොඩනැග\u{dd2}ල\u{dca}ල" , "ජපන\u{dca}" , "ජපන\u{dca} තැපැල\u{dca} ක\u{dcf}ර\u{dca}ය\u{dcf}ලය" , "තැපැල\u{dca} ක\u{dcf}ර\u{dca}ය\u{dcf}ලය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("japonská pošta") , keywords : & ["budova" , "japonská" , "pošta"] , } , crate :: Annotation { lang : "sl" , tts : Some ("japonska pošta") , keywords : & ["japonska pošta" , "japonsko" , "pošta" , "zgradba"] , } , crate :: Annotation { lang : "so" , tts : Some ("xafiiska boostada ee Jabbaanka") , keywords : & ["Jabbaanka" , "dir" , "xafiiska boostada ee Jabbaanka"] , } , crate :: Annotation { lang : "sq" , tts : Some ("zyrë postare japoneze") , keywords : & ["japonez" , "japoneze" , "ndërtesë" , "postë" , "zyrë postare japoneze"] , } , crate :: Annotation { lang : "sr" , tts : Some ("јапанска пошта") , keywords : & ["Jaпaн" , "пoштa" , "јапанска пошта"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["јапанска пошта"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("japanska pošta") , keywords : & ["Japan" , "japanska pošta" , "pošta"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["japanska pošta"] , } , crate :: Annotation { lang : "sv" , tts : Some ("japanskt postkontor") , keywords : & ["byggnad" , "japanskt postkontor" , "postkontor"] , } , crate :: Annotation { lang : "sw" , tts : Some ("posta ya japani") , keywords : & ["jengo" , "kijapani" , "posta" , "posta ya japani"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஜப\u{bcd}ப\u{bbe}ன\u{bcd} ந\u{bbe}ட\u{bcd}டின\u{bcd} அஞ\u{bcd}சல\u{bcd} அலுவலகம\u{bcd}") , keywords : & ["அஞ\u{bcd}சல\u{bcd} அலுவலகம\u{bcd}" , "கட\u{bcd}டிடம\u{bcd}" , "ஜப\u{bcd}ப\u{bbe}ன\u{bcd} ந\u{bbe}ட\u{bcd}டின\u{bcd} அஞ\u{bcd}சல\u{bcd} அலுவலகம\u{bcd}" , "போஸ\u{bcd}ட\u{bcd} ஆபிஸ\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("జపన\u{c40}యుల ప\u{c4b}స\u{c4d}ట\u{c3e}ఫ\u{c40}స\u{c4d}") , keywords : & ["జపన\u{c40}యుల ప\u{c4b}స\u{c4d}ట\u{c3e}ఫ\u{c40}స\u{c4d}" , "జప\u{c3e}న\u{c4d}" , "ప\u{c4b}స\u{c4d}ట\u{c3e}ఫ\u{c40}స\u{c4d}" , "భవనం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("идораи почтаи ҷопонӣ") , keywords : & ["идораи почтаи ҷопонӣ" , "почта" , "ҷопонӣ"] , } , crate :: Annotation { lang : "th" , tts : Some ("ไปรษณ\u{e35}ย\u{e4c}ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น") , keywords : & ["ต\u{e36}ก" , "ไปรษณ\u{e35}ย\u{e4c}ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น"] , } , crate :: Annotation { lang : "tk" , tts : Some ("Ýapon poçtasy") , keywords : & ["poçta" , "Ýapon" , "Ýapon poçtasy"] , } , crate :: Annotation { lang : "to" , tts : Some ("ʻōfisi lītohi fakasiapani") , keywords : & ["ʻōfisi lītohi fakasiapani"] , } , crate :: Annotation { lang : "tr" , tts : Some ("Japon postanesi") , keywords : & ["Japon" , "Japon postanesi" , "bina" , "posta"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ياپونچە پوچتىخانا") , keywords : & ["ياپونچە" , "پوچتىخانا"] , } , crate :: Annotation { lang : "uk" , tts : Some ("японське поштове відділення") , keywords : & ["будівля" , "пошта" , "японське поштове відділення" , "японський"] , } , crate :: Annotation { lang : "ur" , tts : Some ("جاپانی پوسٹ آفس") , keywords : & ["جاپانی" , "جاپانی پوسٹ آفس" , "عمارت" , "پوسٹ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("yaponcha pochtampt") , keywords : & ["bino" , "pochtampt" , "yapon" , "yaponcha pochtampt"] , } , crate :: Annotation { lang : "vi" , tts : Some ("bưu điện Nhật Bản") , keywords : & ["bưu điện" , "bưu điện Nhật Bản" , "kiểu Nhật"] , } , crate :: Annotation { lang : "wo" , tts : Some ("biro post ci sapoŋ") , keywords : & ["biro post ci sapoŋ" , "post" , "sapone"] , } , crate :: Annotation { lang : "xh" , tts : Some ("iposofi yaseJapan") , keywords : & ["iposi" , "iposofi yaseJapan" , "yaseJapan"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Ile-iṣẹ Ifiweranṣẹ Japani") , keywords : & ["Ile-iṣẹ Ifiweranṣẹ Japani" , "Japani" , "ìfiránṣẹ\u{301}"] , } , crate :: Annotation { lang : "yue" , tts : Some ("日式郵局") , keywords : & ["日式" , "日式郵局" , "郵政"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("日式邮局") , keywords : & ["日式" , "日式邮局" , "邮政"] , } , crate :: Annotation { lang : "zh" , tts : Some ("日本邮局") , keywords : & ["日本" , "日本邮局" , "邮局"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("日本郵局") , keywords : & ["日本郵局" , "郵局"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "zu" , tts : Some ("iposi lama-japanese") , keywords : & ["iposi" , "iposi lama-japanese" , "isakhiwo" , "japanese"] , }] , } ;
+pub const JAPANESE_POST_OFFICE: crate::Emoji = crate::Emoji {
+    glyph: "🏣",
+    codepoint: "1F3E3",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "Japanese post office",
+    group: "Travel & Places",
+    subgroup: "place-building",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("japanse poskantoor"),
+            keywords: &["gebou", "japannees", "japanse poskantoor", "pos"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የጃፓን ፖስታ ቤት"),
+            keywords: &["ሕንጻ", "የጃፓን", "የጃፓን ፖስታ ቤት", "ፖስታ ቤት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مكتب بريد ياباني"),
+            keywords: &["بريد", "مكتب بريد", "مكتب بريد ياباني"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("জ\u{9be}প\u{9be}নী ড\u{9be}ক ঘৰ"),
+            keywords: &[
+                "জ\u{9be}প\u{9be}নী",
+                "জ\u{9be}প\u{9be}নী ড\u{9be}ক ঘৰ",
+                "ড\u{9be}ক",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("yapon poçt idarəsi"),
+            keywords: &["bina", "poçt", "yapon", "yapon poçt idarəsi"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("японскі паштамт"),
+            keywords: &["будынак", "пошта", "юбінкёку", "японскі", "японскі паштамт"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("японска поща"),
+            keywords: &["поща", "сграда", "японска поща", "японски"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("জ\u{9be}প\u{9be}নি পোস\u{9cd}ট অফিস"),
+            keywords: &[
+                "জ\u{9be}প\u{9be}নি",
+                "জ\u{9be}প\u{9be}নি পোস\u{9cd}ট অফিস",
+                "পোস\u{9cd}ট",
+                "বিল\u{9cd}ডিং",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("ti-post japanat"),
+            keywords: &["japanat", "post", "ti-post"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("japanska pošta"),
+            keywords: &["japanska", "pošta", "zgrada"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("oficina de correus japonesa"),
+            keywords: &[
+                "correus",
+                "japonesa",
+                "oficina",
+                "oficina de correus japonesa",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏣᏩᏂᏏ ᎪᏪᎵ ᏧᏂᏍᏚᎢᏍᏗ"),
+            keywords: &["ᎪᏪᎵ ᏗᎦᏁᏍᏗᎢ", "ᏣᏩᏂᏏ ᎪᏪᎵ ᏧᏂᏍᏚᎢᏍᏗ", "ᏣᏱᏂᏏ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("japonská pošta"),
+            keywords: &["budova", "japonská pošta", "japonský", "pošta"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("swyddfa bost Japaneaidd"),
+            keywords: &["Japaneaidd", "adeilad", "post", "swyddfa bost Japaneaidd"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("japansk posthus"),
+            keywords: &["japansk", "posthus", "postkontor"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("japanisches Postgebäude"),
+            keywords: &["Japan", "Post", "japanisches Postgebäude"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ιαπωνικό ταχυδρομείο"),
+            keywords: &["ιαπωνικό", "κτίριο", "ταχυδρομείο"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("Japanese post office"),
+            keywords: &["Japanese", "Japanese post office", "post"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("oficina de correos japonesa"),
+            keywords: &[
+                "correos",
+                "edificio",
+                "japón",
+                "oficina de correos",
+                "oficina de correos japonesa",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("oficina de correo japonesa"),
+            keywords: &[
+                "correo",
+                "edificio",
+                "oficina",
+                "oficina de correo japonesa",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("Jaapani postkontor"),
+            keywords: &["Jaapani postkontor", "hoone", "post"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("japoniako postetxea"),
+            keywords: &["eraikin", "japonia", "japoniako postetxea", "posta"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("پست\u{200c}خانه\u{654} ژاپنی"),
+            keywords: &["ساختمان", "پست", "پست\u{200c}خانه\u{654} ژاپنی", "ژاپنی"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("japanilainen postitoimisto"),
+            keywords: &["Japani", "japanilainen postitoimisto", "posti", "rakennus"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("japanese post office"),
+            keywords: &["gusali", "japanese", "japanese post office", "post office"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("japanskt posthús"),
+            keywords: &["japanskt", "posthús", "poststova", "postverk"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("bureau de poste japonais"),
+            keywords: &["Japon", "bureau de poste japonais", "bâtiment", "poste"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "bureau de poste japonais",
+                "bâtiment",
+                "japon",
+                "poste",
+                "poste japonaise",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("oifig an phoist de chuid na Seapáine"),
+            keywords: &[
+                "oifig an phoist",
+                "oifig an phoist Seapánach",
+                "oifig an phoist de chuid na Seapáine",
+                "post",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("oifis-puist Sheapanach"),
+            keywords: &["iapanach", "oifis-puist Sheapanach", "post", "seapanach"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("oficina de correos xaponesa"),
+            keywords: &[
+                "correo",
+                "correo postal",
+                "edificio",
+                "oficina",
+                "oficina de correos xaponesa",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("જાપાની પોસ\u{acd}ટ ઑફિસ"),
+            keywords: &[
+                "ઈમારત",
+                "જાપાની",
+                "જાપાની પોસ\u{acd}ટ ઑફિસ",
+                "પોસ\u{acd}ટ",
+                "પોસ\u{acd}ટ ઑફિસ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("gidan waya Na Japan"),
+            keywords: &["Na Japan", "gidan waya", "gidan waya Na Japan"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("בית דואר ביפן"),
+            keywords: &["בית דואר ביפן", "בניין", "דואר יפן"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("जापानी डाकघर, डाक भवन"),
+            keywords: &["जापानी", "जापानी डाकघर, डाक भवन", "डाक", "डाकघर", "भवन"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("japanski poštanski ured"),
+            keywords: &["japan", "japanski poštanski ured", "pošta", "zgrada"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("japán postahivatal"),
+            keywords: &["japán", "japán postahivatal", "posta", "épület"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("ճապոնական փոստատուն"),
+            keywords: &["ճապոնական", "շենք", "փոստատուն"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("kantor pos Jepang"),
+            keywords: &["gedung", "jepang", "kantor pos Jepang", "pos"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ụlọ nzipu ozi Ndị Japan"),
+            keywords: &["Ndị Japan", "nzipu", "ụlọ nzipu ozi Ndị Japan"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("japanskt pósthús"),
+            keywords: &["japan", "japanskt pósthús", "pósthús"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("ufficio postale giapponese"),
+            keywords: &[
+                "edificio",
+                "giapponese",
+                "posta",
+                "ufficio postale",
+                "ufficio postale giapponese",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("郵便局"),
+            keywords: &["建物", "郵便", "郵便局"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("kantor pos ing Jepang"),
+            keywords: &["Jepang", "kantor pos ing Jepang", "pos"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("იაპონური საფოსტო განყოფილება"),
+            keywords: &[
+                "იაპონური",
+                "იაპონური საფოსტო განყოფილება",
+                "ფოსტა",
+                "შენობა",
+            ],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tanazent tajapunit"),
+            keywords: &["tanazent tajapunit"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("жапондық пошта"),
+            keywords: &["жапон", "жапондық пошта", "пошта", "ғимарат"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("japansk posthus"),
+            keywords: &["japansk", "posthus", "postkontor"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some(
+                "ប\u{17c9}\u{17bb}ស\u{17d2}ត\u{17b7}\u{17cd}ប\u{17d2}រៃសន\u{17b8}យ\u{17cd}ជប\u{17c9}\u{17bb}ន",
+            ),
+            keywords: &[
+                "ប\u{17c9}\u{17bb}ស\u{17d2}ត\u{17b7}\u{17cd}ប\u{17d2}រៃសន\u{17b8}យ\u{17cd}ជប\u{17c9}\u{17bb}ន",
+                "ប\u{17d2}រៃសន\u{17b8}យ\u{17cd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಜಪಾನೀಸ\u{ccd} ಅಂಚ\u{cc6} ಕಛೇರ\u{cbf}"),
+            keywords: &[
+                "ಅಂಚ\u{cc6} ಕಛೇರ\u{cbf}",
+                "ಜಪಾನೀಸ\u{ccd}",
+                "ಜಪಾನೀಸ\u{ccd} ಅಂಚ\u{cc6} ಕಛೇರ\u{cbf}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("일본 우체국"),
+            keywords: &["건물", "우체국", "일본"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("जपानी टपाल कच\u{947}री"),
+            keywords: &["जपानी", "जपानी टपाल कच\u{947}री", "टपाल"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("жапон почтасы"),
+            keywords: &["жапон почтасы", "жапончо", "имарат", "почта"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("japanesche Postbüro"),
+            keywords: &["Post", "japanesch", "japanesche Postbüro"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຫ\u{ec9}ອງການໄປສະນ\u{eb5}ຍ\u{eb5}\u{ec8}ປ\u{eb8}\u{ec8}ນ"),
+            keywords: &[
+                "ຍ\u{eb5}\u{ec8}ປ\u{eb8}\u{ec8}ນ",
+                "ຫ\u{ec9}ອງການໄປສະນ\u{eb5}",
+                "ຫ\u{ec9}ອງການໄປສະນ\u{eb5}ຍ\u{eb5}\u{ec8}ປ\u{eb8}\u{ec8}ນ",
+                "ອາຄານ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("japoniškas paštas"),
+            keywords: &["japoniškas paštas", "japonų", "paštas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("japāņu pasta nodaļa"),
+            keywords: &["japāņu", "japāņu pasta nodaļa", "māja", "pasts", "ēka"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("poutāpeta Hapanīhi"),
+            keywords: &["Hapanīhi", "poutāpeta Hapanīhi", "pōhi"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("јапонска пошта"),
+            keywords: &["пошта", "јапонска"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ജ\u{d3e}പ\u{d4d}പനീസ\u{d4d} പോസ\u{d4d}റ\u{d4d}റ\u{d4d} ഓഫീസ\u{d4d}"),
+            keywords: &[
+                "ഓഫീസ\u{d4d}",
+                "ജ\u{d3e}പ\u{d4d}പനീസ\u{d4d}",
+                "ജ\u{d3e}പ\u{d4d}പനീസ\u{d4d} പോസ\u{d4d}റ\u{d4d}റ\u{d4d} ഓഫീസ\u{d4d}",
+                "തപ\u{d3e}ൽ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("японы шуудан"),
+            keywords: &["барилга", "шуудан", "япон", "японы шуудан"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("जपानी पोस\u{94d}ट ऑफिस"),
+            keywords: &["जपानी", "जपानी पोस\u{94d}ट ऑफिस", "पोस\u{94d}ट"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("Pejabat pos Jepun"),
+            keywords: &["Pejabat pos Jepun", "bangunan", "jepun", "pos"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("uffiċċju tal-posta Ġappuniż"),
+            keywords: &["posta", "uffiċċju tal-posta Ġappuniż", "Ġappuniż"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ဂျပန\u{103a} စာတ\u{102d}\u{102f}က\u{103a}"),
+            keywords: &[
+                "ဂျပန\u{103a}",
+                "ဂျပန\u{103a}စာတ\u{102d}\u{102f}က\u{103a}",
+                "စာတ\u{102d}\u{102f}က\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("japansk postkontor"),
+            keywords: &["bygning", "japansk", "japansk postkontor", "post"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("जापानिज ह\u{941}लाक"),
+            keywords: &["जापानिज ह\u{941}लाक", "जापानी", "ह\u{941}लाक"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("Japans postkantoor"),
+            keywords: &["Japans", "Japans postkantoor", "post"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("japansk postkontor"),
+            keywords: &["bygning", "japansk", "japansk postkontor", "post"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଜ\u{b3e}ପ\u{b3e}ନୀ ଡ\u{b3e}କ ଘର"),
+            keywords: &[
+                "ଅଟ\u{b4d}ଟ\u{b3e}ଳ\u{b3f}କ\u{b3e}",
+                "ଜ\u{b3e}ପ\u{b3e}ନୀ",
+                "ଜ\u{b3e}ପ\u{b3e}ନୀ ଡ\u{b3e}କ ଘର",
+                "ଡ\u{b3e}କ",
+                "ଡ\u{b3e}କଘର",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਜਾਪਾਨੀ ਡਾਕਘਰ"),
+            keywords: &[
+                "ਇਮਾਰਤ",
+                "ਜਾਪਾਨੀ",
+                "ਜਾਪਾਨੀ ਡਾਕ ਘਰ",
+                "ਜਾਪਾਨੀ ਡਾਕਘਰ",
+                "ਡਾਕ",
+                "ਡਾਕ ਘਰ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("جاپانیاں دا ڈاکخانہ"),
+            keywords: &["جاپانی", "جاپانیاں دا ڈاکخانہ", "فوجی چوکی"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Japán Póst Ọ\u{301}fis"),
+            keywords: &["Japan", "Japán Póst Ọ\u{301}fis", "Post"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("japońska poczta"),
+            keywords: &["budynek", "japońska poczta", "poczta"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د جاپان پوستي دفتر"),
+            keywords: &[
+                "جاپاني",
+                "د جاپان پوستي دفتر",
+                "د جاپان پوستې دفتر",
+                "پوسته",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("correio japonês"),
+            keywords: &["correio", "japonês", "oriental", "prédio"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("estação de correios japonesa"),
+            keywords: &[
+                "correios",
+                "edifício",
+                "estação de correios japonesa",
+                "japonês",
+            ],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("Japónmanta oficina chaskipaq"),
+            keywords: &["Japones", "Japónmanta oficina chaskipaq", "chaski"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("oficiu poștal japonez"),
+            keywords: &["Japonia", "oficiu poștal japonez", "poștă"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-419"),
+            keywords: &["E10-419"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("японская почта"),
+            keywords: &["здание", "почта", "япония", "японская почта"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("ibiro by’iposita by’ubuyapani"),
+            keywords: &["Umuyapani", "ibiro by’iposita by’ubuyapani", "icyapa"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("جاپاني پوسٽ آفيس"),
+            keywords: &["جاپاني پوسٽ آفيس", "جاپاني، پوسٽ"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ජපන\u{dca} තැපැල\u{dca} ක\u{dcf}ර\u{dca}ය\u{dcf}ලය"),
+            keywords: &[
+                "ගොඩනැග\u{dd2}ල\u{dca}ල",
+                "ජපන\u{dca}",
+                "ජපන\u{dca} තැපැල\u{dca} ක\u{dcf}ර\u{dca}ය\u{dcf}ලය",
+                "තැපැල\u{dca} ක\u{dcf}ර\u{dca}ය\u{dcf}ලය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("japonská pošta"),
+            keywords: &["budova", "japonská", "pošta"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("japonska pošta"),
+            keywords: &["japonska pošta", "japonsko", "pošta", "zgradba"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("xafiiska boostada ee Jabbaanka"),
+            keywords: &["Jabbaanka", "dir", "xafiiska boostada ee Jabbaanka"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("zyrë postare japoneze"),
+            keywords: &[
+                "japonez",
+                "japoneze",
+                "ndërtesë",
+                "postë",
+                "zyrë postare japoneze",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("јапанска пошта"),
+            keywords: &["Jaпaн", "пoштa", "јапанска пошта"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["јапанска пошта"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("japanska pošta"),
+            keywords: &["Japan", "japanska pošta", "pošta"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["japanska pošta"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("japanskt postkontor"),
+            keywords: &["byggnad", "japanskt postkontor", "postkontor"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("posta ya japani"),
+            keywords: &["jengo", "kijapani", "posta", "posta ya japani"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some(
+                "ஜப\u{bcd}ப\u{bbe}ன\u{bcd} ந\u{bbe}ட\u{bcd}டின\u{bcd} அஞ\u{bcd}சல\u{bcd} அலுவலகம\u{bcd}",
+            ),
+            keywords: &[
+                "அஞ\u{bcd}சல\u{bcd} அலுவலகம\u{bcd}",
+                "கட\u{bcd}டிடம\u{bcd}",
+                "ஜப\u{bcd}ப\u{bbe}ன\u{bcd} ந\u{bbe}ட\u{bcd}டின\u{bcd} அஞ\u{bcd}சல\u{bcd} அலுவலகம\u{bcd}",
+                "போஸ\u{bcd}ட\u{bcd} ஆபிஸ\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("జపన\u{c40}యుల ప\u{c4b}స\u{c4d}ట\u{c3e}ఫ\u{c40}స\u{c4d}"),
+            keywords: &[
+                "జపన\u{c40}యుల ప\u{c4b}స\u{c4d}ట\u{c3e}ఫ\u{c40}స\u{c4d}",
+                "జప\u{c3e}న\u{c4d}",
+                "ప\u{c4b}స\u{c4d}ట\u{c3e}ఫ\u{c40}స\u{c4d}",
+                "భవనం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("идораи почтаи ҷопонӣ"),
+            keywords: &["идораи почтаи ҷопонӣ", "почта", "ҷопонӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ไปรษณ\u{e35}ย\u{e4c}ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น"),
+            keywords: &[
+                "ต\u{e36}ก",
+                "ไปรษณ\u{e35}ย\u{e4c}ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("Ýapon poçtasy"),
+            keywords: &["poçta", "Ýapon", "Ýapon poçtasy"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("ʻōfisi lītohi fakasiapani"),
+            keywords: &["ʻōfisi lītohi fakasiapani"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("Japon postanesi"),
+            keywords: &["Japon", "Japon postanesi", "bina", "posta"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ياپونچە پوچتىخانا"),
+            keywords: &["ياپونچە", "پوچتىخانا"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("японське поштове відділення"),
+            keywords: &[
+                "будівля",
+                "пошта",
+                "японське поштове відділення",
+                "японський",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("جاپانی پوسٹ آفس"),
+            keywords: &["جاپانی", "جاپانی پوسٹ آفس", "عمارت", "پوسٹ"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("yaponcha pochtampt"),
+            keywords: &["bino", "pochtampt", "yapon", "yaponcha pochtampt"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("bưu điện Nhật Bản"),
+            keywords: &["bưu điện", "bưu điện Nhật Bản", "kiểu Nhật"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("biro post ci sapoŋ"),
+            keywords: &["biro post ci sapoŋ", "post", "sapone"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("iposofi yaseJapan"),
+            keywords: &["iposi", "iposofi yaseJapan", "yaseJapan"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Ile-iṣẹ Ifiweranṣẹ Japani"),
+            keywords: &["Ile-iṣẹ Ifiweranṣẹ Japani", "Japani", "ìfiránṣẹ\u{301}"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("日式郵局"),
+            keywords: &["日式", "日式郵局", "郵政"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("日式邮局"),
+            keywords: &["日式", "日式邮局", "邮政"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("日本邮局"),
+            keywords: &["日本", "日本邮局", "邮局"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("日本郵局"),
+            keywords: &["日本郵局", "郵局"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("iposi lama-japanese"),
+            keywords: &["iposi", "iposi lama-japanese", "isakhiwo", "japanese"],
+        },
+    ],
+};
 #[doc = "🏤"]
 pub const POST_OFFICE: crate::Emoji = crate::Emoji {
     glyph: "🏤",

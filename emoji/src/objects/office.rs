@@ -1275,9 +1275,1593 @@ pub const FILE_FOLDER: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "📂"]
-pub const OPEN_FILE_FOLDER : crate :: Emoji = crate :: Emoji { glyph : "📂" , codepoint : "1F4C2" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "open file folder" , group : "Objects" , subgroup : "office" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("oop lêervouer") , keywords : & ["lêer" , "oop" , "oop lêervouer" , "vouer"] , } , crate :: Annotation { lang : "am" , tts : Some ("ክፍት የፋይል አቃፊ") , keywords : & ["አቃፊ" , "ክፍት" , "ክፍት የፋይል አቃፊ" , "ፋይል"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مجلد مفتوح") , keywords : & ["مجلد" , "مجلد ملفات مفتوح" , "مفتوح" , "ملف"] , } , crate :: Annotation { lang : "as" , tts : Some ("খোল\u{9be} ফ\u{9be}ইল ফ’ল\u{9cd}ড\u{9be}ৰ") , keywords : & ["খোল\u{9be}" , "ফ\u{9be}ইল" , "ফ’ল\u{9cd}ড\u{9be}ৰ"] , } , crate :: Annotation { lang : "az" , tts : Some ("açıq fayl qovluğu") , keywords : & ["açıq" , "açıq fayl qovluğu" , "fayl" , "qovluq"] , } , crate :: Annotation { lang : "be" , tts : Some ("адкрытая папка для файлаў") , keywords : & ["адкрытая" , "адкрытая папка для файлаў" , "папка" , "файл"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Отворена папка") , keywords : & ["Отворена папка" , "отворен" , "папка"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ফ\u{9be}ইল ফোল\u{9cd}ড\u{9be}র খোল\u{9be}") , keywords : & ["খোল\u{9be}" , "ফ\u{9be}ইল" , "ফোল\u{9cd}ড\u{9be}র"] , } , crate :: Annotation { lang : "br" , tts : Some ("kleurenn digor") , keywords : & ["digor" , "kleurenn" , "teuliad"] , } , crate :: Annotation { lang : "bs" , tts : Some ("otvorena fascikla") , keywords : & ["fajl" , "fascikla" , "otvorena fascikla" , "otvoreno"] , } , crate :: Annotation { lang : "ca" , tts : Some ("carpeta de fitxers oberta") , keywords : & ["arxius" , "carpeta" , "carpeta de fitxers oberta" , "carpeta d’arxius oberta" , "fitxers" , "oberta"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎯᏍᏚᎢ ᎠᏍᏆᏂᎪᏙᏗ ᎠᏰᏈᏛᏍᎩ") , keywords : & ["ᎠᏍᏆᏂᎪᏛᎢ" , "ᎠᏍᏚᎢᏓ" , "ᎯᏍᏚᎢ ᎠᏍᏆᏂᎪᏙᏗ ᎠᏰᏈᏛᏍᎩ" , "ᏗᏴᏈᏛᎥᏍᎩ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("otevřená složka") , keywords : & ["dokumenty" , "otevřená složka" , "otevřený" , "složka"] , } , crate :: Annotation { lang : "cy" , tts : Some ("agor ffolder ffeiliau") , keywords : & ["agor" , "agor ffolder ffeiliau" , "ffeil" , "ffolder"] , } , crate :: Annotation { lang : "da" , tts : Some ("åben mappe") , keywords : & ["dokument" , "åben mappe"] , } , crate :: Annotation { lang : "de" , tts : Some ("geöffneter Ordner") , keywords : & ["Dokument" , "Ordner" , "geöffneter Ordner" , "offen"] , } , crate :: Annotation { lang : "el" , tts : Some ("ανοικτός φάκελος αρχείων") , keywords : & ["ανοικτός φάκελος αρχείων" , "ανοιχτός" , "αρχείο" , "φάκελος"] , } , crate :: Annotation { lang : "en" , tts : Some ("open file folder") , keywords : & ["file" , "folder" , "open"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("carpeta de archivos abierta") , keywords : & ["abierta" , "archivo" , "carpeta" , "carpeta de archivos abierta"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("avatud kaust") , keywords : & ["avatud" , "dokument" , "fail" , "kaust"] , } , crate :: Annotation { lang : "eu" , tts : Some ("fitxategi-sailkatzaile irekia") , keywords : & ["fitxategi" , "fitxategi-sailkatzaile irekia" , "irekita" , "karpeta"] , } , crate :: Annotation { lang : "fa" , tts : Some ("پوشه\u{654} باز") , keywords : & ["باز" , "فایل" , "پوشه" , "پوشه\u{654} باز"] , } , crate :: Annotation { lang : "fi" , tts : Some ("avoin tiedostokansio") , keywords : & ["avoin" , "avoin tiedostokansio" , "kansio" , "tiedosto"] , } , crate :: Annotation { lang : "fil" , tts : Some ("nakabukas na file folder") , keywords : & ["file" , "folder" , "nakabukas" , "nakabukas na file folder"] , } , crate :: Annotation { lang : "fo" , tts : Some ("opin skjalalummi") , keywords : & ["faldari" , "fíl" , "lummi i skjalalummi" , "mappa" , "opin" , "opin skjalalummi" , "skjalamappa"] , } , crate :: Annotation { lang : "fr" , tts : Some ("dossier ouvert") , keywords : & ["dossier" , "dossier ouvert"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("fillteán oscailte") , keywords : & ["comhad" , "fillteán" , "oscailte"] , } , crate :: Annotation { lang : "gd" , tts : Some ("pasgan fhaidhlichean fosgailte") , keywords : & ["faidhle" , "fosgailte" , "pasgan" , "pasgan fhaidhlichean fosgailte"] , } , crate :: Annotation { lang : "gl" , tts : Some ("cartafol aberto") , keywords : & ["aberto" , "carpeta" , "cartafol aberto" , "documentos"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ખ\u{ac1}લ\u{acd}લ\u{ac1}\u{a82} ફાઇલ ફોલ\u{acd}ડર") , keywords : & ["ખ\u{ac1}લ\u{acd}લ\u{ac1}\u{a82}" , "ફાઇલ" , "ફોલ\u{acd}ડર"] , } , crate :: Annotation { lang : "ha" , tts : Some ("buɗaɗɗiyar foldar fayil") , keywords : & ["buɗaɗɗe" , "buɗaɗɗiyar foldar fayil" , "fayil" , "folda"] , } , crate :: Annotation { lang : "he" , tts : Some ("תיקיית מסמכים פתוחה") , keywords : & ["מסמכים" , "פתוחה" , "תיקייה" , "תיקיית מסמכים פתוחה"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ख\u{941}ला फ\u{93c}ाइल फ\u{93c}ोल\u{94d}डर") , keywords : & ["ख\u{941}ला" , "फ\u{93c}ाइल" , "फ\u{93c}ोल\u{94d}डर"] , } , crate :: Annotation { lang : "hr" , tts : Some ("otvorena mapa") , keywords : & ["mapa" , "otvorena mapa" , "otvoreno"] , } , crate :: Annotation { lang : "hu" , tts : Some ("nyitott fájlmappa") , keywords : & ["fájl" , "mappa" , "nyitott" , "nyitott fájlmappa"] , } , crate :: Annotation { lang : "hy" , tts : Some ("բաց թղթապանակ") , keywords : & ["բաց" , "թղթապանակ" , "ֆայլ"] , } , crate :: Annotation { lang : "id" , tts : Some ("folder file terbuka") , keywords : & ["file" , "folder" , "terbuka"] , } , crate :: Annotation { lang : "ig" , tts : Some ("mepee foldà faịlụ") , keywords : & ["failụ" , "foldà" , "mepee" , "mepee foldà faịlụ"] , } , crate :: Annotation { lang : "is" , tts : Some ("opin mappa") , keywords : & ["opin mappa" , "opin skráamappa"] , } , crate :: Annotation { lang : "it" , tts : Some ("cartella aperta") , keywords : & ["aperta" , "cartella" , "file"] , } , crate :: Annotation { lang : "ja" , tts : Some ("開いたフォルダー") , keywords : & ["ファイル" , "フォルダー" , "文具" , "文房具" , "開いたフォルダー"] , } , crate :: Annotation { lang : "jv" , tts : Some ("map berkas mbukak") , keywords : & ["berkas" , "map" , "mbukak"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ღია საქაღალდე") , keywords : & ["საქაღალდე" , "ფაილი" , "ღია"] , } , crate :: Annotation { lang : "kab" , tts : Some ("ldi akaram n ufaylu") , keywords : & ["ldi akaram n ufaylu"] , } , crate :: Annotation { lang : "kk" , tts : Some ("файл қалтасын ашу") , keywords : & ["ашық" , "файл" , "файл қалтасын ашу" , "қалта"] , } , crate :: Annotation { lang : "kl" , tts : Some ("åben mappe") , keywords : & ["dokument" , "åben mappe"] , } , crate :: Annotation { lang : "km" , tts : Some ("ស\u{17ca}\u{17ba}ម\u{17c9}\u{17b8}បើក") , keywords : & ["ថត" , "បើក" , "ស\u{17ca}\u{17ba}ម\u{17c9}\u{17b8}បើក" , "ឯកសារ"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ತ\u{cc6}ರ\u{cc6}ದ ಫೈಲ\u{ccd} ಫೋಲ\u{ccd}ಡ\u{ccd}ಡರ\u{ccd}") , keywords : & ["ತ\u{cc6}ರ\u{cc6}ದ" , "ತ\u{cc6}ರ\u{cc6}ದ ಫೈಲ\u{ccd} ಫೋಲ\u{ccd}ಡ\u{ccd}ಡರ\u{ccd}" , "ಫೈಲ\u{ccd}" , "ಫೋಲ\u{ccd}ಡರ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("폴더 열기") , keywords : & ["열기" , "열린 폴더" , "파일" , "폴더"] , } , crate :: Annotation { lang : "kok" , tts : Some ("फायल फोल\u{94d}डर उगडचो") , keywords : & ["उगडचो" , "फायल" , "फोल\u{94d}डर"] , } , crate :: Annotation { lang : "ky" , tts : Some ("файл куржунун ачуу") , keywords : & ["ачуу" , "куржун" , "файл" , "файл куржунун ачуу"] , } , crate :: Annotation { lang : "lb" , tts : Some ("oppene Fichiersdossier") , keywords : & ["Dossier" , "Fichier" , "oppen" , "oppene Fichiersdossier"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ເປ\u{eb5}ດເອກະສານ") , keywords : & ["ເປ\u{eb5}ດ" , "ເປ\u{eb5}ດເອກະສານ" , "ເອກະສານ" , "ແຟ\u{ec9}ມ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("atidarytas failų aplankas") , keywords : & ["aplankas" , "atidarytas" , "atidarytas failų aplankas" , "failas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("atvērta dokumentu mape") , keywords : & ["atvērta dokumentu mape" , "atvērts" , "dokuments" , "mape"] , } , crate :: Annotation { lang : "mi" , tts : Some ("kōpaki kōnae tuwhera") , keywords : & ["kōnae" , "kōpaki" , "tuwhera"] , } , crate :: Annotation { lang : "mk" , tts : Some ("отворена папка") , keywords : & ["отворена" , "папка"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ത\u{d41}റന\u{d4d}ന ഫയൽ ഫോൾഡർ") , keywords : & ["ത\u{d41}റക\u{d4d}ക\u{d41}ക" , "ത\u{d41}റന\u{d4d}ന ഫയൽ ഫോൾഡർ" , "ത\u{d41}റന\u{d4d}ന ഫോൾഡർ" , "ഫയൽ" , "ഫോൾഡർ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("онгорхой файлын хавтас") , keywords : & ["нээх" , "онгорхой файлын хавтас" , "файл" , "хавтас"] , } , crate :: Annotation { lang : "mr" , tts : Some ("ख\u{941}ल\u{947} फाईल फोल\u{94d}डर") , keywords : & ["उघडा" , "ख\u{941}ल\u{947} फाइल फोल\u{94d}डर" , "ख\u{941}ल\u{947} फाईल फोल\u{94d}डर" , "फाइल" , "फोल\u{94d}डर"] , } , crate :: Annotation { lang : "ms" , tts : Some ("folder buka fail") , keywords : & ["fail" , "folder" , "folder buka fail" , "terbuka"] , } , crate :: Annotation { lang : "mt" , tts : Some ("fowlder tal-fajls miftuħ") , keywords : & ["fajl" , "fowlder" , "fowlder tal-fajls miftuħ" , "miftuħ"] , } , crate :: Annotation { lang : "my" , tts : Some ("ဖ\u{103d}င\u{1037}\u{103a}ထားသည\u{1037}\u{103a} ဖ\u{102d}\u{102f}င\u{103a}တ\u{103d}\u{1032}") , keywords : & ["ဖ\u{102d}\u{102f}င\u{103a}" , "ဖ\u{102d}\u{102f}င\u{103a}တ\u{103d}\u{1032}" , "ဖ\u{103d}င\u{1037}\u{103a}ထားသည\u{1037}\u{103a} ဖ\u{102d}\u{102f}င\u{103a}တ\u{103d}\u{1032}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("åpen arkivmappe") , keywords : & ["arkivmappe" , "fil" , "filmappe" , "mappe" , "åpen"] , } , crate :: Annotation { lang : "ne" , tts : Some ("ख\u{941}ला फाइलको फोल\u{94d}डर") , keywords : & ["ख\u{941}ला फाइलको फोल\u{94d}डर" , "खोल\u{94d}न" , "फाइल" , "फोल\u{94d}डर"] , } , crate :: Annotation { lang : "nl" , tts : Some ("geopende map") , keywords : & ["bestand" , "geopende map" , "map" , "open"] , } , crate :: Annotation { lang : "nn" , tts : Some ("open arkivmappe") , keywords : & ["arkimappe" , "fil" , "filmappe" , "mappe" , "open" , "open arkivmappe"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଖୋଲ\u{b3e} ଫ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋଲ\u{b4d}ଡର") , keywords : & ["ଖୋଲ\u{b3e}" , "ଖୋଲ\u{b3e} ଫ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋଲ\u{b4d}ଡର" , "ଫ\u{b3e}ଇଲ\u{b4d}" , "ଫୋଲ\u{b4d}ଡର\u{b4d}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਖ\u{a41}\u{a71}ਲ\u{a4d}ਹਾ ਫ\u{a3c}ਾਈਲ ਫ\u{a4b}ਲਡਰ") , keywords : & ["ਖ\u{a41}\u{a71}ਲ\u{a4d}ਹਾ ਫ\u{a3c}ਾਈਲ ਫ\u{a4b}ਲਡਰ" , "ਖ\u{a4b}ਲ\u{a4d}ਹ\u{a4b}" , "ਫਾਇਲ" , "ਫ\u{a4b}ਲਡਰ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("فائل دا فولڈر کھولو") , keywords : & ["فائل" , "فائل دا فولڈر کھولو" , "فولڈر" , "ک\u{64f}ھلا"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Ópún Faíl Fólda") , keywords : & ["Fail" , "Fólda" , "Ópun" , "Ópún Faíl Fólda"] , } , crate :: Annotation { lang : "pl" , tts : Some ("otwarty folder") , keywords : & ["folder" , "katalog" , "otwarty"] , } , crate :: Annotation { lang : "ps" , tts : Some ("دوتنه پوښۍ خلاص") , keywords : & ["خلاص" , "دوتنه" , "پوښۍ"] , } , crate :: Annotation { lang : "pt" , tts : Some ("pasta de arquivos aberta") , keywords : & ["aberta" , "arquivo" , "pasta" , "pasta de arquivos aberta"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("pasta de arquivo aberta") , keywords : & ["aberta" , "arquivo" , "pasta" , "pasta de arquivo aberta"] , } , crate :: Annotation { lang : "ro" , tts : Some ("dosar de arhivare deschis") , keywords : & ["deschis" , "dosar" , "dosar de arhivare deschis" , "fișier"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-639") , keywords : & ["E10-639"] , } , crate :: Annotation { lang : "ru" , tts : Some ("открытая папка") , keywords : & ["бумаги" , "документы" , "открытая" , "папка"] , } , crate :: Annotation { lang : "rw" , tts : Some ("gufungura ububiko bwa dosiye") , keywords : & ["bwa dosiye" , "gufungura" , "gufungura ububiko bwa dosiye" , "ububiko"] , } , crate :: Annotation { lang : "sd" , tts : Some ("کليل فائل فولڊر") , keywords : & ["فائيل" , "فولڊر" , "کليل" , "کليل فائل فولڊر"] , } , crate :: Annotation { lang : "si" , tts : Some ("ව\u{dd2}වෘත ගොන\u{dd4} ෆෝල\u{dca}ඩරය") , keywords : & ["ගොන\u{dd4}\u{dd4}ව" , "ව\u{dd2}වෘත" , "ව\u{dd2}වෘත ගොන\u{dd4} ෆෝල\u{dca}ඩරය" , "ෆෝල\u{dca}ඩරය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("otvorený fascikel") , keywords : & ["otvorený" , "otvorený fascikel" , "priečinok" , "súbor"] , } , crate :: Annotation { lang : "sl" , tts : Some ("odprta mapa za spise") , keywords : & ["mapa" , "odprta mapa za spise" , "odprto" , "spis"] , } , crate :: Annotation { lang : "so" , tts : Some ("fooldarka faylasha oo furan") , keywords : & ["fayl" , "fooldar" , "fooldarka faylasha oo furan" , "furan"] , } , crate :: Annotation { lang : "sq" , tts : Some ("dosje dokumentesh e hapur") , keywords : & ["dokument" , "dosje" , "dosje dokumentesh e hapur" , "skedar"] , } , crate :: Annotation { lang : "sr" , tts : Some ("отворена фасцикла") , keywords : & ["отворена фасцикла" , "отворено" , "фасцикла"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["отворена фасцикла"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("otvorena fascikla") , keywords : & ["fascikla" , "otvorena fascikla" , "otvoreno"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["otvorena fascikla"] , } , crate :: Annotation { lang : "sv" , tts : Some ("öppen mapp") , keywords : & ["mapp" , "öppen mapp" , "öppet arkiv"] , } , crate :: Annotation { lang : "sw" , tts : Some ("folda ya faili iliyofunguliwa") , keywords : & ["faili" , "folda" , "folda ya faili iliyofunguliwa" , "funguliwa"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("திறந\u{bcd}த பைல\u{bcd} ஃபோல\u{bcd}டர\u{bcd}") , keywords : & ["திறந\u{bcd}த ஃபோல\u{bcd}டர\u{bcd}" , "திறந\u{bcd}த பைல\u{bcd}" , "திறந\u{bcd}த பைல\u{bcd} ஃபோல\u{bcd}டர\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("త\u{c46}ర\u{c3f}చ\u{c3f}న ఫ\u{c48}ల\u{c4d} ఫ\u{c4b}ల\u{c4d}డర\u{c4d}") , keywords : & ["త\u{c46}రవడం" , "త\u{c46}ర\u{c3f}చ\u{c3f}న ఫ\u{c48}ల\u{c4d} ఫ\u{c4b}ల\u{c4d}డర\u{c4d}" , "ఫ\u{c48}ల\u{c4d}" , "ఫ\u{c4b}ల\u{c4d}డర\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("кушодани ҷузвдони фалҳо") , keywords : & ["кушода" , "кушодани ҷузвдони фалҳо" , "файл" , "ҷузвдон"] , } , crate :: Annotation { lang : "th" , tts : Some ("เป\u{e34}ดเอกสาร") , keywords : & ["เป\u{e34}ดเอกสาร" , "แฟ\u{e49}มเป\u{e34}ด"] , } , crate :: Annotation { lang : "tk" , tts : Some ("açyk faýl bukjasy") , keywords : & ["açyk" , "açyk faýl bukjasy" , "bukja" , "faýl"] , } , crate :: Annotation { lang : "to" , tts : Some ("takafi faile ava") , keywords : & ["takafi faile ava"] , } , crate :: Annotation { lang : "tr" , tts : Some ("açık dosya klasörü") , keywords : & ["açık" , "açık dosya klasörü" , "dosya" , "klasör"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئوچۇق قىسقۇچ") , keywords : & ["ئوچۇق" , "قىسقۇچ" , "ھۆججەت"] , } , crate :: Annotation { lang : "uk" , tts : Some ("відкрита папка для файлів") , keywords : & ["відкрита папка для файлів" , "відкритий" , "папка"] , } , crate :: Annotation { lang : "ur" , tts : Some ("کھلا فائل فولڈر") , keywords : & ["اسٹیشنری" , "فائل" , "فولڈر" , "کھلا"] , } , crate :: Annotation { lang : "uz" , tts : Some ("ochiq fayl jildi") , keywords : & ["fayl" , "jild" , "ochiq" , "ochiq fayl jildi"] , } , crate :: Annotation { lang : "vi" , tts : Some ("thư mục tệp mở") , keywords : & ["mở" , "thư mục" , "thư mục tệp mở" , "tệp"] , } , crate :: Annotation { lang : "wo" , tts : Some ("ubbi ëmbu taxañ") , keywords : & ["taxañ" , "ubbeeku" , "ubbi ëmbu taxañ" , "ëmb"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ifolda yefayile evulekileyo") , keywords : & ["ifayile" , "ifolda" , "ifolda yefayile evulekileyo" , "ivulekile"] , } , crate :: Annotation { lang : "yo" , tts : Some ("fódà fáìlì ti o ṣi") , keywords : & ["fáìlì" , "fódà" , "fódà fáìlì ti o ṣi" , "ṣí"] , } , crate :: Annotation { lang : "yue" , tts : Some ("打開文件夾") , keywords : & ["打開" , "打開文件夾" , "文件夾" , "檔案"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("打开文件夹") , keywords : & ["打开" , "打开文件夹" , "文件夹" , "档案"] , } , crate :: Annotation { lang : "zh" , tts : Some ("打开的文件夹") , keywords : & ["办公" , "打开" , "打开的文件夹" , "文件" , "文具"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("打開資料夾") , keywords : & ["打開資料夾"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("打開嘅文件夾") , keywords : & ["打開嘅文件夾" , "打開｜文件夾｜文件"] , } , crate :: Annotation { lang : "zu" , tts : Some ("vula ifolda yefayela") , keywords : & ["ifayela" , "ifolda" , "ukuvula" , "vula ifolda yefayela"] , }] , } ;
+pub const OPEN_FILE_FOLDER: crate::Emoji = crate::Emoji {
+    glyph: "📂",
+    codepoint: "1F4C2",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "open file folder",
+    group: "Objects",
+    subgroup: "office",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("oop lêervouer"),
+            keywords: &["lêer", "oop", "oop lêervouer", "vouer"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ክፍት የፋይል አቃፊ"),
+            keywords: &["አቃፊ", "ክፍት", "ክፍት የፋይል አቃፊ", "ፋይል"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مجلد مفتوح"),
+            keywords: &["مجلد", "مجلد ملفات مفتوح", "مفتوح", "ملف"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("খোল\u{9be} ফ\u{9be}ইল ফ’ল\u{9cd}ড\u{9be}ৰ"),
+            keywords: &["খোল\u{9be}", "ফ\u{9be}ইল", "ফ’ল\u{9cd}ড\u{9be}ৰ"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("açıq fayl qovluğu"),
+            keywords: &["açıq", "açıq fayl qovluğu", "fayl", "qovluq"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("адкрытая папка для файлаў"),
+            keywords: &["адкрытая", "адкрытая папка для файлаў", "папка", "файл"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Отворена папка"),
+            keywords: &["Отворена папка", "отворен", "папка"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ফ\u{9be}ইল ফোল\u{9cd}ড\u{9be}র খোল\u{9be}"),
+            keywords: &["খোল\u{9be}", "ফ\u{9be}ইল", "ফোল\u{9cd}ড\u{9be}র"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("kleurenn digor"),
+            keywords: &["digor", "kleurenn", "teuliad"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("otvorena fascikla"),
+            keywords: &["fajl", "fascikla", "otvorena fascikla", "otvoreno"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("carpeta de fitxers oberta"),
+            keywords: &[
+                "arxius",
+                "carpeta",
+                "carpeta de fitxers oberta",
+                "carpeta d’arxius oberta",
+                "fitxers",
+                "oberta",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎯᏍᏚᎢ ᎠᏍᏆᏂᎪᏙᏗ ᎠᏰᏈᏛᏍᎩ"),
+            keywords: &["ᎠᏍᏆᏂᎪᏛᎢ", "ᎠᏍᏚᎢᏓ", "ᎯᏍᏚᎢ ᎠᏍᏆᏂᎪᏙᏗ ᎠᏰᏈᏛᏍᎩ", "ᏗᏴᏈᏛᎥᏍᎩ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("otevřená složka"),
+            keywords: &["dokumenty", "otevřená složka", "otevřený", "složka"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("agor ffolder ffeiliau"),
+            keywords: &["agor", "agor ffolder ffeiliau", "ffeil", "ffolder"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("åben mappe"),
+            keywords: &["dokument", "åben mappe"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("geöffneter Ordner"),
+            keywords: &["Dokument", "Ordner", "geöffneter Ordner", "offen"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ανοικτός φάκελος αρχείων"),
+            keywords: &["ανοικτός φάκελος αρχείων", "ανοιχτός", "αρχείο", "φάκελος"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("open file folder"),
+            keywords: &["file", "folder", "open"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("carpeta de archivos abierta"),
+            keywords: &[
+                "abierta",
+                "archivo",
+                "carpeta",
+                "carpeta de archivos abierta",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("avatud kaust"),
+            keywords: &["avatud", "dokument", "fail", "kaust"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("fitxategi-sailkatzaile irekia"),
+            keywords: &[
+                "fitxategi",
+                "fitxategi-sailkatzaile irekia",
+                "irekita",
+                "karpeta",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("پوشه\u{654} باز"),
+            keywords: &["باز", "فایل", "پوشه", "پوشه\u{654} باز"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("avoin tiedostokansio"),
+            keywords: &["avoin", "avoin tiedostokansio", "kansio", "tiedosto"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("nakabukas na file folder"),
+            keywords: &["file", "folder", "nakabukas", "nakabukas na file folder"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("opin skjalalummi"),
+            keywords: &[
+                "faldari",
+                "fíl",
+                "lummi i skjalalummi",
+                "mappa",
+                "opin",
+                "opin skjalalummi",
+                "skjalamappa",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("dossier ouvert"),
+            keywords: &["dossier", "dossier ouvert"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("fillteán oscailte"),
+            keywords: &["comhad", "fillteán", "oscailte"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("pasgan fhaidhlichean fosgailte"),
+            keywords: &[
+                "faidhle",
+                "fosgailte",
+                "pasgan",
+                "pasgan fhaidhlichean fosgailte",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("cartafol aberto"),
+            keywords: &["aberto", "carpeta", "cartafol aberto", "documentos"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ખ\u{ac1}લ\u{acd}લ\u{ac1}\u{a82} ફાઇલ ફોલ\u{acd}ડર"),
+            keywords: &["ખ\u{ac1}લ\u{acd}લ\u{ac1}\u{a82}", "ફાઇલ", "ફોલ\u{acd}ડર"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("buɗaɗɗiyar foldar fayil"),
+            keywords: &["buɗaɗɗe", "buɗaɗɗiyar foldar fayil", "fayil", "folda"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("תיקיית מסמכים פתוחה"),
+            keywords: &["מסמכים", "פתוחה", "תיקייה", "תיקיית מסמכים פתוחה"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ख\u{941}ला फ\u{93c}ाइल फ\u{93c}ोल\u{94d}डर"),
+            keywords: &["ख\u{941}ला", "फ\u{93c}ाइल", "फ\u{93c}ोल\u{94d}डर"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("otvorena mapa"),
+            keywords: &["mapa", "otvorena mapa", "otvoreno"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("nyitott fájlmappa"),
+            keywords: &["fájl", "mappa", "nyitott", "nyitott fájlmappa"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("բաց թղթապանակ"),
+            keywords: &["բաց", "թղթապանակ", "ֆայլ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("folder file terbuka"),
+            keywords: &["file", "folder", "terbuka"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("mepee foldà faịlụ"),
+            keywords: &["failụ", "foldà", "mepee", "mepee foldà faịlụ"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("opin mappa"),
+            keywords: &["opin mappa", "opin skráamappa"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("cartella aperta"),
+            keywords: &["aperta", "cartella", "file"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("開いたフォルダー"),
+            keywords: &[
+                "ファイル",
+                "フォルダー",
+                "文具",
+                "文房具",
+                "開いたフォルダー",
+            ],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("map berkas mbukak"),
+            keywords: &["berkas", "map", "mbukak"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ღია საქაღალდე"),
+            keywords: &["საქაღალდე", "ფაილი", "ღია"],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("ldi akaram n ufaylu"),
+            keywords: &["ldi akaram n ufaylu"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("файл қалтасын ашу"),
+            keywords: &["ашық", "файл", "файл қалтасын ашу", "қалта"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("åben mappe"),
+            keywords: &["dokument", "åben mappe"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ស\u{17ca}\u{17ba}ម\u{17c9}\u{17b8}បើក"),
+            keywords: &[
+                "ថត",
+                "បើក",
+                "ស\u{17ca}\u{17ba}ម\u{17c9}\u{17b8}បើក",
+                "ឯកសារ",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ತ\u{cc6}ರ\u{cc6}ದ ಫೈಲ\u{ccd} ಫೋಲ\u{ccd}ಡ\u{ccd}ಡರ\u{ccd}"),
+            keywords: &[
+                "ತ\u{cc6}ರ\u{cc6}ದ",
+                "ತ\u{cc6}ರ\u{cc6}ದ ಫೈಲ\u{ccd} ಫೋಲ\u{ccd}ಡ\u{ccd}ಡರ\u{ccd}",
+                "ಫೈಲ\u{ccd}",
+                "ಫೋಲ\u{ccd}ಡರ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("폴더 열기"),
+            keywords: &["열기", "열린 폴더", "파일", "폴더"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("फायल फोल\u{94d}डर उगडचो"),
+            keywords: &["उगडचो", "फायल", "फोल\u{94d}डर"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("файл куржунун ачуу"),
+            keywords: &["ачуу", "куржун", "файл", "файл куржунун ачуу"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("oppene Fichiersdossier"),
+            keywords: &["Dossier", "Fichier", "oppen", "oppene Fichiersdossier"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ເປ\u{eb5}ດເອກະສານ"),
+            keywords: &["ເປ\u{eb5}ດ", "ເປ\u{eb5}ດເອກະສານ", "ເອກະສານ", "ແຟ\u{ec9}ມ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("atidarytas failų aplankas"),
+            keywords: &[
+                "aplankas",
+                "atidarytas",
+                "atidarytas failų aplankas",
+                "failas",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("atvērta dokumentu mape"),
+            keywords: &["atvērta dokumentu mape", "atvērts", "dokuments", "mape"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("kōpaki kōnae tuwhera"),
+            keywords: &["kōnae", "kōpaki", "tuwhera"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("отворена папка"),
+            keywords: &["отворена", "папка"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ത\u{d41}റന\u{d4d}ന ഫയൽ ഫോൾഡർ"),
+            keywords: &[
+                "ത\u{d41}റക\u{d4d}ക\u{d41}ക",
+                "ത\u{d41}റന\u{d4d}ന ഫയൽ ഫോൾഡർ",
+                "ത\u{d41}റന\u{d4d}ന ഫോൾഡർ",
+                "ഫയൽ",
+                "ഫോൾഡർ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("онгорхой файлын хавтас"),
+            keywords: &["нээх", "онгорхой файлын хавтас", "файл", "хавтас"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("ख\u{941}ल\u{947} फाईल फोल\u{94d}डर"),
+            keywords: &[
+                "उघडा",
+                "ख\u{941}ल\u{947} फाइल फोल\u{94d}डर",
+                "ख\u{941}ल\u{947} फाईल फोल\u{94d}डर",
+                "फाइल",
+                "फोल\u{94d}डर",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("folder buka fail"),
+            keywords: &["fail", "folder", "folder buka fail", "terbuka"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("fowlder tal-fajls miftuħ"),
+            keywords: &["fajl", "fowlder", "fowlder tal-fajls miftuħ", "miftuħ"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "ဖ\u{103d}င\u{1037}\u{103a}ထားသည\u{1037}\u{103a} ဖ\u{102d}\u{102f}င\u{103a}တ\u{103d}\u{1032}",
+            ),
+            keywords: &[
+                "ဖ\u{102d}\u{102f}င\u{103a}",
+                "ဖ\u{102d}\u{102f}င\u{103a}တ\u{103d}\u{1032}",
+                "ဖ\u{103d}င\u{1037}\u{103a}ထားသည\u{1037}\u{103a} ဖ\u{102d}\u{102f}င\u{103a}တ\u{103d}\u{1032}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("åpen arkivmappe"),
+            keywords: &["arkivmappe", "fil", "filmappe", "mappe", "åpen"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("ख\u{941}ला फाइलको फोल\u{94d}डर"),
+            keywords: &[
+                "ख\u{941}ला फाइलको फोल\u{94d}डर",
+                "खोल\u{94d}न",
+                "फाइल",
+                "फोल\u{94d}डर",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("geopende map"),
+            keywords: &["bestand", "geopende map", "map", "open"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("open arkivmappe"),
+            keywords: &[
+                "arkimappe",
+                "fil",
+                "filmappe",
+                "mappe",
+                "open",
+                "open arkivmappe",
+            ],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଖୋଲ\u{b3e} ଫ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋଲ\u{b4d}ଡର"),
+            keywords: &[
+                "ଖୋଲ\u{b3e}",
+                "ଖୋଲ\u{b3e} ଫ\u{b3e}ଇଲ\u{b4d}\u{200c} ଫୋଲ\u{b4d}ଡର",
+                "ଫ\u{b3e}ଇଲ\u{b4d}",
+                "ଫୋଲ\u{b4d}ଡର\u{b4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਖ\u{a41}\u{a71}ਲ\u{a4d}ਹਾ ਫ\u{a3c}ਾਈਲ ਫ\u{a4b}ਲਡਰ"),
+            keywords: &[
+                "ਖ\u{a41}\u{a71}ਲ\u{a4d}ਹਾ ਫ\u{a3c}ਾਈਲ ਫ\u{a4b}ਲਡਰ",
+                "ਖ\u{a4b}ਲ\u{a4d}ਹ\u{a4b}",
+                "ਫਾਇਲ",
+                "ਫ\u{a4b}ਲਡਰ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("فائل دا فولڈر کھولو"),
+            keywords: &["فائل", "فائل دا فولڈر کھولو", "فولڈر", "ک\u{64f}ھلا"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Ópún Faíl Fólda"),
+            keywords: &["Fail", "Fólda", "Ópun", "Ópún Faíl Fólda"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("otwarty folder"),
+            keywords: &["folder", "katalog", "otwarty"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("دوتنه پوښۍ خلاص"),
+            keywords: &["خلاص", "دوتنه", "پوښۍ"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("pasta de arquivos aberta"),
+            keywords: &["aberta", "arquivo", "pasta", "pasta de arquivos aberta"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("pasta de arquivo aberta"),
+            keywords: &["aberta", "arquivo", "pasta", "pasta de arquivo aberta"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("dosar de arhivare deschis"),
+            keywords: &["deschis", "dosar", "dosar de arhivare deschis", "fișier"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-639"),
+            keywords: &["E10-639"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("открытая папка"),
+            keywords: &["бумаги", "документы", "открытая", "папка"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("gufungura ububiko bwa dosiye"),
+            keywords: &[
+                "bwa dosiye",
+                "gufungura",
+                "gufungura ububiko bwa dosiye",
+                "ububiko",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("کليل فائل فولڊر"),
+            keywords: &["فائيل", "فولڊر", "کليل", "کليل فائل فولڊر"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ව\u{dd2}වෘත ගොන\u{dd4} ෆෝල\u{dca}ඩරය"),
+            keywords: &[
+                "ගොන\u{dd4}\u{dd4}ව",
+                "ව\u{dd2}වෘත",
+                "ව\u{dd2}වෘත ගොන\u{dd4} ෆෝල\u{dca}ඩරය",
+                "ෆෝල\u{dca}ඩරය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("otvorený fascikel"),
+            keywords: &["otvorený", "otvorený fascikel", "priečinok", "súbor"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("odprta mapa za spise"),
+            keywords: &["mapa", "odprta mapa za spise", "odprto", "spis"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("fooldarka faylasha oo furan"),
+            keywords: &["fayl", "fooldar", "fooldarka faylasha oo furan", "furan"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("dosje dokumentesh e hapur"),
+            keywords: &["dokument", "dosje", "dosje dokumentesh e hapur", "skedar"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("отворена фасцикла"),
+            keywords: &["отворена фасцикла", "отворено", "фасцикла"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["отворена фасцикла"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("otvorena fascikla"),
+            keywords: &["fascikla", "otvorena fascikla", "otvoreno"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["otvorena fascikla"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("öppen mapp"),
+            keywords: &["mapp", "öppen mapp", "öppet arkiv"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("folda ya faili iliyofunguliwa"),
+            keywords: &[
+                "faili",
+                "folda",
+                "folda ya faili iliyofunguliwa",
+                "funguliwa",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("திறந\u{bcd}த பைல\u{bcd} ஃபோல\u{bcd}டர\u{bcd}"),
+            keywords: &[
+                "திறந\u{bcd}த ஃபோல\u{bcd}டர\u{bcd}",
+                "திறந\u{bcd}த பைல\u{bcd}",
+                "திறந\u{bcd}த பைல\u{bcd} ஃபோல\u{bcd}டர\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("త\u{c46}ర\u{c3f}చ\u{c3f}న ఫ\u{c48}ల\u{c4d} ఫ\u{c4b}ల\u{c4d}డర\u{c4d}"),
+            keywords: &[
+                "త\u{c46}రవడం",
+                "త\u{c46}ర\u{c3f}చ\u{c3f}న ఫ\u{c48}ల\u{c4d} ఫ\u{c4b}ల\u{c4d}డర\u{c4d}",
+                "ఫ\u{c48}ల\u{c4d}",
+                "ఫ\u{c4b}ల\u{c4d}డర\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("кушодани ҷузвдони фалҳо"),
+            keywords: &["кушода", "кушодани ҷузвдони фалҳо", "файл", "ҷузвдон"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("เป\u{e34}ดเอกสาร"),
+            keywords: &["เป\u{e34}ดเอกสาร", "แฟ\u{e49}มเป\u{e34}ด"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("açyk faýl bukjasy"),
+            keywords: &["açyk", "açyk faýl bukjasy", "bukja", "faýl"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("takafi faile ava"),
+            keywords: &["takafi faile ava"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("açık dosya klasörü"),
+            keywords: &["açık", "açık dosya klasörü", "dosya", "klasör"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئوچۇق قىسقۇچ"),
+            keywords: &["ئوچۇق", "قىسقۇچ", "ھۆججەت"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("відкрита папка для файлів"),
+            keywords: &["відкрита папка для файлів", "відкритий", "папка"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("کھلا فائل فولڈر"),
+            keywords: &["اسٹیشنری", "فائل", "فولڈر", "کھلا"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("ochiq fayl jildi"),
+            keywords: &["fayl", "jild", "ochiq", "ochiq fayl jildi"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("thư mục tệp mở"),
+            keywords: &["mở", "thư mục", "thư mục tệp mở", "tệp"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("ubbi ëmbu taxañ"),
+            keywords: &["taxañ", "ubbeeku", "ubbi ëmbu taxañ", "ëmb"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ifolda yefayile evulekileyo"),
+            keywords: &[
+                "ifayile",
+                "ifolda",
+                "ifolda yefayile evulekileyo",
+                "ivulekile",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("fódà fáìlì ti o ṣi"),
+            keywords: &["fáìlì", "fódà", "fódà fáìlì ti o ṣi", "ṣí"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("打開文件夾"),
+            keywords: &["打開", "打開文件夾", "文件夾", "檔案"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("打开文件夹"),
+            keywords: &["打开", "打开文件夹", "文件夹", "档案"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("打开的文件夹"),
+            keywords: &["办公", "打开", "打开的文件夹", "文件", "文具"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("打開資料夾"),
+            keywords: &["打開資料夾"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("打開嘅文件夾"),
+            keywords: &["打開嘅文件夾", "打開｜文件夾｜文件"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("vula ifolda yefayela"),
+            keywords: &["ifayela", "ifolda", "ukuvula", "vula ifolda yefayela"],
+        },
+    ],
+};
 #[doc = "🗂\u{fe0f}"]
-pub const CARD_INDEX_DIVIDERS : crate :: Emoji = crate :: Emoji { glyph : "🗂\u{fe0f}" , codepoint : "1F5C2 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "card index dividers" , group : "Objects" , subgroup : "office" , is_variant : false , variants : & [crate :: Emoji { glyph : "🗂" , codepoint : "1F5C2" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "card index dividers" , group : "Objects" , subgroup : "office" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("kaartindeksverdelers") , keywords : & ["indeks" , "kaart" , "kaartindeksverdelers" , "verdelers"] , } , crate :: Annotation { lang : "am" , tts : Some ("ካርድ መጥቁም ከፋፋዮች") , keywords : & ["መጥቁም" , "ከፋፋዮች" , "ካርታ" , "ካርድ መጥቁም ከፋፋዮች"] , } , crate :: Annotation { lang : "ar" , tts : Some ("حاجز بطاقات") , keywords : & ["بطاقة" , "حاجز بطاقات" , "حواجز" , "مؤشر"] , } , crate :: Annotation { lang : "as" , tts : Some ("ক\u{9be}ৰ\u{9cd}ড ইনডেক\u{9cd}স বিভ\u{9be}জক") , keywords : & ["ইনডেক\u{9cd}স" , "ক\u{9be}ৰ\u{9cd}ড" , "বিভ\u{9be}জক"] , } , crate :: Annotation { lang : "az" , tts : Some ("kart indeksi arakəsmələri") , keywords : & ["arakəsmə" , "işarə" , "kart" , "kart indeksi arakəsmələri"] , } , crate :: Annotation { lang : "be" , tts : Some ("раздзяляльнікі для картатэкі") , keywords : & ["карта" , "картатэка" , "раздзяляльнікі" , "раздзяляльнікі для картатэкі" , "сартаванне"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Разделители за картотека") , keywords : & ["Разделители за картотека" , "карта" , "показалец" , "разделители"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ক\u{9be}র\u{9cd}ডের স\u{9c2}চীর বিভ\u{9be}জক") , keywords : & ["ক\u{9be}র\u{9cd}ড" , "ক\u{9be}র\u{9cd}ডের স\u{9c2}চীর বিভ\u{9be}জক" , "বিভক\u{9cd}ত" , "স\u{9c2}চক"] , } , crate :: Annotation { lang : "br" , tts : Some ("dispartier") , keywords : & ["dispartier" , "renkañ"] , } , crate :: Annotation { lang : "bs" , tts : Some ("fascikla s odjeljcima") , keywords : & ["dokumenti" , "fascikla s odjeljcima" , "odjeljci"] , } , crate :: Annotation { lang : "ca" , tts : Some ("separadors per a organitzador de targetes") , keywords : & ["organitzador" , "separadors" , "separadors per a organitzador de targetes" , "targetes"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᏆᏂᏲᏍᏗ ᎠᏍᏓᏩᏛᏍᏗ ᏔᎵ ᏱᎦᏗᏍᎩ") , keywords : & ["ᎠᏍᏓᏩᏛᏍᏗ" , "ᏆᏂᏲᏍᏗ" , "ᏆᏂᏲᏍᏗ ᎠᏍᏓᏩᏛᏍᏗ ᏔᎵ ᏱᎦᏗᏍᎩ" , "ᏔᎵ ᎢᎦᏗᏍᎩ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("kartotéka") , keywords : & ["karta" , "kartotéka" , "oddíl" , "oddělovač" , "rejstřík"] , } , crate :: Annotation { lang : "cy" , tts : Some ("rhanwyr mynegai cardiau") , keywords : & ["card" , "mynegai" , "rhanwyr" , "rhanwyr mynegai cardiau"] , } , crate :: Annotation { lang : "da" , tts : Some ("kartotekskort") , keywords : & ["kartotek" , "kartotekskort" , "kort"] , } , crate :: Annotation { lang : "de" , tts : Some ("Karteireiter") , keywords : & ["Büromaterial" , "Karteikarten" , "Karteireiter"] , } , crate :: Annotation { lang : "el" , tts : Some ("διαχωριστικά ευρετηρίου καρτών") , keywords : & ["διαχωριστικά" , "διαχωριστικά ευρετηρίου καρτών" , "ευρετήριο" , "κάρτα"] , } , crate :: Annotation { lang : "en" , tts : Some ("card index dividers") , keywords : & ["card" , "dividers" , "index"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("index card dividers") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("separador de fichas") , keywords : & ["fichas" , "fichero" , "separador" , "separador de fichas"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("separadores para tarjetas") , keywords : & ["archivos" , "separadores para tarjetas" , "índice"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("separadores") , keywords : & ["separadores" , "tarjeta" , "índice"] , } , crate :: Annotation { lang : "et" , tts : Some ("register") , keywords : & ["kaart" , "register"] , } , crate :: Annotation { lang : "eu" , tts : Some ("artxibo-bereizleak") , keywords : & ["artxibo" , "artxibo-bereizleak" , "bereizle" , "txartel"] , } , crate :: Annotation { lang : "fa" , tts : Some ("جداکننده") , keywords : & ["جداکننده" , "راهنما" , "کارت"] , } , crate :: Annotation { lang : "fi" , tts : Some ("kortiston välilehdet") , keywords : & ["arkisto" , "kortisto" , "kortiston välilehdet" , "kortti" , "välilehti"] , } , crate :: Annotation { lang : "fil" , tts : Some ("mga divider ng card index") , keywords : & ["card" , "divider" , "index" , "mga divider ng card index"] , } , crate :: Annotation { lang : "fo" , tts : Some ("seðlaskrábókamerki") , keywords : & ["bókamerki" , "indeks" , "seðlaskrá" , "seðlaskrábókamerki"] , } , crate :: Annotation { lang : "fr" , tts : Some ("intercalaires") , keywords : & ["classement" , "index" , "intercalaire" , "intercalaires"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("roinnteoirí innéacs cárta") , keywords : & ["cárta" , "innéacs" , "roinnteoirí"] , } , crate :: Annotation { lang : "gd" , tts : Some ("roinneadairean clàr-amais chairtean") , keywords : & ["cairt" , "clàr-amais" , "roinneadair" , "roinneadairean clàr-amais chairtean"] , } , crate :: Annotation { lang : "gl" , tts : Some ("separadores de fichas") , keywords : & ["arquivador" , "documentos" , "fichas" , "ficheiro" , "separadores de fichas"] , } , crate :: Annotation { lang : "gu" , tts : Some ("કાર\u{acd}ડ ઇન\u{acd}ડ\u{ac7}ક\u{acd}સ ડિવાઇડર\u{acd}સ") , keywords : & ["ઇન\u{acd}ડ\u{ac7}ક\u{acd}સ" , "કાર\u{acd}ડ" , "ડિવાઇડર\u{acd}સ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("masu rabawa fihirisan kati") , keywords : & ["fihirisa" , "kati" , "mai rabawa" , "masu rabawa fihirisan kati"] , } , crate :: Annotation { lang : "he" , tts : Some ("כרטסת עם חוצצים") , keywords : & ["חוצצים" , "כרטיסיות" , "כרטסת" , "כרטסת עם חוצצים"] , } , crate :: Annotation { lang : "hi" , tts : Some ("कार\u{94d}ड इ\u{902}ड\u{947}क\u{94d}स डिवाइडर") , keywords : & ["कार\u{94d}ड" , "कार\u{94d}ड इ\u{902}ड\u{947}क\u{94d}स डिवाइडर" , "विभाजक" , "स\u{942}ची"] , } , crate :: Annotation { lang : "hr" , tts : Some ("razdjelnici") , keywords : & ["indeks" , "pregradni karton" , "razdjelnici" , "razdjelnik"] , } , crate :: Annotation { lang : "hu" , tts : Some ("kartotékelválasztók") , keywords : & ["elválasztók" , "kartoték" , "kartotékelválasztók" , "katalógus"] , } , crate :: Annotation { lang : "hy" , tts : Some ("քարտադարանի բաժանարարներ") , keywords : & ["բաժանարար" , "ինդեքս" , "քարտ" , "քարտադարանի բաժանարարներ"] , } , crate :: Annotation { lang : "id" , tts : Some ("pembagi indeks kartu") , keywords : & ["indeks" , "kartu" , "pembagi"] , } , crate :: Annotation { lang : "ig" , tts : Some ("indek ihe nkewa kaadị") , keywords : & ["ihe nkewa" , "indek" , "indek ihe nkewa kaadị" , "kaadi"] , } , crate :: Annotation { lang : "is" , tts : Some ("spjaldskráarblöð") , keywords : & ["blöð" , "spjald" , "spjaldskrá" , "spjaldskráarblöð"] , } , crate :: Annotation { lang : "it" , tts : Some ("divisori per schedario") , keywords : & ["archivio" , "divisori" , "divisori per schedario" , "documenti" , "ordinare" , "schedario"] , } , crate :: Annotation { lang : "ja" , tts : Some ("カードフォルダー") , keywords : & ["インデックス" , "カードフォルダー" , "フォルダー" , "文具" , "文房具"] , } , crate :: Annotation { lang : "jv" , tts : Some ("pambagi indeks kertu") , keywords : & ["indeks" , "kertu" , "pambagi"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ბარათებიანი საძიებელი გამყოფებით") , keywords : & ["ბარათებიანი საძიებელი გამყოფებით" , "საძიებელი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("карта индексін бөлгіштер") , keywords : & ["бөлгіштер" , "индекс" , "карта" , "карта индексін бөлгіштер"] , } , crate :: Annotation { lang : "kl" , tts : Some ("kartotekskort") , keywords : & ["kartotek" , "kartotekskort" , "kort"] , } , crate :: Annotation { lang : "km" , tts : Some ("ស\u{17ca}\u{17ba}ម\u{17c9}\u{17b8}ដាក\u{17cb}កាត") , keywords : & ["កាត" , "ខណ\u{17d2}ឌ" , "សន\u{17d2}ទស\u{17d2}សន\u{17cd}" , "ស\u{17ca}\u{17ba}ម\u{17c9}\u{17b8}ដាក\u{17cb}កាត"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಕಾರ\u{ccd}ಡ\u{ccd} ಸ\u{cc2}ಚಕ ವ\u{cbf}ಭಾಜಕಗಳು") , keywords : & ["ಇಂಡ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}" , "ಕಾರ\u{ccd}ಡ\u{ccd} ಸ\u{cc2}ಚಕ ವ\u{cbf}ಭಾಜಕಗಳು" , "ವ\u{cbf}ಭಾಜಕಗಳು" , "ಸ\u{cc2}ಚ\u{ccd}ಯಂಕ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("카드 색인 파일") , keywords : & ["색인" , "카드" , "파일" , "폴더"] , } , crate :: Annotation { lang : "kok" , tts : Some ("कार\u{94d}ड इ\u{902}ड\u{947}क\u{94d}स डिवायडर") , keywords : & ["इ\u{902}ड\u{947}क\u{94d}स" , "कार\u{94d}ड" , "डिवायडर"] , } , crate :: Annotation { lang : "ky" , tts : Some ("картотека бөлгүч") , keywords : & ["бөлгүч" , "картотека"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Intercalairen") , keywords : & ["Index" , "Intercalairen" , "Kaart"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ແນວຂ\u{eb1}\u{ec9}ນບ\u{eb1}ດລາຍການ") , keywords : & ["ບ\u{eb1}ດ" , "ລາຍການ" , "ແນວຂ\u{eb1}\u{ec9}ນ" , "ແນວຂ\u{eb1}\u{ec9}ນບ\u{eb1}ດລາຍການ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("kortelių laikiklio skirtukai") , keywords : & ["indeksas" , "kortelių laikiklio skirtukai" , "kortelė" , "skirtukai"] , } , crate :: Annotation { lang : "lv" , tts : Some ("dokumentu sadalītājs") , keywords : & ["dokuments" , "dokumentu sadalītājs" , "kartīte" , "sadalītājs"] , } , crate :: Annotation { lang : "mi" , tts : Some ("ngā whakawehe kāri kuputohu") , keywords : & ["kuputohu" , "kāri" , "ngā whakawehe kāri kuputohu" , "whakawehe"] , } , crate :: Annotation { lang : "mk" , tts : Some ("прегради на картотека") , keywords : & ["картотека" , "преграда" , "прегради на картотека"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ക\u{d3e}ർഡ\u{d4d} ഇൻഡക\u{d4d}\u{200c}സ\u{d4d} ഡിവൈഡറ\u{d41}കൾ") , keywords : & ["ഇൻഡ\u{200c}ക\u{d4d}\u{200c}സ\u{d4d}" , "ക\u{d3e}ർഡ\u{d4d}" , "ഡിവൈഡറ\u{d41}കൾ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("карт хуваарилагч") , keywords : & ["карт" , "хуваарилагч"] , } , crate :: Annotation { lang : "mr" , tts : Some ("कार\u{94d}ड अन\u{941}क\u{94d}रमणिका विभाजक") , keywords : & ["अन\u{941}क\u{94d}रमणिका" , "कार\u{94d}ड" , "विभाजक"] , } , crate :: Annotation { lang : "ms" , tts : Some ("pembahagi indeks kad") , keywords : & ["indeks" , "kad" , "pembahagi"] , } , crate :: Annotation { lang : "mt" , tts : Some ("kard dividers tal-indiċi tal-biljett") , keywords : & ["dividers" , "indiċi" , "kard" , "kard dividers tal-indiċi tal-biljett"] , } , crate :: Annotation { lang : "my" , tts : Some ("အည\u{103d}\u{103e}န\u{103a}းကဒ\u{103a} ခ\u{103d}\u{1032}သည\u{1037}\u{103a}အရာ") , keywords : & ["ကတ\u{103a}" , "ခ\u{103d}\u{1032}ခြားခြင\u{103a}း" , "အည\u{103d}\u{103e}န\u{103a}း" , "အည\u{103d}\u{103e}န\u{103a}းကဒ\u{103a} ခ\u{103d}\u{1032}သည\u{1037}\u{103a}အရာ"] , } , crate :: Annotation { lang : "nb" , tts : Some ("skillekort") , keywords : & ["faner" , "indeks" , "kort" , "skillekort" , "skillere"] , } , crate :: Annotation { lang : "ne" , tts : Some ("कार\u{94d}ड स\u{942}चक ड\u{94d}राइभरहर\u{942}") , keywords : & ["कार\u{94d}ड" , "ड\u{94d}राइभरहर\u{942}" , "स\u{942}चक"] , } , crate :: Annotation { lang : "nl" , tts : Some ("tabbladen") , keywords : & ["index" , "kaart" , "tabbladen"] , } , crate :: Annotation { lang : "nn" , tts : Some ("skiljekort") , keywords : & ["faner" , "indeks" , "kort" , "skiljarar" , "skiljekort"] , } , crate :: Annotation { lang : "or" , tts : Some ("କ\u{b3e}ର\u{b4d}ଡ\u{b4d} ଅନ\u{b41}କ\u{b4d}ରମଣ\u{b3f}କ\u{b3e} ବ\u{b3f}ଭ\u{b3e}ଜକଗ\u{b41}ଡ\u{b3c}\u{b3f}କ") , keywords : & ["ଅନ\u{b41}କ\u{b4d}ରମଣ\u{b3f}କ\u{b3e}" , "ଇଣ\u{b4d}ଡେକ\u{b4d}ସ\u{b4d}" , "କ\u{b3e}ର\u{b4d}ଡ\u{b4d}" , "ବ\u{b3f}ଭ\u{b3e}ଜକଗ\u{b41}ଡ\u{b3c}\u{b3f}କ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਕਾਰਡ ਸ\u{a42}ਚੀਆ\u{a02} ਵ\u{a70}ਡਣ ਵਾਲਾ") , keywords : & ["ਕਾਰਡ" , "ਕਾਰਡ ਸ\u{a42}ਚੀਆ\u{a02} ਵ\u{a70}ਡਣ ਵਾਲਾ" , "ਵ\u{a70}ਡਣ ਵਾਲਾ" , "ਸ\u{a42}ਚੀ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("کارڈ انڈیکس دا تقسیم کنندہ") , keywords : & ["تقسیم کرن آلا" , "ضمینہ" , "کارڈ" , "کارڈ انڈیکس دا تقسیم کنندہ"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Kád Índẹ\u{301}ks Divaída-dẹm") , keywords : & ["Divaída-dẹm" , "Kad" , "Kád Índẹ\u{301}ks Divaída-dẹm" , "Índẹks"] , } , crate :: Annotation { lang : "pl" , tts : Some ("rozdzielacze kartoteki") , keywords : & ["kartoteka" , "karty" , "podział" , "rozdzielacze" , "rozdzielacze kartoteki"] , } , crate :: Annotation { lang : "ps" , tts : Some ("کارت جدول وېشونکي") , keywords : & ["جدول" , "وېشونکي" , "کارت"] , } , crate :: Annotation { lang : "pt" , tts : Some ("divisores de pastas") , keywords : & ["divisor" , "divisores de pastas" , "pastas" , "índice"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("separadores de fichas") , keywords : & ["fichas" , "separadores" , "separadores de fichas"] , } , crate :: Annotation { lang : "ro" , tts : Some ("separatoare de dosare") , keywords : & ["index" , "separatoare" , "separatoare de dosare"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-816") , keywords : & ["E10-816"] , } , crate :: Annotation { lang : "ru" , tts : Some ("маркированные папки") , keywords : & ["карточки" , "маркированные папки" , "оглавление" , "разделители"] , } , crate :: Annotation { lang : "rw" , tts : Some ("urugabano rw’urutonde rw’amakarita") , keywords : & ["agacaruziga" , "ifishi" , "urugabano rw’urutonde rw’amakarita" , "urutonde"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڪارڊ ترتيب سان ورهائيندڙ") , keywords : & ["ترتيب" , "ورهائيندڙ" , "ڪارڊ" , "ڪارڊ ترتيب سان ورهائيندڙ"] , } , crate :: Annotation { lang : "si" , tts : Some ("ක\u{dcf}ඩ\u{dca} ඉන\u{dca}ඩෙක\u{dca}ස\u{dca} ඩ\u{dd2}වය\u{dd2}ඩර\u{dca}ස\u{dca}") , keywords : & ["ඉන\u{dca}ඩෙක\u{dca}ස\u{dca}" , "ක\u{dcf}ඩ\u{dca} ඉන\u{dca}ඩෙක\u{dca}ස\u{dca} ඩ\u{dd2}වය\u{dd2}ඩර\u{dca}ස\u{dca}" , "ක\u{dcf}ඩ\u{dca}පත\u{dca}" , "බෙද\u{dd4}ම\u{dca}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("štítky na indexovanie") , keywords : & ["index" , "karta" , "rozdeľovače" , "štítky na indexovanie"] , } , crate :: Annotation { lang : "sl" , tts : Some ("kartoteke z vmesnimi listi") , keywords : & ["kartica" , "kartoteka" , "kartoteke z vmesnimi listi" , "vmesni listi"] , } , crate :: Annotation { lang : "so" , tts : Some ("kala qeybiyayaasha kaararka") , keywords : & ["kaar" , "kala qeybiyayaal" , "kala qeybiyayaasha kaararka"] , } , crate :: Annotation { lang : "sq" , tts : Some ("ndarëse skedash") , keywords : & ["indeks" , "letër" , "ndarëse" , "ndarëse skedash" , "skedë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("разделници за каталог картица") , keywords : & ["индекс" , "картица" , "разделници" , "разделници за каталог картица"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("раздјелници за каталог картица") , keywords : & ["раздјелници за каталог картица"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("razdelnici za katalog kartica") , keywords : & ["indeks" , "kartica" , "razdelnici" , "razdelnici za katalog kartica"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("razdjelnici za katalog kartica") , keywords : & ["razdjelnici za katalog kartica"] , } , crate :: Annotation { lang : "sv" , tts : Some ("indexflikar") , keywords : & ["flikar" , "index" , "indexflikar" , "kort" , "pärmflikar"] , } , crate :: Annotation { lang : "sw" , tts : Some ("vigawanishi vya kadi") , keywords : & ["farahasa" , "kadi" , "vigawanishi" , "vigawanishi vya kadi"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("க\u{bbe}ர\u{bcd}டு இன\u{bcd}டேக\u{bcd}ஸ\u{bcd} டிவைடர\u{bcd}ஸ\u{bcd}") , keywords : & ["இன\u{bcd}டேக\u{bcd}ஸ\u{bcd}" , "க\u{bbe}ர\u{bcd}டு" , "டிவைடர\u{bcd}ஸ\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("క\u{c3e}ర\u{c4d}డ\u{c4d} ఇండ\u{c46}క\u{c4d}స\u{c4d} డ\u{c3f}వ\u{c48}డర\u{c4d}\u{200c}లు") , keywords : & ["ఇండ\u{c46}క\u{c4d}స\u{c4d}" , "క\u{c3e}ర\u{c4d}డ\u{c4d}" , "డ\u{c3f}వ\u{c48}డర\u{c4d}\u{200c}లు" , "సూచ\u{c3f}క"] , } , crate :: Annotation { lang : "tg" , tts : Some ("тақсимкунандаҳои индекси кортҳо") , keywords : & ["корт" , "нишондиҳанда" , "тақсимкунандаҳо" , "тақсимкунандаҳои индекси кортҳо"] , } , crate :: Annotation { lang : "th" , tts : Some ("ท\u{e35}\u{e48}ค\u{e31}\u{e48}นบ\u{e31}ตรรายการ") , keywords : & ["ด\u{e31}ชน\u{e35}" , "ท\u{e35}\u{e48}ค\u{e31}\u{e48}น" , "ท\u{e35}\u{e48}ค\u{e31}\u{e48}นบ\u{e31}ตรรายการ" , "บ\u{e31}ตร" , "รายการ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("kart indeksi bölüjileri") , keywords : & ["bölüjiler" , "indeks" , "kart" , "kart indeksi bölüjileri"] , } , crate :: Annotation { lang : "to" , tts : Some ("vahevahe takafi faile") , keywords : & ["vahevahe takafi faile"] , } , crate :: Annotation { lang : "tr" , tts : Some ("dosya ayırıcı") , keywords : & ["ayırıcı" , "dizin" , "dosya ayırıcı" , "kart"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئايرىق ساندۇق") , keywords : & ["ئايرىق ساندۇق" , "ئىندېكس" , "بۆلگۈچ" , "كارتا"] , } , crate :: Annotation { lang : "uk" , tts : Some ("роздільники в картотеці") , keywords : & ["картотека" , "роздільники в картотеці" , "роздільники нумерації карток" , "розділювачі"] , } , crate :: Annotation { lang : "ur" , tts : Some ("کارڈ انڈیکس کے تقسیم کار") , keywords : & ["اسٹیشنری" , "انڈیکس" , "تقسیم کار" , "کارڈ" , "کارڈ انڈیکس کے تقسیم کار"] , } , crate :: Annotation { lang : "uz" , tts : Some ("fayllarni ajratuvchi") , keywords : & ["ajratuvchilar" , "fayllarni ajratuvchi" , "indeks" , "kartochka"] , } , crate :: Annotation { lang : "vi" , tts : Some ("dụng cụ chia chỉ mục thẻ") , keywords : & ["chỉ mục" , "dụng cụ chia" , "dụng cụ chia chỉ mục thẻ" , "thẻ"] , } , crate :: Annotation { lang : "wo" , tts : Some ("xàjjalekaayu limu kàrt") , keywords : & ["kàrt" , "lim" , "xaajalekaay" , "xàjjalekaayu limu kàrt"] , } , crate :: Annotation { lang : "xh" , tts : Some ("izahluli zeindeksi yekhadi") , keywords : & ["i-indeksi" , "ikhadi" , "izahluli" , "izahluli zeindeksi yekhadi"] , } , crate :: Annotation { lang : "yo" , tts : Some ("ohun èlò ìpínyà àtòjọ atọ\u{301}ka-ọ\u{300}rọ\u{300} káàdì") , keywords : & ["káàdì" , "ohun èlò ìpínyà" , "ohun èlò ìpínyà àtòjọ atọ\u{301}ka-ọ\u{300}rọ\u{300} káàdì" , "àtòjọ atọ\u{301}ka-ọ\u{300}rọ\u{300}"] , } , crate :: Annotation { lang : "yue" , tts : Some ("卡片索引分類") , keywords : & ["分類" , "卡片" , "卡片索引分類" , "索引"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("卡片索引分类") , keywords : & ["分类" , "卡片" , "卡片索引分类" , "索引"] , } , crate :: Annotation { lang : "zh" , tts : Some ("索引分隔文件夹") , keywords : & ["分隔" , "文件夹" , "索引" , "索引分隔文件夹"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("索引隔板") , keywords : & ["索引板" , "索引隔板"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("索引分隔卡") , keywords : & ["索引分隔卡" , "索引｜分隔｜卡"] , } , crate :: Annotation { lang : "zu" , tts : Some ("okwahlukanisa amakhadi") , keywords : & ["ikhadi" , "okwahlukanisa amakhadi" , "okwahlukanisayo"] , }] , } ;
+pub const CARD_INDEX_DIVIDERS: crate::Emoji = crate::Emoji {
+    glyph: "🗂\u{fe0f}",
+    codepoint: "1F5C2 FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.7f32,
+    name: "card index dividers",
+    group: "Objects",
+    subgroup: "office",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🗂",
+        codepoint: "1F5C2",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "card index dividers",
+        group: "Objects",
+        subgroup: "office",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("kaartindeksverdelers"),
+            keywords: &["indeks", "kaart", "kaartindeksverdelers", "verdelers"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ካርድ መጥቁም ከፋፋዮች"),
+            keywords: &["መጥቁም", "ከፋፋዮች", "ካርታ", "ካርድ መጥቁም ከፋፋዮች"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("حاجز بطاقات"),
+            keywords: &["بطاقة", "حاجز بطاقات", "حواجز", "مؤشر"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ক\u{9be}ৰ\u{9cd}ড ইনডেক\u{9cd}স বিভ\u{9be}জক"),
+            keywords: &["ইনডেক\u{9cd}স", "ক\u{9be}ৰ\u{9cd}ড", "বিভ\u{9be}জক"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("kart indeksi arakəsmələri"),
+            keywords: &["arakəsmə", "işarə", "kart", "kart indeksi arakəsmələri"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("раздзяляльнікі для картатэкі"),
+            keywords: &[
+                "карта",
+                "картатэка",
+                "раздзяляльнікі",
+                "раздзяляльнікі для картатэкі",
+                "сартаванне",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Разделители за картотека"),
+            keywords: &[
+                "Разделители за картотека",
+                "карта",
+                "показалец",
+                "разделители",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ক\u{9be}র\u{9cd}ডের স\u{9c2}চীর বিভ\u{9be}জক"),
+            keywords: &[
+                "ক\u{9be}র\u{9cd}ড",
+                "ক\u{9be}র\u{9cd}ডের স\u{9c2}চীর বিভ\u{9be}জক",
+                "বিভক\u{9cd}ত",
+                "স\u{9c2}চক",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("dispartier"),
+            keywords: &["dispartier", "renkañ"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("fascikla s odjeljcima"),
+            keywords: &["dokumenti", "fascikla s odjeljcima", "odjeljci"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("separadors per a organitzador de targetes"),
+            keywords: &[
+                "organitzador",
+                "separadors",
+                "separadors per a organitzador de targetes",
+                "targetes",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏆᏂᏲᏍᏗ ᎠᏍᏓᏩᏛᏍᏗ ᏔᎵ ᏱᎦᏗᏍᎩ"),
+            keywords: &["ᎠᏍᏓᏩᏛᏍᏗ", "ᏆᏂᏲᏍᏗ", "ᏆᏂᏲᏍᏗ ᎠᏍᏓᏩᏛᏍᏗ ᏔᎵ ᏱᎦᏗᏍᎩ", "ᏔᎵ ᎢᎦᏗᏍᎩ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("kartotéka"),
+            keywords: &["karta", "kartotéka", "oddíl", "oddělovač", "rejstřík"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("rhanwyr mynegai cardiau"),
+            keywords: &["card", "mynegai", "rhanwyr", "rhanwyr mynegai cardiau"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("kartotekskort"),
+            keywords: &["kartotek", "kartotekskort", "kort"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Karteireiter"),
+            keywords: &["Büromaterial", "Karteikarten", "Karteireiter"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("διαχωριστικά ευρετηρίου καρτών"),
+            keywords: &[
+                "διαχωριστικά",
+                "διαχωριστικά ευρετηρίου καρτών",
+                "ευρετήριο",
+                "κάρτα",
+            ],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("card index dividers"),
+            keywords: &["card", "dividers", "index"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("index card dividers"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("separador de fichas"),
+            keywords: &["fichas", "fichero", "separador", "separador de fichas"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("separadores para tarjetas"),
+            keywords: &["archivos", "separadores para tarjetas", "índice"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("separadores"),
+            keywords: &["separadores", "tarjeta", "índice"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("register"),
+            keywords: &["kaart", "register"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("artxibo-bereizleak"),
+            keywords: &["artxibo", "artxibo-bereizleak", "bereizle", "txartel"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("جداکننده"),
+            keywords: &["جداکننده", "راهنما", "کارت"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kortiston välilehdet"),
+            keywords: &[
+                "arkisto",
+                "kortisto",
+                "kortiston välilehdet",
+                "kortti",
+                "välilehti",
+            ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("mga divider ng card index"),
+            keywords: &["card", "divider", "index", "mga divider ng card index"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("seðlaskrábókamerki"),
+            keywords: &["bókamerki", "indeks", "seðlaskrá", "seðlaskrábókamerki"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("intercalaires"),
+            keywords: &["classement", "index", "intercalaire", "intercalaires"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("roinnteoirí innéacs cárta"),
+            keywords: &["cárta", "innéacs", "roinnteoirí"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("roinneadairean clàr-amais chairtean"),
+            keywords: &[
+                "cairt",
+                "clàr-amais",
+                "roinneadair",
+                "roinneadairean clàr-amais chairtean",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("separadores de fichas"),
+            keywords: &[
+                "arquivador",
+                "documentos",
+                "fichas",
+                "ficheiro",
+                "separadores de fichas",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("કાર\u{acd}ડ ઇન\u{acd}ડ\u{ac7}ક\u{acd}સ ડિવાઇડર\u{acd}સ"),
+            keywords: &[
+                "ઇન\u{acd}ડ\u{ac7}ક\u{acd}સ",
+                "કાર\u{acd}ડ",
+                "ડિવાઇડર\u{acd}સ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("masu rabawa fihirisan kati"),
+            keywords: &[
+                "fihirisa",
+                "kati",
+                "mai rabawa",
+                "masu rabawa fihirisan kati",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("כרטסת עם חוצצים"),
+            keywords: &["חוצצים", "כרטיסיות", "כרטסת", "כרטסת עם חוצצים"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("कार\u{94d}ड इ\u{902}ड\u{947}क\u{94d}स डिवाइडर"),
+            keywords: &[
+                "कार\u{94d}ड",
+                "कार\u{94d}ड इ\u{902}ड\u{947}क\u{94d}स डिवाइडर",
+                "विभाजक",
+                "स\u{942}ची",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("razdjelnici"),
+            keywords: &["indeks", "pregradni karton", "razdjelnici", "razdjelnik"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("kartotékelválasztók"),
+            keywords: &[
+                "elválasztók",
+                "kartoték",
+                "kartotékelválasztók",
+                "katalógus",
+            ],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("քարտադարանի բաժանարարներ"),
+            keywords: &["բաժանարար", "ինդեքս", "քարտ", "քարտադարանի բաժանարարներ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("pembagi indeks kartu"),
+            keywords: &["indeks", "kartu", "pembagi"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("indek ihe nkewa kaadị"),
+            keywords: &["ihe nkewa", "indek", "indek ihe nkewa kaadị", "kaadi"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("spjaldskráarblöð"),
+            keywords: &["blöð", "spjald", "spjaldskrá", "spjaldskráarblöð"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("divisori per schedario"),
+            keywords: &[
+                "archivio",
+                "divisori",
+                "divisori per schedario",
+                "documenti",
+                "ordinare",
+                "schedario",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("カードフォルダー"),
+            keywords: &[
+                "インデックス",
+                "カードフォルダー",
+                "フォルダー",
+                "文具",
+                "文房具",
+            ],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("pambagi indeks kertu"),
+            keywords: &["indeks", "kertu", "pambagi"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ბარათებიანი საძიებელი გამყოფებით"),
+            keywords: &["ბარათებიანი საძიებელი გამყოფებით", "საძიებელი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("карта индексін бөлгіштер"),
+            keywords: &["бөлгіштер", "индекс", "карта", "карта индексін бөлгіштер"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("kartotekskort"),
+            keywords: &["kartotek", "kartotekskort", "kort"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ស\u{17ca}\u{17ba}ម\u{17c9}\u{17b8}ដាក\u{17cb}កាត"),
+            keywords: &[
+                "កាត",
+                "ខណ\u{17d2}ឌ",
+                "សន\u{17d2}ទស\u{17d2}សន\u{17cd}",
+                "ស\u{17ca}\u{17ba}ម\u{17c9}\u{17b8}ដាក\u{17cb}កាត",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಕಾರ\u{ccd}ಡ\u{ccd} ಸ\u{cc2}ಚಕ ವ\u{cbf}ಭಾಜಕಗಳು"),
+            keywords: &[
+                "ಇಂಡ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}",
+                "ಕಾರ\u{ccd}ಡ\u{ccd} ಸ\u{cc2}ಚಕ ವ\u{cbf}ಭಾಜಕಗಳು",
+                "ವ\u{cbf}ಭಾಜಕಗಳು",
+                "ಸ\u{cc2}ಚ\u{ccd}ಯಂಕ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("카드 색인 파일"),
+            keywords: &["색인", "카드", "파일", "폴더"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("कार\u{94d}ड इ\u{902}ड\u{947}क\u{94d}स डिवायडर"),
+            keywords: &["इ\u{902}ड\u{947}क\u{94d}स", "कार\u{94d}ड", "डिवायडर"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("картотека бөлгүч"),
+            keywords: &["бөлгүч", "картотека"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Intercalairen"),
+            keywords: &["Index", "Intercalairen", "Kaart"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ແນວຂ\u{eb1}\u{ec9}ນບ\u{eb1}ດລາຍການ"),
+            keywords: &[
+                "ບ\u{eb1}ດ",
+                "ລາຍການ",
+                "ແນວຂ\u{eb1}\u{ec9}ນ",
+                "ແນວຂ\u{eb1}\u{ec9}ນບ\u{eb1}ດລາຍການ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("kortelių laikiklio skirtukai"),
+            keywords: &[
+                "indeksas",
+                "kortelių laikiklio skirtukai",
+                "kortelė",
+                "skirtukai",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("dokumentu sadalītājs"),
+            keywords: &["dokuments", "dokumentu sadalītājs", "kartīte", "sadalītājs"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("ngā whakawehe kāri kuputohu"),
+            keywords: &[
+                "kuputohu",
+                "kāri",
+                "ngā whakawehe kāri kuputohu",
+                "whakawehe",
+            ],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("прегради на картотека"),
+            keywords: &["картотека", "преграда", "прегради на картотека"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ക\u{d3e}ർഡ\u{d4d} ഇൻഡക\u{d4d}\u{200c}സ\u{d4d} ഡിവൈഡറ\u{d41}കൾ"),
+            keywords: &[
+                "ഇൻഡ\u{200c}ക\u{d4d}\u{200c}സ\u{d4d}",
+                "ക\u{d3e}ർഡ\u{d4d}",
+                "ഡിവൈഡറ\u{d41}കൾ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("карт хуваарилагч"),
+            keywords: &["карт", "хуваарилагч"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("कार\u{94d}ड अन\u{941}क\u{94d}रमणिका विभाजक"),
+            keywords: &["अन\u{941}क\u{94d}रमणिका", "कार\u{94d}ड", "विभाजक"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("pembahagi indeks kad"),
+            keywords: &["indeks", "kad", "pembahagi"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("kard dividers tal-indiċi tal-biljett"),
+            keywords: &[
+                "dividers",
+                "indiċi",
+                "kard",
+                "kard dividers tal-indiċi tal-biljett",
+            ],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "အည\u{103d}\u{103e}န\u{103a}းကဒ\u{103a} ခ\u{103d}\u{1032}သည\u{1037}\u{103a}အရာ",
+            ),
+            keywords: &[
+                "ကတ\u{103a}",
+                "ခ\u{103d}\u{1032}ခြားခြင\u{103a}း",
+                "အည\u{103d}\u{103e}န\u{103a}း",
+                "အည\u{103d}\u{103e}န\u{103a}းကဒ\u{103a} ခ\u{103d}\u{1032}သည\u{1037}\u{103a}အရာ",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("skillekort"),
+            keywords: &["faner", "indeks", "kort", "skillekort", "skillere"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("कार\u{94d}ड स\u{942}चक ड\u{94d}राइभरहर\u{942}"),
+            keywords: &["कार\u{94d}ड", "ड\u{94d}राइभरहर\u{942}", "स\u{942}चक"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("tabbladen"),
+            keywords: &["index", "kaart", "tabbladen"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("skiljekort"),
+            keywords: &["faner", "indeks", "kort", "skiljarar", "skiljekort"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some(
+                "କ\u{b3e}ର\u{b4d}ଡ\u{b4d} ଅନ\u{b41}କ\u{b4d}ରମଣ\u{b3f}କ\u{b3e} ବ\u{b3f}ଭ\u{b3e}ଜକଗ\u{b41}ଡ\u{b3c}\u{b3f}କ",
+            ),
+            keywords: &[
+                "ଅନ\u{b41}କ\u{b4d}ରମଣ\u{b3f}କ\u{b3e}",
+                "ଇଣ\u{b4d}ଡେକ\u{b4d}ସ\u{b4d}",
+                "କ\u{b3e}ର\u{b4d}ଡ\u{b4d}",
+                "ବ\u{b3f}ଭ\u{b3e}ଜକଗ\u{b41}ଡ\u{b3c}\u{b3f}କ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਕਾਰਡ ਸ\u{a42}ਚੀਆ\u{a02} ਵ\u{a70}ਡਣ ਵਾਲਾ"),
+            keywords: &[
+                "ਕਾਰਡ",
+                "ਕਾਰਡ ਸ\u{a42}ਚੀਆ\u{a02} ਵ\u{a70}ਡਣ ਵਾਲਾ",
+                "ਵ\u{a70}ਡਣ ਵਾਲਾ",
+                "ਸ\u{a42}ਚੀ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("کارڈ انڈیکس دا تقسیم کنندہ"),
+            keywords: &[
+                "تقسیم کرن آلا",
+                "ضمینہ",
+                "کارڈ",
+                "کارڈ انڈیکس دا تقسیم کنندہ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Kád Índẹ\u{301}ks Divaída-dẹm"),
+            keywords: &[
+                "Divaída-dẹm",
+                "Kad",
+                "Kád Índẹ\u{301}ks Divaída-dẹm",
+                "Índẹks",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("rozdzielacze kartoteki"),
+            keywords: &[
+                "kartoteka",
+                "karty",
+                "podział",
+                "rozdzielacze",
+                "rozdzielacze kartoteki",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("کارت جدول وېشونکي"),
+            keywords: &["جدول", "وېشونکي", "کارت"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("divisores de pastas"),
+            keywords: &["divisor", "divisores de pastas", "pastas", "índice"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("separadores de fichas"),
+            keywords: &["fichas", "separadores", "separadores de fichas"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("separatoare de dosare"),
+            keywords: &["index", "separatoare", "separatoare de dosare"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-816"),
+            keywords: &["E10-816"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("маркированные папки"),
+            keywords: &[
+                "карточки",
+                "маркированные папки",
+                "оглавление",
+                "разделители",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("urugabano rw’urutonde rw’amakarita"),
+            keywords: &[
+                "agacaruziga",
+                "ifishi",
+                "urugabano rw’urutonde rw’amakarita",
+                "urutonde",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڪارڊ ترتيب سان ورهائيندڙ"),
+            keywords: &["ترتيب", "ورهائيندڙ", "ڪارڊ", "ڪارڊ ترتيب سان ورهائيندڙ"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some(
+                "ක\u{dcf}ඩ\u{dca} ඉන\u{dca}ඩෙක\u{dca}ස\u{dca} ඩ\u{dd2}වය\u{dd2}ඩර\u{dca}ස\u{dca}",
+            ),
+            keywords: &[
+                "ඉන\u{dca}ඩෙක\u{dca}ස\u{dca}",
+                "ක\u{dcf}ඩ\u{dca} ඉන\u{dca}ඩෙක\u{dca}ස\u{dca} ඩ\u{dd2}වය\u{dd2}ඩර\u{dca}ස\u{dca}",
+                "ක\u{dcf}ඩ\u{dca}පත\u{dca}",
+                "බෙද\u{dd4}ම\u{dca}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("štítky na indexovanie"),
+            keywords: &["index", "karta", "rozdeľovače", "štítky na indexovanie"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("kartoteke z vmesnimi listi"),
+            keywords: &[
+                "kartica",
+                "kartoteka",
+                "kartoteke z vmesnimi listi",
+                "vmesni listi",
+            ],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("kala qeybiyayaasha kaararka"),
+            keywords: &["kaar", "kala qeybiyayaal", "kala qeybiyayaasha kaararka"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("ndarëse skedash"),
+            keywords: &["indeks", "letër", "ndarëse", "ndarëse skedash", "skedë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("разделници за каталог картица"),
+            keywords: &[
+                "индекс",
+                "картица",
+                "разделници",
+                "разделници за каталог картица",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("раздјелници за каталог картица"),
+            keywords: &["раздјелници за каталог картица"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("razdelnici za katalog kartica"),
+            keywords: &[
+                "indeks",
+                "kartica",
+                "razdelnici",
+                "razdelnici za katalog kartica",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("razdjelnici za katalog kartica"),
+            keywords: &["razdjelnici za katalog kartica"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("indexflikar"),
+            keywords: &["flikar", "index", "indexflikar", "kort", "pärmflikar"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("vigawanishi vya kadi"),
+            keywords: &["farahasa", "kadi", "vigawanishi", "vigawanishi vya kadi"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("க\u{bbe}ர\u{bcd}டு இன\u{bcd}டேக\u{bcd}ஸ\u{bcd} டிவைடர\u{bcd}ஸ\u{bcd}"),
+            keywords: &[
+                "இன\u{bcd}டேக\u{bcd}ஸ\u{bcd}",
+                "க\u{bbe}ர\u{bcd}டு",
+                "டிவைடர\u{bcd}ஸ\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some(
+                "క\u{c3e}ర\u{c4d}డ\u{c4d} ఇండ\u{c46}క\u{c4d}స\u{c4d} డ\u{c3f}వ\u{c48}డర\u{c4d}\u{200c}లు",
+            ),
+            keywords: &[
+                "ఇండ\u{c46}క\u{c4d}స\u{c4d}",
+                "క\u{c3e}ర\u{c4d}డ\u{c4d}",
+                "డ\u{c3f}వ\u{c48}డర\u{c4d}\u{200c}లు",
+                "సూచ\u{c3f}క",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("тақсимкунандаҳои индекси кортҳо"),
+            keywords: &[
+                "корт",
+                "нишондиҳанда",
+                "тақсимкунандаҳо",
+                "тақсимкунандаҳои индекси кортҳо",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ท\u{e35}\u{e48}ค\u{e31}\u{e48}นบ\u{e31}ตรรายการ"),
+            keywords: &[
+                "ด\u{e31}ชน\u{e35}",
+                "ท\u{e35}\u{e48}ค\u{e31}\u{e48}น",
+                "ท\u{e35}\u{e48}ค\u{e31}\u{e48}นบ\u{e31}ตรรายการ",
+                "บ\u{e31}ตร",
+                "รายการ",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("kart indeksi bölüjileri"),
+            keywords: &["bölüjiler", "indeks", "kart", "kart indeksi bölüjileri"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("vahevahe takafi faile"),
+            keywords: &["vahevahe takafi faile"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("dosya ayırıcı"),
+            keywords: &["ayırıcı", "dizin", "dosya ayırıcı", "kart"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئايرىق ساندۇق"),
+            keywords: &["ئايرىق ساندۇق", "ئىندېكس", "بۆلگۈچ", "كارتا"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("роздільники в картотеці"),
+            keywords: &[
+                "картотека",
+                "роздільники в картотеці",
+                "роздільники нумерації карток",
+                "розділювачі",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("کارڈ انڈیکس کے تقسیم کار"),
+            keywords: &[
+                "اسٹیشنری",
+                "انڈیکس",
+                "تقسیم کار",
+                "کارڈ",
+                "کارڈ انڈیکس کے تقسیم کار",
+            ],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("fayllarni ajratuvchi"),
+            keywords: &[
+                "ajratuvchilar",
+                "fayllarni ajratuvchi",
+                "indeks",
+                "kartochka",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("dụng cụ chia chỉ mục thẻ"),
+            keywords: &["chỉ mục", "dụng cụ chia", "dụng cụ chia chỉ mục thẻ", "thẻ"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("xàjjalekaayu limu kàrt"),
+            keywords: &["kàrt", "lim", "xaajalekaay", "xàjjalekaayu limu kàrt"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("izahluli zeindeksi yekhadi"),
+            keywords: &[
+                "i-indeksi",
+                "ikhadi",
+                "izahluli",
+                "izahluli zeindeksi yekhadi",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("ohun èlò ìpínyà àtòjọ atọ\u{301}ka-ọ\u{300}rọ\u{300} káàdì"),
+            keywords: &[
+                "káàdì",
+                "ohun èlò ìpínyà",
+                "ohun èlò ìpínyà àtòjọ atọ\u{301}ka-ọ\u{300}rọ\u{300} káàdì",
+                "àtòjọ atọ\u{301}ka-ọ\u{300}rọ\u{300}",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("卡片索引分類"),
+            keywords: &["分類", "卡片", "卡片索引分類", "索引"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("卡片索引分类"),
+            keywords: &["分类", "卡片", "卡片索引分类", "索引"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("索引分隔文件夹"),
+            keywords: &["分隔", "文件夹", "索引", "索引分隔文件夹"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("索引隔板"),
+            keywords: &["索引板", "索引隔板"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("索引分隔卡"),
+            keywords: &["索引分隔卡", "索引｜分隔｜卡"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("okwahlukanisa amakhadi"),
+            keywords: &["ikhadi", "okwahlukanisa amakhadi", "okwahlukanisayo"],
+        },
+    ],
+};
 #[doc = "📅"]
 pub const CALENDAR: crate::Emoji = crate::Emoji {
     glyph: "📅",
@@ -1912,11 +3496,2242 @@ pub const CALENDAR: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "📆"]
-pub const TEAR_OFF_CALENDAR : crate :: Emoji = crate :: Emoji { glyph : "📆" , codepoint : "1F4C6" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "tear-off calendar" , group : "Objects" , subgroup : "office" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("afskeurkalender") , keywords : & ["afskeurkalender" , "almanak" , "dag" , "datum" , "kalender"] , } , crate :: Annotation { lang : "am" , tts : Some ("ተቀዳጅ ቀን መቁጠሪያ") , keywords : & ["ቀን መቁጠሪያ" , "ተቀዳጅ ቀን መቁጠሪያ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("تقويم بأوراق للقطع") , keywords : & ["تقويم بأوراق للقطع" , "روزنامة"] , } , crate :: Annotation { lang : "as" , tts : Some ("ফ\u{9be}লিব পৰ\u{9be} কেলেণ\u{9cd}ড\u{9be}ৰ") , keywords : & ["কেলেণ\u{9cd}ড\u{9be}ৰ" , "ফ\u{9be}লিব পৰ\u{9be} কেলেণ\u{9cd}ড\u{9be}ৰ"] , } , crate :: Annotation { lang : "az" , tts : Some ("təqvimi cırmaq") , keywords : & ["təqvim" , "təqvimi cırmaq"] , } , crate :: Annotation { lang : "be" , tts : Some ("адрыўны каляндар") , keywords : & ["адрыўны" , "каляндар"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Календар с късащи се листове") , keywords : & ["Календар с късащи се листове" , "календар"] , } , crate :: Annotation { lang : "bn" , tts : Some ("টিয\u{9bc}\u{9be}র-অফ ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র") , keywords : & ["ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র" , "টিয\u{9bc}\u{9be}র-অফ ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র"] , } , crate :: Annotation { lang : "br" , tts : Some ("deiziadur efemerid") , keywords : & ["deiziadur" , "deiziadur efemerid"] , } , crate :: Annotation { lang : "bs" , tts : Some ("kalendar na kidanje") , keywords : & ["kalendar" , "kalendar na kidanje"] , } , crate :: Annotation { lang : "ca" , tts : Some ("calendari de bloc") , keywords : & ["bloc" , "calendari" , "calendari de bloc"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏯᎴᏍᏗ-ᏅᏓ ᏗᏎᏍᏗ") , keywords : & ["ᎦᏯᎴᏍᏗ-ᏅᏓ ᏗᏎᏍᏗ" , "ᏅᏓ ᏗᏎᏍᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("trhací kalendář") , keywords : & ["kalendář" , "trhací kalendář"] , } , crate :: Annotation { lang : "cy" , tts : Some ("calendr rwygo") , keywords : & ["calendr" , "calendr rwygo"] , } , crate :: Annotation { lang : "da" , tts : Some ("kalenderblok") , keywords : & ["afrivningskalender" , "kalender" , "kalenderblok"] , } , crate :: Annotation { lang : "de" , tts : Some ("Abreißkalender") , keywords : & ["Abreißkalender" , "Kalender"] , } , crate :: Annotation { lang : "de_CH" , tts : Some ("Abreisskalender") , keywords : & ["Abreisskalender" , "Kalender"] , } , crate :: Annotation { lang : "el" , tts : Some ("ημερολόγιο με αποσπώμενες σελίδες") , keywords : & ["ημερολόγιο" , "ημερολόγιο με αποσπώμενες σελίδες"] , } , crate :: Annotation { lang : "en" , tts : Some ("tear-off calendar") , keywords : & ["calendar" , "tear-off calendar"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("calendario recortable") , keywords : & ["calendario" , "calendario recortable" , "fecha"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("calendario con hojas") , keywords : & ["calendario" , "calendario con hojas" , "hojas"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["calendario" , "calendario con hojas" , "hojas" , "hojas para arrancar"] , } , crate :: Annotation { lang : "et" , tts : Some ("rebitav kalender") , keywords : & ["kalender" , "kuupäev" , "rebitav kalender"] , } , crate :: Annotation { lang : "eu" , tts : Some ("orriak kentzeko egutegia") , keywords : & ["egutegi" , "orriak kentzeko egutegia"] , } , crate :: Annotation { lang : "fa" , tts : Some ("تقویم رومیزی") , keywords : & ["تقویم" , "تقویم رومیزی"] , } , crate :: Annotation { lang : "fi" , tts : Some ("päiväkalenteri") , keywords : & ["kalenteri" , "päiväkalenteri"] , } , crate :: Annotation { lang : "fil" , tts : Some ("pinipilas na kalendaryo") , keywords : & ["kalendaryo" , "petsa" , "pinipilas na kalendaryo" , "pinunit"] , } , crate :: Annotation { lang : "fo" , tts : Some ("kalendari sum kann skræðast úr") , keywords : & ["dagfesting" , "dagseting" , "dato" , "kalendari" , "kalendari sum kann skræðast úr" , "skræða" , "tíðarfesting" , "tíðarmerking" , "álmanakki"] , } , crate :: Annotation { lang : "fr" , tts : Some ("éphéméride") , keywords : & ["calendrier" , "date" , "éphéméride"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("calendrier à effeuiller") , keywords : & ["calendrier" , "calendrier à effeuiller" , "éphéméride"] , } , crate :: Annotation { lang : "ga" , tts : Some ("féilire instróicthe") , keywords : & ["féilire instróicthe" , "féilire le stróiceadh"] , } , crate :: Annotation { lang : "gd" , tts : Some ("mìosachan le duilleagan a thig dheth") , keywords : & ["mìosachan" , "mìosachan le duilleagan a thig dheth"] , } , crate :: Annotation { lang : "gl" , tts : Some ("calendario de varias follas") , keywords : & ["arrancar" , "calendario" , "calendario de varias follas" , "data" , "follas"] , } , crate :: Annotation { lang : "gu" , tts : Some ("તારીખિય\u{ac1}\u{a82}") , keywords : & ["ક\u{ac7}લ\u{ac7}ન\u{acd}ડર" , "તારીખિય\u{ac1}\u{a82}"] , } , crate :: Annotation { lang : "ha" , tts : Some ("kalanda da aka yage") , keywords : & ["kalanda" , "kalanda da aka yage"] , } , crate :: Annotation { lang : "he" , tts : Some ("לוח שנה לתלישת דפים") , keywords : & ["יומן" , "לוח שנה" , "לוח שנה לתלישת דפים" , "תאריך"] , } , crate :: Annotation { lang : "hi" , tts : Some ("फ\u{93c}ाड\u{93c}न\u{947} वाला क\u{948}ल\u{947}\u{902}डर") , keywords : & ["क\u{948}ल\u{947}\u{902}डर" , "फ\u{93c}ाड\u{93c}न\u{947} वाला क\u{948}ल\u{947}\u{902}डर"] , } , crate :: Annotation { lang : "hr" , tts : Some ("kalendar na trganje") , keywords : & ["kalendar" , "kalendar na trganje"] , } , crate :: Annotation { lang : "hu" , tts : Some ("fali naptár") , keywords : & ["fali naptár" , "naptár"] , } , crate :: Annotation { lang : "hy" , tts : Some ("պոկովի օրացույց") , keywords : & ["պոկովի օրացույց" , "օրացույց"] , } , crate :: Annotation { lang : "id" , tts : Some ("kalender sobek") , keywords : & ["kalender" , "kalender sobek"] , } , crate :: Annotation { lang : "ig" , tts : Some ("dọkapụ kalịnda") , keywords : & ["dọkapụ kalịnda" , "kalịnda"] , } , crate :: Annotation { lang : "is" , tts : Some ("dagatal með rifgötum") , keywords : & ["dagatal" , "dagatal með rifgötum"] , } , crate :: Annotation { lang : "it" , tts : Some ("calendario a strappo") , keywords : & ["calendario" , "calendario a strappo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("日めくりカレンダー") , keywords : & ["カレンダー" , "スケジュール" , "予定" , "日めくりカレンダー" , "日付"] , } , crate :: Annotation { lang : "jv" , tts : Some ("tanggalan suwek") , keywords : & ["tanggalan" , "tanggalan suwek"] , } , crate :: Annotation { lang : "ka" , tts : Some ("მოსახევი კალენდარი") , keywords : & ["კალენდარი" , "მოსახევი კალენდარი"] , } , crate :: Annotation { lang : "kab" , tts : None , keywords : & ["awitay"] , } , crate :: Annotation { lang : "kk" , tts : Some ("жыртпалы күнтізбе") , keywords : & ["жыртпалы күнтізбе" , "күнтізбе"] , } , crate :: Annotation { lang : "kl" , tts : Some ("kalenderblok") , keywords : & ["afrivningskalender" , "kalender" , "kalenderblok"] , } , crate :: Annotation { lang : "km" , tts : Some ("សន\u{17d2}ល\u{17b9}កប\u{17d2}រត\u{17b7}ទ\u{17b7}នដែលត\u{17d2}រ\u{17bc}វហែកចេញ") , keywords : & ["ប\u{17d2}រត\u{17b7}ទ\u{17b7}ន" , "សន\u{17d2}ល\u{17b9}កប\u{17d2}រត\u{17b7}ទ\u{17b7}នដែលត\u{17d2}រ\u{17bc}វហែកចេញ"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಕ\u{cbf}ತ\u{ccd}ತುಹಾಕುವ ಕ\u{ccd}ಯಾಲ\u{cc6}ಂಡರ\u{ccd}") , keywords : & ["ಕ\u{cbf}ತ\u{ccd}ತುಹಾಕುವ ಕ\u{ccd}ಯಾಲ\u{cc6}ಂಡರ\u{ccd}" , "ಕ\u{ccd}ಯಾಲ\u{cc6}ಂಡರ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("뜯어진 달력") , keywords : & ["달력" , "뜯어진 달력" , "일정" , "캘린더"] , } , crate :: Annotation { lang : "kok" , tts : Some ("तारीख दाखोवपी दिनदर\u{94d}शिका") , keywords : & ["तारीख दाखोवपी दिनदर\u{94d}शिका" , "दिनदर\u{94d}शिका"] , } , crate :: Annotation { lang : "ky" , tts : Some ("тытма жылнаама") , keywords : & ["жылнаама" , "тытма жылнаама"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Ofräisskalenner") , keywords : & ["Kalenner" , "Ofräisskalenner"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ປະຕ\u{eb4}ທ\u{eb4}ນແບບຈ\u{eb5}ກອອກ") , keywords : & ["ຈ\u{eb5}ກອອກ" , "ປະຕ\u{eb4}ທ\u{eb4}ນ" , "ປະຕ\u{eb4}ທ\u{eb4}ນແບບຈ\u{eb5}ກອອກ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("nuplėšiamas kalendorius") , keywords : & ["kalendorius" , "nuplėšiamas kalendorius"] , } , crate :: Annotation { lang : "lv" , tts : Some ("noplēšamais kalendārs") , keywords : & ["datums" , "kalendārs" , "noplēšamais kalendārs"] , } , crate :: Annotation { lang : "mi" , tts : Some ("maramataka tīhae") , keywords : & ["maramataka" , "maramataka tīhae"] , } , crate :: Annotation { lang : "mk" , tts : Some ("календар на кинење") , keywords : & ["датум" , "календар" , "календар на кинење"] , } , crate :: Annotation { lang : "ml" , tts : Some ("കീറിക\u{d4d}കളയ\u{d3e}വ\u{d41}ന\u{d4d}ന കലണ\u{d4d}ടർ") , keywords : & ["കലണ\u{d4d}ടർ" , "കീറിക\u{d4d}കളയ\u{d3e}വ\u{d41}ന\u{d4d}ന കലണ\u{d4d}ടർ" , "കീറിയ കലണ\u{d4d}ടർ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("урдаг календарь") , keywords : & ["календарь" , "урдаг календарь"] , } , crate :: Annotation { lang : "mr" , tts : Some ("फाडण\u{94d}\u{200d}याच\u{947} क\u{945}ल\u{947}\u{902}डर") , keywords : & ["क\u{945}ल\u{947}\u{902}डर" , "फाडण\u{94d}\u{200d}याच\u{947} क\u{945}ल\u{947}\u{902}डर"] , } , crate :: Annotation { lang : "ms" , tts : Some ("kalendar koyak") , keywords : & ["kalendar" , "kalendar koyak"] , } , crate :: Annotation { lang : "mt" , tts : Some ("kalendarju bil-karti jitqaċċtu") , keywords : & ["kalendarju" , "kalendarju bil-karti jitqaċċtu"] , } , crate :: Annotation { lang : "my" , tts : Some ("ရ\u{103d}က\u{103a}ဆ\u{102f}တ\u{103a} ပြက\u{1039}ခဒ\u{102d}န\u{103a}") , keywords : & ["ပြက\u{1039}ခဒ\u{102d}န\u{103a}" , "ရ\u{103d}က\u{103a}ဆ\u{102f}တ\u{103a} ပြက\u{1039}ခဒ\u{102d}န\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("veggkalender") , keywords : & ["kalender" , "riv-av-kalender" , "veggkalender"] , } , crate :: Annotation { lang : "ne" , tts : Some ("टियर-अफ-पात\u{94d}रो") , keywords : & ["टियर-अफ-पात\u{94d}रो" , "पात\u{94d}रो"] , } , crate :: Annotation { lang : "nl" , tts : Some ("scheurkalender") , keywords : & ["kalender" , "scheurkalender"] , } , crate :: Annotation { lang : "nn" , tts : Some ("veggkalender") , keywords : & ["kalender" , "riv-av-kalender" , "veggkalender"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଚ\u{b3f}ର\u{b3e} ଯ\u{b3e}ଇପ\u{b3e}ର\u{b41}ଥ\u{b3f}ବ\u{b3e} କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}\u{200c}") , keywords : & ["କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}" , "ଚ\u{b3f}ର\u{b3e} ଯ\u{b3e}ଇପ\u{b3e}ର\u{b41}ଥ\u{b3f}ବ\u{b3e} କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}\u{200c}" , "ଚ\u{b3f}ର\u{b3f}ବ\u{b3e}ଯୋଗ\u{b4d}ୟ କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਫਟਿਆ ਹ\u{a4b}ਇਆ ਕ\u{a48}ਲ\u{a70}ਡਰ") , keywords : & ["ਕ\u{a48}ਲ\u{a70}ਡਰ" , "ਫਟਿਆ ਹ\u{a4b}ਇਆ ਕ\u{a48}ਲ\u{a70}ਡਰ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("کیلنڈر پاڑو") , keywords : & ["کیلنڈر" , "کیلنڈر پاڑو"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Kalẹ\u{301}nda Wé Pẹ\u{301}sin Fít Tiá Am Kọmọt") , keywords : & ["Kalẹ\u{301}nda" , "Kalẹ\u{301}nda Wé Pẹ\u{301}sin Fít Tiá Am Kọmọt"] , } , crate :: Annotation { lang : "pl" , tts : Some ("kalendarz z wyrywanymi kartkami") , keywords : & ["data" , "kalendarz z wyrywanymi kartkami" , "spirala" , "zdzierany kalendarz"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د شلولو جنتري") , keywords : & ["جنتري" , "د شلولو جنتري"] , } , crate :: Annotation { lang : "pt" , tts : Some ("calendário com folhas destacáveis") , keywords : & ["calendário" , "calendário com folhas destacáveis" , "folhas destacáveis"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("calendário destacável") , keywords : & ["calendário" , "calendário destacável"] , } , crate :: Annotation { lang : "ro" , tts : Some ("calendar cu file detașabile") , keywords : & ["calendar" , "calendar cu file detașabile"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-643") , keywords : & ["E10-643"] , } , crate :: Annotation { lang : "ru" , tts : Some ("отрывной календарь") , keywords : & ["календарь" , "листы" , "отрывной"] , } , crate :: Annotation { lang : "rw" , tts : Some ("gukuraho kalendari") , keywords : & ["gukuraho kalendari" , "karendari"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ٽوڙڻ وارو ڪئلينڊر") , keywords : & ["ٽوڙڻ وارو ڪئلينڊر" , "ڪئلينڊر"] , } , crate :: Annotation { lang : "si" , tts : Some ("කොළ ඉරන ද\u{dd2}න දර\u{dca}ශනය") , keywords : & ["කොළ ඉරන ද\u{dd2}න දර\u{dca}ශනය" , "ද\u{dd2}න දර\u{dca}ශනය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("trhací kalendár") , keywords : & ["kalendár" , "trhací kalendár"] , } , crate :: Annotation { lang : "sl" , tts : Some ("koledar z odstranljivimi listi") , keywords : & ["koledar" , "koledar z odstranljivimi listi"] , } , crate :: Annotation { lang : "so" , tts : Some ("kaalandarka la jaro") , keywords : & ["kaalandar" , "kaalandarka la jaro"] , } , crate :: Annotation { lang : "sq" , tts : Some ("kalendar që griset") , keywords : & ["kalendar" , "kalendar që griset"] , } , crate :: Annotation { lang : "sr" , tts : Some ("календар са одвојивим листовима") , keywords : & ["кaлeндaр" , "календар са одвојивим листовима"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("kalendar sa odvojivim listovima") , keywords : & ["kalendar" , "kalendar sa odvojivim listovima"] , } , crate :: Annotation { lang : "sv" , tts : Some ("avdragbar kalender") , keywords : & ["avdragbar kalender" , "datum" , "kalender"] , } , crate :: Annotation { lang : "sw" , tts : Some ("kalenda unayoweza kuchana kurasa") , keywords : & ["kalenda" , "kalenda unayoweza kuchana kurasa"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("தேதியைக\u{bcd} கிழித\u{bcd}தல\u{bcd}") , keywords : & ["கிழிக\u{bcd}கும\u{bcd} க\u{bbe}லண\u{bcd}டர\u{bcd}" , "கிழிக\u{bcd}கும\u{bcd} க\u{bbe}லேண\u{bcd}டர\u{bcd}" , "கிழிக\u{bcd}கும\u{bcd} ந\u{bbe}ட\u{bcd}க\u{bbe}ட\u{bcd}டி" , "கிழிக\u{bcd}கும\u{bcd} ந\u{bbe}ள\u{bcd}க\u{bbe}ட\u{bcd}டி" , "தேதியைக\u{bcd} கிழித\u{bcd}தல\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("ప\u{c4d}రత\u{c3f} ర\u{c4b}జూ మ\u{c3e}ర\u{c4d}చ\u{c47} క\u{c4d}య\u{c3e}ల\u{c46}ండర\u{c4d}") , keywords : & ["ప\u{c4d}రత\u{c3f} ర\u{c4b}జూ మ\u{c3e}ర\u{c4d}చ\u{c47} క\u{c4d}య\u{c3e}ల\u{c46}ండర\u{c4d}" , "ర\u{c4b}జువ\u{c3e}ర\u{c40} క\u{c4d}య\u{c3e}ల\u{c46}ండర\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("тақвими дарондашаванда") , keywords : & ["тақвим" , "тақвими дарондашаванда"] , } , crate :: Annotation { lang : "th" , tts : Some ("ปฏ\u{e34}ท\u{e34}นแบบฉ\u{e35}กออก") , keywords : & ["ปฏ\u{e34}ท\u{e34}น" , "ปฏ\u{e34}ท\u{e34}นแบบฉ\u{e35}กออก"] , } , crate :: Annotation { lang : "tk" , tts : Some ("ýyrtylýan senenama") , keywords : & ["senenama" , "ýyrtylýan senenama"] , } , crate :: Annotation { lang : "to" , tts : Some ("tohimāhina fakaʻaho") , keywords : & ["tohimāhina fakaʻaho"] , } , crate :: Annotation { lang : "tr" , tts : Some ("koparmalı takvim") , keywords : & ["koparmalı takvim" , "takvim"] , } , crate :: Annotation { lang : "ug" , tts : Some ("يىرتىق كالېندار") , keywords : & ["كالېندار" , "يىرتىق كالېندار"] , } , crate :: Annotation { lang : "uk" , tts : Some ("відривний календар") , keywords : & ["відривний календар" , "календар"] , } , crate :: Annotation { lang : "ur" , tts : Some ("ٹیئر آف کیلنڈر") , keywords : & ["اسٹیشنری" , "قسم" , "ٹیئر آف کیلنڈر" , "کیلنڈر"] , } , crate :: Annotation { lang : "uz" , tts : Some ("yirtiladigan taqvim") , keywords : & ["taqvim" , "yirtiladigan taqvim"] , } , crate :: Annotation { lang : "vi" , tts : Some ("quyển lịch bloc") , keywords : & ["lịch" , "quyển lịch bloc"] , } , crate :: Annotation { lang : "wo" , tts : Some ("arminaatu xotti-kayit") , keywords : & ["arminaat" , "arminaatu xotti-kayit"] , } , crate :: Annotation { lang : "xh" , tts : Some ("krazula ikhalenda") , keywords : & ["ikhalenda" , "krazula ikhalenda"] , } , crate :: Annotation { lang : "yo" , tts : Some ("kàlẹ\u{301}ndà ti a ya") , keywords : & ["kàlẹ\u{301}ndà" , "kàlẹ\u{301}ndà ti a ya"] , } , crate :: Annotation { lang : "yue" , tts : Some ("可撕式日曆") , keywords : & ["可撕式日曆" , "日曆"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("可撕式日历") , keywords : & ["可撕式日历" , "日历"] , } , crate :: Annotation { lang : "zh" , tts : Some ("手撕日历") , keywords : & ["手撕日历" , "日历" , "日期"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("日曆") , keywords : & ["撕日曆" , "日曆"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("撕開嘅日曆") , keywords : & ["撕開嘅日曆"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ikhalenda elidabulekayo") , keywords : & ["ikhalenda" , "ikhalenda elidabulekayo"] , }] , } ;
+pub const TEAR_OFF_CALENDAR: crate::Emoji = crate::Emoji {
+    glyph: "📆",
+    codepoint: "1F4C6",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "tear-off calendar",
+    group: "Objects",
+    subgroup: "office",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("afskeurkalender"),
+            keywords: &["afskeurkalender", "almanak", "dag", "datum", "kalender"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ተቀዳጅ ቀን መቁጠሪያ"),
+            keywords: &["ቀን መቁጠሪያ", "ተቀዳጅ ቀን መቁጠሪያ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("تقويم بأوراق للقطع"),
+            keywords: &["تقويم بأوراق للقطع", "روزنامة"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ফ\u{9be}লিব পৰ\u{9be} কেলেণ\u{9cd}ড\u{9be}ৰ"),
+            keywords: &[
+                "কেলেণ\u{9cd}ড\u{9be}ৰ",
+                "ফ\u{9be}লিব পৰ\u{9be} কেলেণ\u{9cd}ড\u{9be}ৰ",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("təqvimi cırmaq"),
+            keywords: &["təqvim", "təqvimi cırmaq"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("адрыўны каляндар"),
+            keywords: &["адрыўны", "каляндар"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Календар с късащи се листове"),
+            keywords: &["Календар с късащи се листове", "календар"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("টিয\u{9bc}\u{9be}র-অফ ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র"),
+            keywords: &[
+                "ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র",
+                "টিয\u{9bc}\u{9be}র-অফ ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("deiziadur efemerid"),
+            keywords: &["deiziadur", "deiziadur efemerid"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("kalendar na kidanje"),
+            keywords: &["kalendar", "kalendar na kidanje"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("calendari de bloc"),
+            keywords: &["bloc", "calendari", "calendari de bloc"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎦᏯᎴᏍᏗ-ᏅᏓ ᏗᏎᏍᏗ"),
+            keywords: &["ᎦᏯᎴᏍᏗ-ᏅᏓ ᏗᏎᏍᏗ", "ᏅᏓ ᏗᏎᏍᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("trhací kalendář"),
+            keywords: &["kalendář", "trhací kalendář"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("calendr rwygo"),
+            keywords: &["calendr", "calendr rwygo"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("kalenderblok"),
+            keywords: &["afrivningskalender", "kalender", "kalenderblok"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Abreißkalender"),
+            keywords: &["Abreißkalender", "Kalender"],
+        },
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("Abreisskalender"),
+            keywords: &["Abreisskalender", "Kalender"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ημερολόγιο με αποσπώμενες σελίδες"),
+            keywords: &["ημερολόγιο", "ημερολόγιο με αποσπώμενες σελίδες"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("tear-off calendar"),
+            keywords: &["calendar", "tear-off calendar"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("calendario recortable"),
+            keywords: &["calendario", "calendario recortable", "fecha"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("calendario con hojas"),
+            keywords: &["calendario", "calendario con hojas", "hojas"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "calendario",
+                "calendario con hojas",
+                "hojas",
+                "hojas para arrancar",
+            ],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("rebitav kalender"),
+            keywords: &["kalender", "kuupäev", "rebitav kalender"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("orriak kentzeko egutegia"),
+            keywords: &["egutegi", "orriak kentzeko egutegia"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("تقویم رومیزی"),
+            keywords: &["تقویم", "تقویم رومیزی"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("päiväkalenteri"),
+            keywords: &["kalenteri", "päiväkalenteri"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("pinipilas na kalendaryo"),
+            keywords: &["kalendaryo", "petsa", "pinipilas na kalendaryo", "pinunit"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("kalendari sum kann skræðast úr"),
+            keywords: &[
+                "dagfesting",
+                "dagseting",
+                "dato",
+                "kalendari",
+                "kalendari sum kann skræðast úr",
+                "skræða",
+                "tíðarfesting",
+                "tíðarmerking",
+                "álmanakki",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("éphéméride"),
+            keywords: &["calendrier", "date", "éphéméride"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("calendrier à effeuiller"),
+            keywords: &["calendrier", "calendrier à effeuiller", "éphéméride"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("féilire instróicthe"),
+            keywords: &["féilire instróicthe", "féilire le stróiceadh"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("mìosachan le duilleagan a thig dheth"),
+            keywords: &["mìosachan", "mìosachan le duilleagan a thig dheth"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("calendario de varias follas"),
+            keywords: &[
+                "arrancar",
+                "calendario",
+                "calendario de varias follas",
+                "data",
+                "follas",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("તારીખિય\u{ac1}\u{a82}"),
+            keywords: &["ક\u{ac7}લ\u{ac7}ન\u{acd}ડર", "તારીખિય\u{ac1}\u{a82}"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("kalanda da aka yage"),
+            keywords: &["kalanda", "kalanda da aka yage"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("לוח שנה לתלישת דפים"),
+            keywords: &["יומן", "לוח שנה", "לוח שנה לתלישת דפים", "תאריך"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("फ\u{93c}ाड\u{93c}न\u{947} वाला क\u{948}ल\u{947}\u{902}डर"),
+            keywords: &[
+                "क\u{948}ल\u{947}\u{902}डर",
+                "फ\u{93c}ाड\u{93c}न\u{947} वाला क\u{948}ल\u{947}\u{902}डर",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("kalendar na trganje"),
+            keywords: &["kalendar", "kalendar na trganje"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("fali naptár"),
+            keywords: &["fali naptár", "naptár"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("պոկովի օրացույց"),
+            keywords: &["պոկովի օրացույց", "օրացույց"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("kalender sobek"),
+            keywords: &["kalender", "kalender sobek"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("dọkapụ kalịnda"),
+            keywords: &["dọkapụ kalịnda", "kalịnda"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("dagatal með rifgötum"),
+            keywords: &["dagatal", "dagatal með rifgötum"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("calendario a strappo"),
+            keywords: &["calendario", "calendario a strappo"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("日めくりカレンダー"),
+            keywords: &[
+                "カレンダー",
+                "スケジュール",
+                "予定",
+                "日めくりカレンダー",
+                "日付",
+            ],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("tanggalan suwek"),
+            keywords: &["tanggalan", "tanggalan suwek"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("მოსახევი კალენდარი"),
+            keywords: &["კალენდარი", "მოსახევი კალენდარი"],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: None,
+            keywords: &["awitay"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("жыртпалы күнтізбе"),
+            keywords: &["жыртпалы күнтізбе", "күнтізбе"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("kalenderblok"),
+            keywords: &["afrivningskalender", "kalender", "kalenderblok"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some(
+                "សន\u{17d2}ល\u{17b9}កប\u{17d2}រត\u{17b7}ទ\u{17b7}នដែលត\u{17d2}រ\u{17bc}វហែកចេញ",
+            ),
+            keywords: &[
+                "ប\u{17d2}រត\u{17b7}ទ\u{17b7}ន",
+                "សន\u{17d2}ល\u{17b9}កប\u{17d2}រត\u{17b7}ទ\u{17b7}នដែលត\u{17d2}រ\u{17bc}វហែកចេញ",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಕ\u{cbf}ತ\u{ccd}ತುಹಾಕುವ ಕ\u{ccd}ಯಾಲ\u{cc6}ಂಡರ\u{ccd}"),
+            keywords: &[
+                "ಕ\u{cbf}ತ\u{ccd}ತುಹಾಕುವ ಕ\u{ccd}ಯಾಲ\u{cc6}ಂಡರ\u{ccd}",
+                "ಕ\u{ccd}ಯಾಲ\u{cc6}ಂಡರ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("뜯어진 달력"),
+            keywords: &["달력", "뜯어진 달력", "일정", "캘린더"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("तारीख दाखोवपी दिनदर\u{94d}शिका"),
+            keywords: &["तारीख दाखोवपी दिनदर\u{94d}शिका", "दिनदर\u{94d}शिका"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("тытма жылнаама"),
+            keywords: &["жылнаама", "тытма жылнаама"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Ofräisskalenner"),
+            keywords: &["Kalenner", "Ofräisskalenner"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ປະຕ\u{eb4}ທ\u{eb4}ນແບບຈ\u{eb5}ກອອກ"),
+            keywords: &[
+                "ຈ\u{eb5}ກອອກ",
+                "ປະຕ\u{eb4}ທ\u{eb4}ນ",
+                "ປະຕ\u{eb4}ທ\u{eb4}ນແບບຈ\u{eb5}ກອອກ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("nuplėšiamas kalendorius"),
+            keywords: &["kalendorius", "nuplėšiamas kalendorius"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("noplēšamais kalendārs"),
+            keywords: &["datums", "kalendārs", "noplēšamais kalendārs"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("maramataka tīhae"),
+            keywords: &["maramataka", "maramataka tīhae"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("календар на кинење"),
+            keywords: &["датум", "календар", "календар на кинење"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("കീറിക\u{d4d}കളയ\u{d3e}വ\u{d41}ന\u{d4d}ന കലണ\u{d4d}ടർ"),
+            keywords: &[
+                "കലണ\u{d4d}ടർ",
+                "കീറിക\u{d4d}കളയ\u{d3e}വ\u{d41}ന\u{d4d}ന കലണ\u{d4d}ടർ",
+                "കീറിയ കലണ\u{d4d}ടർ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("урдаг календарь"),
+            keywords: &["календарь", "урдаг календарь"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("फाडण\u{94d}\u{200d}याच\u{947} क\u{945}ल\u{947}\u{902}डर"),
+            keywords: &[
+                "क\u{945}ल\u{947}\u{902}डर",
+                "फाडण\u{94d}\u{200d}याच\u{947} क\u{945}ल\u{947}\u{902}डर",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("kalendar koyak"),
+            keywords: &["kalendar", "kalendar koyak"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("kalendarju bil-karti jitqaċċtu"),
+            keywords: &["kalendarju", "kalendarju bil-karti jitqaċċtu"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ရ\u{103d}က\u{103a}ဆ\u{102f}တ\u{103a} ပြက\u{1039}ခဒ\u{102d}န\u{103a}"),
+            keywords: &[
+                "ပြက\u{1039}ခဒ\u{102d}န\u{103a}",
+                "ရ\u{103d}က\u{103a}ဆ\u{102f}တ\u{103a} ပြက\u{1039}ခဒ\u{102d}န\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("veggkalender"),
+            keywords: &["kalender", "riv-av-kalender", "veggkalender"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("टियर-अफ-पात\u{94d}रो"),
+            keywords: &["टियर-अफ-पात\u{94d}रो", "पात\u{94d}रो"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("scheurkalender"),
+            keywords: &["kalender", "scheurkalender"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("veggkalender"),
+            keywords: &["kalender", "riv-av-kalender", "veggkalender"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some(
+                "ଚ\u{b3f}ର\u{b3e} ଯ\u{b3e}ଇପ\u{b3e}ର\u{b41}ଥ\u{b3f}ବ\u{b3e} କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}\u{200c}",
+            ),
+            keywords: &[
+                "କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}",
+                "ଚ\u{b3f}ର\u{b3e} ଯ\u{b3e}ଇପ\u{b3e}ର\u{b41}ଥ\u{b3f}ବ\u{b3e} କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}\u{200c}",
+                "ଚ\u{b3f}ର\u{b3f}ବ\u{b3e}ଯୋଗ\u{b4d}ୟ କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਫਟਿਆ ਹ\u{a4b}ਇਆ ਕ\u{a48}ਲ\u{a70}ਡਰ"),
+            keywords: &["ਕ\u{a48}ਲ\u{a70}ਡਰ", "ਫਟਿਆ ਹ\u{a4b}ਇਆ ਕ\u{a48}ਲ\u{a70}ਡਰ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("کیلنڈر پاڑو"),
+            keywords: &["کیلنڈر", "کیلنڈر پاڑو"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Kalẹ\u{301}nda Wé Pẹ\u{301}sin Fít Tiá Am Kọmọt"),
+            keywords: &[
+                "Kalẹ\u{301}nda",
+                "Kalẹ\u{301}nda Wé Pẹ\u{301}sin Fít Tiá Am Kọmọt",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("kalendarz z wyrywanymi kartkami"),
+            keywords: &[
+                "data",
+                "kalendarz z wyrywanymi kartkami",
+                "spirala",
+                "zdzierany kalendarz",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د شلولو جنتري"),
+            keywords: &["جنتري", "د شلولو جنتري"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("calendário com folhas destacáveis"),
+            keywords: &[
+                "calendário",
+                "calendário com folhas destacáveis",
+                "folhas destacáveis",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("calendário destacável"),
+            keywords: &["calendário", "calendário destacável"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("calendar cu file detașabile"),
+            keywords: &["calendar", "calendar cu file detașabile"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-643"),
+            keywords: &["E10-643"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("отрывной календарь"),
+            keywords: &["календарь", "листы", "отрывной"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("gukuraho kalendari"),
+            keywords: &["gukuraho kalendari", "karendari"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ٽوڙڻ وارو ڪئلينڊر"),
+            keywords: &["ٽوڙڻ وارو ڪئلينڊر", "ڪئلينڊر"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("කොළ ඉරන ද\u{dd2}න දර\u{dca}ශනය"),
+            keywords: &["කොළ ඉරන ද\u{dd2}න දර\u{dca}ශනය", "ද\u{dd2}න දර\u{dca}ශනය"],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("trhací kalendár"),
+            keywords: &["kalendár", "trhací kalendár"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("koledar z odstranljivimi listi"),
+            keywords: &["koledar", "koledar z odstranljivimi listi"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("kaalandarka la jaro"),
+            keywords: &["kaalandar", "kaalandarka la jaro"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("kalendar që griset"),
+            keywords: &["kalendar", "kalendar që griset"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("календар са одвојивим листовима"),
+            keywords: &["кaлeндaр", "календар са одвојивим листовима"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("kalendar sa odvojivim listovima"),
+            keywords: &["kalendar", "kalendar sa odvojivim listovima"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("avdragbar kalender"),
+            keywords: &["avdragbar kalender", "datum", "kalender"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kalenda unayoweza kuchana kurasa"),
+            keywords: &["kalenda", "kalenda unayoweza kuchana kurasa"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("தேதியைக\u{bcd} கிழித\u{bcd}தல\u{bcd}"),
+            keywords: &[
+                "கிழிக\u{bcd}கும\u{bcd} க\u{bbe}லண\u{bcd}டர\u{bcd}",
+                "கிழிக\u{bcd}கும\u{bcd} க\u{bbe}லேண\u{bcd}டர\u{bcd}",
+                "கிழிக\u{bcd}கும\u{bcd} ந\u{bbe}ட\u{bcd}க\u{bbe}ட\u{bcd}டி",
+                "கிழிக\u{bcd}கும\u{bcd} ந\u{bbe}ள\u{bcd}க\u{bbe}ட\u{bcd}டி",
+                "தேதியைக\u{bcd} கிழித\u{bcd}தல\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some(
+                "ప\u{c4d}రత\u{c3f} ర\u{c4b}జూ మ\u{c3e}ర\u{c4d}చ\u{c47} క\u{c4d}య\u{c3e}ల\u{c46}ండర\u{c4d}",
+            ),
+            keywords: &[
+                "ప\u{c4d}రత\u{c3f} ర\u{c4b}జూ మ\u{c3e}ర\u{c4d}చ\u{c47} క\u{c4d}య\u{c3e}ల\u{c46}ండర\u{c4d}",
+                "ర\u{c4b}జువ\u{c3e}ర\u{c40} క\u{c4d}య\u{c3e}ల\u{c46}ండర\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("тақвими дарондашаванда"),
+            keywords: &["тақвим", "тақвими дарондашаванда"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ปฏ\u{e34}ท\u{e34}นแบบฉ\u{e35}กออก"),
+            keywords: &["ปฏ\u{e34}ท\u{e34}น", "ปฏ\u{e34}ท\u{e34}นแบบฉ\u{e35}กออก"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("ýyrtylýan senenama"),
+            keywords: &["senenama", "ýyrtylýan senenama"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tohimāhina fakaʻaho"),
+            keywords: &["tohimāhina fakaʻaho"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("koparmalı takvim"),
+            keywords: &["koparmalı takvim", "takvim"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("يىرتىق كالېندار"),
+            keywords: &["كالېندار", "يىرتىق كالېندار"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("відривний календар"),
+            keywords: &["відривний календар", "календар"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("ٹیئر آف کیلنڈر"),
+            keywords: &["اسٹیشنری", "قسم", "ٹیئر آف کیلنڈر", "کیلنڈر"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("yirtiladigan taqvim"),
+            keywords: &["taqvim", "yirtiladigan taqvim"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("quyển lịch bloc"),
+            keywords: &["lịch", "quyển lịch bloc"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("arminaatu xotti-kayit"),
+            keywords: &["arminaat", "arminaatu xotti-kayit"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("krazula ikhalenda"),
+            keywords: &["ikhalenda", "krazula ikhalenda"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("kàlẹ\u{301}ndà ti a ya"),
+            keywords: &["kàlẹ\u{301}ndà", "kàlẹ\u{301}ndà ti a ya"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("可撕式日曆"),
+            keywords: &["可撕式日曆", "日曆"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("可撕式日历"),
+            keywords: &["可撕式日历", "日历"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("手撕日历"),
+            keywords: &["手撕日历", "日历", "日期"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("日曆"),
+            keywords: &["撕日曆", "日曆"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("撕開嘅日曆"),
+            keywords: &["撕開嘅日曆"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ikhalenda elidabulekayo"),
+            keywords: &["ikhalenda", "ikhalenda elidabulekayo"],
+        },
+    ],
+};
 #[doc = "🗒\u{fe0f}"]
-pub const SPIRAL_NOTEPAD : crate :: Emoji = crate :: Emoji { glyph : "🗒\u{fe0f}" , codepoint : "1F5D2 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "spiral notepad" , group : "Objects" , subgroup : "office" , is_variant : false , variants : & [crate :: Emoji { glyph : "🗒" , codepoint : "1F5D2" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "spiral notepad" , group : "Objects" , subgroup : "office" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("spiraalnotaboek") , keywords : & ["aantekening" , "boek" , "nota" , "spiraal" , "spiraalnotaboek"] , } , crate :: Annotation { lang : "am" , tts : Some ("ባለሽቦ ማስታወሻ ደብተር") , keywords : & ["ማስታወሻ" , "ሰሌዳ" , "ባለሽቦ" , "ባለሽቦ ማስታወሻ ደብተር"] , } , crate :: Annotation { lang : "ar" , tts : Some ("ورقة ملاحظات") , keywords : & ["حلزوني" , "ملاحظة" , "ورقة" , "ورقة ملاحظات"] , } , crate :: Annotation { lang : "as" , tts : Some ("স\u{9cd}প\u{9be}ইৰেল টোক\u{9be}বহী") , keywords : & ["টোক\u{9be}" , "বহী" , "স\u{9cd}প\u{9be}ইৰেল" , "স\u{9cd}প\u{9be}ইৰেল টোক\u{9be}বহী"] , } , crate :: Annotation { lang : "az" , tts : Some ("spiral dəftər") , keywords : & ["bloknot" , "qeyd" , "spiral" , "spiral dəftər"] , } , crate :: Annotation { lang : "be" , tts : Some ("перакідны нататнік") , keywords : & ["блакнот" , "лісты" , "нататнік" , "перакідны"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Бележник със спирала") , keywords : & ["Бележник със спирала" , "бележник" , "спирала"] , } , crate :: Annotation { lang : "bn" , tts : Some ("স\u{9cd}প\u{9be}ইর\u{9be}ল নোটপ\u{9cd}য\u{9be}ড") , keywords : & ["নোট" , "পে\u{981}চ\u{9be}নো" , "প\u{9cd}য\u{9be}ড" , "স\u{9cd}প\u{9be}ইর\u{9be}ল নোটপ\u{9cd}য\u{9be}ড"] , } , crate :: Annotation { lang : "br" , tts : Some ("blocʼh-notennoù gant troellennoù") , keywords : & ["blocʼh-notennoù" , "blocʼh-notennoù gant troellennoù" , "troellennoù"] , } , crate :: Annotation { lang : "bs" , tts : Some ("spiralni blokić") , keywords : & ["blokić" , "notes" , "spiralni blokić" , "spiralni uvez"] , } , crate :: Annotation { lang : "ca" , tts : Some ("bloc de notes d’espiral") , keywords : & ["bloc" , "bloc de notes d’espiral" , "espiral" , "notes"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏄᏖᏲᎸ ᎪᏪᎶᏗ ᎪᏪᎵ") , keywords : & ["ᎤᏍᏗ ᎪᏪᎵ" , "ᎦᏄᏖᏲᎸ" , "ᎦᏄᏖᏲᎸ ᎪᏪᎶᏗ ᎪᏪᎵ" , "ᎪᏪᎶᏗ ᎪᏪᎵ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("kroužkový zápisník") , keywords : & ["blok" , "kroužkový zápisník" , "kroužky" , "poznámky" , "spirálový" , "zápisky"] , } , crate :: Annotation { lang : "cy" , tts : Some ("llyfr nodiadau troellog") , keywords : & ["llyfr nodiadau" , "llyfr nodiadau troellog" , "nodyn" , "troellog"] , } , crate :: Annotation { lang : "da" , tts : Some ("notesblok") , keywords : & ["blok" , "note" , "noter" , "notesblok" , "spiral" , "spiralryg"] , } , crate :: Annotation { lang : "de" , tts : Some ("Notizblock") , keywords : & ["Block" , "Notizblock"] , } , crate :: Annotation { lang : "el" , tts : Some ("σπιράλ σημειωματάριο") , keywords : & ["σημείωμα" , "σημειωματάριο" , "σπιράλ"] , } , crate :: Annotation { lang : "en" , tts : Some ("spiral notepad") , keywords : & ["note" , "pad" , "spiral" , "spiral notepad"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("bloc de notas de espiral") , keywords : & ["bloc" , "bloc de notas de espiral" , "cuaderno" , "espiral" , "notas"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("bloc de notas con espiral") , keywords : & ["anotador" , "bloc de notas con espiral" , "escribir" , "notas"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("spiraalmärkmik") , keywords : & ["spiraal" , "spiraalmärkmik"] , } , crate :: Annotation { lang : "eu" , tts : Some ("koaderno kiribilduna") , keywords : & ["blok" , "kiribil" , "koaderno kiribilduna" , "ohar"] , } , crate :: Annotation { lang : "fa" , tts : Some ("دفترچه\u{654} یادداشت سیمی") , keywords : & ["دفترچه\u{654} یادداشت سیمی" , "سیمی" , "صفحه" , "یادداشت"] , } , crate :: Annotation { lang : "fi" , tts : Some ("kierrelehtiö") , keywords : & ["kierre" , "kierrelehtiö" , "lehtiö" , "muistio"] , } , crate :: Annotation { lang : "fil" , tts : Some ("spiral notepad") , keywords : & ["notepad" , "spiral notepad" , "sulatan"] , } , crate :: Annotation { lang : "fo" , tts : Some ("spiralheftur skriviblokkur") , keywords : & ["blokkur" , "skriviblokkur" , "snyril" , "spiralheftur" , "spiralur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("bloc-notes à spirale") , keywords : & ["bloc-notes à spirale" , "notes"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("ceap nótaí bíseach") , keywords : & ["bíseach" , "ceap" , "ceap nótaí bíseach" , "nóta"] , } , crate :: Annotation { lang : "gd" , tts : Some ("pada-nòtaichean le cuachag") , keywords : & ["cuachag" , "nòta" , "pada" , "pada-nòtaichean le cuachag"] , } , crate :: Annotation { lang : "gl" , tts : Some ("caderno de espiral") , keywords : & ["caderno" , "caderno de espiral" , "escribir" , "espiral"] , } , crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}પાઇરલ નોટપ\u{ac7}ડ") , keywords : & ["નોટ" , "પ\u{ac7}ડ" , "સ\u{acd}પાઇરલ" , "સ\u{acd}પાઇરલ નોટપ\u{ac7}ડ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("littafin rubutu mai lanƙwasawa") , keywords : & ["abin rubutu" , "littafin rubutu mai lanƙwasawa" , "mai lanƙwasawa" , "rubutu"] , } , crate :: Annotation { lang : "he" , tts : Some ("פנקס עם ספירלה") , keywords : & ["ספירלה" , "פנקס" , "פנקס עם ספירלה"] , } , crate :: Annotation { lang : "hi" , tts : Some ("स\u{94d}पाइरल नोटप\u{948}ड") , keywords : & ["नोट" , "प\u{948}ड" , "स\u{94d}पाइरल नोटप\u{948}ड" , "स\u{94d}पाइरल नोटप\u{948}ड, नोट, प\u{948}ड"] , } , crate :: Annotation { lang : "hr" , tts : Some ("spiralni notes") , keywords : & ["bilješka" , "blok" , "spirala" , "spiralni notes"] , } , crate :: Annotation { lang : "hu" , tts : Some ("spirálfüzet") , keywords : & ["jegyzettömb" , "spirál" , "spirálfüzet" , "tömb"] , } , crate :: Annotation { lang : "hy" , tts : Some ("պարուրավոր նոթատետր") , keywords : & ["գրքույկ" , "պարույր" , "պարուրավոր նոթատետր" , "տետր"] , } , crate :: Annotation { lang : "id" , tts : Some ("catatan spiral") , keywords : & ["catatan" , "kertas" , "spiral"] , } , crate :: Annotation { lang : "ig" , tts : Some ("noòtùpaadị akpachiri") , keywords : & ["mkpachi" , "noòtù" , "noòtùpaadị akpachiri" , "paadị"] , } , crate :: Annotation { lang : "is" , tts : Some ("minnisblokk með gormum") , keywords : & ["blokk" , "glósa" , "gormar" , "minnisblokk með gormum"] , } , crate :: Annotation { lang : "it" , tts : Some ("blocco per appunti con spirale") , keywords : & ["appuntare" , "appunti" , "blocchetto degli appunti" , "blocco" , "blocco a spirale" , "blocco per appunti con spirale" , "scrivere"] , } , crate :: Annotation { lang : "ja" , tts : Some ("メモ帳") , keywords : & ["ノート" , "メモ帳" , "リングメモ" , "文具" , "文房具"] , } , crate :: Annotation { lang : "jv" , tts : Some ("buku cathetan spiral") , keywords : & ["buku" , "cathetan" , "lemek" , "spiral"] , } , crate :: Annotation { lang : "ka" , tts : Some ("სპირალიანი ბლოკნოტი") , keywords : & ["ბლოკნოტი" , "სპირალიანი ბლოკნოტი" , "სპირალური"] , } , crate :: Annotation { lang : "kk" , tts : Some ("спиралды дәптер") , keywords : & ["ескертпе" , "спирал" , "спиралды дәптер" , "тақта"] , } , crate :: Annotation { lang : "kl" , tts : Some ("notesblok") , keywords : & ["blok" , "note" , "noter" , "notesblok" , "spiral" , "spiralryg"] , } , crate :: Annotation { lang : "km" , tts : Some ("ក\u{17bc}នសៀវភៅកត\u{17cb}ត\u{17d2}រា") , keywords : & ["កត\u{17cb}ត\u{17d2}រា" , "ក\u{17bc}នសៀវភៅ" , "ក\u{17bc}នសៀវភៅកត\u{17cb}ត\u{17d2}រា"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಸ\u{ccd}ಪೈರಲ\u{ccd} ನೋಟ\u{ccd}\u{200c}ಪ\u{ccd}ಯಾಡ\u{ccd}") , keywords : & ["ಟ\u{cbf}ಪ\u{ccd}ಪಣ\u{cbf}" , "ಪ\u{ccd}ಯಾಡ\u{ccd}" , "ಸ\u{ccd}ಪೈರಲ\u{ccd}" , "ಸ\u{ccd}ಪೈರಲ\u{ccd} ನೋಟ\u{ccd}\u{200c}ಪ\u{ccd}ಯಾಡ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("스프링 노트") , keywords : & ["노트" , "노트 패드" , "스프링 노트"] , } , crate :: Annotation { lang : "kok" , tts : Some ("नो\u{902}दपट\u{94d}टी") , keywords : & ["नो\u{902}द" , "नो\u{902}दकरच\u{947}\u{902}" , "नो\u{902}दपट\u{94d}टी" , "प\u{945}ड"] , } , crate :: Annotation { lang : "ky" , tts : Some ("спиралдуу блокнот") , keywords : & ["блокнот" , "спиралдуу блокнот" , "спираль"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Réngelchersnotizblock") , keywords : & ["Block" , "Notiz" , "Réngelcher" , "Réngelchersnotizblock"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ແຜ\u{ec8}ນບ\u{eb1}ນທ\u{eb6}ກທ\u{eb5}\u{ec8}ມ\u{eb5}ສ\u{ebb}\u{ec9}ນແບບເປ\u{eb1}ນຫ\u{ec8}ວງ") , keywords : & ["ບ\u{eb1}ນທ\u{eb6}ກ" , "ຫ\u{ec8}ວງ" , "ແຜ\u{ec8}ນ" , "ແຜ\u{ec8}ນບ\u{eb1}ນທ\u{eb6}ກທ\u{eb5}\u{ec8}ມ\u{eb5}ສ\u{ebb}\u{ec9}ນແບບເປ\u{eb1}ນຫ\u{ec8}ວງ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("užrašinė su spirale") , keywords : & ["spiralė" , "užrašas" , "užrašinė" , "užrašinė su spirale"] , } , crate :: Annotation { lang : "lv" , tts : Some ("bloknots ar spirāli") , keywords : & ["bloknots" , "bloknots ar spirāli" , "piezīmes" , "spirāle"] , } , crate :: Annotation { lang : "mi" , tts : Some ("pukatuhi tōrino") , keywords : & ["pukatuhi" , "tuhipoka" , "tōrino"] , } , crate :: Annotation { lang : "mk" , tts : Some ("тетратка со спирала") , keywords : & ["бележник" , "спирала" , "тетратка" , "тетратка со спирала"] , } , crate :: Annotation { lang : "ml" , tts : Some ("സ\u{d4d}\u{200c}പൈറൽ നോട\u{d4d}ട\u{d4d}പ\u{d3e}ഡ\u{d4d}") , keywords : & ["നോട\u{d4d}ട\u{d4d}" , "പ\u{d3e}ഡ\u{d4d}" , "സ\u{d4d}പൈറൽ" , "സ\u{d4d}\u{200c}പൈറൽ നോട\u{d4d}ട\u{d4d}പ\u{d3e}ഡ\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("эргүүлдэг тэмдэглэлийн хуудас") , keywords : & ["тэмдэглэл" , "хуудас" , "эргүүлдэг тэмдэглэлийн хуудас" , "эргүүлэх"] , } , crate :: Annotation { lang : "mr" , tts : Some ("चक\u{94d}राकार नोटप\u{945}ड") , keywords : & ["चक\u{94d}राकार" , "चक\u{94d}राकार नोटप\u{945}ड" , "नोट" , "प\u{945}ड"] , } , crate :: Annotation { lang : "ms" , tts : Some ("pad nota pilin") , keywords : & ["nota" , "pad" , "pilin"] , } , crate :: Annotation { lang : "mt" , tts : Some ("notepad spirali") , keywords : & ["nota" , "notepad spirali" , "pad" , "spirali"] , } , crate :: Annotation { lang : "my" , tts : Some ("လ\u{103e}ည\u{1037}\u{103a}န\u{102d}\u{102f}င\u{103a}သည\u{1037}\u{103a} မ\u{103e}တ\u{103a}စ\u{102f}စာအ\u{102f}ပ\u{103a}") , keywords : & ["မ\u{103e}တ\u{103a}စ\u{102f}" , "မ\u{103e}တ\u{103a}စ\u{102f} စာအ\u{102f}တ\u{103a}" , "လ\u{103e}ည\u{1037}\u{103a}န\u{102d}\u{102f}င\u{103a}သည\u{1037}\u{103a} မ\u{103e}တ\u{103a}စ\u{102f}စာအ\u{102f}တ\u{103a}" , "လ\u{103e}ည\u{1037}\u{103a}န\u{102d}\u{102f}င\u{103a}သည\u{1037}\u{103a} မ\u{103e}တ\u{103a}စ\u{102f}စာအ\u{102f}ပ\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("spiralhefte") , keywords : & ["blokk" , "notat" , "spiral" , "spiralhefte"] , } , crate :: Annotation { lang : "ne" , tts : Some ("स\u{94d}पाइरल नोटप\u{94d}याड") , keywords : & ["नोट" , "प\u{94d}याड" , "स\u{94d}पाइरल" , "स\u{94d}पाइरल नोटप\u{94d}याड"] , } , crate :: Annotation { lang : "nl" , tts : Some ("schrijfblok met spiraal") , keywords : & ["notitie" , "schrijfblok" , "schrijfblok met spiraal" , "spiraal"] , } , crate :: Annotation { lang : "nn" , tts : Some ("spiralhefte") , keywords : & ["blokk" , "notat" , "spiral" , "spiralhefte"] , } , crate :: Annotation { lang : "or" , tts : Some ("ସ\u{b4d}ପ\u{b3e}ଇର\u{b3e}ଲ\u{b4d}\u{200c} ନୋଟ\u{b4d}\u{200c}ପ\u{b4d}ୟ\u{b3e}ଡ\u{b4d}\u{200c}") , keywords : & ["ନୋଟ\u{b4d}\u{200c}" , "ପ\u{b4d}ୟ\u{b3e}ଡ\u{b4d}\u{200c}" , "ସ\u{b4d}ପ\u{b3e}ଇର\u{b3e}ଲ\u{b4d}\u{200c}" , "ସ\u{b4d}ପ\u{b3e}ଇର\u{b3e}ଲ\u{b4d}\u{200c} ନୋଟ\u{b4d}\u{200c}ପ\u{b4d}ୟ\u{b3e}ଡ\u{b4d}\u{200c}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਚ\u{a42}ੜੀਦਾਰ ਨ\u{a4b}ਟਪ\u{a48}ਡ") , keywords : & ["ਚ\u{a42}ੜੀਦਾਰ" , "ਨ\u{a4b}ਟ" , "ਨ\u{a4b}ਟਪ\u{a48}ਡ" , "ਪ\u{a48}ਡ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("سپائرل نوٹ پیڈ") , keywords : & ["ر\u{64f}قعہ" , "سپائرل نوٹ پیڈ" , "مرغولے دار" , "چارجامہ"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Spaírál Nótpad") , keywords : & ["Not" , "Pad" , "Spaíral" , "Spaírál Nótpad"] , } , crate :: Annotation { lang : "pl" , tts : Some ("kołonotatnik") , keywords : & ["kołonotatnik" , "na spirali" , "notatnik" , "notes" , "spirala"] , } , crate :: Annotation { lang : "ps" , tts : Some ("حلزوني يادښت پېډ") , keywords : & ["حلزوني" , "حلزوني يادښت پېډ" , "ياددښت" , "پېډ"] , } , crate :: Annotation { lang : "pt" , tts : Some ("bloco espiral") , keywords : & ["bloco" , "caderno" , "espiral"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("bloco de notas com espiral") , keywords : & ["bloco" , "bloco de notas com espiral" , "espiral" , "notas"] , } , crate :: Annotation { lang : "ro" , tts : Some ("blocnotes cu spirală") , keywords : & ["blocnotes cu spirală" , "carnet" , "spirală"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-820") , keywords : & ["E10-820"] , } , crate :: Annotation { lang : "ru" , tts : Some ("перекидной блокнот") , keywords : & ["блокнот" , "листы" , "откидной" , "перекидной блокнот" , "пружина"] , } , crate :: Annotation { lang : "rw" , tts : Some ("Ikayi iteranyije akuma kigondoye") , keywords : & ["Ikayi iteranyije akuma kigondoye" , "agakayi" , "cyigondoye" , "icyanditse"] , } , crate :: Annotation { lang : "sd" , tts : Some ("اسپائرل نوٽ پيڊ") , keywords : & ["اسپائرل" , "نوٽ" , "پيڊ"] , } , crate :: Annotation { lang : "si" , tts : Some ("ස\u{dca}පය\u{dd2}රල\u{dca} සටහන\u{dca} පෑඩය") , keywords : & ["පෑඩය" , "සටහන" , "ස\u{dca}පය\u{dd2}රල\u{dca}" , "ස\u{dca}පය\u{dd2}රල\u{dca} සටහන\u{dca} පෑඩය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("špirálový zápisník") , keywords : & ["poznámka" , "zápisník" , "špirála" , "špirálový zápisník"] , } , crate :: Annotation { lang : "sl" , tts : Some ("spiralna beležnica") , keywords : & ["beležka" , "beležnica" , "spirala" , "spiralna beležnica"] , } , crate :: Annotation { lang : "so" , tts : Some ("buug xaashiyiihiisa la rogo") , keywords : & ["buug xaashiyiihiisa la rogo" , "buug xaashiyiihisa la rogo" , "qorid"] , } , crate :: Annotation { lang : "sq" , tts : Some ("bllok shënimesh me spirale") , keywords : & ["bllok" , "bllok shënimesh me spirale" , "shënim" , "spiral" , "spirale"] , } , crate :: Annotation { lang : "sr" , tts : Some ("бележница са спиралом") , keywords : & ["белeшкa" , "бележница са спиралом" , "блoк" , "спирaлa"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("биљежница са спиралом") , keywords : & ["биљежница са спиралом"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("beležnica sa spiralom") , keywords : & ["beleška" , "beležnica sa spiralom" , "blok" , "spirala"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("bilježnica sa spiralom") , keywords : & ["bilježnica sa spiralom"] , } , crate :: Annotation { lang : "sv" , tts : Some ("anteckningsblock") , keywords : & ["anteckningar" , "anteckningsblock" , "block"] , } , crate :: Annotation { lang : "sw" , tts : Some ("daftari lililobanwa kwa waya wa mzunguko") , keywords : & ["daftari" , "daftari lililobanwa kwa waya wa mzunguko" , "dokezo" , "mzunguko"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஸ\u{bcd}பைரல\u{bcd} நோட\u{bcd}பேடு") , keywords : & ["நோட\u{bcd}பேடு" , "ஸ\u{bcd}பைரல\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}ప\u{c48}రల\u{c4d} న\u{c4b}ట\u{c4d} ప\u{c4d}య\u{c3e}డ\u{c4d}") , keywords : & ["న\u{c4b}ట\u{c4d}" , "ప\u{c4d}య\u{c3e}డ\u{c4d}" , "స\u{c4d}ప\u{c48}రల\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("дафтари ёддошти печдор") , keywords : & ["дафтари ёддошт" , "дафтари ёддошти печдор" , "печдор" , "тавзеҳ"] , } , crate :: Annotation { lang : "th" , tts : Some ("สม\u{e38}ดโน\u{e49}ตส\u{e31}นห\u{e48}วง") , keywords : & ["จด" , "สม\u{e38}ด" , "สม\u{e38}ดโน\u{e49}ตส\u{e31}นห\u{e48}วง" , "ห\u{e48}วง" , "โน\u{e49}ต"] , } , crate :: Annotation { lang : "tk" , tts : Some ("spirally depderçe") , keywords : & ["bellik" , "bloknot" , "spiral" , "spirally depderçe"] , } , crate :: Annotation { lang : "to" , tts : Some ("pepa fakamaʻu vilovilo") , keywords : & ["pepa fakamaʻu vilovilo"] , } , crate :: Annotation { lang : "tr" , tts : Some ("spiral not defteri") , keywords : & ["defter" , "not" , "spiral" , "spiral not defteri"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ھالقىسىمان خاتىرە") , keywords : & ["تاختا" , "خاتىرە" , "ھالقا" , "ھالقىسىمان خاتىرە"] , } , crate :: Annotation { lang : "uk" , tts : Some ("блокнот на спіралі") , keywords : & ["блокнот" , "блокнот на спіралі" , "на спіралі"] , } , crate :: Annotation { lang : "ur" , tts : Some ("سپائرل نوٹ بک") , keywords : & ["اسٹیشنری" , "سپائرل" , "سپائرل نوٹ بک" , "نوٹ بک"] , } , crate :: Annotation { lang : "uz" , tts : Some ("spiralli yon daftarcha") , keywords : & ["spiral" , "spiralli yon daftarcha" , "yon daftarcha"] , } , crate :: Annotation { lang : "vi" , tts : Some ("sổ ghi chú gáy xoắn") , keywords : & ["ghi chú" , "gáy xoắn" , "sổ" , "sổ ghi chú gáy xoắn"] , } , crate :: Annotation { lang : "wo" , tts : Some ("bloknot bu am weñ") , keywords : & ["am weñ" , "blok" , "bloknot bu am weñ" , "not"] , } , crate :: Annotation { lang : "xh" , tts : Some ("iphedi yamanqaku ejikelezayo") , keywords : & ["ejikelezayo" , "inqaku" , "iphedi" , "iphedi yamanqaku ejikelezayo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("nóòtì páàdì alákápò\u{329}") , keywords : & ["nóòtì" , "nóòtì páàdì alákápò\u{329}" , "páàdì" , "àkápọ\u{300}"] , } , crate :: Annotation { lang : "yue" , tts : Some ("可揭式記事簿") , keywords : & ["可揭式記事簿" , "墊" , "注釋" , "螺旋"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("可揭式记事簿") , keywords : & ["可揭式记事簿" , "垫" , "注释" , "螺旋"] , } , crate :: Annotation { lang : "zh" , tts : Some ("线圈本") , keywords : & ["文具" , "笔记本" , "线圈本" , "记事本"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("線圈筆記本") , keywords : & ["筆記本" , "線圈筆記本"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("線圈筆記簿") , keywords : & ["線圈筆記簿" , "線圈筆記簿｜筆記簿"] , } , crate :: Annotation { lang : "zu" , tts : Some ("okokubhala okunezipringi") , keywords : & ["izipringi" , "okokubhala" , "okokubhala okunezipringi"] , }] , } ;
+pub const SPIRAL_NOTEPAD: crate::Emoji = crate::Emoji {
+    glyph: "🗒\u{fe0f}",
+    codepoint: "1F5D2 FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.7f32,
+    name: "spiral notepad",
+    group: "Objects",
+    subgroup: "office",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🗒",
+        codepoint: "1F5D2",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "spiral notepad",
+        group: "Objects",
+        subgroup: "office",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("spiraalnotaboek"),
+            keywords: &["aantekening", "boek", "nota", "spiraal", "spiraalnotaboek"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ባለሽቦ ማስታወሻ ደብተር"),
+            keywords: &["ማስታወሻ", "ሰሌዳ", "ባለሽቦ", "ባለሽቦ ማስታወሻ ደብተር"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("ورقة ملاحظات"),
+            keywords: &["حلزوني", "ملاحظة", "ورقة", "ورقة ملاحظات"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("স\u{9cd}প\u{9be}ইৰেল টোক\u{9be}বহী"),
+            keywords: &[
+                "টোক\u{9be}",
+                "বহী",
+                "স\u{9cd}প\u{9be}ইৰেল",
+                "স\u{9cd}প\u{9be}ইৰেল টোক\u{9be}বহী",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("spiral dəftər"),
+            keywords: &["bloknot", "qeyd", "spiral", "spiral dəftər"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("перакідны нататнік"),
+            keywords: &["блакнот", "лісты", "нататнік", "перакідны"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Бележник със спирала"),
+            keywords: &["Бележник със спирала", "бележник", "спирала"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("স\u{9cd}প\u{9be}ইর\u{9be}ল নোটপ\u{9cd}য\u{9be}ড"),
+            keywords: &[
+                "নোট",
+                "পে\u{981}চ\u{9be}নো",
+                "প\u{9cd}য\u{9be}ড",
+                "স\u{9cd}প\u{9be}ইর\u{9be}ল নোটপ\u{9cd}য\u{9be}ড",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("blocʼh-notennoù gant troellennoù"),
+            keywords: &[
+                "blocʼh-notennoù",
+                "blocʼh-notennoù gant troellennoù",
+                "troellennoù",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("spiralni blokić"),
+            keywords: &["blokić", "notes", "spiralni blokić", "spiralni uvez"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("bloc de notes d’espiral"),
+            keywords: &["bloc", "bloc de notes d’espiral", "espiral", "notes"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎦᏄᏖᏲᎸ ᎪᏪᎶᏗ ᎪᏪᎵ"),
+            keywords: &["ᎤᏍᏗ ᎪᏪᎵ", "ᎦᏄᏖᏲᎸ", "ᎦᏄᏖᏲᎸ ᎪᏪᎶᏗ ᎪᏪᎵ", "ᎪᏪᎶᏗ ᎪᏪᎵ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("kroužkový zápisník"),
+            keywords: &[
+                "blok",
+                "kroužkový zápisník",
+                "kroužky",
+                "poznámky",
+                "spirálový",
+                "zápisky",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("llyfr nodiadau troellog"),
+            keywords: &[
+                "llyfr nodiadau",
+                "llyfr nodiadau troellog",
+                "nodyn",
+                "troellog",
+            ],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("notesblok"),
+            keywords: &["blok", "note", "noter", "notesblok", "spiral", "spiralryg"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Notizblock"),
+            keywords: &["Block", "Notizblock"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("σπιράλ σημειωματάριο"),
+            keywords: &["σημείωμα", "σημειωματάριο", "σπιράλ"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("spiral notepad"),
+            keywords: &["note", "pad", "spiral", "spiral notepad"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("bloc de notas de espiral"),
+            keywords: &[
+                "bloc",
+                "bloc de notas de espiral",
+                "cuaderno",
+                "espiral",
+                "notas",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("bloc de notas con espiral"),
+            keywords: &["anotador", "bloc de notas con espiral", "escribir", "notas"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("spiraalmärkmik"),
+            keywords: &["spiraal", "spiraalmärkmik"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("koaderno kiribilduna"),
+            keywords: &["blok", "kiribil", "koaderno kiribilduna", "ohar"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("دفترچه\u{654} یادداشت سیمی"),
+            keywords: &["دفترچه\u{654} یادداشت سیمی", "سیمی", "صفحه", "یادداشت"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kierrelehtiö"),
+            keywords: &["kierre", "kierrelehtiö", "lehtiö", "muistio"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("spiral notepad"),
+            keywords: &["notepad", "spiral notepad", "sulatan"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("spiralheftur skriviblokkur"),
+            keywords: &[
+                "blokkur",
+                "skriviblokkur",
+                "snyril",
+                "spiralheftur",
+                "spiralur",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("bloc-notes à spirale"),
+            keywords: &["bloc-notes à spirale", "notes"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("ceap nótaí bíseach"),
+            keywords: &["bíseach", "ceap", "ceap nótaí bíseach", "nóta"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("pada-nòtaichean le cuachag"),
+            keywords: &["cuachag", "nòta", "pada", "pada-nòtaichean le cuachag"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("caderno de espiral"),
+            keywords: &["caderno", "caderno de espiral", "escribir", "espiral"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સ\u{acd}પાઇરલ નોટપ\u{ac7}ડ"),
+            keywords: &[
+                "નોટ",
+                "પ\u{ac7}ડ",
+                "સ\u{acd}પાઇરલ",
+                "સ\u{acd}પાઇરલ નોટપ\u{ac7}ડ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("littafin rubutu mai lanƙwasawa"),
+            keywords: &[
+                "abin rubutu",
+                "littafin rubutu mai lanƙwasawa",
+                "mai lanƙwasawa",
+                "rubutu",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("פנקס עם ספירלה"),
+            keywords: &["ספירלה", "פנקס", "פנקס עם ספירלה"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("स\u{94d}पाइरल नोटप\u{948}ड"),
+            keywords: &[
+                "नोट",
+                "प\u{948}ड",
+                "स\u{94d}पाइरल नोटप\u{948}ड",
+                "स\u{94d}पाइरल नोटप\u{948}ड, नोट, प\u{948}ड",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("spiralni notes"),
+            keywords: &["bilješka", "blok", "spirala", "spiralni notes"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("spirálfüzet"),
+            keywords: &["jegyzettömb", "spirál", "spirálfüzet", "tömb"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("պարուրավոր նոթատետր"),
+            keywords: &["գրքույկ", "պարույր", "պարուրավոր նոթատետր", "տետր"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("catatan spiral"),
+            keywords: &["catatan", "kertas", "spiral"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("noòtùpaadị akpachiri"),
+            keywords: &["mkpachi", "noòtù", "noòtùpaadị akpachiri", "paadị"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("minnisblokk með gormum"),
+            keywords: &["blokk", "glósa", "gormar", "minnisblokk með gormum"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("blocco per appunti con spirale"),
+            keywords: &[
+                "appuntare",
+                "appunti",
+                "blocchetto degli appunti",
+                "blocco",
+                "blocco a spirale",
+                "blocco per appunti con spirale",
+                "scrivere",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("メモ帳"),
+            keywords: &["ノート", "メモ帳", "リングメモ", "文具", "文房具"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("buku cathetan spiral"),
+            keywords: &["buku", "cathetan", "lemek", "spiral"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("სპირალიანი ბლოკნოტი"),
+            keywords: &["ბლოკნოტი", "სპირალიანი ბლოკნოტი", "სპირალური"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("спиралды дәптер"),
+            keywords: &["ескертпе", "спирал", "спиралды дәптер", "тақта"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("notesblok"),
+            keywords: &["blok", "note", "noter", "notesblok", "spiral", "spiralryg"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ក\u{17bc}នសៀវភៅកត\u{17cb}ត\u{17d2}រា"),
+            keywords: &[
+                "កត\u{17cb}ត\u{17d2}រា",
+                "ក\u{17bc}នសៀវភៅ",
+                "ក\u{17bc}នសៀវភៅកត\u{17cb}ត\u{17d2}រា",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಸ\u{ccd}ಪೈರಲ\u{ccd} ನೋಟ\u{ccd}\u{200c}ಪ\u{ccd}ಯಾಡ\u{ccd}"),
+            keywords: &[
+                "ಟ\u{cbf}ಪ\u{ccd}ಪಣ\u{cbf}",
+                "ಪ\u{ccd}ಯಾಡ\u{ccd}",
+                "ಸ\u{ccd}ಪೈರಲ\u{ccd}",
+                "ಸ\u{ccd}ಪೈರಲ\u{ccd} ನೋಟ\u{ccd}\u{200c}ಪ\u{ccd}ಯಾಡ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("스프링 노트"),
+            keywords: &["노트", "노트 패드", "스프링 노트"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("नो\u{902}दपट\u{94d}टी"),
+            keywords: &[
+                "नो\u{902}द",
+                "नो\u{902}दकरच\u{947}\u{902}",
+                "नो\u{902}दपट\u{94d}टी",
+                "प\u{945}ड",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("спиралдуу блокнот"),
+            keywords: &["блокнот", "спиралдуу блокнот", "спираль"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Réngelchersnotizblock"),
+            keywords: &["Block", "Notiz", "Réngelcher", "Réngelchersnotizblock"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some(
+                "ແຜ\u{ec8}ນບ\u{eb1}ນທ\u{eb6}ກທ\u{eb5}\u{ec8}ມ\u{eb5}ສ\u{ebb}\u{ec9}ນແບບເປ\u{eb1}ນຫ\u{ec8}ວງ",
+            ),
+            keywords: &[
+                "ບ\u{eb1}ນທ\u{eb6}ກ",
+                "ຫ\u{ec8}ວງ",
+                "ແຜ\u{ec8}ນ",
+                "ແຜ\u{ec8}ນບ\u{eb1}ນທ\u{eb6}ກທ\u{eb5}\u{ec8}ມ\u{eb5}ສ\u{ebb}\u{ec9}ນແບບເປ\u{eb1}ນຫ\u{ec8}ວງ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("užrašinė su spirale"),
+            keywords: &["spiralė", "užrašas", "užrašinė", "užrašinė su spirale"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("bloknots ar spirāli"),
+            keywords: &["bloknots", "bloknots ar spirāli", "piezīmes", "spirāle"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("pukatuhi tōrino"),
+            keywords: &["pukatuhi", "tuhipoka", "tōrino"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("тетратка со спирала"),
+            keywords: &["бележник", "спирала", "тетратка", "тетратка со спирала"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("സ\u{d4d}\u{200c}പൈറൽ നോട\u{d4d}ട\u{d4d}പ\u{d3e}ഡ\u{d4d}"),
+            keywords: &[
+                "നോട\u{d4d}ട\u{d4d}",
+                "പ\u{d3e}ഡ\u{d4d}",
+                "സ\u{d4d}പൈറൽ",
+                "സ\u{d4d}\u{200c}പൈറൽ നോട\u{d4d}ട\u{d4d}പ\u{d3e}ഡ\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("эргүүлдэг тэмдэглэлийн хуудас"),
+            keywords: &[
+                "тэмдэглэл",
+                "хуудас",
+                "эргүүлдэг тэмдэглэлийн хуудас",
+                "эргүүлэх",
+            ],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("चक\u{94d}राकार नोटप\u{945}ड"),
+            keywords: &[
+                "चक\u{94d}राकार",
+                "चक\u{94d}राकार नोटप\u{945}ड",
+                "नोट",
+                "प\u{945}ड",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("pad nota pilin"),
+            keywords: &["nota", "pad", "pilin"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("notepad spirali"),
+            keywords: &["nota", "notepad spirali", "pad", "spirali"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "လ\u{103e}ည\u{1037}\u{103a}န\u{102d}\u{102f}င\u{103a}သည\u{1037}\u{103a} မ\u{103e}တ\u{103a}စ\u{102f}စာအ\u{102f}ပ\u{103a}",
+            ),
+            keywords: &[
+                "မ\u{103e}တ\u{103a}စ\u{102f}",
+                "မ\u{103e}တ\u{103a}စ\u{102f} စာအ\u{102f}တ\u{103a}",
+                "လ\u{103e}ည\u{1037}\u{103a}န\u{102d}\u{102f}င\u{103a}သည\u{1037}\u{103a} မ\u{103e}တ\u{103a}စ\u{102f}စာအ\u{102f}တ\u{103a}",
+                "လ\u{103e}ည\u{1037}\u{103a}န\u{102d}\u{102f}င\u{103a}သည\u{1037}\u{103a} မ\u{103e}တ\u{103a}စ\u{102f}စာအ\u{102f}ပ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("spiralhefte"),
+            keywords: &["blokk", "notat", "spiral", "spiralhefte"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("स\u{94d}पाइरल नोटप\u{94d}याड"),
+            keywords: &[
+                "नोट",
+                "प\u{94d}याड",
+                "स\u{94d}पाइरल",
+                "स\u{94d}पाइरल नोटप\u{94d}याड",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("schrijfblok met spiraal"),
+            keywords: &[
+                "notitie",
+                "schrijfblok",
+                "schrijfblok met spiraal",
+                "spiraal",
+            ],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("spiralhefte"),
+            keywords: &["blokk", "notat", "spiral", "spiralhefte"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some(
+                "ସ\u{b4d}ପ\u{b3e}ଇର\u{b3e}ଲ\u{b4d}\u{200c} ନୋଟ\u{b4d}\u{200c}ପ\u{b4d}ୟ\u{b3e}ଡ\u{b4d}\u{200c}",
+            ),
+            keywords: &[
+                "ନୋଟ\u{b4d}\u{200c}",
+                "ପ\u{b4d}ୟ\u{b3e}ଡ\u{b4d}\u{200c}",
+                "ସ\u{b4d}ପ\u{b3e}ଇର\u{b3e}ଲ\u{b4d}\u{200c}",
+                "ସ\u{b4d}ପ\u{b3e}ଇର\u{b3e}ଲ\u{b4d}\u{200c} ନୋଟ\u{b4d}\u{200c}ପ\u{b4d}ୟ\u{b3e}ଡ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਚ\u{a42}ੜੀਦਾਰ ਨ\u{a4b}ਟਪ\u{a48}ਡ"),
+            keywords: &[
+                "ਚ\u{a42}ੜੀਦਾਰ",
+                "ਨ\u{a4b}ਟ",
+                "ਨ\u{a4b}ਟਪ\u{a48}ਡ",
+                "ਪ\u{a48}ਡ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("سپائرل نوٹ پیڈ"),
+            keywords: &["ر\u{64f}قعہ", "سپائرل نوٹ پیڈ", "مرغولے دار", "چارجامہ"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Spaírál Nótpad"),
+            keywords: &["Not", "Pad", "Spaíral", "Spaírál Nótpad"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("kołonotatnik"),
+            keywords: &["kołonotatnik", "na spirali", "notatnik", "notes", "spirala"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("حلزوني يادښت پېډ"),
+            keywords: &["حلزوني", "حلزوني يادښت پېډ", "ياددښت", "پېډ"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("bloco espiral"),
+            keywords: &["bloco", "caderno", "espiral"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("bloco de notas com espiral"),
+            keywords: &["bloco", "bloco de notas com espiral", "espiral", "notas"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("blocnotes cu spirală"),
+            keywords: &["blocnotes cu spirală", "carnet", "spirală"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-820"),
+            keywords: &["E10-820"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("перекидной блокнот"),
+            keywords: &[
+                "блокнот",
+                "листы",
+                "откидной",
+                "перекидной блокнот",
+                "пружина",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("Ikayi iteranyije akuma kigondoye"),
+            keywords: &[
+                "Ikayi iteranyije akuma kigondoye",
+                "agakayi",
+                "cyigondoye",
+                "icyanditse",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("اسپائرل نوٽ پيڊ"),
+            keywords: &["اسپائرل", "نوٽ", "پيڊ"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ස\u{dca}පය\u{dd2}රල\u{dca} සටහන\u{dca} පෑඩය"),
+            keywords: &[
+                "පෑඩය",
+                "සටහන",
+                "ස\u{dca}පය\u{dd2}රල\u{dca}",
+                "ස\u{dca}පය\u{dd2}රල\u{dca} සටහන\u{dca} පෑඩය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("špirálový zápisník"),
+            keywords: &["poznámka", "zápisník", "špirála", "špirálový zápisník"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("spiralna beležnica"),
+            keywords: &["beležka", "beležnica", "spirala", "spiralna beležnica"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("buug xaashiyiihiisa la rogo"),
+            keywords: &[
+                "buug xaashiyiihiisa la rogo",
+                "buug xaashiyiihisa la rogo",
+                "qorid",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("bllok shënimesh me spirale"),
+            keywords: &[
+                "bllok",
+                "bllok shënimesh me spirale",
+                "shënim",
+                "spiral",
+                "spirale",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("бележница са спиралом"),
+            keywords: &["белeшкa", "бележница са спиралом", "блoк", "спирaлa"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("биљежница са спиралом"),
+            keywords: &["биљежница са спиралом"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("beležnica sa spiralom"),
+            keywords: &["beleška", "beležnica sa spiralom", "blok", "spirala"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("bilježnica sa spiralom"),
+            keywords: &["bilježnica sa spiralom"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("anteckningsblock"),
+            keywords: &["anteckningar", "anteckningsblock", "block"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("daftari lililobanwa kwa waya wa mzunguko"),
+            keywords: &[
+                "daftari",
+                "daftari lililobanwa kwa waya wa mzunguko",
+                "dokezo",
+                "mzunguko",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஸ\u{bcd}பைரல\u{bcd} நோட\u{bcd}பேடு"),
+            keywords: &["நோட\u{bcd}பேடு", "ஸ\u{bcd}பைரல\u{bcd}"],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("స\u{c4d}ప\u{c48}రల\u{c4d} న\u{c4b}ట\u{c4d} ప\u{c4d}య\u{c3e}డ\u{c4d}"),
+            keywords: &[
+                "న\u{c4b}ట\u{c4d}",
+                "ప\u{c4d}య\u{c3e}డ\u{c4d}",
+                "స\u{c4d}ప\u{c48}రల\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("дафтари ёддошти печдор"),
+            keywords: &[
+                "дафтари ёддошт",
+                "дафтари ёддошти печдор",
+                "печдор",
+                "тавзеҳ",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("สม\u{e38}ดโน\u{e49}ตส\u{e31}นห\u{e48}วง"),
+            keywords: &[
+                "จด",
+                "สม\u{e38}ด",
+                "สม\u{e38}ดโน\u{e49}ตส\u{e31}นห\u{e48}วง",
+                "ห\u{e48}วง",
+                "โน\u{e49}ต",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("spirally depderçe"),
+            keywords: &["bellik", "bloknot", "spiral", "spirally depderçe"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("pepa fakamaʻu vilovilo"),
+            keywords: &["pepa fakamaʻu vilovilo"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("spiral not defteri"),
+            keywords: &["defter", "not", "spiral", "spiral not defteri"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ھالقىسىمان خاتىرە"),
+            keywords: &["تاختا", "خاتىرە", "ھالقا", "ھالقىسىمان خاتىرە"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("блокнот на спіралі"),
+            keywords: &["блокнот", "блокнот на спіралі", "на спіралі"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("سپائرل نوٹ بک"),
+            keywords: &["اسٹیشنری", "سپائرل", "سپائرل نوٹ بک", "نوٹ بک"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("spiralli yon daftarcha"),
+            keywords: &["spiral", "spiralli yon daftarcha", "yon daftarcha"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("sổ ghi chú gáy xoắn"),
+            keywords: &["ghi chú", "gáy xoắn", "sổ", "sổ ghi chú gáy xoắn"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("bloknot bu am weñ"),
+            keywords: &["am weñ", "blok", "bloknot bu am weñ", "not"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("iphedi yamanqaku ejikelezayo"),
+            keywords: &[
+                "ejikelezayo",
+                "inqaku",
+                "iphedi",
+                "iphedi yamanqaku ejikelezayo",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("nóòtì páàdì alákápò\u{329}"),
+            keywords: &[
+                "nóòtì",
+                "nóòtì páàdì alákápò\u{329}",
+                "páàdì",
+                "àkápọ\u{300}",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("可揭式記事簿"),
+            keywords: &["可揭式記事簿", "墊", "注釋", "螺旋"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("可揭式记事簿"),
+            keywords: &["可揭式记事簿", "垫", "注释", "螺旋"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("线圈本"),
+            keywords: &["文具", "笔记本", "线圈本", "记事本"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("線圈筆記本"),
+            keywords: &["筆記本", "線圈筆記本"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("線圈筆記簿"),
+            keywords: &["線圈筆記簿", "線圈筆記簿｜筆記簿"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("okokubhala okunezipringi"),
+            keywords: &["izipringi", "okokubhala", "okokubhala okunezipringi"],
+        },
+    ],
+};
 #[doc = "🗓\u{fe0f}"]
-pub const SPIRAL_CALENDAR : crate :: Emoji = crate :: Emoji { glyph : "🗓\u{fe0f}" , codepoint : "1F5D3 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "spiral calendar" , group : "Objects" , subgroup : "office" , is_variant : false , variants : & [crate :: Emoji { glyph : "🗓" , codepoint : "1F5D3" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "spiral calendar" , group : "Objects" , subgroup : "office" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("spiraalkalender") , keywords : & ["almanak" , "datum" , "kalender" , "spiraal" , "spiraalkalender"] , } , crate :: Annotation { lang : "am" , tts : Some ("ባለሽቦ ቀን መቁጠሪያ") , keywords : & ["ሰሌዳ" , "ቀን መቁጠሪያ" , "ባለሽቦ" , "ባለሽቦ ቀን መቁጠሪያ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("تقويم حلزوني") , keywords : & ["تقويم" , "حلزوني" , "ورقة"] , } , crate :: Annotation { lang : "as" , tts : Some ("স\u{9cd}প\u{9be}ইৰেল কেলেণ\u{9cd}ড\u{9be}ৰ") , keywords : & ["কেলেণ\u{9cd}ড\u{9be}ৰ" , "বহী" , "স\u{9cd}প\u{9be}ইৰেল"] , } , crate :: Annotation { lang : "az" , tts : Some ("spiral təqvim") , keywords : & ["bloknot" , "spiral" , "təqvim"] , } , crate :: Annotation { lang : "be" , tts : Some ("перакідны каляндар") , keywords : & ["каляндар" , "лісты" , "перакідны"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Календар със спирала") , keywords : & ["Календар със спирала" , "календар" , "спирала"] , } , crate :: Annotation { lang : "bn" , tts : Some ("স\u{9cd}প\u{9be}ইর\u{9be}ল ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র") , keywords : & ["ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র" , "পে\u{981}চ\u{9be}নো" , "প\u{9cd}য\u{9be}ড" , "স\u{9cd}প\u{9be}ইর\u{9be}ল ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র"] , } , crate :: Annotation { lang : "br" , tts : Some ("deiziadur gant troellennoù") , keywords : & ["deiziadur" , "deiziadur gant troellennoù"] , } , crate :: Annotation { lang : "bs" , tts : Some ("spiralni kalendar") , keywords : & ["kalendar" , "spiralni kalendar"] , } , crate :: Annotation { lang : "ca" , tts : Some ("calendari d’espiral") , keywords : & ["calendari" , "calendari d’espiral" , "espiral"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏄᏖᏲᎸ ᏅᏓ ᏗᏎᏍᏗ") , keywords : & ["ᎦᏄᏖᏲᎸ" , "ᎦᏄᏖᏲᎸ ᏅᏓ ᏗᏎᏍᏗ" , "ᎪᏪᎶᏗ ᎪᏪᎵ" , "ᏅᏓ ᏗᏎᏍᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("kroužkový kalendář") , keywords : & ["kalendář" , "kroužkový kalendář" , "kroužky" , "spirálový"] , } , crate :: Annotation { lang : "cy" , tts : Some ("calendr troellog") , keywords : & ["calendr" , "pad" , "troellog"] , } , crate :: Annotation { lang : "da" , tts : Some ("spiralkalender") , keywords : & ["blok" , "kalender" , "spiral" , "spiralkalender"] , } , crate :: Annotation { lang : "de" , tts : Some ("Spiralkalender") , keywords : & ["Kalender" , "Spiralkalender"] , } , crate :: Annotation { lang : "el" , tts : Some ("σπιράλ ημερολόγιο") , keywords : & ["ημερολόγιο" , "σημειωματάριο" , "σπιράλ"] , } , crate :: Annotation { lang : "en" , tts : Some ("spiral calendar") , keywords : & ["calendar" , "pad" , "spiral"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("calendario de espiral") , keywords : & ["calendario" , "calendario de espiral" , "espiral"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("calendario con espiral") , keywords : & ["calendario" , "calendario con espiral" , "fechas"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("spiraalkalender") , keywords : & ["kalender" , "spiraal" , "spiraalkalender"] , } , crate :: Annotation { lang : "eu" , tts : Some ("egutegi kiribilduna") , keywords : & ["egutegi" , "egutegi kiribilduna" , "kiribil" , "koaderno"] , } , crate :: Annotation { lang : "fa" , tts : Some ("تقویم سیمی") , keywords : & ["تقویم" , "سیمی" , "صفحه"] , } , crate :: Annotation { lang : "fi" , tts : Some ("kierrekalenteri") , keywords : & ["kalenteri" , "kierre" , "kierrekalenteri" , "lehtiö"] , } , crate :: Annotation { lang : "fil" , tts : Some ("spiral na kalendaryo") , keywords : & ["kalendaryo" , "spiral na kalendaryo" , "sulatan"] , } , crate :: Annotation { lang : "fo" , tts : Some ("spiralheftur kalendari") , keywords : & ["dagfesting" , "dagseting" , "dato" , "kalendari" , "spiralheftur" , "tíðarfesting" , "tíðarmerking" , "álmanakki"] , } , crate :: Annotation { lang : "fr" , tts : Some ("calendrier à spirale") , keywords : & ["calendrier" , "calendrier à spirale"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("féilire bíseach") , keywords : & ["bíseach" , "ceap" , "féilire"] , } , crate :: Annotation { lang : "gd" , tts : Some ("mìosachan le cuachag") , keywords : & ["cuachag" , "mìosachan" , "mìosachan le cuachag" , "pada"] , } , crate :: Annotation { lang : "gl" , tts : Some ("calendario de espiral") , keywords : & ["calendario" , "calendario de espiral" , "data"] , } , crate :: Annotation { lang : "gu" , tts : Some ("સ\u{acd}પાઇરલ ક\u{ac5}લ\u{ac7}ન\u{acd}ડર") , keywords : & ["ક\u{ac5}લ\u{ac7}ન\u{acd}ડર" , "પ\u{ac7}ડ" , "સ\u{acd}પાઇરલ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("kalanda mai lanƙwasawa") , keywords : & ["abin rubutu" , "kalanda" , "kalanda mai lanƙwasawa" , "mai lanƙwasawa"] , } , crate :: Annotation { lang : "he" , tts : Some ("לוח שנה עם ספירלה") , keywords : & ["לוח שנה" , "לוח שנה עם ספירלה" , "ספירלה"] , } , crate :: Annotation { lang : "hi" , tts : Some ("स\u{94d}पाइरल क\u{948}ल\u{947}\u{902}डर") , keywords : & ["क\u{948}ल\u{947}\u{902}डर" , "प\u{948}ड" , "स\u{94d}पाइरल"] , } , crate :: Annotation { lang : "hr" , tts : Some ("spiralni kalendar") , keywords : & ["blok" , "kalendar" , "spirala" , "spiralni kalendar"] , } , crate :: Annotation { lang : "hu" , tts : Some ("spirálos naptár") , keywords : & ["naptár" , "spirál" , "spirálos naptár" , "tömb"] , } , crate :: Annotation { lang : "hy" , tts : Some ("պարուրավոր օրացույց") , keywords : & ["գրքույկ" , "պարույր" , "պարուրավոր օրացույց" , "օրացույց"] , } , crate :: Annotation { lang : "id" , tts : Some ("kalender spiral") , keywords : & ["kalender" , "kertas" , "spiral"] , } , crate :: Annotation { lang : "ig" , tts : Some ("kalịnda paadị akpachiri") , keywords : & ["kalịnda" , "kalịnda paadị akpachiri" , "mkpachi" , "paadị"] , } , crate :: Annotation { lang : "is" , tts : Some ("dagatal með gormum") , keywords : & ["blokk" , "dagatal" , "dagatal með gormum" , "gormar"] , } , crate :: Annotation { lang : "it" , tts : Some ("calendario a spirale") , keywords : & ["calendario a spirale" , "giorni"] , } , crate :: Annotation { lang : "ja" , tts : Some ("月めくりカレンダー") , keywords : & ["カレンダー" , "スケジュール" , "予定" , "日付" , "月めくりカレンダー"] , } , crate :: Annotation { lang : "jv" , tts : Some ("tanggalan spiral") , keywords : & ["lemek" , "spiral" , "tanggalan"] , } , crate :: Annotation { lang : "ka" , tts : Some ("სპირალიანი კალენდარი") , keywords : & ["კალენდარი" , "სპირალიანი კალენდარი" , "სპირალური"] , } , crate :: Annotation { lang : "kk" , tts : Some ("спиралды күнтізбе") , keywords : & ["күнтізбе" , "спирал" , "спиралды күнтізбе" , "тақта"] , } , crate :: Annotation { lang : "kl" , tts : Some ("spiralkalender") , keywords : & ["blok" , "kalender" , "spiral" , "spiralkalender"] , } , crate :: Annotation { lang : "km" , tts : Some ("ប\u{17d2}រត\u{17b7}ទ\u{17b7}នតម\u{17d2}រៀបសន\u{17d2}ល\u{17b9}ក") , keywords : & ["ប\u{17d2}រត\u{17b7}ទ\u{17b7}ន" , "ប\u{17d2}រត\u{17b7}ទ\u{17b7}នតម\u{17d2}រៀបសន\u{17d2}ល\u{17b9}ក" , "ប\u{17d2}រត\u{17b7}ទ\u{17b7}នសន\u{17d2}ល\u{17b9}ក"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಸ\u{ccd}ಪೈರಲ\u{ccd} ಕ\u{ccd}ಯಾಲ\u{cc6}ಂಡರ\u{ccd}") , keywords : & ["ಕ\u{ccd}ಯಾಲ\u{cc6}ಂಡರ\u{ccd}" , "ಪ\u{ccd}ಯಾಡ\u{ccd}" , "ಸ\u{ccd}ಪೈರಲ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("스프링 달력") , keywords : & ["달력" , "벽걸이 달력" , "스프링 달력"] , } , crate :: Annotation { lang : "kok" , tts : Some ("नो\u{902}दपट\u{94d}टी दिनदर\u{94d}शिका") , keywords : & ["दिनदर\u{94d}शिका" , "नो\u{902}दपट\u{94d}टी" , "प\u{945}ड"] , } , crate :: Annotation { lang : "ky" , tts : Some ("спиралдуу жылнаама") , keywords : & ["жылнаама" , "спиралдуу жылнаама" , "спираль"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Réngelcherskalenner") , keywords : & ["Block" , "Kalenner" , "Réngelcher" , "Réngelcherskalenner"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ປະຕ\u{eb4}ທ\u{eb4}ນທ\u{eb5}\u{ec8}ມ\u{eb5}ສ\u{ebb}\u{ec9}ນແບບເປ\u{eb1}ນຫ\u{ec8}ວງ") , keywords : & ["ປະຕ\u{eb4}ທ\u{eb4}ນ" , "ປະຕ\u{eb4}ທ\u{eb4}ນທ\u{eb5}\u{ec8}ມ\u{eb5}ສ\u{ebb}\u{ec9}ນແບບເປ\u{eb1}ນຫ\u{ec8}ວງ" , "ຫ\u{ec8}ວງ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("kalendorius su spirale") , keywords : & ["kalendorius" , "kalendorius su spirale" , "spiralė" , "užrašinė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("kalendārs ar spirāli") , keywords : & ["kalendārs" , "kalendārs ar spirāli" , "spirāle"] , } , crate :: Annotation { lang : "mi" , tts : Some ("maramataka tōrino") , keywords : & ["maramataka" , "pukatuhi" , "tōrino"] , } , crate :: Annotation { lang : "mk" , tts : Some ("календар со спирала") , keywords : & ["датум" , "календар" , "календар со спирала"] , } , crate :: Annotation { lang : "ml" , tts : Some ("സ\u{d4d}\u{200c}പൈറൽ കലണ\u{d4d}ടർ") , keywords : & ["കലണ\u{d4d}ടർ" , "പ\u{d3e}ഡ\u{d4d}" , "സ\u{d4d}\u{200c}പൈറൽ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("эргүүлдэг календарь") , keywords : & ["календарь" , "нуруутай календарь" , "тэмдэглэлийн дэвтэр" , "эргүүлдэг календарь"] , } , crate :: Annotation { lang : "mr" , tts : Some ("चक\u{94d}राकार क\u{945}ल\u{947}\u{902}डर") , keywords : & ["क\u{945}ल\u{947}\u{902}डर" , "चक\u{94d}राकार" , "चक\u{94d}राकार नोटप\u{945}ड" , "प\u{945}ड"] , } , crate :: Annotation { lang : "ms" , tts : Some ("kalendar pilin") , keywords : & ["kalendar" , "pad" , "pilin"] , } , crate :: Annotation { lang : "mt" , tts : Some ("kalendarju spirali") , keywords : & ["kalendarju" , "pad" , "spirali"] , } , crate :: Annotation { lang : "my" , tts : Some ("လ\u{103e}ည\u{1037}\u{103a}န\u{102d}\u{102f}င\u{103a}သည\u{1037}\u{103a} ပြက\u{1039}ခဒ\u{102d}န\u{103a}") , keywords : & ["ပြက\u{1039}ခဒ\u{102d}န\u{103a}" , "လ\u{103e}ည\u{1037}\u{103a}န\u{102d}\u{102f}င\u{103a}သည\u{1037}\u{103a} ပြက\u{1039}ခဒ\u{102d}န\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("spiralkalender") , keywords : & ["blokk" , "kalender" , "spiral" , "spiralkalender"] , } , crate :: Annotation { lang : "ne" , tts : Some ("स\u{94d}पाइरल पात\u{94d}रो") , keywords : & ["पात\u{94d}रो" , "प\u{94d}याड" , "स\u{94d}पाइरल"] , } , crate :: Annotation { lang : "nl" , tts : Some ("kalender met spiraal") , keywords : & ["blok" , "kalender" , "kalender met spiraal" , "spiraal"] , } , crate :: Annotation { lang : "nn" , tts : Some ("spiralkalender") , keywords : & ["blokk" , "kalender" , "spiral" , "spiralkalender"] , } , crate :: Annotation { lang : "or" , tts : Some ("ସ\u{b4d}ପ\u{b3e}ଇର\u{b3e}ଲ\u{b4d}\u{200c} କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}\u{200c}") , keywords : & ["କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}\u{200c}" , "ପ\u{b4d}ୟ\u{b3e}ଡ\u{b4d}\u{200c}" , "ସ\u{b4d}ପ\u{b3e}ଇର\u{b3e}ଲ\u{b4d}\u{200c}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਚ\u{a42}ੜੀਦਾਰ ਕ\u{a48}ਲ\u{a70}ਡਰ") , keywords : & ["ਕ\u{a48}ਲ\u{a70}ਡਰ" , "ਚ\u{a42}ੜੀਦਾਰ" , "ਪ\u{a48}ਡ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("سپائرل کیلنڈر") , keywords : & ["سپائرل کیلنڈر" , "مرغولے دار" , "چارجامہ" , "کیلنڈر"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Spaírál Kalẹ\u{301}nda") , keywords : & ["Kalẹ\u{301}nda" , "Pad" , "Spaíral" , "Spaírál Kalẹ\u{301}nda"] , } , crate :: Annotation { lang : "pl" , tts : Some ("kalendarz na spirali") , keywords : & ["kalendarz" , "kalendarz na spirali" , "na spirali" , "notatnik" , "notes" , "spirala"] , } , crate :: Annotation { lang : "ps" , tts : Some ("حلزوني جنتري") , keywords : & ["جنتري" , "حلزوني" , "پېډ"] , } , crate :: Annotation { lang : "pt" , tts : Some ("calendário espiral") , keywords : & ["bloco" , "calendário" , "espiral"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("calendário com espiral") , keywords : & ["bloco" , "calendário" , "calendário com espiral" , "espiral"] , } , crate :: Annotation { lang : "ro" , tts : Some ("calendar cu spirală") , keywords : & ["calendar" , "calendar cu spirală" , "spirală"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-821") , keywords : & ["E10-821"] , } , crate :: Annotation { lang : "ru" , tts : Some ("перекидной календарь") , keywords : & ["календарь" , "листы" , "перекидной" , "пружина"] , } , crate :: Annotation { lang : "rw" , tts : Some ("karendari iteranyije akuma kigondoye") , keywords : & ["agakayi" , "cyigondoye" , "karendari" , "karendari iteranyije akuma kigondoye"] , } , crate :: Annotation { lang : "sd" , tts : Some ("اسپائرل ڪئلينڊر") , keywords : & ["اسپائرل" , "پيڊ" , "ڪئلينڊر"] , } , crate :: Annotation { lang : "si" , tts : Some ("ස\u{dca}පය\u{dd2}රල\u{dca} ද\u{dd2}න දර\u{dca}ශනය") , keywords : & ["ද\u{dd2}න දර\u{dca}ශනය" , "පෑඩය" , "ස\u{dca}පය\u{dd2}රල\u{dca}" , "ස\u{dca}පය\u{dd2}රල\u{dca} ද\u{dd2}න දර\u{dca}ශනය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("špirálový kalendár") , keywords : & ["kalendár" , "špirála" , "špirálový kalendár"] , } , crate :: Annotation { lang : "sl" , tts : Some ("spiralni koledar") , keywords : & ["beležka" , "koledar" , "spirala" , "spiralni koledar"] , } , crate :: Annotation { lang : "so" , tts : Some ("kaalandar la rogo") , keywords : & ["kaalandar la rogo" , "la rogo"] , } , crate :: Annotation { lang : "sq" , tts : Some ("kalendar me spirale") , keywords : & ["bllok" , "kalendar" , "kalendar me spirale" , "spirale"] , } , crate :: Annotation { lang : "sr" , tts : Some ("календар са спиралом") , keywords : & ["блок" , "календар" , "календар са спиралом" , "спирала"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["календар са спиралом"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("kalendar sa spiralom") , keywords : & ["blok" , "kalendar" , "kalendar sa spiralom" , "spirala"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["kalendar sa spiralom"] , } , crate :: Annotation { lang : "sv" , tts : Some ("spiralbunden kalender") , keywords : & ["kalender" , "månadskalender" , "spiralbunden kalender"] , } , crate :: Annotation { lang : "sw" , tts : Some ("kalenda iliyofungwa kwa waya wa mzunguko") , keywords : & ["daftari" , "kalenda" , "kalenda iliyofungwa kwa waya wa mzunguko" , "mzunguko"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஸ\u{bcd}பைரல\u{bcd} கேலெண\u{bcd}டர\u{bcd}") , keywords : & ["கேலெண\u{bcd}டர\u{bcd}" , "ஸ\u{bcd}பைரல\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("స\u{c4d}ప\u{c48}రల\u{c4d} క\u{c4d}య\u{c3e}ల\u{c46}ండర\u{c4d}") , keywords : & ["క\u{c4d}య\u{c3e}ల\u{c46}ండర\u{c4d}" , "స\u{c4d}ప\u{c48}రల\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("тақвими печдор") , keywords : & ["дафтари ёддошт" , "печдор" , "тақвим" , "тақвими печдор"] , } , crate :: Annotation { lang : "th" , tts : Some ("ปฏ\u{e34}ท\u{e34}นส\u{e31}นห\u{e48}วง") , keywords : & ["ปฏ\u{e34}ท\u{e34}น" , "ปฏ\u{e34}ท\u{e34}นส\u{e31}นห\u{e48}วง" , "ห\u{e48}วง"] , } , crate :: Annotation { lang : "tk" , tts : Some ("spirally senenama") , keywords : & ["bloknot" , "senenama" , "spiral" , "spirally senenama"] , } , crate :: Annotation { lang : "to" , tts : Some ("tohimāhina fakamaʻu vilovilo") , keywords : & ["tohimāhina fakamaʻu vilovilo"] , } , crate :: Annotation { lang : "tr" , tts : Some ("spiral takvim") , keywords : & ["defter" , "spiral" , "takvim"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ھالقىسىمان كالېندار") , keywords : & ["تاختا" , "كالېندار" , "ھالقا" , "ھالقىسىمان كالېندار"] , } , crate :: Annotation { lang : "uk" , tts : Some ("календар на спіралі") , keywords : & ["блокнот" , "календар" , "календар на спіралі" , "на спіралі"] , } , crate :: Annotation { lang : "ur" , tts : Some ("سپائرل کیلنڈر") , keywords : & ["اسٹیشنری" , "سپائرل" , "کیلنڈر"] , } , crate :: Annotation { lang : "uz" , tts : Some ("ilma taqvim") , keywords : & ["ilma" , "spiral" , "taqvim"] , } , crate :: Annotation { lang : "vi" , tts : Some ("lịch gáy xoắn") , keywords : & ["gáy xoắn" , "lịch" , "lịch gáy xoắn"] , } , crate :: Annotation { lang : "wo" , tts : Some ("arminaat bu am weñ") , keywords : & ["arminaat" , "arminaat bu am weñ" , "blok" , "bu am weñ"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ikhalenda ejikelezayo") , keywords : & ["ejikelezayo" , "ikhalenda" , "iphedi"] , } , crate :: Annotation { lang : "yo" , tts : Some ("kàlẹ\u{301}ndà alákápọ\u{300}") , keywords : & ["kàlẹ\u{301}ndà" , "kàlẹ\u{301}ndà alákápọ\u{300}" , "páàdì" , "àkápọ\u{300}"] , } , crate :: Annotation { lang : "yue" , tts : Some ("可揭式日曆") , keywords : & ["可揭式日曆" , "墊" , "日曆" , "螺旋"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("可揭式日历") , keywords : & ["可揭式日历" , "垫" , "日历" , "螺旋"] , } , crate :: Annotation { lang : "zh" , tts : Some ("线圈日历") , keywords : & ["日历" , "日期" , "线圈" , "线圈日历"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("線圈日曆") , keywords : & ["日曆" , "線圈日曆"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ikhalenda lezipringi") , keywords : & ["ikhalenda" , "ikhalenda lezipringi" , "izipringi"] , }] , } ;
+pub const SPIRAL_CALENDAR: crate::Emoji = crate::Emoji {
+    glyph: "🗓\u{fe0f}",
+    codepoint: "1F5D3 FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.7f32,
+    name: "spiral calendar",
+    group: "Objects",
+    subgroup: "office",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🗓",
+        codepoint: "1F5D3",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "spiral calendar",
+        group: "Objects",
+        subgroup: "office",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("spiraalkalender"),
+            keywords: &["almanak", "datum", "kalender", "spiraal", "spiraalkalender"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ባለሽቦ ቀን መቁጠሪያ"),
+            keywords: &["ሰሌዳ", "ቀን መቁጠሪያ", "ባለሽቦ", "ባለሽቦ ቀን መቁጠሪያ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("تقويم حلزوني"),
+            keywords: &["تقويم", "حلزوني", "ورقة"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("স\u{9cd}প\u{9be}ইৰেল কেলেণ\u{9cd}ড\u{9be}ৰ"),
+            keywords: &["কেলেণ\u{9cd}ড\u{9be}ৰ", "বহী", "স\u{9cd}প\u{9be}ইৰেল"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("spiral təqvim"),
+            keywords: &["bloknot", "spiral", "təqvim"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("перакідны каляндар"),
+            keywords: &["каляндар", "лісты", "перакідны"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Календар със спирала"),
+            keywords: &["Календар със спирала", "календар", "спирала"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("স\u{9cd}প\u{9be}ইর\u{9be}ল ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র"),
+            keywords: &[
+                "ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র",
+                "পে\u{981}চ\u{9be}নো",
+                "প\u{9cd}য\u{9be}ড",
+                "স\u{9cd}প\u{9be}ইর\u{9be}ল ক\u{9cd}য\u{9be}লেন\u{9cd}ড\u{9be}র",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("deiziadur gant troellennoù"),
+            keywords: &["deiziadur", "deiziadur gant troellennoù"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("spiralni kalendar"),
+            keywords: &["kalendar", "spiralni kalendar"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("calendari d’espiral"),
+            keywords: &["calendari", "calendari d’espiral", "espiral"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎦᏄᏖᏲᎸ ᏅᏓ ᏗᏎᏍᏗ"),
+            keywords: &["ᎦᏄᏖᏲᎸ", "ᎦᏄᏖᏲᎸ ᏅᏓ ᏗᏎᏍᏗ", "ᎪᏪᎶᏗ ᎪᏪᎵ", "ᏅᏓ ᏗᏎᏍᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("kroužkový kalendář"),
+            keywords: &["kalendář", "kroužkový kalendář", "kroužky", "spirálový"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("calendr troellog"),
+            keywords: &["calendr", "pad", "troellog"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("spiralkalender"),
+            keywords: &["blok", "kalender", "spiral", "spiralkalender"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Spiralkalender"),
+            keywords: &["Kalender", "Spiralkalender"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("σπιράλ ημερολόγιο"),
+            keywords: &["ημερολόγιο", "σημειωματάριο", "σπιράλ"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("spiral calendar"),
+            keywords: &["calendar", "pad", "spiral"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("calendario de espiral"),
+            keywords: &["calendario", "calendario de espiral", "espiral"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("calendario con espiral"),
+            keywords: &["calendario", "calendario con espiral", "fechas"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("spiraalkalender"),
+            keywords: &["kalender", "spiraal", "spiraalkalender"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("egutegi kiribilduna"),
+            keywords: &["egutegi", "egutegi kiribilduna", "kiribil", "koaderno"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("تقویم سیمی"),
+            keywords: &["تقویم", "سیمی", "صفحه"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kierrekalenteri"),
+            keywords: &["kalenteri", "kierre", "kierrekalenteri", "lehtiö"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("spiral na kalendaryo"),
+            keywords: &["kalendaryo", "spiral na kalendaryo", "sulatan"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("spiralheftur kalendari"),
+            keywords: &[
+                "dagfesting",
+                "dagseting",
+                "dato",
+                "kalendari",
+                "spiralheftur",
+                "tíðarfesting",
+                "tíðarmerking",
+                "álmanakki",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("calendrier à spirale"),
+            keywords: &["calendrier", "calendrier à spirale"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("féilire bíseach"),
+            keywords: &["bíseach", "ceap", "féilire"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("mìosachan le cuachag"),
+            keywords: &["cuachag", "mìosachan", "mìosachan le cuachag", "pada"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("calendario de espiral"),
+            keywords: &["calendario", "calendario de espiral", "data"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સ\u{acd}પાઇરલ ક\u{ac5}લ\u{ac7}ન\u{acd}ડર"),
+            keywords: &["ક\u{ac5}લ\u{ac7}ન\u{acd}ડર", "પ\u{ac7}ડ", "સ\u{acd}પાઇરલ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("kalanda mai lanƙwasawa"),
+            keywords: &[
+                "abin rubutu",
+                "kalanda",
+                "kalanda mai lanƙwasawa",
+                "mai lanƙwasawa",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("לוח שנה עם ספירלה"),
+            keywords: &["לוח שנה", "לוח שנה עם ספירלה", "ספירלה"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("स\u{94d}पाइरल क\u{948}ल\u{947}\u{902}डर"),
+            keywords: &["क\u{948}ल\u{947}\u{902}डर", "प\u{948}ड", "स\u{94d}पाइरल"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("spiralni kalendar"),
+            keywords: &["blok", "kalendar", "spirala", "spiralni kalendar"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("spirálos naptár"),
+            keywords: &["naptár", "spirál", "spirálos naptár", "tömb"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("պարուրավոր օրացույց"),
+            keywords: &["գրքույկ", "պարույր", "պարուրավոր օրացույց", "օրացույց"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("kalender spiral"),
+            keywords: &["kalender", "kertas", "spiral"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("kalịnda paadị akpachiri"),
+            keywords: &["kalịnda", "kalịnda paadị akpachiri", "mkpachi", "paadị"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("dagatal með gormum"),
+            keywords: &["blokk", "dagatal", "dagatal með gormum", "gormar"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("calendario a spirale"),
+            keywords: &["calendario a spirale", "giorni"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("月めくりカレンダー"),
+            keywords: &[
+                "カレンダー",
+                "スケジュール",
+                "予定",
+                "日付",
+                "月めくりカレンダー",
+            ],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("tanggalan spiral"),
+            keywords: &["lemek", "spiral", "tanggalan"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("სპირალიანი კალენდარი"),
+            keywords: &["კალენდარი", "სპირალიანი კალენდარი", "სპირალური"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("спиралды күнтізбе"),
+            keywords: &["күнтізбе", "спирал", "спиралды күнтізбе", "тақта"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("spiralkalender"),
+            keywords: &["blok", "kalender", "spiral", "spiralkalender"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ប\u{17d2}រត\u{17b7}ទ\u{17b7}នតម\u{17d2}រៀបសន\u{17d2}ល\u{17b9}ក"),
+            keywords: &[
+                "ប\u{17d2}រត\u{17b7}ទ\u{17b7}ន",
+                "ប\u{17d2}រត\u{17b7}ទ\u{17b7}នតម\u{17d2}រៀបសន\u{17d2}ល\u{17b9}ក",
+                "ប\u{17d2}រត\u{17b7}ទ\u{17b7}នសន\u{17d2}ល\u{17b9}ក",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಸ\u{ccd}ಪೈರಲ\u{ccd} ಕ\u{ccd}ಯಾಲ\u{cc6}ಂಡರ\u{ccd}"),
+            keywords: &[
+                "ಕ\u{ccd}ಯಾಲ\u{cc6}ಂಡರ\u{ccd}",
+                "ಪ\u{ccd}ಯಾಡ\u{ccd}",
+                "ಸ\u{ccd}ಪೈರಲ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("스프링 달력"),
+            keywords: &["달력", "벽걸이 달력", "스프링 달력"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("नो\u{902}दपट\u{94d}टी दिनदर\u{94d}शिका"),
+            keywords: &["दिनदर\u{94d}शिका", "नो\u{902}दपट\u{94d}टी", "प\u{945}ड"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("спиралдуу жылнаама"),
+            keywords: &["жылнаама", "спиралдуу жылнаама", "спираль"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Réngelcherskalenner"),
+            keywords: &["Block", "Kalenner", "Réngelcher", "Réngelcherskalenner"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some(
+                "ປະຕ\u{eb4}ທ\u{eb4}ນທ\u{eb5}\u{ec8}ມ\u{eb5}ສ\u{ebb}\u{ec9}ນແບບເປ\u{eb1}ນຫ\u{ec8}ວງ",
+            ),
+            keywords: &[
+                "ປະຕ\u{eb4}ທ\u{eb4}ນ",
+                "ປະຕ\u{eb4}ທ\u{eb4}ນທ\u{eb5}\u{ec8}ມ\u{eb5}ສ\u{ebb}\u{ec9}ນແບບເປ\u{eb1}ນຫ\u{ec8}ວງ",
+                "ຫ\u{ec8}ວງ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("kalendorius su spirale"),
+            keywords: &[
+                "kalendorius",
+                "kalendorius su spirale",
+                "spiralė",
+                "užrašinė",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("kalendārs ar spirāli"),
+            keywords: &["kalendārs", "kalendārs ar spirāli", "spirāle"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("maramataka tōrino"),
+            keywords: &["maramataka", "pukatuhi", "tōrino"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("календар со спирала"),
+            keywords: &["датум", "календар", "календар со спирала"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("സ\u{d4d}\u{200c}പൈറൽ കലണ\u{d4d}ടർ"),
+            keywords: &["കലണ\u{d4d}ടർ", "പ\u{d3e}ഡ\u{d4d}", "സ\u{d4d}\u{200c}പൈറൽ"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("эргүүлдэг календарь"),
+            keywords: &[
+                "календарь",
+                "нуруутай календарь",
+                "тэмдэглэлийн дэвтэр",
+                "эргүүлдэг календарь",
+            ],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("चक\u{94d}राकार क\u{945}ल\u{947}\u{902}डर"),
+            keywords: &[
+                "क\u{945}ल\u{947}\u{902}डर",
+                "चक\u{94d}राकार",
+                "चक\u{94d}राकार नोटप\u{945}ड",
+                "प\u{945}ड",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("kalendar pilin"),
+            keywords: &["kalendar", "pad", "pilin"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("kalendarju spirali"),
+            keywords: &["kalendarju", "pad", "spirali"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "လ\u{103e}ည\u{1037}\u{103a}န\u{102d}\u{102f}င\u{103a}သည\u{1037}\u{103a} ပြက\u{1039}ခဒ\u{102d}န\u{103a}",
+            ),
+            keywords: &[
+                "ပြက\u{1039}ခဒ\u{102d}န\u{103a}",
+                "လ\u{103e}ည\u{1037}\u{103a}န\u{102d}\u{102f}င\u{103a}သည\u{1037}\u{103a} ပြက\u{1039}ခဒ\u{102d}န\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("spiralkalender"),
+            keywords: &["blokk", "kalender", "spiral", "spiralkalender"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("स\u{94d}पाइरल पात\u{94d}रो"),
+            keywords: &["पात\u{94d}रो", "प\u{94d}याड", "स\u{94d}पाइरल"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("kalender met spiraal"),
+            keywords: &["blok", "kalender", "kalender met spiraal", "spiraal"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("spiralkalender"),
+            keywords: &["blokk", "kalender", "spiral", "spiralkalender"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some(
+                "ସ\u{b4d}ପ\u{b3e}ଇର\u{b3e}ଲ\u{b4d}\u{200c} କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}\u{200c}",
+            ),
+            keywords: &[
+                "କ\u{b4d}ୟ\u{b3e}ଲେଣ\u{b4d}ଡର\u{b4d}\u{200c}",
+                "ପ\u{b4d}ୟ\u{b3e}ଡ\u{b4d}\u{200c}",
+                "ସ\u{b4d}ପ\u{b3e}ଇର\u{b3e}ଲ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਚ\u{a42}ੜੀਦਾਰ ਕ\u{a48}ਲ\u{a70}ਡਰ"),
+            keywords: &["ਕ\u{a48}ਲ\u{a70}ਡਰ", "ਚ\u{a42}ੜੀਦਾਰ", "ਪ\u{a48}ਡ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("سپائرل کیلنڈر"),
+            keywords: &["سپائرل کیلنڈر", "مرغولے دار", "چارجامہ", "کیلنڈر"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Spaírál Kalẹ\u{301}nda"),
+            keywords: &["Kalẹ\u{301}nda", "Pad", "Spaíral", "Spaírál Kalẹ\u{301}nda"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("kalendarz na spirali"),
+            keywords: &[
+                "kalendarz",
+                "kalendarz na spirali",
+                "na spirali",
+                "notatnik",
+                "notes",
+                "spirala",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("حلزوني جنتري"),
+            keywords: &["جنتري", "حلزوني", "پېډ"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("calendário espiral"),
+            keywords: &["bloco", "calendário", "espiral"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("calendário com espiral"),
+            keywords: &["bloco", "calendário", "calendário com espiral", "espiral"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("calendar cu spirală"),
+            keywords: &["calendar", "calendar cu spirală", "spirală"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-821"),
+            keywords: &["E10-821"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("перекидной календарь"),
+            keywords: &["календарь", "листы", "перекидной", "пружина"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("karendari iteranyije akuma kigondoye"),
+            keywords: &[
+                "agakayi",
+                "cyigondoye",
+                "karendari",
+                "karendari iteranyije akuma kigondoye",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("اسپائرل ڪئلينڊر"),
+            keywords: &["اسپائرل", "پيڊ", "ڪئلينڊر"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ස\u{dca}පය\u{dd2}රල\u{dca} ද\u{dd2}න දර\u{dca}ශනය"),
+            keywords: &[
+                "ද\u{dd2}න දර\u{dca}ශනය",
+                "පෑඩය",
+                "ස\u{dca}පය\u{dd2}රල\u{dca}",
+                "ස\u{dca}පය\u{dd2}රල\u{dca} ද\u{dd2}න දර\u{dca}ශනය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("špirálový kalendár"),
+            keywords: &["kalendár", "špirála", "špirálový kalendár"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("spiralni koledar"),
+            keywords: &["beležka", "koledar", "spirala", "spiralni koledar"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("kaalandar la rogo"),
+            keywords: &["kaalandar la rogo", "la rogo"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("kalendar me spirale"),
+            keywords: &["bllok", "kalendar", "kalendar me spirale", "spirale"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("календар са спиралом"),
+            keywords: &["блок", "календар", "календар са спиралом", "спирала"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["календар са спиралом"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("kalendar sa spiralom"),
+            keywords: &["blok", "kalendar", "kalendar sa spiralom", "spirala"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["kalendar sa spiralom"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("spiralbunden kalender"),
+            keywords: &["kalender", "månadskalender", "spiralbunden kalender"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kalenda iliyofungwa kwa waya wa mzunguko"),
+            keywords: &[
+                "daftari",
+                "kalenda",
+                "kalenda iliyofungwa kwa waya wa mzunguko",
+                "mzunguko",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஸ\u{bcd}பைரல\u{bcd} கேலெண\u{bcd}டர\u{bcd}"),
+            keywords: &["கேலெண\u{bcd}டர\u{bcd}", "ஸ\u{bcd}பைரல\u{bcd}"],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("స\u{c4d}ప\u{c48}రల\u{c4d} క\u{c4d}య\u{c3e}ల\u{c46}ండర\u{c4d}"),
+            keywords: &[
+                "క\u{c4d}య\u{c3e}ల\u{c46}ండర\u{c4d}",
+                "స\u{c4d}ప\u{c48}రల\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("тақвими печдор"),
+            keywords: &["дафтари ёддошт", "печдор", "тақвим", "тақвими печдор"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ปฏ\u{e34}ท\u{e34}นส\u{e31}นห\u{e48}วง"),
+            keywords: &[
+                "ปฏ\u{e34}ท\u{e34}น",
+                "ปฏ\u{e34}ท\u{e34}นส\u{e31}นห\u{e48}วง",
+                "ห\u{e48}วง",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("spirally senenama"),
+            keywords: &["bloknot", "senenama", "spiral", "spirally senenama"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tohimāhina fakamaʻu vilovilo"),
+            keywords: &["tohimāhina fakamaʻu vilovilo"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("spiral takvim"),
+            keywords: &["defter", "spiral", "takvim"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ھالقىسىمان كالېندار"),
+            keywords: &["تاختا", "كالېندار", "ھالقا", "ھالقىسىمان كالېندار"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("календар на спіралі"),
+            keywords: &["блокнот", "календар", "календар на спіралі", "на спіралі"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("سپائرل کیلنڈر"),
+            keywords: &["اسٹیشنری", "سپائرل", "کیلنڈر"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("ilma taqvim"),
+            keywords: &["ilma", "spiral", "taqvim"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("lịch gáy xoắn"),
+            keywords: &["gáy xoắn", "lịch", "lịch gáy xoắn"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("arminaat bu am weñ"),
+            keywords: &["arminaat", "arminaat bu am weñ", "blok", "bu am weñ"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ikhalenda ejikelezayo"),
+            keywords: &["ejikelezayo", "ikhalenda", "iphedi"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("kàlẹ\u{301}ndà alákápọ\u{300}"),
+            keywords: &[
+                "kàlẹ\u{301}ndà",
+                "kàlẹ\u{301}ndà alákápọ\u{300}",
+                "páàdì",
+                "àkápọ\u{300}",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("可揭式日曆"),
+            keywords: &["可揭式日曆", "墊", "日曆", "螺旋"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("可揭式日历"),
+            keywords: &["可揭式日历", "垫", "日历", "螺旋"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("线圈日历"),
+            keywords: &["日历", "日期", "线圈", "线圈日历"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("線圈日曆"),
+            keywords: &["日曆", "線圈日曆"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ikhalenda lezipringi"),
+            keywords: &["ikhalenda", "ikhalenda lezipringi", "izipringi"],
+        },
+    ],
+};
 #[doc = "📇"]
 pub const CARD_INDEX: crate::Emoji = crate::Emoji {
     glyph: "📇",
@@ -2629,9 +6444,2024 @@ pub const CARD_INDEX: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "📈"]
-pub const CHART_INCREASING : crate :: Emoji = crate :: Emoji { glyph : "📈" , codepoint : "1F4C8" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "chart increasing" , group : "Objects" , subgroup : "office" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("grafiek wat styg") , keywords : & ["grafiek" , "grafiek wat styg" , "groei" , "statistiek" , "styging" , "tendens"] , } , crate :: Annotation { lang : "am" , tts : Some ("የሚጨምር ገበታ") , keywords : & ["ሰንጠረዥ" , "አዝማሚያ" , "ዕድገት" , "የሚጨምር ገበታ" , "ገበታ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("اتجاه لأعلى") , keywords : & ["اتجاه لأعلى" , "ارتفاع" , "مخطط"] , } , crate :: Annotation { lang : "as" , tts : Some ("ঊৰ\u{9cd}ধগ\u{9be}মী লেখচিত\u{9cd}ৰ") , keywords : & ["ঊৰ\u{9cd}ধগ\u{9be}মী লেখচিত\u{9cd}ৰ" , "ঊৰ\u{9cd}ধম\u{9c1}খী" , "গতিধ\u{9be}ৰ\u{9be}" , "গ\u{9cd}ৰ\u{9be}ফ\u{9cd}" , "বৰ\u{9cd}ধন" , "লেখচিত\u{9cd}ৰ"] , } , crate :: Annotation { lang : "az" , tts : Some ("qalxan qrafik") , keywords : & ["artım" , "cədvəl" , "qalxan qrafik" , "qrafik" , "trend" , "yuxarı"] , } , crate :: Annotation { lang : "be" , tts : Some ("дыяграма росту") , keywords : & ["графік" , "дыяграма" , "дыяграма росту" , "рост" , "тэндэнцыя"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Диаграма с възходяща тенденция") , keywords : & ["Диаграма с възходяща тенденция" , "диаграма" , "нагоре" , "ръст" , "тенденция"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট") , keywords : & ["উর\u{9cd}ধ\u{9cd}বম\u{9c1}খী" , "ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট" , "গ\u{9cd}র\u{9be}ফ" , "চ\u{9be}র\u{9cd}ট" , "প\u{9cd}রবণত\u{9be}" , "ব\u{9c3}দ\u{9cd}ধি"] , } , crate :: Annotation { lang : "br" , tts : Some ("krommenn kreskiñ") , keywords : & ["diagramm" , "grafik" , "kreskiñ" , "krommenn"] , } , crate :: Annotation { lang : "bs" , tts : Some ("dijagram rasta") , keywords : & ["dijagram" , "dijagram rasta" , "grafikon" , "rast"] , } , crate :: Annotation { lang : "ca" , tts : Some ("gràfic d’augment") , keywords : & ["a l’alta" , "augment" , "gràfic" , "gràfic d’augment" , "tendència"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ") , keywords : & ["ᎤᏪᏋᏒᎢ" , "ᎦᎵᎦᎳ" , "ᎦᎸᎳᏓᎦᏘ" , "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ" , "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ" , "ᏓᏟᎶᏍᏛ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("rostoucí graf") , keywords : & ["graf" , "rostoucí graf" , "růst" , "trend" , "vzestupný"] , } , crate :: Annotation { lang : "cy" , tts : Some ("siart yn cynyddu") , keywords : & ["graff" , "i fyny" , "siart" , "siart yn cynyddu" , "twf"] , } , crate :: Annotation { lang : "da" , tts : Some ("opadgående graf") , keywords : & ["graf" , "opadgående graf" , "tendens"] , } , crate :: Annotation { lang : "de" , tts : Some ("Aufwärtstrend") , keywords : & ["Aufwärtstrend" , "Diagramm" , "Kurve" , "steigend"] , } , crate :: Annotation { lang : "el" , tts : Some ("ανοδικό γράφημα") , keywords : & ["ανοδικό γράφημα" , "αύξηση" , "γράφημα" , "διάγραμμα" , "τάση"] , } , crate :: Annotation { lang : "en" , tts : Some ("chart increasing") , keywords : & ["chart" , "chart increasing" , "graph" , "growth" , "trend" , "upward"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("graph increasing") , keywords : & ["chart" , "chart increasing" , "graph" , "graph increasing" , "growth" , "trend" , "upward"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("gráfica de evolución ascendente") , keywords : & ["ascendente" , "gráfica" , "gráfica de evolución ascendente" , "gráfico" , "tendencia ascendente"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("tendencia ascendente") , keywords : & ["alza" , "ascendente" , "aumentar" , "gráfico" , "mejor" , "mejorar" , "tabla" , "tendencia ascendente"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["alza" , "ascendente" , "gráfico" , "tabla" , "tendencia ascendente"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["alza" , "ascendente" , "gráfico" , "tabla" , "tendencia ascendente"] , } , crate :: Annotation { lang : "et" , tts : Some ("tõusev graafik") , keywords : & ["graafik" , "kasv" , "tendents" , "tõusev graafik" , "üles"] , } , crate :: Annotation { lang : "eu" , tts : Some ("diagrama gorakorra") , keywords : & ["diagrama" , "diagrama gorakorra" , "gora" , "grafiko" , "hazkuntza" , "joera"] , } , crate :: Annotation { lang : "fa" , tts : Some ("نمودار صعودی") , keywords : & ["رشد" , "صعودی" , "نمودار" , "گراف" , "گرایش"] , } , crate :: Annotation { lang : "fi" , tts : Some ("nouseva käyrä") , keywords : & ["kaavio" , "kasvu" , "käyrä" , "nouseva käyrä" , "nousu" , "suuntaus"] , } , crate :: Annotation { lang : "fil" , tts : Some ("tumataas na chart") , keywords : & ["graph" , "paglago" , "pataas" , "tsart" , "tumataas na chart" , "uso"] , } , crate :: Annotation { lang : "fo" , tts : Some ("strikumynd við vøkstri") , keywords : & ["diagramm" , "rásmynd" , "strikumynd" , "strikumynd við vøkstri" , "upp" , "veksur" , "vøkstur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("graphique en hausse") , keywords : & ["graphique" , "graphique en hausse" , "hausse" , "tendance"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["croissance" , "graphique" , "graphique en hausse" , "hausse" , "tendance"] , } , crate :: Annotation { lang : "ga" , tts : Some ("cairt mhéadaitheach") , keywords : & ["cairt mhéadaitheach" , "graf" , "treocht mhéadaitheach"] , } , crate :: Annotation { lang : "gd" , tts : Some ("cairt a’ dol suas") , keywords : & ["cairt" , "cairt a’ dol suas" , "fàs" , "graf" , "suas" , "treand"] , } , crate :: Annotation { lang : "gl" , tts : Some ("gráfico con tendencia ascendente") , keywords : & ["alza" , "gráfica" , "gráfico" , "gráfico con tendencia ascendente" , "tendencia"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ઉ\u{a82}ચ\u{ac7} જતો ચાર\u{acd}ટ") , keywords : & ["આલ\u{ac7}ખ" , "ઉ\u{a82}ચ\u{ac7} જતો ચાર\u{acd}ટ" , "ઉ\u{a82}ચ\u{ac7}ના વલણનો ચાર\u{acd}ટ" , "ઉ\u{a82}ચ\u{ac7}ન\u{ac1}\u{a82} વલણ" , "ઉપરની તરફ" , "ચાર\u{acd}ટ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("zanen-lissafi mai ƙarawa") , keywords : & ["salo" , "zane" , "zanen lissafi" , "zanen-lissafi mai ƙarawa" , "zuwa sama" , "ƙarawa"] , } , crate :: Annotation { lang : "he" , tts : Some ("גרף עולה") , keywords : & ["גידול" , "גרף" , "למעלה" , "מגמה" , "עולה" , "תרשים"] , } , crate :: Annotation { lang : "hi" , tts : Some ("बढ\u{93c}त\u{947} र\u{941}झान वाला चार\u{94d}ट") , keywords : & ["ग\u{94d}राफ\u{93c}" , "चार\u{94d}ट" , "बढ\u{93c}ता र\u{941}झान" , "बढ\u{93c}ता ह\u{941}आ" , "बढ\u{93c}त\u{947} र\u{941}झान वाला चार\u{94d}ट"] , } , crate :: Annotation { lang : "hr" , tts : Some ("grafikon uzlaznog trenda") , keywords : & ["grafikon" , "grafikon uzlaznog trenda" , "rast" , "uzlazni trend"] , } , crate :: Annotation { lang : "hu" , tts : Some ("növekvő diagram") , keywords : & ["diagram" , "felfelé" , "növekedés" , "növekvő diagram" , "trend"] , } , crate :: Annotation { lang : "hy" , tts : Some ("աճող դիագրամ") , keywords : & ["աճ" , "աճող դիագրամ" , "գրաֆիկ" , "դիագրամ" , "միտում" , "վեր"] , } , crate :: Annotation { lang : "id" , tts : Some ("bagan meningkat") , keywords : & ["bagan" , "bagan meningkat" , "grafik" , "naik" , "pertumbuhan" , "tren"] , } , crate :: Annotation { lang : "ig" , tts : Some ("mmụba chaati") , keywords : & ["chaati" , "grafụ" , "mmụba chaati" , "nla n’elu" , "otiti" , "trendi"] , } , crate :: Annotation { lang : "is" , tts : Some ("á uppleið") , keywords : & ["graf á uppleið" , "á uppleið"] , } , crate :: Annotation { lang : "it" , tts : Some ("grafico con andamento positivo") , keywords : & ["andamento ascendente" , "ascendente" , "grafico" , "grafico con andamento positivo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("グラフ上向き") , keywords : & ["グラフ" , "グラフ上向き" , "上向き" , "上昇" , "折れ線グラフ"] , } , crate :: Annotation { lang : "jv" , tts : Some ("grafik mundhak") , keywords : & ["grafik" , "grafik mundhak" , "mendhuwur" , "munggah" , "tren"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ზრდადი გრაფიკი") , keywords : & ["გრაფიკი" , "დიაგრამა" , "ზრდა" , "ზრდადი" , "ტენდენცია"] , } , crate :: Annotation { lang : "kk" , tts : Some ("өсім туралы диаграмма") , keywords : & ["график" , "диаграмма" , "жоғарыға" , "тренд" , "өсім" , "өсім туралы диаграмма"] , } , crate :: Annotation { lang : "kl" , tts : Some ("opadgående graf") , keywords : & ["graf" , "opadgående graf" , "tendens"] , } , crate :: Annotation { lang : "km" , tts : Some ("តារាងក\u{17c6}ណើន\u{200b}") , keywords : & ["ក\u{17c6}ណើន\u{200b}" , "តារាង" , "តារាងក\u{17c6}ណើន\u{200b}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}") , keywords : & ["ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}" , "ಗ\u{ccd}ರಾಫ\u{ccd}" , "ಚಾರ\u{ccd}ಟ\u{ccd}" , "ಪ\u{ccd}ರವೃತ\u{ccd}ತ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf} ಏರ\u{cbf}ಕ\u{cc6} ಚಾರ\u{ccd}ಟ\u{ccd}" , "ಮೇಲ\u{ccd}ಮುಖವಾಗ\u{cbf}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("상승하는 그래프") , keywords : & ["그래프" , "상승하는 그래프" , "상향" , "호황"] , } , crate :: Annotation { lang : "kok" , tts : Some ("चार\u{94d}ट वाडटा") , keywords : & ["ग\u{94d}राफ" , "चार\u{94d}ट" , "चार\u{94d}ट वाडटा" , "ट\u{94d}र\u{947}\u{902}ड" , "वयल\u{947}वट\u{947}न" , "वाड"] , } , crate :: Annotation { lang : "ky" , tts : Some ("көтөрүлүп жаткан диаграмма") , keywords : & ["диаграмма" , "жогору" , "көтөрүлүп жаткан диаграмма" , "көтөрүлүү"] , } , crate :: Annotation { lang : "lb" , tts : Some ("steigenden Diagramm") , keywords : & ["Diagramm" , "Grafik" , "Steigerung" , "Tendenz" , "steigend" , "steigenden Diagramm"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ") , keywords : & ["ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ" , "ເສ\u{eb1}\u{ec9}ນສະແດງ" , "ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ" , "ແນວໂນ\u{ec9}ມ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("didėjimo tendencijos diagrama") , keywords : & ["augimas" , "diagrama" , "didėjimo tendencijos diagrama" , "schema" , "tendencija"] , } , crate :: Annotation { lang : "lv" , tts : Some ("augšupejoša diagrammas līkne") , keywords : & ["augšup" , "augšupejoša diagrammas līkne" , "diagramma" , "līkne"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tūtohi aupiki") , keywords : & ["au" , "kauwhata" , "tipunga" , "tūtohi" , "tūtohi aupiki" , "whakarunga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("растечки графикон") , keywords : & ["графикон" , "нагорен" , "пораст" , "растечки графикон" , "тренд"] , } , crate :: Annotation { lang : "ml" , tts : Some ("മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}") , keywords : & ["ഗ\u{d4d}ര\u{d3e}ഫ\u{d4d}" , "ച\u{d3e}ർട\u{d4d}ട\u{d4d}" , "മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}" , "മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d}" , "മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d} ച\u{d3e}ർട\u{d4d}ട\u{d4d}" , "മ\u{d41}കളിലേക\u{d4d}ക\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("өсч буй диаграмм") , keywords : & ["график" , "диаграмм" , "дээшээ" , "чиг хандлага" , "өсч буй диаграмм" , "өсөлт"] , } , crate :: Annotation { lang : "mr" , tts : Some ("वाढता चार\u{94d}ट") , keywords : & ["आल\u{947}ख" , "कल" , "चार\u{94d}ट" , "वाढ" , "वाढता"] , } , crate :: Annotation { lang : "ms" , tts : Some ("carta menaik") , keywords : & ["arah aliran" , "carta" , "graf" , "menaik" , "pertumbuhan"] , } , crate :: Annotation { lang : "mt" , tts : Some ("ċart tiżdied") , keywords : & ["graff" , "tendenza" , "tkabbir" , "ċart" , "ċart tiżdied" , "’il fuq"] , } , crate :: Annotation { lang : "my" , tts : Some ("မြင\u{1037}\u{103a}တက\u{103a}နေပ\u{102f}\u{1036}ပြ ဇယား") , keywords : & ["ဂရပ\u{103a}ဖ\u{103a}" , "ဇယား" , "တ\u{102d}\u{102f}းပ\u{103d}ားခြင\u{103a}း" , "မြင\u{1037}\u{103a}တက\u{103a}နေပ\u{102f}\u{1036}ပြ ဇယား" , "ဦးတည\u{103a}ချက\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("diagram som peker oppover") , keywords : & ["chart" , "diagram som peker oppover" , "graf" , "opp" , "positiv" , "stigende"] , } , crate :: Annotation { lang : "ne" , tts : Some ("बढ\u{94d}दो चार\u{94d}ट") , keywords : & ["ग\u{94d}राफ" , "चार\u{94d}ट" , "ट\u{94d}र\u{947}न\u{94d}ट" , "बढ\u{94d}दो चार\u{94d}ट" , "माथि" , "विकास"] , } , crate :: Annotation { lang : "nl" , tts : Some ("stijgende trend") , keywords : & ["diagram" , "grafiek" , "grafiek met stijgende trend" , "stijgend" , "stijgende trend"] , } , crate :: Annotation { lang : "nn" , tts : Some ("diagram som peikar oppover") , keywords : & ["chart" , "diagram som peikar oppover" , "graf" , "opp" , "positiv" , "stigande"] , } , crate :: Annotation { lang : "or" , tts : Some ("ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}") , keywords : & ["ଉପରକ\u{b41}" , "ଉପରକ\u{b41} ବଢନ\u{b4d}ତ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}" , "ଗ\u{b4d}ର\u{b3e}ଫ\u{b4d}" , "ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}" , "ବଢନ\u{b4d}ତ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f}" , "ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਵ\u{a71}ਧਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ") , keywords : & ["ਗਰਾਫ" , "ਚਾਰਟ" , "ਵਧਦਾ" , "ਵਧਦਾ ਰ\u{a41}ਝਾਨ" , "ਵਧਦਾ ਰ\u{a41}ਝਾਨ ਚਾਰਟ" , "ਵ\u{a71}ਧਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("چارٹ ودھ رہیا اے") , keywords : & ["ا\u{64f}وتلے پاس\u{651}ے" , "رجحان" , "پرورش پانا" , "چارٹ" , "چارٹ ودھ رہیا اے" , "گراف"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Chat Wit Graf Wé De Gó Ọp") , keywords : & ["Chat" , "Chat Wit Graf Wé De Gó Ọp" , "Dairẹ\u{301}kshọn" , "De Gó Ọp" , "Graf" , "Gro" , "Lain"] , } , crate :: Annotation { lang : "pl" , tts : Some ("wykres wzrostu") , keywords : & ["tendencja wzrostowa" , "trend zwyżkowy" , "wykres wzrostu" , "wzrost"] , } , crate :: Annotation { lang : "ps" , tts : Some ("چارټ زیاتوالی") , keywords : & ["وده" , "پورته" , "چارټ" , "چارټ زیاتوالی" , "ګراف"] , } , crate :: Annotation { lang : "pt" , tts : Some ("gráfico subindo") , keywords : & ["crescimento" , "diagrama" , "gráfico" , "gráfico de tendência de crescimento" , "gráfico subindo" , "tendência de crescimento"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("gráfico a subir") , keywords : & ["crescimento" , "gráfico" , "gráfico a subir" , "subida" , "tendência"] , } , crate :: Annotation { lang : "ro" , tts : Some ("grafic ascendent") , keywords : & ["creștere" , "diagramă" , "grafic ascendent" , "tendință"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-645") , keywords : & ["E10-645"] , } , crate :: Annotation { lang : "ru" , tts : Some ("диаграмма роста") , keywords : & ["вверх" , "диаграмма" , "диаграмма роста" , "рост" , "схема" , "тенденция"] , } , crate :: Annotation { lang : "rw" , tts : Some ("imbonerahamwe y’ibizamuka") , keywords : & ["igishushanyo" , "imbonerahamwe" , "imbonerahamwe y’ibizamuka" , "iterambere" , "izamuka" , "ujya hejuru"] , } , crate :: Annotation { lang : "sd" , tts : Some ("وڌندڙ چارٽ") , keywords : & ["رخ" , "مٿي پاسي" , "واڌ" , "وڌندڙ چارٽ" , "چارٽ" , "گراف"] , } , crate :: Annotation { lang : "si" , tts : Some ("ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය ඉහළ නැග\u{dd3}ම") , keywords : & ["ඉහළට" , "නැඹ\u{dd4}ර\u{dd4}ත\u{dcf}ව" , "ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය" , "ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය ඉහළ නැග\u{dd3}ම" , "වර\u{dca}ධනය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("stúpajúci graf") , keywords : & ["graf" , "nárast" , "stúpajúci" , "trend"] , } , crate :: Annotation { lang : "sl" , tts : Some ("grafikon rasti") , keywords : & ["graf" , "grafikon" , "grafikon rasti" , "navzgor" , "rast" , "trend"] , } , crate :: Annotation { lang : "so" , tts : Some ("shaxan kordhaya") , keywords : & ["isbedel" , "kor" , "korid" , "shax" , "shaxan" , "shaxan kordhaya"] , } , crate :: Annotation { lang : "sq" , tts : Some ("grafik rritës") , keywords : & ["grafik" , "grafik rritës" , "lart" , "rritje" , "tendencë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("графикон са узлазним трендом") , keywords : & ["графикон" , "графикон са узлазним трендом" , "нагоре" , "раст" , "тренд"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["графикон са узлазним трендом"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("grafikon sa uzlaznim trendom") , keywords : & ["grafikon" , "grafikon sa uzlaznim trendom" , "nagore" , "rast" , "trend"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["grafikon sa uzlaznim trendom"] , } , crate :: Annotation { lang : "sv" , tts : Some ("uppåtgående trend") , keywords : & ["diagram" , "graf" , "uppåtgående trend"] , } , crate :: Annotation { lang : "sw" , tts : Some ("chati inayopanda") , keywords : & ["chati" , "chati inayopanda" , "grafu" , "juu" , "kukua" , "uelekeo"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("வளர\u{bcd}ச\u{bcd}சி") , keywords : & ["ஊக\u{bcd}கம\u{bcd}" , "ச\u{bbe}ர\u{bcd}ட\u{bcd}" , "மேல\u{bcd} நோக\u{bcd}கி செல\u{bcd}லுதல\u{bcd}" , "வளர\u{bcd}ச\u{bcd}சி"] , } , crate :: Annotation { lang : "te" , tts : Some ("ప\u{c46}రుగుదల చ\u{c3e}ర\u{c4d}ట\u{c4d}") , keywords : & ["గ\u{c4d}ర\u{c3e}ఫ\u{c4d}" , "చ\u{c3e}ర\u{c4d}ట\u{c4d}" , "ప\u{c46}రుగుదల"] , } , crate :: Annotation { lang : "tg" , tts : Some ("диаграммаи афзоишёбанда") , keywords : & ["афзоиш" , "боло" , "график" , "диаграмма" , "диаграммаи афзоишёбанда" , "тамоюл"] , } , crate :: Annotation { lang : "th" , tts : Some ("แนวโน\u{e49}มข\u{e36}\u{e49}น") , keywords : & ["ขาข\u{e36}\u{e49}น" , "แนวโน\u{e49}มข\u{e36}\u{e49}น"] , } , crate :: Annotation { lang : "tk" , tts : Some ("köpelýän grafik") , keywords : & ["grafika" , "köpelýän grafik" , "trend" , "çyzgy" , "ösüş" , "ýokary"] , } , crate :: Annotation { lang : "to" , tts : Some ("siate tupulaki") , keywords : & ["siate tupulaki"] , } , crate :: Annotation { lang : "tr" , tts : Some ("artış grafiği") , keywords : & ["artış grafiği" , "grafik" , "yukarı yönlü" , "yükselen grafik"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئاشما گىرافىك") , keywords : & ["ئاشما گىرافىك" , "ئېشىش" , "جەدۋەل" , "يۇقىرىغا" , "يۈزلىنىش" , "گىرافىك"] , } , crate :: Annotation { lang : "uk" , tts : Some ("висхідний графік") , keywords : & ["вгору" , "висхідний графік" , "графік" , "графік підвищення" , "діаграма" , "ріст" , "тенденція"] , } , crate :: Annotation { lang : "ur" , tts : Some ("صعودی چارٹ") , keywords : & ["اسٹیشنری" , "بڑھوتری" , "صعودی چارٹ" , "چارٹ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("o‘sish trendi diagrammasi") , keywords : & ["diagramma" , "grafa" , "o‘sish" , "o‘sish trendi diagrammasi" , "trend" , "yuqoriga"] , } , crate :: Annotation { lang : "vi" , tts : Some ("biểu đồ tăng") , keywords : & ["biểu đồ" , "biểu đồ tăng" , "tăng lên" , "tăng trưởng" , "xu hướng" , "đồ thị"] , } , crate :: Annotation { lang : "wo" , tts : Some ("grafik buy yéeg") , keywords : & ["grafik" , "grafik buy yéeg" , "kurb" , "màgg" , "xew" , "yéeg"] , } , crate :: Annotation { lang : "xh" , tts : Some ("itshati iyanda") , keywords : & ["ezithandwayo" , "igrafu" , "itshathi" , "itshati iyanda" , "ukunyuka" , "ulwando"] , } , crate :: Annotation { lang : "yo" , tts : Some ("àtẹ n pọsi") , keywords : & ["ilà ató\u{329}ka àwòrán" , "àtẹ" , "àtẹ n pọsi" , "ìdàgbàsókè" , "ìlọsókè" , "ìlọṣíwájú"] , } , crate :: Annotation { lang : "yue" , tts : Some ("圖表上升") , keywords : & ["向上" , "圖" , "圖表" , "圖表上升" , "增長" , "趨勢"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("图表上升") , keywords : & ["向上" , "图" , "图表" , "图表上升" , "增长" , "趋势"] , } , crate :: Annotation { lang : "zh" , tts : Some ("趋势向上的图表") , keywords : & ["上升" , "上涨" , "上涨图表" , "向上" , "图表" , "趋势向上的图表"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("漲") , keywords : & ["上升" , "上漲" , "圖表" , "漲"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("向上折線圖") , keywords : & ["向上" , "向上折線圖" , "圖形" , "圖表" , "正向" , "線條" , "趨勢"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ishadi elikhuphukayo") , keywords : & ["igrafu" , "ishadi" , "ishadi elikhuphukayo" , "okuya phezulu" , "ukukhula"] , }] , } ;
+pub const CHART_INCREASING: crate::Emoji = crate::Emoji {
+    glyph: "📈",
+    codepoint: "1F4C8",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "chart increasing",
+    group: "Objects",
+    subgroup: "office",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("grafiek wat styg"),
+            keywords: &[
+                "grafiek",
+                "grafiek wat styg",
+                "groei",
+                "statistiek",
+                "styging",
+                "tendens",
+            ],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የሚጨምር ገበታ"),
+            keywords: &["ሰንጠረዥ", "አዝማሚያ", "ዕድገት", "የሚጨምር ገበታ", "ገበታ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("اتجاه لأعلى"),
+            keywords: &["اتجاه لأعلى", "ارتفاع", "مخطط"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ঊৰ\u{9cd}ধগ\u{9be}মী লেখচিত\u{9cd}ৰ"),
+            keywords: &[
+                "ঊৰ\u{9cd}ধগ\u{9be}মী লেখচিত\u{9cd}ৰ",
+                "ঊৰ\u{9cd}ধম\u{9c1}খী",
+                "গতিধ\u{9be}ৰ\u{9be}",
+                "গ\u{9cd}ৰ\u{9be}ফ\u{9cd}",
+                "বৰ\u{9cd}ধন",
+                "লেখচিত\u{9cd}ৰ",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("qalxan qrafik"),
+            keywords: &[
+                "artım",
+                "cədvəl",
+                "qalxan qrafik",
+                "qrafik",
+                "trend",
+                "yuxarı",
+            ],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("дыяграма росту"),
+            keywords: &["графік", "дыяграма", "дыяграма росту", "рост", "тэндэнцыя"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Диаграма с възходяща тенденция"),
+            keywords: &[
+                "Диаграма с възходяща тенденция",
+                "диаграма",
+                "нагоре",
+                "ръст",
+                "тенденция",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট"),
+            keywords: &[
+                "উর\u{9cd}ধ\u{9cd}বম\u{9c1}খী",
+                "ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট",
+                "গ\u{9cd}র\u{9be}ফ",
+                "চ\u{9be}র\u{9cd}ট",
+                "প\u{9cd}রবণত\u{9be}",
+                "ব\u{9c3}দ\u{9cd}ধি",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("krommenn kreskiñ"),
+            keywords: &["diagramm", "grafik", "kreskiñ", "krommenn"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("dijagram rasta"),
+            keywords: &["dijagram", "dijagram rasta", "grafikon", "rast"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("gràfic d’augment"),
+            keywords: &[
+                "a l’alta",
+                "augment",
+                "gràfic",
+                "gràfic d’augment",
+                "tendència",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ"),
+            keywords: &[
+                "ᎤᏪᏋᏒᎢ",
+                "ᎦᎵᎦᎳ",
+                "ᎦᎸᎳᏓᎦᏘ",
+                "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ",
+                "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ",
+                "ᏓᏟᎶᏍᏛ",
+            ],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("rostoucí graf"),
+            keywords: &["graf", "rostoucí graf", "růst", "trend", "vzestupný"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("siart yn cynyddu"),
+            keywords: &["graff", "i fyny", "siart", "siart yn cynyddu", "twf"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("opadgående graf"),
+            keywords: &["graf", "opadgående graf", "tendens"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Aufwärtstrend"),
+            keywords: &["Aufwärtstrend", "Diagramm", "Kurve", "steigend"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ανοδικό γράφημα"),
+            keywords: &["ανοδικό γράφημα", "αύξηση", "γράφημα", "διάγραμμα", "τάση"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("chart increasing"),
+            keywords: &[
+                "chart",
+                "chart increasing",
+                "graph",
+                "growth",
+                "trend",
+                "upward",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("graph increasing"),
+            keywords: &[
+                "chart",
+                "chart increasing",
+                "graph",
+                "graph increasing",
+                "growth",
+                "trend",
+                "upward",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("gráfica de evolución ascendente"),
+            keywords: &[
+                "ascendente",
+                "gráfica",
+                "gráfica de evolución ascendente",
+                "gráfico",
+                "tendencia ascendente",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("tendencia ascendente"),
+            keywords: &[
+                "alza",
+                "ascendente",
+                "aumentar",
+                "gráfico",
+                "mejor",
+                "mejorar",
+                "tabla",
+                "tendencia ascendente",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "alza",
+                "ascendente",
+                "gráfico",
+                "tabla",
+                "tendencia ascendente",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "alza",
+                "ascendente",
+                "gráfico",
+                "tabla",
+                "tendencia ascendente",
+            ],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("tõusev graafik"),
+            keywords: &["graafik", "kasv", "tendents", "tõusev graafik", "üles"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("diagrama gorakorra"),
+            keywords: &[
+                "diagrama",
+                "diagrama gorakorra",
+                "gora",
+                "grafiko",
+                "hazkuntza",
+                "joera",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("نمودار صعودی"),
+            keywords: &["رشد", "صعودی", "نمودار", "گراف", "گرایش"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("nouseva käyrä"),
+            keywords: &[
+                "kaavio",
+                "kasvu",
+                "käyrä",
+                "nouseva käyrä",
+                "nousu",
+                "suuntaus",
+            ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("tumataas na chart"),
+            keywords: &[
+                "graph",
+                "paglago",
+                "pataas",
+                "tsart",
+                "tumataas na chart",
+                "uso",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("strikumynd við vøkstri"),
+            keywords: &[
+                "diagramm",
+                "rásmynd",
+                "strikumynd",
+                "strikumynd við vøkstri",
+                "upp",
+                "veksur",
+                "vøkstur",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("graphique en hausse"),
+            keywords: &["graphique", "graphique en hausse", "hausse", "tendance"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "croissance",
+                "graphique",
+                "graphique en hausse",
+                "hausse",
+                "tendance",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("cairt mhéadaitheach"),
+            keywords: &["cairt mhéadaitheach", "graf", "treocht mhéadaitheach"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("cairt a’ dol suas"),
+            keywords: &[
+                "cairt",
+                "cairt a’ dol suas",
+                "fàs",
+                "graf",
+                "suas",
+                "treand",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("gráfico con tendencia ascendente"),
+            keywords: &[
+                "alza",
+                "gráfica",
+                "gráfico",
+                "gráfico con tendencia ascendente",
+                "tendencia",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ઉ\u{a82}ચ\u{ac7} જતો ચાર\u{acd}ટ"),
+            keywords: &[
+                "આલ\u{ac7}ખ",
+                "ઉ\u{a82}ચ\u{ac7} જતો ચાર\u{acd}ટ",
+                "ઉ\u{a82}ચ\u{ac7}ના વલણનો ચાર\u{acd}ટ",
+                "ઉ\u{a82}ચ\u{ac7}ન\u{ac1}\u{a82} વલણ",
+                "ઉપરની તરફ",
+                "ચાર\u{acd}ટ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("zanen-lissafi mai ƙarawa"),
+            keywords: &[
+                "salo",
+                "zane",
+                "zanen lissafi",
+                "zanen-lissafi mai ƙarawa",
+                "zuwa sama",
+                "ƙarawa",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("גרף עולה"),
+            keywords: &["גידול", "גרף", "למעלה", "מגמה", "עולה", "תרשים"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("बढ\u{93c}त\u{947} र\u{941}झान वाला चार\u{94d}ट"),
+            keywords: &[
+                "ग\u{94d}राफ\u{93c}",
+                "चार\u{94d}ट",
+                "बढ\u{93c}ता र\u{941}झान",
+                "बढ\u{93c}ता ह\u{941}आ",
+                "बढ\u{93c}त\u{947} र\u{941}झान वाला चार\u{94d}ट",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("grafikon uzlaznog trenda"),
+            keywords: &[
+                "grafikon",
+                "grafikon uzlaznog trenda",
+                "rast",
+                "uzlazni trend",
+            ],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("növekvő diagram"),
+            keywords: &[
+                "diagram",
+                "felfelé",
+                "növekedés",
+                "növekvő diagram",
+                "trend",
+            ],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("աճող դիագրամ"),
+            keywords: &["աճ", "աճող դիագրամ", "գրաֆիկ", "դիագրամ", "միտում", "վեր"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("bagan meningkat"),
+            keywords: &[
+                "bagan",
+                "bagan meningkat",
+                "grafik",
+                "naik",
+                "pertumbuhan",
+                "tren",
+            ],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("mmụba chaati"),
+            keywords: &[
+                "chaati",
+                "grafụ",
+                "mmụba chaati",
+                "nla n’elu",
+                "otiti",
+                "trendi",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("á uppleið"),
+            keywords: &["graf á uppleið", "á uppleið"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("grafico con andamento positivo"),
+            keywords: &[
+                "andamento ascendente",
+                "ascendente",
+                "grafico",
+                "grafico con andamento positivo",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("グラフ上向き"),
+            keywords: &["グラフ", "グラフ上向き", "上向き", "上昇", "折れ線グラフ"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("grafik mundhak"),
+            keywords: &["grafik", "grafik mundhak", "mendhuwur", "munggah", "tren"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ზრდადი გრაფიკი"),
+            keywords: &["გრაფიკი", "დიაგრამა", "ზრდა", "ზრდადი", "ტენდენცია"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("өсім туралы диаграмма"),
+            keywords: &[
+                "график",
+                "диаграмма",
+                "жоғарыға",
+                "тренд",
+                "өсім",
+                "өсім туралы диаграмма",
+            ],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("opadgående graf"),
+            keywords: &["graf", "opadgående graf", "tendens"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("តារាងក\u{17c6}ណើន\u{200b}"),
+            keywords: &["ក\u{17c6}ណើន\u{200b}", "តារាង", "តារាងក\u{17c6}ណើន\u{200b}"],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}"),
+            keywords: &[
+                "ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}",
+                "ಗ\u{ccd}ರಾಫ\u{ccd}",
+                "ಚಾರ\u{ccd}ಟ\u{ccd}",
+                "ಪ\u{ccd}ರವೃತ\u{ccd}ತ\u{cbf}ಯಲ\u{ccd}ಲ\u{cbf} ಏರ\u{cbf}ಕ\u{cc6} ಚಾರ\u{ccd}ಟ\u{ccd}",
+                "ಮೇಲ\u{ccd}ಮುಖವಾಗ\u{cbf}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("상승하는 그래프"),
+            keywords: &["그래프", "상승하는 그래프", "상향", "호황"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("चार\u{94d}ट वाडटा"),
+            keywords: &[
+                "ग\u{94d}राफ",
+                "चार\u{94d}ट",
+                "चार\u{94d}ट वाडटा",
+                "ट\u{94d}र\u{947}\u{902}ड",
+                "वयल\u{947}वट\u{947}न",
+                "वाड",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("көтөрүлүп жаткан диаграмма"),
+            keywords: &[
+                "диаграмма",
+                "жогору",
+                "көтөрүлүп жаткан диаграмма",
+                "көтөрүлүү",
+            ],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("steigenden Diagramm"),
+            keywords: &[
+                "Diagramm",
+                "Grafik",
+                "Steigerung",
+                "Tendenz",
+                "steigend",
+                "steigenden Diagramm",
+            ],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ"),
+            keywords: &[
+                "ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ",
+                "ເສ\u{eb1}\u{ec9}ນສະແດງ",
+                "ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ",
+                "ແນວໂນ\u{ec9}ມ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("didėjimo tendencijos diagrama"),
+            keywords: &[
+                "augimas",
+                "diagrama",
+                "didėjimo tendencijos diagrama",
+                "schema",
+                "tendencija",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("augšupejoša diagrammas līkne"),
+            keywords: &[
+                "augšup",
+                "augšupejoša diagrammas līkne",
+                "diagramma",
+                "līkne",
+            ],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tūtohi aupiki"),
+            keywords: &[
+                "au",
+                "kauwhata",
+                "tipunga",
+                "tūtohi",
+                "tūtohi aupiki",
+                "whakarunga",
+            ],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("растечки графикон"),
+            keywords: &[
+                "графикон",
+                "нагорен",
+                "пораст",
+                "растечки графикон",
+                "тренд",
+            ],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}"),
+            keywords: &[
+                "ഗ\u{d4d}ര\u{d3e}ഫ\u{d4d}",
+                "ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
+                "മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
+                "മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d}",
+                "മ\u{d41}കളിലേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d} ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
+                "മ\u{d41}കളിലേക\u{d4d}ക\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("өсч буй диаграмм"),
+            keywords: &[
+                "график",
+                "диаграмм",
+                "дээшээ",
+                "чиг хандлага",
+                "өсч буй диаграмм",
+                "өсөлт",
+            ],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("वाढता चार\u{94d}ट"),
+            keywords: &["आल\u{947}ख", "कल", "चार\u{94d}ट", "वाढ", "वाढता"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("carta menaik"),
+            keywords: &["arah aliran", "carta", "graf", "menaik", "pertumbuhan"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("ċart tiżdied"),
+            keywords: &[
+                "graff",
+                "tendenza",
+                "tkabbir",
+                "ċart",
+                "ċart tiżdied",
+                "’il fuq",
+            ],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("မြင\u{1037}\u{103a}တက\u{103a}နေပ\u{102f}\u{1036}ပြ ဇယား"),
+            keywords: &[
+                "ဂရပ\u{103a}ဖ\u{103a}",
+                "ဇယား",
+                "တ\u{102d}\u{102f}းပ\u{103d}ားခြင\u{103a}း",
+                "မြင\u{1037}\u{103a}တက\u{103a}နေပ\u{102f}\u{1036}ပြ ဇယား",
+                "ဦးတည\u{103a}ချက\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("diagram som peker oppover"),
+            keywords: &[
+                "chart",
+                "diagram som peker oppover",
+                "graf",
+                "opp",
+                "positiv",
+                "stigende",
+            ],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("बढ\u{94d}दो चार\u{94d}ट"),
+            keywords: &[
+                "ग\u{94d}राफ",
+                "चार\u{94d}ट",
+                "ट\u{94d}र\u{947}न\u{94d}ट",
+                "बढ\u{94d}दो चार\u{94d}ट",
+                "माथि",
+                "विकास",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("stijgende trend"),
+            keywords: &[
+                "diagram",
+                "grafiek",
+                "grafiek met stijgende trend",
+                "stijgend",
+                "stijgende trend",
+            ],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("diagram som peikar oppover"),
+            keywords: &[
+                "chart",
+                "diagram som peikar oppover",
+                "graf",
+                "opp",
+                "positiv",
+                "stigande",
+            ],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some(
+                "ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}",
+            ),
+            keywords: &[
+                "ଉପରକ\u{b41}",
+                "ଉପରକ\u{b41} ବଢନ\u{b4d}ତ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}",
+                "ଗ\u{b4d}ର\u{b3e}ଫ\u{b4d}",
+                "ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}",
+                "ବଢନ\u{b4d}ତ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f}",
+                "ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f} ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਵ\u{a71}ਧਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ"),
+            keywords: &[
+                "ਗਰਾਫ",
+                "ਚਾਰਟ",
+                "ਵਧਦਾ",
+                "ਵਧਦਾ ਰ\u{a41}ਝਾਨ",
+                "ਵਧਦਾ ਰ\u{a41}ਝਾਨ ਚਾਰਟ",
+                "ਵ\u{a71}ਧਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("چارٹ ودھ رہیا اے"),
+            keywords: &[
+                "ا\u{64f}وتلے پاس\u{651}ے",
+                "رجحان",
+                "پرورش پانا",
+                "چارٹ",
+                "چارٹ ودھ رہیا اے",
+                "گراف",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Chat Wit Graf Wé De Gó Ọp"),
+            keywords: &[
+                "Chat",
+                "Chat Wit Graf Wé De Gó Ọp",
+                "Dairẹ\u{301}kshọn",
+                "De Gó Ọp",
+                "Graf",
+                "Gro",
+                "Lain",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("wykres wzrostu"),
+            keywords: &[
+                "tendencja wzrostowa",
+                "trend zwyżkowy",
+                "wykres wzrostu",
+                "wzrost",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("چارټ زیاتوالی"),
+            keywords: &["وده", "پورته", "چارټ", "چارټ زیاتوالی", "ګراف"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("gráfico subindo"),
+            keywords: &[
+                "crescimento",
+                "diagrama",
+                "gráfico",
+                "gráfico de tendência de crescimento",
+                "gráfico subindo",
+                "tendência de crescimento",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("gráfico a subir"),
+            keywords: &[
+                "crescimento",
+                "gráfico",
+                "gráfico a subir",
+                "subida",
+                "tendência",
+            ],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("grafic ascendent"),
+            keywords: &["creștere", "diagramă", "grafic ascendent", "tendință"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-645"),
+            keywords: &["E10-645"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("диаграмма роста"),
+            keywords: &[
+                "вверх",
+                "диаграмма",
+                "диаграмма роста",
+                "рост",
+                "схема",
+                "тенденция",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("imbonerahamwe y’ibizamuka"),
+            keywords: &[
+                "igishushanyo",
+                "imbonerahamwe",
+                "imbonerahamwe y’ibizamuka",
+                "iterambere",
+                "izamuka",
+                "ujya hejuru",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("وڌندڙ چارٽ"),
+            keywords: &["رخ", "مٿي پاسي", "واڌ", "وڌندڙ چارٽ", "چارٽ", "گراف"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය ඉහළ නැග\u{dd3}ම"),
+            keywords: &[
+                "ඉහළට",
+                "නැඹ\u{dd4}ර\u{dd4}ත\u{dcf}ව",
+                "ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය",
+                "ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය ඉහළ නැග\u{dd3}ම",
+                "වර\u{dca}ධනය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("stúpajúci graf"),
+            keywords: &["graf", "nárast", "stúpajúci", "trend"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("grafikon rasti"),
+            keywords: &[
+                "graf",
+                "grafikon",
+                "grafikon rasti",
+                "navzgor",
+                "rast",
+                "trend",
+            ],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("shaxan kordhaya"),
+            keywords: &[
+                "isbedel",
+                "kor",
+                "korid",
+                "shax",
+                "shaxan",
+                "shaxan kordhaya",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("grafik rritës"),
+            keywords: &["grafik", "grafik rritës", "lart", "rritje", "tendencë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("графикон са узлазним трендом"),
+            keywords: &[
+                "графикон",
+                "графикон са узлазним трендом",
+                "нагоре",
+                "раст",
+                "тренд",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["графикон са узлазним трендом"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("grafikon sa uzlaznim trendom"),
+            keywords: &[
+                "grafikon",
+                "grafikon sa uzlaznim trendom",
+                "nagore",
+                "rast",
+                "trend",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["grafikon sa uzlaznim trendom"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("uppåtgående trend"),
+            keywords: &["diagram", "graf", "uppåtgående trend"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("chati inayopanda"),
+            keywords: &[
+                "chati",
+                "chati inayopanda",
+                "grafu",
+                "juu",
+                "kukua",
+                "uelekeo",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("வளர\u{bcd}ச\u{bcd}சி"),
+            keywords: &[
+                "ஊக\u{bcd}கம\u{bcd}",
+                "ச\u{bbe}ர\u{bcd}ட\u{bcd}",
+                "மேல\u{bcd} நோக\u{bcd}கி செல\u{bcd}லுதல\u{bcd}",
+                "வளர\u{bcd}ச\u{bcd}சி",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ప\u{c46}రుగుదల చ\u{c3e}ర\u{c4d}ట\u{c4d}"),
+            keywords: &[
+                "గ\u{c4d}ర\u{c3e}ఫ\u{c4d}",
+                "చ\u{c3e}ర\u{c4d}ట\u{c4d}",
+                "ప\u{c46}రుగుదల",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("диаграммаи афзоишёбанда"),
+            keywords: &[
+                "афзоиш",
+                "боло",
+                "график",
+                "диаграмма",
+                "диаграммаи афзоишёбанда",
+                "тамоюл",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("แนวโน\u{e49}มข\u{e36}\u{e49}น"),
+            keywords: &["ขาข\u{e36}\u{e49}น", "แนวโน\u{e49}มข\u{e36}\u{e49}น"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("köpelýän grafik"),
+            keywords: &[
+                "grafika",
+                "köpelýän grafik",
+                "trend",
+                "çyzgy",
+                "ösüş",
+                "ýokary",
+            ],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("siate tupulaki"),
+            keywords: &["siate tupulaki"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("artış grafiği"),
+            keywords: &["artış grafiği", "grafik", "yukarı yönlü", "yükselen grafik"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئاشما گىرافىك"),
+            keywords: &[
+                "ئاشما گىرافىك",
+                "ئېشىش",
+                "جەدۋەل",
+                "يۇقىرىغا",
+                "يۈزلىنىش",
+                "گىرافىك",
+            ],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("висхідний графік"),
+            keywords: &[
+                "вгору",
+                "висхідний графік",
+                "графік",
+                "графік підвищення",
+                "діаграма",
+                "ріст",
+                "тенденція",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("صعودی چارٹ"),
+            keywords: &["اسٹیشنری", "بڑھوتری", "صعودی چارٹ", "چارٹ"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("o‘sish trendi diagrammasi"),
+            keywords: &[
+                "diagramma",
+                "grafa",
+                "o‘sish",
+                "o‘sish trendi diagrammasi",
+                "trend",
+                "yuqoriga",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("biểu đồ tăng"),
+            keywords: &[
+                "biểu đồ",
+                "biểu đồ tăng",
+                "tăng lên",
+                "tăng trưởng",
+                "xu hướng",
+                "đồ thị",
+            ],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("grafik buy yéeg"),
+            keywords: &["grafik", "grafik buy yéeg", "kurb", "màgg", "xew", "yéeg"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("itshati iyanda"),
+            keywords: &[
+                "ezithandwayo",
+                "igrafu",
+                "itshathi",
+                "itshati iyanda",
+                "ukunyuka",
+                "ulwando",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("àtẹ n pọsi"),
+            keywords: &[
+                "ilà ató\u{329}ka àwòrán",
+                "àtẹ",
+                "àtẹ n pọsi",
+                "ìdàgbàsókè",
+                "ìlọsókè",
+                "ìlọṣíwájú",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("圖表上升"),
+            keywords: &["向上", "圖", "圖表", "圖表上升", "增長", "趨勢"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("图表上升"),
+            keywords: &["向上", "图", "图表", "图表上升", "增长", "趋势"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("趋势向上的图表"),
+            keywords: &["上升", "上涨", "上涨图表", "向上", "图表", "趋势向上的图表"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("漲"),
+            keywords: &["上升", "上漲", "圖表", "漲"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("向上折線圖"),
+            keywords: &["向上", "向上折線圖", "圖形", "圖表", "正向", "線條", "趨勢"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ishadi elikhuphukayo"),
+            keywords: &[
+                "igrafu",
+                "ishadi",
+                "ishadi elikhuphukayo",
+                "okuya phezulu",
+                "ukukhula",
+            ],
+        },
+    ],
+};
 #[doc = "📉"]
-pub const CHART_DECREASING : crate :: Emoji = crate :: Emoji { glyph : "📉" , codepoint : "1F4C9" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "chart decreasing" , group : "Objects" , subgroup : "office" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("grafiek wat daal") , keywords : & ["daling" , "grafiek" , "grafiek wat daal" , "statistiek" , "tendens" , "val"] , } , crate :: Annotation { lang : "am" , tts : Some ("የሚቀንስ ገበታ") , keywords : & ["ሰንጠረዥ" , "ታች" , "አዝማሚያ" , "የሚቀንስ ገበታ" , "ገበታ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مخطط بياني لأسفل") , keywords : & ["انخفاض" , "مخطط" , "مخطط بياني لأسفل"] , } , crate :: Annotation { lang : "as" , tts : Some ("অধোগ\u{9be}মী লেখচিত\u{9cd}ৰ") , keywords : & ["অধোগ\u{9be}মী" , "অধোগ\u{9be}মী প\u{9cd}ৰৱণত\u{9be}" , "অধোগ\u{9be}মী প\u{9cd}ৰৱণত\u{9be}ৰ চ\u{9be}ৰ\u{9cd}ট" , "অধোগ\u{9be}মী লেখচিত\u{9cd}ৰ" , "গ\u{9cd}ৰ\u{9be}ফ" , "চ\u{9be}ৰ\u{9cd}ট"] , } , crate :: Annotation { lang : "az" , tts : Some ("düşən qrafik") , keywords : & ["aşağı" , "cədvəl" , "düşən qrafik" , "qrafik" , "trend"] , } , crate :: Annotation { lang : "be" , tts : Some ("дыяграма зніжэння") , keywords : & ["графік" , "дыяграма" , "дыяграма зніжэння" , "зніжэнне" , "тэндэнцыя"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Диаграма с низходяща тенденция") , keywords : & ["Диаграма с низходяща тенденция" , "диаграма" , "надолу" , "спад" , "тенденция"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ক\u{9cd}রমহ\u{9cd}র\u{9be}সম\u{9be}ন চ\u{9be}র\u{9cd}ট") , keywords : & ["ক\u{9cd}রমহ\u{9cd}র\u{9be}সম\u{9be}ন চ\u{9be}র\u{9cd}ট" , "গ\u{9cd}র\u{9be}ফ" , "চ\u{9be}র\u{9cd}ট" , "নিম\u{9cd}নম\u{9c1}খী" , "প\u{9cd}রবণত\u{9be}"] , } , crate :: Annotation { lang : "br" , tts : Some ("krommenn digreskiñ") , keywords : & ["diagramm" , "digreskiñ" , "grafik" , "krommenn"] , } , crate :: Annotation { lang : "bs" , tts : Some ("dijagram opadanja") , keywords : & ["dijagram" , "dijagram opadanja" , "grafikon" , "opadanje"] , } , crate :: Annotation { lang : "ca" , tts : Some ("gràfic de disminució") , keywords : & ["a la baixa" , "disminució" , "gràfic" , "gràfic de disminució" , "tendència"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎠᎦᏲᎶᎬᎢ") , keywords : & ["ᎡᎳᏗ" , "ᎦᎵᎦᎳ" , "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ" , "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎠᎦᏲᎶᎬᎢ" , "ᏓᏟᎶᏍᏛ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("klesající graf") , keywords : & ["graf" , "klesající graf" , "pokles" , "sestupný" , "trend"] , } , crate :: Annotation { lang : "cy" , tts : Some ("siart yn gostwng") , keywords : & ["graff" , "i lawr" , "siart" , "siart yn gostwng" , "trend"] , } , crate :: Annotation { lang : "da" , tts : Some ("nedadgående graf") , keywords : & ["graf" , "nedadgående graf" , "tendens"] , } , crate :: Annotation { lang : "de" , tts : Some ("Abwärtstrend") , keywords : & ["Abwärtstrend" , "Diagramm" , "Kurve" , "fallend"] , } , crate :: Annotation { lang : "el" , tts : Some ("καθοδικό γράφημα") , keywords : & ["γράφημα" , "διάγραμμα" , "καθοδικό γράφημα" , "μείωση" , "τάση"] , } , crate :: Annotation { lang : "en" , tts : Some ("chart decreasing") , keywords : & ["chart" , "chart decreasing" , "down" , "graph" , "trend"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("graph decreasing") , keywords : & ["chart" , "chart decreasing" , "down" , "graph" , "graph decreasing" , "trend"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("gráfica de evolución descendente") , keywords : & ["descendente" , "gráfica" , "gráfica de evolución descendente" , "gráfico" , "tendencia descendente"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("tendencia descendente") , keywords : & ["alza" , "descendente" , "disminuir" , "empeorar" , "gráfico" , "peor" , "reducir" , "tabla" , "tendencia descendente"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["baja" , "descendente" , "gráfico" , "tabla" , "tendencia descendente"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["baja" , "descendente" , "gráfico" , "tabla" , "tendencia descendente"] , } , crate :: Annotation { lang : "et" , tts : Some ("langev graafik") , keywords : & ["alla" , "graafik" , "langev graafik" , "langus" , "tendents"] , } , crate :: Annotation { lang : "eu" , tts : Some ("diagrama beherakorra") , keywords : & ["behera" , "diagrama" , "diagrama beherakorra" , "grafiko" , "joera"] , } , crate :: Annotation { lang : "fa" , tts : Some ("نمودار نزولی") , keywords : & ["نمودار" , "نمودار نزولی" , "پایین" , "گراف" , "گرایش"] , } , crate :: Annotation { lang : "fi" , tts : Some ("laskeva käyrä") , keywords : & ["kaavio" , "käyrä" , "laskeva käyrä" , "lasku" , "suuntaus"] , } , crate :: Annotation { lang : "fil" , tts : Some ("bumababang chart") , keywords : & ["bumababang chart" , "graph" , "pababa" , "tsart" , "uso"] , } , crate :: Annotation { lang : "fo" , tts : Some ("strikumynd við lækking") , keywords : & ["diagramm" , "lækkar" , "lækking" , "minkar" , "minking" , "niður" , "rásmynd" , "strikumynd" , "strikumynd við lækking"] , } , crate :: Annotation { lang : "fr" , tts : Some ("graphique en baisse") , keywords : & ["baisse" , "graphique" , "graphique en baisse" , "tendance"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["baisse" , "graphique" , "graphique en baisse" , "tendance"] , } , crate :: Annotation { lang : "ga" , tts : Some ("cairt íslitheach") , keywords : & ["cairt síos" , "cairt íslitheach" , "graf" , "treocht síos"] , } , crate :: Annotation { lang : "gd" , tts : Some ("cairt a’ dol sìos") , keywords : & ["cairt" , "cairt a’ dol sìos" , "crìonadh" , "graf" , "sìos" , "treand"] , } , crate :: Annotation { lang : "gl" , tts : Some ("gráfico con tendencia descendente") , keywords : & ["baixa" , "gráfica" , "gráfico" , "gráfico con tendencia descendente" , "tendencia"] , } , crate :: Annotation { lang : "gu" , tts : Some ("નીચ\u{ac7} જતો ચાર\u{acd}ટ") , keywords : & ["આલ\u{ac7}ખ" , "ઉ\u{a82}ચ\u{ac7}ના વલણનો ચાર\u{acd}ટ" , "ચાર\u{acd}ટ" , "નીચ\u{ac7} જતો ચાર\u{acd}ટ" , "નીચ\u{ac7}ની તરફ" , "નીચ\u{ac7}ન\u{ac1}\u{a82} વલણ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("zanen-lissafi mai ragewa") , keywords : & ["salo" , "zane" , "zanen-lissafi" , "zanen-lissafi mai ragewa"] , } , crate :: Annotation { lang : "he" , tts : Some ("גרף יורד") , keywords : & ["גרף" , "יורד" , "ירידה" , "מגמה" , "תרשים"] , } , crate :: Annotation { lang : "hi" , tts : Some ("घटत\u{947} र\u{941}झान वाला चार\u{94d}ट") , keywords : & ["ग\u{94d}राफ\u{93c}" , "घटता र\u{941}झान" , "घटता ह\u{941}आ" , "घटत\u{947} र\u{941}झान वाला चार\u{94d}ट" , "चार\u{94d}ट"] , } , crate :: Annotation { lang : "hr" , tts : Some ("grafikon silaznog trenda") , keywords : & ["grafikon" , "grafikon silaznog trenda" , "pad" , "silazni trend"] , } , crate :: Annotation { lang : "hu" , tts : Some ("csökkenő diagram") , keywords : & ["csökkenés" , "csökkenő diagram" , "diagram" , "lefelé" , "trend"] , } , crate :: Annotation { lang : "hy" , tts : Some ("նվազող դիագրամ") , keywords : & ["գրաֆիկ" , "դիագրամ" , "միտում" , "ներքև" , "նվազող դիագրամ"] , } , crate :: Annotation { lang : "id" , tts : Some ("bagan menurun") , keywords : & ["bagan" , "bagan menurun" , "grafik" , "tren" , "turun"] , } , crate :: Annotation { lang : "ig" , tts : Some ("mmèlata chaatị") , keywords : & ["ala" , "chaati" , "grafụ" , "mmèlata chaatị" , "trendi"] , } , crate :: Annotation { lang : "is" , tts : Some ("á niðurleið") , keywords : & ["graf á niðurleið" , "á niðurleið"] , } , crate :: Annotation { lang : "it" , tts : Some ("grafico con andamento negativo") , keywords : & ["andamento discendente" , "discendente" , "grafico" , "grafico con andamento negativo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("グラフ下向き") , keywords : & ["グラフ下向き" , "下向き" , "下降" , "折れ線グラフ"] , } , crate :: Annotation { lang : "jv" , tts : Some ("grafik mudhun") , keywords : & ["grafik" , "mudhun" , "tren"] , } , crate :: Annotation { lang : "ka" , tts : Some ("კლებადი გრაფიკი") , keywords : & ["გრაფიკი" , "დიაგრამა" , "კლებადი გრაფიკი" , "ტენდენცია" , "ქვემოთ"] , } , crate :: Annotation { lang : "kk" , tts : Some ("кему туралы диаграмма") , keywords : & ["график" , "диаграмма" , "кему туралы диаграмма" , "тренд" , "төмен"] , } , crate :: Annotation { lang : "kl" , tts : Some ("nedadgående graf") , keywords : & ["graf" , "nedadgående graf" , "tendens"] , } , crate :: Annotation { lang : "km" , tts : Some ("តារាងធ\u{17d2}លាក\u{17cb}ច\u{17bb}ះ") , keywords : & ["តារាង" , "តារាងធ\u{17d2}លាក\u{17cb}ច\u{17bb}ះ" , "ធ\u{17d2}លាក\u{17cb}ច\u{17bb}ះ"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಇಳ\u{cbf}ಯುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}") , keywords : & ["ಇಳ\u{cbf}ಕ\u{cc6}ಯ ಪ\u{ccd}ರವೃತ\u{ccd}ತ\u{cbf} ಚಾರ\u{ccd}ಟ\u{ccd}" , "ಇಳ\u{cbf}ಯುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}" , "ಕ\u{cc6}ಳಕ\u{ccd}ಕ\u{cc6} ಚಾರ\u{ccd}ಟ\u{ccd}" , "ಗ\u{ccd}ರಾಫ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("내려가는 그래프") , keywords : & ["그래프" , "내려가는 그래프" , "불황" , "하향"] , } , crate :: Annotation { lang : "kok" , tts : Some ("चार\u{94d}ट द\u{947}\u{902}वता") , keywords : & ["ग\u{94d}राफ" , "चार\u{94d}ट" , "चार\u{94d}ट द\u{947}\u{902}वता" , "ट\u{94d}र\u{947}\u{902}ड" , "सकयल"] , } , crate :: Annotation { lang : "ky" , tts : Some ("түшүп жаткан диаграмма") , keywords : & ["диаграмма" , "түшүп жаткан диаграмма" , "түшүү" , "төмөн"] , } , crate :: Annotation { lang : "lb" , tts : Some ("senkenden Diagramm") , keywords : & ["Diagramm" , "Grafik" , "Tendenz" , "senkend" , "senkenden Diagramm"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ຫ\u{ebc}\u{eb8}ດລ\u{ebb}ງ") , keywords : & ["ຫ\u{ebc}\u{eb8}ດລ\u{ebb}ງ" , "ເສ\u{eb1}\u{ec9}ນສະແດງ" , "ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ຫ\u{ebc}\u{eb8}ດລ\u{ebb}ງ" , "ແນວໂນ\u{ec9}ມ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("mažėjimo tendencijos diagrama") , keywords : & ["diagrama" , "mažėjimo tendencijos diagrama" , "tendencija" , "į apačią"] , } , crate :: Annotation { lang : "lv" , tts : Some ("lejupejoša diagrammas līkne") , keywords : & ["diagramma" , "lejup" , "lejupejoša diagrammas līkne" , "līkne"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tūtohi auheke") , keywords : & ["au" , "kauwhata" , "tūtohi" , "tūtohi auheke" , "whakaheke"] , } , crate :: Annotation { lang : "mk" , tts : Some ("опаѓачки графикон") , keywords : & ["графикон" , "надолен" , "опаѓачки графикон" , "пад" , "тренд"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ത\u{d3e}ഴേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}") , keywords : & ["ഗ\u{d4d}ര\u{d3e}ഫ\u{d4d}" , "ച\u{d3e}ർട\u{d4d}ട\u{d4d}" , "ത\u{d3e}ഴേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}" , "ത\u{d3e}ഴേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d}" , "ത\u{d3e}ഴേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d} ച\u{d3e}ർട\u{d4d}ട\u{d4d}" , "ത\u{d3e}ഴേക\u{d4d}ക\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("буурч буй диаграмм") , keywords : & ["буурах" , "буурч буй диаграмм" , "диаграмм" , "чиг хандлага"] , } , crate :: Annotation { lang : "mr" , tts : Some ("कमी होणारा चार\u{94d}ट") , keywords : & ["आल\u{947}ख" , "उतरता" , "कमी होणारा चार\u{94d}ट" , "कल" , "चार\u{94d}ट"] , } , crate :: Annotation { lang : "ms" , tts : Some ("carta menurun") , keywords : & ["arah aliran" , "carta" , "graf" , "menurun"] , } , crate :: Annotation { lang : "mt" , tts : Some ("ċart tonqos") , keywords : & ["graff" , "tendenza" , "ċart" , "ċart tonqos" , "’l isfel"] , } , crate :: Annotation { lang : "my" , tts : Some ("န\u{102d}မ\u{1037}\u{103a}ဆင\u{103a}းနေပ\u{102f}\u{1036}ပြ ဇယား") , keywords : & ["ကျဆင\u{103a}းခြင\u{103a}း" , "ကျဆင\u{103a}းနေပ\u{102f}\u{1036}ပြ ဇယား" , "ဂရပ\u{103a}ဖ\u{103a}" , "ဇယား" , "န\u{102d}မ\u{1037}\u{103a}ဆင\u{103a}းနေပ\u{102f}\u{1036}ပြ ဇယား"] , } , crate :: Annotation { lang : "nb" , tts : Some ("diagram som peker nedover") , keywords : & ["chart" , "diagram som peker nedover" , "fallende" , "graf" , "ned" , "negativ" , "synkende"] , } , crate :: Annotation { lang : "ne" , tts : Some ("घट\u{94d}दो चार\u{94d}ट") , keywords : & ["घट\u{94d}दो चार\u{94d}ट" , "चार\u{94d}ट घट\u{94d}दो"] , } , crate :: Annotation { lang : "nl" , tts : Some ("dalende trend") , keywords : & ["dalend" , "dalende trend" , "diagram" , "grafiek" , "grafiek met dalende trend"] , } , crate :: Annotation { lang : "nn" , tts : Some ("diagram som peikar nedover") , keywords : & ["chart" , "diagram som peikar nedover" , "fallande" , "graf" , "ned" , "negativ" , "synkande"] , } , crate :: Annotation { lang : "or" , tts : Some ("ହ\u{b4d}ର\u{b3e}ସ ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}") , keywords : & ["ଗ\u{b4d}ର\u{b3e}ଫ\u{b4d}" , "ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}" , "ତଳକ\u{b41} ଯ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e}" , "ତଳକ\u{b41} ଯ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f}" , "ତଳକ\u{b41} ଯ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}" , "ହ\u{b4d}ର\u{b3e}ସ ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਘ\u{a71}ਟਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ") , keywords : & ["ਗਰਾਫ" , "ਘ\u{a71}ਟਦਾ" , "ਘ\u{a71}ਟਦਾ ਰ\u{a41}ਝਾਨ" , "ਘ\u{a71}ਟਦਾ ਰ\u{a41}ਝਾਨ ਚਾਰਟ" , "ਘ\u{a71}ਟਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ" , "ਚਾਰਟ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("چارٹ گھٹ رہیا اے") , keywords : & ["رجحان" , "چارٹ" , "چارٹ گھٹ رہیا اے" , "گراف" , "ہیٹھاں"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Chat Wit Graf Wé De Gó Daun") , keywords : & ["Chat" , "Chat Wit Graf Wé De Gó Daun" , "Dairẹ\u{301}kshọn" , "Daun" , "Graf" , "Lain"] , } , crate :: Annotation { lang : "pl" , tts : Some ("wykres spadku") , keywords : & ["spadek" , "strata" , "tendencja spadkowa" , "trend zniżkowy" , "wykres spadku"] , } , crate :: Annotation { lang : "ps" , tts : Some ("چارټ کمېدونکی") , keywords : & ["ټرينډ" , "چارټ" , "چارټ کمېدونکی" , "ښکته" , "ګراف"] , } , crate :: Annotation { lang : "pt" , tts : Some ("gráfico caindo") , keywords : & ["diagrama" , "gráfico" , "gráfico caindo" , "gráfico de tendência negativa" , "negativa" , "tendência negativa"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("gráfico a descer") , keywords : & ["descida" , "gráfico" , "gráfico a descer" , "tendência"] , } , crate :: Annotation { lang : "ro" , tts : Some ("grafic descendent") , keywords : & ["diagramă" , "grafic descendent" , "scădere" , "tendință"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-646") , keywords : & ["E10-646"] , } , crate :: Annotation { lang : "ru" , tts : Some ("диаграмма падения") , keywords : & ["вниз" , "диаграмма" , "диаграмма падения" , "падение" , "схема" , "тенденция"] , } , crate :: Annotation { lang : "rw" , tts : Some ("imbonerahamwe y’ibimanuka") , keywords : & ["hasi" , "igishushanyo" , "imbonerahamwe" , "imbonerahamwe y’ibimanuka" , "izamuka"] , } , crate :: Annotation { lang : "sd" , tts : Some ("چارٽ گهٽجندي") , keywords : & ["رخ" , "هيٺ" , "چارٽ" , "چارٽ گهٽجندي" , "گراف"] , } , crate :: Annotation { lang : "si" , tts : Some ("ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය පහළ බැස\u{dd3}ම") , keywords : & ["නැඹ\u{dd4}ර\u{dd4}ත\u{dcf}ව" , "පහළට" , "ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}ර සටහන" , "ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය" , "ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය පහළ බැස\u{dd3}ම"] , } , crate :: Annotation { lang : "sk" , tts : Some ("klesajúci graf") , keywords : & ["graf" , "klesajúci" , "pokles" , "trend"] , } , crate :: Annotation { lang : "sl" , tts : Some ("grafikon padca") , keywords : & ["graf" , "grafikon" , "grafikon padca" , "navzdol" , "trend"] , } , crate :: Annotation { lang : "so" , tts : Some ("shaxan yaraanaya") , keywords : & ["hoos" , "isbedel" , "shax" , "shaxan" , "shaxan yaraanaya"] , } , crate :: Annotation { lang : "sq" , tts : Some ("grafik zbritës") , keywords : & ["grafik" , "grafik zbritës" , "poshtë" , "tendencë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("графикон са опадајућим трендом") , keywords : & ["графикон" , "графикон са опадајућим трендом" , "пад" , "тренд"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["графикон са опадајућим трендом"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("grafikon sa opadajućim trendom") , keywords : & ["grafikon" , "grafikon sa opadajućim trendom" , "pad" , "trend"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["grafikon sa opadajućim trendom"] , } , crate :: Annotation { lang : "sv" , tts : Some ("nedåtgående trend") , keywords : & ["diagram" , "graf" , "nedåtgående trend"] , } , crate :: Annotation { lang : "sw" , tts : Some ("chati inayoshuka") , keywords : & ["chati" , "chati inayoshuka" , "chini" , "grafu" , "uelekeo"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("வ\u{bc0}ழ\u{bcd}ச\u{bcd}சி") , keywords : & ["த\u{bbe}ழ\u{bcd}வு" , "வ\u{bc0}ழ\u{bcd}ச\u{bcd}சி" , "வ\u{bc0}ழ\u{bcd}தல\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("తగ\u{c4d}గుదల చ\u{c3e}ర\u{c4d}ట\u{c4d}") , keywords : & ["గ\u{c4d}ర\u{c3e}ఫ\u{c4d}" , "చ\u{c3e}ర\u{c4d}ట\u{c4d}" , "తగ\u{c4d}గుదల"] , } , crate :: Annotation { lang : "tg" , tts : Some ("диаграммаи коҳишёбанда") , keywords : & ["график" , "диаграмма" , "диаграммаи коҳишёбанда" , "поён" , "тамоюл"] , } , crate :: Annotation { lang : "th" , tts : Some ("แนวโน\u{e49}มลง") , keywords : & ["ขาลง" , "แนวโน\u{e49}มลง"] , } , crate :: Annotation { lang : "tk" , tts : Some ("azalýan grafik") , keywords : & ["azalýan grafik" , "aşak" , "grafika" , "trend" , "çyzgy"] , } , crate :: Annotation { lang : "to" , tts : Some ("siate maholo") , keywords : & ["siate maholo"] , } , crate :: Annotation { lang : "tr" , tts : Some ("iniş grafiği") , keywords : & ["alçalan grafik" , "aşağı yönlü" , "grafik" , "iniş grafiği"] , } , crate :: Annotation { lang : "ug" , tts : Some ("چۈشمە گىرافىك") , keywords : & ["جەدۋەل" , "يۈزلىنىش" , "چۈشمە گىرافىك" , "چۈشۈش" , "گىرافىك"] , } , crate :: Annotation { lang : "uk" , tts : Some ("низхідний графік") , keywords : & ["вниз" , "графік" , "графік падіння" , "діаграма" , "низхідний графік" , "тенденція"] , } , crate :: Annotation { lang : "ur" , tts : Some ("تنزلی چارٹ") , keywords : & ["اسٹیشنری" , "تنزلی" , "چارٹ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("pasayish trendi diagrammasi") , keywords : & ["diagramma" , "grafa" , "pasayish trendi diagrammasi" , "pastga" , "trend"] , } , crate :: Annotation { lang : "vi" , tts : Some ("biểu đồ giảm") , keywords : & ["biểu đồ" , "biểu đồ giảm" , "xu hướng" , "xuống" , "đồ thị"] , } , crate :: Annotation { lang : "wo" , tts : Some ("tablo buy wàcci") , keywords : & ["grafik" , "kurb" , "suuf" , "tablo buy wàcci" , "xew"] , } , crate :: Annotation { lang : "xh" , tts : Some ("itshati iyehla") , keywords : & ["ezantsi" , "ezithandwayo" , "igrafu" , "itshathi" , "itshati iyehla"] , } , crate :: Annotation { lang : "yo" , tts : Some ("àtẹ n dinku") , keywords : & ["tírẹ\u{301}ndì" , "àtẹ" , "àtẹ alátó\u{329}ka" , "àtẹ n dinku" , "ìsàlẹ\u{300}"] , } , crate :: Annotation { lang : "yue" , tts : Some ("圖表下跌") , keywords : & ["下跌" , "圖" , "圖表" , "圖表下跌" , "趨勢"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("图表下跌") , keywords : & ["下跌" , "图" , "图表" , "图表下跌" , "趋势"] , } , crate :: Annotation { lang : "zh" , tts : Some ("趋势向下的图表") , keywords : & ["下跌" , "下跌图表" , "下降" , "向下" , "图表" , "趋势向下的图表"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("跌") , keywords : & ["下跌" , "下降" , "圖表" , "跌"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("向下折線圖") , keywords : & ["下降" , "向下" , "向下折線圖" , "圖形" , "圖表" , "線條" , "趨勢｜下跌"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ishadi elehlayo") , keywords : & ["igrafu" , "ishadi" , "ishadi elehlayo" , "okuya phansi"] , }] , } ;
+pub const CHART_DECREASING: crate::Emoji = crate::Emoji {
+    glyph: "📉",
+    codepoint: "1F4C9",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "chart decreasing",
+    group: "Objects",
+    subgroup: "office",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("grafiek wat daal"),
+            keywords: &[
+                "daling",
+                "grafiek",
+                "grafiek wat daal",
+                "statistiek",
+                "tendens",
+                "val",
+            ],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የሚቀንስ ገበታ"),
+            keywords: &["ሰንጠረዥ", "ታች", "አዝማሚያ", "የሚቀንስ ገበታ", "ገበታ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مخطط بياني لأسفل"),
+            keywords: &["انخفاض", "مخطط", "مخطط بياني لأسفل"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("অধোগ\u{9be}মী লেখচিত\u{9cd}ৰ"),
+            keywords: &[
+                "অধোগ\u{9be}মী",
+                "অধোগ\u{9be}মী প\u{9cd}ৰৱণত\u{9be}",
+                "অধোগ\u{9be}মী প\u{9cd}ৰৱণত\u{9be}ৰ চ\u{9be}ৰ\u{9cd}ট",
+                "অধোগ\u{9be}মী লেখচিত\u{9cd}ৰ",
+                "গ\u{9cd}ৰ\u{9be}ফ",
+                "চ\u{9be}ৰ\u{9cd}ট",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("düşən qrafik"),
+            keywords: &["aşağı", "cədvəl", "düşən qrafik", "qrafik", "trend"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("дыяграма зніжэння"),
+            keywords: &[
+                "графік",
+                "дыяграма",
+                "дыяграма зніжэння",
+                "зніжэнне",
+                "тэндэнцыя",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Диаграма с низходяща тенденция"),
+            keywords: &[
+                "Диаграма с низходяща тенденция",
+                "диаграма",
+                "надолу",
+                "спад",
+                "тенденция",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ক\u{9cd}রমহ\u{9cd}র\u{9be}সম\u{9be}ন চ\u{9be}র\u{9cd}ট"),
+            keywords: &[
+                "ক\u{9cd}রমহ\u{9cd}র\u{9be}সম\u{9be}ন চ\u{9be}র\u{9cd}ট",
+                "গ\u{9cd}র\u{9be}ফ",
+                "চ\u{9be}র\u{9cd}ট",
+                "নিম\u{9cd}নম\u{9c1}খী",
+                "প\u{9cd}রবণত\u{9be}",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("krommenn digreskiñ"),
+            keywords: &["diagramm", "digreskiñ", "grafik", "krommenn"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("dijagram opadanja"),
+            keywords: &["dijagram", "dijagram opadanja", "grafikon", "opadanje"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("gràfic de disminució"),
+            keywords: &[
+                "a la baixa",
+                "disminució",
+                "gràfic",
+                "gràfic de disminució",
+                "tendència",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎠᎦᏲᎶᎬᎢ"),
+            keywords: &["ᎡᎳᏗ", "ᎦᎵᎦᎳ", "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ", "ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎠᎦᏲᎶᎬᎢ", "ᏓᏟᎶᏍᏛ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("klesající graf"),
+            keywords: &["graf", "klesající graf", "pokles", "sestupný", "trend"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("siart yn gostwng"),
+            keywords: &["graff", "i lawr", "siart", "siart yn gostwng", "trend"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("nedadgående graf"),
+            keywords: &["graf", "nedadgående graf", "tendens"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Abwärtstrend"),
+            keywords: &["Abwärtstrend", "Diagramm", "Kurve", "fallend"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("καθοδικό γράφημα"),
+            keywords: &["γράφημα", "διάγραμμα", "καθοδικό γράφημα", "μείωση", "τάση"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("chart decreasing"),
+            keywords: &["chart", "chart decreasing", "down", "graph", "trend"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("graph decreasing"),
+            keywords: &[
+                "chart",
+                "chart decreasing",
+                "down",
+                "graph",
+                "graph decreasing",
+                "trend",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("gráfica de evolución descendente"),
+            keywords: &[
+                "descendente",
+                "gráfica",
+                "gráfica de evolución descendente",
+                "gráfico",
+                "tendencia descendente",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("tendencia descendente"),
+            keywords: &[
+                "alza",
+                "descendente",
+                "disminuir",
+                "empeorar",
+                "gráfico",
+                "peor",
+                "reducir",
+                "tabla",
+                "tendencia descendente",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "baja",
+                "descendente",
+                "gráfico",
+                "tabla",
+                "tendencia descendente",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "baja",
+                "descendente",
+                "gráfico",
+                "tabla",
+                "tendencia descendente",
+            ],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("langev graafik"),
+            keywords: &["alla", "graafik", "langev graafik", "langus", "tendents"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("diagrama beherakorra"),
+            keywords: &[
+                "behera",
+                "diagrama",
+                "diagrama beherakorra",
+                "grafiko",
+                "joera",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("نمودار نزولی"),
+            keywords: &["نمودار", "نمودار نزولی", "پایین", "گراف", "گرایش"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("laskeva käyrä"),
+            keywords: &["kaavio", "käyrä", "laskeva käyrä", "lasku", "suuntaus"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("bumababang chart"),
+            keywords: &["bumababang chart", "graph", "pababa", "tsart", "uso"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("strikumynd við lækking"),
+            keywords: &[
+                "diagramm",
+                "lækkar",
+                "lækking",
+                "minkar",
+                "minking",
+                "niður",
+                "rásmynd",
+                "strikumynd",
+                "strikumynd við lækking",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("graphique en baisse"),
+            keywords: &["baisse", "graphique", "graphique en baisse", "tendance"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["baisse", "graphique", "graphique en baisse", "tendance"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("cairt íslitheach"),
+            keywords: &["cairt síos", "cairt íslitheach", "graf", "treocht síos"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("cairt a’ dol sìos"),
+            keywords: &[
+                "cairt",
+                "cairt a’ dol sìos",
+                "crìonadh",
+                "graf",
+                "sìos",
+                "treand",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("gráfico con tendencia descendente"),
+            keywords: &[
+                "baixa",
+                "gráfica",
+                "gráfico",
+                "gráfico con tendencia descendente",
+                "tendencia",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("નીચ\u{ac7} જતો ચાર\u{acd}ટ"),
+            keywords: &[
+                "આલ\u{ac7}ખ",
+                "ઉ\u{a82}ચ\u{ac7}ના વલણનો ચાર\u{acd}ટ",
+                "ચાર\u{acd}ટ",
+                "નીચ\u{ac7} જતો ચાર\u{acd}ટ",
+                "નીચ\u{ac7}ની તરફ",
+                "નીચ\u{ac7}ન\u{ac1}\u{a82} વલણ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("zanen-lissafi mai ragewa"),
+            keywords: &["salo", "zane", "zanen-lissafi", "zanen-lissafi mai ragewa"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("גרף יורד"),
+            keywords: &["גרף", "יורד", "ירידה", "מגמה", "תרשים"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("घटत\u{947} र\u{941}झान वाला चार\u{94d}ट"),
+            keywords: &[
+                "ग\u{94d}राफ\u{93c}",
+                "घटता र\u{941}झान",
+                "घटता ह\u{941}आ",
+                "घटत\u{947} र\u{941}झान वाला चार\u{94d}ट",
+                "चार\u{94d}ट",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("grafikon silaznog trenda"),
+            keywords: &[
+                "grafikon",
+                "grafikon silaznog trenda",
+                "pad",
+                "silazni trend",
+            ],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("csökkenő diagram"),
+            keywords: &[
+                "csökkenés",
+                "csökkenő diagram",
+                "diagram",
+                "lefelé",
+                "trend",
+            ],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("նվազող դիագրամ"),
+            keywords: &["գրաֆիկ", "դիագրամ", "միտում", "ներքև", "նվազող դիագրամ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("bagan menurun"),
+            keywords: &["bagan", "bagan menurun", "grafik", "tren", "turun"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("mmèlata chaatị"),
+            keywords: &["ala", "chaati", "grafụ", "mmèlata chaatị", "trendi"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("á niðurleið"),
+            keywords: &["graf á niðurleið", "á niðurleið"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("grafico con andamento negativo"),
+            keywords: &[
+                "andamento discendente",
+                "discendente",
+                "grafico",
+                "grafico con andamento negativo",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("グラフ下向き"),
+            keywords: &["グラフ下向き", "下向き", "下降", "折れ線グラフ"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("grafik mudhun"),
+            keywords: &["grafik", "mudhun", "tren"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("კლებადი გრაფიკი"),
+            keywords: &[
+                "გრაფიკი",
+                "დიაგრამა",
+                "კლებადი გრაფიკი",
+                "ტენდენცია",
+                "ქვემოთ",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("кему туралы диаграмма"),
+            keywords: &[
+                "график",
+                "диаграмма",
+                "кему туралы диаграмма",
+                "тренд",
+                "төмен",
+            ],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("nedadgående graf"),
+            keywords: &["graf", "nedadgående graf", "tendens"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("តារាងធ\u{17d2}លាក\u{17cb}ច\u{17bb}ះ"),
+            keywords: &[
+                "តារាង",
+                "តារាងធ\u{17d2}លាក\u{17cb}ច\u{17bb}ះ",
+                "ធ\u{17d2}លាក\u{17cb}ច\u{17bb}ះ",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಇಳ\u{cbf}ಯುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}"),
+            keywords: &[
+                "ಇಳ\u{cbf}ಕ\u{cc6}ಯ ಪ\u{ccd}ರವೃತ\u{ccd}ತ\u{cbf} ಚಾರ\u{ccd}ಟ\u{ccd}",
+                "ಇಳ\u{cbf}ಯುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}",
+                "ಕ\u{cc6}ಳಕ\u{ccd}ಕ\u{cc6} ಚಾರ\u{ccd}ಟ\u{ccd}",
+                "ಗ\u{ccd}ರಾಫ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("내려가는 그래프"),
+            keywords: &["그래프", "내려가는 그래프", "불황", "하향"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("चार\u{94d}ट द\u{947}\u{902}वता"),
+            keywords: &[
+                "ग\u{94d}राफ",
+                "चार\u{94d}ट",
+                "चार\u{94d}ट द\u{947}\u{902}वता",
+                "ट\u{94d}र\u{947}\u{902}ड",
+                "सकयल",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("түшүп жаткан диаграмма"),
+            keywords: &["диаграмма", "түшүп жаткан диаграмма", "түшүү", "төмөн"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("senkenden Diagramm"),
+            keywords: &[
+                "Diagramm",
+                "Grafik",
+                "Tendenz",
+                "senkend",
+                "senkenden Diagramm",
+            ],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ຫ\u{ebc}\u{eb8}ດລ\u{ebb}ງ"),
+            keywords: &[
+                "ຫ\u{ebc}\u{eb8}ດລ\u{ebb}ງ",
+                "ເສ\u{eb1}\u{ec9}ນສະແດງ",
+                "ເສ\u{eb1}\u{ec9}ນສະແດງທ\u{eb5}\u{ec8}ຫ\u{ebc}\u{eb8}ດລ\u{ebb}ງ",
+                "ແນວໂນ\u{ec9}ມ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("mažėjimo tendencijos diagrama"),
+            keywords: &[
+                "diagrama",
+                "mažėjimo tendencijos diagrama",
+                "tendencija",
+                "į apačią",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("lejupejoša diagrammas līkne"),
+            keywords: &["diagramma", "lejup", "lejupejoša diagrammas līkne", "līkne"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tūtohi auheke"),
+            keywords: &["au", "kauwhata", "tūtohi", "tūtohi auheke", "whakaheke"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("опаѓачки графикон"),
+            keywords: &["графикон", "надолен", "опаѓачки графикон", "пад", "тренд"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ത\u{d3e}ഴേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}"),
+            keywords: &[
+                "ഗ\u{d4d}ര\u{d3e}ഫ\u{d4d}",
+                "ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
+                "ത\u{d3e}ഴേക\u{d4d}ക\u{d41}ള\u{d4d}ള ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
+                "ത\u{d3e}ഴേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d}",
+                "ത\u{d3e}ഴേക\u{d4d}ക\u{d41}ള\u{d4d}ള ട\u{d4d}രെൻഡ\u{d4d} ച\u{d3e}ർട\u{d4d}ട\u{d4d}",
+                "ത\u{d3e}ഴേക\u{d4d}ക\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("буурч буй диаграмм"),
+            keywords: &["буурах", "буурч буй диаграмм", "диаграмм", "чиг хандлага"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("कमी होणारा चार\u{94d}ट"),
+            keywords: &[
+                "आल\u{947}ख",
+                "उतरता",
+                "कमी होणारा चार\u{94d}ट",
+                "कल",
+                "चार\u{94d}ट",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("carta menurun"),
+            keywords: &["arah aliran", "carta", "graf", "menurun"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("ċart tonqos"),
+            keywords: &["graff", "tendenza", "ċart", "ċart tonqos", "’l isfel"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("န\u{102d}မ\u{1037}\u{103a}ဆင\u{103a}းနေပ\u{102f}\u{1036}ပြ ဇယား"),
+            keywords: &[
+                "ကျဆင\u{103a}းခြင\u{103a}း",
+                "ကျဆင\u{103a}းနေပ\u{102f}\u{1036}ပြ ဇယား",
+                "ဂရပ\u{103a}ဖ\u{103a}",
+                "ဇယား",
+                "န\u{102d}မ\u{1037}\u{103a}ဆင\u{103a}းနေပ\u{102f}\u{1036}ပြ ဇယား",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("diagram som peker nedover"),
+            keywords: &[
+                "chart",
+                "diagram som peker nedover",
+                "fallende",
+                "graf",
+                "ned",
+                "negativ",
+                "synkende",
+            ],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("घट\u{94d}दो चार\u{94d}ट"),
+            keywords: &["घट\u{94d}दो चार\u{94d}ट", "चार\u{94d}ट घट\u{94d}दो"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("dalende trend"),
+            keywords: &[
+                "dalend",
+                "dalende trend",
+                "diagram",
+                "grafiek",
+                "grafiek met dalende trend",
+            ],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("diagram som peikar nedover"),
+            keywords: &[
+                "chart",
+                "diagram som peikar nedover",
+                "fallande",
+                "graf",
+                "ned",
+                "negativ",
+                "synkande",
+            ],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ହ\u{b4d}ର\u{b3e}ସ ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}"),
+            keywords: &[
+                "ଗ\u{b4d}ର\u{b3e}ଫ\u{b4d}",
+                "ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}",
+                "ତଳକ\u{b41} ଯ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e}",
+                "ତଳକ\u{b41} ଯ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f}",
+                "ତଳକ\u{b41} ଯ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ପ\u{b4d}ରବ\u{b43}ତ\u{b4d}ତ\u{b3f} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}",
+                "ହ\u{b4d}ର\u{b3e}ସ ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ\u{b4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਘ\u{a71}ਟਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ"),
+            keywords: &[
+                "ਗਰਾਫ",
+                "ਘ\u{a71}ਟਦਾ",
+                "ਘ\u{a71}ਟਦਾ ਰ\u{a41}ਝਾਨ",
+                "ਘ\u{a71}ਟਦਾ ਰ\u{a41}ਝਾਨ ਚਾਰਟ",
+                "ਘ\u{a71}ਟਦਾ ਹ\u{a4b}ਇਆ ਚਾਰਟ",
+                "ਚਾਰਟ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("چارٹ گھٹ رہیا اے"),
+            keywords: &["رجحان", "چارٹ", "چارٹ گھٹ رہیا اے", "گراف", "ہیٹھاں"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Chat Wit Graf Wé De Gó Daun"),
+            keywords: &[
+                "Chat",
+                "Chat Wit Graf Wé De Gó Daun",
+                "Dairẹ\u{301}kshọn",
+                "Daun",
+                "Graf",
+                "Lain",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("wykres spadku"),
+            keywords: &[
+                "spadek",
+                "strata",
+                "tendencja spadkowa",
+                "trend zniżkowy",
+                "wykres spadku",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("چارټ کمېدونکی"),
+            keywords: &["ټرينډ", "چارټ", "چارټ کمېدونکی", "ښکته", "ګراف"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("gráfico caindo"),
+            keywords: &[
+                "diagrama",
+                "gráfico",
+                "gráfico caindo",
+                "gráfico de tendência negativa",
+                "negativa",
+                "tendência negativa",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("gráfico a descer"),
+            keywords: &["descida", "gráfico", "gráfico a descer", "tendência"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("grafic descendent"),
+            keywords: &["diagramă", "grafic descendent", "scădere", "tendință"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-646"),
+            keywords: &["E10-646"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("диаграмма падения"),
+            keywords: &[
+                "вниз",
+                "диаграмма",
+                "диаграмма падения",
+                "падение",
+                "схема",
+                "тенденция",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("imbonerahamwe y’ibimanuka"),
+            keywords: &[
+                "hasi",
+                "igishushanyo",
+                "imbonerahamwe",
+                "imbonerahamwe y’ibimanuka",
+                "izamuka",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("چارٽ گهٽجندي"),
+            keywords: &["رخ", "هيٺ", "چارٽ", "چارٽ گهٽجندي", "گراف"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය පහළ බැස\u{dd3}ම"),
+            keywords: &[
+                "නැඹ\u{dd4}ර\u{dd4}ත\u{dcf}ව",
+                "පහළට",
+                "ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}ර සටහන",
+                "ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය",
+                "ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය පහළ බැස\u{dd3}ම",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("klesajúci graf"),
+            keywords: &["graf", "klesajúci", "pokles", "trend"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("grafikon padca"),
+            keywords: &["graf", "grafikon", "grafikon padca", "navzdol", "trend"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("shaxan yaraanaya"),
+            keywords: &["hoos", "isbedel", "shax", "shaxan", "shaxan yaraanaya"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("grafik zbritës"),
+            keywords: &["grafik", "grafik zbritës", "poshtë", "tendencë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("графикон са опадајућим трендом"),
+            keywords: &["графикон", "графикон са опадајућим трендом", "пад", "тренд"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["графикон са опадајућим трендом"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("grafikon sa opadajućim trendom"),
+            keywords: &["grafikon", "grafikon sa opadajućim trendom", "pad", "trend"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["grafikon sa opadajućim trendom"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("nedåtgående trend"),
+            keywords: &["diagram", "graf", "nedåtgående trend"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("chati inayoshuka"),
+            keywords: &["chati", "chati inayoshuka", "chini", "grafu", "uelekeo"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("வ\u{bc0}ழ\u{bcd}ச\u{bcd}சி"),
+            keywords: &[
+                "த\u{bbe}ழ\u{bcd}வு",
+                "வ\u{bc0}ழ\u{bcd}ச\u{bcd}சி",
+                "வ\u{bc0}ழ\u{bcd}தல\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("తగ\u{c4d}గుదల చ\u{c3e}ర\u{c4d}ట\u{c4d}"),
+            keywords: &[
+                "గ\u{c4d}ర\u{c3e}ఫ\u{c4d}",
+                "చ\u{c3e}ర\u{c4d}ట\u{c4d}",
+                "తగ\u{c4d}గుదల",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("диаграммаи коҳишёбанда"),
+            keywords: &[
+                "график",
+                "диаграмма",
+                "диаграммаи коҳишёбанда",
+                "поён",
+                "тамоюл",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("แนวโน\u{e49}มลง"),
+            keywords: &["ขาลง", "แนวโน\u{e49}มลง"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("azalýan grafik"),
+            keywords: &["azalýan grafik", "aşak", "grafika", "trend", "çyzgy"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("siate maholo"),
+            keywords: &["siate maholo"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("iniş grafiği"),
+            keywords: &["alçalan grafik", "aşağı yönlü", "grafik", "iniş grafiği"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("چۈشمە گىرافىك"),
+            keywords: &["جەدۋەل", "يۈزلىنىش", "چۈشمە گىرافىك", "چۈشۈش", "گىرافىك"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("низхідний графік"),
+            keywords: &[
+                "вниз",
+                "графік",
+                "графік падіння",
+                "діаграма",
+                "низхідний графік",
+                "тенденція",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("تنزلی چارٹ"),
+            keywords: &["اسٹیشنری", "تنزلی", "چارٹ"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("pasayish trendi diagrammasi"),
+            keywords: &[
+                "diagramma",
+                "grafa",
+                "pasayish trendi diagrammasi",
+                "pastga",
+                "trend",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("biểu đồ giảm"),
+            keywords: &["biểu đồ", "biểu đồ giảm", "xu hướng", "xuống", "đồ thị"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("tablo buy wàcci"),
+            keywords: &["grafik", "kurb", "suuf", "tablo buy wàcci", "xew"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("itshati iyehla"),
+            keywords: &[
+                "ezantsi",
+                "ezithandwayo",
+                "igrafu",
+                "itshathi",
+                "itshati iyehla",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("àtẹ n dinku"),
+            keywords: &[
+                "tírẹ\u{301}ndì",
+                "àtẹ",
+                "àtẹ alátó\u{329}ka",
+                "àtẹ n dinku",
+                "ìsàlẹ\u{300}",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("圖表下跌"),
+            keywords: &["下跌", "圖", "圖表", "圖表下跌", "趨勢"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("图表下跌"),
+            keywords: &["下跌", "图", "图表", "图表下跌", "趋势"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("趋势向下的图表"),
+            keywords: &["下跌", "下跌图表", "下降", "向下", "图表", "趋势向下的图表"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("跌"),
+            keywords: &["下跌", "下降", "圖表", "跌"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("向下折線圖"),
+            keywords: &[
+                "下降",
+                "向下",
+                "向下折線圖",
+                "圖形",
+                "圖表",
+                "線條",
+                "趨勢｜下跌",
+            ],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ishadi elehlayo"),
+            keywords: &["igrafu", "ishadi", "ishadi elehlayo", "okuya phansi"],
+        },
+    ],
+};
 #[doc = "📊"]
 pub const BAR_CHART: crate::Emoji = crate::Emoji {
     glyph: "📊",
@@ -5914,7 +11744,793 @@ pub const PAPERCLIP: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🖇\u{fe0f}"]
-pub const LINKED_PAPERCLIPS : crate :: Emoji = crate :: Emoji { glyph : "🖇\u{fe0f}" , codepoint : "1F587 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "linked paperclips" , group : "Objects" , subgroup : "office" , is_variant : false , variants : & [crate :: Emoji { glyph : "🖇" , codepoint : "1F587" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "linked paperclips" , group : "Objects" , subgroup : "office" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("ingehaakte skuifspeld") , keywords : & ["haak" , "ingehaakte skuifspeld" , "koppel" , "skakel" , "skuifspeld"] , } , crate :: Annotation { lang : "am" , tts : Some ("የተያያዙ የወረቀት ክሊፖች") , keywords : & ["አያይዝ" , "የተያያዙ የወረቀት ክሊፖች" , "የወረቀት ክሊፕ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مشبك ورق مقترن") , keywords : & ["أوراق" , "مشبك" , "مشبك ورق مقترن"] , } , crate :: Annotation { lang : "as" , tts : Some ("জোৰ\u{9be} লগ\u{9be} পেপ\u{9be}ৰক\u{9cd}লিপ") , keywords : & ["জোৰ\u{9be}" , "জোৰ\u{9be} লগ\u{9be} পেপ\u{9be}ৰক\u{9cd}লিপ" , "পেপ\u{9be}ৰক\u{9cd}লিপ"] , } , crate :: Annotation { lang : "az" , tts : Some ("birləşmiş sancaqlar") , keywords : & ["birləşmiş sancaqlar" , "sancaq" , "əlaqə"] , } , crate :: Annotation { lang : "be" , tts : Some ("злучаныя сашчэпкі") , keywords : & ["злучаныя сашчэпкі" , "папера" , "сашчэпка"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Съединени кламери") , keywords : & ["Съединени кламери" , "кламер" , "съединен"] , } , crate :: Annotation { lang : "bn" , tts : Some ("সংয\u{9c1}ক\u{9cd}ত পেপ\u{9be}র ক\u{9cd}লিপ") , keywords : & ["পেপ\u{9be}র ক\u{9cd}লিপ" , "লিংক" , "সংয\u{9c1}ক\u{9cd}ত পেপ\u{9be}র ক\u{9cd}লিপ"] , } , crate :: Annotation { lang : "br" , tts : Some ("strobelloù") , keywords : & ["dafar" , "strobelloù"] , } , crate :: Annotation { lang : "bs" , tts : Some ("spojene spajalice") , keywords : & ["spajalice" , "spojene spajalice" , "spojeno"] , } , crate :: Annotation { lang : "ca" , tts : Some ("clips enganxats") , keywords : & ["clips" , "enganxats"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᏗᎫᏓᎸᏅᎢ ᎪᏪᎵ ᏗᎦᏂᏴᏙᏗ") , keywords : & ["ᎪᏪᎵ ᏗᎦᏂᏴᏙᏗ" , "ᎫᏓᎸᏙᏗ" , "ᏗᎫᏓᎸᏅᎢ ᎪᏪᎵ ᏗᎦᏂᏴᏙᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("spojené kancelářské sponky") , keywords : & ["papír" , "spojené kancelářské sponky" , "spojení" , "sponky" , "svorka" , "článek" , "řetěz"] , } , crate :: Annotation { lang : "cy" , tts : Some ("clipiau papur wedi’u cysylltu") , keywords : & ["clip papur" , "clipiau papur wedi’u cysylltu" , "linc"] , } , crate :: Annotation { lang : "da" , tts : Some ("sammensatte papirclips") , keywords : & ["papirclip" , "sammensat" , "sammensatte papirclips"] , } , crate :: Annotation { lang : "de" , tts : Some ("verhakte Büroklammern") , keywords : & ["Büroklammer" , "Büroklammern" , "verhakt" , "verhakte Büroklammern"] , } , crate :: Annotation { lang : "el" , tts : Some ("ενωμένοι συνδετήρες") , keywords : & ["ενωμένοι συνδετήρες" , "ενωμένος" , "συνδετήρας"] , } , crate :: Annotation { lang : "en" , tts : Some ("linked paperclips") , keywords : & ["link" , "linked paperclips" , "paperclip"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("clips unidos") , keywords : & ["clips" , "unidos" , "unión"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["clips" , "unidos"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("ühendatud kirjaklambrid") , keywords : & ["kirjaklamber" , "klamber" , "ühendatud kirjaklambrid"] , } , crate :: Annotation { lang : "eu" , tts : Some ("elkarri lotutako klipak") , keywords : & ["elkarri lotutako klipak" , "klip" , "lotu"] , } , crate :: Annotation { lang : "fa" , tts : Some ("زنجیره\u{654} گیره") , keywords : & ["اتصال" , "حلقه" , "زنجیره\u{654} گیره" , "گیره\u{654} کاغذ"] , } , crate :: Annotation { lang : "fi" , tts : Some ("klemmarit yhdessä") , keywords : & ["klemmarit yhdessä" , "liitin" , "paperiliitin" , "yhdessä"] , } , crate :: Annotation { lang : "fil" , tts : Some ("magkakawing na paperclip") , keywords : & ["clips" , "magkakawing na paperclip" , "naka-link" , "paperclip"] , } , crate :: Annotation { lang : "fo" , tts : Some ("klips sum hanga saman") , keywords : & ["klips" , "klips sum hanga saman" , "pappírsklemmur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("trombones") , keywords : & ["fournitures" , "trombones"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("trombones accrochés") , keywords : & ["fournitures" , "trombones accrochés"] , } , crate :: Annotation { lang : "ga" , tts : Some ("fáiscíní páipéir nasctha") , keywords : & ["fáiscín páipéir" , "fáiscíní páipéir nasctha" , "nasc"] , } , crate :: Annotation { lang : "gd" , tts : Some ("cliopaichean-pàipeir ceangailte") , keywords : & ["ceangal" , "cliopaichean-pàipeir ceangailte" , "clip-phàipeir"] , } , crate :: Annotation { lang : "gl" , tts : Some ("clips enganchados") , keywords : & ["clips" , "clips enganchados" , "enganchar" , "unidos"] , } , crate :: Annotation { lang : "gu" , tts : Some ("લિ\u{a82}ક કર\u{ac7}લ પ\u{ac7}પરક\u{acd}લિપ\u{acd}સ") , keywords : & ["પ\u{ac7}પરક\u{acd}લિપ" , "લિ\u{a82}ક કર\u{ac7}લ પ\u{ac7}પરક\u{acd}લિપ\u{acd}સ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("haɗaɗɗen kilif") , keywords : & ["haɗaɗɗen kilif" , "kilif" , "mahaɗi"] , } , crate :: Annotation { lang : "he" , tts : Some ("אטבי נייר מחוברים") , keywords : & ["אטבי נייר" , "אטבי נייר מחוברים" , "מהדקים" , "מחוברים"] , } , crate :: Annotation { lang : "hi" , tts : Some ("लि\u{902}क किए गए प\u{947}परक\u{94d}लिप") , keywords : & ["प\u{947}परक\u{94d}लिप" , "लि\u{902}क" , "लि\u{902}क किए गए प\u{947}परक\u{94d}लिप"] , } , crate :: Annotation { lang : "hr" , tts : Some ("spojene spajalice") , keywords : & ["spajalica" , "spojene spajalice" , "veza"] , } , crate :: Annotation { lang : "hu" , tts : Some ("összekapcsolt gemkapcsok") , keywords : & ["gemkapcsok" , "kapcsolódás" , "összekapcsolt gemkapcsok"] , } , crate :: Annotation { lang : "hy" , tts : Some ("միացված սկրեպներ") , keywords : & ["միացնել" , "միացված սկրեպներ" , "սկրեպ"] , } , crate :: Annotation { lang : "id" , tts : Some ("klip kertas tertaut") , keywords : & ["klip kertas" , "klip kertas tertaut" , "tautan"] , } , crate :: Annotation { lang : "ig" , tts : Some ("njikọ nwere kliipụ-akwụkwọ") , keywords : & ["kliipụ-akwụkwọ" , "njikọ" , "njikọ nwere kliipụ-akwụkwọ"] , } , crate :: Annotation { lang : "is" , tts : Some ("samankræktar bréfaklemmur") , keywords : & ["bréfaklemmur" , "samankræktar"] , } , crate :: Annotation { lang : "it" , tts : Some ("graffette attaccate") , keywords : & ["allegare" , "cancelleria" , "fermagli" , "graffette attaccate"] , } , crate :: Annotation { lang : "ja" , tts : Some ("つながったクリップ") , keywords : & ["つながったクリップ" , "ペーパークリップ" , "文具" , "文房具" , "紙クリップ"] , } , crate :: Annotation { lang : "jv" , tts : Some ("klip kertas karonce") , keywords : & ["klip kertas" , "klip kertas karonce" , "ngronce"] , } , crate :: Annotation { lang : "ka" , tts : Some ("მიბმული ქაღალდის სამაგრები") , keywords : & ["მიბმული ქაღალდის სამაგრები" , "მიმაგრება" , "სამაგრი" , "ქაღალდი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("байланысқан қағаз қысқыштары") , keywords : & ["байланысу" , "байланысқан қағаз қысқыштары" , "қағаз қыстырғыш"] , } , crate :: Annotation { lang : "kl" , tts : Some ("sammensatte papirclips") , keywords : & ["papirclip" , "sammensat" , "sammensatte papirclips"] , } , crate :: Annotation { lang : "km" , tts : Some ("ឃ\u{17d2}នាបក\u{17d2}រដាសភ\u{17d2}ជាប\u{17cb}គ\u{17d2}នា") , keywords : & ["ឃ\u{17d2}នាប" , "ឃ\u{17d2}នាបក\u{17d2}រដាសភ\u{17d2}ជាប\u{17cb}គ\u{17d2}នា"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಲ\u{cbf}ಂಕ\u{ccd} ಮಾಡ\u{cbf}ದ ಪೇಪರ\u{ccd}\u{200c}ಕ\u{ccd}ಲ\u{cbf}ಪ\u{ccd}\u{200c}ಗಳು") , keywords : & ["ಪೇಪರ\u{ccd}\u{200c}ಕ\u{ccd}ಲ\u{cbf}ಪ\u{ccd}" , "ಲ\u{cbf}ಂಕ\u{ccd}" , "ಲ\u{cbf}ಂಕ\u{ccd} ಮಾಡ\u{cbf}ದ ಪೇಪರ\u{ccd}\u{200c}ಕ\u{ccd}ಲ\u{cbf}ಪ\u{ccd}\u{200c}ಗಳು"] , } , crate :: Annotation { lang : "ko" , tts : Some ("이어져 있는 클립") , keywords : & ["이어져 있는 클립" , "클립"] , } , crate :: Annotation { lang : "kok" , tts : Some ("लि\u{902}क\u{94d}ड प\u{947}परक\u{94d}लिप") , keywords : & ["प\u{947}परक\u{94d}लिप" , "लि\u{902}क" , "लि\u{902}क\u{94d}ड प\u{947}परक\u{94d}लिप" , "लि\u{902}क\u{94d}ड प\u{947}परक\u{94d}लिप\u{94d}स"] , } , crate :: Annotation { lang : "ky" , tts : Some ("бириккен тиркегичтер") , keywords : & ["бириккен" , "бириккен тиркегичтер" , "тиркегич"] , } , crate :: Annotation { lang : "lb" , tts : Some ("verbonne Bürosklameren") , keywords : & ["Bürosklamer" , "verbonne Bürosklameren" , "verbonnen"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ເຫ\u{ebc}\u{eb1}ກໜ\u{eb5}ບເຈ\u{ec9}ຍຄ\u{eb9}\u{ec8}") , keywords : & ["ຄລ\u{eb4}ບ" , "ເຫ\u{ebc}\u{eb1}ກໜ\u{eb5}ບເຈ\u{ec9}ຍ" , "ເຫ\u{ebc}\u{eb1}ກໜ\u{eb5}ບເຈ\u{ec9}ຍຄ\u{eb9}\u{ec8}"] , } , crate :: Annotation { lang : "lt" , tts : Some ("sukabintos sąvaržėlės") , keywords : & ["sujungimas" , "sukabintos sąvaržėlės" , "sąvaržėlė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("savienotas saspraudes") , keywords : & ["saspraude" , "savienotas saspraudes"] , } , crate :: Annotation { lang : "mi" , tts : Some ("ngā rawhipepa honohono") , keywords : & ["hono" , "ngā rawhipepa honohono" , "rawhipepa"] , } , crate :: Annotation { lang : "mk" , tts : Some ("поврзани спојувалки") , keywords : & ["алка" , "поврзани спојувалки" , "спојница"] , } , crate :: Annotation { lang : "ml" , tts : Some ("കോർത\u{d4d}തിരിക\u{d4d}ക\u{d41}ന\u{d4d}ന പേപ\u{d4d}പർ ക\u{d4d}ലിപ\u{d4d}പ\u{d41}കൾ") , keywords : & ["കോർത\u{d4d}തിരിക\u{d4d}ക\u{d41}ന\u{d4d}ന പേപ\u{d4d}പർ ക\u{d4d}ലിപ\u{d4d}പ\u{d41}കൾ" , "പേപ\u{d4d}പർ ക\u{d4d}ലിപ\u{d4d}പ\u{d4d}" , "ലിങ\u{d4d}ക\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("холбоотой цаасны хавчаарууд") , keywords : & ["холбоо" , "холбоотой цаасны хавчаарууд" , "цаасны хавчаар"] , } , crate :: Annotation { lang : "mr" , tts : Some ("लि\u{902}क क\u{947}ल\u{947}ल\u{94d}या प\u{947}परक\u{94d}लिप\u{94d}स") , keywords : & ["द\u{941}वा" , "प\u{947}परक\u{94d}लिप" , "लि\u{902}क क\u{947}ल\u{947}ल\u{94d}या प\u{947}परक\u{94d}लिप\u{94d}स"] , } , crate :: Annotation { lang : "ms" , tts : Some ("klip kertas berpaut") , keywords : & ["bersambung" , "klip kertas" , "klip kertas berpaut"] , } , crate :: Annotation { lang : "mt" , tts : Some ("paperclips illinkjati") , keywords : & ["link" , "paperclip" , "paperclips illinkjati"] , } , crate :: Annotation { lang : "my" , tts : Some ("ချ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} စက\u{1039}က\u{1030}ည\u{103e}ပ\u{103a}များ") , keywords : & ["ချ\u{102d}တ\u{103a}ဆက\u{103a}သည\u{103a}" , "ချ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} စက\u{1039}က\u{1030}ည\u{103e}ပ\u{103a}များ" , "စက\u{1039}က\u{1030}ည\u{103e}ပ\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("sammenlenkede binders") , keywords : & ["binders" , "kjede" , "sammenlenkede binders"] , } , crate :: Annotation { lang : "ne" , tts : Some ("लिङ\u{94d}क गरिएको प\u{947}परक\u{94d}लिपहर\u{942}") , keywords : & ["प\u{947}परक\u{94d}लिपहर\u{942}" , "लिङ\u{94d}क" , "लिङ\u{94d}क गरिएको प\u{947}परक\u{94d}लिपहर\u{942}"] , } , crate :: Annotation { lang : "nl" , tts : Some ("twee paperclips aan elkaar") , keywords : & ["aan elkaar" , "paperclip" , "twee paperclips aan elkaar"] , } , crate :: Annotation { lang : "nn" , tts : Some ("samanlenka binders") , keywords : & ["binders" , "kjede" , "samanlenka binders"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଲ\u{b3f}ଙ\u{b4d}କ\u{b4d}\u{200c}ଯ\u{b41}କ\u{b4d}ତ") , keywords : & ["ପେପର କ\u{b4d}ଲ\u{b3f}ପ\u{b4d}" , "ପେପର କ\u{b4d}ଲ\u{b3f}ପ\u{b4d}\u{200c}ଗ\u{b41}ଡ\u{b3c}\u{b3f}କ" , "ଲ\u{b3f}ଙ\u{b4d}କ\u{b4d}\u{200c}" , "ଲ\u{b3f}ଙ\u{b4d}କ\u{b4d}\u{200c}ଯ\u{b41}କ\u{b4d}ତ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਲਿ\u{a70}ਕ ਕੀਤੀਆ\u{a02} ਪ\u{a47}ਪਰਕਲਿ\u{a71}ਪਾ\u{a02}") , keywords : & ["ਪ\u{a47}ਪਰਕਲਿ\u{a71}ਪਾ\u{a02}" , "ਲਿ\u{a70}ਕ" , "ਲਿ\u{a70}ਕ ਕੀਤੀਆ\u{a02} ਪ\u{a47}ਪਰਕਲਿ\u{a71}ਪਾ\u{a02}"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("ربط آ\u{612}لے پیپر کلپ") , keywords : & ["ربط آ\u{612}لے پیپر کلپ" , "ربط کرو" , "کاغذ دا کلپ"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Pépáklip-dẹm wé línk togẹ\u{301}da") , keywords : & ["Pépáklip-dẹm wé línk togẹ\u{301}da" , "línk" , "pépáklip"] , } , crate :: Annotation { lang : "pl" , tts : Some ("złączone spinacze") , keywords : & ["druciane" , "spinacze" , "spinać" , "złączone spinacze"] , } , crate :: Annotation { lang : "ps" , tts : Some ("تړل شوي کاغذ نيووني") , keywords : & ["تړل شوي کاغذ نيووني" , "تړل شوي کاغز نيووني" , "ربط" , "کاغذ نيوونى"] , } , crate :: Annotation { lang : "pt" , tts : Some ("clipes de papel conectados") , keywords : & ["clipe" , "clipes" , "clipes de papel" , "clipes de papel conectados"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("clipes ligados") , keywords : & ["clipes" , "clipes ligados" , "ligação"] , } , crate :: Annotation { lang : "ro" , tts : Some ("agrafe de hârtie înlănțuite") , keywords : & ["agrafe" , "agrafe de hârtie înlănțuite" , "unire" , "înlănțuire"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-802") , keywords : & ["E10-802"] , } , crate :: Annotation { lang : "ru" , tts : Some ("скрепки") , keywords : & ["бумаги" , "канцелярия" , "несколько скрепок" , "скрепки"] , } , crate :: Annotation { lang : "rw" , tts : Some ("udufatampapuro dufatanye") , keywords : & ["agafatampapuro" , "isano" , "udufatampapuro dufatanye"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڪاغذ جهلڻ وارو ڳنڍيل ڪلپ") , keywords : & ["پيپر ڪلپ" , "ڪاغذ جهلڻ وارو ڳنڍيل ڪلپ" , "ڳنڍيل"] , } , crate :: Annotation { lang : "si" , tts : Some ("සම\u{dca}බන\u{dca}ධ\u{dd2}ත කඩද\u{dcf}ස\u{dd2} ඇම\u{dd4}ණ\u{dd4}ම\u{dca} ක\u{dca}ල\u{dd2}ප") , keywords : & ["ත\u{dd3}න\u{dca}ත" , "පේපර\u{dca} ක\u{dca}ල\u{dd2}ප\u{dca}" , "සම\u{dca}බන\u{dca}ධ\u{dd2}ත කඩද\u{dcf}ස\u{dd2} ඇම\u{dd4}ණ\u{dd4}ම\u{dca} ක\u{dca}ල\u{dd2}ප"] , } , crate :: Annotation { lang : "sk" , tts : Some ("spojené sponky na papier") , keywords : & ["spojené sponky na papier" , "sponky"] , } , crate :: Annotation { lang : "sl" , tts : Some ("povezani sponki") , keywords : & ["povezani sponki" , "povezano" , "sponka"] , } , crate :: Annotation { lang : "so" , tts : Some ("biinanka waraaqaha oo isku xidhan") , keywords : & ["biinanka waraaqaha" , "biinanka waraaqaha oo isku xidhan" , "isku xidhan"] , } , crate :: Annotation { lang : "sq" , tts : Some ("kapëse teli të lidhura") , keywords : & ["kapëse teli" , "kapëse teli të lidhura" , "lidhje"] , } , crate :: Annotation { lang : "sr" , tts : Some ("повезане спајалице") , keywords : & ["вeзa" , "повезане спајалице" , "спajaлицa"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("povezane spajalice") , keywords : & ["povezane spajalice" , "spajalica" , "veza"] , } , crate :: Annotation { lang : "sv" , tts : Some ("länkade gem") , keywords : & ["gem" , "ihopsatta gem" , "länkade gem"] , } , crate :: Annotation { lang : "sw" , tts : Some ("klipu za karatasi zilizounganishwa") , keywords : & ["klipu ya karatasi" , "klipu za karatasi zilizounganishwa" , "unganisha"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("இணைக\u{bcd}கப\u{bcd}பட\u{bcd}ட பேப\u{bcd}பர\u{bcd} கிளிப\u{bcd}கள\u{bcd}") , keywords : & ["இணைக\u{bcd}கப\u{bcd}பட\u{bcd}ட பேப\u{bcd}பர\u{bcd} கிளிப\u{bcd}" , "இணைக\u{bcd}கப\u{bcd}பட\u{bcd}ட பேப\u{bcd}பர\u{bcd} கிளிப\u{bcd}கள\u{bcd}" , "பேப\u{bcd}பர\u{bcd} கிளிப\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("ముడ\u{c3f} పడ\u{c3f} ఉన\u{c4d}న ప\u{c47}పర\u{c4d} క\u{c4d}ల\u{c3f}ప\u{c4d}\u{200c}లు") , keywords : & ["క\u{c4d}ల\u{c3f}ప\u{c4d}\u{200c}లు" , "ప\u{c47}పర\u{c4d}" , "ముడ\u{c3f} పడటం" , "ముడ\u{c3f} పడ\u{c3f} ఉన\u{c4d}న ప\u{c47}పర\u{c4d} క\u{c4d}ల\u{c3f}ప\u{c4d}\u{200c}లు"] , } , crate :: Annotation { lang : "tg" , tts : Some ("бандаки пайвандшуда") , keywords : & ["бандак" , "бандаки пайвандшуда" , "пайванд"] , } , crate :: Annotation { lang : "th" , tts : Some ("คล\u{e34}ปหน\u{e35}บกระดาษค\u{e39}\u{e48}") , keywords : & ["กระดาษ" , "คล\u{e34}ป" , "คล\u{e34}ปหน\u{e35}บกระดาษค\u{e39}\u{e48}" , "หน\u{e35}บ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("baglanan skrepkalar") , keywords : & ["baglamak" , "baglanan skrepkalar" , "skrepka"] , } , crate :: Annotation { lang : "to" , tts : Some ("fakamaʻu pepa sēini") , keywords : & ["fakamaʻu pepa sēini"] , } , crate :: Annotation { lang : "tr" , tts : Some ("iç içe geçmiş ataşlar") , keywords : & ["ataş" , "bağlantı" , "iç içe geçmiş ataşlar"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئۇلىنىش") , keywords : & ["ئۇلانما" , "ئۇلىنىش" , "قەغەز قىسقۇچ"] , } , crate :: Annotation { lang : "uk" , tts : Some ("зчеплені скріпки") , keywords : & ["зчеплений" , "зчеплені скріпки" , "скріпка"] , } , crate :: Annotation { lang : "ur" , tts : Some ("جڑے ہوئے پیپر کلپس") , keywords : & ["اسٹیشنری" , "جڑے ہوئے" , "جڑے ہوئے پیپر کلپس" , "پیپر" , "کلپ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("ulangan qistirgichlar") , keywords : & ["bog‘langan" , "qog‘oz qistirgich" , "ulangan qistirgichlar"] , } , crate :: Annotation { lang : "vi" , tts : Some ("kẹp giấy được nối") , keywords : & ["kẹp giấy" , "kẹp giấy được nối" , "nối"] , } , crate :: Annotation { lang : "wo" , tts : Some ("trombonu këyit yuñ lëkkale") , keywords : & ["lëkkale" , "trombonu këyit yuñ lëkkale" , "trombonu këyitu"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ikliphu yephepha edityanisiweyo") , keywords : & ["ikhonkco" , "ikliphu yephepha" , "ikliphu yephepha edityanisiweyo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("àsopọ\u{300} ìfimúwèépọ\u{300}") , keywords : & ["àfimúwèépò\u{329}" , "àsopọ\u{300} ìfimúwèépọ\u{300}" , "ìsopọ\u{300}"] , } , crate :: Annotation { lang : "yue" , tts : Some ("連埋嘅萬字夾") , keywords : & ["萬字夾" , "連住" , "連埋嘅萬字夾"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("连埋嘅万字夹") , keywords : & ["万字夹" , "连住" , "连埋嘅万字夹"] , } , crate :: Annotation { lang : "zh" , tts : Some ("连起来的两个回形针") , keywords : & ["万字夹" , "回形针" , "回纹针" , "曲别针" , "纸夹" , "连起来的两个回形针"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("相連的回紋針") , keywords : & ["回紋針" , "相連的回紋針"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("連住嘅萬字夾") , keywords : & ["連住嘅萬字夾" , "連住嘅萬字夾｜萬字夾"] , } , crate :: Annotation { lang : "zu" , tts : Some ("okokubamba amaphepha okuhlangene") , keywords : & ["okokubamba amaphepha okuhlangene" , "okokuhlanganisa amaphepha okuhlangene"] , }] , } ;
+pub const LINKED_PAPERCLIPS: crate::Emoji = crate::Emoji {
+    glyph: "🖇\u{fe0f}",
+    codepoint: "1F587 FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.7f32,
+    name: "linked paperclips",
+    group: "Objects",
+    subgroup: "office",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🖇",
+        codepoint: "1F587",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "linked paperclips",
+        group: "Objects",
+        subgroup: "office",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("ingehaakte skuifspeld"),
+            keywords: &[
+                "haak",
+                "ingehaakte skuifspeld",
+                "koppel",
+                "skakel",
+                "skuifspeld",
+            ],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የተያያዙ የወረቀት ክሊፖች"),
+            keywords: &["አያይዝ", "የተያያዙ የወረቀት ክሊፖች", "የወረቀት ክሊፕ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مشبك ورق مقترن"),
+            keywords: &["أوراق", "مشبك", "مشبك ورق مقترن"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("জোৰ\u{9be} লগ\u{9be} পেপ\u{9be}ৰক\u{9cd}লিপ"),
+            keywords: &[
+                "জোৰ\u{9be}",
+                "জোৰ\u{9be} লগ\u{9be} পেপ\u{9be}ৰক\u{9cd}লিপ",
+                "পেপ\u{9be}ৰক\u{9cd}লিপ",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("birləşmiş sancaqlar"),
+            keywords: &["birləşmiş sancaqlar", "sancaq", "əlaqə"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("злучаныя сашчэпкі"),
+            keywords: &["злучаныя сашчэпкі", "папера", "сашчэпка"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Съединени кламери"),
+            keywords: &["Съединени кламери", "кламер", "съединен"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("সংয\u{9c1}ক\u{9cd}ত পেপ\u{9be}র ক\u{9cd}লিপ"),
+            keywords: &[
+                "পেপ\u{9be}র ক\u{9cd}লিপ",
+                "লিংক",
+                "সংয\u{9c1}ক\u{9cd}ত পেপ\u{9be}র ক\u{9cd}লিপ",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("strobelloù"),
+            keywords: &["dafar", "strobelloù"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("spojene spajalice"),
+            keywords: &["spajalice", "spojene spajalice", "spojeno"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("clips enganxats"),
+            keywords: &["clips", "enganxats"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏗᎫᏓᎸᏅᎢ ᎪᏪᎵ ᏗᎦᏂᏴᏙᏗ"),
+            keywords: &["ᎪᏪᎵ ᏗᎦᏂᏴᏙᏗ", "ᎫᏓᎸᏙᏗ", "ᏗᎫᏓᎸᏅᎢ ᎪᏪᎵ ᏗᎦᏂᏴᏙᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("spojené kancelářské sponky"),
+            keywords: &[
+                "papír",
+                "spojené kancelářské sponky",
+                "spojení",
+                "sponky",
+                "svorka",
+                "článek",
+                "řetěz",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("clipiau papur wedi’u cysylltu"),
+            keywords: &["clip papur", "clipiau papur wedi’u cysylltu", "linc"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("sammensatte papirclips"),
+            keywords: &["papirclip", "sammensat", "sammensatte papirclips"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("verhakte Büroklammern"),
+            keywords: &[
+                "Büroklammer",
+                "Büroklammern",
+                "verhakt",
+                "verhakte Büroklammern",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ενωμένοι συνδετήρες"),
+            keywords: &["ενωμένοι συνδετήρες", "ενωμένος", "συνδετήρας"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("linked paperclips"),
+            keywords: &["link", "linked paperclips", "paperclip"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("clips unidos"),
+            keywords: &["clips", "unidos", "unión"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["clips", "unidos"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("ühendatud kirjaklambrid"),
+            keywords: &["kirjaklamber", "klamber", "ühendatud kirjaklambrid"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("elkarri lotutako klipak"),
+            keywords: &["elkarri lotutako klipak", "klip", "lotu"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("زنجیره\u{654} گیره"),
+            keywords: &["اتصال", "حلقه", "زنجیره\u{654} گیره", "گیره\u{654} کاغذ"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("klemmarit yhdessä"),
+            keywords: &["klemmarit yhdessä", "liitin", "paperiliitin", "yhdessä"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("magkakawing na paperclip"),
+            keywords: &[
+                "clips",
+                "magkakawing na paperclip",
+                "naka-link",
+                "paperclip",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("klips sum hanga saman"),
+            keywords: &["klips", "klips sum hanga saman", "pappírsklemmur"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("trombones"),
+            keywords: &["fournitures", "trombones"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("trombones accrochés"),
+            keywords: &["fournitures", "trombones accrochés"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("fáiscíní páipéir nasctha"),
+            keywords: &["fáiscín páipéir", "fáiscíní páipéir nasctha", "nasc"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("cliopaichean-pàipeir ceangailte"),
+            keywords: &[
+                "ceangal",
+                "cliopaichean-pàipeir ceangailte",
+                "clip-phàipeir",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("clips enganchados"),
+            keywords: &["clips", "clips enganchados", "enganchar", "unidos"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("લિ\u{a82}ક કર\u{ac7}લ પ\u{ac7}પરક\u{acd}લિપ\u{acd}સ"),
+            keywords: &[
+                "પ\u{ac7}પરક\u{acd}લિપ",
+                "લિ\u{a82}ક કર\u{ac7}લ પ\u{ac7}પરક\u{acd}લિપ\u{acd}સ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("haɗaɗɗen kilif"),
+            keywords: &["haɗaɗɗen kilif", "kilif", "mahaɗi"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("אטבי נייר מחוברים"),
+            keywords: &["אטבי נייר", "אטבי נייר מחוברים", "מהדקים", "מחוברים"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("लि\u{902}क किए गए प\u{947}परक\u{94d}लिप"),
+            keywords: &[
+                "प\u{947}परक\u{94d}लिप",
+                "लि\u{902}क",
+                "लि\u{902}क किए गए प\u{947}परक\u{94d}लिप",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("spojene spajalice"),
+            keywords: &["spajalica", "spojene spajalice", "veza"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("összekapcsolt gemkapcsok"),
+            keywords: &["gemkapcsok", "kapcsolódás", "összekapcsolt gemkapcsok"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("միացված սկրեպներ"),
+            keywords: &["միացնել", "միացված սկրեպներ", "սկրեպ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("klip kertas tertaut"),
+            keywords: &["klip kertas", "klip kertas tertaut", "tautan"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("njikọ nwere kliipụ-akwụkwọ"),
+            keywords: &["kliipụ-akwụkwọ", "njikọ", "njikọ nwere kliipụ-akwụkwọ"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("samankræktar bréfaklemmur"),
+            keywords: &["bréfaklemmur", "samankræktar"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("graffette attaccate"),
+            keywords: &["allegare", "cancelleria", "fermagli", "graffette attaccate"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("つながったクリップ"),
+            keywords: &[
+                "つながったクリップ",
+                "ペーパークリップ",
+                "文具",
+                "文房具",
+                "紙クリップ",
+            ],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("klip kertas karonce"),
+            keywords: &["klip kertas", "klip kertas karonce", "ngronce"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("მიბმული ქაღალდის სამაგრები"),
+            keywords: &[
+                "მიბმული ქაღალდის სამაგრები",
+                "მიმაგრება",
+                "სამაგრი",
+                "ქაღალდი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("байланысқан қағаз қысқыштары"),
+            keywords: &[
+                "байланысу",
+                "байланысқан қағаз қысқыштары",
+                "қағаз қыстырғыш",
+            ],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("sammensatte papirclips"),
+            keywords: &["papirclip", "sammensat", "sammensatte papirclips"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ឃ\u{17d2}នាបក\u{17d2}រដាសភ\u{17d2}ជាប\u{17cb}គ\u{17d2}នា"),
+            keywords: &[
+                "ឃ\u{17d2}នាប",
+                "ឃ\u{17d2}នាបក\u{17d2}រដាសភ\u{17d2}ជាប\u{17cb}គ\u{17d2}នា",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some(
+                "ಲ\u{cbf}ಂಕ\u{ccd} ಮಾಡ\u{cbf}ದ ಪೇಪರ\u{ccd}\u{200c}ಕ\u{ccd}ಲ\u{cbf}ಪ\u{ccd}\u{200c}ಗಳು",
+            ),
+            keywords: &[
+                "ಪೇಪರ\u{ccd}\u{200c}ಕ\u{ccd}ಲ\u{cbf}ಪ\u{ccd}",
+                "ಲ\u{cbf}ಂಕ\u{ccd}",
+                "ಲ\u{cbf}ಂಕ\u{ccd} ಮಾಡ\u{cbf}ದ ಪೇಪರ\u{ccd}\u{200c}ಕ\u{ccd}ಲ\u{cbf}ಪ\u{ccd}\u{200c}ಗಳು",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("이어져 있는 클립"),
+            keywords: &["이어져 있는 클립", "클립"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("लि\u{902}क\u{94d}ड प\u{947}परक\u{94d}लिप"),
+            keywords: &[
+                "प\u{947}परक\u{94d}लिप",
+                "लि\u{902}क",
+                "लि\u{902}क\u{94d}ड प\u{947}परक\u{94d}लिप",
+                "लि\u{902}क\u{94d}ड प\u{947}परक\u{94d}लिप\u{94d}स",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("бириккен тиркегичтер"),
+            keywords: &["бириккен", "бириккен тиркегичтер", "тиркегич"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("verbonne Bürosklameren"),
+            keywords: &["Bürosklamer", "verbonne Bürosklameren", "verbonnen"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ເຫ\u{ebc}\u{eb1}ກໜ\u{eb5}ບເຈ\u{ec9}ຍຄ\u{eb9}\u{ec8}"),
+            keywords: &[
+                "ຄລ\u{eb4}ບ",
+                "ເຫ\u{ebc}\u{eb1}ກໜ\u{eb5}ບເຈ\u{ec9}ຍ",
+                "ເຫ\u{ebc}\u{eb1}ກໜ\u{eb5}ບເຈ\u{ec9}ຍຄ\u{eb9}\u{ec8}",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("sukabintos sąvaržėlės"),
+            keywords: &["sujungimas", "sukabintos sąvaržėlės", "sąvaržėlė"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("savienotas saspraudes"),
+            keywords: &["saspraude", "savienotas saspraudes"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("ngā rawhipepa honohono"),
+            keywords: &["hono", "ngā rawhipepa honohono", "rawhipepa"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("поврзани спојувалки"),
+            keywords: &["алка", "поврзани спојувалки", "спојница"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some(
+                "കോർത\u{d4d}തിരിക\u{d4d}ക\u{d41}ന\u{d4d}ന പേപ\u{d4d}പർ ക\u{d4d}ലിപ\u{d4d}പ\u{d41}കൾ",
+            ),
+            keywords: &[
+                "കോർത\u{d4d}തിരിക\u{d4d}ക\u{d41}ന\u{d4d}ന പേപ\u{d4d}പർ ക\u{d4d}ലിപ\u{d4d}പ\u{d41}കൾ",
+                "പേപ\u{d4d}പർ ക\u{d4d}ലിപ\u{d4d}പ\u{d4d}",
+                "ലിങ\u{d4d}ക\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("холбоотой цаасны хавчаарууд"),
+            keywords: &["холбоо", "холбоотой цаасны хавчаарууд", "цаасны хавчаар"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("लि\u{902}क क\u{947}ल\u{947}ल\u{94d}या प\u{947}परक\u{94d}लिप\u{94d}स"),
+            keywords: &[
+                "द\u{941}वा",
+                "प\u{947}परक\u{94d}लिप",
+                "लि\u{902}क क\u{947}ल\u{947}ल\u{94d}या प\u{947}परक\u{94d}लिप\u{94d}स",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("klip kertas berpaut"),
+            keywords: &["bersambung", "klip kertas", "klip kertas berpaut"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("paperclips illinkjati"),
+            keywords: &["link", "paperclip", "paperclips illinkjati"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "ချ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} စက\u{1039}က\u{1030}ည\u{103e}ပ\u{103a}များ",
+            ),
+            keywords: &[
+                "ချ\u{102d}တ\u{103a}ဆက\u{103a}သည\u{103a}",
+                "ချ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} စက\u{1039}က\u{1030}ည\u{103e}ပ\u{103a}များ",
+                "စက\u{1039}က\u{1030}ည\u{103e}ပ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("sammenlenkede binders"),
+            keywords: &["binders", "kjede", "sammenlenkede binders"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("लिङ\u{94d}क गरिएको प\u{947}परक\u{94d}लिपहर\u{942}"),
+            keywords: &[
+                "प\u{947}परक\u{94d}लिपहर\u{942}",
+                "लिङ\u{94d}क",
+                "लिङ\u{94d}क गरिएको प\u{947}परक\u{94d}लिपहर\u{942}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("twee paperclips aan elkaar"),
+            keywords: &["aan elkaar", "paperclip", "twee paperclips aan elkaar"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("samanlenka binders"),
+            keywords: &["binders", "kjede", "samanlenka binders"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଲ\u{b3f}ଙ\u{b4d}କ\u{b4d}\u{200c}ଯ\u{b41}କ\u{b4d}ତ"),
+            keywords: &[
+                "ପେପର କ\u{b4d}ଲ\u{b3f}ପ\u{b4d}",
+                "ପେପର କ\u{b4d}ଲ\u{b3f}ପ\u{b4d}\u{200c}ଗ\u{b41}ଡ\u{b3c}\u{b3f}କ",
+                "ଲ\u{b3f}ଙ\u{b4d}କ\u{b4d}\u{200c}",
+                "ଲ\u{b3f}ଙ\u{b4d}କ\u{b4d}\u{200c}ଯ\u{b41}କ\u{b4d}ତ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਲਿ\u{a70}ਕ ਕੀਤੀਆ\u{a02} ਪ\u{a47}ਪਰਕਲਿ\u{a71}ਪਾ\u{a02}"),
+            keywords: &[
+                "ਪ\u{a47}ਪਰਕਲਿ\u{a71}ਪਾ\u{a02}",
+                "ਲਿ\u{a70}ਕ",
+                "ਲਿ\u{a70}ਕ ਕੀਤੀਆ\u{a02} ਪ\u{a47}ਪਰਕਲਿ\u{a71}ਪਾ\u{a02}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ربط آ\u{612}لے پیپر کلپ"),
+            keywords: &["ربط آ\u{612}لے پیپر کلپ", "ربط کرو", "کاغذ دا کلپ"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Pépáklip-dẹm wé línk togẹ\u{301}da"),
+            keywords: &["Pépáklip-dẹm wé línk togẹ\u{301}da", "línk", "pépáklip"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("złączone spinacze"),
+            keywords: &["druciane", "spinacze", "spinać", "złączone spinacze"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("تړل شوي کاغذ نيووني"),
+            keywords: &[
+                "تړل شوي کاغذ نيووني",
+                "تړل شوي کاغز نيووني",
+                "ربط",
+                "کاغذ نيوونى",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("clipes de papel conectados"),
+            keywords: &[
+                "clipe",
+                "clipes",
+                "clipes de papel",
+                "clipes de papel conectados",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("clipes ligados"),
+            keywords: &["clipes", "clipes ligados", "ligação"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("agrafe de hârtie înlănțuite"),
+            keywords: &[
+                "agrafe",
+                "agrafe de hârtie înlănțuite",
+                "unire",
+                "înlănțuire",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-802"),
+            keywords: &["E10-802"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("скрепки"),
+            keywords: &["бумаги", "канцелярия", "несколько скрепок", "скрепки"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("udufatampapuro dufatanye"),
+            keywords: &["agafatampapuro", "isano", "udufatampapuro dufatanye"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڪاغذ جهلڻ وارو ڳنڍيل ڪلپ"),
+            keywords: &["پيپر ڪلپ", "ڪاغذ جهلڻ وارو ڳنڍيل ڪلپ", "ڳنڍيل"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some(
+                "සම\u{dca}බන\u{dca}ධ\u{dd2}ත කඩද\u{dcf}ස\u{dd2} ඇම\u{dd4}ණ\u{dd4}ම\u{dca} ක\u{dca}ල\u{dd2}ප",
+            ),
+            keywords: &[
+                "ත\u{dd3}න\u{dca}ත",
+                "පේපර\u{dca} ක\u{dca}ල\u{dd2}ප\u{dca}",
+                "සම\u{dca}බන\u{dca}ධ\u{dd2}ත කඩද\u{dcf}ස\u{dd2} ඇම\u{dd4}ණ\u{dd4}ම\u{dca} ක\u{dca}ල\u{dd2}ප",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("spojené sponky na papier"),
+            keywords: &["spojené sponky na papier", "sponky"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("povezani sponki"),
+            keywords: &["povezani sponki", "povezano", "sponka"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("biinanka waraaqaha oo isku xidhan"),
+            keywords: &[
+                "biinanka waraaqaha",
+                "biinanka waraaqaha oo isku xidhan",
+                "isku xidhan",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("kapëse teli të lidhura"),
+            keywords: &["kapëse teli", "kapëse teli të lidhura", "lidhje"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("повезане спајалице"),
+            keywords: &["вeзa", "повезане спајалице", "спajaлицa"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("povezane spajalice"),
+            keywords: &["povezane spajalice", "spajalica", "veza"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("länkade gem"),
+            keywords: &["gem", "ihopsatta gem", "länkade gem"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("klipu za karatasi zilizounganishwa"),
+            keywords: &[
+                "klipu ya karatasi",
+                "klipu za karatasi zilizounganishwa",
+                "unganisha",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("இணைக\u{bcd}கப\u{bcd}பட\u{bcd}ட பேப\u{bcd}பர\u{bcd} கிளிப\u{bcd}கள\u{bcd}"),
+            keywords: &[
+                "இணைக\u{bcd}கப\u{bcd}பட\u{bcd}ட பேப\u{bcd}பர\u{bcd} கிளிப\u{bcd}",
+                "இணைக\u{bcd}கப\u{bcd}பட\u{bcd}ட பேப\u{bcd}பர\u{bcd} கிளிப\u{bcd}கள\u{bcd}",
+                "பேப\u{bcd}பர\u{bcd} கிளிப\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some(
+                "ముడ\u{c3f} పడ\u{c3f} ఉన\u{c4d}న ప\u{c47}పర\u{c4d} క\u{c4d}ల\u{c3f}ప\u{c4d}\u{200c}లు",
+            ),
+            keywords: &[
+                "క\u{c4d}ల\u{c3f}ప\u{c4d}\u{200c}లు",
+                "ప\u{c47}పర\u{c4d}",
+                "ముడ\u{c3f} పడటం",
+                "ముడ\u{c3f} పడ\u{c3f} ఉన\u{c4d}న ప\u{c47}పర\u{c4d} క\u{c4d}ల\u{c3f}ప\u{c4d}\u{200c}లు",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("бандаки пайвандшуда"),
+            keywords: &["бандак", "бандаки пайвандшуда", "пайванд"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("คล\u{e34}ปหน\u{e35}บกระดาษค\u{e39}\u{e48}"),
+            keywords: &[
+                "กระดาษ",
+                "คล\u{e34}ป",
+                "คล\u{e34}ปหน\u{e35}บกระดาษค\u{e39}\u{e48}",
+                "หน\u{e35}บ",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("baglanan skrepkalar"),
+            keywords: &["baglamak", "baglanan skrepkalar", "skrepka"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("fakamaʻu pepa sēini"),
+            keywords: &["fakamaʻu pepa sēini"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("iç içe geçmiş ataşlar"),
+            keywords: &["ataş", "bağlantı", "iç içe geçmiş ataşlar"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئۇلىنىش"),
+            keywords: &["ئۇلانما", "ئۇلىنىش", "قەغەز قىسقۇچ"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("зчеплені скріпки"),
+            keywords: &["зчеплений", "зчеплені скріпки", "скріпка"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("جڑے ہوئے پیپر کلپس"),
+            keywords: &["اسٹیشنری", "جڑے ہوئے", "جڑے ہوئے پیپر کلپس", "پیپر", "کلپ"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("ulangan qistirgichlar"),
+            keywords: &["bog‘langan", "qog‘oz qistirgich", "ulangan qistirgichlar"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("kẹp giấy được nối"),
+            keywords: &["kẹp giấy", "kẹp giấy được nối", "nối"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("trombonu këyit yuñ lëkkale"),
+            keywords: &["lëkkale", "trombonu këyit yuñ lëkkale", "trombonu këyitu"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ikliphu yephepha edityanisiweyo"),
+            keywords: &[
+                "ikhonkco",
+                "ikliphu yephepha",
+                "ikliphu yephepha edityanisiweyo",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("àsopọ\u{300} ìfimúwèépọ\u{300}"),
+            keywords: &[
+                "àfimúwèépò\u{329}",
+                "àsopọ\u{300} ìfimúwèépọ\u{300}",
+                "ìsopọ\u{300}",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("連埋嘅萬字夾"),
+            keywords: &["萬字夾", "連住", "連埋嘅萬字夾"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("连埋嘅万字夹"),
+            keywords: &["万字夹", "连住", "连埋嘅万字夹"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("连起来的两个回形针"),
+            keywords: &[
+                "万字夹",
+                "回形针",
+                "回纹针",
+                "曲别针",
+                "纸夹",
+                "连起来的两个回形针",
+            ],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("相連的回紋針"),
+            keywords: &["回紋針", "相連的回紋針"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("連住嘅萬字夾"),
+            keywords: &["連住嘅萬字夾", "連住嘅萬字夾｜萬字夾"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("okokubamba amaphepha okuhlangene"),
+            keywords: &[
+                "okokubamba amaphepha okuhlangene",
+                "okokuhlanganisa amaphepha okuhlangene",
+            ],
+        },
+    ],
+};
 #[doc = "📏"]
 pub const STRAIGHT_RULER: crate::Emoji = crate::Emoji {
     glyph: "📏",
@@ -9389,4 +16005,660 @@ pub const FILE_CABINET: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🗑\u{fe0f}"]
-pub const WASTEBASKET : crate :: Emoji = crate :: Emoji { glyph : "🗑\u{fe0f}" , codepoint : "1F5D1 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "wastebasket" , group : "Objects" , subgroup : "office" , is_variant : false , variants : & [crate :: Emoji { glyph : "🗑" , codepoint : "1F5D1" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "wastebasket" , group : "Objects" , subgroup : "office" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("snippermandjie") , keywords : & ["blik" , "drom" , "mandjie" , "snippermandjie" , "vullis"] , } , crate :: Annotation { lang : "am" , tts : Some ("የቆሻሻ መጣያ") , keywords : & ["የቆሻሻ መጣያ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("سلة نفايات") , keywords : & ["سلة" , "نفايات"] , } , crate :: Annotation { lang : "as" , tts : Some ("ৱেষ\u{9cd}টব\u{9be}স\u{9cd}কেট") , keywords : & ["ৱেষ\u{9cd}টব\u{9be}স\u{9cd}কেট"] , } , crate :: Annotation { lang : "az" , tts : Some ("zibilqabı") , keywords : & ["zibilqabı"] , } , crate :: Annotation { lang : "be" , tts : Some ("кошык для смецця") , keywords : & ["кошык" , "кошык для смецця" , "сметніца" , "смецце"] , } , crate :: Annotation { lang : "bg" , tts : Some ("кошче") , keywords : & ["кошче" , "кошче за боклук"] , } , crate :: Annotation { lang : "bn" , tts : Some ("নোংর\u{9be} ফেল\u{9be}র ঝ\u{9c1}ড\u{9bc}ি") , keywords : & ["নোংর\u{9be} ফেল\u{9be}র ঝ\u{9c1}ড\u{9bc}ি" , "ব\u{9be}জে ক\u{9be}গজ ফেল\u{9be}র ঝ\u{9c1}\u{981}ড\u{9bc}ি"] , } , crate :: Annotation { lang : "br" , tts : Some ("kest ar paper") , keywords : & ["kest" , "kest ar paper" , "paper"] , } , crate :: Annotation { lang : "bs" , tts : Some ("korpa za otpatke") , keywords : & ["korpa za otpatke"] , } , crate :: Annotation { lang : "ca" , tts : Some ("paperera") , keywords : & ["cubell" , "paperera"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏲᏩᏗᏅᏗ ᏔᎷᏣ") , keywords : & ["ᎤᏲᏩᏗᏅᏗ ᏔᎷᏣ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("odpadkový koš") , keywords : & ["koš" , "odpad" , "odpadkový koš" , "smetí"] , } , crate :: Annotation { lang : "cy" , tts : Some ("bin sbwriel") , keywords : & ["bin sbwriel"] , } , crate :: Annotation { lang : "da" , tts : Some ("papirkurv") , keywords : & ["papirkurv" , "skraldespand"] , } , crate :: Annotation { lang : "de" , tts : Some ("Papierkorb") , keywords : & ["Papierkorb"] , } , crate :: Annotation { lang : "el" , tts : Some ("καλάθι αχρήστων") , keywords : & ["κάδος αχρήστων" , "καλάθι αχρήστων"] , } , crate :: Annotation { lang : "en" , tts : Some ("wastebasket") , keywords : & ["wastebasket"] , } , crate :: Annotation { lang : "en_001" , tts : Some ("wastepaper basket") , keywords : & ["paper bin" , "wastebasket" , "wastepaper basket"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("wastebasket") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("papelera") , keywords : & ["basura" , "cubo" , "papelera"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("cesto") , keywords : & ["basura" , "cesto" , "papeles"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("papelera") , keywords : & ["papelera"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("prügikorv") , keywords : & ["prügi" , "prügikorv"] , } , crate :: Annotation { lang : "eu" , tts : Some ("zakarrontzia") , keywords : & ["zakarrontzi" , "zakarrontzia"] , } , crate :: Annotation { lang : "fa" , tts : Some ("سطل کاغذ باطله") , keywords : & ["سطل زباله" , "سطل کاغذ باطله"] , } , crate :: Annotation { lang : "fi" , tts : Some ("roskakori") , keywords : & ["roskakori" , "roskis"] , } , crate :: Annotation { lang : "fil" , tts : Some ("basurahan") , keywords : & ["basura" , "basurahan"] , } , crate :: Annotation { lang : "fo" , tts : Some ("pappírskurv") , keywords : & ["pappírskurv" , "pappírsleypur" , "skrell"] , } , crate :: Annotation { lang : "fr" , tts : Some ("corbeille à papiers") , keywords : & ["corbeille" , "corbeille à papiers"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("corbeille") , keywords : & ["corbeille"] , } , crate :: Annotation { lang : "ga" , tts : Some ("bosca bruscair") , keywords : & ["bosca bruscair"] , } , crate :: Annotation { lang : "gd" , tts : Some ("bogsa-sgudail") , keywords : & ["bogsa-sgudail" , "sgudal"] , } , crate :: Annotation { lang : "gl" , tts : Some ("papeleira") , keywords : & ["papeleira"] , } , crate :: Annotation { lang : "gu" , tts : Some ("કચરાપ\u{ac7}ટી") , keywords : & ["કચરાપ\u{ac7}ટી"] , } , crate :: Annotation { lang : "ha" , tts : Some ("kwandon shara") , keywords : & ["kwandon shara"] , } , crate :: Annotation { lang : "he" , tts : Some ("סל ניירות") , keywords : & ["אשפה" , "סל" , "סל ניירות" , "פח"] , } , crate :: Annotation { lang : "hi" , tts : Some ("कचरा प\u{947}टी") , keywords : & ["कचरा प\u{947}टी" , "रद\u{94d}दी की टोकरी"] , } , crate :: Annotation { lang : "hr" , tts : Some ("koš za smeće") , keywords : & ["koš za smeće"] , } , crate :: Annotation { lang : "hu" , tts : Some ("papírkosár") , keywords : & ["papírkosár"] , } , crate :: Annotation { lang : "hy" , tts : Some ("աղբաման") , keywords : & ["աղբաման"] , } , crate :: Annotation { lang : "id" , tts : Some ("keranjang sampah") , keywords : & ["keranjang sampah"] , } , crate :: Annotation { lang : "ig" , tts : Some ("èkètedọtị") , keywords : & ["èkètedọtị"] , } , crate :: Annotation { lang : "is" , tts : Some ("ruslakarfa") , keywords : & ["rusl" , "ruslakarfa"] , } , crate :: Annotation { lang : "it" , tts : Some ("cestino") , keywords : & ["buttare" , "cartacce" , "cestino" , "rifiuti"] , } , crate :: Annotation { lang : "ja" , tts : Some ("ごみ箱") , keywords : & ["くずかご" , "ごみかご" , "ごみ箱" , "ゴミ箱"] , } , crate :: Annotation { lang : "jv" , tts : Some ("kranjang sampah") , keywords : & ["kranjang sampah"] , } , crate :: Annotation { lang : "ka" , tts : Some ("სანაგვე ურნა") , keywords : & ["კალათა" , "ნაგავი" , "სანაგვე ურნა"] , } , crate :: Annotation { lang : "kk" , tts : Some ("қоқыс себеті") , keywords : & ["қоқыс себеті"] , } , crate :: Annotation { lang : "kl" , tts : Some ("papirkurv") , keywords : & ["papirkurv" , "skraldespand"] , } , crate :: Annotation { lang : "km" , tts : Some ("កន\u{17d2}ត\u{17d2}រកដាក\u{17cb}ស\u{17c6}រាម") , keywords : & ["កន\u{17d2}ត\u{17d2}រកដាក\u{17cb}ស\u{17c6}រាម"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಕಳಪ\u{cc6} ಕಾಗದ ಬುಟ\u{ccd}ಟ\u{cbf}") , keywords : & ["ಕಳಪ\u{cc6} ಕಾಗದ ಬುಟ\u{ccd}ಟ\u{cbf}" , "ಬ\u{ccd}ಯಾಸ\u{ccd}ಕ\u{cc6}ಟ\u{ccd}" , "ವೇಸ\u{ccd}ಟ\u{ccd} ಬ\u{ccd}ಯಾಸ\u{ccd}ಕ\u{cc6}ಟ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("쓰레기통") , keywords : & ["쓰레기통" , "휴지통"] , } , crate :: Annotation { lang : "kok" , tts : Some ("कोयराबालदी") , keywords : & ["कोयराबालदी"] , } , crate :: Annotation { lang : "ky" , tts : Some ("таштанды кутусу") , keywords : & ["таштанды кутусу" , "таштанды чака"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Dreckskëscht") , keywords : & ["Dreckskëscht"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ກະຕ\u{ec8}າຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ") , keywords : & ["ກະຕ\u{ec8}າ" , "ກະຕ\u{ec8}າຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ" , "ຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("šiukšliadėžė") , keywords : & ["šiukšliadėžė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("atkritumu grozs") , keywords : & ["atkritumu grozs" , "papīrkurvis"] , } , crate :: Annotation { lang : "mi" , tts : Some ("pāhikete para") , keywords : & ["pāhikete para"] , } , crate :: Annotation { lang : "mk" , tts : Some ("корпа за отпадоци") , keywords : & ["корпа" , "корпа за отпадоци" , "отпадоци"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ചവറ\u{d4d}റ\u{d41}ക\u{d41}ട\u{d4d}ട") , keywords : & ["ചവറ\u{d4d}" , "ചവറ\u{d4d}റ\u{d41}ക\u{d41}ട\u{d4d}ട" , "വെയിസ\u{d4d}\u{200c}റ\u{d4d}റ\u{d4d} ബ\u{d3e}സ\u{d4d}\u{200c}ക\u{d4d}കറ\u{d4d}റ\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("хогийн сав") , keywords : & ["хогийн сав"] , } , crate :: Annotation { lang : "mr" , tts : Some ("कचराप\u{947}टी") , keywords : & ["कचराप\u{947}टी"] , } , crate :: Annotation { lang : "ms" , tts : Some ("tong sampah") , keywords : & ["tong sampah"] , } , crate :: Annotation { lang : "mt" , tts : Some ("landa tal-iskart") , keywords : & ["landa tal-iskart"] , } , crate :: Annotation { lang : "my" , tts : Some ("အမ\u{103e}\u{102d}\u{102f}က\u{103a}ခြင\u{103a}း") , keywords : & ["အမ\u{103e}\u{102d}\u{102f}က\u{103a}ခြင\u{103a}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("papirkurv") , keywords : & ["papirkurv" , "søppelkasse" , "søppelkurv"] , } , crate :: Annotation { lang : "ne" , tts : Some ("फोहोर फाल\u{94d}न\u{947} डालो") , keywords : & ["फोहोर फाल\u{94d}न\u{947} डालो"] , } , crate :: Annotation { lang : "nl" , tts : Some ("prullenmand") , keywords : & ["prullenmand"] , } , crate :: Annotation { lang : "nn" , tts : Some ("papirkorg") , keywords : & ["boskorg" , "papirkorg" , "søppelkasse" , "søppelkorg"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଆବର\u{b4d}ଜନ\u{b3e} ବୋଝ") , keywords : & ["ଆବର\u{b4d}ଜନ\u{b3e} ବୋଝ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਰ\u{a71}ਦ ਦੀ ਟ\u{a4b}ਕਰੀ") , keywords : & ["ਰ\u{a71}ਦ ਦੀ ਟ\u{a4b}ਕਰੀ" , "ਰ\u{a71}ਦੀ ਵਾਲੀ ਟ\u{a4b}ਕਰੀ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("کوڑی دی ٹوکری") , keywords : & ["کوڑی دی ٹوکری"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Wést Pépá Báskẹt") , keywords : & ["Wést Pépá Báskẹt"] , } , crate :: Annotation { lang : "pl" , tts : Some ("kosz na śmieci") , keywords : & ["kosz" , "kosz na śmieci" , "odpadki" , "śmieci"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د ضایع ټوکر") , keywords : & ["د ضایع ټوکر"] , } , crate :: Annotation { lang : "pt" , tts : Some ("lixeira") , keywords : & ["cesto de lixo" , "lixeira"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("cesto do lixo") , keywords : & ["caixote do lixo" , "cesto do lixo"] , } , crate :: Annotation { lang : "ro" , tts : Some ("coș de gunoi") , keywords : & ["coș" , "coș de gunoi"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-819") , keywords : & ["E10-819"] , } , crate :: Annotation { lang : "ru" , tts : Some ("корзина для мусора") , keywords : & ["бумаги" , "корзина" , "корзина для мусора" , "мусор" , "мусорка" , "мусорная"] , } , crate :: Annotation { lang : "rw" , tts : Some ("agatebo k’imyanda") , keywords : & ["agatebo k’imyanda"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڪچري جي ٽوڪري") , keywords : & ["ڪچري جي ٽوڪري"] , } , crate :: Annotation { lang : "si" , tts : Some ("අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය ක\u{dd6}ඩය") , keywords : & ["අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය ක\u{dd6}ඩය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("odpadkový kôš") , keywords : & ["kôš" , "odpadkový kôš"] , } , crate :: Annotation { lang : "sl" , tts : Some ("koš za smeti") , keywords : & ["koš za smeti"] , } , crate :: Annotation { lang : "so" , tts : Some ("caaga xashiishka") , keywords : & ["caaga xashiishka"] , } , crate :: Annotation { lang : "sq" , tts : Some ("kosh basketbolli") , keywords : & ["kosh basketbolli"] , } , crate :: Annotation { lang : "sr" , tts : Some ("корпа за ђубре") , keywords : & ["корпа за ђубре"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["корпа за ђубре"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("korpa za đubre") , keywords : & ["korpa za đubre"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["korpa za đubre"] , } , crate :: Annotation { lang : "sv" , tts : Some ("papperskorg") , keywords : & ["papperskorg" , "skräp" , "sopor" , "soptunna"] , } , crate :: Annotation { lang : "sw" , tts : Some ("ndoo la taka") , keywords : & ["ndoo la taka"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("குப\u{bcd}பைத\u{bcd} தொட\u{bcd}டி") , keywords : & ["குப\u{bcd}பைக\u{bcd} கூடை" , "குப\u{bcd}பைத\u{bcd} தொட\u{bcd}டி"] , } , crate :: Annotation { lang : "te" , tts : Some ("చ\u{c46}త\u{c4d}త బుట\u{c4d}ట") , keywords : & ["చ\u{c46}త\u{c4d}త బుట\u{c4d}ట" , "పన\u{c3f}క\u{c3f} ర\u{c3e}దు"] , } , crate :: Annotation { lang : "tg" , tts : Some ("сабади партовҳо") , keywords : & ["сабади партовҳо"] , } , crate :: Annotation { lang : "th" , tts : Some ("ตะกร\u{e49}าขยะ") , keywords : & ["ขยะ" , "ตะกร\u{e49}า" , "ตะกร\u{e49}าขยะ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("zibil bedresi") , keywords : & ["zibil bedresi"] , } , crate :: Annotation { lang : "to" , tts : Some ("kapa veve") , keywords : & ["kapa veve"] , } , crate :: Annotation { lang : "tr" , tts : Some ("çöp sepeti") , keywords : & ["çöp sepeti"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئەخلەت سېۋىتى") , keywords : & ["ئەخلەت سېۋىتى"] , } , crate :: Annotation { lang : "uk" , tts : Some ("сміттєвий кошик") , keywords : & ["кошик" , "сміття" , "сміттєвий кошик"] , } , crate :: Annotation { lang : "ur" , tts : Some ("ردی کی ٹوکری") , keywords : & ["ردی" , "ردی کی ٹوکری" , "ٹوکری"] , } , crate :: Annotation { lang : "uz" , tts : Some ("qog‘oz chiqitdoni") , keywords : & ["qog‘oz chiqitdoni"] , } , crate :: Annotation { lang : "vi" , tts : Some ("sọt rác") , keywords : & ["sọt rác"] , } , crate :: Annotation { lang : "wo" , tts : Some ("pañe mbalit") , keywords : & ["pañe mbalit"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ibhaskithi yenkunkuma") , keywords : & ["ibhaskithi yenkunkuma"] , } , crate :: Annotation { lang : "yo" , tts : Some ("apẹ\u{300}rẹ\u{300} ìdalè\u{329}sí") , keywords : & ["apẹ\u{300}rẹ\u{300} ìdalè\u{329}sí"] , } , crate :: Annotation { lang : "yue" , tts : Some ("廢紙簍") , keywords : & ["廢紙簍"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("废纸篓") , keywords : & ["废纸篓"] , } , crate :: Annotation { lang : "zh" , tts : Some ("垃圾桶") , keywords : & ["垃圾" , "垃圾桶" , "垃圾篓" , "废纸篓"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("廢紙簍") , keywords : & ["廢紙簍"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("垃圾桶") , keywords : & ["垃圾桶"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ubhasikidi wezibi") , keywords : & ["ubhasikidi wezibi"] , }] , } ;
+pub const WASTEBASKET: crate::Emoji = crate::Emoji {
+    glyph: "🗑\u{fe0f}",
+    codepoint: "1F5D1 FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.7f32,
+    name: "wastebasket",
+    group: "Objects",
+    subgroup: "office",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🗑",
+        codepoint: "1F5D1",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "wastebasket",
+        group: "Objects",
+        subgroup: "office",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("snippermandjie"),
+            keywords: &["blik", "drom", "mandjie", "snippermandjie", "vullis"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የቆሻሻ መጣያ"),
+            keywords: &["የቆሻሻ መጣያ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("سلة نفايات"),
+            keywords: &["سلة", "نفايات"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ৱেষ\u{9cd}টব\u{9be}স\u{9cd}কেট"),
+            keywords: &["ৱেষ\u{9cd}টব\u{9be}স\u{9cd}কেট"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("zibilqabı"),
+            keywords: &["zibilqabı"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("кошык для смецця"),
+            keywords: &["кошык", "кошык для смецця", "сметніца", "смецце"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("кошче"),
+            keywords: &["кошче", "кошче за боклук"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("নোংর\u{9be} ফেল\u{9be}র ঝ\u{9c1}ড\u{9bc}ি"),
+            keywords: &[
+                "নোংর\u{9be} ফেল\u{9be}র ঝ\u{9c1}ড\u{9bc}ি",
+                "ব\u{9be}জে ক\u{9be}গজ ফেল\u{9be}র ঝ\u{9c1}\u{981}ড\u{9bc}ি",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("kest ar paper"),
+            keywords: &["kest", "kest ar paper", "paper"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("korpa za otpatke"),
+            keywords: &["korpa za otpatke"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("paperera"),
+            keywords: &["cubell", "paperera"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎤᏲᏩᏗᏅᏗ ᏔᎷᏣ"),
+            keywords: &["ᎤᏲᏩᏗᏅᏗ ᏔᎷᏣ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("odpadkový koš"),
+            keywords: &["koš", "odpad", "odpadkový koš", "smetí"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("bin sbwriel"),
+            keywords: &["bin sbwriel"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("papirkurv"),
+            keywords: &["papirkurv", "skraldespand"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Papierkorb"),
+            keywords: &["Papierkorb"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("καλάθι αχρήστων"),
+            keywords: &["κάδος αχρήστων", "καλάθι αχρήστων"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("wastebasket"),
+            keywords: &["wastebasket"],
+        },
+        crate::Annotation {
+            lang: "en_001",
+            tts: Some("wastepaper basket"),
+            keywords: &["paper bin", "wastebasket", "wastepaper basket"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("wastebasket"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("papelera"),
+            keywords: &["basura", "cubo", "papelera"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("cesto"),
+            keywords: &["basura", "cesto", "papeles"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("papelera"),
+            keywords: &["papelera"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("prügikorv"),
+            keywords: &["prügi", "prügikorv"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("zakarrontzia"),
+            keywords: &["zakarrontzi", "zakarrontzia"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("سطل کاغذ باطله"),
+            keywords: &["سطل زباله", "سطل کاغذ باطله"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("roskakori"),
+            keywords: &["roskakori", "roskis"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("basurahan"),
+            keywords: &["basura", "basurahan"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("pappírskurv"),
+            keywords: &["pappírskurv", "pappírsleypur", "skrell"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("corbeille à papiers"),
+            keywords: &["corbeille", "corbeille à papiers"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("corbeille"),
+            keywords: &["corbeille"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("bosca bruscair"),
+            keywords: &["bosca bruscair"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("bogsa-sgudail"),
+            keywords: &["bogsa-sgudail", "sgudal"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("papeleira"),
+            keywords: &["papeleira"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("કચરાપ\u{ac7}ટી"),
+            keywords: &["કચરાપ\u{ac7}ટી"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("kwandon shara"),
+            keywords: &["kwandon shara"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("סל ניירות"),
+            keywords: &["אשפה", "סל", "סל ניירות", "פח"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("कचरा प\u{947}टी"),
+            keywords: &["कचरा प\u{947}टी", "रद\u{94d}दी की टोकरी"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("koš za smeće"),
+            keywords: &["koš za smeće"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("papírkosár"),
+            keywords: &["papírkosár"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("աղբաման"),
+            keywords: &["աղբաման"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("keranjang sampah"),
+            keywords: &["keranjang sampah"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("èkètedọtị"),
+            keywords: &["èkètedọtị"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("ruslakarfa"),
+            keywords: &["rusl", "ruslakarfa"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("cestino"),
+            keywords: &["buttare", "cartacce", "cestino", "rifiuti"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("ごみ箱"),
+            keywords: &["くずかご", "ごみかご", "ごみ箱", "ゴミ箱"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("kranjang sampah"),
+            keywords: &["kranjang sampah"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("სანაგვე ურნა"),
+            keywords: &["კალათა", "ნაგავი", "სანაგვე ურნა"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("қоқыс себеті"),
+            keywords: &["қоқыс себеті"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("papirkurv"),
+            keywords: &["papirkurv", "skraldespand"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("កន\u{17d2}ត\u{17d2}រកដាក\u{17cb}ស\u{17c6}រាម"),
+            keywords: &["កន\u{17d2}ត\u{17d2}រកដាក\u{17cb}ស\u{17c6}រាម"],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಕಳಪ\u{cc6} ಕಾಗದ ಬುಟ\u{ccd}ಟ\u{cbf}"),
+            keywords: &[
+                "ಕಳಪ\u{cc6} ಕಾಗದ ಬುಟ\u{ccd}ಟ\u{cbf}",
+                "ಬ\u{ccd}ಯಾಸ\u{ccd}ಕ\u{cc6}ಟ\u{ccd}",
+                "ವೇಸ\u{ccd}ಟ\u{ccd} ಬ\u{ccd}ಯಾಸ\u{ccd}ಕ\u{cc6}ಟ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("쓰레기통"),
+            keywords: &["쓰레기통", "휴지통"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("कोयराबालदी"),
+            keywords: &["कोयराबालदी"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("таштанды кутусу"),
+            keywords: &["таштанды кутусу", "таштанды чака"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Dreckskëscht"),
+            keywords: &["Dreckskëscht"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ກະຕ\u{ec8}າຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ"),
+            keywords: &[
+                "ກະຕ\u{ec8}າ",
+                "ກະຕ\u{ec8}າຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ",
+                "ຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("šiukšliadėžė"),
+            keywords: &["šiukšliadėžė"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("atkritumu grozs"),
+            keywords: &["atkritumu grozs", "papīrkurvis"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("pāhikete para"),
+            keywords: &["pāhikete para"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("корпа за отпадоци"),
+            keywords: &["корпа", "корпа за отпадоци", "отпадоци"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ചവറ\u{d4d}റ\u{d41}ക\u{d41}ട\u{d4d}ട"),
+            keywords: &[
+                "ചവറ\u{d4d}",
+                "ചവറ\u{d4d}റ\u{d41}ക\u{d41}ട\u{d4d}ട",
+                "വെയിസ\u{d4d}\u{200c}റ\u{d4d}റ\u{d4d} ബ\u{d3e}സ\u{d4d}\u{200c}ക\u{d4d}കറ\u{d4d}റ\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("хогийн сав"),
+            keywords: &["хогийн сав"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("कचराप\u{947}टी"),
+            keywords: &["कचराप\u{947}टी"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("tong sampah"),
+            keywords: &["tong sampah"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("landa tal-iskart"),
+            keywords: &["landa tal-iskart"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အမ\u{103e}\u{102d}\u{102f}က\u{103a}ခြင\u{103a}း"),
+            keywords: &["အမ\u{103e}\u{102d}\u{102f}က\u{103a}ခြင\u{103a}း"],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("papirkurv"),
+            keywords: &["papirkurv", "søppelkasse", "søppelkurv"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("फोहोर फाल\u{94d}न\u{947} डालो"),
+            keywords: &["फोहोर फाल\u{94d}न\u{947} डालो"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("prullenmand"),
+            keywords: &["prullenmand"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("papirkorg"),
+            keywords: &["boskorg", "papirkorg", "søppelkasse", "søppelkorg"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଆବର\u{b4d}ଜନ\u{b3e} ବୋଝ"),
+            keywords: &["ଆବର\u{b4d}ଜନ\u{b3e} ବୋଝ"],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਰ\u{a71}ਦ ਦੀ ਟ\u{a4b}ਕਰੀ"),
+            keywords: &["ਰ\u{a71}ਦ ਦੀ ਟ\u{a4b}ਕਰੀ", "ਰ\u{a71}ਦੀ ਵਾਲੀ ਟ\u{a4b}ਕਰੀ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("کوڑی دی ٹوکری"),
+            keywords: &["کوڑی دی ٹوکری"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Wést Pépá Báskẹt"),
+            keywords: &["Wést Pépá Báskẹt"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("kosz na śmieci"),
+            keywords: &["kosz", "kosz na śmieci", "odpadki", "śmieci"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د ضایع ټوکر"),
+            keywords: &["د ضایع ټوکر"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("lixeira"),
+            keywords: &["cesto de lixo", "lixeira"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("cesto do lixo"),
+            keywords: &["caixote do lixo", "cesto do lixo"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("coș de gunoi"),
+            keywords: &["coș", "coș de gunoi"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-819"),
+            keywords: &["E10-819"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("корзина для мусора"),
+            keywords: &[
+                "бумаги",
+                "корзина",
+                "корзина для мусора",
+                "мусор",
+                "мусорка",
+                "мусорная",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("agatebo k’imyanda"),
+            keywords: &["agatebo k’imyanda"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڪچري جي ٽوڪري"),
+            keywords: &["ڪچري جي ٽوڪري"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය ක\u{dd6}ඩය"),
+            keywords: &["අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය ක\u{dd6}ඩය"],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("odpadkový kôš"),
+            keywords: &["kôš", "odpadkový kôš"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("koš za smeti"),
+            keywords: &["koš za smeti"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("caaga xashiishka"),
+            keywords: &["caaga xashiishka"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("kosh basketbolli"),
+            keywords: &["kosh basketbolli"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("корпа за ђубре"),
+            keywords: &["корпа за ђубре"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["корпа за ђубре"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("korpa za đubre"),
+            keywords: &["korpa za đubre"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["korpa za đubre"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("papperskorg"),
+            keywords: &["papperskorg", "skräp", "sopor", "soptunna"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("ndoo la taka"),
+            keywords: &["ndoo la taka"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("குப\u{bcd}பைத\u{bcd} தொட\u{bcd}டி"),
+            keywords: &[
+                "குப\u{bcd}பைக\u{bcd} கூடை",
+                "குப\u{bcd}பைத\u{bcd} தொட\u{bcd}டி",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("చ\u{c46}త\u{c4d}త బుట\u{c4d}ట"),
+            keywords: &[
+                "చ\u{c46}త\u{c4d}త బుట\u{c4d}ట",
+                "పన\u{c3f}క\u{c3f} ర\u{c3e}దు",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("сабади партовҳо"),
+            keywords: &["сабади партовҳо"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ตะกร\u{e49}าขยะ"),
+            keywords: &["ขยะ", "ตะกร\u{e49}า", "ตะกร\u{e49}าขยะ"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("zibil bedresi"),
+            keywords: &["zibil bedresi"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("kapa veve"),
+            keywords: &["kapa veve"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("çöp sepeti"),
+            keywords: &["çöp sepeti"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئەخلەت سېۋىتى"),
+            keywords: &["ئەخلەت سېۋىتى"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("сміттєвий кошик"),
+            keywords: &["кошик", "сміття", "сміттєвий кошик"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("ردی کی ٹوکری"),
+            keywords: &["ردی", "ردی کی ٹوکری", "ٹوکری"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("qog‘oz chiqitdoni"),
+            keywords: &["qog‘oz chiqitdoni"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("sọt rác"),
+            keywords: &["sọt rác"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("pañe mbalit"),
+            keywords: &["pañe mbalit"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ibhaskithi yenkunkuma"),
+            keywords: &["ibhaskithi yenkunkuma"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("apẹ\u{300}rẹ\u{300} ìdalè\u{329}sí"),
+            keywords: &["apẹ\u{300}rẹ\u{300} ìdalè\u{329}sí"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("廢紙簍"),
+            keywords: &["廢紙簍"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("废纸篓"),
+            keywords: &["废纸篓"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("垃圾桶"),
+            keywords: &["垃圾", "垃圾桶", "垃圾篓", "废纸篓"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("廢紙簍"),
+            keywords: &["廢紙簍"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("垃圾桶"),
+            keywords: &["垃圾桶"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ubhasikidi wezibi"),
+            keywords: &["ubhasikidi wezibi"],
+        },
+    ],
+};

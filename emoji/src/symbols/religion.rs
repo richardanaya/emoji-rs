@@ -3169,7 +3169,833 @@ pub const STAR_OF_DAVID: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "☸\u{fe0f}"]
-pub const WHEEL_OF_DHARMA : crate :: Emoji = crate :: Emoji { glyph : "☸\u{fe0f}" , codepoint : "2638 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "wheel of dharma" , group : "Symbols" , subgroup : "religion" , is_variant : false , variants : & [crate :: Emoji { glyph : "☸" , codepoint : "2638" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "wheel of dharma" , group : "Symbols" , subgroup : "religion" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("dharmawiel") , keywords : & ["Boeddhis" , "dharma" , "dharmawiel" , "godsdiens" , "wiel"] , } , crate :: Annotation { lang : "am" , tts : Some ("የዳርማ መዘውር") , keywords : & ["መዘውር" , "ቡድሂስት" , "ኃይማኖት" , "የዳርማ መዘውር" , "ዳህርማ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("عجلة دارما") , keywords : & ["بوذي" , "دارما" , "دين" , "عجلة"] , } , crate :: Annotation { lang : "as" , tts : Some ("ধৰ\u{9cd}ম-চক\u{9cd}ৰ") , keywords : & ["চক\u{9cd}ৰ" , "ধৰ\u{9cd}ম" , "ধৰ\u{9cd}ম-চক\u{9cd}ৰ" , "বৌদ\u{9cd}ধ মত\u{9be}ৱলম\u{9cd}বী"] , } , crate :: Annotation { lang : "az" , tts : Some ("dharma çarxı") , keywords : & ["buddist" , "dharma" , "dharma çarxı" , "din" , "çarx"] , } , crate :: Annotation { lang : "be" , tts : Some ("кола дхармы") , keywords : & ["будызм" , "дхарма" , "кола" , "кола дхармы" , "рэлігія"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Колелото на дхарма") , keywords : & ["Колелото на дхарма" , "будизъм" , "дхарма" , "колело" , "религия"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ধর\u{9cd}মের চ\u{9be}ক\u{9be}") , keywords : & ["চ\u{9be}ক\u{9be}" , "ধর\u{9cd}ম" , "ধর\u{9cd}মের চ\u{9be}ক\u{9be}" , "বৌদ\u{9cd}ধ"] , } , crate :: Annotation { lang : "br" , tts : Some ("rod an dharma") , keywords : & ["boudaat" , "relijion" , "rod an dharma"] , } , crate :: Annotation { lang : "bs" , tts : Some ("točak dharme") , keywords : & ["budizam" , "dharma" , "religija" , "točak" , "točak dharme"] , } , crate :: Annotation { lang : "ca" , tts : Some ("roda del dharma") , keywords : & ["budisme" , "budista" , "dharma" , "religió" , "roda del dharma"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏩᏘ ᏓᎭᎹ") , keywords : & ["ᎦᏩᏘ" , "ᏓᎭᎹ" , "ᏚᎾᏁᏟᏛᎢ" , "ᏣᏩᏂᏏ ᏧᏁᏟᏙᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("kolo dharmy") , keywords : & ["buddhismus" , "dharma" , "kolo" , "kolo dharmy" , "náboženství"] , } , crate :: Annotation { lang : "cy" , tts : Some ("olwyn dharma") , keywords : & ["bwdhaidd" , "crefydd" , "dharma" , "olwyn"] , } , crate :: Annotation { lang : "da" , tts : Some ("dharma-hjul") , keywords : & ["buddhist" , "dharma" , "dharma-hjul" , "hjul" , "religion"] , } , crate :: Annotation { lang : "de" , tts : Some ("Dharma-Rad") , keywords : & ["Buddhismus" , "Dharma" , "Dharma-Rad"] , } , crate :: Annotation { lang : "el" , tts : Some ("τροχός ντάρμα") , keywords : & ["βουδιστικός" , "θρησκεία" , "ντάρμα" , "τροχός"] , } , crate :: Annotation { lang : "en" , tts : Some ("wheel of dharma") , keywords : & ["Buddhist" , "dharma" , "religion" , "wheel" , "wheel of dharma"] , } , crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["Buddhist" , "dharma" , "dharmachakra" , "religion" , "wheel" , "wheel of dharma"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("rueda del dharma") , keywords : & ["budismo" , "dharma" , "religión" , "rueda" , "rueda del dharma"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("dharma") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("rueda del dharma") , keywords : & ["rueda del dharma"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("dharma ratas") , keywords : & ["budism" , "dharma" , "ratas" , "usk"] , } , crate :: Annotation { lang : "eu" , tts : Some ("dharmaren gurpila") , keywords : & ["budista" , "dharma" , "dharmaren gurpila" , "erlijio" , "gurpil"] , } , crate :: Annotation { lang : "fa" , tts : Some ("چرخ دارما") , keywords : & ["بودائی" , "دارما" , "مذهب" , "چرخ"] , } , crate :: Annotation { lang : "fi" , tts : Some ("dharma-pyörä") , keywords : & ["buddha" , "buddhalaisuus" , "dharma" , "dharma-pyörä" , "pyörä" , "ratas" , "uskonto"] , } , crate :: Annotation { lang : "fil" , tts : Some ("gulong ng dharma") , keywords : & ["Buddhist" , "dharma" , "gulong" , "gulong ng dharma" , "relihiyon"] , } , crate :: Annotation { lang : "fo" , tts : Some ("dharmahjól") , keywords : & ["buddistur" , "dharmahjól" , "religión" , "trúgv" , "átrúnaður"] , } , crate :: Annotation { lang : "fr" , tts : Some ("roue du Dharma") , keywords : & ["bouddhiste" , "dharma" , "religion" , "roue" , "roue du Dharma"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("roth dharma") , keywords : & ["búdaí" , "creideamh" , "dharma" , "roth" , "roth an dharma"] , } , crate :: Annotation { lang : "gd" , tts : Some ("cuibhle dharma") , keywords : & ["budach" , "creideamh" , "cuibhle" , "dharma"] , } , crate :: Annotation { lang : "gl" , tts : Some ("roda do dharma") , keywords : & ["budismo" , "dharma" , "relixión" , "roda" , "roda do dharma"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ધર\u{acd}મ ચક\u{acd}ર") , keywords : & ["ચક\u{acd}ર" , "ધર\u{acd}મ" , "બૌદ\u{acd}ધ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("wilin dharma") , keywords : & ["Mai addini Buddha" , "addini" , "dharma" , "wili" , "wilin dharma"] , } , crate :: Annotation { lang : "he" , tts : Some ("גלגל הדהרמה") , keywords : & ["בודהיזם" , "בודהיסט" , "גלגל" , "גלגל הדהרמה" , "דהרמה" , "דת"] , } , crate :: Annotation { lang : "hi" , tts : Some ("धर\u{94d}म चक\u{94d}र") , keywords : & ["चक\u{94d}र" , "धर\u{94d}म" , "बौद\u{94d}ध"] , } , crate :: Annotation { lang : "hr" , tts : Some ("kotač dharme") , keywords : & ["budizam" , "dharma" , "kotač" , "kotač dharme" , "religija"] , } , crate :: Annotation { lang : "hu" , tts : Some ("dharma-kerék") , keywords : & ["buddha" , "buddhizmus" , "dharma-kerék" , "kerék" , "vallás"] , } , crate :: Annotation { lang : "hy" , tts : Some ("դհարմայի անիվ") , keywords : & ["անիվ" , "բուդդայական" , "դհարմա" , "դհարմայի անիվ" , "կրոն"] , } , crate :: Annotation { lang : "id" , tts : Some ("roda dharma") , keywords : & ["agama" , "budha" , "dharma" , "roda"] , } , crate :: Annotation { lang : "ig" , tts : Some ("whelụ nke dharma") , keywords : & ["Buddhist" , "dharma" , "okpukperechi" , "whelụ" , "whelụ nke dharma"] , } , crate :: Annotation { lang : "is" , tts : Some ("dharmahjól") , keywords : & ["búddisti" , "dharma" , "dharmahjól" , "hjól" , "trúarbrögð"] , } , crate :: Annotation { lang : "it" , tts : Some ("ruota del Dharma") , keywords : & ["Buddhismo" , "Dharmacakra" , "religione buddhista" , "ruota a otto raggi" , "ruota del Dharma"] , } , crate :: Annotation { lang : "ja" , tts : Some ("法輪") , keywords : & ["仏教" , "宗教" , "法輪" , "転法輪"] , } , crate :: Annotation { lang : "jv" , tts : Some ("rodha darma") , keywords : & ["Buda" , "agama" , "darma" , "rodha"] , } , crate :: Annotation { lang : "ka" , tts : Some ("დჰარმას ბორბალი") , keywords : & ["ბორბალი" , "ბუდიზმი" , "ბუდისტური" , "დჰარმა" , "დჰარმას ბორბალი" , "რელიგია"] , } , crate :: Annotation { lang : "kk" , tts : Some ("дхарма доңғалағы") , keywords : & ["буддист" , "доңғалақ" , "дхарма" , "дхарма доңғалағы" , "дін"] , } , crate :: Annotation { lang : "kl" , tts : Some ("dharma-hjul") , keywords : & ["buddhist" , "dharma" , "dharma-hjul" , "hjul" , "religion"] , } , crate :: Annotation { lang : "km" , tts : Some ("សញ\u{17d2}ញាចង\u{17d2}ក\u{17bc}តទ\u{17bc}កក\u{17d2}តោង (សម\u{17d2}គាល\u{17cb}សាសនាព\u{17d2}រះព\u{17bb}ទ\u{17d2}ធ)") , keywords : & ["ចង\u{17d2}ក\u{17bc}តទ\u{17bc}ក" , "សញ\u{17d2}ញា" , "សញ\u{17d2}ញាចង\u{17d2}ក\u{17bc}តទ\u{17bc}កក\u{17d2}តោង (សម\u{17d2}គាល\u{17cb}សាសនាព\u{17d2}រះព\u{17bb}ទ\u{17d2}ធ)"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಧರ\u{ccd}ಮದ ಚಕ\u{ccd}ರ") , keywords : & ["ಚಕ\u{ccd}ರ" , "ಧರ\u{ccd}ಮ" , "ಧರ\u{ccd}ಮದ ಚಕ\u{ccd}ರ" , "ಬ\u{ccc}ದ\u{ccd}ಧ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("진리의 수레바퀴") , keywords : & ["다르마" , "바퀴" , "불교" , "수레바퀴" , "진리의 수레바퀴"] , } , crate :: Annotation { lang : "kok" , tts : Some ("धर\u{94d}म चक\u{94d}र") , keywords : & ["चक\u{94d}र" , "धर\u{94d}म" , "धर\u{94d}मचक\u{94d}र" , "ब\u{941}ध\u{94d}दीश\u{94d}ठ"] , } , crate :: Annotation { lang : "ky" , tts : Some ("дхарма дөңгөлөгү") , keywords : & ["буддист" , "дин" , "дхарма" , "дхарма дөңгөлөгү"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Dharma-Rad") , keywords : & ["Buddhist" , "Dharma" , "Dharma-Rad" , "Rad" , "Relioun"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ກ\u{ebb}ງລ\u{ecd}\u{ec9}ແຫ\u{ec8}ງທຳມະ") , keywords : & ["ກ\u{ebb}ງລ\u{ecd}\u{ec9}" , "ກ\u{ebb}ງລ\u{ecd}\u{ec9}ແຫ\u{ec8}ງທຳມະ" , "ທຳມະ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("Dharmos ratas") , keywords : & ["Dharmos ratas" , "budistas" , "dharma" , "ratas" , "religija"] , } , crate :: Annotation { lang : "lv" , tts : Some ("darmas rats") , keywords : & ["budisms" , "darma" , "darmas rats" , "rats" , "reliģija"] , } , crate :: Annotation { lang : "mi" , tts : Some ("wīra o tārama") , keywords : & ["Putihi" , "momo karakia" , "tārama" , "wīra" , "wīra o tārama"] , } , crate :: Annotation { lang : "mk" , tts : Some ("тркалото на дарма") , keywords : & ["будизам" , "религија" , "тркало" , "тркалото на дарма"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ധർമ\u{d4d}മ ചക\u{d4d}രം") , keywords : & ["ചക\u{d4d}രം" , "ധർമ\u{d4d}മ" , "ബ\u{d41}ദ\u{d4d}ധിസ\u{d4d}\u{200c}റ\u{d4d}റ\u{d4d}" , "മതം"] , } , crate :: Annotation { lang : "mn" , tts : Some ("хүрд") , keywords : & ["будда" , "хүрд" , "шашин"] , } , crate :: Annotation { lang : "mr" , tts : Some ("धर\u{94d}मचक\u{94d}र") , keywords : & ["धर\u{94d}म" , "धर\u{94d}मचक\u{94d}र" , "ब\u{941}द\u{94d}ध धर\u{94d}माच\u{947}" , "व\u{94d}हील"] , } , crate :: Annotation { lang : "ms" , tts : Some ("roda dharma") , keywords : & ["agama" , "dharma" , "penganut buddha" , "roda"] , } , crate :: Annotation { lang : "mt" , tts : Some ("ir-rota ta’ dharma") , keywords : & ["Buddhist" , "dharma" , "ir-rota ta’ dharma" , "reliġjon" , "rota"] , } , crate :: Annotation { lang : "my" , tts : Some ("ဓမ\u{1039}မစကြာ") , keywords : & ["စကြာ" , "ဓမ\u{1039}မ" , "ဓမ\u{1039}မစကြာ" , "ဗ\u{102f}ဒ\u{1039}ဓဝါဒ\u{102e}" , "ဘာသာရေး"] , } , crate :: Annotation { lang : "nb" , tts : Some ("dharmas hjul") , keywords : & ["buddhist" , "dharma" , "dharmas hjul" , "hjul" , "religion"] , } , crate :: Annotation { lang : "ne" , tts : Some ("धर\u{94d}मको पाङ\u{94d}ग\u{94d}रा") , keywords : & ["धर\u{94d}म" , "धर\u{94d}मको पाङ\u{94d}ग\u{94d}रा" , "धर\u{94d}मा" , "पाङ\u{94d}ग\u{94d}रा" , "ब\u{941}द\u{94d}धिस\u{94d}ट"] , } , crate :: Annotation { lang : "nl" , tts : Some ("wiel van dharma") , keywords : & ["boeddhist" , "dharma" , "religie" , "wiel" , "wiel van dharma"] , } , crate :: Annotation { lang : "nn" , tts : Some ("dharmahjulet") , keywords : & ["buddhist" , "dharma" , "dharmahjulet" , "hjul" , "religion"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଧର\u{b4d}ମର ଚକ\u{b4d}ର") , keywords : & ["ଚକ\u{b4d}ର" , "ଧର\u{b4d}ମ" , "ଧର\u{b4d}ମର ଚକ\u{b4d}ର" , "ବୌଦ\u{b4d}ଧଧର\u{b4d}ମୀ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਧਰਮ ਚ\u{a71}ਕਰ") , keywords : & ["ਚ\u{a71}ਕਰ" , "ਧਰਮ" , "ਬ\u{a4b}ਧੀ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("ویل آف درھما") , keywords : & ["بدھ مت" , "مذہب" , "ویل آف درھما" , "پہیہ" , "ہندو مت"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Dhárma Wil") , keywords : & ["Búdist" , "Dhárma" , "Dhárma Wíl" , "Rilíjọn" , "Wil"] , } , crate :: Annotation { lang : "pl" , tts : Some ("koło dharmy") , keywords : & ["buddysta" , "buddyzm" , "dharma" , "koło" , "koło dharmy" , "religia"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د دهرما پايه") , keywords : & ["بده مت" , "د دهرما پايه" , "دهرما" , "مذهب" , "پايه"] , } , crate :: Annotation { lang : "pt" , tts : Some ("roda do Dharma") , keywords : & ["budista" , "dharma" , "religião" , "roda" , "roda do Dharma"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "qu" , tts : Some ("muyu dharmanimanta") , keywords : & ["Budista" , "dharma" , "muyu" , "muyu dharmanimanta" , "religion"] , } , crate :: Annotation { lang : "ro" , tts : Some ("roata dharmei") , keywords : & ["budism" , "dharma" , "religie" , "roata dharma" , "roata dharmei" , "roată"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-059") , keywords : & ["E10-059"] , } , crate :: Annotation { lang : "ru" , tts : Some ("колесо дхармы") , keywords : & ["буддизм" , "дхарма" , "колесо" , "колесо дхармы" , "религия"] , } , crate :: Annotation { lang : "rw" , tts : Some ("uruziga rwa daharama") , keywords : & ["daharama" , "iyobokamana" , "uruziga" , "uruziga rwa daharama" , "uwemera Buda"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڌرما جو ڦيٿو") , keywords : & ["مذهب" , "ٻڌمت" , "ڌرما" , "ڌرما جو ڦيٿو" , "ڦيٿو"] , } , crate :: Annotation { lang : "si" , tts : Some ("ධර\u{dca}ම චක\u{dca}\u{200d}රය") , keywords : & ["ආගම" , "චක\u{dca}\u{200d}රය" , "ධර\u{dca}ම" , "බෞද\u{dca}ධ"] , } , crate :: Annotation { lang : "sk" , tts : Some ("koleso dharmy") , keywords : & ["budhista" , "dharma" , "koleso" , "koleso dharmy" , "náboženstvo"] , } , crate :: Annotation { lang : "sl" , tts : Some ("kolo darme") , keywords : & ["budistično" , "darma" , "kolo" , "kolo darme" , "vera"] , } , crate :: Annotation { lang : "so" , tts : Some ("diinta Hindida ee dharma") , keywords : & ["diin" , "diinta Hindida ee dharma" , "qof caabuda budhcada"] , } , crate :: Annotation { lang : "sq" , tts : Some ("rrota e darmës") , keywords : & ["budist" , "darmë" , "fe" , "rrota e darmës" , "rrotë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("дармин точак") , keywords : & ["будизaм" , "дарма" , "дармин точак" , "рeлигиja" , "точак"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("darmin točak") , keywords : & ["budizam" , "darma" , "darmin točak" , "religija" , "točak"] , } , crate :: Annotation { lang : "sv" , tts : Some ("livets hjul") , keywords : & ["buddhist" , "hjul" , "livets hjul" , "livshjul" , "religion"] , } , crate :: Annotation { lang : "sw" , tts : Some ("gurudumu la dharma") , keywords : & ["dharma" , "dini" , "gurudumu" , "gurudumu la dharma" , "mfuasi wa budha"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("தர\u{bcd}மச\u{bcd} சக\u{bcd}கரம\u{bcd}") , keywords : & ["தர\u{bcd}மச\u{bcd} சக\u{bcd}கரம\u{bcd}" , "புத\u{bcd}த மதம\u{bcd}" , "மதச\u{bcd}சின\u{bcd}னம\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("ధర\u{c4d}మచక\u{c4d}రం") , keywords : & ["చక\u{c4d}రం" , "ధర\u{c4d}మచక\u{c4d}రం" , "బ\u{c4c}ద\u{c4d}ధుడు" , "మతం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("чархи дарма") , keywords : & ["Буддист" , "дарма" , "дин" , "чарх" , "чархи дарма"] , } , crate :: Annotation { lang : "th" , tts : Some ("ธรรมจ\u{e31}กร") , keywords : & ["จ\u{e31}กร" , "ธรรมจ\u{e31}กร" , "ธรรมะ" , "พ\u{e38}ทธ" , "ศาสนา"] , } , crate :: Annotation { lang : "ti" , tts : Some ("መንኮርኮር ናይ ዳርማ") , keywords : & ["መንኮርኮር" , "መንኮርኮር ናይ ዳርማ" , "ቡድሂስት" , "እምኘጥ" , "ዳርማ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("darmanyň çarhy") , keywords : & ["Buddist" , "darma" , "darmanyň çarhy" , "din" , "çarh"] , } , crate :: Annotation { lang : "to" , tts : Some ("veʻeteka ʻo Tāma") , keywords : & ["Tāma" , "veʻeteka" , "veʻeteka ʻo Tāma"] , } , crate :: Annotation { lang : "tr" , tts : Some ("darma çemberi") , keywords : & ["Budist" , "darma çemberi" , "dharma" , "dharma tekeri" , "din" , "çember"] , } , crate :: Annotation { lang : "ug" , tts : Some ("دارما چاقى") , keywords : & ["بۇددىست" , "دارما" , "دارما چاقى" , "دىن" , "چاق"] , } , crate :: Annotation { lang : "uk" , tts : Some ("колесо дхарми") , keywords : & ["буддист" , "дхарма" , "колесо" , "колесо дхарми" , "релігія"] , } , crate :: Annotation { lang : "ur" , tts : Some ("دھرم چکر") , keywords : & ["بدھ مت" , "دھرم" , "دھرم چکر" , "مذہب" , "پہیہ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("dharma g‘ildiragi") , keywords : & ["budda" , "buddist" , "dharma g‘ildiragi" , "din" , "g‘ildirak"] , } , crate :: Annotation { lang : "vi" , tts : Some ("pháp luân") , keywords : & ["bánh xe" , "pháp" , "pháp luân" , "phật giáo" , "tôn giáo"] , } , crate :: Annotation { lang : "wo" , tts : Some ("pëno dharma") , keywords : & ["Buddhist" , "dharma" , "diine" , "pëno"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ivili le-dharma") , keywords : & ["I-Buddhist" , "i-dharma" , "ivili le-dharma" , "iviliheel" , "unqulo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("kẹ\u{300}ké\u{329} è\u{329}sìn dáámà") , keywords : & ["E\u{329}lẹ\u{301}sìn bó\u{329}ó\u{329}dà" , "kè\u{329}ké\u{329}" , "kẹ\u{300}ké\u{329} è\u{329}sìn dáámà" , "ẹlẹ\u{301}sìn dáámà" , "ẹ\u{300}sìn"] , } , crate :: Annotation { lang : "yue" , tts : Some ("佛法輪") , keywords : & ["佛教" , "佛法" , "佛法輪" , "宗教" , "輪"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("佛法轮") , keywords : & ["佛教" , "佛法" , "佛法轮" , "宗教" , "轮"] , } , crate :: Annotation { lang : "zh" , tts : Some ("法轮") , keywords : & ["佛" , "宗教" , "法轮" , "达摩"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("法輪") , keywords : & ["法輪"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("法則輪") , keywords : & ["法則輪"] , } , crate :: Annotation { lang : "zu" , tts : Some ("isondo likadharma") , keywords : & ["dharma" , "inkolo" , "isondo" , "isondo likadharma" , "umbhuda"] , }] , } ;
+pub const WHEEL_OF_DHARMA: crate::Emoji = crate::Emoji {
+    glyph: "☸\u{fe0f}",
+    codepoint: "2638 FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.7f32,
+    name: "wheel of dharma",
+    group: "Symbols",
+    subgroup: "religion",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☸",
+        codepoint: "2638",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "wheel of dharma",
+        group: "Symbols",
+        subgroup: "religion",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("dharmawiel"),
+            keywords: &["Boeddhis", "dharma", "dharmawiel", "godsdiens", "wiel"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የዳርማ መዘውር"),
+            keywords: &["መዘውር", "ቡድሂስት", "ኃይማኖት", "የዳርማ መዘውር", "ዳህርማ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("عجلة دارما"),
+            keywords: &["بوذي", "دارما", "دين", "عجلة"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ধৰ\u{9cd}ম-চক\u{9cd}ৰ"),
+            keywords: &[
+                "চক\u{9cd}ৰ",
+                "ধৰ\u{9cd}ম",
+                "ধৰ\u{9cd}ম-চক\u{9cd}ৰ",
+                "বৌদ\u{9cd}ধ মত\u{9be}ৱলম\u{9cd}বী",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("dharma çarxı"),
+            keywords: &["buddist", "dharma", "dharma çarxı", "din", "çarx"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("кола дхармы"),
+            keywords: &["будызм", "дхарма", "кола", "кола дхармы", "рэлігія"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Колелото на дхарма"),
+            keywords: &[
+                "Колелото на дхарма",
+                "будизъм",
+                "дхарма",
+                "колело",
+                "религия",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ধর\u{9cd}মের চ\u{9be}ক\u{9be}"),
+            keywords: &[
+                "চ\u{9be}ক\u{9be}",
+                "ধর\u{9cd}ম",
+                "ধর\u{9cd}মের চ\u{9be}ক\u{9be}",
+                "বৌদ\u{9cd}ধ",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("rod an dharma"),
+            keywords: &["boudaat", "relijion", "rod an dharma"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("točak dharme"),
+            keywords: &["budizam", "dharma", "religija", "točak", "točak dharme"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("roda del dharma"),
+            keywords: &["budisme", "budista", "dharma", "religió", "roda del dharma"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎦᏩᏘ ᏓᎭᎹ"),
+            keywords: &["ᎦᏩᏘ", "ᏓᎭᎹ", "ᏚᎾᏁᏟᏛᎢ", "ᏣᏩᏂᏏ ᏧᏁᏟᏙᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("kolo dharmy"),
+            keywords: &["buddhismus", "dharma", "kolo", "kolo dharmy", "náboženství"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("olwyn dharma"),
+            keywords: &["bwdhaidd", "crefydd", "dharma", "olwyn"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("dharma-hjul"),
+            keywords: &["buddhist", "dharma", "dharma-hjul", "hjul", "religion"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Dharma-Rad"),
+            keywords: &["Buddhismus", "Dharma", "Dharma-Rad"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("τροχός ντάρμα"),
+            keywords: &["βουδιστικός", "θρησκεία", "ντάρμα", "τροχός"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("wheel of dharma"),
+            keywords: &["Buddhist", "dharma", "religion", "wheel", "wheel of dharma"],
+        },
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &[
+                "Buddhist",
+                "dharma",
+                "dharmachakra",
+                "religion",
+                "wheel",
+                "wheel of dharma",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("rueda del dharma"),
+            keywords: &["budismo", "dharma", "religión", "rueda", "rueda del dharma"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("dharma"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("rueda del dharma"),
+            keywords: &["rueda del dharma"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("dharma ratas"),
+            keywords: &["budism", "dharma", "ratas", "usk"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("dharmaren gurpila"),
+            keywords: &[
+                "budista",
+                "dharma",
+                "dharmaren gurpila",
+                "erlijio",
+                "gurpil",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("چرخ دارما"),
+            keywords: &["بودائی", "دارما", "مذهب", "چرخ"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("dharma-pyörä"),
+            keywords: &[
+                "buddha",
+                "buddhalaisuus",
+                "dharma",
+                "dharma-pyörä",
+                "pyörä",
+                "ratas",
+                "uskonto",
+            ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("gulong ng dharma"),
+            keywords: &[
+                "Buddhist",
+                "dharma",
+                "gulong",
+                "gulong ng dharma",
+                "relihiyon",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("dharmahjól"),
+            keywords: &["buddistur", "dharmahjól", "religión", "trúgv", "átrúnaður"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("roue du Dharma"),
+            keywords: &["bouddhiste", "dharma", "religion", "roue", "roue du Dharma"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("roth dharma"),
+            keywords: &["búdaí", "creideamh", "dharma", "roth", "roth an dharma"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("cuibhle dharma"),
+            keywords: &["budach", "creideamh", "cuibhle", "dharma"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("roda do dharma"),
+            keywords: &["budismo", "dharma", "relixión", "roda", "roda do dharma"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ધર\u{acd}મ ચક\u{acd}ર"),
+            keywords: &["ચક\u{acd}ર", "ધર\u{acd}મ", "બૌદ\u{acd}ધ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("wilin dharma"),
+            keywords: &[
+                "Mai addini Buddha",
+                "addini",
+                "dharma",
+                "wili",
+                "wilin dharma",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("גלגל הדהרמה"),
+            keywords: &["בודהיזם", "בודהיסט", "גלגל", "גלגל הדהרמה", "דהרמה", "דת"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("धर\u{94d}म चक\u{94d}र"),
+            keywords: &["चक\u{94d}र", "धर\u{94d}म", "बौद\u{94d}ध"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("kotač dharme"),
+            keywords: &["budizam", "dharma", "kotač", "kotač dharme", "religija"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("dharma-kerék"),
+            keywords: &["buddha", "buddhizmus", "dharma-kerék", "kerék", "vallás"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("դհարմայի անիվ"),
+            keywords: &["անիվ", "բուդդայական", "դհարմա", "դհարմայի անիվ", "կրոն"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("roda dharma"),
+            keywords: &["agama", "budha", "dharma", "roda"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("whelụ nke dharma"),
+            keywords: &[
+                "Buddhist",
+                "dharma",
+                "okpukperechi",
+                "whelụ",
+                "whelụ nke dharma",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("dharmahjól"),
+            keywords: &["búddisti", "dharma", "dharmahjól", "hjól", "trúarbrögð"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("ruota del Dharma"),
+            keywords: &[
+                "Buddhismo",
+                "Dharmacakra",
+                "religione buddhista",
+                "ruota a otto raggi",
+                "ruota del Dharma",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("法輪"),
+            keywords: &["仏教", "宗教", "法輪", "転法輪"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("rodha darma"),
+            keywords: &["Buda", "agama", "darma", "rodha"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("დჰარმას ბორბალი"),
+            keywords: &[
+                "ბორბალი",
+                "ბუდიზმი",
+                "ბუდისტური",
+                "დჰარმა",
+                "დჰარმას ბორბალი",
+                "რელიგია",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("дхарма доңғалағы"),
+            keywords: &["буддист", "доңғалақ", "дхарма", "дхарма доңғалағы", "дін"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("dharma-hjul"),
+            keywords: &["buddhist", "dharma", "dharma-hjul", "hjul", "religion"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some(
+                "សញ\u{17d2}ញាចង\u{17d2}ក\u{17bc}តទ\u{17bc}កក\u{17d2}តោង (សម\u{17d2}គាល\u{17cb}សាសនាព\u{17d2}រះព\u{17bb}ទ\u{17d2}ធ)",
+            ),
+            keywords: &[
+                "ចង\u{17d2}ក\u{17bc}តទ\u{17bc}ក",
+                "សញ\u{17d2}ញា",
+                "សញ\u{17d2}ញាចង\u{17d2}ក\u{17bc}តទ\u{17bc}កក\u{17d2}តោង (សម\u{17d2}គាល\u{17cb}សាសនាព\u{17d2}រះព\u{17bb}ទ\u{17d2}ធ)",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಧರ\u{ccd}ಮದ ಚಕ\u{ccd}ರ"),
+            keywords: &[
+                "ಚಕ\u{ccd}ರ",
+                "ಧರ\u{ccd}ಮ",
+                "ಧರ\u{ccd}ಮದ ಚಕ\u{ccd}ರ",
+                "ಬ\u{ccc}ದ\u{ccd}ಧ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("진리의 수레바퀴"),
+            keywords: &["다르마", "바퀴", "불교", "수레바퀴", "진리의 수레바퀴"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("धर\u{94d}म चक\u{94d}र"),
+            keywords: &[
+                "चक\u{94d}र",
+                "धर\u{94d}म",
+                "धर\u{94d}मचक\u{94d}र",
+                "ब\u{941}ध\u{94d}दीश\u{94d}ठ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("дхарма дөңгөлөгү"),
+            keywords: &["буддист", "дин", "дхарма", "дхарма дөңгөлөгү"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Dharma-Rad"),
+            keywords: &["Buddhist", "Dharma", "Dharma-Rad", "Rad", "Relioun"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ກ\u{ebb}ງລ\u{ecd}\u{ec9}ແຫ\u{ec8}ງທຳມະ"),
+            keywords: &[
+                "ກ\u{ebb}ງລ\u{ecd}\u{ec9}",
+                "ກ\u{ebb}ງລ\u{ecd}\u{ec9}ແຫ\u{ec8}ງທຳມະ",
+                "ທຳມະ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("Dharmos ratas"),
+            keywords: &["Dharmos ratas", "budistas", "dharma", "ratas", "religija"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("darmas rats"),
+            keywords: &["budisms", "darma", "darmas rats", "rats", "reliģija"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("wīra o tārama"),
+            keywords: &["Putihi", "momo karakia", "tārama", "wīra", "wīra o tārama"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("тркалото на дарма"),
+            keywords: &["будизам", "религија", "тркало", "тркалото на дарма"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ധർമ\u{d4d}മ ചക\u{d4d}രം"),
+            keywords: &[
+                "ചക\u{d4d}രം",
+                "ധർമ\u{d4d}മ",
+                "ബ\u{d41}ദ\u{d4d}ധിസ\u{d4d}\u{200c}റ\u{d4d}റ\u{d4d}",
+                "മതം",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("хүрд"),
+            keywords: &["будда", "хүрд", "шашин"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("धर\u{94d}मचक\u{94d}र"),
+            keywords: &[
+                "धर\u{94d}म",
+                "धर\u{94d}मचक\u{94d}र",
+                "ब\u{941}द\u{94d}ध धर\u{94d}माच\u{947}",
+                "व\u{94d}हील",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("roda dharma"),
+            keywords: &["agama", "dharma", "penganut buddha", "roda"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("ir-rota ta’ dharma"),
+            keywords: &[
+                "Buddhist",
+                "dharma",
+                "ir-rota ta’ dharma",
+                "reliġjon",
+                "rota",
+            ],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ဓမ\u{1039}မစကြာ"),
+            keywords: &[
+                "စကြာ",
+                "ဓမ\u{1039}မ",
+                "ဓမ\u{1039}မစကြာ",
+                "ဗ\u{102f}ဒ\u{1039}ဓဝါဒ\u{102e}",
+                "ဘာသာရေး",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("dharmas hjul"),
+            keywords: &["buddhist", "dharma", "dharmas hjul", "hjul", "religion"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("धर\u{94d}मको पाङ\u{94d}ग\u{94d}रा"),
+            keywords: &[
+                "धर\u{94d}म",
+                "धर\u{94d}मको पाङ\u{94d}ग\u{94d}रा",
+                "धर\u{94d}मा",
+                "पाङ\u{94d}ग\u{94d}रा",
+                "ब\u{941}द\u{94d}धिस\u{94d}ट",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("wiel van dharma"),
+            keywords: &["boeddhist", "dharma", "religie", "wiel", "wiel van dharma"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("dharmahjulet"),
+            keywords: &["buddhist", "dharma", "dharmahjulet", "hjul", "religion"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଧର\u{b4d}ମର ଚକ\u{b4d}ର"),
+            keywords: &[
+                "ଚକ\u{b4d}ର",
+                "ଧର\u{b4d}ମ",
+                "ଧର\u{b4d}ମର ଚକ\u{b4d}ର",
+                "ବୌଦ\u{b4d}ଧଧର\u{b4d}ମୀ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਧਰਮ ਚ\u{a71}ਕਰ"),
+            keywords: &["ਚ\u{a71}ਕਰ", "ਧਰਮ", "ਬ\u{a4b}ਧੀ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ویل آف درھما"),
+            keywords: &["بدھ مت", "مذہب", "ویل آف درھما", "پہیہ", "ہندو مت"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Dhárma Wil"),
+            keywords: &["Búdist", "Dhárma", "Dhárma Wíl", "Rilíjọn", "Wil"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("koło dharmy"),
+            keywords: &[
+                "buddysta",
+                "buddyzm",
+                "dharma",
+                "koło",
+                "koło dharmy",
+                "religia",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د دهرما پايه"),
+            keywords: &["بده مت", "د دهرما پايه", "دهرما", "مذهب", "پايه"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("roda do Dharma"),
+            keywords: &["budista", "dharma", "religião", "roda", "roda do Dharma"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("muyu dharmanimanta"),
+            keywords: &[
+                "Budista",
+                "dharma",
+                "muyu",
+                "muyu dharmanimanta",
+                "religion",
+            ],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("roata dharmei"),
+            keywords: &[
+                "budism",
+                "dharma",
+                "religie",
+                "roata dharma",
+                "roata dharmei",
+                "roată",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-059"),
+            keywords: &["E10-059"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("колесо дхармы"),
+            keywords: &["буддизм", "дхарма", "колесо", "колесо дхармы", "религия"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("uruziga rwa daharama"),
+            keywords: &[
+                "daharama",
+                "iyobokamana",
+                "uruziga",
+                "uruziga rwa daharama",
+                "uwemera Buda",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڌرما جو ڦيٿو"),
+            keywords: &["مذهب", "ٻڌمت", "ڌرما", "ڌرما جو ڦيٿو", "ڦيٿو"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ධර\u{dca}ම චක\u{dca}\u{200d}රය"),
+            keywords: &["ආගම", "චක\u{dca}\u{200d}රය", "ධර\u{dca}ම", "බෞද\u{dca}ධ"],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("koleso dharmy"),
+            keywords: &[
+                "budhista",
+                "dharma",
+                "koleso",
+                "koleso dharmy",
+                "náboženstvo",
+            ],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("kolo darme"),
+            keywords: &["budistično", "darma", "kolo", "kolo darme", "vera"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("diinta Hindida ee dharma"),
+            keywords: &["diin", "diinta Hindida ee dharma", "qof caabuda budhcada"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("rrota e darmës"),
+            keywords: &["budist", "darmë", "fe", "rrota e darmës", "rrotë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("дармин точак"),
+            keywords: &["будизaм", "дарма", "дармин точак", "рeлигиja", "точак"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("darmin točak"),
+            keywords: &["budizam", "darma", "darmin točak", "religija", "točak"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("livets hjul"),
+            keywords: &["buddhist", "hjul", "livets hjul", "livshjul", "religion"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("gurudumu la dharma"),
+            keywords: &[
+                "dharma",
+                "dini",
+                "gurudumu",
+                "gurudumu la dharma",
+                "mfuasi wa budha",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("தர\u{bcd}மச\u{bcd} சக\u{bcd}கரம\u{bcd}"),
+            keywords: &[
+                "தர\u{bcd}மச\u{bcd} சக\u{bcd}கரம\u{bcd}",
+                "புத\u{bcd}த மதம\u{bcd}",
+                "மதச\u{bcd}சின\u{bcd}னம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ధర\u{c4d}మచక\u{c4d}రం"),
+            keywords: &[
+                "చక\u{c4d}రం",
+                "ధర\u{c4d}మచక\u{c4d}రం",
+                "బ\u{c4c}ద\u{c4d}ధుడు",
+                "మతం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("чархи дарма"),
+            keywords: &["Буддист", "дарма", "дин", "чарх", "чархи дарма"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ธรรมจ\u{e31}กร"),
+            keywords: &[
+                "จ\u{e31}กร",
+                "ธรรมจ\u{e31}กร",
+                "ธรรมะ",
+                "พ\u{e38}ทธ",
+                "ศาสนา",
+            ],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("መንኮርኮር ናይ ዳርማ"),
+            keywords: &["መንኮርኮር", "መንኮርኮር ናይ ዳርማ", "ቡድሂስት", "እምኘጥ", "ዳርማ"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("darmanyň çarhy"),
+            keywords: &["Buddist", "darma", "darmanyň çarhy", "din", "çarh"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("veʻeteka ʻo Tāma"),
+            keywords: &["Tāma", "veʻeteka", "veʻeteka ʻo Tāma"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("darma çemberi"),
+            keywords: &[
+                "Budist",
+                "darma çemberi",
+                "dharma",
+                "dharma tekeri",
+                "din",
+                "çember",
+            ],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("دارما چاقى"),
+            keywords: &["بۇددىست", "دارما", "دارما چاقى", "دىن", "چاق"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("колесо дхарми"),
+            keywords: &["буддист", "дхарма", "колесо", "колесо дхарми", "релігія"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("دھرم چکر"),
+            keywords: &["بدھ مت", "دھرم", "دھرم چکر", "مذہب", "پہیہ"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("dharma g‘ildiragi"),
+            keywords: &["budda", "buddist", "dharma g‘ildiragi", "din", "g‘ildirak"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("pháp luân"),
+            keywords: &["bánh xe", "pháp", "pháp luân", "phật giáo", "tôn giáo"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("pëno dharma"),
+            keywords: &["Buddhist", "dharma", "diine", "pëno"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ivili le-dharma"),
+            keywords: &[
+                "I-Buddhist",
+                "i-dharma",
+                "ivili le-dharma",
+                "iviliheel",
+                "unqulo",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("kẹ\u{300}ké\u{329} è\u{329}sìn dáámà"),
+            keywords: &[
+                "E\u{329}lẹ\u{301}sìn bó\u{329}ó\u{329}dà",
+                "kè\u{329}ké\u{329}",
+                "kẹ\u{300}ké\u{329} è\u{329}sìn dáámà",
+                "ẹlẹ\u{301}sìn dáámà",
+                "ẹ\u{300}sìn",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("佛法輪"),
+            keywords: &["佛教", "佛法", "佛法輪", "宗教", "輪"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("佛法轮"),
+            keywords: &["佛教", "佛法", "佛法轮", "宗教", "轮"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("法轮"),
+            keywords: &["佛", "宗教", "法轮", "达摩"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("法輪"),
+            keywords: &["法輪"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("法則輪"),
+            keywords: &["法則輪"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("isondo likadharma"),
+            keywords: &["dharma", "inkolo", "isondo", "isondo likadharma", "umbhuda"],
+        },
+    ],
+};
 #[doc = "☯\u{fe0f}"]
 pub const YIN_YANG: crate::Emoji = crate::Emoji {
     glyph: "☯\u{fe0f}",
@@ -4671,7 +5497,820 @@ pub const LATIN_CROSS: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "☦\u{fe0f}"]
-pub const ORTHODOX_CROSS : crate :: Emoji = crate :: Emoji { glyph : "☦\u{fe0f}" , codepoint : "2626 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 1f32 , name : "orthodox cross" , group : "Symbols" , subgroup : "religion" , is_variant : false , variants : & [crate :: Emoji { glyph : "☦" , codepoint : "2626" , status : crate :: Status :: Unqualified , introduction_version : 1f32 , name : "orthodox cross" , group : "Symbols" , subgroup : "religion" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("ortodokse kruis") , keywords : & ["christen" , "godsdiens" , "kruis" , "ortodokse kruis"] , } , crate :: Annotation { lang : "am" , tts : Some ("የኦርቶዶክስ መስቀል") , keywords : & ["መስቀል" , "ኃይማኖት" , "ክርስትያን" , "የኦርቶዶክስ መስቀል"] , } , crate :: Annotation { lang : "ar" , tts : Some ("صليب أرثوزوكس") , keywords : & ["دين" , "صليب" , "صليب أرثوزوكس" , "مسيحية"] , } , crate :: Annotation { lang : "as" , tts : Some ("অৰ\u{9cd}থডক\u{9cd}স ক\u{9cd}ৰ\u{9c1}ছ") , keywords : & ["অৰ\u{9cd}থডক\u{9cd}স ক\u{9cd}ৰ\u{9c1}ছ" , "ক\u{9cd}ৰ\u{9c1}ছ" , "খ\u{9cd}ৰীষ\u{9cd}ট\u{9cd}ৰিয\u{9bc}\u{9be}ন" , "ধৰ\u{9cd}ম"] , } , crate :: Annotation { lang : "az" , tts : Some ("ortodoks xaçı") , keywords : & ["din" , "ortodoks xaçı" , "xaç" , "xristian"] , } , crate :: Annotation { lang : "be" , tts : Some ("праваслаўны крыж") , keywords : & ["крыж" , "праваслаўе" , "праваслаўны крыж" , "рэлігія" , "хрысціянства"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Православен кръст") , keywords : & ["Православен кръст" , "кръст" , "религия" , "християнство"] , } , crate :: Annotation { lang : "bn" , tts : Some ("অর\u{9cd}থডক\u{9cd}স ক\u{9cd}রস") , keywords : & ["অর\u{9cd}থডক\u{9cd}স ক\u{9cd}রস" , "ক\u{9cd}রস" , "খ\u{9c3}স\u{9cd}ট\u{9be}ন" , "ধর\u{9cd}ম"] , } , crate :: Annotation { lang : "br" , tts : Some ("kroaz ortodoks") , keywords : & ["kristen" , "kroaz ortodoks" , "relijion"] , } , crate :: Annotation { lang : "bs" , tts : Some ("pravoslavni krst") , keywords : & ["krst" , "pravoslavlje" , "pravoslavni krst" , "religija"] , } , crate :: Annotation { lang : "ca" , tts : Some ("creu ortodoxa") , keywords : & ["creu" , "ortodoxa" , "religió"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏂᏧᏏ ᎤᎾᏤᎵ ᏓᏓᎿᏫᏍᏛ") , keywords : & ["ᎠᏂᏧᏏ ᎤᎾᏤᎵ ᏓᏓᎿᏫᏍᏛ" , "ᎤᏃᎯᏳᏒᎢ" , "ᏓᏓᎿᏫᏍᏛ" , "ᏧᏁᏟᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("pravoslavný kříž") , keywords : & ["křesťan" , "křesťanský" , "křesťanství" , "kříž" , "náboženství" , "pravoslavný kříž"] , } , crate :: Annotation { lang : "cy" , tts : Some ("croes uniongred") , keywords : & ["crefydd" , "cristnogol" , "croes" , "croes uniongred"] , } , crate :: Annotation { lang : "da" , tts : Some ("ortodokst kors") , keywords : & ["kors" , "kristen" , "ortodokst kors" , "religion"] , } , crate :: Annotation { lang : "de" , tts : Some ("orthodoxes Kreuz") , keywords : & ["Christentum" , "Kreuz" , "Orthodox" , "Religion" , "orthodoxes Kreuz"] , } , crate :: Annotation { lang : "el" , tts : Some ("ορθόδοξος σταυρός") , keywords : & ["θρησκεία" , "ορθόδοξος σταυρός" , "σταυρός" , "χριστιανικός"] , } , crate :: Annotation { lang : "en" , tts : Some ("orthodox cross") , keywords : & ["Christian" , "cross" , "orthodox cross" , "religion"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("Orthodox cross") , keywords : & ["Christian" , "Orthodox cross" , "cross" , "religion"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("cruz ortodoxa") , keywords : & ["cruz" , "cruz ortodoxa" , "religión"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["cristianismo" , "cruz" , "ortodoxa" , "religión"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("õigeusu rist") , keywords : & ["kristlus" , "rist" , "usk" , "õigeusu rist"] , } , crate :: Annotation { lang : "eu" , tts : Some ("gurutze ortodoxoa") , keywords : & ["erlijio" , "gurutze" , "gurutze ortodoxoa" , "kristau"] , } , crate :: Annotation { lang : "fa" , tts : Some ("صلیب ارتدوکسی") , keywords : & ["صلیب" , "صلیب ارتدوکسی" , "مذهب" , "مسیحیت"] , } , crate :: Annotation { lang : "fi" , tts : Some ("ortodoksiristi") , keywords : & ["kristinusko" , "ortodoksiristi" , "ortodoksisuus" , "risti" , "uskonto"] , } , crate :: Annotation { lang : "fil" , tts : Some ("orthodox na krus") , keywords : & ["Kristiyanismo" , "Orthodox" , "krus" , "orthodox na krus" , "relihiyon"] , } , crate :: Annotation { lang : "fo" , tts : Some ("ortodoksur krossur") , keywords : & ["kristin" , "krossur" , "ortodoksur krossur" , "religión" , "trúgv" , "átrúnaður"] , } , crate :: Annotation { lang : "fr" , tts : Some ("croix orthodoxe") , keywords : & ["chrétien" , "croix" , "croix orthodoxe" , "religion"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["chrétien" , "croix" , "orthodoxe" , "réligion"] , } , crate :: Annotation { lang : "ga" , tts : Some ("cros ortadocsach") , keywords : & ["creideamh" , "cros" , "cros ortadocsach" , "críostaí"] , } , crate :: Annotation { lang : "gd" , tts : Some ("crois nan Ortodogsach") , keywords : & ["creideamh" , "crois" , "crois nan Ortodogsach" , "crìostaidh"] , } , crate :: Annotation { lang : "gl" , tts : Some ("cruz ortodoxa") , keywords : & ["cristianismo" , "cruz" , "cruz ortodoxa" , "relixión"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ઑર\u{acd}થોડોક\u{acd}સ ક\u{acd}રોસ") , keywords : & ["ઑર\u{acd}થોડોક\u{acd}સ ક\u{acd}રોસ" , "ક\u{acd}રોસ" , "ધર\u{acd}મ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("kuros na gargajiya") , keywords : & ["Kirista" , "addini" , "kuros" , "kuros na gargajiya"] , } , crate :: Annotation { lang : "he" , tts : Some ("צלב אורתודוכסי") , keywords : & ["אורתודוכסי" , "דת" , "נוצרי" , "נצרות" , "צלב"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ऑर\u{94d}थडॉक\u{94d}स क\u{94d}रॉस") , keywords : & ["ईसाई" , "ऑर\u{94d}थडॉक\u{94d}स क\u{94d}रॉस" , "क\u{94d}रॉस" , "धर\u{94d}म"] , } , crate :: Annotation { lang : "hr" , tts : Some ("pravoslavni križ") , keywords : & ["križ" , "kršćanstvo" , "pravoslavni križ" , "religija"] , } , crate :: Annotation { lang : "hu" , tts : Some ("ortodox kereszt") , keywords : & ["kereszt" , "kereszténység" , "ortodox kereszt" , "vallás"] , } , crate :: Annotation { lang : "hy" , tts : Some ("ուղղափառ խաչ") , keywords : & ["խաչ" , "կրոն" , "ուղղափառ խաչ" , "քրիստոնյա"] , } , crate :: Annotation { lang : "id" , tts : Some ("salib ortodoks") , keywords : & ["agama" , "kristen" , "salib" , "salib ortodoks"] , } , crate :: Annotation { lang : "ig" , tts : Some ("obe ọthọdọsụ") , keywords : & ["Ndị òtù Christi" , "obe" , "obe ọthọdọsụ" , "okpukperechi"] , } , crate :: Annotation { lang : "is" , tts : Some ("rétttrúnaðarkross") , keywords : & ["kristni" , "kross" , "rétttrúnaðarkross" , "trúarbrögð"] , } , crate :: Annotation { lang : "it" , tts : Some ("croce ortodossa") , keywords : & ["Cristianesimo" , "croce" , "croce ortodossa" , "ortodossi" , "religione"] , } , crate :: Annotation { lang : "ja" , tts : Some ("八端十字架") , keywords : & ["キリスト教" , "八端十字架" , "十字架" , "宗教"] , } , crate :: Annotation { lang : "jv" , tts : Some ("salib ortodoks") , keywords : & ["Kristen" , "agama" , "salib" , "salib ortodoks"] , } , crate :: Annotation { lang : "ka" , tts : Some ("მართმადიდებლური ჯვარი") , keywords : & ["მართმადიდებლური ჯვარი" , "რელიგია" , "ქრისტიანობა" , "ქრისტიანული" , "ჯვარი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("ортодоксалдық крест") , keywords : & ["дін" , "крест" , "ортодоксалдық крест" , "христиан"] , } , crate :: Annotation { lang : "kl" , tts : Some ("ortodokst kors") , keywords : & ["kors" , "kristen" , "ortodokst kors" , "religion"] , } , crate :: Annotation { lang : "km" , tts : Some ("សញ\u{17d2}ញាឈើឆ\u{17d2}កាងប\u{17bb}រាណ") , keywords : & ["ឈើឆ\u{17d2}កាង" , "សញ\u{17d2}ញា" , "សញ\u{17d2}ញាឈើឆ\u{17d2}កាងប\u{17bb}រាណ"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಸಾಂಪ\u{ccd}ರದಾಯ\u{cbf}ಕ ಕ\u{ccd}ರಾಸ\u{ccd}") , keywords : & ["ಕ\u{ccd}ರಾಸ\u{ccd}" , "ಕ\u{ccd}ರ\u{cbf}ಶ\u{ccd}ಚ\u{cbf}ಯನ\u{ccd}" , "ಧರ\u{ccd}ಮ" , "ಸಾಂಪ\u{ccd}ರದಾಯ\u{cbf}ಕ ಕ\u{ccd}ರಾಸ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("전통적인 십자가") , keywords : & ["기독교" , "십자가" , "전통적인 십자가" , "종교"] , } , crate :: Annotation { lang : "kok" , tts : Some ("सनातनी क\u{94d}रॉस") , keywords : & ["क\u{94d}रॉस" , "ख\u{94d}रिश\u{94d}चन" , "धर\u{94d}म" , "सनातनी क\u{94d}रॉस"] , } , crate :: Annotation { lang : "ky" , tts : Some ("ортодокс крести") , keywords : & ["дин" , "крест" , "ортодокс крести" , "христиан"] , } , crate :: Annotation { lang : "lb" , tts : Some ("orthodoxt Kräiz") , keywords : & ["Kräiz" , "Relioun" , "chrëschtlech" , "orthodoxt Kräiz"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ໄມ\u{ec9}ກາງເຂນໂອທ\u{ecd}ດ\u{eb1}ອກ") , keywords : & ["ໂອທ\u{ecd}ດ\u{eb1}ອກ" , "ໄມ\u{ec9}ກາງເຂນ" , "ໄມ\u{ec9}ກາງເຂນໂອທ\u{ecd}ດ\u{eb1}ອກ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("ortodoksų kryžius") , keywords : & ["krikščionis" , "kryžius" , "ortodoksų kryžius" , "religija"] , } , crate :: Annotation { lang : "lv" , tts : Some ("pareizticīgo krusts") , keywords : & ["kristietība" , "krusts" , "pareizticība" , "pareizticīgo krusts" , "reliģija"] , } , crate :: Annotation { lang : "mi" , tts : Some ("rīpeka tukuiho") , keywords : & ["karaitiana" , "momo karakia" , "rīpeka" , "rīpeka tukuiho"] , } , crate :: Annotation { lang : "mk" , tts : Some ("православен крст") , keywords : & ["крст" , "православен крст" , "религија" , "христијанство"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ഓർത\u{d4d}തഡോക\u{d4d}\u{200c}സ\u{d4d} ക\u{d4d}രോസ\u{d4d}") , keywords : & ["ഓർത\u{d4d}തഡോക\u{d4d}\u{200c}സ\u{d4d} ക\u{d4d}രോസ\u{d4d}" , "ക\u{d41}രിശ\u{d4d}" , "ക\u{d4d}രിസ\u{d4d}\u{200c}ത\u{d41}മതം" , "മതം"] , } , crate :: Annotation { lang : "mn" , tts : Some ("ортодокс загалмай") , keywords : & ["Христийн" , "загалмай" , "ортодокс загалмай" , "шашин"] , } , crate :: Annotation { lang : "mr" , tts : Some ("ऑर\u{94d}थोडॉक\u{94d}स क\u{94d}रॉस") , keywords : & ["ऑर\u{94d}थोडॉक\u{94d}स क\u{94d}रॉस" , "क\u{94d}रॉस" , "ख\u{94d}रिश\u{94d}चन" , "धर\u{94d}म"] , } , crate :: Annotation { lang : "ms" , tts : Some ("salib ortodoks") , keywords : & ["agama" , "kristian" , "salib" , "salib ortodoks"] , } , crate :: Annotation { lang : "mt" , tts : Some ("salib ortodoss") , keywords : & ["Kristjan" , "reliġjon" , "salib" , "salib ortodoss"] , } , crate :: Annotation { lang : "my" , tts : Some ("ရ\u{103e}ေးရ\u{102d}\u{102f}းခရစ\u{103a}ယာန\u{103a} အသင\u{103a}းတော\u{103a} လက\u{103a}ဝါးကပ\u{103a}တ\u{102d}\u{102f}င\u{103a}") , keywords : & ["ကားတ\u{102d}\u{102f}င\u{103a}" , "ခရစ\u{103a}ယာန\u{103a}" , "ဘာသာရေး" , "ရ\u{103e}ေးရ\u{102d}\u{102f}းခရစ\u{103a}ယာန\u{103a} အသင\u{103a}းတော\u{103a} လက\u{103a}ဝါးကပ\u{103a}တ\u{102d}\u{102f}င\u{103a}" , "အောတ\u{102d}\u{102f}ဒ\u{102d}\u{102f}စ\u{103a} ကားတ\u{102d}\u{102f}င\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("ortodokst kors") , keywords : & ["kors" , "kristen" , "ortodoks" , "ortodokst kors" , "religion"] , } , crate :: Annotation { lang : "ne" , tts : Some ("अर\u{94d}थडक\u{94d}स क\u{94d}रस") , keywords : & ["अर\u{94d}थडक\u{94d}स क\u{94d}रस" , "क\u{94d}रस" , "क\u{94d}रिस\u{94d}चियन" , "धर\u{94d}म"] , } , crate :: Annotation { lang : "nl" , tts : Some ("russisch kruis") , keywords : & ["christendom" , "kruis" , "religie" , "russisch kruis"] , } , crate :: Annotation { lang : "nn" , tts : Some ("ortodoks kross") , keywords : & ["kristen ortodoks" , "kross" , "ortodoks kross" , "religion"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଅର\u{b4d}ଥୋଡକ\u{b4d}ସ କ\u{b4d}ରସ\u{b4d}\u{200c}") , keywords : & ["ଅର\u{b4d}ଥୋଡକ\u{b4d}ସ କ\u{b4d}ରସ\u{b4d}\u{200c}" , "କ\u{b4d}ରସ\u{b4d}\u{200c}" , "ଖ\u{b4d}ରୀଷ\u{b4d}ଟ\u{b3f}ଆନ\u{b4d}\u{200c}" , "ଧର\u{b4d}ମ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਰ\u{a42}ੜ\u{a4d}ਹੀਬ\u{a71}ਧ ਕਰ\u{a4c}ਸ") , keywords : & ["ਇਸਾਈ" , "ਕ\u{a4d}ਰਾਸ ਦਾ ਚਿ\u{a70}ਨ\u{a4d}ਹ" , "ਧਰਮ" , "ਰ\u{a42}ੜ\u{a4d}ਹੀਬ\u{a71}ਧ ਕਰ\u{a4c}ਸ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("اورتھوڈکس کراس") , keywords : & ["اورتھوڈکس کراس" , "عیسائی" , "مذہب" , "پار کرنا"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Ọ\u{301}tọ\u{301}dọ\u{301}ks Krọs") , keywords : & ["Krístien" , "Krọs" , "Rilíjọn" , "Ọ\u{301}tọ\u{301}dọ\u{301}ks Krọs"] , } , crate :: Annotation { lang : "pl" , tts : Some ("krzyż prawosławny") , keywords : & ["chrześcijaństwo" , "krzyż" , "krzyż ortodoksyjny" , "krzyż prawosławny" , "krzyżyk" , "religia"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د ارتودکس صلیب") , keywords : & ["ارتودکس صليب" , "د ارتودکس صلیب" , "صليب" , "عيسايي" , "مذهب"] , } , crate :: Annotation { lang : "pt" , tts : Some ("cruz ortodoxa") , keywords : & ["cristão" , "cruz" , "cruz ortodoxa" , "religião"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["cristã" , "cruz" , "ortodoxa" , "religião"] , } , crate :: Annotation { lang : "qu" , tts : Some ("ortodoxa chakana") , keywords : & ["Cristiano" , "chakana" , "ortodoxa chakana" , "religion"] , } , crate :: Annotation { lang : "ro" , tts : Some ("cruce ortodoxă") , keywords : & ["creștinism" , "cruce" , "cruce ortodoxă" , "ortodoxie" , "religie"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-055") , keywords : & ["E10-055"] , } , crate :: Annotation { lang : "ru" , tts : Some ("православный крест") , keywords : & ["крест" , "православие" , "православный крест" , "религия"] , } , crate :: Annotation { lang : "rw" , tts : Some ("umusaraba w’aba-orthodox") , keywords : & ["Umukirisitiu" , "idini" , "umusaraba" , "umusaraba w’aba-orthodox"] , } , crate :: Annotation { lang : "sd" , tts : Some ("آرٿوڊوڪس ڪراس") , keywords : & ["آرٿوڊوڪس ڪراس" , "عيسائي" , "مذهب" , "ڪراس"] , } , crate :: Annotation { lang : "si" , tts : Some ("ස\u{dcf}ධ\u{dcf}ර\u{dca}ම\u{dd2}ක ක\u{dd4}ර\u{dd4}සය") , keywords : & ["ආගම" , "ක\u{dca}\u{200d}ර\u{dd2}ස\u{dca}ත\u{dd2}ය\u{dcf}න\u{dd2}" , "ක\u{dd4}ර\u{dd4}සය" , "ස\u{dcf}ධ\u{dcf}ර\u{dca}ම\u{dd2}ක ක\u{dd4}ර\u{dd4}සය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("pravoslávny kríž") , keywords : & ["kresťanské" , "kríž" , "náboženstvo" , "pravoslávny kríž"] , } , crate :: Annotation { lang : "sl" , tts : Some ("pravoslavni križ") , keywords : & ["križ" , "krščansko" , "pravoslavni križ" , "vera"] , } , crate :: Annotation { lang : "so" , tts : Some ("mactabka diinta asal-raacnimada") , keywords : & ["diin" , "mactab" , "mactabka diinta asal-raaca" , "mactabka diinta asal-raacnimada" , "qof masiixi"] , } , crate :: Annotation { lang : "sq" , tts : Some ("kryq ortodoks") , keywords : & ["fe" , "i krishterë" , "kryq" , "kryq ortodoks"] , } , crate :: Annotation { lang : "sr" , tts : Some ("православни крст") , keywords : & ["крст" , "православни крст" , "рeлигиja" , "хришћaнствo"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("pravoslavni krst") , keywords : & ["hrišćanstvo" , "krst" , "pravoslavni krst" , "religija"] , } , crate :: Annotation { lang : "sv" , tts : Some ("ortodoxt kors") , keywords : & ["kors" , "kristendom" , "ortodoxt kors" , "religion"] , } , crate :: Annotation { lang : "sw" , tts : Some ("msalaba") , keywords : & ["dini" , "mkristo" , "msalaba"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஆர\u{bcd}த\u{bcd}தோட\u{bbe}க\u{bcd}ஸ\u{bcd} சிலுவை") , keywords : & ["ஆர\u{bcd}த\u{bcd}தோட\u{bbe}க\u{bcd}ஸ\u{bcd} சிலுவை" , "ஆர\u{bcd}த\u{bcd}தோட\u{bbe}ஸ\u{bcd} சிலுவை" , "கிறிஸ\u{bcd}தவ மதம\u{bcd}" , "கிறிஸ\u{bcd}தவம\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("సన\u{c3e}తన క\u{c4d}ర\u{c3e}స\u{c4d}") , keywords : & ["క\u{c4d}ర\u{c3e}స\u{c4d}" , "క\u{c4d}ర\u{c48}స\u{c4d}తవుడు" , "మతం" , "సన\u{c3e}తన క\u{c4d}ర\u{c3e}స\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("салиби православӣ") , keywords : & ["Насронӣ" , "дин" , "салиб" , "салиби православӣ"] , } , crate :: Annotation { lang : "th" , tts : Some ("ไม\u{e49}กางเขนออร\u{e4c}โธดอกซ\u{e4c}") , keywords : & ["คร\u{e34}สต\u{e4c}" , "ศาสนา" , "ไม\u{e49}กางเขน" , "ไม\u{e49}กางเขนออร\u{e4c}โธดอกซ\u{e4c}"] , } , crate :: Annotation { lang : "ti" , tts : Some ("ናይ ኦርቶዶክስ መስቀል") , keywords : & ["ሃይማኖት" , "መስቀል" , "ናይ ኦርቶዶክስ መስቀል" , "ክርስትያን"] , } , crate :: Annotation { lang : "tk" , tts : Some ("prawoslaw haçy") , keywords : & ["Hristian" , "din" , "haç" , "prawoslaw haçy"] , } , crate :: Annotation { lang : "to" , tts : Some ("kolosi fakakalisi") , keywords : & ["fakakalisi" , "kolosi"] , } , crate :: Annotation { lang : "tr" , tts : Some ("Ortodoks haçı") , keywords : & ["Hristiyan" , "Ortodoks haçı" , "din" , "haç" , "İsa"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئورتودوكس") , keywords : & ["ئورتودوكس" , "خىرىستىيان" , "دىن" , "كىرېست"] , } , crate :: Annotation { lang : "uk" , tts : Some ("православний хрест") , keywords : & ["православний хрест" , "релігія" , "хрест" , "християнин"] , } , crate :: Annotation { lang : "ur" , tts : Some ("روایتی مذہبی کراس") , keywords : & ["روایتی مذہبی کراس" , "عیسائیت" , "مذہب" , "کراس"] , } , crate :: Annotation { lang : "uz" , tts : Some ("pravoslav xoch") , keywords : & ["din" , "nasroniylik" , "pravoslav xoch" , "xoch"] , } , crate :: Annotation { lang : "vi" , tts : Some ("thập giá chính thống giáo") , keywords : & ["cơ đốc" , "thập giá" , "thập giá chính thống giáo" , "tôn giáo"] , } , crate :: Annotation { lang : "wo" , tts : Some ("kruwaa ortodoks") , keywords : & ["Kreceŋ" , "diine" , "kruwaa" , "kruwaa ortodoks"] , } , crate :: Annotation { lang : "xh" , tts : Some ("umnqamlezo we-orthodox") , keywords : & ["Umkristu" , "umnqamlezo" , "umnqamlezo we-orthodox" , "unqulo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("àgbélèbú àtijó") , keywords : & ["àgbélèbú" , "àgbélèbú àtijó" , "ẹlẹ\u{301}sìn ìgbàgbó\u{329}" , "ẹ\u{300}sìn"] , } , crate :: Annotation { lang : "yue" , tts : Some ("正統十字架") , keywords : & ["十字架" , "基督教" , "宗教" , "正統十字架"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("正统十字架") , keywords : & ["十字架" , "基督教" , "宗教" , "正统十字架"] , } , crate :: Annotation { lang : "zh" , tts : Some ("东正教十字架") , keywords : & ["东正教" , "东正教十字架" , "十字架" , "基督" , "宗教"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("東正教十字架") , keywords : & ["十字架" , "東正教十字架"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("正教會十字") , keywords : & ["十字" , "十字架" , "東正教十字架" , "正教會十字"] , } , crate :: Annotation { lang : "zu" , tts : Some ("isiphambano senkolo") , keywords : & ["inkolo" , "isiphambano" , "isiphambano senkolo" , "ubukristu"] , }] , } ;
+pub const ORTHODOX_CROSS: crate::Emoji = crate::Emoji {
+    glyph: "☦\u{fe0f}",
+    codepoint: "2626 FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 1f32,
+    name: "orthodox cross",
+    group: "Symbols",
+    subgroup: "religion",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "☦",
+        codepoint: "2626",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "orthodox cross",
+        group: "Symbols",
+        subgroup: "religion",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("ortodokse kruis"),
+            keywords: &["christen", "godsdiens", "kruis", "ortodokse kruis"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የኦርቶዶክስ መስቀል"),
+            keywords: &["መስቀል", "ኃይማኖት", "ክርስትያን", "የኦርቶዶክስ መስቀል"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("صليب أرثوزوكس"),
+            keywords: &["دين", "صليب", "صليب أرثوزوكس", "مسيحية"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("অৰ\u{9cd}থডক\u{9cd}স ক\u{9cd}ৰ\u{9c1}ছ"),
+            keywords: &[
+                "অৰ\u{9cd}থডক\u{9cd}স ক\u{9cd}ৰ\u{9c1}ছ",
+                "ক\u{9cd}ৰ\u{9c1}ছ",
+                "খ\u{9cd}ৰীষ\u{9cd}ট\u{9cd}ৰিয\u{9bc}\u{9be}ন",
+                "ধৰ\u{9cd}ম",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("ortodoks xaçı"),
+            keywords: &["din", "ortodoks xaçı", "xaç", "xristian"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("праваслаўны крыж"),
+            keywords: &[
+                "крыж",
+                "праваслаўе",
+                "праваслаўны крыж",
+                "рэлігія",
+                "хрысціянства",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Православен кръст"),
+            keywords: &["Православен кръст", "кръст", "религия", "християнство"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("অর\u{9cd}থডক\u{9cd}স ক\u{9cd}রস"),
+            keywords: &[
+                "অর\u{9cd}থডক\u{9cd}স ক\u{9cd}রস",
+                "ক\u{9cd}রস",
+                "খ\u{9c3}স\u{9cd}ট\u{9be}ন",
+                "ধর\u{9cd}ম",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("kroaz ortodoks"),
+            keywords: &["kristen", "kroaz ortodoks", "relijion"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("pravoslavni krst"),
+            keywords: &["krst", "pravoslavlje", "pravoslavni krst", "religija"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("creu ortodoxa"),
+            keywords: &["creu", "ortodoxa", "religió"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᏂᏧᏏ ᎤᎾᏤᎵ ᏓᏓᎿᏫᏍᏛ"),
+            keywords: &["ᎠᏂᏧᏏ ᎤᎾᏤᎵ ᏓᏓᎿᏫᏍᏛ", "ᎤᏃᎯᏳᏒᎢ", "ᏓᏓᎿᏫᏍᏛ", "ᏧᏁᏟᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("pravoslavný kříž"),
+            keywords: &[
+                "křesťan",
+                "křesťanský",
+                "křesťanství",
+                "kříž",
+                "náboženství",
+                "pravoslavný kříž",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("croes uniongred"),
+            keywords: &["crefydd", "cristnogol", "croes", "croes uniongred"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("ortodokst kors"),
+            keywords: &["kors", "kristen", "ortodokst kors", "religion"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("orthodoxes Kreuz"),
+            keywords: &[
+                "Christentum",
+                "Kreuz",
+                "Orthodox",
+                "Religion",
+                "orthodoxes Kreuz",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ορθόδοξος σταυρός"),
+            keywords: &["θρησκεία", "ορθόδοξος σταυρός", "σταυρός", "χριστιανικός"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("orthodox cross"),
+            keywords: &["Christian", "cross", "orthodox cross", "religion"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("Orthodox cross"),
+            keywords: &["Christian", "Orthodox cross", "cross", "religion"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("cruz ortodoxa"),
+            keywords: &["cruz", "cruz ortodoxa", "religión"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["cristianismo", "cruz", "ortodoxa", "religión"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("õigeusu rist"),
+            keywords: &["kristlus", "rist", "usk", "õigeusu rist"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("gurutze ortodoxoa"),
+            keywords: &["erlijio", "gurutze", "gurutze ortodoxoa", "kristau"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("صلیب ارتدوکسی"),
+            keywords: &["صلیب", "صلیب ارتدوکسی", "مذهب", "مسیحیت"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ortodoksiristi"),
+            keywords: &[
+                "kristinusko",
+                "ortodoksiristi",
+                "ortodoksisuus",
+                "risti",
+                "uskonto",
+            ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("orthodox na krus"),
+            keywords: &[
+                "Kristiyanismo",
+                "Orthodox",
+                "krus",
+                "orthodox na krus",
+                "relihiyon",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("ortodoksur krossur"),
+            keywords: &[
+                "kristin",
+                "krossur",
+                "ortodoksur krossur",
+                "religión",
+                "trúgv",
+                "átrúnaður",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("croix orthodoxe"),
+            keywords: &["chrétien", "croix", "croix orthodoxe", "religion"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["chrétien", "croix", "orthodoxe", "réligion"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("cros ortadocsach"),
+            keywords: &["creideamh", "cros", "cros ortadocsach", "críostaí"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("crois nan Ortodogsach"),
+            keywords: &["creideamh", "crois", "crois nan Ortodogsach", "crìostaidh"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("cruz ortodoxa"),
+            keywords: &["cristianismo", "cruz", "cruz ortodoxa", "relixión"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ઑર\u{acd}થોડોક\u{acd}સ ક\u{acd}રોસ"),
+            keywords: &[
+                "ઑર\u{acd}થોડોક\u{acd}સ ક\u{acd}રોસ",
+                "ક\u{acd}રોસ",
+                "ધર\u{acd}મ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("kuros na gargajiya"),
+            keywords: &["Kirista", "addini", "kuros", "kuros na gargajiya"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("צלב אורתודוכסי"),
+            keywords: &["אורתודוכסי", "דת", "נוצרי", "נצרות", "צלב"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ऑर\u{94d}थडॉक\u{94d}स क\u{94d}रॉस"),
+            keywords: &[
+                "ईसाई",
+                "ऑर\u{94d}थडॉक\u{94d}स क\u{94d}रॉस",
+                "क\u{94d}रॉस",
+                "धर\u{94d}म",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("pravoslavni križ"),
+            keywords: &["križ", "kršćanstvo", "pravoslavni križ", "religija"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("ortodox kereszt"),
+            keywords: &["kereszt", "kereszténység", "ortodox kereszt", "vallás"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("ուղղափառ խաչ"),
+            keywords: &["խաչ", "կրոն", "ուղղափառ խաչ", "քրիստոնյա"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("salib ortodoks"),
+            keywords: &["agama", "kristen", "salib", "salib ortodoks"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("obe ọthọdọsụ"),
+            keywords: &["Ndị òtù Christi", "obe", "obe ọthọdọsụ", "okpukperechi"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("rétttrúnaðarkross"),
+            keywords: &["kristni", "kross", "rétttrúnaðarkross", "trúarbrögð"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("croce ortodossa"),
+            keywords: &[
+                "Cristianesimo",
+                "croce",
+                "croce ortodossa",
+                "ortodossi",
+                "religione",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("八端十字架"),
+            keywords: &["キリスト教", "八端十字架", "十字架", "宗教"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("salib ortodoks"),
+            keywords: &["Kristen", "agama", "salib", "salib ortodoks"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("მართმადიდებლური ჯვარი"),
+            keywords: &[
+                "მართმადიდებლური ჯვარი",
+                "რელიგია",
+                "ქრისტიანობა",
+                "ქრისტიანული",
+                "ჯვარი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("ортодоксалдық крест"),
+            keywords: &["дін", "крест", "ортодоксалдық крест", "христиан"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("ortodokst kors"),
+            keywords: &["kors", "kristen", "ortodokst kors", "religion"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("សញ\u{17d2}ញាឈើឆ\u{17d2}កាងប\u{17bb}រាណ"),
+            keywords: &[
+                "ឈើឆ\u{17d2}កាង",
+                "សញ\u{17d2}ញា",
+                "សញ\u{17d2}ញាឈើឆ\u{17d2}កាងប\u{17bb}រាណ",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಸಾಂಪ\u{ccd}ರದಾಯ\u{cbf}ಕ ಕ\u{ccd}ರಾಸ\u{ccd}"),
+            keywords: &[
+                "ಕ\u{ccd}ರಾಸ\u{ccd}",
+                "ಕ\u{ccd}ರ\u{cbf}ಶ\u{ccd}ಚ\u{cbf}ಯನ\u{ccd}",
+                "ಧರ\u{ccd}ಮ",
+                "ಸಾಂಪ\u{ccd}ರದಾಯ\u{cbf}ಕ ಕ\u{ccd}ರಾಸ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("전통적인 십자가"),
+            keywords: &["기독교", "십자가", "전통적인 십자가", "종교"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("सनातनी क\u{94d}रॉस"),
+            keywords: &[
+                "क\u{94d}रॉस",
+                "ख\u{94d}रिश\u{94d}चन",
+                "धर\u{94d}म",
+                "सनातनी क\u{94d}रॉस",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("ортодокс крести"),
+            keywords: &["дин", "крест", "ортодокс крести", "христиан"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("orthodoxt Kräiz"),
+            keywords: &["Kräiz", "Relioun", "chrëschtlech", "orthodoxt Kräiz"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ໄມ\u{ec9}ກາງເຂນໂອທ\u{ecd}ດ\u{eb1}ອກ"),
+            keywords: &[
+                "ໂອທ\u{ecd}ດ\u{eb1}ອກ",
+                "ໄມ\u{ec9}ກາງເຂນ",
+                "ໄມ\u{ec9}ກາງເຂນໂອທ\u{ecd}ດ\u{eb1}ອກ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("ortodoksų kryžius"),
+            keywords: &["krikščionis", "kryžius", "ortodoksų kryžius", "religija"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("pareizticīgo krusts"),
+            keywords: &[
+                "kristietība",
+                "krusts",
+                "pareizticība",
+                "pareizticīgo krusts",
+                "reliģija",
+            ],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("rīpeka tukuiho"),
+            keywords: &["karaitiana", "momo karakia", "rīpeka", "rīpeka tukuiho"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("православен крст"),
+            keywords: &["крст", "православен крст", "религија", "христијанство"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ഓർത\u{d4d}തഡോക\u{d4d}\u{200c}സ\u{d4d} ക\u{d4d}രോസ\u{d4d}"),
+            keywords: &[
+                "ഓർത\u{d4d}തഡോക\u{d4d}\u{200c}സ\u{d4d} ക\u{d4d}രോസ\u{d4d}",
+                "ക\u{d41}രിശ\u{d4d}",
+                "ക\u{d4d}രിസ\u{d4d}\u{200c}ത\u{d41}മതം",
+                "മതം",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("ортодокс загалмай"),
+            keywords: &["Христийн", "загалмай", "ортодокс загалмай", "шашин"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("ऑर\u{94d}थोडॉक\u{94d}स क\u{94d}रॉस"),
+            keywords: &[
+                "ऑर\u{94d}थोडॉक\u{94d}स क\u{94d}रॉस",
+                "क\u{94d}रॉस",
+                "ख\u{94d}रिश\u{94d}चन",
+                "धर\u{94d}म",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("salib ortodoks"),
+            keywords: &["agama", "kristian", "salib", "salib ortodoks"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("salib ortodoss"),
+            keywords: &["Kristjan", "reliġjon", "salib", "salib ortodoss"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "ရ\u{103e}ေးရ\u{102d}\u{102f}းခရစ\u{103a}ယာန\u{103a} အသင\u{103a}းတော\u{103a} လက\u{103a}ဝါးကပ\u{103a}တ\u{102d}\u{102f}င\u{103a}",
+            ),
+            keywords: &[
+                "ကားတ\u{102d}\u{102f}င\u{103a}",
+                "ခရစ\u{103a}ယာန\u{103a}",
+                "ဘာသာရေး",
+                "ရ\u{103e}ေးရ\u{102d}\u{102f}းခရစ\u{103a}ယာန\u{103a} အသင\u{103a}းတော\u{103a} လက\u{103a}ဝါးကပ\u{103a}တ\u{102d}\u{102f}င\u{103a}",
+                "အောတ\u{102d}\u{102f}ဒ\u{102d}\u{102f}စ\u{103a} ကားတ\u{102d}\u{102f}င\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("ortodokst kors"),
+            keywords: &["kors", "kristen", "ortodoks", "ortodokst kors", "religion"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("अर\u{94d}थडक\u{94d}स क\u{94d}रस"),
+            keywords: &[
+                "अर\u{94d}थडक\u{94d}स क\u{94d}रस",
+                "क\u{94d}रस",
+                "क\u{94d}रिस\u{94d}चियन",
+                "धर\u{94d}म",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("russisch kruis"),
+            keywords: &["christendom", "kruis", "religie", "russisch kruis"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("ortodoks kross"),
+            keywords: &["kristen ortodoks", "kross", "ortodoks kross", "religion"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଅର\u{b4d}ଥୋଡକ\u{b4d}ସ କ\u{b4d}ରସ\u{b4d}\u{200c}"),
+            keywords: &[
+                "ଅର\u{b4d}ଥୋଡକ\u{b4d}ସ କ\u{b4d}ରସ\u{b4d}\u{200c}",
+                "କ\u{b4d}ରସ\u{b4d}\u{200c}",
+                "ଖ\u{b4d}ରୀଷ\u{b4d}ଟ\u{b3f}ଆନ\u{b4d}\u{200c}",
+                "ଧର\u{b4d}ମ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਰ\u{a42}ੜ\u{a4d}ਹੀਬ\u{a71}ਧ ਕਰ\u{a4c}ਸ"),
+            keywords: &[
+                "ਇਸਾਈ",
+                "ਕ\u{a4d}ਰਾਸ ਦਾ ਚਿ\u{a70}ਨ\u{a4d}ਹ",
+                "ਧਰਮ",
+                "ਰ\u{a42}ੜ\u{a4d}ਹੀਬ\u{a71}ਧ ਕਰ\u{a4c}ਸ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("اورتھوڈکس کراس"),
+            keywords: &["اورتھوڈکس کراس", "عیسائی", "مذہب", "پار کرنا"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Ọ\u{301}tọ\u{301}dọ\u{301}ks Krọs"),
+            keywords: &[
+                "Krístien",
+                "Krọs",
+                "Rilíjọn",
+                "Ọ\u{301}tọ\u{301}dọ\u{301}ks Krọs",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("krzyż prawosławny"),
+            keywords: &[
+                "chrześcijaństwo",
+                "krzyż",
+                "krzyż ortodoksyjny",
+                "krzyż prawosławny",
+                "krzyżyk",
+                "religia",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د ارتودکس صلیب"),
+            keywords: &["ارتودکس صليب", "د ارتودکس صلیب", "صليب", "عيسايي", "مذهب"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("cruz ortodoxa"),
+            keywords: &["cristão", "cruz", "cruz ortodoxa", "religião"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["cristã", "cruz", "ortodoxa", "religião"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("ortodoxa chakana"),
+            keywords: &["Cristiano", "chakana", "ortodoxa chakana", "religion"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("cruce ortodoxă"),
+            keywords: &[
+                "creștinism",
+                "cruce",
+                "cruce ortodoxă",
+                "ortodoxie",
+                "religie",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-055"),
+            keywords: &["E10-055"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("православный крест"),
+            keywords: &["крест", "православие", "православный крест", "религия"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("umusaraba w’aba-orthodox"),
+            keywords: &[
+                "Umukirisitiu",
+                "idini",
+                "umusaraba",
+                "umusaraba w’aba-orthodox",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("آرٿوڊوڪس ڪراس"),
+            keywords: &["آرٿوڊوڪس ڪراس", "عيسائي", "مذهب", "ڪراس"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ස\u{dcf}ධ\u{dcf}ර\u{dca}ම\u{dd2}ක ක\u{dd4}ර\u{dd4}සය"),
+            keywords: &[
+                "ආගම",
+                "ක\u{dca}\u{200d}ර\u{dd2}ස\u{dca}ත\u{dd2}ය\u{dcf}න\u{dd2}",
+                "ක\u{dd4}ර\u{dd4}සය",
+                "ස\u{dcf}ධ\u{dcf}ර\u{dca}ම\u{dd2}ක ක\u{dd4}ර\u{dd4}සය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("pravoslávny kríž"),
+            keywords: &["kresťanské", "kríž", "náboženstvo", "pravoslávny kríž"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("pravoslavni križ"),
+            keywords: &["križ", "krščansko", "pravoslavni križ", "vera"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("mactabka diinta asal-raacnimada"),
+            keywords: &[
+                "diin",
+                "mactab",
+                "mactabka diinta asal-raaca",
+                "mactabka diinta asal-raacnimada",
+                "qof masiixi",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("kryq ortodoks"),
+            keywords: &["fe", "i krishterë", "kryq", "kryq ortodoks"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("православни крст"),
+            keywords: &["крст", "православни крст", "рeлигиja", "хришћaнствo"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("pravoslavni krst"),
+            keywords: &["hrišćanstvo", "krst", "pravoslavni krst", "religija"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("ortodoxt kors"),
+            keywords: &["kors", "kristendom", "ortodoxt kors", "religion"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("msalaba"),
+            keywords: &["dini", "mkristo", "msalaba"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஆர\u{bcd}த\u{bcd}தோட\u{bbe}க\u{bcd}ஸ\u{bcd} சிலுவை"),
+            keywords: &[
+                "ஆர\u{bcd}த\u{bcd}தோட\u{bbe}க\u{bcd}ஸ\u{bcd} சிலுவை",
+                "ஆர\u{bcd}த\u{bcd}தோட\u{bbe}ஸ\u{bcd} சிலுவை",
+                "கிறிஸ\u{bcd}தவ மதம\u{bcd}",
+                "கிறிஸ\u{bcd}தவம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("సన\u{c3e}తన క\u{c4d}ర\u{c3e}స\u{c4d}"),
+            keywords: &[
+                "క\u{c4d}ర\u{c3e}స\u{c4d}",
+                "క\u{c4d}ర\u{c48}స\u{c4d}తవుడు",
+                "మతం",
+                "సన\u{c3e}తన క\u{c4d}ర\u{c3e}స\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("салиби православӣ"),
+            keywords: &["Насронӣ", "дин", "салиб", "салиби православӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ไม\u{e49}กางเขนออร\u{e4c}โธดอกซ\u{e4c}"),
+            keywords: &[
+                "คร\u{e34}สต\u{e4c}",
+                "ศาสนา",
+                "ไม\u{e49}กางเขน",
+                "ไม\u{e49}กางเขนออร\u{e4c}โธดอกซ\u{e4c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ናይ ኦርቶዶክስ መስቀል"),
+            keywords: &["ሃይማኖት", "መስቀል", "ናይ ኦርቶዶክስ መስቀል", "ክርስትያን"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("prawoslaw haçy"),
+            keywords: &["Hristian", "din", "haç", "prawoslaw haçy"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("kolosi fakakalisi"),
+            keywords: &["fakakalisi", "kolosi"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("Ortodoks haçı"),
+            keywords: &["Hristiyan", "Ortodoks haçı", "din", "haç", "İsa"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئورتودوكس"),
+            keywords: &["ئورتودوكس", "خىرىستىيان", "دىن", "كىرېست"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("православний хрест"),
+            keywords: &["православний хрест", "релігія", "хрест", "християнин"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("روایتی مذہبی کراس"),
+            keywords: &["روایتی مذہبی کراس", "عیسائیت", "مذہب", "کراس"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("pravoslav xoch"),
+            keywords: &["din", "nasroniylik", "pravoslav xoch", "xoch"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("thập giá chính thống giáo"),
+            keywords: &[
+                "cơ đốc",
+                "thập giá",
+                "thập giá chính thống giáo",
+                "tôn giáo",
+            ],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("kruwaa ortodoks"),
+            keywords: &["Kreceŋ", "diine", "kruwaa", "kruwaa ortodoks"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("umnqamlezo we-orthodox"),
+            keywords: &["Umkristu", "umnqamlezo", "umnqamlezo we-orthodox", "unqulo"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("àgbélèbú àtijó"),
+            keywords: &[
+                "àgbélèbú",
+                "àgbélèbú àtijó",
+                "ẹlẹ\u{301}sìn ìgbàgbó\u{329}",
+                "ẹ\u{300}sìn",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("正統十字架"),
+            keywords: &["十字架", "基督教", "宗教", "正統十字架"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("正统十字架"),
+            keywords: &["十字架", "基督教", "宗教", "正统十字架"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("东正教十字架"),
+            keywords: &["东正教", "东正教十字架", "十字架", "基督", "宗教"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("東正教十字架"),
+            keywords: &["十字架", "東正教十字架"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("正教會十字"),
+            keywords: &["十字", "十字架", "東正教十字架", "正教會十字"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("isiphambano senkolo"),
+            keywords: &["inkolo", "isiphambano", "isiphambano senkolo", "ubukristu"],
+        },
+    ],
+};
 #[doc = "☪\u{fe0f}"]
 pub const STAR_AND_CRESCENT: crate::Emoji = crate::Emoji {
     glyph: "☪\u{fe0f}",
@@ -6965,4 +8604,829 @@ pub const MENORAH: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🔯"]
-pub const DOTTED_SIX_POINTED_STAR : crate :: Emoji = crate :: Emoji { glyph : "🔯" , codepoint : "1F52F" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "dotted six-pointed star" , group : "Symbols" , subgroup : "religion" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("sespuntster met kol") , keywords : & ["fortuin" , "sespuntster met kol" , "ster"] , } , crate :: Annotation { lang : "am" , tts : Some ("ባለነጥብ ስድስት አንጓ ኮከብ") , keywords : & ["ሀብት" , "ባለነጥብ ስድስት አንጓ ኮከብ" , "ኮከብ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("نجمة سداسية") , keywords : & ["تنجيم" , "نجمة" , "نجمة سداسية"] , } , crate :: Annotation { lang : "as" , tts : Some ("ষষ\u{9cd}ঠম\u{9c1}খী বিন\u{9cd}দ\u{9c1}য\u{9c1}ক\u{9cd}ত তৰ\u{9be}") , keywords : & ["তৰ\u{9be}" , "ভ\u{9be}গ\u{9cd}য" , "ষষ\u{9cd}ঠম\u{9c1}খী বিন\u{9cd}দ\u{9c1}য\u{9c1}ক\u{9cd}ত তৰ\u{9be}"] , } , crate :: Annotation { lang : "az" , tts : Some ("nöqtəli altıguşəli ulduz") , keywords : & ["nöqtəli altıguşəli ulduz" , "ulduz" , "var-dövlət"] , } , crate :: Annotation { lang : "be" , tts : Some ("шасціканцовая зорка з кропкай") , keywords : & ["Давід" , "зорка" , "шасціканцовая" , "шасціканцовая зорка з кропкай"] , } , crate :: Annotation { lang : "bg" , tts : Some ("шестолъчна звезда с точка") , keywords : & ["звезда" , "съдба" , "шестолъчна звезда с точка"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ডট-য\u{9c1}ক\u{9cd}ত ছটি পয\u{9bc}েন\u{9cd}টের ত\u{9be}র\u{9be}") , keywords : & ["ডট-য\u{9c1}ক\u{9cd}ত ছটি পয\u{9bc}েন\u{9cd}টের ত\u{9be}র\u{9be}" , "ত\u{9be}র\u{9be}" , "সৌভ\u{9be}গ\u{9cd}য"] , } , crate :: Annotation { lang : "br" , tts : Some ("steredenn cʼhwecʼh brecʼh") , keywords : & ["chañs" , "steredenn" , "steredenn cʼhwecʼh brecʼh"] , } , crate :: Annotation { lang : "bs" , tts : Some ("šestokraka zvijezda s tačkom u sredini") , keywords : & ["zvijezda" , "šestokraka zvijezda s tačkom u sredini"] , } , crate :: Annotation { lang : "ca" , tts : Some ("estrella de sis puntes amb punt") , keywords : & ["estrella" , "estrella de sis puntes amb punt" , "fortuna" , "punt" , "sis puntes"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏅᏥ ᏑᏓᎵ-ᏕᎪᏍᏓᏯ ᏃᏈᏏ") , keywords : & ["ᎤᏅᏥ ᏑᏓᎵ-ᏕᎪᏍᏓᏯ ᏃᏈᏏ" , "ᎤᏪᎿ" , "ᏃᏈᏏ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("šesticípá hvězda s tečkou uprostřed") , keywords : & ["hvězda" , "šesticípá hvězda s tečkou uprostřed" , "štěstí" , "štěstěna" , "šťastná"] , } , crate :: Annotation { lang : "cy" , tts : Some ("seren chwe ochr dotiog") , keywords : & ["ffortiwn" , "seren" , "seren chwe ochr dotiog"] , } , crate :: Annotation { lang : "da" , tts : Some ("sekstakket stjerne med prik") , keywords : & ["horoskop" , "sekstakket stjerne med prik" , "stjerne"] , } , crate :: Annotation { lang : "de" , tts : Some ("Hexagramm mit Punkt") , keywords : & ["Hexagramm mit Punkt" , "Wahrsager"] , } , crate :: Annotation { lang : "el" , tts : Some ("εξάλφα με σημάδι") , keywords : & ["αστέρι" , "εξάλφα με σημάδι" , "τύχη"] , } , crate :: Annotation { lang : "en" , tts : Some ("dotted six-pointed star") , keywords : & ["dotted six-pointed star" , "fortune" , "star"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("estrella de seis puntas") , keywords : & ["adivinación" , "buena fortuna" , "estrella" , "estrella de seis puntas" , "seis puntas"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("estrella de seis puntas") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["David" , "estrella de David" , "estrella de seis puntas" , "hexagrama"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("punktiga kuusnurkne täht") , keywords : & ["punktiga kuusnurkne täht" , "täht" , "õnn"] , } , crate :: Annotation { lang : "eu" , tts : Some ("erdian puntu bat duen sei puntako izarra") , keywords : & ["erdian puntu bat duen sei puntako izarra" , "izar" , "zorte"] , } , crate :: Annotation { lang : "fa" , tts : Some ("ستاره\u{654} شش\u{200c}پر") , keywords : & ["اقبال" , "بخت" , "ستاره" , "ستاره\u{654} شش\u{200c}پر"] , } , crate :: Annotation { lang : "fi" , tts : Some ("kuusisakarainen tähti pisteellä") , keywords : & ["kuusisakarainen tähti pisteellä" , "onnentähti" , "tähti" , "uskonto"] , } , crate :: Annotation { lang : "fil" , tts : Some ("six-pointed star na may tuldok") , keywords : & ["David" , "Hudyo" , "Judaism" , "bituin" , "relihiyon" , "six-pointed star na may tuldok" , "tuldok"] , } , crate :: Annotation { lang : "fo" , tts : Some ("stjørna við seks spískum") , keywords : & ["eydna" , "lagna" , "stjørna" , "stjørna við seks spískum"] , } , crate :: Annotation { lang : "fr" , tts : Some ("étoile à 6 branches") , keywords : & ["chance" , "étoile" , "étoile à 6 branches"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("étoile à 6 branches et point au milieu") , keywords : & ["6 branches" , "fortune" , "six branches" , "étoile" , "étoile à 6 branches et point au milieu"] , } , crate :: Annotation { lang : "ga" , tts : Some ("réalta shé-rinneach le ponc sa lár") , keywords : & ["réalta shé-rinneach le ponc sa lár" , "réalta sé-rinneach agus ponc sa lár"] , } , crate :: Annotation { lang : "gd" , tts : Some ("rionnag shia-rinneach dhotagach") , keywords : & ["fortan" , "reul" , "rionnag" , "rionnag shia-rinneach dhotagach"] , } , crate :: Annotation { lang : "gl" , tts : Some ("estrela de seis puntas con punto") , keywords : & ["adiviñación" , "estrela de David" , "estrela de seis puntas con punto"] , } , crate :: Annotation { lang : "gu" , tts : Some ("છ-પોઇ\u{a82}ટવાળો તારો") , keywords : & ["છ-પોઇ\u{a82}ટવાળો" , "તારો" , "ભાગ\u{acd}ય" , "ભાગ\u{acd}ય કથન"] , } , crate :: Annotation { lang : "ha" , tts : Some ("tauraro mai tsini-shida mai ɗigo") , keywords : & ["dukiya" , "tauraro" , "tauraro mai tsini-shida mai ɗigo"] , } , crate :: Annotation { lang : "he" , tts : Some ("מגן דוד עם נקודה באמצע") , keywords : & ["דת" , "יהדות" , "יהודי" , "מגן דוד" , "מגן דוד עם נקודה באמצע"] , } , crate :: Annotation { lang : "hi" , tts : Some ("छह म\u{941}खी तारा, भविष\u{94d}य") , keywords : & ["छह म\u{941}खी तारा" , "छह म\u{941}खी तारा, भविष\u{94d}य" , "छह सिर\u{947}" , "तारा" , "भविष\u{94d}य" , "भविष\u{94d}य बताना"] , } , crate :: Annotation { lang : "hr" , tts : Some ("šesterokraka zvijezda s točkom") , keywords : & ["sreća" , "zvijezda" , "šesterokraka zvijezda s točkom"] , } , crate :: Annotation { lang : "hu" , tts : Some ("hatágú csillag ponttal") , keywords : & ["csillag" , "hatágú csillag ponttal" , "szerencse"] , } , crate :: Annotation { lang : "hy" , tts : Some ("կետիկով վեցթևանի աստղ") , keywords : & ["աստղ" , "բախտ" , "կետիկով վեցթևանի աստղ"] , } , crate :: Annotation { lang : "id" , tts : Some ("bintang sudut enam bertitik") , keywords : & ["bintang" , "bintang sudut enam bertitik" , "ramalan"] , } , crate :: Annotation { lang : "ig" , tts : Some ("nwere ntụpọ nrụaka kpakpando-isii") , keywords : & ["kpakpando" , "nwere ntụpọ nrụaka kpakpando-isii" , "uru"] , } , crate :: Annotation { lang : "is" , tts : Some ("sexhyrnd stjarna") , keywords : & ["sexhyrnd" , "spá" , "spádómur" , "stjarna"] , } , crate :: Annotation { lang : "it" , tts : Some ("stella a sei punte") , keywords : & ["chiromanzia" , "futuro" , "sei punte" , "stella" , "stella a sei punte"] , } , crate :: Annotation { lang : "ja" , tts : Some ("六芒星") , keywords : & ["ダビデ" , "六芒星" , "六角星" , "占い" , "星"] , } , crate :: Annotation { lang : "jv" , tts : Some ("lintang mata enem mawa titik tengah") , keywords : & ["kabegjan" , "lintang" , "lintang mata enem mawa titik tengah"] , } , crate :: Annotation { lang : "ka" , tts : Some ("შემოზღუდული ექვსქიმიანი ვარსკვლავი") , keywords : & ["ვარსკვლავი" , "მომავალი" , "შემოზღუდული ექვსქიმიანი ვარსკვლავი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("нүктелі алты бұрышты жұлдыз") , keywords : & ["жұлдыз" , "нүктелі алты бұрышты жұлдыз" , "сәттілік"] , } , crate :: Annotation { lang : "kl" , tts : Some ("sekstakket stjerne med prik") , keywords : & ["horoskop" , "sekstakket stjerne med prik" , "stjerne"] , } , crate :: Annotation { lang : "km" , tts : Some ("សញ\u{17d2}ញាផ\u{17d2}កាយម\u{17bb}ខប\u{17d2}រា\u{17c6}ម\u{17bd}យ") , keywords : & ["ប\u{17d2}រា\u{17c6}ម\u{17bd}យ" , "ផ\u{17d2}កាយ" , "សញ\u{17d2}ញា" , "សញ\u{17d2}ញាផ\u{17d2}កាយម\u{17bb}ខប\u{17d2}រា\u{17c6}ម\u{17bd}យ"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಚುಕ\u{ccd}ಕ\u{cc6}ಗಳ ಆರು ಬ\u{cbf}ಂದುಗಳ ನಕ\u{ccd}ಷತ\u{ccd}ರ") , keywords : & ["ಅದೃಷ\u{ccd}ಟ" , "ಆರು ಬ\u{cbf}ಂದುಗಳ ನಕ\u{ccd}ಷತ\u{ccd}ರದ" , "ಚುಕ\u{ccd}ಕ\u{cc6}ಗಳ ಆರು ಬ\u{cbf}ಂದುಗಳ ನಕ\u{ccd}ಷತ\u{ccd}ರ" , "ನಕ\u{ccd}ಷತ\u{ccd}ರ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("육각 별") , keywords : & ["별" , "육각 별" , "육각형 별"] , } , crate :: Annotation { lang : "kok" , tts : Some ("बि\u{902}द\u{941}\u{902}च\u{947}\u{902} स-आ\u{902}सा\u{902}च\u{947}\u{902} नख\u{947}त\u{94d}र") , keywords : & ["नख\u{947}त\u{94d}र" , "फॉर\u{94d}च\u{94d}य\u{941}न" , "बि\u{902}द\u{941}\u{902}च\u{947}\u{902} स-आ\u{902}सा\u{902}च\u{947}\u{902} नख\u{947}त\u{94d}र"] , } , crate :: Annotation { lang : "ky" , tts : Some ("чекиттүү алты жылдыз") , keywords : & ["жылдыз" , "тагдыр" , "чекиттүү алты жылдыз"] , } , crate :: Annotation { lang : "lb" , tts : Some ("sechszackege Stär mat Punkt an der Mëtt") , keywords : & ["Gléck" , "Stär" , "sechszackege Stär mat Punkt an der Mëtt"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ດາວຫ\u{ebc}\u{ebb}ກແຈມ\u{eb5}ຈ\u{ecd}\u{ec9}າຢ\u{eb9}\u{ec8}ກາງ") , keywords : & ["ຈ\u{ecd}\u{ec9}າກາງ" , "ດາວ" , "ດາວຫ\u{ebc}\u{ebb}ກແຈມ\u{eb5}ຈ\u{ecd}\u{ec9}າຢ\u{eb9}\u{ec8}ກາງ" , "ຫ\u{ebc}\u{ebb}ກແຈ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("šešiakampė žvaigždė su tašku") , keywords : & ["sėkmė" , "šešiakampė žvaigždė su tašku" , "žvaigždė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("sešstaru zvaigzne ar punktu vidū") , keywords : & ["laime" , "sešstaru zvaigzne ar punktu vidū" , "zvaigzne"] , } , crate :: Annotation { lang : "mi" , tts : Some ("whetū ono-pito iraira") , keywords : & ["matakite" , "whetū" , "whetū ono-pito iraira"] , } , crate :: Annotation { lang : "mk" , tts : Some ("шестокрака ѕвезда со точка") , keywords : & ["религија" , "шестокрака ѕвезда со точка" , "ѕвезда" , "јудаизам"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ഭ\u{d3e}വി പ\u{d4d}രവചനം") , keywords : & ["ആറ\u{d4d} മ\u{d42}ലകള\u{d41}ള\u{d4d}ള നക\u{d4d}ഷത\u{d4d}രം" , "നക\u{d4d}ഷത\u{d4d}രം" , "ഭ\u{d3e}വി" , "ഭ\u{d3e}വി പ\u{d4d}രവചനം"] , } , crate :: Annotation { lang : "mn" , tts : Some ("6 хошуутай од") , keywords : & ["6" , "6 хошуутай од" , "од" , "хошуу"] , } , crate :: Annotation { lang : "mr" , tts : Some ("बि\u{902}द\u{942} असल\u{947}ला सहा टोका\u{902}चा तारा") , keywords : & ["तारा" , "बि\u{902}द\u{942} असल\u{947}ला सहा टोका\u{902}चा तारा" , "भविष\u{94d}य"] , } , crate :: Annotation { lang : "ms" , tts : Some ("bintang berpenjuru enam berbintik") , keywords : & ["bintang" , "bintang berpenjuru enam berbintik" , "nasib"] , } , crate :: Annotation { lang : "mt" , tts : Some ("stilla bit-tikek b’sitt ponot") , keywords : & ["fortuna" , "stilla" , "stilla bit-tikek b’sitt ponot"] , } , crate :: Annotation { lang : "my" , tts : Some ("အစက\u{103a}ချထားသည\u{1037}\u{103a} ခြောက\u{103a}ထောင\u{1037}\u{103a}ကြယ\u{103a}") , keywords : & ["က\u{1036}" , "ကြယ\u{103a}" , "အစက\u{103a}ချထားသည\u{1037}\u{103a} ခြောက\u{103a}ထောင\u{1037}\u{103a}ကြယ\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("sekstagget stjerne med prikk") , keywords : & ["magi" , "sekskantet" , "sekstagget stjerne med prikk" , "stjerne"] , } , crate :: Annotation { lang : "ne" , tts : Some ("डट गर\u{947}को-छ-विन\u{94d}द\u{942} तारा") , keywords : & ["डट गर\u{947}को-छ-विन\u{94d}द\u{942} तारा" , "तारा" , "भाग\u{94d}य"] , } , crate :: Annotation { lang : "nl" , tts : Some ("zespuntige ster") , keywords : & ["ster" , "waarzeggen" , "zespuntige ster"] , } , crate :: Annotation { lang : "nn" , tts : Some ("sekstagga stjerne med prikk") , keywords : & ["magi" , "sekskanta" , "sekstagga stjerne med prikk" , "stjerne"] , } , crate :: Annotation { lang : "or" , tts : Some ("ବ\u{b3f}ନ\u{b4d}ଦ\u{b41}ଯ\u{b41}କ\u{b4d}ତ ଛଅ-ପଏଣ\u{b4d}ଟ ବ\u{b3f}ଶ\u{b3f}ଷ\u{b4d}ଟ ତ\u{b3e}ର\u{b3e}") , keywords : & ["ତ\u{b3e}ର\u{b3e}" , "ଫର\u{b4d}ଚ\u{b4d}ୟ\u{b42}ନ\u{b4d}\u{200c}" , "ବ\u{b3f}ନ\u{b4d}ଦ\u{b41}ଯ\u{b41}କ\u{b4d}ତ ଛଅ-ପଏଣ\u{b4d}ଟ ବ\u{b3f}ଶ\u{b3f}ଷ\u{b4d}ଟ ତ\u{b3e}ର\u{b3e}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਛ\u{a47}-ਬਿ\u{a70}ਦ\u{a42} ਤਾਰਾ") , keywords : & ["ਕਿਸਮਤ" , "ਕਿਸਮਤ ਦਸਣਾ" , "ਛ\u{a47}-ਬਿ\u{a70}ਦ\u{a42}" , "ਤਾਰਾ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("نقطہ لگے چھے ـ نوکدار ستارے") , keywords : & ["تارہ" , "قسمت" , "نقطہ لگے چھے ـ نوکدار ستارے"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Síks Pọínt Sta Wit Dọt Fọ Mídul") , keywords : & ["Bíg Mọní" , "Fọ\u{301}tiun" , "Lọk" , "Ríchis" , "Sta" , "Síks Pọínt Sta Wit Dọt Fọ Mídul"] , } , crate :: Annotation { lang : "pl" , tts : Some ("gwiazda sześcioramienna z kropką") , keywords : & ["gwiazda sześcioramienna z kropką" , "szczęście"] , } , crate :: Annotation { lang : "ps" , tts : Some ("داغدار شپږ ګوټی ستوری") , keywords : & ["داغدار شپږ ګوټی ستوری" , "ستوری" , "نصيب"] , } , crate :: Annotation { lang : "pt" , tts : Some ("estrela de seis pontas") , keywords : & ["adivinhação" , "destino" , "estrela de seis pontas" , "seis pontas"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("estrela de seis pontas com ponto") , keywords : & ["estrela" , "estrela de seis pontas com ponto" , "sorte"] , } , crate :: Annotation { lang : "qu" , tts : Some ("suqta ñawpinkunawan quyllur") , keywords : & ["fortuna" , "quyllur" , "suqta ñawpinkunawan quyllur"] , } , crate :: Annotation { lang : "ro" , tts : Some ("stea cu șase colțuri și punct în centru") , keywords : & ["noroc" , "stea" , "stea cu șase colțuri și punct în centru"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-747") , keywords : & ["E10-747"] , } , crate :: Annotation { lang : "ru" , tts : Some ("шестиконечная звезда") , keywords : & ["звезда" , "звезда Давида" , "шестиконечная звезда"] , } , crate :: Annotation { lang : "rw" , tts : Some ("inyenyeri ifite amaguru atandatu") , keywords : & ["amahirwe" , "inyenyeri" , "inyenyeri ifite amaguru atandatu"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڊاٽ وارو ڇھ نقطن وارو تارو") , keywords : & ["ستارو" , "قسمت" , "ڊاٽ وارو ڇھ نقطن وارو تارو"] , } , crate :: Annotation { lang : "si" , tts : Some ("ත\u{dd2}ත\u{dca} සහ\u{dd2}ත කොණ\u{dca}-6 තර\u{dd4}ව") , keywords : & ["තර\u{dd4}ව" , "ත\u{dd2}ත\u{dca} සහ\u{dd2}ත කොණ\u{dca}-6 තර\u{dd4}ව" , "ව\u{dcf}සන\u{dcf}ව"] , } , crate :: Annotation { lang : "sk" , tts : Some ("šesťcípa hviezda s bodkou uprostred") , keywords : & ["hviezda" , "šesťcípa hviezda s bodkou uprostred" , "šťastie"] , } , crate :: Annotation { lang : "sl" , tts : Some ("šestkraka zvezda s piko") , keywords : & ["sreča" , "zvezda" , "šestkraka zvezda s piko"] , } , crate :: Annotation { lang : "so" , tts : Some ("xiddig lix geeslood oo dhibic leh") , keywords : & ["maal" , "xidddig lix geesood oo dhibic leh" , "xiddig" , "xiddig lix geeslood oo dhibic leh"] , } , crate :: Annotation { lang : "sq" , tts : Some ("yll me gjashtë cepa me pikë") , keywords : & ["fat" , "yll" , "yll me gjashtë cepa me pikë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("шестокрака звезда са тачком") , keywords : & ["звeздa" , "срeћa" , "шестокрака звезда са тачком"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("шестокрака звијезда са тачком") , keywords : & ["шестокрака звијезда са тачком"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("šestokraka zvezda sa tačkom") , keywords : & ["sreća" , "zvezda" , "šestokraka zvezda sa tačkom"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("šestokraka zvijezda sa tačkom") , keywords : & ["šestokraka zvijezda sa tačkom"] , } , crate :: Annotation { lang : "sv" , tts : Some ("sexuddig stjärna med prick") , keywords : & ["sexuddig stjärna med prick" , "spådom" , "stjärna"] , } , crate :: Annotation { lang : "sw" , tts : Some ("nyota yenye pembe sita na kitone katikati") , keywords : & ["bahati" , "nyota" , "nyota yenye pembe sita na kitone katikati"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஆறு முனை நட\u{bcd}சத\u{bcd}திரம\u{bcd}") , keywords : & ["ஆறு முனை நட\u{bcd}சத\u{bcd}திரம\u{bcd}" , "நட\u{bcd}சத\u{bcd}திரம\u{bcd}" , "ஸ\u{bcd}ட\u{bbe}ர\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("చుక\u{c4d}కలత\u{c4b} ఆరు క\u{c4b}ణ\u{c3e}ల నక\u{c4d}షత\u{c4d}రం") , keywords : & ["ఆరు క\u{c4b}ణ\u{c3e}ల నక\u{c4d}షత\u{c4d}రం" , "చుక\u{c4d}కలత\u{c4b} ఆరు క\u{c4b}ణ\u{c3e}ల నక\u{c4d}షత\u{c4d}రం" , "యూద\u{c3f}య\u{c3e} మతం చ\u{c3f}హ\u{c4d}నం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("ситораи холдори шашгӯша") , keywords : & ["ситора" , "ситораи холдори шашгӯша" , "тақдир"] , } , crate :: Annotation { lang : "th" , tts : Some ("ดาว 6 แฉก") , keywords : & ["ดาว" , "ดาว 6 แฉก"] , } , crate :: Annotation { lang : "ti" , tts : Some ("ነጥብጣብ 6-ጫፍ ኮኾብ") , keywords : & ["ነጥብጣብ 6-ጫፍ ኮኾብ" , "ኮኾብ" , "ዕድል"] , } , crate :: Annotation { lang : "tk" , tts : Some ("nokatly altyburç ýyldyz") , keywords : & ["nokatly altyburç ýyldyz" , "pal" , "ýyldyz"] , } , crate :: Annotation { lang : "to" , tts : Some ("fetuʻu tapaono moe ʻila") , keywords : & ["fetuʻu" , "fetuʻu tapaono moe ʻila" , "tapaono" , "ʻila"] , } , crate :: Annotation { lang : "tr" , tts : Some ("altı köşeli yıldız") , keywords : & ["altı köşeli" , "altı köşeli yıldız" , "fal" , "fal bakma" , "yıldız"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئالتە بۇرجەكلىك يۇلتۇز") , keywords : & ["ئالتە بۇرجەكلىك يۇلتۇز" , "خەزىنە" , "يۇلتۇز"] , } , crate :: Annotation { lang : "uk" , tts : Some ("шестикутна зірка з крапкою") , keywords : & ["зірка" , "удача" , "шестикутна зірка з крапкою"] , } , crate :: Annotation { lang : "ur" , tts : Some ("نکتہ دار چھ کونوں والا ستارہ") , keywords : & ["ستارہ" , "قسمت" , "نکتہ دار چھ کونوں والا ستارہ" , "چھ" , "کونے"] , } , crate :: Annotation { lang : "uz" , tts : Some ("nuqtali olti qirrali yulduz") , keywords : & ["nuqtali olti qirrali yulduz" , "taqdir" , "yulduz"] , } , crate :: Annotation { lang : "vi" , tts : Some ("ngôi sao sáu cánh có dấu chấm") , keywords : & ["may mắn" , "ngôi sao" , "ngôi sao sáu cánh có dấu chấm"] , } , crate :: Annotation { lang : "wo" , tts : Some ("biddéewu 6 car") , keywords : & ["biddeew" , "biddéewu 6 car" , "wërsëk"] , } , crate :: Annotation { lang : "xh" , tts : Some ("inkwenkwezi eneekona ezintandathu enechaphaza") , keywords : & ["inkwenkwezi" , "inkwenkwezi eneekona ezintandathu enechaphaza" , "ithamsanqa"] , } , crate :: Annotation { lang : "yo" , tts : Some ("irawọ totooto oni-mẹfa") , keywords : & ["irawọ totooto oni-mẹfa" , "oríre" , "ìràwọ\u{300}"] , } , crate :: Annotation { lang : "yue" , tts : Some ("有點嘅六角星") , keywords : & ["幸運" , "星" , "有點嘅六角星"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("有点嘅六角星") , keywords : & ["幸运" , "星" , "有点嘅六角星"] , } , crate :: Annotation { lang : "zh" , tts : Some ("带中间点的六芒星") , keywords : & ["六角星" , "命运" , "带中间点的六芒星"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("六芒星加圓點") , keywords : & ["六芒星加圓點" , "六角星"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("中間帶點的六角星") , keywords : & ["中間帶點的六角星" , "六角星"] , } , crate :: Annotation { lang : "zu" , tts : Some ("intanyezi enechashazi ekhombe kasithupha") , keywords : & ["inhlanhla" , "inkanyezi" , "intanyezi enechashazi ekhombe kasithupha"] , }] , } ;
+pub const DOTTED_SIX_POINTED_STAR: crate::Emoji = crate::Emoji {
+    glyph: "🔯",
+    codepoint: "1F52F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "dotted six-pointed star",
+    group: "Symbols",
+    subgroup: "religion",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("sespuntster met kol"),
+            keywords: &["fortuin", "sespuntster met kol", "ster"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ባለነጥብ ስድስት አንጓ ኮከብ"),
+            keywords: &["ሀብት", "ባለነጥብ ስድስት አንጓ ኮከብ", "ኮከብ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("نجمة سداسية"),
+            keywords: &["تنجيم", "نجمة", "نجمة سداسية"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ষষ\u{9cd}ঠম\u{9c1}খী বিন\u{9cd}দ\u{9c1}য\u{9c1}ক\u{9cd}ত তৰ\u{9be}"),
+            keywords: &[
+                "তৰ\u{9be}",
+                "ভ\u{9be}গ\u{9cd}য",
+                "ষষ\u{9cd}ঠম\u{9c1}খী বিন\u{9cd}দ\u{9c1}য\u{9c1}ক\u{9cd}ত তৰ\u{9be}",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("nöqtəli altıguşəli ulduz"),
+            keywords: &["nöqtəli altıguşəli ulduz", "ulduz", "var-dövlət"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("шасціканцовая зорка з кропкай"),
+            keywords: &[
+                "Давід",
+                "зорка",
+                "шасціканцовая",
+                "шасціканцовая зорка з кропкай",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("шестолъчна звезда с точка"),
+            keywords: &["звезда", "съдба", "шестолъчна звезда с точка"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ডট-য\u{9c1}ক\u{9cd}ত ছটি পয\u{9bc}েন\u{9cd}টের ত\u{9be}র\u{9be}"),
+            keywords: &[
+                "ডট-য\u{9c1}ক\u{9cd}ত ছটি পয\u{9bc}েন\u{9cd}টের ত\u{9be}র\u{9be}",
+                "ত\u{9be}র\u{9be}",
+                "সৌভ\u{9be}গ\u{9cd}য",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("steredenn cʼhwecʼh brecʼh"),
+            keywords: &["chañs", "steredenn", "steredenn cʼhwecʼh brecʼh"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("šestokraka zvijezda s tačkom u sredini"),
+            keywords: &["zvijezda", "šestokraka zvijezda s tačkom u sredini"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("estrella de sis puntes amb punt"),
+            keywords: &[
+                "estrella",
+                "estrella de sis puntes amb punt",
+                "fortuna",
+                "punt",
+                "sis puntes",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎤᏅᏥ ᏑᏓᎵ-ᏕᎪᏍᏓᏯ ᏃᏈᏏ"),
+            keywords: &["ᎤᏅᏥ ᏑᏓᎵ-ᏕᎪᏍᏓᏯ ᏃᏈᏏ", "ᎤᏪᎿ", "ᏃᏈᏏ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("šesticípá hvězda s tečkou uprostřed"),
+            keywords: &[
+                "hvězda",
+                "šesticípá hvězda s tečkou uprostřed",
+                "štěstí",
+                "štěstěna",
+                "šťastná",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("seren chwe ochr dotiog"),
+            keywords: &["ffortiwn", "seren", "seren chwe ochr dotiog"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("sekstakket stjerne med prik"),
+            keywords: &["horoskop", "sekstakket stjerne med prik", "stjerne"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Hexagramm mit Punkt"),
+            keywords: &["Hexagramm mit Punkt", "Wahrsager"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("εξάλφα με σημάδι"),
+            keywords: &["αστέρι", "εξάλφα με σημάδι", "τύχη"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("dotted six-pointed star"),
+            keywords: &["dotted six-pointed star", "fortune", "star"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("estrella de seis puntas"),
+            keywords: &[
+                "adivinación",
+                "buena fortuna",
+                "estrella",
+                "estrella de seis puntas",
+                "seis puntas",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("estrella de seis puntas"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "David",
+                "estrella de David",
+                "estrella de seis puntas",
+                "hexagrama",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("punktiga kuusnurkne täht"),
+            keywords: &["punktiga kuusnurkne täht", "täht", "õnn"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("erdian puntu bat duen sei puntako izarra"),
+            keywords: &["erdian puntu bat duen sei puntako izarra", "izar", "zorte"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("ستاره\u{654} شش\u{200c}پر"),
+            keywords: &["اقبال", "بخت", "ستاره", "ستاره\u{654} شش\u{200c}پر"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("kuusisakarainen tähti pisteellä"),
+            keywords: &[
+                "kuusisakarainen tähti pisteellä",
+                "onnentähti",
+                "tähti",
+                "uskonto",
+            ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("six-pointed star na may tuldok"),
+            keywords: &[
+                "David",
+                "Hudyo",
+                "Judaism",
+                "bituin",
+                "relihiyon",
+                "six-pointed star na may tuldok",
+                "tuldok",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("stjørna við seks spískum"),
+            keywords: &["eydna", "lagna", "stjørna", "stjørna við seks spískum"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("étoile à 6 branches"),
+            keywords: &["chance", "étoile", "étoile à 6 branches"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("étoile à 6 branches et point au milieu"),
+            keywords: &[
+                "6 branches",
+                "fortune",
+                "six branches",
+                "étoile",
+                "étoile à 6 branches et point au milieu",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("réalta shé-rinneach le ponc sa lár"),
+            keywords: &[
+                "réalta shé-rinneach le ponc sa lár",
+                "réalta sé-rinneach agus ponc sa lár",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("rionnag shia-rinneach dhotagach"),
+            keywords: &[
+                "fortan",
+                "reul",
+                "rionnag",
+                "rionnag shia-rinneach dhotagach",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("estrela de seis puntas con punto"),
+            keywords: &[
+                "adiviñación",
+                "estrela de David",
+                "estrela de seis puntas con punto",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("છ-પોઇ\u{a82}ટવાળો તારો"),
+            keywords: &[
+                "છ-પોઇ\u{a82}ટવાળો",
+                "તારો",
+                "ભાગ\u{acd}ય",
+                "ભાગ\u{acd}ય કથન",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("tauraro mai tsini-shida mai ɗigo"),
+            keywords: &["dukiya", "tauraro", "tauraro mai tsini-shida mai ɗigo"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("מגן דוד עם נקודה באמצע"),
+            keywords: &["דת", "יהדות", "יהודי", "מגן דוד", "מגן דוד עם נקודה באמצע"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("छह म\u{941}खी तारा, भविष\u{94d}य"),
+            keywords: &[
+                "छह म\u{941}खी तारा",
+                "छह म\u{941}खी तारा, भविष\u{94d}य",
+                "छह सिर\u{947}",
+                "तारा",
+                "भविष\u{94d}य",
+                "भविष\u{94d}य बताना",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("šesterokraka zvijezda s točkom"),
+            keywords: &["sreća", "zvijezda", "šesterokraka zvijezda s točkom"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("hatágú csillag ponttal"),
+            keywords: &["csillag", "hatágú csillag ponttal", "szerencse"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("կետիկով վեցթևանի աստղ"),
+            keywords: &["աստղ", "բախտ", "կետիկով վեցթևանի աստղ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("bintang sudut enam bertitik"),
+            keywords: &["bintang", "bintang sudut enam bertitik", "ramalan"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("nwere ntụpọ nrụaka kpakpando-isii"),
+            keywords: &["kpakpando", "nwere ntụpọ nrụaka kpakpando-isii", "uru"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("sexhyrnd stjarna"),
+            keywords: &["sexhyrnd", "spá", "spádómur", "stjarna"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("stella a sei punte"),
+            keywords: &[
+                "chiromanzia",
+                "futuro",
+                "sei punte",
+                "stella",
+                "stella a sei punte",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("六芒星"),
+            keywords: &["ダビデ", "六芒星", "六角星", "占い", "星"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("lintang mata enem mawa titik tengah"),
+            keywords: &["kabegjan", "lintang", "lintang mata enem mawa titik tengah"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("შემოზღუდული ექვსქიმიანი ვარსკვლავი"),
+            keywords: &[
+                "ვარსკვლავი",
+                "მომავალი",
+                "შემოზღუდული ექვსქიმიანი ვარსკვლავი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("нүктелі алты бұрышты жұлдыз"),
+            keywords: &["жұлдыз", "нүктелі алты бұрышты жұлдыз", "сәттілік"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("sekstakket stjerne med prik"),
+            keywords: &["horoskop", "sekstakket stjerne med prik", "stjerne"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("សញ\u{17d2}ញាផ\u{17d2}កាយម\u{17bb}ខប\u{17d2}រា\u{17c6}ម\u{17bd}យ"),
+            keywords: &[
+                "ប\u{17d2}រា\u{17c6}ម\u{17bd}យ",
+                "ផ\u{17d2}កាយ",
+                "សញ\u{17d2}ញា",
+                "សញ\u{17d2}ញាផ\u{17d2}កាយម\u{17bb}ខប\u{17d2}រា\u{17c6}ម\u{17bd}យ",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಚುಕ\u{ccd}ಕ\u{cc6}ಗಳ ಆರು ಬ\u{cbf}ಂದುಗಳ ನಕ\u{ccd}ಷತ\u{ccd}ರ"),
+            keywords: &[
+                "ಅದೃಷ\u{ccd}ಟ",
+                "ಆರು ಬ\u{cbf}ಂದುಗಳ ನಕ\u{ccd}ಷತ\u{ccd}ರದ",
+                "ಚುಕ\u{ccd}ಕ\u{cc6}ಗಳ ಆರು ಬ\u{cbf}ಂದುಗಳ ನಕ\u{ccd}ಷತ\u{ccd}ರ",
+                "ನಕ\u{ccd}ಷತ\u{ccd}ರ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("육각 별"),
+            keywords: &["별", "육각 별", "육각형 별"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some(
+                "बि\u{902}द\u{941}\u{902}च\u{947}\u{902} स-आ\u{902}सा\u{902}च\u{947}\u{902} नख\u{947}त\u{94d}र",
+            ),
+            keywords: &[
+                "नख\u{947}त\u{94d}र",
+                "फॉर\u{94d}च\u{94d}य\u{941}न",
+                "बि\u{902}द\u{941}\u{902}च\u{947}\u{902} स-आ\u{902}सा\u{902}च\u{947}\u{902} नख\u{947}त\u{94d}र",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("чекиттүү алты жылдыз"),
+            keywords: &["жылдыз", "тагдыр", "чекиттүү алты жылдыз"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("sechszackege Stär mat Punkt an der Mëtt"),
+            keywords: &["Gléck", "Stär", "sechszackege Stär mat Punkt an der Mëtt"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ດາວຫ\u{ebc}\u{ebb}ກແຈມ\u{eb5}ຈ\u{ecd}\u{ec9}າຢ\u{eb9}\u{ec8}ກາງ"),
+            keywords: &[
+                "ຈ\u{ecd}\u{ec9}າກາງ",
+                "ດາວ",
+                "ດາວຫ\u{ebc}\u{ebb}ກແຈມ\u{eb5}ຈ\u{ecd}\u{ec9}າຢ\u{eb9}\u{ec8}ກາງ",
+                "ຫ\u{ebc}\u{ebb}ກແຈ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("šešiakampė žvaigždė su tašku"),
+            keywords: &["sėkmė", "šešiakampė žvaigždė su tašku", "žvaigždė"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("sešstaru zvaigzne ar punktu vidū"),
+            keywords: &["laime", "sešstaru zvaigzne ar punktu vidū", "zvaigzne"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("whetū ono-pito iraira"),
+            keywords: &["matakite", "whetū", "whetū ono-pito iraira"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("шестокрака ѕвезда со точка"),
+            keywords: &[
+                "религија",
+                "шестокрака ѕвезда со точка",
+                "ѕвезда",
+                "јудаизам",
+            ],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ഭ\u{d3e}വി പ\u{d4d}രവചനം"),
+            keywords: &[
+                "ആറ\u{d4d} മ\u{d42}ലകള\u{d41}ള\u{d4d}ള നക\u{d4d}ഷത\u{d4d}രം",
+                "നക\u{d4d}ഷത\u{d4d}രം",
+                "ഭ\u{d3e}വി",
+                "ഭ\u{d3e}വി പ\u{d4d}രവചനം",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("6 хошуутай од"),
+            keywords: &["6", "6 хошуутай од", "од", "хошуу"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("बि\u{902}द\u{942} असल\u{947}ला सहा टोका\u{902}चा तारा"),
+            keywords: &[
+                "तारा",
+                "बि\u{902}द\u{942} असल\u{947}ला सहा टोका\u{902}चा तारा",
+                "भविष\u{94d}य",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("bintang berpenjuru enam berbintik"),
+            keywords: &["bintang", "bintang berpenjuru enam berbintik", "nasib"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("stilla bit-tikek b’sitt ponot"),
+            keywords: &["fortuna", "stilla", "stilla bit-tikek b’sitt ponot"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "အစက\u{103a}ချထားသည\u{1037}\u{103a} ခြောက\u{103a}ထောင\u{1037}\u{103a}ကြယ\u{103a}",
+            ),
+            keywords: &[
+                "က\u{1036}",
+                "ကြယ\u{103a}",
+                "အစက\u{103a}ချထားသည\u{1037}\u{103a} ခြောက\u{103a}ထောင\u{1037}\u{103a}ကြယ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("sekstagget stjerne med prikk"),
+            keywords: &[
+                "magi",
+                "sekskantet",
+                "sekstagget stjerne med prikk",
+                "stjerne",
+            ],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("डट गर\u{947}को-छ-विन\u{94d}द\u{942} तारा"),
+            keywords: &[
+                "डट गर\u{947}को-छ-विन\u{94d}द\u{942} तारा",
+                "तारा",
+                "भाग\u{94d}य",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("zespuntige ster"),
+            keywords: &["ster", "waarzeggen", "zespuntige ster"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("sekstagga stjerne med prikk"),
+            keywords: &[
+                "magi",
+                "sekskanta",
+                "sekstagga stjerne med prikk",
+                "stjerne",
+            ],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some(
+                "ବ\u{b3f}ନ\u{b4d}ଦ\u{b41}ଯ\u{b41}କ\u{b4d}ତ ଛଅ-ପଏଣ\u{b4d}ଟ ବ\u{b3f}ଶ\u{b3f}ଷ\u{b4d}ଟ ତ\u{b3e}ର\u{b3e}",
+            ),
+            keywords: &[
+                "ତ\u{b3e}ର\u{b3e}",
+                "ଫର\u{b4d}ଚ\u{b4d}ୟ\u{b42}ନ\u{b4d}\u{200c}",
+                "ବ\u{b3f}ନ\u{b4d}ଦ\u{b41}ଯ\u{b41}କ\u{b4d}ତ ଛଅ-ପଏଣ\u{b4d}ଟ ବ\u{b3f}ଶ\u{b3f}ଷ\u{b4d}ଟ ତ\u{b3e}ର\u{b3e}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਛ\u{a47}-ਬਿ\u{a70}ਦ\u{a42} ਤਾਰਾ"),
+            keywords: &["ਕਿਸਮਤ", "ਕਿਸਮਤ ਦਸਣਾ", "ਛ\u{a47}-ਬਿ\u{a70}ਦ\u{a42}", "ਤਾਰਾ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("نقطہ لگے چھے ـ نوکدار ستارے"),
+            keywords: &["تارہ", "قسمت", "نقطہ لگے چھے ـ نوکدار ستارے"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Síks Pọínt Sta Wit Dọt Fọ Mídul"),
+            keywords: &[
+                "Bíg Mọní",
+                "Fọ\u{301}tiun",
+                "Lọk",
+                "Ríchis",
+                "Sta",
+                "Síks Pọínt Sta Wit Dọt Fọ Mídul",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("gwiazda sześcioramienna z kropką"),
+            keywords: &["gwiazda sześcioramienna z kropką", "szczęście"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("داغدار شپږ ګوټی ستوری"),
+            keywords: &["داغدار شپږ ګوټی ستوری", "ستوری", "نصيب"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("estrela de seis pontas"),
+            keywords: &[
+                "adivinhação",
+                "destino",
+                "estrela de seis pontas",
+                "seis pontas",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("estrela de seis pontas com ponto"),
+            keywords: &["estrela", "estrela de seis pontas com ponto", "sorte"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("suqta ñawpinkunawan quyllur"),
+            keywords: &["fortuna", "quyllur", "suqta ñawpinkunawan quyllur"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("stea cu șase colțuri și punct în centru"),
+            keywords: &["noroc", "stea", "stea cu șase colțuri și punct în centru"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-747"),
+            keywords: &["E10-747"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("шестиконечная звезда"),
+            keywords: &["звезда", "звезда Давида", "шестиконечная звезда"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("inyenyeri ifite amaguru atandatu"),
+            keywords: &["amahirwe", "inyenyeri", "inyenyeri ifite amaguru atandatu"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڊاٽ وارو ڇھ نقطن وارو تارو"),
+            keywords: &["ستارو", "قسمت", "ڊاٽ وارو ڇھ نقطن وارو تارو"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ත\u{dd2}ත\u{dca} සහ\u{dd2}ත කොණ\u{dca}-6 තර\u{dd4}ව"),
+            keywords: &[
+                "තර\u{dd4}ව",
+                "ත\u{dd2}ත\u{dca} සහ\u{dd2}ත කොණ\u{dca}-6 තර\u{dd4}ව",
+                "ව\u{dcf}සන\u{dcf}ව",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("šesťcípa hviezda s bodkou uprostred"),
+            keywords: &["hviezda", "šesťcípa hviezda s bodkou uprostred", "šťastie"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("šestkraka zvezda s piko"),
+            keywords: &["sreča", "zvezda", "šestkraka zvezda s piko"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("xiddig lix geeslood oo dhibic leh"),
+            keywords: &[
+                "maal",
+                "xidddig lix geesood oo dhibic leh",
+                "xiddig",
+                "xiddig lix geeslood oo dhibic leh",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("yll me gjashtë cepa me pikë"),
+            keywords: &["fat", "yll", "yll me gjashtë cepa me pikë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("шестокрака звезда са тачком"),
+            keywords: &["звeздa", "срeћa", "шестокрака звезда са тачком"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("шестокрака звијезда са тачком"),
+            keywords: &["шестокрака звијезда са тачком"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("šestokraka zvezda sa tačkom"),
+            keywords: &["sreća", "zvezda", "šestokraka zvezda sa tačkom"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("šestokraka zvijezda sa tačkom"),
+            keywords: &["šestokraka zvijezda sa tačkom"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("sexuddig stjärna med prick"),
+            keywords: &["sexuddig stjärna med prick", "spådom", "stjärna"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("nyota yenye pembe sita na kitone katikati"),
+            keywords: &[
+                "bahati",
+                "nyota",
+                "nyota yenye pembe sita na kitone katikati",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஆறு முனை நட\u{bcd}சத\u{bcd}திரம\u{bcd}"),
+            keywords: &[
+                "ஆறு முனை நட\u{bcd}சத\u{bcd}திரம\u{bcd}",
+                "நட\u{bcd}சத\u{bcd}திரம\u{bcd}",
+                "ஸ\u{bcd}ட\u{bbe}ர\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("చుక\u{c4d}కలత\u{c4b} ఆరు క\u{c4b}ణ\u{c3e}ల నక\u{c4d}షత\u{c4d}రం"),
+            keywords: &[
+                "ఆరు క\u{c4b}ణ\u{c3e}ల నక\u{c4d}షత\u{c4d}రం",
+                "చుక\u{c4d}కలత\u{c4b} ఆరు క\u{c4b}ణ\u{c3e}ల నక\u{c4d}షత\u{c4d}రం",
+                "యూద\u{c3f}య\u{c3e} మతం చ\u{c3f}హ\u{c4d}నం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("ситораи холдори шашгӯша"),
+            keywords: &["ситора", "ситораи холдори шашгӯша", "тақдир"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ดาว 6 แฉก"),
+            keywords: &["ดาว", "ดาว 6 แฉก"],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ነጥብጣብ 6-ጫፍ ኮኾብ"),
+            keywords: &["ነጥብጣብ 6-ጫፍ ኮኾብ", "ኮኾብ", "ዕድል"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("nokatly altyburç ýyldyz"),
+            keywords: &["nokatly altyburç ýyldyz", "pal", "ýyldyz"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("fetuʻu tapaono moe ʻila"),
+            keywords: &["fetuʻu", "fetuʻu tapaono moe ʻila", "tapaono", "ʻila"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("altı köşeli yıldız"),
+            keywords: &[
+                "altı köşeli",
+                "altı köşeli yıldız",
+                "fal",
+                "fal bakma",
+                "yıldız",
+            ],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئالتە بۇرجەكلىك يۇلتۇز"),
+            keywords: &["ئالتە بۇرجەكلىك يۇلتۇز", "خەزىنە", "يۇلتۇز"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("шестикутна зірка з крапкою"),
+            keywords: &["зірка", "удача", "шестикутна зірка з крапкою"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("نکتہ دار چھ کونوں والا ستارہ"),
+            keywords: &[
+                "ستارہ",
+                "قسمت",
+                "نکتہ دار چھ کونوں والا ستارہ",
+                "چھ",
+                "کونے",
+            ],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("nuqtali olti qirrali yulduz"),
+            keywords: &["nuqtali olti qirrali yulduz", "taqdir", "yulduz"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("ngôi sao sáu cánh có dấu chấm"),
+            keywords: &["may mắn", "ngôi sao", "ngôi sao sáu cánh có dấu chấm"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("biddéewu 6 car"),
+            keywords: &["biddeew", "biddéewu 6 car", "wërsëk"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("inkwenkwezi eneekona ezintandathu enechaphaza"),
+            keywords: &[
+                "inkwenkwezi",
+                "inkwenkwezi eneekona ezintandathu enechaphaza",
+                "ithamsanqa",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("irawọ totooto oni-mẹfa"),
+            keywords: &["irawọ totooto oni-mẹfa", "oríre", "ìràwọ\u{300}"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("有點嘅六角星"),
+            keywords: &["幸運", "星", "有點嘅六角星"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("有点嘅六角星"),
+            keywords: &["幸运", "星", "有点嘅六角星"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("带中间点的六芒星"),
+            keywords: &["六角星", "命运", "带中间点的六芒星"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("六芒星加圓點"),
+            keywords: &["六芒星加圓點", "六角星"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("中間帶點的六角星"),
+            keywords: &["中間帶點的六角星", "六角星"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("intanyezi enechashazi ekhombe kasithupha"),
+            keywords: &[
+                "inhlanhla",
+                "inkanyezi",
+                "intanyezi enechashazi ekhombe kasithupha",
+            ],
+        },
+    ],
+};

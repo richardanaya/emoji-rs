@@ -3508,7 +3508,809 @@ pub const AIRPLANE_ARRIVAL: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🪂"]
-pub const PARACHUTE : crate :: Emoji = crate :: Emoji { glyph : "🪂" , codepoint : "1FA82" , status : crate :: Status :: FullyQualified , introduction_version : 12f32 , name : "parachute" , group : "Travel & Places" , subgroup : "transport-air" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("valskerm") , keywords : & ["hangsweef" , "sweefseil" , "valskerm" , "valskermspring"] , } , crate :: Annotation { lang : "am" , tts : Some ("ጃንጥላ") , keywords : & ["መስቀያ" , "ዝላይ" , "የሰማይ ዝላይ" , "ጃንጥላ" , "ፓራሹት"] , } , crate :: Annotation { lang : "ar" , tts : Some ("باراشوت") , keywords : & ["إبحار بالمظلات الهوائية" , "باراشوت" , "مظلة هبوط"] , } , crate :: Annotation { lang : "as" , tts : Some ("পেৰ\u{9be}চ\u{9c1}ট") , keywords : & ["পেৰ\u{9be}চ\u{9c1}ট" , "পেৰ\u{9be}ছে’ল" , "স\u{9cd}ক\u{9be}ইড\u{9be}ইভ" , "হেং গ\u{9cd}ল\u{9be}ইড"] , } , crate :: Annotation { lang : "az" , tts : Some ("paraşüt") , keywords : & ["parayelkən" , "paraşüt" , "səma dayvı"] , } , crate :: Annotation { lang : "be" , tts : Some ("парашут") , keywords : & ["дэльтаплан" , "парасэйлінг" , "парашут" , "скайдайвінг"] , } , crate :: Annotation { lang : "bg" , tts : Some ("парашут") , keywords : & ["делтапланеризъм" , "парасейлинг" , "парашут" , "парашутизъм" , "скок с парашут"] , } , crate :: Annotation { lang : "bn" , tts : Some ("প\u{9cd}য\u{9be}র\u{9be}শ\u{9c1}ট") , keywords : & ["প\u{9cd}য\u{9be}র\u{9be}শ\u{9c1}ট" , "প\u{9cd}য\u{9be}র\u{9be}সেইল" , "স\u{9cd}ক\u{9be}ইড\u{9be}ইভ" , "হ\u{9cd}য\u{9be}ং-গ\u{9cd}ল\u{9be}ইড"] , } , crate :: Annotation { lang : "br" , tts : Some ("harz-lamm") , keywords : & ["bolcʼhaskell" , "harz-lamm"] , } , crate :: Annotation { lang : "bs" , tts : Some ("padobran") , keywords : & ["letenje zmajem" , "padobran" , "parasailing" , "skakanje padobranom"] , } , crate :: Annotation { lang : "ca" , tts : Some ("paracaigudes") , keywords : & ["ala delta" , "paracaigudes" , "paracaigudisme" , "paracaigudista" , "parapent"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏍᎦᏃᎵ ᎦᎶᏍᎬ") , keywords : & ["ᎤᏍᎦᏃᎵ ᎦᎶᏍᎬ" , "ᎦᎸᎳᏗ ᎠᏕᏛᏍᎦ" , "ᎦᎸᎳᏗ ᎦᏏᏁᎦ" , "ᎦᏃᎯᎵᏙᎯ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("padák") , keywords : & ["padák" , "paragliding" , "parašutismus" , "plachtění" , "seskok s padákem" , "závěsné létání"] , } , crate :: Annotation { lang : "cy" , tts : Some ("parasiwt") , keywords : & ["barcuta" , "neidio o awyren" , "parasiwt"] , } , crate :: Annotation { lang : "da" , tts : Some ("faldskærm") , keywords : & ["faldskærm" , "hangglider" , "paraglider" , "skydiver"] , } , crate :: Annotation { lang : "de" , tts : Some ("Fallschirm") , keywords : & ["Fallschirm" , "Fallschirmspringen" , "Paragliding" , "Skydiving"] , } , crate :: Annotation { lang : "el" , tts : Some ("αλεξίπτωτο") , keywords : & ["αιωροπτερισμός" , "αλεξίπτωτο" , "αλεξίπτωτο θαλάσσης" , "πτώση με αλεξίπτωτο"] , } , crate :: Annotation { lang : "en" , tts : Some ("parachute") , keywords : & ["hang-glide" , "parachute" , "parasail" , "skydive"] , } , crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["hang-glide" , "parachute" , "parasail" , "parascend" , "skydive"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["hang-glide" , "parachute" , "parasail" , "parascend" , "skydive"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("paracaídas") , keywords : & ["ala delta" , "paracaidismo" , "paracaídas" , "paravela" , "volar"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("langevarjur") , keywords : & ["langevari" , "langevarjuga hüppamine" , "langevarjuhüpe" , "langevarjur"] , } , crate :: Annotation { lang : "eu" , tts : Some ("paraxuta") , keywords : & ["delta hegal" , "parasail" , "paraxut" , "paraxuta"] , } , crate :: Annotation { lang : "fa" , tts : Some ("چتر نجات") , keywords : & ["پاراسیلینگ" , "چتر نجات" , "چتربازی" , "کایت\u{200c}سواری"] , } , crate :: Annotation { lang : "fi" , tts : Some ("laskuvarjo") , keywords : & ["laskuvarjo" , "laskuvarjohyppy" , "riippuliito" , "varjoliito"] , } , crate :: Annotation { lang : "fil" , tts : Some ("parachute") , keywords : & ["hang-glide" , "pag-skydive" , "paglipad sa ere" , "parachute" , "parasail"] , } , crate :: Annotation { lang : "fo" , tts : Some ("fallskíggi") , keywords : & ["fallskíggi" , "fallskíggjalop" , "loftkavari"] , } , crate :: Annotation { lang : "fr" , tts : Some ("parachute") , keywords : & ["parachute" , "parachute ascensionnel" , "parapente"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["chute libre" , "parachute" , "parachute ascensionnel" , "parapente"] , } , crate :: Annotation { lang : "ga" , tts : Some ("paraisiút") , keywords : & ["faileoir crochta" , "paraisheol" , "paraisiút" , "spéirthumadóireacht"] , } , crate :: Annotation { lang : "gd" , tts : Some ("paraisiut") , keywords : & ["daibheadh-speura" , "daoibhigeadh-adhair" , "paraisiut"] , } , crate :: Annotation { lang : "gl" , tts : Some ("paracaídas") , keywords : & ["paracaidismo" , "paracaídas" , "parapente"] , } , crate :: Annotation { lang : "gu" , tts : Some ("પ\u{ac7}રાશ\u{ac2}ટ") , keywords : & ["પ\u{ac7}રાશ\u{ac2}ટ" , "પ\u{ac7}રાસ\u{ac7}લ" , "સ\u{acd}કાયડાઇવ" , "હ\u{ac7}\u{a82}ગ-ગ\u{acd}લાઇડ"] , } , crate :: Annotation { lang : "he" , tts : Some ("מצנח") , keywords : & ["גלישה" , "מצנח" , "צניחה" , "רחיפה"] , } , crate :: Annotation { lang : "hi" , tts : Some ("प\u{948}राश\u{942}ट") , keywords : & ["ग\u{94d}लाइडर" , "प\u{948}राश\u{942}ट" , "प\u{948}रास\u{947}ल" , "स\u{94d}काईडाइव"] , } , crate :: Annotation { lang : "hr" , tts : Some ("padobran") , keywords : & ["padobran" , "paraglajd" , "paraglajder" , "parajedrilica"] , } , crate :: Annotation { lang : "hu" , tts : Some ("ejtőernyő") , keywords : & ["ejtőernyő" , "siklóernyő"] , } , crate :: Annotation { lang : "hy" , tts : Some ("անկարգել") , keywords : & ["անկարգել" , "պարաշյուտ"] , } , crate :: Annotation { lang : "id" , tts : Some ("parasut") , keywords : & ["hang-glide" , "parasail" , "parasut" , "terjun payung"] , } , crate :: Annotation { lang : "is" , tts : Some ("fallhlíf") , keywords : & ["fallhlíf" , "fallhlífarsigling" , "fallhlífarstökk" , "svifdrekaflug"] , } , crate :: Annotation { lang : "it" , tts : Some ("paracadute") , keywords : & ["paracadute" , "paracadute ascensionale" , "paracadutismo" , "parasailing" , "skydiving"] , } , crate :: Annotation { lang : "ja" , tts : Some ("パラシュート") , keywords : & ["スカイダイビング" , "パラグライダー" , "パラシュート"] , } , crate :: Annotation { lang : "jv" , tts : Some ("terjun payung") , keywords : & ["parasit" , "skydive" , "terjun payung"] , } , crate :: Annotation { lang : "ka" , tts : Some ("პარაშუტი") , keywords : & ["პარაშუტი" , "პარაშუტით ხტომა" , "სკაიდაივინგი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("парашют") , keywords : & ["дельтапланмен ұшу" , "парашют" , "парашютпен секіру" , "су парашюті"] , } , crate :: Annotation { lang : "km" , tts : Some ("ឆត\u{17d2}រយោង") , keywords : & ["ឆត\u{17d2}រយោង" , "ជ\u{17b7}ះឆត\u{17d2}រយោង\u{200b}សណ\u{17d2}ដោងព\u{17b8}ក\u{17d2}រោយកាណ\u{17bc}ត" , "លោតឆត\u{17d2}រយោង" , "ហោះស\u{17c6}កា\u{17c6}ង"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಪ\u{ccd}ಯಾರಾಚ\u{cc2}ಟ\u{ccd}") , keywords : & ["ಪ\u{ccd}ಯಾರಾಚ\u{cc2}ಟ\u{ccd}" , "ಪ\u{ccd}ಯಾರಾಸೈಲ\u{ccd}" , "ಸ\u{ccd}ಕೈಡೈವ\u{ccd}" , "ಹ\u{ccd}ಯಾಂಗ\u{ccd}-ಗ\u{ccd}ಲೈಡ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("낙하산") , keywords : & ["낙하산" , "스카이다이빙" , "패러세일링" , "행글라이더"] , } , crate :: Annotation { lang : "kok" , tts : Some ("प\u{945}राश\u{941}ट") , keywords : & ["प\u{945}राश\u{941}ट" , "प\u{945}रास\u{947}ल" , "स\u{94d}कायडायव" , "ह\u{901}ग ग\u{94d}लायड"] , } , crate :: Annotation { lang : "ky" , tts : Some ("парашют") , keywords : & ["дельтапланда учуу" , "кайыктын артындагы парашютта учуу" , "парашют" , "парашют менен секирүү"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຈ\u{ec9}\u{200b}ອງ") , keywords : & ["ກາງ\u{200b}ຈ\u{ec9}ອງ" , "ຈ\u{ec9}ອງ\u{200b}ຊ\u{eb9}\u{200b}ຊ\u{eb5}ບ" , "ຈ\u{ec9}\u{200b}ອງ" , "ໂດດ\u{200b}ຈ\u{ec9}\u{200b}ອງ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("parašiutas") , keywords : & ["pakabinti" , "parašiutas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("izpletnis") , keywords : & ["izpletnis" , "lidošana" , "lidošana ar paraplānu" , "paraplāns"] , } , crate :: Annotation { lang : "mk" , tts : Some ("падобран") , keywords : & ["падобран" , "параглајдер" , "параглајдерство"] , } , crate :: Annotation { lang : "ml" , tts : Some ("പ\u{d3e}രച\u{d4d}യ\u{d42}ട\u{d4d}ട\u{d4d}") , keywords : & ["പ\u{d3e}രച\u{d4d}യ\u{d42}ട\u{d4d}ട\u{d4d}" , "പ\u{d3e}ര\u{d3e}സെയിൽ" , "സ\u{d4d}\u{200c}കൈഡൈവ\u{d4d}" , "ഹ\u{d3e}ംഗ\u{d4d}-ഗ\u{d4d}ലൈഡ\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("шүхэр") , keywords : & ["дельтаплан" , "шүхрээр буух" , "шүхэр"] , } , crate :: Annotation { lang : "mr" , tts : Some ("प\u{945}राश\u{942}ट") , keywords : & ["प\u{945}राश\u{942}ट" , "प\u{945}रास\u{947}ल" , "स\u{94d}कायडाइव\u{94d}ह" , "ह\u{901}ग-ग\u{94d}लाइड"] , } , crate :: Annotation { lang : "ms" , tts : Some ("paracut") , keywords : & ["geluncur angin" , "paracut" , "parasail" , "terjun udara"] , } , crate :: Annotation { lang : "my" , tts : Some ("လေထ\u{102e}း") , keywords : & ["စက\u{103a}မ\u{1032}\u{1037}လေယာဉ\u{103a}" , "လေထ\u{102e}း" , "လေထ\u{102e}းဖြင\u{1037}\u{103a} လျ\u{103e}ောစ\u{102e}းခြင\u{103a}း" , "လေထ\u{102e}းအလ\u{103d}တ\u{103a}ခ\u{102f}န\u{103a}ခြင\u{103a}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("fallskjerm") , keywords : & ["fallskjerm" , "fallskjermhopp" , "hangglider" , "hengeglider" , "paragliding"] , } , crate :: Annotation { lang : "ne" , tts : Some ("पारास\u{941}ट") , keywords : & ["पारास\u{941}ट" , "पारास\u{947}ल" , "स\u{94d}काइडाइभ" , "ह\u{94d}याङ-ग\u{94d}लाइड"] , } , crate :: Annotation { lang : "nl" , tts : Some ("parachute") , keywords : & ["hanggliden" , "parachute" , "parasailen" , "skydiven"] , } , crate :: Annotation { lang : "nn" , tts : Some ("fallskjerm") , keywords : & ["fallskjerm" , "fallskjermhopp" , "hangglider" , "hengeglidar" , "paragliding"] , } , crate :: Annotation { lang : "or" , tts : Some ("ପ\u{b3e}ର\u{b3e}ଚ\u{b4d}ୟ\u{b41}ଟ") , keywords : & ["ପ\u{b3e}ର\u{b3e}ଚ\u{b4d}ୟ\u{b41}ଟ" , "ପ\u{b3e}ର\u{b3e}ସେଲ" , "ସ\u{b4d}କ\u{b3e}ଇଡ\u{b3e}ଇଭ" , "ହ\u{b4d}ୟ\u{b3e}ଙ\u{b4d}ଗ ଗ\u{b4d}ଲ\u{b3e}ଇଡ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਪ\u{a48}ਰਾਸ\u{a3c}\u{a42}ਟ") , keywords : & ["ਪ\u{a48}ਰਾਸ\u{a3c}\u{a42}ਟ" , "ਪ\u{a48}ਰਾਸ\u{a48}ਲ" , "ਸਕਾਈਡਾਇਵ" , "ਹ\u{a48}\u{a02}ਗ-ਗਲਾਈਡ"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Páráshut") , keywords : & ["Hánd-Glaid: Wọ\u{301}n Tin Wé Nọ\u{301} Gẹ\u{301}t Ẹ\u{301}njin An Wé Pẹ\u{301}sin De Ték Flai" , "Páráshut"] , } , crate :: Annotation { lang : "pl" , tts : Some ("spadochron") , keywords : & ["lotnia" , "lotniarstwo za łodzią motorową" , "spadochron" , "spadochroniarstwo"] , } , crate :: Annotation { lang : "ps" , tts : Some ("پاراشوټ") , keywords : & ["سکايي ډايو" , "پارا سېل" , "پارا ګلائيډ" , "پاراشوټ"] , } , crate :: Annotation { lang : "pt" , tts : Some ("paraquedas") , keywords : & ["asa-delta" , "paraquedas" , "parasail" , "saltar de paraquedas"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["asa-delta" , "paraquedas" , "paraquedismo" , "parasailing"] , } , crate :: Annotation { lang : "ro" , tts : Some ("parașută") , keywords : & ["deltaplanorism" , "parasailing" , "parașutism" , "parașută"] , } , crate :: Annotation { lang : "root" , tts : Some ("E12–068") , keywords : & ["E12–068"] , } , crate :: Annotation { lang : "ru" , tts : Some ("парашют") , keywords : & ["крыло" , "параглайд" , "парасейл" , "парашют" , "парашютист" , "скайдайв"] , } , crate :: Annotation { lang : "sd" , tts : Some ("پيراشوٽ") , keywords : & ["اسڪائي ڊائيو" , "هينگ-گلڊ" , "پيراسل" , "پيراشوٽ"] , } , crate :: Annotation { lang : "si" , tts : Some ("පැරෂ\u{dd6}ටය") , keywords : & ["අහසේ ක\u{dd2}ම\u{dd2}ද\u{dd3}ම" , "එල\u{dca}ල\u{dd3}-ල\u{dd2}ස\u{dca}ස\u{dd2}ම" , "පැරෂ\u{dd6}ටය" , "පැරසේලය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("padák") , keywords : & ["padák" , "paragliding" , "parašutizmus" , "plachtenie" , "zoskok s padákom" , "závesné lietanie"] , } , crate :: Annotation { lang : "sl" , tts : Some ("padalo") , keywords : & ["jadralni zmaj" , "jadralno padalo" , "padalo" , "parasailing" , "skok s padalom"] , } , crate :: Annotation { lang : "so" , tts : Some ("baarashuud") , keywords : & ["baarashuud" , "cir-jiir" , "dabeylaha" , "heebaabaya"] , } , crate :: Annotation { lang : "sq" , tts : Some ("parashutë") , keywords : & ["deltaplan" , "hedhje me parashutë" , "lundrim me vela" , "parashutë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("падобран") , keywords : & ["падобран" , "параглајдинг" , "једро"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("padobran") , keywords : & ["jedro" , "padobran" , "paraglajding"] , } , crate :: Annotation { lang : "sv" , tts : Some ("fallskärm") , keywords : & ["fallskärm" , "fallskärmshopp" , "hängflygning" , "parasegling"] , } , crate :: Annotation { lang : "sw" , tts : Some ("parachuti") , keywords : & ["parachuti" , "ruka kutoka angani" , "ruka kwa nyiririko" , "ruka kwa parachuti"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ப\u{bbe}ர\u{bbe}சூட\u{bcd}") , keywords : & ["ப\u{bbe}ர\u{bbe}சூட\u{bcd}" , "ஸ\u{bcd}கை டைவ\u{bcd}" , "ஹேங\u{bcd}க\u{bcd} க\u{bcd}ளைட\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("ప\u{c3e}ర\u{c3e}చ\u{c4d}యూట\u{c4d}") , keywords : & ["ప\u{c3e}ర\u{c3e}చ\u{c4d}యూట\u{c4d}" , "ప\u{c3e}ర\u{c3e}స\u{c46}య\u{c3f}ల\u{c4d}" , "స\u{c4d}క\u{c48}డ\u{c48}వ\u{c4d}" , "హ\u{c4d}య\u{c3e}ంగ\u{c4d}-గ\u{c4d}ల\u{c48}డ\u{c4d}"] , } , crate :: Annotation { lang : "th" , tts : Some ("ร\u{e48}มช\u{e39}ช\u{e35}พ") , keywords : & ["กระโดดร\u{e48}ม" , "พาราเซล" , "ร\u{e48}มช\u{e39}ช\u{e35}พ" , "แฮงไกลเดอร\u{e4c}"] , } , crate :: Annotation { lang : "tk" , tts : Some ("paraşýut") , keywords : & ["asmanda ýüz" , "deltaplan" , "paraşýut" , "suwüsti paraşýut"] , } , crate :: Annotation { lang : "to" , tts : Some ("fakamalu fakatō") , keywords : & ["fakamalu" , "fakatō"] , } , crate :: Annotation { lang : "tr" , tts : Some ("paraşüt") , keywords : & ["delta kanat" , "deniz paraşütü" , "paraşüt" , "paraşütle atlama"] , } , crate :: Annotation { lang : "uk" , tts : Some ("парашут") , keywords : & ["кайт" , "параплан" , "парапланеризм" , "парафойл" , "парашут" , "парашут-крило"] , } , crate :: Annotation { lang : "ur" , tts : Some ("پیراشوٹ") , keywords : & ["سکائی ڈائیو" , "پیرا سیل" , "پیراشوٹ" , "ہینگ گلائیڈ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("parashyut") , keywords : & ["osilish" , "parashyut" , "parvoz" , "skaydayving" , "uchish"] , } , crate :: Annotation { lang : "vi" , tts : Some ("dù") , keywords : & ["dù" , "dù kéo" , "lượn" , "nhảy dù"] , } , crate :: Annotation { lang : "yue" , tts : Some ("降落傘") , keywords : & ["滑翔傘" , "跳傘" , "降落傘"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("降落伞") , keywords : & ["滑翔伞" , "跳伞" , "降落伞"] , } , crate :: Annotation { lang : "zh" , tts : Some ("降落伞") , keywords : & ["帆伞" , "悬挂滑翔" , "滑翔" , "滑翔伞" , "跳伞" , "降落伞"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("降落傘") , keywords : & ["懸掛式滑翔" , "拖曳傘" , "跳傘" , "降落傘"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["懸掛式滑翔" , "滑翔傘" , "跳傘" , "降落傘"] , } , crate :: Annotation { lang : "zu" , tts : Some ("i-parachute") , keywords : & ["i-hang-glide" , "i-parachute" , "i-parasail" , "i-skydive"] , }] , } ;
+pub const PARACHUTE: crate::Emoji = crate::Emoji {
+    glyph: "🪂",
+    codepoint: "1FA82",
+    status: crate::Status::FullyQualified,
+    introduction_version: 12f32,
+    name: "parachute",
+    group: "Travel & Places",
+    subgroup: "transport-air",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("valskerm"),
+            keywords: &["hangsweef", "sweefseil", "valskerm", "valskermspring"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ጃንጥላ"),
+            keywords: &["መስቀያ", "ዝላይ", "የሰማይ ዝላይ", "ጃንጥላ", "ፓራሹት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("باراشوت"),
+            keywords: &["إبحار بالمظلات الهوائية", "باراشوت", "مظلة هبوط"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("পেৰ\u{9be}চ\u{9c1}ট"),
+            keywords: &[
+                "পেৰ\u{9be}চ\u{9c1}ট",
+                "পেৰ\u{9be}ছে’ল",
+                "স\u{9cd}ক\u{9be}ইড\u{9be}ইভ",
+                "হেং গ\u{9cd}ল\u{9be}ইড",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("paraşüt"),
+            keywords: &["parayelkən", "paraşüt", "səma dayvı"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("парашут"),
+            keywords: &["дэльтаплан", "парасэйлінг", "парашут", "скайдайвінг"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("парашут"),
+            keywords: &[
+                "делтапланеризъм",
+                "парасейлинг",
+                "парашут",
+                "парашутизъм",
+                "скок с парашут",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("প\u{9cd}য\u{9be}র\u{9be}শ\u{9c1}ট"),
+            keywords: &[
+                "প\u{9cd}য\u{9be}র\u{9be}শ\u{9c1}ট",
+                "প\u{9cd}য\u{9be}র\u{9be}সেইল",
+                "স\u{9cd}ক\u{9be}ইড\u{9be}ইভ",
+                "হ\u{9cd}য\u{9be}ং-গ\u{9cd}ল\u{9be}ইড",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("harz-lamm"),
+            keywords: &["bolcʼhaskell", "harz-lamm"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("padobran"),
+            keywords: &[
+                "letenje zmajem",
+                "padobran",
+                "parasailing",
+                "skakanje padobranom",
+            ],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("paracaigudes"),
+            keywords: &[
+                "ala delta",
+                "paracaigudes",
+                "paracaigudisme",
+                "paracaigudista",
+                "parapent",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎤᏍᎦᏃᎵ ᎦᎶᏍᎬ"),
+            keywords: &["ᎤᏍᎦᏃᎵ ᎦᎶᏍᎬ", "ᎦᎸᎳᏗ ᎠᏕᏛᏍᎦ", "ᎦᎸᎳᏗ ᎦᏏᏁᎦ", "ᎦᏃᎯᎵᏙᎯ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("padák"),
+            keywords: &[
+                "padák",
+                "paragliding",
+                "parašutismus",
+                "plachtění",
+                "seskok s padákem",
+                "závěsné létání",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("parasiwt"),
+            keywords: &["barcuta", "neidio o awyren", "parasiwt"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("faldskærm"),
+            keywords: &["faldskærm", "hangglider", "paraglider", "skydiver"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Fallschirm"),
+            keywords: &[
+                "Fallschirm",
+                "Fallschirmspringen",
+                "Paragliding",
+                "Skydiving",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("αλεξίπτωτο"),
+            keywords: &[
+                "αιωροπτερισμός",
+                "αλεξίπτωτο",
+                "αλεξίπτωτο θαλάσσης",
+                "πτώση με αλεξίπτωτο",
+            ],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("parachute"),
+            keywords: &["hang-glide", "parachute", "parasail", "skydive"],
+        },
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &[
+                "hang-glide",
+                "parachute",
+                "parasail",
+                "parascend",
+                "skydive",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "hang-glide",
+                "parachute",
+                "parasail",
+                "parascend",
+                "skydive",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("paracaídas"),
+            keywords: &[
+                "ala delta",
+                "paracaidismo",
+                "paracaídas",
+                "paravela",
+                "volar",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("langevarjur"),
+            keywords: &[
+                "langevari",
+                "langevarjuga hüppamine",
+                "langevarjuhüpe",
+                "langevarjur",
+            ],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("paraxuta"),
+            keywords: &["delta hegal", "parasail", "paraxut", "paraxuta"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("چتر نجات"),
+            keywords: &["پاراسیلینگ", "چتر نجات", "چتربازی", "کایت\u{200c}سواری"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("laskuvarjo"),
+            keywords: &["laskuvarjo", "laskuvarjohyppy", "riippuliito", "varjoliito"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("parachute"),
+            keywords: &[
+                "hang-glide",
+                "pag-skydive",
+                "paglipad sa ere",
+                "parachute",
+                "parasail",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("fallskíggi"),
+            keywords: &["fallskíggi", "fallskíggjalop", "loftkavari"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("parachute"),
+            keywords: &["parachute", "parachute ascensionnel", "parapente"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "chute libre",
+                "parachute",
+                "parachute ascensionnel",
+                "parapente",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("paraisiút"),
+            keywords: &[
+                "faileoir crochta",
+                "paraisheol",
+                "paraisiút",
+                "spéirthumadóireacht",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("paraisiut"),
+            keywords: &["daibheadh-speura", "daoibhigeadh-adhair", "paraisiut"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("paracaídas"),
+            keywords: &["paracaidismo", "paracaídas", "parapente"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("પ\u{ac7}રાશ\u{ac2}ટ"),
+            keywords: &[
+                "પ\u{ac7}રાશ\u{ac2}ટ",
+                "પ\u{ac7}રાસ\u{ac7}લ",
+                "સ\u{acd}કાયડાઇવ",
+                "હ\u{ac7}\u{a82}ગ-ગ\u{acd}લાઇડ",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("מצנח"),
+            keywords: &["גלישה", "מצנח", "צניחה", "רחיפה"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("प\u{948}राश\u{942}ट"),
+            keywords: &[
+                "ग\u{94d}लाइडर",
+                "प\u{948}राश\u{942}ट",
+                "प\u{948}रास\u{947}ल",
+                "स\u{94d}काईडाइव",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("padobran"),
+            keywords: &["padobran", "paraglajd", "paraglajder", "parajedrilica"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("ejtőernyő"),
+            keywords: &["ejtőernyő", "siklóernyő"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("անկարգել"),
+            keywords: &["անկարգել", "պարաշյուտ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("parasut"),
+            keywords: &["hang-glide", "parasail", "parasut", "terjun payung"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("fallhlíf"),
+            keywords: &[
+                "fallhlíf",
+                "fallhlífarsigling",
+                "fallhlífarstökk",
+                "svifdrekaflug",
+            ],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("paracadute"),
+            keywords: &[
+                "paracadute",
+                "paracadute ascensionale",
+                "paracadutismo",
+                "parasailing",
+                "skydiving",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("パラシュート"),
+            keywords: &["スカイダイビング", "パラグライダー", "パラシュート"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("terjun payung"),
+            keywords: &["parasit", "skydive", "terjun payung"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("პარაშუტი"),
+            keywords: &["პარაშუტი", "პარაშუტით ხტომა", "სკაიდაივინგი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("парашют"),
+            keywords: &[
+                "дельтапланмен ұшу",
+                "парашют",
+                "парашютпен секіру",
+                "су парашюті",
+            ],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ឆត\u{17d2}រយោង"),
+            keywords: &[
+                "ឆត\u{17d2}រយោង",
+                "ជ\u{17b7}ះឆត\u{17d2}រយោង\u{200b}សណ\u{17d2}ដោងព\u{17b8}ក\u{17d2}រោយកាណ\u{17bc}ត",
+                "លោតឆត\u{17d2}រយោង",
+                "ហោះស\u{17c6}កា\u{17c6}ង",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಪ\u{ccd}ಯಾರಾಚ\u{cc2}ಟ\u{ccd}"),
+            keywords: &[
+                "ಪ\u{ccd}ಯಾರಾಚ\u{cc2}ಟ\u{ccd}",
+                "ಪ\u{ccd}ಯಾರಾಸೈಲ\u{ccd}",
+                "ಸ\u{ccd}ಕೈಡೈವ\u{ccd}",
+                "ಹ\u{ccd}ಯಾಂಗ\u{ccd}-ಗ\u{ccd}ಲೈಡ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("낙하산"),
+            keywords: &["낙하산", "스카이다이빙", "패러세일링", "행글라이더"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("प\u{945}राश\u{941}ट"),
+            keywords: &[
+                "प\u{945}राश\u{941}ट",
+                "प\u{945}रास\u{947}ल",
+                "स\u{94d}कायडायव",
+                "ह\u{901}ग ग\u{94d}लायड",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("парашют"),
+            keywords: &[
+                "дельтапланда учуу",
+                "кайыктын артындагы парашютта учуу",
+                "парашют",
+                "парашют менен секирүү",
+            ],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຈ\u{ec9}\u{200b}ອງ"),
+            keywords: &[
+                "ກາງ\u{200b}ຈ\u{ec9}ອງ",
+                "ຈ\u{ec9}ອງ\u{200b}ຊ\u{eb9}\u{200b}ຊ\u{eb5}ບ",
+                "ຈ\u{ec9}\u{200b}ອງ",
+                "ໂດດ\u{200b}ຈ\u{ec9}\u{200b}ອງ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("parašiutas"),
+            keywords: &["pakabinti", "parašiutas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("izpletnis"),
+            keywords: &[
+                "izpletnis",
+                "lidošana",
+                "lidošana ar paraplānu",
+                "paraplāns",
+            ],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("падобран"),
+            keywords: &["падобран", "параглајдер", "параглајдерство"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("പ\u{d3e}രച\u{d4d}യ\u{d42}ട\u{d4d}ട\u{d4d}"),
+            keywords: &[
+                "പ\u{d3e}രച\u{d4d}യ\u{d42}ട\u{d4d}ട\u{d4d}",
+                "പ\u{d3e}ര\u{d3e}സെയിൽ",
+                "സ\u{d4d}\u{200c}കൈഡൈവ\u{d4d}",
+                "ഹ\u{d3e}ംഗ\u{d4d}-ഗ\u{d4d}ലൈഡ\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("шүхэр"),
+            keywords: &["дельтаплан", "шүхрээр буух", "шүхэр"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("प\u{945}राश\u{942}ट"),
+            keywords: &[
+                "प\u{945}राश\u{942}ट",
+                "प\u{945}रास\u{947}ल",
+                "स\u{94d}कायडाइव\u{94d}ह",
+                "ह\u{901}ग-ग\u{94d}लाइड",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("paracut"),
+            keywords: &["geluncur angin", "paracut", "parasail", "terjun udara"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("လေထ\u{102e}း"),
+            keywords: &[
+                "စက\u{103a}မ\u{1032}\u{1037}လေယာဉ\u{103a}",
+                "လေထ\u{102e}း",
+                "လေထ\u{102e}းဖြင\u{1037}\u{103a} လျ\u{103e}ောစ\u{102e}းခြင\u{103a}း",
+                "လေထ\u{102e}းအလ\u{103d}တ\u{103a}ခ\u{102f}န\u{103a}ခြင\u{103a}း",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("fallskjerm"),
+            keywords: &[
+                "fallskjerm",
+                "fallskjermhopp",
+                "hangglider",
+                "hengeglider",
+                "paragliding",
+            ],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("पारास\u{941}ट"),
+            keywords: &[
+                "पारास\u{941}ट",
+                "पारास\u{947}ल",
+                "स\u{94d}काइडाइभ",
+                "ह\u{94d}याङ-ग\u{94d}लाइड",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("parachute"),
+            keywords: &["hanggliden", "parachute", "parasailen", "skydiven"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("fallskjerm"),
+            keywords: &[
+                "fallskjerm",
+                "fallskjermhopp",
+                "hangglider",
+                "hengeglidar",
+                "paragliding",
+            ],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ପ\u{b3e}ର\u{b3e}ଚ\u{b4d}ୟ\u{b41}ଟ"),
+            keywords: &[
+                "ପ\u{b3e}ର\u{b3e}ଚ\u{b4d}ୟ\u{b41}ଟ",
+                "ପ\u{b3e}ର\u{b3e}ସେଲ",
+                "ସ\u{b4d}କ\u{b3e}ଇଡ\u{b3e}ଇଭ",
+                "ହ\u{b4d}ୟ\u{b3e}ଙ\u{b4d}ଗ ଗ\u{b4d}ଲ\u{b3e}ଇଡ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਪ\u{a48}ਰਾਸ\u{a3c}\u{a42}ਟ"),
+            keywords: &[
+                "ਪ\u{a48}ਰਾਸ\u{a3c}\u{a42}ਟ",
+                "ਪ\u{a48}ਰਾਸ\u{a48}ਲ",
+                "ਸਕਾਈਡਾਇਵ",
+                "ਹ\u{a48}\u{a02}ਗ-ਗਲਾਈਡ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Páráshut"),
+            keywords: &[
+                "Hánd-Glaid: Wọ\u{301}n Tin Wé Nọ\u{301} Gẹ\u{301}t Ẹ\u{301}njin An Wé Pẹ\u{301}sin De Ték Flai",
+                "Páráshut",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("spadochron"),
+            keywords: &[
+                "lotnia",
+                "lotniarstwo za łodzią motorową",
+                "spadochron",
+                "spadochroniarstwo",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("پاراشوټ"),
+            keywords: &["سکايي ډايو", "پارا سېل", "پارا ګلائيډ", "پاراشوټ"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("paraquedas"),
+            keywords: &[
+                "asa-delta",
+                "paraquedas",
+                "parasail",
+                "saltar de paraquedas",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["asa-delta", "paraquedas", "paraquedismo", "parasailing"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("parașută"),
+            keywords: &["deltaplanorism", "parasailing", "parașutism", "parașută"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E12–068"),
+            keywords: &["E12–068"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("парашют"),
+            keywords: &[
+                "крыло",
+                "параглайд",
+                "парасейл",
+                "парашют",
+                "парашютист",
+                "скайдайв",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("پيراشوٽ"),
+            keywords: &["اسڪائي ڊائيو", "هينگ-گلڊ", "پيراسل", "پيراشوٽ"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("පැරෂ\u{dd6}ටය"),
+            keywords: &[
+                "අහසේ ක\u{dd2}ම\u{dd2}ද\u{dd3}ම",
+                "එල\u{dca}ල\u{dd3}-ල\u{dd2}ස\u{dca}ස\u{dd2}ම",
+                "පැරෂ\u{dd6}ටය",
+                "පැරසේලය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("padák"),
+            keywords: &[
+                "padák",
+                "paragliding",
+                "parašutizmus",
+                "plachtenie",
+                "zoskok s padákom",
+                "závesné lietanie",
+            ],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("padalo"),
+            keywords: &[
+                "jadralni zmaj",
+                "jadralno padalo",
+                "padalo",
+                "parasailing",
+                "skok s padalom",
+            ],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("baarashuud"),
+            keywords: &["baarashuud", "cir-jiir", "dabeylaha", "heebaabaya"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("parashutë"),
+            keywords: &[
+                "deltaplan",
+                "hedhje me parashutë",
+                "lundrim me vela",
+                "parashutë",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("падобран"),
+            keywords: &["падобран", "параглајдинг", "једро"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("padobran"),
+            keywords: &["jedro", "padobran", "paraglajding"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("fallskärm"),
+            keywords: &["fallskärm", "fallskärmshopp", "hängflygning", "parasegling"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("parachuti"),
+            keywords: &[
+                "parachuti",
+                "ruka kutoka angani",
+                "ruka kwa nyiririko",
+                "ruka kwa parachuti",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ப\u{bbe}ர\u{bbe}சூட\u{bcd}"),
+            keywords: &[
+                "ப\u{bbe}ர\u{bbe}சூட\u{bcd}",
+                "ஸ\u{bcd}கை டைவ\u{bcd}",
+                "ஹேங\u{bcd}க\u{bcd} க\u{bcd}ளைட\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ప\u{c3e}ర\u{c3e}చ\u{c4d}యూట\u{c4d}"),
+            keywords: &[
+                "ప\u{c3e}ర\u{c3e}చ\u{c4d}యూట\u{c4d}",
+                "ప\u{c3e}ర\u{c3e}స\u{c46}య\u{c3f}ల\u{c4d}",
+                "స\u{c4d}క\u{c48}డ\u{c48}వ\u{c4d}",
+                "హ\u{c4d}య\u{c3e}ంగ\u{c4d}-గ\u{c4d}ల\u{c48}డ\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ร\u{e48}มช\u{e39}ช\u{e35}พ"),
+            keywords: &[
+                "กระโดดร\u{e48}ม",
+                "พาราเซล",
+                "ร\u{e48}มช\u{e39}ช\u{e35}พ",
+                "แฮงไกลเดอร\u{e4c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("paraşýut"),
+            keywords: &["asmanda ýüz", "deltaplan", "paraşýut", "suwüsti paraşýut"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("fakamalu fakatō"),
+            keywords: &["fakamalu", "fakatō"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("paraşüt"),
+            keywords: &[
+                "delta kanat",
+                "deniz paraşütü",
+                "paraşüt",
+                "paraşütle atlama",
+            ],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("парашут"),
+            keywords: &[
+                "кайт",
+                "параплан",
+                "парапланеризм",
+                "парафойл",
+                "парашут",
+                "парашут-крило",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("پیراشوٹ"),
+            keywords: &["سکائی ڈائیو", "پیرا سیل", "پیراشوٹ", "ہینگ گلائیڈ"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("parashyut"),
+            keywords: &["osilish", "parashyut", "parvoz", "skaydayving", "uchish"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("dù"),
+            keywords: &["dù", "dù kéo", "lượn", "nhảy dù"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("降落傘"),
+            keywords: &["滑翔傘", "跳傘", "降落傘"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("降落伞"),
+            keywords: &["滑翔伞", "跳伞", "降落伞"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("降落伞"),
+            keywords: &["帆伞", "悬挂滑翔", "滑翔", "滑翔伞", "跳伞", "降落伞"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("降落傘"),
+            keywords: &["懸掛式滑翔", "拖曳傘", "跳傘", "降落傘"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["懸掛式滑翔", "滑翔傘", "跳傘", "降落傘"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("i-parachute"),
+            keywords: &["i-hang-glide", "i-parachute", "i-parasail", "i-skydive"],
+        },
+    ],
+};
 #[doc = "💺"]
 pub const SEAT: crate::Emoji = crate::Emoji {
     glyph: "💺",
@@ -4774,7 +5576,735 @@ pub const HELICOPTER: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🚟"]
-pub const SUSPENSION_RAILWAY : crate :: Emoji = crate :: Emoji { glyph : "🚟" , codepoint : "1F69F" , status : crate :: Status :: FullyQualified , introduction_version : 1f32 , name : "suspension railway" , group : "Travel & Places" , subgroup : "transport-air" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("hangspoor") , keywords : & ["hang" , "hangspoor" , "spoor" , "voertuig"] , } , crate :: Annotation { lang : "am" , tts : Some ("በአየር ላይ የሚጎተት ባቡር") , keywords : & ["በአየር ላይ የሚጎተት ባቡር" , "ተሽከርካሪ" , "ተጎታች" , "የባቡር ሐዲድ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("سكة حديد معلقة") , keywords : & ["سكة حديد" , "سكة حديد معلقة" , "مركبة" , "معلقة"] , } , crate :: Annotation { lang : "as" , tts : Some ("স\u{9cd}থগিত ৰেইলৱে") , keywords : & ["স\u{9cd}থগিত" , "ৰেইলৱে"] , } , crate :: Annotation { lang : "az" , tts : Some ("asma dəmir yolu") , keywords : & ["asma dəmir yolu" , "asılma" , "dəmir yolu" , "nəqliyyat"] , } , crate :: Annotation { lang : "be" , tts : Some ("падвесная чыгунка") , keywords : & ["вагон" , "падвесная чыгунка" , "падвесны" , "чыгунка"] , } , crate :: Annotation { lang : "bg" , tts : Some ("окачена железница") , keywords : & ["железница" , "окачена" , "превозно средство"] , } , crate :: Annotation { lang : "bn" , tts : Some ("রেলওয\u{9bc}ে স\u{9cd}থগিত\u{9be}দেশ") , keywords : & ["য\u{9be}নব\u{9be}হন" , "রেলওয\u{9bc}ে" , "স\u{9cd}থগিত\u{9be}দেশ"] , } , crate :: Annotation { lang : "br" , tts : Some ("fundren") , keywords : & ["fundren"] , } , crate :: Annotation { lang : "bs" , tts : Some ("viseći voz") , keywords : & ["viseća" , "viseći voz" , "željeznica"] , } , crate :: Annotation { lang : "ca" , tts : Some ("ferrocarril de suspensió") , keywords : & ["ferrocarril" , "ferrocarril de suspensió" , "suspensió" , "tramvia elevat" , "vehicle"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎦᎸᎳᏗ ᏕᎦᏅᏅᎢ ᎠᎦᎳ ᏅᏃᎯ") , keywords : & ["ᎠᏥᎳ ᏅᏃᎯ" , "ᎦᎸᎳᏗ ᏕᎦᏅᏅᎢ" , "ᎦᎸᎳᏗ ᏕᎦᏅᏅᎢ ᎠᎦᎳ ᏅᏃᎯ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("lanovka") , keywords : & ["lanovka" , "tramvaj" , "vozidlo" , "závěsná" , "železnice"] , } , crate :: Annotation { lang : "cy" , tts : Some ("rheilffordd grog") , keywords : & ["cerbyd" , "crogiant" , "rheilffordd" , "rheilffordd grog"] , } , crate :: Annotation { lang : "da" , tts : Some ("luftbane") , keywords : & ["fartøj" , "hængende" , "luftbane" , "togbane"] , } , crate :: Annotation { lang : "de" , tts : Some ("Schwebebahn") , keywords : & ["Hängebahn" , "Schwebebahn"] , } , crate :: Annotation { lang : "el" , tts : Some ("κρεμαστός σιδηρόδρομος") , keywords : & ["κρεμαστός" , "σιδηρόδρομος" , "όχημα"] , } , crate :: Annotation { lang : "en" , tts : Some ("suspension railway") , keywords : & ["railway" , "suspension"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("cable railway") , keywords : & ["cable" , "railway" , "suspension"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("ferrocarril de suspensión") , keywords : & ["ferrocarril" , "ferrocarril de suspensión" , "suspensión" , "vehículo"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("tren colgante") , keywords : & ["suspensión" , "tren" , "tren colgante" , "vehículo"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("rippraudtee") , keywords : & ["raudtee" , "rippraudtee" , "sõiduk" , "vagun"] , } , crate :: Annotation { lang : "eu" , tts : Some ("monorrail esekia") , keywords : & ["eseki" , "ibilgailu" , "monorrail esekia" , "trenbide"] , } , crate :: Annotation { lang : "fa" , tts : Some ("قطار معلق") , keywords : & ["ریل" , "قطار معلق" , "قطار هوایی" , "معلق" , "وسیله\u{654} نقلیه"] , } , crate :: Annotation { lang : "fi" , tts : Some ("riippurata") , keywords : & ["ajoneuvo" , "juna" , "kisko" , "rata" , "rautatie" , "riippurata"] , } , crate :: Annotation { lang : "fil" , tts : Some ("suspension railway") , keywords : & ["sasakyan" , "suspension" , "suspension railway" , "tren"] , } , crate :: Annotation { lang : "fo" , tts : Some ("heingijarnbreyt") , keywords : & ["heingijarnbreyt" , "jarnbreyt" , "tok"] , } , crate :: Annotation { lang : "fr" , tts : Some ("train suspendu") , keywords : & ["train" , "train suspendu"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["suspendu" , "train"] , } , crate :: Annotation { lang : "ga" , tts : Some ("iarnród crochta") , keywords : & ["feithicil" , "iarnród crochta"] , } , crate :: Annotation { lang : "gd" , tts : Some ("rèile-chrochaidh") , keywords : & ["crochadh" , "rèile" , "rèile-chrochaidh"] , } , crate :: Annotation { lang : "gl" , tts : Some ("tren colgante") , keywords : & ["ferrocarril" , "suspendido" , "suspensión" , "tren" , "tren colgante"] , } , crate :: Annotation { lang : "gu" , tts : Some ("સસ\u{acd}પ\u{ac7}ન\u{acd}શન ર\u{ac7}લ\u{acd}વ\u{ac7}") , keywords : & ["ર\u{ac7}લ\u{acd}વ\u{ac7}" , "વાહન" , "સસ\u{acd}પ\u{ac7}ન\u{acd}શન"] , } , crate :: Annotation { lang : "ha" , tts : Some ("reluwe mai rataya") , keywords : & ["rataya" , "reluwe" , "reluwe mai rataya"] , } , crate :: Annotation { lang : "he" , tts : Some ("רכבל") , keywords : & ["כבל" , "כלי רכב" , "רכבל" , "תלוי"] , } , crate :: Annotation { lang : "hi" , tts : Some ("सस\u{94d}प\u{947}\u{902}शन र\u{947}लव\u{947}, र\u{947}लव\u{947}") , keywords : & ["र\u{947}लव\u{947}" , "वाहन" , "सस\u{94d}प\u{947}\u{902}शन" , "सस\u{94d}प\u{947}\u{902}शन र\u{947}लव\u{947}, र\u{947}लव\u{947}"] , } , crate :: Annotation { lang : "hr" , tts : Some ("viseća željeznica") , keywords : & ["viseća" , "vozilo" , "željeznica"] , } , crate :: Annotation { lang : "hu" , tts : Some ("függővasút") , keywords : & ["függő" , "függővasút" , "jármű" , "vasút"] , } , crate :: Annotation { lang : "hy" , tts : Some ("կախովի երկաթուղի") , keywords : & ["երկաթուղի" , "կախովի" , "փոխադրամիջոց"] , } , crate :: Annotation { lang : "id" , tts : Some ("kereta suspensi") , keywords : & ["kendaraan" , "kereta suspensi" , "rel" , "suspensi"] , } , crate :: Annotation { lang : "ig" , tts : Some ("nkwụsị okporoigwe") , keywords : & ["nkwụsị" , "okporoigwe"] , } , crate :: Annotation { lang : "is" , tts : Some ("loftlest") , keywords : & ["lest" , "loftlest"] , } , crate :: Annotation { lang : "it" , tts : Some ("ferrovia sospesa") , keywords : & ["ferrovia sospesa" , "veicolo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("懸垂式モノレール") , keywords : & ["モノレール" , "乗り物" , "懸垂式モノレール" , "電車"] , } , crate :: Annotation { lang : "jv" , tts : Some ("jalur ril suspensi") , keywords : & ["jalur ril" , "jalur ril suspensi" , "suspensi"] , } , crate :: Annotation { lang : "ka" , tts : Some ("დაკიდული რკინიგზა") , keywords : & ["დაკიდული" , "რკინიგზა" , "ტრანსპორტი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("аспалы темір жол") , keywords : & ["аспалы" , "аспалы темір жол" , "көлік" , "темір жол"] , } , crate :: Annotation { lang : "kl" , tts : Some ("luftbane") , keywords : & ["fartøj" , "hængende" , "luftbane" , "togbane"] , } , crate :: Annotation { lang : "km" , tts : Some ("រថភ\u{17d2}លើងយោង") , keywords : & ["រថភ\u{17d2}លើង" , "រថភ\u{17d2}លើងយោង"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಸಸ\u{ccd}ಪ\u{cc6}ನ\u{ccd}ಶನ\u{ccd} ರೈಲ\u{ccd}ವ\u{cc6}") , keywords : & ["ರೈಲ\u{ccd}ವ\u{cc6}" , "ವಾಹನ" , "ಸಸ\u{ccd}ಪ\u{cc6}ನ\u{ccd}ಶನ\u{ccd} ರೈಲು" , "ಸಸ\u{ccd}ಪ\u{cc6}ನ\u{ccd}ಶನ\u{ccd} ರೈಲ\u{ccd}ವ\u{cc6}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("매달린 케이블카") , keywords : & ["매달린 케이블카" , "케이블카"] , } , crate :: Annotation { lang : "kok" , tts : Some ("ह\u{941}मकळपी र\u{947}ल\u{94d}व\u{947}") , keywords : & ["र\u{947}ल\u{94d}व\u{947}" , "ह\u{941}मकळप" , "ह\u{941}मकळपी र\u{947}ल\u{94d}व\u{947}"] , } , crate :: Annotation { lang : "ky" , tts : Some ("асма темир жол") , keywords : & ["асма" , "асма темир жол" , "темир жол" , "унаа"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Schwiefbunn") , keywords : & ["Bunn" , "Schwiefbunn" , "schwiewen"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ທາງລ\u{ebb}ດໄຟແຂວນ") , keywords : & ["ທາງລ\u{ebb}ດໄຟ" , "ທາງລ\u{ebb}ດໄຟແຂວນ" , "ພາຫະນະ" , "ແຂວນ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("kabanti geležinkelio linija") , keywords : & ["geležinkelis" , "kabanti" , "kabanti geležinkelio linija"] , } , crate :: Annotation { lang : "lv" , tts : Some ("trošu vilciens") , keywords : & ["transports" , "trose" , "trošu vilciens" , "vagons" , "vilciens"] , } , crate :: Annotation { lang : "mi" , tts : Some ("rerewē whakairi") , keywords : & ["rerewē" , "whakairi"] , } , crate :: Annotation { lang : "mk" , tts : Some ("висечка железница") , keywords : & ["висечка железница" , "виси" , "возило" , "железница"] , } , crate :: Annotation { lang : "ml" , tts : Some ("സസ\u{d4d}പെൻഷൻ റെയിൽവേ") , keywords : & ["റെയിൽവേ" , "വ\u{d3e}ഹനം" , "സസ\u{d4d}പെൻഷൻ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("дүүжин тээвэр") , keywords : & ["дүүжин тээвэр" , "төмөр зам"] , } , crate :: Annotation { lang : "mr" , tts : Some ("टा\u{902}गती र\u{947}ल\u{94d}व\u{947}") , keywords : & ["टा\u{902}गती र\u{947}ल\u{94d}व\u{947}" , "टा\u{902}गल\u{947}ल\u{947}" , "र\u{947}ल\u{94d}व\u{947}"] , } , crate :: Annotation { lang : "ms" , tts : Some ("kereta api landasan tergantung") , keywords : & ["kereta api landasan tergantung" , "rel kereta api" , "tergantung"] , } , crate :: Annotation { lang : "mt" , tts : Some ("ferrovija fuq sospensjoni") , keywords : & ["ferrovija" , "ferrovija fuq sospensjoni" , "sospensjoni"] , } , crate :: Annotation { lang : "my" , tts : Some ("ဓာတ\u{103a}ကြ\u{102d}\u{102f}းတပ\u{103a} ရထား") , keywords : & ["ဓာတ\u{103a}ကြ\u{102d}\u{102f}းတပ\u{103a} ရထား" , "ဓာတ\u{103a}ရထား" , "ရထားလမ\u{103a}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("svevebane") , keywords : & ["fremkomstmiddel" , "svevebane"] , } , crate :: Annotation { lang : "ne" , tts : Some ("सस\u{94d}प\u{947}न\u{94d}सन र\u{947}लव\u{947}") , keywords : & ["गाडी" , "निलम\u{94d}बन" , "र\u{947}लव\u{947}" , "सस\u{94d}प\u{947}न\u{94d}सन र\u{947}लव\u{947}"] , } , crate :: Annotation { lang : "nl" , tts : Some ("zweeftrein") , keywords : & ["spoor" , "zweeftrein" , "zwevend"] , } , crate :: Annotation { lang : "nn" , tts : Some ("svevebane") , keywords : & ["framkomstmiddel" , "svevebane"] , } , crate :: Annotation { lang : "or" , tts : Some ("ସସପେନସନ\u{b4d}\u{200c} ରେଲୱେ") , keywords : & ["ବ\u{b3e}ହନ" , "ରେଲୱେ" , "ସସପେନସନ\u{b4d}\u{200c} ରେଲୱେ" , "ସସ\u{b4d}\u{200c}ପେନ\u{b4d}\u{200c}ସନ\u{b4d}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਸਸਪ\u{a48}ਨਸ\u{a3c}ਨ ਰ\u{a47}ਲਵ\u{a47}") , keywords : & ["ਰ\u{a47}ਲਵ\u{a47}" , "ਵਾਹਨ" , "ਸਸਪ\u{a48}ਨਸ\u{a3c}ਨ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("ریلولے معطل") , keywords : & ["ریلولے معطل" , "ریلوے" , "عارضی التوا"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Hángín Rélwè") , keywords : & ["Hángín Rélwè" , "Relwè" , "Relwè Wé Háng Fọ Ọp" , "To Háng Sọmtin Fọ Ọp"] , } , crate :: Annotation { lang : "pl" , tts : Some ("kolej podwieszana") , keywords : & ["kolej" , "pociąg" , "podwieszana"] , } , crate :: Annotation { lang : "ps" , tts : Some ("هوايي اور ګاډی") , keywords : & ["ريلوی" , "هوايي" , "هوايي اور ګاډی"] , } , crate :: Annotation { lang : "pt" , tts : Some ("estrada de ferro suspensa") , keywords : & ["estrada de ferro" , "estrada de ferro suspensa" , "suspensão" , "veículo"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("monocarril suspenso") , keywords : & ["monocarril suspenso" , "veículo"] , } , crate :: Annotation { lang : "qu" , tts : Some ("warkhusqa ferrocarril") , keywords : & ["ferrocarril" , "warkhusqa"] , } , crate :: Annotation { lang : "ro" , tts : Some ("cale ferată suspendată") , keywords : & ["cabluri" , "cale ferată" , "cale ferată suspendată"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-947") , keywords : & ["E10-947"] , } , crate :: Annotation { lang : "ru" , tts : Some ("подвесная железная дорога") , keywords : & ["вагон" , "ж/д" , "железная дорога" , "подвесная" , "подвесная железная дорога"] , } , crate :: Annotation { lang : "rw" , tts : Some ("imihanda ya gariyamoshi iri mu kirere") , keywords : & ["imihanda ya gariyamoshi iri mu kirere"] , } , crate :: Annotation { lang : "sd" , tts : Some ("لٽڪيل ريلوي") , keywords : & ["ريلوي، لٽڪيل" , "لٽڪيل ريلوي"] , } , crate :: Annotation { lang : "si" , tts : Some ("එල\u{dca}ලෙන ද\u{dd4}ම\u{dca}ර\u{dd2}ය") , keywords : & ["එල\u{dca}ලෙන" , "එල\u{dca}ලෙන ද\u{dd4}ම\u{dca}ර\u{dd2}ය" , "ද\u{dd4}ම\u{dca}ර\u{dd2}ය ම\u{dcf}ර\u{dca}ගය" , "ව\u{dcf}හනය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("lanovka") , keywords : & ["dopravný prostriedok" , "lanovka" , "závesná" , "železnica"] , } , crate :: Annotation { lang : "sl" , tts : Some ("viseča železnica") , keywords : & ["viseča železnica" , "viseče" , "vozilo" , "železnica"] , } , crate :: Annotation { lang : "so" , tts : Some ("joojinta jidka tareenka") , keywords : & ["jidka tareenka" , "joojinta" , "joojinta jidka tareenka"] , } , crate :: Annotation { lang : "sq" , tts : Some ("hekurudhë me varje") , keywords : & ["hekurudhë" , "hekurudhë me varje" , "mjet udhëtimi" , "varje"] , } , crate :: Annotation { lang : "sr" , tts : Some ("висећа железница") , keywords : & ["вoзилo" , "висeћa" , "висећа железница" , "жeлeзницa"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("висећа жељезница") , keywords : & ["висећа жељезница"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("viseća železnica") , keywords : & ["viseća" , "vozilo" , "železnica"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("viseća željeznica") , keywords : & ["viseća željeznica"] , } , crate :: Annotation { lang : "sv" , tts : Some ("hängbana") , keywords : & ["fordon" , "hängbana"] , } , crate :: Annotation { lang : "sw" , tts : Some ("reli inayoelea angani") , keywords : & ["elea" , "gari" , "reli" , "reli inayoelea angani"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("தொங\u{bcd}கு ரயில\u{bcd}ப\u{bbe}தை") , keywords : & ["தொங\u{bcd}கு ரயில\u{bcd}" , "தொங\u{bcd}கு ரயில\u{bcd}ப\u{bbe}தை"] , } , crate :: Annotation { lang : "te" , tts : Some ("పట\u{c4d}ట\u{c3e}ల క\u{c4d}ర\u{c3f}ంద వ\u{c47}ల\u{c3e}డుతూ ప\u{c4d}రయ\u{c3e}ణ\u{c3f}ంచ\u{c47} ర\u{c48}లు") , keywords : & ["పట\u{c4d}ట\u{c3e}ల క\u{c4d}ర\u{c3f}ంద వ\u{c47}ల\u{c3e}డుతూ ప\u{c4d}రయ\u{c3e}ణ\u{c3f}ంచ\u{c47} ర\u{c48}లు" , "పట\u{c4d}ట\u{c3e}లు" , "ప\u{c4d}రయ\u{c3e}ణం" , "ర\u{c48}లు"] , } , crate :: Annotation { lang : "tg" , tts : Some ("роҳи оҳани овезон") , keywords : & ["овеза" , "роҳи оҳан" , "роҳи оҳани овезон"] , } , crate :: Annotation { lang : "th" , tts : Some ("รถไฟสะพานแขวน") , keywords : & ["ยานพาหนะ" , "รถไฟ" , "รถไฟสะพานแขวน" , "สะพานแขวน"] , } , crate :: Annotation { lang : "tk" , tts : Some ("asma demirýol") , keywords : & ["asma" , "asma demirýol" , "demir ýol"] , } , crate :: Annotation { lang : "to" , tts : Some ("lēlue tāupe lahi") , keywords : & ["lēlue tāupe lahi"] , } , crate :: Annotation { lang : "tr" , tts : Some ("asma demiryolu") , keywords : & ["asma" , "demiryolu" , "taşıt"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئاسما پويىز") , keywords : & ["ئاسما" , "ئاسما پويىز" , "تۆمۈريول"] , } , crate :: Annotation { lang : "uk" , tts : Some ("підвісна монорейка") , keywords : & ["залізниця" , "підвісна монорейка" , "підвісний" , "транспорт"] , } , crate :: Annotation { lang : "ur" , tts : Some ("معلق ریلوے") , keywords : & ["ریلوے" , "معلق"] , } , crate :: Annotation { lang : "uz" , tts : Some ("osma temiryo‘l") , keywords : & ["osma" , "temiryo‘l" , "transport"] , } , crate :: Annotation { lang : "vi" , tts : Some ("đường sắt trên cao") , keywords : & ["treo" , "đường sắt" , "đường sắt trên cao"] , } , crate :: Annotation { lang : "wo" , tts : Some ("raay ci kaw") , keywords : & ["bu-aju" , "raay" , "raay ci kaw"] , } , crate :: Annotation { lang : "xh" , tts : Some ("isiporo esixhonyiweyo") , keywords : & ["isiporo" , "isiporo esixhonyiweyo" , "ukuxhoma"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Ọkọ oju irin Oloke") , keywords : & ["olókè" , "Ọkọ oju irin" , "Ọkọ oju irin Oloke"] , } , crate :: Annotation { lang : "yue" , tts : Some ("高架鐵路") , keywords : & ["懸架" , "鐵路" , "高架鐵路"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("高架铁路") , keywords : & ["悬架" , "铁路" , "高架铁路"] , } , crate :: Annotation { lang : "zh" , tts : Some ("空轨") , keywords : & ["悬挂" , "空中轨道列车" , "空轨"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("懸索鐵路") , keywords : & ["懸索鐵路"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("懸浮列車") , keywords : & ["懸浮列車"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ujantshi") , keywords : & ["isithuthi" , "ujantshi"] , }] , } ;
+pub const SUSPENSION_RAILWAY: crate::Emoji = crate::Emoji {
+    glyph: "🚟",
+    codepoint: "1F69F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 1f32,
+    name: "suspension railway",
+    group: "Travel & Places",
+    subgroup: "transport-air",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("hangspoor"),
+            keywords: &["hang", "hangspoor", "spoor", "voertuig"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("በአየር ላይ የሚጎተት ባቡር"),
+            keywords: &["በአየር ላይ የሚጎተት ባቡር", "ተሽከርካሪ", "ተጎታች", "የባቡር ሐዲድ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("سكة حديد معلقة"),
+            keywords: &["سكة حديد", "سكة حديد معلقة", "مركبة", "معلقة"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("স\u{9cd}থগিত ৰেইলৱে"),
+            keywords: &["স\u{9cd}থগিত", "ৰেইলৱে"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("asma dəmir yolu"),
+            keywords: &["asma dəmir yolu", "asılma", "dəmir yolu", "nəqliyyat"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("падвесная чыгунка"),
+            keywords: &["вагон", "падвесная чыгунка", "падвесны", "чыгунка"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("окачена железница"),
+            keywords: &["железница", "окачена", "превозно средство"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("রেলওয\u{9bc}ে স\u{9cd}থগিত\u{9be}দেশ"),
+            keywords: &[
+                "য\u{9be}নব\u{9be}হন",
+                "রেলওয\u{9bc}ে",
+                "স\u{9cd}থগিত\u{9be}দেশ",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("fundren"),
+            keywords: &["fundren"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("viseći voz"),
+            keywords: &["viseća", "viseći voz", "željeznica"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("ferrocarril de suspensió"),
+            keywords: &[
+                "ferrocarril",
+                "ferrocarril de suspensió",
+                "suspensió",
+                "tramvia elevat",
+                "vehicle",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎦᎸᎳᏗ ᏕᎦᏅᏅᎢ ᎠᎦᎳ ᏅᏃᎯ"),
+            keywords: &["ᎠᏥᎳ ᏅᏃᎯ", "ᎦᎸᎳᏗ ᏕᎦᏅᏅᎢ", "ᎦᎸᎳᏗ ᏕᎦᏅᏅᎢ ᎠᎦᎳ ᏅᏃᎯ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("lanovka"),
+            keywords: &["lanovka", "tramvaj", "vozidlo", "závěsná", "železnice"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("rheilffordd grog"),
+            keywords: &["cerbyd", "crogiant", "rheilffordd", "rheilffordd grog"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("luftbane"),
+            keywords: &["fartøj", "hængende", "luftbane", "togbane"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Schwebebahn"),
+            keywords: &["Hängebahn", "Schwebebahn"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("κρεμαστός σιδηρόδρομος"),
+            keywords: &["κρεμαστός", "σιδηρόδρομος", "όχημα"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("suspension railway"),
+            keywords: &["railway", "suspension"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("cable railway"),
+            keywords: &["cable", "railway", "suspension"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("ferrocarril de suspensión"),
+            keywords: &[
+                "ferrocarril",
+                "ferrocarril de suspensión",
+                "suspensión",
+                "vehículo",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("tren colgante"),
+            keywords: &["suspensión", "tren", "tren colgante", "vehículo"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("rippraudtee"),
+            keywords: &["raudtee", "rippraudtee", "sõiduk", "vagun"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("monorrail esekia"),
+            keywords: &["eseki", "ibilgailu", "monorrail esekia", "trenbide"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("قطار معلق"),
+            keywords: &[
+                "ریل",
+                "قطار معلق",
+                "قطار هوایی",
+                "معلق",
+                "وسیله\u{654} نقلیه",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("riippurata"),
+            keywords: &[
+                "ajoneuvo",
+                "juna",
+                "kisko",
+                "rata",
+                "rautatie",
+                "riippurata",
+            ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("suspension railway"),
+            keywords: &["sasakyan", "suspension", "suspension railway", "tren"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("heingijarnbreyt"),
+            keywords: &["heingijarnbreyt", "jarnbreyt", "tok"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("train suspendu"),
+            keywords: &["train", "train suspendu"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["suspendu", "train"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("iarnród crochta"),
+            keywords: &["feithicil", "iarnród crochta"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("rèile-chrochaidh"),
+            keywords: &["crochadh", "rèile", "rèile-chrochaidh"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("tren colgante"),
+            keywords: &[
+                "ferrocarril",
+                "suspendido",
+                "suspensión",
+                "tren",
+                "tren colgante",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સસ\u{acd}પ\u{ac7}ન\u{acd}શન ર\u{ac7}લ\u{acd}વ\u{ac7}"),
+            keywords: &[
+                "ર\u{ac7}લ\u{acd}વ\u{ac7}",
+                "વાહન",
+                "સસ\u{acd}પ\u{ac7}ન\u{acd}શન",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("reluwe mai rataya"),
+            keywords: &["rataya", "reluwe", "reluwe mai rataya"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("רכבל"),
+            keywords: &["כבל", "כלי רכב", "רכבל", "תלוי"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("सस\u{94d}प\u{947}\u{902}शन र\u{947}लव\u{947}, र\u{947}लव\u{947}"),
+            keywords: &[
+                "र\u{947}लव\u{947}",
+                "वाहन",
+                "सस\u{94d}प\u{947}\u{902}शन",
+                "सस\u{94d}प\u{947}\u{902}शन र\u{947}लव\u{947}, र\u{947}लव\u{947}",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("viseća željeznica"),
+            keywords: &["viseća", "vozilo", "željeznica"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("függővasút"),
+            keywords: &["függő", "függővasút", "jármű", "vasút"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("կախովի երկաթուղի"),
+            keywords: &["երկաթուղի", "կախովի", "փոխադրամիջոց"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("kereta suspensi"),
+            keywords: &["kendaraan", "kereta suspensi", "rel", "suspensi"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("nkwụsị okporoigwe"),
+            keywords: &["nkwụsị", "okporoigwe"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("loftlest"),
+            keywords: &["lest", "loftlest"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("ferrovia sospesa"),
+            keywords: &["ferrovia sospesa", "veicolo"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("懸垂式モノレール"),
+            keywords: &["モノレール", "乗り物", "懸垂式モノレール", "電車"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("jalur ril suspensi"),
+            keywords: &["jalur ril", "jalur ril suspensi", "suspensi"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("დაკიდული რკინიგზა"),
+            keywords: &["დაკიდული", "რკინიგზა", "ტრანსპორტი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("аспалы темір жол"),
+            keywords: &["аспалы", "аспалы темір жол", "көлік", "темір жол"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("luftbane"),
+            keywords: &["fartøj", "hængende", "luftbane", "togbane"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("រថភ\u{17d2}លើងយោង"),
+            keywords: &["រថភ\u{17d2}លើង", "រថភ\u{17d2}លើងយោង"],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಸಸ\u{ccd}ಪ\u{cc6}ನ\u{ccd}ಶನ\u{ccd} ರೈಲ\u{ccd}ವ\u{cc6}"),
+            keywords: &[
+                "ರೈಲ\u{ccd}ವ\u{cc6}",
+                "ವಾಹನ",
+                "ಸಸ\u{ccd}ಪ\u{cc6}ನ\u{ccd}ಶನ\u{ccd} ರೈಲು",
+                "ಸಸ\u{ccd}ಪ\u{cc6}ನ\u{ccd}ಶನ\u{ccd} ರೈಲ\u{ccd}ವ\u{cc6}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("매달린 케이블카"),
+            keywords: &["매달린 케이블카", "케이블카"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("ह\u{941}मकळपी र\u{947}ल\u{94d}व\u{947}"),
+            keywords: &[
+                "र\u{947}ल\u{94d}व\u{947}",
+                "ह\u{941}मकळप",
+                "ह\u{941}मकळपी र\u{947}ल\u{94d}व\u{947}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("асма темир жол"),
+            keywords: &["асма", "асма темир жол", "темир жол", "унаа"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Schwiefbunn"),
+            keywords: &["Bunn", "Schwiefbunn", "schwiewen"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ທາງລ\u{ebb}ດໄຟແຂວນ"),
+            keywords: &["ທາງລ\u{ebb}ດໄຟ", "ທາງລ\u{ebb}ດໄຟແຂວນ", "ພາຫະນະ", "ແຂວນ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("kabanti geležinkelio linija"),
+            keywords: &["geležinkelis", "kabanti", "kabanti geležinkelio linija"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("trošu vilciens"),
+            keywords: &[
+                "transports",
+                "trose",
+                "trošu vilciens",
+                "vagons",
+                "vilciens",
+            ],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("rerewē whakairi"),
+            keywords: &["rerewē", "whakairi"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("висечка железница"),
+            keywords: &["висечка железница", "виси", "возило", "железница"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("സസ\u{d4d}പെൻഷൻ റെയിൽവേ"),
+            keywords: &["റെയിൽവേ", "വ\u{d3e}ഹനം", "സസ\u{d4d}പെൻഷൻ"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("дүүжин тээвэр"),
+            keywords: &["дүүжин тээвэр", "төмөр зам"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("टा\u{902}गती र\u{947}ल\u{94d}व\u{947}"),
+            keywords: &[
+                "टा\u{902}गती र\u{947}ल\u{94d}व\u{947}",
+                "टा\u{902}गल\u{947}ल\u{947}",
+                "र\u{947}ल\u{94d}व\u{947}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("kereta api landasan tergantung"),
+            keywords: &[
+                "kereta api landasan tergantung",
+                "rel kereta api",
+                "tergantung",
+            ],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("ferrovija fuq sospensjoni"),
+            keywords: &["ferrovija", "ferrovija fuq sospensjoni", "sospensjoni"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ဓာတ\u{103a}ကြ\u{102d}\u{102f}းတပ\u{103a} ရထား"),
+            keywords: &[
+                "ဓာတ\u{103a}ကြ\u{102d}\u{102f}းတပ\u{103a} ရထား",
+                "ဓာတ\u{103a}ရထား",
+                "ရထားလမ\u{103a}း",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("svevebane"),
+            keywords: &["fremkomstmiddel", "svevebane"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("सस\u{94d}प\u{947}न\u{94d}सन र\u{947}लव\u{947}"),
+            keywords: &[
+                "गाडी",
+                "निलम\u{94d}बन",
+                "र\u{947}लव\u{947}",
+                "सस\u{94d}प\u{947}न\u{94d}सन र\u{947}लव\u{947}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("zweeftrein"),
+            keywords: &["spoor", "zweeftrein", "zwevend"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("svevebane"),
+            keywords: &["framkomstmiddel", "svevebane"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ସସପେନସନ\u{b4d}\u{200c} ରେଲୱେ"),
+            keywords: &[
+                "ବ\u{b3e}ହନ",
+                "ରେଲୱେ",
+                "ସସପେନସନ\u{b4d}\u{200c} ରେଲୱେ",
+                "ସସ\u{b4d}\u{200c}ପେନ\u{b4d}\u{200c}ସନ\u{b4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਸਸਪ\u{a48}ਨਸ\u{a3c}ਨ ਰ\u{a47}ਲਵ\u{a47}"),
+            keywords: &["ਰ\u{a47}ਲਵ\u{a47}", "ਵਾਹਨ", "ਸਸਪ\u{a48}ਨਸ\u{a3c}ਨ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ریلولے معطل"),
+            keywords: &["ریلولے معطل", "ریلوے", "عارضی التوا"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Hángín Rélwè"),
+            keywords: &[
+                "Hángín Rélwè",
+                "Relwè",
+                "Relwè Wé Háng Fọ Ọp",
+                "To Háng Sọmtin Fọ Ọp",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("kolej podwieszana"),
+            keywords: &["kolej", "pociąg", "podwieszana"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("هوايي اور ګاډی"),
+            keywords: &["ريلوی", "هوايي", "هوايي اور ګاډی"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("estrada de ferro suspensa"),
+            keywords: &[
+                "estrada de ferro",
+                "estrada de ferro suspensa",
+                "suspensão",
+                "veículo",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("monocarril suspenso"),
+            keywords: &["monocarril suspenso", "veículo"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("warkhusqa ferrocarril"),
+            keywords: &["ferrocarril", "warkhusqa"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("cale ferată suspendată"),
+            keywords: &["cabluri", "cale ferată", "cale ferată suspendată"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-947"),
+            keywords: &["E10-947"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("подвесная железная дорога"),
+            keywords: &[
+                "вагон",
+                "ж/д",
+                "железная дорога",
+                "подвесная",
+                "подвесная железная дорога",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("imihanda ya gariyamoshi iri mu kirere"),
+            keywords: &["imihanda ya gariyamoshi iri mu kirere"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("لٽڪيل ريلوي"),
+            keywords: &["ريلوي، لٽڪيل", "لٽڪيل ريلوي"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("එල\u{dca}ලෙන ද\u{dd4}ම\u{dca}ර\u{dd2}ය"),
+            keywords: &[
+                "එල\u{dca}ලෙන",
+                "එල\u{dca}ලෙන ද\u{dd4}ම\u{dca}ර\u{dd2}ය",
+                "ද\u{dd4}ම\u{dca}ර\u{dd2}ය ම\u{dcf}ර\u{dca}ගය",
+                "ව\u{dcf}හනය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("lanovka"),
+            keywords: &["dopravný prostriedok", "lanovka", "závesná", "železnica"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("viseča železnica"),
+            keywords: &["viseča železnica", "viseče", "vozilo", "železnica"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("joojinta jidka tareenka"),
+            keywords: &["jidka tareenka", "joojinta", "joojinta jidka tareenka"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("hekurudhë me varje"),
+            keywords: &["hekurudhë", "hekurudhë me varje", "mjet udhëtimi", "varje"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("висећа железница"),
+            keywords: &["вoзилo", "висeћa", "висећа железница", "жeлeзницa"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("висећа жељезница"),
+            keywords: &["висећа жељезница"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("viseća železnica"),
+            keywords: &["viseća", "vozilo", "železnica"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("viseća željeznica"),
+            keywords: &["viseća željeznica"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("hängbana"),
+            keywords: &["fordon", "hängbana"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("reli inayoelea angani"),
+            keywords: &["elea", "gari", "reli", "reli inayoelea angani"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("தொங\u{bcd}கு ரயில\u{bcd}ப\u{bbe}தை"),
+            keywords: &[
+                "தொங\u{bcd}கு ரயில\u{bcd}",
+                "தொங\u{bcd}கு ரயில\u{bcd}ப\u{bbe}தை",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some(
+                "పట\u{c4d}ట\u{c3e}ల క\u{c4d}ర\u{c3f}ంద వ\u{c47}ల\u{c3e}డుతూ ప\u{c4d}రయ\u{c3e}ణ\u{c3f}ంచ\u{c47} ర\u{c48}లు",
+            ),
+            keywords: &[
+                "పట\u{c4d}ట\u{c3e}ల క\u{c4d}ర\u{c3f}ంద వ\u{c47}ల\u{c3e}డుతూ ప\u{c4d}రయ\u{c3e}ణ\u{c3f}ంచ\u{c47} ర\u{c48}లు",
+                "పట\u{c4d}ట\u{c3e}లు",
+                "ప\u{c4d}రయ\u{c3e}ణం",
+                "ర\u{c48}లు",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("роҳи оҳани овезон"),
+            keywords: &["овеза", "роҳи оҳан", "роҳи оҳани овезон"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("รถไฟสะพานแขวน"),
+            keywords: &["ยานพาหนะ", "รถไฟ", "รถไฟสะพานแขวน", "สะพานแขวน"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("asma demirýol"),
+            keywords: &["asma", "asma demirýol", "demir ýol"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("lēlue tāupe lahi"),
+            keywords: &["lēlue tāupe lahi"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("asma demiryolu"),
+            keywords: &["asma", "demiryolu", "taşıt"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئاسما پويىز"),
+            keywords: &["ئاسما", "ئاسما پويىز", "تۆمۈريول"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("підвісна монорейка"),
+            keywords: &["залізниця", "підвісна монорейка", "підвісний", "транспорт"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("معلق ریلوے"),
+            keywords: &["ریلوے", "معلق"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("osma temiryo‘l"),
+            keywords: &["osma", "temiryo‘l", "transport"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("đường sắt trên cao"),
+            keywords: &["treo", "đường sắt", "đường sắt trên cao"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("raay ci kaw"),
+            keywords: &["bu-aju", "raay", "raay ci kaw"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("isiporo esixhonyiweyo"),
+            keywords: &["isiporo", "isiporo esixhonyiweyo", "ukuxhoma"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Ọkọ oju irin Oloke"),
+            keywords: &["olókè", "Ọkọ oju irin", "Ọkọ oju irin Oloke"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("高架鐵路"),
+            keywords: &["懸架", "鐵路", "高架鐵路"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("高架铁路"),
+            keywords: &["悬架", "铁路", "高架铁路"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("空轨"),
+            keywords: &["悬挂", "空中轨道列车", "空轨"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("懸索鐵路"),
+            keywords: &["懸索鐵路"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("懸浮列車"),
+            keywords: &["懸浮列車"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ujantshi"),
+            keywords: &["isithuthi", "ujantshi"],
+        },
+    ],
+};
 #[doc = "🚠"]
 pub const MOUNTAIN_CABLEWAY: crate::Emoji = crate::Emoji {
     glyph: "🚠",
@@ -8002,4 +9532,642 @@ pub const ROCKET: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🛸"]
-pub const FLYING_SAUCER : crate :: Emoji = crate :: Emoji { glyph : "🛸" , codepoint : "1F6F8" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "flying saucer" , group : "Travel & Places" , subgroup : "transport-air" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("vlieënde piering") , keywords : & ["VVV" , "vlieënde piering"] , } , crate :: Annotation { lang : "am" , tts : Some ("በራሪ ዲስክ") , keywords : & ["በራሪ ዲስክ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("صحن طائر") , keywords : & ["صحن طائر" , "طبق طائر"] , } , crate :: Annotation { lang : "as" , tts : Some ("উড\u{9bc}ন\u{9cd}ত চ\u{9be}কি") , keywords : & ["ইউফ’" , "উড\u{9bc}ন\u{9cd}ত চ\u{9be}কি"] , } , crate :: Annotation { lang : "az" , tts : Some ("uçan boşqab") , keywords : & ["UFO" , "uçan boşqab"] , } , crate :: Annotation { lang : "be" , tts : Some ("лятаючая талерка") , keywords : & ["НЛА" , "лятаючая талерка"] , } , crate :: Annotation { lang : "bg" , tts : Some ("летяща чиния") , keywords : & ["НЛО" , "летяща чиния"] , } , crate :: Annotation { lang : "bn" , tts : Some ("উড\u{9bc}ন\u{9cd}ত চ\u{9be}কতি") , keywords : & ["ইউএফও" , "উড\u{9bc}ন\u{9cd}ত চ\u{9be}কতি"] , } , crate :: Annotation { lang : "br" , tts : Some ("pladenn-nij") , keywords : & ["NIDI" , "pladenn-nij"] , } , crate :: Annotation { lang : "bs" , tts : Some ("leteći tanjir") , keywords : & ["NLO" , "leteći tanjir"] , } , crate :: Annotation { lang : "ca" , tts : Some ("plat volador") , keywords : & ["UFO" , "objecte volador no identificat" , "ovni" , "plat volador"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏃᎯᎵᏙᎯ ᏖᎵᏙ") , keywords : & ["ᎦᏃᎯᎵᏙᎯ ᏖᎵᏙ" , "ᎪᏟᏍᏗ ᏂᎨᏒᎾ ᎦᏃᎯᎵᏙᎯ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("létající talíř") , keywords : & ["UFO" , "létající talíř"] , } , crate :: Annotation { lang : "cy" , tts : Some ("soser hedegog") , keywords : & ["peth hedegog anhysbys" , "soser hedegog"] , } , crate :: Annotation { lang : "da" , tts : Some ("ufo") , keywords : & ["flyvende tallerken" , "ufo"] , } , crate :: Annotation { lang : "de" , tts : Some ("fliegende Untertasse") , keywords : & ["UFO" , "fliegende Untertasse"] , } , crate :: Annotation { lang : "el" , tts : Some ("ιπτάμενος δίσκος") , keywords : & ["ΑΤΙΑ" , "ιπτάμενος δίσκος"] , } , crate :: Annotation { lang : "en" , tts : Some ("flying saucer") , keywords : & ["UFO" , "flying saucer"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("platillo volante") , keywords : & ["ovni" , "platillo volante"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("platillo volador") , keywords : & ["ovni" , "platillo volador" , "platillo volante"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("platillo volador") , keywords : & ["platillo volador"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("platillo volador") , keywords : & ["platillo volador"] , } , crate :: Annotation { lang : "et" , tts : Some ("lendav taldrik") , keywords : & ["UFO" , "lendav taldrik"] , } , crate :: Annotation { lang : "eu" , tts : Some ("plater hegalari") , keywords : & ["OHE" , "plater hegalari"] , } , crate :: Annotation { lang : "fa" , tts : Some ("بشقاب\u{200c}پرنده") , keywords : & ["بشقاب\u{200c}پرنده" , "شیء پرنده\u{654} ناشناس" , "یو اف او" , "یواف\u{200c}ا\u{64f}"] , } , crate :: Annotation { lang : "fi" , tts : Some ("lentävä lautanen") , keywords : & ["UFO" , "lentävä lautanen"] , } , crate :: Annotation { lang : "fil" , tts : Some ("flying saucer") , keywords : & ["UFO" , "flying saucer"] , } , crate :: Annotation { lang : "fo" , tts : Some ("flúgvandi diskur") , keywords : & ["flúgvandi diskur" , "ufo"] , } , crate :: Annotation { lang : "fr" , tts : Some ("soucoupe volante") , keywords : & ["OVNI" , "soucoupe volante"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("sásar eitilte") , keywords : & ["sásar eitilte" , "úfónna"] , } , crate :: Annotation { lang : "gd" , tts : Some ("soitheach-fànais") , keywords : & ["UFO" , "soitheach-fànais"] , } , crate :: Annotation { lang : "gl" , tts : Some ("ovni") , keywords : & ["extraterrestres" , "marcianos" , "ovni" , "prato voador"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ફ\u{acd}લાઇ\u{a82}ગ સૉસર") , keywords : & ["UFO" , "ફ\u{acd}લાઇ\u{a82}ગ સૉસર"] , } , crate :: Annotation { lang : "ha" , tts : Some ("faranti mai tasowa") , keywords : & ["UFO" , "faranti mai tasowa"] , } , crate :: Annotation { lang : "he" , tts : Some ("צלחת מעופפת") , keywords : & ["עב״מ" , "צלחת מעופפת"] , } , crate :: Annotation { lang : "hi" , tts : Some ("उड\u{93c}न तश\u{94d}तरी") , keywords : & ["उड\u{93c}न तश\u{94d}तरी"] , } , crate :: Annotation { lang : "hr" , tts : Some ("leteći tanjur") , keywords : & ["NLO" , "leteći tanjur"] , } , crate :: Annotation { lang : "hu" , tts : Some ("repülő csészealj") , keywords : & ["UFO" , "repülő csészealj" , "ufó"] , } , crate :: Annotation { lang : "hy" , tts : Some ("թռչող ափսե") , keywords : & ["այլմոլորակային" , "թռչող ափսե"] , } , crate :: Annotation { lang : "id" , tts : Some ("piring terbang") , keywords : & ["UFO" , "piring terbang"] , } , crate :: Annotation { lang : "ig" , tts : Some ("ihe na-efe efe") , keywords : & ["UFO" , "ihe na-efe efe"] , } , crate :: Annotation { lang : "is" , tts : Some ("fljúgandi diskur") , keywords : & ["flj´úgandi furðuhlutur" , "fljúgandi diskur"] , } , crate :: Annotation { lang : "it" , tts : Some ("disco volante") , keywords : & ["UFO" , "disco volante"] , } , crate :: Annotation { lang : "ja" , tts : Some ("空飛ぶ円盤") , keywords : & ["UFO" , "乗り物" , "宇宙" , "空飛ぶ円盤"] , } , crate :: Annotation { lang : "jv" , tts : Some ("piring mabur") , keywords : & ["UFO" , "piring mabur"] , } , crate :: Annotation { lang : "ka" , tts : Some ("მფრინავი თეფში") , keywords : & ["ამო" , "ამოუცნობი მფრინავი ობიექტი" , "მფრინავი თეფში"] , } , crate :: Annotation { lang : "kab" , tts : None , keywords : & ["taɣawsa tarussint yettafgen"] , } , crate :: Annotation { lang : "kk" , tts : Some ("ұшатын тарелка") , keywords : & ["ұшатын тарелка"] , } , crate :: Annotation { lang : "km" , tts : Some ("ថាសហោះ") , keywords : & ["ថាសហោះ"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಹಾರುವ ತಟ\u{ccd}ಟ\u{cc6}") , keywords : & ["ಯುಎಫ\u{ccd}ಒ" , "ಹಾರುವ ತಟ\u{ccd}ಟ\u{cc6}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("비행접시") , keywords : & ["UFO" , "비행접시"] , } , crate :: Annotation { lang : "kok" , tts : Some ("उडण तश\u{94d}करी") , keywords : & ["उडण तश\u{94d}करी" , "य\u{941}एफओ"] , } , crate :: Annotation { lang : "ky" , tts : Some ("учуучу объект") , keywords : & ["НЛО" , "учуучу объект"] , } , crate :: Annotation { lang : "lb" , tts : Some ("UFO") , keywords : & ["UFO"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຍ\u{ebb}ນຈານບ\u{eb4}ນ") , keywords : & ["UFO" , "ຈານບ\u{eb4}ນ" , "ຍ\u{ebb}ນຈານບ\u{eb4}ນ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("skraidanti lėkštė") , keywords : & ["NSO" , "skraidanti lėkštė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("lidojošais šķīvītis") , keywords : & ["NLO" , "lidojošais šķīvītis"] , } , crate :: Annotation { lang : "mi" , tts : Some ("waka ātea nō ao kē") , keywords : & ["waka tuarangi kāore i mōhiotia" , "waka ātea nō ao kē"] , } , crate :: Annotation { lang : "mk" , tts : Some ("летечка чинија") , keywords : & ["НЛО" , "летечка чинија"] , } , crate :: Annotation { lang : "ml" , tts : Some ("പറക\u{d4d}ക\u{d41}ംതളിക") , keywords : & ["തെളിവില\u{d4d}ല\u{d3e}ത\u{d4d}ത പറക\u{d4d}ക\u{d41}ം വസ\u{d4d}\u{200c}ത\u{d41}ക\u{d4d}കൾ" , "പറക\u{d4d}ക\u{d41}ംതളിക"] , } , crate :: Annotation { lang : "mn" , tts : Some ("нисдэг таваг") , keywords : & ["нисдэг таваг" , "үл танигдах нисдэг биет"] , } , crate :: Annotation { lang : "mr" , tts : Some ("उडती तबकडी") , keywords : & ["उडती तबकडी" , "य\u{942}एफओ"] , } , crate :: Annotation { lang : "ms" , tts : Some ("piring terbang") , keywords : & ["UFO" , "piring terbang"] , } , crate :: Annotation { lang : "mt" , tts : Some ("flying saucer") , keywords : & ["UFO" , "flying saucer"] , } , crate :: Annotation { lang : "my" , tts : Some ("ပန\u{103a}းကန\u{103a}ပြားပျ\u{1036}") , keywords : & ["ပန\u{103a}းကန\u{103a}ပြားပျ\u{1036}" , "ယ\u{1030}အက\u{103a}ဖ\u{103a}အ\u{102d}\u{102f}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("flygende tallerken") , keywords : & ["UFO" , "flygende tallerken"] , } , crate :: Annotation { lang : "ne" , tts : Some ("उड\u{94d}न\u{947} थाली आकारको यान") , keywords : & ["उड\u{94d}न\u{947} थाली आकारको यान" , "य\u{941}एफओ"] , } , crate :: Annotation { lang : "nl" , tts : Some ("vliegende schotel") , keywords : & ["ufo" , "vliegende schotel"] , } , crate :: Annotation { lang : "nn" , tts : Some ("flygande tallerken") , keywords : & ["UFO" , "flygande tallerken"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସର\u{b4d}\u{200c}") , keywords : & ["UFO" , "ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସର\u{b4d}\u{200c}" , "ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସ\u{b4d}\u{200c}ର"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਉਡਣ ਤਸ\u{a3c}ਤਰੀ") , keywords : & ["ਉਡਣ ਤਸ\u{a3c}ਤਰੀ" , "ਯ\u{a42}ਐਫਓ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("ا\u{64f}ڑن طشتری") , keywords : & ["UFO" , "ا\u{64f}ڑن طشتری"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Fláyín Sọ\u{301}sa") , keywords : & ["Fláyín Sọ\u{301}sa" , "UFO"] , } , crate :: Annotation { lang : "pl" , tts : Some ("latający talerz") , keywords : & ["UFO" , "latający talerz"] , } , crate :: Annotation { lang : "ps" , tts : Some ("الوتونکى نا لبکى") , keywords : & ["الوتونکى نا لبکى" , "الوتونکى نالبکى" , "يو ايف او"] , } , crate :: Annotation { lang : "pt" , tts : Some ("disco voador") , keywords : & ["OVNI" , "disco voador"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["OVNI" , "disco voador"] , } , crate :: Annotation { lang : "qu" , tts : Some ("platillo volador") , keywords : & ["ovni" , "platillo volador"] , } , crate :: Annotation { lang : "ro" , tts : Some ("farfurie zburătoare") , keywords : & ["OZN" , "farfurie zburătoare"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1009") , keywords : & ["E10-1009"] , } , crate :: Annotation { lang : "ru" , tts : Some ("летающая тарелка") , keywords : & ["НЛО" , "инопланетяне" , "летающая тарелка" , "тарелка"] , } , crate :: Annotation { lang : "rw" , tts : Some ("isahani iguruka") , keywords : & ["Ibiguruka bitazwi" , "isahani iguruka"] , } , crate :: Annotation { lang : "sd" , tts : Some ("اڏامندڙ بس") , keywords : & ["UFO" , "اڏامندڙ بس"] , } , crate :: Annotation { lang : "si" , tts : Some ("ප\u{dd2}ය\u{dcf}ඹන ප\u{dd3}ර\u{dd2}ස\u{dd2}") , keywords : & ["UFO" , "ප\u{dd2}ය\u{dcf}ඹන ප\u{dd3}ර\u{dd2}ස\u{dd2}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("lietajúci tanier") , keywords : & ["lietajúci tanier" , "ufo" , "ufóni"] , } , crate :: Annotation { lang : "sl" , tts : Some ("leteči krožnik") , keywords : & ["leteči krožnik"] , } , crate :: Annotation { lang : "so" , tts : Some ("shey sidii digsi oo duulaya") , keywords : & ["shey sidii digsi oo duulaya"] , } , crate :: Annotation { lang : "sq" , tts : Some ("disk fluturues") , keywords : & ["UFO" , "disk fluturues" , "objekt i paidentifikuar fluturues"] , } , crate :: Annotation { lang : "sr" , tts : Some ("летећи тањир") , keywords : & ["НЛО" , "летећи тањир"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("leteći tanjir") , keywords : & ["NLO" , "leteći tanjir"] , } , crate :: Annotation { lang : "sv" , tts : Some ("flygande tefat") , keywords : & ["UFO" , "flygande tefat"] , } , crate :: Annotation { lang : "sw" , tts : Some ("kisahani kinachopaa") , keywords : & ["chombo kisichotambulika kinachopaa" , "kisahani kinachopaa"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("பறக\u{bcd}கும\u{bcd} தட\u{bcd}டு") , keywords : & ["ஏலியன\u{bcd}" , "பறக\u{bcd}கும\u{bcd} தட\u{bcd}டு" , "யூ.எஃப\u{bcd}.ஓ." , "விண\u{bcd}வெளி" , "வேற\u{bcd}றுகிரக மனிதர\u{bcd}கள\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("ఎగ\u{c3f}ర\u{c47} పళ\u{c4d}ల\u{c46}ం") , keywords : & ["ఎగ\u{c3f}ర\u{c47} పళ\u{c4d}ల\u{c46}ం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("лаълии паррон") , keywords : & ["лаълии паррон"] , } , crate :: Annotation { lang : "th" , tts : Some ("จานบ\u{e34}น") , keywords : & ["จานบ\u{e34}น" , "ย\u{e39}เอฟโอ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("uçýan tabak") , keywords : & ["NUO" , "uçýan tabak"] , } , crate :: Annotation { lang : "to" , tts : Some ("peleti puna") , keywords : & ["peleti puna"] , } , crate :: Annotation { lang : "tr" , tts : Some ("uçan daire") , keywords : & ["UFO" , "uçan daire"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئۇچار تەخسە") , keywords : & ["UFO" , "ئۇچار تەخسە"] , } , crate :: Annotation { lang : "uk" , tts : Some ("летюча тарілка") , keywords : & ["НЛО" , "летюча тарілка"] , } , crate :: Annotation { lang : "ur" , tts : Some ("اڑن تشتری") , keywords : & ["اڑن تشتری" , "نامعلوم اڑن تشتری"] , } , crate :: Annotation { lang : "uz" , tts : Some ("uchar likopcha") , keywords : & ["uchar likopcha"] , } , crate :: Annotation { lang : "vi" , tts : Some ("đĩa bay") , keywords : & ["UFO" , "đĩa bay"] , } , crate :: Annotation { lang : "wo" , tts : Some ("sukup buy naaw") , keywords : & ["OVNI" , "sukup buy naaw"] , } , crate :: Annotation { lang : "xh" , tts : Some ("isosa ebhabhayo") , keywords : & ["I-UFO" , "isosa ebhabhayo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("àwọ kékeré tí ń fò") , keywords : & ["UFO" , "àwọ kékeré tí ń fò"] , } , crate :: Annotation { lang : "yue" , tts : Some ("飛碟") , keywords : & ["不明飛行物體" , "飛碟"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("飞碟") , keywords : & ["不明飞行物体" , "飞碟"] , } , crate :: Annotation { lang : "zh" , tts : Some ("飞碟") , keywords : & ["UFO" , "不明飞行物" , "飞碟"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("飛碟") , keywords : & ["幽浮" , "飛碟"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["UFO" , "不明飛行物體" , "飛碟"] , } , crate :: Annotation { lang : "zu" , tts : Some ("isosa endizayo") , keywords : & ["i-UFO" , "isosa endizayo"] , }] , } ;
+pub const FLYING_SAUCER: crate::Emoji = crate::Emoji {
+    glyph: "🛸",
+    codepoint: "1F6F8",
+    status: crate::Status::FullyQualified,
+    introduction_version: 5f32,
+    name: "flying saucer",
+    group: "Travel & Places",
+    subgroup: "transport-air",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("vlieënde piering"),
+            keywords: &["VVV", "vlieënde piering"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("በራሪ ዲስክ"),
+            keywords: &["በራሪ ዲስክ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("صحن طائر"),
+            keywords: &["صحن طائر", "طبق طائر"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("উড\u{9bc}ন\u{9cd}ত চ\u{9be}কি"),
+            keywords: &["ইউফ’", "উড\u{9bc}ন\u{9cd}ত চ\u{9be}কি"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("uçan boşqab"),
+            keywords: &["UFO", "uçan boşqab"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("лятаючая талерка"),
+            keywords: &["НЛА", "лятаючая талерка"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("летяща чиния"),
+            keywords: &["НЛО", "летяща чиния"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("উড\u{9bc}ন\u{9cd}ত চ\u{9be}কতি"),
+            keywords: &["ইউএফও", "উড\u{9bc}ন\u{9cd}ত চ\u{9be}কতি"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("pladenn-nij"),
+            keywords: &["NIDI", "pladenn-nij"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("leteći tanjir"),
+            keywords: &["NLO", "leteći tanjir"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("plat volador"),
+            keywords: &[
+                "UFO",
+                "objecte volador no identificat",
+                "ovni",
+                "plat volador",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎦᏃᎯᎵᏙᎯ ᏖᎵᏙ"),
+            keywords: &["ᎦᏃᎯᎵᏙᎯ ᏖᎵᏙ", "ᎪᏟᏍᏗ ᏂᎨᏒᎾ ᎦᏃᎯᎵᏙᎯ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("létající talíř"),
+            keywords: &["UFO", "létající talíř"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("soser hedegog"),
+            keywords: &["peth hedegog anhysbys", "soser hedegog"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("ufo"),
+            keywords: &["flyvende tallerken", "ufo"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("fliegende Untertasse"),
+            keywords: &["UFO", "fliegende Untertasse"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ιπτάμενος δίσκος"),
+            keywords: &["ΑΤΙΑ", "ιπτάμενος δίσκος"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("flying saucer"),
+            keywords: &["UFO", "flying saucer"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("platillo volante"),
+            keywords: &["ovni", "platillo volante"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("platillo volador"),
+            keywords: &["ovni", "platillo volador", "platillo volante"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("platillo volador"),
+            keywords: &["platillo volador"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("platillo volador"),
+            keywords: &["platillo volador"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("lendav taldrik"),
+            keywords: &["UFO", "lendav taldrik"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("plater hegalari"),
+            keywords: &["OHE", "plater hegalari"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("بشقاب\u{200c}پرنده"),
+            keywords: &[
+                "بشقاب\u{200c}پرنده",
+                "شیء پرنده\u{654} ناشناس",
+                "یو اف او",
+                "یواف\u{200c}ا\u{64f}",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("lentävä lautanen"),
+            keywords: &["UFO", "lentävä lautanen"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("flying saucer"),
+            keywords: &["UFO", "flying saucer"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("flúgvandi diskur"),
+            keywords: &["flúgvandi diskur", "ufo"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("soucoupe volante"),
+            keywords: &["OVNI", "soucoupe volante"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("sásar eitilte"),
+            keywords: &["sásar eitilte", "úfónna"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("soitheach-fànais"),
+            keywords: &["UFO", "soitheach-fànais"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("ovni"),
+            keywords: &["extraterrestres", "marcianos", "ovni", "prato voador"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ફ\u{acd}લાઇ\u{a82}ગ સૉસર"),
+            keywords: &["UFO", "ફ\u{acd}લાઇ\u{a82}ગ સૉસર"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("faranti mai tasowa"),
+            keywords: &["UFO", "faranti mai tasowa"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("צלחת מעופפת"),
+            keywords: &["עב״מ", "צלחת מעופפת"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("उड\u{93c}न तश\u{94d}तरी"),
+            keywords: &["उड\u{93c}न तश\u{94d}तरी"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("leteći tanjur"),
+            keywords: &["NLO", "leteći tanjur"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("repülő csészealj"),
+            keywords: &["UFO", "repülő csészealj", "ufó"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("թռչող ափսե"),
+            keywords: &["այլմոլորակային", "թռչող ափսե"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("piring terbang"),
+            keywords: &["UFO", "piring terbang"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ihe na-efe efe"),
+            keywords: &["UFO", "ihe na-efe efe"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("fljúgandi diskur"),
+            keywords: &["flj´úgandi furðuhlutur", "fljúgandi diskur"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("disco volante"),
+            keywords: &["UFO", "disco volante"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("空飛ぶ円盤"),
+            keywords: &["UFO", "乗り物", "宇宙", "空飛ぶ円盤"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("piring mabur"),
+            keywords: &["UFO", "piring mabur"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("მფრინავი თეფში"),
+            keywords: &["ამო", "ამოუცნობი მფრინავი ობიექტი", "მფრინავი თეფში"],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: None,
+            keywords: &["taɣawsa tarussint yettafgen"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("ұшатын тарелка"),
+            keywords: &["ұшатын тарелка"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ថាសហោះ"),
+            keywords: &["ថាសហោះ"],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಹಾರುವ ತಟ\u{ccd}ಟ\u{cc6}"),
+            keywords: &["ಯುಎಫ\u{ccd}ಒ", "ಹಾರುವ ತಟ\u{ccd}ಟ\u{cc6}"],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("비행접시"),
+            keywords: &["UFO", "비행접시"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("उडण तश\u{94d}करी"),
+            keywords: &["उडण तश\u{94d}करी", "य\u{941}एफओ"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("учуучу объект"),
+            keywords: &["НЛО", "учуучу объект"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("UFO"),
+            keywords: &["UFO"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຍ\u{ebb}ນຈານບ\u{eb4}ນ"),
+            keywords: &["UFO", "ຈານບ\u{eb4}ນ", "ຍ\u{ebb}ນຈານບ\u{eb4}ນ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("skraidanti lėkštė"),
+            keywords: &["NSO", "skraidanti lėkštė"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("lidojošais šķīvītis"),
+            keywords: &["NLO", "lidojošais šķīvītis"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("waka ātea nō ao kē"),
+            keywords: &["waka tuarangi kāore i mōhiotia", "waka ātea nō ao kē"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("летечка чинија"),
+            keywords: &["НЛО", "летечка чинија"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("പറക\u{d4d}ക\u{d41}ംതളിക"),
+            keywords: &[
+                "തെളിവില\u{d4d}ല\u{d3e}ത\u{d4d}ത പറക\u{d4d}ക\u{d41}ം വസ\u{d4d}\u{200c}ത\u{d41}ക\u{d4d}കൾ",
+                "പറക\u{d4d}ക\u{d41}ംതളിക",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("нисдэг таваг"),
+            keywords: &["нисдэг таваг", "үл танигдах нисдэг биет"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("उडती तबकडी"),
+            keywords: &["उडती तबकडी", "य\u{942}एफओ"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("piring terbang"),
+            keywords: &["UFO", "piring terbang"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("flying saucer"),
+            keywords: &["UFO", "flying saucer"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ပန\u{103a}းကန\u{103a}ပြားပျ\u{1036}"),
+            keywords: &[
+                "ပန\u{103a}းကန\u{103a}ပြားပျ\u{1036}",
+                "ယ\u{1030}အက\u{103a}ဖ\u{103a}အ\u{102d}\u{102f}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("flygende tallerken"),
+            keywords: &["UFO", "flygende tallerken"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("उड\u{94d}न\u{947} थाली आकारको यान"),
+            keywords: &["उड\u{94d}न\u{947} थाली आकारको यान", "य\u{941}एफओ"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("vliegende schotel"),
+            keywords: &["ufo", "vliegende schotel"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("flygande tallerken"),
+            keywords: &["UFO", "flygande tallerken"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସର\u{b4d}\u{200c}"),
+            keywords: &[
+                "UFO",
+                "ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସର\u{b4d}\u{200c}",
+                "ଫ\u{b4d}ଲ\u{b3e}ଇଂ ସସ\u{b4d}\u{200c}ର",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਉਡਣ ਤਸ\u{a3c}ਤਰੀ"),
+            keywords: &["ਉਡਣ ਤਸ\u{a3c}ਤਰੀ", "ਯ\u{a42}ਐਫਓ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ا\u{64f}ڑن طشتری"),
+            keywords: &["UFO", "ا\u{64f}ڑن طشتری"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Fláyín Sọ\u{301}sa"),
+            keywords: &["Fláyín Sọ\u{301}sa", "UFO"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("latający talerz"),
+            keywords: &["UFO", "latający talerz"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("الوتونکى نا لبکى"),
+            keywords: &["الوتونکى نا لبکى", "الوتونکى نالبکى", "يو ايف او"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("disco voador"),
+            keywords: &["OVNI", "disco voador"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["OVNI", "disco voador"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("platillo volador"),
+            keywords: &["ovni", "platillo volador"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("farfurie zburătoare"),
+            keywords: &["OZN", "farfurie zburătoare"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1009"),
+            keywords: &["E10-1009"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("летающая тарелка"),
+            keywords: &["НЛО", "инопланетяне", "летающая тарелка", "тарелка"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("isahani iguruka"),
+            keywords: &["Ibiguruka bitazwi", "isahani iguruka"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("اڏامندڙ بس"),
+            keywords: &["UFO", "اڏامندڙ بس"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ප\u{dd2}ය\u{dcf}ඹන ප\u{dd3}ර\u{dd2}ස\u{dd2}"),
+            keywords: &["UFO", "ප\u{dd2}ය\u{dcf}ඹන ප\u{dd3}ර\u{dd2}ස\u{dd2}"],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("lietajúci tanier"),
+            keywords: &["lietajúci tanier", "ufo", "ufóni"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("leteči krožnik"),
+            keywords: &["leteči krožnik"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("shey sidii digsi oo duulaya"),
+            keywords: &["shey sidii digsi oo duulaya"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("disk fluturues"),
+            keywords: &["UFO", "disk fluturues", "objekt i paidentifikuar fluturues"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("летећи тањир"),
+            keywords: &["НЛО", "летећи тањир"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("leteći tanjir"),
+            keywords: &["NLO", "leteći tanjir"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("flygande tefat"),
+            keywords: &["UFO", "flygande tefat"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kisahani kinachopaa"),
+            keywords: &["chombo kisichotambulika kinachopaa", "kisahani kinachopaa"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("பறக\u{bcd}கும\u{bcd} தட\u{bcd}டு"),
+            keywords: &[
+                "ஏலியன\u{bcd}",
+                "பறக\u{bcd}கும\u{bcd} தட\u{bcd}டு",
+                "யூ.எஃப\u{bcd}.ஓ.",
+                "விண\u{bcd}வெளி",
+                "வேற\u{bcd}றுகிரக மனிதர\u{bcd}கள\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ఎగ\u{c3f}ర\u{c47} పళ\u{c4d}ల\u{c46}ం"),
+            keywords: &["ఎగ\u{c3f}ర\u{c47} పళ\u{c4d}ల\u{c46}ం"],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("лаълии паррон"),
+            keywords: &["лаълии паррон"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("จานบ\u{e34}น"),
+            keywords: &["จานบ\u{e34}น", "ย\u{e39}เอฟโอ"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("uçýan tabak"),
+            keywords: &["NUO", "uçýan tabak"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("peleti puna"),
+            keywords: &["peleti puna"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("uçan daire"),
+            keywords: &["UFO", "uçan daire"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئۇچار تەخسە"),
+            keywords: &["UFO", "ئۇچار تەخسە"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("летюча тарілка"),
+            keywords: &["НЛО", "летюча тарілка"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("اڑن تشتری"),
+            keywords: &["اڑن تشتری", "نامعلوم اڑن تشتری"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("uchar likopcha"),
+            keywords: &["uchar likopcha"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("đĩa bay"),
+            keywords: &["UFO", "đĩa bay"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("sukup buy naaw"),
+            keywords: &["OVNI", "sukup buy naaw"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("isosa ebhabhayo"),
+            keywords: &["I-UFO", "isosa ebhabhayo"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("àwọ kékeré tí ń fò"),
+            keywords: &["UFO", "àwọ kékeré tí ń fò"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("飛碟"),
+            keywords: &["不明飛行物體", "飛碟"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("飞碟"),
+            keywords: &["不明飞行物体", "飞碟"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("飞碟"),
+            keywords: &["UFO", "不明飞行物", "飞碟"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("飛碟"),
+            keywords: &["幽浮", "飛碟"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["UFO", "不明飛行物體", "飛碟"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("isosa endizayo"),
+            keywords: &["i-UFO", "isosa endizayo"],
+        },
+    ],
+};

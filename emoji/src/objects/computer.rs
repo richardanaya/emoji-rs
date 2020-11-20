@@ -2081,7 +2081,715 @@ pub const LAPTOP: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🖥\u{fe0f}"]
-pub const DESKTOP_COMPUTER : crate :: Emoji = crate :: Emoji { glyph : "🖥\u{fe0f}" , codepoint : "1F5A5 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "desktop computer" , group : "Objects" , subgroup : "computer" , is_variant : false , variants : & [crate :: Emoji { glyph : "🖥" , codepoint : "1F5A5" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "desktop computer" , group : "Objects" , subgroup : "computer" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("tafelrekenaar") , keywords : & ["lessenaar" , "rekenaar" , "tafel" , "tafelrekenaar"] , } , crate :: Annotation { lang : "am" , tts : Some ("ዴስክቶፕ ኮምፒውተር") , keywords : & ["ኮምፒውተር" , "ዴስክቶፕ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("كمبيوتر") , keywords : & ["سطح مكتب" , "كمبيوتر"] , } , crate :: Annotation { lang : "as" , tts : Some ("ডেস\u{9cd}কটপ কম\u{9cd}পিউট\u{9be}ৰ") , keywords : & ["কম\u{9cd}পিউট\u{9be}ৰ" , "ডেস\u{9cd}কটপ"] , } , crate :: Annotation { lang : "az" , tts : Some ("masaüstü kompüter") , keywords : & ["kompüter" , "masaüstü"] , } , crate :: Annotation { lang : "be" , tts : Some ("стацыянарны камп’ютар") , keywords : & ["камп’ютар" , "стацыянарны"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Настолен компютър") , keywords : & ["Настолен компютър" , "компютър" , "настолен"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ডেস\u{9cd}কটপ কম\u{9cd}পিউট\u{9be}র") , keywords : & ["কম\u{9cd}পিউট\u{9be}র" , "ডেস\u{9cd}কটপ"] , } , crate :: Annotation { lang : "br" , tts : Some ("urzhiataer burev") , keywords : & ["urzhiataer" , "urzhiataer burev"] , } , crate :: Annotation { lang : "bs" , tts : Some ("računar") , keywords : & ["računar" , "sto"] , } , crate :: Annotation { lang : "ca" , tts : Some ("ordinador d’escriptori") , keywords : & ["equip" , "escriptori" , "ordinador de sobretaula" , "ordinador d’escriptori"] , } , crate :: Annotation { lang : "ccp" , tts : Some ("𑄓𑄬𑄌\u{11134}𑄇\u{11134}𑄑\u{11127}𑄛\u{11134} 𑄇\u{11127}𑄟\u{11134}𑄛𑄅𑄑𑄢\u{11134}") , keywords : & ["𑄓𑄬𑄌\u{11134}𑄇\u{11134}𑄑\u{11127}𑄛\u{11134} 𑄇\u{11127}𑄟\u{11134}𑄛𑄅𑄑𑄢\u{11134}"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏍᎩᎶᎩ ᎦᏚ ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ") , keywords : & ["ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ" , "ᎦᏍᎩᎶᎩ ᎦᏚ" , "ᎦᏍᎩᎶᎩ ᎦᏚ ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("počítač") , keywords : & ["desktop" , "osobní" , "počítač" , "stolní"] , } , crate :: Annotation { lang : "cy" , tts : Some ("cyfrifiadur") , keywords : & ["bwrdd gwaith" , "cyfrifiadur"] , } , crate :: Annotation { lang : "da" , tts : Some ("stationær computer") , keywords : & ["computer" , "stationær"] , } , crate :: Annotation { lang : "de" , tts : Some ("Desktopcomputer") , keywords : & ["Bildschirm" , "Desktop" , "Desktopcomputer" , "Monitor"] , } , crate :: Annotation { lang : "el" , tts : Some ("επιτραπέζιος υπολογιστής") , keywords : & ["επιτραπέζιος" , "υπολογιστής"] , } , crate :: Annotation { lang : "en" , tts : Some ("desktop computer") , keywords : & ["computer" , "desktop"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("ordenador de sobremesa") , keywords : & ["ordenador" , "ordenador de sobremesa" , "sobremesa"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("computadora de escritorio") , keywords : & ["computadora" , "computadora de escritorio" , "escritorio"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["computadora" , "computadora de escritorio" , "pc"] , } , crate :: Annotation { lang : "et" , tts : Some ("lauaarvuti") , keywords : & ["arvuti" , "lauaarvuti"] , } , crate :: Annotation { lang : "eu" , tts : Some ("mahaigaineko ordenagailua") , keywords : & ["mahaigain" , "mahaigaineko ordenagailua" , "ordenagailu"] , } , crate :: Annotation { lang : "fa" , tts : Some ("رایانه\u{654} میزی") , keywords : & ["رایانه" , "رایانه\u{654} میزی" , "رومیزی"] , } , crate :: Annotation { lang : "fi" , tts : Some ("pöytäkone") , keywords : & ["pöytäkone" , "tietokone"] , } , crate :: Annotation { lang : "fil" , tts : Some ("desktop computer") , keywords : & ["computer" , "desktop"] , } , crate :: Annotation { lang : "fo" , tts : Some ("telda") , keywords : & ["borðtelda" , "telda"] , } , crate :: Annotation { lang : "fr" , tts : Some ("ordinateur de bureau") , keywords : & ["ordinateur" , "ordinateur de bureau"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("ríomhaire deisce") , keywords : & ["deisce" , "ríomhaire"] , } , crate :: Annotation { lang : "gd" , tts : Some ("coimpiutair deasg") , keywords : & ["coimpiutair" , "deasg" , "desktop"] , } , crate :: Annotation { lang : "gl" , tts : Some ("ordenador de escritorio") , keywords : & ["escritorio" , "ordenador" , "ordenador de escritorio"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ડ\u{ac7}સ\u{acd}કટૉપ કમ\u{acd}પ\u{acd}ય\u{ac1}ટર") , keywords : & ["કમ\u{acd}પ\u{acd}ય\u{ac1}ટર" , "ડ\u{ac7}સ\u{acd}કટૉપ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("kwamfutar na destof") , keywords : & ["destof" , "kwamfuta" , "kwamfutar na destof"] , } , crate :: Annotation { lang : "he" , tts : Some ("מחשב שולחני") , keywords : & ["מחשב" , "מחשב שולחני"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ड\u{947}स\u{94d}कटॉप") , keywords : & ["क\u{902}प\u{94d}य\u{942}टर" , "ड\u{947}स\u{94d}कटॉप" , "स\u{902}गणक"] , } , crate :: Annotation { lang : "hr" , tts : Some ("stolno računalo") , keywords : & ["računalo" , "stolno računalo"] , } , crate :: Annotation { lang : "hu" , tts : Some ("asztali számítógép") , keywords : & ["asztali" , "pc" , "számítógép"] , } , crate :: Annotation { lang : "hy" , tts : Some ("համակարգիչ") , keywords : & ["համակարգիչ"] , } , crate :: Annotation { lang : "id" , tts : Some ("komputer desktop") , keywords : & ["desktop" , "komputer"] , } , crate :: Annotation { lang : "ig" , tts : Some ("desktọọp kọmpụta") , keywords : & ["desktọọp" , "kọmpụta"] , } , crate :: Annotation { lang : "is" , tts : Some ("heimilistölva") , keywords : & ["borðtölva" , "heimilistölva" , "tölva"] , } , crate :: Annotation { lang : "it" , tts : Some ("computer fisso") , keywords : & ["PC tutto in uno" , "computer fisso" , "desktop" , "desktop PC"] , } , crate :: Annotation { lang : "ja" , tts : Some ("デスクトップパソコン") , keywords : & ["PC" , "コンピューター" , "デスクトップ" , "デスクトップパソコン" , "パソコン"] , } , crate :: Annotation { lang : "jv" , tts : Some ("komputer desktop") , keywords : & ["desktop" , "komputer"] , } , crate :: Annotation { lang : "ka" , tts : Some ("დესკტოპი") , keywords : & ["დესკტოპი" , "კომპიუტერი"] , } , crate :: Annotation { lang : "kab" , tts : Some ("aselkim n tnarit") , keywords : & ["aselkim n tnarit"] , } , crate :: Annotation { lang : "kk" , tts : Some ("дербес компьютер") , keywords : & ["дербес компьютер" , "жұмыс үстелі" , "компьютер"] , } , crate :: Annotation { lang : "kl" , tts : Some ("stationær computer") , keywords : & ["computer" , "stationær"] , } , crate :: Annotation { lang : "km" , tts : Some ("ក\u{17bb}\u{17c6}\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រលើត\u{17bb}") , keywords : & ["ក\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រ" , "ក\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រលើត\u{17bb}" , "ក\u{17bb}\u{17c6}\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រលើត\u{17bb}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಡ\u{cc6}ಸ\u{ccd}ಕ\u{ccd}\u{200c}ಟಾಪ\u{ccd} ಕಂಪ\u{ccd}ಯ\u{cc2}ಟರ\u{ccd}") , keywords : & ["ಕಂಪ\u{ccd}ಯ\u{cc2}ಟರ\u{ccd}" , "ಡ\u{cc6}ಸ\u{ccd}ಕ\u{ccd}\u{200c}ಟಾಪ\u{ccd} ಕಂಪ\u{ccd}ಯ\u{cc2}ಟರ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("데스크톱 컴퓨터") , keywords : & ["데스크톱" , "컴퓨터"] , } , crate :: Annotation { lang : "kok" , tts : Some ("ड\u{945}स\u{94d}कटॉप स\u{902}गणक") , keywords : & ["ड\u{945}स\u{94d}कटॉप" , "स\u{902}गणक"] , } , crate :: Annotation { lang : "ky" , tts : Some ("иш тактасындагы компьютер") , keywords : & ["иш тактасы" , "иш тактасындагы компьютер" , "компьютер"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Desktopcomputer") , keywords : & ["Computer" , "Desktop" , "Desktopcomputer"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຄອມພ\u{eb4}ວເຕ\u{eb5}ຕ\u{eb1}\u{ec9}ງໂຕະ") , keywords : & ["ຄອມພ\u{eb4}ວເຕ\u{eb5}" , "ຄອມພ\u{eb4}ວເຕ\u{eb5}ຕ\u{eb1}\u{ec9}ງໂຕະ" , "ຕ\u{eb1}\u{ec9}ງໂຕະ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("stalinis kompiuteris") , keywords : & ["kompiuteris" , "stalinis"] , } , crate :: Annotation { lang : "lv" , tts : Some ("galddators") , keywords : & ["dators" , "galddators"] , } , crate :: Annotation { lang : "mi" , tts : Some ("rorohiko papamahi") , keywords : & ["papamahi" , "rorohiko"] , } , crate :: Annotation { lang : "mk" , tts : Some ("компјутер") , keywords : & ["десктоп" , "компјутер"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ഡെസ\u{d4d}\u{200c}ക\u{d4d}\u{200c}ടോപ\u{d4d}പ\u{d4d} കമ\u{d4d}പ\u{d4d}യ\u{d42}ട\u{d4d}ടർ") , keywords : & ["കമ\u{d4d}പ\u{d4d}യ\u{d42}ട\u{d4d}ടർ" , "ഡെസ\u{d4d}\u{200c}ക\u{d4d}ക\u{d4d}ടോപ\u{d4d}പ\u{d4d}" , "ഡെസ\u{d4d}\u{200c}ക\u{d4d}\u{200c}ടോപ\u{d4d}പ\u{d4d} കമ\u{d4d}പ\u{d4d}യ\u{d42}ട\u{d4d}ടർ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("ширээний компьютер") , keywords : & ["компьютер" , "ширээний компьютер"] , } , crate :: Annotation { lang : "mr" , tts : Some ("ड\u{947}स\u{94d}कटॉप स\u{902}गणक") , keywords : & ["ड\u{947}स\u{94d}कटॉप" , "स\u{902}गणक"] , } , crate :: Annotation { lang : "ms" , tts : Some ("komputer meja") , keywords : & ["komputer" , "meja"] , } , crate :: Annotation { lang : "mt" , tts : Some ("kompjuter desktop") , keywords : & ["desktop" , "kompjuter"] , } , crate :: Annotation { lang : "my" , tts : Some ("စားပ\u{103d}\u{1032}တင\u{103a} က\u{103d}န\u{103a}ပျ\u{1030}တာ") , keywords : & ["က\u{103d}န\u{103a}ပျ\u{1030}တာ" , "စားပ\u{103d}\u{1032}တင\u{103a} က\u{103d}န\u{103a}ပျ\u{1030}တာ" , "ဒက\u{103a}စ\u{103a}တော\u{1037}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("stasjonær datamaskin") , keywords : & ["PC" , "datamaskin" , "stasjonær"] , } , crate :: Annotation { lang : "ne" , tts : Some ("ड\u{947}स\u{94d}कटप कम\u{94d}प\u{94d}य\u{941}टर") , keywords : & ["कम\u{94d}प\u{94d}य\u{941}टर" , "ड\u{947}स\u{94d}कटप"] , } , crate :: Annotation { lang : "nl" , tts : Some ("desktop") , keywords : & ["computer" , "desktop"] , } , crate :: Annotation { lang : "nn" , tts : Some ("stasjonær datamaskin") , keywords : & ["PC" , "datamaskin" , "stasjonær"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଡେସ\u{b4d}କଟପ\u{b4d}\u{200c} କମ\u{b4d}ପ\u{b4d}ୟ\u{b41}ଟର\u{b4d}\u{200c}") , keywords : & ["କମ\u{b4d}ପ\u{b4d}ୟ\u{b41}ଟର" , "ଡ\u{b3c}େସ\u{b4d}କଟପ\u{b4d}\u{200c}" , "ଡେସ\u{b4d}କଟପ\u{b4d}\u{200c} କମ\u{b4d}ପ\u{b4d}ୟ\u{b41}ଟର\u{b4d}\u{200c}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਡ\u{a48}ਸਕਟਾਪ ਕ\u{a70}ਪਿਊਟਰ") , keywords : & ["ਕ\u{a70}ਪਿਊਟਰ ਡ\u{a48}ਸਕਟਾਪ" , "ਡ\u{a48}ਸਕਟਾਪ ਕ\u{a70}ਪਿਊਟਰ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("ڈیسک ٹاپ کمپیوٹر") , keywords : & ["ڈیسک ٹاپ" , "ڈیسک ٹاپ کمپیوٹر" , "کمپیوٹر"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Dẹ\u{301}sktọ\u{301}p Kọmpúta") , keywords : & ["Dẹ\u{301}sktọp" , "Dẹ\u{301}sktọ\u{301}p Kọmpúta" , "Kọmpúta"] , } , crate :: Annotation { lang : "pl" , tts : Some ("komputer") , keywords : & ["biurkowy" , "ekran" , "komputer" , "stacjonarny" , "wyświetlacz"] , } , crate :: Annotation { lang : "ps" , tts : Some ("ډیسکټاپ کمپیوټر") , keywords : & ["ډیسکټاپ" , "کمپیوټر"] , } , crate :: Annotation { lang : "pt" , tts : Some ("computador de mesa") , keywords : & ["computador" , "computador de mesa" , "desktop"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("computador de secretária") , keywords : & ["computador" , "computador de secretária" , "secretária"] , } , crate :: Annotation { lang : "qu" , tts : Some ("hanpara computadora") , keywords : & ["computadora" , "hanpara"] , } , crate :: Annotation { lang : "ro" , tts : Some ("computer desktop") , keywords : & ["birou" , "computer" , "computer de birou" , "computer desktop"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-811") , keywords : & ["E10-811"] , } , crate :: Annotation { lang : "ru" , tts : Some ("компьютер") , keywords : & ["компьютер" , "настольный"] , } , crate :: Annotation { lang : "rw" , tts : Some ("mudasobwa iterekwa ku meza") , keywords : & ["iterekwa ku meza" , "mudasobwa" , "mudasobwa iterekwa ku meza"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڊيسڪٽاپ ڪمپيوٽر") , keywords : & ["ڊيسڪ ٽاپ" , "ڊيسڪٽاپ ڪمپيوٽر" , "ڪمپيوٽر"] , } , crate :: Annotation { lang : "si" , tts : Some ("ඩෙස\u{dca}ක\u{dca}ටොප\u{dca} පර\u{dd2}ගණකය") , keywords : & ["ඩෙස\u{dca}ක\u{dca}ටොප\u{dca}" , "ඩෙස\u{dca}ක\u{dca}ටොප\u{dca} පර\u{dd2}ගණකය" , "පර\u{dd2}\u{dd2}ගණකය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("stolný počítač") , keywords : & ["stolný" , "stolný počítač"] , } , crate :: Annotation { lang : "sl" , tts : Some ("namizni računalnik") , keywords : & ["namizni računalnik" , "namizno" , "računalnik"] , } , crate :: Annotation { lang : "so" , tts : Some ("koombuyuutarka miiska") , keywords : & ["koombuyuutar" , "koombuyuutarka miiska" , "miis"] , } , crate :: Annotation { lang : "sq" , tts : Some ("kompjuter desktop") , keywords : & ["desktop" , "kompjuter"] , } , crate :: Annotation { lang : "sr" , tts : Some ("стони рачунар") , keywords : & ["рачунар" , "стони рачунар"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["стони рачунар"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("stoni računar") , keywords : & ["računar" , "stoni računar"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["stoni računar"] , } , crate :: Annotation { lang : "sv" , tts : Some ("stationär dator") , keywords : & ["dator" , "pc" , "stationär dator"] , } , crate :: Annotation { lang : "sw" , tts : Some ("kompyuta ya mezani") , keywords : & ["kompyuta" , "kompyuta ya mezani"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("டெஸ\u{bcd}க\u{bcd}ட\u{bbe}ப\u{bcd} கணினி") , keywords : & ["கணினி" , "டெஸ\u{bcd}க\u{bcd}ட\u{bbe}ப\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("డ\u{c46}స\u{c4d}క\u{c4d}\u{200c}ట\u{c3e}ప\u{c4d} కంప\u{c4d}యూటర\u{c4d}") , keywords : & ["కంప\u{c4d}యూటర\u{c4d}" , "డ\u{c46}స\u{c4d}క\u{c4d}\u{200c}ట\u{c3e}ప\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("компютери рӯимизӣ") , keywords : & ["компютер" , "компютери рӯимизӣ" , "рӯимизӣ"] , } , crate :: Annotation { lang : "th" , tts : Some ("คอมพ\u{e34}วเตอร\u{e4c}เดสก\u{e4c}ท\u{e47}อป") , keywords : & ["คอมพ\u{e34}วเตอร\u{e4c}" , "คอมพ\u{e34}วเตอร\u{e4c}เดสก\u{e4c}ท\u{e47}อป" , "ต\u{e31}\u{e49}งโต\u{e4a}ะ" , "เดสก\u{e4c}ท\u{e47}อป"] , } , crate :: Annotation { lang : "tk" , tts : Some ("iş stoly kompýuteri") , keywords : & ["iş stoly" , "iş stoly kompýuteri" , "kompýuter"] , } , crate :: Annotation { lang : "to" , tts : Some ("komipiuta") , keywords : & ["komipiuta"] , } , crate :: Annotation { lang : "tr" , tts : Some ("masaüstü bilgisayar") , keywords : & ["bilgisayar" , "masaüstü"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئۈستەل كومپيۇتېرى") , keywords : & ["ئۈستەل" , "ئۈستەل كومپيۇتېرى" , "كومپيۇتېر"] , } , crate :: Annotation { lang : "uk" , tts : Some ("комп’ютер") , keywords : & ["комп’ютер" , "настільний"] , } , crate :: Annotation { lang : "ur" , tts : Some ("ڈیسک ٹاپ کمپیوٹر") , keywords : & ["ڈیسک ٹاپ" , "ڈیسک ٹاپ کمپیوٹر" , "کمپیوٹر"] , } , crate :: Annotation { lang : "uz" , tts : Some ("ish stoli kompyuteri") , keywords : & ["ish stoli kompyuteri" , "kompyuter"] , } , crate :: Annotation { lang : "vi" , tts : Some ("máy tính để bàn") , keywords : & ["máy tính" , "máy tính để bàn"] , } , crate :: Annotation { lang : "wo" , tts : Some ("ordi-biro ordinatër") , keywords : & ["ordi-biro" , "ordinatër"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ikhompyutha yedesktophu") , keywords : & ["idesktophu" , "ikhompyutha" , "ikhompyutha yedesktophu"] , } , crate :: Annotation { lang : "yo" , tts : Some ("kọ\u{300}npútà a-gbé-lórí-tábílì") , keywords : & ["a-gbé-lórí-tábílì" , "kọ\u{300}npútà"] , } , crate :: Annotation { lang : "yue" , tts : Some ("桌面電腦") , keywords : & ["桌面" , "桌面電腦" , "電腦"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("桌面电脑") , keywords : & ["桌面" , "桌面电脑" , "电脑"] , } , crate :: Annotation { lang : "zh" , tts : Some ("台式电脑") , keywords : & ["PC" , "个人电脑" , "台式电脑" , "显示器" , "显示屏" , "计算机"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("電腦") , keywords : & ["桌上型電腦" , "桌機" , "電腦"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["桌上型電腦" , "桌面電腦" , "電腦"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ikhompyutha yedeskhithophu") , keywords : & ["ideskhithophu" , "ikhompyutha" , "ikhompyutha yedeskhithophu"] , }] , } ;
+pub const DESKTOP_COMPUTER: crate::Emoji = crate::Emoji {
+    glyph: "🖥\u{fe0f}",
+    codepoint: "1F5A5 FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.7f32,
+    name: "desktop computer",
+    group: "Objects",
+    subgroup: "computer",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🖥",
+        codepoint: "1F5A5",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "desktop computer",
+        group: "Objects",
+        subgroup: "computer",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("tafelrekenaar"),
+            keywords: &["lessenaar", "rekenaar", "tafel", "tafelrekenaar"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ዴስክቶፕ ኮምፒውተር"),
+            keywords: &["ኮምፒውተር", "ዴስክቶፕ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("كمبيوتر"),
+            keywords: &["سطح مكتب", "كمبيوتر"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ডেস\u{9cd}কটপ কম\u{9cd}পিউট\u{9be}ৰ"),
+            keywords: &["কম\u{9cd}পিউট\u{9be}ৰ", "ডেস\u{9cd}কটপ"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("masaüstü kompüter"),
+            keywords: &["kompüter", "masaüstü"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("стацыянарны камп’ютар"),
+            keywords: &["камп’ютар", "стацыянарны"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Настолен компютър"),
+            keywords: &["Настолен компютър", "компютър", "настолен"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ডেস\u{9cd}কটপ কম\u{9cd}পিউট\u{9be}র"),
+            keywords: &["কম\u{9cd}পিউট\u{9be}র", "ডেস\u{9cd}কটপ"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("urzhiataer burev"),
+            keywords: &["urzhiataer", "urzhiataer burev"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("računar"),
+            keywords: &["računar", "sto"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("ordinador d’escriptori"),
+            keywords: &[
+                "equip",
+                "escriptori",
+                "ordinador de sobretaula",
+                "ordinador d’escriptori",
+            ],
+        },
+        crate::Annotation {
+            lang: "ccp",
+            tts: Some(
+                "𑄓𑄬𑄌\u{11134}𑄇\u{11134}𑄑\u{11127}𑄛\u{11134} 𑄇\u{11127}𑄟\u{11134}𑄛𑄅𑄑𑄢\u{11134}",
+            ),
+            keywords: &[
+                "𑄓𑄬𑄌\u{11134}𑄇\u{11134}𑄑\u{11127}𑄛\u{11134} 𑄇\u{11127}𑄟\u{11134}𑄛𑄅𑄑𑄢\u{11134}",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎦᏍᎩᎶᎩ ᎦᏚ ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ"),
+            keywords: &[
+                "ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ",
+                "ᎦᏍᎩᎶᎩ ᎦᏚ",
+                "ᎦᏍᎩᎶᎩ ᎦᏚ ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ",
+            ],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("počítač"),
+            keywords: &["desktop", "osobní", "počítač", "stolní"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("cyfrifiadur"),
+            keywords: &["bwrdd gwaith", "cyfrifiadur"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("stationær computer"),
+            keywords: &["computer", "stationær"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Desktopcomputer"),
+            keywords: &["Bildschirm", "Desktop", "Desktopcomputer", "Monitor"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("επιτραπέζιος υπολογιστής"),
+            keywords: &["επιτραπέζιος", "υπολογιστής"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("desktop computer"),
+            keywords: &["computer", "desktop"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("ordenador de sobremesa"),
+            keywords: &["ordenador", "ordenador de sobremesa", "sobremesa"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("computadora de escritorio"),
+            keywords: &["computadora", "computadora de escritorio", "escritorio"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["computadora", "computadora de escritorio", "pc"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("lauaarvuti"),
+            keywords: &["arvuti", "lauaarvuti"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("mahaigaineko ordenagailua"),
+            keywords: &["mahaigain", "mahaigaineko ordenagailua", "ordenagailu"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("رایانه\u{654} میزی"),
+            keywords: &["رایانه", "رایانه\u{654} میزی", "رومیزی"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pöytäkone"),
+            keywords: &["pöytäkone", "tietokone"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("desktop computer"),
+            keywords: &["computer", "desktop"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("telda"),
+            keywords: &["borðtelda", "telda"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("ordinateur de bureau"),
+            keywords: &["ordinateur", "ordinateur de bureau"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("ríomhaire deisce"),
+            keywords: &["deisce", "ríomhaire"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("coimpiutair deasg"),
+            keywords: &["coimpiutair", "deasg", "desktop"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("ordenador de escritorio"),
+            keywords: &["escritorio", "ordenador", "ordenador de escritorio"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ડ\u{ac7}સ\u{acd}કટૉપ કમ\u{acd}પ\u{acd}ય\u{ac1}ટર"),
+            keywords: &["કમ\u{acd}પ\u{acd}ય\u{ac1}ટર", "ડ\u{ac7}સ\u{acd}કટૉપ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("kwamfutar na destof"),
+            keywords: &["destof", "kwamfuta", "kwamfutar na destof"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("מחשב שולחני"),
+            keywords: &["מחשב", "מחשב שולחני"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ड\u{947}स\u{94d}कटॉप"),
+            keywords: &[
+                "क\u{902}प\u{94d}य\u{942}टर",
+                "ड\u{947}स\u{94d}कटॉप",
+                "स\u{902}गणक",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("stolno računalo"),
+            keywords: &["računalo", "stolno računalo"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("asztali számítógép"),
+            keywords: &["asztali", "pc", "számítógép"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("համակարգիչ"),
+            keywords: &["համակարգիչ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("komputer desktop"),
+            keywords: &["desktop", "komputer"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("desktọọp kọmpụta"),
+            keywords: &["desktọọp", "kọmpụta"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("heimilistölva"),
+            keywords: &["borðtölva", "heimilistölva", "tölva"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("computer fisso"),
+            keywords: &["PC tutto in uno", "computer fisso", "desktop", "desktop PC"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("デスクトップパソコン"),
+            keywords: &[
+                "PC",
+                "コンピューター",
+                "デスクトップ",
+                "デスクトップパソコン",
+                "パソコン",
+            ],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("komputer desktop"),
+            keywords: &["desktop", "komputer"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("დესკტოპი"),
+            keywords: &["დესკტოპი", "კომპიუტერი"],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("aselkim n tnarit"),
+            keywords: &["aselkim n tnarit"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("дербес компьютер"),
+            keywords: &["дербес компьютер", "жұмыс үстелі", "компьютер"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("stationær computer"),
+            keywords: &["computer", "stationær"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ក\u{17bb}\u{17c6}\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រលើត\u{17bb}"),
+            keywords: &[
+                "ក\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រ",
+                "ក\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រលើត\u{17bb}",
+                "ក\u{17bb}\u{17c6}\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រលើត\u{17bb}",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಡ\u{cc6}ಸ\u{ccd}ಕ\u{ccd}\u{200c}ಟಾಪ\u{ccd} ಕಂಪ\u{ccd}ಯ\u{cc2}ಟರ\u{ccd}"),
+            keywords: &[
+                "ಕಂಪ\u{ccd}ಯ\u{cc2}ಟರ\u{ccd}",
+                "ಡ\u{cc6}ಸ\u{ccd}ಕ\u{ccd}\u{200c}ಟಾಪ\u{ccd} ಕಂಪ\u{ccd}ಯ\u{cc2}ಟರ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("데스크톱 컴퓨터"),
+            keywords: &["데스크톱", "컴퓨터"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("ड\u{945}स\u{94d}कटॉप स\u{902}गणक"),
+            keywords: &["ड\u{945}स\u{94d}कटॉप", "स\u{902}गणक"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("иш тактасындагы компьютер"),
+            keywords: &["иш тактасы", "иш тактасындагы компьютер", "компьютер"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Desktopcomputer"),
+            keywords: &["Computer", "Desktop", "Desktopcomputer"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຄອມພ\u{eb4}ວເຕ\u{eb5}ຕ\u{eb1}\u{ec9}ງໂຕະ"),
+            keywords: &[
+                "ຄອມພ\u{eb4}ວເຕ\u{eb5}",
+                "ຄອມພ\u{eb4}ວເຕ\u{eb5}ຕ\u{eb1}\u{ec9}ງໂຕະ",
+                "ຕ\u{eb1}\u{ec9}ງໂຕະ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("stalinis kompiuteris"),
+            keywords: &["kompiuteris", "stalinis"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("galddators"),
+            keywords: &["dators", "galddators"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("rorohiko papamahi"),
+            keywords: &["papamahi", "rorohiko"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("компјутер"),
+            keywords: &["десктоп", "компјутер"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some(
+                "ഡെസ\u{d4d}\u{200c}ക\u{d4d}\u{200c}ടോപ\u{d4d}പ\u{d4d} കമ\u{d4d}പ\u{d4d}യ\u{d42}ട\u{d4d}ടർ",
+            ),
+            keywords: &[
+                "കമ\u{d4d}പ\u{d4d}യ\u{d42}ട\u{d4d}ടർ",
+                "ഡെസ\u{d4d}\u{200c}ക\u{d4d}ക\u{d4d}ടോപ\u{d4d}പ\u{d4d}",
+                "ഡെസ\u{d4d}\u{200c}ക\u{d4d}\u{200c}ടോപ\u{d4d}പ\u{d4d} കമ\u{d4d}പ\u{d4d}യ\u{d42}ട\u{d4d}ടർ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("ширээний компьютер"),
+            keywords: &["компьютер", "ширээний компьютер"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("ड\u{947}स\u{94d}कटॉप स\u{902}गणक"),
+            keywords: &["ड\u{947}स\u{94d}कटॉप", "स\u{902}गणक"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("komputer meja"),
+            keywords: &["komputer", "meja"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("kompjuter desktop"),
+            keywords: &["desktop", "kompjuter"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("စားပ\u{103d}\u{1032}တင\u{103a} က\u{103d}န\u{103a}ပျ\u{1030}တာ"),
+            keywords: &[
+                "က\u{103d}န\u{103a}ပျ\u{1030}တာ",
+                "စားပ\u{103d}\u{1032}တင\u{103a} က\u{103d}န\u{103a}ပျ\u{1030}တာ",
+                "ဒက\u{103a}စ\u{103a}တော\u{1037}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("stasjonær datamaskin"),
+            keywords: &["PC", "datamaskin", "stasjonær"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("ड\u{947}स\u{94d}कटप कम\u{94d}प\u{94d}य\u{941}टर"),
+            keywords: &["कम\u{94d}प\u{94d}य\u{941}टर", "ड\u{947}स\u{94d}कटप"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("desktop"),
+            keywords: &["computer", "desktop"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("stasjonær datamaskin"),
+            keywords: &["PC", "datamaskin", "stasjonær"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଡେସ\u{b4d}କଟପ\u{b4d}\u{200c} କମ\u{b4d}ପ\u{b4d}ୟ\u{b41}ଟର\u{b4d}\u{200c}"),
+            keywords: &[
+                "କମ\u{b4d}ପ\u{b4d}ୟ\u{b41}ଟର",
+                "ଡ\u{b3c}େସ\u{b4d}କଟପ\u{b4d}\u{200c}",
+                "ଡେସ\u{b4d}କଟପ\u{b4d}\u{200c} କମ\u{b4d}ପ\u{b4d}ୟ\u{b41}ଟର\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਡ\u{a48}ਸਕਟਾਪ ਕ\u{a70}ਪਿਊਟਰ"),
+            keywords: &["ਕ\u{a70}ਪਿਊਟਰ ਡ\u{a48}ਸਕਟਾਪ", "ਡ\u{a48}ਸਕਟਾਪ ਕ\u{a70}ਪਿਊਟਰ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ڈیسک ٹاپ کمپیوٹر"),
+            keywords: &["ڈیسک ٹاپ", "ڈیسک ٹاپ کمپیوٹر", "کمپیوٹر"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Dẹ\u{301}sktọ\u{301}p Kọmpúta"),
+            keywords: &["Dẹ\u{301}sktọp", "Dẹ\u{301}sktọ\u{301}p Kọmpúta", "Kọmpúta"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("komputer"),
+            keywords: &[
+                "biurkowy",
+                "ekran",
+                "komputer",
+                "stacjonarny",
+                "wyświetlacz",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("ډیسکټاپ کمپیوټر"),
+            keywords: &["ډیسکټاپ", "کمپیوټر"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("computador de mesa"),
+            keywords: &["computador", "computador de mesa", "desktop"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("computador de secretária"),
+            keywords: &["computador", "computador de secretária", "secretária"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("hanpara computadora"),
+            keywords: &["computadora", "hanpara"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("computer desktop"),
+            keywords: &["birou", "computer", "computer de birou", "computer desktop"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-811"),
+            keywords: &["E10-811"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("компьютер"),
+            keywords: &["компьютер", "настольный"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("mudasobwa iterekwa ku meza"),
+            keywords: &[
+                "iterekwa ku meza",
+                "mudasobwa",
+                "mudasobwa iterekwa ku meza",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڊيسڪٽاپ ڪمپيوٽر"),
+            keywords: &["ڊيسڪ ٽاپ", "ڊيسڪٽاپ ڪمپيوٽر", "ڪمپيوٽر"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ඩෙස\u{dca}ක\u{dca}ටොප\u{dca} පර\u{dd2}ගණකය"),
+            keywords: &[
+                "ඩෙස\u{dca}ක\u{dca}ටොප\u{dca}",
+                "ඩෙස\u{dca}ක\u{dca}ටොප\u{dca} පර\u{dd2}ගණකය",
+                "පර\u{dd2}\u{dd2}ගණකය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("stolný počítač"),
+            keywords: &["stolný", "stolný počítač"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("namizni računalnik"),
+            keywords: &["namizni računalnik", "namizno", "računalnik"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("koombuyuutarka miiska"),
+            keywords: &["koombuyuutar", "koombuyuutarka miiska", "miis"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("kompjuter desktop"),
+            keywords: &["desktop", "kompjuter"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("стони рачунар"),
+            keywords: &["рачунар", "стони рачунар"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["стони рачунар"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("stoni računar"),
+            keywords: &["računar", "stoni računar"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["stoni računar"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("stationär dator"),
+            keywords: &["dator", "pc", "stationär dator"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kompyuta ya mezani"),
+            keywords: &["kompyuta", "kompyuta ya mezani"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("டெஸ\u{bcd}க\u{bcd}ட\u{bbe}ப\u{bcd} கணினி"),
+            keywords: &["கணினி", "டெஸ\u{bcd}க\u{bcd}ட\u{bbe}ப\u{bcd}"],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("డ\u{c46}స\u{c4d}క\u{c4d}\u{200c}ట\u{c3e}ప\u{c4d} కంప\u{c4d}యూటర\u{c4d}"),
+            keywords: &[
+                "కంప\u{c4d}యూటర\u{c4d}",
+                "డ\u{c46}స\u{c4d}క\u{c4d}\u{200c}ట\u{c3e}ప\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("компютери рӯимизӣ"),
+            keywords: &["компютер", "компютери рӯимизӣ", "рӯимизӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("คอมพ\u{e34}วเตอร\u{e4c}เดสก\u{e4c}ท\u{e47}อป"),
+            keywords: &[
+                "คอมพ\u{e34}วเตอร\u{e4c}",
+                "คอมพ\u{e34}วเตอร\u{e4c}เดสก\u{e4c}ท\u{e47}อป",
+                "ต\u{e31}\u{e49}งโต\u{e4a}ะ",
+                "เดสก\u{e4c}ท\u{e47}อป",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("iş stoly kompýuteri"),
+            keywords: &["iş stoly", "iş stoly kompýuteri", "kompýuter"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("komipiuta"),
+            keywords: &["komipiuta"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("masaüstü bilgisayar"),
+            keywords: &["bilgisayar", "masaüstü"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئۈستەل كومپيۇتېرى"),
+            keywords: &["ئۈستەل", "ئۈستەل كومپيۇتېرى", "كومپيۇتېر"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("комп’ютер"),
+            keywords: &["комп’ютер", "настільний"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("ڈیسک ٹاپ کمپیوٹر"),
+            keywords: &["ڈیسک ٹاپ", "ڈیسک ٹاپ کمپیوٹر", "کمپیوٹر"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("ish stoli kompyuteri"),
+            keywords: &["ish stoli kompyuteri", "kompyuter"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("máy tính để bàn"),
+            keywords: &["máy tính", "máy tính để bàn"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("ordi-biro ordinatër"),
+            keywords: &["ordi-biro", "ordinatër"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ikhompyutha yedesktophu"),
+            keywords: &["idesktophu", "ikhompyutha", "ikhompyutha yedesktophu"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("kọ\u{300}npútà a-gbé-lórí-tábílì"),
+            keywords: &["a-gbé-lórí-tábílì", "kọ\u{300}npútà"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("桌面電腦"),
+            keywords: &["桌面", "桌面電腦", "電腦"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("桌面电脑"),
+            keywords: &["桌面", "桌面电脑", "电脑"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("台式电脑"),
+            keywords: &["PC", "个人电脑", "台式电脑", "显示器", "显示屏", "计算机"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("電腦"),
+            keywords: &["桌上型電腦", "桌機", "電腦"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["桌上型電腦", "桌面電腦", "電腦"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ikhompyutha yedeskhithophu"),
+            keywords: &["ideskhithophu", "ikhompyutha", "ikhompyutha yedeskhithophu"],
+        },
+    ],
+};
 #[doc = "🖨\u{fe0f}"]
 pub const PRINTER: crate::Emoji = crate::Emoji {
     glyph: "🖨\u{fe0f}",
@@ -5608,9 +6316,1518 @@ pub const COMPUTER_DISK: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "💾"]
-pub const FLOPPY_DISK : crate :: Emoji = crate :: Emoji { glyph : "💾" , codepoint : "1F4BE" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "floppy disk" , group : "Objects" , subgroup : "computer" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("slapskyf") , keywords : & ["disket" , "rekenaar" , "skyf" , "slap" , "slapskyf"] , } , crate :: Annotation { lang : "am" , tts : Some ("ፍሎፒ ዲስክ") , keywords : & ["ኮምፒውተር" , "ዲስክ" , "ፍሎፒ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("قرص مرن") , keywords : & ["فلوبي" , "قرص" , "قرص مرن"] , } , crate :: Annotation { lang : "as" , tts : Some ("ফ\u{9cd}লপী ডিস\u{9cd}ক") , keywords : & ["কম\u{9cd}পিউট\u{9be}ৰ" , "ডিস\u{9cd}ক" , "ফ\u{9cd}লপী"] , } , crate :: Annotation { lang : "az" , tts : Some ("çevik disk") , keywords : & ["disk" , "kompüter" , "çevik"] , } , crate :: Annotation { lang : "be" , tts : Some ("дыскета") , keywords : & ["гібкі" , "дыск" , "дыскета" , "камп’ютар" , "носьбіт"] , } , crate :: Annotation { lang : "bg" , tts : Some ("дискета") , keywords : & ["диск" , "дискета" , "компютър"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ফ\u{9cd}লপি ডিস\u{9cd}ক") , keywords : & ["কম\u{9cd}পিউট\u{9be}র" , "ডিস\u{9cd}ক" , "ফ\u{9cd}লপি"] , } , crate :: Annotation { lang : "br" , tts : Some ("pladennig") , keywords : & ["pladennig" , "urzhiater"] , } , crate :: Annotation { lang : "bs" , tts : Some ("disketa") , keywords : & ["disk" , "disketa" , "floppy"] , } , crate :: Annotation { lang : "ca" , tts : Some ("disquet") , keywords : & ["disc" , "disquet" , "equip"] , } , crate :: Annotation { lang : "ccp" , tts : Some ("𑄜\u{11133}𑄣\u{11127}𑄛\u{11128} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}") , keywords : & ["𑄜\u{11133}𑄣\u{11127}𑄛\u{11128} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᏩᏂᎨ ᎠᏠᏗ") , keywords : & ["ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ" , "ᎠᏠᏗ" , "ᏩᏂᎨ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("disketa") , keywords : & ["disk" , "disketa" , "počítač"] , } , crate :: Annotation { lang : "cy" , tts : Some ("disg hyblyg") , keywords : & ["cyfrifiadur" , "disg" , "hyblyg"] , } , crate :: Annotation { lang : "da" , tts : Some ("diskette") , keywords : & ["computer" , "diskette"] , } , crate :: Annotation { lang : "de" , tts : Some ("Diskette") , keywords : & ["Datenträger" , "Diskette"] , } , crate :: Annotation { lang : "el" , tts : Some ("δισκέτα") , keywords : & ["δίσκος" , "δισκέτα" , "υπολογιστής"] , } , crate :: Annotation { lang : "en" , tts : Some ("floppy disk") , keywords : & ["computer" , "disk" , "floppy"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["computer" , "disk" , "diskette" , "floppy"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["computer" , "disk" , "diskette" , "floppy"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("disquete") , keywords : & ["disco" , "disco de 3 1/2" , "disquete"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["disco" , "diskette" , "disquete" , "floppy"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("diskett") , keywords : & ["arvuti" , "diskett" , "ketas"] , } , crate :: Annotation { lang : "eu" , tts : Some ("disketea") , keywords : & ["diskete" , "disketea" , "disko" , "ordenagailu"] , } , crate :: Annotation { lang : "fa" , tts : Some ("فلاپی دیسک") , keywords : & ["دیسک" , "رایانه" , "فلاپی"] , } , crate :: Annotation { lang : "fi" , tts : Some ("disketti") , keywords : & ["disketti" , "korppu" , "levyke" , "tietokone"] , } , crate :: Annotation { lang : "fil" , tts : Some ("floppy disk") , keywords : & ["computer" , "disk" , "floppy"] , } , crate :: Annotation { lang : "fo" , tts : Some ("diskil") , keywords : & ["disketta" , "diskil"] , } , crate :: Annotation { lang : "fr" , tts : Some ("disquette") , keywords : & ["disque" , "disquette" , "ordinateur"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("diosca bog") , keywords : & ["bog" , "diosca"] , } , crate :: Annotation { lang : "gd" , tts : Some ("diosg bog") , keywords : & ["bog" , "coimpiutair" , "diosg" , "floppy"] , } , crate :: Annotation { lang : "gl" , tts : Some ("disquete") , keywords : & ["disquete" , "disqueteira" , "ordenador"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ફ\u{acd}લોપી ડિસ\u{acd}ક") , keywords : & ["ડિસ\u{acd}ક" , "ફ\u{acd}લોપી"] , } , crate :: Annotation { lang : "ha" , tts : Some ("diski na floppy") , keywords : & ["diski" , "diski na floppy" , "kwamfuta" , "na floppy"] , } , crate :: Annotation { lang : "he" , tts : Some ("דיסקט") , keywords : & ["דיסקט" , "מחשב" , "פלופי"] , } , crate :: Annotation { lang : "hi" , tts : Some ("फ\u{93c}\u{94d}लॉपी डिस\u{94d}क") , keywords : & ["क\u{902}प\u{94d}य\u{942}टर" , "डिस\u{94d}क" , "फ\u{93c}\u{94d}लॉपी"] , } , crate :: Annotation { lang : "hr" , tts : Some ("disketa") , keywords : & ["disk" , "disketa" , "računalo"] , } , crate :: Annotation { lang : "hu" , tts : Some ("floppylemez") , keywords : & ["floppy" , "floppylemez" , "hajlékonylemez" , "lemez" , "számítógép"] , } , crate :: Annotation { lang : "hy" , tts : Some ("ֆլոպի սկավառակ") , keywords : & ["համակարգիչ" , "սկավառակ" , "ֆլոպի"] , } , crate :: Annotation { lang : "id" , tts : Some ("disket") , keywords : & ["disk" , "disket" , "komputer"] , } , crate :: Annotation { lang : "ig" , tts : Some ("flọpi diiski") , keywords : & ["diiski" , "flọpi" , "kọmpụta"] , } , crate :: Annotation { lang : "is" , tts : Some ("disketta") , keywords : & ["disketta" , "diskur"] , } , crate :: Annotation { lang : "it" , tts : Some ("floppy disc") , keywords : & ["disc" , "floppy"] , } , crate :: Annotation { lang : "ja" , tts : Some ("フロッピー") , keywords : & ["FD" , "コンピューター" , "ディスク" , "フロッピー"] , } , crate :: Annotation { lang : "jv" , tts : Some ("disket flopi") , keywords : & ["disket" , "flopi" , "komputer"] , } , crate :: Annotation { lang : "ka" , tts : Some ("დრეკადი დისკი") , keywords : & ["დისკი" , "დრეკადი" , "კომპიუტერი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("алмалы диск") , keywords : & ["алмалы диск" , "диск" , "компьютер"] , } , crate :: Annotation { lang : "kl" , tts : Some ("diskette") , keywords : & ["computer" , "diskette"] , } , crate :: Annotation { lang : "km" , tts : Some ("ឌ\u{17b8}សប\u{17bd}នជ\u{17d2}រ\u{17bb}ងរក\u{17d2}សាទ\u{17bb}កឯកសារ (ហ\u{17bd}សសម\u{17d0}យ)") , keywords : & ["ក\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រ" , "ឌ\u{17b8}ស" , "ឌ\u{17b8}សជ\u{17d2}រ\u{17bb}ង" , "ឌ\u{17b8}សប\u{17bd}នជ\u{17d2}រ\u{17bb}ងរក\u{17d2}សាទ\u{17bb}កឯកសារ (ហ\u{17bd}សសម\u{17d0}យ)"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಫ\u{ccd}ಲಾಪ\u{cbf} ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}") , keywords : & ["ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}" , "ಫ\u{ccd}ಲಾಪ\u{cbf}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("플로피 디스크") , keywords : & ["디스켓" , "플로피 디스크"] , } , crate :: Annotation { lang : "kok" , tts : Some ("फ\u{94d}लॉपी डिस\u{94d}क") , keywords : & ["डिस\u{94d}क" , "फ\u{94d}लॉपी" , "स\u{902}गणक"] , } , crate :: Annotation { lang : "ky" , tts : Some ("дискета") , keywords : & ["диск" , "дискета" , "компьютер"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Diskett") , keywords : & ["Computer" , "Disk" , "Diskett"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}ດ\u{eb4}ສ") , keywords : & ["ດ\u{eb4}ສ" , "ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}" , "ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}ດ\u{eb4}ສ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("diskelis") , keywords : & ["diskas" , "diskelis" , "kompiuteris"] , } , crate :: Annotation { lang : "lv" , tts : Some ("diskete") , keywords : & ["dators" , "diskete"] , } , crate :: Annotation { lang : "mi" , tts : Some ("kōpae pīngore") , keywords : & ["kōpae" , "pīngore" , "rorohiko"] , } , crate :: Annotation { lang : "mk" , tts : Some ("дискета") , keywords : & ["дискета" , "компјутер" , "хардвер"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ഫ\u{d4d}ലോപ\u{d4d}പി ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}") , keywords : & ["ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}" , "ഫ\u{d4d}ലോപ\u{d4d}പി"] , } , crate :: Annotation { lang : "mn" , tts : Some ("уян диск") , keywords : & ["диск" , "компьютер" , "уян"] , } , crate :: Annotation { lang : "mr" , tts : Some ("फ\u{94d}लॉपी डिस\u{94d}क") , keywords : & ["डिस\u{94d}क" , "फ\u{94d}लॉपी"] , } , crate :: Annotation { lang : "ms" , tts : Some ("cakera liut") , keywords : & ["cakera" , "komputer" , "liut"] , } , crate :: Annotation { lang : "mt" , tts : Some ("diskett") , keywords : & ["diska" , "diskett" , "floppy" , "kompjuter"] , } , crate :: Annotation { lang : "my" , tts : Some ("ဖလော\u{103a}ပ\u{102e}ဒစ\u{103a}") , keywords : & ["က\u{103d}န\u{103a}ပျ\u{1030}တာ" , "ဒစ\u{103a}ခ\u{103a}" , "ဖလော\u{103a}ပ\u{102e}" , "ဖလော\u{103a}ပ\u{102e}ဒစ\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("diskett") , keywords : & ["datamaskin" , "disk" , "diskett" , "lagring"] , } , crate :: Annotation { lang : "ne" , tts : Some ("फ\u{94d}लपी डिस\u{94d}क") , keywords : & ["कम\u{94d}प\u{94d}य\u{941}टर" , "डिस\u{94d}क" , "फ\u{94d}लपी"] , } , crate :: Annotation { lang : "nl" , tts : Some ("floppydisk") , keywords : & ["disk" , "diskette" , "floppy" , "floppydisk"] , } , crate :: Annotation { lang : "nn" , tts : Some ("diskett") , keywords : & ["datamaskin" , "disk" , "diskett" , "lagring"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଫ\u{b4d}ଲପ\u{b3f} ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}") , keywords : & ["ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}" , "ଫ\u{b4d}ଲପ\u{b3f}" , "ଫ\u{b4d}ଲପ\u{b3f} ଡ\u{b3f}ସ\u{b4d}କ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਫਲ\u{a4c}ਪੀ ਡਿਸਕ") , keywords : & ["ਡਿਸਕ" , "ਫਲਾਪੀ" , "ਫਲ\u{a4c}ਪੀ ਡਿਸਕ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("فلاپی ڈسک") , keywords : & ["فلاپی" , "ڈسک" , "کمپیوٹر"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Flọ\u{301}pí Disk") , keywords : & ["Disk" , "Flọ\u{301}pí" , "Kọmpúta"] , } , crate :: Annotation { lang : "pl" , tts : Some ("dyskietka") , keywords : & ["dyskietka" , "komputerowa" , "miękki dysk"] , } , crate :: Annotation { lang : "ps" , tts : Some ("فلاپي ډیسک") , keywords : & ["فلاپي" , "فلاپي ډیسک" , "ډسک" , "کمپيوټر"] , } , crate :: Annotation { lang : "pt" , tts : Some ("disquete") , keywords : & ["computador" , "disco" , "disco flexível" , "disquete"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["computador" , "disquete" , "floppy"] , } , crate :: Annotation { lang : "qu" , tts : Some ("disquete") , keywords : & ["disquete"] , } , crate :: Annotation { lang : "ro" , tts : Some ("dischetă") , keywords : & ["computer" , "dischetă" , "floppy" , "stocare"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-635") , keywords : & ["E10-635"] , } , crate :: Annotation { lang : "ru" , tts : Some ("дискета") , keywords : & ["данные" , "дискета" , "компьютер" , "носитель"] , } , crate :: Annotation { lang : "rw" , tts : Some ("disikete") , keywords : & ["disike" , "disikete" , "folopi disiki" , "mudasobwa"] , } , crate :: Annotation { lang : "sd" , tts : Some ("فلاپي ڊسڪ") , keywords : & ["فلاپي" , "ڊسڪ" , "ڪمپيوٽر"] , } , crate :: Annotation { lang : "si" , tts : Some ("ස\u{dd4}නම\u{dca}\u{200d}ය තැට\u{dd2}ය") , keywords : & ["තැට\u{dd2}ය" , "පර\u{dd2}ගණකය" , "ස\u{dd4}නම\u{dca}\u{200d}ය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("disketa") , keywords : & ["disk" , "disketa" , "počítač"] , } , crate :: Annotation { lang : "sl" , tts : Some ("disketa") , keywords : & ["disk" , "disketa" , "računalnik"] , } , crate :: Annotation { lang : "so" , tts : Some ("cajalada faloobida") , keywords : & ["cajalad" , "cajalada faloobida" , "faloobi" , "koombuyuutar"] , } , crate :: Annotation { lang : "sq" , tts : Some ("disketë") , keywords : & ["disk" , "disketë" , "kompjuter"] , } , crate :: Annotation { lang : "sr" , tts : Some ("дискета") , keywords : & ["диск" , "дискета" , "рачунар"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["дискета"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("disketa") , keywords : & ["disk" , "disketa" , "računar"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["disketa"] , } , crate :: Annotation { lang : "sv" , tts : Some ("diskett") , keywords : & ["dator" , "diskett"] , } , crate :: Annotation { lang : "sw" , tts : Some ("diski laini") , keywords : & ["diski" , "diski laini" , "kompyuta"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("பிள\u{bbe}ப\u{bcd}பி டிஸ\u{bcd}க\u{bcd}") , keywords : & ["டிஸ\u{bcd}க\u{bcd}" , "பிள\u{bbe}ப\u{bcd}பி"] , } , crate :: Annotation { lang : "te" , tts : Some ("ఫ\u{c4d}ల\u{c3e}ప\u{c40} డ\u{c3f}స\u{c4d}క\u{c4d}") , keywords : & ["కంప\u{c4d}యూటర\u{c4d}" , "డ\u{c3f}స\u{c4d}క\u{c4d}" , "ఫ\u{c4d}ల\u{c3e}ప\u{c40}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("диски нарм") , keywords : & ["диск" , "диски нарм" , "компютер" , "нарм"] , } , crate :: Annotation { lang : "th" , tts : Some ("ฟลอปป\u{e35}\u{e49}ด\u{e34}สก\u{e4c}") , keywords : & ["ด\u{e34}สก\u{e4c}" , "ฟลอปป\u{e35}\u{e49}" , "ฟลอปป\u{e35}\u{e49}ด\u{e34}สก\u{e4c}" , "แผ\u{e48}นบ\u{e31}นท\u{e36}ก"] , } , crate :: Annotation { lang : "tk" , tts : Some ("çeýe disk") , keywords : & ["disk" , "kompýuter" , "çeýe"] , } , crate :: Annotation { lang : "to" , tts : Some ("tisi molū") , keywords : & ["tisi molū"] , } , crate :: Annotation { lang : "tr" , tts : Some ("disket") , keywords : & ["disket" , "floppy"] , } , crate :: Annotation { lang : "ug" , tts : Some ("يۇمشاق دىسكا") , keywords : & ["دىسكا" , "كومپيۇتېر" , "يۇمشاق"] , } , crate :: Annotation { lang : "uk" , tts : Some ("дискета") , keywords : & ["диск" , "дискета" , "комп’ютер"] , } , crate :: Annotation { lang : "ur" , tts : Some ("فلاپی ڈسک") , keywords : & ["فلاپی" , "ڈسک" , "کمپیوٹر"] , } , crate :: Annotation { lang : "uz" , tts : Some ("disketa") , keywords : & ["disk" , "disketa" , "kompyuter" , "yumshoq disk"] , } , crate :: Annotation { lang : "vi" , tts : Some ("đĩa mềm") , keywords : & ["máy tính" , "mềm" , "đĩa"] , } , crate :: Annotation { lang : "wo" , tts : Some ("disket") , keywords : & ["disk" , "disket" , "ordinatër"] , } , crate :: Annotation { lang : "xh" , tts : Some ("idiski ye-floppy") , keywords : & ["i-floppy" , "idiski" , "idiski ye-floppy" , "ikhompyutha"] , } , crate :: Annotation { lang : "yo" , tts : Some ("dísìkì fílọ\u{300}pì") , keywords : & ["dísìkì fílọ\u{300}pì" , "fíló\u{329}pì" , "kọ\u{300}npútà" , "àwo"] , } , crate :: Annotation { lang : "yue" , tts : Some ("磁碟") , keywords : & ["光碟" , "磁碟" , "軟" , "電腦"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("磁碟") , keywords : & ["光碟" , "电脑" , "磁碟" , "软"] , } , crate :: Annotation { lang : "zh" , tts : Some ("软盘") , keywords : & ["3.5英寸" , "便携" , "存储" , "磁盘" , "软盘"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("磁碟片") , keywords : & ["磁碟片"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("磁碟") , keywords : & ["磁碟"] , } , crate :: Annotation { lang : "zu" , tts : Some ("i-floppy diski") , keywords : & ["i-floppy" , "i-floppy diski" , "idiski" , "ikhompyutha"] , }] , } ;
+pub const FLOPPY_DISK: crate::Emoji = crate::Emoji {
+    glyph: "💾",
+    codepoint: "1F4BE",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "floppy disk",
+    group: "Objects",
+    subgroup: "computer",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("slapskyf"),
+            keywords: &["disket", "rekenaar", "skyf", "slap", "slapskyf"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ፍሎፒ ዲስክ"),
+            keywords: &["ኮምፒውተር", "ዲስክ", "ፍሎፒ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("قرص مرن"),
+            keywords: &["فلوبي", "قرص", "قرص مرن"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ফ\u{9cd}লপী ডিস\u{9cd}ক"),
+            keywords: &["কম\u{9cd}পিউট\u{9be}ৰ", "ডিস\u{9cd}ক", "ফ\u{9cd}লপী"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("çevik disk"),
+            keywords: &["disk", "kompüter", "çevik"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("дыскета"),
+            keywords: &["гібкі", "дыск", "дыскета", "камп’ютар", "носьбіт"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("дискета"),
+            keywords: &["диск", "дискета", "компютър"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ফ\u{9cd}লপি ডিস\u{9cd}ক"),
+            keywords: &["কম\u{9cd}পিউট\u{9be}র", "ডিস\u{9cd}ক", "ফ\u{9cd}লপি"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("pladennig"),
+            keywords: &["pladennig", "urzhiater"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("disketa"),
+            keywords: &["disk", "disketa", "floppy"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("disquet"),
+            keywords: &["disc", "disquet", "equip"],
+        },
+        crate::Annotation {
+            lang: "ccp",
+            tts: Some("𑄜\u{11133}𑄣\u{11127}𑄛\u{11128} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}"),
+            keywords: &["𑄜\u{11133}𑄣\u{11127}𑄛\u{11128} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏩᏂᎨ ᎠᏠᏗ"),
+            keywords: &["ᎠᎦᏙᎥᎯᏍᏗᏍᎩ ᎠᏍᏆᏂᎪᏗᏍᎩ", "ᎠᏠᏗ", "ᏩᏂᎨ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("disketa"),
+            keywords: &["disk", "disketa", "počítač"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("disg hyblyg"),
+            keywords: &["cyfrifiadur", "disg", "hyblyg"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("diskette"),
+            keywords: &["computer", "diskette"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Diskette"),
+            keywords: &["Datenträger", "Diskette"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("δισκέτα"),
+            keywords: &["δίσκος", "δισκέτα", "υπολογιστής"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("floppy disk"),
+            keywords: &["computer", "disk", "floppy"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["computer", "disk", "diskette", "floppy"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["computer", "disk", "diskette", "floppy"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("disquete"),
+            keywords: &["disco", "disco de 3 1/2", "disquete"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["disco", "diskette", "disquete", "floppy"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("diskett"),
+            keywords: &["arvuti", "diskett", "ketas"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("disketea"),
+            keywords: &["diskete", "disketea", "disko", "ordenagailu"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("فلاپی دیسک"),
+            keywords: &["دیسک", "رایانه", "فلاپی"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("disketti"),
+            keywords: &["disketti", "korppu", "levyke", "tietokone"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("floppy disk"),
+            keywords: &["computer", "disk", "floppy"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("diskil"),
+            keywords: &["disketta", "diskil"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("disquette"),
+            keywords: &["disque", "disquette", "ordinateur"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("diosca bog"),
+            keywords: &["bog", "diosca"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("diosg bog"),
+            keywords: &["bog", "coimpiutair", "diosg", "floppy"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("disquete"),
+            keywords: &["disquete", "disqueteira", "ordenador"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ફ\u{acd}લોપી ડિસ\u{acd}ક"),
+            keywords: &["ડિસ\u{acd}ક", "ફ\u{acd}લોપી"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("diski na floppy"),
+            keywords: &["diski", "diski na floppy", "kwamfuta", "na floppy"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("דיסקט"),
+            keywords: &["דיסקט", "מחשב", "פלופי"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("फ\u{93c}\u{94d}लॉपी डिस\u{94d}क"),
+            keywords: &[
+                "क\u{902}प\u{94d}य\u{942}टर",
+                "डिस\u{94d}क",
+                "फ\u{93c}\u{94d}लॉपी",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("disketa"),
+            keywords: &["disk", "disketa", "računalo"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("floppylemez"),
+            keywords: &[
+                "floppy",
+                "floppylemez",
+                "hajlékonylemez",
+                "lemez",
+                "számítógép",
+            ],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("ֆլոպի սկավառակ"),
+            keywords: &["համակարգիչ", "սկավառակ", "ֆլոպի"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("disket"),
+            keywords: &["disk", "disket", "komputer"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("flọpi diiski"),
+            keywords: &["diiski", "flọpi", "kọmpụta"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("disketta"),
+            keywords: &["disketta", "diskur"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("floppy disc"),
+            keywords: &["disc", "floppy"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("フロッピー"),
+            keywords: &["FD", "コンピューター", "ディスク", "フロッピー"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("disket flopi"),
+            keywords: &["disket", "flopi", "komputer"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("დრეკადი დისკი"),
+            keywords: &["დისკი", "დრეკადი", "კომპიუტერი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("алмалы диск"),
+            keywords: &["алмалы диск", "диск", "компьютер"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("diskette"),
+            keywords: &["computer", "diskette"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some(
+                "ឌ\u{17b8}សប\u{17bd}នជ\u{17d2}រ\u{17bb}ងរក\u{17d2}សាទ\u{17bb}កឯកសារ (ហ\u{17bd}សសម\u{17d0}យ)",
+            ),
+            keywords: &[
+                "ក\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រ",
+                "ឌ\u{17b8}ស",
+                "ឌ\u{17b8}សជ\u{17d2}រ\u{17bb}ង",
+                "ឌ\u{17b8}សប\u{17bd}នជ\u{17d2}រ\u{17bb}ងរក\u{17d2}សាទ\u{17bb}កឯកសារ (ហ\u{17bd}សសម\u{17d0}យ)",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಫ\u{ccd}ಲಾಪ\u{cbf} ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}"),
+            keywords: &["ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}", "ಫ\u{ccd}ಲಾಪ\u{cbf}"],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("플로피 디스크"),
+            keywords: &["디스켓", "플로피 디스크"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("फ\u{94d}लॉपी डिस\u{94d}क"),
+            keywords: &["डिस\u{94d}क", "फ\u{94d}लॉपी", "स\u{902}गणक"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("дискета"),
+            keywords: &["диск", "дискета", "компьютер"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Diskett"),
+            keywords: &["Computer", "Disk", "Diskett"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}ດ\u{eb4}ສ"),
+            keywords: &[
+                "ດ\u{eb4}ສ",
+                "ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}",
+                "ຟລ\u{eb1}ອບປ\u{eb5}\u{ec9}ດ\u{eb4}ສ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("diskelis"),
+            keywords: &["diskas", "diskelis", "kompiuteris"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("diskete"),
+            keywords: &["dators", "diskete"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("kōpae pīngore"),
+            keywords: &["kōpae", "pīngore", "rorohiko"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("дискета"),
+            keywords: &["дискета", "компјутер", "хардвер"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ഫ\u{d4d}ലോപ\u{d4d}പി ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}"),
+            keywords: &["ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}", "ഫ\u{d4d}ലോപ\u{d4d}പി"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("уян диск"),
+            keywords: &["диск", "компьютер", "уян"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("फ\u{94d}लॉपी डिस\u{94d}क"),
+            keywords: &["डिस\u{94d}क", "फ\u{94d}लॉपी"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("cakera liut"),
+            keywords: &["cakera", "komputer", "liut"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("diskett"),
+            keywords: &["diska", "diskett", "floppy", "kompjuter"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ဖလော\u{103a}ပ\u{102e}ဒစ\u{103a}"),
+            keywords: &[
+                "က\u{103d}န\u{103a}ပျ\u{1030}တာ",
+                "ဒစ\u{103a}ခ\u{103a}",
+                "ဖလော\u{103a}ပ\u{102e}",
+                "ဖလော\u{103a}ပ\u{102e}ဒစ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("diskett"),
+            keywords: &["datamaskin", "disk", "diskett", "lagring"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("फ\u{94d}लपी डिस\u{94d}क"),
+            keywords: &["कम\u{94d}प\u{94d}य\u{941}टर", "डिस\u{94d}क", "फ\u{94d}लपी"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("floppydisk"),
+            keywords: &["disk", "diskette", "floppy", "floppydisk"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("diskett"),
+            keywords: &["datamaskin", "disk", "diskett", "lagring"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଫ\u{b4d}ଲପ\u{b3f} ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}"),
+            keywords: &[
+                "ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}",
+                "ଫ\u{b4d}ଲପ\u{b3f}",
+                "ଫ\u{b4d}ଲପ\u{b3f} ଡ\u{b3f}ସ\u{b4d}କ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਫਲ\u{a4c}ਪੀ ਡਿਸਕ"),
+            keywords: &["ਡਿਸਕ", "ਫਲਾਪੀ", "ਫਲ\u{a4c}ਪੀ ਡਿਸਕ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("فلاپی ڈسک"),
+            keywords: &["فلاپی", "ڈسک", "کمپیوٹر"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Flọ\u{301}pí Disk"),
+            keywords: &["Disk", "Flọ\u{301}pí", "Kọmpúta"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("dyskietka"),
+            keywords: &["dyskietka", "komputerowa", "miękki dysk"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("فلاپي ډیسک"),
+            keywords: &["فلاپي", "فلاپي ډیسک", "ډسک", "کمپيوټر"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("disquete"),
+            keywords: &["computador", "disco", "disco flexível", "disquete"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["computador", "disquete", "floppy"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("disquete"),
+            keywords: &["disquete"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("dischetă"),
+            keywords: &["computer", "dischetă", "floppy", "stocare"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-635"),
+            keywords: &["E10-635"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("дискета"),
+            keywords: &["данные", "дискета", "компьютер", "носитель"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("disikete"),
+            keywords: &["disike", "disikete", "folopi disiki", "mudasobwa"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("فلاپي ڊسڪ"),
+            keywords: &["فلاپي", "ڊسڪ", "ڪمپيوٽر"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ස\u{dd4}නම\u{dca}\u{200d}ය තැට\u{dd2}ය"),
+            keywords: &["තැට\u{dd2}ය", "පර\u{dd2}ගණකය", "ස\u{dd4}නම\u{dca}\u{200d}ය"],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("disketa"),
+            keywords: &["disk", "disketa", "počítač"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("disketa"),
+            keywords: &["disk", "disketa", "računalnik"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("cajalada faloobida"),
+            keywords: &["cajalad", "cajalada faloobida", "faloobi", "koombuyuutar"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("disketë"),
+            keywords: &["disk", "disketë", "kompjuter"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("дискета"),
+            keywords: &["диск", "дискета", "рачунар"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["дискета"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("disketa"),
+            keywords: &["disk", "disketa", "računar"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["disketa"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("diskett"),
+            keywords: &["dator", "diskett"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("diski laini"),
+            keywords: &["diski", "diski laini", "kompyuta"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("பிள\u{bbe}ப\u{bcd}பி டிஸ\u{bcd}க\u{bcd}"),
+            keywords: &["டிஸ\u{bcd}க\u{bcd}", "பிள\u{bbe}ப\u{bcd}பி"],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ఫ\u{c4d}ల\u{c3e}ప\u{c40} డ\u{c3f}స\u{c4d}క\u{c4d}"),
+            keywords: &[
+                "కంప\u{c4d}యూటర\u{c4d}",
+                "డ\u{c3f}స\u{c4d}క\u{c4d}",
+                "ఫ\u{c4d}ల\u{c3e}ప\u{c40}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("диски нарм"),
+            keywords: &["диск", "диски нарм", "компютер", "нарм"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ฟลอปป\u{e35}\u{e49}ด\u{e34}สก\u{e4c}"),
+            keywords: &[
+                "ด\u{e34}สก\u{e4c}",
+                "ฟลอปป\u{e35}\u{e49}",
+                "ฟลอปป\u{e35}\u{e49}ด\u{e34}สก\u{e4c}",
+                "แผ\u{e48}นบ\u{e31}นท\u{e36}ก",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("çeýe disk"),
+            keywords: &["disk", "kompýuter", "çeýe"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tisi molū"),
+            keywords: &["tisi molū"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("disket"),
+            keywords: &["disket", "floppy"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("يۇمشاق دىسكا"),
+            keywords: &["دىسكا", "كومپيۇتېر", "يۇمشاق"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("дискета"),
+            keywords: &["диск", "дискета", "комп’ютер"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("فلاپی ڈسک"),
+            keywords: &["فلاپی", "ڈسک", "کمپیوٹر"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("disketa"),
+            keywords: &["disk", "disketa", "kompyuter", "yumshoq disk"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("đĩa mềm"),
+            keywords: &["máy tính", "mềm", "đĩa"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("disket"),
+            keywords: &["disk", "disket", "ordinatër"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("idiski ye-floppy"),
+            keywords: &["i-floppy", "idiski", "idiski ye-floppy", "ikhompyutha"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("dísìkì fílọ\u{300}pì"),
+            keywords: &[
+                "dísìkì fílọ\u{300}pì",
+                "fíló\u{329}pì",
+                "kọ\u{300}npútà",
+                "àwo",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("磁碟"),
+            keywords: &["光碟", "磁碟", "軟", "電腦"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("磁碟"),
+            keywords: &["光碟", "电脑", "磁碟", "软"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("软盘"),
+            keywords: &["3.5英寸", "便携", "存储", "磁盘", "软盘"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("磁碟片"),
+            keywords: &["磁碟片"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("磁碟"),
+            keywords: &["磁碟"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("i-floppy diski"),
+            keywords: &["i-floppy", "i-floppy diski", "idiski", "ikhompyutha"],
+        },
+    ],
+};
 #[doc = "💿"]
-pub const OPTICAL_DISK : crate :: Emoji = crate :: Emoji { glyph : "💿" , codepoint : "1F4BF" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "optical disk" , group : "Objects" , subgroup : "computer" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("optiese skyf") , keywords : & ["blu-ray" , "cd" , "dvd" , "opties" , "optiese skyf" , "rekenaar" , "skyf"] , } , crate :: Annotation { lang : "am" , tts : Some ("ኦፕቲካል ዲስክ") , keywords : & ["ሲዲ" , "ኦፕቲካል" , "ኮምፒውተር" , "ዲስክ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("سي دي") , keywords : & ["دي في دي" , "سي دي" , "قرص" , "قرص ضوئي"] , } , crate :: Annotation { lang : "as" , tts : Some ("অপ\u{9cd}টিকেল ডিস\u{9cd}ক") , keywords : & ["অপ\u{9cd}টিকেল" , "ক\u{9be}ম\u{9cd}পিউট\u{9be}ৰ" , "চিডি" , "ডিস\u{9cd}ক"] , } , crate :: Annotation { lang : "az" , tts : Some ("optik disk") , keywords : & ["blu-rey" , "cd" , "disk" , "dvd" , "kompüter" , "optik"] , } , crate :: Annotation { lang : "be" , tts : Some ("аптычны дыск") , keywords : & ["CD" , "аптычны" , "аптычны дыск" , "кампакт-дыск" , "камп’ютар" , "носьбіт"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Оптичен диск") , keywords : & ["[blu-ray]" , "[cd]" , "[dvd]" , "Оптичен диск" , "диск" , "оптичен"] , } , crate :: Annotation { lang : "bn" , tts : Some ("অপ\u{9cd}টিক\u{9cd}য\u{9be}ল ডিস\u{9cd}ক") , keywords : & ["অপটিক\u{9cd}য\u{9be}ল" , "অপ\u{9cd}টিক\u{9cd}য\u{9be}ল ডিস\u{9cd}ক" , "ডিস\u{9cd}ক" , "সিডি । কম\u{9cd}পিউট\u{9be}র"] , } , crate :: Annotation { lang : "br" , tts : Some ("CD") , keywords : & ["CD" , "pladenn" , "urzhiater"] , } , crate :: Annotation { lang : "bs" , tts : Some ("cd") , keywords : & ["blu-ray" , "cd" , "disk" , "optički" , "računar"] , } , crate :: Annotation { lang : "ca" , tts : Some ("disc òptic") , keywords : & ["cd" , "disc" , "dvd" , "equip" , "ordinador" , "òptic"] , } , crate :: Annotation { lang : "ccp" , tts : Some ("𑄃\u{11127}𑄛\u{11134}𑄑\u{11128}𑄇\u{11133}𑄠𑄣\u{11134} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}") , keywords : & ["𑄃\u{11127}𑄛\u{11134}𑄑\u{11128}𑄇\u{11133}𑄠𑄣\u{11134} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᎪᏩᏛᏗ ᎠᏠᏗ") , keywords : & ["cd" , "ᎠᎦᏙᎥᎯᏍᏗ ᎠᏍᏆᏂᎪᏗᏍᎩ" , "ᎠᎪᏩᏛᏗ" , "ᎠᏠᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("optický disk") , keywords : & ["bd" , "blu-ray" , "blue-ray" , "cd" , "disk" , "dvd" , "optické" , "optický" , "počítač"] , } , crate :: Annotation { lang : "cy" , tts : Some ("disg optegol") , keywords : & ["blu-ray" , "cd" , "computer" , "disg optegol" , "disk" , "dvd" , "optical"] , } , crate :: Annotation { lang : "da" , tts : Some ("cd") , keywords : & ["cd" , "dvd"] , } , crate :: Annotation { lang : "de" , tts : Some ("CD") , keywords : & ["Blu-Ray" , "CD" , "DVD"] , } , crate :: Annotation { lang : "el" , tts : Some ("οπτικός δίσκος") , keywords : & ["blu-ray" , "cd" , "dvd" , "δίσκος" , "οπτικός" , "υπολογιστής"] , } , crate :: Annotation { lang : "en" , tts : Some ("optical disk") , keywords : & ["cd" , "computer" , "disk" , "optical"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["CD" , "computer" , "disk" , "optical"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("disco óptico") , keywords : & ["cd" , "disco" , "disco óptico"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["Blu-ray" , "CD" , "DVD" , "disco" , "óptico"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("optiline ketas") , keywords : & ["CD" , "DVD" , "arvuti" , "ketas" , "optiline"] , } , crate :: Annotation { lang : "eu" , tts : Some ("disko optikoa") , keywords : & ["blu-ray" , "cd" , "disko" , "disko optikoa" , "dvd" , "optiko" , "ordenagailu"] , } , crate :: Annotation { lang : "fa" , tts : Some ("سی\u{200c}دی") , keywords : & ["بلوری" , "دیسک" , "دی\u{200c}وی\u{200c}دی" , "رایانه" , "سی\u{200c}دی" , "لوح فشرده" , "نوری"] , } , crate :: Annotation { lang : "fi" , tts : Some ("CD") , keywords : & ["CD" , "blu-ray" , "dvd" , "levy" , "tietokone"] , } , crate :: Annotation { lang : "fil" , tts : Some ("optical disc") , keywords : & ["cd" , "computer" , "disk" , "optical disc" , "optikal"] , } , crate :: Annotation { lang : "fo" , tts : Some ("sjónbandsfløga") , keywords : & ["cd" , "diskur" , "sjónbandsfløga"] , } , crate :: Annotation { lang : "fr" , tts : Some ("CD") , keywords : & ["CD" , "disque"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["CD" , "disque" , "ordinateur"] , } , crate :: Annotation { lang : "ga" , tts : Some ("diosca optúil") , keywords : & ["DVD" , "blu-ray" , "diosca" , "diosca optúil"] , } , crate :: Annotation { lang : "gd" , tts : Some ("diosg optaigeach") , keywords : & ["cd" , "coimpiutair" , "diosg" , "lèirsinneach" , "optaigeach"] , } , crate :: Annotation { lang : "gl" , tts : Some ("CD") , keywords : & ["CD" , "disco" , "ordenador"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ઑપ\u{acd}ટિકલ ડિસ\u{acd}ક") , keywords : & ["ઑપ\u{acd}ટિકલ" , "કમ\u{acd}પ\u{acd}ય\u{ac1}ટર" , "ડિસ\u{acd}ક" , "સીડી"] , } , crate :: Annotation { lang : "ha" , tts : Some ("diski na da’ira") , keywords : & ["cd" , "diski" , "diski na da’ira" , "kwamfuta" , "na da’ira"] , } , crate :: Annotation { lang : "he" , tts : Some ("דיסק אופטי") , keywords : & ["אופטי" , "דיסק" , "מחשב" , "תקליטור"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ऑप\u{94d}टिकल डिस\u{94d}क") , keywords : & ["ऑप\u{94d}टिकल" , "क\u{902}प\u{94d}य\u{942}टर" , "डिस\u{94d}क" , "सीडी"] , } , crate :: Annotation { lang : "hr" , tts : Some ("optički disk") , keywords : & ["cd" , "disk" , "optički" , "računalo"] , } , crate :: Annotation { lang : "hu" , tts : Some ("optikai lemez") , keywords : & ["blu-ray" , "dvd" , "lemez" , "optikai" , "számítógép"] , } , crate :: Annotation { lang : "hy" , tts : Some ("օպտիկական սկավառակ") , keywords : & ["blu-ray" , "cd" , "dvd" , "համակարգիչ" , "սկավառակ" , "օպտիկական"] , } , crate :: Annotation { lang : "id" , tts : Some ("disk optik") , keywords : & ["cd" , "disk" , "komputer" , "optik"] , } , crate :: Annotation { lang : "ig" , tts : Some ("diiski ọptịkal") , keywords : & ["cd" , "diiski" , "kọmpụta" , "ọptịkal"] , } , crate :: Annotation { lang : "is" , tts : Some ("blu-ray") , keywords : & ["blu-ray" , "diskur" , "geisladiskur" , "tölva"] , } , crate :: Annotation { lang : "it" , tts : Some ("disco ottico") , keywords : & ["CD" , "DVD" , "blu-ray" , "disco" , "disco ottico"] , } , crate :: Annotation { lang : "ja" , tts : Some ("CD") , keywords : & ["Blu-ray" , "CD" , "DVD" , "ディスク" , "ブルーレイ"] , } , crate :: Annotation { lang : "jv" , tts : Some ("cakram optikal") , keywords : & ["cakram" , "cd" , "komputer" , "optikal"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ოპტიკური დისკი") , keywords : & ["blu-ray" , "cd" , "dvd" , "დისკი" , "კომპიუტერი" , "ოპტიკური"] , } , crate :: Annotation { lang : "kk" , tts : Some ("оптикалық диск") , keywords : & ["диск" , "компьютер" , "оптикалық" , "шағын диск"] , } , crate :: Annotation { lang : "kl" , tts : Some ("cd") , keywords : & ["cd" , "dvd"] , } , crate :: Annotation { lang : "km" , tts : Some ("ឌ\u{17b8}សឡាស\u{17ca}ែរ") , keywords : & ["ក\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រ" , "ឌ\u{17b8}ស" , "ឌ\u{17b8}សឡាស\u{17ca}ែរ" , "ស\u{17ca}\u{17b8}ឌ\u{17b8}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಆಪ\u{ccd} ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}") , keywords : & ["ಆಪ\u{ccd} ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}" , "ಆಪ\u{ccd}ಟ\u{cbf}ಕಲ\u{ccd}" , "ಕಂಪ\u{ccd}ಯ\u{cc2}ಟರ\u{ccd}" , "ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}" , "ಸ\u{cbf}ಡ\u{cbf}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("씨디") , keywords : & ["CD" , "DVD" , "광학 디스크" , "디비디" , "블루레이" , "씨디"] , } , crate :: Annotation { lang : "kok" , tts : Some ("ऑप\u{94d}टिकल डिस\u{94d}क") , keywords : & ["ऑप\u{94d}टिकल डिस\u{94d}क" , "ऑप\u{94d}टीकल" , "डिस\u{94d}क" , "स\u{902}गणक" , "सीडी"] , } , crate :: Annotation { lang : "ky" , tts : Some ("оптикалык диск") , keywords : & ["blu-ray" , "cd" , "dvd" , "диск" , "компьютер" , "оптикалык"] , } , crate :: Annotation { lang : "lb" , tts : Some ("CD") , keywords : & ["CD" , "Computer" , "Disk" , "optesch"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ອ\u{eb1}ອບຕ\u{eb5}ໂຄດ\u{eb4}ສ") , keywords : & ["ດ\u{eb4}ສ" , "ອ\u{eb1}ອບຕ\u{eb5}ໂຄ" , "ອ\u{eb1}ອບຕ\u{eb5}ໂຄດ\u{eb4}ສ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("optinis diskas") , keywords : & ["CD" , "diskas" , "kompaktinis diskas" , "kompiuteris" , "optinis"] , } , crate :: Annotation { lang : "lv" , tts : Some ("optiskais disks") , keywords : & ["CD" , "dators" , "kompaktdisks" , "optiskais disks"] , } , crate :: Annotation { lang : "mi" , tts : Some ("kōpae whatu") , keywords : & ["kōpae" , "kōpaepae" , "rorohiko" , "whatu"] , } , crate :: Annotation { lang : "mk" , tts : Some ("цд") , keywords : & ["компјутер" , "хардвер" , "цд"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ഒപ\u{d4d}റ\u{d4d}റിക\u{d4d}കൽ ഡിസ\u{d4d}ക\u{d4d}") , keywords : & ["ഒപ\u{d4d}റ\u{d4d}റിക\u{d4d}കൽ ഡിസ\u{d4d}ക\u{d4d}" , "ഒപ\u{d4d}റ\u{d4d}റിക\u{d4d}കൽ ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}" , "ഡിവിഡി" , "ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}" , "ബ\u{d4d}ല\u{d42}-റേ" , "സിഡി"] , } , crate :: Annotation { lang : "mn" , tts : Some ("оптик диск") , keywords : & ["cd" , "диск" , "компьютер" , "оптик диск" , "оптикал"] , } , crate :: Annotation { lang : "mr" , tts : Some ("ऑप\u{94d}टिकल डिस\u{94d}क") , keywords : & ["ऑप\u{94d}टिकल डिस\u{94d}क" , "डिस\u{94d}क" , "डीव\u{94d}हीडी" , "ब\u{94d}ल\u{94d}य\u{942}-र\u{947}" , "सीडी"] , } , crate :: Annotation { lang : "ms" , tts : Some ("cakera optik") , keywords : & ["cakera" , "cd" , "komputer" , "optik"] , } , crate :: Annotation { lang : "mt" , tts : Some ("diska ottika") , keywords : & ["cd" , "diska" , "diska ottika" , "kompjuter" , "ottiċi"] , } , crate :: Annotation { lang : "my" , tts : Some ("အလင\u{103a}းသ\u{102f}\u{1036}းဒစ\u{103a}") , keywords : & ["က\u{103d}န\u{103a}ပျ\u{1030}တာ" , "စ\u{102e}ဒ\u{102e}" , "ဒစ\u{103a}ခ\u{103a}" , "အလင\u{103a}းသ\u{102f}\u{1036}းဒစ\u{103a}" , "အော\u{1037}ပ\u{103a}တစ\u{103a}ကယ\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("optisk plate") , keywords : & ["CD" , "DVD" , "blu-ray" , "disk" , "lagring" , "optisk plate"] , } , crate :: Annotation { lang : "ne" , tts : Some ("अप\u{94d}टिकल डिस\u{94d}क") , keywords : & ["अप\u{94d}टिकल" , "कम\u{94d}प\u{94d}य\u{941}टर" , "डिस\u{94d}क" , "सिडी"] , } , crate :: Annotation { lang : "nl" , tts : Some ("optische schijf") , keywords : & ["cd" , "computer" , "optisch" , "optische schijf" , "schijf"] , } , crate :: Annotation { lang : "nn" , tts : Some ("optisk plate") , keywords : & ["CD" , "DVD" , "blu-ray" , "disk" , "lagring" , "optisk plate"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଅପ\u{b4d}ଟ\u{b3f}କ\u{b3e}ଲ\u{b4d}\u{200c} ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}") , keywords : & ["ଅପ\u{b4d}ଟ\u{b3f}କ\u{b3e}ଲ\u{b4d}\u{200c} ଡ\u{b3f}ସ\u{b4d}କ" , "ଅପ\u{b4d}ଟ\u{b3f}କ\u{b3e}ଲ\u{b4d}\u{200c} ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}" , "ଡ\u{b3f}ଭ\u{b3f}ଡ\u{b3f}" , "ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}" , "ବ\u{b4d}ଲ\u{b41}-ରେ" , "ସ\u{b3f}ଡ\u{b3f}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਬਲ\u{a42}-ਰ\u{a47} ਡਿਸਕ") , keywords : & ["ਆਪਟੀਕਲ ਡਿਸਕ" , "ਡਿਸਕ" , "ਡੀਵੀਡੀ" , "ਬਲ\u{a42}-ਰ\u{a47}" , "ਸੀਡੀ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("آپٹیکل ڈسک") , keywords : & ["cd" , "آپٹیکل ڈسک" , "بصریات" , "ڈسک" , "کمپیوٹر"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Ọ\u{301}ptíkál Disk") , keywords : & ["CD" , "Disk" , "Kọmpúta" , "Ọ\u{301}ptíkal" , "Ọ\u{301}ptíkál Disk"] , } , crate :: Annotation { lang : "pl" , tts : Some ("dysk optyczny") , keywords : & ["Blu-ray" , "CD" , "DVD" , "dysk" , "dysk optyczny"] , } , crate :: Annotation { lang : "ps" , tts : Some ("آپتيکي ډسک") , keywords : & ["آپتيکي" , "سي ډې" , "ډسک" , "کمپيوټر"] , } , crate :: Annotation { lang : "pt" , tts : Some ("cd") , keywords : & ["cd" , "computador" , "disco" , "óptico"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("disco ótico") , keywords : & ["cd" , "computador" , "disco" , "óptico" , "ótico"] , } , crate :: Annotation { lang : "qu" , tts : Some ("disku") , keywords : & ["cd" , "computadora" , "disku" , "optico" , "ruyru"] , } , crate :: Annotation { lang : "ro" , tts : Some ("cd") , keywords : & ["cd" , "computer" , "disc" , "unitate optică"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-636") , keywords : & ["E10-636"] , } , crate :: Annotation { lang : "ru" , tts : Some ("CD") , keywords : & ["CD" , "cd" , "диск" , "компакт" , "компакт-диск" , "сиди" , "формат"] , } , crate :: Annotation { lang : "rw" , tts : Some ("disiki") , keywords : & ["cd" , "disiki" , "kijyanye no kureba" , "mudasobwa"] , } , crate :: Annotation { lang : "sd" , tts : Some ("آپٽيڪل ڊسڪ") , keywords : & ["آپٽيڪل" , "سي ڊي" , "ڊسڪ" , "ڪمپيوٽر"] , } , crate :: Annotation { lang : "si" , tts : Some ("ප\u{dca}\u{200d}රක\u{dcf}ශ තැට\u{dd2}ය") , keywords : & ["ඩ\u{dd3}ව\u{dd3}ඩ\u{dd3}" , "තැට\u{dd2}ය" , "පර\u{dd2}ගණකය" , "ප\u{dca}\u{200d}රක\u{dcf}ශ තැට\u{dd2}ය" , "බ\u{dca}ල\u{dd6} රේ" , "ස\u{dd3}ඩ\u{dd3}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("optický disk") , keywords : & ["cd" , "dvd" , "optický disk" , "počítač"] , } , crate :: Annotation { lang : "sl" , tts : Some ("optični disk") , keywords : & ["blu-ray" , "cd" , "disk" , "dvd" , "optični disk" , "optično" , "računalnik"] , } , crate :: Annotation { lang : "so" , tts : Some ("cajalada obtikaalka ah") , keywords : & ["cajalad" , "cajalada obtikaalka ah" , "cd" , "koombuyuutar" , "obtikaal"] , } , crate :: Annotation { lang : "sq" , tts : Some ("disk optik") , keywords : & ["cd" , "disk" , "kompjuter" , "optik"] , } , crate :: Annotation { lang : "sr" , tts : Some ("оптички диск") , keywords : & ["cd" , "диск" , "оптички" , "рачунар"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["оптички диск"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("optički disk") , keywords : & ["cd" , "disk" , "optički" , "računar"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["optički disk"] , } , crate :: Annotation { lang : "sv" , tts : Some ("optisk skiva") , keywords : & ["bluray-skiva" , "cd-skiva" , "dvd-skiva" , "optisk skiva"] , } , crate :: Annotation { lang : "sw" , tts : Some ("diski") , keywords : & ["blu-ray" , "cd" , "diski" , "dvd" , "kompyuta" , "ya macho"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("diski ya kutumia mwangaza") , keywords : & ["blu-ray" , "cd" , "diski" , "diski ya kutumia mwangaza" , "dvd" , "kompyuta" , "mwangaza"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஆப\u{bcd}டிகல\u{bcd} டிஸ\u{bcd}க\u{bcd}") , keywords : & ["ஆப\u{bcd}டிகல\u{bcd} டிஸ\u{bcd}க\u{bcd}" , "சிடி" , "டிவிடி" , "டிஸ\u{bcd}க\u{bcd}" , "ப\u{bcd}ளூ-ரே"] , } , crate :: Annotation { lang : "te" , tts : Some ("ఆప\u{c4d}ట\u{c3f}కల\u{c4d} డ\u{c3f}స\u{c4d}క\u{c4d}") , keywords : & ["ఆప\u{c4d}ట\u{c3f}కల\u{c4d} డ\u{c3f}స\u{c4d}క\u{c4d}" , "స\u{c3f}డ\u{c3f}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("диски оптикӣ") , keywords : & ["cd" , "диск" , "диски оптикӣ" , "компютер" , "оптикӣ"] , } , crate :: Annotation { lang : "th" , tts : Some ("บล\u{e39}เรย\u{e4c}") , keywords : & ["ซ\u{e35}ด\u{e35}" , "ด\u{e35}ว\u{e35}ด\u{e35}" , "บล\u{e39}เรย\u{e4c}"] , } , crate :: Annotation { lang : "tk" , tts : Some ("optiki disk") , keywords : & ["cd" , "disk" , "kompýuter" , "optiki"] , } , crate :: Annotation { lang : "to" , tts : Some ("tisi mamata") , keywords : & ["tisi mamata"] , } , crate :: Annotation { lang : "tr" , tts : Some ("optik disk") , keywords : & ["CD" , "DVD" , "disk" , "optik disk"] , } , crate :: Annotation { lang : "ug" , tts : Some ("نۇر دىسكا") , keywords : & ["cd" , "دىسكا" , "كومپيۇتېر" , "نۇر"] , } , crate :: Annotation { lang : "uk" , tts : Some ("компакт-диск") , keywords : & ["blu-ray" , "cd" , "dvd" , "диск" , "компакт-диск" , "комп’ютер" , "оптичний"] , } , crate :: Annotation { lang : "ur" , tts : Some ("آپٹکل ڈسک") , keywords : & ["آپٹکل" , "ڈسک" , "کمپیوٹر"] , } , crate :: Annotation { lang : "uz" , tts : Some ("optik disk") , keywords : & ["blu-ray" , "cd" , "disk" , "dvd" , "kompyuter" , "optik"] , } , crate :: Annotation { lang : "vi" , tts : Some ("đĩa quang") , keywords : & ["cd" , "máy tính" , "quang" , "đĩa"] , } , crate :: Annotation { lang : "wo" , tts : Some ("disk optik") , keywords : & ["bu-optik" , "cd" , "disk" , "disk optik" , "ordinatër"] , } , crate :: Annotation { lang : "xh" , tts : Some ("idiksi yeliso") , keywords : & ["i-cd" , "idiksi yeliso" , "idiski" , "ikhomyutha" , "yeliso"] , } , crate :: Annotation { lang : "yo" , tts : Some ("àwo aká-ọ\u{300}rọ\u{300} aláfojúrí") , keywords : & ["kọ\u{300}npútà" , "ojú àwo" , "àwo" , "àwo aká-ọ\u{300}rọ\u{300} aláfojúrí" , "àwo ìgbàlódé"] , } , crate :: Annotation { lang : "yue" , tts : Some ("光碟") , keywords : & ["光學" , "光碟" , "電腦"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("光碟") , keywords : & ["光学" , "光碟" , "电脑"] , } , crate :: Annotation { lang : "zh" , tts : Some ("光盘") , keywords : & ["cd" , "专辑" , "光盘" , "存储" , "影片" , "音乐"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("光碟") , keywords : & ["CD" , "光碟"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "zu" , tts : Some ("isidi") , keywords : & ["blu-ray" , "i-dvd" , "idiski" , "ikhompyutha" , "isidi"] , }] , } ;
+pub const OPTICAL_DISK: crate::Emoji = crate::Emoji {
+    glyph: "💿",
+    codepoint: "1F4BF",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "optical disk",
+    group: "Objects",
+    subgroup: "computer",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("optiese skyf"),
+            keywords: &[
+                "blu-ray",
+                "cd",
+                "dvd",
+                "opties",
+                "optiese skyf",
+                "rekenaar",
+                "skyf",
+            ],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ኦፕቲካል ዲስክ"),
+            keywords: &["ሲዲ", "ኦፕቲካል", "ኮምፒውተር", "ዲስክ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("سي دي"),
+            keywords: &["دي في دي", "سي دي", "قرص", "قرص ضوئي"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("অপ\u{9cd}টিকেল ডিস\u{9cd}ক"),
+            keywords: &[
+                "অপ\u{9cd}টিকেল",
+                "ক\u{9be}ম\u{9cd}পিউট\u{9be}ৰ",
+                "চিডি",
+                "ডিস\u{9cd}ক",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("optik disk"),
+            keywords: &["blu-rey", "cd", "disk", "dvd", "kompüter", "optik"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("аптычны дыск"),
+            keywords: &[
+                "CD",
+                "аптычны",
+                "аптычны дыск",
+                "кампакт-дыск",
+                "камп’ютар",
+                "носьбіт",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Оптичен диск"),
+            keywords: &[
+                "[blu-ray]",
+                "[cd]",
+                "[dvd]",
+                "Оптичен диск",
+                "диск",
+                "оптичен",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("অপ\u{9cd}টিক\u{9cd}য\u{9be}ল ডিস\u{9cd}ক"),
+            keywords: &[
+                "অপটিক\u{9cd}য\u{9be}ল",
+                "অপ\u{9cd}টিক\u{9cd}য\u{9be}ল ডিস\u{9cd}ক",
+                "ডিস\u{9cd}ক",
+                "সিডি । কম\u{9cd}পিউট\u{9be}র",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("CD"),
+            keywords: &["CD", "pladenn", "urzhiater"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("cd"),
+            keywords: &["blu-ray", "cd", "disk", "optički", "računar"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("disc òptic"),
+            keywords: &["cd", "disc", "dvd", "equip", "ordinador", "òptic"],
+        },
+        crate::Annotation {
+            lang: "ccp",
+            tts: Some(
+                "𑄃\u{11127}𑄛\u{11134}𑄑\u{11128}𑄇\u{11133}𑄠𑄣\u{11134} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}",
+            ),
+            keywords: &[
+                "𑄃\u{11127}𑄛\u{11134}𑄑\u{11128}𑄇\u{11133}𑄠𑄣\u{11134} 𑄓\u{11128}𑄌\u{11134}𑄇\u{11134}",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᎪᏩᏛᏗ ᎠᏠᏗ"),
+            keywords: &["cd", "ᎠᎦᏙᎥᎯᏍᏗ ᎠᏍᏆᏂᎪᏗᏍᎩ", "ᎠᎪᏩᏛᏗ", "ᎠᏠᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("optický disk"),
+            keywords: &[
+                "bd",
+                "blu-ray",
+                "blue-ray",
+                "cd",
+                "disk",
+                "dvd",
+                "optické",
+                "optický",
+                "počítač",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("disg optegol"),
+            keywords: &[
+                "blu-ray",
+                "cd",
+                "computer",
+                "disg optegol",
+                "disk",
+                "dvd",
+                "optical",
+            ],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("cd"),
+            keywords: &["cd", "dvd"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("CD"),
+            keywords: &["Blu-Ray", "CD", "DVD"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("οπτικός δίσκος"),
+            keywords: &["blu-ray", "cd", "dvd", "δίσκος", "οπτικός", "υπολογιστής"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("optical disk"),
+            keywords: &["cd", "computer", "disk", "optical"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["CD", "computer", "disk", "optical"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("disco óptico"),
+            keywords: &["cd", "disco", "disco óptico"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["Blu-ray", "CD", "DVD", "disco", "óptico"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("optiline ketas"),
+            keywords: &["CD", "DVD", "arvuti", "ketas", "optiline"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("disko optikoa"),
+            keywords: &[
+                "blu-ray",
+                "cd",
+                "disko",
+                "disko optikoa",
+                "dvd",
+                "optiko",
+                "ordenagailu",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("سی\u{200c}دی"),
+            keywords: &[
+                "بلوری",
+                "دیسک",
+                "دی\u{200c}وی\u{200c}دی",
+                "رایانه",
+                "سی\u{200c}دی",
+                "لوح فشرده",
+                "نوری",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("CD"),
+            keywords: &["CD", "blu-ray", "dvd", "levy", "tietokone"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("optical disc"),
+            keywords: &["cd", "computer", "disk", "optical disc", "optikal"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("sjónbandsfløga"),
+            keywords: &["cd", "diskur", "sjónbandsfløga"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("CD"),
+            keywords: &["CD", "disque"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["CD", "disque", "ordinateur"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("diosca optúil"),
+            keywords: &["DVD", "blu-ray", "diosca", "diosca optúil"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("diosg optaigeach"),
+            keywords: &["cd", "coimpiutair", "diosg", "lèirsinneach", "optaigeach"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("CD"),
+            keywords: &["CD", "disco", "ordenador"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ઑપ\u{acd}ટિકલ ડિસ\u{acd}ક"),
+            keywords: &[
+                "ઑપ\u{acd}ટિકલ",
+                "કમ\u{acd}પ\u{acd}ય\u{ac1}ટર",
+                "ડિસ\u{acd}ક",
+                "સીડી",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("diski na da’ira"),
+            keywords: &["cd", "diski", "diski na da’ira", "kwamfuta", "na da’ira"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("דיסק אופטי"),
+            keywords: &["אופטי", "דיסק", "מחשב", "תקליטור"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ऑप\u{94d}टिकल डिस\u{94d}क"),
+            keywords: &[
+                "ऑप\u{94d}टिकल",
+                "क\u{902}प\u{94d}य\u{942}टर",
+                "डिस\u{94d}क",
+                "सीडी",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("optički disk"),
+            keywords: &["cd", "disk", "optički", "računalo"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("optikai lemez"),
+            keywords: &["blu-ray", "dvd", "lemez", "optikai", "számítógép"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("օպտիկական սկավառակ"),
+            keywords: &[
+                "blu-ray",
+                "cd",
+                "dvd",
+                "համակարգիչ",
+                "սկավառակ",
+                "օպտիկական",
+            ],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("disk optik"),
+            keywords: &["cd", "disk", "komputer", "optik"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("diiski ọptịkal"),
+            keywords: &["cd", "diiski", "kọmpụta", "ọptịkal"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("blu-ray"),
+            keywords: &["blu-ray", "diskur", "geisladiskur", "tölva"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("disco ottico"),
+            keywords: &["CD", "DVD", "blu-ray", "disco", "disco ottico"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("CD"),
+            keywords: &["Blu-ray", "CD", "DVD", "ディスク", "ブルーレイ"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("cakram optikal"),
+            keywords: &["cakram", "cd", "komputer", "optikal"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ოპტიკური დისკი"),
+            keywords: &["blu-ray", "cd", "dvd", "დისკი", "კომპიუტერი", "ოპტიკური"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("оптикалық диск"),
+            keywords: &["диск", "компьютер", "оптикалық", "шағын диск"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("cd"),
+            keywords: &["cd", "dvd"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ឌ\u{17b8}សឡាស\u{17ca}ែរ"),
+            keywords: &[
+                "ក\u{17bb}\u{17c6}ព\u{17d2}យ\u{17bc}ទ\u{17d0}រ",
+                "ឌ\u{17b8}ស",
+                "ឌ\u{17b8}សឡាស\u{17ca}ែរ",
+                "ស\u{17ca}\u{17b8}ឌ\u{17b8}",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಆಪ\u{ccd} ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}"),
+            keywords: &[
+                "ಆಪ\u{ccd} ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}",
+                "ಆಪ\u{ccd}ಟ\u{cbf}ಕಲ\u{ccd}",
+                "ಕಂಪ\u{ccd}ಯ\u{cc2}ಟರ\u{ccd}",
+                "ಡ\u{cbf}ಸ\u{ccd}ಕ\u{ccd}",
+                "ಸ\u{cbf}ಡ\u{cbf}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("씨디"),
+            keywords: &["CD", "DVD", "광학 디스크", "디비디", "블루레이", "씨디"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("ऑप\u{94d}टिकल डिस\u{94d}क"),
+            keywords: &[
+                "ऑप\u{94d}टिकल डिस\u{94d}क",
+                "ऑप\u{94d}टीकल",
+                "डिस\u{94d}क",
+                "स\u{902}गणक",
+                "सीडी",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("оптикалык диск"),
+            keywords: &["blu-ray", "cd", "dvd", "диск", "компьютер", "оптикалык"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("CD"),
+            keywords: &["CD", "Computer", "Disk", "optesch"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ອ\u{eb1}ອບຕ\u{eb5}ໂຄດ\u{eb4}ສ"),
+            keywords: &[
+                "ດ\u{eb4}ສ",
+                "ອ\u{eb1}ອບຕ\u{eb5}ໂຄ",
+                "ອ\u{eb1}ອບຕ\u{eb5}ໂຄດ\u{eb4}ສ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("optinis diskas"),
+            keywords: &[
+                "CD",
+                "diskas",
+                "kompaktinis diskas",
+                "kompiuteris",
+                "optinis",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("optiskais disks"),
+            keywords: &["CD", "dators", "kompaktdisks", "optiskais disks"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("kōpae whatu"),
+            keywords: &["kōpae", "kōpaepae", "rorohiko", "whatu"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("цд"),
+            keywords: &["компјутер", "хардвер", "цд"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ഒപ\u{d4d}റ\u{d4d}റിക\u{d4d}കൽ ഡിസ\u{d4d}ക\u{d4d}"),
+            keywords: &[
+                "ഒപ\u{d4d}റ\u{d4d}റിക\u{d4d}കൽ ഡിസ\u{d4d}ക\u{d4d}",
+                "ഒപ\u{d4d}റ\u{d4d}റിക\u{d4d}കൽ ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}",
+                "ഡിവിഡി",
+                "ഡിസ\u{d4d}ക\u{d4d}ക\u{d4d}",
+                "ബ\u{d4d}ല\u{d42}-റേ",
+                "സിഡി",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("оптик диск"),
+            keywords: &["cd", "диск", "компьютер", "оптик диск", "оптикал"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("ऑप\u{94d}टिकल डिस\u{94d}क"),
+            keywords: &[
+                "ऑप\u{94d}टिकल डिस\u{94d}क",
+                "डिस\u{94d}क",
+                "डीव\u{94d}हीडी",
+                "ब\u{94d}ल\u{94d}य\u{942}-र\u{947}",
+                "सीडी",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("cakera optik"),
+            keywords: &["cakera", "cd", "komputer", "optik"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("diska ottika"),
+            keywords: &["cd", "diska", "diska ottika", "kompjuter", "ottiċi"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အလင\u{103a}းသ\u{102f}\u{1036}းဒစ\u{103a}"),
+            keywords: &[
+                "က\u{103d}န\u{103a}ပျ\u{1030}တာ",
+                "စ\u{102e}ဒ\u{102e}",
+                "ဒစ\u{103a}ခ\u{103a}",
+                "အလင\u{103a}းသ\u{102f}\u{1036}းဒစ\u{103a}",
+                "အော\u{1037}ပ\u{103a}တစ\u{103a}ကယ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("optisk plate"),
+            keywords: &["CD", "DVD", "blu-ray", "disk", "lagring", "optisk plate"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("अप\u{94d}टिकल डिस\u{94d}क"),
+            keywords: &[
+                "अप\u{94d}टिकल",
+                "कम\u{94d}प\u{94d}य\u{941}टर",
+                "डिस\u{94d}क",
+                "सिडी",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("optische schijf"),
+            keywords: &["cd", "computer", "optisch", "optische schijf", "schijf"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("optisk plate"),
+            keywords: &["CD", "DVD", "blu-ray", "disk", "lagring", "optisk plate"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଅପ\u{b4d}ଟ\u{b3f}କ\u{b3e}ଲ\u{b4d}\u{200c} ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}"),
+            keywords: &[
+                "ଅପ\u{b4d}ଟ\u{b3f}କ\u{b3e}ଲ\u{b4d}\u{200c} ଡ\u{b3f}ସ\u{b4d}କ",
+                "ଅପ\u{b4d}ଟ\u{b3f}କ\u{b3e}ଲ\u{b4d}\u{200c} ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}",
+                "ଡ\u{b3f}ଭ\u{b3f}ଡ\u{b3f}",
+                "ଡ\u{b3f}ସ\u{b4d}କ\u{b4d}",
+                "ବ\u{b4d}ଲ\u{b41}-ରେ",
+                "ସ\u{b3f}ଡ\u{b3f}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਬਲ\u{a42}-ਰ\u{a47} ਡਿਸਕ"),
+            keywords: &[
+                "ਆਪਟੀਕਲ ਡਿਸਕ",
+                "ਡਿਸਕ",
+                "ਡੀਵੀਡੀ",
+                "ਬਲ\u{a42}-ਰ\u{a47}",
+                "ਸੀਡੀ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("آپٹیکل ڈسک"),
+            keywords: &["cd", "آپٹیکل ڈسک", "بصریات", "ڈسک", "کمپیوٹر"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Ọ\u{301}ptíkál Disk"),
+            keywords: &[
+                "CD",
+                "Disk",
+                "Kọmpúta",
+                "Ọ\u{301}ptíkal",
+                "Ọ\u{301}ptíkál Disk",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("dysk optyczny"),
+            keywords: &["Blu-ray", "CD", "DVD", "dysk", "dysk optyczny"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("آپتيکي ډسک"),
+            keywords: &["آپتيکي", "سي ډې", "ډسک", "کمپيوټر"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("cd"),
+            keywords: &["cd", "computador", "disco", "óptico"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("disco ótico"),
+            keywords: &["cd", "computador", "disco", "óptico", "ótico"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("disku"),
+            keywords: &["cd", "computadora", "disku", "optico", "ruyru"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("cd"),
+            keywords: &["cd", "computer", "disc", "unitate optică"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-636"),
+            keywords: &["E10-636"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("CD"),
+            keywords: &[
+                "CD",
+                "cd",
+                "диск",
+                "компакт",
+                "компакт-диск",
+                "сиди",
+                "формат",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("disiki"),
+            keywords: &["cd", "disiki", "kijyanye no kureba", "mudasobwa"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("آپٽيڪل ڊسڪ"),
+            keywords: &["آپٽيڪل", "سي ڊي", "ڊسڪ", "ڪمپيوٽر"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ප\u{dca}\u{200d}රක\u{dcf}ශ තැට\u{dd2}ය"),
+            keywords: &[
+                "ඩ\u{dd3}ව\u{dd3}ඩ\u{dd3}",
+                "තැට\u{dd2}ය",
+                "පර\u{dd2}ගණකය",
+                "ප\u{dca}\u{200d}රක\u{dcf}ශ තැට\u{dd2}ය",
+                "බ\u{dca}ල\u{dd6} රේ",
+                "ස\u{dd3}ඩ\u{dd3}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("optický disk"),
+            keywords: &["cd", "dvd", "optický disk", "počítač"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("optični disk"),
+            keywords: &[
+                "blu-ray",
+                "cd",
+                "disk",
+                "dvd",
+                "optični disk",
+                "optično",
+                "računalnik",
+            ],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("cajalada obtikaalka ah"),
+            keywords: &[
+                "cajalad",
+                "cajalada obtikaalka ah",
+                "cd",
+                "koombuyuutar",
+                "obtikaal",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("disk optik"),
+            keywords: &["cd", "disk", "kompjuter", "optik"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("оптички диск"),
+            keywords: &["cd", "диск", "оптички", "рачунар"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["оптички диск"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("optički disk"),
+            keywords: &["cd", "disk", "optički", "računar"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["optički disk"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("optisk skiva"),
+            keywords: &["bluray-skiva", "cd-skiva", "dvd-skiva", "optisk skiva"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("diski"),
+            keywords: &["blu-ray", "cd", "diski", "dvd", "kompyuta", "ya macho"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("diski ya kutumia mwangaza"),
+            keywords: &[
+                "blu-ray",
+                "cd",
+                "diski",
+                "diski ya kutumia mwangaza",
+                "dvd",
+                "kompyuta",
+                "mwangaza",
+            ],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஆப\u{bcd}டிகல\u{bcd} டிஸ\u{bcd}க\u{bcd}"),
+            keywords: &[
+                "ஆப\u{bcd}டிகல\u{bcd} டிஸ\u{bcd}க\u{bcd}",
+                "சிடி",
+                "டிவிடி",
+                "டிஸ\u{bcd}க\u{bcd}",
+                "ப\u{bcd}ளூ-ரே",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ఆప\u{c4d}ట\u{c3f}కల\u{c4d} డ\u{c3f}స\u{c4d}క\u{c4d}"),
+            keywords: &[
+                "ఆప\u{c4d}ట\u{c3f}కల\u{c4d} డ\u{c3f}స\u{c4d}క\u{c4d}",
+                "స\u{c3f}డ\u{c3f}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("диски оптикӣ"),
+            keywords: &["cd", "диск", "диски оптикӣ", "компютер", "оптикӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("บล\u{e39}เรย\u{e4c}"),
+            keywords: &[
+                "ซ\u{e35}ด\u{e35}",
+                "ด\u{e35}ว\u{e35}ด\u{e35}",
+                "บล\u{e39}เรย\u{e4c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("optiki disk"),
+            keywords: &["cd", "disk", "kompýuter", "optiki"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tisi mamata"),
+            keywords: &["tisi mamata"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("optik disk"),
+            keywords: &["CD", "DVD", "disk", "optik disk"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("نۇر دىسكا"),
+            keywords: &["cd", "دىسكا", "كومپيۇتېر", "نۇر"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("компакт-диск"),
+            keywords: &[
+                "blu-ray",
+                "cd",
+                "dvd",
+                "диск",
+                "компакт-диск",
+                "комп’ютер",
+                "оптичний",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("آپٹکل ڈسک"),
+            keywords: &["آپٹکل", "ڈسک", "کمپیوٹر"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("optik disk"),
+            keywords: &["blu-ray", "cd", "disk", "dvd", "kompyuter", "optik"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("đĩa quang"),
+            keywords: &["cd", "máy tính", "quang", "đĩa"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("disk optik"),
+            keywords: &["bu-optik", "cd", "disk", "disk optik", "ordinatër"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("idiksi yeliso"),
+            keywords: &["i-cd", "idiksi yeliso", "idiski", "ikhomyutha", "yeliso"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("àwo aká-ọ\u{300}rọ\u{300} aláfojúrí"),
+            keywords: &[
+                "kọ\u{300}npútà",
+                "ojú àwo",
+                "àwo",
+                "àwo aká-ọ\u{300}rọ\u{300} aláfojúrí",
+                "àwo ìgbàlódé",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("光碟"),
+            keywords: &["光學", "光碟", "電腦"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("光碟"),
+            keywords: &["光学", "光碟", "电脑"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("光盘"),
+            keywords: &["cd", "专辑", "光盘", "存储", "影片", "音乐"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("光碟"),
+            keywords: &["CD", "光碟"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("isidi"),
+            keywords: &["blu-ray", "i-dvd", "idiski", "ikhompyutha", "isidi"],
+        },
+    ],
+};
 #[doc = "📀"]
 pub const DVD: crate::Emoji = crate::Emoji {
     glyph: "📀",

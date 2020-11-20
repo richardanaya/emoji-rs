@@ -12676,9 +12676,1592 @@ pub const WHITE_MEDIUM_SQUARE: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "◾"]
-pub const BLACK_MEDIUM_SMALL_SQUARE : crate :: Emoji = crate :: Emoji { glyph : "◾" , codepoint : "25FE" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "black medium-small square" , group : "Symbols" , subgroup : "geometric" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("swart mediumklein vierkant") , keywords : & ["geometries" , "swart" , "swart mediumklein vierkant" , "vierkant"] , } , crate :: Annotation { lang : "am" , tts : Some ("ጥቁር መካከለኛ-ትንሽ ካሬ") , keywords : & ["ካሬ" , "ጂኦሜትሪያዊ" , "ጥቁር መካከለኛ-ትንሽ ካሬ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مربع صغير متوسط أسود") , keywords : & ["مربع" , "مربع صغير متوسط أسود" , "هندسي"] , } , crate :: Annotation { lang : "as" , tts : Some ("ক’ল\u{9be} মধ\u{9cd}যমীয\u{9bc}\u{9be}-সৰ\u{9c1} বৰ\u{9cd}গ") , keywords : & ["ক’ল\u{9be} মধ\u{9cd}যমীয\u{9bc}\u{9be}-সৰ\u{9c1} বৰ\u{9cd}গ" , "জ\u{9cd}য\u{9be}মিতিক" , "বৰ\u{9cd}গ"] , } , crate :: Annotation { lang : "az" , tts : Some ("qara orta kiçiklikdə kvadrat") , keywords : & ["həndəsi" , "kvadrat" , "qara orta kiçiklikdə kvadrat"] , } , crate :: Annotation { lang : "be" , tts : Some ("невялікі чорны квадрат") , keywords : & ["аб’ект" , "геаметрычны" , "квадрат" , "невялікі чорны квадрат"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Черен средномалък квадрат") , keywords : & ["Черен средномалък квадрат" , "геометричен" , "квадрат"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ক\u{9be}লো ম\u{9be}ঝ\u{9be}রি ছোট বর\u{9cd}গক\u{9cd}ষেত\u{9cd}র") , keywords : & ["ক\u{9be}লো ম\u{9be}ঝ\u{9be}রি ছোট বর\u{9cd}গক\u{9cd}ষেত\u{9cd}র" , "জ\u{9cd}য\u{9be}মিতিক" , "বর\u{9cd}গ\u{9be}ক\u{9be}র"] , } , crate :: Annotation { lang : "bs" , tts : Some ("crni srednje mali kvadrat") , keywords : & ["crni srednje mali kvadrat" , "geometrija" , "kvadrat"] , } , crate :: Annotation { lang : "ca" , tts : Some ("quadrat negre petit-mitjà") , keywords : & ["geometria" , "negre" , "petit-mitjà" , "quadrat"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎬᎿᎨ ᎠᏲᏟᎨ-ᎤᏍᏗ ᎾᎩ ᏧᏅᏏᏯ") , keywords : & ["ᎬᎿᎨ ᎠᏲᏟᎨ-ᎤᏍᏗ ᎾᎩ ᏧᏅᏏᏯ" , "ᏅᎩ ᏧᏅᏏᏯ" , "ᏗᏎᏍᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("větší černý čtvereček") , keywords : & ["geometrie" , "větší černý čtvereček" , "čtverec"] , } , crate :: Annotation { lang : "cy" , tts : Some ("sgwâr canolig-bach du") , keywords : & ["geometrig" , "sgwâr" , "sgwâr canolig-bach du"] , } , crate :: Annotation { lang : "da" , tts : Some ("halvlille sort kvadrat") , keywords : & ["geometrisk" , "halvlille sort kvadrat" , "kvadrat"] , } , crate :: Annotation { lang : "de" , tts : Some ("mittelkleines schwarzes Quadrat") , keywords : & ["Quadrat" , "mittelkleines schwarzes Quadrat" , "schwarz"] , } , crate :: Annotation { lang : "el" , tts : Some ("μικρομεσαίο μαύρο τετράγωνο") , keywords : & ["γεωμετρικό" , "μικρομεσαίο μαύρο τετράγωνο" , "τετράγωνο"] , } , crate :: Annotation { lang : "en" , tts : Some ("black medium-small square") , keywords : & ["black medium-small square" , "geometric" , "square"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("cuadrado negro mediano-pequeño") , keywords : & ["cuadrado" , "cuadrado negro mediano-pequeño" , "geometría" , "negro"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["cuadrado" , "cuadrado negro mediano-pequeño" , "mediano" , "negro" , "pequeño"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("väiksem must ruut") , keywords : & ["geomeetria" , "ruut" , "väiksem must ruut"] , } , crate :: Annotation { lang : "eu" , tts : Some ("karratu beltz ertaina/txikia") , keywords : & ["geometriko" , "karratu" , "karratu beltz ertaina/txikia"] , } , crate :: Annotation { lang : "fa" , tts : Some ("مربع مشکی نسبتا\u{64b} کوچک") , keywords : & ["شکل هندسی" , "مربع" , "مربع مشکی نسبتا\u{64b} کوچک"] , } , crate :: Annotation { lang : "fi" , tts : Some ("pienehkö musta neliö") , keywords : & ["muoto" , "neliö" , "pienehkö musta neliö"] , } , crate :: Annotation { lang : "fil" , tts : Some ("medyo maliit na itim na parisukat") , keywords : & ["hugis" , "itim" , "maliit" , "medyo" , "medyo maliit na itim na parisukat" , "parisukat"] , } , crate :: Annotation { lang : "fo" , tts : Some ("svartur miðalstórur fýrakantur") , keywords : & ["fýrakantur" , "mátingarfrøðiligur" , "svartur miðalstórur fýrakantur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("carré petit moyen noir") , keywords : & ["carré" , "carré petit moyen noir" , "forme" , "géométrie"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("carré noir de taille intermédiaire") , keywords : & ["carré noir de taille intermédiaire" , "forme" , "géométrie"] , } , crate :: Annotation { lang : "ga" , tts : Some ("meánchearnóg bheag dhubh") , keywords : & ["cearnóg" , "cearnóg dubh meán-bheag" , "geoiméadrach" , "meánchearnóg bheag dhubh"] , } , crate :: Annotation { lang : "gd" , tts : Some ("ceàrnag mheadhanach bheag dhubh") , keywords : & ["ceàrnag" , "ceàrnag mheadhanach bheag dhubh" , "geomatrach"] , } , crate :: Annotation { lang : "gl" , tts : Some ("cadrado pequeno-mediano negro") , keywords : & ["cadrado" , "cadrado pequeno-mediano negro" , "mediano" , "negro" , "pequeno"] , } , crate :: Annotation { lang : "gu" , tts : Some ("કાળો મધ\u{acd}યમ-નાનો ચોરસ") , keywords : & ["કાળો મધ\u{acd}યમ-નાનો ચોરસ" , "ચોરસ" , "ભૌમિતિક"] , } , crate :: Annotation { lang : "ha" , tts : Some ("baƙin matsakaicin-ƙaramin murabba’i") , keywords : & ["baƙin matsakaicin-ƙaramin murabba’i" , "ilimin halayen sura" , "murabba’i"] , } , crate :: Annotation { lang : "he" , tts : Some ("ריבוע בינוני-קטן שחור") , keywords : & ["צורה" , "ריבוע" , "ריבוע בינוני-קטן שחור" , "שחור"] , } , crate :: Annotation { lang : "hi" , tts : Some ("काला मध\u{94d}यम-छोटा वर\u{94d}ग") , keywords : & ["काला मध\u{94d}यम-छोटा वर\u{94d}ग" , "ज\u{94d}यामिति"] , } , crate :: Annotation { lang : "hr" , tts : Some ("srednje mali crni kvadrat") , keywords : & ["geometrija" , "kvadrat" , "srednje mali crni kvadrat"] , } , crate :: Annotation { lang : "hu" , tts : Some ("kis-közepes fekete négyzet") , keywords : & ["geometria" , "kis-közepes fekete négyzet" , "négyzet"] , } , crate :: Annotation { lang : "hy" , tts : Some ("սև միջին-փոքր քառակուսի") , keywords : & ["երկրաչափական" , "սև միջին-փոքր քառակուսի" , "քառակուսի"] , } , crate :: Annotation { lang : "id" , tts : Some ("persegi kecil medium hitam") , keywords : & ["geometri" , "persegi" , "persegi kecil medium hitam"] , } , crate :: Annotation { lang : "ig" , tts : Some ("sukwia obere-etiti ojii") , keywords : & ["mgbakọ" , "sukwia" , "sukwia obere-etiti ojii"] , } , crate :: Annotation { lang : "is" , tts : Some ("svartur meðalsmár ferningur") , keywords : & ["ferningur" , "rúmfræði" , "svartur meðalsmár ferningur"] , } , crate :: Annotation { lang : "it" , tts : Some ("quadrato nero medio-piccolo") , keywords : & ["geometria" , "quadrato" , "quadrato nero medio-piccolo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("黒四角中") , keywords : & ["四角" , "正方形" , "黒" , "黒四角中"] , } , crate :: Annotation { lang : "jv" , tts : Some ("kothak cilik-sedhengan ireng") , keywords : & ["geometrik" , "kothak" , "kothak cilik-sedhengan ireng"] , } , crate :: Annotation { lang : "ka" , tts : Some ("საშუალო-პატარა შავი კვადრატი") , keywords : & ["გეომეტრია" , "გეომეტრიული" , "კვადრატი" , "საშუალო-პატარა შავი კვადრატი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("орташа-кіші қара шаршы") , keywords : & ["геометриялық" , "орташа-кіші қара шаршы" , "шаршы"] , } , crate :: Annotation { lang : "kl" , tts : Some ("halvlille sort kvadrat") , keywords : & ["geometrisk" , "halvlille sort kvadrat" , "kvadrat"] , } , crate :: Annotation { lang : "km" , tts : Some ("ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងត\u{17bc}ចល\u{17d2}មមពណ\u{17cc}ខ\u{17d2}មៅ") , keywords : & ["ខ\u{17d2}មៅ" , "ត\u{17bc}ចល\u{17d2}មម" , "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ង" , "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងត\u{17bc}ចល\u{17d2}មមពណ\u{17cc}ខ\u{17d2}មៅ"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಕಪ\u{ccd}ಪು ಬಣ\u{ccd}ಣದ ಮಧ\u{ccd}ಯಮ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ") , keywords : & ["ಕಪ\u{ccd}ಪು ಬಣ\u{ccd}ಣದ ಮಧ\u{ccd}ಯಮ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ" , "ಕಪ\u{ccd}ಪು ಬಣ\u{ccd}ಣದ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("중각 작은 검은색 사각형") , keywords : & ["무늬" , "사각형" , "중각 작은 검은색 사각형"] , } , crate :: Annotation { lang : "kok" , tts : Some ("काळो मध\u{94d}यम-ल\u{94d}हान चवकोन") , keywords : & ["काळो मध\u{94d}यम-ल\u{94d}हान चवकोन" , "चवकोन" , "जियोम\u{945}ट\u{94d}रीक"] , } , crate :: Annotation { lang : "ky" , tts : Some ("кичирээк кара чарчы") , keywords : & ["геометрия" , "кичирээк кара чарчы" , "чарчы"] , } , crate :: Annotation { lang : "lb" , tts : Some ("schwaarze mëttelklenge Quadrat") , keywords : & ["Quadrat" , "geometresch" , "schwaarze mëttelklenge Quadrat"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມນ\u{ec9}ອຍ-ປານກາງສ\u{eb5}ດຳ") , keywords : & ["ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມ" , "ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມນ\u{ec9}ອຍ-ປານກາງສ\u{eb5}ດຳ" , "ເລຂາຄະນ\u{eb4}ດ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("juodas vidutiniškai mažas kvadratas") , keywords : & ["geometrija" , "juodas vidutiniškai mažas kvadratas" , "kvadratas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("vidēji mazs melns kvadrāts") , keywords : & ["kvadrāts" , "vidēji mazs melns kvadrāts" , "ģeometrija"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tapawhā rite pango waenga-iti") , keywords : & ["tapawhā rite" , "tapawhā rite pango waenga-iti" , "āhuahanga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("црн квадрат со средна големина") , keywords : & ["геометрија" , "квадрат" , "црн квадрат со средна големина"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ചെറിയ കറ\u{d41}ത\u{d4d}ത ചത\u{d41}രം") , keywords : & ["കളം" , "ചത\u{d41}രം" , "ചെറിയ കറ\u{d41}ത\u{d4d}ത ചത\u{d41}രം" , "ജിയോമെട\u{d4d}രിക\u{d4d}ക\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("хар жижгэвтэр дөрвөлжин") , keywords : & ["геометр" , "дөрвөлжин" , "хар жижгэвтэр дөрвөлжин"] , } , crate :: Annotation { lang : "mr" , tts : Some ("काळा मध\u{94d}\u{200d}यम-लहान आकाराचा चौरस") , keywords : & ["काळा मध\u{94d}यम आकाराचा चौरस" , "काळा मध\u{94d}\u{200d}यम-लहान आकाराचा चौरस" , "चौरस" , "भ\u{942}मितीय"] , } , crate :: Annotation { lang : "ms" , tts : Some ("persegi sederhana kecil hitam") , keywords : & ["geometri" , "persegi" , "persegi sederhana kecil hitam"] , } , crate :: Annotation { lang : "mt" , tts : Some ("kwadrat medju żgħar iswed") , keywords : & ["kwadrat medju żgħar iswed" , "kwadru" , "ġeometrika"] , } , crate :: Annotation { lang : "my" , tts : Some ("အနက\u{103a}ရောင\u{103a} လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a} အလတ\u{103a}စားအသေး") , keywords : & ["ဂျ\u{102e}ဩမေတြ\u{102e}ဆ\u{102d}\u{102f}င\u{103a}ရာ" , "အနက\u{103a}ရောင\u{103a} လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a} အလတ\u{103a}စားအသေး" , "အနက\u{103a}ရောင\u{103a} အလတ\u{103a}စားအသေး လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("liten/mellomstor svart firkant") , keywords : & ["firkant" , "geometrisk" , "kvadrat" , "liten/mellomstor svart firkant"] , } , crate :: Annotation { lang : "ne" , tts : Some ("कालो मध\u{94d}यम-सानो वर\u{94d}ग") , keywords : & ["कालो मध\u{94d}यम-सानो वर\u{94d}ग" , "ज\u{94d}यामितीय" , "वर\u{94d}ग"] , } , crate :: Annotation { lang : "nl" , tts : Some ("klein tot middelgroot zwart vierkant") , keywords : & ["geometrisch" , "klein tot middelgroot zwart vierkant" , "vierkant"] , } , crate :: Annotation { lang : "nn" , tts : Some ("liten/mellomstor svart firkant") , keywords : & ["firkant" , "geometrisk" , "kvadrat" , "liten/mellomstor svart firkant"] , } , crate :: Annotation { lang : "or" , tts : Some ("କଳ\u{b3e} ମଧ\u{b4d}ୟମ-ଛୋଟ ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର") , keywords : & ["କଳ\u{b3e} ମଧ\u{b4d}ୟମ-ଛୋଟ ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର" , "ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ" , "ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਦਰਮਿਆਨਾ-ਛ\u{a4b}ਟਾ ਕਾਲਾ ਵਰਗ") , keywords : & ["ਜਯਾਮਿਤੀ" , "ਦਰਮਿਆਨਾ-ਛ\u{a4b}ਟਾ ਕਾਲਾ ਵਰਗ" , "ਵਰਗ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("کالا درمیانہ ـ نیکا مربع") , keywords : & ["جیومیٹری دے متعلق" , "مربع" , "کالا درمیانہ ـ نیکا مربع"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Blák Mídiọ\u{301}m-Smọ\u{301}l Skwea") , keywords : & ["Blák Mídiọ\u{301}m-Smọ\u{301}l Skwea" , "Jiọ\u{301}mẹ\u{301}tri" , "Skwea"] , } , crate :: Annotation { lang : "pl" , tts : Some ("mały/średni czarny kwadrat") , keywords : & ["czarny" , "figura geometryczna" , "kwadrat" , "mały" , "mały/średni czarny kwadrat"] , } , crate :: Annotation { lang : "ps" , tts : Some ("توره ميانه کوچنۍ مربع") , keywords : & ["توره ميانه کوچنۍ مربع" , "جيوميتريکي" , "مربع"] , } , crate :: Annotation { lang : "pt" , tts : Some ("quadrado preto médio menor") , keywords : & ["geométrico" , "quadrado" , "quadrado preto médio menor"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("quadrado preto pequeno/médio") , keywords : & ["geométrico" , "quadrado" , "quadrado preto pequeno/médio"] , } , crate :: Annotation { lang : "ro" , tts : Some ("pătrat negru mediu spre mic") , keywords : & ["geometric" , "negru" , "pătrat" , "pătrat negru mediu spre mic"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-040") , keywords : & ["E10-040"] , } , crate :: Annotation { lang : "ru" , tts : Some ("небольшой черный квадрат") , keywords : & ["геометрия" , "квадрат" , "небольшой квадрат" , "небольшой черный квадрат" , "фигура" , "черный"] , } , crate :: Annotation { lang : "rw" , tts : Some ("kare ntoya iringaniye y’umukara") , keywords : & ["ishusho" , "kare" , "kare ntoya iringaniye y’umukara"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڪارو وچولو-ننڍو چورس") , keywords : & ["جيوميٽرڪ" , "چورس" , "ڪارو وچولو-ننڍو چورس"] , } , crate :: Annotation { lang : "si" , tts : Some ("කළ\u{dd4} මධ\u{dca}\u{200d}යම ප\u{dca}\u{200d}රම\u{dcf}ණයේ-ක\u{dd4}ඩ\u{dcf} කොට\u{dd4}ව") , keywords : & ["කළ\u{dd4} මධ\u{dca}\u{200d}යම ප\u{dca}\u{200d}රම\u{dcf}ණයේ-ක\u{dd4}ඩ\u{dcf} කොට\u{dd4}ව" , "ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක" , "හතරැස\u{dca}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("stredne malý čierny štvorec") , keywords : & ["geometria" , "stredne malý čierny štvorec" , "štvorec"] , } , crate :: Annotation { lang : "sl" , tts : Some ("srednje majhen črn kvadrat") , keywords : & ["geometrično" , "kvadrat" , "srednje majhen črn kvadrat"] , } , crate :: Annotation { lang : "so" , tts : Some ("afar gees dhexdhexaad yar oo madow") , keywords : & ["afar gees" , "afar gees dhexdhexaad oo madow" , "afar gees dhexdhexaad yar oo madow" , "joometriyeed"] , } , crate :: Annotation { lang : "sq" , tts : Some ("katror mesatarisht i vogël i zi") , keywords : & ["gjeometri" , "katror" , "katror mesatarisht i vogël i zi"] , } , crate :: Annotation { lang : "sr" , tts : Some ("средњемали црни квадрат") , keywords : & ["гeoмeтриja" , "квaдрaт" , "средњемали црни квадрат"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("srednjemali crni kvadrat") , keywords : & ["geometrija" , "kvadrat" , "srednjemali crni kvadrat"] , } , crate :: Annotation { lang : "sv" , tts : Some ("mellanliten svart ruta") , keywords : & ["geometrisk" , "medelstor svart ruta" , "mellanliten svart ruta" , "ruta" , "svart"] , } , crate :: Annotation { lang : "sw" , tts : Some ("mraba wastani mdogo mweusi") , keywords : & ["jiometri" , "mraba" , "mraba wastani mdogo mweusi"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("நடுத\u{bcd}தரம\u{bcd}-சிறிய கருப\u{bcd}பு சதுரம\u{bcd}") , keywords : & ["நடுத\u{bcd}தரம\u{bcd}-சிறிய கருப\u{bcd}பு சதுரம\u{bcd}" , "பிள\u{bbe}க\u{bcd} ம\u{bc0}டியம\u{bcd} ஸ\u{bcd}கொயர\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("మధ\u{c4d}యస\u{c4d}థ చ\u{c3f}న\u{c4d}న నలుపు రంగు చతురస\u{c4d}రం") , keywords : & ["చతురస\u{c4d}రం" , "నలుపు రంగు" , "మధ\u{c4d}యస\u{c4d}థ చ\u{c3f}న\u{c4d}న నలుపు రంగు చతురస\u{c4d}రం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("чоркунҷаи хурди миёнаи сиёҳ") , keywords : & ["геометрӣ" , "чоркунҷа" , "чоркунҷаи хурди миёнаи сиёҳ"] , } , crate :: Annotation { lang : "th" , tts : Some ("ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมเล\u{e47}กปานกลางส\u{e35}ดำ") , keywords : & ["ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยม" , "ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมเล\u{e47}กปานกลางส\u{e35}ดำ" , "เรขาคณ\u{e34}ต"] , } , crate :: Annotation { lang : "ti" , tts : Some ("ጸሊም ማእከላይ-ንኢሽተይ ትርብዒት") , keywords : & ["ትርብዒት" , "ጂኦሜትሪክ" , "ጸሊም ማእከላይ-ንኢሽተይ ትርብዒት"] , } , crate :: Annotation { lang : "tk" , tts : Some ("gara orta-kiçi inedördül") , keywords : & ["gara orta-kiçi inedördül" , "geometrik" , "inedördül"] , } , crate :: Annotation { lang : "to" , tts : Some ("tapafā siʻi mo ʻuliʻuli") , keywords : & ["tapafā" , "tapafā siʻi mo ʻuliʻuli" , "ʻuliʻuli"] , } , crate :: Annotation { lang : "tr" , tts : Some ("küçük-orta siyah kare") , keywords : & ["geometri" , "kare" , "küçük-orta siyah kare"] , } , crate :: Annotation { lang : "ug" , tts : Some ("قارا كىچىكرەك كىۋادرات") , keywords : & ["قارا كىچىكرەك كىۋادرات" , "كىۋادرات" , "گېئومېتىرىيە"] , } , crate :: Annotation { lang : "uk" , tts : Some ("менший за середній чорний квадрат") , keywords : & ["геометричний" , "квадрат" , "менший за середній чорний квадрат"] , } , crate :: Annotation { lang : "ur" , tts : Some ("کالا میڈیم چھوٹا چوکور") , keywords : & ["جیومیٹری" , "میڈیم" , "چوکور" , "چھوٹا" , "کالا"] , } , crate :: Annotation { lang : "uz" , tts : Some ("kichikroq qora kvadrat") , keywords : & ["geometrik" , "kichikroq qora kvadrat" , "kvadrat"] , } , crate :: Annotation { lang : "vi" , tts : Some ("hình vuông nhỏ vừa màu đen") , keywords : & ["hình học" , "hình vuông" , "hình vuông nhỏ vừa màu đen"] , } , crate :: Annotation { lang : "wo" , tts : Some ("kaare yam-ndaw te ñuul") , keywords : & ["bu-geometri" , "kaare" , "kaare yam-ndaw te ñuul"] , } , crate :: Annotation { lang : "xh" , tts : Some ("iskrwere esiphakathi-buncinane esimnyama") , keywords : & ["ijiyometriki" , "iskrwere esiphakathi-buncinane esimnyama" , "iskwere"] , } , crate :: Annotation { lang : "yo" , tts : Some ("onigunmẹrin idaji-kekere dudu") , keywords : & ["ilà onigun mé\u{329}rin" , "jiomé\u{329}tíríkì" , "onigunmẹrin idaji-kekere dudu"] , } , crate :: Annotation { lang : "yue" , tts : Some ("中細黑色正方形") , keywords : & ["中細黑色正方形" , "幾何" , "正方形"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("中细黑色正方形") , keywords : & ["中细黑色正方形" , "几何" , "正方形"] , } , crate :: Annotation { lang : "zh" , tts : Some ("黑色中小方块") , keywords : & ["中小" , "正方形" , "黑色" , "黑色中小方块"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("黑色中小型方塊") , keywords : & ["方形" , "黑色中小型方塊"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("黑色中小正方形") , keywords : & ["中小黑色正方形" , "正方形" , "黑色中小正方形"] , } , crate :: Annotation { lang : "zu" , tts : Some ("iskwele esimnyama esimaphakathi esincane") , keywords : & ["iskwele" , "iskwele esimnyama esimaphakathi esincane" , "jiyometrikhi"] , }] , } ;
+pub const BLACK_MEDIUM_SMALL_SQUARE: crate::Emoji = crate::Emoji {
+    glyph: "◾",
+    codepoint: "25FE",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "black medium-small square",
+    group: "Symbols",
+    subgroup: "geometric",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("swart mediumklein vierkant"),
+            keywords: &[
+                "geometries",
+                "swart",
+                "swart mediumklein vierkant",
+                "vierkant",
+            ],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ጥቁር መካከለኛ-ትንሽ ካሬ"),
+            keywords: &["ካሬ", "ጂኦሜትሪያዊ", "ጥቁር መካከለኛ-ትንሽ ካሬ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مربع صغير متوسط أسود"),
+            keywords: &["مربع", "مربع صغير متوسط أسود", "هندسي"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ক’ল\u{9be} মধ\u{9cd}যমীয\u{9bc}\u{9be}-সৰ\u{9c1} বৰ\u{9cd}গ"),
+            keywords: &[
+                "ক’ল\u{9be} মধ\u{9cd}যমীয\u{9bc}\u{9be}-সৰ\u{9c1} বৰ\u{9cd}গ",
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "বৰ\u{9cd}গ",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("qara orta kiçiklikdə kvadrat"),
+            keywords: &["həndəsi", "kvadrat", "qara orta kiçiklikdə kvadrat"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("невялікі чорны квадрат"),
+            keywords: &["аб’ект", "геаметрычны", "квадрат", "невялікі чорны квадрат"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Черен средномалък квадрат"),
+            keywords: &["Черен средномалък квадрат", "геометричен", "квадрат"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ক\u{9be}লো ম\u{9be}ঝ\u{9be}রি ছোট বর\u{9cd}গক\u{9cd}ষেত\u{9cd}র"),
+            keywords: &[
+                "ক\u{9be}লো ম\u{9be}ঝ\u{9be}রি ছোট বর\u{9cd}গক\u{9cd}ষেত\u{9cd}র",
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "বর\u{9cd}গ\u{9be}ক\u{9be}র",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("crni srednje mali kvadrat"),
+            keywords: &["crni srednje mali kvadrat", "geometrija", "kvadrat"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("quadrat negre petit-mitjà"),
+            keywords: &["geometria", "negre", "petit-mitjà", "quadrat"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎬᎿᎨ ᎠᏲᏟᎨ-ᎤᏍᏗ ᎾᎩ ᏧᏅᏏᏯ"),
+            keywords: &["ᎬᎿᎨ ᎠᏲᏟᎨ-ᎤᏍᏗ ᎾᎩ ᏧᏅᏏᏯ", "ᏅᎩ ᏧᏅᏏᏯ", "ᏗᏎᏍᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("větší černý čtvereček"),
+            keywords: &["geometrie", "větší černý čtvereček", "čtverec"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("sgwâr canolig-bach du"),
+            keywords: &["geometrig", "sgwâr", "sgwâr canolig-bach du"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("halvlille sort kvadrat"),
+            keywords: &["geometrisk", "halvlille sort kvadrat", "kvadrat"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("mittelkleines schwarzes Quadrat"),
+            keywords: &["Quadrat", "mittelkleines schwarzes Quadrat", "schwarz"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("μικρομεσαίο μαύρο τετράγωνο"),
+            keywords: &["γεωμετρικό", "μικρομεσαίο μαύρο τετράγωνο", "τετράγωνο"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("black medium-small square"),
+            keywords: &["black medium-small square", "geometric", "square"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("cuadrado negro mediano-pequeño"),
+            keywords: &[
+                "cuadrado",
+                "cuadrado negro mediano-pequeño",
+                "geometría",
+                "negro",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "cuadrado",
+                "cuadrado negro mediano-pequeño",
+                "mediano",
+                "negro",
+                "pequeño",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("väiksem must ruut"),
+            keywords: &["geomeetria", "ruut", "väiksem must ruut"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("karratu beltz ertaina/txikia"),
+            keywords: &["geometriko", "karratu", "karratu beltz ertaina/txikia"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("مربع مشکی نسبتا\u{64b} کوچک"),
+            keywords: &["شکل هندسی", "مربع", "مربع مشکی نسبتا\u{64b} کوچک"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pienehkö musta neliö"),
+            keywords: &["muoto", "neliö", "pienehkö musta neliö"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("medyo maliit na itim na parisukat"),
+            keywords: &[
+                "hugis",
+                "itim",
+                "maliit",
+                "medyo",
+                "medyo maliit na itim na parisukat",
+                "parisukat",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("svartur miðalstórur fýrakantur"),
+            keywords: &[
+                "fýrakantur",
+                "mátingarfrøðiligur",
+                "svartur miðalstórur fýrakantur",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("carré petit moyen noir"),
+            keywords: &["carré", "carré petit moyen noir", "forme", "géométrie"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("carré noir de taille intermédiaire"),
+            keywords: &["carré noir de taille intermédiaire", "forme", "géométrie"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("meánchearnóg bheag dhubh"),
+            keywords: &[
+                "cearnóg",
+                "cearnóg dubh meán-bheag",
+                "geoiméadrach",
+                "meánchearnóg bheag dhubh",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("ceàrnag mheadhanach bheag dhubh"),
+            keywords: &["ceàrnag", "ceàrnag mheadhanach bheag dhubh", "geomatrach"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("cadrado pequeno-mediano negro"),
+            keywords: &[
+                "cadrado",
+                "cadrado pequeno-mediano negro",
+                "mediano",
+                "negro",
+                "pequeno",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("કાળો મધ\u{acd}યમ-નાનો ચોરસ"),
+            keywords: &["કાળો મધ\u{acd}યમ-નાનો ચોરસ", "ચોરસ", "ભૌમિતિક"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("baƙin matsakaicin-ƙaramin murabba’i"),
+            keywords: &[
+                "baƙin matsakaicin-ƙaramin murabba’i",
+                "ilimin halayen sura",
+                "murabba’i",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("ריבוע בינוני-קטן שחור"),
+            keywords: &["צורה", "ריבוע", "ריבוע בינוני-קטן שחור", "שחור"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("काला मध\u{94d}यम-छोटा वर\u{94d}ग"),
+            keywords: &["काला मध\u{94d}यम-छोटा वर\u{94d}ग", "ज\u{94d}यामिति"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("srednje mali crni kvadrat"),
+            keywords: &["geometrija", "kvadrat", "srednje mali crni kvadrat"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("kis-közepes fekete négyzet"),
+            keywords: &["geometria", "kis-közepes fekete négyzet", "négyzet"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("սև միջին-փոքր քառակուսի"),
+            keywords: &["երկրաչափական", "սև միջին-փոքր քառակուսի", "քառակուսի"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("persegi kecil medium hitam"),
+            keywords: &["geometri", "persegi", "persegi kecil medium hitam"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("sukwia obere-etiti ojii"),
+            keywords: &["mgbakọ", "sukwia", "sukwia obere-etiti ojii"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("svartur meðalsmár ferningur"),
+            keywords: &["ferningur", "rúmfræði", "svartur meðalsmár ferningur"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("quadrato nero medio-piccolo"),
+            keywords: &["geometria", "quadrato", "quadrato nero medio-piccolo"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("黒四角中"),
+            keywords: &["四角", "正方形", "黒", "黒四角中"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("kothak cilik-sedhengan ireng"),
+            keywords: &["geometrik", "kothak", "kothak cilik-sedhengan ireng"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("საშუალო-პატარა შავი კვადრატი"),
+            keywords: &[
+                "გეომეტრია",
+                "გეომეტრიული",
+                "კვადრატი",
+                "საშუალო-პატარა შავი კვადრატი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("орташа-кіші қара шаршы"),
+            keywords: &["геометриялық", "орташа-кіші қара шаршы", "шаршы"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("halvlille sort kvadrat"),
+            keywords: &["geometrisk", "halvlille sort kvadrat", "kvadrat"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងត\u{17bc}ចល\u{17d2}មមពណ\u{17cc}ខ\u{17d2}មៅ"),
+            keywords: &[
+                "ខ\u{17d2}មៅ",
+                "ត\u{17bc}ចល\u{17d2}មម",
+                "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ង",
+                "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងត\u{17bc}ចល\u{17d2}មមពណ\u{17cc}ខ\u{17d2}មៅ",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಕಪ\u{ccd}ಪು ಬಣ\u{ccd}ಣದ ಮಧ\u{ccd}ಯಮ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ"),
+            keywords: &[
+                "ಕಪ\u{ccd}ಪು ಬಣ\u{ccd}ಣದ ಮಧ\u{ccd}ಯಮ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ",
+                "ಕಪ\u{ccd}ಪು ಬಣ\u{ccd}ಣದ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("중각 작은 검은색 사각형"),
+            keywords: &["무늬", "사각형", "중각 작은 검은색 사각형"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("काळो मध\u{94d}यम-ल\u{94d}हान चवकोन"),
+            keywords: &[
+                "काळो मध\u{94d}यम-ल\u{94d}हान चवकोन",
+                "चवकोन",
+                "जियोम\u{945}ट\u{94d}रीक",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("кичирээк кара чарчы"),
+            keywords: &["геометрия", "кичирээк кара чарчы", "чарчы"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("schwaarze mëttelklenge Quadrat"),
+            keywords: &["Quadrat", "geometresch", "schwaarze mëttelklenge Quadrat"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມນ\u{ec9}ອຍ-ປານກາງສ\u{eb5}ດຳ"),
+            keywords: &[
+                "ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມ",
+                "ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມນ\u{ec9}ອຍ-ປານກາງສ\u{eb5}ດຳ",
+                "ເລຂາຄະນ\u{eb4}ດ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("juodas vidutiniškai mažas kvadratas"),
+            keywords: &[
+                "geometrija",
+                "juodas vidutiniškai mažas kvadratas",
+                "kvadratas",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("vidēji mazs melns kvadrāts"),
+            keywords: &["kvadrāts", "vidēji mazs melns kvadrāts", "ģeometrija"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tapawhā rite pango waenga-iti"),
+            keywords: &["tapawhā rite", "tapawhā rite pango waenga-iti", "āhuahanga"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("црн квадрат со средна големина"),
+            keywords: &["геометрија", "квадрат", "црн квадрат со средна големина"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ചെറിയ കറ\u{d41}ത\u{d4d}ത ചത\u{d41}രം"),
+            keywords: &[
+                "കളം",
+                "ചത\u{d41}രം",
+                "ചെറിയ കറ\u{d41}ത\u{d4d}ത ചത\u{d41}രം",
+                "ജിയോമെട\u{d4d}രിക\u{d4d}ക\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("хар жижгэвтэр дөрвөлжин"),
+            keywords: &["геометр", "дөрвөлжин", "хар жижгэвтэр дөрвөлжин"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("काळा मध\u{94d}\u{200d}यम-लहान आकाराचा चौरस"),
+            keywords: &[
+                "काळा मध\u{94d}यम आकाराचा चौरस",
+                "काळा मध\u{94d}\u{200d}यम-लहान आकाराचा चौरस",
+                "चौरस",
+                "भ\u{942}मितीय",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("persegi sederhana kecil hitam"),
+            keywords: &["geometri", "persegi", "persegi sederhana kecil hitam"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("kwadrat medju żgħar iswed"),
+            keywords: &["kwadrat medju żgħar iswed", "kwadru", "ġeometrika"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "အနက\u{103a}ရောင\u{103a} လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a} အလတ\u{103a}စားအသေး",
+            ),
+            keywords: &[
+                "ဂျ\u{102e}ဩမေတြ\u{102e}ဆ\u{102d}\u{102f}င\u{103a}ရာ",
+                "အနက\u{103a}ရောင\u{103a} လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a} အလတ\u{103a}စားအသေး",
+                "အနက\u{103a}ရောင\u{103a} အလတ\u{103a}စားအသေး လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("liten/mellomstor svart firkant"),
+            keywords: &[
+                "firkant",
+                "geometrisk",
+                "kvadrat",
+                "liten/mellomstor svart firkant",
+            ],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("कालो मध\u{94d}यम-सानो वर\u{94d}ग"),
+            keywords: &[
+                "कालो मध\u{94d}यम-सानो वर\u{94d}ग",
+                "ज\u{94d}यामितीय",
+                "वर\u{94d}ग",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("klein tot middelgroot zwart vierkant"),
+            keywords: &[
+                "geometrisch",
+                "klein tot middelgroot zwart vierkant",
+                "vierkant",
+            ],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("liten/mellomstor svart firkant"),
+            keywords: &[
+                "firkant",
+                "geometrisk",
+                "kvadrat",
+                "liten/mellomstor svart firkant",
+            ],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("କଳ\u{b3e} ମଧ\u{b4d}ୟମ-ଛୋଟ ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର"),
+            keywords: &[
+                "କଳ\u{b3e} ମଧ\u{b4d}ୟମ-ଛୋଟ ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର",
+                "ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ",
+                "ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਦਰਮਿਆਨਾ-ਛ\u{a4b}ਟਾ ਕਾਲਾ ਵਰਗ"),
+            keywords: &["ਜਯਾਮਿਤੀ", "ਦਰਮਿਆਨਾ-ਛ\u{a4b}ਟਾ ਕਾਲਾ ਵਰਗ", "ਵਰਗ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("کالا درمیانہ ـ نیکا مربع"),
+            keywords: &["جیومیٹری دے متعلق", "مربع", "کالا درمیانہ ـ نیکا مربع"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Blák Mídiọ\u{301}m-Smọ\u{301}l Skwea"),
+            keywords: &[
+                "Blák Mídiọ\u{301}m-Smọ\u{301}l Skwea",
+                "Jiọ\u{301}mẹ\u{301}tri",
+                "Skwea",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("mały/średni czarny kwadrat"),
+            keywords: &[
+                "czarny",
+                "figura geometryczna",
+                "kwadrat",
+                "mały",
+                "mały/średni czarny kwadrat",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("توره ميانه کوچنۍ مربع"),
+            keywords: &["توره ميانه کوچنۍ مربع", "جيوميتريکي", "مربع"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("quadrado preto médio menor"),
+            keywords: &["geométrico", "quadrado", "quadrado preto médio menor"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("quadrado preto pequeno/médio"),
+            keywords: &["geométrico", "quadrado", "quadrado preto pequeno/médio"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("pătrat negru mediu spre mic"),
+            keywords: &[
+                "geometric",
+                "negru",
+                "pătrat",
+                "pătrat negru mediu spre mic",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-040"),
+            keywords: &["E10-040"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("небольшой черный квадрат"),
+            keywords: &[
+                "геометрия",
+                "квадрат",
+                "небольшой квадрат",
+                "небольшой черный квадрат",
+                "фигура",
+                "черный",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("kare ntoya iringaniye y’umukara"),
+            keywords: &["ishusho", "kare", "kare ntoya iringaniye y’umukara"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڪارو وچولو-ننڍو چورس"),
+            keywords: &["جيوميٽرڪ", "چورس", "ڪارو وچولو-ننڍو چورس"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some(
+                "කළ\u{dd4} මධ\u{dca}\u{200d}යම ප\u{dca}\u{200d}රම\u{dcf}ණයේ-ක\u{dd4}ඩ\u{dcf} කොට\u{dd4}ව",
+            ),
+            keywords: &[
+                "කළ\u{dd4} මධ\u{dca}\u{200d}යම ප\u{dca}\u{200d}රම\u{dcf}ණයේ-ක\u{dd4}ඩ\u{dcf} කොට\u{dd4}ව",
+                "ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක",
+                "හතරැස\u{dca}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("stredne malý čierny štvorec"),
+            keywords: &["geometria", "stredne malý čierny štvorec", "štvorec"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("srednje majhen črn kvadrat"),
+            keywords: &["geometrično", "kvadrat", "srednje majhen črn kvadrat"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("afar gees dhexdhexaad yar oo madow"),
+            keywords: &[
+                "afar gees",
+                "afar gees dhexdhexaad oo madow",
+                "afar gees dhexdhexaad yar oo madow",
+                "joometriyeed",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("katror mesatarisht i vogël i zi"),
+            keywords: &["gjeometri", "katror", "katror mesatarisht i vogël i zi"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("средњемали црни квадрат"),
+            keywords: &["гeoмeтриja", "квaдрaт", "средњемали црни квадрат"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("srednjemali crni kvadrat"),
+            keywords: &["geometrija", "kvadrat", "srednjemali crni kvadrat"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("mellanliten svart ruta"),
+            keywords: &[
+                "geometrisk",
+                "medelstor svart ruta",
+                "mellanliten svart ruta",
+                "ruta",
+                "svart",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("mraba wastani mdogo mweusi"),
+            keywords: &["jiometri", "mraba", "mraba wastani mdogo mweusi"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("நடுத\u{bcd}தரம\u{bcd}-சிறிய கருப\u{bcd}பு சதுரம\u{bcd}"),
+            keywords: &[
+                "நடுத\u{bcd}தரம\u{bcd}-சிறிய கருப\u{bcd}பு சதுரம\u{bcd}",
+                "பிள\u{bbe}க\u{bcd} ம\u{bc0}டியம\u{bcd} ஸ\u{bcd}கொயர\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("మధ\u{c4d}యస\u{c4d}థ చ\u{c3f}న\u{c4d}న నలుపు రంగు చతురస\u{c4d}రం"),
+            keywords: &[
+                "చతురస\u{c4d}రం",
+                "నలుపు రంగు",
+                "మధ\u{c4d}యస\u{c4d}థ చ\u{c3f}న\u{c4d}న నలుపు రంగు చతురస\u{c4d}రం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("чоркунҷаи хурди миёнаи сиёҳ"),
+            keywords: &["геометрӣ", "чоркунҷа", "чоркунҷаи хурди миёнаи сиёҳ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมเล\u{e47}กปานกลางส\u{e35}ดำ"),
+            keywords: &[
+                "ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยม",
+                "ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมเล\u{e47}กปานกลางส\u{e35}ดำ",
+                "เรขาคณ\u{e34}ต",
+            ],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ጸሊም ማእከላይ-ንኢሽተይ ትርብዒት"),
+            keywords: &["ትርብዒት", "ጂኦሜትሪክ", "ጸሊም ማእከላይ-ንኢሽተይ ትርብዒት"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("gara orta-kiçi inedördül"),
+            keywords: &["gara orta-kiçi inedördül", "geometrik", "inedördül"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tapafā siʻi mo ʻuliʻuli"),
+            keywords: &["tapafā", "tapafā siʻi mo ʻuliʻuli", "ʻuliʻuli"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("küçük-orta siyah kare"),
+            keywords: &["geometri", "kare", "küçük-orta siyah kare"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("قارا كىچىكرەك كىۋادرات"),
+            keywords: &["قارا كىچىكرەك كىۋادرات", "كىۋادرات", "گېئومېتىرىيە"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("менший за середній чорний квадрат"),
+            keywords: &[
+                "геометричний",
+                "квадрат",
+                "менший за середній чорний квадрат",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("کالا میڈیم چھوٹا چوکور"),
+            keywords: &["جیومیٹری", "میڈیم", "چوکور", "چھوٹا", "کالا"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("kichikroq qora kvadrat"),
+            keywords: &["geometrik", "kichikroq qora kvadrat", "kvadrat"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("hình vuông nhỏ vừa màu đen"),
+            keywords: &["hình học", "hình vuông", "hình vuông nhỏ vừa màu đen"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("kaare yam-ndaw te ñuul"),
+            keywords: &["bu-geometri", "kaare", "kaare yam-ndaw te ñuul"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("iskrwere esiphakathi-buncinane esimnyama"),
+            keywords: &[
+                "ijiyometriki",
+                "iskrwere esiphakathi-buncinane esimnyama",
+                "iskwere",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("onigunmẹrin idaji-kekere dudu"),
+            keywords: &[
+                "ilà onigun mé\u{329}rin",
+                "jiomé\u{329}tíríkì",
+                "onigunmẹrin idaji-kekere dudu",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("中細黑色正方形"),
+            keywords: &["中細黑色正方形", "幾何", "正方形"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("中细黑色正方形"),
+            keywords: &["中细黑色正方形", "几何", "正方形"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("黑色中小方块"),
+            keywords: &["中小", "正方形", "黑色", "黑色中小方块"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("黑色中小型方塊"),
+            keywords: &["方形", "黑色中小型方塊"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("黑色中小正方形"),
+            keywords: &["中小黑色正方形", "正方形", "黑色中小正方形"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("iskwele esimnyama esimaphakathi esincane"),
+            keywords: &[
+                "iskwele",
+                "iskwele esimnyama esimaphakathi esincane",
+                "jiyometrikhi",
+            ],
+        },
+    ],
+};
 #[doc = "◽"]
-pub const WHITE_MEDIUM_SMALL_SQUARE : crate :: Emoji = crate :: Emoji { glyph : "◽" , codepoint : "25FD" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "white medium-small square" , group : "Symbols" , subgroup : "geometric" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("wit mediumklein vierkant") , keywords : & ["geometries" , "vierkant" , "wit" , "wit mediumklein vierkant"] , } , crate :: Annotation { lang : "am" , tts : Some ("ነጭ መካከለኛ- ትንሽ ካሬ") , keywords : & ["ነጭ መካከለኛ- ትንሽ ካሬ" , "ካሬ" , "ጂኦሜትሪያዊ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مربع صغير متوسط أبيض") , keywords : & ["مربع" , "مربع صغير متوسط أبيض" , "هندسي"] , } , crate :: Annotation { lang : "as" , tts : Some ("বগ\u{9be} মধ\u{9cd}যমীয\u{9bc}\u{9be}-সৰ\u{9c1} বৰ\u{9cd}গ") , keywords : & ["জ\u{9cd}য\u{9be}মিতিক" , "বগ\u{9be} মধ\u{9cd}যমীয\u{9bc}\u{9be}-সৰ\u{9c1} বৰ\u{9cd}গ" , "বৰ\u{9cd}গ"] , } , crate :: Annotation { lang : "az" , tts : Some ("ağ orta kiçiklikdə kvadrat") , keywords : & ["ağ orta kiçiklikdə kvadrat" , "həndəsi" , "kvadrat"] , } , crate :: Annotation { lang : "be" , tts : Some ("невялікі белы квадрат") , keywords : & ["аб’ект" , "геаметрычны" , "квадрат" , "невялікі белы квадрат"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Бял средномалък квадрат") , keywords : & ["Бял средномалък квадрат" , "геометричен" , "квадрат"] , } , crate :: Annotation { lang : "bn" , tts : Some ("স\u{9be}দ\u{9be} ম\u{9be}ঝ\u{9be}রি ছোট বর\u{9cd}গক\u{9cd}ষেত\u{9cd}র") , keywords : & ["জ\u{9cd}য\u{9be}মিতিক" , "বর\u{9cd}গ\u{9be}ক\u{9be}র" , "স\u{9be}দ\u{9be} ম\u{9be}ঝ\u{9be}রি ছোট বর\u{9cd}গক\u{9cd}ষেত\u{9cd}র"] , } , crate :: Annotation { lang : "bs" , tts : Some ("bijeli srednje mali kvadrat") , keywords : & ["bijeli srednje mali kvadrat" , "geometrija" , "kvadrat"] , } , crate :: Annotation { lang : "ca" , tts : Some ("quadrat blanc petit-mitjà") , keywords : & ["blanc" , "geometria" , "petit-mitjà" , "quadrat"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏁᎦ ᎠᏲᏟᎨ-ᎤᏍᏗ ᏅᎩ ᏧᏅᏏᏯ") , keywords : & ["ᎤᏁᎦ ᎠᏲᏟᎨ-ᎤᏍᏗ ᏅᎩ ᏧᏅᏏᏯ" , "ᏅᎩ ᏧᏅᏏᏯ" , "ᏗᏎᏍᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("větší bílý čtvereček") , keywords : & ["geometrie" , "větší bílý čtvereček" , "čtverec"] , } , crate :: Annotation { lang : "cy" , tts : Some ("sgwâr canolig-bach gwyn") , keywords : & ["geometrig" , "sgwâr" , "sgwâr canolig-bach gwyn"] , } , crate :: Annotation { lang : "da" , tts : Some ("halvlille hvidt kvadrat") , keywords : & ["geometrisk" , "halvlille hvidt kvadrat" , "kvadrat"] , } , crate :: Annotation { lang : "de" , tts : Some ("mittelkleines weißes Quadrat") , keywords : & ["Quadrat" , "mittelkleines weißes Quadrat" , "weiß"] , } , crate :: Annotation { lang : "de_CH" , tts : Some ("Mittelkleines weisses Quadrat") , keywords : & ["Mittelkleines weisses Quadrat" , "Quadrat" , "weiss"] , } , crate :: Annotation { lang : "el" , tts : Some ("μικρομεσαίο λευκό τετράγωνο") , keywords : & ["γεωμετρικό" , "μικρομεσαίο λευκό τετράγωνο" , "τετράγωνο"] , } , crate :: Annotation { lang : "en" , tts : Some ("white medium-small square") , keywords : & ["geometric" , "square" , "white medium-small square"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("cuadrado blanco mediano-pequeño") , keywords : & ["blanco" , "cuadrado" , "cuadrado blanco mediano-pequeño" , "geometría"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["blanco" , "cuadrado" , "cuadrado blanco mediano-pequeño" , "mediano" , "pequeño"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("väiksem valge ruut") , keywords : & ["geomeetria" , "ruut" , "väiksem valge ruut"] , } , crate :: Annotation { lang : "eu" , tts : Some ("karratu zuri ertaina/txikia") , keywords : & ["geometriko" , "karratu" , "karratu zuri ertaina/txikia"] , } , crate :: Annotation { lang : "fa" , tts : Some ("مربع سفید نسبتا\u{64b} کوچک") , keywords : & ["شکل هندسی" , "مربع" , "مربع سفید نسبتا\u{64b} کوچک"] , } , crate :: Annotation { lang : "fi" , tts : Some ("pienehkö valkoinen neliö") , keywords : & ["muoto" , "neliö" , "pienehkö valkoinen neliö"] , } , crate :: Annotation { lang : "fil" , tts : Some ("medyo maliit na puting parisukat") , keywords : & ["hugis" , "maliit" , "medyo maliit na puting parisukat" , "parisukat" , "puti"] , } , crate :: Annotation { lang : "fo" , tts : Some ("hvítur miðalstórur fýrakantur") , keywords : & ["fýrakantur" , "hvítur miðalstórur fýrakantur" , "mátingarfrøðiligur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("carré petit moyen blanc") , keywords : & ["carré" , "carré petit moyen blanc" , "forme" , "géométrie"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("carré blanc de taille intermédiaire") , keywords : & ["carré blanc de taille intermédiaire" , "forme" , "géométrie"] , } , crate :: Annotation { lang : "ga" , tts : Some ("meánchearnóg bheag bhán") , keywords : & ["cearnóg" , "cearnóg bán meán-bheag" , "geoiméadrach" , "meánchearnóg bheag bhán"] , } , crate :: Annotation { lang : "gd" , tts : Some ("ceàrnag mheadhanach bheag gheal") , keywords : & ["ceàrnag" , "ceàrnag mheadhanach bheag gheal" , "geomatrach"] , } , crate :: Annotation { lang : "gl" , tts : Some ("cadrado pequeno-mediano branco") , keywords : & ["branco" , "cadrado" , "cadrado pequeno-mediano branco" , "mediano" , "pequeno"] , } , crate :: Annotation { lang : "gu" , tts : Some ("સફ\u{ac7}દ મધ\u{acd}યમ-નાનો ચોરસ") , keywords : & ["ચોરસ" , "ભૌમિતિક" , "સફ\u{ac7}દ મધ\u{acd}યમ-નાનો ચોરસ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("farin matsakaicin-ƙaramin murabba’i") , keywords : & ["farin matsakaicin-ƙaramin murabba’i" , "ilimin halayen sura" , "murabba’i"] , } , crate :: Annotation { lang : "he" , tts : Some ("ריבוע בינוני-קטן לבן") , keywords : & ["לבן" , "צורה" , "ריבוע" , "ריבוע בינוני-קטן לבן"] , } , crate :: Annotation { lang : "hi" , tts : Some ("सफ\u{93c}\u{947}द मध\u{94d}यम-छोटा वर\u{94d}ग") , keywords : & ["ज\u{94d}यामिति" , "सफ\u{93c}\u{947}द मध\u{94d}यम-छोटा वर\u{94d}ग"] , } , crate :: Annotation { lang : "hr" , tts : Some ("srednje mali bijeli kvadrat") , keywords : & ["geometrija" , "kvadrat" , "srednje mali bijeli kvadrat"] , } , crate :: Annotation { lang : "hu" , tts : Some ("kis-közepes fehér négyzet") , keywords : & ["geometria" , "kis-közepes fehér négyzet" , "négyzet"] , } , crate :: Annotation { lang : "hy" , tts : Some ("սպիտակ միջին-փոքր քառակուսի") , keywords : & ["երկրաչափական" , "սպիտակ միջին-փոքր քառակուսի" , "քառակուսի"] , } , crate :: Annotation { lang : "id" , tts : Some ("persegi kecil medium putih") , keywords : & ["geometri" , "persegi" , "persegi kecil medium putih"] , } , crate :: Annotation { lang : "ig" , tts : Some ("sukwia obere-etiti ọcha") , keywords : & ["mgbakọ" , "sukwia" , "sukwia obere-etiti ọcha"] , } , crate :: Annotation { lang : "is" , tts : Some ("hvítur meðalsmár ferningur") , keywords : & ["ferningur" , "hvítur meðalsmár ferningur" , "rúmfræði"] , } , crate :: Annotation { lang : "it" , tts : Some ("quadrato bianco medio-piccolo") , keywords : & ["geometria" , "quadrato" , "quadrato bianco medio-piccolo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("白四角中") , keywords : & ["四角" , "正方形" , "白" , "白四角中"] , } , crate :: Annotation { lang : "jv" , tts : Some ("kothak cilik-sedhengan putih") , keywords : & ["geometrik" , "kothak" , "kothak cilik-sedhengan putih"] , } , crate :: Annotation { lang : "ka" , tts : Some ("საშუალო-პატარა თეთრი კვადრატი") , keywords : & ["გეომეტრია" , "გეომეტრიული" , "კვადრატი" , "საშუალო-პატარა თეთრი კვადრატი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("орташа-кіші ақ шаршы") , keywords : & ["геометриялық" , "орташа-кіші ақ шаршы" , "шаршы"] , } , crate :: Annotation { lang : "kl" , tts : Some ("halvlille hvidt kvadrat") , keywords : & ["geometrisk" , "halvlille hvidt kvadrat" , "kvadrat"] , } , crate :: Annotation { lang : "km" , tts : Some ("ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងត\u{17bc}ចល\u{17d2}មមពណ\u{17cc}ស") , keywords : & ["ត\u{17bc}ចល\u{17d2}មម" , "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ង" , "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងត\u{17bc}ចល\u{17d2}មមពណ\u{17cc}ស" , "ស"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಬ\u{cbf}ಳ\u{cbf} ಬಣ\u{ccd}ಣದ ಮಧ\u{ccd}ಯಮ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ") , keywords : & ["ಬ\u{cbf}ಳ\u{cbf} ಬಣ\u{ccd}ಣದ ಮಧ\u{ccd}ಯಮ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ" , "ಬ\u{cbf}ಳ\u{cbf} ಬಣ\u{ccd}ಣದ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("중간 작은 흰색 사각형") , keywords : & ["무늬" , "사각형" , "중간 작은 흰색 사각형"] , } , crate :: Annotation { lang : "kok" , tts : Some ("धवो मध\u{94d}यम-ल\u{94d}हान चवकोन") , keywords : & ["चवकोन" , "जियोम\u{945}ट\u{94d}रीक" , "धवो मध\u{94d}यम-ल\u{94d}हान चवकोन"] , } , crate :: Annotation { lang : "ky" , tts : Some ("кичирээк ак чарчы") , keywords : & ["геометрия" , "кичирээк ак чарчы" , "чарчы"] , } , crate :: Annotation { lang : "lb" , tts : Some ("wäisse mëttelklenge Quadrat") , keywords : & ["Quadrat" , "geometresch" , "wäisse mëttelklenge Quadrat"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມນ\u{ec9}ອຍ-ປານກາງສ\u{eb5}ຂາວ") , keywords : & ["ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມ" , "ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມນ\u{ec9}ອຍ-ປານກາງສ\u{eb5}ຂາວ" , "ເລຂາຄະນ\u{eb4}ດ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("baltas vidutiniškai mažas kvadratas") , keywords : & ["baltas vidutiniškai mažas kvadratas" , "geometrija" , "kvadratas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("vidēji mazs balts kvadrāts") , keywords : & ["kvadrāts" , "vidēji mazs balts kvadrāts" , "ģeometrija"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tapawhā rite mā waenga-iti") , keywords : & ["tapawhā rite" , "tapawhā rite mā waenga-iti" , "āhuahanga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("бел квадрат со средна големина") , keywords : & ["бел квадрат со средна големина" , "геометрија" , "квадрат"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ചെറിയ വെള\u{d41}ത\u{d4d}ത ചത\u{d41}രം") , keywords : & ["കളം" , "ചത\u{d41}രം" , "ചെറിയ വെള\u{d41}ത\u{d4d}ത ചത\u{d41}രം" , "ജിയോമെട\u{d4d}രിക\u{d4d}ക\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("цагаан жижгэвтэр дөрвөлжин") , keywords : & ["геометр" , "дөрвөлжин" , "цагаан жижгэвтэр дөрвөлжин"] , } , crate :: Annotation { lang : "mr" , tts : Some ("पा\u{902}ढरा मध\u{94d}\u{200d}यम-लहान आकाराचा चौरस") , keywords : & ["चौरस" , "पा\u{902}ढरा मध\u{94d}\u{200d}यम-लहान आकाराचा चौरस" , "भ\u{942}मितीय"] , } , crate :: Annotation { lang : "ms" , tts : Some ("persegi sederhana kecil putih") , keywords : & ["geometri" , "persegi" , "persegi sederhana kecil putih"] , } , crate :: Annotation { lang : "mt" , tts : Some ("kwadrat medju żgħar abjad") , keywords : & ["kwadrat medju żgħar abjad" , "kwadru" , "ġeometrika"] , } , crate :: Annotation { lang : "my" , tts : Some ("အဖြ\u{1030}ရောင\u{103a} လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a} အလတ\u{103a}စားအသေး") , keywords : & ["ဂျ\u{102e}ဩမေတြ\u{102e}" , "လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a}" , "အဖြ\u{1030}ရောင\u{103a} လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a} အလတ\u{103a}စားအသေး"] , } , crate :: Annotation { lang : "nb" , tts : Some ("liten/mellomstor hvit firkant") , keywords : & ["firkant" , "geometrisk" , "kvadrat" , "liten/mellomstor hvit firkant"] , } , crate :: Annotation { lang : "ne" , tts : Some ("स\u{947}तो मध\u{94d}यम-सानो वर\u{94d}ग") , keywords : & ["ज\u{94d}यामितीय" , "वर\u{94d}ग" , "स\u{947}तो मध\u{94d}यम-सानो वर\u{94d}ग"] , } , crate :: Annotation { lang : "nl" , tts : Some ("klein tot middelgroot wit vierkant") , keywords : & ["klein tot middelgroot wit vierkant" , "redelijk klein" , "vierkant" , "wit"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଧଳ\u{b3e} ମଧ\u{b4d}ୟମ-ଛୋଟ ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର") , keywords : & ["ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ" , "ଧଳ\u{b3e} ମଧ\u{b4d}ୟମ-ଛୋଟ ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର" , "ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਦਰਮਿਆਨਾ-ਛ\u{a4b}ਟਾ ਚਿ\u{a71}ਟਾ ਵਰਗ") , keywords : & ["ਜਯਾਮਿਤੀ" , "ਦਰਮਿਆਨਾ-ਛ\u{a4b}ਟਾ ਚਿ\u{a71}ਟਾ ਵਰਗ" , "ਵਰਗ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("چٹ\u{651}ا درمیانہ ـ نیکا مربع") , keywords : & ["جیومیٹری دے متعلق" , "مربع" , "چٹ\u{651}ا درمیانہ ـ نیکا مربع"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Waít Mídiọ\u{301}m-Smọ\u{301}l Skwea") , keywords : & ["Jiọ\u{301}mẹ\u{301}tri" , "Skwea" , "Waít Mídiọ\u{301}m-Smọ\u{301}l Skwea"] , } , crate :: Annotation { lang : "pl" , tts : Some ("mały/średni biały kwadrat") , keywords : & ["biały" , "figura geometryczna" , "kwadracik" , "kwadrat" , "mały/średni biały kwadrat"] , } , crate :: Annotation { lang : "ps" , tts : Some ("سپينه ميانه کوچنۍ مربع") , keywords : & ["جيوميتريکي" , "سپينه ميانه کوچنۍ مربع" , "مربع"] , } , crate :: Annotation { lang : "pt" , tts : Some ("quadrado branco médio menor") , keywords : & ["geométrico" , "quadrado" , "quadrado branco médio menor"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("quadrado branco pequeno/médio") , keywords : & ["geométrico" , "quadrado" , "quadrado branco pequeno/médio"] , } , crate :: Annotation { lang : "ro" , tts : Some ("pătrat alb mediu spre mic") , keywords : & ["alb" , "geometric" , "pătrat" , "pătrat alb mediu spre mic"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-039") , keywords : & ["E10-039"] , } , crate :: Annotation { lang : "ru" , tts : Some ("небольшой белый квадрат") , keywords : & ["белый" , "геометрия" , "квадрат" , "небольшой белый квадрат" , "небольшой квадрат" , "фигура"] , } , crate :: Annotation { lang : "rw" , tts : Some ("kare ntoya iringaniye y’umweru") , keywords : & ["ishusho" , "kare" , "kare ntoya iringaniye y’umweru"] , } , crate :: Annotation { lang : "sd" , tts : Some ("سفيد وچولو-ننڍو چورس") , keywords : & ["جيوميٽرڪ" , "سفيد وچولو-ننڍو چورس" , "چورس"] , } , crate :: Annotation { lang : "si" , tts : Some ("ස\u{dd4}ද\u{dd4} මධ\u{dca}\u{200d}යම ප\u{dca}\u{200d}රම\u{dcf}ණයේ-ක\u{dd4}ඩ\u{dcf} කොට\u{dd4}ව") , keywords : & ["ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක" , "ස\u{dd4}ද\u{dd4} මධ\u{dca}\u{200d}යම ප\u{dca}\u{200d}රම\u{dcf}ණයේ-ක\u{dd4}ඩ\u{dcf} කොට\u{dd4}ව" , "හතරැස\u{dca}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("stredne malý biely štvorec") , keywords : & ["geometria" , "stredne malý biely štvorec" , "štvorec"] , } , crate :: Annotation { lang : "sl" , tts : Some ("srednje mali beli kvadrat") , keywords : & ["geometrično" , "kvadrat" , "srednje mali beli kvadrat"] , } , crate :: Annotation { lang : "so" , tts : Some ("afar gees dhexdhexaad yar oo cad") , keywords : & ["afar gees" , "afar gees dhexdhexaad yar oo cad" , "joometriyeed"] , } , crate :: Annotation { lang : "sq" , tts : Some ("katror mesatarisht i vogël i bardhë") , keywords : & ["gjeometrik" , "katror" , "katror mesatarisht i vogël i bardhë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("средњемали бели квадрат") , keywords : & ["гeoмeтриja" , "квaдрaт" , "средњемали бели квадрат"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("средњемали бијели квадрат") , keywords : & ["средњемали бијели квадрат"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("srednjemali beli kvadrat") , keywords : & ["geometrija" , "kvadrat" , "srednjemali beli kvadrat"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("srednjemali bijeli kvadrat") , keywords : & ["srednjemali bijeli kvadrat"] , } , crate :: Annotation { lang : "sv" , tts : Some ("mellanliten vit ruta") , keywords : & ["geometrisk" , "medelstor vit ruta" , "mellanliten vit ruta" , "ruta" , "vit"] , } , crate :: Annotation { lang : "sw" , tts : Some ("mraba wastani mdogo mweupe") , keywords : & ["jiometri" , "mraba" , "mraba wastani mdogo mweupe"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("நடுத\u{bcd}தரம\u{bcd}-சிறிய வெள\u{bcd}ளை சதுரம\u{bcd}") , keywords : & ["ஒயிட\u{bcd} ம\u{bc0}டியம\u{bcd} ஸ\u{bcd}கொயர\u{bcd}" , "நடுத\u{bcd}தரம\u{bcd}-சிறிய வெள\u{bcd}ளை சதுரம\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("మధ\u{c4d}యస\u{c4d}థ చ\u{c3f}న\u{c4d}న త\u{c46}లుపు రంగు చతురస\u{c4d}రం") , keywords : & ["చతురస\u{c4d}రం" , "త\u{c46}లుపు రంగు" , "మధ\u{c4d}యస\u{c4d}థ చ\u{c3f}న\u{c4d}న త\u{c46}లుపు రంగు చతురస\u{c4d}రం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("чоркунҷаи хурди миёнаи сафед") , keywords : & ["геометрӣ" , "чоркунҷа" , "чоркунҷаи хурди миёнаи сафед"] , } , crate :: Annotation { lang : "th" , tts : Some ("ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมเล\u{e47}กปานกลางส\u{e35}ขาว") , keywords : & ["ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยม" , "ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมเล\u{e47}กปานกลางส\u{e35}ขาว" , "เรขาคณ\u{e34}ต"] , } , crate :: Annotation { lang : "ti" , tts : Some ("ጻዕዳ ማእከላይ-ንኢሽተይ ትርብዒት") , keywords : & ["ትርብዒት" , "ጂኦሜትሪክ" , "ጻዕዳ ማእከላይ-ንኢሽተይ ትርብዒት"] , } , crate :: Annotation { lang : "tk" , tts : Some ("ak orta-kiçi inedördül") , keywords : & ["ak orta-kiçi inedördül" , "geometrik" , "inedördül"] , } , crate :: Annotation { lang : "to" , tts : Some ("tapafā siʻi mo hinehina") , keywords : & ["hinehina" , "tapafā" , "tapafā siʻi mo hinehina"] , } , crate :: Annotation { lang : "tr" , tts : Some ("küçük-orta beyaz kare") , keywords : & ["geometri" , "kare" , "küçük-orta beyaz kare"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئاق كىچىكرەك كىۋادرات") , keywords : & ["ئاق كىچىكرەك كىۋادرات" , "كىۋادرات" , "گېئومېتىرىيە"] , } , crate :: Annotation { lang : "uk" , tts : Some ("менший за середній білий квадрат") , keywords : & ["геометричний" , "квадрат" , "менший за середній білий квадрат"] , } , crate :: Annotation { lang : "ur" , tts : Some ("سفید میڈ\u{650}یم چھوٹا چوکور") , keywords : & ["جیومیٹری" , "سفید" , "سفید میڈ\u{650}یم چھوٹا چوکور" , "میڈ\u{650}م" , "چوکور" , "چھوٹا"] , } , crate :: Annotation { lang : "uz" , tts : Some ("kichikroq oq kvadrat") , keywords : & ["geometrik" , "kichikroq oq kvadrat" , "kvadrat"] , } , crate :: Annotation { lang : "vi" , tts : Some ("hình vuông nhỏ vừa màu trắng") , keywords : & ["hình học" , "hình vuông" , "hình vuông nhỏ vừa màu trắng"] , } , crate :: Annotation { lang : "wo" , tts : Some ("kaare yam-ndaw te weex") , keywords : & ["bu-geometri" , "kaare" , "kaare yam-ndaw te weex"] , } , crate :: Annotation { lang : "xh" , tts : Some ("iskwere esiphakathi-buncinane esimhlophe") , keywords : & ["ijiyometriki" , "iskwere" , "iskwere esiphakathi-buncinane esimhlophe"] , } , crate :: Annotation { lang : "yo" , tts : Some ("onigunmẹrin idaji-kekere funfun") , keywords : & ["ilà onigun mé\u{329}rin" , "jiomé\u{329}tíríkì" , "onigunmẹrin idaji-kekere funfun"] , } , crate :: Annotation { lang : "yue" , tts : Some ("中細白色正方形") , keywords : & ["中細白色正方形" , "幾何" , "正方形"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("中细白色正方形") , keywords : & ["中细白色正方形" , "几何" , "正方形"] , } , crate :: Annotation { lang : "zh" , tts : Some ("白色中小方块") , keywords : & ["中小 正方形" , "白色" , "白色中小方块"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("白色中小型方塊") , keywords : & ["方形" , "白色中小型方塊"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("白色中細正方形") , keywords : & ["中小白色正方形" , "正方形" , "白色中小正方形" , "白色中細正方形"] , } , crate :: Annotation { lang : "zu" , tts : Some ("iskwele esimhlophe esimaphakathi esincane") , keywords : & ["iskwele" , "iskwele esimhlophe esimaphakathi esincane" , "jiyometrikhi"] , }] , } ;
+pub const WHITE_MEDIUM_SMALL_SQUARE: crate::Emoji = crate::Emoji {
+    glyph: "◽",
+    codepoint: "25FD",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "white medium-small square",
+    group: "Symbols",
+    subgroup: "geometric",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("wit mediumklein vierkant"),
+            keywords: &["geometries", "vierkant", "wit", "wit mediumklein vierkant"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ነጭ መካከለኛ- ትንሽ ካሬ"),
+            keywords: &["ነጭ መካከለኛ- ትንሽ ካሬ", "ካሬ", "ጂኦሜትሪያዊ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مربع صغير متوسط أبيض"),
+            keywords: &["مربع", "مربع صغير متوسط أبيض", "هندسي"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("বগ\u{9be} মধ\u{9cd}যমীয\u{9bc}\u{9be}-সৰ\u{9c1} বৰ\u{9cd}গ"),
+            keywords: &[
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "বগ\u{9be} মধ\u{9cd}যমীয\u{9bc}\u{9be}-সৰ\u{9c1} বৰ\u{9cd}গ",
+                "বৰ\u{9cd}গ",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("ağ orta kiçiklikdə kvadrat"),
+            keywords: &["ağ orta kiçiklikdə kvadrat", "həndəsi", "kvadrat"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("невялікі белы квадрат"),
+            keywords: &["аб’ект", "геаметрычны", "квадрат", "невялікі белы квадрат"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Бял средномалък квадрат"),
+            keywords: &["Бял средномалък квадрат", "геометричен", "квадрат"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("স\u{9be}দ\u{9be} ম\u{9be}ঝ\u{9be}রি ছোট বর\u{9cd}গক\u{9cd}ষেত\u{9cd}র"),
+            keywords: &[
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "বর\u{9cd}গ\u{9be}ক\u{9be}র",
+                "স\u{9be}দ\u{9be} ম\u{9be}ঝ\u{9be}রি ছোট বর\u{9cd}গক\u{9cd}ষেত\u{9cd}র",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("bijeli srednje mali kvadrat"),
+            keywords: &["bijeli srednje mali kvadrat", "geometrija", "kvadrat"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("quadrat blanc petit-mitjà"),
+            keywords: &["blanc", "geometria", "petit-mitjà", "quadrat"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎤᏁᎦ ᎠᏲᏟᎨ-ᎤᏍᏗ ᏅᎩ ᏧᏅᏏᏯ"),
+            keywords: &["ᎤᏁᎦ ᎠᏲᏟᎨ-ᎤᏍᏗ ᏅᎩ ᏧᏅᏏᏯ", "ᏅᎩ ᏧᏅᏏᏯ", "ᏗᏎᏍᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("větší bílý čtvereček"),
+            keywords: &["geometrie", "větší bílý čtvereček", "čtverec"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("sgwâr canolig-bach gwyn"),
+            keywords: &["geometrig", "sgwâr", "sgwâr canolig-bach gwyn"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("halvlille hvidt kvadrat"),
+            keywords: &["geometrisk", "halvlille hvidt kvadrat", "kvadrat"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("mittelkleines weißes Quadrat"),
+            keywords: &["Quadrat", "mittelkleines weißes Quadrat", "weiß"],
+        },
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("Mittelkleines weisses Quadrat"),
+            keywords: &["Mittelkleines weisses Quadrat", "Quadrat", "weiss"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("μικρομεσαίο λευκό τετράγωνο"),
+            keywords: &["γεωμετρικό", "μικρομεσαίο λευκό τετράγωνο", "τετράγωνο"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("white medium-small square"),
+            keywords: &["geometric", "square", "white medium-small square"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("cuadrado blanco mediano-pequeño"),
+            keywords: &[
+                "blanco",
+                "cuadrado",
+                "cuadrado blanco mediano-pequeño",
+                "geometría",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "blanco",
+                "cuadrado",
+                "cuadrado blanco mediano-pequeño",
+                "mediano",
+                "pequeño",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("väiksem valge ruut"),
+            keywords: &["geomeetria", "ruut", "väiksem valge ruut"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("karratu zuri ertaina/txikia"),
+            keywords: &["geometriko", "karratu", "karratu zuri ertaina/txikia"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("مربع سفید نسبتا\u{64b} کوچک"),
+            keywords: &["شکل هندسی", "مربع", "مربع سفید نسبتا\u{64b} کوچک"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pienehkö valkoinen neliö"),
+            keywords: &["muoto", "neliö", "pienehkö valkoinen neliö"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("medyo maliit na puting parisukat"),
+            keywords: &[
+                "hugis",
+                "maliit",
+                "medyo maliit na puting parisukat",
+                "parisukat",
+                "puti",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("hvítur miðalstórur fýrakantur"),
+            keywords: &[
+                "fýrakantur",
+                "hvítur miðalstórur fýrakantur",
+                "mátingarfrøðiligur",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("carré petit moyen blanc"),
+            keywords: &["carré", "carré petit moyen blanc", "forme", "géométrie"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("carré blanc de taille intermédiaire"),
+            keywords: &["carré blanc de taille intermédiaire", "forme", "géométrie"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("meánchearnóg bheag bhán"),
+            keywords: &[
+                "cearnóg",
+                "cearnóg bán meán-bheag",
+                "geoiméadrach",
+                "meánchearnóg bheag bhán",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("ceàrnag mheadhanach bheag gheal"),
+            keywords: &["ceàrnag", "ceàrnag mheadhanach bheag gheal", "geomatrach"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("cadrado pequeno-mediano branco"),
+            keywords: &[
+                "branco",
+                "cadrado",
+                "cadrado pequeno-mediano branco",
+                "mediano",
+                "pequeno",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સફ\u{ac7}દ મધ\u{acd}યમ-નાનો ચોરસ"),
+            keywords: &["ચોરસ", "ભૌમિતિક", "સફ\u{ac7}દ મધ\u{acd}યમ-નાનો ચોરસ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("farin matsakaicin-ƙaramin murabba’i"),
+            keywords: &[
+                "farin matsakaicin-ƙaramin murabba’i",
+                "ilimin halayen sura",
+                "murabba’i",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("ריבוע בינוני-קטן לבן"),
+            keywords: &["לבן", "צורה", "ריבוע", "ריבוע בינוני-קטן לבן"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("सफ\u{93c}\u{947}द मध\u{94d}यम-छोटा वर\u{94d}ग"),
+            keywords: &[
+                "ज\u{94d}यामिति",
+                "सफ\u{93c}\u{947}द मध\u{94d}यम-छोटा वर\u{94d}ग",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("srednje mali bijeli kvadrat"),
+            keywords: &["geometrija", "kvadrat", "srednje mali bijeli kvadrat"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("kis-közepes fehér négyzet"),
+            keywords: &["geometria", "kis-közepes fehér négyzet", "négyzet"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("սպիտակ միջին-փոքր քառակուսի"),
+            keywords: &["երկրաչափական", "սպիտակ միջին-փոքր քառակուսի", "քառակուսի"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("persegi kecil medium putih"),
+            keywords: &["geometri", "persegi", "persegi kecil medium putih"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("sukwia obere-etiti ọcha"),
+            keywords: &["mgbakọ", "sukwia", "sukwia obere-etiti ọcha"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("hvítur meðalsmár ferningur"),
+            keywords: &["ferningur", "hvítur meðalsmár ferningur", "rúmfræði"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("quadrato bianco medio-piccolo"),
+            keywords: &["geometria", "quadrato", "quadrato bianco medio-piccolo"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("白四角中"),
+            keywords: &["四角", "正方形", "白", "白四角中"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("kothak cilik-sedhengan putih"),
+            keywords: &["geometrik", "kothak", "kothak cilik-sedhengan putih"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("საშუალო-პატარა თეთრი კვადრატი"),
+            keywords: &[
+                "გეომეტრია",
+                "გეომეტრიული",
+                "კვადრატი",
+                "საშუალო-პატარა თეთრი კვადრატი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("орташа-кіші ақ шаршы"),
+            keywords: &["геометриялық", "орташа-кіші ақ шаршы", "шаршы"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("halvlille hvidt kvadrat"),
+            keywords: &["geometrisk", "halvlille hvidt kvadrat", "kvadrat"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងត\u{17bc}ចល\u{17d2}មមពណ\u{17cc}ស"),
+            keywords: &[
+                "ត\u{17bc}ចល\u{17d2}មម",
+                "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ង",
+                "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងត\u{17bc}ចល\u{17d2}មមពណ\u{17cc}ស",
+                "ស",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಬ\u{cbf}ಳ\u{cbf} ಬಣ\u{ccd}ಣದ ಮಧ\u{ccd}ಯಮ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ"),
+            keywords: &[
+                "ಬ\u{cbf}ಳ\u{cbf} ಬಣ\u{ccd}ಣದ ಮಧ\u{ccd}ಯಮ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ",
+                "ಬ\u{cbf}ಳ\u{cbf} ಬಣ\u{ccd}ಣದ ಸಣ\u{ccd}ಣ ಚ\u{ccc}ಕ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("중간 작은 흰색 사각형"),
+            keywords: &["무늬", "사각형", "중간 작은 흰색 사각형"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("धवो मध\u{94d}यम-ल\u{94d}हान चवकोन"),
+            keywords: &[
+                "चवकोन",
+                "जियोम\u{945}ट\u{94d}रीक",
+                "धवो मध\u{94d}यम-ल\u{94d}हान चवकोन",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("кичирээк ак чарчы"),
+            keywords: &["геометрия", "кичирээк ак чарчы", "чарчы"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("wäisse mëttelklenge Quadrat"),
+            keywords: &["Quadrat", "geometresch", "wäisse mëttelklenge Quadrat"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມນ\u{ec9}ອຍ-ປານກາງສ\u{eb5}ຂາວ"),
+            keywords: &[
+                "ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມ",
+                "ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມນ\u{ec9}ອຍ-ປານກາງສ\u{eb5}ຂາວ",
+                "ເລຂາຄະນ\u{eb4}ດ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("baltas vidutiniškai mažas kvadratas"),
+            keywords: &[
+                "baltas vidutiniškai mažas kvadratas",
+                "geometrija",
+                "kvadratas",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("vidēji mazs balts kvadrāts"),
+            keywords: &["kvadrāts", "vidēji mazs balts kvadrāts", "ģeometrija"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tapawhā rite mā waenga-iti"),
+            keywords: &["tapawhā rite", "tapawhā rite mā waenga-iti", "āhuahanga"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("бел квадрат со средна големина"),
+            keywords: &["бел квадрат со средна големина", "геометрија", "квадрат"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ചെറിയ വെള\u{d41}ത\u{d4d}ത ചത\u{d41}രം"),
+            keywords: &[
+                "കളം",
+                "ചത\u{d41}രം",
+                "ചെറിയ വെള\u{d41}ത\u{d4d}ത ചത\u{d41}രം",
+                "ജിയോമെട\u{d4d}രിക\u{d4d}ക\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("цагаан жижгэвтэр дөрвөлжин"),
+            keywords: &["геометр", "дөрвөлжин", "цагаан жижгэвтэр дөрвөлжин"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("पा\u{902}ढरा मध\u{94d}\u{200d}यम-लहान आकाराचा चौरस"),
+            keywords: &[
+                "चौरस",
+                "पा\u{902}ढरा मध\u{94d}\u{200d}यम-लहान आकाराचा चौरस",
+                "भ\u{942}मितीय",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("persegi sederhana kecil putih"),
+            keywords: &["geometri", "persegi", "persegi sederhana kecil putih"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("kwadrat medju żgħar abjad"),
+            keywords: &["kwadrat medju żgħar abjad", "kwadru", "ġeometrika"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "အဖြ\u{1030}ရောင\u{103a} လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a} အလတ\u{103a}စားအသေး",
+            ),
+            keywords: &[
+                "ဂျ\u{102e}ဩမေတြ\u{102e}",
+                "လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a}",
+                "အဖြ\u{1030}ရောင\u{103a} လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a} အလတ\u{103a}စားအသေး",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("liten/mellomstor hvit firkant"),
+            keywords: &[
+                "firkant",
+                "geometrisk",
+                "kvadrat",
+                "liten/mellomstor hvit firkant",
+            ],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("स\u{947}तो मध\u{94d}यम-सानो वर\u{94d}ग"),
+            keywords: &[
+                "ज\u{94d}यामितीय",
+                "वर\u{94d}ग",
+                "स\u{947}तो मध\u{94d}यम-सानो वर\u{94d}ग",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("klein tot middelgroot wit vierkant"),
+            keywords: &[
+                "klein tot middelgroot wit vierkant",
+                "redelijk klein",
+                "vierkant",
+                "wit",
+            ],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଧଳ\u{b3e} ମଧ\u{b4d}ୟମ-ଛୋଟ ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର"),
+            keywords: &[
+                "ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ",
+                "ଧଳ\u{b3e} ମଧ\u{b4d}ୟମ-ଛୋଟ ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର",
+                "ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਦਰਮਿਆਨਾ-ਛ\u{a4b}ਟਾ ਚਿ\u{a71}ਟਾ ਵਰਗ"),
+            keywords: &["ਜਯਾਮਿਤੀ", "ਦਰਮਿਆਨਾ-ਛ\u{a4b}ਟਾ ਚਿ\u{a71}ਟਾ ਵਰਗ", "ਵਰਗ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("چٹ\u{651}ا درمیانہ ـ نیکا مربع"),
+            keywords: &[
+                "جیومیٹری دے متعلق",
+                "مربع",
+                "چٹ\u{651}ا درمیانہ ـ نیکا مربع",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Waít Mídiọ\u{301}m-Smọ\u{301}l Skwea"),
+            keywords: &[
+                "Jiọ\u{301}mẹ\u{301}tri",
+                "Skwea",
+                "Waít Mídiọ\u{301}m-Smọ\u{301}l Skwea",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("mały/średni biały kwadrat"),
+            keywords: &[
+                "biały",
+                "figura geometryczna",
+                "kwadracik",
+                "kwadrat",
+                "mały/średni biały kwadrat",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("سپينه ميانه کوچنۍ مربع"),
+            keywords: &["جيوميتريکي", "سپينه ميانه کوچنۍ مربع", "مربع"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("quadrado branco médio menor"),
+            keywords: &["geométrico", "quadrado", "quadrado branco médio menor"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("quadrado branco pequeno/médio"),
+            keywords: &["geométrico", "quadrado", "quadrado branco pequeno/médio"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("pătrat alb mediu spre mic"),
+            keywords: &["alb", "geometric", "pătrat", "pătrat alb mediu spre mic"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-039"),
+            keywords: &["E10-039"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("небольшой белый квадрат"),
+            keywords: &[
+                "белый",
+                "геометрия",
+                "квадрат",
+                "небольшой белый квадрат",
+                "небольшой квадрат",
+                "фигура",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("kare ntoya iringaniye y’umweru"),
+            keywords: &["ishusho", "kare", "kare ntoya iringaniye y’umweru"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("سفيد وچولو-ننڍو چورس"),
+            keywords: &["جيوميٽرڪ", "سفيد وچولو-ننڍو چورس", "چورس"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some(
+                "ස\u{dd4}ද\u{dd4} මධ\u{dca}\u{200d}යම ප\u{dca}\u{200d}රම\u{dcf}ණයේ-ක\u{dd4}ඩ\u{dcf} කොට\u{dd4}ව",
+            ),
+            keywords: &[
+                "ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක",
+                "ස\u{dd4}ද\u{dd4} මධ\u{dca}\u{200d}යම ප\u{dca}\u{200d}රම\u{dcf}ණයේ-ක\u{dd4}ඩ\u{dcf} කොට\u{dd4}ව",
+                "හතරැස\u{dca}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("stredne malý biely štvorec"),
+            keywords: &["geometria", "stredne malý biely štvorec", "štvorec"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("srednje mali beli kvadrat"),
+            keywords: &["geometrično", "kvadrat", "srednje mali beli kvadrat"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("afar gees dhexdhexaad yar oo cad"),
+            keywords: &[
+                "afar gees",
+                "afar gees dhexdhexaad yar oo cad",
+                "joometriyeed",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("katror mesatarisht i vogël i bardhë"),
+            keywords: &[
+                "gjeometrik",
+                "katror",
+                "katror mesatarisht i vogël i bardhë",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("средњемали бели квадрат"),
+            keywords: &["гeoмeтриja", "квaдрaт", "средњемали бели квадрат"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("средњемали бијели квадрат"),
+            keywords: &["средњемали бијели квадрат"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("srednjemali beli kvadrat"),
+            keywords: &["geometrija", "kvadrat", "srednjemali beli kvadrat"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("srednjemali bijeli kvadrat"),
+            keywords: &["srednjemali bijeli kvadrat"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("mellanliten vit ruta"),
+            keywords: &[
+                "geometrisk",
+                "medelstor vit ruta",
+                "mellanliten vit ruta",
+                "ruta",
+                "vit",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("mraba wastani mdogo mweupe"),
+            keywords: &["jiometri", "mraba", "mraba wastani mdogo mweupe"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("நடுத\u{bcd}தரம\u{bcd}-சிறிய வெள\u{bcd}ளை சதுரம\u{bcd}"),
+            keywords: &[
+                "ஒயிட\u{bcd} ம\u{bc0}டியம\u{bcd} ஸ\u{bcd}கொயர\u{bcd}",
+                "நடுத\u{bcd}தரம\u{bcd}-சிறிய வெள\u{bcd}ளை சதுரம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("మధ\u{c4d}యస\u{c4d}థ చ\u{c3f}న\u{c4d}న త\u{c46}లుపు రంగు చతురస\u{c4d}రం"),
+            keywords: &[
+                "చతురస\u{c4d}రం",
+                "త\u{c46}లుపు రంగు",
+                "మధ\u{c4d}యస\u{c4d}థ చ\u{c3f}న\u{c4d}న త\u{c46}లుపు రంగు చతురస\u{c4d}రం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("чоркунҷаи хурди миёнаи сафед"),
+            keywords: &["геометрӣ", "чоркунҷа", "чоркунҷаи хурди миёнаи сафед"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมเล\u{e47}กปานกลางส\u{e35}ขาว"),
+            keywords: &[
+                "ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยม",
+                "ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมเล\u{e47}กปานกลางส\u{e35}ขาว",
+                "เรขาคณ\u{e34}ต",
+            ],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ጻዕዳ ማእከላይ-ንኢሽተይ ትርብዒት"),
+            keywords: &["ትርብዒት", "ጂኦሜትሪክ", "ጻዕዳ ማእከላይ-ንኢሽተይ ትርብዒት"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("ak orta-kiçi inedördül"),
+            keywords: &["ak orta-kiçi inedördül", "geometrik", "inedördül"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tapafā siʻi mo hinehina"),
+            keywords: &["hinehina", "tapafā", "tapafā siʻi mo hinehina"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("küçük-orta beyaz kare"),
+            keywords: &["geometri", "kare", "küçük-orta beyaz kare"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئاق كىچىكرەك كىۋادرات"),
+            keywords: &["ئاق كىچىكرەك كىۋادرات", "كىۋادرات", "گېئومېتىرىيە"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("менший за середній білий квадрат"),
+            keywords: &[
+                "геометричний",
+                "квадрат",
+                "менший за середній білий квадрат",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("سفید میڈ\u{650}یم چھوٹا چوکور"),
+            keywords: &[
+                "جیومیٹری",
+                "سفید",
+                "سفید میڈ\u{650}یم چھوٹا چوکور",
+                "میڈ\u{650}م",
+                "چوکور",
+                "چھوٹا",
+            ],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("kichikroq oq kvadrat"),
+            keywords: &["geometrik", "kichikroq oq kvadrat", "kvadrat"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("hình vuông nhỏ vừa màu trắng"),
+            keywords: &["hình học", "hình vuông", "hình vuông nhỏ vừa màu trắng"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("kaare yam-ndaw te weex"),
+            keywords: &["bu-geometri", "kaare", "kaare yam-ndaw te weex"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("iskwere esiphakathi-buncinane esimhlophe"),
+            keywords: &[
+                "ijiyometriki",
+                "iskwere",
+                "iskwere esiphakathi-buncinane esimhlophe",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("onigunmẹrin idaji-kekere funfun"),
+            keywords: &[
+                "ilà onigun mé\u{329}rin",
+                "jiomé\u{329}tíríkì",
+                "onigunmẹrin idaji-kekere funfun",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("中細白色正方形"),
+            keywords: &["中細白色正方形", "幾何", "正方形"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("中细白色正方形"),
+            keywords: &["中细白色正方形", "几何", "正方形"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("白色中小方块"),
+            keywords: &["中小 正方形", "白色", "白色中小方块"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("白色中小型方塊"),
+            keywords: &["方形", "白色中小型方塊"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("白色中細正方形"),
+            keywords: &[
+                "中小白色正方形",
+                "正方形",
+                "白色中小正方形",
+                "白色中細正方形",
+            ],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("iskwele esimhlophe esimaphakathi esincane"),
+            keywords: &[
+                "iskwele",
+                "iskwele esimhlophe esimaphakathi esincane",
+                "jiyometrikhi",
+            ],
+        },
+    ],
+};
 #[doc = "▪\u{fe0f}"]
 pub const BLACK_SMALL_SQUARE: crate::Emoji = crate::Emoji {
     glyph: "▪\u{fe0f}",
@@ -17441,9 +19024,1903 @@ pub const SMALL_BLUE_DIAMOND: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🔺"]
-pub const RED_TRIANGLE_POINTED_UP : crate :: Emoji = crate :: Emoji { glyph : "🔺" , codepoint : "1F53A" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "red triangle pointed up" , group : "Symbols" , subgroup : "geometric" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("rooi driehoek wat op wys") , keywords : & ["driehoek" , "geometries" , "op" , "rooi" , "rooi driehoek wat op wys"] , } , crate :: Annotation { lang : "am" , tts : Some ("ቀይ ሶስት ማዕዘን ወደ ላይ ጠቋሚ") , keywords : & ["ቀይ" , "ቀይ ሶስት ማዕዘን ወደ ላይ ጠቋሚ" , "ጂኦሜትሪያዊ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مثلث لأعلى أحمر") , keywords : & ["أحمر" , "مثلث" , "مثلث أحمر لأعلى" , "مثلث لأعلى أحمر"] , } , crate :: Annotation { lang : "as" , tts : Some ("ঊৰ\u{9cd}ধ\u{9cd}বম\u{9c1}খী ৰঙ\u{9be} ত\u{9cd}ৰিভ\u{9c1}জ") , keywords : & ["ঊৰ\u{9cd}ধ\u{9cd}বম\u{9c1}খী ৰঙ\u{9be} ত\u{9cd}ৰিভ\u{9c1}জ" , "জ\u{9cd}য\u{9be}মিতিক" , "ৰঙ\u{9be}"] , } , crate :: Annotation { lang : "az" , tts : Some ("yuxarı yönəlmiş qırmızı üçbucaq") , keywords : & ["həndəsi" , "qırmızı" , "yuxarı yönəlmiş qırmızı üçbucaq"] , } , crate :: Annotation { lang : "be" , tts : Some ("чырвоны трохвугольнік вяршыняй уверх") , keywords : & ["аб’ект" , "геаметрычны" , "чырвоны" , "чырвоны трохвугольнік вяршыняй уверх"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Сочещ нагоре червен триъгълник") , keywords : & ["Сочещ нагоре червен триъгълник" , "геометричен" , "червен"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ল\u{9be}ল ত\u{9cd}রিভ\u{9c1}জ উপরের দিকে পয\u{9bc}েন\u{9cd}ট কর\u{9be}") , keywords : & ["জ\u{9cd}য\u{9be}মিতিক" , "ল\u{9be}ল" , "ল\u{9be}ল ত\u{9cd}রিভ\u{9c1}জ উপরের দিকে পয\u{9bc}েন\u{9cd}ট কর\u{9be}"] , } , crate :: Annotation { lang : "bs" , tts : Some ("crveni trokut prema gore") , keywords : & ["crveni trokut prema gore" , "crveno" , "geometrija"] , } , crate :: Annotation { lang : "ca" , tts : Some ("triangle vermell cap amunt") , keywords : & ["amunt" , "geometria" , "triangle" , "triangle vermell cap amunt" , "vermell" , "vermell cap amunt"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎩᎦᎨ ᏦᎢ ᏧᏏᏅᏓ ᎠᏎᎯ ᎦᎸᎳᏗ") , keywords : & ["ᎤᏙᏢᏒ" , "ᎩᎦᎨ" , "ᎩᎦᎨ ᏦᎢ ᏧᏏᏅᏓ ᎠᏎᎯ ᎦᎸᎳᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("červený trojúhelník mířící nahoru") , keywords : & ["geometrie" , "červená" , "červený trojúhelník mířící nahoru"] , } , crate :: Annotation { lang : "cy" , tts : Some ("triongl coch yn pwyntio tuag i fyny") , keywords : & ["coch" , "geometrig" , "triongl coch yn pwyntio tuag i fyny"] , } , crate :: Annotation { lang : "da" , tts : Some ("op-trekant") , keywords : & ["op" , "op-trekant" , "rød trekant" , "trekant"] , } , crate :: Annotation { lang : "de" , tts : Some ("rotes Dreieck mit der Spitze nach oben") , keywords : & ["Dreieck" , "aufwärts" , "rot" , "rotes Dreieck mit der Spitze nach oben"] , } , crate :: Annotation { lang : "el" , tts : Some ("κόκκινο τρίγωνο πάνω") , keywords : & ["γεωμετρικό" , "κόκκινο" , "κόκκινο τρίγωνο πάνω"] , } , crate :: Annotation { lang : "en" , tts : Some ("red triangle pointed up") , keywords : & ["geometric" , "red" , "red triangle pointed up"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("triángulo rojo hacia arriba") , keywords : & ["geometría" , "rojo" , "triángulo" , "triángulo hacia arriba rojo" , "triángulo rojo hacia arriba"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("punane kolmnurk") , keywords : & ["geomeetria" , "punane" , "punane kolmnurk" , "üles"] , } , crate :: Annotation { lang : "eu" , tts : Some ("punta gora begira duen triangelu gorria") , keywords : & ["geometriko" , "gorri" , "punta gora begira duen triangelu gorria"] , } , crate :: Annotation { lang : "fa" , tts : Some ("مثلث با رأس بالا") , keywords : & ["بالا" , "شکل هندسی" , "قرمز" , "مثلث" , "مثلث با رأس بالا"] , } , crate :: Annotation { lang : "fi" , tts : Some ("punainen kolmio kärki ylös") , keywords : & ["kolmio" , "muoto" , "punainen" , "punainen kolmio kärki ylös"] , } , crate :: Annotation { lang : "fil" , tts : Some ("pulang tatsulok na nakatutok pataas") , keywords : & ["hugis" , "nakatutok" , "pataas" , "pula" , "pulang tatsulok na nakatutok pataas" , "tatsulok"] , } , crate :: Annotation { lang : "fo" , tts : Some ("reyður tríkantur sum peikar uppeftir") , keywords : & ["mátingarfrøðiligur" , "reyður tríkantur sum peikar uppeftir" , "tríkantur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("triangle rouge pointant vers le haut") , keywords : & ["forme géométrique" , "rouge" , "triangle rouge pointant vers le haut"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("triangle rouge qui pointe vers le haut") , keywords : & ["géométrie" , "rouge" , "triangle qui pointe vers le haut" , "triangle rouge qui pointe vers le haut"] , } , crate :: Annotation { lang : "ga" , tts : Some ("triantán dearg suas") , keywords : & ["triantán dearg suas"] , } , crate :: Annotation { lang : "gd" , tts : Some ("triantan dearg a’ tomhadh suas") , keywords : & ["dearg" , "geomatrach" , "triantan dearg a’ tomhadh suas"] , } , crate :: Annotation { lang : "gl" , tts : Some ("triángulo vermello") , keywords : & ["arriba" , "triángulo" , "vermello"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ઉપર લાલ ત\u{acd}રિકોણ") , keywords : & ["ઉપર ત\u{acd}રિકોણ" , "ઉપર લાલ ત\u{acd}રિકોણ" , "ત\u{acd}રિકોણ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("jan alwatika mai nunawa sama") , keywords : & ["ilimin halayen sura" , "ja" , "jan alwatika mai nunawa sama"] , } , crate :: Annotation { lang : "he" , tts : Some ("משולש אדום כלפי מעלה") , keywords : & ["אדום" , "למעלה" , "משולש" , "משולש אדום כלפי מעלה" , "צורה"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ऊपर की ओर इशारा करता लाल त\u{94d}रिभ\u{941}ज") , keywords : & ["ऊपर" , "ऊपर की ओर इशारा करता लाल त\u{94d}रिभ\u{941}ज" , "ऊपर दिखाता लाल त\u{94d}रिभ\u{941}ज" , "ज\u{94d}यामिति" , "लाल"] , } , crate :: Annotation { lang : "hr" , tts : Some ("crveni trokut usmjeren prema gore") , keywords : & ["crveni trokut usmjeren prema gore" , "crveno" , "geometrija" , "gore" , "trokut"] , } , crate :: Annotation { lang : "hu" , tts : Some ("fölfelé mutató piros háromszög") , keywords : & ["alakzat" , "felfelé" , "fölfelé mutató piros háromszög" , "piros"] , } , crate :: Annotation { lang : "hy" , tts : Some ("կարմիր եռանկյուն ուղղված վերև") , keywords : & ["երկրաչափական" , "կարմիր" , "կարմիր եռանկյուն ուղղված վերև"] , } , crate :: Annotation { lang : "id" , tts : Some ("segitiga merah mengarah ke atas") , keywords : & ["geometri" , "merah" , "segitiga merah mengarah ke atas"] , } , crate :: Annotation { lang : "ig" , tts : Some ("akomgbà-atọ ncha ọbara chewara ihu elu") , keywords : & ["akomgbà-atọ ncha ọbara chewara ihu elu" , "mgbakọ" , "ọbara"] , } , crate :: Annotation { lang : "is" , tts : Some ("uppvísandi rauður þríhyrningur") , keywords : & ["rauður" , "rauður þríhyrningur upp" , "uppvísandi rauður þríhyrningur" , "þríhyrningur"] , } , crate :: Annotation { lang : "it" , tts : Some ("triangolo rosso con punta verso l’alto") , keywords : & ["alto" , "rosso" , "triangolo" , "triangolo rosso con punta verso l’alto" , "triangolo rosso punta in alto"] , } , crate :: Annotation { lang : "ja" , tts : Some ("赤い上三角") , keywords : & ["三角" , "上" , "赤" , "赤い上三角"] , } , crate :: Annotation { lang : "jv" , tts : Some ("pesagi telu abang pucuke marep ndhuwur") , keywords : & ["abang" , "geometrik" , "pesagi telu abang pucuke marep ndhuwur"] , } , crate :: Annotation { lang : "ka" , tts : Some ("მაღლა მიმართული წითელი სამკუთხედი") , keywords : & ["გეომეტრია" , "გეომეტრიული" , "მაღლა მიმართული წითელი სამკუთხედი" , "წითელი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("жоғары қаратылған кіші үшбұрыш") , keywords : & ["геометриялық" , "жоғары қаратылған кіші үшбұрыш" , "қызыл"] , } , crate :: Annotation { lang : "kl" , tts : Some ("op-trekant") , keywords : & ["op" , "op-trekant" , "rød trekant" , "trekant"] , } , crate :: Annotation { lang : "km" , tts : Some ("ត\u{17d2}រ\u{17b8}កោនក\u{17d2}រហមក\u{17c6}ព\u{17bc}លទៅលើ") , keywords : & ["ក\u{17d2}រហម" , "ត\u{17d2}រ\u{17b8}កោន" , "ត\u{17d2}រ\u{17b8}កោនក\u{17d2}រហមក\u{17c6}ព\u{17bc}លទៅលើ" , "លើ"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಮೇಲಕ\u{ccd}ಕ\u{cc6} ತೋರ\u{cbf}ಸ\u{cbf}ದ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ") , keywords : & ["ಮೇಲಕ\u{ccd}ಕ\u{cc6} ತೋರ\u{cbf}ಸ\u{cbf}ದ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ" , "ಮೇಲ\u{cbf}ನ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ" , "ಮೇಲ\u{cbf}ನ ತ\u{ccd}ರ\u{cbf}ಕೋನ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("빨간색 위쪽 삼각형") , keywords : & ["빨간색" , "빨간색 위쪽 삼각형" , "빨강" , "삼각형" , "위쪽 빨간색 삼각형"] , } , crate :: Annotation { lang : "kok" , tts : Some ("ता\u{902}बडो त\u{94d}रिकोण वयर पळयता") , keywords : & ["जियोम\u{945}ट\u{94d}रीक" , "ता\u{902}बड\u{947}\u{902}" , "ता\u{902}बडो त\u{94d}रिकोण वयर पळयता"] , } , crate :: Annotation { lang : "ky" , tts : Some ("өйдө караган кызыл үч бурчтук") , keywords : & ["геометрия" , "кызыл" , "өйдө караган кызыл үч бурчтук"] , } , crate :: Annotation { lang : "lb" , tts : Some ("rouden Dräieck mat der Spëtzt no uewen") , keywords : & ["geometresch" , "rouden Dräieck mat der Spëtzt no uewen" , "rout"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຮ\u{eb9}ບສາມຫ\u{ebc}\u{ec8}ຽມຫງາຍສ\u{eb5}ແດງ") , keywords : & ["ສ\u{eb5}ແດງ" , "ຫງາຍ" , "ຮ\u{eb9}ບສາມຫ\u{ebc}\u{ec8}ຽມຫງາຍສ\u{eb5}ແດງ" , "ເລຂາຄະນ\u{eb4}ດ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("raudonas į viršų nukreiptas trikampis") , keywords : & ["geometrija" , "raudona" , "raudonas į viršų nukreiptas trikampis"] , } , crate :: Annotation { lang : "lv" , tts : Some ("augšupvērsts sarkans trīsstūris") , keywords : & ["augšupvērsts sarkans trīsstūris" , "trīsstūris" , "ģeometrija"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tapatoru whero tohu ake") , keywords : & ["tapatoru whero tohu ake" , "whero" , "āhuahanga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("црвен триаголник свртен нагоре") , keywords : & ["геометрија" , "триаголник" , "црвен" , "црвен триаголник свртен нагоре"] , } , crate :: Annotation { lang : "ml" , tts : Some ("മ\u{d41}കളിലേക\u{d4d}ക\u{d4d} ച\u{d42}ണ\u{d4d}ട\u{d41}ന\u{d4d}ന ച\u{d41}വന\u{d4d}ന ത\u{d4d}രികോണം") , keywords : & ["ജിയോമെട\u{d4d}രിക\u{d4d}ക\u{d4d}" , "മ\u{d41}കളിലേക\u{d4d}ക\u{d4d} ച\u{d42}ണ\u{d4d}ട\u{d41}ന\u{d4d}ന ച\u{d41}വന\u{d4d}ന ത\u{d4d}രികോണം"] , } , crate :: Annotation { lang : "mn" , tts : Some ("дээшээ харсан гурвалжин") , keywords : & ["геометр" , "дээшээ харсан гурвалжин" , "улаан"] , } , crate :: Annotation { lang : "mr" , tts : Some ("वर दर\u{94d}शविणारा लाल त\u{94d}रिकोण") , keywords : & ["भ\u{942}मितीय" , "लाल" , "वर दर\u{94d}शविणारा लाल त\u{94d}रिकोण"] , } , crate :: Annotation { lang : "ms" , tts : Some ("segi tiga merah menunjuk ke atas") , keywords : & ["geometri" , "merah" , "segi tiga merah menunjuk ke atas"] , } , crate :: Annotation { lang : "mt" , tts : Some ("trijangolu aħmar jipponta ’l fuq") , keywords : & ["aħmar" , "trijangolu aħmar jipponta ’l fuq" , "ġeometrika"] , } , crate :: Annotation { lang : "my" , tts : Some ("အပေါ\u{103a}သ\u{102d}\u{102f}\u{1037} ည\u{103d}\u{103e}န\u{103a}ပြနေသည\u{1037}\u{103a} အန\u{102e}ရောင\u{103a} တြ\u{102d}ဂ\u{1036}") , keywords : & ["ဂျ\u{102e}ဩမေတြ\u{102e}" , "န\u{102e}" , "အပေါ\u{103a}သ\u{102d}\u{102f}\u{1037} ည\u{103d}\u{103e}န\u{103a}ပြနေသည\u{1037}\u{103a} အန\u{102e}ရောင\u{103a} တြ\u{102d}ဂ\u{1036}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("rød trekant som peker opp") , keywords : & ["geometrisk" , "oppover" , "rød trekant som peker opp" , "trekant"] , } , crate :: Annotation { lang : "ne" , tts : Some ("माथि स\u{902}क\u{947}त गरिएको रातो त\u{94d}रिकोण") , keywords : & ["ज\u{94d}यामितीय" , "माथि स\u{902}क\u{947}त गरिएको रातो त\u{94d}रिकोण" , "रातो"] , } , crate :: Annotation { lang : "nl" , tts : Some ("rode omhoogwijzende driehoek") , keywords : & ["geometrisch" , "rode omhoogwijzende driehoek" , "rood"] , } , crate :: Annotation { lang : "nn" , tts : Some ("raud trekant som peikar opp") , keywords : & ["geometrisk" , "oppover" , "raud trekant som peikar opp" , "trekant"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଉପର ମ\u{b41}ହ\u{b3e}\u{b01} ଲ\u{b3e}ଲ ତ\u{b4d}ର\u{b3f}ଭ\u{b41}ଜ") , keywords : & ["ଉପର ମ\u{b41}ହ\u{b3e}\u{b01} ଲ\u{b3e}ଲ ତ\u{b4d}ର\u{b3f}ଭ\u{b41}ଜ" , "ଜ\u{b4d}ୟ\u{b3e}ମତ\u{b3f}କ" , "ଲ\u{b3e}ଲ\u{b4d}\u{200c}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਉ\u{a71}ਪਰ ਵ\u{a71}ਲ ਇਸ\u{a3c}ਾਰਾ ਕਰਦਾ ਲਾਲ ਤਿਕ\u{a4b}ਣ") , keywords : & ["ਉ\u{a71}ਤ\u{a47} ਵ\u{a71}ਲ ਤਿਕ\u{a4b}ਣਾ" , "ਉ\u{a71}ਪਰ ਵ\u{a71}ਲ ਇਸ\u{a3c}ਾਰਾ ਕਰਦਾ ਲਾਲ ਤਿਕ\u{a4b}ਣ" , "ਜਯਾਮਿਤੀ" , "ਤਿਕ\u{a4b}ਣਾ" , "ਲਾਲ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("لال تکون ا\u{64f}وتے اشارہ کردی ہوئی") , keywords : & ["جیومیٹری دے متعلق" , "لال" , "لال تکون ا\u{64f}وتے اشارہ کردی ہوئی"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Rẹ\u{301}d Tráyángul Wé De Pọínt Ọp") , keywords : & ["Jiọ\u{301}mẹ\u{301}tri" , "Rẹd" , "Rẹ\u{301}d Tráyángul Wé De Pọínt Ọp"] , } , crate :: Annotation { lang : "pl" , tts : Some ("czerwony trójkąt skierowany w górę") , keywords : & ["czerwony" , "czerwony trójkąt skierowany w górę" , "do góry" , "figura geometryczna" , "trójkąt" , "w górę" , "wierzchołkiem"] , } , crate :: Annotation { lang : "ps" , tts : Some ("سور مثلث پورته") , keywords : & ["جيوميتريکي" , "سور" , "سور مثلث پورته"] , } , crate :: Annotation { lang : "pt" , tts : Some ("triângulo vermelho para cima") , keywords : & ["geométrico" , "triângulo vermelho para cima" , "vermelho"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("triângulo vermelho a apontar para cima") , keywords : & ["geométrico" , "para cima" , "triângulo" , "triângulo vermelho a apontar para cima" , "vermelho"] , } , crate :: Annotation { lang : "ro" , tts : Some ("triunghi roșu cu vârful în sus") , keywords : & ["geometric" , "roșu" , "triunghi" , "triunghi roșu cu vârful în sus"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-758") , keywords : & ["E10-758"] , } , crate :: Annotation { lang : "ru" , tts : Some ("треугольник вершиной вверх") , keywords : & ["вверх" , "геометрия" , "красный" , "треугольник" , "треугольник вершиной вверх" , "фигура"] , } , crate :: Annotation { lang : "rw" , tts : Some ("mpandeshatu itukura ireba hejuru") , keywords : & ["byerekeye jewometiri" , "mpandeshatu itukura ireba hejuru" , "umutuku"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڳاڙهو ٽڪنڊو مٿي اشارو ڪيل") , keywords : & ["جيوميٽرڪ" , "ڳاڙهو" , "ڳاڙهو ٽڪنڊو مٿي اشارو ڪيل"] , } , crate :: Annotation { lang : "si" , tts : Some ("ඉහළට යොම\u{dd4} ව\u{dd6} රත\u{dd4} ත\u{dca}\u{200d}ර\u{dd2}කෝණය") , keywords : & ["ඉහළට යොම\u{dd4} ව\u{dd6} රත\u{dd4} ත\u{dca}\u{200d}ර\u{dd2}කෝණය" , "ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක" , "රත\u{dd4}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("červený trojuholník nahor") , keywords : & ["geometria" , "červený" , "červený trojuholník nahor"] , } , crate :: Annotation { lang : "sl" , tts : Some ("rdeč trikotnik gor") , keywords : & ["geometrično" , "rdeč trikotnik gor" , "rdeče"] , } , crate :: Annotation { lang : "so" , tts : Some ("saddex xaggale cas oo kor tilmaamaya") , keywords : & ["cas" , "joometriyeed" , "saddex xaggale cas oo kor tilmaamaya"] , } , crate :: Annotation { lang : "sq" , tts : Some ("trekëndësh i kuq i drejtuar lart") , keywords : & ["e kuqe" , "gjeometrik" , "i kuq" , "trekëndësh i kuq i drejtuar lart"] , } , crate :: Annotation { lang : "sr" , tts : Some ("црвени троугао окренут нагоре") , keywords : & ["геометрија" , "црвени троугао окренут нагоре" , "црвено"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["црвени троугао окренут нагоре"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("crveni trougao okrenut nagore") , keywords : & ["crveni trougao okrenut nagore" , "crveno" , "geometrija"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["crveni trougao okrenut nagore"] , } , crate :: Annotation { lang : "sv" , tts : Some ("uppåtpekande röd triangel") , keywords : & ["röd triangel" , "uppåtpekande röd triangel"] , } , crate :: Annotation { lang : "sw" , tts : Some ("pembetatu inayoelekeza juu") , keywords : & ["jiometri" , "nyekundu" , "pembetatu inayoelekeza juu"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("மேல\u{bcd}நோக\u{bcd}கிய சிவப\u{bcd}பு முக\u{bcd}கோணம\u{bcd}") , keywords : & ["சிவப\u{bcd}பு" , "முக\u{bcd}கோணம\u{bcd}" , "மேல\u{bcd} முக\u{bcd}கோணம\u{bcd}" , "மேல\u{bcd}நோக\u{bcd}கிய சிவப\u{bcd}பு முக\u{bcd}கோணம\u{bcd}" , "மேல\u{bcd}நோக\u{bcd}கிய முக\u{bcd}கோணம\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("ప\u{c48}క\u{c3f} సూచ\u{c3f}ంచ\u{c47} ప\u{c46}ద\u{c4d}ద ఎరుపురంగు త\u{c4d}ర\u{c3f}భుజం") , keywords : & ["ఎరుపురంగు" , "త\u{c4d}ర\u{c3f}భుజం" , "ప\u{c48}క\u{c3f}" , "ప\u{c48}క\u{c3f} సూచ\u{c3f}ంచ\u{c47} ప\u{c46}ద\u{c4d}ద ఎరుపురంగు త\u{c4d}ర\u{c3f}భుజం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("секунҷаи сурхи ба боло равонашуда") , keywords : & ["геометрӣ" , "секунҷаи сурхи ба боло равонашуда" , "сурх"] , } , crate :: Annotation { lang : "th" , tts : Some ("สามเหล\u{e35}\u{e48}ยมหงายส\u{e35}แดง") , keywords : & ["สามเหล\u{e35}\u{e48}ยมหงายส\u{e35}แดง" , "ส\u{e35}แดง" , "หงายข\u{e36}\u{e49}น" , "เรขาคณ\u{e34}ต"] , } , crate :: Annotation { lang : "ti" , tts : Some ("ቀያሕ ስሉስ-ኩርናዕ ኣርኣየ") , keywords : & ["ቀያሕ" , "ቀያሕ ስሉስ-ኩርናዕ ንላዕሊ ኣርኣየ" , "ቀያሕ ስሉስ-ኩርናዕ ኣርኣየ" , "ጂኦሜትሪክ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("ýokaryk gyzyl üçburç") , keywords : & ["geometrik" , "gyzyl" , "ýokaryk gyzyl üçburç"] , } , crate :: Annotation { lang : "to" , tts : Some ("tapatolu ki ʻolunga kulokula") , keywords : & ["hake" , "kulokula" , "tapatolu" , "tapatolu ki ʻolunga kulokula" , "ʻolunga"] , } , crate :: Annotation { lang : "tr" , tts : Some ("yukarı bakan kırmızı üçgen") , keywords : & ["kırmızı" , "yukarı bakan kırmızı üçgen" , "yukarı kırmızı üçgen" , "üçgen"] , } , crate :: Annotation { lang : "ug" , tts : Some ("قىزىل ئۈستى ئۈچبۇلۇڭ") , keywords : & ["قىزىل" , "قىزىل ئۈستى ئۈچبۇلۇڭ" , "گېئومېتىرىيە"] , } , crate :: Annotation { lang : "uk" , tts : Some ("червоний трикутник, направлений угору") , keywords : & ["геометричний" , "червоний" , "червоний трикутник, направлений угору"] , } , crate :: Annotation { lang : "ur" , tts : Some ("اوپر اشارہ کرتی سرخ مثلث") , keywords : & ["اوپر اشارہ کرتی سرخ مثلث" , "جیومیٹری" , "مثلث" , "نارنجی"] , } , crate :: Annotation { lang : "uz" , tts : Some ("tepaga qaragan qizil uchburchak") , keywords : & ["geometrik" , "qizil" , "tepaga qaragan qizil uchburchak"] , } , crate :: Annotation { lang : "vi" , tts : Some ("tam giác màu đỏ trỏ lên trên") , keywords : & ["hình học" , "màu đỏ" , "tam giác màu đỏ trỏ lên trên"] , } , crate :: Annotation { lang : "wo" , tts : Some ("xonk, tri-àngal, buñ defal tomb") , keywords : & ["wu-geometri" , "xonk" , "xonk, tri-àngal, buñ defal tomb"] , } , crate :: Annotation { lang : "xh" , tts : Some ("unxantathu obomvu okhombe phezulu") , keywords : & ["bomvu" , "ijiyometriki" , "unxantathu obomvu okhombe phezulu"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Alawọ Pupa Onigun Mẹta Toka Soke") , keywords : & ["Alawọ Pupa Onigun Mẹta Toka Soke" , "jiomẹ\u{301}tíríkì" , "pupa"] , } , crate :: Annotation { lang : "yue" , tts : Some ("指向上嘅紅色三角形") , keywords : & ["幾何" , "指向上嘅紅色三角形" , "紅色"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("指向上嘅红色三角形") , keywords : & ["几何" , "指向上嘅红色三角形" , "红色"] , } , crate :: Annotation { lang : "zh" , tts : Some ("红色正三角") , keywords : & ["三角形" , "向上" , "正三角" , "红色" , "红色正三角"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("向上紅色三角") , keywords : & ["三角形" , "向上紅色三角"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("指向上嘅紅三角") , keywords : & ["三角形" , "指向上嘅紅三角"] , } , crate :: Annotation { lang : "zu" , tts : Some ("unxantathu obomvu obheke phezulu") , keywords : & ["bomvu" , "jiyometrikhi" , "unxantathu obomvu obheke phezulu"] , }] , } ;
+pub const RED_TRIANGLE_POINTED_UP: crate::Emoji = crate::Emoji {
+    glyph: "🔺",
+    codepoint: "1F53A",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "red triangle pointed up",
+    group: "Symbols",
+    subgroup: "geometric",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("rooi driehoek wat op wys"),
+            keywords: &[
+                "driehoek",
+                "geometries",
+                "op",
+                "rooi",
+                "rooi driehoek wat op wys",
+            ],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ቀይ ሶስት ማዕዘን ወደ ላይ ጠቋሚ"),
+            keywords: &["ቀይ", "ቀይ ሶስት ማዕዘን ወደ ላይ ጠቋሚ", "ጂኦሜትሪያዊ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مثلث لأعلى أحمر"),
+            keywords: &["أحمر", "مثلث", "مثلث أحمر لأعلى", "مثلث لأعلى أحمر"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ঊৰ\u{9cd}ধ\u{9cd}বম\u{9c1}খী ৰঙ\u{9be} ত\u{9cd}ৰিভ\u{9c1}জ"),
+            keywords: &[
+                "ঊৰ\u{9cd}ধ\u{9cd}বম\u{9c1}খী ৰঙ\u{9be} ত\u{9cd}ৰিভ\u{9c1}জ",
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "ৰঙ\u{9be}",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("yuxarı yönəlmiş qırmızı üçbucaq"),
+            keywords: &["həndəsi", "qırmızı", "yuxarı yönəlmiş qırmızı üçbucaq"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("чырвоны трохвугольнік вяршыняй уверх"),
+            keywords: &[
+                "аб’ект",
+                "геаметрычны",
+                "чырвоны",
+                "чырвоны трохвугольнік вяршыняй уверх",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Сочещ нагоре червен триъгълник"),
+            keywords: &["Сочещ нагоре червен триъгълник", "геометричен", "червен"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ল\u{9be}ল ত\u{9cd}রিভ\u{9c1}জ উপরের দিকে পয\u{9bc}েন\u{9cd}ট কর\u{9be}"),
+            keywords: &[
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "ল\u{9be}ল",
+                "ল\u{9be}ল ত\u{9cd}রিভ\u{9c1}জ উপরের দিকে পয\u{9bc}েন\u{9cd}ট কর\u{9be}",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("crveni trokut prema gore"),
+            keywords: &["crveni trokut prema gore", "crveno", "geometrija"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("triangle vermell cap amunt"),
+            keywords: &[
+                "amunt",
+                "geometria",
+                "triangle",
+                "triangle vermell cap amunt",
+                "vermell",
+                "vermell cap amunt",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎩᎦᎨ ᏦᎢ ᏧᏏᏅᏓ ᎠᏎᎯ ᎦᎸᎳᏗ"),
+            keywords: &["ᎤᏙᏢᏒ", "ᎩᎦᎨ", "ᎩᎦᎨ ᏦᎢ ᏧᏏᏅᏓ ᎠᏎᎯ ᎦᎸᎳᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("červený trojúhelník mířící nahoru"),
+            keywords: &["geometrie", "červená", "červený trojúhelník mířící nahoru"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("triongl coch yn pwyntio tuag i fyny"),
+            keywords: &["coch", "geometrig", "triongl coch yn pwyntio tuag i fyny"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("op-trekant"),
+            keywords: &["op", "op-trekant", "rød trekant", "trekant"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("rotes Dreieck mit der Spitze nach oben"),
+            keywords: &[
+                "Dreieck",
+                "aufwärts",
+                "rot",
+                "rotes Dreieck mit der Spitze nach oben",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("κόκκινο τρίγωνο πάνω"),
+            keywords: &["γεωμετρικό", "κόκκινο", "κόκκινο τρίγωνο πάνω"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("red triangle pointed up"),
+            keywords: &["geometric", "red", "red triangle pointed up"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("triángulo rojo hacia arriba"),
+            keywords: &[
+                "geometría",
+                "rojo",
+                "triángulo",
+                "triángulo hacia arriba rojo",
+                "triángulo rojo hacia arriba",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("punane kolmnurk"),
+            keywords: &["geomeetria", "punane", "punane kolmnurk", "üles"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("punta gora begira duen triangelu gorria"),
+            keywords: &[
+                "geometriko",
+                "gorri",
+                "punta gora begira duen triangelu gorria",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("مثلث با رأس بالا"),
+            keywords: &["بالا", "شکل هندسی", "قرمز", "مثلث", "مثلث با رأس بالا"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("punainen kolmio kärki ylös"),
+            keywords: &["kolmio", "muoto", "punainen", "punainen kolmio kärki ylös"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("pulang tatsulok na nakatutok pataas"),
+            keywords: &[
+                "hugis",
+                "nakatutok",
+                "pataas",
+                "pula",
+                "pulang tatsulok na nakatutok pataas",
+                "tatsulok",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("reyður tríkantur sum peikar uppeftir"),
+            keywords: &[
+                "mátingarfrøðiligur",
+                "reyður tríkantur sum peikar uppeftir",
+                "tríkantur",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("triangle rouge pointant vers le haut"),
+            keywords: &[
+                "forme géométrique",
+                "rouge",
+                "triangle rouge pointant vers le haut",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("triangle rouge qui pointe vers le haut"),
+            keywords: &[
+                "géométrie",
+                "rouge",
+                "triangle qui pointe vers le haut",
+                "triangle rouge qui pointe vers le haut",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("triantán dearg suas"),
+            keywords: &["triantán dearg suas"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("triantan dearg a’ tomhadh suas"),
+            keywords: &["dearg", "geomatrach", "triantan dearg a’ tomhadh suas"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("triángulo vermello"),
+            keywords: &["arriba", "triángulo", "vermello"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ઉપર લાલ ત\u{acd}રિકોણ"),
+            keywords: &[
+                "ઉપર ત\u{acd}રિકોણ",
+                "ઉપર લાલ ત\u{acd}રિકોણ",
+                "ત\u{acd}રિકોણ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("jan alwatika mai nunawa sama"),
+            keywords: &["ilimin halayen sura", "ja", "jan alwatika mai nunawa sama"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("משולש אדום כלפי מעלה"),
+            keywords: &["אדום", "למעלה", "משולש", "משולש אדום כלפי מעלה", "צורה"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ऊपर की ओर इशारा करता लाल त\u{94d}रिभ\u{941}ज"),
+            keywords: &[
+                "ऊपर",
+                "ऊपर की ओर इशारा करता लाल त\u{94d}रिभ\u{941}ज",
+                "ऊपर दिखाता लाल त\u{94d}रिभ\u{941}ज",
+                "ज\u{94d}यामिति",
+                "लाल",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("crveni trokut usmjeren prema gore"),
+            keywords: &[
+                "crveni trokut usmjeren prema gore",
+                "crveno",
+                "geometrija",
+                "gore",
+                "trokut",
+            ],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("fölfelé mutató piros háromszög"),
+            keywords: &[
+                "alakzat",
+                "felfelé",
+                "fölfelé mutató piros háromszög",
+                "piros",
+            ],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("կարմիր եռանկյուն ուղղված վերև"),
+            keywords: &["երկրաչափական", "կարմիր", "կարմիր եռանկյուն ուղղված վերև"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("segitiga merah mengarah ke atas"),
+            keywords: &["geometri", "merah", "segitiga merah mengarah ke atas"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akomgbà-atọ ncha ọbara chewara ihu elu"),
+            keywords: &["akomgbà-atọ ncha ọbara chewara ihu elu", "mgbakọ", "ọbara"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("uppvísandi rauður þríhyrningur"),
+            keywords: &[
+                "rauður",
+                "rauður þríhyrningur upp",
+                "uppvísandi rauður þríhyrningur",
+                "þríhyrningur",
+            ],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("triangolo rosso con punta verso l’alto"),
+            keywords: &[
+                "alto",
+                "rosso",
+                "triangolo",
+                "triangolo rosso con punta verso l’alto",
+                "triangolo rosso punta in alto",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("赤い上三角"),
+            keywords: &["三角", "上", "赤", "赤い上三角"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("pesagi telu abang pucuke marep ndhuwur"),
+            keywords: &[
+                "abang",
+                "geometrik",
+                "pesagi telu abang pucuke marep ndhuwur",
+            ],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("მაღლა მიმართული წითელი სამკუთხედი"),
+            keywords: &[
+                "გეომეტრია",
+                "გეომეტრიული",
+                "მაღლა მიმართული წითელი სამკუთხედი",
+                "წითელი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("жоғары қаратылған кіші үшбұрыш"),
+            keywords: &["геометриялық", "жоғары қаратылған кіші үшбұрыш", "қызыл"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("op-trekant"),
+            keywords: &["op", "op-trekant", "rød trekant", "trekant"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ត\u{17d2}រ\u{17b8}កោនក\u{17d2}រហមក\u{17c6}ព\u{17bc}លទៅលើ"),
+            keywords: &[
+                "ក\u{17d2}រហម",
+                "ត\u{17d2}រ\u{17b8}កោន",
+                "ត\u{17d2}រ\u{17b8}កោនក\u{17d2}រហមក\u{17c6}ព\u{17bc}លទៅលើ",
+                "លើ",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಮೇಲಕ\u{ccd}ಕ\u{cc6} ತೋರ\u{cbf}ಸ\u{cbf}ದ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ"),
+            keywords: &[
+                "ಮೇಲಕ\u{ccd}ಕ\u{cc6} ತೋರ\u{cbf}ಸ\u{cbf}ದ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ",
+                "ಮೇಲ\u{cbf}ನ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ",
+                "ಮೇಲ\u{cbf}ನ ತ\u{ccd}ರ\u{cbf}ಕೋನ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("빨간색 위쪽 삼각형"),
+            keywords: &[
+                "빨간색",
+                "빨간색 위쪽 삼각형",
+                "빨강",
+                "삼각형",
+                "위쪽 빨간색 삼각형",
+            ],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("ता\u{902}बडो त\u{94d}रिकोण वयर पळयता"),
+            keywords: &[
+                "जियोम\u{945}ट\u{94d}रीक",
+                "ता\u{902}बड\u{947}\u{902}",
+                "ता\u{902}बडो त\u{94d}रिकोण वयर पळयता",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("өйдө караган кызыл үч бурчтук"),
+            keywords: &["геометрия", "кызыл", "өйдө караган кызыл үч бурчтук"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("rouden Dräieck mat der Spëtzt no uewen"),
+            keywords: &[
+                "geometresch",
+                "rouden Dräieck mat der Spëtzt no uewen",
+                "rout",
+            ],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຮ\u{eb9}ບສາມຫ\u{ebc}\u{ec8}ຽມຫງາຍສ\u{eb5}ແດງ"),
+            keywords: &[
+                "ສ\u{eb5}ແດງ",
+                "ຫງາຍ",
+                "ຮ\u{eb9}ບສາມຫ\u{ebc}\u{ec8}ຽມຫງາຍສ\u{eb5}ແດງ",
+                "ເລຂາຄະນ\u{eb4}ດ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("raudonas į viršų nukreiptas trikampis"),
+            keywords: &[
+                "geometrija",
+                "raudona",
+                "raudonas į viršų nukreiptas trikampis",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("augšupvērsts sarkans trīsstūris"),
+            keywords: &[
+                "augšupvērsts sarkans trīsstūris",
+                "trīsstūris",
+                "ģeometrija",
+            ],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tapatoru whero tohu ake"),
+            keywords: &["tapatoru whero tohu ake", "whero", "āhuahanga"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("црвен триаголник свртен нагоре"),
+            keywords: &[
+                "геометрија",
+                "триаголник",
+                "црвен",
+                "црвен триаголник свртен нагоре",
+            ],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some(
+                "മ\u{d41}കളിലേക\u{d4d}ക\u{d4d} ച\u{d42}ണ\u{d4d}ട\u{d41}ന\u{d4d}ന ച\u{d41}വന\u{d4d}ന ത\u{d4d}രികോണം",
+            ),
+            keywords: &[
+                "ജിയോമെട\u{d4d}രിക\u{d4d}ക\u{d4d}",
+                "മ\u{d41}കളിലേക\u{d4d}ക\u{d4d} ച\u{d42}ണ\u{d4d}ട\u{d41}ന\u{d4d}ന ച\u{d41}വന\u{d4d}ന ത\u{d4d}രികോണം",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("дээшээ харсан гурвалжин"),
+            keywords: &["геометр", "дээшээ харсан гурвалжин", "улаан"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("वर दर\u{94d}शविणारा लाल त\u{94d}रिकोण"),
+            keywords: &[
+                "भ\u{942}मितीय",
+                "लाल",
+                "वर दर\u{94d}शविणारा लाल त\u{94d}रिकोण",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("segi tiga merah menunjuk ke atas"),
+            keywords: &["geometri", "merah", "segi tiga merah menunjuk ke atas"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("trijangolu aħmar jipponta ’l fuq"),
+            keywords: &["aħmar", "trijangolu aħmar jipponta ’l fuq", "ġeometrika"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "အပေါ\u{103a}သ\u{102d}\u{102f}\u{1037} ည\u{103d}\u{103e}န\u{103a}ပြနေသည\u{1037}\u{103a} အန\u{102e}ရောင\u{103a} တြ\u{102d}ဂ\u{1036}",
+            ),
+            keywords: &[
+                "ဂျ\u{102e}ဩမေတြ\u{102e}",
+                "န\u{102e}",
+                "အပေါ\u{103a}သ\u{102d}\u{102f}\u{1037} ည\u{103d}\u{103e}န\u{103a}ပြနေသည\u{1037}\u{103a} အန\u{102e}ရောင\u{103a} တြ\u{102d}ဂ\u{1036}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("rød trekant som peker opp"),
+            keywords: &[
+                "geometrisk",
+                "oppover",
+                "rød trekant som peker opp",
+                "trekant",
+            ],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("माथि स\u{902}क\u{947}त गरिएको रातो त\u{94d}रिकोण"),
+            keywords: &[
+                "ज\u{94d}यामितीय",
+                "माथि स\u{902}क\u{947}त गरिएको रातो त\u{94d}रिकोण",
+                "रातो",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("rode omhoogwijzende driehoek"),
+            keywords: &["geometrisch", "rode omhoogwijzende driehoek", "rood"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("raud trekant som peikar opp"),
+            keywords: &[
+                "geometrisk",
+                "oppover",
+                "raud trekant som peikar opp",
+                "trekant",
+            ],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଉପର ମ\u{b41}ହ\u{b3e}\u{b01} ଲ\u{b3e}ଲ ତ\u{b4d}ର\u{b3f}ଭ\u{b41}ଜ"),
+            keywords: &[
+                "ଉପର ମ\u{b41}ହ\u{b3e}\u{b01} ଲ\u{b3e}ଲ ତ\u{b4d}ର\u{b3f}ଭ\u{b41}ଜ",
+                "ଜ\u{b4d}ୟ\u{b3e}ମତ\u{b3f}କ",
+                "ଲ\u{b3e}ଲ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਉ\u{a71}ਪਰ ਵ\u{a71}ਲ ਇਸ\u{a3c}ਾਰਾ ਕਰਦਾ ਲਾਲ ਤਿਕ\u{a4b}ਣ"),
+            keywords: &[
+                "ਉ\u{a71}ਤ\u{a47} ਵ\u{a71}ਲ ਤਿਕ\u{a4b}ਣਾ",
+                "ਉ\u{a71}ਪਰ ਵ\u{a71}ਲ ਇਸ\u{a3c}ਾਰਾ ਕਰਦਾ ਲਾਲ ਤਿਕ\u{a4b}ਣ",
+                "ਜਯਾਮਿਤੀ",
+                "ਤਿਕ\u{a4b}ਣਾ",
+                "ਲਾਲ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("لال تکون ا\u{64f}وتے اشارہ کردی ہوئی"),
+            keywords: &[
+                "جیومیٹری دے متعلق",
+                "لال",
+                "لال تکون ا\u{64f}وتے اشارہ کردی ہوئی",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Rẹ\u{301}d Tráyángul Wé De Pọínt Ọp"),
+            keywords: &[
+                "Jiọ\u{301}mẹ\u{301}tri",
+                "Rẹd",
+                "Rẹ\u{301}d Tráyángul Wé De Pọínt Ọp",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("czerwony trójkąt skierowany w górę"),
+            keywords: &[
+                "czerwony",
+                "czerwony trójkąt skierowany w górę",
+                "do góry",
+                "figura geometryczna",
+                "trójkąt",
+                "w górę",
+                "wierzchołkiem",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("سور مثلث پورته"),
+            keywords: &["جيوميتريکي", "سور", "سور مثلث پورته"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("triângulo vermelho para cima"),
+            keywords: &["geométrico", "triângulo vermelho para cima", "vermelho"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("triângulo vermelho a apontar para cima"),
+            keywords: &[
+                "geométrico",
+                "para cima",
+                "triângulo",
+                "triângulo vermelho a apontar para cima",
+                "vermelho",
+            ],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("triunghi roșu cu vârful în sus"),
+            keywords: &[
+                "geometric",
+                "roșu",
+                "triunghi",
+                "triunghi roșu cu vârful în sus",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-758"),
+            keywords: &["E10-758"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("треугольник вершиной вверх"),
+            keywords: &[
+                "вверх",
+                "геометрия",
+                "красный",
+                "треугольник",
+                "треугольник вершиной вверх",
+                "фигура",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("mpandeshatu itukura ireba hejuru"),
+            keywords: &[
+                "byerekeye jewometiri",
+                "mpandeshatu itukura ireba hejuru",
+                "umutuku",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڳاڙهو ٽڪنڊو مٿي اشارو ڪيل"),
+            keywords: &["جيوميٽرڪ", "ڳاڙهو", "ڳاڙهو ٽڪنڊو مٿي اشارو ڪيل"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ඉහළට යොම\u{dd4} ව\u{dd6} රත\u{dd4} ත\u{dca}\u{200d}ර\u{dd2}කෝණය"),
+            keywords: &[
+                "ඉහළට යොම\u{dd4} ව\u{dd6} රත\u{dd4} ත\u{dca}\u{200d}ර\u{dd2}කෝණය",
+                "ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක",
+                "රත\u{dd4}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("červený trojuholník nahor"),
+            keywords: &["geometria", "červený", "červený trojuholník nahor"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("rdeč trikotnik gor"),
+            keywords: &["geometrično", "rdeč trikotnik gor", "rdeče"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("saddex xaggale cas oo kor tilmaamaya"),
+            keywords: &[
+                "cas",
+                "joometriyeed",
+                "saddex xaggale cas oo kor tilmaamaya",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("trekëndësh i kuq i drejtuar lart"),
+            keywords: &[
+                "e kuqe",
+                "gjeometrik",
+                "i kuq",
+                "trekëndësh i kuq i drejtuar lart",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("црвени троугао окренут нагоре"),
+            keywords: &["геометрија", "црвени троугао окренут нагоре", "црвено"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["црвени троугао окренут нагоре"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("crveni trougao okrenut nagore"),
+            keywords: &["crveni trougao okrenut nagore", "crveno", "geometrija"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["crveni trougao okrenut nagore"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("uppåtpekande röd triangel"),
+            keywords: &["röd triangel", "uppåtpekande röd triangel"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("pembetatu inayoelekeza juu"),
+            keywords: &["jiometri", "nyekundu", "pembetatu inayoelekeza juu"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("மேல\u{bcd}நோக\u{bcd}கிய சிவப\u{bcd}பு முக\u{bcd}கோணம\u{bcd}"),
+            keywords: &[
+                "சிவப\u{bcd}பு",
+                "முக\u{bcd}கோணம\u{bcd}",
+                "மேல\u{bcd} முக\u{bcd}கோணம\u{bcd}",
+                "மேல\u{bcd}நோக\u{bcd}கிய சிவப\u{bcd}பு முக\u{bcd}கோணம\u{bcd}",
+                "மேல\u{bcd}நோக\u{bcd}கிய முக\u{bcd}கோணம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some(
+                "ప\u{c48}క\u{c3f} సూచ\u{c3f}ంచ\u{c47} ప\u{c46}ద\u{c4d}ద ఎరుపురంగు త\u{c4d}ర\u{c3f}భుజం",
+            ),
+            keywords: &[
+                "ఎరుపురంగు",
+                "త\u{c4d}ర\u{c3f}భుజం",
+                "ప\u{c48}క\u{c3f}",
+                "ప\u{c48}క\u{c3f} సూచ\u{c3f}ంచ\u{c47} ప\u{c46}ద\u{c4d}ద ఎరుపురంగు త\u{c4d}ర\u{c3f}భుజం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("секунҷаи сурхи ба боло равонашуда"),
+            keywords: &["геометрӣ", "секунҷаи сурхи ба боло равонашуда", "сурх"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("สามเหล\u{e35}\u{e48}ยมหงายส\u{e35}แดง"),
+            keywords: &[
+                "สามเหล\u{e35}\u{e48}ยมหงายส\u{e35}แดง",
+                "ส\u{e35}แดง",
+                "หงายข\u{e36}\u{e49}น",
+                "เรขาคณ\u{e34}ต",
+            ],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ቀያሕ ስሉስ-ኩርናዕ ኣርኣየ"),
+            keywords: &[
+                "ቀያሕ",
+                "ቀያሕ ስሉስ-ኩርናዕ ንላዕሊ ኣርኣየ",
+                "ቀያሕ ስሉስ-ኩርናዕ ኣርኣየ",
+                "ጂኦሜትሪክ",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("ýokaryk gyzyl üçburç"),
+            keywords: &["geometrik", "gyzyl", "ýokaryk gyzyl üçburç"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tapatolu ki ʻolunga kulokula"),
+            keywords: &[
+                "hake",
+                "kulokula",
+                "tapatolu",
+                "tapatolu ki ʻolunga kulokula",
+                "ʻolunga",
+            ],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("yukarı bakan kırmızı üçgen"),
+            keywords: &[
+                "kırmızı",
+                "yukarı bakan kırmızı üçgen",
+                "yukarı kırmızı üçgen",
+                "üçgen",
+            ],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("قىزىل ئۈستى ئۈچبۇلۇڭ"),
+            keywords: &["قىزىل", "قىزىل ئۈستى ئۈچبۇلۇڭ", "گېئومېتىرىيە"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("червоний трикутник, направлений угору"),
+            keywords: &[
+                "геометричний",
+                "червоний",
+                "червоний трикутник, направлений угору",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("اوپر اشارہ کرتی سرخ مثلث"),
+            keywords: &["اوپر اشارہ کرتی سرخ مثلث", "جیومیٹری", "مثلث", "نارنجی"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("tepaga qaragan qizil uchburchak"),
+            keywords: &["geometrik", "qizil", "tepaga qaragan qizil uchburchak"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("tam giác màu đỏ trỏ lên trên"),
+            keywords: &["hình học", "màu đỏ", "tam giác màu đỏ trỏ lên trên"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("xonk, tri-àngal, buñ defal tomb"),
+            keywords: &["wu-geometri", "xonk", "xonk, tri-àngal, buñ defal tomb"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("unxantathu obomvu okhombe phezulu"),
+            keywords: &["bomvu", "ijiyometriki", "unxantathu obomvu okhombe phezulu"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Alawọ Pupa Onigun Mẹta Toka Soke"),
+            keywords: &[
+                "Alawọ Pupa Onigun Mẹta Toka Soke",
+                "jiomẹ\u{301}tíríkì",
+                "pupa",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("指向上嘅紅色三角形"),
+            keywords: &["幾何", "指向上嘅紅色三角形", "紅色"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("指向上嘅红色三角形"),
+            keywords: &["几何", "指向上嘅红色三角形", "红色"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("红色正三角"),
+            keywords: &["三角形", "向上", "正三角", "红色", "红色正三角"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("向上紅色三角"),
+            keywords: &["三角形", "向上紅色三角"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("指向上嘅紅三角"),
+            keywords: &["三角形", "指向上嘅紅三角"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("unxantathu obomvu obheke phezulu"),
+            keywords: &["bomvu", "jiyometrikhi", "unxantathu obomvu obheke phezulu"],
+        },
+    ],
+};
 #[doc = "🔻"]
-pub const RED_TRIANGLE_POINTED_DOWN : crate :: Emoji = crate :: Emoji { glyph : "🔻" , codepoint : "1F53B" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "red triangle pointed down" , group : "Symbols" , subgroup : "geometric" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("rooi driehoek wat af wys") , keywords : & ["af" , "driehoek" , "geometries" , "rooi" , "rooi driehoek wat af wys"] , } , crate :: Annotation { lang : "am" , tts : Some ("ቀይ ሶስት ማዕዘን ወደ ታች ጠቋሚ") , keywords : & ["ቀይ" , "ቀይ ሶስት ማዕዘን ወደ ታች ጠቋሚ" , "ታች" , "ጂኦሜትሪያዊ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مثلث لأسفل أحمر") , keywords : & ["أحمر" , "مثلث" , "مثلث أحمر لأسفل" , "مثلث لأسفل أحمر"] , } , crate :: Annotation { lang : "as" , tts : Some ("অধোম\u{9c1}খী ৰঙ\u{9be} ত\u{9cd}ৰিভ\u{9c1}জ") , keywords : & ["অধোম\u{9c1}খী ৰঙ\u{9be} ত\u{9cd}ৰিভ\u{9c1}জ" , "জ\u{9cd}য\u{9be}মিতিক" , "তললৈ" , "ৰঙ\u{9be}"] , } , crate :: Annotation { lang : "az" , tts : Some ("aşağı yönəlmiş qırmızı üçbucaq") , keywords : & ["aşağı" , "aşağı yönəlmiş qırmızı üçbucaq" , "həndəsi" , "qırmızı"] , } , crate :: Annotation { lang : "be" , tts : Some ("чырвоны трохвугольнік вяршыняй уніз") , keywords : & ["аб’ект" , "геаметрычны" , "чырвоны" , "чырвоны трохвугольнік вяршыняй уніз"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Сочещ надолу червен триъгълник") , keywords : & ["Сочещ надолу червен триъгълник" , "геометричен" , "надолу" , "червен"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ল\u{9be}ল ত\u{9cd}রিভ\u{9c1}জ নীচের দিকে পয\u{9bc}েন\u{9cd}ট কর\u{9be}") , keywords : & ["জ\u{9cd}য\u{9be}মিতিক" , "নিম\u{9cd}নম\u{9c1}খী" , "ল\u{9be}ল" , "ল\u{9be}ল ত\u{9cd}রিভ\u{9c1}জ নীচের দিকে পয\u{9bc}েন\u{9cd}ট কর\u{9be}"] , } , crate :: Annotation { lang : "bs" , tts : Some ("crveni trokut prema dolje") , keywords : & ["crveni trokut prema dolje" , "crveno" , "dolje" , "geometrija"] , } , crate :: Annotation { lang : "ca" , tts : Some ("triangle vermell cap avall") , keywords : & ["avall" , "geometria" , "triangle" , "triangle vermell cap avall" , "vermell"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎩᎦᎨ ᏦᎢ ᏧᏏᏅᏓ ᎠᏎᎯ ᎡᎳᏗᏜ") , keywords : & ["ᎡᎳᏗ" , "ᎤᏙᏢᏒ" , "ᎩᎦᎨ" , "ᎩᎦᎨ ᏦᎢ ᏧᏏᏅᏓ ᎠᏎᎯ ᎡᎳᏗᏜ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("červený trojúhelník mířící dolů") , keywords : & ["dolů" , "geometrie" , "červená" , "červený trojúhelník mířící dolů"] , } , crate :: Annotation { lang : "cy" , tts : Some ("triongl coch yn pwyntio tuag i lawr") , keywords : & ["coch" , "geometrig" , "i lawr" , "triongl coch yn pwyntio tuag i lawr"] , } , crate :: Annotation { lang : "da" , tts : Some ("ned-trekant") , keywords : & ["ned" , "ned-trekant" , "rød trekant" , "trekant"] , } , crate :: Annotation { lang : "de" , tts : Some ("rotes Dreieck mit der Spitze nach unten") , keywords : & ["Dreieck" , "abwärts" , "rot" , "rotes Dreieck mit der Spitze nach unten"] , } , crate :: Annotation { lang : "el" , tts : Some ("κόκκινο τρίγωνο κάτω") , keywords : & ["γεωμετρικό" , "κάτω" , "κόκκινο" , "κόκκινο τρίγωνο κάτω"] , } , crate :: Annotation { lang : "en" , tts : Some ("red triangle pointed down") , keywords : & ["down" , "geometric" , "red" , "red triangle pointed down"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("triángulo rojo hacia abajo") , keywords : & ["geometría" , "rojo" , "triángulo" , "triángulo hacia abajo rojo" , "triángulo rojo hacia abajo"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("punane tagurpidi kolmnurk") , keywords : & ["alla" , "geomeetria" , "punane" , "punane tagurpidi kolmnurk"] , } , crate :: Annotation { lang : "eu" , tts : Some ("punta behera begira duen triangelu gorria") , keywords : & ["behera" , "geometriko" , "gorri" , "punta behera begira duen triangelu gorria"] , } , crate :: Annotation { lang : "fa" , tts : Some ("مثلث با رأس پایین") , keywords : & ["شکل هندسی" , "قرمز" , "مثلث" , "مثلث با رأس پایین" , "پایین"] , } , crate :: Annotation { lang : "fi" , tts : Some ("punainen kolmio kärki alas") , keywords : & ["kolmio" , "muoto" , "punainen" , "punainen kolmio kärki alas"] , } , crate :: Annotation { lang : "fil" , tts : Some ("pulang tatsulok na nakatutok pababa") , keywords : & ["hugis" , "pababa" , "pula" , "pulang tatsulok na nakatutok pababa" , "tatsulok"] , } , crate :: Annotation { lang : "fo" , tts : Some ("reyður tríkantur sum peikar niðureftir") , keywords : & ["mátingarfrøðiligur" , "reyður tríkantur sum peikar niðureftir" , "tríkantur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("triangle rouge pointant vers le bas") , keywords : & ["flèche" , "forme" , "géométrie" , "triangle rouge pointant vers le bas"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("triangle rouge qui pointe vers le bas") , keywords : & ["géométrie" , "rouge" , "triangle qui pointe vers le bas" , "triangle rouge qui pointe vers le bas"] , } , crate :: Annotation { lang : "ga" , tts : Some ("triantán dearg síos") , keywords : & ["triantán dearg síos"] , } , crate :: Annotation { lang : "gd" , tts : Some ("triantan dearg a’ tomhadh sìos") , keywords : & ["dearg" , "geomatrach" , "sìos" , "triantan dearg a’ tomhadh sìos"] , } , crate :: Annotation { lang : "gl" , tts : Some ("triángulo vermello invertido") , keywords : & ["abaixo" , "invertido" , "triángulo" , "vermello"] , } , crate :: Annotation { lang : "gu" , tts : Some ("નીચો લાલ ત\u{acd}રિકોણ") , keywords : & ["ત\u{acd}રિકોણ" , "નીચ\u{ac7} ત\u{acd}રિકોણ" , "નીચો લાલ ત\u{acd}રિકોણ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("jan alwatika mai nunawa ƙasa") , keywords : & ["ilimin halayen sura" , "ja" , "jan alwatika mai nunawa ƙasa" , "ƙasa"] , } , crate :: Annotation { lang : "he" , tts : Some ("משולש אדום כלפי מטה") , keywords : & ["אדום" , "למטה" , "משולש" , "משולש אדום כלפי מטה" , "צורה"] , } , crate :: Annotation { lang : "hi" , tts : Some ("नीच\u{947} की ओर इशारा करता लाल त\u{94d}रिभ\u{941}ज") , keywords : & ["ज\u{94d}यामिति" , "नीच\u{947}" , "नीच\u{947} की ओर इशारा करता लाल त\u{94d}रिभ\u{941}ज" , "नीच\u{947} दिखाता लाल त\u{94d}रिभ\u{941}ज" , "लाल"] , } , crate :: Annotation { lang : "hr" , tts : Some ("crveni trokut usmjeren prema dolje") , keywords : & ["crveni trokut usmjeren prema dolje" , "crveno" , "dolje" , "geometrija" , "trokut"] , } , crate :: Annotation { lang : "hu" , tts : Some ("lefelé mutató piros háromszög") , keywords : & ["alakzat" , "lefelé" , "lefelé mutató piros háromszög" , "piros"] , } , crate :: Annotation { lang : "hy" , tts : Some ("կարմիր եռանկյուն ուղղված ներքև") , keywords : & ["երկրաչափական" , "կարմիր" , "կարմիր եռանկյուն ուղղված ներքև" , "ներքև"] , } , crate :: Annotation { lang : "id" , tts : Some ("segitiga merah mengarah ke bawah") , keywords : & ["geometri" , "merah" , "segitiga merah mengarah ke bawah" , "turun"] , } , crate :: Annotation { lang : "ig" , tts : Some ("akomgbà-atọ ncha ọbara chewara ihu ala") , keywords : & ["akomgbà-atọ ncha ọbara chewara ihu ala" , "ala" , "mgbakọ" , "obere"] , } , crate :: Annotation { lang : "is" , tts : Some ("niðurvísandi rauður þríhyrningur") , keywords : & ["niðurvísandi rauður þríhyrningur" , "rauður" , "rauður þríhyrningur niður" , "þríhyrningur"] , } , crate :: Annotation { lang : "it" , tts : Some ("triangolo rosso con punta verso il basso") , keywords : & ["basso" , "rosso" , "triangolo" , "triangolo rosso con punta verso il basso" , "triangolo rosso punta in basso"] , } , crate :: Annotation { lang : "ja" , tts : Some ("赤い下三角") , keywords : & ["三角" , "下" , "赤" , "赤い下三角"] , } , crate :: Annotation { lang : "jv" , tts : Some ("pesagi telu abang pucuke marep ngisor") , keywords : & ["abang" , "geometrik" , "ngisor" , "pesagi telu abang pucuke marep ngisor"] , } , crate :: Annotation { lang : "ka" , tts : Some ("დაბლა მიმართული წითელი სამკუთხედი") , keywords : & ["გეომეტრია" , "გეომეტრიული" , "დაბლა მიმართული წითელი სამკუთხედი" , "ქვემოთ" , "წითელი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("төмен қаратылған кіші үшбұрыш") , keywords : & ["геометриялық" , "төмен" , "төмен қаратылған кіші үшбұрыш" , "қызыл"] , } , crate :: Annotation { lang : "kl" , tts : Some ("ned-trekant") , keywords : & ["ned" , "ned-trekant" , "rød trekant" , "trekant"] , } , crate :: Annotation { lang : "km" , tts : Some ("ត\u{17d2}រ\u{17b8}កោនក\u{17d2}រហមក\u{17c6}ព\u{17bc}លច\u{17bb}ះក\u{17d2}រោម") , keywords : & ["ក\u{17d2}រហម" , "ក\u{17d2}រោម" , "ត\u{17d2}រ\u{17b8}កោន" , "ត\u{17d2}រ\u{17b8}កោនក\u{17d2}រហមក\u{17c6}ព\u{17bc}លច\u{17bb}ះក\u{17d2}រោម"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಕ\u{cc6}ಳಗ\u{cc6} ತೋರ\u{cbf}ಸ\u{cbf}ದ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ") , keywords : & ["ಕ\u{cc6}ಳಗ\u{cbf}ನ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ" , "ಕ\u{cc6}ಳಗ\u{cbf}ನ ತ\u{ccd}ರ\u{cbf}ಕೋನ" , "ಕ\u{cc6}ಳಗ\u{cc6} ತೋರ\u{cbf}ಸ\u{cbf}ದ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("빨간색 아래쪽 삼각형") , keywords : & ["빨간색" , "빨간색 아래쪽 삼각형" , "빨강" , "삼각형" , "아래쪽 빨간색 삼각형"] , } , crate :: Annotation { lang : "kok" , tts : Some ("ता\u{902}बडो त\u{94d}रिकोण सकयल पळयता") , keywords : & ["जियोम\u{945}ट\u{94d}रीक" , "ता\u{902}बडो" , "ता\u{902}बडो त\u{94d}रिकोण सकयल पळयता" , "सकयल"] , } , crate :: Annotation { lang : "ky" , tts : Some ("төмөн караган кызыл үч бурчтук") , keywords : & ["геометрия" , "кызыл" , "төмөн" , "төмөн караган кызыл үч бурчтук"] , } , crate :: Annotation { lang : "lb" , tts : Some ("rouden Dräieck mat der Spëtzt no ënnen") , keywords : & ["geometresch" , "no ënnen" , "rouden Dräieck mat der Spëtzt no ënnen" , "rout"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຮ\u{eb9}ບສາມຫ\u{ebc}\u{ec8}ຽມຂວ\u{ecd}\u{ec9}າສ\u{eb5}ແດງ") , keywords : & ["ຂວ\u{ecd}\u{ec9}າ" , "ຮ\u{eb9}ບສາມຫ\u{ebc}\u{ec8}ຽມຂວ\u{ecd}\u{ec9}າສ\u{eb5}ແດງ" , "ເລຂາຄະນ\u{eb4}ດ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("raudonas į apačią nukreiptas trikampis") , keywords : & ["geometrija" , "raudona" , "raudonas į apačią nukreiptas trikampis" , "į apačią"] , } , crate :: Annotation { lang : "lv" , tts : Some ("lejupvērsts sarkans trīsstūris") , keywords : & ["lejupvērsts sarkans trīsstūris" , "trīsstūris" , "ģeometrija"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tapatoru whero tohu iho") , keywords : & ["iho" , "tapatoru whero tohu iho" , "whero" , "āhuahanga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("црвен триаголник свртен надолу") , keywords : & ["геометрија" , "триаголник" , "црвен" , "црвен триаголник свртен надолу"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ത\u{d3e}ഴേക\u{d4d}ക\u{d4d} ച\u{d42}ണ\u{d4d}ട\u{d41}ന\u{d4d}ന ച\u{d41}വന\u{d4d}ന ത\u{d4d}രികോണം") , keywords : & ["ജിയോമെട\u{d4d}രിക\u{d4d}ക\u{d4d}" , "ത\u{d3e}ഴേക\u{d4d}ക\u{d4d} ച\u{d42}ണ\u{d4d}ട\u{d41}ന\u{d4d}ന ച\u{d41}വന\u{d4d}ന ത\u{d4d}രികോണം"] , } , crate :: Annotation { lang : "mn" , tts : Some ("доошоо харсан гурвалжин") , keywords : & ["геометр" , "доош" , "доошоо харсан гурвалжин" , "улаан"] , } , crate :: Annotation { lang : "mr" , tts : Some ("खाली दर\u{94d}शविणारा लाल त\u{94d}रिकोण") , keywords : & ["खाली" , "खाली दर\u{94d}शविणारा लाल त\u{94d}रिकोण" , "भ\u{942}मितीय" , "लाल"] , } , crate :: Annotation { lang : "ms" , tts : Some ("segi tiga merah menunjuk ke bawah") , keywords : & ["geometri" , "ke bawah" , "merah" , "segi tiga merah menunjuk ke bawah"] , } , crate :: Annotation { lang : "mt" , tts : Some ("trijangolu aħmar jipponta ’l isfel") , keywords : & ["aħmar" , "trijangolu aħmar jipponta ’l isfel" , "ġeometriku" , "’l isfel"] , } , crate :: Annotation { lang : "my" , tts : Some ("အောက\u{103a}သ\u{102d}\u{102f}\u{1037} ည\u{103d}\u{103e}န\u{103a}ပြနေသည\u{1037}\u{103a} အန\u{102e}ရောင\u{103a} တြ\u{102d}ဂ\u{1036}") , keywords : & ["ဂျ\u{102e}ဩမေတြ\u{102e}" , "စ\u{102d}န\u{103a}" , "အတ\u{103d}င\u{103a}းပ\u{102d}\u{102f}င\u{103a}း" , "အောက\u{103a}သ\u{102d}\u{102f}\u{1037}" , "အောက\u{103a}သ\u{102d}\u{102f}\u{1037} ည\u{103d}\u{103e}န\u{103a}ပြနေသည\u{1037}\u{103a} အန\u{102e}ရောင\u{103a} တြ\u{102d}ဂ\u{1036}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("rød trekant som peker ned") , keywords : & ["geometrisk" , "nedover" , "rød trekant som peker ned" , "trekant"] , } , crate :: Annotation { lang : "ne" , tts : Some ("तल स\u{902}क\u{947}त गरिएको रातो त\u{94d}रिकोण") , keywords : & ["ज\u{94d}यामितीय" , "तल" , "तल स\u{902}क\u{947}त गरिएको रातो त\u{94d}रिकोण" , "रातो"] , } , crate :: Annotation { lang : "nl" , tts : Some ("rode omlaagwijzende driehoek") , keywords : & ["geometrisch" , "omlaag" , "rode omlaagwijzende driehoek" , "rood"] , } , crate :: Annotation { lang : "nn" , tts : Some ("raud trekant som peikar ned") , keywords : & ["gemoetrisk" , "nedover" , "raud trekant som peikar ned" , "trekant"] , } , crate :: Annotation { lang : "or" , tts : Some ("ତଳ ମ\u{b41}ହ\u{b3e}\u{b01} ଲ\u{b3e}ଲ ତ\u{b4d}ର\u{b3f}ଭ\u{b41}ଜ") , keywords : & ["ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ" , "ତଳ" , "ତଳ ମ\u{b41}ହ\u{b3e}\u{b01} ଲ\u{b3e}ଲ ତ\u{b4d}ର\u{b3f}ଭ\u{b41}ଜ" , "ଲ\u{b3e}ଲ\u{b4d}\u{200c}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਥ\u{a71}ਲ\u{a47} ਵ\u{a71}ਲ ਇਸ\u{a3c}ਾਰਾ ਕਰਦਾ ਲਾਲ ਤਿਕ\u{a4b}ਣ") , keywords : & ["ਜਯਾਮਿਤੀ" , "ਤਿਕ\u{a4b}ਣਾ" , "ਥ\u{a71}ਲ\u{a47} ਵ\u{a71}ਲ ਇਸ\u{a3c}ਾਰਾ ਕਰਦਾ ਲਾਲ ਤਿਕ\u{a4b}ਣ" , "ਥ\u{a71}ਲ\u{a47} ਵ\u{a71}ਲ ਤਿਕ\u{a4b}ਣਾ" , "ਲਾਲ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("لال تکون ہیٹھاں اشارہ کردی ہوئی") , keywords : & ["جیومیٹری دے متعلق" , "لال" , "لال تکون ہیٹھاں اشارہ کردی ہوئی" , "ہیٹھاں"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Rẹ\u{301}d Tráyángul Wé De Pọínt Daun") , keywords : & ["Jiọ\u{301}mẹ\u{301}tri" , "Rẹd" , "Rẹ\u{301}d Tráyángul Wé De Pọínt Daun"] , } , crate :: Annotation { lang : "pl" , tts : Some ("czerwony trójkąt skierowany w dół") , keywords : & ["czerwony" , "czerwony trójkąt skierowany w dół" , "figura geometryczna" , "na dół" , "trójkąt" , "w dół" , "wierzchołkiem"] , } , crate :: Annotation { lang : "ps" , tts : Some ("سور مثلث ښکته") , keywords : & ["جيوميتريکي" , "سور" , "سور مثلث ښکته" , "ښکته"] , } , crate :: Annotation { lang : "pt" , tts : Some ("triângulo vermelho para baixo") , keywords : & ["geométrico" , "triângulo vermelho para baixo" , "vermelho"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("triângulo vermelho a apontar para baixo") , keywords : & ["geométrico" , "para baixo" , "triângulo" , "triângulo vermelho a apontar para baixo" , "vermelho"] , } , crate :: Annotation { lang : "ro" , tts : Some ("triunghi roșu cu vârful în jos") , keywords : & ["geometric" , "jos" , "roșu" , "triunghi" , "triunghi roșu cu vârful în jos"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-759") , keywords : & ["E10-759"] , } , crate :: Annotation { lang : "ru" , tts : Some ("треугольник вершиной вниз") , keywords : & ["вниз" , "геометрия" , "красный" , "треугольник" , "треугольник вершиной вниз" , "фигура"] , } , crate :: Annotation { lang : "rw" , tts : Some ("mpandeshatu itukura ireba hasi") , keywords : & ["byerekeye jewometiri" , "hasi" , "mpandeshatu itukura ireba hasi" , "umutuku"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڳاڙهو ٽڪنڊو هيٺ اشارو ڪيل") , keywords : & ["جيوميٽرڪ" , "هيٺ" , "ڳاڙهو" , "ڳاڙهو ٽڪنڊو هيٺ اشارو ڪيل"] , } , crate :: Annotation { lang : "si" , tts : Some ("පහළට යොම\u{dd4} ව\u{dd6} රත\u{dd4} ත\u{dca}\u{200d}ර\u{dd2}කෝණය") , keywords : & ["ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක" , "පහළ" , "පහළට යොම\u{dd4} ව\u{dd6} රත\u{dd4} ත\u{dca}\u{200d}ර\u{dd2}කෝණය" , "රත\u{dd4}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("červený trojuholník nadol") , keywords : & ["geometria" , "nadol" , "červená" , "červený trojuholník nadol"] , } , crate :: Annotation { lang : "sl" , tts : Some ("rdeč trikotnik dol") , keywords : & ["geometrično" , "navzdol" , "rdeč trikotnik dol" , "rdeče"] , } , crate :: Annotation { lang : "so" , tts : Some ("saddex xaggale cas oo hoos tilmaamaya") , keywords : & ["cas" , "hoos" , "joometriyeed" , "saddex xaggale cas oo hoos tilmaamaya"] , } , crate :: Annotation { lang : "sq" , tts : Some ("trekëndësh i kuq i drejtuar poshtë") , keywords : & ["e kuqe" , "gjeometrik" , "i kuq" , "poshtë" , "trekëndësh i kuq i drejtuar poshtë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("црвени троугао окренут надоле") , keywords : & ["геометрија" , "надоле" , "црвени троугао окренут надоле" , "црвено"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("црвени троугао окренут надоље") , keywords : & ["црвени троугао окренут надоље"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("crveni trougao okrenut nadole") , keywords : & ["crveni trougao okrenut nadole" , "crveno" , "geometrija" , "nadole"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("crveni trougao okrenut nadolje") , keywords : & ["crveni trougao okrenut nadolje"] , } , crate :: Annotation { lang : "sv" , tts : Some ("nedåtpekande röd triangel") , keywords : & ["nedåtpekande röd triangel" , "röd triangel"] , } , crate :: Annotation { lang : "sw" , tts : Some ("pembetatu inayoelekeza chini") , keywords : & ["chini" , "jiometri" , "nyekundu" , "pembetatu inayoelekeza chini"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("க\u{bc0}ழ\u{bcd}நோக\u{bcd}கிய சிவப\u{bcd}பு முக\u{bcd}கோணம\u{bcd}") , keywords : & ["க\u{bc0}ழ\u{bcd} முக\u{bcd}கோணம\u{bcd}" , "க\u{bc0}ழ\u{bcd}நோக\u{bcd}கிய சிவப\u{bcd}பு முக\u{bcd}கோணம\u{bcd}" , "க\u{bc0}ழ\u{bcd}நோக\u{bcd}கிய முக\u{bcd}கோணம\u{bcd}" , "சிவப\u{bcd}பு" , "முக\u{bcd}கோணம\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("క\u{c4d}ర\u{c3f}ంద\u{c3f}క\u{c3f} సూచ\u{c3f}ంచ\u{c47} ప\u{c46}ద\u{c4d}ద ఎరుపురంగు త\u{c4d}ర\u{c3f}భుజం") , keywords : & ["ఎరుపురంగు" , "క\u{c4d}ర\u{c3f}ంద\u{c3f}క\u{c3f}" , "క\u{c4d}ర\u{c3f}ంద\u{c3f}క\u{c3f} సూచ\u{c3f}ంచ\u{c47} ప\u{c46}ద\u{c4d}ద ఎరుపురంగు త\u{c4d}ర\u{c3f}భుజం" , "త\u{c4d}ర\u{c3f}భుజం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("секунҷаи сурхи ба поён равонашуда") , keywords : & ["геометрӣ" , "поён" , "секунҷаи сурхи ба поён равонашуда" , "сурх"] , } , crate :: Annotation { lang : "th" , tts : Some ("สามเหล\u{e35}\u{e48}ยมคว\u{e48}ำส\u{e35}แดง") , keywords : & ["คว\u{e48}ำลง" , "สามเหล\u{e35}\u{e48}ยมคว\u{e48}ำส\u{e35}แดง" , "ส\u{e35}แดง" , "เรขาคณ\u{e34}ต"] , } , crate :: Annotation { lang : "ti" , tts : Some ("ቀያሕ ስሉስ-ኩርናዕ ንታሕቲ ኣርኣየ") , keywords : & ["ቀያሕ" , "ቀያሕ ስሉስ-ኩርናዕ ንታሕቲ ኣርኣየ" , "ንታሕቲ" , "ጂኦሜትሪክ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("aşak gyzyl üçburç") , keywords : & ["aşak" , "aşak gyzyl üçburç" , "geometrik" , "gyzyl"] , } , crate :: Annotation { lang : "to" , tts : Some ("tapatolu kulokula ki lalo") , keywords : & ["hifo" , "kulokula" , "lalo" , "tapatolu" , "tapatolu kulokula ki lalo"] , } , crate :: Annotation { lang : "tr" , tts : Some ("aşağı bakan kırmızı üçgen") , keywords : & ["aşağı bakan kırmızı üçgen" , "aşağı kırmızı üçgen" , "kırmızı" , "üçgen"] , } , crate :: Annotation { lang : "ug" , tts : Some ("قىزىل ئاستى ئۈچبۇلۇڭ") , keywords : & ["تۆۋەن" , "قىزىل" , "قىزىل ئاستى ئۈچبۇلۇڭ" , "گېئومېتىرىيە"] , } , crate :: Annotation { lang : "uk" , tts : Some ("червоний трикутник, направлений униз") , keywords : & ["вниз" , "геометричний" , "червоний" , "червоний трикутник, направлений униз"] , } , crate :: Annotation { lang : "ur" , tts : Some ("نیچے اشارہ کرتی سرخ مثلث") , keywords : & ["جیومیٹری" , "مثلث" , "نارنجی" , "نیچے اشارہ کرتی سرخ مثلث"] , } , crate :: Annotation { lang : "uz" , tts : Some ("pastga qaragan qizil uchburchak") , keywords : & ["geometrik" , "pastga" , "pastga qaragan qizil uchburchak" , "qizil"] , } , crate :: Annotation { lang : "vi" , tts : Some ("tam giác màu đỏ trỏ xuống dưới") , keywords : & ["hình học" , "tam giác màu đỏ trỏ xuống dưới" , "xuống" , "đỏ"] , } , crate :: Annotation { lang : "wo" , tts : Some ("tri-àngal xonk muuse jëm suuf") , keywords : & ["suuf" , "tri-àngal xonk muuse jëm suuf" , "wu-geometri" , "xonk"] , } , crate :: Annotation { lang : "xh" , tts : Some ("unxantathu obomvu okhombe ezantsi") , keywords : & ["bomvu" , "ezantsi" , "ijiyometriki" , "unxantathu obomvu okhombe ezantsi"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Alawọ Pupa Onigun Mẹta Toka Sisalẹ") , keywords : & ["Alawọ Pupa Onigun Mẹta Toka Sisalẹ" , "Ilẹ\u{300}" , "jiomẹ\u{301}tíríkì" , "pupa"] , } , crate :: Annotation { lang : "yue" , tts : Some ("指向下嘅紅色三角形") , keywords : & ["向下" , "幾何" , "指向下嘅紅色三角形" , "紅色"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("指向下嘅红色三角形") , keywords : & ["几何" , "向下" , "指向下嘅红色三角形" , "红色"] , } , crate :: Annotation { lang : "zh" , tts : Some ("红色倒三角") , keywords : & ["三角形" , "倒三角" , "向下" , "红色" , "红色倒三角"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("向下紅色三角") , keywords : & ["三角形" , "向下紅色三角"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("指向下嘅紅三角") , keywords : & ["三角形" , "指向下嘅紅三角"] , } , crate :: Annotation { lang : "zu" , tts : Some ("unxantathu obomvu obheke phansi") , keywords : & ["bomvu" , "jiyometrikhi" , "phansi" , "unxantathu obomvu obheke phansi"] , }] , } ;
+pub const RED_TRIANGLE_POINTED_DOWN: crate::Emoji = crate::Emoji {
+    glyph: "🔻",
+    codepoint: "1F53B",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "red triangle pointed down",
+    group: "Symbols",
+    subgroup: "geometric",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("rooi driehoek wat af wys"),
+            keywords: &[
+                "af",
+                "driehoek",
+                "geometries",
+                "rooi",
+                "rooi driehoek wat af wys",
+            ],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ቀይ ሶስት ማዕዘን ወደ ታች ጠቋሚ"),
+            keywords: &["ቀይ", "ቀይ ሶስት ማዕዘን ወደ ታች ጠቋሚ", "ታች", "ጂኦሜትሪያዊ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مثلث لأسفل أحمر"),
+            keywords: &["أحمر", "مثلث", "مثلث أحمر لأسفل", "مثلث لأسفل أحمر"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("অধোম\u{9c1}খী ৰঙ\u{9be} ত\u{9cd}ৰিভ\u{9c1}জ"),
+            keywords: &[
+                "অধোম\u{9c1}খী ৰঙ\u{9be} ত\u{9cd}ৰিভ\u{9c1}জ",
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "তললৈ",
+                "ৰঙ\u{9be}",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("aşağı yönəlmiş qırmızı üçbucaq"),
+            keywords: &[
+                "aşağı",
+                "aşağı yönəlmiş qırmızı üçbucaq",
+                "həndəsi",
+                "qırmızı",
+            ],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("чырвоны трохвугольнік вяршыняй уніз"),
+            keywords: &[
+                "аб’ект",
+                "геаметрычны",
+                "чырвоны",
+                "чырвоны трохвугольнік вяршыняй уніз",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Сочещ надолу червен триъгълник"),
+            keywords: &[
+                "Сочещ надолу червен триъгълник",
+                "геометричен",
+                "надолу",
+                "червен",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ল\u{9be}ল ত\u{9cd}রিভ\u{9c1}জ নীচের দিকে পয\u{9bc}েন\u{9cd}ট কর\u{9be}"),
+            keywords: &[
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "নিম\u{9cd}নম\u{9c1}খী",
+                "ল\u{9be}ল",
+                "ল\u{9be}ল ত\u{9cd}রিভ\u{9c1}জ নীচের দিকে পয\u{9bc}েন\u{9cd}ট কর\u{9be}",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("crveni trokut prema dolje"),
+            keywords: &["crveni trokut prema dolje", "crveno", "dolje", "geometrija"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("triangle vermell cap avall"),
+            keywords: &[
+                "avall",
+                "geometria",
+                "triangle",
+                "triangle vermell cap avall",
+                "vermell",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎩᎦᎨ ᏦᎢ ᏧᏏᏅᏓ ᎠᏎᎯ ᎡᎳᏗᏜ"),
+            keywords: &["ᎡᎳᏗ", "ᎤᏙᏢᏒ", "ᎩᎦᎨ", "ᎩᎦᎨ ᏦᎢ ᏧᏏᏅᏓ ᎠᏎᎯ ᎡᎳᏗᏜ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("červený trojúhelník mířící dolů"),
+            keywords: &[
+                "dolů",
+                "geometrie",
+                "červená",
+                "červený trojúhelník mířící dolů",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("triongl coch yn pwyntio tuag i lawr"),
+            keywords: &[
+                "coch",
+                "geometrig",
+                "i lawr",
+                "triongl coch yn pwyntio tuag i lawr",
+            ],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("ned-trekant"),
+            keywords: &["ned", "ned-trekant", "rød trekant", "trekant"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("rotes Dreieck mit der Spitze nach unten"),
+            keywords: &[
+                "Dreieck",
+                "abwärts",
+                "rot",
+                "rotes Dreieck mit der Spitze nach unten",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("κόκκινο τρίγωνο κάτω"),
+            keywords: &["γεωμετρικό", "κάτω", "κόκκινο", "κόκκινο τρίγωνο κάτω"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("red triangle pointed down"),
+            keywords: &["down", "geometric", "red", "red triangle pointed down"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("triángulo rojo hacia abajo"),
+            keywords: &[
+                "geometría",
+                "rojo",
+                "triángulo",
+                "triángulo hacia abajo rojo",
+                "triángulo rojo hacia abajo",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("punane tagurpidi kolmnurk"),
+            keywords: &["alla", "geomeetria", "punane", "punane tagurpidi kolmnurk"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("punta behera begira duen triangelu gorria"),
+            keywords: &[
+                "behera",
+                "geometriko",
+                "gorri",
+                "punta behera begira duen triangelu gorria",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("مثلث با رأس پایین"),
+            keywords: &["شکل هندسی", "قرمز", "مثلث", "مثلث با رأس پایین", "پایین"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("punainen kolmio kärki alas"),
+            keywords: &["kolmio", "muoto", "punainen", "punainen kolmio kärki alas"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("pulang tatsulok na nakatutok pababa"),
+            keywords: &[
+                "hugis",
+                "pababa",
+                "pula",
+                "pulang tatsulok na nakatutok pababa",
+                "tatsulok",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("reyður tríkantur sum peikar niðureftir"),
+            keywords: &[
+                "mátingarfrøðiligur",
+                "reyður tríkantur sum peikar niðureftir",
+                "tríkantur",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("triangle rouge pointant vers le bas"),
+            keywords: &[
+                "flèche",
+                "forme",
+                "géométrie",
+                "triangle rouge pointant vers le bas",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("triangle rouge qui pointe vers le bas"),
+            keywords: &[
+                "géométrie",
+                "rouge",
+                "triangle qui pointe vers le bas",
+                "triangle rouge qui pointe vers le bas",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("triantán dearg síos"),
+            keywords: &["triantán dearg síos"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("triantan dearg a’ tomhadh sìos"),
+            keywords: &[
+                "dearg",
+                "geomatrach",
+                "sìos",
+                "triantan dearg a’ tomhadh sìos",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("triángulo vermello invertido"),
+            keywords: &["abaixo", "invertido", "triángulo", "vermello"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("નીચો લાલ ત\u{acd}રિકોણ"),
+            keywords: &[
+                "ત\u{acd}રિકોણ",
+                "નીચ\u{ac7} ત\u{acd}રિકોણ",
+                "નીચો લાલ ત\u{acd}રિકોણ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("jan alwatika mai nunawa ƙasa"),
+            keywords: &[
+                "ilimin halayen sura",
+                "ja",
+                "jan alwatika mai nunawa ƙasa",
+                "ƙasa",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("משולש אדום כלפי מטה"),
+            keywords: &["אדום", "למטה", "משולש", "משולש אדום כלפי מטה", "צורה"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("नीच\u{947} की ओर इशारा करता लाल त\u{94d}रिभ\u{941}ज"),
+            keywords: &[
+                "ज\u{94d}यामिति",
+                "नीच\u{947}",
+                "नीच\u{947} की ओर इशारा करता लाल त\u{94d}रिभ\u{941}ज",
+                "नीच\u{947} दिखाता लाल त\u{94d}रिभ\u{941}ज",
+                "लाल",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("crveni trokut usmjeren prema dolje"),
+            keywords: &[
+                "crveni trokut usmjeren prema dolje",
+                "crveno",
+                "dolje",
+                "geometrija",
+                "trokut",
+            ],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("lefelé mutató piros háromszög"),
+            keywords: &[
+                "alakzat",
+                "lefelé",
+                "lefelé mutató piros háromszög",
+                "piros",
+            ],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("կարմիր եռանկյուն ուղղված ներքև"),
+            keywords: &[
+                "երկրաչափական",
+                "կարմիր",
+                "կարմիր եռանկյուն ուղղված ներքև",
+                "ներքև",
+            ],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("segitiga merah mengarah ke bawah"),
+            keywords: &[
+                "geometri",
+                "merah",
+                "segitiga merah mengarah ke bawah",
+                "turun",
+            ],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akomgbà-atọ ncha ọbara chewara ihu ala"),
+            keywords: &[
+                "akomgbà-atọ ncha ọbara chewara ihu ala",
+                "ala",
+                "mgbakọ",
+                "obere",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("niðurvísandi rauður þríhyrningur"),
+            keywords: &[
+                "niðurvísandi rauður þríhyrningur",
+                "rauður",
+                "rauður þríhyrningur niður",
+                "þríhyrningur",
+            ],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("triangolo rosso con punta verso il basso"),
+            keywords: &[
+                "basso",
+                "rosso",
+                "triangolo",
+                "triangolo rosso con punta verso il basso",
+                "triangolo rosso punta in basso",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("赤い下三角"),
+            keywords: &["三角", "下", "赤", "赤い下三角"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("pesagi telu abang pucuke marep ngisor"),
+            keywords: &[
+                "abang",
+                "geometrik",
+                "ngisor",
+                "pesagi telu abang pucuke marep ngisor",
+            ],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("დაბლა მიმართული წითელი სამკუთხედი"),
+            keywords: &[
+                "გეომეტრია",
+                "გეომეტრიული",
+                "დაბლა მიმართული წითელი სამკუთხედი",
+                "ქვემოთ",
+                "წითელი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("төмен қаратылған кіші үшбұрыш"),
+            keywords: &[
+                "геометриялық",
+                "төмен",
+                "төмен қаратылған кіші үшбұрыш",
+                "қызыл",
+            ],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("ned-trekant"),
+            keywords: &["ned", "ned-trekant", "rød trekant", "trekant"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ត\u{17d2}រ\u{17b8}កោនក\u{17d2}រហមក\u{17c6}ព\u{17bc}លច\u{17bb}ះក\u{17d2}រោម"),
+            keywords: &[
+                "ក\u{17d2}រហម",
+                "ក\u{17d2}រោម",
+                "ត\u{17d2}រ\u{17b8}កោន",
+                "ត\u{17d2}រ\u{17b8}កោនក\u{17d2}រហមក\u{17c6}ព\u{17bc}លច\u{17bb}ះក\u{17d2}រោម",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಕ\u{cc6}ಳಗ\u{cc6} ತೋರ\u{cbf}ಸ\u{cbf}ದ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ"),
+            keywords: &[
+                "ಕ\u{cc6}ಳಗ\u{cbf}ನ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ",
+                "ಕ\u{cc6}ಳಗ\u{cbf}ನ ತ\u{ccd}ರ\u{cbf}ಕೋನ",
+                "ಕ\u{cc6}ಳಗ\u{cc6} ತೋರ\u{cbf}ಸ\u{cbf}ದ ಕ\u{cc6}ಂಪು ತ\u{ccd}ರ\u{cbf}ಕೋನ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("빨간색 아래쪽 삼각형"),
+            keywords: &[
+                "빨간색",
+                "빨간색 아래쪽 삼각형",
+                "빨강",
+                "삼각형",
+                "아래쪽 빨간색 삼각형",
+            ],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("ता\u{902}बडो त\u{94d}रिकोण सकयल पळयता"),
+            keywords: &[
+                "जियोम\u{945}ट\u{94d}रीक",
+                "ता\u{902}बडो",
+                "ता\u{902}बडो त\u{94d}रिकोण सकयल पळयता",
+                "सकयल",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("төмөн караган кызыл үч бурчтук"),
+            keywords: &[
+                "геометрия",
+                "кызыл",
+                "төмөн",
+                "төмөн караган кызыл үч бурчтук",
+            ],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("rouden Dräieck mat der Spëtzt no ënnen"),
+            keywords: &[
+                "geometresch",
+                "no ënnen",
+                "rouden Dräieck mat der Spëtzt no ënnen",
+                "rout",
+            ],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຮ\u{eb9}ບສາມຫ\u{ebc}\u{ec8}ຽມຂວ\u{ecd}\u{ec9}າສ\u{eb5}ແດງ"),
+            keywords: &[
+                "ຂວ\u{ecd}\u{ec9}າ",
+                "ຮ\u{eb9}ບສາມຫ\u{ebc}\u{ec8}ຽມຂວ\u{ecd}\u{ec9}າສ\u{eb5}ແດງ",
+                "ເລຂາຄະນ\u{eb4}ດ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("raudonas į apačią nukreiptas trikampis"),
+            keywords: &[
+                "geometrija",
+                "raudona",
+                "raudonas į apačią nukreiptas trikampis",
+                "į apačią",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("lejupvērsts sarkans trīsstūris"),
+            keywords: &["lejupvērsts sarkans trīsstūris", "trīsstūris", "ģeometrija"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tapatoru whero tohu iho"),
+            keywords: &["iho", "tapatoru whero tohu iho", "whero", "āhuahanga"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("црвен триаголник свртен надолу"),
+            keywords: &[
+                "геометрија",
+                "триаголник",
+                "црвен",
+                "црвен триаголник свртен надолу",
+            ],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some(
+                "ത\u{d3e}ഴേക\u{d4d}ക\u{d4d} ച\u{d42}ണ\u{d4d}ട\u{d41}ന\u{d4d}ന ച\u{d41}വന\u{d4d}ന ത\u{d4d}രികോണം",
+            ),
+            keywords: &[
+                "ജിയോമെട\u{d4d}രിക\u{d4d}ക\u{d4d}",
+                "ത\u{d3e}ഴേക\u{d4d}ക\u{d4d} ച\u{d42}ണ\u{d4d}ട\u{d41}ന\u{d4d}ന ച\u{d41}വന\u{d4d}ന ത\u{d4d}രികോണം",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("доошоо харсан гурвалжин"),
+            keywords: &["геометр", "доош", "доошоо харсан гурвалжин", "улаан"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("खाली दर\u{94d}शविणारा लाल त\u{94d}रिकोण"),
+            keywords: &[
+                "खाली",
+                "खाली दर\u{94d}शविणारा लाल त\u{94d}रिकोण",
+                "भ\u{942}मितीय",
+                "लाल",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("segi tiga merah menunjuk ke bawah"),
+            keywords: &[
+                "geometri",
+                "ke bawah",
+                "merah",
+                "segi tiga merah menunjuk ke bawah",
+            ],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("trijangolu aħmar jipponta ’l isfel"),
+            keywords: &[
+                "aħmar",
+                "trijangolu aħmar jipponta ’l isfel",
+                "ġeometriku",
+                "’l isfel",
+            ],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "အောက\u{103a}သ\u{102d}\u{102f}\u{1037} ည\u{103d}\u{103e}န\u{103a}ပြနေသည\u{1037}\u{103a} အန\u{102e}ရောင\u{103a} တြ\u{102d}ဂ\u{1036}",
+            ),
+            keywords: &[
+                "ဂျ\u{102e}ဩမေတြ\u{102e}",
+                "စ\u{102d}န\u{103a}",
+                "အတ\u{103d}င\u{103a}းပ\u{102d}\u{102f}င\u{103a}း",
+                "အောက\u{103a}သ\u{102d}\u{102f}\u{1037}",
+                "အောက\u{103a}သ\u{102d}\u{102f}\u{1037} ည\u{103d}\u{103e}န\u{103a}ပြနေသည\u{1037}\u{103a} အန\u{102e}ရောင\u{103a} တြ\u{102d}ဂ\u{1036}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("rød trekant som peker ned"),
+            keywords: &[
+                "geometrisk",
+                "nedover",
+                "rød trekant som peker ned",
+                "trekant",
+            ],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("तल स\u{902}क\u{947}त गरिएको रातो त\u{94d}रिकोण"),
+            keywords: &[
+                "ज\u{94d}यामितीय",
+                "तल",
+                "तल स\u{902}क\u{947}त गरिएको रातो त\u{94d}रिकोण",
+                "रातो",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("rode omlaagwijzende driehoek"),
+            keywords: &[
+                "geometrisch",
+                "omlaag",
+                "rode omlaagwijzende driehoek",
+                "rood",
+            ],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("raud trekant som peikar ned"),
+            keywords: &[
+                "gemoetrisk",
+                "nedover",
+                "raud trekant som peikar ned",
+                "trekant",
+            ],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ତଳ ମ\u{b41}ହ\u{b3e}\u{b01} ଲ\u{b3e}ଲ ତ\u{b4d}ର\u{b3f}ଭ\u{b41}ଜ"),
+            keywords: &[
+                "ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ",
+                "ତଳ",
+                "ତଳ ମ\u{b41}ହ\u{b3e}\u{b01} ଲ\u{b3e}ଲ ତ\u{b4d}ର\u{b3f}ଭ\u{b41}ଜ",
+                "ଲ\u{b3e}ଲ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਥ\u{a71}ਲ\u{a47} ਵ\u{a71}ਲ ਇਸ\u{a3c}ਾਰਾ ਕਰਦਾ ਲਾਲ ਤਿਕ\u{a4b}ਣ"),
+            keywords: &[
+                "ਜਯਾਮਿਤੀ",
+                "ਤਿਕ\u{a4b}ਣਾ",
+                "ਥ\u{a71}ਲ\u{a47} ਵ\u{a71}ਲ ਇਸ\u{a3c}ਾਰਾ ਕਰਦਾ ਲਾਲ ਤਿਕ\u{a4b}ਣ",
+                "ਥ\u{a71}ਲ\u{a47} ਵ\u{a71}ਲ ਤਿਕ\u{a4b}ਣਾ",
+                "ਲਾਲ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("لال تکون ہیٹھاں اشارہ کردی ہوئی"),
+            keywords: &[
+                "جیومیٹری دے متعلق",
+                "لال",
+                "لال تکون ہیٹھاں اشارہ کردی ہوئی",
+                "ہیٹھاں",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Rẹ\u{301}d Tráyángul Wé De Pọínt Daun"),
+            keywords: &[
+                "Jiọ\u{301}mẹ\u{301}tri",
+                "Rẹd",
+                "Rẹ\u{301}d Tráyángul Wé De Pọínt Daun",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("czerwony trójkąt skierowany w dół"),
+            keywords: &[
+                "czerwony",
+                "czerwony trójkąt skierowany w dół",
+                "figura geometryczna",
+                "na dół",
+                "trójkąt",
+                "w dół",
+                "wierzchołkiem",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("سور مثلث ښکته"),
+            keywords: &["جيوميتريکي", "سور", "سور مثلث ښکته", "ښکته"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("triângulo vermelho para baixo"),
+            keywords: &["geométrico", "triângulo vermelho para baixo", "vermelho"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("triângulo vermelho a apontar para baixo"),
+            keywords: &[
+                "geométrico",
+                "para baixo",
+                "triângulo",
+                "triângulo vermelho a apontar para baixo",
+                "vermelho",
+            ],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("triunghi roșu cu vârful în jos"),
+            keywords: &[
+                "geometric",
+                "jos",
+                "roșu",
+                "triunghi",
+                "triunghi roșu cu vârful în jos",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-759"),
+            keywords: &["E10-759"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("треугольник вершиной вниз"),
+            keywords: &[
+                "вниз",
+                "геометрия",
+                "красный",
+                "треугольник",
+                "треугольник вершиной вниз",
+                "фигура",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("mpandeshatu itukura ireba hasi"),
+            keywords: &[
+                "byerekeye jewometiri",
+                "hasi",
+                "mpandeshatu itukura ireba hasi",
+                "umutuku",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڳاڙهو ٽڪنڊو هيٺ اشارو ڪيل"),
+            keywords: &["جيوميٽرڪ", "هيٺ", "ڳاڙهو", "ڳاڙهو ٽڪنڊو هيٺ اشارو ڪيل"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("පහළට යොම\u{dd4} ව\u{dd6} රත\u{dd4} ත\u{dca}\u{200d}ර\u{dd2}කෝණය"),
+            keywords: &[
+                "ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක",
+                "පහළ",
+                "පහළට යොම\u{dd4} ව\u{dd6} රත\u{dd4} ත\u{dca}\u{200d}ර\u{dd2}කෝණය",
+                "රත\u{dd4}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("červený trojuholník nadol"),
+            keywords: &["geometria", "nadol", "červená", "červený trojuholník nadol"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("rdeč trikotnik dol"),
+            keywords: &["geometrično", "navzdol", "rdeč trikotnik dol", "rdeče"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("saddex xaggale cas oo hoos tilmaamaya"),
+            keywords: &[
+                "cas",
+                "hoos",
+                "joometriyeed",
+                "saddex xaggale cas oo hoos tilmaamaya",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("trekëndësh i kuq i drejtuar poshtë"),
+            keywords: &[
+                "e kuqe",
+                "gjeometrik",
+                "i kuq",
+                "poshtë",
+                "trekëndësh i kuq i drejtuar poshtë",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("црвени троугао окренут надоле"),
+            keywords: &[
+                "геометрија",
+                "надоле",
+                "црвени троугао окренут надоле",
+                "црвено",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("црвени троугао окренут надоље"),
+            keywords: &["црвени троугао окренут надоље"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("crveni trougao okrenut nadole"),
+            keywords: &[
+                "crveni trougao okrenut nadole",
+                "crveno",
+                "geometrija",
+                "nadole",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("crveni trougao okrenut nadolje"),
+            keywords: &["crveni trougao okrenut nadolje"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("nedåtpekande röd triangel"),
+            keywords: &["nedåtpekande röd triangel", "röd triangel"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("pembetatu inayoelekeza chini"),
+            keywords: &[
+                "chini",
+                "jiometri",
+                "nyekundu",
+                "pembetatu inayoelekeza chini",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("க\u{bc0}ழ\u{bcd}நோக\u{bcd}கிய சிவப\u{bcd}பு முக\u{bcd}கோணம\u{bcd}"),
+            keywords: &[
+                "க\u{bc0}ழ\u{bcd} முக\u{bcd}கோணம\u{bcd}",
+                "க\u{bc0}ழ\u{bcd}நோக\u{bcd}கிய சிவப\u{bcd}பு முக\u{bcd}கோணம\u{bcd}",
+                "க\u{bc0}ழ\u{bcd}நோக\u{bcd}கிய முக\u{bcd}கோணம\u{bcd}",
+                "சிவப\u{bcd}பு",
+                "முக\u{bcd}கோணம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some(
+                "క\u{c4d}ర\u{c3f}ంద\u{c3f}క\u{c3f} సూచ\u{c3f}ంచ\u{c47} ప\u{c46}ద\u{c4d}ద ఎరుపురంగు త\u{c4d}ర\u{c3f}భుజం",
+            ),
+            keywords: &[
+                "ఎరుపురంగు",
+                "క\u{c4d}ర\u{c3f}ంద\u{c3f}క\u{c3f}",
+                "క\u{c4d}ర\u{c3f}ంద\u{c3f}క\u{c3f} సూచ\u{c3f}ంచ\u{c47} ప\u{c46}ద\u{c4d}ద ఎరుపురంగు త\u{c4d}ర\u{c3f}భుజం",
+                "త\u{c4d}ర\u{c3f}భుజం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("секунҷаи сурхи ба поён равонашуда"),
+            keywords: &[
+                "геометрӣ",
+                "поён",
+                "секунҷаи сурхи ба поён равонашуда",
+                "сурх",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("สามเหล\u{e35}\u{e48}ยมคว\u{e48}ำส\u{e35}แดง"),
+            keywords: &[
+                "คว\u{e48}ำลง",
+                "สามเหล\u{e35}\u{e48}ยมคว\u{e48}ำส\u{e35}แดง",
+                "ส\u{e35}แดง",
+                "เรขาคณ\u{e34}ต",
+            ],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ቀያሕ ስሉስ-ኩርናዕ ንታሕቲ ኣርኣየ"),
+            keywords: &["ቀያሕ", "ቀያሕ ስሉስ-ኩርናዕ ንታሕቲ ኣርኣየ", "ንታሕቲ", "ጂኦሜትሪክ"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("aşak gyzyl üçburç"),
+            keywords: &["aşak", "aşak gyzyl üçburç", "geometrik", "gyzyl"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tapatolu kulokula ki lalo"),
+            keywords: &[
+                "hifo",
+                "kulokula",
+                "lalo",
+                "tapatolu",
+                "tapatolu kulokula ki lalo",
+            ],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("aşağı bakan kırmızı üçgen"),
+            keywords: &[
+                "aşağı bakan kırmızı üçgen",
+                "aşağı kırmızı üçgen",
+                "kırmızı",
+                "üçgen",
+            ],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("قىزىل ئاستى ئۈچبۇلۇڭ"),
+            keywords: &["تۆۋەن", "قىزىل", "قىزىل ئاستى ئۈچبۇلۇڭ", "گېئومېتىرىيە"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("червоний трикутник, направлений униз"),
+            keywords: &[
+                "вниз",
+                "геометричний",
+                "червоний",
+                "червоний трикутник, направлений униз",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("نیچے اشارہ کرتی سرخ مثلث"),
+            keywords: &["جیومیٹری", "مثلث", "نارنجی", "نیچے اشارہ کرتی سرخ مثلث"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("pastga qaragan qizil uchburchak"),
+            keywords: &[
+                "geometrik",
+                "pastga",
+                "pastga qaragan qizil uchburchak",
+                "qizil",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("tam giác màu đỏ trỏ xuống dưới"),
+            keywords: &["hình học", "tam giác màu đỏ trỏ xuống dưới", "xuống", "đỏ"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("tri-àngal xonk muuse jëm suuf"),
+            keywords: &[
+                "suuf",
+                "tri-àngal xonk muuse jëm suuf",
+                "wu-geometri",
+                "xonk",
+            ],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("unxantathu obomvu okhombe ezantsi"),
+            keywords: &[
+                "bomvu",
+                "ezantsi",
+                "ijiyometriki",
+                "unxantathu obomvu okhombe ezantsi",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Alawọ Pupa Onigun Mẹta Toka Sisalẹ"),
+            keywords: &[
+                "Alawọ Pupa Onigun Mẹta Toka Sisalẹ",
+                "Ilẹ\u{300}",
+                "jiomẹ\u{301}tíríkì",
+                "pupa",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("指向下嘅紅色三角形"),
+            keywords: &["向下", "幾何", "指向下嘅紅色三角形", "紅色"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("指向下嘅红色三角形"),
+            keywords: &["几何", "向下", "指向下嘅红色三角形", "红色"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("红色倒三角"),
+            keywords: &["三角形", "倒三角", "向下", "红色", "红色倒三角"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("向下紅色三角"),
+            keywords: &["三角形", "向下紅色三角"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("指向下嘅紅三角"),
+            keywords: &["三角形", "指向下嘅紅三角"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("unxantathu obomvu obheke phansi"),
+            keywords: &[
+                "bomvu",
+                "jiyometrikhi",
+                "phansi",
+                "unxantathu obomvu obheke phansi",
+            ],
+        },
+    ],
+};
 #[doc = "💠"]
 pub const DIAMOND_WITH_A_DOT: crate::Emoji = crate::Emoji {
     glyph: "💠",
@@ -18462,8 +21939,2679 @@ pub const DIAMOND_WITH_A_DOT: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🔘"]
-pub const RADIO_BUTTON : crate :: Emoji = crate :: Emoji { glyph : "🔘" , codepoint : "1F518" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "radio button" , group : "Symbols" , subgroup : "geometric" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("radioknoppie") , keywords : & ["geometries" , "knoppie" , "radio" , "radioknoppie"] , } , crate :: Annotation { lang : "am" , tts : Some ("የሬዲዮ አዝራር") , keywords : & ["ሬዲዮ" , "አዝራር" , "የሬዲዮ አዝራር" , "ጂኦሜትሪያዊ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("زر تبادلي") , keywords : & ["تبادلي" , "زر"] , } , crate :: Annotation { lang : "as" , tts : Some ("ৰেডিঅ’ ব\u{9c1}ট\u{9be}ম") , keywords : & ["জ\u{9cd}য\u{9be}মিতিক" , "ব\u{9c1}ট\u{9be}ম" , "ৰেডিঅ’"] , } , crate :: Annotation { lang : "az" , tts : Some ("radio düyməsi") , keywords : & ["düymə" , "həndəsi" , "radio" , "radio düyməsi"] , } , crate :: Annotation { lang : "be" , tts : Some ("пераключальнік") , keywords : & ["аб’ект" , "выбар" , "геаметрычны" , "кнопка" , "пераключальнік"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Бутон за избор") , keywords : & ["Бутон за избор" , "бутон" , "геометричен" , "избор"] , } , crate :: Annotation { lang : "bn" , tts : Some ("রেডিও বোত\u{9be}ম") , keywords : & ["জ\u{9cd}য\u{9be}মিতিক" , "বোত\u{9be}ম" , "রেডিও"] , } , crate :: Annotation { lang : "br" , tts : Some ("bouton radio") , keywords : & ["bouton radio"] , } , crate :: Annotation { lang : "bs" , tts : Some ("radio dugme") , keywords : & ["geometrija" , "radio" , "radio dugme" , "tipka"] , } , crate :: Annotation { lang : "ca" , tts : Some ("botó d’opció") , keywords : & ["botó" , "botó d’opció" , "geometria" , "opció"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᏗᎧᏃᎩᏍᏗ ᎦᏗ") , keywords : & ["ᎤᏙᏢᏒ" , "ᎦᏗ" , "ᏗᎧᏃᎩᏍᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("přepínač") , keywords : & ["geometrie" , "kulaté" , "přepínací" , "přepínač" , "rádio" , "tlačítko"] , } , crate :: Annotation { lang : "cy" , tts : Some ("botwm radio") , keywords : & ["botwm" , "geometrig" , "radio"] , } , crate :: Annotation { lang : "da" , tts : Some ("alternativknap") , keywords : & ["alternativknap"] , } , crate :: Annotation { lang : "de" , tts : Some ("Optionsfeld") , keywords : & ["Optionsfeld" , "Schaltfläche"] , } , crate :: Annotation { lang : "el" , tts : Some ("στρογγυλό κουμπί") , keywords : & ["γεωμετρικό" , "κουμπί" , "στρογγυλό κουμπί"] , } , crate :: Annotation { lang : "en" , tts : Some ("radio button") , keywords : & ["button" , "geometric" , "radio"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("botón de opción") , keywords : & ["botón" , "botón de opción" , "opción"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["botón" , "botón de opción" , "botón de radio" , "radio"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("raadionupp") , keywords : & ["geomeetria" , "nupp" , "raadio" , "raadionupp"] , } , crate :: Annotation { lang : "eu" , tts : Some ("kontrol-laukia") , keywords : & ["botoi" , "geometriko" , "kontrol" , "kontrol-laukia"] , } , crate :: Annotation { lang : "fa" , tts : Some ("دکمه\u{654} رادیویی") , keywords : & ["دکمه" , "دکمه\u{654} رادیویی" , "رادیو" , "شکل هندسی"] , } , crate :: Annotation { lang : "fi" , tts : Some ("valintanappi") , keywords : & ["muoto" , "valinta" , "valintanappi" , "valintaruutu" , "ympyrä"] , } , crate :: Annotation { lang : "fil" , tts : Some ("button ng radyo") , keywords : & ["bilog" , "buton" , "button ng radyo" , "hugis" , "radyo"] , } , crate :: Annotation { lang : "fo" , tts : Some ("radioknappur") , keywords : & ["radioknappur" , "radioknøttur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("bouton radio") , keywords : & ["bouton" , "forme" , "géométrie" , "radio"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("cnaipe raidió") , keywords : & ["cnaipe raidió"] , } , crate :: Annotation { lang : "gd" , tts : Some ("putan-rèidio") , keywords : & ["geomatrach" , "putan" , "putan-rèidio" , "rèidio"] , } , crate :: Annotation { lang : "gl" , tts : Some ("botón de opción") , keywords : & ["botón" , "botón de opción" , "opción"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ર\u{ac7}ડિઓ બટન") , keywords : & ["બટન" , "ર\u{ac7}ડિઓ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("maɓallin rediyo") , keywords : & ["ilimin halayen sura" , "maɓallin" , "rediyo"] , } , crate :: Annotation { lang : "he" , tts : Some ("לחצן רדיו") , keywords : & ["לחצן" , "עיגול" , "צורה" , "רדיו"] , } , crate :: Annotation { lang : "hi" , tts : Some ("र\u{947}डियो बटन") , keywords : & ["ज\u{94d}यामिति" , "बटन" , "र\u{947}डियो"] , } , crate :: Annotation { lang : "hr" , tts : Some ("kružić za označavanje") , keywords : & ["geometrija" , "kružić" , "kružić za označavanje"] , } , crate :: Annotation { lang : "hu" , tts : Some ("választógomb") , keywords : & ["gomb" , "rádiógomb" , "választó" , "választógomb"] , } , crate :: Annotation { lang : "hy" , tts : Some ("կետակոճակ") , keywords : & ["երկրաչափական" , "կետ" , "կետակոճակ" , "կոճակ" , "ռադիո"] , } , crate :: Annotation { lang : "id" , tts : Some ("tombol radio") , keywords : & ["geometri" , "radio" , "tombol"] , } , crate :: Annotation { lang : "ig" , tts : Some ("ọdụmbi redio") , keywords : & ["mgbakọ" , "redio" , "ọdụmbi"] , } , crate :: Annotation { lang : "is" , tts : Some ("valhnappur") , keywords : & ["hnappur" , "valhnappur"] , } , crate :: Annotation { lang : "it" , tts : Some ("pulsante rotondo") , keywords : & ["opzione" , "pulsante" , "pulsante rotondo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("ラジオボタン") , keywords : & ["ボタン" , "ラジオボタン" , "二重丸"] , } , crate :: Annotation { lang : "jv" , tts : Some ("tombol radio") , keywords : & ["geometrik" , "radio" , "tombol"] , } , crate :: Annotation { lang : "ka" , tts : Some ("რადიო ღილაკი") , keywords : & ["გეომეტრია" , "გეომეტრიული" , "რადიო" , "ღილაკი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("радио түймесі") , keywords : & ["геометриялық" , "радио" , "радио түймесі" , "түйме"] , } , crate :: Annotation { lang : "kl" , tts : Some ("knap") , keywords : & ["alternativknap" , "knap"] , } , crate :: Annotation { lang : "km" , tts : Some ("ប\u{17ca}\u{17bc}ត\u{17bb}ងម\u{17bc}លផ\u{17bb}សចេញព\u{17b8}ប\u{17ca}\u{17bc}ត\u{17bb}ងធ\u{17c6}") , keywords : & ["ប\u{17ca}\u{17bc}ត\u{17bb}ង" , "ប\u{17ca}\u{17bc}ត\u{17bb}ងម\u{17bc}ល" , "ប\u{17ca}\u{17bc}ត\u{17bb}ងម\u{17bc}លផ\u{17bb}សចេញព\u{17b8}ប\u{17ca}\u{17bc}ត\u{17bb}ងធ\u{17c6}" , "ផ\u{17bb}ស"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ರೇಡ\u{cbf}ಯೊ ಬಟನ\u{ccd}") , keywords : & ["ಜ\u{ccd}ಯಾಮ\u{cbf}ತೀಯ" , "ಬಟನ\u{ccd}" , "ರೇಡ\u{cbf}`ಯೊ``" , "ರೇಡ\u{cbf}ಯೊ ಬಟನ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("라디오 버튼") , keywords : & ["라디오" , "버튼"] , } , crate :: Annotation { lang : "kok" , tts : Some ("र\u{947}डियो बटण") , keywords : & ["जियोम\u{945}ट\u{94d}रीक" , "बटण" , "र\u{947}डियो"] , } , crate :: Annotation { lang : "ky" , tts : Some ("радио баскычы") , keywords : & ["баскыч" , "геометрия" , "радио" , "радио баскычы"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Optiounsknäppchen") , keywords : & ["Knäppchen" , "Optiounen" , "Optiounsknäppchen" , "geometresch"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ປ\u{eb8}\u{ec8}ມວ\u{eb4}ທະຍ\u{eb8}") , keywords : & ["ປ\u{eb8}\u{ec8}ມ" , "ປ\u{eb8}\u{ec8}ມວ\u{eb4}ທະຍ\u{eb8}" , "ວ\u{eb4}ທະຍ\u{eb8}"] , } , crate :: Annotation { lang : "lt" , tts : Some ("akutė") , keywords : & ["akutė" , "geometrija" , "mygtukas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("radiopoga") , keywords : & ["opcijas" , "poga" , "radiopoga"] , } , crate :: Annotation { lang : "mi" , tts : Some ("pātene irirangi") , keywords : & ["irirangi" , "pātene" , "āhuahanga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("тркалезно копче") , keywords : & ["копче" , "круг" , "тркалезно копче"] , } , crate :: Annotation { lang : "ml" , tts : Some ("റേഡിയോ ബട\u{d4d}ടൺ") , keywords : & ["ബട\u{d4d}ടൺ" , "റേഡിയോ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("бөөрөнхий товчлуур") , keywords : & ["бөөрөнхий товчлуур" , "геометр" , "радио" , "товчлуур"] , } , crate :: Annotation { lang : "mr" , tts : Some ("र\u{947}डिओ बटण") , keywords : & ["बटण" , "भ\u{942}मितीय" , "र\u{947}डिओ"] , } , crate :: Annotation { lang : "ms" , tts : Some ("butang radio") , keywords : & ["butang" , "geometri" , "radio"] , } , crate :: Annotation { lang : "mt" , tts : Some ("buttuna tal-għażla") , keywords : & ["buttuna" , "buttuna tal-għażla" , "radju" , "ġeometrika"] , } , crate :: Annotation { lang : "my" , tts : Some ("ရေဒ\u{102e}ယ\u{102d}\u{102f} ခလ\u{102f}တ\u{103a}") , keywords : & ["ခလ\u{102f}တ\u{103a}" , "ဂျ\u{102e}ဩမေတြ\u{102e}" , "ရေဒ\u{102e}ယ\u{102d}\u{102f}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("radioknapp") , keywords : & ["knapp" , "radio" , "radioknapp"] , } , crate :: Annotation { lang : "ne" , tts : Some ("र\u{947}डियो बटन") , keywords : & ["ज\u{94d}यामितीय" , "बटन" , "र\u{947}डियो"] , } , crate :: Annotation { lang : "nl" , tts : Some ("keuzerondje") , keywords : & ["geometrisch" , "keuze" , "keuzerondje" , "rondje"] , } , crate :: Annotation { lang : "nn" , tts : Some ("radioknapp") , keywords : & ["knapp" , "radio" , "radioknapp"] , } , crate :: Annotation { lang : "or" , tts : Some ("ରେଡ\u{b3f}ଓ ବଟନ\u{b4d}\u{200c}") , keywords : & ["ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ" , "ବଟନ\u{b4d}\u{200c}" , "ରେଡ\u{b3f}ଓ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਰ\u{a47}ਡੀਓ ਬਟਨ") , keywords : & ["ਜਯਾਮਿਤੀ" , "ਬਟਨ" , "ਰ\u{a47}ਡੀਓ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("ریڈیو بٹن") , keywords : & ["بٹن" , "جیومیٹری دے متعلق" , "ريڈيو" , "ریڈیو بٹن"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Rédió Bọ\u{301}tin") , keywords : & ["Bọ\u{301}tin" , "Jiọ\u{301}mẹ\u{301}tri" , "Rédió"] , } , crate :: Annotation { lang : "pl" , tts : Some ("przycisk radiowy") , keywords : & ["figura geometryczna" , "kółko" , "przycisk radiowy" , "przycisk wyboru opcji"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د راديو بټن") , keywords : & ["بټن" , "جيوميتريکي" , "د راديو بټن" , "راديو"] , } , crate :: Annotation { lang : "pt" , tts : Some ("botão de opção") , keywords : & ["botão" , "botão de opção" , "rádio"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["botão" , "botão de opção" , "geométrico" , "opção"] , } , crate :: Annotation { lang : "ro" , tts : Some ("buton radio") , keywords : & ["buton" , "geometric" , "radio"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-724") , keywords : & ["E10-724"] , } , crate :: Annotation { lang : "ru" , tts : Some ("круглая кнопка") , keywords : & ["кнопка" , "круглая" , "серая"] , } , crate :: Annotation { lang : "rw" , tts : Some ("buto ya radiyo") , keywords : & ["buto ya radiyo" , "byerekeye jewometiri" , "ibuto" , "inyakiramajwi"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ريڊيو بٽڻ") , keywords : & ["بٽڻ" , "جيوميٽرڪ" , "ريڊيو"] , } , crate :: Annotation { lang : "si" , tts : Some ("රේඩ\u{dd2}යෝ බොත\u{dca}තම") , keywords : & ["ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක" , "බොත\u{dca}තම" , "රේඩ\u{dd2}යෝ බොත\u{dca}තම" , "රේඩ\u{dd2}යෝව"] , } , crate :: Annotation { lang : "sk" , tts : Some ("okrúhle tlačidlo") , keywords : & ["geometria" , "okrúhle tlačidlo" , "otáčacie" , "tlačidlo"] , } , crate :: Annotation { lang : "sl" , tts : Some ("izbirni gumb") , keywords : & ["geometrično" , "gumb" , "izbirni"] , } , crate :: Annotation { lang : "so" , tts : Some ("badhan raadiye") , keywords : & ["badhan" , "joometriyeed" , "raadiye"] , } , crate :: Annotation { lang : "sq" , tts : Some ("buton radioje") , keywords : & ["buton" , "buton radioje" , "gjeometrik" , "radio"] , } , crate :: Annotation { lang : "sr" , tts : Some ("дугме за избор") , keywords : & ["геометрија" , "дугме" , "дугме за избор"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["дугме за избор"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("dugme za izbor") , keywords : & ["dugme" , "dugme za izbor" , "geometrija"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["dugme za izbor"] , } , crate :: Annotation { lang : "sv" , tts : Some ("alternativknapp") , keywords : & ["alternativknapp" , "knapp"] , } , crate :: Annotation { lang : "sw" , tts : Some ("kitufe") , keywords : & ["jiometri" , "kitufe"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ரேடியோ பட\u{bcd}டன\u{bcd}") , keywords : & ["பட\u{bcd}டன\u{bcd}" , "பொத\u{bcd}த\u{bbe}ன\u{bcd}" , "ரேடியோ பட\u{bcd}டன\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("ర\u{c47}డ\u{c3f}య\u{c4b} బటన\u{c4d}") , keywords : & ["బటన\u{c4d}" , "ర\u{c47}డ\u{c3f}య\u{c4b}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("тугмаи \"Радио\"") , keywords : & ["геометрӣ" , "радио" , "тугма" , "тугмаи \"Радио\""] , } , crate :: Annotation { lang : "th" , tts : Some ("ป\u{e38}\u{e48}มว\u{e34}ทย\u{e38}") , keywords : & ["ป\u{e38}\u{e38}\u{e48}ม" , "ป\u{e38}\u{e48}มว\u{e34}ทย\u{e38}" , "ว\u{e34}ทย\u{e38}"] , } , crate :: Annotation { lang : "ti" , tts : Some ("መልጎም ናይ ራድዮ") , keywords : & ["መልጎም" , "መልጎም ናይ ራድዮ" , "ራድዮ" , "ጂኦሜትሪክ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("radio düwmesi") , keywords : & ["düwme" , "geometrik" , "radio" , "radio düwmesi"] , } , crate :: Annotation { lang : "to" , tts : Some ("meʻalolomi lētio") , keywords : & ["lētio" , "meʻalolomi"] , } , crate :: Annotation { lang : "tr" , tts : Some ("radyo düğmesi") , keywords : & ["düğme" , "radyo" , "radyo düğmesi"] , } , crate :: Annotation { lang : "ug" , tts : Some ("يۇمىلاق كۇنۇپكا") , keywords : & ["رادىيۇس" , "كۇنۇپكا" , "يۇمىلاق كۇنۇپكا" , "گېئومېتىرىيە"] , } , crate :: Annotation { lang : "uk" , tts : Some ("перемикач") , keywords : & ["геометричний" , "кнопка" , "перемикач"] , } , crate :: Annotation { lang : "ur" , tts : Some ("ریڈیو بٹن") , keywords : & ["بٹن" , "جیومیٹری" , "ریڈیو"] , } , crate :: Annotation { lang : "uz" , tts : Some ("radio tugma") , keywords : & ["geometrik" , "radio" , "tugma"] , } , crate :: Annotation { lang : "vi" , tts : Some ("nút radio") , keywords : & ["hình học" , "nút" , "radio"] , } , crate :: Annotation { lang : "wo" , tts : Some ("bitoŋu rajo") , keywords : & ["bitoŋ" , "bitoŋu rajo" , "radio" , "wu-geometri"] , } , crate :: Annotation { lang : "xh" , tts : Some ("iqhosha lerediyo") , keywords : & ["ijiyometriki" , "iqhosha" , "iqhosha lerediyo" , "irediyo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Bọ\u{301}tìnnì Rédíò") , keywords : & ["Bó\u{329}tìnì" , "Bọ\u{301}tìnnì Rédíò" , "jiomẹ\u{301}tíríkì" , "rédíò"] , } , crate :: Annotation { lang : "yue" , tts : Some ("圓形按鈕") , keywords : & ["圓形" , "圓形按鈕" , "幾何" , "按鈕"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("圆形按钮") , keywords : & ["几何" , "圆形" , "圆形按钮" , "按钮"] , } , crate :: Annotation { lang : "zh" , tts : Some ("单选按钮") , keywords : & ["单独" , "单选按钮" , "圆心" , "按键" , "选中"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("按鈕") , keywords : & ["圓鈕" , "按鈕"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("圓形按鈕") , keywords : & ["圓形按鈕" , "按鈕"] , } , crate :: Annotation { lang : "zu" , tts : Some ("inkinobho yomsakazo") , keywords : & ["inkinobho" , "inkinobho yomsakazo" , "jiyometrikhi" , "umsakazo"] , }] , } ;
+pub const RADIO_BUTTON: crate::Emoji = crate::Emoji {
+    glyph: "🔘",
+    codepoint: "1F518",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "radio button",
+    group: "Symbols",
+    subgroup: "geometric",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("radioknoppie"),
+            keywords: &["geometries", "knoppie", "radio", "radioknoppie"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የሬዲዮ አዝራር"),
+            keywords: &["ሬዲዮ", "አዝራር", "የሬዲዮ አዝራር", "ጂኦሜትሪያዊ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("زر تبادلي"),
+            keywords: &["تبادلي", "زر"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ৰেডিঅ’ ব\u{9c1}ট\u{9be}ম"),
+            keywords: &["জ\u{9cd}য\u{9be}মিতিক", "ব\u{9c1}ট\u{9be}ম", "ৰেডিঅ’"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("radio düyməsi"),
+            keywords: &["düymə", "həndəsi", "radio", "radio düyməsi"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("пераключальнік"),
+            keywords: &["аб’ект", "выбар", "геаметрычны", "кнопка", "пераключальнік"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Бутон за избор"),
+            keywords: &["Бутон за избор", "бутон", "геометричен", "избор"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("রেডিও বোত\u{9be}ম"),
+            keywords: &["জ\u{9cd}য\u{9be}মিতিক", "বোত\u{9be}ম", "রেডিও"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("bouton radio"),
+            keywords: &["bouton radio"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("radio dugme"),
+            keywords: &["geometrija", "radio", "radio dugme", "tipka"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("botó d’opció"),
+            keywords: &["botó", "botó d’opció", "geometria", "opció"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏗᎧᏃᎩᏍᏗ ᎦᏗ"),
+            keywords: &["ᎤᏙᏢᏒ", "ᎦᏗ", "ᏗᎧᏃᎩᏍᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("přepínač"),
+            keywords: &[
+                "geometrie",
+                "kulaté",
+                "přepínací",
+                "přepínač",
+                "rádio",
+                "tlačítko",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("botwm radio"),
+            keywords: &["botwm", "geometrig", "radio"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("alternativknap"),
+            keywords: &["alternativknap"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Optionsfeld"),
+            keywords: &["Optionsfeld", "Schaltfläche"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("στρογγυλό κουμπί"),
+            keywords: &["γεωμετρικό", "κουμπί", "στρογγυλό κουμπί"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("radio button"),
+            keywords: &["button", "geometric", "radio"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("botón de opción"),
+            keywords: &["botón", "botón de opción", "opción"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["botón", "botón de opción", "botón de radio", "radio"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("raadionupp"),
+            keywords: &["geomeetria", "nupp", "raadio", "raadionupp"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("kontrol-laukia"),
+            keywords: &["botoi", "geometriko", "kontrol", "kontrol-laukia"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("دکمه\u{654} رادیویی"),
+            keywords: &["دکمه", "دکمه\u{654} رادیویی", "رادیو", "شکل هندسی"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("valintanappi"),
+            keywords: &["muoto", "valinta", "valintanappi", "valintaruutu", "ympyrä"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("button ng radyo"),
+            keywords: &["bilog", "buton", "button ng radyo", "hugis", "radyo"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("radioknappur"),
+            keywords: &["radioknappur", "radioknøttur"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("bouton radio"),
+            keywords: &["bouton", "forme", "géométrie", "radio"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("cnaipe raidió"),
+            keywords: &["cnaipe raidió"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("putan-rèidio"),
+            keywords: &["geomatrach", "putan", "putan-rèidio", "rèidio"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("botón de opción"),
+            keywords: &["botón", "botón de opción", "opción"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ર\u{ac7}ડિઓ બટન"),
+            keywords: &["બટન", "ર\u{ac7}ડિઓ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("maɓallin rediyo"),
+            keywords: &["ilimin halayen sura", "maɓallin", "rediyo"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("לחצן רדיו"),
+            keywords: &["לחצן", "עיגול", "צורה", "רדיו"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("र\u{947}डियो बटन"),
+            keywords: &["ज\u{94d}यामिति", "बटन", "र\u{947}डियो"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("kružić za označavanje"),
+            keywords: &["geometrija", "kružić", "kružić za označavanje"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("választógomb"),
+            keywords: &["gomb", "rádiógomb", "választó", "választógomb"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("կետակոճակ"),
+            keywords: &["երկրաչափական", "կետ", "կետակոճակ", "կոճակ", "ռադիո"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("tombol radio"),
+            keywords: &["geometri", "radio", "tombol"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ọdụmbi redio"),
+            keywords: &["mgbakọ", "redio", "ọdụmbi"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("valhnappur"),
+            keywords: &["hnappur", "valhnappur"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("pulsante rotondo"),
+            keywords: &["opzione", "pulsante", "pulsante rotondo"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("ラジオボタン"),
+            keywords: &["ボタン", "ラジオボタン", "二重丸"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("tombol radio"),
+            keywords: &["geometrik", "radio", "tombol"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("რადიო ღილაკი"),
+            keywords: &["გეომეტრია", "გეომეტრიული", "რადიო", "ღილაკი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("радио түймесі"),
+            keywords: &["геометриялық", "радио", "радио түймесі", "түйме"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("knap"),
+            keywords: &["alternativknap", "knap"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some(
+                "ប\u{17ca}\u{17bc}ត\u{17bb}ងម\u{17bc}លផ\u{17bb}សចេញព\u{17b8}ប\u{17ca}\u{17bc}ត\u{17bb}ងធ\u{17c6}",
+            ),
+            keywords: &[
+                "ប\u{17ca}\u{17bc}ត\u{17bb}ង",
+                "ប\u{17ca}\u{17bc}ត\u{17bb}ងម\u{17bc}ល",
+                "ប\u{17ca}\u{17bc}ត\u{17bb}ងម\u{17bc}លផ\u{17bb}សចេញព\u{17b8}ប\u{17ca}\u{17bc}ត\u{17bb}ងធ\u{17c6}",
+                "ផ\u{17bb}ស",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ರೇಡ\u{cbf}ಯೊ ಬಟನ\u{ccd}"),
+            keywords: &[
+                "ಜ\u{ccd}ಯಾಮ\u{cbf}ತೀಯ",
+                "ಬಟನ\u{ccd}",
+                "ರೇಡ\u{cbf}`ಯೊ``",
+                "ರೇಡ\u{cbf}ಯೊ ಬಟನ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("라디오 버튼"),
+            keywords: &["라디오", "버튼"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("र\u{947}डियो बटण"),
+            keywords: &["जियोम\u{945}ट\u{94d}रीक", "बटण", "र\u{947}डियो"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("радио баскычы"),
+            keywords: &["баскыч", "геометрия", "радио", "радио баскычы"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Optiounsknäppchen"),
+            keywords: &["Knäppchen", "Optiounen", "Optiounsknäppchen", "geometresch"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ປ\u{eb8}\u{ec8}ມວ\u{eb4}ທະຍ\u{eb8}"),
+            keywords: &[
+                "ປ\u{eb8}\u{ec8}ມ",
+                "ປ\u{eb8}\u{ec8}ມວ\u{eb4}ທະຍ\u{eb8}",
+                "ວ\u{eb4}ທະຍ\u{eb8}",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("akutė"),
+            keywords: &["akutė", "geometrija", "mygtukas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("radiopoga"),
+            keywords: &["opcijas", "poga", "radiopoga"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("pātene irirangi"),
+            keywords: &["irirangi", "pātene", "āhuahanga"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("тркалезно копче"),
+            keywords: &["копче", "круг", "тркалезно копче"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("റേഡിയോ ബട\u{d4d}ടൺ"),
+            keywords: &["ബട\u{d4d}ടൺ", "റേഡിയോ"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("бөөрөнхий товчлуур"),
+            keywords: &["бөөрөнхий товчлуур", "геометр", "радио", "товчлуур"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("र\u{947}डिओ बटण"),
+            keywords: &["बटण", "भ\u{942}मितीय", "र\u{947}डिओ"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("butang radio"),
+            keywords: &["butang", "geometri", "radio"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("buttuna tal-għażla"),
+            keywords: &["buttuna", "buttuna tal-għażla", "radju", "ġeometrika"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ရေဒ\u{102e}ယ\u{102d}\u{102f} ခလ\u{102f}တ\u{103a}"),
+            keywords: &[
+                "ခလ\u{102f}တ\u{103a}",
+                "ဂျ\u{102e}ဩမေတြ\u{102e}",
+                "ရေဒ\u{102e}ယ\u{102d}\u{102f}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("radioknapp"),
+            keywords: &["knapp", "radio", "radioknapp"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("र\u{947}डियो बटन"),
+            keywords: &["ज\u{94d}यामितीय", "बटन", "र\u{947}डियो"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("keuzerondje"),
+            keywords: &["geometrisch", "keuze", "keuzerondje", "rondje"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("radioknapp"),
+            keywords: &["knapp", "radio", "radioknapp"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ରେଡ\u{b3f}ଓ ବଟନ\u{b4d}\u{200c}"),
+            keywords: &[
+                "ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ",
+                "ବଟନ\u{b4d}\u{200c}",
+                "ରେଡ\u{b3f}ଓ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਰ\u{a47}ਡੀਓ ਬਟਨ"),
+            keywords: &["ਜਯਾਮਿਤੀ", "ਬਟਨ", "ਰ\u{a47}ਡੀਓ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ریڈیو بٹن"),
+            keywords: &["بٹن", "جیومیٹری دے متعلق", "ريڈيو", "ریڈیو بٹن"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Rédió Bọ\u{301}tin"),
+            keywords: &["Bọ\u{301}tin", "Jiọ\u{301}mẹ\u{301}tri", "Rédió"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("przycisk radiowy"),
+            keywords: &[
+                "figura geometryczna",
+                "kółko",
+                "przycisk radiowy",
+                "przycisk wyboru opcji",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د راديو بټن"),
+            keywords: &["بټن", "جيوميتريکي", "د راديو بټن", "راديو"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("botão de opção"),
+            keywords: &["botão", "botão de opção", "rádio"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["botão", "botão de opção", "geométrico", "opção"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("buton radio"),
+            keywords: &["buton", "geometric", "radio"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-724"),
+            keywords: &["E10-724"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("круглая кнопка"),
+            keywords: &["кнопка", "круглая", "серая"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("buto ya radiyo"),
+            keywords: &[
+                "buto ya radiyo",
+                "byerekeye jewometiri",
+                "ibuto",
+                "inyakiramajwi",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ريڊيو بٽڻ"),
+            keywords: &["بٽڻ", "جيوميٽرڪ", "ريڊيو"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("රේඩ\u{dd2}යෝ බොත\u{dca}තම"),
+            keywords: &[
+                "ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක",
+                "බොත\u{dca}තම",
+                "රේඩ\u{dd2}යෝ බොත\u{dca}තම",
+                "රේඩ\u{dd2}යෝව",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("okrúhle tlačidlo"),
+            keywords: &["geometria", "okrúhle tlačidlo", "otáčacie", "tlačidlo"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("izbirni gumb"),
+            keywords: &["geometrično", "gumb", "izbirni"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("badhan raadiye"),
+            keywords: &["badhan", "joometriyeed", "raadiye"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("buton radioje"),
+            keywords: &["buton", "buton radioje", "gjeometrik", "radio"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("дугме за избор"),
+            keywords: &["геометрија", "дугме", "дугме за избор"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["дугме за избор"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("dugme za izbor"),
+            keywords: &["dugme", "dugme za izbor", "geometrija"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["dugme za izbor"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("alternativknapp"),
+            keywords: &["alternativknapp", "knapp"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kitufe"),
+            keywords: &["jiometri", "kitufe"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ரேடியோ பட\u{bcd}டன\u{bcd}"),
+            keywords: &[
+                "பட\u{bcd}டன\u{bcd}",
+                "பொத\u{bcd}த\u{bbe}ன\u{bcd}",
+                "ரேடியோ பட\u{bcd}டன\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ర\u{c47}డ\u{c3f}య\u{c4b} బటన\u{c4d}"),
+            keywords: &["బటన\u{c4d}", "ర\u{c47}డ\u{c3f}య\u{c4b}"],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("тугмаи \"Радио\""),
+            keywords: &["геометрӣ", "радио", "тугма", "тугмаи \"Радио\""],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ป\u{e38}\u{e48}มว\u{e34}ทย\u{e38}"),
+            keywords: &[
+                "ป\u{e38}\u{e38}\u{e48}ม",
+                "ป\u{e38}\u{e48}มว\u{e34}ทย\u{e38}",
+                "ว\u{e34}ทย\u{e38}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("መልጎም ናይ ራድዮ"),
+            keywords: &["መልጎም", "መልጎም ናይ ራድዮ", "ራድዮ", "ጂኦሜትሪክ"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("radio düwmesi"),
+            keywords: &["düwme", "geometrik", "radio", "radio düwmesi"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("meʻalolomi lētio"),
+            keywords: &["lētio", "meʻalolomi"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("radyo düğmesi"),
+            keywords: &["düğme", "radyo", "radyo düğmesi"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("يۇمىلاق كۇنۇپكا"),
+            keywords: &["رادىيۇس", "كۇنۇپكا", "يۇمىلاق كۇنۇپكا", "گېئومېتىرىيە"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("перемикач"),
+            keywords: &["геометричний", "кнопка", "перемикач"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("ریڈیو بٹن"),
+            keywords: &["بٹن", "جیومیٹری", "ریڈیو"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("radio tugma"),
+            keywords: &["geometrik", "radio", "tugma"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("nút radio"),
+            keywords: &["hình học", "nút", "radio"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("bitoŋu rajo"),
+            keywords: &["bitoŋ", "bitoŋu rajo", "radio", "wu-geometri"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("iqhosha lerediyo"),
+            keywords: &["ijiyometriki", "iqhosha", "iqhosha lerediyo", "irediyo"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Bọ\u{301}tìnnì Rédíò"),
+            keywords: &[
+                "Bó\u{329}tìnì",
+                "Bọ\u{301}tìnnì Rédíò",
+                "jiomẹ\u{301}tíríkì",
+                "rédíò",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("圓形按鈕"),
+            keywords: &["圓形", "圓形按鈕", "幾何", "按鈕"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("圆形按钮"),
+            keywords: &["几何", "圆形", "圆形按钮", "按钮"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("单选按钮"),
+            keywords: &["单独", "单选按钮", "圆心", "按键", "选中"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("按鈕"),
+            keywords: &["圓鈕", "按鈕"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("圓形按鈕"),
+            keywords: &["圓形按鈕", "按鈕"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("inkinobho yomsakazo"),
+            keywords: &[
+                "inkinobho",
+                "inkinobho yomsakazo",
+                "jiyometrikhi",
+                "umsakazo",
+            ],
+        },
+    ],
+};
 #[doc = "🔳"]
-pub const WHITE_SQUARE_BUTTON : crate :: Emoji = crate :: Emoji { glyph : "🔳" , codepoint : "1F533" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "white square button" , group : "Symbols" , subgroup : "geometric" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("wit vierkant-knoppie") , keywords : & ["geometries" , "knoppie" , "vierkant" , "wit buitelyn" , "wit vierkant-knoppie"] , } , crate :: Annotation { lang : "am" , tts : Some ("በነጭ የተከበበ ካሬ አዝራር") , keywords : & ["በነጭ የተከበበ ካሬ አዝራር" , "አዝራር" , "ካሬ" , "የተነደፈ" , "ጂኦሜትሪያዊ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("زر مربع أبيض") , keywords : & ["زر" , "زر مربع أبيض" , "مربع"] , } , crate :: Annotation { lang : "as" , tts : Some ("বগ\u{9be} বৰ\u{9cd}গ ব\u{9c1}ট\u{9be}ম") , keywords : & ["জ\u{9cd}য\u{9be}মিতিক" , "বগ\u{9be} বৰ\u{9cd}গ ব\u{9c1}ট\u{9be}ম" , "ব\u{9c1}ট\u{9be}ম" , "বৰ\u{9cd}গ" , "ৰেখ\u{9be}স\u{9c2}চিত"] , } , crate :: Annotation { lang : "az" , tts : Some ("ağ kvadrat düymə") , keywords : & ["ağ kvadrat düymə" , "düymə" , "göstərilmiş" , "həndəsi" , "kvadrat"] , } , crate :: Annotation { lang : "be" , tts : Some ("белая квадратная кнопка") , keywords : & ["аб’ект" , "белая квадратная кнопка" , "белы" , "геаметрычны" , "квадрат" , "кнопка"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Квадратен бутон с бял контур") , keywords : & ["Квадратен бутон с бял контур" , "бутон" , "геометричен" , "квадрат" , "контур"] , } , crate :: Annotation { lang : "bn" , tts : Some ("স\u{9be}দ\u{9be} বর\u{9cd}গ\u{9be}ক\u{9be}র বোত\u{9be}ম") , keywords : & ["জ\u{9cd}য\u{9be}মিতিক" , "বর\u{9cd}গ\u{9be}ক\u{9be}র" , "বোত\u{9be}ম" , "র\u{9c2}পরেখ\u{9be}" , "স\u{9be}দ\u{9be} বর\u{9cd}গ\u{9be}ক\u{9be}র বোত\u{9be}ম"] , } , crate :: Annotation { lang : "bs" , tts : Some ("bijeli kvadrat dugme") , keywords : & ["bijeli kvadrat dugme" , "geometrija" , "kvadrat" , "tipka" , "u okviru"] , } , crate :: Annotation { lang : "ca" , tts : Some ("botó de quadrat blanc") , keywords : & ["blanc" , "botó" , "botó de quadrat blanc" , "geometria" , "quadrat"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏁᎦ ᏅᎩ ᏧᏅᏏᏯ ᎦᏛ") , keywords : & ["ᎤᏁᎦ ᏅᎩ ᏧᏅᏏᏯ ᎦᏛ" , "ᎤᏙᏢᏒ" , "ᎦᏗ" , "ᎦᏱᏕᏱᏍᏗ" , "ᏅᎩ ᏧᏅᏏᏱ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("bílé čtvercové tlačítko") , keywords : & ["bílé čtvercové tlačítko" , "geometrie" , "obrys" , "tlačítko" , "čtvercové" , "čtverec"] , } , crate :: Annotation { lang : "cy" , tts : Some ("botwm sgwâr gwyn") , keywords : & ["amlinelliad" , "botwm" , "botwm sgwâr gwyn" , "geometrig" , "sgwâr"] , } , crate :: Annotation { lang : "da" , tts : Some ("hvid kvadratisk knap") , keywords : & ["geometrisk" , "hvid kvadratisk knap" , "knap" , "kvadrat" , "omrids"] , } , crate :: Annotation { lang : "de" , tts : Some ("weiße quadratische Schaltfläche") , keywords : & ["Schaltfläche" , "quadratisch" , "weiß" , "weiße quadratische Schaltfläche"] , } , crate :: Annotation { lang : "de_CH" , tts : Some ("Weisse quadratische Schaltfläche") , keywords : & ["Schaltfläche" , "Weisse quadratische Schaltfläche" , "quadratisch" , "weiss"] , } , crate :: Annotation { lang : "el" , tts : Some ("λευκό τετράγωνο κουμπί") , keywords : & ["γεωμετρικό" , "κουμπί" , "λευκό τετράγωνο κουμπί" , "με περίγραμμα" , "τετράγωνο"] , } , crate :: Annotation { lang : "en" , tts : Some ("white square button") , keywords : & ["button" , "geometric" , "outlined" , "square" , "white square button"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("botón cuadrado con borde blanco") , keywords : & ["botón" , "botón cuadrado con borde blanco" , "cuadrado"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("cuadrado negro con borde blanco") , keywords : & ["blanco" , "borde" , "botón" , "cuadrado" , "cuadrado negro con borde blanco" , "marco" , "negro"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["borde" , "botón" , "cuadrado" , "cuadrado negro con borde blanco" , "marco"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["borde" , "botón" , "cuadrado" , "cuadrado negro con borde blanco" , "marco"] , } , crate :: Annotation { lang : "et" , tts : Some ("valge ruudukujuline nupp") , keywords : & ["geomeetria" , "nupp" , "piirjoon" , "ruut" , "valge ruudukujuline nupp"] , } , crate :: Annotation { lang : "eu" , tts : Some ("karratu zuri itxurako botoia") , keywords : & ["botoi" , "geometriko" , "karratu" , "karratu zuri itxurako botoia" , "nabarmendu"] , } , crate :: Annotation { lang : "fa" , tts : Some ("دکمۀ مربع سفید") , keywords : & ["توپ\u{64f}ر" , "دکمه" , "دکمۀ مربع سفید" , "شکل هندسی" , "مربع"] , } , crate :: Annotation { lang : "fi" , tts : Some ("valkoinen neliöruutu") , keywords : & ["muoto" , "neliö" , "valinta" , "valintaruutu" , "valkoinen neliöruutu"] , } , crate :: Annotation { lang : "fil" , tts : Some ("puting parisukat na button") , keywords : & ["buton" , "hugis" , "loob" , "parisukat" , "puti" , "puting parisukat na button"] , } , crate :: Annotation { lang : "fo" , tts : Some ("hvítur fýrakantaður karmur") , keywords : & ["fýrakantur" , "hvítur fýrakantaður karmur" , "karmur" , "mátingarfrøðiligur" , "rútur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("carré blanc") , keywords : & ["bouton" , "carré" , "carré blanc" , "forme" , "géométrie"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("bouton représentant un carré blanc") , keywords : & ["bouton" , "bouton représentant un carré blanc" , "carré blanc" , "géométrie"] , } , crate :: Annotation { lang : "ga" , tts : Some ("cearnóg bhán") , keywords : & ["cearnóg bhán"] , } , crate :: Annotation { lang : "gd" , tts : Some ("putan geal ceàrnagach") , keywords : & ["ceàrnag" , "ceàrnagach" , "geomatrach" , "oir-loidhne" , "putan" , "putan geal ceàrnagach"] , } , crate :: Annotation { lang : "gl" , tts : Some ("botón con cadrado branco") , keywords : & ["botón" , "botón con cadrado branco" , "branco" , "cadrado"] , } , crate :: Annotation { lang : "gu" , tts : Some ("સફ\u{ac7}દ ચોરસ બટન") , keywords : & ["ચોરસ" , "બટન" , "સફ\u{ac7}દ ચોરસ બટન"] , } , crate :: Annotation { lang : "ha" , tts : Some ("maɓallin farin murabba’i") , keywords : & ["ilimin halayen sura" , "mai rubutu a gefe" , "maɓallin" , "maɓallin farin murabba’i" , "murabba’i"] , } , crate :: Annotation { lang : "he" , tts : Some ("לחצן ריבוע לבן") , keywords : & ["לחצן" , "לחצן ריבוע לבן" , "מסגרת" , "צורה" , "ריבוע" , "ריבוע לבן"] , } , crate :: Annotation { lang : "hi" , tts : Some ("सफ\u{93c}\u{947}द वर\u{94d}ग बटन") , keywords : & ["ज\u{94d}यामिति" , "बटन" , "वर\u{94d}ग" , "सफ\u{93c}\u{947}द वर\u{94d}ग बटन"] , } , crate :: Annotation { lang : "hr" , tts : Some ("bijela uglata tipka") , keywords : & ["bijela uglata tipka" , "geometrija" , "gumb" , "obris" , "uglato"] , } , crate :: Annotation { lang : "hu" , tts : Some ("fehér, négyzet alakú gomb") , keywords : & ["bekeretezett" , "fehér, négyzet alakú gomb" , "gomb" , "négyzet"] , } , crate :: Annotation { lang : "hy" , tts : Some ("սպիտակ քառակուսի կոճակ") , keywords : & ["երկրաչափական" , "կոճակ" , "ուրվագծված" , "սպիտակ քառակուսի կոճակ" , "քառակուսի"] , } , crate :: Annotation { lang : "id" , tts : Some ("tombol persegi putih") , keywords : & ["garis luar" , "geometri" , "persegi" , "tombol" , "tombol persegi putih"] , } , crate :: Annotation { lang : "ig" , tts : Some ("ọdụmbi sukwia ọcha") , keywords : & ["edepụtara" , "mgbakọ" , "sukwia" , "ọdụmbi" , "ọdụmbi sukwia ọcha"] , } , crate :: Annotation { lang : "is" , tts : Some ("hvítur ferningslaga hnappur") , keywords : & ["ferningur" , "hnappur" , "hvítur ferningslaga hnappur"] , } , crate :: Annotation { lang : "it" , tts : Some ("tasto quadrato nero con bordo bianco") , keywords : & ["contorno" , "pulsante" , "pulsante quadrato con contorno" , "tasto quadrato nero con bordo bianco"] , } , crate :: Annotation { lang : "ja" , tts : Some ("白枠四角") , keywords : & ["ボタン" , "四角ボタン" , "正方形" , "白枠四角"] , } , crate :: Annotation { lang : "jv" , tts : Some ("tombol kothak putih") , keywords : & ["garis pinggir cetha" , "geometrik" , "kothak" , "tombol" , "tombol kothak putih"] , } , crate :: Annotation { lang : "ka" , tts : Some ("თეთრი კვადრატული ღილაკი") , keywords : & ["გეომეტრია" , "გეომეტრიული" , "თეთრი კვადრატული ღილაკი" , "კვადრატი" , "კონტურიანი" , "ღილაკი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("ақ шаршы түймесі") , keywords : & ["ақ шаршы түймесі" , "геометриялық" , "сызулы" , "түйме" , "шаршы"] , } , crate :: Annotation { lang : "kl" , tts : Some ("hvid kvadratisk knap") , keywords : & ["geometrisk" , "hvid kvadratisk knap" , "knap" , "kvadrat" , "omrids"] , } , crate :: Annotation { lang : "km" , tts : Some ("ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ខ\u{17d2}មៅនៅក\u{17d2}ន\u{17bb}ងប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ស") , keywords : & ["ខ\u{17d2}មៅ" , "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ង" , "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ខ\u{17d2}មៅនៅក\u{17d2}ន\u{17bb}ងប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ស" , "ស"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಬ\u{cbf}ಳ\u{cbf} ಚ\u{ccc}ಕದ ಬಟನ\u{ccd}") , keywords : & ["ಚ\u{ccc}ಕ" , "ಜ\u{ccd}ಯಾಮ\u{cbf}ತೀಯ" , "ಬಟನ\u{ccd}" , "ಬ\u{cbf}ಳ\u{cbf} ಚದರ ಬಟನ\u{ccd}" , "ಬ\u{cbf}ಳ\u{cbf} ಚ\u{ccc}ಕದ ಬಟನ\u{ccd}" , "ವ\u{cbf}ವರಣಾತ\u{ccd}ಮಕ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("테두리가 하얀 사각 버튼") , keywords : & ["버튼" , "사각형" , "테두리가 하얀 사각 버튼"] , } , crate :: Annotation { lang : "kok" , tts : Some ("धवो चवकोन बटण") , keywords : & ["चवकोन" , "जियोम\u{945}ट\u{94d}रीक" , "धवो चवकोन बटण" , "बटण" , "र\u{941}पर\u{947}खा"] , } , crate :: Annotation { lang : "ky" , tts : Some ("ак чарчы баскычы") , keywords : & ["ак чарчы баскычы" , "алкакта" , "баскыч" , "геометрия" , "чарчы"] , } , crate :: Annotation { lang : "lb" , tts : Some ("wäisse véiereckege Knäppchen") , keywords : & ["Knäppchen" , "Kontur" , "Quadrat" , "geometresch" , "wäisse véiereckege Knäppchen"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ປ\u{eb8}\u{ec8}ມສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມຂາວ") , keywords : & ["ຂາວ" , "ປ\u{eb8}\u{ec8}ມ" , "ປ\u{eb8}\u{ec8}ມສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມຂາວ" , "ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("baltas kvadratinis mygtukas") , keywords : & ["baltas kvadratinis mygtukas" , "geometrija" , "kontūras" , "kvadratas" , "mygtukas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("balta kvadrātveida poga") , keywords : & ["balta kvadrātveida poga" , "kvadrāts" , "ģeometrija"] , } , crate :: Annotation { lang : "mi" , tts : Some ("pātene tapawhā mā") , keywords : & ["pātene" , "pātene tapawhā mā" , "tapawhā rite" , "whakahuahua" , "āhuahanga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("бело квадратно копче") , keywords : & ["бело квадратно копче" , "геометрија" , "квадрат" , "копче"] , } , crate :: Annotation { lang : "ml" , tts : Some ("വെള\u{d41}ത\u{d4d}ത ചത\u{d41}ര ബട\u{d4d}ടൺ") , keywords : & ["ചത\u{d41}ര ബട\u{d4d}ടൺ" , "ചത\u{d41}രം" , "ബട\u{d4d}ടൺ" , "വെള\u{d41}ത\u{d4d}ത ചത\u{d41}ര ബട\u{d4d}ടൺ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("цагаан дөрвөлжин товчлуур") , keywords : & ["геометр" , "дөрвөлжин" , "товч" , "хүрээтэй" , "цагаан дөрвөлжин товчлуур"] , } , crate :: Annotation { lang : "mr" , tts : Some ("पा\u{902}ढर\u{947} चौरस बटण") , keywords : & ["आर\u{947}खन" , "चौरस" , "पा\u{902}ढर\u{947} चौरस बटण" , "बटण" , "भ\u{942}मितीय"] , } , crate :: Annotation { lang : "ms" , tts : Some ("butang persegi putih") , keywords : & ["butang" , "butang persegi putih" , "digariskan" , "geometri" , "persegi"] , } , crate :: Annotation { lang : "mt" , tts : Some ("buttuna kwadra bajda") , keywords : & ["buttuna" , "buttuna kwadra bajda" , "kwadra" , "spjegati" , "ġeometrika"] , } , crate :: Annotation { lang : "my" , tts : Some ("အဖြ\u{1030}ရောင\u{103a} လေးထောင\u{1037}\u{103a}ခလ\u{102f}တ\u{103a}") , keywords : & ["ခလ\u{102f}တ\u{103a}" , "ဂျ\u{102e}ဩမေတြ\u{102e}" , "မ\u{103e}တ\u{103a}ပေးထား" , "လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a}" , "အဖြ\u{1030}ရောင\u{103a} လေးထောင\u{1037}\u{103a}ခလ\u{102f}တ\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("hvit firkantet knapp") , keywords : & ["firkant" , "hvit firkantet knapp" , "knapp"] , } , crate :: Annotation { lang : "ne" , tts : Some ("स\u{947}तो वर\u{94d}गीय बटन") , keywords : & ["छ\u{947}उको र\u{947}खा" , "ज\u{94d}यामितीय" , "बटन" , "वर\u{94d}ग" , "स\u{947}तो वर\u{94d}गीय बटन"] , } , crate :: Annotation { lang : "nl" , tts : Some ("witte vierkante knop") , keywords : & ["geometrisch" , "knop" , "omlijnd" , "vierkant" , "witte vierkante knop"] , } , crate :: Annotation { lang : "nn" , tts : Some ("kvit firkanta knapp") , keywords : & ["firkant" , "knapp" , "kvit firkanta knapp"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଧଳ\u{b3e} ବର\u{b4d}ଗ\u{b3e}କ\u{b3e}ର ବଟନ\u{b4d}\u{200c}") , keywords : & ["ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ" , "ଧଳ\u{b3e} ବର\u{b4d}ଗ\u{b3e}କ\u{b3e}ର ବଟନ\u{b4d}\u{200c}" , "ବଟନ\u{b4d}\u{200c}" , "ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର" , "ବ\u{b3e}ହ\u{b4d}ୟରେଖ\u{b3e}କ\u{b43}ତ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਵਰਗਾਕਾਰ ਸਫ\u{a47}ਦ ਬਟਨ") , keywords : & ["ਜਯਾਮਿਤੀ" , "ਬਟਨ" , "ਰ\u{a47}ਖਾ\u{a02}ਕਿਤ" , "ਵਰਗ" , "ਵਰਗਾਕਾਰ ਸਫ\u{a47}ਦ ਬਟਨ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("چٹا مربعی بٹن") , keywords : & ["بٹن" , "جیومیٹری دے متعلق" , "خاکہ ش\u{64f}دہ" , "مربع" , "چٹا مربعی بٹن"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Waít Skweá Bọ\u{301}tin") , keywords : & ["Bọ\u{301}dá-Lain" , "Bọ\u{301}tin" , "Jiọ\u{301}mẹ\u{301}tri" , "Skwea" , "Waít Skweá Bọ\u{301}tin"] , } , crate :: Annotation { lang : "pl" , tts : Some ("biały kwadratowy przycisk") , keywords : & ["biały" , "biały kwadratowy przycisk" , "czarny" , "figura geometryczna" , "kwadrat" , "obramowanie"] , } , crate :: Annotation { lang : "ps" , tts : Some ("سپینه مربع بټن") , keywords : & ["بټن" , "جيوميتريکي" , "سپینه مربع بټن" , "مربع" , "چاپيره"] , } , crate :: Annotation { lang : "pt" , tts : Some ("botão quadrado branco") , keywords : & ["botão" , "botão quadrado branco" , "botão quadrado branco e preto" , "quadrado"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("botão quadrado branco") , keywords : & ["botão" , "botão quadrado branco" , "delineado" , "geométrico" , "quadrado"] , } , crate :: Annotation { lang : "ro" , tts : Some ("buton pătrat alb") , keywords : & ["buton pătrat alb" , "contur" , "geometric" , "pătrat"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-751") , keywords : & ["E10-751"] , } , crate :: Annotation { lang : "ru" , tts : Some ("кнопка с белой рамкой") , keywords : & ["белая" , "квадрат" , "кнопка" , "кнопка с белой рамкой"] , } , crate :: Annotation { lang : "rw" , tts : Some ("buto ya kare y’umweru") , keywords : & ["buto ya kare y’umweru" , "byagaragajwe" , "byerekeye jewometiri" , "ibuto" , "mpandenye"] , } , crate :: Annotation { lang : "sd" , tts : Some ("اڇو چورس بٽڻ") , keywords : & ["اڇو چورس بٽڻ" , "بٽڻ" , "جيوميٽرڪ" , "ڀريل" , "چورس"] , } , crate :: Annotation { lang : "si" , tts : Some ("ස\u{dd4}ද\u{dd4} හතරැස\u{dca} බොත\u{dca}තම") , keywords : & ["කොට\u{dd4}ව" , "ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක" , "බොත\u{dca}තම" , "වැට\u{dd2}සන" , "ස\u{dd4}ද\u{dd4} හතරැස\u{dca} බොත\u{dca}තම"] , } , crate :: Annotation { lang : "sk" , tts : Some ("biele hranaté tlačidlo") , keywords : & ["biele hranaté tlačidlo" , "geometria" , "obrys" , "tlačidlo" , "štvorec"] , } , crate :: Annotation { lang : "sl" , tts : Some ("gumb z belim kvadratom") , keywords : & ["geometrično" , "gumb" , "gumb z belim kvadratom" , "kvadrat" , "obrobljeno"] , } , crate :: Annotation { lang : "so" , tts : Some ("badhan afar gees oo cad") , keywords : & ["afar gees" , "badhan" , "badhan afar gees ah oo cad" , "badhan afar gees oo cad" , "joometriyeed" , "sharaxan"] , } , crate :: Annotation { lang : "sq" , tts : Some ("buton katror i bardhë") , keywords : & ["buton" , "buton katror i bardhë" , "gjeometrik" , "i konturuar" , "katror"] , } , crate :: Annotation { lang : "sr" , tts : Some ("бело квадратно дугме") , keywords : & ["oбрис" , "бело квадратно дугме" , "гeoмeтриja" , "дугме" , "квадратно"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("бијело квадратно дугме") , keywords : & ["бијело квадратно дугме"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("belo kvadratno dugme") , keywords : & ["belo kvadratno dugme" , "dugme" , "geometrija" , "kvadratno" , "obris"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : Some ("bijelo kvadratno dugme") , keywords : & ["bijelo kvadratno dugme"] , } , crate :: Annotation { lang : "sv" , tts : Some ("vit fyrkantig knapp") , keywords : & ["fyrkant" , "knapp" , "vit fyrkantig knapp"] , } , crate :: Annotation { lang : "sw" , tts : Some ("kitufe cheupe cha mraba") , keywords : & ["iliyobainishwa" , "jiometri" , "kitufe" , "kitufe cheupe cha mraba" , "mraba"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("வெள\u{bcd}ளை சதுர பட\u{bcd}டன\u{bcd}") , keywords : & ["ஒயிட\u{bcd} ஸ\u{bcd}கொயர\u{bcd}" , "சதுர பட\u{bcd}டன\u{bcd}" , "பட\u{bcd}டன\u{bcd}" , "வெள\u{bcd}ளை சதுர பட\u{bcd}டன\u{bcd}" , "வெள\u{bcd}ளை சதுரம\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("త\u{c46}లుపు రంగు చతురస\u{c4d}రం") , keywords : & ["చతురస\u{c4d}రం" , "త\u{c46}లుపు రంగు" , "త\u{c46}లుపు రంగు చతురస\u{c4d}రం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("тугмаи \"Чоркунҷаи сафед\"") , keywords : & ["геометрӣ" , "тугма" , "тугмаи \"Чоркунҷаи сафед\"" , "чоркунҷа" , "ҳошиядор"] , } , crate :: Annotation { lang : "th" , tts : Some ("ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมขอบขาว") , keywords : & ["ป\u{e38}\u{e48}ม" , "ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมขอบขาว" , "ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมส\u{e35}ขาว" , "ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยม"] , } , crate :: Annotation { lang : "ti" , tts : Some ("ጻዕዳ ትርብዒት መልጎም") , keywords : & ["መልጎም" , "ትርብዒት" , "ንድፊ" , "ጂኦሜትሪክ" , "ጻዕዳ ትርብዒት መልጎም"] , } , crate :: Annotation { lang : "tk" , tts : Some ("ak inedördül düwme") , keywords : & ["ak inedördül düwme" , "düwme" , "geometrik" , "inedördül" , "çarçuwaly"] , } , crate :: Annotation { lang : "to" , tts : Some ("meʻalolomi tapafā hinehina") , keywords : & ["hinehina" , "meʻalolomi" , "tapafā"] , } , crate :: Annotation { lang : "tr" , tts : Some ("beyaz kare düğme") , keywords : & ["beyaz kare düğme" , "düğme" , "kare"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئاق كىۋادرات كۇنۇپكىسى") , keywords : & ["ئاق كىۋادرات كۇنۇپكىسى" , "سىزىق" , "كىۋادرات" , "كۇنۇپكا" , "گېئومېتىرىيە"] , } , crate :: Annotation { lang : "uk" , tts : Some ("квадратна кнопка з білою рамкою") , keywords : & ["біла квадратна кнопка" , "геометричний" , "квадрат" , "квадратна кнопка з білою рамкою" , "кнопка" , "контур"] , } , crate :: Annotation { lang : "ur" , tts : Some ("سفید چوکور بٹن") , keywords : & ["بٹن" , "جیومیٹری" , "سفید" , "چوکور"] , } , crate :: Annotation { lang : "uz" , tts : Some ("oq kvadrat katak") , keywords : & ["chizilgan" , "geometriya" , "katak" , "kvadrat" , "oq kvadrat katak"] , } , crate :: Annotation { lang : "vi" , tts : Some ("nút hình vuông màu trắng") , keywords : & ["hình học" , "hình vuông" , "mờ" , "nút" , "nút hình vuông màu trắng"] , } , crate :: Annotation { lang : "wo" , tts : Some ("bitoŋu kaare bu weex") , keywords : & ["bitoŋ" , "bitoŋu kaare bu weex" , "fësal" , "kaare" , "wu-geometri"] , } , crate :: Annotation { lang : "xh" , tts : Some ("iqhosha leskwere elimhlophe") , keywords : & ["ibalaseliswe umphandle" , "ijiyometriki" , "iqhosha" , "iqhosha leskwere elimhlophe" , "iskwere"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Bọtini Onigunmẹrin Funfun") , keywords : & ["Bó\u{329}tìnì" , "Bọtini Onigunmẹrin Funfun" , "jiomẹ\u{301}tíríkì" , "onígun mé\u{329}rin" , "ààtò"] , } , crate :: Annotation { lang : "yue" , tts : Some ("白色方形按鈕") , keywords : & ["外框" , "幾何" , "按鈕" , "正方形" , "白色方形按鈕"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("白色方形按钮") , keywords : & ["几何" , "外框" , "按钮" , "正方形" , "白色方形按钮"] , } , crate :: Annotation { lang : "zh" , tts : Some ("白色方形按钮") , keywords : & ["按钮" , "白线方形按钮" , "白线正方形按钮" , "白色方形按钮" , "白色正方形按钮" , "白边线方形按钮" , "白边线正方形按钮"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("白色方按鈕") , keywords : & ["按鈕" , "白色方按鈕"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("白色正方形按鈕") , keywords : & ["按鈕" , "白色正方形按鈕"] , } , crate :: Annotation { lang : "zu" , tts : Some ("inkonobho eyiskwele emhlophe") , keywords : & ["inkobho" , "inkonobho eyiskwele emhlophe" , "iskwele" , "jiyometrikhi" , "okugqanyisiwe"] , }] , } ;
+pub const WHITE_SQUARE_BUTTON: crate::Emoji = crate::Emoji {
+    glyph: "🔳",
+    codepoint: "1F533",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "white square button",
+    group: "Symbols",
+    subgroup: "geometric",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("wit vierkant-knoppie"),
+            keywords: &[
+                "geometries",
+                "knoppie",
+                "vierkant",
+                "wit buitelyn",
+                "wit vierkant-knoppie",
+            ],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("በነጭ የተከበበ ካሬ አዝራር"),
+            keywords: &["በነጭ የተከበበ ካሬ አዝራር", "አዝራር", "ካሬ", "የተነደፈ", "ጂኦሜትሪያዊ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("زر مربع أبيض"),
+            keywords: &["زر", "زر مربع أبيض", "مربع"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("বগ\u{9be} বৰ\u{9cd}গ ব\u{9c1}ট\u{9be}ম"),
+            keywords: &[
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "বগ\u{9be} বৰ\u{9cd}গ ব\u{9c1}ট\u{9be}ম",
+                "ব\u{9c1}ট\u{9be}ম",
+                "বৰ\u{9cd}গ",
+                "ৰেখ\u{9be}স\u{9c2}চিত",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("ağ kvadrat düymə"),
+            keywords: &[
+                "ağ kvadrat düymə",
+                "düymə",
+                "göstərilmiş",
+                "həndəsi",
+                "kvadrat",
+            ],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("белая квадратная кнопка"),
+            keywords: &[
+                "аб’ект",
+                "белая квадратная кнопка",
+                "белы",
+                "геаметрычны",
+                "квадрат",
+                "кнопка",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Квадратен бутон с бял контур"),
+            keywords: &[
+                "Квадратен бутон с бял контур",
+                "бутон",
+                "геометричен",
+                "квадрат",
+                "контур",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("স\u{9be}দ\u{9be} বর\u{9cd}গ\u{9be}ক\u{9be}র বোত\u{9be}ম"),
+            keywords: &[
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "বর\u{9cd}গ\u{9be}ক\u{9be}র",
+                "বোত\u{9be}ম",
+                "র\u{9c2}পরেখ\u{9be}",
+                "স\u{9be}দ\u{9be} বর\u{9cd}গ\u{9be}ক\u{9be}র বোত\u{9be}ম",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("bijeli kvadrat dugme"),
+            keywords: &[
+                "bijeli kvadrat dugme",
+                "geometrija",
+                "kvadrat",
+                "tipka",
+                "u okviru",
+            ],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("botó de quadrat blanc"),
+            keywords: &[
+                "blanc",
+                "botó",
+                "botó de quadrat blanc",
+                "geometria",
+                "quadrat",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎤᏁᎦ ᏅᎩ ᏧᏅᏏᏯ ᎦᏛ"),
+            keywords: &["ᎤᏁᎦ ᏅᎩ ᏧᏅᏏᏯ ᎦᏛ", "ᎤᏙᏢᏒ", "ᎦᏗ", "ᎦᏱᏕᏱᏍᏗ", "ᏅᎩ ᏧᏅᏏᏱ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("bílé čtvercové tlačítko"),
+            keywords: &[
+                "bílé čtvercové tlačítko",
+                "geometrie",
+                "obrys",
+                "tlačítko",
+                "čtvercové",
+                "čtverec",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("botwm sgwâr gwyn"),
+            keywords: &[
+                "amlinelliad",
+                "botwm",
+                "botwm sgwâr gwyn",
+                "geometrig",
+                "sgwâr",
+            ],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("hvid kvadratisk knap"),
+            keywords: &[
+                "geometrisk",
+                "hvid kvadratisk knap",
+                "knap",
+                "kvadrat",
+                "omrids",
+            ],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("weiße quadratische Schaltfläche"),
+            keywords: &[
+                "Schaltfläche",
+                "quadratisch",
+                "weiß",
+                "weiße quadratische Schaltfläche",
+            ],
+        },
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("Weisse quadratische Schaltfläche"),
+            keywords: &[
+                "Schaltfläche",
+                "Weisse quadratische Schaltfläche",
+                "quadratisch",
+                "weiss",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("λευκό τετράγωνο κουμπί"),
+            keywords: &[
+                "γεωμετρικό",
+                "κουμπί",
+                "λευκό τετράγωνο κουμπί",
+                "με περίγραμμα",
+                "τετράγωνο",
+            ],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("white square button"),
+            keywords: &[
+                "button",
+                "geometric",
+                "outlined",
+                "square",
+                "white square button",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("botón cuadrado con borde blanco"),
+            keywords: &["botón", "botón cuadrado con borde blanco", "cuadrado"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("cuadrado negro con borde blanco"),
+            keywords: &[
+                "blanco",
+                "borde",
+                "botón",
+                "cuadrado",
+                "cuadrado negro con borde blanco",
+                "marco",
+                "negro",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "borde",
+                "botón",
+                "cuadrado",
+                "cuadrado negro con borde blanco",
+                "marco",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "borde",
+                "botón",
+                "cuadrado",
+                "cuadrado negro con borde blanco",
+                "marco",
+            ],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("valge ruudukujuline nupp"),
+            keywords: &[
+                "geomeetria",
+                "nupp",
+                "piirjoon",
+                "ruut",
+                "valge ruudukujuline nupp",
+            ],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("karratu zuri itxurako botoia"),
+            keywords: &[
+                "botoi",
+                "geometriko",
+                "karratu",
+                "karratu zuri itxurako botoia",
+                "nabarmendu",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("دکمۀ مربع سفید"),
+            keywords: &["توپ\u{64f}ر", "دکمه", "دکمۀ مربع سفید", "شکل هندسی", "مربع"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("valkoinen neliöruutu"),
+            keywords: &[
+                "muoto",
+                "neliö",
+                "valinta",
+                "valintaruutu",
+                "valkoinen neliöruutu",
+            ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("puting parisukat na button"),
+            keywords: &[
+                "buton",
+                "hugis",
+                "loob",
+                "parisukat",
+                "puti",
+                "puting parisukat na button",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("hvítur fýrakantaður karmur"),
+            keywords: &[
+                "fýrakantur",
+                "hvítur fýrakantaður karmur",
+                "karmur",
+                "mátingarfrøðiligur",
+                "rútur",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("carré blanc"),
+            keywords: &["bouton", "carré", "carré blanc", "forme", "géométrie"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("bouton représentant un carré blanc"),
+            keywords: &[
+                "bouton",
+                "bouton représentant un carré blanc",
+                "carré blanc",
+                "géométrie",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("cearnóg bhán"),
+            keywords: &["cearnóg bhán"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("putan geal ceàrnagach"),
+            keywords: &[
+                "ceàrnag",
+                "ceàrnagach",
+                "geomatrach",
+                "oir-loidhne",
+                "putan",
+                "putan geal ceàrnagach",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("botón con cadrado branco"),
+            keywords: &["botón", "botón con cadrado branco", "branco", "cadrado"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("સફ\u{ac7}દ ચોરસ બટન"),
+            keywords: &["ચોરસ", "બટન", "સફ\u{ac7}દ ચોરસ બટન"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("maɓallin farin murabba’i"),
+            keywords: &[
+                "ilimin halayen sura",
+                "mai rubutu a gefe",
+                "maɓallin",
+                "maɓallin farin murabba’i",
+                "murabba’i",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("לחצן ריבוע לבן"),
+            keywords: &[
+                "לחצן",
+                "לחצן ריבוע לבן",
+                "מסגרת",
+                "צורה",
+                "ריבוע",
+                "ריבוע לבן",
+            ],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("सफ\u{93c}\u{947}द वर\u{94d}ग बटन"),
+            keywords: &[
+                "ज\u{94d}यामिति",
+                "बटन",
+                "वर\u{94d}ग",
+                "सफ\u{93c}\u{947}द वर\u{94d}ग बटन",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("bijela uglata tipka"),
+            keywords: &[
+                "bijela uglata tipka",
+                "geometrija",
+                "gumb",
+                "obris",
+                "uglato",
+            ],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("fehér, négyzet alakú gomb"),
+            keywords: &[
+                "bekeretezett",
+                "fehér, négyzet alakú gomb",
+                "gomb",
+                "négyzet",
+            ],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("սպիտակ քառակուսի կոճակ"),
+            keywords: &[
+                "երկրաչափական",
+                "կոճակ",
+                "ուրվագծված",
+                "սպիտակ քառակուսի կոճակ",
+                "քառակուսի",
+            ],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("tombol persegi putih"),
+            keywords: &[
+                "garis luar",
+                "geometri",
+                "persegi",
+                "tombol",
+                "tombol persegi putih",
+            ],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ọdụmbi sukwia ọcha"),
+            keywords: &[
+                "edepụtara",
+                "mgbakọ",
+                "sukwia",
+                "ọdụmbi",
+                "ọdụmbi sukwia ọcha",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("hvítur ferningslaga hnappur"),
+            keywords: &["ferningur", "hnappur", "hvítur ferningslaga hnappur"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("tasto quadrato nero con bordo bianco"),
+            keywords: &[
+                "contorno",
+                "pulsante",
+                "pulsante quadrato con contorno",
+                "tasto quadrato nero con bordo bianco",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("白枠四角"),
+            keywords: &["ボタン", "四角ボタン", "正方形", "白枠四角"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("tombol kothak putih"),
+            keywords: &[
+                "garis pinggir cetha",
+                "geometrik",
+                "kothak",
+                "tombol",
+                "tombol kothak putih",
+            ],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("თეთრი კვადრატული ღილაკი"),
+            keywords: &[
+                "გეომეტრია",
+                "გეომეტრიული",
+                "თეთრი კვადრატული ღილაკი",
+                "კვადრატი",
+                "კონტურიანი",
+                "ღილაკი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("ақ шаршы түймесі"),
+            keywords: &[
+                "ақ шаршы түймесі",
+                "геометриялық",
+                "сызулы",
+                "түйме",
+                "шаршы",
+            ],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("hvid kvadratisk knap"),
+            keywords: &[
+                "geometrisk",
+                "hvid kvadratisk knap",
+                "knap",
+                "kvadrat",
+                "omrids",
+            ],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some(
+                "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ខ\u{17d2}មៅនៅក\u{17d2}ន\u{17bb}ងប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ស",
+            ),
+            keywords: &[
+                "ខ\u{17d2}មៅ",
+                "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ង",
+                "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ខ\u{17d2}មៅនៅក\u{17d2}ន\u{17bb}ងប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ស",
+                "ស",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಬ\u{cbf}ಳ\u{cbf} ಚ\u{ccc}ಕದ ಬಟನ\u{ccd}"),
+            keywords: &[
+                "ಚ\u{ccc}ಕ",
+                "ಜ\u{ccd}ಯಾಮ\u{cbf}ತೀಯ",
+                "ಬಟನ\u{ccd}",
+                "ಬ\u{cbf}ಳ\u{cbf} ಚದರ ಬಟನ\u{ccd}",
+                "ಬ\u{cbf}ಳ\u{cbf} ಚ\u{ccc}ಕದ ಬಟನ\u{ccd}",
+                "ವ\u{cbf}ವರಣಾತ\u{ccd}ಮಕ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("테두리가 하얀 사각 버튼"),
+            keywords: &["버튼", "사각형", "테두리가 하얀 사각 버튼"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("धवो चवकोन बटण"),
+            keywords: &[
+                "चवकोन",
+                "जियोम\u{945}ट\u{94d}रीक",
+                "धवो चवकोन बटण",
+                "बटण",
+                "र\u{941}पर\u{947}खा",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("ак чарчы баскычы"),
+            keywords: &[
+                "ак чарчы баскычы",
+                "алкакта",
+                "баскыч",
+                "геометрия",
+                "чарчы",
+            ],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("wäisse véiereckege Knäppchen"),
+            keywords: &[
+                "Knäppchen",
+                "Kontur",
+                "Quadrat",
+                "geometresch",
+                "wäisse véiereckege Knäppchen",
+            ],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ປ\u{eb8}\u{ec8}ມສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມຂາວ"),
+            keywords: &[
+                "ຂາວ",
+                "ປ\u{eb8}\u{ec8}ມ",
+                "ປ\u{eb8}\u{ec8}ມສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມຂາວ",
+                "ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("baltas kvadratinis mygtukas"),
+            keywords: &[
+                "baltas kvadratinis mygtukas",
+                "geometrija",
+                "kontūras",
+                "kvadratas",
+                "mygtukas",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("balta kvadrātveida poga"),
+            keywords: &["balta kvadrātveida poga", "kvadrāts", "ģeometrija"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("pātene tapawhā mā"),
+            keywords: &[
+                "pātene",
+                "pātene tapawhā mā",
+                "tapawhā rite",
+                "whakahuahua",
+                "āhuahanga",
+            ],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("бело квадратно копче"),
+            keywords: &["бело квадратно копче", "геометрија", "квадрат", "копче"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("വെള\u{d41}ത\u{d4d}ത ചത\u{d41}ര ബട\u{d4d}ടൺ"),
+            keywords: &[
+                "ചത\u{d41}ര ബട\u{d4d}ടൺ",
+                "ചത\u{d41}രം",
+                "ബട\u{d4d}ടൺ",
+                "വെള\u{d41}ത\u{d4d}ത ചത\u{d41}ര ബട\u{d4d}ടൺ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("цагаан дөрвөлжин товчлуур"),
+            keywords: &[
+                "геометр",
+                "дөрвөлжин",
+                "товч",
+                "хүрээтэй",
+                "цагаан дөрвөлжин товчлуур",
+            ],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("पा\u{902}ढर\u{947} चौरस बटण"),
+            keywords: &[
+                "आर\u{947}खन",
+                "चौरस",
+                "पा\u{902}ढर\u{947} चौरस बटण",
+                "बटण",
+                "भ\u{942}मितीय",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("butang persegi putih"),
+            keywords: &[
+                "butang",
+                "butang persegi putih",
+                "digariskan",
+                "geometri",
+                "persegi",
+            ],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("buttuna kwadra bajda"),
+            keywords: &[
+                "buttuna",
+                "buttuna kwadra bajda",
+                "kwadra",
+                "spjegati",
+                "ġeometrika",
+            ],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အဖြ\u{1030}ရောင\u{103a} လေးထောင\u{1037}\u{103a}ခလ\u{102f}တ\u{103a}"),
+            keywords: &[
+                "ခလ\u{102f}တ\u{103a}",
+                "ဂျ\u{102e}ဩမေတြ\u{102e}",
+                "မ\u{103e}တ\u{103a}ပေးထား",
+                "လေးထောင\u{1037}\u{103a}က\u{103d}က\u{103a}",
+                "အဖြ\u{1030}ရောင\u{103a} လေးထောင\u{1037}\u{103a}ခလ\u{102f}တ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("hvit firkantet knapp"),
+            keywords: &["firkant", "hvit firkantet knapp", "knapp"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("स\u{947}तो वर\u{94d}गीय बटन"),
+            keywords: &[
+                "छ\u{947}उको र\u{947}खा",
+                "ज\u{94d}यामितीय",
+                "बटन",
+                "वर\u{94d}ग",
+                "स\u{947}तो वर\u{94d}गीय बटन",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("witte vierkante knop"),
+            keywords: &[
+                "geometrisch",
+                "knop",
+                "omlijnd",
+                "vierkant",
+                "witte vierkante knop",
+            ],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("kvit firkanta knapp"),
+            keywords: &["firkant", "knapp", "kvit firkanta knapp"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଧଳ\u{b3e} ବର\u{b4d}ଗ\u{b3e}କ\u{b3e}ର ବଟନ\u{b4d}\u{200c}"),
+            keywords: &[
+                "ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ",
+                "ଧଳ\u{b3e} ବର\u{b4d}ଗ\u{b3e}କ\u{b3e}ର ବଟନ\u{b4d}\u{200c}",
+                "ବଟନ\u{b4d}\u{200c}",
+                "ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର",
+                "ବ\u{b3e}ହ\u{b4d}ୟରେଖ\u{b3e}କ\u{b43}ତ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਵਰਗਾਕਾਰ ਸਫ\u{a47}ਦ ਬਟਨ"),
+            keywords: &[
+                "ਜਯਾਮਿਤੀ",
+                "ਬਟਨ",
+                "ਰ\u{a47}ਖਾ\u{a02}ਕਿਤ",
+                "ਵਰਗ",
+                "ਵਰਗਾਕਾਰ ਸਫ\u{a47}ਦ ਬਟਨ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("چٹا مربعی بٹن"),
+            keywords: &[
+                "بٹن",
+                "جیومیٹری دے متعلق",
+                "خاکہ ش\u{64f}دہ",
+                "مربع",
+                "چٹا مربعی بٹن",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Waít Skweá Bọ\u{301}tin"),
+            keywords: &[
+                "Bọ\u{301}dá-Lain",
+                "Bọ\u{301}tin",
+                "Jiọ\u{301}mẹ\u{301}tri",
+                "Skwea",
+                "Waít Skweá Bọ\u{301}tin",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("biały kwadratowy przycisk"),
+            keywords: &[
+                "biały",
+                "biały kwadratowy przycisk",
+                "czarny",
+                "figura geometryczna",
+                "kwadrat",
+                "obramowanie",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("سپینه مربع بټن"),
+            keywords: &["بټن", "جيوميتريکي", "سپینه مربع بټن", "مربع", "چاپيره"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("botão quadrado branco"),
+            keywords: &[
+                "botão",
+                "botão quadrado branco",
+                "botão quadrado branco e preto",
+                "quadrado",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("botão quadrado branco"),
+            keywords: &[
+                "botão",
+                "botão quadrado branco",
+                "delineado",
+                "geométrico",
+                "quadrado",
+            ],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("buton pătrat alb"),
+            keywords: &["buton pătrat alb", "contur", "geometric", "pătrat"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-751"),
+            keywords: &["E10-751"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("кнопка с белой рамкой"),
+            keywords: &["белая", "квадрат", "кнопка", "кнопка с белой рамкой"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("buto ya kare y’umweru"),
+            keywords: &[
+                "buto ya kare y’umweru",
+                "byagaragajwe",
+                "byerekeye jewometiri",
+                "ibuto",
+                "mpandenye",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("اڇو چورس بٽڻ"),
+            keywords: &["اڇو چورس بٽڻ", "بٽڻ", "جيوميٽرڪ", "ڀريل", "چورس"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ස\u{dd4}ද\u{dd4} හතරැස\u{dca} බොත\u{dca}තම"),
+            keywords: &[
+                "කොට\u{dd4}ව",
+                "ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක",
+                "බොත\u{dca}තම",
+                "වැට\u{dd2}සන",
+                "ස\u{dd4}ද\u{dd4} හතරැස\u{dca} බොත\u{dca}තම",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("biele hranaté tlačidlo"),
+            keywords: &[
+                "biele hranaté tlačidlo",
+                "geometria",
+                "obrys",
+                "tlačidlo",
+                "štvorec",
+            ],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("gumb z belim kvadratom"),
+            keywords: &[
+                "geometrično",
+                "gumb",
+                "gumb z belim kvadratom",
+                "kvadrat",
+                "obrobljeno",
+            ],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("badhan afar gees oo cad"),
+            keywords: &[
+                "afar gees",
+                "badhan",
+                "badhan afar gees ah oo cad",
+                "badhan afar gees oo cad",
+                "joometriyeed",
+                "sharaxan",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("buton katror i bardhë"),
+            keywords: &[
+                "buton",
+                "buton katror i bardhë",
+                "gjeometrik",
+                "i konturuar",
+                "katror",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("бело квадратно дугме"),
+            keywords: &[
+                "oбрис",
+                "бело квадратно дугме",
+                "гeoмeтриja",
+                "дугме",
+                "квадратно",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("бијело квадратно дугме"),
+            keywords: &["бијело квадратно дугме"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("belo kvadratno dugme"),
+            keywords: &[
+                "belo kvadratno dugme",
+                "dugme",
+                "geometrija",
+                "kvadratno",
+                "obris",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: Some("bijelo kvadratno dugme"),
+            keywords: &["bijelo kvadratno dugme"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("vit fyrkantig knapp"),
+            keywords: &["fyrkant", "knapp", "vit fyrkantig knapp"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kitufe cheupe cha mraba"),
+            keywords: &[
+                "iliyobainishwa",
+                "jiometri",
+                "kitufe",
+                "kitufe cheupe cha mraba",
+                "mraba",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("வெள\u{bcd}ளை சதுர பட\u{bcd}டன\u{bcd}"),
+            keywords: &[
+                "ஒயிட\u{bcd} ஸ\u{bcd}கொயர\u{bcd}",
+                "சதுர பட\u{bcd}டன\u{bcd}",
+                "பட\u{bcd}டன\u{bcd}",
+                "வெள\u{bcd}ளை சதுர பட\u{bcd}டன\u{bcd}",
+                "வெள\u{bcd}ளை சதுரம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("త\u{c46}లుపు రంగు చతురస\u{c4d}రం"),
+            keywords: &[
+                "చతురస\u{c4d}రం",
+                "త\u{c46}లుపు రంగు",
+                "త\u{c46}లుపు రంగు చతురస\u{c4d}రం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("тугмаи \"Чоркунҷаи сафед\""),
+            keywords: &[
+                "геометрӣ",
+                "тугма",
+                "тугмаи \"Чоркунҷаи сафед\"",
+                "чоркунҷа",
+                "ҳошиядор",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมขอบขาว"),
+            keywords: &[
+                "ป\u{e38}\u{e48}ม",
+                "ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมขอบขาว",
+                "ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมส\u{e35}ขาว",
+                "ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยม",
+            ],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ጻዕዳ ትርብዒት መልጎም"),
+            keywords: &["መልጎም", "ትርብዒት", "ንድፊ", "ጂኦሜትሪክ", "ጻዕዳ ትርብዒት መልጎም"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("ak inedördül düwme"),
+            keywords: &[
+                "ak inedördül düwme",
+                "düwme",
+                "geometrik",
+                "inedördül",
+                "çarçuwaly",
+            ],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("meʻalolomi tapafā hinehina"),
+            keywords: &["hinehina", "meʻalolomi", "tapafā"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("beyaz kare düğme"),
+            keywords: &["beyaz kare düğme", "düğme", "kare"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئاق كىۋادرات كۇنۇپكىسى"),
+            keywords: &[
+                "ئاق كىۋادرات كۇنۇپكىسى",
+                "سىزىق",
+                "كىۋادرات",
+                "كۇنۇپكا",
+                "گېئومېتىرىيە",
+            ],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("квадратна кнопка з білою рамкою"),
+            keywords: &[
+                "біла квадратна кнопка",
+                "геометричний",
+                "квадрат",
+                "квадратна кнопка з білою рамкою",
+                "кнопка",
+                "контур",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("سفید چوکور بٹن"),
+            keywords: &["بٹن", "جیومیٹری", "سفید", "چوکور"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("oq kvadrat katak"),
+            keywords: &[
+                "chizilgan",
+                "geometriya",
+                "katak",
+                "kvadrat",
+                "oq kvadrat katak",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("nút hình vuông màu trắng"),
+            keywords: &[
+                "hình học",
+                "hình vuông",
+                "mờ",
+                "nút",
+                "nút hình vuông màu trắng",
+            ],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("bitoŋu kaare bu weex"),
+            keywords: &[
+                "bitoŋ",
+                "bitoŋu kaare bu weex",
+                "fësal",
+                "kaare",
+                "wu-geometri",
+            ],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("iqhosha leskwere elimhlophe"),
+            keywords: &[
+                "ibalaseliswe umphandle",
+                "ijiyometriki",
+                "iqhosha",
+                "iqhosha leskwere elimhlophe",
+                "iskwere",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Bọtini Onigunmẹrin Funfun"),
+            keywords: &[
+                "Bó\u{329}tìnì",
+                "Bọtini Onigunmẹrin Funfun",
+                "jiomẹ\u{301}tíríkì",
+                "onígun mé\u{329}rin",
+                "ààtò",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("白色方形按鈕"),
+            keywords: &["外框", "幾何", "按鈕", "正方形", "白色方形按鈕"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("白色方形按钮"),
+            keywords: &["几何", "外框", "按钮", "正方形", "白色方形按钮"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("白色方形按钮"),
+            keywords: &[
+                "按钮",
+                "白线方形按钮",
+                "白线正方形按钮",
+                "白色方形按钮",
+                "白色正方形按钮",
+                "白边线方形按钮",
+                "白边线正方形按钮",
+            ],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("白色方按鈕"),
+            keywords: &["按鈕", "白色方按鈕"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("白色正方形按鈕"),
+            keywords: &["按鈕", "白色正方形按鈕"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("inkonobho eyiskwele emhlophe"),
+            keywords: &[
+                "inkobho",
+                "inkonobho eyiskwele emhlophe",
+                "iskwele",
+                "jiyometrikhi",
+                "okugqanyisiwe",
+            ],
+        },
+    ],
+};
 #[doc = "🔲"]
-pub const BLACK_SQUARE_BUTTON : crate :: Emoji = crate :: Emoji { glyph : "🔲" , codepoint : "1F532" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "black square button" , group : "Symbols" , subgroup : "geometric" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("swart vierkant-knoppie") , keywords : & ["geometries" , "knoppie" , "swart buitelyn" , "swart vierkant-knoppie" , "vierkant"] , } , crate :: Annotation { lang : "am" , tts : Some ("በጥቁር የተከበበ ካሬ አዝራር") , keywords : & ["በጥቁር የተከበበ ካሬ አዝራር" , "አዝራር" , "ካሬ" , "ጂኦሜትሪያዊ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("زر مربع أسود") , keywords : & ["زر" , "زر مربع أسود" , "مربع"] , } , crate :: Annotation { lang : "as" , tts : Some ("ক’ল\u{9be} বৰ\u{9cd}গ ব\u{9c1}ট\u{9be}ম") , keywords : & ["ক’ল\u{9be} বৰ\u{9cd}গ ব\u{9c1}ট\u{9be}ম" , "জ\u{9cd}য\u{9be}মিতিক" , "ব\u{9c1}ট\u{9be}ম" , "বৰ\u{9cd}গ"] , } , crate :: Annotation { lang : "az" , tts : Some ("qara kvadrat düymə") , keywords : & ["düymə" , "həndəsi" , "kvadrat" , "qara kvadrat düymə"] , } , crate :: Annotation { lang : "be" , tts : Some ("чорная квадратная кнопка") , keywords : & ["аб’ект" , "геаметрычны" , "квадрат" , "кнопка" , "чорная квадратная кнопка" , "чорны"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Квадратен бутон с черен контур") , keywords : & ["Квадратен бутон с черен контур" , "бутон" , "геометричен" , "квадрат"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ক\u{9be}লো বর\u{9cd}গ\u{9be}ক\u{9be}র বোত\u{9be}ম") , keywords : & ["ক\u{9be}লো বর\u{9cd}গ\u{9be}ক\u{9be}র বোত\u{9be}ম" , "জ\u{9cd}য\u{9be}মিতিক" , "বর\u{9cd}গ\u{9be}ক\u{9be}র" , "বোত\u{9be}ম"] , } , crate :: Annotation { lang : "bs" , tts : Some ("crni kvadrat dugme") , keywords : & ["crni kvadrat dugme" , "geometrija" , "kvadrat" , "tipka"] , } , crate :: Annotation { lang : "ca" , tts : Some ("botó de quadrat negre") , keywords : & ["botó" , "botó de quadrat negre" , "geometria" , "negre" , "quadrat"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎬᎿᎨ ᏅᎩ ᏧᏅᏏᏯ ᎦᏗ") , keywords : & ["ᎤᏙᏢᏒ" , "ᎦᏗ" , "ᎬᎿᎨ ᏅᎩ ᏧᏅᏏᏯ ᎦᏗ" , "ᏅᎩ ᏧᏅᏏᏯ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("černé čtvercové tlačítko") , keywords : & ["geometrie" , "tlačítko" , "černé čtvercové tlačítko" , "čtvercové" , "čtverec"] , } , crate :: Annotation { lang : "cy" , tts : Some ("botwm sgwâr du") , keywords : & ["botwm" , "botwm sgwâr du" , "geometrig" , "sgwâr"] , } , crate :: Annotation { lang : "da" , tts : Some ("sort kvadratisk knap") , keywords : & ["geometrisk" , "knap" , "kvadrat" , "sort kvadratisk knap"] , } , crate :: Annotation { lang : "de" , tts : Some ("schwarze quadratische Schaltfläche") , keywords : & ["Schaltfläche" , "quadratisch" , "schwarz" , "schwarze quadratische Schaltfläche"] , } , crate :: Annotation { lang : "el" , tts : Some ("μαύρο τετράγωνο κουμπί") , keywords : & ["γεωμετρικό" , "κουμπί" , "μαύρο τετράγωνο κουμπί" , "τετράγωνο"] , } , crate :: Annotation { lang : "en" , tts : Some ("black square button") , keywords : & ["black square button" , "button" , "geometric" , "square"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("botón cuadrado con borde negro") , keywords : & ["botón" , "botón cuadrado con borde negro" , "cuadrado"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("cuadrado blanco con borde negro") , keywords : & ["blanco" , "borde" , "botón" , "cuadrado" , "cuadrado blanco con borde negro" , "marco" , "negro"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["borde" , "botón" , "cuadrado" , "cuadrado blanco con borde negro" , "marco"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["borde" , "botón" , "cuadrado" , "cuadrado blanco con borde negro" , "marco"] , } , crate :: Annotation { lang : "et" , tts : Some ("must ruudukujuline nupp") , keywords : & ["geomeetria" , "must ruudukujuline nupp" , "nupp" , "piirjoon" , "ruut"] , } , crate :: Annotation { lang : "eu" , tts : Some ("karratu beltz itxurako botoia") , keywords : & ["botoi" , "geometriko" , "karratu" , "karratu beltz itxurako botoia"] , } , crate :: Annotation { lang : "fa" , tts : Some ("دکمۀ مربع مشکی") , keywords : & ["دکمه" , "دکمۀ مربع مشکی" , "شکل هندسی" , "مربع"] , } , crate :: Annotation { lang : "fi" , tts : Some ("musta neliöruutu") , keywords : & ["muoto" , "musta neliöruutu" , "neliö" , "valinta" , "valintaruutu"] , } , crate :: Annotation { lang : "fil" , tts : Some ("itim na parisukat na button") , keywords : & ["buton" , "gilid" , "hugis" , "itim" , "itim na parisukat na button" , "pantay" , "parisukat"] , } , crate :: Annotation { lang : "fo" , tts : Some ("svartur fýrakantaður karmur") , keywords : & ["fýrakantur" , "karmur" , "mátingarfrøðiligur" , "rútur" , "svartur fýrakantaður karmur"] , } , crate :: Annotation { lang : "fr" , tts : Some ("carré noir") , keywords : & ["bouton" , "carré" , "carré noir" , "forme" , "géométrie"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("bouton représentant un carré noir") , keywords : & ["bouton" , "bouton représentant un carré noir" , "carré noir" , "géométrie"] , } , crate :: Annotation { lang : "ga" , tts : Some ("cearnóg dhubh") , keywords : & ["cearnóg dhubh"] , } , crate :: Annotation { lang : "gd" , tts : Some ("putan ceàrnagach dubh") , keywords : & ["ceàrnag" , "ceàrnagach" , "geomatrach" , "putan" , "putan ceàrnagach dubh"] , } , crate :: Annotation { lang : "gl" , tts : Some ("botón con cadrado negro") , keywords : & ["botón" , "botón con cadrado negro" , "cadrado" , "negro"] , } , crate :: Annotation { lang : "gu" , tts : Some ("કાળો ચોરસ બટન") , keywords : & ["કાળો ચોરસ બટન" , "ચોરસ" , "બટન"] , } , crate :: Annotation { lang : "ha" , tts : Some ("maɓallin baƙin murabba’i") , keywords : & ["ilimin halayen sura" , "maɓallin" , "maɓallin baƙin murabba’i" , "murabba’i"] , } , crate :: Annotation { lang : "he" , tts : Some ("לחצן ריבוע שחור") , keywords : & ["לחצן" , "לחצן ריבוע שחור" , "מסגרת" , "צורה" , "ריבוע" , "ריבוע שחור"] , } , crate :: Annotation { lang : "hi" , tts : Some ("काला वर\u{94d}ग बटन") , keywords : & ["काला वर\u{94d}ग बटन" , "ज\u{94d}यामिति" , "बटन" , "वर\u{94d}ग"] , } , crate :: Annotation { lang : "hr" , tts : Some ("crna uglata tipka") , keywords : & ["crna uglata tipka" , "geometrija" , "gumb" , "uglato"] , } , crate :: Annotation { lang : "hu" , tts : Some ("fekete, négyzet alakú gomb") , keywords : & ["fekete, négyzet alakú gomb" , "gomb" , "négyzet"] , } , crate :: Annotation { lang : "hy" , tts : Some ("սև քառակուսի կոճակ") , keywords : & ["երկրաչափական" , "կոճակ" , "սև քառակուսի կոճակ" , "քառակուսի"] , } , crate :: Annotation { lang : "id" , tts : Some ("tombol persegi hitam") , keywords : & ["geometri" , "persegi" , "tombol" , "tombol persegi hitam"] , } , crate :: Annotation { lang : "ig" , tts : Some ("ọdụmbi sukwia ojii") , keywords : & ["mgbakọ" , "sukwia" , "ọdụmbi" , "ọdụmbi sukwia ojii"] , } , crate :: Annotation { lang : "is" , tts : Some ("svartur ferningslaga hnappur") , keywords : & ["ferningur" , "hnappur" , "svartur ferningslaga hnappur"] , } , crate :: Annotation { lang : "it" , tts : Some ("tasto quadrato bianco con bordo nero") , keywords : & ["pulsante" , "pulsante quadrato pieno" , "quadrato" , "tasto quadrato bianco con bordo nero"] , } , crate :: Annotation { lang : "ja" , tts : Some ("黒枠四角") , keywords : & ["ボタン" , "四角ボタン" , "正方形" , "黒枠四角"] , } , crate :: Annotation { lang : "jv" , tts : Some ("tombol kothak ireng") , keywords : & ["geometrik" , "kothak" , "tombol" , "tombol kothak ireng"] , } , crate :: Annotation { lang : "ka" , tts : Some ("შავი კვადრატული ღილაკი") , keywords : & ["გეომეტრია" , "გეომეტრიული" , "კვადრატი" , "ღილაკი" , "შავი კვადრატული ღილაკი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("қара шаршы түймесі") , keywords : & ["геометриялық" , "түйме" , "шаршы" , "қара шаршы түймесі"] , } , crate :: Annotation { lang : "kl" , tts : Some ("sort kvadratisk knap") , keywords : & ["geometrisk" , "knap" , "kvadrat" , "sort kvadratisk knap"] , } , crate :: Annotation { lang : "km" , tts : Some ("ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}សនៅក\u{17d2}ន\u{17bb}ងប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ខ\u{17d2}មៅ") , keywords : & ["ខ\u{17d2}មៅ" , "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ង" , "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}សនៅក\u{17d2}ន\u{17bb}ងប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ខ\u{17d2}មៅ" , "ស"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಕಪ\u{ccd}ಪು ಚ\u{ccc}ಕದ ಬಟನ\u{ccd}") , keywords : & ["ಕಪ\u{ccd}ಪು ಚ\u{ccc}ಕದ ಬಟನ\u{ccd}" , "ಚದರ" , "ಚದರ ಬಟನ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("테두리가 검은 사각 버튼") , keywords : & ["버튼" , "사각형" , "테두리가 검은 사각 버튼"] , } , crate :: Annotation { lang : "kok" , tts : Some ("काळो चवकोन बटण") , keywords : & ["काळो चवकोन बटण" , "चवकोन" , "जियोम\u{945}ट\u{94d}रीक" , "बटण"] , } , crate :: Annotation { lang : "ky" , tts : Some ("кара чарчы баскычы") , keywords : & ["баскыч" , "геометрия" , "кара чарчы баскычы" , "чарчы"] , } , crate :: Annotation { lang : "lb" , tts : Some ("schwaarze véiereckege Knäppchen") , keywords : & ["Knäppchen" , "Quadrat" , "geometresch" , "schwaarze véiereckege Knäppchen"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ປ\u{eb8}\u{ec8}ມສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມດຳ") , keywords : & ["ດຳ" , "ປ\u{eb8}\u{ec8}ມ" , "ປ\u{eb8}\u{ec8}ມສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມດຳ" , "ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("juodas kvadratinis mygtukas") , keywords : & ["geometrija" , "juodas kvadratinis mygtukas" , "kvadratas" , "mygtukas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("melna kvadrātveida poga") , keywords : & ["kvadrāts" , "melna kvadrātveida poga" , "ģeometrija"] , } , crate :: Annotation { lang : "mi" , tts : Some ("pātene tapawhā pango") , keywords : & ["pātene" , "pātene tapawhā pango" , "tapawhā rite" , "āhuahanga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("црно квадратно копче") , keywords : & ["геометрија" , "квадрат" , "копче" , "црно квадратно копче"] , } , crate :: Annotation { lang : "ml" , tts : Some ("കറ\u{d41}ത\u{d4d}ത ചത\u{d41}ര ബട\u{d4d}ടൺ") , keywords : & ["കറ\u{d41}ത\u{d4d}ത ചത\u{d41}ര ബട\u{d4d}ടൺ" , "ചത\u{d41}ര ബട\u{d4d}ടൺ" , "ചത\u{d41}രം" , "ബട\u{d4d}ടൺ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("хар дөрвөлжин товчлуур") , keywords : & ["геометр" , "дөрвөлжин" , "товчлуур" , "хар дөрвөлжин товчлуур"] , } , crate :: Annotation { lang : "mr" , tts : Some ("काळ\u{947} चौरस बटण") , keywords : & ["काळ\u{947} चौरस बटण" , "चौरस" , "बटण" , "भ\u{942}मितीय"] , } , crate :: Annotation { lang : "ms" , tts : Some ("butang persegi hitam") , keywords : & ["butang" , "butang persegi hitam" , "geometri" , "persegi"] , } , crate :: Annotation { lang : "mt" , tts : Some ("buttuna kwadra sewda") , keywords : & ["buttuna" , "buttuna kwadra sewda" , "kwadra" , "ġeometrika"] , } , crate :: Annotation { lang : "my" , tts : Some ("အနက\u{103a}ရောင\u{103a} လေးထောင\u{1037}\u{103a}ခလ\u{102f}တ\u{103a}") , keywords : & ["ခလ\u{102f}တ\u{103a}" , "ဂျ\u{102e}ဩမေတြ\u{102e}" , "လေးထောင\u{1037}\u{103a}" , "အနက\u{103a}ရောင\u{103a} လေးထောင\u{1037}\u{103a}ခလ\u{102f}တ\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("svart firkantet knapp") , keywords : & ["firkant" , "knapp" , "svart firkantet knapp"] , } , crate :: Annotation { lang : "ne" , tts : Some ("कालो वर\u{94d}गीय बटन") , keywords : & ["कालो वर\u{94d}गीय बटन" , "ज\u{94d}यामितीय" , "बटन" , "वर\u{94d}ग"] , } , crate :: Annotation { lang : "nl" , tts : Some ("zwarte vierkante knop") , keywords : & ["geometrisch" , "knop" , "vierkant" , "zwarte vierkante knop"] , } , crate :: Annotation { lang : "nn" , tts : Some ("svart firkanta knapp") , keywords : & ["firkant" , "knapp" , "svart firkanta knapp"] , } , crate :: Annotation { lang : "or" , tts : Some ("କଳ\u{b3e} ବର\u{b4d}ଗ\u{b3e}କ\u{b3e}ର ବଟନ\u{b4d}\u{200c}") , keywords : & ["କଳ\u{b3e} ବର\u{b4d}ଗ\u{b3e}କ\u{b3e}ର ବଟନ\u{b4d}\u{200c}" , "ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ" , "ବଟନ\u{b4d}\u{200c}" , "ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਵਰਗਾਕਾਰ ਕਾਲਾ ਬਟਨ") , keywords : & ["ਜਯਾਮਿਤੀ" , "ਬਟਨ" , "ਵਰਗ" , "ਵਰਗਾਕਾਰ ਕਾਲਾ ਬਟਨ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("کالا مربعی بٹن") , keywords : & ["بٹن" , "جیومیٹری دے متعلق" , "مربع" , "کالا مربعی بٹن"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Blák Skweá Bọ\u{301}tin") , keywords : & ["Blák Skweá Bọ\u{301}tin" , "Bọ\u{301}tin" , "Jiọ\u{301}mẹ\u{301}tri" , "Skwea"] , } , crate :: Annotation { lang : "pl" , tts : Some ("czarny kwadratowy przycisk") , keywords : & ["biały" , "czarny" , "czarny kwadratowy przycisk" , "figura geometryczna" , "kwadrat" , "obramowanie"] , } , crate :: Annotation { lang : "ps" , tts : Some ("توره مربع بټن") , keywords : & ["بټن" , "توره مربع بټن" , "جيوميتريکي" , "مربع"] , } , crate :: Annotation { lang : "pt" , tts : Some ("botão quadrado preto") , keywords : & ["botão" , "botão quadrado preto" , "botão quadrado preto e branco" , "quadrado"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("botão quadrado preto") , keywords : & ["botão" , "botão quadrado preto" , "geométrico" , "quadrado"] , } , crate :: Annotation { lang : "ro" , tts : Some ("buton pătrat negru") , keywords : & ["buton pătrat negru" , "geometric" , "negru" , "pătrat"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-750") , keywords : & ["E10-750"] , } , crate :: Annotation { lang : "ru" , tts : Some ("кнопка с черной рамкой") , keywords : & ["квадрат" , "кнопка" , "кнопка с черной рамкой" , "черная"] , } , crate :: Annotation { lang : "rw" , tts : Some ("buto ya kare y’umukara") , keywords : & ["buto ya kare y’umukara" , "byerekeye jewometiri" , "ibuto" , "ubwikube kabiri"] , } , crate :: Annotation { lang : "sd" , tts : Some ("چورس ڪارو بٽڻ") , keywords : & ["بٽڻ" , "جيوميٽرڪ" , "چورس" , "چورس ڪارو بٽڻ"] , } , crate :: Annotation { lang : "si" , tts : Some ("කළ\u{dd4} හතරැස\u{dca} බොත\u{dca}තම") , keywords : & ["කළ\u{dd4} හතරැස\u{dca} බොත\u{dca}තම" , "කොට\u{dd4}ව" , "ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක" , "බොත\u{dca}තම"] , } , crate :: Annotation { lang : "sk" , tts : Some ("čierne hranaté tlačidlo") , keywords : & ["geometria" , "tlačidlo" , "čierne hranaté tlačidlo" , "štvorec"] , } , crate :: Annotation { lang : "sl" , tts : Some ("gumb s črnim kvadratom") , keywords : & ["geometrično" , "gumb" , "gumb s črnim kvadratom" , "kvadrat"] , } , crate :: Annotation { lang : "so" , tts : Some ("badhan afar gees ah oo madow") , keywords : & ["afar gees" , "badhan" , "badhan afar gees ah oo madow" , "joometriyeed"] , } , crate :: Annotation { lang : "sq" , tts : Some ("buton katror i zi") , keywords : & ["buton" , "buton katror i zi" , "gjeometri" , "katror"] , } , crate :: Annotation { lang : "sr" , tts : Some ("црно квадратно дугме") , keywords : & ["гeoмeтриja" , "дугме" , "квадратно" , "црно квадратно дугме"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("crno kvadratno dugme") , keywords : & ["crno kvadratno dugme" , "dugme" , "geometrija" , "kvadratno"] , } , crate :: Annotation { lang : "sv" , tts : Some ("svart fyrkantig knapp") , keywords : & ["fyrkant" , "knapp" , "svart fyrkantig knapp"] , } , crate :: Annotation { lang : "sw" , tts : Some ("kitufe cheusi cha mraba") , keywords : & ["jiometri" , "kitufe" , "kitufe cheusi cha mraba" , "mraba"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("கருப\u{bcd}பு சதுரப\u{bcd} பட\u{bcd}டன\u{bcd}") , keywords : & ["கருப\u{bcd}பு சதுரப\u{bcd} பட\u{bcd}டன\u{bcd}" , "கருப\u{bcd}பு சதுரம\u{bcd}" , "சதுர பட\u{bcd}டன\u{bcd}" , "பட\u{bcd}டன\u{bcd}" , "பிள\u{bbe}க\u{bcd} ஸ\u{bcd}கொயர\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("నలుపు రంగు చతురస\u{c4d}రం") , keywords : & ["చతురస\u{c4d}రం" , "నలుపు రంగు" , "నలుపు రంగు చతురస\u{c4d}రం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("тугмаи \"Чоркунҷаи сиёҳ\"") , keywords : & ["геометрӣ" , "тугма" , "тугмаи \"Чоркунҷаи сиёҳ\"" , "чоркунҷа"] , } , crate :: Annotation { lang : "th" , tts : Some ("ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมขอบดำ") , keywords : & ["ป\u{e38}\u{e48}ม" , "ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมขอบดำ" , "ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมส\u{e35}ดำ" , "ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยม"] , } , crate :: Annotation { lang : "ti" , tts : Some ("ጸሊም ትርብዒት መልጎም") , keywords : & ["መልጎም" , "ትርብዒት" , "ጂኦሜትሪክ" , "ጸሊም ትርብዒት መልጎም"] , } , crate :: Annotation { lang : "tk" , tts : Some ("gara inedördül düwme") , keywords : & ["düwme" , "gara inedördül düwme" , "geometrik" , "inedördül"] , } , crate :: Annotation { lang : "to" , tts : Some ("meʻalolomi tapafā ʻuliʻuli") , keywords : & ["meʻalolomi" , "tapafā" , "ʻuliʻuli"] , } , crate :: Annotation { lang : "tr" , tts : Some ("siyah kare düğme") , keywords : & ["düğme" , "kare" , "siyah kare düğme"] , } , crate :: Annotation { lang : "ug" , tts : Some ("قارا چاسا كۇنۇپكا") , keywords : & ["قارا چاسا كۇنۇپكا" , "كىۋادرات" , "كۇنۇپكا" , "گېئومېتىرىيە"] , } , crate :: Annotation { lang : "uk" , tts : Some ("квадратна кнопка з чорною рамкою") , keywords : & ["геометричний" , "квадрат" , "квадратна кнопка з чорною рамкою" , "кнопка" , "чорна квадратна кнопка"] , } , crate :: Annotation { lang : "ur" , tts : Some ("سیاہ چوکور بٹن") , keywords : & ["بٹن" , "جیومیٹری" , "سیاہ چوکور بٹن" , "چوکور" , "کالا"] , } , crate :: Annotation { lang : "uz" , tts : Some ("qora kvadrat katak") , keywords : & ["geometriya" , "katak" , "kvadrat" , "qora kvadrat katak"] , } , crate :: Annotation { lang : "vi" , tts : Some ("nút hình vuông màu đen") , keywords : & ["hình học" , "hình vuông" , "nút" , "nút hình vuông màu đen"] , } , crate :: Annotation { lang : "wo" , tts : Some ("bitoŋu kaare ñuul") , keywords : & ["bitoŋ" , "bitoŋu kaare ñuul" , "kaare" , "wu-geometri"] , } , crate :: Annotation { lang : "xh" , tts : Some ("iqhosha eliskrwere elimnyama") , keywords : & ["ijiyometriki" , "iqhosha" , "iqhosha eliskrwere elimnyama" , "iskwere"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Bọtini Onigunmẹrin Dudu") , keywords : & ["Bó\u{329}tìnì" , "Bọtini Onigunmẹrin Dudu" , "jiomẹ\u{301}tíríkì" , "onígun mé\u{329}rin"] , } , crate :: Annotation { lang : "yue" , tts : Some ("黑色正方按鈕") , keywords : & ["幾何" , "按鈕" , "正方形" , "黑色正方按鈕"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("黑色正方按钮") , keywords : & ["几何" , "按钮" , "正方形" , "黑色正方按钮"] , } , crate :: Annotation { lang : "zh" , tts : Some ("黑色方形按钮") , keywords : & ["按钮" , "黑线方形按钮" , "黑线正方形按钮" , "黑色方形按钮" , "黑色正方形按钮" , "黑边线方形按钮" , "黑边线正方形按钮"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("黑色方按鈕") , keywords : & ["按鈕" , "黑色方按鈕"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("黑色正方形按鈕") , keywords : & ["按鈕" , "黑色正方形按鈕"] , } , crate :: Annotation { lang : "zu" , tts : Some ("inkinobho eyiskwele esimnyama") , keywords : & ["inkinobho" , "inkinobho eyiskwele esimnyama" , "iskwele" , "jiyometrikhi"] , }] , } ;
+pub const BLACK_SQUARE_BUTTON: crate::Emoji = crate::Emoji {
+    glyph: "🔲",
+    codepoint: "1F532",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "black square button",
+    group: "Symbols",
+    subgroup: "geometric",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("swart vierkant-knoppie"),
+            keywords: &[
+                "geometries",
+                "knoppie",
+                "swart buitelyn",
+                "swart vierkant-knoppie",
+                "vierkant",
+            ],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("በጥቁር የተከበበ ካሬ አዝራር"),
+            keywords: &["በጥቁር የተከበበ ካሬ አዝራር", "አዝራር", "ካሬ", "ጂኦሜትሪያዊ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("زر مربع أسود"),
+            keywords: &["زر", "زر مربع أسود", "مربع"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ক’ল\u{9be} বৰ\u{9cd}গ ব\u{9c1}ট\u{9be}ম"),
+            keywords: &[
+                "ক’ল\u{9be} বৰ\u{9cd}গ ব\u{9c1}ট\u{9be}ম",
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "ব\u{9c1}ট\u{9be}ম",
+                "বৰ\u{9cd}গ",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("qara kvadrat düymə"),
+            keywords: &["düymə", "həndəsi", "kvadrat", "qara kvadrat düymə"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("чорная квадратная кнопка"),
+            keywords: &[
+                "аб’ект",
+                "геаметрычны",
+                "квадрат",
+                "кнопка",
+                "чорная квадратная кнопка",
+                "чорны",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Квадратен бутон с черен контур"),
+            keywords: &[
+                "Квадратен бутон с черен контур",
+                "бутон",
+                "геометричен",
+                "квадрат",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ক\u{9be}লো বর\u{9cd}গ\u{9be}ক\u{9be}র বোত\u{9be}ম"),
+            keywords: &[
+                "ক\u{9be}লো বর\u{9cd}গ\u{9be}ক\u{9be}র বোত\u{9be}ম",
+                "জ\u{9cd}য\u{9be}মিতিক",
+                "বর\u{9cd}গ\u{9be}ক\u{9be}র",
+                "বোত\u{9be}ম",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("crni kvadrat dugme"),
+            keywords: &["crni kvadrat dugme", "geometrija", "kvadrat", "tipka"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("botó de quadrat negre"),
+            keywords: &[
+                "botó",
+                "botó de quadrat negre",
+                "geometria",
+                "negre",
+                "quadrat",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎬᎿᎨ ᏅᎩ ᏧᏅᏏᏯ ᎦᏗ"),
+            keywords: &["ᎤᏙᏢᏒ", "ᎦᏗ", "ᎬᎿᎨ ᏅᎩ ᏧᏅᏏᏯ ᎦᏗ", "ᏅᎩ ᏧᏅᏏᏯ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("černé čtvercové tlačítko"),
+            keywords: &[
+                "geometrie",
+                "tlačítko",
+                "černé čtvercové tlačítko",
+                "čtvercové",
+                "čtverec",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("botwm sgwâr du"),
+            keywords: &["botwm", "botwm sgwâr du", "geometrig", "sgwâr"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("sort kvadratisk knap"),
+            keywords: &["geometrisk", "knap", "kvadrat", "sort kvadratisk knap"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("schwarze quadratische Schaltfläche"),
+            keywords: &[
+                "Schaltfläche",
+                "quadratisch",
+                "schwarz",
+                "schwarze quadratische Schaltfläche",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("μαύρο τετράγωνο κουμπί"),
+            keywords: &[
+                "γεωμετρικό",
+                "κουμπί",
+                "μαύρο τετράγωνο κουμπί",
+                "τετράγωνο",
+            ],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("black square button"),
+            keywords: &["black square button", "button", "geometric", "square"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("botón cuadrado con borde negro"),
+            keywords: &["botón", "botón cuadrado con borde negro", "cuadrado"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("cuadrado blanco con borde negro"),
+            keywords: &[
+                "blanco",
+                "borde",
+                "botón",
+                "cuadrado",
+                "cuadrado blanco con borde negro",
+                "marco",
+                "negro",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "borde",
+                "botón",
+                "cuadrado",
+                "cuadrado blanco con borde negro",
+                "marco",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "borde",
+                "botón",
+                "cuadrado",
+                "cuadrado blanco con borde negro",
+                "marco",
+            ],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("must ruudukujuline nupp"),
+            keywords: &[
+                "geomeetria",
+                "must ruudukujuline nupp",
+                "nupp",
+                "piirjoon",
+                "ruut",
+            ],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("karratu beltz itxurako botoia"),
+            keywords: &[
+                "botoi",
+                "geometriko",
+                "karratu",
+                "karratu beltz itxurako botoia",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("دکمۀ مربع مشکی"),
+            keywords: &["دکمه", "دکمۀ مربع مشکی", "شکل هندسی", "مربع"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("musta neliöruutu"),
+            keywords: &[
+                "muoto",
+                "musta neliöruutu",
+                "neliö",
+                "valinta",
+                "valintaruutu",
+            ],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("itim na parisukat na button"),
+            keywords: &[
+                "buton",
+                "gilid",
+                "hugis",
+                "itim",
+                "itim na parisukat na button",
+                "pantay",
+                "parisukat",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("svartur fýrakantaður karmur"),
+            keywords: &[
+                "fýrakantur",
+                "karmur",
+                "mátingarfrøðiligur",
+                "rútur",
+                "svartur fýrakantaður karmur",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("carré noir"),
+            keywords: &["bouton", "carré", "carré noir", "forme", "géométrie"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("bouton représentant un carré noir"),
+            keywords: &[
+                "bouton",
+                "bouton représentant un carré noir",
+                "carré noir",
+                "géométrie",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("cearnóg dhubh"),
+            keywords: &["cearnóg dhubh"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("putan ceàrnagach dubh"),
+            keywords: &[
+                "ceàrnag",
+                "ceàrnagach",
+                "geomatrach",
+                "putan",
+                "putan ceàrnagach dubh",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("botón con cadrado negro"),
+            keywords: &["botón", "botón con cadrado negro", "cadrado", "negro"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("કાળો ચોરસ બટન"),
+            keywords: &["કાળો ચોરસ બટન", "ચોરસ", "બટન"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("maɓallin baƙin murabba’i"),
+            keywords: &[
+                "ilimin halayen sura",
+                "maɓallin",
+                "maɓallin baƙin murabba’i",
+                "murabba’i",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("לחצן ריבוע שחור"),
+            keywords: &[
+                "לחצן",
+                "לחצן ריבוע שחור",
+                "מסגרת",
+                "צורה",
+                "ריבוע",
+                "ריבוע שחור",
+            ],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("काला वर\u{94d}ग बटन"),
+            keywords: &["काला वर\u{94d}ग बटन", "ज\u{94d}यामिति", "बटन", "वर\u{94d}ग"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("crna uglata tipka"),
+            keywords: &["crna uglata tipka", "geometrija", "gumb", "uglato"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("fekete, négyzet alakú gomb"),
+            keywords: &["fekete, négyzet alakú gomb", "gomb", "négyzet"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("սև քառակուսի կոճակ"),
+            keywords: &["երկրաչափական", "կոճակ", "սև քառակուսի կոճակ", "քառակուսի"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("tombol persegi hitam"),
+            keywords: &["geometri", "persegi", "tombol", "tombol persegi hitam"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ọdụmbi sukwia ojii"),
+            keywords: &["mgbakọ", "sukwia", "ọdụmbi", "ọdụmbi sukwia ojii"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("svartur ferningslaga hnappur"),
+            keywords: &["ferningur", "hnappur", "svartur ferningslaga hnappur"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("tasto quadrato bianco con bordo nero"),
+            keywords: &[
+                "pulsante",
+                "pulsante quadrato pieno",
+                "quadrato",
+                "tasto quadrato bianco con bordo nero",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("黒枠四角"),
+            keywords: &["ボタン", "四角ボタン", "正方形", "黒枠四角"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("tombol kothak ireng"),
+            keywords: &["geometrik", "kothak", "tombol", "tombol kothak ireng"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("შავი კვადრატული ღილაკი"),
+            keywords: &[
+                "გეომეტრია",
+                "გეომეტრიული",
+                "კვადრატი",
+                "ღილაკი",
+                "შავი კვადრატული ღილაკი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("қара шаршы түймесі"),
+            keywords: &["геометриялық", "түйме", "шаршы", "қара шаршы түймесі"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("sort kvadratisk knap"),
+            keywords: &["geometrisk", "knap", "kvadrat", "sort kvadratisk knap"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some(
+                "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}សនៅក\u{17d2}ន\u{17bb}ងប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ខ\u{17d2}មៅ",
+            ),
+            keywords: &[
+                "ខ\u{17d2}មៅ",
+                "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ង",
+                "ប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}សនៅក\u{17d2}ន\u{17bb}ងប\u{17bd}នជ\u{17d2}រ\u{17bb}ងពណ\u{17cc}ខ\u{17d2}មៅ",
+                "ស",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಕಪ\u{ccd}ಪು ಚ\u{ccc}ಕದ ಬಟನ\u{ccd}"),
+            keywords: &["ಕಪ\u{ccd}ಪು ಚ\u{ccc}ಕದ ಬಟನ\u{ccd}", "ಚದರ", "ಚದರ ಬಟನ\u{ccd}"],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("테두리가 검은 사각 버튼"),
+            keywords: &["버튼", "사각형", "테두리가 검은 사각 버튼"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("काळो चवकोन बटण"),
+            keywords: &["काळो चवकोन बटण", "चवकोन", "जियोम\u{945}ट\u{94d}रीक", "बटण"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("кара чарчы баскычы"),
+            keywords: &["баскыч", "геометрия", "кара чарчы баскычы", "чарчы"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("schwaarze véiereckege Knäppchen"),
+            keywords: &[
+                "Knäppchen",
+                "Quadrat",
+                "geometresch",
+                "schwaarze véiereckege Knäppchen",
+            ],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ປ\u{eb8}\u{ec8}ມສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມດຳ"),
+            keywords: &[
+                "ດຳ",
+                "ປ\u{eb8}\u{ec8}ມ",
+                "ປ\u{eb8}\u{ec8}ມສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມດຳ",
+                "ສ\u{eb5}\u{ec8}ຫ\u{ebc}\u{ec8}ຽມ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("juodas kvadratinis mygtukas"),
+            keywords: &[
+                "geometrija",
+                "juodas kvadratinis mygtukas",
+                "kvadratas",
+                "mygtukas",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("melna kvadrātveida poga"),
+            keywords: &["kvadrāts", "melna kvadrātveida poga", "ģeometrija"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("pātene tapawhā pango"),
+            keywords: &[
+                "pātene",
+                "pātene tapawhā pango",
+                "tapawhā rite",
+                "āhuahanga",
+            ],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("црно квадратно копче"),
+            keywords: &["геометрија", "квадрат", "копче", "црно квадратно копче"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("കറ\u{d41}ത\u{d4d}ത ചത\u{d41}ര ബട\u{d4d}ടൺ"),
+            keywords: &[
+                "കറ\u{d41}ത\u{d4d}ത ചത\u{d41}ര ബട\u{d4d}ടൺ",
+                "ചത\u{d41}ര ബട\u{d4d}ടൺ",
+                "ചത\u{d41}രം",
+                "ബട\u{d4d}ടൺ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("хар дөрвөлжин товчлуур"),
+            keywords: &["геометр", "дөрвөлжин", "товчлуур", "хар дөрвөлжин товчлуур"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("काळ\u{947} चौरस बटण"),
+            keywords: &["काळ\u{947} चौरस बटण", "चौरस", "बटण", "भ\u{942}मितीय"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("butang persegi hitam"),
+            keywords: &["butang", "butang persegi hitam", "geometri", "persegi"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("buttuna kwadra sewda"),
+            keywords: &["buttuna", "buttuna kwadra sewda", "kwadra", "ġeometrika"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အနက\u{103a}ရောင\u{103a} လေးထောင\u{1037}\u{103a}ခလ\u{102f}တ\u{103a}"),
+            keywords: &[
+                "ခလ\u{102f}တ\u{103a}",
+                "ဂျ\u{102e}ဩမေတြ\u{102e}",
+                "လေးထောင\u{1037}\u{103a}",
+                "အနက\u{103a}ရောင\u{103a} လေးထောင\u{1037}\u{103a}ခလ\u{102f}တ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("svart firkantet knapp"),
+            keywords: &["firkant", "knapp", "svart firkantet knapp"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("कालो वर\u{94d}गीय बटन"),
+            keywords: &[
+                "कालो वर\u{94d}गीय बटन",
+                "ज\u{94d}यामितीय",
+                "बटन",
+                "वर\u{94d}ग",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("zwarte vierkante knop"),
+            keywords: &["geometrisch", "knop", "vierkant", "zwarte vierkante knop"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("svart firkanta knapp"),
+            keywords: &["firkant", "knapp", "svart firkanta knapp"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("କଳ\u{b3e} ବର\u{b4d}ଗ\u{b3e}କ\u{b3e}ର ବଟନ\u{b4d}\u{200c}"),
+            keywords: &[
+                "କଳ\u{b3e} ବର\u{b4d}ଗ\u{b3e}କ\u{b3e}ର ବଟନ\u{b4d}\u{200c}",
+                "ଜ\u{b4d}ୟ\u{b3e}ମ\u{b3f}ତ\u{b3f}କ",
+                "ବଟନ\u{b4d}\u{200c}",
+                "ବର\u{b4d}ଗକ\u{b4d}ଷେତ\u{b4d}ର",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਵਰਗਾਕਾਰ ਕਾਲਾ ਬਟਨ"),
+            keywords: &["ਜਯਾਮਿਤੀ", "ਬਟਨ", "ਵਰਗ", "ਵਰਗਾਕਾਰ ਕਾਲਾ ਬਟਨ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("کالا مربعی بٹن"),
+            keywords: &["بٹن", "جیومیٹری دے متعلق", "مربع", "کالا مربعی بٹن"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Blák Skweá Bọ\u{301}tin"),
+            keywords: &[
+                "Blák Skweá Bọ\u{301}tin",
+                "Bọ\u{301}tin",
+                "Jiọ\u{301}mẹ\u{301}tri",
+                "Skwea",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("czarny kwadratowy przycisk"),
+            keywords: &[
+                "biały",
+                "czarny",
+                "czarny kwadratowy przycisk",
+                "figura geometryczna",
+                "kwadrat",
+                "obramowanie",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("توره مربع بټن"),
+            keywords: &["بټن", "توره مربع بټن", "جيوميتريکي", "مربع"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("botão quadrado preto"),
+            keywords: &[
+                "botão",
+                "botão quadrado preto",
+                "botão quadrado preto e branco",
+                "quadrado",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("botão quadrado preto"),
+            keywords: &["botão", "botão quadrado preto", "geométrico", "quadrado"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("buton pătrat negru"),
+            keywords: &["buton pătrat negru", "geometric", "negru", "pătrat"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-750"),
+            keywords: &["E10-750"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("кнопка с черной рамкой"),
+            keywords: &["квадрат", "кнопка", "кнопка с черной рамкой", "черная"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("buto ya kare y’umukara"),
+            keywords: &[
+                "buto ya kare y’umukara",
+                "byerekeye jewometiri",
+                "ibuto",
+                "ubwikube kabiri",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("چورس ڪارو بٽڻ"),
+            keywords: &["بٽڻ", "جيوميٽرڪ", "چورس", "چورس ڪارو بٽڻ"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("කළ\u{dd4} හතරැස\u{dca} බොත\u{dca}තම"),
+            keywords: &[
+                "කළ\u{dd4} හතරැස\u{dca} බොත\u{dca}තම",
+                "කොට\u{dd4}ව",
+                "ජ\u{dca}\u{200d}ය\u{dcf}ම\u{dd2}ත\u{dd2}ක",
+                "බොත\u{dca}තම",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("čierne hranaté tlačidlo"),
+            keywords: &[
+                "geometria",
+                "tlačidlo",
+                "čierne hranaté tlačidlo",
+                "štvorec",
+            ],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("gumb s črnim kvadratom"),
+            keywords: &["geometrično", "gumb", "gumb s črnim kvadratom", "kvadrat"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("badhan afar gees ah oo madow"),
+            keywords: &[
+                "afar gees",
+                "badhan",
+                "badhan afar gees ah oo madow",
+                "joometriyeed",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("buton katror i zi"),
+            keywords: &["buton", "buton katror i zi", "gjeometri", "katror"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("црно квадратно дугме"),
+            keywords: &["гeoмeтриja", "дугме", "квадратно", "црно квадратно дугме"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("crno kvadratno dugme"),
+            keywords: &["crno kvadratno dugme", "dugme", "geometrija", "kvadratno"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("svart fyrkantig knapp"),
+            keywords: &["fyrkant", "knapp", "svart fyrkantig knapp"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kitufe cheusi cha mraba"),
+            keywords: &["jiometri", "kitufe", "kitufe cheusi cha mraba", "mraba"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("கருப\u{bcd}பு சதுரப\u{bcd} பட\u{bcd}டன\u{bcd}"),
+            keywords: &[
+                "கருப\u{bcd}பு சதுரப\u{bcd} பட\u{bcd}டன\u{bcd}",
+                "கருப\u{bcd}பு சதுரம\u{bcd}",
+                "சதுர பட\u{bcd}டன\u{bcd}",
+                "பட\u{bcd}டன\u{bcd}",
+                "பிள\u{bbe}க\u{bcd} ஸ\u{bcd}கொயர\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("నలుపు రంగు చతురస\u{c4d}రం"),
+            keywords: &["చతురస\u{c4d}రం", "నలుపు రంగు", "నలుపు రంగు చతురస\u{c4d}రం"],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("тугмаи \"Чоркунҷаи сиёҳ\""),
+            keywords: &["геометрӣ", "тугма", "тугмаи \"Чоркунҷаи сиёҳ\"", "чоркунҷа"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมขอบดำ"),
+            keywords: &[
+                "ป\u{e38}\u{e48}ม",
+                "ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมขอบดำ",
+                "ป\u{e38}\u{e48}มส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยมส\u{e35}ดำ",
+                "ส\u{e35}\u{e48}เหล\u{e35}\u{e48}ยม",
+            ],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ጸሊም ትርብዒት መልጎም"),
+            keywords: &["መልጎም", "ትርብዒት", "ጂኦሜትሪክ", "ጸሊም ትርብዒት መልጎም"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("gara inedördül düwme"),
+            keywords: &["düwme", "gara inedördül düwme", "geometrik", "inedördül"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("meʻalolomi tapafā ʻuliʻuli"),
+            keywords: &["meʻalolomi", "tapafā", "ʻuliʻuli"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("siyah kare düğme"),
+            keywords: &["düğme", "kare", "siyah kare düğme"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("قارا چاسا كۇنۇپكا"),
+            keywords: &["قارا چاسا كۇنۇپكا", "كىۋادرات", "كۇنۇپكا", "گېئومېتىرىيە"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("квадратна кнопка з чорною рамкою"),
+            keywords: &[
+                "геометричний",
+                "квадрат",
+                "квадратна кнопка з чорною рамкою",
+                "кнопка",
+                "чорна квадратна кнопка",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("سیاہ چوکور بٹن"),
+            keywords: &["بٹن", "جیومیٹری", "سیاہ چوکور بٹن", "چوکور", "کالا"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("qora kvadrat katak"),
+            keywords: &["geometriya", "katak", "kvadrat", "qora kvadrat katak"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("nút hình vuông màu đen"),
+            keywords: &["hình học", "hình vuông", "nút", "nút hình vuông màu đen"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("bitoŋu kaare ñuul"),
+            keywords: &["bitoŋ", "bitoŋu kaare ñuul", "kaare", "wu-geometri"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("iqhosha eliskrwere elimnyama"),
+            keywords: &[
+                "ijiyometriki",
+                "iqhosha",
+                "iqhosha eliskrwere elimnyama",
+                "iskwere",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Bọtini Onigunmẹrin Dudu"),
+            keywords: &[
+                "Bó\u{329}tìnì",
+                "Bọtini Onigunmẹrin Dudu",
+                "jiomẹ\u{301}tíríkì",
+                "onígun mé\u{329}rin",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("黑色正方按鈕"),
+            keywords: &["幾何", "按鈕", "正方形", "黑色正方按鈕"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("黑色正方按钮"),
+            keywords: &["几何", "按钮", "正方形", "黑色正方按钮"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("黑色方形按钮"),
+            keywords: &[
+                "按钮",
+                "黑线方形按钮",
+                "黑线正方形按钮",
+                "黑色方形按钮",
+                "黑色正方形按钮",
+                "黑边线方形按钮",
+                "黑边线正方形按钮",
+            ],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("黑色方按鈕"),
+            keywords: &["按鈕", "黑色方按鈕"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("黑色正方形按鈕"),
+            keywords: &["按鈕", "黑色正方形按鈕"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("inkinobho eyiskwele esimnyama"),
+            keywords: &[
+                "inkinobho",
+                "inkinobho eyiskwele esimnyama",
+                "iskwele",
+                "jiyometrikhi",
+            ],
+        },
+    ],
+};

@@ -1328,7 +1328,684 @@ pub const LOBSTER: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🦐"]
-pub const SHRIMP : crate :: Emoji = crate :: Emoji { glyph : "🦐" , codepoint : "1F990" , status : crate :: Status :: FullyQualified , introduction_version : 3f32 , name : "shrimp" , group : "Food & Drink" , subgroup : "food-marine" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("garnaal") , keywords : & ["garnaal" , "kos" , "skulpvis"] , } , crate :: Annotation { lang : "am" , tts : Some ("ትንሽ አሣ") , keywords : & ["ምግብ" , "ትንሽ" , "ትንሽ አሣ" , "ጠንካራ ሽፋን ያለው አሣ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("جمبري") , keywords : & ["جمبري" , "طعام" , "محار"] , } , crate :: Annotation { lang : "as" , tts : Some ("শিঙি") , keywords : & ["খ\u{9be}দ\u{9cd}য" , "শিঙি" , "শ\u{9cd}বেলফিচ" , "সৰ\u{9c1}"] , } , crate :: Annotation { lang : "az" , tts : Some ("krevet") , keywords : & ["krevet" , "su canlısı" , "xərçəng"] , } , crate :: Annotation { lang : "be" , tts : Some ("крэветка") , keywords : & ["ежа" , "крэветка" , "маленькая" , "морапрадукты"] , } , crate :: Annotation { lang : "bg" , tts : Some ("скарида") , keywords : & ["скарида" , "храна" , "черупкови"] , } , crate :: Annotation { lang : "bn" , tts : Some ("চিংড\u{9bc}ি") , keywords : & ["খ\u{9be}ব\u{9be}র" , "খোল\u{9be}ওয\u{9bc}\u{9be}ল\u{9be} ম\u{9be}ছ" , "চিংড\u{9bc}ি" , "ছোট"] , } , crate :: Annotation { lang : "br" , tts : Some ("chevr") , keywords : & ["boued-mor" , "chevr" , "kresteneg" , "loen"] , } , crate :: Annotation { lang : "bs" , tts : Some ("škamp") , keywords : & ["hrana" , "račić" , "škamp" , "školjka"] , } , crate :: Annotation { lang : "ca" , tts : Some ("gamba") , keywords : & ["crustaci" , "gamba" , "llagostí" , "marisc" , "menjar"] , } , crate :: Annotation { lang : "ccp" , tts : Some ("𑄄𑄎\u{11133}𑄠") , keywords : & ["𑄄𑄎\u{11133}𑄠"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᏥᏅᏅ") , keywords : & ["ᎠᎵᏍᏓᏴᏗ" , "ᎤᎾᏯᏍᎦᏟ ᎠᏣᏗ" , "ᎤᏍᏗ" , "ᏥᏅᏅ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("kreveta") , keywords : & ["garnát" , "jídlo" , "korýš" , "kreveta"] , } , crate :: Annotation { lang : "cy" , tts : Some ("berdysyn") , keywords : & ["bach" , "berdysyn" , "bwyd" , "pysgodyn cragen"] , } , crate :: Annotation { lang : "da" , tts : Some ("reje") , keywords : & ["dyr" , "havdyr" , "mad" , "reje" , "skaldyr"] , } , crate :: Annotation { lang : "de" , tts : Some ("Garnele") , keywords : & ["Garnele" , "Gourmet" , "Krustentier"] , } , crate :: Annotation { lang : "el" , tts : Some ("γαρίδα") , keywords : & ["γαρίδα" , "μικρό" , "οστρακοειδές" , "τροφή"] , } , crate :: Annotation { lang : "en" , tts : Some ("shrimp") , keywords : & ["food" , "shellfish" , "shrimp" , "small"] , } , crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["food" , "prawn" , "shellfish" , "shrimp" , "small"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("prawn") , keywords : & ["prawn" , "seafood" , "shellfish" , "shrimp"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("gamba") , keywords : & ["camarón" , "comida" , "gamba" , "langostino" , "marisco"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("camarón") , keywords : & ["camarón" , "comida" , "langostino" , "marisco"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["camarón" , "comida" , "langostino" , "mariscos"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("krevett") , keywords : & ["koorikloom" , "krevett" , "toit"] , } , crate :: Annotation { lang : "eu" , tts : Some ("ganba") , keywords : & ["ganba" , "itsaski" , "janari" , "txiki"] , } , crate :: Annotation { lang : "fa" , tts : Some ("میگو") , keywords : & ["جانور دریایی" , "ماهی" , "میگو"] , } , crate :: Annotation { lang : "fi" , tts : Some ("katkarapu") , keywords : & ["katkarapu" , "ruoka" , "äyriäiset"] , } , crate :: Annotation { lang : "fil" , tts : Some ("hipon") , keywords : & ["hipon" , "maliit" , "pagkain" , "shellfish" , "sugpo"] , } , crate :: Annotation { lang : "fo" , tts : Some ("rækja") , keywords : & ["dýr" , "havføði" , "matur" , "rækja" , "sjógæti"] , } , crate :: Annotation { lang : "fr" , tts : Some ("crevette") , keywords : & ["crevette" , "crustacé"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["crevette" , "crustacé" , "nourriture"] , } , crate :: Annotation { lang : "ga" , tts : Some ("ribe róibéis") , keywords : & ["beag" , "bia" , "ribe róibéis" , "sliogiasc"] , } , crate :: Annotation { lang : "gd" , tts : Some ("carrain") , keywords : & ["beag" , "biadh" , "carrain" , "maorach"] , } , crate :: Annotation { lang : "gl" , tts : Some ("gamba") , keywords : & ["animal" , "camarón" , "gamba" , "lagostino" , "marisco"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ઝી\u{a82}ગ\u{ac1}\u{a82}") , keywords : & ["કરચલો" , "ઝી\u{a82}ગ\u{ac1}\u{a82}" , "નાન\u{ac1}\u{a82}" , "ભોજન"] , } , crate :: Annotation { lang : "ha" , tts : Some ("jatanlande") , keywords : & ["abinci" , "jatanlande" , "kifi mai katantanwa" , "ƙarami"] , } , crate :: Annotation { lang : "he" , tts : Some ("שרימפ") , keywords : & ["חסילון" , "פירות ים" , "שרימפ"] , } , crate :: Annotation { lang : "hi" , tts : Some ("झी\u{902}गा") , keywords : & ["छोटा" , "झी\u{902}गा" , "भोजन" , "श\u{902}ख"] , } , crate :: Annotation { lang : "hr" , tts : Some ("škamp") , keywords : & ["hrana" , "rak" , "škamp" , "školjka"] , } , crate :: Annotation { lang : "hu" , tts : Some ("garnélarák") , keywords : & ["garnélarák" , "kicsi" , "étel"] , } , crate :: Annotation { lang : "hy" , tts : Some ("ծովախեցգետին") , keywords : & ["ծովախեցգետին" , "մանրածովախեցգետին" , "ուտելիք"] , } , crate :: Annotation { lang : "id" , tts : Some ("udang") , keywords : & ["makanan" , "seafood" , "udang"] , } , crate :: Annotation { lang : "ig" , tts : Some ("ayịya") , keywords : & ["ayịya" , "ejummiri" , "nri" , "obere"] , } , crate :: Annotation { lang : "is" , tts : Some ("rækja") , keywords : & ["rækja" , "sjávardýr" , "skelfiskur"] , } , crate :: Annotation { lang : "it" , tts : Some ("gamberetto") , keywords : & ["animale" , "cibo" , "crostaceo" , "gamberetto" , "gambero"] , } , crate :: Annotation { lang : "ja" , tts : Some ("エビ") , keywords : & ["エビ" , "シュリンプ" , "シーフード" , "動物"] , } , crate :: Annotation { lang : "jv" , tts : Some ("urang") , keywords : & ["cilik" , "dhaharan" , "urang" , "urang-urangan"] , } , crate :: Annotation { lang : "ka" , tts : Some ("კრევეტი") , keywords : & ["კრევეტი" , "მოლუსკი" , "პატარა" , "საკვები"] , } , crate :: Annotation { lang : "kk" , tts : Some ("асшаян") , keywords : & ["асшаян" , "тағам" , "шаян"] , } , crate :: Annotation { lang : "kl" , tts : Some ("reje") , keywords : & ["dyr" , "havdyr" , "mad" , "reje" , "skaldyr"] , } , crate :: Annotation { lang : "km" , tts : Some ("បង\u{17d2}គារ") , keywords : & ["ត\u{17bc}ច" , "បង\u{17d2}គារ" , "ពព\u{17bd}កខ\u{17d2}យង" , "អាហារ"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಶ\u{ccd}ರ\u{cbf}ಂಪ\u{ccd}") , keywords : & ["ಆಹಾರ" , "ಚ\u{cbf}ಕ\u{ccd}ಕದು" , "ಶ\u{cc6}ಲ\u{ccd} ಮೀನು" , "ಶ\u{ccd}ರ\u{cbf}ಂಪ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("새우") , keywords : & ["갑각류" , "바다생물" , "새우" , "식품"] , } , crate :: Annotation { lang : "kok" , tts : Some ("स\u{941}\u{902}गट") , keywords : & ["अन\u{94d}न" , "कवच आसपी न\u{941}स\u{94d}त\u{947}\u{902}" , "ल\u{94d}हान" , "स\u{941}\u{902}गट"] , } , crate :: Annotation { lang : "ky" , tts : Some ("креветка") , keywords : & ["деңиз азыктары" , "креветка" , "майда" , "тамак"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Crevette") , keywords : & ["Crevette" , "Iessen" , "Mieresfruucht" , "kleng"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ກ\u{eb8}\u{ec9}ງ") , keywords : & ["ກ\u{eb8}\u{ec9}ງ" , "ນ\u{ec9}ອຍ" , "ຫອຍ" , "ອາຫານ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("krevetė") , keywords : & ["kiaukutinis" , "krevetė" , "maistas" , "mažas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("garnele") , keywords : & ["garnele" , "mazs" , "ēdiens"] , } , crate :: Annotation { lang : "mi" , tts : Some ("kōuraura") , keywords : & ["kai" , "kōuraura" , "mātaitai" , "ririki"] , } , crate :: Annotation { lang : "mk" , tts : Some ("ракче") , keywords : & ["ракче" , "храна"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ചെമ\u{d4d}മീൻ") , keywords : & ["കൊഞ\u{d4d}ച\u{d4d}" , "ചെമ\u{d4d}മീൻ" , "മീൻ" , "മൽസ\u{d4d}യം"] , } , crate :: Annotation { lang : "mn" , tts : Some ("сам хорхой") , keywords : & ["жижиг" , "сам хорхой" , "усны амьтан" , "хавч" , "хүнс"] , } , crate :: Annotation { lang : "mr" , tts : Some ("झि\u{902}गा") , keywords : & ["खाद\u{94d}य" , "ख\u{947}कडा" , "झि\u{902}गा" , "लहान"] , } , crate :: Annotation { lang : "ms" , tts : Some ("udang") , keywords : & ["kecil" , "makanan" , "udang"] , } , crate :: Annotation { lang : "mt" , tts : Some ("gamblu") , keywords : & ["frott tal-baħar" , "gamblu" , "ikel" , "żgħir"] , } , crate :: Annotation { lang : "my" , tts : Some ("ပ\u{102f}စ\u{103d}န\u{103a}") , keywords : & ["ဂ\u{102f}\u{1036}း" , "ပ\u{102f}စ\u{103d}န\u{103a}" , "သေးသေး" , "အစားအသောက\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("reke") , keywords : & ["dyr" , "liten" , "mat" , "reke"] , } , crate :: Annotation { lang : "ne" , tts : Some ("श\u{94d}रिम\u{94d}प") , keywords : & ["खाना" , "श\u{947}लमाछा" , "श\u{94d}रिम\u{94d}प" , "सानो"] , } , crate :: Annotation { lang : "nl" , tts : Some ("garnaal") , keywords : & ["garnaal" , "klein" , "schaaldier" , "voedsel"] , } , crate :: Annotation { lang : "nn" , tts : Some ("reke") , keywords : & ["dyr" , "liten" , "mat" , "reke"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଚ\u{b3f}ଙ\u{b4d}ଗ\u{b41}ଡ\u{b3c}\u{b3f}") , keywords : & ["ଚ\u{b3f}ଙ\u{b4d}ଗ\u{b41}ଡ\u{b3c}\u{b3f}" , "ଚ\u{b3f}ଙ\u{b4d}ଗ\u{b41}ଡ\u{b3c}\u{b3f} । ଛୋଟ । ଶେଲଫ\u{b3f}ଶ\u{b4d}\u{200d} । ଖ\u{b3e}ଦ\u{b4d}ୟ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਝੀ\u{a02}ਗਾ") , keywords : & ["ਛ\u{a4b}ਟਾ" , "ਝੀ\u{a02}ਗਾ" , "ਭ\u{a4b}ਜਨ" , "ਸ\u{a70}ਖ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("جھینگا") , keywords : & ["جھینگا" , "خود غرض" , "خوراک" , "نیکا"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Shrimp") , keywords : & ["Fud" , "Shrimp" , "Shẹlfish" , "Smọl"] , } , crate :: Annotation { lang : "pl" , tts : Some ("krewetka") , keywords : & ["jedzenie" , "krewetka" , "owoce morza"] , } , crate :: Annotation { lang : "ps" , tts : Some ("چنګاښ") , keywords : & ["خواړه، شل کب، چنګاښ، کوچنی" , "چنګاښ"] , } , crate :: Annotation { lang : "pt" , tts : Some ("camarão") , keywords : & ["camarão" , "comida" , "crustáceo"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["camarão" , "comida" , "gamba" , "marisco"] , } , crate :: Annotation { lang : "qu" , tts : Some ("camaron") , keywords : & ["camaron" , "huchuy" , "mariscos" , "mikhuna"] , } , crate :: Annotation { lang : "ro" , tts : Some ("crevete") , keywords : & ["crevete" , "fructe de mare" , "mic" , "mâncare"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1112") , keywords : & ["E10-1112"] , } , crate :: Annotation { lang : "ru" , tts : Some ("креветка") , keywords : & ["еда" , "креветка" , "маленькая" , "морепродукты"] , } , crate :: Annotation { lang : "rw" , tts : Some ("kerevete") , keywords : & ["gitoya" , "ibiribwa" , "igihore cyo mu mazi" , "igikonoshwa cy’ifi" , "kerevete"] , } , crate :: Annotation { lang : "sd" , tts : Some ("جهينگو") , keywords : & ["جهينگو" , "جهينگو، ننڍي، خول مڇي، کاڌو"] , } , crate :: Annotation { lang : "si" , tts : Some ("ක\u{dd6}න\u{dd2}ස\u{dca}ස\u{dcf}") , keywords : & ["කෑම" , "ක\u{dd4}ඩ\u{dcf}" , "ක\u{dd6}න\u{dd2}ස\u{dca}ස\u{dcf}" , "ස\u{dd2}ප\u{dca}ප\u{dd2} බෙල\u{dca}ල\u{dcf}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("kreveta") , keywords : & ["jedlo" , "kreveta" , "mäkkýš"] , } , crate :: Annotation { lang : "sl" , tts : Some ("morski rakec") , keywords : & ["hrana" , "kozica" , "morski rakec" , "rak" , "škamp"] , } , crate :: Annotation { lang : "so" , tts : Some ("kalluun qolof la shiilay") , keywords : & ["cunto" , "kalluun qolof la shiilay" , "qolof kalluun" , "qolof kalluun la shiilay" , "yar"] , } , crate :: Annotation { lang : "sq" , tts : Some ("karkalec deti") , keywords : & ["butak" , "i vogël" , "karkalec deti" , "ushqim"] , } , crate :: Annotation { lang : "sr" , tts : Some ("рачић") , keywords : & ["рак" , "рачић" , "храна"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("račić") , keywords : & ["hrana" , "rak" , "račić"] , } , crate :: Annotation { lang : "sv" , tts : Some ("räka") , keywords : & ["liten" , "mat" , "räka" , "skaldjur"] , } , crate :: Annotation { lang : "sw" , tts : Some ("uduvi") , keywords : & ["chakula" , "kamba" , "uduvi"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("கூனிற\u{bbe}ல\u{bcd}") , keywords : & ["உணவு" , "கூனிற\u{bbe}ல\u{bcd}" , "ம\u{bc0}ன\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("ర\u{c4a}య\u{c4d}య") , keywords : & ["ఆహ\u{c3e}రం" , "చ\u{c3f}న\u{c4d}న" , "ర\u{c4a}య\u{c4d}య" , "ష\u{c46}ల\u{c4d}\u{200c}ఫ\u{c3f}ష\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("гамбусакча") , keywords : & ["гамбусак" , "гамбусакча" , "моллюскҳо" , "хурд" , "ғизо"] , } , crate :: Annotation { lang : "th" , tts : Some ("ก\u{e38}\u{e49}ง") , keywords : & ["ก\u{e38}\u{e49}ง" , "อาหาร"] , } , crate :: Annotation { lang : "tk" , tts : Some ("krewetka") , keywords : & ["iýmit" , "kiçi" , "krewetka" , "mollýuska"] , } , crate :: Annotation { lang : "to" , tts : Some ("ʻuosiʻisiʻi") , keywords : & ["ʻuosiʻisiʻi"] , } , crate :: Annotation { lang : "tr" , tts : Some ("karides") , keywords : & ["kabuklu deniz hayvanı" , "karides" , "küçük" , "yiyecek"] , } , crate :: Annotation { lang : "ug" , tts : Some ("راك") , keywords : & ["راك" , "قاسراقلىق بېلىق" , "كىچىك" , "يېمەكلىك"] , } , crate :: Annotation { lang : "uk" , tts : Some ("креветка") , keywords : & ["креветка" , "морепродукт" , "їжа"] , } , crate :: Annotation { lang : "ur" , tts : Some ("جھینگا") , keywords : & ["جھینگا" , "خوراک"] , } , crate :: Annotation { lang : "uz" , tts : Some ("mayda qisqichbaqa") , keywords : & ["dengiz mahsulotlari" , "mayda" , "qisqichbaqa" , "taom"] , } , crate :: Annotation { lang : "vi" , tts : Some ("tôm") , keywords : & ["nhỏ" , "thức ăn" , "tôm" , "tôm cua"] , } , crate :: Annotation { lang : "wo" , tts : Some ("krëwet") , keywords : & ["krëwet" , "lekk" , "meññeefu géej" , "ndaw"] , } , crate :: Annotation { lang : "xh" , tts : Some ("inqonci") , keywords : & ["encinane" , "i-shellfish" , "inqonci" , "ukutya"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Ede") , keywords : & ["Ede" , "edé" , "kékeré" , "ónjẹ" , "ẹja inú ìkarahun"] , } , crate :: Annotation { lang : "yue" , tts : Some ("蝦") , keywords : & ["小" , "甲殼類動物" , "蝦" , "食物"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("虾") , keywords : & ["小" , "甲壳类动物" , "虾" , "食物"] , } , crate :: Annotation { lang : "zh" , tts : Some ("虾") , keywords : & ["甲壳" , "虾" , "食物"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("蝦子") , keywords : & ["甲殼" , "蝦" , "蝦子" , "食物"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("蝦") , keywords : & ["明蝦" , "蝦" , "蝦子"] , } , crate :: Annotation { lang : "zu" , tts : Some ("imfanzi") , keywords : & ["igobolondo" , "imfanzi" , "ncane" , "ukudla"] , }] , } ;
+pub const SHRIMP: crate::Emoji = crate::Emoji {
+    glyph: "🦐",
+    codepoint: "1F990",
+    status: crate::Status::FullyQualified,
+    introduction_version: 3f32,
+    name: "shrimp",
+    group: "Food & Drink",
+    subgroup: "food-marine",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("garnaal"),
+            keywords: &["garnaal", "kos", "skulpvis"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ትንሽ አሣ"),
+            keywords: &["ምግብ", "ትንሽ", "ትንሽ አሣ", "ጠንካራ ሽፋን ያለው አሣ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("جمبري"),
+            keywords: &["جمبري", "طعام", "محار"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("শিঙি"),
+            keywords: &["খ\u{9be}দ\u{9cd}য", "শিঙি", "শ\u{9cd}বেলফিচ", "সৰ\u{9c1}"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("krevet"),
+            keywords: &["krevet", "su canlısı", "xərçəng"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("крэветка"),
+            keywords: &["ежа", "крэветка", "маленькая", "морапрадукты"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("скарида"),
+            keywords: &["скарида", "храна", "черупкови"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("চিংড\u{9bc}ি"),
+            keywords: &[
+                "খ\u{9be}ব\u{9be}র",
+                "খোল\u{9be}ওয\u{9bc}\u{9be}ল\u{9be} ম\u{9be}ছ",
+                "চিংড\u{9bc}ি",
+                "ছোট",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("chevr"),
+            keywords: &["boued-mor", "chevr", "kresteneg", "loen"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("škamp"),
+            keywords: &["hrana", "račić", "škamp", "školjka"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("gamba"),
+            keywords: &["crustaci", "gamba", "llagostí", "marisc", "menjar"],
+        },
+        crate::Annotation {
+            lang: "ccp",
+            tts: Some("𑄄𑄎\u{11133}𑄠"),
+            keywords: &["𑄄𑄎\u{11133}𑄠"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏥᏅᏅ"),
+            keywords: &["ᎠᎵᏍᏓᏴᏗ", "ᎤᎾᏯᏍᎦᏟ ᎠᏣᏗ", "ᎤᏍᏗ", "ᏥᏅᏅ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("kreveta"),
+            keywords: &["garnát", "jídlo", "korýš", "kreveta"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("berdysyn"),
+            keywords: &["bach", "berdysyn", "bwyd", "pysgodyn cragen"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("reje"),
+            keywords: &["dyr", "havdyr", "mad", "reje", "skaldyr"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Garnele"),
+            keywords: &["Garnele", "Gourmet", "Krustentier"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("γαρίδα"),
+            keywords: &["γαρίδα", "μικρό", "οστρακοειδές", "τροφή"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("shrimp"),
+            keywords: &["food", "shellfish", "shrimp", "small"],
+        },
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["food", "prawn", "shellfish", "shrimp", "small"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("prawn"),
+            keywords: &["prawn", "seafood", "shellfish", "shrimp"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("gamba"),
+            keywords: &["camarón", "comida", "gamba", "langostino", "marisco"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("camarón"),
+            keywords: &["camarón", "comida", "langostino", "marisco"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["camarón", "comida", "langostino", "mariscos"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("krevett"),
+            keywords: &["koorikloom", "krevett", "toit"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("ganba"),
+            keywords: &["ganba", "itsaski", "janari", "txiki"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("میگو"),
+            keywords: &["جانور دریایی", "ماهی", "میگو"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("katkarapu"),
+            keywords: &["katkarapu", "ruoka", "äyriäiset"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("hipon"),
+            keywords: &["hipon", "maliit", "pagkain", "shellfish", "sugpo"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("rækja"),
+            keywords: &["dýr", "havføði", "matur", "rækja", "sjógæti"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("crevette"),
+            keywords: &["crevette", "crustacé"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["crevette", "crustacé", "nourriture"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("ribe róibéis"),
+            keywords: &["beag", "bia", "ribe róibéis", "sliogiasc"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("carrain"),
+            keywords: &["beag", "biadh", "carrain", "maorach"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("gamba"),
+            keywords: &["animal", "camarón", "gamba", "lagostino", "marisco"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ઝી\u{a82}ગ\u{ac1}\u{a82}"),
+            keywords: &[
+                "કરચલો",
+                "ઝી\u{a82}ગ\u{ac1}\u{a82}",
+                "નાન\u{ac1}\u{a82}",
+                "ભોજન",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("jatanlande"),
+            keywords: &["abinci", "jatanlande", "kifi mai katantanwa", "ƙarami"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("שרימפ"),
+            keywords: &["חסילון", "פירות ים", "שרימפ"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("झी\u{902}गा"),
+            keywords: &["छोटा", "झी\u{902}गा", "भोजन", "श\u{902}ख"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("škamp"),
+            keywords: &["hrana", "rak", "škamp", "školjka"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("garnélarák"),
+            keywords: &["garnélarák", "kicsi", "étel"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("ծովախեցգետին"),
+            keywords: &["ծովախեցգետին", "մանրածովախեցգետին", "ուտելիք"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("udang"),
+            keywords: &["makanan", "seafood", "udang"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ayịya"),
+            keywords: &["ayịya", "ejummiri", "nri", "obere"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("rækja"),
+            keywords: &["rækja", "sjávardýr", "skelfiskur"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("gamberetto"),
+            keywords: &["animale", "cibo", "crostaceo", "gamberetto", "gambero"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("エビ"),
+            keywords: &["エビ", "シュリンプ", "シーフード", "動物"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("urang"),
+            keywords: &["cilik", "dhaharan", "urang", "urang-urangan"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("კრევეტი"),
+            keywords: &["კრევეტი", "მოლუსკი", "პატარა", "საკვები"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("асшаян"),
+            keywords: &["асшаян", "тағам", "шаян"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("reje"),
+            keywords: &["dyr", "havdyr", "mad", "reje", "skaldyr"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("បង\u{17d2}គារ"),
+            keywords: &[
+                "ត\u{17bc}ច",
+                "បង\u{17d2}គារ",
+                "ពព\u{17bd}កខ\u{17d2}យង",
+                "អាហារ",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಶ\u{ccd}ರ\u{cbf}ಂಪ\u{ccd}"),
+            keywords: &[
+                "ಆಹಾರ",
+                "ಚ\u{cbf}ಕ\u{ccd}ಕದು",
+                "ಶ\u{cc6}ಲ\u{ccd} ಮೀನು",
+                "ಶ\u{ccd}ರ\u{cbf}ಂಪ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("새우"),
+            keywords: &["갑각류", "바다생물", "새우", "식품"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("स\u{941}\u{902}गट"),
+            keywords: &[
+                "अन\u{94d}न",
+                "कवच आसपी न\u{941}स\u{94d}त\u{947}\u{902}",
+                "ल\u{94d}हान",
+                "स\u{941}\u{902}गट",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("креветка"),
+            keywords: &["деңиз азыктары", "креветка", "майда", "тамак"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Crevette"),
+            keywords: &["Crevette", "Iessen", "Mieresfruucht", "kleng"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ກ\u{eb8}\u{ec9}ງ"),
+            keywords: &["ກ\u{eb8}\u{ec9}ງ", "ນ\u{ec9}ອຍ", "ຫອຍ", "ອາຫານ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("krevetė"),
+            keywords: &["kiaukutinis", "krevetė", "maistas", "mažas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("garnele"),
+            keywords: &["garnele", "mazs", "ēdiens"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("kōuraura"),
+            keywords: &["kai", "kōuraura", "mātaitai", "ririki"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("ракче"),
+            keywords: &["ракче", "храна"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ചെമ\u{d4d}മീൻ"),
+            keywords: &["കൊഞ\u{d4d}ച\u{d4d}", "ചെമ\u{d4d}മീൻ", "മീൻ", "മൽസ\u{d4d}യം"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("сам хорхой"),
+            keywords: &["жижиг", "сам хорхой", "усны амьтан", "хавч", "хүнс"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("झि\u{902}गा"),
+            keywords: &["खाद\u{94d}य", "ख\u{947}कडा", "झि\u{902}गा", "लहान"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("udang"),
+            keywords: &["kecil", "makanan", "udang"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("gamblu"),
+            keywords: &["frott tal-baħar", "gamblu", "ikel", "żgħir"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ပ\u{102f}စ\u{103d}န\u{103a}"),
+            keywords: &[
+                "ဂ\u{102f}\u{1036}း",
+                "ပ\u{102f}စ\u{103d}န\u{103a}",
+                "သေးသေး",
+                "အစားအသောက\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("reke"),
+            keywords: &["dyr", "liten", "mat", "reke"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("श\u{94d}रिम\u{94d}प"),
+            keywords: &["खाना", "श\u{947}लमाछा", "श\u{94d}रिम\u{94d}प", "सानो"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("garnaal"),
+            keywords: &["garnaal", "klein", "schaaldier", "voedsel"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("reke"),
+            keywords: &["dyr", "liten", "mat", "reke"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଚ\u{b3f}ଙ\u{b4d}ଗ\u{b41}ଡ\u{b3c}\u{b3f}"),
+            keywords: &[
+                "ଚ\u{b3f}ଙ\u{b4d}ଗ\u{b41}ଡ\u{b3c}\u{b3f}",
+                "ଚ\u{b3f}ଙ\u{b4d}ଗ\u{b41}ଡ\u{b3c}\u{b3f} । ଛୋଟ । ଶେଲଫ\u{b3f}ଶ\u{b4d}\u{200d} । ଖ\u{b3e}ଦ\u{b4d}ୟ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਝੀ\u{a02}ਗਾ"),
+            keywords: &["ਛ\u{a4b}ਟਾ", "ਝੀ\u{a02}ਗਾ", "ਭ\u{a4b}ਜਨ", "ਸ\u{a70}ਖ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("جھینگا"),
+            keywords: &["جھینگا", "خود غرض", "خوراک", "نیکا"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Shrimp"),
+            keywords: &["Fud", "Shrimp", "Shẹlfish", "Smọl"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("krewetka"),
+            keywords: &["jedzenie", "krewetka", "owoce morza"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("چنګاښ"),
+            keywords: &["خواړه، شل کب، چنګاښ، کوچنی", "چنګاښ"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("camarão"),
+            keywords: &["camarão", "comida", "crustáceo"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["camarão", "comida", "gamba", "marisco"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("camaron"),
+            keywords: &["camaron", "huchuy", "mariscos", "mikhuna"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("crevete"),
+            keywords: &["crevete", "fructe de mare", "mic", "mâncare"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1112"),
+            keywords: &["E10-1112"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("креветка"),
+            keywords: &["еда", "креветка", "маленькая", "морепродукты"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("kerevete"),
+            keywords: &[
+                "gitoya",
+                "ibiribwa",
+                "igihore cyo mu mazi",
+                "igikonoshwa cy’ifi",
+                "kerevete",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("جهينگو"),
+            keywords: &["جهينگو", "جهينگو، ننڍي، خول مڇي، کاڌو"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ක\u{dd6}න\u{dd2}ස\u{dca}ස\u{dcf}"),
+            keywords: &[
+                "කෑම",
+                "ක\u{dd4}ඩ\u{dcf}",
+                "ක\u{dd6}න\u{dd2}ස\u{dca}ස\u{dcf}",
+                "ස\u{dd2}ප\u{dca}ප\u{dd2} බෙල\u{dca}ල\u{dcf}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("kreveta"),
+            keywords: &["jedlo", "kreveta", "mäkkýš"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("morski rakec"),
+            keywords: &["hrana", "kozica", "morski rakec", "rak", "škamp"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("kalluun qolof la shiilay"),
+            keywords: &[
+                "cunto",
+                "kalluun qolof la shiilay",
+                "qolof kalluun",
+                "qolof kalluun la shiilay",
+                "yar",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("karkalec deti"),
+            keywords: &["butak", "i vogël", "karkalec deti", "ushqim"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("рачић"),
+            keywords: &["рак", "рачић", "храна"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("račić"),
+            keywords: &["hrana", "rak", "račić"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("räka"),
+            keywords: &["liten", "mat", "räka", "skaldjur"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("uduvi"),
+            keywords: &["chakula", "kamba", "uduvi"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("கூனிற\u{bbe}ல\u{bcd}"),
+            keywords: &["உணவு", "கூனிற\u{bbe}ல\u{bcd}", "ம\u{bc0}ன\u{bcd}"],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ర\u{c4a}య\u{c4d}య"),
+            keywords: &[
+                "ఆహ\u{c3e}రం",
+                "చ\u{c3f}న\u{c4d}న",
+                "ర\u{c4a}య\u{c4d}య",
+                "ష\u{c46}ల\u{c4d}\u{200c}ఫ\u{c3f}ష\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("гамбусакча"),
+            keywords: &["гамбусак", "гамбусакча", "моллюскҳо", "хурд", "ғизо"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ก\u{e38}\u{e49}ง"),
+            keywords: &["ก\u{e38}\u{e49}ง", "อาหาร"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("krewetka"),
+            keywords: &["iýmit", "kiçi", "krewetka", "mollýuska"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("ʻuosiʻisiʻi"),
+            keywords: &["ʻuosiʻisiʻi"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("karides"),
+            keywords: &["kabuklu deniz hayvanı", "karides", "küçük", "yiyecek"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("راك"),
+            keywords: &["راك", "قاسراقلىق بېلىق", "كىچىك", "يېمەكلىك"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("креветка"),
+            keywords: &["креветка", "морепродукт", "їжа"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("جھینگا"),
+            keywords: &["جھینگا", "خوراک"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("mayda qisqichbaqa"),
+            keywords: &["dengiz mahsulotlari", "mayda", "qisqichbaqa", "taom"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("tôm"),
+            keywords: &["nhỏ", "thức ăn", "tôm", "tôm cua"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("krëwet"),
+            keywords: &["krëwet", "lekk", "meññeefu géej", "ndaw"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("inqonci"),
+            keywords: &["encinane", "i-shellfish", "inqonci", "ukutya"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Ede"),
+            keywords: &["Ede", "edé", "kékeré", "ónjẹ", "ẹja inú ìkarahun"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("蝦"),
+            keywords: &["小", "甲殼類動物", "蝦", "食物"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("虾"),
+            keywords: &["小", "甲壳类动物", "虾", "食物"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("虾"),
+            keywords: &["甲壳", "虾", "食物"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("蝦子"),
+            keywords: &["甲殼", "蝦", "蝦子", "食物"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("蝦"),
+            keywords: &["明蝦", "蝦", "蝦子"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("imfanzi"),
+            keywords: &["igobolondo", "imfanzi", "ncane", "ukudla"],
+        },
+    ],
+};
 #[doc = "🦑"]
 pub const SQUID: crate::Emoji = crate::Emoji {
     glyph: "🦑",

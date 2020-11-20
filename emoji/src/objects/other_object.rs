@@ -1,5 +1,661 @@
 #[doc = "🚬"]
-pub const CIGARETTE : crate :: Emoji = crate :: Emoji { glyph : "🚬" , codepoint : "1F6AC" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "cigarette" , group : "Objects" , subgroup : "other-object" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("rook") , keywords : & ["rook" , "sigaret"] , } , crate :: Annotation { lang : "am" , tts : Some ("ሲጋራ") , keywords : & ["ማጨስ" , "ሲጋራ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("سيجارة") , keywords : & ["إشارة" , "تدخين" , "سيجارة" , "مسموح بالتدخين"] , } , crate :: Annotation { lang : "as" , tts : Some ("চিগ\u{9be}ৰেট") , keywords : & ["চিগ\u{9be}ৰেট" , "ধ\u{9c2}মপ\u{9be}ন"] , } , crate :: Annotation { lang : "az" , tts : Some ("siqaret") , keywords : & ["siqaret"] , } , crate :: Annotation { lang : "be" , tts : Some ("курэнне") , keywords : & ["дым" , "курэнне" , "цыгарэта"] , } , crate :: Annotation { lang : "bg" , tts : Some ("пушене") , keywords : & ["пушене"] , } , crate :: Annotation { lang : "bn" , tts : Some ("সিগ\u{9be}রেট") , keywords : & ["ধ\u{9c1}ম\u{9cd}রপ\u{9be}ন" , "সিগ\u{9be}রেট"] , } , crate :: Annotation { lang : "br" , tts : Some ("sigaretenn") , keywords : & ["butunat" , "sigaretenn"] , } , crate :: Annotation { lang : "bs" , tts : Some ("pušenje") , keywords : & ["cigareta" , "pušenje"] , } , crate :: Annotation { lang : "ca" , tts : Some ("cigarreta") , keywords : & ["cigarreta" , "fumar"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎪᎩᏍᏗ") , keywords : & ["ᎪᎩᏍᏗ" , "ᏚᎦᏒᏍᏛ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("cigareta") , keywords : & ["cigareta" , "kouření"] , } , crate :: Annotation { lang : "cy" , tts : Some ("ysmygu") , keywords : & ["ysmygu"] , } , crate :: Annotation { lang : "da" , tts : Some ("cigaret") , keywords : & ["cigaret" , "rygning tilladt"] , } , crate :: Annotation { lang : "de" , tts : Some ("Zigarette") , keywords : & ["Rauchen" , "Rauchersymbol" , "Zigarette"] , } , crate :: Annotation { lang : "el" , tts : Some ("τσιγάρο") , keywords : & ["κάπνισμα" , "τσιγάρο"] , } , crate :: Annotation { lang : "en" , tts : Some ("cigarette") , keywords : & ["cigarette" , "smoking"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("cigarrillo") , keywords : & ["cigarrillo" , "cigarro" , "fumar"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["cigarrillo" , "fumar" , "permitido"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("sigaret") , keywords : & ["sigaret" , "suitsetama"] , } , crate :: Annotation { lang : "eu" , tts : Some ("erre") , keywords : & ["erre"] , } , crate :: Annotation { lang : "fa" , tts : Some ("سیگار") , keywords : & ["سیگار" , "سیگار کشیدن"] , } , crate :: Annotation { lang : "fi" , tts : Some ("savuke") , keywords : & ["savuke" , "tupakointi"] , } , crate :: Annotation { lang : "fil" , tts : Some ("sigarilyo") , keywords : & ["naninigarilyo" , "sigarilyo" , "usok"] , } , crate :: Annotation { lang : "fo" , tts : Some ("tendra sigarett") , keywords : & ["royking" , "roykja" , "roykur" , "sigarett" , "tendra sigarett" , "tubbak"] , } , crate :: Annotation { lang : "fr" , tts : Some ("cigarette") , keywords : & ["cigarette" , "fumeur"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("toitín") , keywords : & ["caitheamh tobac" , "cead tobac a chaitheamh" , "comhartha" , "toitín"] , } , crate :: Annotation { lang : "gd" , tts : Some ("toitean") , keywords : & ["smocadh" , "toit" , "toitean"] , } , crate :: Annotation { lang : "gl" , tts : Some ("cigarro") , keywords : & ["cigarro" , "fumar" , "permitido fumar" , "tabaco"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ધ\u{ac2}મ\u{acd}રપાન") , keywords : & ["ચિહ\u{acd}ન" , "ધ\u{ac2}મ\u{acd}રપાન" , "ધ\u{ac2}મ\u{acd}રપાનની અન\u{ac1}મતિ" , "ધ\u{ac2}મ\u{acd}રપાનન\u{ac1}\u{a82} ચિહ\u{acd}ન"] , } , crate :: Annotation { lang : "ha" , tts : Some ("sigari") , keywords : & ["shan taba" , "sigari"] , } , crate :: Annotation { lang : "he" , tts : Some ("סיגריה דולקת") , keywords : & ["דולקת" , "סיגריה" , "עישון"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ध\u{942}म\u{94d}रपान") , keywords : & ["ध\u{942}म\u{94d}रपान" , "ध\u{942}म\u{94d}रपान का चिह\u{94d}न"] , } , crate :: Annotation { lang : "hr" , tts : Some ("cigareta") , keywords : & ["cigareta" , "pušenje"] , } , crate :: Annotation { lang : "hu" , tts : Some ("dohányzás") , keywords : & ["cigaretta" , "dohányzás"] , } , crate :: Annotation { lang : "hy" , tts : Some ("ծխել") , keywords : & ["ծխել"] , } , crate :: Annotation { lang : "id" , tts : Some ("rokok") , keywords : & ["merokok" , "rokok"] , } , crate :: Annotation { lang : "ig" , tts : Some ("ciga") , keywords : & ["ciga" , "na-ese ciga"] , } , crate :: Annotation { lang : "is" , tts : Some ("sígaretta") , keywords : & ["reykingar" , "sígaretta"] , } , crate :: Annotation { lang : "it" , tts : Some ("sigaretta") , keywords : & ["area fumatori" , "fumo" , "sigaretta"] , } , crate :: Annotation { lang : "ja" , tts : Some ("煙草") , keywords : & ["タバコ" , "喫煙" , "煙草"] , } , crate :: Annotation { lang : "jv" , tts : Some ("rokok") , keywords : & ["ngrokok" , "rokok"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ბოლი") , keywords : & ["ბოლი"] , } , crate :: Annotation { lang : "kab" , tts : Some ("ageṛṛu") , keywords : & ["ageṛṛu"] , } , crate :: Annotation { lang : "kk" , tts : Some ("шылым шегу") , keywords : & ["шылым шегу"] , } , crate :: Annotation { lang : "kl" , tts : Some ("rygeskilt") , keywords : & ["rygeskilt" , "rygning tilladt"] , } , crate :: Annotation { lang : "km" , tts : Some ("បារ\u{17b8}ហ\u{17bb}យផ\u{17d2}សែង") , keywords : & ["ជក\u{17cb}" , "បារ\u{17b8}" , "បារ\u{17b8}ហ\u{17bb}យផ\u{17d2}សែង"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಧ\u{cc2}ಮಪಾನ") , keywords : & ["ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}" , "ಧ\u{cc2}ಮಪಾನ" , "ಧ\u{cc2}ಮಪಾನ ಅನುಮತ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("흡연 구역 신호") , keywords : & ["담배" , "흡연" , "흡연 구역 신호"] , } , crate :: Annotation { lang : "kok" , tts : Some ("सिगार\u{947}ट") , keywords : & ["ध\u{941}म\u{94d}रपान" , "सिगार\u{947}ट"] , } , crate :: Annotation { lang : "ky" , tts : Some ("чылым чегүү") , keywords : & ["чегүү" , "чылым чегүү"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Zigarett") , keywords : & ["Zigarett" , "fëmmen"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຢາສ\u{eb9}ບ") , keywords : & ["ຢາສ\u{eb9}ບ" , "ສ\u{eb9}ບຢາ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("rūkymas") , keywords : & ["rūkymas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("aizdegta cigarete") , keywords : & ["aizdegta cigarete" , "cigarete" , "smēķēt"] , } , crate :: Annotation { lang : "mi" , tts : Some ("hikareti") , keywords : & ["hikareti" , "momi hikareti"] , } , crate :: Annotation { lang : "mk" , tts : Some ("цигара") , keywords : & ["цигара" , "чад"] , } , crate :: Annotation { lang : "ml" , tts : Some ("പ\u{d41}കവലി ചിഹ\u{d4d}നം") , keywords : & ["പ\u{d41}കവലി ചിഹ\u{d4d}നം" , "പ\u{d41}കവലി സിംബൽ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("тамхи") , keywords : & ["тамхи" , "тамхи татах"] , } , crate :: Annotation { lang : "mr" , tts : Some ("ध\u{942}म\u{94d}रपान") , keywords : & ["ध\u{942}म\u{94d}रपान" , "सिगार\u{947}ट"] , } , crate :: Annotation { lang : "ms" , tts : Some ("rokok") , keywords : & ["merokok" , "rokok"] , } , crate :: Annotation { lang : "mt" , tts : Some ("sigarett") , keywords : & ["sigarett" , "tipjip"] , } , crate :: Annotation { lang : "my" , tts : Some ("ဆေးလ\u{102d}ပ\u{103a}သောက\u{103a}ခြင\u{103a}း") , keywords : & ["စ\u{102e}းကရက\u{103a}" , "ဆေးလ\u{102d}ပ\u{103a}သောက\u{103a}ခြင\u{103a}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("sigarett") , keywords : & ["røyking" , "røyking tillatt" , "sigarett" , "skilt"] , } , crate :: Annotation { lang : "ne" , tts : Some ("ध\u{941}म\u{94d}रपान") , keywords : & ["ध\u{941}म\u{94d}रपान" , "सिगर\u{947}ट"] , } , crate :: Annotation { lang : "nl" , tts : Some ("sigaret") , keywords : & ["roken" , "sigaret"] , } , crate :: Annotation { lang : "nn" , tts : Some ("sigarett") , keywords : & ["røyking" , "røyking tillate" , "sigarett" , "skilt"] , } , crate :: Annotation { lang : "or" , tts : Some ("ସ\u{b3f}ଗ\u{b3e}ରେଟ\u{b4d}\u{200c}") , keywords : & ["ଚ\u{b3f}ହ\u{b4d}ନ" , "ଧ\u{b42}ମପ\u{b3e}ନ" , "ଧ\u{b42}ମପ\u{b3e}ନ ଅନ\u{b41}ମୋଦ\u{b3f}ତ" , "ସ\u{b3f}ଗ\u{b3e}ରେଟ\u{b4d}\u{200c}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਸਿਗਰਟ") , keywords : & ["ਚਿ\u{a70}ਨ\u{a4d}ਹ" , "ਸਮ\u{a4b}ਕਿ\u{a70}ਗ" , "ਸਿਗਰਟ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("سیگٹ") , keywords : & ["سگریٹ نوشی" , "سیگٹ"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Sigarẹt") , keywords : & ["De Smok" , "Sigarẹt" , "Smókin"] , } , crate :: Annotation { lang : "pl" , tts : Some ("papieros") , keywords : & ["dla palących" , "dym" , "dymek" , "papieros"] , } , crate :: Annotation { lang : "ps" , tts : Some ("سګريټ") , keywords : & ["سګريټ" , "سګريټ نوشي"] , } , crate :: Annotation { lang : "pt" , tts : Some ("cigarro") , keywords : & ["cigarro" , "fumar"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("cigarro") , keywords : & ["cigarro" , "fumar"] , } , crate :: Annotation { lang : "ro" , tts : Some ("țigară") , keywords : & ["fum" , "fumat" , "scrum" , "țigară"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-960") , keywords : & ["E10-960"] , } , crate :: Annotation { lang : "ru" , tts : Some ("сигарета") , keywords : & ["дым" , "курение" , "курить" , "можно" , "разрешено" , "сигарета"] , } , crate :: Annotation { lang : "rw" , tts : Some ("isegereti") , keywords : & ["isegereti" , "kunywa itabi"] , } , crate :: Annotation { lang : "sd" , tts : Some ("سگريٽ") , keywords : & ["تماڪو نوشي" , "سگريٽ"] , } , crate :: Annotation { lang : "si" , tts : Some ("ද\u{dd4}ම") , keywords : & ["ද\u{dd4}ම" , "ද\u{dd4}ම\u{dca} බ\u{dd3}ම"] , } , crate :: Annotation { lang : "sk" , tts : Some ("cigareta") , keywords : & ["cigareta" , "fajčenie"] , } , crate :: Annotation { lang : "sl" , tts : Some ("kajenje") , keywords : & ["cigara" , "cigareta" , "kajenje"] , } , crate :: Annotation { lang : "so" , tts : Some ("sigaar") , keywords : & ["sigaar" , "sigaar cabid"] , } , crate :: Annotation { lang : "sq" , tts : Some ("cigare") , keywords : & ["cigare" , "pirje duhani"] , } , crate :: Annotation { lang : "sr" , tts : Some ("цигарета") , keywords : & ["пушeњe" , "цигарета"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("cigareta") , keywords : & ["cigareta" , "pušenje"] , } , crate :: Annotation { lang : "sv" , tts : Some ("cigarett") , keywords : & ["cigarett" , "rökning" , "rökning tillåtet" , "symbol"] , } , crate :: Annotation { lang : "sw" , tts : Some ("sigara iliyowashwa") , keywords : & ["kuvuta sigara" , "sigara iliyowashwa"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("புகைச\u{bcd} சின\u{bcd}னம\u{bcd}") , keywords : & ["புகைச\u{bcd} சின\u{bcd}னம\u{bcd}" , "புகைத\u{bcd}தல\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("ధూమప\u{c3e}నం") , keywords : & ["ఈ ప\u{c4d}ర\u{c3e}ంతంల\u{c4b} ప\u{c4a}గ త\u{c4d}ర\u{c3e}గడం అనుమత\u{c3f}ంచబడ\u{c3f}ంద\u{c3f}" , "ధూమప\u{c3e}నం" , "ప\u{c4a}గత\u{c4d}ర\u{c3e}గు స\u{c4d}థలం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("сигор") , keywords : & ["сигор" , "тамоку кашидан"] , } , crate :: Annotation { lang : "th" , tts : Some ("ป\u{e49}ายส\u{e39}บบ\u{e38}หร\u{e35}\u{e48}") , keywords : & ["ป\u{e49}ายส\u{e39}บบ\u{e38}หร\u{e35}\u{e48}" , "ส\u{e39}บบ\u{e38}หร\u{e35}\u{e48}" , "ส\u{e39}บบ\u{e38}หร\u{e35}\u{e48}ได\u{e49}"] , } , crate :: Annotation { lang : "tk" , tts : Some ("çilim") , keywords : & ["çilim" , "çilim çekmek"] , } , crate :: Annotation { lang : "to" , tts : Some ("sikaleti") , keywords : & ["sikaleti"] , } , crate :: Annotation { lang : "tr" , tts : Some ("sigara") , keywords : & ["işaret" , "sigara" , "sigara içilebilir" , "sigara içme"] , } , crate :: Annotation { lang : "ug" , tts : Some ("تاماكا") , keywords : & ["تاماكا" , "تاماكا چېكىش"] , } , crate :: Annotation { lang : "uk" , tts : Some ("сигарета") , keywords : & ["куріння" , "сигарета"] , } , crate :: Annotation { lang : "ur" , tts : Some ("سگریٹ نوشی") , keywords : & ["دھواں" , "سگریٹ نوشی" , "سگریٹ کشی"] , } , crate :: Annotation { lang : "uz" , tts : Some ("chekish") , keywords : & ["chekish" , "sigaret"] , } , crate :: Annotation { lang : "vi" , tts : Some ("thuốc lá") , keywords : & ["hút thuốc" , "thuốc lá"] , } , crate :: Annotation { lang : "wo" , tts : Some ("sigaret") , keywords : & ["sigaret" , "tox"] , } , crate :: Annotation { lang : "xh" , tts : Some ("icuba") , keywords : & ["icuba" , "ukutshaya"] , } , crate :: Annotation { lang : "yo" , tts : Some ("siga") , keywords : & ["siga" , "sìgá mímu"] , } , crate :: Annotation { lang : "yue" , tts : Some ("香煙") , keywords : & ["吸煙" , "香煙"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("香烟") , keywords : & ["吸烟" , "香烟"] , } , crate :: Annotation { lang : "zh" , tts : Some ("香烟") , keywords : & ["卷烟" , "吸烟" , "抽烟" , "烟" , "烟草" , "香烟"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("吸煙") , keywords : & ["吸煙" , "抽煙"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("香煙") , keywords : & ["吸煙" , "抽煙" , "香煙"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ukubhema") , keywords : & ["ukubhema" , "ukushunqa"] , }] , } ;
+pub const CIGARETTE: crate::Emoji = crate::Emoji {
+    glyph: "🚬",
+    codepoint: "1F6AC",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "cigarette",
+    group: "Objects",
+    subgroup: "other-object",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("rook"),
+            keywords: &["rook", "sigaret"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ሲጋራ"),
+            keywords: &["ማጨስ", "ሲጋራ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("سيجارة"),
+            keywords: &["إشارة", "تدخين", "سيجارة", "مسموح بالتدخين"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("চিগ\u{9be}ৰেট"),
+            keywords: &["চিগ\u{9be}ৰেট", "ধ\u{9c2}মপ\u{9be}ন"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("siqaret"),
+            keywords: &["siqaret"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("курэнне"),
+            keywords: &["дым", "курэнне", "цыгарэта"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("пушене"),
+            keywords: &["пушене"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("সিগ\u{9be}রেট"),
+            keywords: &["ধ\u{9c1}ম\u{9cd}রপ\u{9be}ন", "সিগ\u{9be}রেট"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("sigaretenn"),
+            keywords: &["butunat", "sigaretenn"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("pušenje"),
+            keywords: &["cigareta", "pušenje"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("cigarreta"),
+            keywords: &["cigarreta", "fumar"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎪᎩᏍᏗ"),
+            keywords: &["ᎪᎩᏍᏗ", "ᏚᎦᏒᏍᏛ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("cigareta"),
+            keywords: &["cigareta", "kouření"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("ysmygu"),
+            keywords: &["ysmygu"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("cigaret"),
+            keywords: &["cigaret", "rygning tilladt"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Zigarette"),
+            keywords: &["Rauchen", "Rauchersymbol", "Zigarette"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("τσιγάρο"),
+            keywords: &["κάπνισμα", "τσιγάρο"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("cigarette"),
+            keywords: &["cigarette", "smoking"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("cigarrillo"),
+            keywords: &["cigarrillo", "cigarro", "fumar"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["cigarrillo", "fumar", "permitido"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("sigaret"),
+            keywords: &["sigaret", "suitsetama"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("erre"),
+            keywords: &["erre"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("سیگار"),
+            keywords: &["سیگار", "سیگار کشیدن"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("savuke"),
+            keywords: &["savuke", "tupakointi"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("sigarilyo"),
+            keywords: &["naninigarilyo", "sigarilyo", "usok"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("tendra sigarett"),
+            keywords: &[
+                "royking",
+                "roykja",
+                "roykur",
+                "sigarett",
+                "tendra sigarett",
+                "tubbak",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("cigarette"),
+            keywords: &["cigarette", "fumeur"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("toitín"),
+            keywords: &[
+                "caitheamh tobac",
+                "cead tobac a chaitheamh",
+                "comhartha",
+                "toitín",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("toitean"),
+            keywords: &["smocadh", "toit", "toitean"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("cigarro"),
+            keywords: &["cigarro", "fumar", "permitido fumar", "tabaco"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ધ\u{ac2}મ\u{acd}રપાન"),
+            keywords: &[
+                "ચિહ\u{acd}ન",
+                "ધ\u{ac2}મ\u{acd}રપાન",
+                "ધ\u{ac2}મ\u{acd}રપાનની અન\u{ac1}મતિ",
+                "ધ\u{ac2}મ\u{acd}રપાનન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("sigari"),
+            keywords: &["shan taba", "sigari"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("סיגריה דולקת"),
+            keywords: &["דולקת", "סיגריה", "עישון"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ध\u{942}म\u{94d}रपान"),
+            keywords: &[
+                "ध\u{942}म\u{94d}रपान",
+                "ध\u{942}म\u{94d}रपान का चिह\u{94d}न",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("cigareta"),
+            keywords: &["cigareta", "pušenje"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("dohányzás"),
+            keywords: &["cigaretta", "dohányzás"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("ծխել"),
+            keywords: &["ծխել"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("rokok"),
+            keywords: &["merokok", "rokok"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ciga"),
+            keywords: &["ciga", "na-ese ciga"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("sígaretta"),
+            keywords: &["reykingar", "sígaretta"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("sigaretta"),
+            keywords: &["area fumatori", "fumo", "sigaretta"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("煙草"),
+            keywords: &["タバコ", "喫煙", "煙草"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("rokok"),
+            keywords: &["ngrokok", "rokok"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ბოლი"),
+            keywords: &["ბოლი"],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("ageṛṛu"),
+            keywords: &["ageṛṛu"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("шылым шегу"),
+            keywords: &["шылым шегу"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("rygeskilt"),
+            keywords: &["rygeskilt", "rygning tilladt"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("បារ\u{17b8}ហ\u{17bb}យផ\u{17d2}សែង"),
+            keywords: &[
+                "ជក\u{17cb}",
+                "បារ\u{17b8}",
+                "បារ\u{17b8}ហ\u{17bb}យផ\u{17d2}សែង",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಧ\u{cc2}ಮಪಾನ"),
+            keywords: &[
+                "ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+                "ಧ\u{cc2}ಮಪಾನ",
+                "ಧ\u{cc2}ಮಪಾನ ಅನುಮತ\u{cbf}ಸಲಾಗ\u{cbf}ದ\u{cc6}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("흡연 구역 신호"),
+            keywords: &["담배", "흡연", "흡연 구역 신호"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("सिगार\u{947}ट"),
+            keywords: &["ध\u{941}म\u{94d}रपान", "सिगार\u{947}ट"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("чылым чегүү"),
+            keywords: &["чегүү", "чылым чегүү"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Zigarett"),
+            keywords: &["Zigarett", "fëmmen"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຢາສ\u{eb9}ບ"),
+            keywords: &["ຢາສ\u{eb9}ບ", "ສ\u{eb9}ບຢາ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("rūkymas"),
+            keywords: &["rūkymas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("aizdegta cigarete"),
+            keywords: &["aizdegta cigarete", "cigarete", "smēķēt"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("hikareti"),
+            keywords: &["hikareti", "momi hikareti"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("цигара"),
+            keywords: &["цигара", "чад"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("പ\u{d41}കവലി ചിഹ\u{d4d}നം"),
+            keywords: &["പ\u{d41}കവലി ചിഹ\u{d4d}നം", "പ\u{d41}കവലി സിംബൽ"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("тамхи"),
+            keywords: &["тамхи", "тамхи татах"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("ध\u{942}म\u{94d}रपान"),
+            keywords: &["ध\u{942}म\u{94d}रपान", "सिगार\u{947}ट"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("rokok"),
+            keywords: &["merokok", "rokok"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("sigarett"),
+            keywords: &["sigarett", "tipjip"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ဆေးလ\u{102d}ပ\u{103a}သောက\u{103a}ခြင\u{103a}း"),
+            keywords: &[
+                "စ\u{102e}းကရက\u{103a}",
+                "ဆေးလ\u{102d}ပ\u{103a}သောက\u{103a}ခြင\u{103a}း",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("sigarett"),
+            keywords: &["røyking", "røyking tillatt", "sigarett", "skilt"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("ध\u{941}म\u{94d}रपान"),
+            keywords: &["ध\u{941}म\u{94d}रपान", "सिगर\u{947}ट"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("sigaret"),
+            keywords: &["roken", "sigaret"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("sigarett"),
+            keywords: &["røyking", "røyking tillate", "sigarett", "skilt"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ସ\u{b3f}ଗ\u{b3e}ରେଟ\u{b4d}\u{200c}"),
+            keywords: &[
+                "ଚ\u{b3f}ହ\u{b4d}ନ",
+                "ଧ\u{b42}ମପ\u{b3e}ନ",
+                "ଧ\u{b42}ମପ\u{b3e}ନ ଅନ\u{b41}ମୋଦ\u{b3f}ତ",
+                "ସ\u{b3f}ଗ\u{b3e}ରେଟ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਸਿਗਰਟ"),
+            keywords: &["ਚਿ\u{a70}ਨ\u{a4d}ਹ", "ਸਮ\u{a4b}ਕਿ\u{a70}ਗ", "ਸਿਗਰਟ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("سیگٹ"),
+            keywords: &["سگریٹ نوشی", "سیگٹ"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Sigarẹt"),
+            keywords: &["De Smok", "Sigarẹt", "Smókin"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("papieros"),
+            keywords: &["dla palących", "dym", "dymek", "papieros"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("سګريټ"),
+            keywords: &["سګريټ", "سګريټ نوشي"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("cigarro"),
+            keywords: &["cigarro", "fumar"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("cigarro"),
+            keywords: &["cigarro", "fumar"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("țigară"),
+            keywords: &["fum", "fumat", "scrum", "țigară"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-960"),
+            keywords: &["E10-960"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("сигарета"),
+            keywords: &["дым", "курение", "курить", "можно", "разрешено", "сигарета"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("isegereti"),
+            keywords: &["isegereti", "kunywa itabi"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("سگريٽ"),
+            keywords: &["تماڪو نوشي", "سگريٽ"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ද\u{dd4}ම"),
+            keywords: &["ද\u{dd4}ම", "ද\u{dd4}ම\u{dca} බ\u{dd3}ම"],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("cigareta"),
+            keywords: &["cigareta", "fajčenie"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("kajenje"),
+            keywords: &["cigara", "cigareta", "kajenje"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("sigaar"),
+            keywords: &["sigaar", "sigaar cabid"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("cigare"),
+            keywords: &["cigare", "pirje duhani"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("цигарета"),
+            keywords: &["пушeњe", "цигарета"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("cigareta"),
+            keywords: &["cigareta", "pušenje"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("cigarett"),
+            keywords: &["cigarett", "rökning", "rökning tillåtet", "symbol"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("sigara iliyowashwa"),
+            keywords: &["kuvuta sigara", "sigara iliyowashwa"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("புகைச\u{bcd} சின\u{bcd}னம\u{bcd}"),
+            keywords: &["புகைச\u{bcd} சின\u{bcd}னம\u{bcd}", "புகைத\u{bcd}தல\u{bcd}"],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ధూమప\u{c3e}నం"),
+            keywords: &[
+                "ఈ ప\u{c4d}ర\u{c3e}ంతంల\u{c4b} ప\u{c4a}గ త\u{c4d}ర\u{c3e}గడం అనుమత\u{c3f}ంచబడ\u{c3f}ంద\u{c3f}",
+                "ధూమప\u{c3e}నం",
+                "ప\u{c4a}గత\u{c4d}ర\u{c3e}గు స\u{c4d}థలం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("сигор"),
+            keywords: &["сигор", "тамоку кашидан"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ป\u{e49}ายส\u{e39}บบ\u{e38}หร\u{e35}\u{e48}"),
+            keywords: &[
+                "ป\u{e49}ายส\u{e39}บบ\u{e38}หร\u{e35}\u{e48}",
+                "ส\u{e39}บบ\u{e38}หร\u{e35}\u{e48}",
+                "ส\u{e39}บบ\u{e38}หร\u{e35}\u{e48}ได\u{e49}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("çilim"),
+            keywords: &["çilim", "çilim çekmek"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("sikaleti"),
+            keywords: &["sikaleti"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("sigara"),
+            keywords: &["işaret", "sigara", "sigara içilebilir", "sigara içme"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("تاماكا"),
+            keywords: &["تاماكا", "تاماكا چېكىش"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("сигарета"),
+            keywords: &["куріння", "сигарета"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("سگریٹ نوشی"),
+            keywords: &["دھواں", "سگریٹ نوشی", "سگریٹ کشی"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("chekish"),
+            keywords: &["chekish", "sigaret"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("thuốc lá"),
+            keywords: &["hút thuốc", "thuốc lá"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("sigaret"),
+            keywords: &["sigaret", "tox"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("icuba"),
+            keywords: &["icuba", "ukutshaya"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("siga"),
+            keywords: &["siga", "sìgá mímu"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("香煙"),
+            keywords: &["吸煙", "香煙"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("香烟"),
+            keywords: &["吸烟", "香烟"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("香烟"),
+            keywords: &["卷烟", "吸烟", "抽烟", "烟", "烟草", "香烟"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("吸煙"),
+            keywords: &["吸煙", "抽煙"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("香煙"),
+            keywords: &["吸煙", "抽煙", "香煙"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ukubhema"),
+            keywords: &["ukubhema", "ukushunqa"],
+        },
+    ],
+};
 #[doc = "⚰\u{fe0f}"]
 pub const COFFIN: crate::Emoji = crate::Emoji {
     glyph: "⚰\u{fe0f}",
@@ -645,9 +1301,1529 @@ pub const COFFIN: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🪦"]
-pub const HEADSTONE : crate :: Emoji = crate :: Emoji { glyph : "🪦" , codepoint : "1FAA6" , status : crate :: Status :: FullyQualified , introduction_version : 13f32 , name : "headstone" , group : "Objects" , subgroup : "other-object" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("grafsteen") , keywords : & ["graf" , "grafsteen" , "kopsteen"] , } , crate :: Annotation { lang : "am" , tts : Some ("ሃውልት") , keywords : & ["ሃውልት"] , } , crate :: Annotation { lang : "ar" , tts : Some ("حجر مقبرة") , keywords : & ["حجر مقبرة" , "شاهد" , "شاهد القبر" , "قبر" , "مقبرة"] , } , crate :: Annotation { lang : "as" , tts : Some ("হেডষ\u{9cd}টন") , keywords : & ["গ\u{9cd}ৰেভ" , "চিমেটেৰী" , "টম\u{9cd}বষ\u{9cd}টন" , "সম\u{9be}ধিক\u{9cd}ষেত\u{9cd}ৰ" , "হেডষ\u{9cd}টন"] , } , crate :: Annotation { lang : "az" , tts : Some ("başdaşı") , keywords : & ["başdaşı" , "məzar" , "məzarlıq" , "qəbirdaşı" , "qəbiristanlıq"] , } , crate :: Annotation { lang : "be" , tts : Some ("надмагільны помнік") , keywords : & ["магіла" , "магільны камень" , "могілкі" , "могільнік" , "надмагільны помнік"] , } , crate :: Annotation { lang : "bg" , tts : Some ("надгробна плоча") , keywords : & ["гроб" , "гробище" , "надгробен паметник" , "надгробна плоча"] , } , crate :: Annotation { lang : "bn" , tts : Some ("কবরের শীর\u{9cd}ষদেশের প\u{9be}থর") , keywords : & ["কবর" , "কবরখ\u{9be}ন\u{9be}" , "কবরস\u{9cd}থ\u{9be}ন" , "কবরের শীর\u{9cd}ষদেশের প\u{9be}থর" , "কবরের শীর\u{9cd}ষের প\u{9be}থর" , "সম\u{9be}ধিপ\u{9cd}রস\u{9cd}তর"] , } , crate :: Annotation { lang : "br" , tts : Some ("maen-bez") , keywords : & ["bered" , "bez" , "maen-bez" , "maen-kañv" , "maen-koun" , "maen-sav"] , } , crate :: Annotation { lang : "bs" , tts : Some ("nadgrobni spomenik") , keywords : & ["grob" , "groblje" , "mezar" , "mezarje" , "nadgrobni spomenik"] , } , crate :: Annotation { lang : "ca" , tts : Some ("làpida") , keywords : & ["cementiri" , "làpida" , "tomba"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᏅᏯ ᎠᏂᏓᏗᏍᎪᏘᎢ") , keywords : & ["ᎠᏤᎵᏍᏛᎢ" , "ᏅᏯ ᎠᏂᏓᏗᏍᎪᏘ" , "ᏅᏯ ᎠᏂᏓᏗᏍᎪᏘᎢ" , "ᏗᏓᏂᏐᏗ" , "ᏙᎯ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("náhrobek") , keywords : & ["hrob" , "hřbitov" , "kámen" , "náhrobek" , "náhrobní" , "pomník"] , } , crate :: Annotation { lang : "cy" , tts : Some ("carreg fedd") , keywords : & ["bedd" , "carreg fedd" , "mynwent"] , } , crate :: Annotation { lang : "da" , tts : Some ("gravsten") , keywords : & ["grav" , "gravsten" , "kirkegård"] , } , crate :: Annotation { lang : "de" , tts : Some ("Grabstein") , keywords : & ["Friedhof" , "Grab" , "Grabstein"] , } , crate :: Annotation { lang : "el" , tts : Some ("ταφόπλακα") , keywords : & ["κοιμητήριο" , "νεκροταφείο" , "τάφος" , "ταφόπλακα"] , } , crate :: Annotation { lang : "en" , tts : Some ("headstone") , keywords : & ["cemetery" , "grave" , "graveyard" , "headstone" , "tombstone"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("lápida") , keywords : & ["cementario" , "estela" , "lápida" , "sepulcro" , "tumba"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("lápida") , keywords : & ["lápida"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("lápida") , keywords : & ["lápida"] , } , crate :: Annotation { lang : "et" , tts : Some ("hauakivi") , keywords : & ["hauakivi" , "haud" , "kalmistu" , "surnuaed"] , } , crate :: Annotation { lang : "eu" , tts : Some ("hilarri") , keywords : & ["goian bego" , "hilarri" , "hilarria" , "hilerria" , "hilobia" , "hobia" , "kanposantua"] , } , crate :: Annotation { lang : "fa" , tts : Some ("سنگ قبر") , keywords : & ["سنگ قبر" , "سنگ قبر عمودی" , "مقبره" , "گورستان"] , } , crate :: Annotation { lang : "fi" , tts : Some ("hautakivi") , keywords : & ["hauta" , "hautakivi" , "hautausmaa"] , } , crate :: Annotation { lang : "fil" , tts : Some ("lapida") , keywords : & ["lapida" , "libingan" , "sementeryo"] , } , crate :: Annotation { lang : "fo" , tts : Some ("gravsteinur") , keywords : & ["deyði" , "gravsteinur" , "grøv" , "kirkjugarður"] , } , crate :: Annotation { lang : "fr" , tts : Some ("pierre tombale") , keywords : & ["cimetière" , "pierre tombale" , "stèle" , "tombe"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("pierre tombale") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("leac uaighe") , keywords : & ["leac uaighe"] , } , crate :: Annotation { lang : "gd" , tts : Some ("leac-lighe") , keywords : & ["clach" , "clach-chinn" , "clach-uaighe" , "cladh" , "leac" , "leac-lighe" , "uaigh"] , } , crate :: Annotation { lang : "gl" , tts : Some ("lápida") , keywords : & ["cemiterio" , "lousa" , "lápida" , "sepultura" , "tumba"] , } , crate :: Annotation { lang : "gu" , tts : Some ("હ\u{ac7}ડસ\u{acd}ટોન") , keywords : & ["કબર" , "કબ\u{acd}રસ\u{acd}તાન" , "ટોમ\u{acd}બસ\u{acd}ટોન" , "સ\u{acd}મશાન" , "હ\u{ac7}ડસ\u{acd}ટોન"] , } , crate :: Annotation { lang : "he" , tts : Some ("מצבה") , keywords : & ["בית קברות" , "מצבה" , "מציבה" , "קבר"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ह\u{947}डस\u{94d}टोन") , keywords : & ["समाधि" , "समाधि का पत\u{94d}थर" , "समाधि-क\u{94d}ष\u{947}त\u{94d}र" , "समाधिस\u{94d}थल" , "ह\u{947}डस\u{94d}टोन"] , } , crate :: Annotation { lang : "hr" , tts : Some ("nadgrobni spomenik") , keywords : & ["grob" , "groblje" , "nadgrobni spomenik"] , } , crate :: Annotation { lang : "hu" , tts : Some ("sírkő") , keywords : & ["fejfa" , "sír" , "sírkő" , "temető"] , } , crate :: Annotation { lang : "hy" , tts : Some ("շիրմաքար") , keywords : & ["գերեզման" , "գերեզմանատուն" , "գերեզմանաքար" , "շիրմաքար" , "տապանաքար"] , } , crate :: Annotation { lang : "id" , tts : Some ("batu nisan") , keywords : & ["batu nisan" , "kuburan" , "nisan" , "pekuburan" , "pemakaman"] , } , crate :: Annotation { lang : "is" , tts : Some ("legsteinn") , keywords : & ["grafsteinn" , "gröf" , "kirkjugarður" , "legsteinn" , "leiði"] , } , crate :: Annotation { lang : "it" , tts : Some ("lapide") , keywords : & ["cimitero" , "lapide" , "pietra tombale" , "tomba"] , } , crate :: Annotation { lang : "ja" , tts : Some ("墓石") , keywords : & ["お墓" , "埋葬" , "墓地" , "墓場" , "墓石" , "石碑"] , } , crate :: Annotation { lang : "jv" , tts : Some ("kijeng") , keywords : & ["kijeng" , "kuburan" , "pakuburan"] , } , crate :: Annotation { lang : "ka" , tts : Some ("საფლავის ქვა") , keywords : & ["სამარე" , "სასაფლაო" , "საფლავი" , "საფლავის ქვა"] , } , crate :: Annotation { lang : "kk" , tts : Some ("сағана") , keywords : & ["бейіт" , "зират" , "сағана" , "қабір" , "құлпытас"] , } , crate :: Annotation { lang : "km" , tts : Some ("ថ\u{17d2}មក\u{17d2}បាលផ\u{17d2}ន\u{17bc}រ") , keywords : & ["ឈាបនដ\u{17d2}ឋាន" , "ថ\u{17d2}មក\u{17d2}បាលផ\u{17d2}ន\u{17bc}រ" , "ទ\u{17b8}កប\u{17cb}ខ\u{17d2}មោច" , "ទ\u{17b8}ប\u{17c9}ាឆា" , "ផ\u{17d2}ន\u{17bc}រ"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಹ\u{cc6}ಡ\u{ccd}\u{200c}ಸ\u{ccd}ಟೋನ\u{ccd}\u{200c}") , keywords : & ["ಮಸಣ" , "ಸಮಾಧ\u{cbf}" , "ಸಾಮಾಧ\u{cbf} ಕಲ\u{ccd}ಲು" , "ಸ\u{ccd}ಮಶಾನ" , "ಹ\u{cc6}ಡ\u{ccd}\u{200c}ಸ\u{ccd}ಟೋನ\u{ccd}\u{200c}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("묘비") , keywords : & ["묘비" , "묘석" , "묘지" , "무덤"] , } , crate :: Annotation { lang : "kok" , tts : Some ("ह\u{947}डस\u{94d}टोन") , keywords : & ["ट\u{941}म\u{94d}बस\u{94d}टोन" , "थडग\u{947}\u{902}" , "मस\u{902}ड" , "मसणभ\u{942}\u{902}य" , "समाधी" , "समाधीचो चिरो" , "सिम\u{947}ट\u{94d}री" , "ह\u{947}डस\u{94d}टोन"] , } , crate :: Annotation { lang : "ky" , tts : Some ("мүрзө ташы") , keywords : & ["мүрзө ташы"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ສ\u{eb4}ລາເລ\u{eb5}ກ") , keywords : & ["ປ\u{ec8}າຊ\u{ec9}າ" , "ສ\u{eb4}ລາເລ\u{eb4}ກ" , "ສ\u{eb4}ລາເລ\u{eb5}ກ" , "ສ\u{eb8}ສານ" , "ຫ\u{ebc}\u{eb8}ມຝ\u{eb1}ງສ\u{ebb}ບ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("paminklas") , keywords : & ["kapas" , "kapinės" , "paminklas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("kapakmens") , keywords : & ["kapa piemineklis" , "kapakmens" , "kapi" , "kaps" , "kapsēta"] , } , crate :: Annotation { lang : "mk" , tts : Some ("надгробна плоча") , keywords : & ["гроб" , "гробишта" , "надгробна плоча"] , } , crate :: Annotation { lang : "ml" , tts : Some ("കല\u{d4d}ലറക\u{d4d}കല\u{d4d}ല\u{d4d}") , keywords : & ["കല\u{d4d}ലറക\u{d4d}കല\u{d4d}ല\u{d4d}" , "ക\u{d41}ഴമ\u{d3e}ടക\u{d4d}കല\u{d4d}ല\u{d4d}" , "ക\u{d41}ഴിമ\u{d3e}ടം" , "ശ\u{d4d}മശ\u{d3e}നം" , "സെമിത\u{d4d}തേരി"] , } , crate :: Annotation { lang : "mn" , tts : Some ("хөшөө чулуу") , keywords : & ["булшны чулуу" , "оршуулга" , "оршуулгын газар" , "хөшөө" , "хөшөө чулуу"] , } , crate :: Annotation { lang : "mr" , tts : Some ("ह\u{947}डस\u{94d}टोन") , keywords : & ["कबरी" , "थडग\u{947}" , "थडग\u{94d}याच\u{94d}या माथ\u{94d}\u{200d}याशी असल\u{947}ला दगड" , "दफनभ\u{942}मी" , "स\u{94d}मशानभ\u{942}मी" , "ह\u{947}डस\u{94d}टोन"] , } , crate :: Annotation { lang : "ms" , tts : Some ("nisan") , keywords : & ["batu nisan" , "kubur" , "nisan" , "perkuburan" , "rip"] , } , crate :: Annotation { lang : "my" , tts : Some ("သ\u{102f}သာန\u{103a}မြေပ\u{102f}\u{1036}ခေါင\u{103a}းရင\u{103a}း မ\u{103e}တ\u{103a}တ\u{102d}\u{102f}င\u{103a}") , keywords : & ["သင\u{103a}\u{1039}ချ\u{102d}\u{102f}င\u{103a}း" , "သင\u{103a}\u{1039}ချ\u{102d}\u{102f}င\u{103a}းဂ\u{1030}ကမ\u{1039}ပည\u{103a}း ကျောက\u{103a}စာတ\u{102d}\u{102f}င\u{103a}" , "သ\u{102f}သာန\u{103a}" , "သ\u{102f}သာန\u{103a}မြေပ\u{102f}\u{1036}ခေါင\u{103a}းရင\u{103a}း မ\u{103e}တ\u{103a}တ\u{102d}\u{102f}င\u{103a}" , "အ\u{102f}တ\u{103a}ဂ\u{1030}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("gravstein") , keywords : & ["grav" , "gravplass" , "gravstein" , "kirkegård"] , } , crate :: Annotation { lang : "ne" , tts : Some ("ह\u{947}डस\u{94d}टोन") , keywords : & ["ग\u{94d}र\u{947}भ" , "ग\u{94d}र\u{947}भयार\u{94d}ड" , "ट\u{941}म\u{94d}बस\u{94d}टोन" , "मरनघाट" , "ह\u{947}डस\u{94d}टोन"] , } , crate :: Annotation { lang : "nl" , tts : Some ("grafsteen") , keywords : & ["begraafplaats" , "graf" , "grafsteen" , "grafzerk" , "kerkhof"] , } , crate :: Annotation { lang : "nn" , tts : Some ("gravstein") , keywords : & ["grav" , "gravplass" , "gravstein" , "kyrkjegard"] , } , crate :: Annotation { lang : "or" , tts : Some ("କବରର ମ\u{b41}ଣ\u{b4d}ଡପଟେ ଖଞ\u{b4d}ଜ\u{b3e}ଯ\u{b3e}ଇଥ\u{b3f}ବ\u{b3e} ପଥର") , keywords : & ["କବର/ସମ\u{b3e}ଧ\u{b3f}" , "କବରର ମ\u{b41}ଣ\u{b4d}ଡପଟେ ଖଞ\u{b4d}ଜ\u{b3e}ଯ\u{b3e}ଇଥ\u{b3f}ବ\u{b3e} ପଥର" , "ମଶ\u{b3e}ଣ\u{b3f}" , "ସମ\u{b3e}ଧ\u{b3f}କ\u{b4d}ଷେତ\u{b4d}ର" , "ସମ\u{b3e}ଧ\u{b3f}ରପଥର"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਕਬਰ ਦਾ ਪ\u{a71}ਥਰ") , keywords : & ["ਕਬਰ" , "ਕਬਰ ਦਾ ਪ\u{a71}ਥਰ" , "ਕਬਰਸਤਾਨ" , "ਸਮਾਧ ਦਾ ਪ\u{a71}ਥਰ" , "ਸ\u{a3c}ਮਸ\u{a3c}ਾਨ" , "ਸ\u{a3c}ਮਸ\u{a3c}ਾਨ ਘਾਟ"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Grévston") , keywords : & ["Bẹrial Graund" , "Grévston" , "Sẹ\u{301}mẹ\u{301}tri"] , } , crate :: Annotation { lang : "pl" , tts : Some ("nagrobek") , keywords : & ["cmentarz" , "grób" , "kamień nagrobny" , "nagrobek"] , } , crate :: Annotation { lang : "ps" , tts : Some ("شناخته") , keywords : & ["اديره" , "د سر ګټه" , "د قبر تکتۍ" , "سيمټري" , "شناخته" , "قبر"] , } , crate :: Annotation { lang : "pt" , tts : Some ("lápide") , keywords : & ["cemitério" , "lápide" , "sepultura"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ro" , tts : Some ("piatră funerară") , keywords : & ["cimitir" , "groapă" , "loc de veci" , "mormânt" , "piatră funerară"] , } , crate :: Annotation { lang : "root" , tts : Some ("E13-073") , keywords : & ["E13-073"] , } , crate :: Annotation { lang : "ru" , tts : Some ("надгробие") , keywords : & ["гробница" , "кладбище" , "могила" , "могильный камень" , "надгробие"] , } , crate :: Annotation { lang : "sd" , tts : Some ("وڏو پٿر") , keywords : & ["قبر" , "قبرستان" , "مقبري جو پٿر" , "وڏو پٿر" , "ڪيميٽري"] , } , crate :: Annotation { lang : "si" , tts : Some ("ම\u{dd4}ද\u{dd4}න\u{dca}ගල") , keywords : & ["ම\u{dd4}ද\u{dd4}න\u{dca}ගල" , "ස\u{dd4}ස\u{dcf}න භ\u{dd6}ම\u{dd2}ය" , "සොහොන" , "සොහොන\u{dca} ගල" , "සොහොන\u{dca} බ\u{dd2}ම"] , } , crate :: Annotation { lang : "sk" , tts : Some ("náhrobok") , keywords : & ["cintorín" , "hrob" , "hrobka" , "náhrobok"] , } , crate :: Annotation { lang : "sl" , tts : Some ("nagrobnik") , keywords : & ["grob" , "grobovi" , "nagrobnik" , "pokopališče" , "spomenik"] , } , crate :: Annotation { lang : "so" , tts : Some ("qudbo") , keywords : & ["beerta xabaalaha" , "dhagax qabriyeed" , "dhagax qudbo" , "qabuuro" , "qudbo" , "xabaalo"] , } , crate :: Annotation { lang : "sq" , tts : Some ("gur varri") , keywords : & ["gur varri" , "varr" , "varrezë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("надгробни споменик") , keywords : & ["гроб" , "гробље" , "надгробна плоча" , "надгробни камен" , "надгробни споменик"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("nadgrobni spomenik") , keywords : & ["grob" , "groblje" , "nadgrobna ploča" , "nadgrobni kamen" , "nadgrobni spomenik"] , } , crate :: Annotation { lang : "sv" , tts : Some ("gravsten") , keywords : & ["begravningsplats" , "grav" , "gravplats" , "gravsten" , "minneslund"] , } , crate :: Annotation { lang : "sw" , tts : Some ("jiwe la kaburi") , keywords : & ["jiwe la kaburi" , "kaburi" , "makaburini" , "mavani"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("கல\u{bcd}லறை") , keywords : & ["கல\u{bcd}லறை" , "கல\u{bcd}லறைக\u{bcd}கல\u{bcd}" , "சம\u{bbe}தி" , "மய\u{bbe}னம\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("తల వ\u{c48}పు న\u{c3e}ట\u{c47} ర\u{c3e}య\u{c3f}") , keywords : & ["తల వ\u{c48}పు న\u{c3e}ట\u{c47} ర\u{c3e}య\u{c3f}" , "శ\u{c3f}ఖర\u{c3e}న\u{c3f}క\u{c3f} ప\u{c46}ట\u{c4d}ట\u{c47} ర\u{c3e}య\u{c3f}" , "సమ\u{c3e}ధ\u{c3f} స\u{c4d}థలం" , "స\u{c4d}మశ\u{c3e}నం"] , } , crate :: Annotation { lang : "th" , tts : Some ("แผ\u{e48}นห\u{e34}นจาร\u{e36}ก") , keywords : & ["ป\u{e49}ายส\u{e38}สาน" , "ส\u{e38}สาน" , "หล\u{e38}มศพ" , "แผ\u{e48}นห\u{e34}นจาร\u{e36}ก"] , } , crate :: Annotation { lang : "tk" , tts : Some ("mazar daşy") , keywords : & ["gubur daşy" , "mazar" , "mazar daşy" , "mazarlyk" , "ýatan ýeri ýagty bolsun"] , } , crate :: Annotation { lang : "to" , tts : Some ("maka fakamanatu") , keywords : & ["maka fakamanatu"] , } , crate :: Annotation { lang : "tr" , tts : Some ("mezar taşı") , keywords : & ["defin" , "mezar" , "mezar taşı" , "mezarlık"] , } , crate :: Annotation { lang : "uk" , tts : Some ("надгробок") , keywords : & ["кладовище" , "могила" , "могильна плита" , "надгробок" , "цвинтар"] , } , crate :: Annotation { lang : "ur" , tts : Some ("کتبہ") , keywords : & ["قبر" , "قبرستان" , "کتبہ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("qabr toshi") , keywords : & ["mozor toshi" , "qabr" , "qabr toshi" , "qabriston" , "vafot"] , } , crate :: Annotation { lang : "vi" , tts : Some ("bia mộ") , keywords : & ["bia mộ" , "mộ" , "nghĩa trang" , "nghĩa địa"] , } , crate :: Annotation { lang : "yue" , tts : Some ("墓碑") , keywords : & ["墓地" , "墓碑" , "墳墓" , "安息"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("墓碑") , keywords : & ["坟墓" , "墓地" , "墓碑" , "安息"] , } , crate :: Annotation { lang : "zh" , tts : Some ("墓碑") , keywords : & ["公墓" , "墓园" , "墓地" , "墓碑"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("墓石") , keywords : & ["RIP" , "墓" , "墓園" , "墓石" , "墓碑" , "墳墓"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ikhanda eliyinhloko") , keywords : & ["amathuna" , "ethuneni" , "ikhanda eliyinhloko" , "ikhanda legumbi" , "ithuna"] , }] , } ;
+pub const HEADSTONE: crate::Emoji = crate::Emoji {
+    glyph: "🪦",
+    codepoint: "1FAA6",
+    status: crate::Status::FullyQualified,
+    introduction_version: 13f32,
+    name: "headstone",
+    group: "Objects",
+    subgroup: "other-object",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("grafsteen"),
+            keywords: &["graf", "grafsteen", "kopsteen"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ሃውልት"),
+            keywords: &["ሃውልት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("حجر مقبرة"),
+            keywords: &["حجر مقبرة", "شاهد", "شاهد القبر", "قبر", "مقبرة"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("হেডষ\u{9cd}টন"),
+            keywords: &[
+                "গ\u{9cd}ৰেভ",
+                "চিমেটেৰী",
+                "টম\u{9cd}বষ\u{9cd}টন",
+                "সম\u{9be}ধিক\u{9cd}ষেত\u{9cd}ৰ",
+                "হেডষ\u{9cd}টন",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("başdaşı"),
+            keywords: &["başdaşı", "məzar", "məzarlıq", "qəbirdaşı", "qəbiristanlıq"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("надмагільны помнік"),
+            keywords: &[
+                "магіла",
+                "магільны камень",
+                "могілкі",
+                "могільнік",
+                "надмагільны помнік",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("надгробна плоча"),
+            keywords: &["гроб", "гробище", "надгробен паметник", "надгробна плоча"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("কবরের শীর\u{9cd}ষদেশের প\u{9be}থর"),
+            keywords: &[
+                "কবর",
+                "কবরখ\u{9be}ন\u{9be}",
+                "কবরস\u{9cd}থ\u{9be}ন",
+                "কবরের শীর\u{9cd}ষদেশের প\u{9be}থর",
+                "কবরের শীর\u{9cd}ষের প\u{9be}থর",
+                "সম\u{9be}ধিপ\u{9cd}রস\u{9cd}তর",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("maen-bez"),
+            keywords: &[
+                "bered",
+                "bez",
+                "maen-bez",
+                "maen-kañv",
+                "maen-koun",
+                "maen-sav",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("nadgrobni spomenik"),
+            keywords: &["grob", "groblje", "mezar", "mezarje", "nadgrobni spomenik"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("làpida"),
+            keywords: &["cementiri", "làpida", "tomba"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᏅᏯ ᎠᏂᏓᏗᏍᎪᏘᎢ"),
+            keywords: &["ᎠᏤᎵᏍᏛᎢ", "ᏅᏯ ᎠᏂᏓᏗᏍᎪᏘ", "ᏅᏯ ᎠᏂᏓᏗᏍᎪᏘᎢ", "ᏗᏓᏂᏐᏗ", "ᏙᎯ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("náhrobek"),
+            keywords: &["hrob", "hřbitov", "kámen", "náhrobek", "náhrobní", "pomník"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("carreg fedd"),
+            keywords: &["bedd", "carreg fedd", "mynwent"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("gravsten"),
+            keywords: &["grav", "gravsten", "kirkegård"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Grabstein"),
+            keywords: &["Friedhof", "Grab", "Grabstein"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ταφόπλακα"),
+            keywords: &["κοιμητήριο", "νεκροταφείο", "τάφος", "ταφόπλακα"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("headstone"),
+            keywords: &["cemetery", "grave", "graveyard", "headstone", "tombstone"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("lápida"),
+            keywords: &["cementario", "estela", "lápida", "sepulcro", "tumba"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("lápida"),
+            keywords: &["lápida"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("lápida"),
+            keywords: &["lápida"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("hauakivi"),
+            keywords: &["hauakivi", "haud", "kalmistu", "surnuaed"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("hilarri"),
+            keywords: &[
+                "goian bego",
+                "hilarri",
+                "hilarria",
+                "hilerria",
+                "hilobia",
+                "hobia",
+                "kanposantua",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("سنگ قبر"),
+            keywords: &["سنگ قبر", "سنگ قبر عمودی", "مقبره", "گورستان"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("hautakivi"),
+            keywords: &["hauta", "hautakivi", "hautausmaa"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("lapida"),
+            keywords: &["lapida", "libingan", "sementeryo"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("gravsteinur"),
+            keywords: &["deyði", "gravsteinur", "grøv", "kirkjugarður"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("pierre tombale"),
+            keywords: &["cimetière", "pierre tombale", "stèle", "tombe"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("pierre tombale"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("leac uaighe"),
+            keywords: &["leac uaighe"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("leac-lighe"),
+            keywords: &[
+                "clach",
+                "clach-chinn",
+                "clach-uaighe",
+                "cladh",
+                "leac",
+                "leac-lighe",
+                "uaigh",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("lápida"),
+            keywords: &["cemiterio", "lousa", "lápida", "sepultura", "tumba"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("હ\u{ac7}ડસ\u{acd}ટોન"),
+            keywords: &[
+                "કબર",
+                "કબ\u{acd}રસ\u{acd}તાન",
+                "ટોમ\u{acd}બસ\u{acd}ટોન",
+                "સ\u{acd}મશાન",
+                "હ\u{ac7}ડસ\u{acd}ટોન",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("מצבה"),
+            keywords: &["בית קברות", "מצבה", "מציבה", "קבר"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ह\u{947}डस\u{94d}टोन"),
+            keywords: &[
+                "समाधि",
+                "समाधि का पत\u{94d}थर",
+                "समाधि-क\u{94d}ष\u{947}त\u{94d}र",
+                "समाधिस\u{94d}थल",
+                "ह\u{947}डस\u{94d}टोन",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("nadgrobni spomenik"),
+            keywords: &["grob", "groblje", "nadgrobni spomenik"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("sírkő"),
+            keywords: &["fejfa", "sír", "sírkő", "temető"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("շիրմաքար"),
+            keywords: &[
+                "գերեզման",
+                "գերեզմանատուն",
+                "գերեզմանաքար",
+                "շիրմաքար",
+                "տապանաքար",
+            ],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("batu nisan"),
+            keywords: &["batu nisan", "kuburan", "nisan", "pekuburan", "pemakaman"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("legsteinn"),
+            keywords: &["grafsteinn", "gröf", "kirkjugarður", "legsteinn", "leiði"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("lapide"),
+            keywords: &["cimitero", "lapide", "pietra tombale", "tomba"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("墓石"),
+            keywords: &["お墓", "埋葬", "墓地", "墓場", "墓石", "石碑"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("kijeng"),
+            keywords: &["kijeng", "kuburan", "pakuburan"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("საფლავის ქვა"),
+            keywords: &["სამარე", "სასაფლაო", "საფლავი", "საფლავის ქვა"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("сағана"),
+            keywords: &["бейіт", "зират", "сағана", "қабір", "құлпытас"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ថ\u{17d2}មក\u{17d2}បាលផ\u{17d2}ន\u{17bc}រ"),
+            keywords: &[
+                "ឈាបនដ\u{17d2}ឋាន",
+                "ថ\u{17d2}មក\u{17d2}បាលផ\u{17d2}ន\u{17bc}រ",
+                "ទ\u{17b8}កប\u{17cb}ខ\u{17d2}មោច",
+                "ទ\u{17b8}ប\u{17c9}ាឆា",
+                "ផ\u{17d2}ន\u{17bc}រ",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಹ\u{cc6}ಡ\u{ccd}\u{200c}ಸ\u{ccd}ಟೋನ\u{ccd}\u{200c}"),
+            keywords: &[
+                "ಮಸಣ",
+                "ಸಮಾಧ\u{cbf}",
+                "ಸಾಮಾಧ\u{cbf} ಕಲ\u{ccd}ಲು",
+                "ಸ\u{ccd}ಮಶಾನ",
+                "ಹ\u{cc6}ಡ\u{ccd}\u{200c}ಸ\u{ccd}ಟೋನ\u{ccd}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("묘비"),
+            keywords: &["묘비", "묘석", "묘지", "무덤"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("ह\u{947}डस\u{94d}टोन"),
+            keywords: &[
+                "ट\u{941}म\u{94d}बस\u{94d}टोन",
+                "थडग\u{947}\u{902}",
+                "मस\u{902}ड",
+                "मसणभ\u{942}\u{902}य",
+                "समाधी",
+                "समाधीचो चिरो",
+                "सिम\u{947}ट\u{94d}री",
+                "ह\u{947}डस\u{94d}टोन",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("мүрзө ташы"),
+            keywords: &["мүрзө ташы"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ສ\u{eb4}ລາເລ\u{eb5}ກ"),
+            keywords: &[
+                "ປ\u{ec8}າຊ\u{ec9}າ",
+                "ສ\u{eb4}ລາເລ\u{eb4}ກ",
+                "ສ\u{eb4}ລາເລ\u{eb5}ກ",
+                "ສ\u{eb8}ສານ",
+                "ຫ\u{ebc}\u{eb8}ມຝ\u{eb1}ງສ\u{ebb}ບ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("paminklas"),
+            keywords: &["kapas", "kapinės", "paminklas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("kapakmens"),
+            keywords: &["kapa piemineklis", "kapakmens", "kapi", "kaps", "kapsēta"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("надгробна плоча"),
+            keywords: &["гроб", "гробишта", "надгробна плоча"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("കല\u{d4d}ലറക\u{d4d}കല\u{d4d}ല\u{d4d}"),
+            keywords: &[
+                "കല\u{d4d}ലറക\u{d4d}കല\u{d4d}ല\u{d4d}",
+                "ക\u{d41}ഴമ\u{d3e}ടക\u{d4d}കല\u{d4d}ല\u{d4d}",
+                "ക\u{d41}ഴിമ\u{d3e}ടം",
+                "ശ\u{d4d}മശ\u{d3e}നം",
+                "സെമിത\u{d4d}തേരി",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("хөшөө чулуу"),
+            keywords: &[
+                "булшны чулуу",
+                "оршуулга",
+                "оршуулгын газар",
+                "хөшөө",
+                "хөшөө чулуу",
+            ],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("ह\u{947}डस\u{94d}टोन"),
+            keywords: &[
+                "कबरी",
+                "थडग\u{947}",
+                "थडग\u{94d}याच\u{94d}या माथ\u{94d}\u{200d}याशी असल\u{947}ला दगड",
+                "दफनभ\u{942}मी",
+                "स\u{94d}मशानभ\u{942}मी",
+                "ह\u{947}डस\u{94d}टोन",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("nisan"),
+            keywords: &["batu nisan", "kubur", "nisan", "perkuburan", "rip"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "သ\u{102f}သာန\u{103a}မြေပ\u{102f}\u{1036}ခေါင\u{103a}းရင\u{103a}း မ\u{103e}တ\u{103a}တ\u{102d}\u{102f}င\u{103a}",
+            ),
+            keywords: &[
+                "သင\u{103a}\u{1039}ချ\u{102d}\u{102f}င\u{103a}း",
+                "သင\u{103a}\u{1039}ချ\u{102d}\u{102f}င\u{103a}းဂ\u{1030}ကမ\u{1039}ပည\u{103a}း ကျောက\u{103a}စာတ\u{102d}\u{102f}င\u{103a}",
+                "သ\u{102f}သာန\u{103a}",
+                "သ\u{102f}သာန\u{103a}မြေပ\u{102f}\u{1036}ခေါင\u{103a}းရင\u{103a}း မ\u{103e}တ\u{103a}တ\u{102d}\u{102f}င\u{103a}",
+                "အ\u{102f}တ\u{103a}ဂ\u{1030}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("gravstein"),
+            keywords: &["grav", "gravplass", "gravstein", "kirkegård"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("ह\u{947}डस\u{94d}टोन"),
+            keywords: &[
+                "ग\u{94d}र\u{947}भ",
+                "ग\u{94d}र\u{947}भयार\u{94d}ड",
+                "ट\u{941}म\u{94d}बस\u{94d}टोन",
+                "मरनघाट",
+                "ह\u{947}डस\u{94d}टोन",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("grafsteen"),
+            keywords: &["begraafplaats", "graf", "grafsteen", "grafzerk", "kerkhof"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("gravstein"),
+            keywords: &["grav", "gravplass", "gravstein", "kyrkjegard"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("କବରର ମ\u{b41}ଣ\u{b4d}ଡପଟେ ଖଞ\u{b4d}ଜ\u{b3e}ଯ\u{b3e}ଇଥ\u{b3f}ବ\u{b3e} ପଥର"),
+            keywords: &[
+                "କବର/ସମ\u{b3e}ଧ\u{b3f}",
+                "କବରର ମ\u{b41}ଣ\u{b4d}ଡପଟେ ଖଞ\u{b4d}ଜ\u{b3e}ଯ\u{b3e}ଇଥ\u{b3f}ବ\u{b3e} ପଥର",
+                "ମଶ\u{b3e}ଣ\u{b3f}",
+                "ସମ\u{b3e}ଧ\u{b3f}କ\u{b4d}ଷେତ\u{b4d}ର",
+                "ସମ\u{b3e}ଧ\u{b3f}ରପଥର",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਕਬਰ ਦਾ ਪ\u{a71}ਥਰ"),
+            keywords: &[
+                "ਕਬਰ",
+                "ਕਬਰ ਦਾ ਪ\u{a71}ਥਰ",
+                "ਕਬਰਸਤਾਨ",
+                "ਸਮਾਧ ਦਾ ਪ\u{a71}ਥਰ",
+                "ਸ\u{a3c}ਮਸ\u{a3c}ਾਨ",
+                "ਸ\u{a3c}ਮਸ\u{a3c}ਾਨ ਘਾਟ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Grévston"),
+            keywords: &["Bẹrial Graund", "Grévston", "Sẹ\u{301}mẹ\u{301}tri"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("nagrobek"),
+            keywords: &["cmentarz", "grób", "kamień nagrobny", "nagrobek"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("شناخته"),
+            keywords: &["اديره", "د سر ګټه", "د قبر تکتۍ", "سيمټري", "شناخته", "قبر"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("lápide"),
+            keywords: &["cemitério", "lápide", "sepultura"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("piatră funerară"),
+            keywords: &[
+                "cimitir",
+                "groapă",
+                "loc de veci",
+                "mormânt",
+                "piatră funerară",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E13-073"),
+            keywords: &["E13-073"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("надгробие"),
+            keywords: &[
+                "гробница",
+                "кладбище",
+                "могила",
+                "могильный камень",
+                "надгробие",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("وڏو پٿر"),
+            keywords: &["قبر", "قبرستان", "مقبري جو پٿر", "وڏو پٿر", "ڪيميٽري"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ම\u{dd4}ද\u{dd4}න\u{dca}ගල"),
+            keywords: &[
+                "ම\u{dd4}ද\u{dd4}න\u{dca}ගල",
+                "ස\u{dd4}ස\u{dcf}න භ\u{dd6}ම\u{dd2}ය",
+                "සොහොන",
+                "සොහොන\u{dca} ගල",
+                "සොහොන\u{dca} බ\u{dd2}ම",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("náhrobok"),
+            keywords: &["cintorín", "hrob", "hrobka", "náhrobok"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("nagrobnik"),
+            keywords: &["grob", "grobovi", "nagrobnik", "pokopališče", "spomenik"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("qudbo"),
+            keywords: &[
+                "beerta xabaalaha",
+                "dhagax qabriyeed",
+                "dhagax qudbo",
+                "qabuuro",
+                "qudbo",
+                "xabaalo",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("gur varri"),
+            keywords: &["gur varri", "varr", "varrezë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("надгробни споменик"),
+            keywords: &[
+                "гроб",
+                "гробље",
+                "надгробна плоча",
+                "надгробни камен",
+                "надгробни споменик",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("nadgrobni spomenik"),
+            keywords: &[
+                "grob",
+                "groblje",
+                "nadgrobna ploča",
+                "nadgrobni kamen",
+                "nadgrobni spomenik",
+            ],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("gravsten"),
+            keywords: &[
+                "begravningsplats",
+                "grav",
+                "gravplats",
+                "gravsten",
+                "minneslund",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("jiwe la kaburi"),
+            keywords: &["jiwe la kaburi", "kaburi", "makaburini", "mavani"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("கல\u{bcd}லறை"),
+            keywords: &[
+                "கல\u{bcd}லறை",
+                "கல\u{bcd}லறைக\u{bcd}கல\u{bcd}",
+                "சம\u{bbe}தி",
+                "மய\u{bbe}னம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("తల వ\u{c48}పు న\u{c3e}ట\u{c47} ర\u{c3e}య\u{c3f}"),
+            keywords: &[
+                "తల వ\u{c48}పు న\u{c3e}ట\u{c47} ర\u{c3e}య\u{c3f}",
+                "శ\u{c3f}ఖర\u{c3e}న\u{c3f}క\u{c3f} ప\u{c46}ట\u{c4d}ట\u{c47} ర\u{c3e}య\u{c3f}",
+                "సమ\u{c3e}ధ\u{c3f} స\u{c4d}థలం",
+                "స\u{c4d}మశ\u{c3e}నం",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("แผ\u{e48}นห\u{e34}นจาร\u{e36}ก"),
+            keywords: &[
+                "ป\u{e49}ายส\u{e38}สาน",
+                "ส\u{e38}สาน",
+                "หล\u{e38}มศพ",
+                "แผ\u{e48}นห\u{e34}นจาร\u{e36}ก",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("mazar daşy"),
+            keywords: &[
+                "gubur daşy",
+                "mazar",
+                "mazar daşy",
+                "mazarlyk",
+                "ýatan ýeri ýagty bolsun",
+            ],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("maka fakamanatu"),
+            keywords: &["maka fakamanatu"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("mezar taşı"),
+            keywords: &["defin", "mezar", "mezar taşı", "mezarlık"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("надгробок"),
+            keywords: &[
+                "кладовище",
+                "могила",
+                "могильна плита",
+                "надгробок",
+                "цвинтар",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("کتبہ"),
+            keywords: &["قبر", "قبرستان", "کتبہ"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("qabr toshi"),
+            keywords: &["mozor toshi", "qabr", "qabr toshi", "qabriston", "vafot"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("bia mộ"),
+            keywords: &["bia mộ", "mộ", "nghĩa trang", "nghĩa địa"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("墓碑"),
+            keywords: &["墓地", "墓碑", "墳墓", "安息"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("墓碑"),
+            keywords: &["坟墓", "墓地", "墓碑", "安息"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("墓碑"),
+            keywords: &["公墓", "墓园", "墓地", "墓碑"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("墓石"),
+            keywords: &["RIP", "墓", "墓園", "墓石", "墓碑", "墳墓"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ikhanda eliyinhloko"),
+            keywords: &[
+                "amathuna",
+                "ethuneni",
+                "ikhanda eliyinhloko",
+                "ikhanda legumbi",
+                "ithuna",
+            ],
+        },
+    ],
+};
 #[doc = "⚱\u{fe0f}"]
-pub const FUNERAL_URN : crate :: Emoji = crate :: Emoji { glyph : "⚱\u{fe0f}" , codepoint : "26B1 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 1f32 , name : "funeral urn" , group : "Objects" , subgroup : "other-object" , is_variant : false , variants : & [crate :: Emoji { glyph : "⚱" , codepoint : "26B1" , status : crate :: Status :: Unqualified , introduction_version : 1f32 , name : "funeral urn" , group : "Objects" , subgroup : "other-object" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("begrafniskruik") , keywords : & ["as" , "begrafnis" , "begrafniskruik" , "dood" , "kruik"] , } , crate :: Annotation { lang : "am" , tts : Some ("የቀብር ማሰሮ") , keywords : & ["ማሰሮ" , "ሞት" , "ቀብር" , "የቀብር ማሰሮ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("رماد موتى") , keywords : & ["جنازة" , "رماد" , "رماد موتى" , "وفاة"] , } , crate :: Annotation { lang : "as" , tts : Some ("শৱ-ভস\u{9cd}ম\u{9be}ধ\u{9be}ৰ") , keywords : & ["অন\u{9cd}ত\u{9cd}যেষ\u{9cd}টিক\u{9cd}ৰিয\u{9bc}\u{9be}" , "কলহ" , "ভস\u{9cd}ম" , "ম\u{9c3}ত\u{9cd}য\u{9c1}" , "শৱ-ভস\u{9cd}ম\u{9be}ধ\u{9be}ৰ"] , } , crate :: Annotation { lang : "az" , tts : Some ("cənazə urnası") , keywords : & ["cənazə" , "cənazə urnası" , "urna" , "ölüm"] , } , crate :: Annotation { lang : "be" , tts : Some ("урна з прахам") , keywords : & ["прах" , "смерць" , "урна" , "урна з прахам"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Погребална урна") , keywords : & ["Погребална урна" , "погребение" , "смърт" , "урна"] , } , crate :: Annotation { lang : "bn" , tts : Some ("অন\u{9cd}তেষ\u{9cd}ট\u{9cd}যি ক\u{9cd}রিয\u{9bc}\u{9be}কর\u{9cd}মের প\u{9be}ত\u{9cd}র") , keywords : & ["অন\u{9cd}তেষ\u{9cd}ট\u{9cd}যি ক\u{9cd}রিয\u{9bc}\u{9be}কর\u{9cd}মের প\u{9be}ত\u{9cd}র" , "অন\u{9cd}ত\u{9cd}যেষ\u{9cd}টিক\u{9cd}রিয\u{9bc}\u{9be}" , "প\u{9be}ত\u{9cd}র" , "ম\u{9c3}ত\u{9cd}য\u{9c1}"] , } , crate :: Annotation { lang : "br" , tts : Some ("jarl-kañv") , keywords : & ["jarl" , "jarl-kañv" , "ludu" , "marv"] , } , crate :: Annotation { lang : "bs" , tts : Some ("urna") , keywords : & ["sahrana" , "smrt" , "urna"] , } , crate :: Annotation { lang : "ca" , tts : Some ("urna funerària") , keywords : & ["funeral" , "mort" , "urna" , "urna funerària"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎦᏂᏐᏗ ᎪᏍᏓ ᎦᏟᏗ") , keywords : & ["ᎠᏲᎱᎯᏍᏗ" , "ᎦᏂᏐᏗ ᎪᏍᏓ ᎦᏟᏗ" , "ᎪᏍᏓ" , "ᎪᏍᏓ ᎦᏟᏗ" , "ᏓᎾᏓᏂᏏᏍᎬᎢ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("pohřební urna") , keywords : & ["ostatky" , "pohřeb" , "pohřební urna" , "popel" , "smrt" , "urna"] , } , crate :: Annotation { lang : "cy" , tts : Some ("wrn angladd") , keywords : & ["angladd" , "marwolaeth" , "wrn"] , } , crate :: Annotation { lang : "da" , tts : Some ("urne") , keywords : & ["begravelse" , "død" , "urne"] , } , crate :: Annotation { lang : "de" , tts : Some ("Urne") , keywords : & ["Beerdigung" , "Tod" , "Urne" , "tot"] , } , crate :: Annotation { lang : "el" , tts : Some ("τεφροδόχος") , keywords : & ["θάνατος" , "κηδεία" , "στάχτες" , "τεφροδόχος"] , } , crate :: Annotation { lang : "en" , tts : Some ("funeral urn") , keywords : & ["ashes" , "death" , "funeral" , "urn"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("urna funeraria") , keywords : & ["funeraria" , "muerte" , "urna"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["funeral" , "muerte" , "urna" , "urna funeraria"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("tuhaurn") , keywords : & ["matus" , "surm" , "tuhaurn" , "urn"] , } , crate :: Annotation { lang : "eu" , tts : Some ("errautsak gordetzeko kutxa") , keywords : & ["errautsak" , "errautsak gordetzeko kutxa" , "heriotza" , "hileta" , "kutxa"] , } , crate :: Annotation { lang : "fa" , tts : Some ("خاکستردان") , keywords : & ["خاکستر" , "خاکستردان" , "سوزاندن" , "مرگ"] , } , crate :: Annotation { lang : "fi" , tts : Some ("tuhkauurna") , keywords : & ["hautajaiset" , "kuolema" , "tuhkauurna" , "uurna"] , } , crate :: Annotation { lang : "fil" , tts : Some ("sisidlan ng abo") , keywords : & ["abo" , "kamatayan" , "sisidlan" , "sisidlan ng abo"] , } , crate :: Annotation { lang : "fo" , tts : Some ("øskukrukka") , keywords : & ["andlát" , "deyði" , "gravarferð" , "jarðarferð" , "krukka" , "øska" , "øskukrukka"] , } , crate :: Annotation { lang : "fr" , tts : Some ("urne funéraire") , keywords : & ["urne" , "urne funéraire"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("próca") , keywords : & ["bás" , "próca" , "sochraid" , "síothal"] , } , crate :: Annotation { lang : "gd" , tts : Some ("poit-tasgaidh") , keywords : & ["adhlacadh" , "bàs" , "caochladh" , "eug" , "luaithre" , "poit-tasgaidh" , "siubhal" , "tìodhlacadh"] , } , crate :: Annotation { lang : "gl" , tts : Some ("urna funeraria") , keywords : & ["funeral" , "incineración" , "morte" , "urna" , "urna funeraria"] , } , crate :: Annotation { lang : "gu" , tts : Some ("અસ\u{acd}થિ કળશ") , keywords : & ["અ\u{a82}તિમયાત\u{acd}રા" , "અસ\u{acd}થિ કળશ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("tukunyar jana’iza") , keywords : & ["jana’iza" , "mutuwa" , "toka" , "tukunyar jana’iza" , "tukunyar toka"] , } , crate :: Annotation { lang : "he" , tts : Some ("כד אפר") , keywords : & ["כד אפר" , "לוויה" , "מוות"] , } , crate :: Annotation { lang : "hi" , tts : Some ("अस\u{94d}थि कलश") , keywords : & ["अस\u{94d}थि कलश" , "दाह-स\u{902}स\u{94d}कार" , "राख"] , } , crate :: Annotation { lang : "hr" , tts : Some ("urna") , keywords : & ["pogreb" , "smrt" , "urna"] , } , crate :: Annotation { lang : "hu" , tts : Some ("halotti urna") , keywords : & ["halotti urna" , "halál" , "temetés" , "urna"] , } , crate :: Annotation { lang : "hy" , tts : Some ("աճյունասափոր") , keywords : & ["աճյունասափոր" , "հուղարկավորություն" , "մահ"] , } , crate :: Annotation { lang : "id" , tts : Some ("guci abu") , keywords : & ["abu" , "guci" , "kematian" , "penguburan"] , } , crate :: Annotation { lang : "ig" , tts : Some ("akpụrụ akpụ olili ozu") , keywords : & ["akpụrụ akpụ" , "akpụrụ akpụ olili ozu" , "ntụ gasị" , "olili ozu" , "ọnwụ"] , } , crate :: Annotation { lang : "is" , tts : Some ("duftker") , keywords : & ["aska" , "dauði" , "duftker" , "jarðarför"] , } , crate :: Annotation { lang : "it" , tts : Some ("urna funeraria") , keywords : & ["ceneri" , "funerale" , "morte" , "sepoltura" , "urna cineraria" , "urna funeraria"] , } , crate :: Annotation { lang : "ja" , tts : Some ("骨壺") , keywords : & ["埋葬" , "死" , "葬儀" , "遺灰" , "骨壺"] , } , crate :: Annotation { lang : "jv" , tts : Some ("guci awu") , keywords : & ["awu" , "guci" , "pamulasaran" , "pati"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ფერფლის ურნა") , keywords : & ["დაკრძალვა" , "პანაშვიდი" , "სიკვდილი" , "ურნა" , "ფერფლის ურნა"] , } , crate :: Annotation { lang : "kk" , tts : Some ("өліктің күлін салатын сауыт") , keywords : & ["жаназа" , "сауыт" , "өліктің күлін салатын сауыт" , "өлім"] , } , crate :: Annotation { lang : "kl" , tts : Some ("urne") , keywords : & ["begravelse" , "død" , "urne"] , } , crate :: Annotation { lang : "km" , tts : Some ("ក\u{17d2}រឡធាដ\u{17d2}ឋ") , keywords : & ["ក\u{17d2}រឡដាក\u{17cb}ធាត\u{17bb}" , "ក\u{17d2}រឡធាដ\u{17d2}ឋ" , "ធាត\u{17bb}" , "ប\u{17bb}ណ\u{17d2}យសព" , "មរណភាព" , "ស\u{17d2}លាប\u{17cb}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಅಂತ\u{ccd}ಯಕ\u{ccd}ರ\u{cbf}ಯ\u{cc6} ಚ\u{cbf}ತಾಭಸ\u{ccd}ಮ") , keywords : & ["ಅಂತ\u{ccd}ಯಕ\u{ccd}ರ\u{cbf}ಯ\u{cc6} ಚ\u{cbf}ತಾಭಸ\u{ccd}ಮ" , "ಮರಣ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("납골 단지") , keywords : & ["납골 단지" , "단지" , "죽음"] , } , crate :: Annotation { lang : "kok" , tts : Some ("अस\u{94d}थी") , keywords : & ["अस\u{94d}थी" , "अस\u{94d}थीकलश" , "गोबोर" , "मड\u{947}\u{902}" , "मरण" , "मरणयात\u{94d}रा"] , } , crate :: Annotation { lang : "ky" , tts : Some ("көмүү урнасы") , keywords : & ["көмүү" , "көмүү урнасы" , "урна" , "өлүм"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Urn") , keywords : & ["Begriefnis" , "Doud" , "Urn" , "Äschen"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ໂຖໃສ\u{ec8}ກະດ\u{eb9}ກ") , keywords : & ["ກະດ\u{eb9}ກ" , "ຄວາມຕາຍ" , "ໂຖ" , "ໂຖໃສ\u{ec8}ກະດ\u{eb9}ກ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("laidojimo urna") , keywords : & ["laidojimo urna" , "laidotuvės" , "mirtis" , "urna"] , } , crate :: Annotation { lang : "lv" , tts : Some ("pelnu urna") , keywords : & ["bēres" , "nāve" , "pelnu urna" , "urna"] , } , crate :: Annotation { lang : "mi" , tts : Some ("ipu tangihanga") , keywords : & ["ipu" , "mate" , "ngārehu" , "tangihanga"] , } , crate :: Annotation { lang : "mk" , tts : Some ("погребна урна") , keywords : & ["погреб" , "погребна урна" , "смрт" , "урна"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ചിത\u{d3e}ഭസ\u{d4d}\u{200c}മം") , keywords : & ["ചിത\u{d3e}ഭസ\u{d4d}\u{200c}മം" , "മരണം" , "ശവ സംസ\u{d4d}\u{200c}ക\u{d4d}ക\u{d3e}രം"] , } , crate :: Annotation { lang : "mn" , tts : Some ("чандар хадгалах сав") , keywords : & ["ваар" , "сав" , "хадгалах" , "чандар" , "үнс"] , } , crate :: Annotation { lang : "mr" , tts : Some ("दफन रक\u{94d}षापात\u{94d}र") , keywords : & ["दफन रक\u{94d}षापात\u{94d}र" , "दफनविधी" , "म\u{943}त\u{94d}य\u{942}" , "रक\u{94d}षापात\u{94d}र" , "राख"] , } , crate :: Annotation { lang : "ms" , tts : Some ("takar abu mayat") , keywords : & ["kematian" , "pengebumian" , "takar" , "takar abu mayat"] , } , crate :: Annotation { lang : "mt" , tts : Some ("urna tal-funerali") , keywords : & ["funerali" , "irmied" , "mewt" , "urna" , "urna tal-funerali"] , } , crate :: Annotation { lang : "my" , tts : Some ("အရ\u{102d}\u{102f}းအ\u{102d}\u{102f}း") , keywords : & ["သေခြင\u{103a}း" , "အရ\u{102d}\u{102f}းပြာ" , "အရ\u{102d}\u{102f}းအ\u{102d}\u{102f}း" , "အသ\u{102f}ဘ"] , } , crate :: Annotation { lang : "nb" , tts : Some ("urne") , keywords : & ["begravelse" , "død" , "kremasjon" , "urne"] , } , crate :: Annotation { lang : "ne" , tts : Some ("मलाम अर\u{94d}न") , keywords : & ["अर\u{94d}न" , "मलाम" , "म\u{943}त\u{94d}य\u{941}"] , } , crate :: Annotation { lang : "nl" , tts : Some ("urn") , keywords : & ["as" , "begrafenis" , "dood" , "urn"] , } , crate :: Annotation { lang : "nn" , tts : Some ("urne") , keywords : & ["død" , "gravferd" , "kremasjon" , "urne"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଶବ ସତ\u{b4d}କ\u{b3e}ର ଅର\u{b4d}ନ\u{b4d}\u{200c}") , keywords : & ["ଘଟ" , "ପ\u{b3e}ଉ\u{b01}ଶ" , "ମ\u{b43}ତ\u{b4d}ୟ\u{b41}" , "ଶବ ସତ\u{b4d}କ\u{b3e}ର" , "ଶବ ସତ\u{b4d}କ\u{b3e}ର ଅର\u{b4d}ନ\u{b4d}\u{200c}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਅ\u{a70}ਤਿਮ ਸ\u{a70}ਸਕਾਰ ਕਲਸ\u{a3c}") , keywords : & ["ਅ\u{a70}ਤਿਮ ਸ\u{a70}ਸਕਾਰ ਕਲਸ\u{a3c}" , "ਮ\u{a4c}ਤ" , "ਸ\u{a70}ਸਕਾਰ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("جنازہ کلش") , keywords : & ["جنازہ" , "جنازہ کلش" , "راکھ" , "موت" , "کوزہ"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Bẹ\u{301}riál Kọnténa Fọ Ásh Ọf Pẹ\u{301}sin Wé Dọ\u{301}n Dai") , keywords : & ["Ash" , "Bẹ\u{301}rial" , "Bẹ\u{301}riál Kọnténa Fọ Ásh Ọf Pẹ\u{301}sin Wé Dọ\u{301}n Dai" , "Dai"] , } , crate :: Annotation { lang : "pl" , tts : Some ("urna na prochy") , keywords : & ["pogrzeb" , "urna" , "urna na prochy" , "śmierć"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د جنازې ګلدان") , keywords : & ["ايره" , "جنازه" , "د جنازې ګلدان" , "مرګ" , "ګلدان"] , } , crate :: Annotation { lang : "pt" , tts : Some ("urna funerária") , keywords : & ["cinzas" , "funeral" , "morte" , "urna" , "urna funerária"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("urna") , keywords : & ["funeral" , "morte" , "urna"] , } , crate :: Annotation { lang : "ro" , tts : Some ("urnă funerară") , keywords : & ["cenușă" , "moarte" , "urnă" , "urnă funerară"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-097") , keywords : & ["E10-097"] , } , crate :: Annotation { lang : "ru" , tts : Some ("урна с прахом") , keywords : & ["останки" , "пепел" , "похороны" , "прах" , "смерть" , "урна" , "урна с прахом"] , } , crate :: Annotation { lang : "rw" , tts : Some ("agasanduku kabikwamo ivu ry’umurambo watwitswe") , keywords : & ["agasanduku kabikwamo ivu ry’umurambo watwitswe" , "cyerekeye urupfu" , "ivu" , "urupfu"] , } , crate :: Annotation { lang : "sd" , tts : Some ("جنازي جي خاڪ واري صراحي") , keywords : & ["جنازو" , "جنازي جي خاڪ واري صراحي" , "خاڪ" , "صراحي" , "موت"] , } , crate :: Annotation { lang : "si" , tts : Some ("භෂ\u{dca}ම\u{dcf}වශේෂ බඳ\u{dd4}න") , keywords : & ["අවමඟ\u{dd4}ල" , "භෂ\u{dca}ම\u{dcf}වශේෂ බඳ\u{dd4}න" , "මරණය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("pohrebná urna") , keywords : & ["pohreb" , "pohrebná urna" , "smrť"] , } , crate :: Annotation { lang : "sl" , tts : Some ("žara") , keywords : & ["pogreb" , "smrt" , "žara"] , } , crate :: Annotation { lang : "so" , tts : Some ("aas") , keywords : & ["aas" , "dhimasho" , "hadhaaga meydka" , "weelka hadhaaga meydka"] , } , crate :: Annotation { lang : "sq" , tts : Some ("urnë funerali") , keywords : & ["funeral" , "urnë" , "urnë funerali" , "vdekje"] , } , crate :: Annotation { lang : "sr" , tts : Some ("посмртна урна") , keywords : & ["посмртна урна" , "сахрана" , "смрт" , "урнa"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("posmrtna urna") , keywords : & ["posmrtna urna" , "sahrana" , "smrt" , "urna"] , } , crate :: Annotation { lang : "sv" , tts : Some ("begravningsurna") , keywords : & ["aska" , "begravning" , "begravningsurna" , "urna"] , } , crate :: Annotation { lang : "sw" , tts : Some ("chombo cha kutia majivu ya maiti aliyechomwa") , keywords : & ["chombo cha kutia majivu ya maiti aliyechomwa" , "kifo" , "msiba"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("இறுதிச\u{bcd}சடங\u{bcd}கு ஜ\u{bbe}டி") , keywords : & ["அடக\u{bcd}கம\u{bcd}" , "இறுதிச\u{bcd}சடங\u{bcd}கு" , "இறுதிச\u{bcd}சடங\u{bcd}கு ஜ\u{bbe}டி"] , } , crate :: Annotation { lang : "te" , tts : Some ("అస\u{c4d}థ\u{c3f}కల ప\u{c3e}త\u{c4d}ర") , keywords : & ["అంత\u{c4d}యక\u{c4d}ర\u{c3f}యలు" , "అస\u{c4d}థ\u{c3f}కల ప\u{c3e}త\u{c4d}ర" , "ప\u{c3e}త\u{c4d}ర" , "మరణం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("устадони ҷаноза") , keywords : & ["марг" , "устадон" , "устадони ҷаноза" , "хокистар" , "ҷаноза"] , } , crate :: Annotation { lang : "th" , tts : Some ("โกศกระด\u{e39}ก") , keywords : & ["กระด\u{e39}ก" , "ความตาย" , "งานศพ" , "โกศ" , "โกศกระด\u{e39}ก"] , } , crate :: Annotation { lang : "tk" , tts : Some ("jynaza gorküýzesi") , keywords : & ["jynaza" , "jynaza gorküýzesi" , "kül" , "urna" , "ölüm"] , } , crate :: Annotation { lang : "to" , tts : Some ("hina fakamomofi") , keywords : & ["hina fakamomofi"] , } , crate :: Annotation { lang : "tr" , tts : Some ("kül kavanozu") , keywords : & ["cenaze" , "kül" , "kül kavanozu" , "vazo" , "ölüm"] , } , crate :: Annotation { lang : "ug" , tts : Some ("مېيىت قاچىسى") , keywords : & ["ئۆلۈم" , "دەپنە" , "كۈل" , "كۈل قاچىسى" , "مېيىت قاچىسى"] , } , crate :: Annotation { lang : "uk" , tts : Some ("урна для тліну") , keywords : & ["поховальна урна" , "похорон" , "смерть" , "урна" , "урна для тліну"] , } , crate :: Annotation { lang : "ur" , tts : Some ("مردے کی راکھ والا مرتبان") , keywords : & ["برتن" , "راکھ" , "مردے کی راکھ والا مرتبان" , "موت"] , } , crate :: Annotation { lang : "uz" , tts : Some ("dafn ko‘zasi") , keywords : & ["dafn" , "dafn ko‘zasi" , "koʻza" , "oʻlim" , "vafot"] , } , crate :: Annotation { lang : "vi" , tts : Some ("bình đựng tro cốt") , keywords : & ["bình đựng di cốt" , "bình đựng tro cốt" , "cái chết" , "tang lễ"] , } , crate :: Annotation { lang : "wo" , tts : Some ("urnu dëj") , keywords : & ["dee" , "dëj" , "dóomu-taal" , "urn" , "urnu dëj"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ingqayi yomngcwabo") , keywords : & ["ingqayi" , "ingqayi yomngcwabo" , "ukufa" , "umngcwabo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("igbá ìsìnkú") , keywords : & ["ahá" , "eérú" , "igbá ìsìnkú" , "ikú" , "ìsìnkú"] , } , crate :: Annotation { lang : "yue" , tts : Some ("殯儀館") , keywords : & ["死亡" , "殯儀館" , "灰燼" , "甕" , "葬禮"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("殡仪馆") , keywords : & ["死亡" , "殡仪馆" , "灰烬" , "瓮" , "葬礼"] , } , crate :: Annotation { lang : "zh" , tts : Some ("骨灰缸") , keywords : & ["瓮" , "缸" , "葬礼" , "骨灰缸"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("骨灰罈") , keywords : & ["骨灰甕" , "骨灰罈"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("骨灰甕") , keywords : & ["死亡" , "骨灰甕" , "骨灰罈"] , } , crate :: Annotation { lang : "zu" , tts : Some ("isitsha somngcwabo") , keywords : & ["isitsha somngcwabo" , "ukufa" , "umlotha" , "umngcwabo"] , }] , } ;
+pub const FUNERAL_URN: crate::Emoji = crate::Emoji {
+    glyph: "⚱\u{fe0f}",
+    codepoint: "26B1 FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 1f32,
+    name: "funeral urn",
+    group: "Objects",
+    subgroup: "other-object",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "⚱",
+        codepoint: "26B1",
+        status: crate::Status::Unqualified,
+        introduction_version: 1f32,
+        name: "funeral urn",
+        group: "Objects",
+        subgroup: "other-object",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("begrafniskruik"),
+            keywords: &["as", "begrafnis", "begrafniskruik", "dood", "kruik"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የቀብር ማሰሮ"),
+            keywords: &["ማሰሮ", "ሞት", "ቀብር", "የቀብር ማሰሮ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("رماد موتى"),
+            keywords: &["جنازة", "رماد", "رماد موتى", "وفاة"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("শৱ-ভস\u{9cd}ম\u{9be}ধ\u{9be}ৰ"),
+            keywords: &[
+                "অন\u{9cd}ত\u{9cd}যেষ\u{9cd}টিক\u{9cd}ৰিয\u{9bc}\u{9be}",
+                "কলহ",
+                "ভস\u{9cd}ম",
+                "ম\u{9c3}ত\u{9cd}য\u{9c1}",
+                "শৱ-ভস\u{9cd}ম\u{9be}ধ\u{9be}ৰ",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("cənazə urnası"),
+            keywords: &["cənazə", "cənazə urnası", "urna", "ölüm"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("урна з прахам"),
+            keywords: &["прах", "смерць", "урна", "урна з прахам"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Погребална урна"),
+            keywords: &["Погребална урна", "погребение", "смърт", "урна"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some(
+                "অন\u{9cd}তেষ\u{9cd}ট\u{9cd}যি ক\u{9cd}রিয\u{9bc}\u{9be}কর\u{9cd}মের প\u{9be}ত\u{9cd}র",
+            ),
+            keywords: &[
+                "অন\u{9cd}তেষ\u{9cd}ট\u{9cd}যি ক\u{9cd}রিয\u{9bc}\u{9be}কর\u{9cd}মের প\u{9be}ত\u{9cd}র",
+                "অন\u{9cd}ত\u{9cd}যেষ\u{9cd}টিক\u{9cd}রিয\u{9bc}\u{9be}",
+                "প\u{9be}ত\u{9cd}র",
+                "ম\u{9c3}ত\u{9cd}য\u{9c1}",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("jarl-kañv"),
+            keywords: &["jarl", "jarl-kañv", "ludu", "marv"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("urna"),
+            keywords: &["sahrana", "smrt", "urna"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("urna funerària"),
+            keywords: &["funeral", "mort", "urna", "urna funerària"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎦᏂᏐᏗ ᎪᏍᏓ ᎦᏟᏗ"),
+            keywords: &["ᎠᏲᎱᎯᏍᏗ", "ᎦᏂᏐᏗ ᎪᏍᏓ ᎦᏟᏗ", "ᎪᏍᏓ", "ᎪᏍᏓ ᎦᏟᏗ", "ᏓᎾᏓᏂᏏᏍᎬᎢ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("pohřební urna"),
+            keywords: &[
+                "ostatky",
+                "pohřeb",
+                "pohřební urna",
+                "popel",
+                "smrt",
+                "urna",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("wrn angladd"),
+            keywords: &["angladd", "marwolaeth", "wrn"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("urne"),
+            keywords: &["begravelse", "død", "urne"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Urne"),
+            keywords: &["Beerdigung", "Tod", "Urne", "tot"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("τεφροδόχος"),
+            keywords: &["θάνατος", "κηδεία", "στάχτες", "τεφροδόχος"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("funeral urn"),
+            keywords: &["ashes", "death", "funeral", "urn"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("urna funeraria"),
+            keywords: &["funeraria", "muerte", "urna"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["funeral", "muerte", "urna", "urna funeraria"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("tuhaurn"),
+            keywords: &["matus", "surm", "tuhaurn", "urn"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("errautsak gordetzeko kutxa"),
+            keywords: &[
+                "errautsak",
+                "errautsak gordetzeko kutxa",
+                "heriotza",
+                "hileta",
+                "kutxa",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("خاکستردان"),
+            keywords: &["خاکستر", "خاکستردان", "سوزاندن", "مرگ"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("tuhkauurna"),
+            keywords: &["hautajaiset", "kuolema", "tuhkauurna", "uurna"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("sisidlan ng abo"),
+            keywords: &["abo", "kamatayan", "sisidlan", "sisidlan ng abo"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("øskukrukka"),
+            keywords: &[
+                "andlát",
+                "deyði",
+                "gravarferð",
+                "jarðarferð",
+                "krukka",
+                "øska",
+                "øskukrukka",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("urne funéraire"),
+            keywords: &["urne", "urne funéraire"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("próca"),
+            keywords: &["bás", "próca", "sochraid", "síothal"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("poit-tasgaidh"),
+            keywords: &[
+                "adhlacadh",
+                "bàs",
+                "caochladh",
+                "eug",
+                "luaithre",
+                "poit-tasgaidh",
+                "siubhal",
+                "tìodhlacadh",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("urna funeraria"),
+            keywords: &["funeral", "incineración", "morte", "urna", "urna funeraria"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("અસ\u{acd}થિ કળશ"),
+            keywords: &["અ\u{a82}તિમયાત\u{acd}રા", "અસ\u{acd}થિ કળશ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("tukunyar jana’iza"),
+            keywords: &[
+                "jana’iza",
+                "mutuwa",
+                "toka",
+                "tukunyar jana’iza",
+                "tukunyar toka",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("כד אפר"),
+            keywords: &["כד אפר", "לוויה", "מוות"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("अस\u{94d}थि कलश"),
+            keywords: &["अस\u{94d}थि कलश", "दाह-स\u{902}स\u{94d}कार", "राख"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("urna"),
+            keywords: &["pogreb", "smrt", "urna"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("halotti urna"),
+            keywords: &["halotti urna", "halál", "temetés", "urna"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("աճյունասափոր"),
+            keywords: &["աճյունասափոր", "հուղարկավորություն", "մահ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("guci abu"),
+            keywords: &["abu", "guci", "kematian", "penguburan"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akpụrụ akpụ olili ozu"),
+            keywords: &[
+                "akpụrụ akpụ",
+                "akpụrụ akpụ olili ozu",
+                "ntụ gasị",
+                "olili ozu",
+                "ọnwụ",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("duftker"),
+            keywords: &["aska", "dauði", "duftker", "jarðarför"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("urna funeraria"),
+            keywords: &[
+                "ceneri",
+                "funerale",
+                "morte",
+                "sepoltura",
+                "urna cineraria",
+                "urna funeraria",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("骨壺"),
+            keywords: &["埋葬", "死", "葬儀", "遺灰", "骨壺"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("guci awu"),
+            keywords: &["awu", "guci", "pamulasaran", "pati"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ფერფლის ურნა"),
+            keywords: &["დაკრძალვა", "პანაშვიდი", "სიკვდილი", "ურნა", "ფერფლის ურნა"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("өліктің күлін салатын сауыт"),
+            keywords: &["жаназа", "сауыт", "өліктің күлін салатын сауыт", "өлім"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("urne"),
+            keywords: &["begravelse", "død", "urne"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ក\u{17d2}រឡធាដ\u{17d2}ឋ"),
+            keywords: &[
+                "ក\u{17d2}រឡដាក\u{17cb}ធាត\u{17bb}",
+                "ក\u{17d2}រឡធាដ\u{17d2}ឋ",
+                "ធាត\u{17bb}",
+                "ប\u{17bb}ណ\u{17d2}យសព",
+                "មរណភាព",
+                "ស\u{17d2}លាប\u{17cb}",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಅಂತ\u{ccd}ಯಕ\u{ccd}ರ\u{cbf}ಯ\u{cc6} ಚ\u{cbf}ತಾಭಸ\u{ccd}ಮ"),
+            keywords: &[
+                "ಅಂತ\u{ccd}ಯಕ\u{ccd}ರ\u{cbf}ಯ\u{cc6} ಚ\u{cbf}ತಾಭಸ\u{ccd}ಮ",
+                "ಮರಣ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("납골 단지"),
+            keywords: &["납골 단지", "단지", "죽음"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("अस\u{94d}थी"),
+            keywords: &[
+                "अस\u{94d}थी",
+                "अस\u{94d}थीकलश",
+                "गोबोर",
+                "मड\u{947}\u{902}",
+                "मरण",
+                "मरणयात\u{94d}रा",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("көмүү урнасы"),
+            keywords: &["көмүү", "көмүү урнасы", "урна", "өлүм"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Urn"),
+            keywords: &["Begriefnis", "Doud", "Urn", "Äschen"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ໂຖໃສ\u{ec8}ກະດ\u{eb9}ກ"),
+            keywords: &["ກະດ\u{eb9}ກ", "ຄວາມຕາຍ", "ໂຖ", "ໂຖໃສ\u{ec8}ກະດ\u{eb9}ກ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("laidojimo urna"),
+            keywords: &["laidojimo urna", "laidotuvės", "mirtis", "urna"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("pelnu urna"),
+            keywords: &["bēres", "nāve", "pelnu urna", "urna"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("ipu tangihanga"),
+            keywords: &["ipu", "mate", "ngārehu", "tangihanga"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("погребна урна"),
+            keywords: &["погреб", "погребна урна", "смрт", "урна"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ചിത\u{d3e}ഭസ\u{d4d}\u{200c}മം"),
+            keywords: &[
+                "ചിത\u{d3e}ഭസ\u{d4d}\u{200c}മം",
+                "മരണം",
+                "ശവ സംസ\u{d4d}\u{200c}ക\u{d4d}ക\u{d3e}രം",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("чандар хадгалах сав"),
+            keywords: &["ваар", "сав", "хадгалах", "чандар", "үнс"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("दफन रक\u{94d}षापात\u{94d}र"),
+            keywords: &[
+                "दफन रक\u{94d}षापात\u{94d}र",
+                "दफनविधी",
+                "म\u{943}त\u{94d}य\u{942}",
+                "रक\u{94d}षापात\u{94d}र",
+                "राख",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("takar abu mayat"),
+            keywords: &["kematian", "pengebumian", "takar", "takar abu mayat"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("urna tal-funerali"),
+            keywords: &["funerali", "irmied", "mewt", "urna", "urna tal-funerali"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("အရ\u{102d}\u{102f}းအ\u{102d}\u{102f}း"),
+            keywords: &[
+                "သေခြင\u{103a}း",
+                "အရ\u{102d}\u{102f}းပြာ",
+                "အရ\u{102d}\u{102f}းအ\u{102d}\u{102f}း",
+                "အသ\u{102f}ဘ",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("urne"),
+            keywords: &["begravelse", "død", "kremasjon", "urne"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("मलाम अर\u{94d}न"),
+            keywords: &["अर\u{94d}न", "मलाम", "म\u{943}त\u{94d}य\u{941}"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("urn"),
+            keywords: &["as", "begrafenis", "dood", "urn"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("urne"),
+            keywords: &["død", "gravferd", "kremasjon", "urne"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଶବ ସତ\u{b4d}କ\u{b3e}ର ଅର\u{b4d}ନ\u{b4d}\u{200c}"),
+            keywords: &[
+                "ଘଟ",
+                "ପ\u{b3e}ଉ\u{b01}ଶ",
+                "ମ\u{b43}ତ\u{b4d}ୟ\u{b41}",
+                "ଶବ ସତ\u{b4d}କ\u{b3e}ର",
+                "ଶବ ସତ\u{b4d}କ\u{b3e}ର ଅର\u{b4d}ନ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਅ\u{a70}ਤਿਮ ਸ\u{a70}ਸਕਾਰ ਕਲਸ\u{a3c}"),
+            keywords: &[
+                "ਅ\u{a70}ਤਿਮ ਸ\u{a70}ਸਕਾਰ ਕਲਸ\u{a3c}",
+                "ਮ\u{a4c}ਤ",
+                "ਸ\u{a70}ਸਕਾਰ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("جنازہ کلش"),
+            keywords: &["جنازہ", "جنازہ کلش", "راکھ", "موت", "کوزہ"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Bẹ\u{301}riál Kọnténa Fọ Ásh Ọf Pẹ\u{301}sin Wé Dọ\u{301}n Dai"),
+            keywords: &[
+                "Ash",
+                "Bẹ\u{301}rial",
+                "Bẹ\u{301}riál Kọnténa Fọ Ásh Ọf Pẹ\u{301}sin Wé Dọ\u{301}n Dai",
+                "Dai",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("urna na prochy"),
+            keywords: &["pogrzeb", "urna", "urna na prochy", "śmierć"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د جنازې ګلدان"),
+            keywords: &["ايره", "جنازه", "د جنازې ګلدان", "مرګ", "ګلدان"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("urna funerária"),
+            keywords: &["cinzas", "funeral", "morte", "urna", "urna funerária"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("urna"),
+            keywords: &["funeral", "morte", "urna"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("urnă funerară"),
+            keywords: &["cenușă", "moarte", "urnă", "urnă funerară"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-097"),
+            keywords: &["E10-097"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("урна с прахом"),
+            keywords: &[
+                "останки",
+                "пепел",
+                "похороны",
+                "прах",
+                "смерть",
+                "урна",
+                "урна с прахом",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("agasanduku kabikwamo ivu ry’umurambo watwitswe"),
+            keywords: &[
+                "agasanduku kabikwamo ivu ry’umurambo watwitswe",
+                "cyerekeye urupfu",
+                "ivu",
+                "urupfu",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("جنازي جي خاڪ واري صراحي"),
+            keywords: &["جنازو", "جنازي جي خاڪ واري صراحي", "خاڪ", "صراحي", "موت"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("භෂ\u{dca}ම\u{dcf}වශේෂ බඳ\u{dd4}න"),
+            keywords: &["අවමඟ\u{dd4}ල", "භෂ\u{dca}ම\u{dcf}වශේෂ බඳ\u{dd4}න", "මරණය"],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("pohrebná urna"),
+            keywords: &["pohreb", "pohrebná urna", "smrť"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("žara"),
+            keywords: &["pogreb", "smrt", "žara"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("aas"),
+            keywords: &[
+                "aas",
+                "dhimasho",
+                "hadhaaga meydka",
+                "weelka hadhaaga meydka",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("urnë funerali"),
+            keywords: &["funeral", "urnë", "urnë funerali", "vdekje"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("посмртна урна"),
+            keywords: &["посмртна урна", "сахрана", "смрт", "урнa"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("posmrtna urna"),
+            keywords: &["posmrtna urna", "sahrana", "smrt", "urna"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("begravningsurna"),
+            keywords: &["aska", "begravning", "begravningsurna", "urna"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("chombo cha kutia majivu ya maiti aliyechomwa"),
+            keywords: &[
+                "chombo cha kutia majivu ya maiti aliyechomwa",
+                "kifo",
+                "msiba",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("இறுதிச\u{bcd}சடங\u{bcd}கு ஜ\u{bbe}டி"),
+            keywords: &[
+                "அடக\u{bcd}கம\u{bcd}",
+                "இறுதிச\u{bcd}சடங\u{bcd}கு",
+                "இறுதிச\u{bcd}சடங\u{bcd}கு ஜ\u{bbe}டி",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("అస\u{c4d}థ\u{c3f}కల ప\u{c3e}త\u{c4d}ర"),
+            keywords: &[
+                "అంత\u{c4d}యక\u{c4d}ర\u{c3f}యలు",
+                "అస\u{c4d}థ\u{c3f}కల ప\u{c3e}త\u{c4d}ర",
+                "ప\u{c3e}త\u{c4d}ర",
+                "మరణం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("устадони ҷаноза"),
+            keywords: &["марг", "устадон", "устадони ҷаноза", "хокистар", "ҷаноза"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("โกศกระด\u{e39}ก"),
+            keywords: &["กระด\u{e39}ก", "ความตาย", "งานศพ", "โกศ", "โกศกระด\u{e39}ก"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("jynaza gorküýzesi"),
+            keywords: &["jynaza", "jynaza gorküýzesi", "kül", "urna", "ölüm"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("hina fakamomofi"),
+            keywords: &["hina fakamomofi"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("kül kavanozu"),
+            keywords: &["cenaze", "kül", "kül kavanozu", "vazo", "ölüm"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("مېيىت قاچىسى"),
+            keywords: &["ئۆلۈم", "دەپنە", "كۈل", "كۈل قاچىسى", "مېيىت قاچىسى"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("урна для тліну"),
+            keywords: &[
+                "поховальна урна",
+                "похорон",
+                "смерть",
+                "урна",
+                "урна для тліну",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("مردے کی راکھ والا مرتبان"),
+            keywords: &["برتن", "راکھ", "مردے کی راکھ والا مرتبان", "موت"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("dafn ko‘zasi"),
+            keywords: &["dafn", "dafn ko‘zasi", "koʻza", "oʻlim", "vafot"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("bình đựng tro cốt"),
+            keywords: &[
+                "bình đựng di cốt",
+                "bình đựng tro cốt",
+                "cái chết",
+                "tang lễ",
+            ],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("urnu dëj"),
+            keywords: &["dee", "dëj", "dóomu-taal", "urn", "urnu dëj"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ingqayi yomngcwabo"),
+            keywords: &["ingqayi", "ingqayi yomngcwabo", "ukufa", "umngcwabo"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("igbá ìsìnkú"),
+            keywords: &["ahá", "eérú", "igbá ìsìnkú", "ikú", "ìsìnkú"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("殯儀館"),
+            keywords: &["死亡", "殯儀館", "灰燼", "甕", "葬禮"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("殡仪馆"),
+            keywords: &["死亡", "殡仪馆", "灰烬", "瓮", "葬礼"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("骨灰缸"),
+            keywords: &["瓮", "缸", "葬礼", "骨灰缸"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("骨灰罈"),
+            keywords: &["骨灰甕", "骨灰罈"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("骨灰甕"),
+            keywords: &["死亡", "骨灰甕", "骨灰罈"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("isitsha somngcwabo"),
+            keywords: &["isitsha somngcwabo", "ukufa", "umlotha", "umngcwabo"],
+        },
+    ],
+};
 #[doc = "🗿"]
 pub const MOAI: crate::Emoji = crate::Emoji {
     glyph: "🗿",

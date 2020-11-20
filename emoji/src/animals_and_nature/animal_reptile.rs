@@ -4808,4 +4808,661 @@ pub const SAUROPOD: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🦖"]
-pub const T_REX : crate :: Emoji = crate :: Emoji { glyph : "🦖" , codepoint : "1F996" , status : crate :: Status :: FullyQualified , introduction_version : 5f32 , name : "T-Rex" , group : "Animals & Nature" , subgroup : "animal-reptile" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tirannosourus Rex"] , } , crate :: Annotation { lang : "am" , tts : Some ("ታይኖሳረስ ዳይኖሰር") , keywords : & ["ታይኖሳረስ" , "ታይኖሳረስ ዳይኖሰር"] , } , crate :: Annotation { lang : "ar" , tts : Some ("التيرانوصور") , keywords : & ["التيرانوصور"] , } , crate :: Annotation { lang : "as" , tts : Some ("টি-ৰেক\u{9cd}স") , keywords : & ["টি-ৰেক\u{9cd}স" , "ট\u{9cd}ৰ\u{9be}ইৰেনচৰ\u{9be}চ ৰেক\u{9cd}স"] , } , crate :: Annotation { lang : "az" , tts : Some ("Tireks") , keywords : & ["Tirannozavr Reks" , "Tireks"] , } , crate :: Annotation { lang : "be" , tts : Some ("тыраназаўр") , keywords : & ["тыраназаўр" , "тыраназаўр рэкс" , "тырэкс"] , } , crate :: Annotation { lang : "bg" , tts : Some ("тиранозавър") , keywords : & ["тиранозавър" , "тиранозавър рекс"] , } , crate :: Annotation { lang : "bn" , tts : Some ("টি-রেক\u{9cd}স") , keywords : & ["টি-রেক\u{9cd}স" , "টির\u{9be}নোসর\u{9be}স রেক\u{9cd}স"] , } , crate :: Annotation { lang : "br" , tts : Some ("tiranosaor roue") , keywords : & ["dinosaor" , "tiranosaor roue"] , } , crate :: Annotation { lang : "bs" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tiranosaurus Reks"] , } , crate :: Annotation { lang : "ca" , tts : Some ("tiranosaure") , keywords : & ["Tyrannosaurus Rex" , "tiranosaure"] , } , crate :: Annotation { lang : "chr" , tts : Some ("Ꭴ-ᎤᎬᏫᏳᎯ") , keywords : & ["Ꭴ-ᎤᎬᏫᏳᎯ" , "ᎤᎵᏍᎦᏂ ᏘᏲᎭᎵ ᎤᎬᏫᏳᎯ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("tyranosaurus rex") , keywords : & ["dinosaurus" , "t-rex" , "tyranosaurus rex"] , } , crate :: Annotation { lang : "cy" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyranosor Rex"] , } , crate :: Annotation { lang : "da" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "de" , tts : Some ("T-Rex") , keywords : & ["Dino" , "Dinosaurier" , "Saurier" , "T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "el" , tts : Some ("τυραννόσαυρος") , keywords : & ["τυραννόσαυρος"] , } , crate :: Annotation { lang : "en" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["T-Rex" , "T. Rex" , "T. rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("t-rex") , keywords : & ["t-rex" , "tiranosaurio" , "tiranosaurio rex"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("türannosaurus") , keywords : & ["türannosaurus"] , } , crate :: Annotation { lang : "eu" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "tiranosaurio rex"] , } , crate :: Annotation { lang : "fa" , tts : Some ("تی\u{200c}رکس") , keywords : & ["تیرانوسوروس" , "تی\u{200c}رکس" , "مارمولک ستمگر"] , } , crate :: Annotation { lang : "fi" , tts : Some ("tyrannosaurus rex") , keywords : & ["dinosaurus" , "hirmulisko" , "tyrannosaurus rex"] , } , crate :: Annotation { lang : "fil" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "fo" , tts : Some ("T-rex") , keywords : & ["T-rex" , "Tyrannosaurus rex" , "dinosaurur" , "dýr"] , } , crate :: Annotation { lang : "fr" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex" , "tyrannosaure"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("T. rex") , keywords : & ["T. rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "ga" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "tyrannosaurus rex"] , } , crate :: Annotation { lang : "gd" , tts : Some ("t-rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex" , "t-rex"] , } , crate :: Annotation { lang : "gl" , tts : Some ("Tyrannosaurus rex") , keywords : & ["Tyrannosaurus rex" , "dinosauro"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ટી-ર\u{ac7}ક\u{acd}સ") , keywords : & ["ટી-ર\u{ac7}ક\u{acd}સ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "he" , tts : Some ("טי-רקס") , keywords : & ["טי-רקס" , "טירנוזאורוס-רקס"] , } , crate :: Annotation { lang : "hi" , tts : Some ("टी-र\u{947}क\u{94d}स") , keywords : & ["टी-र\u{947}क\u{94d}स"] , } , crate :: Annotation { lang : "hr" , tts : Some ("tiranosaur") , keywords : & ["t-rex" , "tiranosaur"] , } , crate :: Annotation { lang : "hu" , tts : Some ("T. rex") , keywords : & ["T. rex" , "Tyrannosaurus rex"] , } , crate :: Annotation { lang : "hy" , tts : Some ("տիրանոզավր ռեքս") , keywords : & ["տիրանոզավր ռեքս"] , } , crate :: Annotation { lang : "id" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "ig" , tts : Some ("Ụdị ngwere egbeigwe") , keywords : & ["Ngwere egbeigwe" , "Ụdị ngwere egbeigwe"] , } , crate :: Annotation { lang : "is" , tts : Some ("Grameðla") , keywords : & ["Grameðla"] , } , crate :: Annotation { lang : "it" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tirannosauro Rex"] , } , crate :: Annotation { lang : "ja" , tts : Some ("ティラノサウルス") , keywords : & ["ティラノサウルス" , "恐竜"] , } , crate :: Annotation { lang : "jv" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ტი-რექსი") , keywords : & ["ტი-რექსი" , "ტირანოზავრი რექსი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("Ти-рекс") , keywords : & ["Ти-рекс" , "Тираннозавр рекс"] , } , crate :: Annotation { lang : "km" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಟ\u{cbf}-ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}") , keywords : & ["ಟ\u{cbf}-ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}" , "ಟೈರ\u{ccd}ನೊಸರಸ\u{ccd} ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("티라노사우루스") , keywords : & ["티라노사우루스" , "티렉스"] , } , crate :: Annotation { lang : "kok" , tts : Some ("टी-र\u{945}क\u{94d}स") , keywords : & ["टायर\u{945}नोसॉरस र\u{945}क\u{94d}स" , "टी-र\u{945}क\u{94d}स"] , } , crate :: Annotation { lang : "ky" , tts : Some ("тираннозавр рекс") , keywords : & ["Ти-рекс" , "тираннозавр рекс"] , } , crate :: Annotation { lang : "lb" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "lo" , tts : Some ("\u{eb7}ທ\u{eb5}ເຣ\u{eb1}ກ") , keywords : & ["\u{eb7}ທ\u{eb5}ເຣ\u{eb1}ກ" , "ໄທແຣນໂນຊ\u{ecd}ຣ\u{eb1}ສ ເຣ\u{eb1}ກ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("Reksas") , keywords : & ["Reksas" , "tiranozauras Reksas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("tiranozaurs") , keywords : & ["tiranozaurs" , "tiranozaurs rekss"] , } , crate :: Annotation { lang : "mi" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "mk" , tts : Some ("Т-рекс") , keywords : & ["Т-рекс" , "Тираносаурус рекс"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ടി-റെക\u{d4d}\u{200c}സ\u{d4d}") , keywords : & ["ടി-റെക\u{d4d}\u{200c}സ\u{d4d}" , "റ\u{d4d}റിറ\u{d3e}നോസോറസ\u{d4d} റെക\u{d4d}\u{200c}സ\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("Т-рекс") , keywords : & ["Т-рекс" , "Тиранозавр рекс"] , } , crate :: Annotation { lang : "mr" , tts : Some ("टी-र\u{945}क\u{94d}स") , keywords : & ["टी-र\u{945}क\u{94d}स" , "ट\u{945}र\u{945}नोसॉरस र\u{945}क\u{94d}स"] , } , crate :: Annotation { lang : "ms" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "mt" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tirannosawru Rex"] , } , crate :: Annotation { lang : "my" , tts : Some ("တ\u{102e} ရက\u{103a}စ\u{103a}") , keywords : & ["တ\u{102d}\u{102f}င\u{103a}ရန\u{103a}န\u{102d}\u{102f}ဆောရက\u{103a}စ\u{103a} ရက\u{103a}စ\u{103a}" , "တ\u{102e} ရက\u{103a}စ\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex" , "dinosaur"] , } , crate :: Annotation { lang : "ne" , tts : Some ("टि-र\u{947}क\u{94d}स") , keywords : & ["टाइरानोसरस र\u{947}क\u{94d}स" , "टि-र\u{947}क\u{94d}स"] , } , crate :: Annotation { lang : "nl" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "nn" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex" , "dinosaur"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଟ\u{b3f}-ରେକ\u{b4d}ସ") , keywords : & ["ଟ\u{b3e}ଇର\u{b3e}ନୋସ\u{b3e}ରସ\u{b4d}\u{200d} ରେକ\u{b4d}ସ" , "ଟ\u{b3f}-ରେକ\u{b4d}ସ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਟੀ-ਰ\u{a48}ਕਸ") , keywords : & ["ਟਾਈਰ\u{a48}ਨ\u{a4b}ਸ\u{a4b}ਰਸ ਰ\u{a48}ਕਸ" , "ਟੀ-ਰ\u{a48}ਕਸ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("ٹی-ریکس") , keywords : & ["ٹی-ریکس" , "گوشت خور ڈائنو سار"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("T-Rẹks") , keywords : & ["T-Rẹks" , "Óldín Taím Bíg Anímọl Wé Im Nem Na Tiránọsọ\u{301}rus"] , } , crate :: Annotation { lang : "pl" , tts : Some ("t-rex") , keywords : & ["t-rex"] , } , crate :: Annotation { lang : "ps" , tts : Some ("ټي-ریکس") , keywords : & ["ټایرانوساروس-ریکس" , "ټي-ریکس"] , } , crate :: Annotation { lang : "pt" , tts : Some ("tiranossauro rex") , keywords : & ["T-Rex" , "tiranossauro rex"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "qu" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tiranosaurio Rex"] , } , crate :: Annotation { lang : "ro" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1118") , keywords : & ["E10-1118"] , } , crate :: Annotation { lang : "ru" , tts : Some ("Ти-Рекс") , keywords : & ["Ти-Рекс" , "динозавр" , "рекс" , "тираннозавр"] , } , crate :: Annotation { lang : "rw" , tts : Some ("Dinozoro yo mu bwoko bwa T-Rex") , keywords : & ["Dinozoro yo mu bwoko bwa T-Rex" , "Dinozoro yo mu bwoko bwa Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڊائنوسار") , keywords : & ["ڊائنوسار"] , } , crate :: Annotation { lang : "si" , tts : Some ("ට\u{dd3}-රෙක\u{dca}ස\u{dca}") , keywords : & ["ට\u{dd2}ර\u{dcf}න\u{dcf}ශ\u{dca}රෝරස\u{dca} රෙක\u{dca}ස\u{dca} ටය\u{dd2}ර\u{dcf}න\u{dca}නොසෝරස\u{dca}" , "ට\u{dd3}-රෙක\u{dca}ස\u{dca}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("tyrannosaurus") , keywords : & ["dinosaurus" , "rex" , "tyrannosaurus"] , } , crate :: Annotation { lang : "sl" , tts : Some ("tiranozaver") , keywords : & ["tiranozaver"] , } , crate :: Annotation { lang : "so" , tts : Some ("waa wax la aqoon") , keywords : & ["lama yaqaano" , "waa wax la aqoon"] , } , crate :: Annotation { lang : "sq" , tts : Some ("tiranozaur-reks") , keywords : & ["dinozaur me 2 këmbë" , "tiranozaur-reks"] , } , crate :: Annotation { lang : "sr" , tts : Some ("тираносаурус рекс") , keywords : & ["тираносаурус рекс"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("tiranosaurus reks") , keywords : & ["tiranosaurus reks"] , } , crate :: Annotation { lang : "sv" , tts : Some ("T-rex") , keywords : & ["T-rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "sw" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaria Rex"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("டி-ரெக\u{bcd}ஸ\u{bcd}") , keywords : & ["டி-ரெக\u{bcd}ஸ\u{bcd}" , "டைனோசர\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("ట\u{c3f}-ర\u{c46}క\u{c4d}స\u{c4d}") , keywords : & ["ట\u{c3f}-ర\u{c46}క\u{c4d}స\u{c4d}" , "ట\u{c48}ర\u{c3e}న\u{c4b}స\u{c3e}రస\u{c4d} ర\u{c46}క\u{c4d}స\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("Т-Рекс") , keywords : & ["Т-Рекс" , "Тираннозавр Рекс"] , } , crate :: Annotation { lang : "th" , tts : Some ("ท\u{e35}เร\u{e47}กซ\u{e4c}") , keywords : & ["ท\u{e35}เร\u{e47}กซ\u{e4c}" , "ไทแรนโนซอร\u{e31}ส เร\u{e47}กซ\u{e4c}"] , } , crate :: Annotation { lang : "tk" , tts : Some ("Tiranozawr Reks") , keywords : & ["Tiranozawr Reks"] , } , crate :: Annotation { lang : "to" , tts : Some ("tainosauli nifo māsila") , keywords : & ["tainosauli nifo māsila"] , } , crate :: Annotation { lang : "tr" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ت-رېكس") , keywords : & ["ت-رېكس" , "تىراننوزاۋر رېكس"] , } , crate :: Annotation { lang : "uk" , tts : Some ("тиранозавр") , keywords : & ["Тиранозавр Рекс" , "тиранозавр" , "тиранозавр королівський"] , } , crate :: Annotation { lang : "ur" , tts : Some ("ٹی ریکس") , keywords : & ["ٹائرانوسرس ریکس" , "ٹی ریکس"] , } , crate :: Annotation { lang : "uz" , tts : Some ("T-Reks") , keywords : & ["T-Reks" , "reks" , "tirannozavr"] , } , crate :: Annotation { lang : "vi" , tts : Some ("khủng long bạo chúa") , keywords : & ["Khủng long bạo chúa" , "khủng long bạo chúa"] , } , crate :: Annotation { lang : "wo" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosorus Rex"] , } , crate :: Annotation { lang : "xh" , tts : Some ("I-T-Rex") , keywords : & ["I-T-Rex" , "I-Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "yo" , tts : Some ("T-Rex") , keywords : & ["T-Rex" , "Tyrannosaurus Rex"] , } , crate :: Annotation { lang : "yue" , tts : Some ("暴龍") , keywords : & ["暴龍"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("暴龙") , keywords : & ["暴龙"] , } , crate :: Annotation { lang : "zh" , tts : Some ("霸王龙") , keywords : & ["暴龙君主" , "霸王龙"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("暴龍") , keywords : & ["暴龍"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["恐龍" , "暴龍" , "霸王龍"] , } , crate :: Annotation { lang : "zu" , tts : Some ("i-T-Rex") , keywords : & ["i-T-Rex" , "i-Tyrannosaurus Rex"] , }] , } ;
+pub const T_REX: crate::Emoji = crate::Emoji {
+    glyph: "🦖",
+    codepoint: "1F996",
+    status: crate::Status::FullyQualified,
+    introduction_version: 5f32,
+    name: "T-Rex",
+    group: "Animals & Nature",
+    subgroup: "animal-reptile",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tirannosourus Rex"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ታይኖሳረስ ዳይኖሰር"),
+            keywords: &["ታይኖሳረስ", "ታይኖሳረስ ዳይኖሰር"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("التيرانوصور"),
+            keywords: &["التيرانوصور"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("টি-ৰেক\u{9cd}স"),
+            keywords: &[
+                "টি-ৰেক\u{9cd}স",
+                "ট\u{9cd}ৰ\u{9be}ইৰেনচৰ\u{9be}চ ৰেক\u{9cd}স",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("Tireks"),
+            keywords: &["Tirannozavr Reks", "Tireks"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("тыраназаўр"),
+            keywords: &["тыраназаўр", "тыраназаўр рэкс", "тырэкс"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("тиранозавър"),
+            keywords: &["тиранозавър", "тиранозавър рекс"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("টি-রেক\u{9cd}স"),
+            keywords: &["টি-রেক\u{9cd}স", "টির\u{9be}নোসর\u{9be}স রেক\u{9cd}স"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("tiranosaor roue"),
+            keywords: &["dinosaor", "tiranosaor roue"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tiranosaurus Reks"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("tiranosaure"),
+            keywords: &["Tyrannosaurus Rex", "tiranosaure"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("Ꭴ-ᎤᎬᏫᏳᎯ"),
+            keywords: &["Ꭴ-ᎤᎬᏫᏳᎯ", "ᎤᎵᏍᎦᏂ ᏘᏲᎭᎵ ᎤᎬᏫᏳᎯ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("tyranosaurus rex"),
+            keywords: &["dinosaurus", "t-rex", "tyranosaurus rex"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyranosor Rex"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("T-Rex"),
+            keywords: &[
+                "Dino",
+                "Dinosaurier",
+                "Saurier",
+                "T-Rex",
+                "Tyrannosaurus Rex",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("τυραννόσαυρος"),
+            keywords: &["τυραννόσαυρος"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["T-Rex", "T. Rex", "T. rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("t-rex"),
+            keywords: &["t-rex", "tiranosaurio", "tiranosaurio rex"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("türannosaurus"),
+            keywords: &["türannosaurus"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "tiranosaurio rex"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("تی\u{200c}رکس"),
+            keywords: &["تیرانوسوروس", "تی\u{200c}رکس", "مارمولک ستمگر"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("tyrannosaurus rex"),
+            keywords: &["dinosaurus", "hirmulisko", "tyrannosaurus rex"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("T-rex"),
+            keywords: &["T-rex", "Tyrannosaurus rex", "dinosaurur", "dýr"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex", "tyrannosaure"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("T. rex"),
+            keywords: &["T. rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "tyrannosaurus rex"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("t-rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex", "t-rex"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("Tyrannosaurus rex"),
+            keywords: &["Tyrannosaurus rex", "dinosauro"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ટી-ર\u{ac7}ક\u{acd}સ"),
+            keywords: &["ટી-ર\u{ac7}ક\u{acd}સ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("טי-רקס"),
+            keywords: &["טי-רקס", "טירנוזאורוס-רקס"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("टी-र\u{947}क\u{94d}स"),
+            keywords: &["टी-र\u{947}क\u{94d}स"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("tiranosaur"),
+            keywords: &["t-rex", "tiranosaur"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("T. rex"),
+            keywords: &["T. rex", "Tyrannosaurus rex"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("տիրանոզավր ռեքս"),
+            keywords: &["տիրանոզավր ռեքս"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("Ụdị ngwere egbeigwe"),
+            keywords: &["Ngwere egbeigwe", "Ụdị ngwere egbeigwe"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("Grameðla"),
+            keywords: &["Grameðla"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tirannosauro Rex"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("ティラノサウルス"),
+            keywords: &["ティラノサウルス", "恐竜"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ტი-რექსი"),
+            keywords: &["ტი-რექსი", "ტირანოზავრი რექსი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("Ти-рекс"),
+            keywords: &["Ти-рекс", "Тираннозавр рекс"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಟ\u{cbf}-ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}"),
+            keywords: &[
+                "ಟ\u{cbf}-ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}",
+                "ಟೈರ\u{ccd}ನೊಸರಸ\u{ccd} ರ\u{cc6}ಕ\u{ccd}ಸ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("티라노사우루스"),
+            keywords: &["티라노사우루스", "티렉스"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("टी-र\u{945}क\u{94d}स"),
+            keywords: &[
+                "टायर\u{945}नोसॉरस र\u{945}क\u{94d}स",
+                "टी-र\u{945}क\u{94d}स",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("тираннозавр рекс"),
+            keywords: &["Ти-рекс", "тираннозавр рекс"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("\u{eb7}ທ\u{eb5}ເຣ\u{eb1}ກ"),
+            keywords: &[
+                "\u{eb7}ທ\u{eb5}ເຣ\u{eb1}ກ",
+                "ໄທແຣນໂນຊ\u{ecd}ຣ\u{eb1}ສ ເຣ\u{eb1}ກ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("Reksas"),
+            keywords: &["Reksas", "tiranozauras Reksas"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("tiranozaurs"),
+            keywords: &["tiranozaurs", "tiranozaurs rekss"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("Т-рекс"),
+            keywords: &["Т-рекс", "Тираносаурус рекс"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ടി-റെക\u{d4d}\u{200c}സ\u{d4d}"),
+            keywords: &[
+                "ടി-റെക\u{d4d}\u{200c}സ\u{d4d}",
+                "റ\u{d4d}റിറ\u{d3e}നോസോറസ\u{d4d} റെക\u{d4d}\u{200c}സ\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("Т-рекс"),
+            keywords: &["Т-рекс", "Тиранозавр рекс"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("टी-र\u{945}क\u{94d}स"),
+            keywords: &[
+                "टी-र\u{945}क\u{94d}स",
+                "ट\u{945}र\u{945}नोसॉरस र\u{945}क\u{94d}स",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tirannosawru Rex"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("တ\u{102e} ရက\u{103a}စ\u{103a}"),
+            keywords: &[
+                "တ\u{102d}\u{102f}င\u{103a}ရန\u{103a}န\u{102d}\u{102f}ဆောရက\u{103a}စ\u{103a} ရက\u{103a}စ\u{103a}",
+                "တ\u{102e} ရက\u{103a}စ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex", "dinosaur"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("टि-र\u{947}क\u{94d}स"),
+            keywords: &["टाइरानोसरस र\u{947}क\u{94d}स", "टि-र\u{947}क\u{94d}स"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex", "dinosaur"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଟ\u{b3f}-ରେକ\u{b4d}ସ"),
+            keywords: &[
+                "ଟ\u{b3e}ଇର\u{b3e}ନୋସ\u{b3e}ରସ\u{b4d}\u{200d} ରେକ\u{b4d}ସ",
+                "ଟ\u{b3f}-ରେକ\u{b4d}ସ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਟੀ-ਰ\u{a48}ਕਸ"),
+            keywords: &["ਟਾਈਰ\u{a48}ਨ\u{a4b}ਸ\u{a4b}ਰਸ ਰ\u{a48}ਕਸ", "ਟੀ-ਰ\u{a48}ਕਸ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ٹی-ریکس"),
+            keywords: &["ٹی-ریکس", "گوشت خور ڈائنو سار"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("T-Rẹks"),
+            keywords: &[
+                "T-Rẹks",
+                "Óldín Taím Bíg Anímọl Wé Im Nem Na Tiránọsọ\u{301}rus",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("t-rex"),
+            keywords: &["t-rex"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("ټي-ریکس"),
+            keywords: &["ټایرانوساروس-ریکس", "ټي-ریکس"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("tiranossauro rex"),
+            keywords: &["T-Rex", "tiranossauro rex"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tiranosaurio Rex"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1118"),
+            keywords: &["E10-1118"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("Ти-Рекс"),
+            keywords: &["Ти-Рекс", "динозавр", "рекс", "тираннозавр"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("Dinozoro yo mu bwoko bwa T-Rex"),
+            keywords: &[
+                "Dinozoro yo mu bwoko bwa T-Rex",
+                "Dinozoro yo mu bwoko bwa Tyrannosaurus Rex",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڊائنوسار"),
+            keywords: &["ڊائنوسار"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ට\u{dd3}-රෙක\u{dca}ස\u{dca}"),
+            keywords: &[
+                "ට\u{dd2}ර\u{dcf}න\u{dcf}ශ\u{dca}රෝරස\u{dca} රෙක\u{dca}ස\u{dca} ටය\u{dd2}ර\u{dcf}න\u{dca}නොසෝරස\u{dca}",
+                "ට\u{dd3}-රෙක\u{dca}ස\u{dca}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("tyrannosaurus"),
+            keywords: &["dinosaurus", "rex", "tyrannosaurus"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("tiranozaver"),
+            keywords: &["tiranozaver"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("waa wax la aqoon"),
+            keywords: &["lama yaqaano", "waa wax la aqoon"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("tiranozaur-reks"),
+            keywords: &["dinozaur me 2 këmbë", "tiranozaur-reks"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("тираносаурус рекс"),
+            keywords: &["тираносаурус рекс"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("tiranosaurus reks"),
+            keywords: &["tiranosaurus reks"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("T-rex"),
+            keywords: &["T-rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaria Rex"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("டி-ரெக\u{bcd}ஸ\u{bcd}"),
+            keywords: &["டி-ரெக\u{bcd}ஸ\u{bcd}", "டைனோசர\u{bcd}"],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ట\u{c3f}-ర\u{c46}క\u{c4d}స\u{c4d}"),
+            keywords: &[
+                "ట\u{c3f}-ర\u{c46}క\u{c4d}స\u{c4d}",
+                "ట\u{c48}ర\u{c3e}న\u{c4b}స\u{c3e}రస\u{c4d} ర\u{c46}క\u{c4d}స\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("Т-Рекс"),
+            keywords: &["Т-Рекс", "Тираннозавр Рекс"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ท\u{e35}เร\u{e47}กซ\u{e4c}"),
+            keywords: &[
+                "ท\u{e35}เร\u{e47}กซ\u{e4c}",
+                "ไทแรนโนซอร\u{e31}ส เร\u{e47}กซ\u{e4c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("Tiranozawr Reks"),
+            keywords: &["Tiranozawr Reks"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("tainosauli nifo māsila"),
+            keywords: &["tainosauli nifo māsila"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ت-رېكس"),
+            keywords: &["ت-رېكس", "تىراننوزاۋر رېكس"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("тиранозавр"),
+            keywords: &["Тиранозавр Рекс", "тиранозавр", "тиранозавр королівський"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("ٹی ریکس"),
+            keywords: &["ٹائرانوسرس ریکس", "ٹی ریکس"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("T-Reks"),
+            keywords: &["T-Reks", "reks", "tirannozavr"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("khủng long bạo chúa"),
+            keywords: &["Khủng long bạo chúa", "khủng long bạo chúa"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosorus Rex"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("I-T-Rex"),
+            keywords: &["I-T-Rex", "I-Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("T-Rex"),
+            keywords: &["T-Rex", "Tyrannosaurus Rex"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("暴龍"),
+            keywords: &["暴龍"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("暴龙"),
+            keywords: &["暴龙"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("霸王龙"),
+            keywords: &["暴龙君主", "霸王龙"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("暴龍"),
+            keywords: &["暴龍"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["恐龍", "暴龍", "霸王龍"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("i-T-Rex"),
+            keywords: &["i-T-Rex", "i-Tyrannosaurus Rex"],
+        },
+    ],
+};

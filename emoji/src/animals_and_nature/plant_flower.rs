@@ -2061,7 +2061,671 @@ pub const WHITE_FLOWER: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🏵\u{fe0f}"]
-pub const ROSETTE : crate :: Emoji = crate :: Emoji { glyph : "🏵\u{fe0f}" , codepoint : "1F3F5 FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "rosette" , group : "Animals & Nature" , subgroup : "plant-flower" , is_variant : false , variants : & [crate :: Emoji { glyph : "🏵" , codepoint : "1F3F5" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "rosette" , group : "Animals & Nature" , subgroup : "plant-flower" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("roset") , keywords : & ["plant" , "roset"] , } , crate :: Annotation { lang : "am" , tts : Some ("ሮዜት") , keywords : & ["ሮዜት" , "ተክል"] , } , crate :: Annotation { lang : "ar" , tts : Some ("وردية") , keywords : & ["نبات" , "وردية"] , } , crate :: Annotation { lang : "as" , tts : Some ("ৰ’চেট") , keywords : & ["গছ" , "ৰ’চেট"] , } , crate :: Annotation { lang : "az" , tts : Some ("rozetka") , keywords : & ["bitki" , "rozetka"] , } , crate :: Annotation { lang : "be" , tts : Some ("разетка") , keywords : & ["разетка" , "расліна"] , } , crate :: Annotation { lang : "bg" , tts : Some ("розета") , keywords : & ["растение" , "розета"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ফিতে দিয\u{9bc}ে তৈরি গোল\u{9be}পের ব\u{9cd}য\u{9be}জ") , keywords : & ["গ\u{9be}ছ" , "ফিতে দিয\u{9bc}ে তৈরি গোল\u{9be}পের ব\u{9cd}য\u{9be}জ"] , } , crate :: Annotation { lang : "br" , tts : Some ("rozetenn") , keywords : & ["plantenn" , "rozetenn"] , } , crate :: Annotation { lang : "bs" , tts : Some ("rozeta") , keywords : & ["biljka" , "rozeta"] , } , crate :: Annotation { lang : "ca" , tts : Some ("roseta") , keywords : & ["planta" , "roseta"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᎧᏁᏍᏗ") , keywords : & ["ᎠᎧᏁᏍᏗ" , "ᎦᎪᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("rozeta") , keywords : & ["květ" , "květina" , "rostlina" , "rozeta"] , } , crate :: Annotation { lang : "cy" , tts : Some ("rhosglwm") , keywords : & ["planhigyn" , "rhosglwm"] , } , crate :: Annotation { lang : "da" , tts : Some ("roset") , keywords : & ["plante" , "roset"] , } , crate :: Annotation { lang : "de" , tts : Some ("Rosette") , keywords : & ["Pflanze" , "Rosette"] , } , crate :: Annotation { lang : "el" , tts : Some ("ροζέτα") , keywords : & ["ροζέτα" , "φυτό"] , } , crate :: Annotation { lang : "en" , tts : Some ("rosette") , keywords : & ["plant" , "rosette"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("roseta") , keywords : & ["flor" , "planta" , "roseta"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("rosett") , keywords : & ["lill" , "rosett" , "taim"] , } , crate :: Annotation { lang : "eu" , tts : Some ("kondekorazioa") , keywords : & ["kondekorazioa" , "landare" , "saria"] , } , crate :: Annotation { lang : "fa" , tts : Some ("گل رزت") , keywords : & ["گل" , "گل رزت" , "گیاه"] , } , crate :: Annotation { lang : "fi" , tts : Some ("ruusuke") , keywords : & ["kasvi" , "ruusuke"] , } , crate :: Annotation { lang : "fil" , tts : Some ("rosette") , keywords : & ["bulaklak" , "disenyo" , "halaman" , "rosette"] , } , crate :: Annotation { lang : "fo" , tts : Some ("rósuprýði") , keywords : & ["blomstur" , "blóma" , "planta" , "rósuprýði" , "stovnhviril"] , } , crate :: Annotation { lang : "fr" , tts : Some ("rosette") , keywords : & ["plante" , "rosette"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("róiséad") , keywords : & ["planda" , "róiséad"] , } , crate :: Annotation { lang : "gd" , tts : Some ("ròsag") , keywords : & ["flùr" , "lus" , "ròsag"] , } , crate :: Annotation { lang : "gl" , tts : Some ("roseta") , keywords : & ["flor" , "roseta"] , } , crate :: Annotation { lang : "gu" , tts : Some ("ફીતન\u{ac1}\u{a82} ગ\u{ac1}લાબ") , keywords : & ["છોડ" , "ફીતન\u{ac1}\u{a82} ગ\u{ac1}લાબ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("rosette") , keywords : & ["rosette" , "shuke"] , } , crate :: Annotation { lang : "he" , tts : Some ("פרח צהוב") , keywords : & ["פרח" , "צהוב"] , } , crate :: Annotation { lang : "hi" , tts : Some ("प\u{941}ष\u{94d}प, रिबन का प\u{941}ष\u{94d}प") , keywords : & ["प\u{941}ष\u{94d}प" , "प\u{941}ष\u{94d}प, रिबन का प\u{941}ष\u{94d}प" , "रिबन का प\u{941}ष\u{94d}प"] , } , crate :: Annotation { lang : "hr" , tts : Some ("rozeta") , keywords : & ["biljka" , "rozeta"] , } , crate :: Annotation { lang : "hu" , tts : Some ("rozetta") , keywords : & ["növény" , "rozetta" , "virág"] , } , crate :: Annotation { lang : "hy" , tts : Some ("վարդանախշ") , keywords : & ["բույս" , "վարդանախշ"] , } , crate :: Annotation { lang : "id" , tts : Some ("hiasan mawar") , keywords : & ["hiasan mawar" , "tanaman"] , } , crate :: Annotation { lang : "ig" , tts : Some ("akwụkwọ ndịka okooko") , keywords : & ["akwụkwọ ndịka okooko" , "osisi"] , } , crate :: Annotation { lang : "is" , tts : Some ("rósarmynstur") , keywords : & ["blóm" , "planta" , "rós" , "rósarmynstur"] , } , crate :: Annotation { lang : "it" , tts : Some ("rosetta") , keywords : & ["fiore" , "rosetta"] , } , crate :: Annotation { lang : "ja" , tts : Some ("花飾り") , keywords : & ["植物" , "花" , "花飾り"] , } , crate :: Annotation { lang : "jv" , tts : Some ("roseta") , keywords : & ["roseta" , "tanduran"] , } , crate :: Annotation { lang : "ka" , tts : Some ("როზეტი") , keywords : & ["მცენარე" , "როზეტი"] , } , crate :: Annotation { lang : "kab" , tts : Some ("tawardit") , keywords : & ["tawardit"] , } , crate :: Annotation { lang : "kk" , tts : Some ("розетка") , keywords : & ["розетка" , "өсімдік"] , } , crate :: Annotation { lang : "kl" , tts : Some ("roset") , keywords : & ["plante" , "roset"] , } , crate :: Annotation { lang : "km" , tts : Some ("ផ\u{17d2}កាពាក\u{17cb}ត\u{17bb}បតែង") , keywords : & ["ត\u{17bb}បតែង" , "ផ\u{17d2}កា" , "ផ\u{17d2}កាពាក\u{17cb}ត\u{17bb}បតែង"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ರೊಸ\u{cc6}ಟ\u{ccd}") , keywords : & ["ಗ\u{cbf}ಡ" , "ರೊಸ\u{cc6}ಟ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("장미") , keywords : & ["꽃" , "장미"] , } , crate :: Annotation { lang : "kok" , tts : Some ("फ\u{942}ल") , keywords : & ["ग\u{941}च\u{94d}छ" , "फ\u{942}ल" , "रोप"] , } , crate :: Annotation { lang : "ky" , tts : Some ("жапайы роза") , keywords : & ["жапайы роза" , "өсүмдүк"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Rosett") , keywords : & ["Planz" , "Rosett"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ໂບດອກກ\u{eb8}ຫ\u{ebc}າບ") , keywords : & ["ດອກໄມ\u{ec9}" , "ພ\u{eb7}ດ" , "ໂບ" , "ໂບດອກກ\u{eb8}ຫ\u{ebc}າບ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("rozetė") , keywords : & ["augalas" , "rozetė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("rozete") , keywords : & ["augs" , "rozete" , "zieds"] , } , crate :: Annotation { lang : "mi" , tts : Some ("rōhiti") , keywords : & ["rōhiti" , "tipu"] , } , crate :: Annotation { lang : "mk" , tts : Some ("розета") , keywords : & ["растение" , "розета" , "цвет"] , } , crate :: Annotation { lang : "ml" , tts : Some ("റൊസെറ\u{d4d}റ\u{d4d}") , keywords : & ["ചെടി" , "റൊസെറ\u{d4d}റ\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("сарнай хэлбэртэй чимэглэл") , keywords : & ["Сарнай" , "сарнай хэлбэртэй чимэглэл" , "хэлбэр" , "чимэглэл"] , } , crate :: Annotation { lang : "mr" , tts : Some ("दगडावर कोरल\u{947}ल\u{947} ग\u{941}लाबाच\u{947}फ\u{942}ल") , keywords : & ["दगडावर कोरल\u{947}ल\u{947} ग\u{941}लाबाच\u{947} फ\u{942}ल" , "दगडावर कोरल\u{947}ल\u{947} ग\u{941}लाबाच\u{947}फ\u{942}ल" , "वनस\u{94d}पती"] , } , crate :: Annotation { lang : "ms" , tts : Some ("roset") , keywords : & ["roset" , "tumbuhan"] , } , crate :: Annotation { lang : "mt" , tts : Some ("rożetta") , keywords : & ["pjanta" , "rożetta"] , } , crate :: Annotation { lang : "my" , tts : Some ("န\u{103e}င\u{103a}းဆ\u{102e}ပ\u{103d}င\u{1037}\u{103a}ပ\u{102f}\u{1036}စ\u{1036}") , keywords : & ["န\u{103e}င\u{103a}းဆ\u{102e}ပ\u{103d}င\u{1037}\u{103a}ပ\u{102f}\u{1036}စ\u{1036}" , "န\u{103e}င\u{103a}းဆ\u{102e}ပ\u{103d}င\u{1037}\u{103a}ပ\u{102f}\u{1036}စ\u{1036} ရင\u{103a}ထ\u{102d}\u{102f}း" , "အပင\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("rosett") , keywords : & ["plante" , "rosett"] , } , crate :: Annotation { lang : "ne" , tts : Some ("थाली") , keywords : & ["थाली" , "बिर\u{942}वा"] , } , crate :: Annotation { lang : "nl" , tts : Some ("rozet") , keywords : & ["plant" , "rozet"] , } , crate :: Annotation { lang : "nn" , tts : Some ("rosett") , keywords : & ["plante" , "rosett"] , } , crate :: Annotation { lang : "or" , tts : Some ("ରୋଜେଟ\u{b4d}") , keywords : & ["ଉଦ\u{b4d}ଭ\u{b3f}ଦ" , "ରୋଜେଟ\u{b4d}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਸਨਮਾਨ ਚਿ\u{a70}ਨ\u{a4d}ਹ, ਰਿਬਨ ਦਾ ਬਣਿਆ ਹ\u{a4b}ਇਆ ਫ\u{a41}\u{a71}ਲ") , keywords : & ["ਬ\u{a42}ਟਾ" , "ਸਨਮਾਨ ਚਿ\u{a70}ਨ\u{a4d}ਹ, ਰਿਬਨ ਦਾ ਬਣਿਆ ਹ\u{a4b}ਇਆ ਫ\u{a41}\u{a71}ਲ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("چمکدار فیتے دا بنیا پ\u{64f}ھل") , keywords : & ["بوٹا" , "چمکدار فیتے دا بنیا پ\u{64f}ھل"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Rozẹt") , keywords : & ["Plant" , "Rozẹt"] , } , crate :: Annotation { lang : "pl" , tts : Some ("rozeta") , keywords : & ["kwiat" , "rozeta" , "roślina"] , } , crate :: Annotation { lang : "ps" , tts : Some ("وريښمين ګلى") , keywords : & ["بوټى، وريښمين ګل" , "وريښمين ګلى"] , } , crate :: Annotation { lang : "pt" , tts : Some ("roseta") , keywords : & ["flor" , "roseta"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("rosácea") , keywords : & ["planta" , "rosácea"] , } , crate :: Annotation { lang : "qu" , tts : Some ("muyu whipala") , keywords : & ["mallki" , "muyu whipala"] , } , crate :: Annotation { lang : "ro" , tts : Some ("rozetă") , keywords : & ["plantă" , "rozetă"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-435") , keywords : & ["E10-435"] , } , crate :: Annotation { lang : "ru" , tts : Some ("розетка") , keywords : & ["растение" , "розетка"] , } , crate :: Annotation { lang : "rw" , tts : Some ("rozete") , keywords : & ["ikimera" , "rozete"] , } , crate :: Annotation { lang : "sd" , tts : Some ("گل نما") , keywords : & ["ٻوٽو" , "گل نما"] , } , crate :: Annotation { lang : "si" , tts : Some ("රොසට\u{dca} මල") , keywords : & ["පැළය" , "රොසට\u{dca} මල"] , } , crate :: Annotation { lang : "sk" , tts : Some ("ružička") , keywords : & ["rastlina" , "ružička"] , } , crate :: Annotation { lang : "sl" , tts : Some ("rozeta") , keywords : & ["rastlina" , "rozeta"] , } , crate :: Annotation { lang : "so" , tts : Some ("ubaxa sharraxa") , keywords : & ["dhir" , "ubaxa sharraxa"] , } , crate :: Annotation { lang : "sq" , tts : Some ("rozetë") , keywords : & ["bimë" , "rozetë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("розета") , keywords : & ["биљкa" , "розета"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("rozeta") , keywords : & ["biljka" , "rozeta"] , } , crate :: Annotation { lang : "sv" , tts : Some ("bandros") , keywords : & ["bandros" , "blomma"] , } , crate :: Annotation { lang : "sw" , tts : Some ("waridi") , keywords : & ["mmea" , "waridi"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("வட\u{bcd}டவடிவப\u{bcd} பூ") , keywords : & ["பூ" , "மலர\u{bcd}" , "வட\u{bcd}ட மலர\u{bcd}" , "வட\u{bcd}டப\u{bcd} பூ" , "வட\u{bcd}டவடிவப\u{bcd} பூ"] , } , crate :: Annotation { lang : "te" , tts : Some ("ర\u{c3f}బ\u{c4d}బన\u{c4d}\u{200c}త\u{c4b} తయ\u{c3e}రు చ\u{c47}స\u{c3f}న గుల\u{c3e}బ\u{c3f} పువ\u{c4d}వు") , keywords : & ["గుల\u{c3e}బ\u{c3f} పువ\u{c4d}వు" , "ర\u{c3f}బ\u{c4d}బన\u{c4d}" , "ర\u{c3f}బ\u{c4d}బన\u{c4d}\u{200c}త\u{c4b} తయ\u{c3e}రు చ\u{c47}స\u{c3f}న గుల\u{c3e}బ\u{c3f} పువ\u{c4d}వు"] , } , crate :: Annotation { lang : "tg" , tts : Some ("гулдоира") , keywords : & ["гулдоира" , "растанӣ"] , } , crate :: Annotation { lang : "th" , tts : Some ("ลายดอกก\u{e38}หลาบ") , keywords : & ["ดอกไม\u{e49}" , "ลายดอกก\u{e38}หลาบ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("bezeg güli") , keywords : & ["bezeg güli" , "ösümlik"] , } , crate :: Annotation { lang : "to" , tts : Some ("potupotutatau") , keywords : & ["potupotutatau"] , } , crate :: Annotation { lang : "tr" , tts : Some ("çiçek rozet") , keywords : & ["bitki" , "gülce" , "çiçek rozet"] , } , crate :: Annotation { lang : "ug" , tts : Some ("ئەتىر") , keywords : & ["ئۆسۈملۈك" , "ئەتىر"] , } , crate :: Annotation { lang : "uk" , tts : Some ("розета") , keywords : & ["розета" , "розетка" , "рослина"] , } , crate :: Annotation { lang : "ur" , tts : Some ("گلاب کا نقش") , keywords : & ["پودا" , "پھول" , "گلاب کا نقش"] , } , crate :: Annotation { lang : "uz" , tts : Some ("to‘pbarggul") , keywords : & ["o‘simlik" , "to‘pbarggul"] , } , crate :: Annotation { lang : "vi" , tts : Some ("nơ hoa hồng") , keywords : & ["nơ hoa hồng" , "thực vật"] , } , crate :: Annotation { lang : "wo" , tts : Some ("roset") , keywords : & ["garab" , "roset"] , } , crate :: Annotation { lang : "xh" , tts : Some ("i-rosette") , keywords : & ["i-rosette" , "isityalo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Ohun Odòdó ọṣọ") , keywords : & ["Ohun Odòdó ọṣọ" , "õgbìn"] , } , crate :: Annotation { lang : "yue" , tts : Some ("花環") , keywords : & ["植物" , "花環"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("花环") , keywords : & ["植物" , "花环"] , } , crate :: Annotation { lang : "zh" , tts : Some ("圆形花饰") , keywords : & ["圆形花饰" , "花"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("花朵") , keywords : & ["花" , "花朵"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("玫瑰花飾") , keywords : & ["玫瑰花飾" , "黃色玫瑰花飾"] , } , crate :: Annotation { lang : "zu" , tts : Some ("irosette") , keywords : & ["irosette" , "isitshalo"] , }] , } ;
+pub const ROSETTE: crate::Emoji = crate::Emoji {
+    glyph: "🏵\u{fe0f}",
+    codepoint: "1F3F5 FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.7f32,
+    name: "rosette",
+    group: "Animals & Nature",
+    subgroup: "plant-flower",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🏵",
+        codepoint: "1F3F5",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "rosette",
+        group: "Animals & Nature",
+        subgroup: "plant-flower",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("roset"),
+            keywords: &["plant", "roset"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ሮዜት"),
+            keywords: &["ሮዜት", "ተክል"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("وردية"),
+            keywords: &["نبات", "وردية"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ৰ’চেট"),
+            keywords: &["গছ", "ৰ’চেট"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("rozetka"),
+            keywords: &["bitki", "rozetka"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("разетка"),
+            keywords: &["разетка", "расліна"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("розета"),
+            keywords: &["растение", "розета"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ফিতে দিয\u{9bc}ে তৈরি গোল\u{9be}পের ব\u{9cd}য\u{9be}জ"),
+            keywords: &[
+                "গ\u{9be}ছ",
+                "ফিতে দিয\u{9bc}ে তৈরি গোল\u{9be}পের ব\u{9cd}য\u{9be}জ",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("rozetenn"),
+            keywords: &["plantenn", "rozetenn"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("rozeta"),
+            keywords: &["biljka", "rozeta"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("roseta"),
+            keywords: &["planta", "roseta"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᎧᏁᏍᏗ"),
+            keywords: &["ᎠᎧᏁᏍᏗ", "ᎦᎪᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("rozeta"),
+            keywords: &["květ", "květina", "rostlina", "rozeta"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("rhosglwm"),
+            keywords: &["planhigyn", "rhosglwm"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("roset"),
+            keywords: &["plante", "roset"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Rosette"),
+            keywords: &["Pflanze", "Rosette"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ροζέτα"),
+            keywords: &["ροζέτα", "φυτό"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("rosette"),
+            keywords: &["plant", "rosette"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("roseta"),
+            keywords: &["flor", "planta", "roseta"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("rosett"),
+            keywords: &["lill", "rosett", "taim"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("kondekorazioa"),
+            keywords: &["kondekorazioa", "landare", "saria"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("گل رزت"),
+            keywords: &["گل", "گل رزت", "گیاه"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("ruusuke"),
+            keywords: &["kasvi", "ruusuke"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("rosette"),
+            keywords: &["bulaklak", "disenyo", "halaman", "rosette"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("rósuprýði"),
+            keywords: &["blomstur", "blóma", "planta", "rósuprýði", "stovnhviril"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("rosette"),
+            keywords: &["plante", "rosette"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("róiséad"),
+            keywords: &["planda", "róiséad"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("ròsag"),
+            keywords: &["flùr", "lus", "ròsag"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("roseta"),
+            keywords: &["flor", "roseta"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("ફીતન\u{ac1}\u{a82} ગ\u{ac1}લાબ"),
+            keywords: &["છોડ", "ફીતન\u{ac1}\u{a82} ગ\u{ac1}લાબ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("rosette"),
+            keywords: &["rosette", "shuke"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("פרח צהוב"),
+            keywords: &["פרח", "צהוב"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("प\u{941}ष\u{94d}प, रिबन का प\u{941}ष\u{94d}प"),
+            keywords: &[
+                "प\u{941}ष\u{94d}प",
+                "प\u{941}ष\u{94d}प, रिबन का प\u{941}ष\u{94d}प",
+                "रिबन का प\u{941}ष\u{94d}प",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("rozeta"),
+            keywords: &["biljka", "rozeta"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("rozetta"),
+            keywords: &["növény", "rozetta", "virág"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("վարդանախշ"),
+            keywords: &["բույս", "վարդանախշ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("hiasan mawar"),
+            keywords: &["hiasan mawar", "tanaman"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akwụkwọ ndịka okooko"),
+            keywords: &["akwụkwọ ndịka okooko", "osisi"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("rósarmynstur"),
+            keywords: &["blóm", "planta", "rós", "rósarmynstur"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("rosetta"),
+            keywords: &["fiore", "rosetta"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("花飾り"),
+            keywords: &["植物", "花", "花飾り"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("roseta"),
+            keywords: &["roseta", "tanduran"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("როზეტი"),
+            keywords: &["მცენარე", "როზეტი"],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tawardit"),
+            keywords: &["tawardit"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("розетка"),
+            keywords: &["розетка", "өсімдік"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("roset"),
+            keywords: &["plante", "roset"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ផ\u{17d2}កាពាក\u{17cb}ត\u{17bb}បតែង"),
+            keywords: &[
+                "ត\u{17bb}បតែង",
+                "ផ\u{17d2}កា",
+                "ផ\u{17d2}កាពាក\u{17cb}ត\u{17bb}បតែង",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ರೊಸ\u{cc6}ಟ\u{ccd}"),
+            keywords: &["ಗ\u{cbf}ಡ", "ರೊಸ\u{cc6}ಟ\u{ccd}"],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("장미"),
+            keywords: &["꽃", "장미"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("फ\u{942}ल"),
+            keywords: &["ग\u{941}च\u{94d}छ", "फ\u{942}ल", "रोप"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("жапайы роза"),
+            keywords: &["жапайы роза", "өсүмдүк"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Rosett"),
+            keywords: &["Planz", "Rosett"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ໂບດອກກ\u{eb8}ຫ\u{ebc}າບ"),
+            keywords: &["ດອກໄມ\u{ec9}", "ພ\u{eb7}ດ", "ໂບ", "ໂບດອກກ\u{eb8}ຫ\u{ebc}າບ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("rozetė"),
+            keywords: &["augalas", "rozetė"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("rozete"),
+            keywords: &["augs", "rozete", "zieds"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("rōhiti"),
+            keywords: &["rōhiti", "tipu"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("розета"),
+            keywords: &["растение", "розета", "цвет"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("റൊസെറ\u{d4d}റ\u{d4d}"),
+            keywords: &["ചെടി", "റൊസെറ\u{d4d}റ\u{d4d}"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("сарнай хэлбэртэй чимэглэл"),
+            keywords: &["Сарнай", "сарнай хэлбэртэй чимэглэл", "хэлбэр", "чимэглэл"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("दगडावर कोरल\u{947}ल\u{947} ग\u{941}लाबाच\u{947}फ\u{942}ल"),
+            keywords: &[
+                "दगडावर कोरल\u{947}ल\u{947} ग\u{941}लाबाच\u{947} फ\u{942}ल",
+                "दगडावर कोरल\u{947}ल\u{947} ग\u{941}लाबाच\u{947}फ\u{942}ल",
+                "वनस\u{94d}पती",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("roset"),
+            keywords: &["roset", "tumbuhan"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("rożetta"),
+            keywords: &["pjanta", "rożetta"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "န\u{103e}င\u{103a}းဆ\u{102e}ပ\u{103d}င\u{1037}\u{103a}ပ\u{102f}\u{1036}စ\u{1036}",
+            ),
+            keywords: &[
+                "န\u{103e}င\u{103a}းဆ\u{102e}ပ\u{103d}င\u{1037}\u{103a}ပ\u{102f}\u{1036}စ\u{1036}",
+                "န\u{103e}င\u{103a}းဆ\u{102e}ပ\u{103d}င\u{1037}\u{103a}ပ\u{102f}\u{1036}စ\u{1036} ရင\u{103a}ထ\u{102d}\u{102f}း",
+                "အပင\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("rosett"),
+            keywords: &["plante", "rosett"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("थाली"),
+            keywords: &["थाली", "बिर\u{942}वा"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("rozet"),
+            keywords: &["plant", "rozet"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("rosett"),
+            keywords: &["plante", "rosett"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ରୋଜେଟ\u{b4d}"),
+            keywords: &["ଉଦ\u{b4d}ଭ\u{b3f}ଦ", "ରୋଜେଟ\u{b4d}"],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਸਨਮਾਨ ਚਿ\u{a70}ਨ\u{a4d}ਹ, ਰਿਬਨ ਦਾ ਬਣਿਆ ਹ\u{a4b}ਇਆ ਫ\u{a41}\u{a71}ਲ"),
+            keywords: &[
+                "ਬ\u{a42}ਟਾ",
+                "ਸਨਮਾਨ ਚਿ\u{a70}ਨ\u{a4d}ਹ, ਰਿਬਨ ਦਾ ਬਣਿਆ ਹ\u{a4b}ਇਆ ਫ\u{a41}\u{a71}ਲ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("چمکدار فیتے دا بنیا پ\u{64f}ھل"),
+            keywords: &["بوٹا", "چمکدار فیتے دا بنیا پ\u{64f}ھل"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Rozẹt"),
+            keywords: &["Plant", "Rozẹt"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("rozeta"),
+            keywords: &["kwiat", "rozeta", "roślina"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("وريښمين ګلى"),
+            keywords: &["بوټى، وريښمين ګل", "وريښمين ګلى"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("roseta"),
+            keywords: &["flor", "roseta"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("rosácea"),
+            keywords: &["planta", "rosácea"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("muyu whipala"),
+            keywords: &["mallki", "muyu whipala"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("rozetă"),
+            keywords: &["plantă", "rozetă"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-435"),
+            keywords: &["E10-435"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("розетка"),
+            keywords: &["растение", "розетка"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("rozete"),
+            keywords: &["ikimera", "rozete"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("گل نما"),
+            keywords: &["ٻوٽو", "گل نما"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("රොසට\u{dca} මල"),
+            keywords: &["පැළය", "රොසට\u{dca} මල"],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("ružička"),
+            keywords: &["rastlina", "ružička"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("rozeta"),
+            keywords: &["rastlina", "rozeta"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("ubaxa sharraxa"),
+            keywords: &["dhir", "ubaxa sharraxa"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("rozetë"),
+            keywords: &["bimë", "rozetë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("розета"),
+            keywords: &["биљкa", "розета"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("rozeta"),
+            keywords: &["biljka", "rozeta"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("bandros"),
+            keywords: &["bandros", "blomma"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("waridi"),
+            keywords: &["mmea", "waridi"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("வட\u{bcd}டவடிவப\u{bcd} பூ"),
+            keywords: &[
+                "பூ",
+                "மலர\u{bcd}",
+                "வட\u{bcd}ட மலர\u{bcd}",
+                "வட\u{bcd}டப\u{bcd} பூ",
+                "வட\u{bcd}டவடிவப\u{bcd} பூ",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some(
+                "ర\u{c3f}బ\u{c4d}బన\u{c4d}\u{200c}త\u{c4b} తయ\u{c3e}రు చ\u{c47}స\u{c3f}న గుల\u{c3e}బ\u{c3f} పువ\u{c4d}వు",
+            ),
+            keywords: &[
+                "గుల\u{c3e}బ\u{c3f} పువ\u{c4d}వు",
+                "ర\u{c3f}బ\u{c4d}బన\u{c4d}",
+                "ర\u{c3f}బ\u{c4d}బన\u{c4d}\u{200c}త\u{c4b} తయ\u{c3e}రు చ\u{c47}స\u{c3f}న గుల\u{c3e}బ\u{c3f} పువ\u{c4d}వు",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("гулдоира"),
+            keywords: &["гулдоира", "растанӣ"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ลายดอกก\u{e38}หลาบ"),
+            keywords: &["ดอกไม\u{e49}", "ลายดอกก\u{e38}หลาบ"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("bezeg güli"),
+            keywords: &["bezeg güli", "ösümlik"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("potupotutatau"),
+            keywords: &["potupotutatau"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("çiçek rozet"),
+            keywords: &["bitki", "gülce", "çiçek rozet"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("ئەتىر"),
+            keywords: &["ئۆسۈملۈك", "ئەتىر"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("розета"),
+            keywords: &["розета", "розетка", "рослина"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("گلاب کا نقش"),
+            keywords: &["پودا", "پھول", "گلاب کا نقش"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("to‘pbarggul"),
+            keywords: &["o‘simlik", "to‘pbarggul"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("nơ hoa hồng"),
+            keywords: &["nơ hoa hồng", "thực vật"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("roset"),
+            keywords: &["garab", "roset"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("i-rosette"),
+            keywords: &["i-rosette", "isityalo"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Ohun Odòdó ọṣọ"),
+            keywords: &["Ohun Odòdó ọṣọ", "õgbìn"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("花環"),
+            keywords: &["植物", "花環"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("花环"),
+            keywords: &["植物", "花环"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("圆形花饰"),
+            keywords: &["圆形花饰", "花"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("花朵"),
+            keywords: &["花", "花朵"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("玫瑰花飾"),
+            keywords: &["玫瑰花飾", "黃色玫瑰花飾"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("irosette"),
+            keywords: &["irosette", "isitshalo"],
+        },
+    ],
+};
 #[doc = "🌹"]
 pub const ROSE: crate::Emoji = crate::Emoji {
     glyph: "🌹",

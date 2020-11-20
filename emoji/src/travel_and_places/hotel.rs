@@ -1,5 +1,748 @@
 #[doc = "🛎\u{fe0f}"]
-pub const BELLHOP_BELL : crate :: Emoji = crate :: Emoji { glyph : "🛎\u{fe0f}" , codepoint : "1F6CE FE0F" , status : crate :: Status :: FullyQualified , introduction_version : 0.7f32 , name : "bellhop bell" , group : "Travel & Places" , subgroup : "hotel" , is_variant : false , variants : & [crate :: Emoji { glyph : "🛎" , codepoint : "1F6CE" , status : crate :: Status :: Unqualified , introduction_version : 0.7f32 , name : "bellhop bell" , group : "Travel & Places" , subgroup : "hotel" , is_variant : true , variants : & [] , annotations : & [] , }] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("klokkie vir hoteljoggie") , keywords : & ["hotel" , "joggie" , "klok" , "klokkie vir hoteljoggie"] , } , crate :: Annotation { lang : "am" , tts : Some ("የሆቴል ሻንጣ ተቀባይ ደወል") , keywords : & ["ሆቴል" , "የሆቴል ሻንጣ ተቀባይ ደወል" , "ደወል"] , } , crate :: Annotation { lang : "ar" , tts : Some ("جرس فندق") , keywords : & ["جرس" , "فندق"] , } , crate :: Annotation { lang : "as" , tts : Some ("বেলহপ বেল") , keywords : & ["বেল" , "বেলহপ" , "বেলহপ বল" , "হোটেল"] , } , crate :: Annotation { lang : "az" , tts : Some ("xidmət zəngi") , keywords : & ["otel" , "xidmət zəngi" , "xidmətçi" , "zəng"] , } , crate :: Annotation { lang : "be" , tts : Some ("званок у гатэлі") , keywords : & ["выклік" , "гатэль" , "званок" , "званок у гатэлі"] , } , crate :: Annotation { lang : "bg" , tts : Some ("звънец за рецепция") , keywords : & ["звънец" , "звънец за рецепция" , "рецепция" , "хотел"] , } , crate :: Annotation { lang : "bn" , tts : Some ("বেলহপ বেল") , keywords : & ["ঘণ\u{9cd}ট\u{9be}" , "বেলহপ" , "বেলহপ বেল" , "হোটেল"] , } , crate :: Annotation { lang : "br" , tts : Some ("sonerez kontouer") , keywords : & ["kontouer" , "leti" , "sonerez"] , } , crate :: Annotation { lang : "bs" , tts : Some ("ručno zvono") , keywords : & ["hotel" , "ručno zvono" , "zvono"] , } , crate :: Annotation { lang : "ca" , tts : Some ("timbre del grum") , keywords : & ["grum" , "hotel" , "recepció" , "timbre" , "timbre del grum"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎠᏫᎾ ᎠᎵᏍᏕᎸᎯᏙᎯ ᎤᎭᎸᏂ") , keywords : & ["ᎠᏫᎾ ᎠᎵᏍᏕᎸᎯᏙᎯ" , "ᎠᏫᎾ ᎠᎵᏍᏕᎸᎯᏙᎯ ᎤᎭᎸᏂ" , "ᎤᎭᎸᏂ" , "ᏧᏂᏒᏍᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("portýrský zvonek") , keywords : & ["hotel" , "portýr" , "portýrský zvonek" , "poslíček" , "recepce" , "zvon" , "zvonek"] , } , crate :: Annotation { lang : "cy" , tts : Some ("porthor") , keywords : & ["cloch" , "gwesty" , "porthor"] , } , crate :: Annotation { lang : "da" , tts : Some ("hotelklokke") , keywords : & ["hotel" , "hotelklokke" , "klokke"] , } , crate :: Annotation { lang : "de" , tts : Some ("Rezeptionsklingel") , keywords : & ["Klingel" , "Rezeptionsklingel"] , } , crate :: Annotation { lang : "el" , tts : Some ("κουδούνι αχθοφόρου") , keywords : & ["κουδούνι" , "κουδούνι αχθοφόρου" , "ξενοδοχείο"] , } , crate :: Annotation { lang : "en" , tts : Some ("bellhop bell") , keywords : & ["bell" , "bellhop" , "hotel"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("porter bell") , keywords : & ["bell" , "hotel" , "porter"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("timbre de hotel") , keywords : & ["botones" , "campanilla" , "hotel" , "timbre" , "timbre de hotel"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("campanilla de hotel") , keywords : & ["campana" , "campanilla de hotel" , "hotel"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("märgukell") , keywords : & ["hotell" , "jooksupoiss" , "kell" , "kõlisti" , "märgukell"] , } , crate :: Annotation { lang : "eu" , tts : Some ("mahai gaineko txirrina") , keywords : & ["hotel" , "kanpai" , "mahai gaineko txirrina" , "txirrin"] , } , crate :: Annotation { lang : "fa" , tts : Some ("زنگ میز پذیرش") , keywords : & ["زنگ" , "زنگ میز پذیرش" , "لابی" , "هتل" , "پذیرش"] , } , crate :: Annotation { lang : "fi" , tts : Some ("soittokello") , keywords : & ["hotelli" , "hotellipoika" , "kello" , "soittokello"] , } , crate :: Annotation { lang : "fil" , tts : Some ("bellhop bell") , keywords : & ["bell" , "bellhop" , "hotel"] , } , crate :: Annotation { lang : "fo" , tts : Some ("piccoloklokka") , keywords : & ["hotell" , "klokka" , "piccolo" , "piccoloklokka"] , } , crate :: Annotation { lang : "fr" , tts : Some ("cloche de comptoir") , keywords : & ["cloche" , "cloche de comptoir" , "hôtel"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["cloche" , "cloche de comptoir" , "comptoire" , "hôtel"] , } , crate :: Annotation { lang : "ga" , tts : Some ("clog óstáin") , keywords : & ["clog" , "clog óstáin" , "óstán"] , } , crate :: Annotation { lang : "gd" , tts : Some ("clag taigh-òsta") , keywords : & ["clag" , "gille-cluig" , "pèidse" , "taigh-òsta"] , } , crate :: Annotation { lang : "gl" , tts : Some ("campaíña de recepción") , keywords : & ["campaíña" , "campaíña de recepción" , "hotel" , "recepción" , "timbre"] , } , crate :: Annotation { lang : "gu" , tts : Some ("બ\u{ac7}લહોપ ઘ\u{a82}ટડી") , keywords : & ["ઘ\u{a82}ટડી" , "ઘ\u{a82}ટી" , "બ\u{ac7}લહોપ ઘ\u{a82}ટડી" , "હોટલ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("yaro mai taimaka baƙi ƙararrawa") , keywords : & ["hotal" , "yaro mai taimaka baƙi" , "yaro mai taimaka baƙi ƙararrawa" , "ƙararrawa"] , } , crate :: Annotation { lang : "he" , tts : Some ("פעמון קבלה") , keywords : & ["מלון" , "פעמון" , "קבלה"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ब\u{947}लहॉप घ\u{902}टी, होटल") , keywords : & ["ब\u{947}लहॉप घ\u{902}टी" , "ब\u{947}लहॉप घ\u{902}टी, होटल" , "होटल"] , } , crate :: Annotation { lang : "hr" , tts : Some ("zvono za recepciju") , keywords : & ["hotel" , "recepcija" , "zvono" , "zvono za recepciju"] , } , crate :: Annotation { lang : "hu" , tts : Some ("londinerhívó csengő") , keywords : & ["csengő" , "londinerhívó csengő" , "szálloda"] , } , crate :: Annotation { lang : "hy" , tts : Some ("հյուրանոցային զանգ") , keywords : & ["զանգ" , "հյուրանոց" , "հյուրանոցային զանգ"] , } , crate :: Annotation { lang : "id" , tts : Some ("bel meja") , keywords : & ["bel meja" , "hotel" , "lonceng" , "pelayan"] , } , crate :: Annotation { lang : "ig" , tts : Some ("mgbịrịgba igweibu") , keywords : & ["igweibu" , "mgbịrịgba" , "ụlọ nkwarị"] , } , crate :: Annotation { lang : "is" , tts : Some ("hótelbjalla") , keywords : & ["bjalla" , "hótel" , "hótelbjalla"] , } , crate :: Annotation { lang : "it" , tts : Some ("campanello da hotel") , keywords : & ["campanello" , "campanello da hotel" , "hotel" , "reception"] , } , crate :: Annotation { lang : "ja" , tts : Some ("ベルボーイベル") , keywords : & ["ベル" , "ベルボーイベル" , "ホテル"] , } , crate :: Annotation { lang : "jv" , tts : Some ("bel leladen") , keywords : & ["bel" , "bel leladen" , "hotel"] , } , crate :: Annotation { lang : "ka" , tts : Some ("სასტუმროს ზარი") , keywords : & ["ზარი" , "სასტუმრო" , "სასტუმროს ზარი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("шабарман қоңырауы") , keywords : & ["шабарман" , "шабарман қоңырауы" , "қонақ үй" , "қоңырау"] , } , crate :: Annotation { lang : "kl" , tts : Some ("hotelklokke") , keywords : & ["hotel" , "hotelklokke" , "klokke"] , } , crate :: Annotation { lang : "km" , tts : Some ("កណ\u{17d2}ដ\u{17b9}ង") , keywords : & ["កណ\u{17d2}ដ\u{17b9}ង" , "កណ\u{17d2}ត\u{17b9}ង" , "កន\u{17d2}ត\u{17b9}ង"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಬ\u{cc6}ಲ\u{ccd}\u{200c}ಹಾಪ\u{ccd} ಬ\u{cc6}ಲ\u{ccd}") , keywords : & ["ಬ\u{cc6}ಲ\u{ccd}" , "ಬ\u{cc6}ಲ\u{ccd}\u{200c}ಹಾಪ\u{ccd} ಬ\u{cc6}ಲ\u{ccd}" , "ಹೊಟೇಲ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("호출 벨") , keywords : & ["데스크벨" , "벨" , "호출 벨" , "호텔"] , } , crate :: Annotation { lang : "kok" , tts : Some ("ब\u{945}लहोप ब\u{947}ल") , keywords : & ["ब\u{945}ल" , "ब\u{945}लहोप" , "ब\u{945}लहोप ब\u{947}ल" , "हॉट\u{947}ल"] , } , crate :: Annotation { lang : "ky" , tts : Some ("тейлөөчү адамды чакырган баскыч") , keywords : & ["баскыч" , "мейманкана" , "тейлөөчү адамды чакырган баскыч"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Hotelpageschell") , keywords : & ["Hotel" , "Hotelpage" , "Hotelpageschell" , "Schell"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ກະດ\u{eb4}\u{ec8}ງໂຮງແຮມ") , keywords : & ["ກະດ\u{eb4}\u{ec8}ງ" , "ກະດ\u{eb4}\u{ec8}ງໂຮງແຮມ" , "ໂຮງແຮມ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("skambutis") , keywords : & ["skambinti" , "skambutis" , "viešbutis"] , } , crate :: Annotation { lang : "lv" , tts : Some ("galda zvans") , keywords : & ["galda zvans" , "viesnīca" , "zvaniņš" , "zvans"] , } , crate :: Annotation { lang : "mi" , tts : Some ("pere kaikawe") , keywords : & ["hōtēra" , "kaikawe" , "pere"] , } , crate :: Annotation { lang : "mk" , tts : Some ("ѕвонче на рецепција") , keywords : & ["портир" , "рецепција" , "хотел" , "ѕвонче" , "ѕвонче на рецепција"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ബെൽഹോപ\u{d4d}പ\u{d4d} ബെൽ") , keywords : & ["ബെൽ" , "ബെൽഹോപ\u{d4d}പ\u{d4d} ബെൽ" , "ഹോട\u{d4d}ടൽ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("хонх") , keywords : & ["зочид буудал" , "угтагч" , "хонх"] , } , crate :: Annotation { lang : "mr" , tts : Some ("हॉट\u{947}लमधील सामान पोहचविणार\u{94d}\u{200d}या\u{902}साठी असणारी ब\u{947}ल") , keywords : & ["ब\u{947}ल" , "हॉट\u{947}ल" , "हॉट\u{947}लमधील लोका\u{902}च\u{947} सामान पोहचविणारा म\u{941}लगा" , "हॉट\u{947}लमधील लोका\u{902}च\u{947} सामान पोहचविणार\u{94d}\u{200d}या म\u{941}लासाठी असणारी ब\u{947}ल" , "हॉट\u{947}लमधील लोका\u{902}च\u{947} सामान पोहचविणाऱ\u{94d}या म\u{941}लासाठी असणारी ब\u{947}ल" , "हॉट\u{947}लमधील सामान पोहचविणार\u{94d}\u{200d}या\u{902}साठी असणारी ब\u{947}ल"] , } , crate :: Annotation { lang : "ms" , tts : Some ("loceng porter") , keywords : & ["hotel" , "loceng" , "loceng porter" , "tukang angkut"] , } , crate :: Annotation { lang : "mt" , tts : Some ("qanpiena ta’ bellhop") , keywords : & ["bellhop" , "lukanda" , "qanpiena" , "qanpiena ta’ bellhop"] , } , crate :: Annotation { lang : "my" , tts : Some ("န\u{103e}\u{102d}ပ\u{103a}ခေါင\u{103a}းလောင\u{103a}း") , keywords : & ["ခေါင\u{103a}းလောင\u{103a}း" , "န\u{103e}\u{102d}ပ\u{103a}ခေါင\u{103a}းလောင\u{103a}း" , "ဟ\u{102d}\u{102f}တယ\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("resepsjonsklokke") , keywords : & ["hotell" , "klokke" , "pikkolo" , "resepsjonsklokke"] , } , crate :: Annotation { lang : "ne" , tts : Some ("ब\u{947}लहप घन\u{94d}टी") , keywords : & ["ब\u{947}ल" , "ब\u{947}लहप" , "ब\u{947}लहप घन\u{94d}टी" , "होट\u{947}ल"] , } , crate :: Annotation { lang : "nl" , tts : Some ("piccolobel") , keywords : & ["balie" , "bel" , "hotel" , "piccolobel"] , } , crate :: Annotation { lang : "nn" , tts : Some ("resepsjonsklokke") , keywords : & ["hotell" , "klokke" , "pikkolo" , "resepsjonsklokke"] , } , crate :: Annotation { lang : "or" , tts : Some ("ବେଲହପ\u{b4d}\u{200c} ବେଲ\u{b4d}\u{200c}") , keywords : & ["ଘଣ\u{b4d}ଟ\u{b3f}" , "ଘଣ\u{b4d}ଟ\u{b3f} ବଜ\u{b3e}ଇବ\u{b3e}" , "ବେଲହପ\u{b4d}\u{200c} ବେଲ\u{b4d}\u{200c}" , "ହୋଟେଲ\u{b4d}\u{200c}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਦਰਬਾਨ ਘ\u{a70}ਟੀ") , keywords : & ["ਘ\u{a70}ਟੀ" , "ਦਰਬਾਨ" , "ਹ\u{a4b}ਟਲ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("وردی پوش دربان دی گھنٹی") , keywords : & ["وردی پوش دربان دی گھنٹی" , "کلب دا وردی پوش دربان" , "گھنٹی" , "ہوٹل"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Bẹ\u{301}lhọ\u{301}p Bẹl") , keywords : & ["Bẹl" , "Bẹ\u{301}lhọ\u{301}p Bẹl" , "Họtẹl"] , } , crate :: Annotation { lang : "pl" , tts : Some ("dzwonek w recepcji") , keywords : & ["dzwonek" , "dzwonek w recepcji" , "hotel" , "przywołać" , "recepcja"] , } , crate :: Annotation { lang : "ps" , tts : Some ("لاسي زنګ") , keywords : & ["زنګ" , "لاسي زنګ" , "هوتل"] , } , crate :: Annotation { lang : "pt" , tts : Some ("sineta") , keywords : & ["hotel" , "sineta" , "sino"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("campainha de receção") , keywords : & ["campainha" , "campainha de receção" , "hotel" , "rececionista"] , } , crate :: Annotation { lang : "qu" , tts : Some ("chhullupi botonespaq") , keywords : & ["botones" , "chhullupi" , "chhullupi botonespaq" , "tampu wasi"] , } , crate :: Annotation { lang : "ro" , tts : Some ("sonerie de recepție") , keywords : & ["clopoțel" , "hotel" , "recepție" , "sonerie" , "sonerie de recepție"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-989") , keywords : & ["E10-989"] , } , crate :: Annotation { lang : "ru" , tts : Some ("гостиничный звонок") , keywords : & ["гостиница" , "гостиничный звонок" , "звук" , "отель" , "портье"] , } , crate :: Annotation { lang : "rw" , tts : Some ("inzogera y’uwo batuma") , keywords : & ["hoteri" , "inzogera" , "inzogera y’uwo batuma" , "uwo batuma"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڌيان چڪائڻ واري گهنٽي") , keywords : & ["بيل هاپ" , "هوٽل" , "ڌيان چڪائڻ واري گهنٽي" , "گھنٽي"] , } , crate :: Annotation { lang : "si" , tts : Some ("බෙල\u{dca}හොප\u{dca} ස\u{dd3}න\u{dd4}ව") , keywords : & ["බෙල\u{dca}හොප\u{dca}" , "ස\u{dd3}න\u{dd4}ව" , "හෝටලය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("recepčný zvonček") , keywords : & ["hotel" , "hotelový sluha" , "recepčný zvonček" , "zvonček"] , } , crate :: Annotation { lang : "sl" , tts : Some ("hotelski zvonec") , keywords : & ["hotel" , "hotelski zvonec" , "portir" , "zvonec"] , } , crate :: Annotation { lang : "so" , tts : Some ("boorsa-qaade") , keywords : & ["boorsa-qaade" , "gambaleel" , "hudheel"] , } , crate :: Annotation { lang : "sq" , tts : Some ("zile shërbimi") , keywords : & ["hotel" , "zile" , "zile shërbimi"] , } , crate :: Annotation { lang : "sr" , tts : Some ("звоно на рецепцији") , keywords : & ["звoнo" , "звоно на рецепцији" , "рeцeпциja" , "хoтeл"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("zvono na recepciji") , keywords : & ["hotel" , "recepcija" , "zvono" , "zvono na recepciji"] , } , crate :: Annotation { lang : "sv" , tts : Some ("receptionsklocka") , keywords : & ["hotell" , "klocka" , "plingklocka" , "receptionsklocka"] , } , crate :: Annotation { lang : "sw" , tts : Some ("kengele ya mwandazi") , keywords : & ["hoteli" , "kengele" , "kengele ya mwandazi" , "mwandazi"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("அழைக\u{bcd}கும\u{bcd} மணி") , keywords : & ["அழைக\u{bcd}கும\u{bcd} மணி" , "அழைப\u{bcd}பு மணி"] , } , crate :: Annotation { lang : "te" , tts : Some ("సర\u{c4d}వర\u{c4d}\u{200c}న\u{c3f} ప\u{c3f}లవడ\u{c3e}న\u{c3f}క\u{c3f} వ\u{c3e}డ\u{c47} బ\u{c46}ల\u{c4d}") , keywords : & ["బ\u{c46}ల\u{c4d}" , "సర\u{c4d}వర\u{c4d}" , "సర\u{c4d}వర\u{c4d}\u{200c}న\u{c3f} ప\u{c3f}లవడ\u{c3e}న\u{c3f}క\u{c3f} వ\u{c3e}డ\u{c47} బ\u{c46}ల\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("зангулаи хизматгори меҳмонхона") , keywords : & ["зангула" , "зангулаи хизматгори меҳмонхона" , "меҳмонхона" , "хизматгори меҳмонхона"] , } , crate :: Annotation { lang : "th" , tts : Some ("กระด\u{e34}\u{e48}งโรงแรม") , keywords : & ["กระด\u{e34}\u{e48}ง" , "กระด\u{e34}\u{e48}งโรงแรม" , "พน\u{e31}กงาน" , "โรงแรม"] , } , crate :: Annotation { lang : "tk" , tts : Some ("çagyryş jaňy") , keywords : & ["jaň" , "myhmanhana" , "çagyryş jaňy"] , } , crate :: Annotation { lang : "to" , tts : Some ("fafangu hotele") , keywords : & ["fafangu hotele"] , } , crate :: Annotation { lang : "tr" , tts : Some ("resepsiyon zili") , keywords : & ["otel" , "resepsiyon zili" , "zil" , "çan"] , } , crate :: Annotation { lang : "ug" , tts : Some ("يۈكتاقچى قوڭغۇرىقى") , keywords : & ["قوڭغۇراق" , "مېھمانخانا" , "يۈكتاقچى" , "يۈكتاقچى قوڭغۇرىقى"] , } , crate :: Annotation { lang : "uk" , tts : Some ("готельний дзвоник") , keywords : & ["готель" , "готельний дзвоник" , "дзвоник"] , } , crate :: Annotation { lang : "ur" , tts : Some ("بیل ہاپ بیل") , keywords : & ["بیل" , "بیل ہاپ" , "بیل ہاپ بیل" , "ہوٹل"] , } , crate :: Annotation { lang : "uz" , tts : Some ("pochtachi qo‘ng‘irog‘i") , keywords : & ["mehmonxona" , "pochtachi" , "pochtachi qo‘ng‘irog‘i" , "qabulxona" , "qo‘ng‘iroqcha"] , } , crate :: Annotation { lang : "vi" , tts : Some ("chuông gọi phục vụ") , keywords : & ["chuông" , "chuông gọi phục vụ" , "khách sạn"] , } , crate :: Annotation { lang : "wo" , tts : Some ("joolooli bu ñuy bës") , keywords : & ["joolooli" , "joolooli bu ñuy bës" , "otel"] , } , crate :: Annotation { lang : "xh" , tts : Some ("intsimbi ye-bellhop") , keywords : & ["i-bellhop" , "ihotele" , "intsimbi" , "intsimbi ye-bellhop"] , } , crate :: Annotation { lang : "yo" , tts : Some ("agogo alágbágbẹ\u{301}rùn ilé ìtura") , keywords : & ["agogo" , "agogo alágbágbẹ\u{301}rùn ilé ìtura" , "alágbágbẹ\u{301}rùn ilé ìtura" , "ilé ìtura"] , } , crate :: Annotation { lang : "yue" , tts : Some ("服務員鐘") , keywords : & ["服務員" , "服務員鐘" , "酒店" , "鐘"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("服务员钟") , keywords : & ["服务员" , "服务员钟" , "酒店" , "钟"] , } , crate :: Annotation { lang : "zh" , tts : Some ("服务铃") , keywords : & ["服务铃" , "酒店" , "铃"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("服務鈴") , keywords : & ["服務鈴"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("叮叮鐘") , keywords : & ["㩒鐘" , "叮叮鐘" , "按鈴" , "按鐘" , "撳鐘" , "服務鈴"] , } , crate :: Annotation { lang : "zu" , tts : Some ("insimbi") , keywords : & ["ihhotela" , "insimbi"] , }] , } ;
+pub const BELLHOP_BELL: crate::Emoji = crate::Emoji {
+    glyph: "🛎\u{fe0f}",
+    codepoint: "1F6CE FE0F",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.7f32,
+    name: "bellhop bell",
+    group: "Travel & Places",
+    subgroup: "hotel",
+    is_variant: false,
+    variants: &[crate::Emoji {
+        glyph: "🛎",
+        codepoint: "1F6CE",
+        status: crate::Status::Unqualified,
+        introduction_version: 0.7f32,
+        name: "bellhop bell",
+        group: "Travel & Places",
+        subgroup: "hotel",
+        is_variant: true,
+        variants: &[],
+        annotations: &[],
+    }],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("klokkie vir hoteljoggie"),
+            keywords: &["hotel", "joggie", "klok", "klokkie vir hoteljoggie"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የሆቴል ሻንጣ ተቀባይ ደወል"),
+            keywords: &["ሆቴል", "የሆቴል ሻንጣ ተቀባይ ደወል", "ደወል"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("جرس فندق"),
+            keywords: &["جرس", "فندق"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("বেলহপ বেল"),
+            keywords: &["বেল", "বেলহপ", "বেলহপ বল", "হোটেল"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("xidmət zəngi"),
+            keywords: &["otel", "xidmət zəngi", "xidmətçi", "zəng"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("званок у гатэлі"),
+            keywords: &["выклік", "гатэль", "званок", "званок у гатэлі"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("звънец за рецепция"),
+            keywords: &["звънец", "звънец за рецепция", "рецепция", "хотел"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("বেলহপ বেল"),
+            keywords: &["ঘণ\u{9cd}ট\u{9be}", "বেলহপ", "বেলহপ বেল", "হোটেল"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("sonerez kontouer"),
+            keywords: &["kontouer", "leti", "sonerez"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("ručno zvono"),
+            keywords: &["hotel", "ručno zvono", "zvono"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("timbre del grum"),
+            keywords: &["grum", "hotel", "recepció", "timbre", "timbre del grum"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎠᏫᎾ ᎠᎵᏍᏕᎸᎯᏙᎯ ᎤᎭᎸᏂ"),
+            keywords: &["ᎠᏫᎾ ᎠᎵᏍᏕᎸᎯᏙᎯ", "ᎠᏫᎾ ᎠᎵᏍᏕᎸᎯᏙᎯ ᎤᎭᎸᏂ", "ᎤᎭᎸᏂ", "ᏧᏂᏒᏍᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("portýrský zvonek"),
+            keywords: &[
+                "hotel",
+                "portýr",
+                "portýrský zvonek",
+                "poslíček",
+                "recepce",
+                "zvon",
+                "zvonek",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("porthor"),
+            keywords: &["cloch", "gwesty", "porthor"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("hotelklokke"),
+            keywords: &["hotel", "hotelklokke", "klokke"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Rezeptionsklingel"),
+            keywords: &["Klingel", "Rezeptionsklingel"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("κουδούνι αχθοφόρου"),
+            keywords: &["κουδούνι", "κουδούνι αχθοφόρου", "ξενοδοχείο"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("bellhop bell"),
+            keywords: &["bell", "bellhop", "hotel"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("porter bell"),
+            keywords: &["bell", "hotel", "porter"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("timbre de hotel"),
+            keywords: &[
+                "botones",
+                "campanilla",
+                "hotel",
+                "timbre",
+                "timbre de hotel",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("campanilla de hotel"),
+            keywords: &["campana", "campanilla de hotel", "hotel"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("märgukell"),
+            keywords: &["hotell", "jooksupoiss", "kell", "kõlisti", "märgukell"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("mahai gaineko txirrina"),
+            keywords: &["hotel", "kanpai", "mahai gaineko txirrina", "txirrin"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("زنگ میز پذیرش"),
+            keywords: &["زنگ", "زنگ میز پذیرش", "لابی", "هتل", "پذیرش"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("soittokello"),
+            keywords: &["hotelli", "hotellipoika", "kello", "soittokello"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("bellhop bell"),
+            keywords: &["bell", "bellhop", "hotel"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("piccoloklokka"),
+            keywords: &["hotell", "klokka", "piccolo", "piccoloklokka"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("cloche de comptoir"),
+            keywords: &["cloche", "cloche de comptoir", "hôtel"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["cloche", "cloche de comptoir", "comptoire", "hôtel"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("clog óstáin"),
+            keywords: &["clog", "clog óstáin", "óstán"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("clag taigh-òsta"),
+            keywords: &["clag", "gille-cluig", "pèidse", "taigh-òsta"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("campaíña de recepción"),
+            keywords: &[
+                "campaíña",
+                "campaíña de recepción",
+                "hotel",
+                "recepción",
+                "timbre",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("બ\u{ac7}લહોપ ઘ\u{a82}ટડી"),
+            keywords: &[
+                "ઘ\u{a82}ટડી",
+                "ઘ\u{a82}ટી",
+                "બ\u{ac7}લહોપ ઘ\u{a82}ટડી",
+                "હોટલ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("yaro mai taimaka baƙi ƙararrawa"),
+            keywords: &[
+                "hotal",
+                "yaro mai taimaka baƙi",
+                "yaro mai taimaka baƙi ƙararrawa",
+                "ƙararrawa",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("פעמון קבלה"),
+            keywords: &["מלון", "פעמון", "קבלה"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ब\u{947}लहॉप घ\u{902}टी, होटल"),
+            keywords: &[
+                "ब\u{947}लहॉप घ\u{902}टी",
+                "ब\u{947}लहॉप घ\u{902}टी, होटल",
+                "होटल",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("zvono za recepciju"),
+            keywords: &["hotel", "recepcija", "zvono", "zvono za recepciju"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("londinerhívó csengő"),
+            keywords: &["csengő", "londinerhívó csengő", "szálloda"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("հյուրանոցային զանգ"),
+            keywords: &["զանգ", "հյուրանոց", "հյուրանոցային զանգ"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("bel meja"),
+            keywords: &["bel meja", "hotel", "lonceng", "pelayan"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("mgbịrịgba igweibu"),
+            keywords: &["igweibu", "mgbịrịgba", "ụlọ nkwarị"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("hótelbjalla"),
+            keywords: &["bjalla", "hótel", "hótelbjalla"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("campanello da hotel"),
+            keywords: &["campanello", "campanello da hotel", "hotel", "reception"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("ベルボーイベル"),
+            keywords: &["ベル", "ベルボーイベル", "ホテル"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("bel leladen"),
+            keywords: &["bel", "bel leladen", "hotel"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("სასტუმროს ზარი"),
+            keywords: &["ზარი", "სასტუმრო", "სასტუმროს ზარი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("шабарман қоңырауы"),
+            keywords: &["шабарман", "шабарман қоңырауы", "қонақ үй", "қоңырау"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("hotelklokke"),
+            keywords: &["hotel", "hotelklokke", "klokke"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("កណ\u{17d2}ដ\u{17b9}ង"),
+            keywords: &[
+                "កណ\u{17d2}ដ\u{17b9}ង",
+                "កណ\u{17d2}ត\u{17b9}ង",
+                "កន\u{17d2}ត\u{17b9}ង",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಬ\u{cc6}ಲ\u{ccd}\u{200c}ಹಾಪ\u{ccd} ಬ\u{cc6}ಲ\u{ccd}"),
+            keywords: &[
+                "ಬ\u{cc6}ಲ\u{ccd}",
+                "ಬ\u{cc6}ಲ\u{ccd}\u{200c}ಹಾಪ\u{ccd} ಬ\u{cc6}ಲ\u{ccd}",
+                "ಹೊಟೇಲ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("호출 벨"),
+            keywords: &["데스크벨", "벨", "호출 벨", "호텔"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("ब\u{945}लहोप ब\u{947}ल"),
+            keywords: &[
+                "ब\u{945}ल",
+                "ब\u{945}लहोप",
+                "ब\u{945}लहोप ब\u{947}ल",
+                "हॉट\u{947}ल",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("тейлөөчү адамды чакырган баскыч"),
+            keywords: &["баскыч", "мейманкана", "тейлөөчү адамды чакырган баскыч"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Hotelpageschell"),
+            keywords: &["Hotel", "Hotelpage", "Hotelpageschell", "Schell"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ກະດ\u{eb4}\u{ec8}ງໂຮງແຮມ"),
+            keywords: &["ກະດ\u{eb4}\u{ec8}ງ", "ກະດ\u{eb4}\u{ec8}ງໂຮງແຮມ", "ໂຮງແຮມ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("skambutis"),
+            keywords: &["skambinti", "skambutis", "viešbutis"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("galda zvans"),
+            keywords: &["galda zvans", "viesnīca", "zvaniņš", "zvans"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("pere kaikawe"),
+            keywords: &["hōtēra", "kaikawe", "pere"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("ѕвонче на рецепција"),
+            keywords: &[
+                "портир",
+                "рецепција",
+                "хотел",
+                "ѕвонче",
+                "ѕвонче на рецепција",
+            ],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ബെൽഹോപ\u{d4d}പ\u{d4d} ബെൽ"),
+            keywords: &["ബെൽ", "ബെൽഹോപ\u{d4d}പ\u{d4d} ബെൽ", "ഹോട\u{d4d}ടൽ"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("хонх"),
+            keywords: &["зочид буудал", "угтагч", "хонх"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some(
+                "हॉट\u{947}लमधील सामान पोहचविणार\u{94d}\u{200d}या\u{902}साठी असणारी ब\u{947}ल",
+            ),
+            keywords: &[
+                "ब\u{947}ल",
+                "हॉट\u{947}ल",
+                "हॉट\u{947}लमधील लोका\u{902}च\u{947} सामान पोहचविणारा म\u{941}लगा",
+                "हॉट\u{947}लमधील लोका\u{902}च\u{947} सामान पोहचविणार\u{94d}\u{200d}या म\u{941}लासाठी असणारी ब\u{947}ल",
+                "हॉट\u{947}लमधील लोका\u{902}च\u{947} सामान पोहचविणाऱ\u{94d}या म\u{941}लासाठी असणारी ब\u{947}ल",
+                "हॉट\u{947}लमधील सामान पोहचविणार\u{94d}\u{200d}या\u{902}साठी असणारी ब\u{947}ल",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("loceng porter"),
+            keywords: &["hotel", "loceng", "loceng porter", "tukang angkut"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("qanpiena ta’ bellhop"),
+            keywords: &["bellhop", "lukanda", "qanpiena", "qanpiena ta’ bellhop"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("န\u{103e}\u{102d}ပ\u{103a}ခေါင\u{103a}းလောင\u{103a}း"),
+            keywords: &[
+                "ခေါင\u{103a}းလောင\u{103a}း",
+                "န\u{103e}\u{102d}ပ\u{103a}ခေါင\u{103a}းလောင\u{103a}း",
+                "ဟ\u{102d}\u{102f}တယ\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("resepsjonsklokke"),
+            keywords: &["hotell", "klokke", "pikkolo", "resepsjonsklokke"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("ब\u{947}लहप घन\u{94d}टी"),
+            keywords: &[
+                "ब\u{947}ल",
+                "ब\u{947}लहप",
+                "ब\u{947}लहप घन\u{94d}टी",
+                "होट\u{947}ल",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("piccolobel"),
+            keywords: &["balie", "bel", "hotel", "piccolobel"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("resepsjonsklokke"),
+            keywords: &["hotell", "klokke", "pikkolo", "resepsjonsklokke"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ବେଲହପ\u{b4d}\u{200c} ବେଲ\u{b4d}\u{200c}"),
+            keywords: &[
+                "ଘଣ\u{b4d}ଟ\u{b3f}",
+                "ଘଣ\u{b4d}ଟ\u{b3f} ବଜ\u{b3e}ଇବ\u{b3e}",
+                "ବେଲହପ\u{b4d}\u{200c} ବେଲ\u{b4d}\u{200c}",
+                "ହୋଟେଲ\u{b4d}\u{200c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਦਰਬਾਨ ਘ\u{a70}ਟੀ"),
+            keywords: &["ਘ\u{a70}ਟੀ", "ਦਰਬਾਨ", "ਹ\u{a4b}ਟਲ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("وردی پوش دربان دی گھنٹی"),
+            keywords: &[
+                "وردی پوش دربان دی گھنٹی",
+                "کلب دا وردی پوش دربان",
+                "گھنٹی",
+                "ہوٹل",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Bẹ\u{301}lhọ\u{301}p Bẹl"),
+            keywords: &["Bẹl", "Bẹ\u{301}lhọ\u{301}p Bẹl", "Họtẹl"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("dzwonek w recepcji"),
+            keywords: &[
+                "dzwonek",
+                "dzwonek w recepcji",
+                "hotel",
+                "przywołać",
+                "recepcja",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("لاسي زنګ"),
+            keywords: &["زنګ", "لاسي زنګ", "هوتل"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("sineta"),
+            keywords: &["hotel", "sineta", "sino"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("campainha de receção"),
+            keywords: &["campainha", "campainha de receção", "hotel", "rececionista"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("chhullupi botonespaq"),
+            keywords: &["botones", "chhullupi", "chhullupi botonespaq", "tampu wasi"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("sonerie de recepție"),
+            keywords: &[
+                "clopoțel",
+                "hotel",
+                "recepție",
+                "sonerie",
+                "sonerie de recepție",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-989"),
+            keywords: &["E10-989"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("гостиничный звонок"),
+            keywords: &["гостиница", "гостиничный звонок", "звук", "отель", "портье"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("inzogera y’uwo batuma"),
+            keywords: &["hoteri", "inzogera", "inzogera y’uwo batuma", "uwo batuma"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڌيان چڪائڻ واري گهنٽي"),
+            keywords: &["بيل هاپ", "هوٽل", "ڌيان چڪائڻ واري گهنٽي", "گھنٽي"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("බෙල\u{dca}හොප\u{dca} ස\u{dd3}න\u{dd4}ව"),
+            keywords: &["බෙල\u{dca}හොප\u{dca}", "ස\u{dd3}න\u{dd4}ව", "හෝටලය"],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("recepčný zvonček"),
+            keywords: &["hotel", "hotelový sluha", "recepčný zvonček", "zvonček"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("hotelski zvonec"),
+            keywords: &["hotel", "hotelski zvonec", "portir", "zvonec"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("boorsa-qaade"),
+            keywords: &["boorsa-qaade", "gambaleel", "hudheel"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("zile shërbimi"),
+            keywords: &["hotel", "zile", "zile shërbimi"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("звоно на рецепцији"),
+            keywords: &["звoнo", "звоно на рецепцији", "рeцeпциja", "хoтeл"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("zvono na recepciji"),
+            keywords: &["hotel", "recepcija", "zvono", "zvono na recepciji"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("receptionsklocka"),
+            keywords: &["hotell", "klocka", "plingklocka", "receptionsklocka"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("kengele ya mwandazi"),
+            keywords: &["hoteli", "kengele", "kengele ya mwandazi", "mwandazi"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("அழைக\u{bcd}கும\u{bcd} மணி"),
+            keywords: &["அழைக\u{bcd}கும\u{bcd} மணி", "அழைப\u{bcd}பு மணி"],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some(
+                "సర\u{c4d}వర\u{c4d}\u{200c}న\u{c3f} ప\u{c3f}లవడ\u{c3e}న\u{c3f}క\u{c3f} వ\u{c3e}డ\u{c47} బ\u{c46}ల\u{c4d}",
+            ),
+            keywords: &[
+                "బ\u{c46}ల\u{c4d}",
+                "సర\u{c4d}వర\u{c4d}",
+                "సర\u{c4d}వర\u{c4d}\u{200c}న\u{c3f} ప\u{c3f}లవడ\u{c3e}న\u{c3f}క\u{c3f} వ\u{c3e}డ\u{c47} బ\u{c46}ల\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("зангулаи хизматгори меҳмонхона"),
+            keywords: &[
+                "зангула",
+                "зангулаи хизматгори меҳмонхона",
+                "меҳмонхона",
+                "хизматгори меҳмонхона",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("กระด\u{e34}\u{e48}งโรงแรม"),
+            keywords: &[
+                "กระด\u{e34}\u{e48}ง",
+                "กระด\u{e34}\u{e48}งโรงแรม",
+                "พน\u{e31}กงาน",
+                "โรงแรม",
+            ],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("çagyryş jaňy"),
+            keywords: &["jaň", "myhmanhana", "çagyryş jaňy"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("fafangu hotele"),
+            keywords: &["fafangu hotele"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("resepsiyon zili"),
+            keywords: &["otel", "resepsiyon zili", "zil", "çan"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("يۈكتاقچى قوڭغۇرىقى"),
+            keywords: &["قوڭغۇراق", "مېھمانخانا", "يۈكتاقچى", "يۈكتاقچى قوڭغۇرىقى"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("готельний дзвоник"),
+            keywords: &["готель", "готельний дзвоник", "дзвоник"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("بیل ہاپ بیل"),
+            keywords: &["بیل", "بیل ہاپ", "بیل ہاپ بیل", "ہوٹل"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("pochtachi qo‘ng‘irog‘i"),
+            keywords: &[
+                "mehmonxona",
+                "pochtachi",
+                "pochtachi qo‘ng‘irog‘i",
+                "qabulxona",
+                "qo‘ng‘iroqcha",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("chuông gọi phục vụ"),
+            keywords: &["chuông", "chuông gọi phục vụ", "khách sạn"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("joolooli bu ñuy bës"),
+            keywords: &["joolooli", "joolooli bu ñuy bës", "otel"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("intsimbi ye-bellhop"),
+            keywords: &["i-bellhop", "ihotele", "intsimbi", "intsimbi ye-bellhop"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("agogo alágbágbẹ\u{301}rùn ilé ìtura"),
+            keywords: &[
+                "agogo",
+                "agogo alágbágbẹ\u{301}rùn ilé ìtura",
+                "alágbágbẹ\u{301}rùn ilé ìtura",
+                "ilé ìtura",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("服務員鐘"),
+            keywords: &["服務員", "服務員鐘", "酒店", "鐘"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("服务员钟"),
+            keywords: &["服务员", "服务员钟", "酒店", "钟"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("服务铃"),
+            keywords: &["服务铃", "酒店", "铃"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("服務鈴"),
+            keywords: &["服務鈴"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("叮叮鐘"),
+            keywords: &["㩒鐘", "叮叮鐘", "按鈴", "按鐘", "撳鐘", "服務鈴"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("insimbi"),
+            keywords: &["ihhotela", "insimbi"],
+        },
+    ],
+};
 #[doc = "🧳"]
 pub const LUGGAGE: crate::Emoji = crate::Emoji {
     glyph: "🧳",

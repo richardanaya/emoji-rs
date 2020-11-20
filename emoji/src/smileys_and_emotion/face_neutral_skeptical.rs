@@ -1,5 +1,926 @@
 #[doc = "🤐"]
-pub const ZIPPER_MOUTH_FACE : crate :: Emoji = crate :: Emoji { glyph : "🤐" , codepoint : "1F910" , status : crate :: Status :: FullyQualified , introduction_version : 1f32 , name : "zipper-mouth face" , group : "Smileys & Emotion" , subgroup : "face-neutral-skeptical" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("gesig met ritssluitermond") , keywords : & ["gesig" , "gesig met ritssluitermond" , "mond" , "ritssluiter"] , } , crate :: Annotation { lang : "am" , tts : Some ("ባለዚፕ አፍ ፊት") , keywords : & ["ባለዚፕ አፍ ፊት" , "አፍ" , "ዚፕ" , "ፊት"] , } , crate :: Annotation { lang : "ar" , tts : Some ("وجه بفم مقفل") , keywords : & ["فم" , "قفل" , "وجه" , "وجه بفم مقفل"] , } , crate :: Annotation { lang : "as" , tts : Some ("ম\u{9c1}খ বন\u{9cd}ধ ৰখ\u{9be} চেহেৰ\u{9be}") , keywords : & ["বন\u{9cd}ধ ৰখ\u{9be}" , "ম\u{9c1}খ" , "ম\u{9c1}খ বন\u{9cd}ধ ৰখ\u{9be} চেহেৰ\u{9be}"] , } , crate :: Annotation { lang : "az" , tts : Some ("ağzı bağlanmış üz") , keywords : & ["ağzı bağlanmış üz" , "ağız" , "zəncirbənd" , "üz"] , } , crate :: Annotation { lang : "be" , tts : Some ("рот на замок") , keywords : & ["замок" , "маўчу" , "рот" , "рот на замок"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Лице с уста с цип") , keywords : & ["Лице с уста с цип" , "лице" , "уста" , "цип"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ম\u{9c1}খে ক\u{9c1}ল\u{9c1}প আ\u{981}ট\u{9be}") , keywords : & ["ঠো\u{981}ট" , "ম\u{9c1}খ" , "ম\u{9c1}খে ক\u{9c1}ল\u{9c1}প আ\u{981}ট\u{9be}"] , } , crate :: Annotation { lang : "bs" , tts : Some ("šuti ko zaliven") , keywords : & ["lice" , "usta" , "začepljena" , "šuti ko zaliven"] , } , crate :: Annotation { lang : "ca" , tts : Some ("cara amb cremallera a la boca") , keywords : & ["boca" , "boca tancada" , "cara" , "cara amb cremallera a la boca" , "cremallera"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎥᎧᏁᏍᏗ-ᎠᎰᎵᎤᎧᏓ ᎤᎧᏛ") , keywords : & ["ᎠᎧᏁᏍᏗ" , "ᎠᎰᎵ" , "ᎤᎧᏛ" , "ᎥᎧᏁᏍᏗ-ᎠᎰᎵᎤᎧᏓ ᎤᎧᏛ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("obličej s pusou na zip") , keywords : & ["obličej s pusou na zip" , "smajlík" , "tvář" , "výraz" , "zip" , "ústa"] , } , crate :: Annotation { lang : "cy" , tts : Some ("wyneb â sip dros y geg") , keywords : & ["caeedig" , "ceg" , "sip" , "wyneb" , "wyneb â sip dros y geg"] , } , crate :: Annotation { lang : "da" , tts : Some ("ansigt med lynlåsmund") , keywords : & ["ansigt" , "ansigt med lynlåsmund" , "lynlås" , "mund"] , } , crate :: Annotation { lang : "de" , tts : Some ("Gesicht mit Reißverschlussmund") , keywords : & ["Gesicht" , "Gesicht mit Reißverschlussmund" , "Mund" , "Reißverschluss"] , } , crate :: Annotation { lang : "de_CH" , tts : Some ("Smiley mit Reissverschlussmund") , keywords : & ["Gesicht" , "Mund" , "Reissverschluss" , "Smiley mit Reissverschlussmund"] , } , crate :: Annotation { lang : "el" , tts : Some ("ερμητικά κλειστό στόμα") , keywords : & ["ερμητικά κλειστό στόμα" , "πρόσωπο" , "στόμα" , "φερμουάρ"] , } , crate :: Annotation { lang : "en" , tts : Some ("zipper-mouth face") , keywords : & ["face" , "mouth" , "zipper" , "zipper-mouth face"] , } , crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["face" , "mouth" , "zip" , "zipper"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("cara con la boca cerrada con cremallera") , keywords : & ["boca" , "cara" , "cara con la boca cerrada con cremallera" , "cremallera"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("cara con la boca cerrada con cierre") , keywords : & ["boca" , "boca cerrada" , "cara" , "cara con la boca cerrada con cierre" , "cierre"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("cara con la boca cerrada con cierre") , keywords : & ["boca" , "cara" , "cara con la boca cerrada con cierre" , "zipper"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["boca" , "cara" , "cara con la boca cerrada con cierre" , "cara con la boca cerrada con cremallera" , "zipper"] , } , crate :: Annotation { lang : "et" , tts : Some ("tõmblukusuuga nägu") , keywords : & ["nägu" , "suu" , "tõmblukk" , "tõmblukusuuga nägu"] , } , crate :: Annotation { lang : "eu" , tts : Some ("kremaileradun ahoa duen aurpegia") , keywords : & ["aho" , "aurpegi" , "kremailera" , "kremaileradun ahoa duen aurpegia"] , } , crate :: Annotation { lang : "fa" , tts : Some ("دهان چفت") , keywords : & ["دهان" , "دهان چفت" , "زیپ" , "صورت" , "قابل اعتماد" , "قفل"] , } , crate :: Annotation { lang : "fi" , tts : Some ("vetoketjusuu") , keywords : & ["naama" , "suu" , "vetoketju" , "vetoketjusuu"] , } , crate :: Annotation { lang : "fil" , tts : Some ("naka-zipper ang bibig") , keywords : & ["bibig" , "hindi magsasalita" , "mukha" , "naka-zipper ang bibig" , "zipper"] , } , crate :: Annotation { lang : "fo" , tts : Some ("lýnlás andlit") , keywords : & ["andlit" , "lýnlás"] , } , crate :: Annotation { lang : "fr" , tts : Some ("visage avec bouche fermeture éclair") , keywords : & ["bouche" , "fermeture éclair" , "visage" , "visage avec bouche fermeture éclair"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["bouche" , "bouche cousue" , "fermeture à glissière" , "visage" , "visage avec bouche fermeture éclair"] , } , crate :: Annotation { lang : "ga" , tts : Some ("straoiseog le béal zipeáilte") , keywords : & ["aghaidh" , "béal" , "sip" , "straoiseog le béal zipeáilte"] , } , crate :: Annotation { lang : "gd" , tts : Some ("aodann le bilean seulaichte") , keywords : & ["aodann" , "aodann le bilean seulaichte" , "beul" , "bilean" , "seulaichte"] , } , crate :: Annotation { lang : "gl" , tts : Some ("cara coa boca pechada cunha cremalleira") , keywords : & ["boca" , "cara" , "cara coa boca pechada cunha cremalleira" , "cremalleira" , "silencio"] , } , crate :: Annotation { lang : "gu" , tts : Some ("મોઢા પર ઝિપ સાથ\u{ac7}નો ચહ\u{ac7}રો") , keywords : & ["ચહ\u{ac7}રો" , "ઝિપથી બ\u{a82}ધ કર\u{ac7}લો મોઢ\u{ac1}\u{a82}" , "મ\u{ac1}ખ" , "મોઢા પર ઝિપ સાથ\u{ac7}નો ચહ\u{ac7}રો"] , } , crate :: Annotation { lang : "ha" , tts : Some ("fuskar baki mai zif") , keywords : & ["baki" , "fuska" , "fuskar baki mai zif" , "zif"] , } , crate :: Annotation { lang : "he" , tts : Some ("פרצוף עם פה סגור ברוכסן") , keywords : & ["סגור" , "פה" , "פרצוף" , "פרצוף עם פה סגור ברוכסן" , "רוכסן" , "ריצ׳רץ׳"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ज\u{93c}िपर-म\u{941}\u{901}ह वाला च\u{947}हरा") , keywords : & ["च\u{947}हरा" , "ज\u{93c}िपर-म\u{941}\u{901}ह वाला च\u{947}हरा" , "म\u{941}\u{902}ह"] , } , crate :: Annotation { lang : "hr" , tts : Some ("lice s patentnim zatvaračem preko usta") , keywords : & ["lice" , "lice s patentnim zatvaračem preko usta" , "lice s ustima zatvorenim patentnim zatvaračem" , "patentni zatvarač" , "usta"] , } , crate :: Annotation { lang : "hu" , tts : Some ("arc összecipzározott szájjal") , keywords : & ["arc" , "arc összecipzározott szájjal" , "cipzár" , "száj"] , } , crate :: Annotation { lang : "hy" , tts : Some ("ճարմանդավոր բերանով դեմք") , keywords : & ["բերան" , "դեմք" , "ճարմանդ" , "ճարմանդավոր բերանով դեմք" , "շղթա"] , } , crate :: Annotation { lang : "id" , tts : Some ("wajah dengan mulut tertutup rapat") , keywords : & ["muka" , "mulut" , "rapat" , "tertutup" , "wajah" , "wajah dengan mulut tertutup rapat"] , } , crate :: Annotation { lang : "ig" , tts : Some ("ihu mgbachi ọnụ") , keywords : & ["ihu" , "mgbachi" , "ọnụ"] , } , crate :: Annotation { lang : "is" , tts : Some ("andlit með rennilás fyrir munninum") , keywords : & ["andlit" , "andlit með rennilás fyrir munninum" , "munnur" , "rennilás"] , } , crate :: Annotation { lang : "it" , tts : Some ("faccina con bocca con cerniera") , keywords : & ["bocca cucita" , "faccina con bocca con cerniera" , "no comment" , "non posso parlare" , "zitto"] , } , crate :: Annotation { lang : "ja" , tts : Some ("口チャック") , keywords : & ["チャック" , "口" , "口チャック" , "顔"] , } , crate :: Annotation { lang : "jv" , tts : Some ("rai sing leregan lambene ditutup") , keywords : & ["cangkem" , "leregan" , "rai" , "rai sing leregan lambene ditutup"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ელვა-შესაკრავიანი სახე") , keywords : & ["ელვა" , "ელვა-შესაკრავიანი სახე" , "პირი" , "სახე"] , } , crate :: Annotation { lang : "kab" , tts : Some ("udem d yimi ixaden") , keywords : & ["udem d yimi ixaden"] , } , crate :: Annotation { lang : "kk" , tts : Some ("сөйлемеу") , keywords : & ["ауыз" , "бет" , "сыдырма ілгек" , "сөйлемеу"] , } , crate :: Annotation { lang : "kl" , tts : Some ("ansigt med lynlåsmund") , keywords : & ["ansigt" , "ansigt med lynlåsmund" , "lynlås" , "mund"] , } , crate :: Annotation { lang : "km" , tts : Some ("ម\u{17bb}ខទាញខ\u{17d2}សែរ\u{17bc}តប\u{17b7}តមាត\u{17cb}") , keywords : & ["ក\u{17bb}\u{17c6}មាត\u{17cb}" , "ប\u{17b7}ទមាត\u{17cb}" , "មាត\u{17cb}" , "ម\u{17bb}ខទាញខ\u{17d2}សែរ\u{17bc}តប\u{17b7}តមាត\u{17cb}" , "រ\u{17bc}ត" , "ស\u{17d2}ងៀមស\u{17d2}ងាត\u{17cb}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಝ\u{cbf}ಪ\u{ccd}ಪರ\u{ccd} ಬಾಯ\u{cbf}ಯ ಮುಖ") , keywords : & ["ಝ\u{cbf}ಪ\u{ccd}ಪರ\u{ccd}" , "ಝ\u{cbf}ಪ\u{ccd}ಪರ\u{ccd} ಬಾಯ\u{cbf}ಯ ಮುಖ" , "ಬಾಯ\u{cbf}" , "ಮುಖ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("지퍼로 입을 잠근 얼굴") , keywords : & ["비밀" , "얼굴" , "입" , "지퍼" , "지퍼로 입을 잠근 얼굴"] , } , crate :: Annotation { lang : "kok" , tts : Some ("झिपर-तो\u{902}ड च\u{947}रो") , keywords : & ["च\u{947}रो" , "झिपर" , "झिपर-तो\u{902}ड च\u{947}रो" , "तो\u{902}ड"] , } , crate :: Annotation { lang : "ky" , tts : Some ("эч кимге ооз ачпайм деген бет") , keywords : & ["ачпа" , "бет" , "ооз" , "сыдырма" , "эч кимге ооз ачпайм деген бет"] , } , crate :: Annotation { lang : "lb" , tts : Some ("verschlossene Mond") , keywords : & ["Gesiicht" , "Mond" , "Tirett" , "verschlossene Mond"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ໜ\u{ec9}າຮ\u{eb9}ດຊ\u{eb4}ບປາກ") , keywords : & ["ປາກ" , "ຮ\u{eb9}ດຊ\u{eb4}ບ" , "ໜ\u{ec9}າ" , "ໜ\u{ec9}າຮ\u{eb9}ດຊ\u{eb4}ບປາກ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("veidas su užtrauktuku vietoje burnos") , keywords : & ["burna" , "užtrauktukas" , "veidas" , "veidas su užtrauktuku vietoje burnos"] , } , crate :: Annotation { lang : "lv" , tts : Some ("seja ar rāvējslēdzēju mutes vietā") , keywords : & ["ciet" , "mute" , "rāvējslēdzējs" , "seja" , "seja ar rāvējslēdzēju mutes vietā"] , } , crate :: Annotation { lang : "mi" , tts : Some ("kanohi waha-kōtui") , keywords : & ["kanohi" , "kanohi waha-kōtui" , "kōtui" , "waha"] , } , crate :: Annotation { lang : "mk" , tts : Some ("лице со закопчана уста") , keywords : & ["лице" , "лице со закопчана уста" , "патент" , "уста"] , } , crate :: Annotation { lang : "ml" , tts : Some ("സിപ\u{d4d}പ\u{d4d} പ\u{d42}ട\u{d4d}ടിട\u{d4d}ട മ\u{d41}ഖം") , keywords : & ["അടയ\u{d4d}\u{200c}ക\u{d4d}ക\u{d41}ക" , "മ\u{d41}ഖം" , "വ\u{d3e}യ" , "സിപ\u{d4d}പ\u{d4d} പ\u{d42}ട\u{d4d}ടിട\u{d4d}ട മ\u{d41}ഖം"] , } , crate :: Annotation { lang : "mn" , tts : Some ("амаа үдсэн царай") , keywords : & ["амаа үдсэн" , "амаа үдсэн царай" , "царай"] , } , crate :: Annotation { lang : "mr" , tts : Some ("तो\u{902}डाला झिप लावल\u{947}ला च\u{947}हरा") , keywords : & ["च\u{947}हरा" , "झिप लावल\u{947}ला" , "तो\u{902}ड" , "तो\u{902}डाला झिप लावल\u{947}ला च\u{947}हरा"] , } , crate :: Annotation { lang : "ms" , tts : Some ("muka mulut berzip") , keywords : & ["muka" , "muka mulut berzip" , "mulut" , "zip"] , } , crate :: Annotation { lang : "mt" , tts : Some ("wiċċ b’ħalq b’żipp") , keywords : & ["wiċċ" , "wiċċ b’ħalq b’żipp" , "ħalq" , "żipp"] , } , crate :: Annotation { lang : "my" , tts : Some ("စကားမပြောဘ\u{1032} ပါးစပ\u{103a}ပ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} မျက\u{103a}န\u{103e}ာ") , keywords : & ["စကားမပြောဘ\u{1032} ပါးစပ\u{103a}ပ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} မျက\u{103a}န\u{103e}ာ" , "ပါးစပ\u{103a}" , "ပါးစပ\u{103a}ပ\u{102d}တ\u{103a}" , "မျက\u{103a}န\u{103e}ာ"] , } , crate :: Annotation { lang : "nb" , tts : Some ("fjes med glidelåsmunn") , keywords : & ["fjes" , "fjes med glidelåsmunn" , "glidelås" , "munn"] , } , crate :: Annotation { lang : "ne" , tts : Some ("म\u{941}ख टालिएको अन\u{941}हार") , keywords : & ["अन\u{941}हार" , "जिपर" , "म\u{941}ख" , "म\u{941}ख टालिएको अन\u{941}हार"] , } , crate :: Annotation { lang : "nl" , tts : Some ("gezicht met een rits als mond") , keywords : & ["gezicht" , "gezicht met een rits als mond" , "mond" , "rits"] , } , crate :: Annotation { lang : "nn" , tts : Some ("fjes med glidelåsmunn") , keywords : & ["fjes" , "fjes med glidelåsmunn" , "glidelås" , "munn"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଜ\u{b3f}ପ\u{b4d}\u{200c} ଲଗ\u{b3e} ପ\u{b3e}ଟ\u{b3f} ମ\u{b41}ହ\u{b01}") , keywords : & ["ଜ\u{b3f}ପର\u{b4d}\u{200c}" , "ଜ\u{b3f}ପ\u{b4d}\u{200c} ଲଗ\u{b3e} ପ\u{b3e}ଟ\u{b3f} ମ\u{b41}ହ\u{b01}" , "ପ\u{b3e}ଟ\u{b3f}" , "ମ\u{b41}ହ\u{b01}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਮ\u{a42}\u{a70}ਹ ਬ\u{a70}ਦ ਚਿਹਰਾ, ਮ\u{a42}\u{a70}ਹ ਬ\u{a70}ਦ ਰ\u{a71}ਖਣਾ") , keywords : & ["ਗ\u{a41}ਪਤ ਰ\u{a71}ਖਣਾ" , "ਗ\u{a71}ਲ ਲ\u{a41}ਕਾਉਣਾ" , "ਚਿਹਰਾ" , "ਜ\u{a3c}ਿ\u{a71}ਪਰ" , "ਭ\u{a47}ਦ ਰ\u{a71}ਖਣਾ" , "ਮ\u{a42}\u{a70}ਹ" , "ਮ\u{a42}\u{a70}ਹ ਬ\u{a70}ਦ ਚਿਹਰਾ, ਮ\u{a42}\u{a70}ਹ ਬ\u{a70}ਦ ਰ\u{a71}ਖਣਾ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("زپرـمنہ آلی شکل") , keywords : & ["دی شکل" , "زپر" , "زپرـمنہ آلی شکل" , "منہ"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Zíp-Maut Fes") , keywords : & ["Fes" , "Maut" , "Zip" , "Zíp-Maut Fes"] , } , crate :: Annotation { lang : "pl" , tts : Some ("twarz z zamkiem błyskawicznym na ustach") , keywords : & ["buzia na kłódkę" , "nic nie powiem" , "twarz z zamkiem błyskawicznym na ustach"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د ځنځير د خولې مخ") , keywords : & ["خوله" , "د ځنځير د خولې مخ" , "مخ" , "ځنځير"] , } , crate :: Annotation { lang : "pt" , tts : Some ("rosto com boca de zíper") , keywords : & ["rosto" , "rosto com boca de zíper" , "zíper"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("cara com boca com fecho de correr") , keywords : & ["boca" , "cara" , "cara com boca com fecho de correr" , "fecho de correr"] , } , crate :: Annotation { lang : "qu" , tts : Some ("uya ziper simipi") , keywords : & ["simi" , "uya" , "uya ziper simipi" , "ziper"] , } , crate :: Annotation { lang : "ro" , tts : Some ("față cu fermoar la buze") , keywords : & ["buze" , "față" , "față cu fermoar la buze" , "fermoar" , "tăcere"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-1010") , keywords : & ["E10-1010"] , } , crate :: Annotation { lang : "ru" , tts : Some ("рот на замке") , keywords : & ["закрытый" , "лицо" , "молчание" , "рот" , "рот на замке" , "секрет"] , } , crate :: Annotation { lang : "rw" , tts : Some ("isura-igaragaza lisani ku munwa") , keywords : & ["igaragaza" , "isura" , "isura-igaragaza lisani ku munwa" , "lisani ku munwa"] , } , crate :: Annotation { lang : "sd" , tts : Some ("زپ ٿيل وات وارو چهرو") , keywords : & ["زپ ٿيل وات وارو چهرو" , "زپر" , "وات" , "چهرو"] , } , crate :: Annotation { lang : "si" , tts : Some ("කටට ස\u{dd2}ප\u{dca} එකක\u{dca} දැම\u{dd6} ම\u{dd4}හ\u{dd4}ණ") , keywords : & ["කට" , "කටට ස\u{dd2}ප\u{dca} එකක\u{dca} දැම\u{dd6} ම\u{dd4}හ\u{dd4}ණ" , "ම\u{dd4}හ\u{dd4}ණ" , "ස\u{dd2}ප\u{dca}"] , } , crate :: Annotation { lang : "sk" , tts : Some ("tvár so zazipsovanými ústami") , keywords : & ["mlčať" , "tvár" , "tvár so zazipsovanými ústami" , "ústa"] , } , crate :: Annotation { lang : "sl" , tts : Some ("obraz z usti v obliki zadrge") , keywords : & ["obraz" , "obraz z usti v obliki zadrge" , "usta" , "zadrga" , "zapečateno" , "zaprto"] , } , crate :: Annotation { lang : "so" , tts : Some ("waji af xiran") , keywords : & ["afka" , "jiinyeer" , "waji" , "waji af xiran" , "waji-af xiran"] , } , crate :: Annotation { lang : "sq" , tts : Some ("fytyrë me gojën e kyçur") , keywords : & ["fytyrë" , "fytyrë me gojën e kyçur" , "gojë" , "kyç" , "zinxhir"] , } , crate :: Annotation { lang : "sr" , tts : Some ("лице са запечаћеним устима") , keywords : & ["запечаћено" , "лице" , "лице са запечаћеним устима" , "рајсфершлус" , "уста"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["лице са запечаћеним устима"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("lice sa zapečaćenim ustima") , keywords : & ["lice" , "lice sa zapečaćenim ustima" , "rajsferšlus" , "usta" , "zapečaćeno"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["lice sa zapečaćenim ustima"] , } , crate :: Annotation { lang : "sv" , tts : Some ("ansikte som tiger") , keywords : & ["ansikte" , "ansikte som tiger" , "dragkedja" , "hemlighet"] , } , crate :: Annotation { lang : "sw" , tts : Some ("uso uliofungwa mdomo kwa zipu") , keywords : & ["mdomo" , "uso" , "uso uliofungwa mdomo kwa zipu" , "zipu"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("வ\u{bbe}ய\u{bcd} மூடப\u{bcd}பட\u{bcd}டுள\u{bcd}ள முகம\u{bcd}") , keywords : & ["மூடிய வ\u{bbe}ய\u{bcd}" , "வ\u{bbe}யை மூடு" , "வ\u{bbe}ய\u{bcd} மூடப\u{bcd}பட\u{bcd}டுள\u{bcd}ள முகம\u{bcd}" , "வ\u{bbe}ய\u{bcd} மூடிய முகம\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("న\u{c4b}రు కట\u{c4d}ట\u{c3f} వ\u{c47}స\u{c3f}న ముఖం") , keywords : & ["న\u{c4b}రు" , "న\u{c4b}రు కట\u{c4d}ట\u{c3f} వ\u{c47}స\u{c3f}న ముఖం" , "ముఖం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("рӯи дорои даҳони заҷиракдор") , keywords : & ["даҳон" , "занҷирак" , "рӯи дорои даҳони заҷиракдор" , "рӯй"] , } , crate :: Annotation { lang : "th" , tts : Some ("ร\u{e39}ดซ\u{e34}ปปาก") , keywords : & ["ร\u{e39}ดซ\u{e34}ป" , "ร\u{e39}ดซ\u{e34}ปปาก" , "หน\u{e49}า"] , } , crate :: Annotation { lang : "tk" , tts : Some ("syrma agyzly ýüz") , keywords : & ["agyz" , "syrma" , "syrma agyzly ýüz" , "ýüz"] , } , crate :: Annotation { lang : "to" , tts : Some ("mata moe ngutu meʻa-fakamaʻu-fusi") , keywords : & ["mata moe ngutu meʻa-fakamaʻu-fusi"] , } , crate :: Annotation { lang : "tr" , tts : Some ("ağzı fermuarlı yüz") , keywords : & ["ağzı fermuarlı yüz" , "ağız" , "fermuar" , "yüz"] , } , crate :: Annotation { lang : "ug" , tts : Some ("سىيرىتما چىراي") , keywords : & ["ئېغىز" , "سىيرتما" , "سىيرىتما چىراي" , "چىراي"] , } , crate :: Annotation { lang : "uk" , tts : Some ("обличчя із застібкою замість рота") , keywords : & ["блискавка" , "обличчя" , "обличчя з застібкою замість рота" , "обличчя із застібкою замість рота" , "рот"] , } , crate :: Annotation { lang : "ur" , tts : Some ("منہ سیے ہوئے چہرہ") , keywords : & ["سلا ہوا" , "منہ" , "منہ سیے ہوئے چہرہ" , "چہرہ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("og‘zi qulflangan yuz") , keywords : & ["og‘iz" , "og‘zi qulflangan yuz" , "qulf" , "yuz"] , } , crate :: Annotation { lang : "vi" , tts : Some ("mặt có miệng bị kéo khóa") , keywords : & ["khóa kéo" , "miệng" , "mặt" , "mặt có miệng bị kéo khóa"] , } , crate :: Annotation { lang : "wo" , tts : Some ("kanam ak gémiñ guñ fermitiir") , keywords : & ["fermitiir" , "gémmiñ" , "kanam" , "kanam ak gémiñ guñ fermitiir"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ubuso obuvalwe umlomo ngoziphu") , keywords : & ["ubuso" , "ubuso obuvalwe umlomo ngoziphu" , "umlomo" , "uziphu"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Oju Ẹni Ti A Tipa") , keywords : & ["Oju Ẹni Ti A Tipa" , "ojú" , "tìpa" , "ẹnu"] , } , crate :: Annotation { lang : "yue" , tts : Some ("拉鍊嘴嘅臉") , keywords : & ["嘴" , "拉鍊" , "拉鍊嘴嘅臉" , "臉"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("拉链嘴嘅脸") , keywords : & ["嘴" , "拉链" , "拉链嘴嘅脸" , "脸"] , } , crate :: Annotation { lang : "zh" , tts : Some ("闭嘴") , keywords : & ["嘴" , "脸" , "闭嘴"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("閉嘴") , keywords : & ["嘴上拉鍊" , "閉嘴"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("拉鍊嘴嘅表情") , keywords : & ["拉鍊嘴嘅表情" , "閉口不答"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ubuso obunoziphu") , keywords : & ["ubuso" , "ubuso obunoziphu" , "umlomo" , "uziphu"] , }] , } ;
+pub const ZIPPER_MOUTH_FACE: crate::Emoji = crate::Emoji {
+    glyph: "🤐",
+    codepoint: "1F910",
+    status: crate::Status::FullyQualified,
+    introduction_version: 1f32,
+    name: "zipper-mouth face",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("gesig met ritssluitermond"),
+            keywords: &["gesig", "gesig met ritssluitermond", "mond", "ritssluiter"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ባለዚፕ አፍ ፊት"),
+            keywords: &["ባለዚፕ አፍ ፊት", "አፍ", "ዚፕ", "ፊት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("وجه بفم مقفل"),
+            keywords: &["فم", "قفل", "وجه", "وجه بفم مقفل"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("ম\u{9c1}খ বন\u{9cd}ধ ৰখ\u{9be} চেহেৰ\u{9be}"),
+            keywords: &[
+                "বন\u{9cd}ধ ৰখ\u{9be}",
+                "ম\u{9c1}খ",
+                "ম\u{9c1}খ বন\u{9cd}ধ ৰখ\u{9be} চেহেৰ\u{9be}",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("ağzı bağlanmış üz"),
+            keywords: &["ağzı bağlanmış üz", "ağız", "zəncirbənd", "üz"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("рот на замок"),
+            keywords: &["замок", "маўчу", "рот", "рот на замок"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Лице с уста с цип"),
+            keywords: &["Лице с уста с цип", "лице", "уста", "цип"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ম\u{9c1}খে ক\u{9c1}ল\u{9c1}প আ\u{981}ট\u{9be}"),
+            keywords: &[
+                "ঠো\u{981}ট",
+                "ম\u{9c1}খ",
+                "ম\u{9c1}খে ক\u{9c1}ল\u{9c1}প আ\u{981}ট\u{9be}",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("šuti ko zaliven"),
+            keywords: &["lice", "usta", "začepljena", "šuti ko zaliven"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("cara amb cremallera a la boca"),
+            keywords: &[
+                "boca",
+                "boca tancada",
+                "cara",
+                "cara amb cremallera a la boca",
+                "cremallera",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎥᎧᏁᏍᏗ-ᎠᎰᎵᎤᎧᏓ ᎤᎧᏛ"),
+            keywords: &["ᎠᎧᏁᏍᏗ", "ᎠᎰᎵ", "ᎤᎧᏛ", "ᎥᎧᏁᏍᏗ-ᎠᎰᎵᎤᎧᏓ ᎤᎧᏛ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("obličej s pusou na zip"),
+            keywords: &[
+                "obličej s pusou na zip",
+                "smajlík",
+                "tvář",
+                "výraz",
+                "zip",
+                "ústa",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("wyneb â sip dros y geg"),
+            keywords: &["caeedig", "ceg", "sip", "wyneb", "wyneb â sip dros y geg"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("ansigt med lynlåsmund"),
+            keywords: &["ansigt", "ansigt med lynlåsmund", "lynlås", "mund"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Gesicht mit Reißverschlussmund"),
+            keywords: &[
+                "Gesicht",
+                "Gesicht mit Reißverschlussmund",
+                "Mund",
+                "Reißverschluss",
+            ],
+        },
+        crate::Annotation {
+            lang: "de_CH",
+            tts: Some("Smiley mit Reissverschlussmund"),
+            keywords: &[
+                "Gesicht",
+                "Mund",
+                "Reissverschluss",
+                "Smiley mit Reissverschlussmund",
+            ],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("ερμητικά κλειστό στόμα"),
+            keywords: &["ερμητικά κλειστό στόμα", "πρόσωπο", "στόμα", "φερμουάρ"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("zipper-mouth face"),
+            keywords: &["face", "mouth", "zipper", "zipper-mouth face"],
+        },
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["face", "mouth", "zip", "zipper"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("cara con la boca cerrada con cremallera"),
+            keywords: &[
+                "boca",
+                "cara",
+                "cara con la boca cerrada con cremallera",
+                "cremallera",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("cara con la boca cerrada con cierre"),
+            keywords: &[
+                "boca",
+                "boca cerrada",
+                "cara",
+                "cara con la boca cerrada con cierre",
+                "cierre",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("cara con la boca cerrada con cierre"),
+            keywords: &[
+                "boca",
+                "cara",
+                "cara con la boca cerrada con cierre",
+                "zipper",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "boca",
+                "cara",
+                "cara con la boca cerrada con cierre",
+                "cara con la boca cerrada con cremallera",
+                "zipper",
+            ],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("tõmblukusuuga nägu"),
+            keywords: &["nägu", "suu", "tõmblukk", "tõmblukusuuga nägu"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("kremaileradun ahoa duen aurpegia"),
+            keywords: &[
+                "aho",
+                "aurpegi",
+                "kremailera",
+                "kremaileradun ahoa duen aurpegia",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("دهان چفت"),
+            keywords: &["دهان", "دهان چفت", "زیپ", "صورت", "قابل اعتماد", "قفل"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vetoketjusuu"),
+            keywords: &["naama", "suu", "vetoketju", "vetoketjusuu"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("naka-zipper ang bibig"),
+            keywords: &[
+                "bibig",
+                "hindi magsasalita",
+                "mukha",
+                "naka-zipper ang bibig",
+                "zipper",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("lýnlás andlit"),
+            keywords: &["andlit", "lýnlás"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("visage avec bouche fermeture éclair"),
+            keywords: &[
+                "bouche",
+                "fermeture éclair",
+                "visage",
+                "visage avec bouche fermeture éclair",
+            ],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "bouche",
+                "bouche cousue",
+                "fermeture à glissière",
+                "visage",
+                "visage avec bouche fermeture éclair",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("straoiseog le béal zipeáilte"),
+            keywords: &["aghaidh", "béal", "sip", "straoiseog le béal zipeáilte"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("aodann le bilean seulaichte"),
+            keywords: &[
+                "aodann",
+                "aodann le bilean seulaichte",
+                "beul",
+                "bilean",
+                "seulaichte",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("cara coa boca pechada cunha cremalleira"),
+            keywords: &[
+                "boca",
+                "cara",
+                "cara coa boca pechada cunha cremalleira",
+                "cremalleira",
+                "silencio",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("મોઢા પર ઝિપ સાથ\u{ac7}નો ચહ\u{ac7}રો"),
+            keywords: &[
+                "ચહ\u{ac7}રો",
+                "ઝિપથી બ\u{a82}ધ કર\u{ac7}લો મોઢ\u{ac1}\u{a82}",
+                "મ\u{ac1}ખ",
+                "મોઢા પર ઝિપ સાથ\u{ac7}નો ચહ\u{ac7}રો",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("fuskar baki mai zif"),
+            keywords: &["baki", "fuska", "fuskar baki mai zif", "zif"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("פרצוף עם פה סגור ברוכסן"),
+            keywords: &[
+                "סגור",
+                "פה",
+                "פרצוף",
+                "פרצוף עם פה סגור ברוכסן",
+                "רוכסן",
+                "ריצ׳רץ׳",
+            ],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ज\u{93c}िपर-म\u{941}\u{901}ह वाला च\u{947}हरा"),
+            keywords: &[
+                "च\u{947}हरा",
+                "ज\u{93c}िपर-म\u{941}\u{901}ह वाला च\u{947}हरा",
+                "म\u{941}\u{902}ह",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("lice s patentnim zatvaračem preko usta"),
+            keywords: &[
+                "lice",
+                "lice s patentnim zatvaračem preko usta",
+                "lice s ustima zatvorenim patentnim zatvaračem",
+                "patentni zatvarač",
+                "usta",
+            ],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("arc összecipzározott szájjal"),
+            keywords: &["arc", "arc összecipzározott szájjal", "cipzár", "száj"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("ճարմանդավոր բերանով դեմք"),
+            keywords: &[
+                "բերան",
+                "դեմք",
+                "ճարմանդ",
+                "ճարմանդավոր բերանով դեմք",
+                "շղթա",
+            ],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("wajah dengan mulut tertutup rapat"),
+            keywords: &[
+                "muka",
+                "mulut",
+                "rapat",
+                "tertutup",
+                "wajah",
+                "wajah dengan mulut tertutup rapat",
+            ],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ihu mgbachi ọnụ"),
+            keywords: &["ihu", "mgbachi", "ọnụ"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("andlit með rennilás fyrir munninum"),
+            keywords: &[
+                "andlit",
+                "andlit með rennilás fyrir munninum",
+                "munnur",
+                "rennilás",
+            ],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("faccina con bocca con cerniera"),
+            keywords: &[
+                "bocca cucita",
+                "faccina con bocca con cerniera",
+                "no comment",
+                "non posso parlare",
+                "zitto",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("口チャック"),
+            keywords: &["チャック", "口", "口チャック", "顔"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("rai sing leregan lambene ditutup"),
+            keywords: &[
+                "cangkem",
+                "leregan",
+                "rai",
+                "rai sing leregan lambene ditutup",
+            ],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ელვა-შესაკრავიანი სახე"),
+            keywords: &["ელვა", "ელვა-შესაკრავიანი სახე", "პირი", "სახე"],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("udem d yimi ixaden"),
+            keywords: &["udem d yimi ixaden"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("сөйлемеу"),
+            keywords: &["ауыз", "бет", "сыдырма ілгек", "сөйлемеу"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("ansigt med lynlåsmund"),
+            keywords: &["ansigt", "ansigt med lynlåsmund", "lynlås", "mund"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ម\u{17bb}ខទាញខ\u{17d2}សែរ\u{17bc}តប\u{17b7}តមាត\u{17cb}"),
+            keywords: &[
+                "ក\u{17bb}\u{17c6}មាត\u{17cb}",
+                "ប\u{17b7}ទមាត\u{17cb}",
+                "មាត\u{17cb}",
+                "ម\u{17bb}ខទាញខ\u{17d2}សែរ\u{17bc}តប\u{17b7}តមាត\u{17cb}",
+                "រ\u{17bc}ត",
+                "ស\u{17d2}ងៀមស\u{17d2}ងាត\u{17cb}",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಝ\u{cbf}ಪ\u{ccd}ಪರ\u{ccd} ಬಾಯ\u{cbf}ಯ ಮುಖ"),
+            keywords: &[
+                "ಝ\u{cbf}ಪ\u{ccd}ಪರ\u{ccd}",
+                "ಝ\u{cbf}ಪ\u{ccd}ಪರ\u{ccd} ಬಾಯ\u{cbf}ಯ ಮುಖ",
+                "ಬಾಯ\u{cbf}",
+                "ಮುಖ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("지퍼로 입을 잠근 얼굴"),
+            keywords: &["비밀", "얼굴", "입", "지퍼", "지퍼로 입을 잠근 얼굴"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("झिपर-तो\u{902}ड च\u{947}रो"),
+            keywords: &[
+                "च\u{947}रो",
+                "झिपर",
+                "झिपर-तो\u{902}ड च\u{947}रो",
+                "तो\u{902}ड",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("эч кимге ооз ачпайм деген бет"),
+            keywords: &[
+                "ачпа",
+                "бет",
+                "ооз",
+                "сыдырма",
+                "эч кимге ооз ачпайм деген бет",
+            ],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("verschlossene Mond"),
+            keywords: &["Gesiicht", "Mond", "Tirett", "verschlossene Mond"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ໜ\u{ec9}າຮ\u{eb9}ດຊ\u{eb4}ບປາກ"),
+            keywords: &[
+                "ປາກ",
+                "ຮ\u{eb9}ດຊ\u{eb4}ບ",
+                "ໜ\u{ec9}າ",
+                "ໜ\u{ec9}າຮ\u{eb9}ດຊ\u{eb4}ບປາກ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("veidas su užtrauktuku vietoje burnos"),
+            keywords: &[
+                "burna",
+                "užtrauktukas",
+                "veidas",
+                "veidas su užtrauktuku vietoje burnos",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("seja ar rāvējslēdzēju mutes vietā"),
+            keywords: &[
+                "ciet",
+                "mute",
+                "rāvējslēdzējs",
+                "seja",
+                "seja ar rāvējslēdzēju mutes vietā",
+            ],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("kanohi waha-kōtui"),
+            keywords: &["kanohi", "kanohi waha-kōtui", "kōtui", "waha"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("лице со закопчана уста"),
+            keywords: &["лице", "лице со закопчана уста", "патент", "уста"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("സിപ\u{d4d}പ\u{d4d} പ\u{d42}ട\u{d4d}ടിട\u{d4d}ട മ\u{d41}ഖം"),
+            keywords: &[
+                "അടയ\u{d4d}\u{200c}ക\u{d4d}ക\u{d41}ക",
+                "മ\u{d41}ഖം",
+                "വ\u{d3e}യ",
+                "സിപ\u{d4d}പ\u{d4d} പ\u{d42}ട\u{d4d}ടിട\u{d4d}ട മ\u{d41}ഖം",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("амаа үдсэн царай"),
+            keywords: &["амаа үдсэн", "амаа үдсэн царай", "царай"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("तो\u{902}डाला झिप लावल\u{947}ला च\u{947}हरा"),
+            keywords: &[
+                "च\u{947}हरा",
+                "झिप लावल\u{947}ला",
+                "तो\u{902}ड",
+                "तो\u{902}डाला झिप लावल\u{947}ला च\u{947}हरा",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("muka mulut berzip"),
+            keywords: &["muka", "muka mulut berzip", "mulut", "zip"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("wiċċ b’ħalq b’żipp"),
+            keywords: &["wiċċ", "wiċċ b’ħalq b’żipp", "ħalq", "żipp"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "စကားမပြောဘ\u{1032} ပါးစပ\u{103a}ပ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} မျက\u{103a}န\u{103e}ာ",
+            ),
+            keywords: &[
+                "စကားမပြောဘ\u{1032} ပါးစပ\u{103a}ပ\u{102d}တ\u{103a}ထားသည\u{1037}\u{103a} မျက\u{103a}န\u{103e}ာ",
+                "ပါးစပ\u{103a}",
+                "ပါးစပ\u{103a}ပ\u{102d}တ\u{103a}",
+                "မျက\u{103a}န\u{103e}ာ",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("fjes med glidelåsmunn"),
+            keywords: &["fjes", "fjes med glidelåsmunn", "glidelås", "munn"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("म\u{941}ख टालिएको अन\u{941}हार"),
+            keywords: &[
+                "अन\u{941}हार",
+                "जिपर",
+                "म\u{941}ख",
+                "म\u{941}ख टालिएको अन\u{941}हार",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("gezicht met een rits als mond"),
+            keywords: &["gezicht", "gezicht met een rits als mond", "mond", "rits"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("fjes med glidelåsmunn"),
+            keywords: &["fjes", "fjes med glidelåsmunn", "glidelås", "munn"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଜ\u{b3f}ପ\u{b4d}\u{200c} ଲଗ\u{b3e} ପ\u{b3e}ଟ\u{b3f} ମ\u{b41}ହ\u{b01}"),
+            keywords: &[
+                "ଜ\u{b3f}ପର\u{b4d}\u{200c}",
+                "ଜ\u{b3f}ପ\u{b4d}\u{200c} ଲଗ\u{b3e} ପ\u{b3e}ଟ\u{b3f} ମ\u{b41}ହ\u{b01}",
+                "ପ\u{b3e}ଟ\u{b3f}",
+                "ମ\u{b41}ହ\u{b01}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਮ\u{a42}\u{a70}ਹ ਬ\u{a70}ਦ ਚਿਹਰਾ, ਮ\u{a42}\u{a70}ਹ ਬ\u{a70}ਦ ਰ\u{a71}ਖਣਾ"),
+            keywords: &[
+                "ਗ\u{a41}ਪਤ ਰ\u{a71}ਖਣਾ",
+                "ਗ\u{a71}ਲ ਲ\u{a41}ਕਾਉਣਾ",
+                "ਚਿਹਰਾ",
+                "ਜ\u{a3c}ਿ\u{a71}ਪਰ",
+                "ਭ\u{a47}ਦ ਰ\u{a71}ਖਣਾ",
+                "ਮ\u{a42}\u{a70}ਹ",
+                "ਮ\u{a42}\u{a70}ਹ ਬ\u{a70}ਦ ਚਿਹਰਾ, ਮ\u{a42}\u{a70}ਹ ਬ\u{a70}ਦ ਰ\u{a71}ਖਣਾ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("زپرـمنہ آلی شکل"),
+            keywords: &["دی شکل", "زپر", "زپرـمنہ آلی شکل", "منہ"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Zíp-Maut Fes"),
+            keywords: &["Fes", "Maut", "Zip", "Zíp-Maut Fes"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("twarz z zamkiem błyskawicznym na ustach"),
+            keywords: &[
+                "buzia na kłódkę",
+                "nic nie powiem",
+                "twarz z zamkiem błyskawicznym na ustach",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د ځنځير د خولې مخ"),
+            keywords: &["خوله", "د ځنځير د خولې مخ", "مخ", "ځنځير"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("rosto com boca de zíper"),
+            keywords: &["rosto", "rosto com boca de zíper", "zíper"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("cara com boca com fecho de correr"),
+            keywords: &[
+                "boca",
+                "cara",
+                "cara com boca com fecho de correr",
+                "fecho de correr",
+            ],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("uya ziper simipi"),
+            keywords: &["simi", "uya", "uya ziper simipi", "ziper"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("față cu fermoar la buze"),
+            keywords: &[
+                "buze",
+                "față",
+                "față cu fermoar la buze",
+                "fermoar",
+                "tăcere",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-1010"),
+            keywords: &["E10-1010"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("рот на замке"),
+            keywords: &[
+                "закрытый",
+                "лицо",
+                "молчание",
+                "рот",
+                "рот на замке",
+                "секрет",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("isura-igaragaza lisani ku munwa"),
+            keywords: &[
+                "igaragaza",
+                "isura",
+                "isura-igaragaza lisani ku munwa",
+                "lisani ku munwa",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("زپ ٿيل وات وارو چهرو"),
+            keywords: &["زپ ٿيل وات وارو چهرو", "زپر", "وات", "چهرو"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("කටට ස\u{dd2}ප\u{dca} එකක\u{dca} දැම\u{dd6} ම\u{dd4}හ\u{dd4}ණ"),
+            keywords: &[
+                "කට",
+                "කටට ස\u{dd2}ප\u{dca} එකක\u{dca} දැම\u{dd6} ම\u{dd4}හ\u{dd4}ණ",
+                "ම\u{dd4}හ\u{dd4}ණ",
+                "ස\u{dd2}ප\u{dca}",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("tvár so zazipsovanými ústami"),
+            keywords: &["mlčať", "tvár", "tvár so zazipsovanými ústami", "ústa"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("obraz z usti v obliki zadrge"),
+            keywords: &[
+                "obraz",
+                "obraz z usti v obliki zadrge",
+                "usta",
+                "zadrga",
+                "zapečateno",
+                "zaprto",
+            ],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("waji af xiran"),
+            keywords: &["afka", "jiinyeer", "waji", "waji af xiran", "waji-af xiran"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("fytyrë me gojën e kyçur"),
+            keywords: &[
+                "fytyrë",
+                "fytyrë me gojën e kyçur",
+                "gojë",
+                "kyç",
+                "zinxhir",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("лице са запечаћеним устима"),
+            keywords: &[
+                "запечаћено",
+                "лице",
+                "лице са запечаћеним устима",
+                "рајсфершлус",
+                "уста",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["лице са запечаћеним устима"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("lice sa zapečaćenim ustima"),
+            keywords: &[
+                "lice",
+                "lice sa zapečaćenim ustima",
+                "rajsferšlus",
+                "usta",
+                "zapečaćeno",
+            ],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["lice sa zapečaćenim ustima"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("ansikte som tiger"),
+            keywords: &["ansikte", "ansikte som tiger", "dragkedja", "hemlighet"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("uso uliofungwa mdomo kwa zipu"),
+            keywords: &["mdomo", "uso", "uso uliofungwa mdomo kwa zipu", "zipu"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("வ\u{bbe}ய\u{bcd} மூடப\u{bcd}பட\u{bcd}டுள\u{bcd}ள முகம\u{bcd}"),
+            keywords: &[
+                "மூடிய வ\u{bbe}ய\u{bcd}",
+                "வ\u{bbe}யை மூடு",
+                "வ\u{bbe}ய\u{bcd} மூடப\u{bcd}பட\u{bcd}டுள\u{bcd}ள முகம\u{bcd}",
+                "வ\u{bbe}ய\u{bcd} மூடிய முகம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("న\u{c4b}రు కట\u{c4d}ట\u{c3f} వ\u{c47}స\u{c3f}న ముఖం"),
+            keywords: &[
+                "న\u{c4b}రు",
+                "న\u{c4b}రు కట\u{c4d}ట\u{c3f} వ\u{c47}స\u{c3f}న ముఖం",
+                "ముఖం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("рӯи дорои даҳони заҷиракдор"),
+            keywords: &["даҳон", "занҷирак", "рӯи дорои даҳони заҷиракдор", "рӯй"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ร\u{e39}ดซ\u{e34}ปปาก"),
+            keywords: &["ร\u{e39}ดซ\u{e34}ป", "ร\u{e39}ดซ\u{e34}ปปาก", "หน\u{e49}า"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("syrma agyzly ýüz"),
+            keywords: &["agyz", "syrma", "syrma agyzly ýüz", "ýüz"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("mata moe ngutu meʻa-fakamaʻu-fusi"),
+            keywords: &["mata moe ngutu meʻa-fakamaʻu-fusi"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("ağzı fermuarlı yüz"),
+            keywords: &["ağzı fermuarlı yüz", "ağız", "fermuar", "yüz"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("سىيرىتما چىراي"),
+            keywords: &["ئېغىز", "سىيرتما", "سىيرىتما چىراي", "چىراي"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("обличчя із застібкою замість рота"),
+            keywords: &[
+                "блискавка",
+                "обличчя",
+                "обличчя з застібкою замість рота",
+                "обличчя із застібкою замість рота",
+                "рот",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("منہ سیے ہوئے چہرہ"),
+            keywords: &["سلا ہوا", "منہ", "منہ سیے ہوئے چہرہ", "چہرہ"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("og‘zi qulflangan yuz"),
+            keywords: &["og‘iz", "og‘zi qulflangan yuz", "qulf", "yuz"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("mặt có miệng bị kéo khóa"),
+            keywords: &["khóa kéo", "miệng", "mặt", "mặt có miệng bị kéo khóa"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("kanam ak gémiñ guñ fermitiir"),
+            keywords: &[
+                "fermitiir",
+                "gémmiñ",
+                "kanam",
+                "kanam ak gémiñ guñ fermitiir",
+            ],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ubuso obuvalwe umlomo ngoziphu"),
+            keywords: &[
+                "ubuso",
+                "ubuso obuvalwe umlomo ngoziphu",
+                "umlomo",
+                "uziphu",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Oju Ẹni Ti A Tipa"),
+            keywords: &["Oju Ẹni Ti A Tipa", "ojú", "tìpa", "ẹnu"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("拉鍊嘴嘅臉"),
+            keywords: &["嘴", "拉鍊", "拉鍊嘴嘅臉", "臉"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("拉链嘴嘅脸"),
+            keywords: &["嘴", "拉链", "拉链嘴嘅脸", "脸"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("闭嘴"),
+            keywords: &["嘴", "脸", "闭嘴"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("閉嘴"),
+            keywords: &["嘴上拉鍊", "閉嘴"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("拉鍊嘴嘅表情"),
+            keywords: &["拉鍊嘴嘅表情", "閉口不答"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ubuso obunoziphu"),
+            keywords: &["ubuso", "ubuso obunoziphu", "umlomo", "uziphu"],
+        },
+    ],
+};
 #[doc = "🤨"]
 pub const FACE_WITH_RAISED_EYEBROW: crate::Emoji = crate::Emoji {
     glyph: "🤨",
@@ -5570,7 +6491,866 @@ pub const UNAMUSED_FACE: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🙄"]
-pub const FACE_WITH_ROLLING_EYES : crate :: Emoji = crate :: Emoji { glyph : "🙄" , codepoint : "1F644" , status : crate :: Status :: FullyQualified , introduction_version : 1f32 , name : "face with rolling eyes" , group : "Smileys & Emotion" , subgroup : "face-neutral-skeptical" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("gesig met oë wat rol") , keywords : & ["gesig" , "gesig met oë wat rol" , "oë" , "rol"] , } , crate :: Annotation { lang : "am" , tts : Some ("የሚሽከረከሩ ዓይኖች ያሉት ፊት") , keywords : & ["ዓይኖች" , "የሚሽከረከሩ" , "የሚሽከረከሩ ዓይኖች ያሉት ፊት" , "ፊት"] , } , crate :: Annotation { lang : "ar" , tts : Some ("وجه بعينين تدوران") , keywords : & ["طوافة" , "عين" , "وجه" , "وجه بأعين دوارة" , "وجه بعينين تدوران"] , } , crate :: Annotation { lang : "as" , tts : Some ("চক\u{9c1} পক\u{9be}ই থক\u{9be} ম\u{9c1}খ") , keywords : & ["চক\u{9c1}" , "চক\u{9c1} পক\u{9be}ই থক\u{9be} ম\u{9c1}খ" , "পকোৱ\u{9be}" , "ম\u{9c1}খ"] , } , crate :: Annotation { lang : "az" , tts : Some ("gözlərini fırladan üz") , keywords : & ["fırlatmaq" , "göz" , "gözlərini fırladan üz" , "üz"] , } , crate :: Annotation { lang : "be" , tts : Some ("закочвае вочы") , keywords : & ["вочы" , "закочвае вочы" , "закочванне" , "толькі не гэта"] , } , crate :: Annotation { lang : "bg" , tts : Some ("Лице с извъртени нагоре очи") , keywords : & ["Лице с извъртени нагоре очи" , "извъртам" , "лице" , "очи"] , } , crate :: Annotation { lang : "bn" , tts : Some ("চোখ গোল গোল কর\u{9be} ম\u{9c1}খ") , keywords : & ["ঘ\u{9c2}র\u{9cd}ণ\u{9be}য\u{9bc}ম\u{9be}ন" , "চোখ" , "চোখ গোল গোল কর\u{9be} ম\u{9c1}খ" , "ম\u{9c1}খ"] , } , crate :: Annotation { lang : "bs" , tts : Some ("kolutanje očima") , keywords : & ["kolutanje" , "kolutanje očima" , "lice" , "oči"] , } , crate :: Annotation { lang : "ca" , tts : Some ("cara amb els ulls en blanc") , keywords : & ["cara" , "cara amb els ulls en blanc" , "ulls en blanc"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎤᎧᏛᎢ ᎤᏠᏯᏍᏗ ᎦᎦᏐᏆᎴᎦ ᏗᎦᏙᎵ") , keywords : & ["ᎤᎧᏛ" , "ᎤᎧᏛᎢ ᎤᏠᏯᏍᏗ ᎦᎦᏐᏆᎴᎦ ᏗᎦᏙᎵ" , "ᏓᎵᏐᏈᎴ" , "ᏗᎦᏘ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("obličej s očima v sloup") , keywords : & ["koulející" , "obličej s očima v sloup" , "oči" , "smajlík" , "tvář" , "v sloup" , "výraz"] , } , crate :: Annotation { lang : "cy" , tts : Some ("wyneb â llygaid yn rholio") , keywords : & ["llygaid" , "rolio" , "wyneb" , "wyneb â llygaid yn rholio"] , } , crate :: Annotation { lang : "da" , tts : Some ("ansigt med rullende øjne") , keywords : & ["ansigt" , "ansigt med rullende øjne" , "rullende" , "øjne"] , } , crate :: Annotation { lang : "de" , tts : Some ("Augen verdrehendes Gesicht") , keywords : & ["Augen verdrehen" , "Augen verdrehendes Gesicht" , "Gesicht"] , } , crate :: Annotation { lang : "el" , tts : Some ("βλέμμα αποδοκιμασίας") , keywords : & ["αναποδογυριστά" , "βλέμμα αποδοκιμασίας" , "μάτια" , "πρόσωπο"] , } , crate :: Annotation { lang : "en" , tts : Some ("face with rolling eyes") , keywords : & ["eyeroll" , "eyes" , "face" , "face with rolling eyes" , "rolling"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("cara con ojos en blanco") , keywords : & ["cara" , "cara con ojos en blanco" , "frustración" , "ojos" , "vueltos"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("cara revoleando los ojos") , keywords : & ["cara" , "cara revoleando los ojos" , "ojos" , "revoleando"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("cara con ojos en blanco") , keywords : & ["cara con ojos en blanco"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("cara con ojos en blanco") , keywords : & ["cara" , "cara con ojos en blanco" , "ojos" , "volteando" , "voltear los ojos"] , } , crate :: Annotation { lang : "et" , tts : Some ("pööritavate silmadega nägu") , keywords : & ["nägu" , "pööritamine" , "pööritavate silmadega nägu" , "silmad"] , } , crate :: Annotation { lang : "eu" , tts : Some ("begiak bueltaka dituen aurpegia") , keywords : & ["aurpegi" , "begiak" , "begiak bueltaka dituen aurpegia" , "biraka" , "bueltaka"] , } , crate :: Annotation { lang : "fa" , tts : Some ("نگاه کلافه") , keywords : & ["صورت" , "نگاه عاقل اندر سفیه" , "نگاه کلافه" , "چشم" , "کلافه"] , } , crate :: Annotation { lang : "fi" , tts : Some ("silmien pyöritys") , keywords : & ["naama" , "pyörivä" , "silmien pyöritys" , "silmät"] , } , crate :: Annotation { lang : "fil" , tts : Some ("itinitirik ang mga mata") , keywords : & ["irap" , "itinitirik ang mga mata" , "mata" , "mukha" , "umiikot"] , } , crate :: Annotation { lang : "fo" , tts : Some ("andlit við rullandi eygum") , keywords : & ["andlit" , "andlit við rullandi eygum" , "eygu" , "rullandi"] , } , crate :: Annotation { lang : "fr" , tts : Some ("visage roulant des yeux") , keywords : & ["roulement" , "visage roulant des yeux" , "yeux"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("visage qui roule des yeux") , keywords : & ["roule des yeux" , "visage" , "visage qui roule des yeux" , "yeux"] , } , crate :: Annotation { lang : "ga" , tts : Some ("straoiseog le súile ag casadh") , keywords : & ["aghaidh" , "straoiseog le súile ag casadh" , "suas chun na bhflaitheas" , "súile"] , } , crate :: Annotation { lang : "gd" , tts : Some ("aodann a’ casadh nan sùilean") , keywords : & ["aodann" , "aodann a’ casadh nan sùilean" , "casadh" , "sùilean"] , } , crate :: Annotation { lang : "gl" , tts : Some ("cara cos ollos en branco") , keywords : & ["cara" , "cara cos ollos en branco" , "ollos en branco"] , } , crate :: Annotation { lang : "gu" , tts : Some ("આ\u{a82}ખો ફ\u{ac7}રવતો ચહ\u{ac7}રો") , keywords : & ["આ\u{a82}ખો" , "આ\u{a82}ખો ફ\u{ac7}રવતો ચહ\u{ac7}રો" , "ચહ\u{ac7}રો" , "ફ\u{ac7}રવવ\u{ac1}\u{a82}"] , } , crate :: Annotation { lang : "ha" , tts : Some ("fuska tare da idanu masu mirgina") , keywords : & ["fuska" , "fuska tare da idanu masu mirgina" , "idanu" , "mai mirgina"] , } , crate :: Annotation { lang : "he" , tts : Some ("פרצוף מגלגל עיניים") , keywords : & ["למעלה" , "מגלגל" , "עיניים" , "פרצוף"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ऊपर द\u{947}खती आ\u{901}खो\u{902} वाला च\u{947}हरा") , keywords : & ["आ\u{902}ख\u{947}\u{902}" , "ऊपर द\u{947}खती आ\u{901}खो\u{902} वाला च\u{947}हरा" , "ऊपर द\u{947}खती आ\u{902}ख\u{947}\u{902}" , "च\u{947}हरा"] , } , crate :: Annotation { lang : "hr" , tts : Some ("lice s kolutajućim očima") , keywords : & ["kolutanje" , "lice" , "lice s kolutajućim očima" , "oči"] , } , crate :: Annotation { lang : "hu" , tts : Some ("szemét forgató arc") , keywords : & ["arc" , "forgó szemek" , "szemét forgató arc"] , } , crate :: Annotation { lang : "hy" , tts : Some ("պտտվող աչքերով դեմք") , keywords : & ["աչքեր" , "դեմք" , "պտտվող" , "պտտվող աչքերով դեմք"] , } , crate :: Annotation { lang : "id" , tts : Some ("wajah dengan mata ke atas") , keywords : & ["atas" , "berputar" , "mata" , "muka" , "wajah" , "wajah dengan mata ke atas"] , } , crate :: Annotation { lang : "ig" , tts : Some ("ihu nwere kpụrụkpụrụ anya na-akpọgharị akpọgharị") , keywords : & ["anya" , "ihu" , "ihu nwere kpụrụkpụrụ anya na-akpọgharị akpọgharị" , "na-akpọgharị"] , } , crate :: Annotation { lang : "is" , tts : Some ("ranghvolfir augum") , keywords : & ["andlit" , "augu" , "ranghvolfir" , "ranghvolfir augum"] , } , crate :: Annotation { lang : "it" , tts : Some ("faccina con occhi al cielo") , keywords : & ["faccina" , "faccina con occhi al cielo" , "guardare altrove" , "roteare gli occhi" , "sollevare gli occhi al cielo"] , } , crate :: Annotation { lang : "ja" , tts : Some ("上を見る顔") , keywords : & ["上を見る顔" , "上目" , "顔"] , } , crate :: Annotation { lang : "jv" , tts : Some ("rai matane mlerok") , keywords : & ["mata" , "mlerok" , "rai" , "rai matane mlerok"] , } , crate :: Annotation { lang : "ka" , tts : Some ("სახე გადატრიალებული თვალებით") , keywords : & ["გადატრიალება" , "თვალები" , "სახე" , "სახე გადატრიალებული თვალებით"] , } , crate :: Annotation { lang : "kab" , tts : Some ("baɛar s wallen") , keywords : & ["baɛar s wallen"] , } , crate :: Annotation { lang : "kk" , tts : Some ("көзі алару") , keywords : & ["бет" , "көз" , "көз алару" , "көзі алару"] , } , crate :: Annotation { lang : "kl" , tts : Some ("ansigt med rullende øjne") , keywords : & ["ansigt" , "ansigt med rullende øjne" , "rullende" , "øjne"] , } , crate :: Annotation { lang : "km" , tts : Some ("ម\u{17bb}ខធ\u{17d2}វើភ\u{17d2}នែកក\u{17d2}រឡេបក\u{17d2}រឡាប\u{17cb}") , keywords : & ["ក\u{17d2}រឡេបក\u{17d2}រឡាប\u{17cb}" , "ភ\u{17d2}នែក" , "ម\u{17bb}ខធ\u{17d2}វើភ\u{17d2}នែកក\u{17d2}រឡេបក\u{17d2}រឡាប\u{17cb}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ತ\u{cbf}ರುಗುತ\u{ccd}ತ\u{cbf}ರುವ ಕಣ\u{ccd}ಣುಗಳ ಮುಖ") , keywords : & ["ಕಣ\u{ccd}ಣುಗಳು" , "ತ\u{cbf}ರುಗುತ\u{ccd}ತ\u{cbf}ರುವ" , "ತ\u{cbf}ರುಗುತ\u{ccd}ತ\u{cbf}ರುವ ಕಣ\u{ccd}ಣುಗಳ ಮುಖ" , "ಮುಖ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("눈을 굴리고 있는 얼굴") , keywords : & ["눈 굴리기" , "눈을 굴리고 있는 얼굴" , "얼굴"] , } , crate :: Annotation { lang : "kok" , tts : Some ("घ\u{941}\u{902}वपी दोळ\u{94d}या\u{902}चो च\u{947}रो") , keywords : & ["घ\u{941}\u{902}वपी" , "घ\u{941}\u{902}वपी दोळो" , "घ\u{941}\u{902}वपी दोळ\u{94d}या\u{902}चो च\u{947}रो" , "च\u{947}रो" , "दोळ\u{947}"] , } , crate :: Annotation { lang : "ky" , tts : Some ("көзүн сүзгөн бет") , keywords : & ["бет" , "көз" , "көз сүз" , "көзүн сүзгөн бет"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Ae verdréinend") , keywords : & ["Ae verdréinend" , "Aen" , "Gesiicht" , "verdréinen"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ໜ\u{ec9}າທ\u{eb5}\u{ec8}ມ\u{eb5}ຕາລ\u{eb1}ອກແລ\u{eb1}ກ") , keywords : & ["ຕາລ\u{eb1}ອກແລ\u{eb1}ກ" , "ໜ\u{ec9}າ" , "ໜ\u{ec9}າທ\u{eb5}\u{ec8}ມ\u{eb5}ຕາລ\u{eb1}ອກແລ\u{eb1}ກ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("veidas, vartantis akis") , keywords : & ["akys" , "vartyti" , "veidas" , "veidas, vartantis akis"] , } , crate :: Annotation { lang : "lv" , tts : Some ("seja ar pārgrieztām acīm") , keywords : & ["acis" , "neapmierināts" , "pārgriezt" , "seja" , "seja ar pārgrieztām acīm"] , } , crate :: Annotation { lang : "mi" , tts : Some ("kanohi karu takahuri") , keywords : & ["kanohi" , "karu" , "takahuri"] , } , crate :: Annotation { lang : "mk" , tts : Some ("лице што превртува очи") , keywords : & ["лице" , "лице што превртува очи" , "очи" , "превртува"] , } , crate :: Annotation { lang : "ml" , tts : Some ("കറങ\u{d4d}ങ\u{d41}ന\u{d4d}ന കണ\u{d4d}ണ\u{d41}കള\u{d41}ള\u{d4d}ള മ\u{d41}ഖം") , keywords : & ["കണ\u{d4d}ണ\u{d41}കൾ" , "കറങ\u{d4d}ങ\u{d41}ന\u{d4d}ന കണ\u{d4d}ണ\u{d41}കള\u{d41}ള\u{d4d}ള മ\u{d41}ഖം" , "കറങ\u{d4d}ങ\u{d41}ന\u{d4d}ന\u{d41}" , "മ\u{d41}ഖം"] , } , crate :: Annotation { lang : "mn" , tts : Some ("нүдээ эргэлдүүлэх царай") , keywords : & ["нүд" , "нүдээ эргэлдүүлэх царай" , "царай" , "эргэлдсэн"] , } , crate :: Annotation { lang : "mr" , tts : Some ("डोळ\u{947} फिरविणारा च\u{947}हरा") , keywords : & ["च\u{947}हरा" , "डोळ\u{947}" , "डोळ\u{947} फिरवणारा च\u{947}हरा" , "डोळ\u{947} फिरविणारा च\u{947}हरा" , "फिरविण\u{947}"] , } , crate :: Annotation { lang : "ms" , tts : Some ("muka dengan mata juling ke atas") , keywords : & ["juling" , "mata" , "muka" , "muka dengan mata juling ke atas"] , } , crate :: Annotation { lang : "mt" , tts : Some ("wiċċ b’għajnejn iduru") , keywords : & ["għajnejn" , "iduru" , "wiċċ" , "wiċċ b’għajnejn iduru"] , } , crate :: Annotation { lang : "my" , tts : Some ("စ\u{102d}တ\u{103a}မရ\u{103e}ည\u{103a}သည\u{1037}\u{103a}ဟန\u{103a}ပြ မျက\u{103a}လ\u{102f}\u{1036}းများ") , keywords : & ["စ\u{102d}တ\u{103a}မရ\u{103e}ည\u{103a}သည\u{1037}\u{103a}ဟန\u{103a}ပြ မျက\u{103a}လ\u{102f}\u{1036}းများ" , "ပျင\u{103a}းစရာကောင\u{103a}းသောအကြောင\u{103a}းအရာကြောင\u{1037}\u{103a} ဖြစ\u{103a}ပေါ\u{103a}လာသောမျက\u{103a}န\u{103e}ာ" , "မျက\u{103a}န\u{103e}ာ" , "မျက\u{103a}လ\u{102f}\u{1036}း" , "မျက\u{103a}လ\u{102f}\u{1036}းပင\u{1037}\u{103a}ကြည\u{1037}\u{103a}"] , } , crate :: Annotation { lang : "nb" , tts : Some ("himler med øynene") , keywords : & ["fjes" , "himler med øynene" , "ruller" , "øyne"] , } , crate :: Annotation { lang : "ne" , tts : Some ("घ\u{941}मिरह\u{947}को आ\u{901}खासहितको अन\u{941}हार") , keywords : & ["अन\u{941}हार" , "आ\u{901}खा" , "घ\u{941}मिरह\u{947}को" , "घ\u{941}मिरह\u{947}को आ\u{901}खासहितको अन\u{941}हार"] , } , crate :: Annotation { lang : "nl" , tts : Some ("gezicht met rollende ogen") , keywords : & ["gezicht" , "gezicht met rollende ogen" , "ogen" , "rollen"] , } , crate :: Annotation { lang : "nn" , tts : Some ("himlar med auga") , keywords : & ["auge" , "fjes" , "himlar med auga" , "rullar"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଘ\u{b42}ର\u{b41}ଥ\u{b3f}ବ\u{b3e} ଆଖ\u{b3f} ସହ ମ\u{b41}ହ\u{b01}") , keywords : & ["ଆଖ\u{b3f}" , "ଘ\u{b42}ର\u{b41}ଥ\u{b3f}ବ\u{b3e}" , "ଘ\u{b42}ର\u{b41}ଥ\u{b3f}ବ\u{b3e} ଆଖ\u{b3f} ସହ ମ\u{b41}ହ\u{b01}" , "ମ\u{b41}ହ\u{b01}"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਅ\u{a71}ਖਾ\u{a02} ਘ\u{a41}ਮਾਉ\u{a02}ਦਾ ਚਿਹਰਾ") , keywords : & ["ਅ\u{a71}ਕਿਆ ਚਿਹਰਾ" , "ਅ\u{a71}ਖਾ\u{a02}" , "ਅ\u{a71}ਖਾ\u{a02} ਘ\u{a41}ਮਾਉ\u{a02}ਦਾ ਚਿਹਰਾ" , "ਅ\u{a71}ਖਾ\u{a02} ਘ\u{a41}\u{a70}ਮਾਉਣਾ" , "ਚਿਹਰਾ" , "ਮਾਣਹਾਨੀ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("گھمدیاں اکھاں نال شکل") , keywords : & ["اکھاں" , "دی شکل" , "گھمدا ہوئیا" , "گھمدیاں اکھاں نال شکل"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Fes De Tọ\u{301}n Im Ai-dẹm") , keywords : & ["Ai-dẹm" , "Fes" , "Fes De Tọ\u{301}n Im Ai-dẹm" , "To Tọn Tọ\u{301}n Yọ Ai-dem" , "To Tọ\u{301}n Yọ Ai-dẹm"] , } , crate :: Annotation { lang : "pl" , tts : Some ("twarz przewracająca oczami") , keywords : & ["buźka" , "przewracam oczami" , "twarz przewracająca oczami"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د تاوهونکو سترګو مخ") , keywords : & ["تاووهونکې" , "د تاوهونکو سترګو مخ" , "سترګې" , "مخ"] , } , crate :: Annotation { lang : "pt" , tts : Some ("rosto com olhos revirados") , keywords : & ["olhos" , "revirando os olhos" , "rosto" , "rosto com olhos revirados"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("cara com olhos revirados") , keywords : & ["cara" , "cara com olhos revirados" , "olhos" , "revirar"] , } , crate :: Annotation { lang : "qu" , tts : Some ("uya muyusqa ñawikunawan") , keywords : & ["muyusqa" , "muyuy" , "uya" , "uya muyusqa ñawikunawan" , "ñawikuna"] , } , crate :: Annotation { lang : "ro" , tts : Some ("față care dă ochii peste cap") , keywords : & ["față" , "față care dă ochii peste cap" , "ochi" , "peste cap"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-904") , keywords : & ["E10-904"] , } , crate :: Annotation { lang : "ru" , tts : Some ("закатывает глаза") , keywords : & ["глаза" , "досада" , "закатить" , "закатывает глаза" , "лицо" , "скука"] , } , crate :: Annotation { lang : "rw" , tts : Some ("isura ikanuye amaso") , keywords : & ["amaso" , "ihindukije" , "isura" , "isura ikanuye amaso"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڦرندڙ اکين سان چهرو") , keywords : & ["اکيون" , "چهرو" , "ڦرندڙ" , "ڦرندڙ اکين سان چهرو"] , } , crate :: Annotation { lang : "si" , tts : Some ("කරකවන ඇස\u{dca} ඇත\u{dd2} ම\u{dd4}හ\u{dd4}ණ") , keywords : & ["ඇස\u{dca}" , "කරකවන ඇස\u{dca} ඇත\u{dd2} ම\u{dd4}හ\u{dd4}ණ" , "කරකැව\u{dd3}ම" , "ම\u{dd4}හ\u{dd4}ණ"] , } , crate :: Annotation { lang : "sk" , tts : Some ("tvár prevracajúca oči") , keywords : & ["oči" , "prevracať" , "tvár" , "tvár prevracajúca oči"] , } , crate :: Annotation { lang : "sl" , tts : Some ("obraz z zavijajočimi očmi") , keywords : & ["obraz" , "obraz z zavijajočimi očmi" , "oči" , "zavijanje"] , } , crate :: Annotation { lang : "so" , tts : Some ("waji indho wareegayo leh") , keywords : & ["il wareeg" , "waji" , "waji indho wareegayo leh" , "wareeg"] , } , crate :: Annotation { lang : "sq" , tts : Some ("fytyrë me sytë që rrotullohen") , keywords : & ["fytyrë" , "fytyrë me sytë që rrotullohen" , "rrotullim" , "sy"] , } , crate :: Annotation { lang : "sr" , tts : Some ("лице које колута очима") , keywords : & ["кoлутaњe" , "лице" , "лице које колута очима" , "очи"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["лице које колута очима"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("lice koje koluta očima") , keywords : & ["kolutanje" , "lice" , "lice koje koluta očima" , "oči"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["lice koje koluta očima"] , } , crate :: Annotation { lang : "sv" , tts : Some ("ansikte som\u{a0}himlar med ögonen") , keywords : & ["ansikte" , "ansikte som\u{a0}himlar med ögonen" , "himlar med ögonen"] , } , crate :: Annotation { lang : "sw" , tts : Some ("usio wenye macho yanayorembua") , keywords : & ["kubiringika" , "kurembua" , "macho" , "usio wenye macho yanayorembua" , "uso" , "uso wenye macho yanayorembua"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("கண\u{bcd}களை உருட\u{bcd}டும\u{bcd} முகம\u{bcd}") , keywords : & ["கண\u{bcd}களை உருட\u{bcd}டுதல\u{bcd}" , "கண\u{bcd}களை உருட\u{bcd}டும\u{bcd} முகம\u{bcd}" , "கண\u{bcd}களைச\u{bcd} சுழற\u{bcd}றுதல\u{bcd}" , "கண\u{bcd}களைச\u{bcd} சுழற\u{bcd}றும\u{bcd} முகம\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("కళ\u{c4d}లు త\u{c3f}ప\u{c4d}పుతున\u{c4d}న ముఖం") , keywords : & ["కళ\u{c4d}లు" , "కళ\u{c4d}లు త\u{c3f}ప\u{c4d}పుతున\u{c4d}న ముఖం" , "ముఖం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("рӯй бо чашмони даврзананда") , keywords : & ["даврзанӣ" , "рӯй" , "рӯй бо чашмони даврзананда" , "чашмҳо"] , } , crate :: Annotation { lang : "th" , tts : Some ("กลอกตา") , keywords : & ["กลอกตา" , "หน\u{e49}า"] , } , crate :: Annotation { lang : "tk" , tts : Some ("gözüni agdarýan ýüz") , keywords : & ["gözler" , "gözüni agdarýan ýüz" , "togalanýan" , "ýüz"] , } , crate :: Annotation { lang : "to" , tts : Some ("mata kilokilo") , keywords : & ["mata kilokilo"] , } , crate :: Annotation { lang : "tr" , tts : Some ("gözlerini deviren yüz") , keywords : & ["gözler" , "gözlerini deviren yüz" , "yuvarlanma" , "yüz"] , } , crate :: Annotation { lang : "ug" , tts : Some ("كۆزى پىرقىرىغان چىراي") , keywords : & ["ئۆرۈش" , "كۆز" , "كۆزى پىرقىرىغان چىراي" , "چىراي"] , } , crate :: Annotation { lang : "uk" , tts : Some ("обличчя із закоченими очима") , keywords : & ["закочувати" , "обличчя" , "обличчя із закоченими очима" , "очі"] , } , crate :: Annotation { lang : "ur" , tts : Some ("گھومتی آنکھوں والا چہرہ") , keywords : & ["آنکھیں" , "چہرہ" , "گھومتی آنکھوں والا چہرہ" , "گھومنا"] , } , crate :: Annotation { lang : "uz" , tts : Some ("ko‘zlarini aylantirayotgan yuz") , keywords : & ["aylantirayotgan" , "ko‘zlar" , "ko‘zlarini aylantirayotgan yuz" , "yuz"] , } , crate :: Annotation { lang : "vi" , tts : Some ("mặt có mắt đu đưa") , keywords : & ["mắt" , "mặt" , "mặt có mắt đu đưa" , "đu đưa"] , } , crate :: Annotation { lang : "wo" , tts : Some ("kanam guy regeju") , keywords : & ["bët" , "kanam" , "kanam guy regeju" , "regeju"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ubuso obunamehlo ajikelezayo") , keywords : & ["amehlo" , "ubuso" , "ubuso obunamehlo ajikelezayo" , "ukujikeleza"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Ojú Pẹ\u{300}lú Ẹyinjú tó yín") , keywords : & ["Ojú Pẹ\u{300}lú Ẹyinjú tó yín" , "ojú" , "tó yín" , "àwọn ẹyinjú"] , } , crate :: Annotation { lang : "yue" , tts : Some ("圓碌碌大眼嘅臉") , keywords : & ["圓碌碌" , "圓碌碌大眼嘅臉" , "眼" , "臉"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("圆碌碌大眼嘅脸") , keywords : & ["圆碌碌" , "圆碌碌大眼嘅脸" , "眼" , "脸"] , } , crate :: Annotation { lang : "zh" , tts : Some ("翻白眼") , keywords : & ["无语" , "白眼" , "翻白眼" , "脸"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("翻白眼") , keywords : & ["不屑" , "翻白眼" , "鄙視"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("反白眼嘅表情") , keywords : & ["不屑" , "反白眼嘅表情" , "鄙視"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ubuso obupheqa amehlo") , keywords : & ["amehlo" , "pheqa amehlo" , "ubuso" , "ubuso obupheqa amehlo"] , }] , } ;
+pub const FACE_WITH_ROLLING_EYES: crate::Emoji = crate::Emoji {
+    glyph: "🙄",
+    codepoint: "1F644",
+    status: crate::Status::FullyQualified,
+    introduction_version: 1f32,
+    name: "face with rolling eyes",
+    group: "Smileys & Emotion",
+    subgroup: "face-neutral-skeptical",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("gesig met oë wat rol"),
+            keywords: &["gesig", "gesig met oë wat rol", "oë", "rol"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የሚሽከረከሩ ዓይኖች ያሉት ፊት"),
+            keywords: &["ዓይኖች", "የሚሽከረከሩ", "የሚሽከረከሩ ዓይኖች ያሉት ፊት", "ፊት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("وجه بعينين تدوران"),
+            keywords: &[
+                "طوافة",
+                "عين",
+                "وجه",
+                "وجه بأعين دوارة",
+                "وجه بعينين تدوران",
+            ],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("চক\u{9c1} পক\u{9be}ই থক\u{9be} ম\u{9c1}খ"),
+            keywords: &[
+                "চক\u{9c1}",
+                "চক\u{9c1} পক\u{9be}ই থক\u{9be} ম\u{9c1}খ",
+                "পকোৱ\u{9be}",
+                "ম\u{9c1}খ",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("gözlərini fırladan üz"),
+            keywords: &["fırlatmaq", "göz", "gözlərini fırladan üz", "üz"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("закочвае вочы"),
+            keywords: &["вочы", "закочвае вочы", "закочванне", "толькі не гэта"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("Лице с извъртени нагоре очи"),
+            keywords: &["Лице с извъртени нагоре очи", "извъртам", "лице", "очи"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("চোখ গোল গোল কর\u{9be} ম\u{9c1}খ"),
+            keywords: &[
+                "ঘ\u{9c2}র\u{9cd}ণ\u{9be}য\u{9bc}ম\u{9be}ন",
+                "চোখ",
+                "চোখ গোল গোল কর\u{9be} ম\u{9c1}খ",
+                "ম\u{9c1}খ",
+            ],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("kolutanje očima"),
+            keywords: &["kolutanje", "kolutanje očima", "lice", "oči"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("cara amb els ulls en blanc"),
+            keywords: &["cara", "cara amb els ulls en blanc", "ulls en blanc"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎤᎧᏛᎢ ᎤᏠᏯᏍᏗ ᎦᎦᏐᏆᎴᎦ ᏗᎦᏙᎵ"),
+            keywords: &["ᎤᎧᏛ", "ᎤᎧᏛᎢ ᎤᏠᏯᏍᏗ ᎦᎦᏐᏆᎴᎦ ᏗᎦᏙᎵ", "ᏓᎵᏐᏈᎴ", "ᏗᎦᏘ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("obličej s očima v sloup"),
+            keywords: &[
+                "koulející",
+                "obličej s očima v sloup",
+                "oči",
+                "smajlík",
+                "tvář",
+                "v sloup",
+                "výraz",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("wyneb â llygaid yn rholio"),
+            keywords: &["llygaid", "rolio", "wyneb", "wyneb â llygaid yn rholio"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("ansigt med rullende øjne"),
+            keywords: &["ansigt", "ansigt med rullende øjne", "rullende", "øjne"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Augen verdrehendes Gesicht"),
+            keywords: &["Augen verdrehen", "Augen verdrehendes Gesicht", "Gesicht"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("βλέμμα αποδοκιμασίας"),
+            keywords: &["αναποδογυριστά", "βλέμμα αποδοκιμασίας", "μάτια", "πρόσωπο"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("face with rolling eyes"),
+            keywords: &[
+                "eyeroll",
+                "eyes",
+                "face",
+                "face with rolling eyes",
+                "rolling",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("cara con ojos en blanco"),
+            keywords: &[
+                "cara",
+                "cara con ojos en blanco",
+                "frustración",
+                "ojos",
+                "vueltos",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("cara revoleando los ojos"),
+            keywords: &["cara", "cara revoleando los ojos", "ojos", "revoleando"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("cara con ojos en blanco"),
+            keywords: &["cara con ojos en blanco"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("cara con ojos en blanco"),
+            keywords: &[
+                "cara",
+                "cara con ojos en blanco",
+                "ojos",
+                "volteando",
+                "voltear los ojos",
+            ],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("pööritavate silmadega nägu"),
+            keywords: &[
+                "nägu",
+                "pööritamine",
+                "pööritavate silmadega nägu",
+                "silmad",
+            ],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("begiak bueltaka dituen aurpegia"),
+            keywords: &[
+                "aurpegi",
+                "begiak",
+                "begiak bueltaka dituen aurpegia",
+                "biraka",
+                "bueltaka",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("نگاه کلافه"),
+            keywords: &["صورت", "نگاه عاقل اندر سفیه", "نگاه کلافه", "چشم", "کلافه"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("silmien pyöritys"),
+            keywords: &["naama", "pyörivä", "silmien pyöritys", "silmät"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("itinitirik ang mga mata"),
+            keywords: &[
+                "irap",
+                "itinitirik ang mga mata",
+                "mata",
+                "mukha",
+                "umiikot",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("andlit við rullandi eygum"),
+            keywords: &["andlit", "andlit við rullandi eygum", "eygu", "rullandi"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("visage roulant des yeux"),
+            keywords: &["roulement", "visage roulant des yeux", "yeux"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("visage qui roule des yeux"),
+            keywords: &[
+                "roule des yeux",
+                "visage",
+                "visage qui roule des yeux",
+                "yeux",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("straoiseog le súile ag casadh"),
+            keywords: &[
+                "aghaidh",
+                "straoiseog le súile ag casadh",
+                "suas chun na bhflaitheas",
+                "súile",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("aodann a’ casadh nan sùilean"),
+            keywords: &[
+                "aodann",
+                "aodann a’ casadh nan sùilean",
+                "casadh",
+                "sùilean",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("cara cos ollos en branco"),
+            keywords: &["cara", "cara cos ollos en branco", "ollos en branco"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("આ\u{a82}ખો ફ\u{ac7}રવતો ચહ\u{ac7}રો"),
+            keywords: &[
+                "આ\u{a82}ખો",
+                "આ\u{a82}ખો ફ\u{ac7}રવતો ચહ\u{ac7}રો",
+                "ચહ\u{ac7}રો",
+                "ફ\u{ac7}રવવ\u{ac1}\u{a82}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("fuska tare da idanu masu mirgina"),
+            keywords: &[
+                "fuska",
+                "fuska tare da idanu masu mirgina",
+                "idanu",
+                "mai mirgina",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("פרצוף מגלגל עיניים"),
+            keywords: &["למעלה", "מגלגל", "עיניים", "פרצוף"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ऊपर द\u{947}खती आ\u{901}खो\u{902} वाला च\u{947}हरा"),
+            keywords: &[
+                "आ\u{902}ख\u{947}\u{902}",
+                "ऊपर द\u{947}खती आ\u{901}खो\u{902} वाला च\u{947}हरा",
+                "ऊपर द\u{947}खती आ\u{902}ख\u{947}\u{902}",
+                "च\u{947}हरा",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("lice s kolutajućim očima"),
+            keywords: &["kolutanje", "lice", "lice s kolutajućim očima", "oči"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("szemét forgató arc"),
+            keywords: &["arc", "forgó szemek", "szemét forgató arc"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("պտտվող աչքերով դեմք"),
+            keywords: &["աչքեր", "դեմք", "պտտվող", "պտտվող աչքերով դեմք"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("wajah dengan mata ke atas"),
+            keywords: &[
+                "atas",
+                "berputar",
+                "mata",
+                "muka",
+                "wajah",
+                "wajah dengan mata ke atas",
+            ],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ihu nwere kpụrụkpụrụ anya na-akpọgharị akpọgharị"),
+            keywords: &[
+                "anya",
+                "ihu",
+                "ihu nwere kpụrụkpụrụ anya na-akpọgharị akpọgharị",
+                "na-akpọgharị",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("ranghvolfir augum"),
+            keywords: &["andlit", "augu", "ranghvolfir", "ranghvolfir augum"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("faccina con occhi al cielo"),
+            keywords: &[
+                "faccina",
+                "faccina con occhi al cielo",
+                "guardare altrove",
+                "roteare gli occhi",
+                "sollevare gli occhi al cielo",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("上を見る顔"),
+            keywords: &["上を見る顔", "上目", "顔"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("rai matane mlerok"),
+            keywords: &["mata", "mlerok", "rai", "rai matane mlerok"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("სახე გადატრიალებული თვალებით"),
+            keywords: &[
+                "გადატრიალება",
+                "თვალები",
+                "სახე",
+                "სახე გადატრიალებული თვალებით",
+            ],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("baɛar s wallen"),
+            keywords: &["baɛar s wallen"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("көзі алару"),
+            keywords: &["бет", "көз", "көз алару", "көзі алару"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("ansigt med rullende øjne"),
+            keywords: &["ansigt", "ansigt med rullende øjne", "rullende", "øjne"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("ម\u{17bb}ខធ\u{17d2}វើភ\u{17d2}នែកក\u{17d2}រឡេបក\u{17d2}រឡាប\u{17cb}"),
+            keywords: &[
+                "ក\u{17d2}រឡេបក\u{17d2}រឡាប\u{17cb}",
+                "ភ\u{17d2}នែក",
+                "ម\u{17bb}ខធ\u{17d2}វើភ\u{17d2}នែកក\u{17d2}រឡេបក\u{17d2}រឡាប\u{17cb}",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ತ\u{cbf}ರುಗುತ\u{ccd}ತ\u{cbf}ರುವ ಕಣ\u{ccd}ಣುಗಳ ಮುಖ"),
+            keywords: &[
+                "ಕಣ\u{ccd}ಣುಗಳು",
+                "ತ\u{cbf}ರುಗುತ\u{ccd}ತ\u{cbf}ರುವ",
+                "ತ\u{cbf}ರುಗುತ\u{ccd}ತ\u{cbf}ರುವ ಕಣ\u{ccd}ಣುಗಳ ಮುಖ",
+                "ಮುಖ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("눈을 굴리고 있는 얼굴"),
+            keywords: &["눈 굴리기", "눈을 굴리고 있는 얼굴", "얼굴"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("घ\u{941}\u{902}वपी दोळ\u{94d}या\u{902}चो च\u{947}रो"),
+            keywords: &[
+                "घ\u{941}\u{902}वपी",
+                "घ\u{941}\u{902}वपी दोळो",
+                "घ\u{941}\u{902}वपी दोळ\u{94d}या\u{902}चो च\u{947}रो",
+                "च\u{947}रो",
+                "दोळ\u{947}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("көзүн сүзгөн бет"),
+            keywords: &["бет", "көз", "көз сүз", "көзүн сүзгөн бет"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Ae verdréinend"),
+            keywords: &["Ae verdréinend", "Aen", "Gesiicht", "verdréinen"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ໜ\u{ec9}າທ\u{eb5}\u{ec8}ມ\u{eb5}ຕາລ\u{eb1}ອກແລ\u{eb1}ກ"),
+            keywords: &[
+                "ຕາລ\u{eb1}ອກແລ\u{eb1}ກ",
+                "ໜ\u{ec9}າ",
+                "ໜ\u{ec9}າທ\u{eb5}\u{ec8}ມ\u{eb5}ຕາລ\u{eb1}ອກແລ\u{eb1}ກ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("veidas, vartantis akis"),
+            keywords: &["akys", "vartyti", "veidas", "veidas, vartantis akis"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("seja ar pārgrieztām acīm"),
+            keywords: &[
+                "acis",
+                "neapmierināts",
+                "pārgriezt",
+                "seja",
+                "seja ar pārgrieztām acīm",
+            ],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("kanohi karu takahuri"),
+            keywords: &["kanohi", "karu", "takahuri"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("лице што превртува очи"),
+            keywords: &["лице", "лице што превртува очи", "очи", "превртува"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("കറങ\u{d4d}ങ\u{d41}ന\u{d4d}ന കണ\u{d4d}ണ\u{d41}കള\u{d41}ള\u{d4d}ള മ\u{d41}ഖം"),
+            keywords: &[
+                "കണ\u{d4d}ണ\u{d41}കൾ",
+                "കറങ\u{d4d}ങ\u{d41}ന\u{d4d}ന കണ\u{d4d}ണ\u{d41}കള\u{d41}ള\u{d4d}ള മ\u{d41}ഖം",
+                "കറങ\u{d4d}ങ\u{d41}ന\u{d4d}ന\u{d41}",
+                "മ\u{d41}ഖം",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("нүдээ эргэлдүүлэх царай"),
+            keywords: &["нүд", "нүдээ эргэлдүүлэх царай", "царай", "эргэлдсэн"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("डोळ\u{947} फिरविणारा च\u{947}हरा"),
+            keywords: &[
+                "च\u{947}हरा",
+                "डोळ\u{947}",
+                "डोळ\u{947} फिरवणारा च\u{947}हरा",
+                "डोळ\u{947} फिरविणारा च\u{947}हरा",
+                "फिरविण\u{947}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("muka dengan mata juling ke atas"),
+            keywords: &["juling", "mata", "muka", "muka dengan mata juling ke atas"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("wiċċ b’għajnejn iduru"),
+            keywords: &["għajnejn", "iduru", "wiċċ", "wiċċ b’għajnejn iduru"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "စ\u{102d}တ\u{103a}မရ\u{103e}ည\u{103a}သည\u{1037}\u{103a}ဟန\u{103a}ပြ မျက\u{103a}လ\u{102f}\u{1036}းများ",
+            ),
+            keywords: &[
+                "စ\u{102d}တ\u{103a}မရ\u{103e}ည\u{103a}သည\u{1037}\u{103a}ဟန\u{103a}ပြ မျက\u{103a}လ\u{102f}\u{1036}းများ",
+                "ပျင\u{103a}းစရာကောင\u{103a}းသောအကြောင\u{103a}းအရာကြောင\u{1037}\u{103a} ဖြစ\u{103a}ပေါ\u{103a}လာသောမျက\u{103a}န\u{103e}ာ",
+                "မျက\u{103a}န\u{103e}ာ",
+                "မျက\u{103a}လ\u{102f}\u{1036}း",
+                "မျက\u{103a}လ\u{102f}\u{1036}းပင\u{1037}\u{103a}ကြည\u{1037}\u{103a}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("himler med øynene"),
+            keywords: &["fjes", "himler med øynene", "ruller", "øyne"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("घ\u{941}मिरह\u{947}को आ\u{901}खासहितको अन\u{941}हार"),
+            keywords: &[
+                "अन\u{941}हार",
+                "आ\u{901}खा",
+                "घ\u{941}मिरह\u{947}को",
+                "घ\u{941}मिरह\u{947}को आ\u{901}खासहितको अन\u{941}हार",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("gezicht met rollende ogen"),
+            keywords: &["gezicht", "gezicht met rollende ogen", "ogen", "rollen"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("himlar med auga"),
+            keywords: &["auge", "fjes", "himlar med auga", "rullar"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଘ\u{b42}ର\u{b41}ଥ\u{b3f}ବ\u{b3e} ଆଖ\u{b3f} ସହ ମ\u{b41}ହ\u{b01}"),
+            keywords: &[
+                "ଆଖ\u{b3f}",
+                "ଘ\u{b42}ର\u{b41}ଥ\u{b3f}ବ\u{b3e}",
+                "ଘ\u{b42}ର\u{b41}ଥ\u{b3f}ବ\u{b3e} ଆଖ\u{b3f} ସହ ମ\u{b41}ହ\u{b01}",
+                "ମ\u{b41}ହ\u{b01}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਅ\u{a71}ਖਾ\u{a02} ਘ\u{a41}ਮਾਉ\u{a02}ਦਾ ਚਿਹਰਾ"),
+            keywords: &[
+                "ਅ\u{a71}ਕਿਆ ਚਿਹਰਾ",
+                "ਅ\u{a71}ਖਾ\u{a02}",
+                "ਅ\u{a71}ਖਾ\u{a02} ਘ\u{a41}ਮਾਉ\u{a02}ਦਾ ਚਿਹਰਾ",
+                "ਅ\u{a71}ਖਾ\u{a02} ਘ\u{a41}\u{a70}ਮਾਉਣਾ",
+                "ਚਿਹਰਾ",
+                "ਮਾਣਹਾਨੀ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("گھمدیاں اکھاں نال شکل"),
+            keywords: &["اکھاں", "دی شکل", "گھمدا ہوئیا", "گھمدیاں اکھاں نال شکل"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Fes De Tọ\u{301}n Im Ai-dẹm"),
+            keywords: &[
+                "Ai-dẹm",
+                "Fes",
+                "Fes De Tọ\u{301}n Im Ai-dẹm",
+                "To Tọn Tọ\u{301}n Yọ Ai-dem",
+                "To Tọ\u{301}n Yọ Ai-dẹm",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("twarz przewracająca oczami"),
+            keywords: &["buźka", "przewracam oczami", "twarz przewracająca oczami"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د تاوهونکو سترګو مخ"),
+            keywords: &["تاووهونکې", "د تاوهونکو سترګو مخ", "سترګې", "مخ"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("rosto com olhos revirados"),
+            keywords: &[
+                "olhos",
+                "revirando os olhos",
+                "rosto",
+                "rosto com olhos revirados",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("cara com olhos revirados"),
+            keywords: &["cara", "cara com olhos revirados", "olhos", "revirar"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("uya muyusqa ñawikunawan"),
+            keywords: &[
+                "muyusqa",
+                "muyuy",
+                "uya",
+                "uya muyusqa ñawikunawan",
+                "ñawikuna",
+            ],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("față care dă ochii peste cap"),
+            keywords: &["față", "față care dă ochii peste cap", "ochi", "peste cap"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-904"),
+            keywords: &["E10-904"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("закатывает глаза"),
+            keywords: &[
+                "глаза",
+                "досада",
+                "закатить",
+                "закатывает глаза",
+                "лицо",
+                "скука",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("isura ikanuye amaso"),
+            keywords: &["amaso", "ihindukije", "isura", "isura ikanuye amaso"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڦرندڙ اکين سان چهرو"),
+            keywords: &["اکيون", "چهرو", "ڦرندڙ", "ڦرندڙ اکين سان چهرو"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("කරකවන ඇස\u{dca} ඇත\u{dd2} ම\u{dd4}හ\u{dd4}ණ"),
+            keywords: &[
+                "ඇස\u{dca}",
+                "කරකවන ඇස\u{dca} ඇත\u{dd2} ම\u{dd4}හ\u{dd4}ණ",
+                "කරකැව\u{dd3}ම",
+                "ම\u{dd4}හ\u{dd4}ණ",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("tvár prevracajúca oči"),
+            keywords: &["oči", "prevracať", "tvár", "tvár prevracajúca oči"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("obraz z zavijajočimi očmi"),
+            keywords: &["obraz", "obraz z zavijajočimi očmi", "oči", "zavijanje"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("waji indho wareegayo leh"),
+            keywords: &["il wareeg", "waji", "waji indho wareegayo leh", "wareeg"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("fytyrë me sytë që rrotullohen"),
+            keywords: &["fytyrë", "fytyrë me sytë që rrotullohen", "rrotullim", "sy"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("лице које колута очима"),
+            keywords: &["кoлутaњe", "лице", "лице које колута очима", "очи"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["лице које колута очима"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("lice koje koluta očima"),
+            keywords: &["kolutanje", "lice", "lice koje koluta očima", "oči"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["lice koje koluta očima"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("ansikte som\u{a0}himlar med ögonen"),
+            keywords: &[
+                "ansikte",
+                "ansikte som\u{a0}himlar med ögonen",
+                "himlar med ögonen",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("usio wenye macho yanayorembua"),
+            keywords: &[
+                "kubiringika",
+                "kurembua",
+                "macho",
+                "usio wenye macho yanayorembua",
+                "uso",
+                "uso wenye macho yanayorembua",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("கண\u{bcd}களை உருட\u{bcd}டும\u{bcd} முகம\u{bcd}"),
+            keywords: &[
+                "கண\u{bcd}களை உருட\u{bcd}டுதல\u{bcd}",
+                "கண\u{bcd}களை உருட\u{bcd}டும\u{bcd} முகம\u{bcd}",
+                "கண\u{bcd}களைச\u{bcd} சுழற\u{bcd}றுதல\u{bcd}",
+                "கண\u{bcd}களைச\u{bcd} சுழற\u{bcd}றும\u{bcd} முகம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("కళ\u{c4d}లు త\u{c3f}ప\u{c4d}పుతున\u{c4d}న ముఖం"),
+            keywords: &[
+                "కళ\u{c4d}లు",
+                "కళ\u{c4d}లు త\u{c3f}ప\u{c4d}పుతున\u{c4d}న ముఖం",
+                "ముఖం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("рӯй бо чашмони даврзананда"),
+            keywords: &["даврзанӣ", "рӯй", "рӯй бо чашмони даврзананда", "чашмҳо"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("กลอกตา"),
+            keywords: &["กลอกตา", "หน\u{e49}า"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("gözüni agdarýan ýüz"),
+            keywords: &["gözler", "gözüni agdarýan ýüz", "togalanýan", "ýüz"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("mata kilokilo"),
+            keywords: &["mata kilokilo"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("gözlerini deviren yüz"),
+            keywords: &["gözler", "gözlerini deviren yüz", "yuvarlanma", "yüz"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("كۆزى پىرقىرىغان چىراي"),
+            keywords: &["ئۆرۈش", "كۆز", "كۆزى پىرقىرىغان چىراي", "چىراي"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("обличчя із закоченими очима"),
+            keywords: &[
+                "закочувати",
+                "обличчя",
+                "обличчя із закоченими очима",
+                "очі",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("گھومتی آنکھوں والا چہرہ"),
+            keywords: &["آنکھیں", "چہرہ", "گھومتی آنکھوں والا چہرہ", "گھومنا"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("ko‘zlarini aylantirayotgan yuz"),
+            keywords: &[
+                "aylantirayotgan",
+                "ko‘zlar",
+                "ko‘zlarini aylantirayotgan yuz",
+                "yuz",
+            ],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("mặt có mắt đu đưa"),
+            keywords: &["mắt", "mặt", "mặt có mắt đu đưa", "đu đưa"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("kanam guy regeju"),
+            keywords: &["bët", "kanam", "kanam guy regeju", "regeju"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ubuso obunamehlo ajikelezayo"),
+            keywords: &[
+                "amehlo",
+                "ubuso",
+                "ubuso obunamehlo ajikelezayo",
+                "ukujikeleza",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Ojú Pẹ\u{300}lú Ẹyinjú tó yín"),
+            keywords: &[
+                "Ojú Pẹ\u{300}lú Ẹyinjú tó yín",
+                "ojú",
+                "tó yín",
+                "àwọn ẹyinjú",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("圓碌碌大眼嘅臉"),
+            keywords: &["圓碌碌", "圓碌碌大眼嘅臉", "眼", "臉"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("圆碌碌大眼嘅脸"),
+            keywords: &["圆碌碌", "圆碌碌大眼嘅脸", "眼", "脸"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("翻白眼"),
+            keywords: &["无语", "白眼", "翻白眼", "脸"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("翻白眼"),
+            keywords: &["不屑", "翻白眼", "鄙視"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("反白眼嘅表情"),
+            keywords: &["不屑", "反白眼嘅表情", "鄙視"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ubuso obupheqa amehlo"),
+            keywords: &["amehlo", "pheqa amehlo", "ubuso", "ubuso obupheqa amehlo"],
+        },
+    ],
+};
 #[doc = "😬"]
 pub const GRIMACING_FACE: crate::Emoji = crate::Emoji {
     glyph: "😬",

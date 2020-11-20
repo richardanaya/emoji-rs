@@ -1,7 +1,1761 @@
 #[doc = "🏧"]
-pub const ATM_SIGN : crate :: Emoji = crate :: Emoji { glyph : "🏧" , codepoint : "1F3E7" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "ATM sign" , group : "Symbols" , subgroup : "transport-sign" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("ATM-teken") , keywords : & ["ATM-teken" , "OTM" , "bank" , "kassier" , "kitsbank"] , } , crate :: Annotation { lang : "am" , tts : Some ("የኤቲኤም ምልክት") , keywords : & ["ራስ-ሰር" , "ባንክ" , "ኤቲኤም" , "የኤቲኤም ምልክት" , "ገንዘብ ከፋይ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("علامة ماكينة صرف آلي") , keywords : & ["ATM" , "صراف آلي" , "علامة صراف آلي" , "علامة ماكينة صراف آلي" , "علامة ماكينة صرف آلي"] , } , crate :: Annotation { lang : "as" , tts : Some ("এটিএম চিহ\u{9cd}ন") , keywords : & ["এটিএম" , "এটিএম চিহ\u{9cd}ন" , "টেল\u{9be}ৰ" , "বেংক" , "স\u{9cd}বয\u{9bc}ংক\u{9cd}ৰিয\u{9bc}"] , } , crate :: Annotation { lang : "az" , tts : Some ("Bankomat işarəsi") , keywords : & ["Bankomat işarəsi" , "avtomat" , "bank" , "bankomat" , "kassir"] , } , crate :: Annotation { lang : "be" , tts : Some ("знак банкамата") , keywords : & ["банкамат" , "гатоўка" , "знак" , "знак банкамата" , "наяўныя" , "тэрмінал"] , } , crate :: Annotation { lang : "bg" , tts : Some ("знак за банкомат") , keywords : & ["банка" , "банков автомат" , "банкомат" , "знак за банкомат"] , } , crate :: Annotation { lang : "bn" , tts : Some ("এটিএম চিহ\u{9cd}ন") , keywords : & ["এটিএম" , "এটিএম চিহ\u{9cd}ন" , "টেল\u{9be}র" , "ব\u{9cd}য\u{9be}ংক" , "স\u{9cd}বয\u{9bc}ংক\u{9cd}রিয\u{9bc}"] , } , crate :: Annotation { lang : "br" , tts : Some ("arlun bilhedaouer") , keywords : & ["arcʼhant" , "arlun bilhedaouer" , "bank" , "bilhedaouer"] , } , crate :: Annotation { lang : "bs" , tts : Some ("oznaka bankomata") , keywords : & ["banka" , "bankomat" , "blagajna" , "oznaka bankomata" , "znak"] , } , crate :: Annotation { lang : "ca" , tts : Some ("signe de caixer automàtic") , keywords : & ["atm" , "banc" , "caixer" , "caixer automàtic" , "signe de caixer automàtic"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ATM ᎪᏪᎵ") , keywords : & ["ATM ᎪᏪᎵ" , "atm" , "ᎠᏕᎳ ᏧᏂᏗᎢ" , "ᎠᏕᎳ ᏧᏂᏗᎢ ᏧᎸᏫᏍᏓᏁᎯ" , "ᎤᏩᏌ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("značka bankomatu") , keywords : & ["atm" , "automat" , "banka" , "bankomat" , "značka bankomatu"] , } , crate :: Annotation { lang : "cy" , tts : Some ("arwydd peiriant codi arian") , keywords : & ["arwydd peiriant codi arian" , "atm" , "awtomataidd" , "banc" , "clerc"] , } , crate :: Annotation { lang : "da" , tts : Some ("hæveautomat") , keywords : & ["dankortautomat" , "hæve penge" , "hæveautomat"] , } , crate :: Annotation { lang : "de" , tts : Some ("Symbol „Geldautomat“") , keywords : & ["ATM" , "Symbol „Geldautomat“"] , } , crate :: Annotation { lang : "el" , tts : Some ("σήμα ATM") , keywords : & ["ATM" , "αυτοματοποιημένο" , "αυτόματο" , "σήμα ATM" , "τράπεζα"] , } , crate :: Annotation { lang : "en" , tts : Some ("ATM sign") , keywords : & ["ATM sign" , "atm" , "automated" , "bank" , "teller"] , } , crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["ATM sign" , "atm" , "automated" , "bank" , "cashpoint" , "teller"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("señal de cajero automático") , keywords : & ["atm" , "banco" , "cajero" , "señal de cajero automático"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("cajero automático") , keywords : & ["atm" , "banco" , "cajero" , "cajero automático" , "señal de cajero automático"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("cartel de cajero automático") , keywords : & ["cartel de cajero automático"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("pangaautomaat") , keywords : & ["pangaautomaat" , "sularaha" , "teller"] , } , crate :: Annotation { lang : "eu" , tts : Some ("kutxazainaren seinalea") , keywords : & ["automatiko" , "banku" , "kutxazain" , "kutxazainaren seinalea"] , } , crate :: Annotation { lang : "fa" , tts : Some ("نشان عابربانک") , keywords : & ["ای تی ام" , "بانک" , "خودپرداز" , "دستگاه" , "عابربانک" , "نشان خودپرداز" , "نشان عابربانک"] , } , crate :: Annotation { lang : "fi" , tts : Some ("pankkiautomaatti") , keywords : & ["automaatti" , "otto" , "pankki" , "pankkiautomaatti"] , } , crate :: Annotation { lang : "fil" , tts : Some ("tanda ng ATM") , keywords : & ["ATM" , "automated" , "bangko" , "karatula" , "tanda ng ATM" , "teller"] , } , crate :: Annotation { lang : "fo" , tts : Some ("sjálvtøkuskeltið") , keywords : & ["automat" , "pengar" , "sjálvtøka" , "sjálvtøkuskeltið" , "út"] , } , crate :: Annotation { lang : "fr" , tts : Some ("distributeur de billets") , keywords : & ["argent" , "dab" , "distributeur de billets"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("guichet automatique bancaire") , keywords : & ["bancaire" , "banque" , "gab" , "guichet" , "guichet automatique bancaire"] , } , crate :: Annotation { lang : "ga" , tts : Some ("comhartha ATM") , keywords : & ["ATM" , "UMB" , "comhartha ATM" , "meaisín bainc" , "poll an bhainc"] , } , crate :: Annotation { lang : "gd" , tts : Some ("sanas ATM") , keywords : & ["airgead" , "airgead-làimhe" , "atm" , "banca" , "fèin-obrachail" , "inneal" , "neach-cunntaidh" , "sanas ATM"] , } , crate :: Annotation { lang : "gl" , tts : Some ("sinal de caixeiro automático") , keywords : & ["banco" , "caixeiro" , "diñeiro" , "sinal de caixeiro automático"] , } , crate :: Annotation { lang : "gu" , tts : Some ("એટીએમન\u{ac1}\u{a82} ચિહ\u{acd}ન") , keywords : & ["એટીએમ" , "એટીએમન\u{ac1}\u{a82} ચિહ\u{acd}ન" , "ઑટોમ\u{ac7}ટ\u{ac7}ડ" , "ટ\u{ac7}લર"] , } , crate :: Annotation { lang : "ha" , tts : Some ("alamar ATM") , keywords : & ["alamar ATM" , "atm" , "banki" , "mai sarrafa kansa" , "tela"] , } , crate :: Annotation { lang : "he" , tts : Some ("שלט כספומט") , keywords : & ["בנק" , "כסף" , "כספומט" , "שלט כספומט"] , } , crate :: Annotation { lang : "hi" , tts : Some ("ATM का चिह\u{94d}न") , keywords : & ["ATM का चिह\u{94d}न" , "एटीएम" , "ऑटोम\u{948}ट\u{947}ड ट\u{947}लर" , "ट\u{947}लर" , "स\u{94d}वचालित"] , } , crate :: Annotation { lang : "hr" , tts : Some ("znak za bankomat") , keywords : & ["bankomat" , "znak za bankomat"] , } , crate :: Annotation { lang : "hu" , tts : Some ("ATM-jel") , keywords : & ["ATM-jel" , "atm" , "bankautomata"] , } , crate :: Annotation { lang : "hy" , tts : Some ("բանկոմատի նշան") , keywords : & ["atm" , "բանկ" , "բանկոմատ" , "բանկոմատի նշան" , "գանձապահ"] , } , crate :: Annotation { lang : "ia" , tts : Some ("signo de cassa automatic") , keywords : & ["automatic" , "banca" , "billetes" , "cassa" , "distributor" , "signo de cassa automatic"] , } , crate :: Annotation { lang : "id" , tts : Some ("tanda ATM") , keywords : & ["atm" , "bank" , "otomatis" , "tanda ATM" , "teller"] , } , crate :: Annotation { lang : "ig" , tts : Some ("akara ATM") , keywords : & ["akara ATM" , "akwụkwọ nnataego" , "atm" , "mmereonwe" , "ụloakụ"] , } , crate :: Annotation { lang : "is" , tts : Some ("hraðbanki") , keywords : & ["banki" , "hraðbanki"] , } , crate :: Annotation { lang : "it" , tts : Some ("simbolo dello sportello bancomat") , keywords : & ["ATM" , "bancomat" , "simbolo dello sportello bancomat"] , } , crate :: Annotation { lang : "ja" , tts : Some ("ATM") , keywords : & ["ATM" , "現金自動預け払い機" , "銀行"] , } , crate :: Annotation { lang : "jv" , tts : Some ("tandha ATM") , keywords : & ["atm" , "bank" , "otomatis" , "tandha ATM" , "teller"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ბანკომატის ნიშანი") , keywords : & ["ბანკი" , "ბანკომატი" , "ბანკომატის ნიშანი"] , } , crate :: Annotation { lang : "kab" , tts : Some ("tamacint n tedrimt tawurmant") , keywords : & ["tamacint n tedrimt tawurmant"] , } , crate :: Annotation { lang : "kk" , tts : Some ("банкомат белгісі") , keywords : & ["автоматты" , "банк" , "банкомат" , "банкомат белгісі" , "есепші"] , } , crate :: Annotation { lang : "kl" , tts : Some ("pengeautomat") , keywords : & ["dankortsautomat" , "hæve penge" , "pengeautomat"] , } , crate :: Annotation { lang : "km" , tts : Some ("សញ\u{17d2}ញា អេធ\u{17b8}អ\u{17b9}ម") , keywords : & ["atm" , "ធនាគារ" , "សញ\u{17d2}ញា ATM" , "សញ\u{17d2}ញា អេធ\u{17b8}អ\u{17b9}ម" , "ស\u{17d2}វ\u{17d0}យប\u{17d2}រវត\u{17d2}ត\u{17b7}" , "អេធ\u{17b8}អ\u{17b9}ម"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಎಟ\u{cbf}ಎಂ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}") , keywords : & ["ಎಟ\u{cbf}ಎಂ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}" , "ಟ\u{cc6}ಲ\u{ccd}ಲರ\u{ccd}" , "ಬ\u{ccd}ಯಾಂಕ\u{ccd}" , "ಸ\u{ccd}ವಯಂಚಾಲ\u{cbf}ತ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("에이티엠") , keywords : & ["ATM" , "에이티엠" , "현금인출기"] , } , crate :: Annotation { lang : "kok" , tts : Some ("एटीएम चिन\u{94d}न") , keywords : & ["एटीएम" , "एटीएम चिन\u{94d}न" , "ट\u{947}लर" , "ब\u{901}क" , "स\u{94d}वय\u{902}चलीत"] , } , crate :: Annotation { lang : "ky" , tts : Some ("банкомат белгиси") , keywords : & ["банк" , "банкомат" , "банкомат белгиси"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Bancomat") , keywords : & ["ATM" , "Bancomat" , "Bank" , "ophiewen"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ເອທ\u{eb5}ເອ\u{eb1}ມ") , keywords : & ["ຕ\u{eb9}\u{ec9}ກ\u{ebb}ດເງ\u{eb4}ນ" , "ເອທ\u{eb5}ເອ\u{eb1}ມ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("bankomato ženklas") , keywords : & ["automatinis" , "bankas" , "bankomatas" , "bankomato ženklas" , "kasininkas"] , } , crate :: Annotation { lang : "lv" , tts : Some ("bankomāta zīme") , keywords : & ["ATM" , "bankomāta zīme" , "bankomāts" , "nauda"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tohu ATM") , keywords : & ["atm" , "kaiwhitimoni" , "pēke" , "tohu ATM" , "whakaaunoa"] , } , crate :: Annotation { lang : "mk" , tts : Some ("банкомат") , keywords : & ["банка" , "банкомат" , "пари"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ATM ചിഹ\u{d4d}നം") , keywords : & ["ATM ചിഹ\u{d4d}നം" , "ടെല\u{d4d}ലർ മെഷീൻ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("ATM-н тэмдэг") , keywords : & ["ATM" , "ATM-н тэмдэг" , "автоматжуулсан" , "банк" , "теллер"] , } , crate :: Annotation { lang : "mr" , tts : Some ("ATM चिन\u{94d}ह") , keywords : & ["ATM चिन\u{94d}ह" , "एटीएम" , "ऑटोम\u{947}ट\u{947}ड" , "ट\u{947}लर" , "ब\u{901}क"] , } , crate :: Annotation { lang : "ms" , tts : Some ("tanda ATM") , keywords : & ["atm" , "automatik" , "bank" , "juruwang" , "tanda ATM"] , } , crate :: Annotation { lang : "mt" , tts : Some ("tabella tal-ATM") , keywords : & ["atm" , "awtomatiku" , "bank" , "kaxxiera" , "tabella tal-ATM"] , } , crate :: Annotation { lang : "my" , tts : Some ("အေတ\u{102e}အမ\u{103a} င\u{103d}ေထ\u{102f}တ\u{103a}စက\u{103a} သင\u{103a}\u{1039}ကေတ") , keywords : & ["ဘဏ\u{103a}င\u{103d}ေထ\u{102f}တ\u{103a}စက\u{103a}" , "အလ\u{102d}\u{102f}အလျောက\u{103a}" , "အေတ\u{102e}အမ\u{103a}" , "အေတ\u{102e}အမ\u{103a} င\u{103d}ေထ\u{102f}တ\u{103a}စက\u{103a} သင\u{103a}\u{1039}ကေတ"] , } , crate :: Annotation { lang : "nb" , tts : Some ("minibankskilt") , keywords : & ["automatisk" , "bank" , "minibank" , "minibankskilt" , "penger"] , } , crate :: Annotation { lang : "ne" , tts : Some ("एटिएमको स\u{902}क\u{947}त") , keywords : & ["एटिएम" , "एटिएम चिन\u{94d}ह" , "एटिएमको स\u{902}क\u{947}त" , "ट\u{947}लर" , "ब\u{948}\u{902}क" , "स\u{94d}वचालित"] , } , crate :: Annotation { lang : "nl" , tts : Some ("pinautomaat") , keywords : & ["automaat" , "pinautomaat" , "pinnen"] , } , crate :: Annotation { lang : "nn" , tts : Some ("minibankskilt") , keywords : & ["automatisk" , "bank" , "minibank" , "minibankskilt" , "pengar"] , } , crate :: Annotation { lang : "or" , tts : Some ("ATM ଚ\u{b3f}ହ\u{b4d}ନ") , keywords : & ["ATM ଚ\u{b3f}ହ\u{b4d}ନ" , "atm" , "ବ\u{b4d}ୟ\u{b3e}ଙ\u{b4d}କ । ଟେଲର\u{b4d}\u{200c}" , "ସ\u{b4d}ୱଚ\u{b3e}ଳ\u{b3f}ତ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ATM ਚਿ\u{a70}ਨ\u{a4d}ਹ") , keywords : & ["ATM ਚਿ\u{a70}ਨ\u{a4d}ਹ" , "ਏਟੀਐਮ" , "ਗਿਣਨਾ" , "ਸਵ\u{a48}-ਚਲਤ" , "ਸਵ\u{a48}-ਚਲਤ ਗਿਣਤੀ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("ATM دی علامت") , keywords : & ["ATM دی علامت" , "اے ٹی ایم" , "بولن آلا" , "بینک" , "خودکار"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("ATM Sain") , keywords : & ["ATM" , "ATM Sain" , "Bank" , "Tẹ\u{301}la" , "Ọtọmátik"] , } , crate :: Annotation { lang : "pl" , tts : Some ("znak bankomatu") , keywords : & ["ATM" , "znak bankomatu"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د ای ټي ايم نښه") , keywords : & ["اټوماټ" , "ای ټي ايم" , "بانک" , "د ای ټي ايم نښه" , "ټيلر"] , } , crate :: Annotation { lang : "pt" , tts : Some ("símbolo de caixa automático") , keywords : & ["automático" , "banco" , "caixa" , "símbolo de caixa automático"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("sinal de caixa automática") , keywords : & ["banco" , "caixa" , "sinal de caixa automática" , "sinal de multibanco"] , } , crate :: Annotation { lang : "qu" , tts : Some ("ATM unancha") , keywords : & ["ATM unancha" , "atm" , "banco" , "cajero" , "kikichansqa"] , } , crate :: Annotation { lang : "ro" , tts : Some ("simbol pentru bancomat") , keywords : & ["atm" , "automat bancar" , "bancomat" , "simbol pentru bancomat"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-423") , keywords : & ["E10-423"] , } , crate :: Annotation { lang : "ru" , tts : Some ("значок банкомата") , keywords : & ["банкомат" , "выдача" , "деньги" , "значок банкомата" , "наличные" , "терминал"] , } , crate :: Annotation { lang : "rw" , tts : Some ("icyapa cy’imashini ya ATM") , keywords : & ["banki" , "cyikoresha" , "icyapa cy’imashini ya ATM" , "icyuma cya atm" , "ukora kuri gishe"] , } , crate :: Annotation { lang : "sd" , tts : Some ("اي ٽي ايم جي نشاني") , keywords : & ["اي ٽي ايم" , "اي ٽي ايم جي نشاني" , "بئنڪ" , "خودڪار ٿيل" , "ٽيلر"] , } , crate :: Annotation { lang : "si" , tts : Some ("ATM ලක\u{dd4}ණ") , keywords : & ["ATM ලක\u{dd4}ණ" , "atm" , "ටෙලර\u{dca}" , "ස\u{dca}වයංක\u{dca}\u{200d}ර\u{dd2}ය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("bankomat") , keywords : & ["automat" , "banka" , "bankomat" , "hotovosť"] , } , crate :: Annotation { lang : "sl" , tts : Some ("znak za bankomat") , keywords : & ["avtomat" , "bankomat" , "denar" , "znak za bankomat"] , } , crate :: Annotation { lang : "so" , tts : Some ("calaamadda ATM") , keywords : & ["atm" , "bangiga" , "baqshinka" , "calaamadda ATM" , "tooska ah"] , } , crate :: Annotation { lang : "sq" , tts : Some ("shenja e bankomatit") , keywords : & ["atm" , "bankomat" , "bankë" , "shenja e bankomatit" , "sportel"] , } , crate :: Annotation { lang : "sr" , tts : Some ("знак за банкомат") , keywords : & ["бaнкoмaт" , "знак за банкомат"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("znak za bankomat") , keywords : & ["bankomat" , "znak za bankomat"] , } , crate :: Annotation { lang : "sv" , tts : Some ("bankomat") , keywords : & ["bankomat" , "bankomatskylt" , "pengar" , "uttagsautomat"] , } , crate :: Annotation { lang : "sw" , tts : Some ("alama ya ATM") , keywords : & ["alama ya ATM" , "atm" , "benki" , "mwenye kuhesabu" , "otomatiki"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ஏடிஎம\u{bcd}") , keywords : & ["ஏடிஎம\u{bcd}" , "த\u{bbe}னியங\u{bcd}கி இயந\u{bcd}திரம\u{bcd}" , "வங\u{bcd}கி"] , } , crate :: Annotation { lang : "te" , tts : Some ("ఏట\u{c3f}ఎమ\u{c4d}") , keywords : & ["ఆట\u{c4b}మ\u{c47}ట\u{c46}డ\u{c4d}" , "ఎట\u{c3f}ఎమ\u{c4d}" , "ఏట\u{c3f}ఎమ\u{c4d}" , "ట\u{c46}ల\u{c4d}లర\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("аломати \"Банкомат\"") , keywords : & ["аломати \"Банкомат\"" , "банкомат" , "бонк" , "гӯянда" , "худкор"] , } , crate :: Annotation { lang : "th" , tts : Some ("เอท\u{e35}เอ\u{e47}ม") , keywords : & ["ธนาคาร" , "ฝาก-ถอน" , "อ\u{e31}ตโนม\u{e31}ต\u{e34}" , "เคร\u{e37}\u{e48}องกดเง\u{e34}น" , "เง\u{e34}น" , "เอท\u{e35}เอ\u{e47}ม"] , } , crate :: Annotation { lang : "ti" , tts : Some ("ምልክት ATM") , keywords : & ["atm" , "ምልክት ATM" , "ቅልጡፍ" , "ባንክ" , "ተሓዚ ገንዘብ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("bankomat belgisi") , keywords : & ["atm" , "awtomatlaşdyrylan" , "bank" , "bankomat" , "bankomat belgisi"] , } , crate :: Annotation { lang : "to" , tts : Some ("mīsini toho paʻanga") , keywords : & ["mīsini" , "mīsini toho paʻanga" , "pangikē" , "toho paʻanga"] , } , crate :: Annotation { lang : "tr" , tts : Some ("ATM işareti") , keywords : & ["ATM işareti" , "otomatik" , "vezne"] , } , crate :: Annotation { lang : "ug" , tts : Some ("پۇلئالغۇ بەلگىسى") , keywords : & ["atm" , "ئاپتوماتىك" , "بانكا" , "پۇلئالغۇ" , "پۇلئالغۇ بەلگىسى"] , } , crate :: Annotation { lang : "uk" , tts : Some ("символ банкомата") , keywords : & ["банкомат" , "банківський автомат" , "знак банкомата" , "символ банкомата" , "термінал самообслуговування"] , } , crate :: Annotation { lang : "ur" , tts : Some ("اے ٹی ایم کی علامت") , keywords : & ["آٹو میٹک" , "اے ٹی ایم" , "اے ٹی ایم کی علامت" , "بنک" , "رقم"] , } , crate :: Annotation { lang : "uz" , tts : Some ("bankomat") , keywords : & ["atm" , "bank" , "bankomat"] , } , crate :: Annotation { lang : "vi" , tts : Some ("ký hiệu ATM") , keywords : & ["atm" , "ký hiệu ATM" , "máy rút tiền" , "ngân hàng" , "tự động"] , } , crate :: Annotation { lang : "wo" , tts : Some ("màndarga ATM") , keywords : & ["atm" , "bànk" , "màndarga ATM" , "otomated" , "waxkat"] , } , crate :: Annotation { lang : "xh" , tts : Some ("uphawu lwe-ATM") , keywords : & ["ezenzekelayo" , "i-atm" , "ibhanki" , "ithela" , "uphawu lwe-ATM"] , } , crate :: Annotation { lang : "yo" , tts : Some ("Aami ATM") , keywords : & ["Aami ATM" , "ilé-ìfowópamó\u{329}" , "tẹ\u{301}là" , "àdásísẹ\u{301}" , "ẹ\u{300}rọ apọwó"] , } , crate :: Annotation { lang : "yue" , tts : Some ("自動櫃員機標誌") , keywords : & ["櫃檯職員" , "自動化" , "自動櫃員機" , "自動櫃員機標誌" , "銀行"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("自动柜员机标志") , keywords : & ["柜台职员" , "自动化" , "自动柜员机" , "自动柜员机标志" , "银行"] , } , crate :: Annotation { lang : "zh" , tts : Some ("取款机") , keywords : & ["取款机" , "柜员机" , "标识" , "银行"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("提款機") , keywords : & ["提款機"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "zu" , tts : Some ("uphawu lwe-ATM") , keywords : & ["i-atm" , "ibhange" , "okuzenzakalelayo" , "uphawu lwe-ATM" , "uthela"] , }] , } ;
+pub const ATM_SIGN: crate::Emoji = crate::Emoji {
+    glyph: "🏧",
+    codepoint: "1F3E7",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "ATM sign",
+    group: "Symbols",
+    subgroup: "transport-sign",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("ATM-teken"),
+            keywords: &["ATM-teken", "OTM", "bank", "kassier", "kitsbank"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የኤቲኤም ምልክት"),
+            keywords: &["ራስ-ሰር", "ባንክ", "ኤቲኤም", "የኤቲኤም ምልክት", "ገንዘብ ከፋይ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("علامة ماكينة صرف آلي"),
+            keywords: &[
+                "ATM",
+                "صراف آلي",
+                "علامة صراف آلي",
+                "علامة ماكينة صراف آلي",
+                "علامة ماكينة صرف آلي",
+            ],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("এটিএম চিহ\u{9cd}ন"),
+            keywords: &[
+                "এটিএম",
+                "এটিএম চিহ\u{9cd}ন",
+                "টেল\u{9be}ৰ",
+                "বেংক",
+                "স\u{9cd}বয\u{9bc}ংক\u{9cd}ৰিয\u{9bc}",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("Bankomat işarəsi"),
+            keywords: &["Bankomat işarəsi", "avtomat", "bank", "bankomat", "kassir"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("знак банкамата"),
+            keywords: &[
+                "банкамат",
+                "гатоўка",
+                "знак",
+                "знак банкамата",
+                "наяўныя",
+                "тэрмінал",
+            ],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("знак за банкомат"),
+            keywords: &["банка", "банков автомат", "банкомат", "знак за банкомат"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("এটিএম চিহ\u{9cd}ন"),
+            keywords: &[
+                "এটিএম",
+                "এটিএম চিহ\u{9cd}ন",
+                "টেল\u{9be}র",
+                "ব\u{9cd}য\u{9be}ংক",
+                "স\u{9cd}বয\u{9bc}ংক\u{9cd}রিয\u{9bc}",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("arlun bilhedaouer"),
+            keywords: &["arcʼhant", "arlun bilhedaouer", "bank", "bilhedaouer"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("oznaka bankomata"),
+            keywords: &["banka", "bankomat", "blagajna", "oznaka bankomata", "znak"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("signe de caixer automàtic"),
+            keywords: &[
+                "atm",
+                "banc",
+                "caixer",
+                "caixer automàtic",
+                "signe de caixer automàtic",
+            ],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ATM ᎪᏪᎵ"),
+            keywords: &["ATM ᎪᏪᎵ", "atm", "ᎠᏕᎳ ᏧᏂᏗᎢ", "ᎠᏕᎳ ᏧᏂᏗᎢ ᏧᎸᏫᏍᏓᏁᎯ", "ᎤᏩᏌ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("značka bankomatu"),
+            keywords: &["atm", "automat", "banka", "bankomat", "značka bankomatu"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("arwydd peiriant codi arian"),
+            keywords: &[
+                "arwydd peiriant codi arian",
+                "atm",
+                "awtomataidd",
+                "banc",
+                "clerc",
+            ],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("hæveautomat"),
+            keywords: &["dankortautomat", "hæve penge", "hæveautomat"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Symbol „Geldautomat“"),
+            keywords: &["ATM", "Symbol „Geldautomat“"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("σήμα ATM"),
+            keywords: &["ATM", "αυτοματοποιημένο", "αυτόματο", "σήμα ATM", "τράπεζα"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("ATM sign"),
+            keywords: &["ATM sign", "atm", "automated", "bank", "teller"],
+        },
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &[
+                "ATM sign",
+                "atm",
+                "automated",
+                "bank",
+                "cashpoint",
+                "teller",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("señal de cajero automático"),
+            keywords: &["atm", "banco", "cajero", "señal de cajero automático"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("cajero automático"),
+            keywords: &[
+                "atm",
+                "banco",
+                "cajero",
+                "cajero automático",
+                "señal de cajero automático",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("cartel de cajero automático"),
+            keywords: &["cartel de cajero automático"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("pangaautomaat"),
+            keywords: &["pangaautomaat", "sularaha", "teller"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("kutxazainaren seinalea"),
+            keywords: &["automatiko", "banku", "kutxazain", "kutxazainaren seinalea"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("نشان عابربانک"),
+            keywords: &[
+                "ای تی ام",
+                "بانک",
+                "خودپرداز",
+                "دستگاه",
+                "عابربانک",
+                "نشان خودپرداز",
+                "نشان عابربانک",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("pankkiautomaatti"),
+            keywords: &["automaatti", "otto", "pankki", "pankkiautomaatti"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("tanda ng ATM"),
+            keywords: &[
+                "ATM",
+                "automated",
+                "bangko",
+                "karatula",
+                "tanda ng ATM",
+                "teller",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("sjálvtøkuskeltið"),
+            keywords: &["automat", "pengar", "sjálvtøka", "sjálvtøkuskeltið", "út"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("distributeur de billets"),
+            keywords: &["argent", "dab", "distributeur de billets"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("guichet automatique bancaire"),
+            keywords: &[
+                "bancaire",
+                "banque",
+                "gab",
+                "guichet",
+                "guichet automatique bancaire",
+            ],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("comhartha ATM"),
+            keywords: &[
+                "ATM",
+                "UMB",
+                "comhartha ATM",
+                "meaisín bainc",
+                "poll an bhainc",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("sanas ATM"),
+            keywords: &[
+                "airgead",
+                "airgead-làimhe",
+                "atm",
+                "banca",
+                "fèin-obrachail",
+                "inneal",
+                "neach-cunntaidh",
+                "sanas ATM",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("sinal de caixeiro automático"),
+            keywords: &[
+                "banco",
+                "caixeiro",
+                "diñeiro",
+                "sinal de caixeiro automático",
+            ],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("એટીએમન\u{ac1}\u{a82} ચિહ\u{acd}ન"),
+            keywords: &[
+                "એટીએમ",
+                "એટીએમન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+                "ઑટોમ\u{ac7}ટ\u{ac7}ડ",
+                "ટ\u{ac7}લર",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("alamar ATM"),
+            keywords: &["alamar ATM", "atm", "banki", "mai sarrafa kansa", "tela"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("שלט כספומט"),
+            keywords: &["בנק", "כסף", "כספומט", "שלט כספומט"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("ATM का चिह\u{94d}न"),
+            keywords: &[
+                "ATM का चिह\u{94d}न",
+                "एटीएम",
+                "ऑटोम\u{948}ट\u{947}ड ट\u{947}लर",
+                "ट\u{947}लर",
+                "स\u{94d}वचालित",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("znak za bankomat"),
+            keywords: &["bankomat", "znak za bankomat"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("ATM-jel"),
+            keywords: &["ATM-jel", "atm", "bankautomata"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("բանկոմատի նշան"),
+            keywords: &["atm", "բանկ", "բանկոմատ", "բանկոմատի նշան", "գանձապահ"],
+        },
+        crate::Annotation {
+            lang: "ia",
+            tts: Some("signo de cassa automatic"),
+            keywords: &[
+                "automatic",
+                "banca",
+                "billetes",
+                "cassa",
+                "distributor",
+                "signo de cassa automatic",
+            ],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("tanda ATM"),
+            keywords: &["atm", "bank", "otomatis", "tanda ATM", "teller"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("akara ATM"),
+            keywords: &[
+                "akara ATM",
+                "akwụkwọ nnataego",
+                "atm",
+                "mmereonwe",
+                "ụloakụ",
+            ],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("hraðbanki"),
+            keywords: &["banki", "hraðbanki"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("simbolo dello sportello bancomat"),
+            keywords: &["ATM", "bancomat", "simbolo dello sportello bancomat"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("ATM"),
+            keywords: &["ATM", "現金自動預け払い機", "銀行"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("tandha ATM"),
+            keywords: &["atm", "bank", "otomatis", "tandha ATM", "teller"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ბანკომატის ნიშანი"),
+            keywords: &["ბანკი", "ბანკომატი", "ბანკომატის ნიშანი"],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tamacint n tedrimt tawurmant"),
+            keywords: &["tamacint n tedrimt tawurmant"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("банкомат белгісі"),
+            keywords: &[
+                "автоматты",
+                "банк",
+                "банкомат",
+                "банкомат белгісі",
+                "есепші",
+            ],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("pengeautomat"),
+            keywords: &["dankortsautomat", "hæve penge", "pengeautomat"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("សញ\u{17d2}ញា អេធ\u{17b8}អ\u{17b9}ម"),
+            keywords: &[
+                "atm",
+                "ធនាគារ",
+                "សញ\u{17d2}ញា ATM",
+                "សញ\u{17d2}ញា អេធ\u{17b8}អ\u{17b9}ម",
+                "ស\u{17d2}វ\u{17d0}យប\u{17d2}រវត\u{17d2}ត\u{17b7}",
+                "អេធ\u{17b8}អ\u{17b9}ម",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಎಟ\u{cbf}ಎಂ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}"),
+            keywords: &[
+                "ಎಟ\u{cbf}ಎಂ ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+                "ಟ\u{cc6}ಲ\u{ccd}ಲರ\u{ccd}",
+                "ಬ\u{ccd}ಯಾಂಕ\u{ccd}",
+                "ಸ\u{ccd}ವಯಂಚಾಲ\u{cbf}ತ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("에이티엠"),
+            keywords: &["ATM", "에이티엠", "현금인출기"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("एटीएम चिन\u{94d}न"),
+            keywords: &[
+                "एटीएम",
+                "एटीएम चिन\u{94d}न",
+                "ट\u{947}लर",
+                "ब\u{901}क",
+                "स\u{94d}वय\u{902}चलीत",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("банкомат белгиси"),
+            keywords: &["банк", "банкомат", "банкомат белгиси"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Bancomat"),
+            keywords: &["ATM", "Bancomat", "Bank", "ophiewen"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ເອທ\u{eb5}ເອ\u{eb1}ມ"),
+            keywords: &["ຕ\u{eb9}\u{ec9}ກ\u{ebb}ດເງ\u{eb4}ນ", "ເອທ\u{eb5}ເອ\u{eb1}ມ"],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("bankomato ženklas"),
+            keywords: &[
+                "automatinis",
+                "bankas",
+                "bankomatas",
+                "bankomato ženklas",
+                "kasininkas",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("bankomāta zīme"),
+            keywords: &["ATM", "bankomāta zīme", "bankomāts", "nauda"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tohu ATM"),
+            keywords: &["atm", "kaiwhitimoni", "pēke", "tohu ATM", "whakaaunoa"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("банкомат"),
+            keywords: &["банка", "банкомат", "пари"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("ATM ചിഹ\u{d4d}നം"),
+            keywords: &["ATM ചിഹ\u{d4d}നം", "ടെല\u{d4d}ലർ മെഷീൻ"],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("ATM-н тэмдэг"),
+            keywords: &["ATM", "ATM-н тэмдэг", "автоматжуулсан", "банк", "теллер"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("ATM चिन\u{94d}ह"),
+            keywords: &[
+                "ATM चिन\u{94d}ह",
+                "एटीएम",
+                "ऑटोम\u{947}ट\u{947}ड",
+                "ट\u{947}लर",
+                "ब\u{901}क",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("tanda ATM"),
+            keywords: &["atm", "automatik", "bank", "juruwang", "tanda ATM"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("tabella tal-ATM"),
+            keywords: &["atm", "awtomatiku", "bank", "kaxxiera", "tabella tal-ATM"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "အေတ\u{102e}အမ\u{103a} င\u{103d}ေထ\u{102f}တ\u{103a}စက\u{103a} သင\u{103a}\u{1039}ကေတ",
+            ),
+            keywords: &[
+                "ဘဏ\u{103a}င\u{103d}ေထ\u{102f}တ\u{103a}စက\u{103a}",
+                "အလ\u{102d}\u{102f}အလျောက\u{103a}",
+                "အေတ\u{102e}အမ\u{103a}",
+                "အေတ\u{102e}အမ\u{103a} င\u{103d}ေထ\u{102f}တ\u{103a}စက\u{103a} သင\u{103a}\u{1039}ကေတ",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("minibankskilt"),
+            keywords: &["automatisk", "bank", "minibank", "minibankskilt", "penger"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("एटिएमको स\u{902}क\u{947}त"),
+            keywords: &[
+                "एटिएम",
+                "एटिएम चिन\u{94d}ह",
+                "एटिएमको स\u{902}क\u{947}त",
+                "ट\u{947}लर",
+                "ब\u{948}\u{902}क",
+                "स\u{94d}वचालित",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("pinautomaat"),
+            keywords: &["automaat", "pinautomaat", "pinnen"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("minibankskilt"),
+            keywords: &["automatisk", "bank", "minibank", "minibankskilt", "pengar"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ATM ଚ\u{b3f}ହ\u{b4d}ନ"),
+            keywords: &[
+                "ATM ଚ\u{b3f}ହ\u{b4d}ନ",
+                "atm",
+                "ବ\u{b4d}ୟ\u{b3e}ଙ\u{b4d}କ । ଟେଲର\u{b4d}\u{200c}",
+                "ସ\u{b4d}ୱଚ\u{b3e}ଳ\u{b3f}ତ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ATM ਚਿ\u{a70}ਨ\u{a4d}ਹ"),
+            keywords: &[
+                "ATM ਚਿ\u{a70}ਨ\u{a4d}ਹ",
+                "ਏਟੀਐਮ",
+                "ਗਿਣਨਾ",
+                "ਸਵ\u{a48}-ਚਲਤ",
+                "ਸਵ\u{a48}-ਚਲਤ ਗਿਣਤੀ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("ATM دی علامت"),
+            keywords: &["ATM دی علامت", "اے ٹی ایم", "بولن آلا", "بینک", "خودکار"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("ATM Sain"),
+            keywords: &["ATM", "ATM Sain", "Bank", "Tẹ\u{301}la", "Ọtọmátik"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("znak bankomatu"),
+            keywords: &["ATM", "znak bankomatu"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د ای ټي ايم نښه"),
+            keywords: &["اټوماټ", "ای ټي ايم", "بانک", "د ای ټي ايم نښه", "ټيلر"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("símbolo de caixa automático"),
+            keywords: &[
+                "automático",
+                "banco",
+                "caixa",
+                "símbolo de caixa automático",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("sinal de caixa automática"),
+            keywords: &[
+                "banco",
+                "caixa",
+                "sinal de caixa automática",
+                "sinal de multibanco",
+            ],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("ATM unancha"),
+            keywords: &["ATM unancha", "atm", "banco", "cajero", "kikichansqa"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("simbol pentru bancomat"),
+            keywords: &[
+                "atm",
+                "automat bancar",
+                "bancomat",
+                "simbol pentru bancomat",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-423"),
+            keywords: &["E10-423"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("значок банкомата"),
+            keywords: &[
+                "банкомат",
+                "выдача",
+                "деньги",
+                "значок банкомата",
+                "наличные",
+                "терминал",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("icyapa cy’imashini ya ATM"),
+            keywords: &[
+                "banki",
+                "cyikoresha",
+                "icyapa cy’imashini ya ATM",
+                "icyuma cya atm",
+                "ukora kuri gishe",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("اي ٽي ايم جي نشاني"),
+            keywords: &[
+                "اي ٽي ايم",
+                "اي ٽي ايم جي نشاني",
+                "بئنڪ",
+                "خودڪار ٿيل",
+                "ٽيلر",
+            ],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ATM ලක\u{dd4}ණ"),
+            keywords: &[
+                "ATM ලක\u{dd4}ණ",
+                "atm",
+                "ටෙලර\u{dca}",
+                "ස\u{dca}වයංක\u{dca}\u{200d}ර\u{dd2}ය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("bankomat"),
+            keywords: &["automat", "banka", "bankomat", "hotovosť"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("znak za bankomat"),
+            keywords: &["avtomat", "bankomat", "denar", "znak za bankomat"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("calaamadda ATM"),
+            keywords: &["atm", "bangiga", "baqshinka", "calaamadda ATM", "tooska ah"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("shenja e bankomatit"),
+            keywords: &["atm", "bankomat", "bankë", "shenja e bankomatit", "sportel"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("знак за банкомат"),
+            keywords: &["бaнкoмaт", "знак за банкомат"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("znak za bankomat"),
+            keywords: &["bankomat", "znak za bankomat"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("bankomat"),
+            keywords: &["bankomat", "bankomatskylt", "pengar", "uttagsautomat"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("alama ya ATM"),
+            keywords: &[
+                "alama ya ATM",
+                "atm",
+                "benki",
+                "mwenye kuhesabu",
+                "otomatiki",
+            ],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ஏடிஎம\u{bcd}"),
+            keywords: &[
+                "ஏடிஎம\u{bcd}",
+                "த\u{bbe}னியங\u{bcd}கி இயந\u{bcd}திரம\u{bcd}",
+                "வங\u{bcd}கி",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ఏట\u{c3f}ఎమ\u{c4d}"),
+            keywords: &[
+                "ఆట\u{c4b}మ\u{c47}ట\u{c46}డ\u{c4d}",
+                "ఎట\u{c3f}ఎమ\u{c4d}",
+                "ఏట\u{c3f}ఎమ\u{c4d}",
+                "ట\u{c46}ల\u{c4d}లర\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("аломати \"Банкомат\""),
+            keywords: &[
+                "аломати \"Банкомат\"",
+                "банкомат",
+                "бонк",
+                "гӯянда",
+                "худкор",
+            ],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("เอท\u{e35}เอ\u{e47}ม"),
+            keywords: &[
+                "ธนาคาร",
+                "ฝาก-ถอน",
+                "อ\u{e31}ตโนม\u{e31}ต\u{e34}",
+                "เคร\u{e37}\u{e48}องกดเง\u{e34}น",
+                "เง\u{e34}น",
+                "เอท\u{e35}เอ\u{e47}ม",
+            ],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ምልክት ATM"),
+            keywords: &["atm", "ምልክት ATM", "ቅልጡፍ", "ባንክ", "ተሓዚ ገንዘብ"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("bankomat belgisi"),
+            keywords: &[
+                "atm",
+                "awtomatlaşdyrylan",
+                "bank",
+                "bankomat",
+                "bankomat belgisi",
+            ],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("mīsini toho paʻanga"),
+            keywords: &["mīsini", "mīsini toho paʻanga", "pangikē", "toho paʻanga"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("ATM işareti"),
+            keywords: &["ATM işareti", "otomatik", "vezne"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("پۇلئالغۇ بەلگىسى"),
+            keywords: &["atm", "ئاپتوماتىك", "بانكا", "پۇلئالغۇ", "پۇلئالغۇ بەلگىسى"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("символ банкомата"),
+            keywords: &[
+                "банкомат",
+                "банківський автомат",
+                "знак банкомата",
+                "символ банкомата",
+                "термінал самообслуговування",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("اے ٹی ایم کی علامت"),
+            keywords: &["آٹو میٹک", "اے ٹی ایم", "اے ٹی ایم کی علامت", "بنک", "رقم"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("bankomat"),
+            keywords: &["atm", "bank", "bankomat"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("ký hiệu ATM"),
+            keywords: &["atm", "ký hiệu ATM", "máy rút tiền", "ngân hàng", "tự động"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("màndarga ATM"),
+            keywords: &["atm", "bànk", "màndarga ATM", "otomated", "waxkat"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("uphawu lwe-ATM"),
+            keywords: &[
+                "ezenzekelayo",
+                "i-atm",
+                "ibhanki",
+                "ithela",
+                "uphawu lwe-ATM",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("Aami ATM"),
+            keywords: &[
+                "Aami ATM",
+                "ilé-ìfowópamó\u{329}",
+                "tẹ\u{301}là",
+                "àdásísẹ\u{301}",
+                "ẹ\u{300}rọ apọwó",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("自動櫃員機標誌"),
+            keywords: &["櫃檯職員", "自動化", "自動櫃員機", "自動櫃員機標誌", "銀行"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("自动柜员机标志"),
+            keywords: &["柜台职员", "自动化", "自动柜员机", "自动柜员机标志", "银行"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("取款机"),
+            keywords: &["取款机", "柜员机", "标识", "银行"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("提款機"),
+            keywords: &["提款機"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("uphawu lwe-ATM"),
+            keywords: &[
+                "i-atm",
+                "ibhange",
+                "okuzenzakalelayo",
+                "uphawu lwe-ATM",
+                "uthela",
+            ],
+        },
+    ],
+};
 #[doc = "🚮"]
-pub const LITTER_IN_BIN_SIGN : crate :: Emoji = crate :: Emoji { glyph : "🚮" , codepoint : "1F6AE" , status : crate :: Status :: FullyQualified , introduction_version : 1f32 , name : "litter in bin sign" , group : "Symbols" , subgroup : "transport-sign" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("\"vullis in drom\"-teken") , keywords : & ["\"vullis in drom\"-teken" , "vullis" , "vullisblik"] , } , crate :: Annotation { lang : "am" , tts : Some ("በቆሻሻ መጣያ ጣሉ ምልክት") , keywords : & ["ቆሻሻ" , "ቆሻሻሣጥን" , "በቆሻሻ መጣያ ጣሉ ምልክት"] , } , crate :: Annotation { lang : "ar" , tts : Some ("إشارة صندوق النفايات") , keywords : & ["إشارة" , "إشارة صندوق النفايات" , "صندوق نفايات" , "ضع النفايات في مكانها"] , } , crate :: Annotation { lang : "as" , tts : Some ("এই প\u{9be}ত\u{9cd}ৰত আৱৰ\u{9cd}জন\u{9be} পেল\u{9be}ব চিহ\u{9cd}ন") , keywords : & ["আৱৰ\u{9cd}জন\u{9be}" , "আৱৰ\u{9cd}জন\u{9be}ৰ প\u{9be}ত\u{9cd}ৰ" , "এই প\u{9be}ত\u{9cd}ৰত আৱৰ\u{9cd}জন\u{9be} পেল\u{9be}ব চিহ\u{9cd}ন"] , } , crate :: Annotation { lang : "az" , tts : Some ("zibili qutuya atın işarəsi") , keywords : & ["zibil" , "zibil qutusu" , "zibili qutuya atın işarəsi"] , } , crate :: Annotation { lang : "be" , tts : Some ("знак «кідайце смецце ў урну»") , keywords : & ["знак" , "знак «кідайце смецце ў урну»" , "сметніца" , "урна"] , } , crate :: Annotation { lang : "bg" , tts : Some ("символ за място за изхвърляне на боклук") , keywords : & ["боклук" , "кошче за боклук" , "символ за място за изхвърляне на боклук"] , } , crate :: Annotation { lang : "bn" , tts : Some ("বিন চিহ\u{9cd}নে লিট\u{9be}র") , keywords : & ["জঞ\u{9cd}জ\u{9be}ল" , "জঞ\u{9cd}জ\u{9be}ল ব\u{9be}ক\u{9cd}স" , "বিন চিহ\u{9cd}নে লিট\u{9be}র"] , } , crate :: Annotation { lang : "br" , tts : Some ("arlun pod-lastez") , keywords : & ["arlun pod-lastez" , "pod-lastez" , "poubelenn"] , } , crate :: Annotation { lang : "bs" , tts : Some ("znak za odlaganje otpada") , keywords : & ["kanta" , "otpaci" , "smeće" , "znak za odlaganje otpada"] , } , crate :: Annotation { lang : "ca" , tts : Some ("signe de paperera") , keywords : & ["brossa" , "paperera" , "signe de paperera" , "tirar la brossa"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎤᏲ ᏩᏗᏅᏗ ᎠᎪᎵᏰᏗ") , keywords : & ["ᎤᏲ ᏩᏗᏅᏗ" , "ᎤᏲ ᏩᏗᏅᏗ ᎠᎪᎵᏰᏗ" , "ᎤᏲ ᏩᏗᏅᏗ ᎤᏒᏙᎾ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("značka odpadkového koše") , keywords : & ["koš" , "odpad" , "odpadky" , "smetí" , "značka odpadkového koše"] , } , crate :: Annotation { lang : "cy" , tts : Some ("arwydd sbwriel mewn bin") , keywords : & ["arwydd sbwriel mewn bin" , "bin sbwriel" , "sbwriel"] , } , crate :: Annotation { lang : "da" , tts : Some ("brug affaldsspanden") , keywords : & ["brug affaldsspanden" , "skraldespand"] , } , crate :: Annotation { lang : "de" , tts : Some ("Symbol „Papierkorb“") , keywords : & ["Müll" , "Sauberkeit" , "Symbol „Papierkorb“"] , } , crate :: Annotation { lang : "el" , tts : Some ("σήμα ρίψης σκουπιδιών σε κάδο") , keywords : & ["απορρίμματα" , "κάδος απορριμμάτων" , "κάδος σκουπιδιών" , "σήμα ρίψης απορριμμάτων σε κάδο" , "σήμα ρίψης σκουπιδιών σε κάδο"] , } , crate :: Annotation { lang : "en" , tts : Some ("litter in bin sign") , keywords : & ["litter" , "litter bin" , "litter in bin sign"] , } , crate :: Annotation { lang : "en_001" , tts : None , keywords : & ["litter" , "litter bin" , "litter in bin sign" , "rubbish"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["garbage" , "litter" , "litter bin" , "litter in bin sign" , "trash"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("señal de usar papelera") , keywords : & ["basura" , "papelera" , "señal" , "señal de usar papelera" , "tirar la basura en la papelera"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("cartel cesto de basura") , keywords : & ["basura" , "cartel cesto de basura" , "papelera" , "señal" , "señal de usar papelera" , "tirar la basura en la papelera"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["basura" , "cartel cesto de basura" , "cesto de basura"] , } , crate :: Annotation { lang : "et" , tts : Some ("prügikasti silt") , keywords : & ["praht" , "prügikast" , "prügikasti silt"] , } , crate :: Annotation { lang : "eu" , tts : Some ("zaborra ontzira botatzeko seinalea") , keywords : & ["zabor" , "zaborra ontzira botatzeko seinalea" , "zaborrontzi" , "zakarrontzi"] , } , crate :: Annotation { lang : "fa" , tts : Some ("علامت ریختن زباله در زباله\u{200c}دان") , keywords : & ["آشغال" , "زباله" , "زباله\u{200c}دان" , "سطل آشغال" , "علامت ریختن زباله در زباله\u{200c}دان"] , } , crate :: Annotation { lang : "fi" , tts : Some ("roskat-merkki") , keywords : & ["roska" , "roskakori" , "roskat-merkki"] , } , crate :: Annotation { lang : "fil" , tts : Some ("tanda na magtapon sa basurahan") , keywords : & ["basura" , "basurahan" , "magtapon" , "palatandaan" , "tanda na magtapon sa basurahan"] , } , crate :: Annotation { lang : "fo" , tts : Some ("ruskílatskelti") , keywords : & ["burturkast" , "rusk" , "ruskílatskelti" , "órudd"] , } , crate :: Annotation { lang : "fr" , tts : Some ("icône Poubelle") , keywords : & ["icône Poubelle" , "poubelle"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ga" , tts : Some ("comhartha bosca bruscair") , keywords : & ["bosca bruscair" , "caith bruscar sa bhosca brúscair" , "comhartha" , "comhartha bosca bruscair"] , } , crate :: Annotation { lang : "gd" , tts : Some ("samhla “Sgudal dhan bhiona”") , keywords : & ["biona" , "biona-sgudail" , "samhla “Sgudal dhan bhiona”" , "sgudal"] , } , crate :: Annotation { lang : "gl" , tts : Some ("sinal de tirar lixo na papeleira") , keywords : & ["lixo" , "papeleira" , "sinal de tirar lixo na papeleira"] , } , crate :: Annotation { lang : "gu" , tts : Some ("કચરો કચરાપ\u{ac7}ટીમા\u{a82} ના\u{a82}ખોન\u{ac1}\u{a82} ચિહ\u{acd}ન") , keywords : & ["કચરા પ\u{ac7}ટી" , "કચરાન\u{ac7} ત\u{ac7}ના સ\u{acd}થાન\u{ac7} ના\u{a82}ખો" , "કચરાપ\u{ac7}ટીન\u{ac1}\u{a82} ચિહ\u{acd}ન" , "કચરો કચરાપ\u{ac7}ટીમા\u{a82} ના\u{a82}ખોન\u{ac1}\u{a82} ચિહ\u{acd}ન" , "ચિહ\u{acd}ન"] , } , crate :: Annotation { lang : "ha" , tts : Some ("alamar shara a cikin bola") , keywords : & ["alamar shara a cikin bola" , "kwandon shara" , "shara"] , } , crate :: Annotation { lang : "he" , tts : Some ("שלט פסולת לפח") , keywords : & ["זבל" , "פח" , "פסולת" , "שלט פסולת לפח"] , } , crate :: Annotation { lang : "hi" , tts : Some ("प\u{947}टी म\u{947}\u{902} कचरा डालन\u{947} का चिह\u{94d}न") , keywords : & ["कचरा" , "कचरा प\u{947}टी" , "प\u{947}टी म\u{947}\u{902} कचरा डालन\u{947} का चिह\u{94d}न" , "प\u{947}टी म\u{947}\u{902} कचरा डाल\u{947}\u{902}"] , } , crate :: Annotation { lang : "hr" , tts : Some ("znak za koš za smeće") , keywords : & ["koš za smeće" , "otpad" , "smeće" , "znak za koš za smeće"] , } , crate :: Annotation { lang : "hu" , tts : Some ("szemét a kukában szimbólum") , keywords : & ["környezettudatosság" , "szemetes" , "szemét" , "szemét a kukában szimbólum"] , } , crate :: Annotation { lang : "hy" , tts : Some ("աղբամանի նշան") , keywords : & ["աղբ" , "աղբամանի նշան" , "աղբարկղ"] , } , crate :: Annotation { lang : "ia" , tts : Some ("signo de receptaculo de immunditias") , keywords : & ["immunditias" , "jectar" , "receptaculo" , "recipiente" , "signo de receptaculo de immunditias"] , } , crate :: Annotation { lang : "id" , tts : Some ("tanda membuang sampah") , keywords : & ["keranjang sampah" , "sampah" , "tanda membuang sampah"] , } , crate :: Annotation { lang : "ig" , tts : Some ("ntụsasị n’akara nkata") , keywords : & ["nkata ntụsa" , "ntụsasị" , "ntụsasị n’akara nkata"] , } , crate :: Annotation { lang : "is" , tts : Some ("merki, rusl í ruslatunnu") , keywords : & ["merki, rusl í ruslatunnu" , "rusl" , "ruslafata"] , } , crate :: Annotation { lang : "it" , tts : Some ("simbolo per la raccolta dei rifiuti") , keywords : & ["raccolta rifiuti" , "simbolo" , "simbolo per la raccolta dei rifiuti" , "simbolo raccolta rifiuti"] , } , crate :: Annotation { lang : "ja" , tts : Some ("ゴミ箱") , keywords : & ["くずかご" , "ごみ箱" , "ゴミ捨て" , "ゴミ箱"] , } , crate :: Annotation { lang : "jv" , tts : Some ("tandha mbuwang rereged ing wadhahe") , keywords : & ["rereged" , "tandha mbuwang rereged ing wadhahe" , "wadhah sampah"] , } , crate :: Annotation { lang : "ka" , tts : Some ("ურნის ნიშანი") , keywords : & ["ნაგავი" , "ნაგვის ყუთი" , "ურნის ნიშანი"] , } , crate :: Annotation { lang : "kab" , tts : Some ("tignit n iḍumman") , keywords : & ["tignit n iḍumman"] , } , crate :: Annotation { lang : "kk" , tts : Some ("қоқысты себетке тастау белгісі") , keywords : & ["қоқыс" , "қоқыс жәшігі" , "қоқысты себетке тастау белгісі"] , } , crate :: Annotation { lang : "kl" , tts : Some ("smid i skraldespanden") , keywords : & ["skraldespand" , "smid i skraldespanden"] , } , crate :: Annotation { lang : "km" , tts : Some ("សញ\u{17d2}ញាចោលស\u{17c6}រាមក\u{17d2}ន\u{17bb}ងធ\u{17bb}ង") , keywords : & ["ក\u{17d2}ន\u{17bb}ងធ\u{17bb}ង" , "ចោលស\u{17c6}រាម" , "សញ\u{17d2}ញាចោលស\u{17c6}រាមក\u{17d2}ន\u{17bb}ងធ\u{17bb}ង"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಕಸದ ಪ\u{cc6}ಟ\u{ccd}ಟ\u{cbf}ಗ\u{cc6} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}") , keywords : & ["ಅದರ ಸ\u{ccd}ಥಳದಲ\u{ccd}ಲ\u{cbf} ಕಸವನ\u{ccd}ನು ಹಾಕ\u{cbf}" , "ಕಸದ ಪ\u{cc6}ಟ\u{ccd}ಟ\u{cbf}ಗ\u{cc6}" , "ಕಸದ ಪ\u{cc6}ಟ\u{ccd}ಟ\u{cbf}ಗ\u{cc6} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}" , "ಚ\u{cbf}ಹ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("쓰레기는 쓰레기통에") , keywords : & ["쓰레기" , "쓰레기는 쓰레기통에" , "쓰레기통"] , } , crate :: Annotation { lang : "kok" , tts : Some ("लिटर इन बिन चिन\u{94d}न") , keywords : & ["कचरो प\u{947}टी" , "लिटर इन बिन चिन\u{94d}न" , "लिटर बिन"] , } , crate :: Annotation { lang : "ky" , tts : Some ("таштандыга салуу белгиси") , keywords : & ["куту" , "таштанды" , "таштандыга салуу белгиси"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Poubelleszeechen") , keywords : & ["Dreck" , "Poubelle" , "Poubelleszeechen"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອໃສ\u{ec8}ຖ\u{eb1}ງ") , keywords : & ["ຖ\u{eb1}ງ" , "ຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ" , "ຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອໃສ\u{ec8}ຖ\u{eb1}ງ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("šiukšlių metimo į šiukšliadėžes ženklas") , keywords : & ["šiukšliadėžė" , "šiukšlių metimo į šiukšliadėžes ženklas" , "šiukšlė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("atkritumu urnas zīme") , keywords : & ["atkritumi" , "atkritumu urnas zīme" , "urna"] , } , crate :: Annotation { lang : "mi" , tts : Some ("tohu para roto ipu") , keywords : & ["ipu para" , "para" , "tohu para roto ipu"] , } , crate :: Annotation { lang : "mk" , tts : Some ("канта за отпадоци") , keywords : & ["канта" , "канта за отпадоци" , "отпадоци"] , } , crate :: Annotation { lang : "ml" , tts : Some ("ചവറ\u{d41}കൾ, ചവറ\u{d4d}റ\u{d41}ക\u{d41}ട\u{d4d}ടയിൽ നിക\u{d4d}ഷേപിക\u{d4d}ക\u{d41}ക") , keywords : & ["ചവറ\u{d41}കൾ, ചവറ\u{d4d}റ\u{d41}ക\u{d41}ട\u{d4d}ടയിൽ നിക\u{d4d}ഷേപിക\u{d4d}ക\u{d41}ക" , "ചവർ ഇടേണ\u{d4d}ടിടത\u{d4d}ത\u{d4d} ഇട\u{d41}ക" , "ഡസ\u{d4d}റ\u{d4d}റ\u{d4d} ബിൻ"] , } , crate :: Annotation { lang : "mn" , tts : Some ("хогоо хогийн саванд хийх тэмдэг") , keywords : & ["хог" , "хогийн сав" , "хогоо хогийн саванд хийх тэмдэг"] , } , crate :: Annotation { lang : "mr" , tts : Some ("कचराप\u{947}टीच\u{947} चिन\u{94d}ह") , keywords : & ["कचरा" , "कचरा प\u{947}टी" , "कचरा प\u{947}टीच\u{947} चिन\u{94d}ह" , "कचराप\u{947}टीच\u{947} चिन\u{94d}ह"] , } , crate :: Annotation { lang : "ms" , tts : Some ("tanda buang ke dalam tong sampah") , keywords : & ["sampah" , "tanda buang ke dalam tong sampah" , "tong sampah"] , } , crate :: Annotation { lang : "mt" , tts : Some ("tabella ta’ barmil taż-żibel") , keywords : & ["barmil taż-żibel" , "tabella ta’ barmil taż-żibel" , "żibel"] , } , crate :: Annotation { lang : "my" , tts : Some ("အမ\u{103e}\u{102d}\u{102f}က\u{103a}ထည\u{1037}\u{103a}ရန\u{103a} ဆ\u{102d}\u{102f}င\u{103a}းဘ\u{102f}တ\u{103a}") , keywords : & ["အမ\u{103e}\u{102d}\u{102f}က\u{103a}" , "အမ\u{103e}\u{102d}\u{102f}က\u{103a}ထည\u{1037}\u{103a}ရန\u{103a} ဆ\u{102d}\u{102f}င\u{103a}းဘ\u{102f}တ\u{103a}" , "အမ\u{103e}\u{102d}\u{102f}က\u{103a}ပ\u{102f}\u{1036}း"] , } , crate :: Annotation { lang : "nb" , tts : Some ("avfallsskilt") , keywords : & ["avfall" , "avfallsskilt" , "skilt" , "søppel"] , } , crate :: Annotation { lang : "ne" , tts : Some ("रद\u{94d}दी टोकरीको स\u{902}क\u{947}तमा फोहोर फालौ\u{902}") , keywords : & ["फोहोर" , "फोहोर फाल\u{94d}न\u{947} टोकरी" , "रद\u{94d}दी टोकरीको स\u{902}क\u{947}तमा फोहोर फालौ\u{902}"] , } , crate :: Annotation { lang : "nl" , tts : Some ("prullenbaksymbool") , keywords : & ["afval" , "prullenbak" , "prullenbaksymbool"] , } , crate :: Annotation { lang : "nn" , tts : Some ("avfallsskilt") , keywords : & ["avfall" , "avfallsskilt" , "skilt" , "søppel"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଅଳ\u{b3f}ଆ ଡବ\u{b3e}ରେ ଫ\u{b3f}ଙ\u{b4d}ଗ\u{b3f}ବ\u{b3e} ଚ\u{b3f}ହ\u{b4d}ନ") , keywords : & ["ଅବର\u{b4d}ଜନ\u{b3e}" , "ଅବର\u{b4d}ଜନ\u{b3e} ବ\u{b3e}କ\u{b4d}ସ" , "ଅଳ\u{b3f}ଆ ଡବ\u{b3e}ରେ ଫ\u{b3f}ଙ\u{b4d}ଗ\u{b3f}ବ\u{b3e} ଚ\u{b3f}ହ\u{b4d}ନ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਕ\u{a42}ੜਾ ਇ\u{a71}ਥ\u{a47} ਸ\u{a41}\u{a71}ਟ\u{a4b} ਚਿ\u{a70}ਨ\u{a4d}ਹ") , keywords : & ["ਕ\u{a42}ੜਾ ਇ\u{a71}ਥ\u{a47} ਸ\u{a41}\u{a71}ਟ\u{a4b} ਚਿ\u{a70}ਨ\u{a4d}ਹ" , "ਕ\u{a42}ੜਾ ਬਾਕਸ" , "ਕ\u{a42}ੜ\u{a47} ਨ\u{a42}\u{a70} ਉਸ ਦੀ ਥਾ\u{a02} ‘ਤ\u{a47} ਸ\u{a41}\u{a71}ਟ\u{a4b}" , "ਚਿ\u{a70}ਨ\u{a4d}ਹ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("کوڑا ٹوکری وچ س\u{64f}ٹن دی علامت") , keywords : & ["کوڑا ٹوکری وچ س\u{64f}ٹن دی علامت" , "کوڑا کرکٹ" , "کچرا دان"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Dọtí Ínsaíd Dọstbin") , keywords : & ["Dọstbin" , "Dọtí" , "Dọtí Ínsaíd Dọstbin"] , } , crate :: Annotation { lang : "pl" , tts : Some ("znak kosza na śmieci") , keywords : & ["kosz" , "nie śmiecić" , "znak kosza na śmieci" , "śmieci" , "śmiecić"] , } , crate :: Annotation { lang : "ps" , tts : Some ("ورخړ په فاضلدانۍ کې نښه") , keywords : & ["د ورخړ فاضلدانۍ" , "ورخړ" , "ورخړ په فاضلدانۍ کې نښه"] , } , crate :: Annotation { lang : "pt" , tts : Some ("símbolo de lixeira") , keywords : & ["coloque o lixo no lixo" , "lixeira" , "símbolo" , "símbolo de lixeira"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("sinal de lixo no caixote do lixo") , keywords : & ["cesto do lixo" , "lixo" , "sinal de lixo no caixote do lixo"] , } , crate :: Annotation { lang : "qu" , tts : Some ("chuqasqa qʼupa unancha") , keywords : & ["chuqaq" , "chuqasqa qʼupa" , "chuqasqa qʼupa unancha"] , } , crate :: Annotation { lang : "ro" , tts : Some ("simbol pentru folosiți coșul de gunoi") , keywords : & ["coș de gunoi" , "gunoi" , "simbol pentru folosirea coșului de gunoi" , "simbol pentru folosiți coșul de gunoi"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-962") , keywords : & ["E10-962"] , } , crate :: Annotation { lang : "ru" , tts : Some ("бросайте мусор в урну") , keywords : & ["бросайте мусор в урну" , "мусор" , "мусорить запрещено" , "урна"] , } , crate :: Annotation { lang : "rw" , tts : Some ("icyapa kigaragaza ahashyirwa imyanda") , keywords : & ["agatebo k’imyanda" , "icyapa kigaragaza ahashyirwa imyanda" , "imyanda"] , } , crate :: Annotation { lang : "sd" , tts : Some ("ڪچرو دٻي ۾ اڇلائڻ جي نشاني") , keywords : & ["ڪچرو دٻي ۾ اڇلائڻ جي نشاني" , "ڪچرو، ڪچرو جو ڏٻو"] , } , crate :: Annotation { lang : "si" , tts : Some ("අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය බඳ\u{dd4}නට දමන ලක\u{dd4}ණ") , keywords : & ["අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය" , "අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය බඳ\u{dd4}න" , "අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය බඳ\u{dd4}නට දමන ලක\u{dd4}ණ"] , } , crate :: Annotation { lang : "sk" , tts : Some ("symbol odpadkového koša") , keywords : & ["odpadkový kôš" , "odpadky" , "smeti" , "symbol" , "symbol odpadkového koša"] , } , crate :: Annotation { lang : "sl" , tts : Some ("znak za smeti v košu") , keywords : & ["koš" , "smeti" , "znak za smeti v košu"] , } , crate :: Annotation { lang : "so" , tts : Some ("calaamadda qashin qubidda") , keywords : & ["calaamadda qashin qubidda" , "qashin" , "sanduuqa qashinka"] , } , crate :: Annotation { lang : "sq" , tts : Some ("shenja e koshit të mbeturinave") , keywords : & ["kosh" , "mbeturinë" , "shenja e koshit të mbeturinave"] , } , crate :: Annotation { lang : "sr" , tts : Some ("бацање отпада у корпу") , keywords : & ["oтпaд" , "бацање отпада у корпу" , "корпа зa oтпaткe"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("bacanje otpada u korpu") , keywords : & ["bacanje otpada u korpu" , "korpa za otpatke" , "otpad"] , } , crate :: Annotation { lang : "sv" , tts : Some ("soptunna") , keywords : & ["slänga skräp" , "soptunna" , "symbol"] , } , crate :: Annotation { lang : "sw" , tts : Some ("weka taka kwenye pipa") , keywords : & ["pipa la taka" , "taka" , "weka taka kwenye pipa"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("குப\u{bcd}பையை உரிய இடத\u{bcd}தில\u{bcd} போடும\u{bcd} சின\u{bcd}னம\u{bcd}") , keywords : & ["குப\u{bcd}பையை உரிய இடத\u{bcd}தில\u{bcd} போடவும\u{bcd}" , "குப\u{bcd}பையை உரிய இடத\u{bcd}தில\u{bcd} போடும\u{bcd} சின\u{bcd}னம\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("చ\u{c46}త\u{c4d}త ప\u{c3e}రవ\u{c47}స\u{c47} స\u{c4d}థలం") , keywords : & ["ఇక\u{c4d}కడ చ\u{c46}త\u{c4d}త వ\u{c47}యండ\u{c3f}" , "ఎక\u{c4d}కడ పడ\u{c3f}త\u{c47} అక\u{c4d}కడ చ\u{c46}త\u{c4d}త వ\u{c47}యవద\u{c4d}దు" , "చ\u{c46}త\u{c4d}త ప\u{c3e}రవ\u{c47}స\u{c47} స\u{c4d}థలం" , "చ\u{c46}త\u{c4d}త బుట\u{c4d}ట"] , } , crate :: Annotation { lang : "tg" , tts : Some ("аломати \"Партов ба қуттӣ\"") , keywords : & ["аломати \"Партов ба қуттӣ\"" , "партов" , "қуттии партовҳо"] , } , crate :: Annotation { lang : "th" , tts : Some ("ท\u{e34}\u{e49}งขยะให\u{e49}ลงถ\u{e31}ง") , keywords : & ["ท\u{e34}\u{e49}งขยะให\u{e49}ลงถ\u{e31}ง" , "ป\u{e49}ายถ\u{e31}งขยะ"] , } , crate :: Annotation { lang : "ti" , tts : Some ("ጎሓፍ ኣብ ምልክት ናይ መጉሓፊ") , keywords : & ["ኣብ ምልክት ናይ መጉሓፊ" , "ጎሓፍ" , "ጎሓፍ መጉሓፊ" , "ጎሓፍ ኣብ ምልክት ናይ መጉሓፊ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("zibili bedrä taşla belgisi") , keywords : & ["zibili bedrä taşla belgisi" , "zir-zibil" , "zir-zibil gutusy"] , } , crate :: Annotation { lang : "to" , tts : Some ("ʻilonga kapa veve") , keywords : & ["kapa veve" , "veve" , "ʻilonga" , "ʻilonga kapa veve"] , } , crate :: Annotation { lang : "tr" , tts : Some ("çöp kutusu işareti") , keywords : & ["işaret" , "çöp kutusu" , "çöp kutusu işareti" , "çöpü yerine atın"] , } , crate :: Annotation { lang : "ug" , tts : Some ("سېۋەتكە ئەخلەت تاشلاش بەلگىسى") , keywords : & ["ئەخلەت" , "ئەخلەت قاچىسى" , "سېۋەتكە ئەخلەت تاشلاش بەلگىسى"] , } , crate :: Annotation { lang : "uk" , tts : Some ("знак кидати сміття в урну") , keywords : & ["знак кидати сміття в урну" , "памʼятка не смітити" , "сміття" , "урна"] , } , crate :: Annotation { lang : "ur" , tts : Some ("کوڑا ٹوکری میں کا سائن") , keywords : & ["ردی" , "ٹوکری" , "کوڑا ٹوکری میں کا سائن"] , } , crate :: Annotation { lang : "uz" , tts : Some ("axlatni o‘z joyiga tashlash") , keywords : & ["axlat" , "axlat qutisi" , "axlatni o‘z joyiga tashlash"] , } , crate :: Annotation { lang : "vi" , tts : Some ("ký hiệu bỏ rác vào thùng") , keywords : & ["ký hiệu bỏ rác vào thùng" , "thùng rác" , "xả rác"] , } , crate :: Annotation { lang : "wo" , tts : Some ("màndarga mbalit ci pot") , keywords : & ["mbalit" , "màndarga mbalit ci pot" , "potu mbalit"] , } , crate :: Annotation { lang : "xh" , tts : Some ("uphawu lwenkunkuma esemgqomeni") , keywords : & ["inkunkuma" , "umgqomo wenkunkuma" , "uphawu lwenkunkuma esemgqomeni"] , } , crate :: Annotation { lang : "yo" , tts : Some ("idoti ninu aami idọti") , keywords : & ["dọ\u{300}tí" , "idoti ninu aami idọti" , "ike ìdalẹ\u{300}sí"] , } , crate :: Annotation { lang : "yue" , tts : Some ("垃圾桶標誌") , keywords : & ["垃圾" , "垃圾桶" , "垃圾桶標誌"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("垃圾桶标志") , keywords : & ["垃圾" , "垃圾桶" , "垃圾桶标志"] , } , crate :: Annotation { lang : "zh" , tts : Some ("倒垃圾") , keywords : & ["倒垃圾" , "垃圾丢弃处" , "垃圾入篓"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("垃圾桶") , keywords : & ["垃圾桶"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("垃圾桶標誌") , keywords : & ["垃圾桶" , "垃圾桶標誌"] , } , crate :: Annotation { lang : "zu" , tts : Some ("uphawu lomgqomo wezibi") , keywords : & ["ibhokisi lezibi" , "izibi" , "uphawu lomgqomo wezibi"] , }] , } ;
+pub const LITTER_IN_BIN_SIGN: crate::Emoji = crate::Emoji {
+    glyph: "🚮",
+    codepoint: "1F6AE",
+    status: crate::Status::FullyQualified,
+    introduction_version: 1f32,
+    name: "litter in bin sign",
+    group: "Symbols",
+    subgroup: "transport-sign",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("\"vullis in drom\"-teken"),
+            keywords: &["\"vullis in drom\"-teken", "vullis", "vullisblik"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("በቆሻሻ መጣያ ጣሉ ምልክት"),
+            keywords: &["ቆሻሻ", "ቆሻሻሣጥን", "በቆሻሻ መጣያ ጣሉ ምልክት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("إشارة صندوق النفايات"),
+            keywords: &[
+                "إشارة",
+                "إشارة صندوق النفايات",
+                "صندوق نفايات",
+                "ضع النفايات في مكانها",
+            ],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("এই প\u{9be}ত\u{9cd}ৰত আৱৰ\u{9cd}জন\u{9be} পেল\u{9be}ব চিহ\u{9cd}ন"),
+            keywords: &[
+                "আৱৰ\u{9cd}জন\u{9be}",
+                "আৱৰ\u{9cd}জন\u{9be}ৰ প\u{9be}ত\u{9cd}ৰ",
+                "এই প\u{9be}ত\u{9cd}ৰত আৱৰ\u{9cd}জন\u{9be} পেল\u{9be}ব চিহ\u{9cd}ন",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("zibili qutuya atın işarəsi"),
+            keywords: &["zibil", "zibil qutusu", "zibili qutuya atın işarəsi"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("знак «кідайце смецце ў урну»"),
+            keywords: &["знак", "знак «кідайце смецце ў урну»", "сметніца", "урна"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("символ за място за изхвърляне на боклук"),
+            keywords: &[
+                "боклук",
+                "кошче за боклук",
+                "символ за място за изхвърляне на боклук",
+            ],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("বিন চিহ\u{9cd}নে লিট\u{9be}র"),
+            keywords: &[
+                "জঞ\u{9cd}জ\u{9be}ল",
+                "জঞ\u{9cd}জ\u{9be}ল ব\u{9be}ক\u{9cd}স",
+                "বিন চিহ\u{9cd}নে লিট\u{9be}র",
+            ],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("arlun pod-lastez"),
+            keywords: &["arlun pod-lastez", "pod-lastez", "poubelenn"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("znak za odlaganje otpada"),
+            keywords: &["kanta", "otpaci", "smeće", "znak za odlaganje otpada"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("signe de paperera"),
+            keywords: &["brossa", "paperera", "signe de paperera", "tirar la brossa"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎤᏲ ᏩᏗᏅᏗ ᎠᎪᎵᏰᏗ"),
+            keywords: &["ᎤᏲ ᏩᏗᏅᏗ", "ᎤᏲ ᏩᏗᏅᏗ ᎠᎪᎵᏰᏗ", "ᎤᏲ ᏩᏗᏅᏗ ᎤᏒᏙᎾ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("značka odpadkového koše"),
+            keywords: &[
+                "koš",
+                "odpad",
+                "odpadky",
+                "smetí",
+                "značka odpadkového koše",
+            ],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("arwydd sbwriel mewn bin"),
+            keywords: &["arwydd sbwriel mewn bin", "bin sbwriel", "sbwriel"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("brug affaldsspanden"),
+            keywords: &["brug affaldsspanden", "skraldespand"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Symbol „Papierkorb“"),
+            keywords: &["Müll", "Sauberkeit", "Symbol „Papierkorb“"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("σήμα ρίψης σκουπιδιών σε κάδο"),
+            keywords: &[
+                "απορρίμματα",
+                "κάδος απορριμμάτων",
+                "κάδος σκουπιδιών",
+                "σήμα ρίψης απορριμμάτων σε κάδο",
+                "σήμα ρίψης σκουπιδιών σε κάδο",
+            ],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("litter in bin sign"),
+            keywords: &["litter", "litter bin", "litter in bin sign"],
+        },
+        crate::Annotation {
+            lang: "en_001",
+            tts: None,
+            keywords: &["litter", "litter bin", "litter in bin sign", "rubbish"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &[
+                "garbage",
+                "litter",
+                "litter bin",
+                "litter in bin sign",
+                "trash",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("señal de usar papelera"),
+            keywords: &[
+                "basura",
+                "papelera",
+                "señal",
+                "señal de usar papelera",
+                "tirar la basura en la papelera",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("cartel cesto de basura"),
+            keywords: &[
+                "basura",
+                "cartel cesto de basura",
+                "papelera",
+                "señal",
+                "señal de usar papelera",
+                "tirar la basura en la papelera",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["basura", "cartel cesto de basura", "cesto de basura"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("prügikasti silt"),
+            keywords: &["praht", "prügikast", "prügikasti silt"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("zaborra ontzira botatzeko seinalea"),
+            keywords: &[
+                "zabor",
+                "zaborra ontzira botatzeko seinalea",
+                "zaborrontzi",
+                "zakarrontzi",
+            ],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("علامت ریختن زباله در زباله\u{200c}دان"),
+            keywords: &[
+                "آشغال",
+                "زباله",
+                "زباله\u{200c}دان",
+                "سطل آشغال",
+                "علامت ریختن زباله در زباله\u{200c}دان",
+            ],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("roskat-merkki"),
+            keywords: &["roska", "roskakori", "roskat-merkki"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("tanda na magtapon sa basurahan"),
+            keywords: &[
+                "basura",
+                "basurahan",
+                "magtapon",
+                "palatandaan",
+                "tanda na magtapon sa basurahan",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("ruskílatskelti"),
+            keywords: &["burturkast", "rusk", "ruskílatskelti", "órudd"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("icône Poubelle"),
+            keywords: &["icône Poubelle", "poubelle"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("comhartha bosca bruscair"),
+            keywords: &[
+                "bosca bruscair",
+                "caith bruscar sa bhosca brúscair",
+                "comhartha",
+                "comhartha bosca bruscair",
+            ],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("samhla “Sgudal dhan bhiona”"),
+            keywords: &[
+                "biona",
+                "biona-sgudail",
+                "samhla “Sgudal dhan bhiona”",
+                "sgudal",
+            ],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("sinal de tirar lixo na papeleira"),
+            keywords: &["lixo", "papeleira", "sinal de tirar lixo na papeleira"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("કચરો કચરાપ\u{ac7}ટીમા\u{a82} ના\u{a82}ખોન\u{ac1}\u{a82} ચિહ\u{acd}ન"),
+            keywords: &[
+                "કચરા પ\u{ac7}ટી",
+                "કચરાન\u{ac7} ત\u{ac7}ના સ\u{acd}થાન\u{ac7} ના\u{a82}ખો",
+                "કચરાપ\u{ac7}ટીન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+                "કચરો કચરાપ\u{ac7}ટીમા\u{a82} ના\u{a82}ખોન\u{ac1}\u{a82} ચિહ\u{acd}ન",
+                "ચિહ\u{acd}ન",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("alamar shara a cikin bola"),
+            keywords: &["alamar shara a cikin bola", "kwandon shara", "shara"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("שלט פסולת לפח"),
+            keywords: &["זבל", "פח", "פסולת", "שלט פסולת לפח"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("प\u{947}टी म\u{947}\u{902} कचरा डालन\u{947} का चिह\u{94d}न"),
+            keywords: &[
+                "कचरा",
+                "कचरा प\u{947}टी",
+                "प\u{947}टी म\u{947}\u{902} कचरा डालन\u{947} का चिह\u{94d}न",
+                "प\u{947}टी म\u{947}\u{902} कचरा डाल\u{947}\u{902}",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("znak za koš za smeće"),
+            keywords: &["koš za smeće", "otpad", "smeće", "znak za koš za smeće"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("szemét a kukában szimbólum"),
+            keywords: &[
+                "környezettudatosság",
+                "szemetes",
+                "szemét",
+                "szemét a kukában szimbólum",
+            ],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("աղբամանի նշան"),
+            keywords: &["աղբ", "աղբամանի նշան", "աղբարկղ"],
+        },
+        crate::Annotation {
+            lang: "ia",
+            tts: Some("signo de receptaculo de immunditias"),
+            keywords: &[
+                "immunditias",
+                "jectar",
+                "receptaculo",
+                "recipiente",
+                "signo de receptaculo de immunditias",
+            ],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("tanda membuang sampah"),
+            keywords: &["keranjang sampah", "sampah", "tanda membuang sampah"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("ntụsasị n’akara nkata"),
+            keywords: &["nkata ntụsa", "ntụsasị", "ntụsasị n’akara nkata"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("merki, rusl í ruslatunnu"),
+            keywords: &["merki, rusl í ruslatunnu", "rusl", "ruslafata"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("simbolo per la raccolta dei rifiuti"),
+            keywords: &[
+                "raccolta rifiuti",
+                "simbolo",
+                "simbolo per la raccolta dei rifiuti",
+                "simbolo raccolta rifiuti",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("ゴミ箱"),
+            keywords: &["くずかご", "ごみ箱", "ゴミ捨て", "ゴミ箱"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("tandha mbuwang rereged ing wadhahe"),
+            keywords: &[
+                "rereged",
+                "tandha mbuwang rereged ing wadhahe",
+                "wadhah sampah",
+            ],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("ურნის ნიშანი"),
+            keywords: &["ნაგავი", "ნაგვის ყუთი", "ურნის ნიშანი"],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("tignit n iḍumman"),
+            keywords: &["tignit n iḍumman"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("қоқысты себетке тастау белгісі"),
+            keywords: &["қоқыс", "қоқыс жәшігі", "қоқысты себетке тастау белгісі"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("smid i skraldespanden"),
+            keywords: &["skraldespand", "smid i skraldespanden"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("សញ\u{17d2}ញាចោលស\u{17c6}រាមក\u{17d2}ន\u{17bb}ងធ\u{17bb}ង"),
+            keywords: &[
+                "ក\u{17d2}ន\u{17bb}ងធ\u{17bb}ង",
+                "ចោលស\u{17c6}រាម",
+                "សញ\u{17d2}ញាចោលស\u{17c6}រាមក\u{17d2}ន\u{17bb}ងធ\u{17bb}ង",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಕಸದ ಪ\u{cc6}ಟ\u{ccd}ಟ\u{cbf}ಗ\u{cc6} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}"),
+            keywords: &[
+                "ಅದರ ಸ\u{ccd}ಥಳದಲ\u{ccd}ಲ\u{cbf} ಕಸವನ\u{ccd}ನು ಹಾಕ\u{cbf}",
+                "ಕಸದ ಪ\u{cc6}ಟ\u{ccd}ಟ\u{cbf}ಗ\u{cc6}",
+                "ಕಸದ ಪ\u{cc6}ಟ\u{ccd}ಟ\u{cbf}ಗ\u{cc6} ಚ\u{cbf}ಹ\u{ccd}ನ\u{cc6}",
+                "ಚ\u{cbf}ಹ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("쓰레기는 쓰레기통에"),
+            keywords: &["쓰레기", "쓰레기는 쓰레기통에", "쓰레기통"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("लिटर इन बिन चिन\u{94d}न"),
+            keywords: &["कचरो प\u{947}टी", "लिटर इन बिन चिन\u{94d}न", "लिटर बिन"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("таштандыга салуу белгиси"),
+            keywords: &["куту", "таштанды", "таштандыга салуу белгиси"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Poubelleszeechen"),
+            keywords: &["Dreck", "Poubelle", "Poubelleszeechen"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອໃສ\u{ec8}ຖ\u{eb1}ງ"),
+            keywords: &[
+                "ຖ\u{eb1}ງ",
+                "ຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອ",
+                "ຖ\u{eb4}\u{ec9}ມຂ\u{eb5}\u{ec9}ເຫຍ\u{eb7}\u{ec9}ອໃສ\u{ec8}ຖ\u{eb1}ງ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("šiukšlių metimo į šiukšliadėžes ženklas"),
+            keywords: &[
+                "šiukšliadėžė",
+                "šiukšlių metimo į šiukšliadėžes ženklas",
+                "šiukšlė",
+            ],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("atkritumu urnas zīme"),
+            keywords: &["atkritumi", "atkritumu urnas zīme", "urna"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("tohu para roto ipu"),
+            keywords: &["ipu para", "para", "tohu para roto ipu"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("канта за отпадоци"),
+            keywords: &["канта", "канта за отпадоци", "отпадоци"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some(
+                "ചവറ\u{d41}കൾ, ചവറ\u{d4d}റ\u{d41}ക\u{d41}ട\u{d4d}ടയിൽ നിക\u{d4d}ഷേപിക\u{d4d}ക\u{d41}ക",
+            ),
+            keywords: &[
+                "ചവറ\u{d41}കൾ, ചവറ\u{d4d}റ\u{d41}ക\u{d41}ട\u{d4d}ടയിൽ നിക\u{d4d}ഷേപിക\u{d4d}ക\u{d41}ക",
+                "ചവർ ഇടേണ\u{d4d}ടിടത\u{d4d}ത\u{d4d} ഇട\u{d41}ക",
+                "ഡസ\u{d4d}റ\u{d4d}റ\u{d4d} ബിൻ",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("хогоо хогийн саванд хийх тэмдэг"),
+            keywords: &["хог", "хогийн сав", "хогоо хогийн саванд хийх тэмдэг"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("कचराप\u{947}टीच\u{947} चिन\u{94d}ह"),
+            keywords: &[
+                "कचरा",
+                "कचरा प\u{947}टी",
+                "कचरा प\u{947}टीच\u{947} चिन\u{94d}ह",
+                "कचराप\u{947}टीच\u{947} चिन\u{94d}ह",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("tanda buang ke dalam tong sampah"),
+            keywords: &["sampah", "tanda buang ke dalam tong sampah", "tong sampah"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("tabella ta’ barmil taż-żibel"),
+            keywords: &["barmil taż-żibel", "tabella ta’ barmil taż-żibel", "żibel"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "အမ\u{103e}\u{102d}\u{102f}က\u{103a}ထည\u{1037}\u{103a}ရန\u{103a} ဆ\u{102d}\u{102f}င\u{103a}းဘ\u{102f}တ\u{103a}",
+            ),
+            keywords: &[
+                "အမ\u{103e}\u{102d}\u{102f}က\u{103a}",
+                "အမ\u{103e}\u{102d}\u{102f}က\u{103a}ထည\u{1037}\u{103a}ရန\u{103a} ဆ\u{102d}\u{102f}င\u{103a}းဘ\u{102f}တ\u{103a}",
+                "အမ\u{103e}\u{102d}\u{102f}က\u{103a}ပ\u{102f}\u{1036}း",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("avfallsskilt"),
+            keywords: &["avfall", "avfallsskilt", "skilt", "søppel"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("रद\u{94d}दी टोकरीको स\u{902}क\u{947}तमा फोहोर फालौ\u{902}"),
+            keywords: &[
+                "फोहोर",
+                "फोहोर फाल\u{94d}न\u{947} टोकरी",
+                "रद\u{94d}दी टोकरीको स\u{902}क\u{947}तमा फोहोर फालौ\u{902}",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("prullenbaksymbool"),
+            keywords: &["afval", "prullenbak", "prullenbaksymbool"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("avfallsskilt"),
+            keywords: &["avfall", "avfallsskilt", "skilt", "søppel"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଅଳ\u{b3f}ଆ ଡବ\u{b3e}ରେ ଫ\u{b3f}ଙ\u{b4d}ଗ\u{b3f}ବ\u{b3e} ଚ\u{b3f}ହ\u{b4d}ନ"),
+            keywords: &[
+                "ଅବର\u{b4d}ଜନ\u{b3e}",
+                "ଅବର\u{b4d}ଜନ\u{b3e} ବ\u{b3e}କ\u{b4d}ସ",
+                "ଅଳ\u{b3f}ଆ ଡବ\u{b3e}ରେ ଫ\u{b3f}ଙ\u{b4d}ଗ\u{b3f}ବ\u{b3e} ଚ\u{b3f}ହ\u{b4d}ନ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਕ\u{a42}ੜਾ ਇ\u{a71}ਥ\u{a47} ਸ\u{a41}\u{a71}ਟ\u{a4b} ਚਿ\u{a70}ਨ\u{a4d}ਹ"),
+            keywords: &[
+                "ਕ\u{a42}ੜਾ ਇ\u{a71}ਥ\u{a47} ਸ\u{a41}\u{a71}ਟ\u{a4b} ਚਿ\u{a70}ਨ\u{a4d}ਹ",
+                "ਕ\u{a42}ੜਾ ਬਾਕਸ",
+                "ਕ\u{a42}ੜ\u{a47} ਨ\u{a42}\u{a70} ਉਸ ਦੀ ਥਾ\u{a02} ‘ਤ\u{a47} ਸ\u{a41}\u{a71}ਟ\u{a4b}",
+                "ਚਿ\u{a70}ਨ\u{a4d}ਹ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("کوڑا ٹوکری وچ س\u{64f}ٹن دی علامت"),
+            keywords: &["کوڑا ٹوکری وچ س\u{64f}ٹن دی علامت", "کوڑا کرکٹ", "کچرا دان"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Dọtí Ínsaíd Dọstbin"),
+            keywords: &["Dọstbin", "Dọtí", "Dọtí Ínsaíd Dọstbin"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("znak kosza na śmieci"),
+            keywords: &[
+                "kosz",
+                "nie śmiecić",
+                "znak kosza na śmieci",
+                "śmieci",
+                "śmiecić",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("ورخړ په فاضلدانۍ کې نښه"),
+            keywords: &["د ورخړ فاضلدانۍ", "ورخړ", "ورخړ په فاضلدانۍ کې نښه"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("símbolo de lixeira"),
+            keywords: &[
+                "coloque o lixo no lixo",
+                "lixeira",
+                "símbolo",
+                "símbolo de lixeira",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("sinal de lixo no caixote do lixo"),
+            keywords: &["cesto do lixo", "lixo", "sinal de lixo no caixote do lixo"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("chuqasqa qʼupa unancha"),
+            keywords: &["chuqaq", "chuqasqa qʼupa", "chuqasqa qʼupa unancha"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("simbol pentru folosiți coșul de gunoi"),
+            keywords: &[
+                "coș de gunoi",
+                "gunoi",
+                "simbol pentru folosirea coșului de gunoi",
+                "simbol pentru folosiți coșul de gunoi",
+            ],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-962"),
+            keywords: &["E10-962"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("бросайте мусор в урну"),
+            keywords: &[
+                "бросайте мусор в урну",
+                "мусор",
+                "мусорить запрещено",
+                "урна",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("icyapa kigaragaza ahashyirwa imyanda"),
+            keywords: &[
+                "agatebo k’imyanda",
+                "icyapa kigaragaza ahashyirwa imyanda",
+                "imyanda",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("ڪچرو دٻي ۾ اڇلائڻ جي نشاني"),
+            keywords: &["ڪچرو دٻي ۾ اڇلائڻ جي نشاني", "ڪچرو، ڪچرو جو ڏٻو"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය බඳ\u{dd4}නට දමන ලක\u{dd4}ණ"),
+            keywords: &[
+                "අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය",
+                "අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය බඳ\u{dd4}න",
+                "අපද\u{dca}\u{200d}රව\u{dca}\u{200d}ය බඳ\u{dd4}නට දමන ලක\u{dd4}ණ",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("symbol odpadkového koša"),
+            keywords: &[
+                "odpadkový kôš",
+                "odpadky",
+                "smeti",
+                "symbol",
+                "symbol odpadkového koša",
+            ],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("znak za smeti v košu"),
+            keywords: &["koš", "smeti", "znak za smeti v košu"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("calaamadda qashin qubidda"),
+            keywords: &["calaamadda qashin qubidda", "qashin", "sanduuqa qashinka"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("shenja e koshit të mbeturinave"),
+            keywords: &["kosh", "mbeturinë", "shenja e koshit të mbeturinave"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("бацање отпада у корпу"),
+            keywords: &["oтпaд", "бацање отпада у корпу", "корпа зa oтпaткe"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("bacanje otpada u korpu"),
+            keywords: &["bacanje otpada u korpu", "korpa za otpatke", "otpad"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("soptunna"),
+            keywords: &["slänga skräp", "soptunna", "symbol"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("weka taka kwenye pipa"),
+            keywords: &["pipa la taka", "taka", "weka taka kwenye pipa"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("குப\u{bcd}பையை உரிய இடத\u{bcd}தில\u{bcd} போடும\u{bcd} சின\u{bcd}னம\u{bcd}"),
+            keywords: &[
+                "குப\u{bcd}பையை உரிய இடத\u{bcd}தில\u{bcd} போடவும\u{bcd}",
+                "குப\u{bcd}பையை உரிய இடத\u{bcd}தில\u{bcd} போடும\u{bcd} சின\u{bcd}னம\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("చ\u{c46}త\u{c4d}త ప\u{c3e}రవ\u{c47}స\u{c47} స\u{c4d}థలం"),
+            keywords: &[
+                "ఇక\u{c4d}కడ చ\u{c46}త\u{c4d}త వ\u{c47}యండ\u{c3f}",
+                "ఎక\u{c4d}కడ పడ\u{c3f}త\u{c47} అక\u{c4d}కడ చ\u{c46}త\u{c4d}త వ\u{c47}యవద\u{c4d}దు",
+                "చ\u{c46}త\u{c4d}త ప\u{c3e}రవ\u{c47}స\u{c47} స\u{c4d}థలం",
+                "చ\u{c46}త\u{c4d}త బుట\u{c4d}ట",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("аломати \"Партов ба қуттӣ\""),
+            keywords: &["аломати \"Партов ба қуттӣ\"", "партов", "қуттии партовҳо"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ท\u{e34}\u{e49}งขยะให\u{e49}ลงถ\u{e31}ง"),
+            keywords: &[
+                "ท\u{e34}\u{e49}งขยะให\u{e49}ลงถ\u{e31}ง",
+                "ป\u{e49}ายถ\u{e31}งขยะ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ጎሓፍ ኣብ ምልክት ናይ መጉሓፊ"),
+            keywords: &["ኣብ ምልክት ናይ መጉሓፊ", "ጎሓፍ", "ጎሓፍ መጉሓፊ", "ጎሓፍ ኣብ ምልክት ናይ መጉሓፊ"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("zibili bedrä taşla belgisi"),
+            keywords: &[
+                "zibili bedrä taşla belgisi",
+                "zir-zibil",
+                "zir-zibil gutusy",
+            ],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("ʻilonga kapa veve"),
+            keywords: &["kapa veve", "veve", "ʻilonga", "ʻilonga kapa veve"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("çöp kutusu işareti"),
+            keywords: &[
+                "işaret",
+                "çöp kutusu",
+                "çöp kutusu işareti",
+                "çöpü yerine atın",
+            ],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("سېۋەتكە ئەخلەت تاشلاش بەلگىسى"),
+            keywords: &["ئەخلەت", "ئەخلەت قاچىسى", "سېۋەتكە ئەخلەت تاشلاش بەلگىسى"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("знак кидати сміття в урну"),
+            keywords: &[
+                "знак кидати сміття в урну",
+                "памʼятка не смітити",
+                "сміття",
+                "урна",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("کوڑا ٹوکری میں کا سائن"),
+            keywords: &["ردی", "ٹوکری", "کوڑا ٹوکری میں کا سائن"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("axlatni o‘z joyiga tashlash"),
+            keywords: &["axlat", "axlat qutisi", "axlatni o‘z joyiga tashlash"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("ký hiệu bỏ rác vào thùng"),
+            keywords: &["ký hiệu bỏ rác vào thùng", "thùng rác", "xả rác"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("màndarga mbalit ci pot"),
+            keywords: &["mbalit", "màndarga mbalit ci pot", "potu mbalit"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("uphawu lwenkunkuma esemgqomeni"),
+            keywords: &[
+                "inkunkuma",
+                "umgqomo wenkunkuma",
+                "uphawu lwenkunkuma esemgqomeni",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("idoti ninu aami idọti"),
+            keywords: &["dọ\u{300}tí", "idoti ninu aami idọti", "ike ìdalẹ\u{300}sí"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("垃圾桶標誌"),
+            keywords: &["垃圾", "垃圾桶", "垃圾桶標誌"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("垃圾桶标志"),
+            keywords: &["垃圾", "垃圾桶", "垃圾桶标志"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("倒垃圾"),
+            keywords: &["倒垃圾", "垃圾丢弃处", "垃圾入篓"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("垃圾桶"),
+            keywords: &["垃圾桶"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("垃圾桶標誌"),
+            keywords: &["垃圾桶", "垃圾桶標誌"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("uphawu lomgqomo wezibi"),
+            keywords: &["ibhokisi lezibi", "izibi", "uphawu lomgqomo wezibi"],
+        },
+    ],
+};
 #[doc = "🚰"]
 pub const POTABLE_WATER: crate::Emoji = crate::Emoji {
     glyph: "🚰",
@@ -4708,9 +6462,1523 @@ pub const BABY_SYMBOL: crate::Emoji = crate::Emoji {
     ],
 };
 #[doc = "🚾"]
-pub const WATER_CLOSET : crate :: Emoji = crate :: Emoji { glyph : "🚾" , codepoint : "1F6BE" , status : crate :: Status :: FullyQualified , introduction_version : 0.6f32 , name : "water closet" , group : "Symbols" , subgroup : "transport-sign" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("WC") , keywords : & ["WC" , "kleedkamer" , "toilet" , "water"] , } , crate :: Annotation { lang : "am" , tts : Some ("ባኞ ቤት") , keywords : & ["መጸዳጃ" , "ቁም ሣጥን" , "ባኞ ቤት" , "ውሃ" , "ደብልዩ ሲ"] , } , crate :: Annotation { lang : "ar" , tts : Some ("حمام") , keywords : & ["حمام" , "مرحاض"] , } , crate :: Annotation { lang : "as" , tts : Some ("প\u{9be}নীৰ সংযোগ থক\u{9be} শৌচ\u{9be}গ\u{9be}ৰ") , keywords : & ["ক\u{9cd}লজেট" , "ডব\u{9cd}লিউচি" , "প\u{9be}নী" , "প\u{9be}নীৰ সংযোগ থক\u{9be} শৌচ\u{9be}গ\u{9be}ৰ" , "শৌচ\u{9be}গ\u{9be}ৰ" , "ৰেষ\u{9cd}টৰ\u{9c1}ম"] , } , crate :: Annotation { lang : "az" , tts : Some ("wc") , keywords : & ["ayaqyolu" , "su" , "tualet" , "wc"] , } , crate :: Annotation { lang : "be" , tts : Some ("туалет") , keywords : & ["грамадская" , "прыбіральня" , "туалет"] , } , crate :: Annotation { lang : "bg" , tts : Some ("тоалетна") , keywords : & ["WC" , "тоалетна"] , } , crate :: Annotation { lang : "bn" , tts : Some ("ব\u{9be}থর\u{9c1}ম") , keywords : & ["জল" , "ব\u{9be}থর\u{9c1}ম" , "রেস\u{9cd}টর\u{9c1}ম"] , } , crate :: Annotation { lang : "br" , tts : Some ("WC") , keywords : & ["WC" , "golcʼhiri" , "privezioù"] , } , crate :: Annotation { lang : "bs" , tts : Some ("toalet") , keywords : & ["klozet" , "toalet" , "voda" , "wc" , "zahod"] , } , crate :: Annotation { lang : "ca" , tts : Some ("vàter") , keywords : & ["bany" , "lavabo" , "servei" , "vàter" , "wc"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎧᏅᏑᎸᎢ") , keywords : & ["wc" , "ᎠᎹ" , "ᎡᏓᏍᏗ" , "ᎧᏅᏑᎸᎢ" , "ᏙᏱ ᎤᎾᏨᏍᏗ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("záchod") , keywords : & ["toaleta" , "voda" , "wc" , "záchod"] , } , crate :: Annotation { lang : "cy" , tts : Some ("tŷ bach") , keywords : & ["dŵr" , "toiled" , "tŷ bach" , "tŷbach"] , } , crate :: Annotation { lang : "da" , tts : Some ("wc") , keywords : & ["toilet" , "wc"] , } , crate :: Annotation { lang : "de" , tts : Some ("WC") , keywords : & ["Toilette" , "WC"] , } , crate :: Annotation { lang : "el" , tts : Some ("WC") , keywords : & ["WC" , "τουαλέτα" , "τουαλέτες"] , } , crate :: Annotation { lang : "en" , tts : Some ("water closet") , keywords : & ["closet" , "lavatory" , "restroom" , "water" , "wc"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("WC") , keywords : & ["WC" , "amenities" , "bathroom" , "restroom" , "toilet" , "water closet" , "wc"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("aseos") , keywords : & ["WC" , "aseos" , "lavabo" , "servicios"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("servicios") , keywords : & ["baño" , "servicios" , "señal"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["agua" , "baño" , "sanitarios" , "servicios" , "wc"] , } , crate :: Annotation { lang : "et" , tts : Some ("WC") , keywords : & ["WC" , "tualett" , "vesi" , "wc"] , } , crate :: Annotation { lang : "eu" , tts : Some ("komunak") , keywords : & ["komun" , "komunak" , "ur" , "wc"] , } , crate :: Annotation { lang : "fa" , tts : Some ("سرویس بهداشتی") , keywords : & ["توالت" , "سرویس بهداشتی"] , } , crate :: Annotation { lang : "fi" , tts : Some ("vessa") , keywords : & ["huussi" , "käymälä" , "vessa" , "wc"] , } , crate :: Annotation { lang : "fil" , tts : Some ("comfort room") , keywords : & ["aparador" , "banyo" , "comfort room" , "kubeta" , "palikuran" , "tubig"] , } , crate :: Annotation { lang : "fo" , tts : Some ("wc symbol") , keywords : & ["ves" , "vesi" , "wc" , "wc symbol"] , } , crate :: Annotation { lang : "fr" , tts : Some ("WC") , keywords : & ["WC" , "toilettes"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("symbole Toilettes") , keywords : & ["symbole Toilettes" , "toilettes"] , } , crate :: Annotation { lang : "ga" , tts : Some ("na leithris") , keywords : & ["leithreas" , "na leithris"] , } , crate :: Annotation { lang : "gd" , tts : Some ("clòsaid-uisge") , keywords : & ["clòsaid" , "clòsaid-uisge" , "taigh-beag" , "uisge" , "wc"] , } , crate :: Annotation { lang : "gl" , tts : Some ("sinal de aseo") , keywords : & ["aseo" , "baños" , "sinal de aseo" , "váter"] , } , crate :: Annotation { lang : "gu" , tts : Some ("વૉટર ક\u{acd}લોઝ\u{ac7}ટ") , keywords : & ["wc" , "ર\u{ac7}સ\u{acd}ટર\u{ac2}મ" , "વૉટર ક\u{acd}લોઝ\u{ac7}ટ" , "શૌચાલય"] , } , crate :: Annotation { lang : "ha" , tts : Some ("babban ɗaki") , keywords : & ["babban ɗaki" , "bayan gida" , "mai rufewa" , "makewayi" , "ruwa" , "wc"] , } , crate :: Annotation { lang : "he" , tts : Some ("שלט WC") , keywords : & ["ציבוריים" , "שירותים" , "שלט WC"] , } , crate :: Annotation { lang : "hi" , tts : Some ("वॉटर क\u{94d}लोस\u{947}ट") , keywords : & ["WC" , "लावाटोरी" , "वॉटर क\u{94d}लोस\u{947}ट" , "स\u{941}विधाघर"] , } , crate :: Annotation { lang : "hr" , tts : Some ("nužnik") , keywords : & ["nužnik" , "toalet" , "wc" , "zahod"] , } , crate :: Annotation { lang : "hu" , tts : Some ("toalett") , keywords : & ["WC" , "mellékhelyiség" , "mosdó" , "toalett" , "vécé"] , } , crate :: Annotation { lang : "hy" , tts : Some ("զուգարան") , keywords : & ["wc" , "զուգարան" , "ջուր"] , } , crate :: Annotation { lang : "ia" , tts : Some ("water-closet") , keywords : & ["aqua" , "cabinetto" , "lavatorio" , "toilette" , "water-closet" , "wc"] , } , crate :: Annotation { lang : "id" , tts : Some ("kloset air") , keywords : & ["air" , "kamar kecil" , "kloset" , "toilet" , "wc"] , } , crate :: Annotation { lang : "ig" , tts : Some ("nchekwa mmiri") , keywords : & ["mmiri" , "nchekwa" , "wc" , "ụlọ maamịrị" , "ụlọ mpochi"] , } , crate :: Annotation { lang : "is" , tts : Some ("salerni") , keywords : & ["WC" , "klósett" , "salerni" , "snyrting"] , } , crate :: Annotation { lang : "it" , tts : Some ("simbolo del WC") , keywords : & ["WC" , "bagno" , "gabinetto" , "simbolo del WC"] , } , crate :: Annotation { lang : "ja" , tts : Some ("WC") , keywords : & ["WC" , "お手洗い" , "トイレ" , "化粧室"] , } , crate :: Annotation { lang : "jv" , tts : Some ("wese") , keywords : & ["banyu" , "jedhing" , "jumbleng" , "pakiwan" , "wese"] , } , crate :: Annotation { lang : "ka" , tts : Some ("საპირფარეშო ოთახი") , keywords : & ["საპირფარეშო" , "საპირფარეშო ოთახი" , "საჭირო ოთახი" , "ტუალეტი" , "წყალი"] , } , crate :: Annotation { lang : "kab" , tts : Some ("taslalayt") , keywords : & ["taslalayt"] , } , crate :: Annotation { lang : "kk" , tts : Some ("ватерклозет") , keywords : & ["ватерклозет" , "дәретхана" , "су" , "шкаф" , "әжетхана"] , } , crate :: Annotation { lang : "kl" , tts : Some ("wc") , keywords : & ["toilet" , "wc"] , } , crate :: Annotation { lang : "km" , tts : Some ("សញ\u{17d2}ញាបង\u{17d2}គន\u{17cb}") , keywords : & ["WC" , "បង\u{17d2}គន\u{17cb}" , "សញ\u{17d2}ញា" , "សញ\u{17d2}ញាបង\u{17d2}គន\u{17cb}"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ವಾಟರ\u{ccd} ಕ\u{ccd}ಲಾಸ\u{cc6}ಟ\u{ccd}") , keywords : & ["ಡಬ\u{ccd}ಲ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}" , "ರ\u{cc6}ಸ\u{ccd}ಟ\u{ccd} ರ\u{cc2}ಂ" , "ವಾಟರ\u{ccd} ಕ\u{ccd}ಲಾಸ\u{cc6}ಟ\u{ccd}" , "ಶ\u{ccc}ಚಾಲಯದ"] , } , crate :: Annotation { lang : "ko" , tts : Some ("더블유씨") , keywords : & ["공중화장실" , "더블유씨" , "화장실"] , } , crate :: Annotation { lang : "kok" , tts : Some ("उदकाचो नळ") , keywords : & ["उदकाचो नळ" , "टॉयल\u{947}ट" , "म\u{941}तरी" , "र\u{947}स\u{94d}टर\u{942}म" , "वॉशर\u{942}म"] , } , crate :: Annotation { lang : "ky" , tts : Some ("даараткана белгиси") , keywords : & ["даараткана" , "даараткана белгиси" , "суу"] , } , crate :: Annotation { lang : "lb" , tts : Some ("WC-Zeechen") , keywords : & ["Toilett" , "Toiletten" , "WC" , "WC-Zeechen" , "Waasser"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ປ\u{ec9}າຍຫ\u{ec9}ອງນ\u{ecd}\u{ec9}າ") , keywords : & ["ປ\u{ec9}າຍ" , "ປ\u{ec9}າຍຫ\u{ec9}ອງນ\u{ecd}\u{ec9}າ" , "ຫ\u{ec9}ອງນ\u{ecd}\u{ec9}າ" , "ຫ\u{ec9}ອງສ\u{eb8}ຂາ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("tualeto patalpa") , keywords : & ["tualetas" , "tualeto patalpa" , "vanduo" , "wc"] , } , crate :: Annotation { lang : "lv" , tts : Some ("ateja") , keywords : & ["WC" , "ateja" , "tualete"] , } , crate :: Annotation { lang : "mi" , tts : Some ("wharepaku") , keywords : & ["heketua" , "rūma whakatā" , "taiwhanga" , "wai" , "wharepaku"] , } , crate :: Annotation { lang : "mk" , tts : Some ("вц") , keywords : & ["вц" , "тоалет"] , } , crate :: Annotation { lang : "ml" , tts : Some ("വ\u{d3e}ട\u{d4d}ടർ ക\u{d4d}ലോസറ\u{d4d}റ\u{d4d}") , keywords : & ["ക\u{d4d}ലോസറ\u{d4d}റ\u{d4d}" , "റെസ\u{d4d}റ\u{d4d}റ\u{d4d} റ\u{d42}ം" , "വ\u{d3e}ട\u{d4d}ടർ ക\u{d4d}ലോസറ\u{d4d}റ\u{d4d}" , "വെള\u{d4d}ളം" , "ശ\u{d41}ചിമ\u{d41}റി"] , } , crate :: Annotation { lang : "mn" , tts : Some ("жорлонгийн суултуур") , keywords : & ["00" , "бие засах газар" , "жорлон" , "жорлонгийн суултуур" , "ус"] , } , crate :: Annotation { lang : "mr" , tts : Some ("प\u{94d}रसाधनग\u{943}ह") , keywords : & ["डब\u{94d}ल\u{94d}य\u{942}सी" , "पाणी" , "प\u{94d}रसाधनग\u{943}ह" , "विश\u{94d}रा\u{902}तीग\u{943}ह"] , } , crate :: Annotation { lang : "ms" , tts : Some ("tandas pam") , keywords : & ["air" , "bilik" , "tandas pam" , "wc"] , } , crate :: Annotation { lang : "mt" , tts : Some ("wc") , keywords : & ["ilma" , "kmajra" , "latrina" , "toilet" , "wc"] , } , crate :: Annotation { lang : "my" , tts : Some ("ရေအ\u{102d}မ\u{103a}") , keywords : & ["ရေအ\u{102d}မ\u{103a}" , "ရေအ\u{102d}မ\u{103a} သင\u{103a}\u{1039}ကေတ" , "သန\u{1037}\u{103a}စင\u{103a}ခန\u{103a}း" , "အ\u{102d}မ\u{103a}သာ"] , } , crate :: Annotation { lang : "nb" , tts : Some ("do") , keywords : & ["WC" , "do" , "toalett"] , } , crate :: Annotation { lang : "ne" , tts : Some ("पानी पाइन\u{947} ठाउ\u{901}") , keywords : & ["कोठा" , "पानी" , "पानी पाइन\u{947} ठाउ\u{901}" , "शौ\u{902}चालय"] , } , crate :: Annotation { lang : "nl" , tts : Some ("wc") , keywords : & ["toilet" , "wasgelegenheid" , "water" , "wc"] , } , crate :: Annotation { lang : "nn" , tts : Some ("do") , keywords : & ["WC" , "do" , "toalett"] , } , crate :: Annotation { lang : "or" , tts : Some ("ଶୌଚ\u{b3e}ଳୟ") , keywords : & ["wc" , "ଆର\u{b3e}ମକକ\u{b4d}ଷ" , "ଜଳ" , "ପ\u{b3e}ଇଖ\u{b3e}ନ\u{b3e}" , "ଶୌଚ\u{b3e}ଳୟ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਪਾਣੀ ਦਾ ਟ\u{a48}\u{a02}ਕੀ") , keywords : & ["WC" , "ਟਾਇਲਟ" , "ਟ\u{a48}\u{a02}ਕੀ" , "ਪਾਣੀ ਦਾ ਟ\u{a48}\u{a02}ਕੀ" , "ਫਲ\u{a71}ਸ\u{a3c}"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("پانی آلا بیت الخلاء") , keywords : & ["wc" , "خلوت خانہ" , "غسل خانہ" , "لیٹرین" , "پانی" , "پانی آلا بیت الخلاء"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Wọ\u{301}tá Kọnténa") , keywords : & ["Lávétri" , "Rẹ\u{301}strum" , "WC" , "Wọ\u{301}ta" , "Wọ\u{301}tá Kọnténa"] , } , crate :: Annotation { lang : "pl" , tts : Some ("WC") , keywords : & ["WC" , "szalet" , "toaleta" , "ubikacja" , "ustęp" , "wc"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د تشناب د اوبو لوښی") , keywords : & ["اوبه" , "تشناب" , "د آرام خونه" , "د اوبو لوښی" , "د تشناب د اوبو لوښی" , "ډبليو سي"] , } , crate :: Annotation { lang : "pt" , tts : Some ("WC") , keywords : & ["WC" , "latrina" , "lavabo" , "toalete"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("WC") , keywords : & ["WC" , "casa de banho" , "wc"] , } , crate :: Annotation { lang : "qu" , tts : Some ("inodoro") , keywords : & ["baño nisqa" , "baños" , "inodoro" , "wc" , "yaku"] , } , crate :: Annotation { lang : "ro" , tts : Some ("wc") , keywords : & ["bărbați" , "closet" , "toaletă" , "wc"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-978") , keywords : & ["E10-978"] , } , crate :: Annotation { lang : "ru" , tts : Some ("туалет") , keywords : & ["WC" , "женский туалет" , "мужской туалет" , "общественный туалет" , "туалет" , "уборная" , "унитаз"] , } , crate :: Annotation { lang : "rw" , tts : Some ("wese") , keywords : & ["aho bisukurira" , "aho bituma" , "ubwiherero" , "wc" , "wese"] , } , crate :: Annotation { lang : "sd" , tts : Some ("پاڻي جو هبار") , keywords : & ["آرام جو ڪمرو" , "الماري" , "غسل خانو" , "پاڻي" , "پاڻي جو هبار" , "ڊبليوسي"] , } , crate :: Annotation { lang : "si" , tts : Some ("ජල ම\u{dd4}ද\u{dca}\u{200d}ර\u{dd2}ත වැස\u{dd2}ක\u{dd2}ළ\u{dd2} කට\u{dca}ටලය") , keywords : & ["wc" , "ජල ම\u{dd4}ද\u{dca}\u{200d}ර\u{dd2}ත" , "ජල ම\u{dd4}ද\u{dca}\u{200d}ර\u{dd2}ත වැස\u{dd2}ක\u{dd2}ළ\u{dd2} කට\u{dca}ටලය" , "ජලය" , "වැස\u{dd2}ක\u{dd2}ළ\u{dd2}ය" , "ව\u{dd2}වේක ක\u{dcf}මරය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("splachovací záchod") , keywords : & ["splachovací záchod" , "toaleta" , "voda" , "wc" , "záchod"] , } , crate :: Annotation { lang : "sl" , tts : Some ("wc") , keywords : & ["stranišče" , "voda" , "wc"] , } , crate :: Annotation { lang : "so" , tts : Some ("qolka biyaha") , keywords : & ["biyo" , "musqul" , "qolka biyaha" , "qolka kaydinta" , "suuli" , "wc"] , } , crate :: Annotation { lang : "sq" , tts : Some ("banjë") , keywords : & ["banjë" , "tualet" , "ujë" , "wc"] , } , crate :: Annotation { lang : "sr" , tts : Some ("ве-це") , keywords : & ["ве-це" , "нужник" , "тoaлeт"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("ve-ce") , keywords : & ["nužnik" , "toalet" , "ve-ce"] , } , crate :: Annotation { lang : "sv" , tts : Some ("WC") , keywords : & ["WC" , "toalett" , "uthus" , "wc"] , } , crate :: Annotation { lang : "sw" , tts : Some ("msala") , keywords : & ["choo" , "maji" , "maliwato" , "msala"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("வ\u{bbe}ட\u{bcd}டர\u{bcd} குளோசட\u{bcd}") , keywords : & ["சிறுந\u{bc0}ர\u{bcd} கழிப\u{bcd}பிடம\u{bcd}" , "வ\u{bbe}ட\u{bcd}டர\u{bcd} குளோசட\u{bcd}"] , } , crate :: Annotation { lang : "te" , tts : Some ("వ\u{c3e}టర\u{c4d} క\u{c4d}ల\u{c4b}స\u{c46}ట\u{c4d}") , keywords : & ["గదుల\u{c4d}ల\u{c4b} అంతర\u{c4d}గతంగ\u{c3e} న\u{c40}ట\u{c3f} ప\u{c48}పుల స\u{c4c}లభ\u{c4d}యం" , "వ\u{c3e}టర\u{c4d} క\u{c4d}ల\u{c4b}స\u{c46}ట\u{c4d}"] , } , crate :: Annotation { lang : "tg" , tts : Some ("мабраз") , keywords : & ["мабраз" , "об" , "обхона" , "ташноб" , "ҳоҷатхона"] , } , crate :: Annotation { lang : "th" , tts : Some ("ป\u{e49}ายห\u{e49}องน\u{e49}ำ") , keywords : & ["ป\u{e49}ายห\u{e49}องน\u{e49}ำ" , "ห\u{e49}องน\u{e49}ำ"] , } , crate :: Annotation { lang : "ti" , tts : Some ("መዕቆሪ ማይ") , keywords : & ["wc" , "መዕቆሪ" , "ማይ" , "ሽቃቅ" , "ናይ ክዳውንቲ መሕጸቢ ኣቕሓ"] , } , crate :: Annotation { lang : "tk" , tts : Some ("unitaz") , keywords : & ["dynç otagy" , "hajathana" , "suw" , "tualet" , "unitaz"] , } , crate :: Annotation { lang : "to" , tts : Some ("toileti") , keywords : & ["fale mālōlō" , "toileti"] , } , crate :: Annotation { lang : "tr" , tts : Some ("wc") , keywords : & ["WC" , "lavabo" , "tuvalet" , "wc"] , } , crate :: Annotation { lang : "ug" , tts : Some ("سۇخانا") , keywords : & ["تازىلىق ئۆيى" , "سۇ" , "سۇخانا" , "ھاجەتخانا"] , } , crate :: Annotation { lang : "uk" , tts : Some ("символ убиральні [WC]") , keywords : & ["ванна" , "вбиральня" , "знак убиральні WC" , "кімната" , "символ убиральні WC" , "символ убиральні [WC]"] , } , crate :: Annotation { lang : "ur" , tts : Some ("واش روم") , keywords : & ["واش روم" , "ٹوائلٹ" , "کمرہ"] , } , crate :: Annotation { lang : "uz" , tts : Some ("hojatxona") , keywords : & ["hojatxona" , "suv"] , } , crate :: Annotation { lang : "vi" , tts : Some ("WC") , keywords : & ["WC" , "nhà vệ sinh" , "nước" , "phòng vệ sinh" , "wc"] , } , crate :: Annotation { lang : "wo" , tts : Some ("tuurukaayu ndox") , keywords : & ["duus" , "ndox" , "noppalukaay" , "tuurukaayu ndox" , "wanag" , "wc"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ithoyilethi egungxulwayo") , keywords : & ["amanzi" , "i-wc" , "igumbi lokuphumla" , "indlu yangasese" , "ithoyilethi egungxulwayo"] , } , crate :: Annotation { lang : "yo" , tts : Some ("iléìyàgbẹ\u{301} olomi") , keywords : & ["ilé ìgbọ\u{300}nṣẹ\u{300}" , "ilé ìgbọ\u{300}nṣẹ\u{300} olómi" , "iléìyàgbẹ\u{301} olomi" , "omi" , "ìyàrá ìsinmi" , "ìyẹ\u{300}wù"] , } , crate :: Annotation { lang : "yue" , tts : Some ("衛生間") , keywords : & ["廁所" , "水" , "洗手間" , "衛生間"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("卫生间") , keywords : & ["卫生间" , "厕所" , "水" , "洗手间"] , } , crate :: Annotation { lang : "zh" , tts : Some ("厕所") , keywords : & ["卫生间" , "厕所" , "洗手间" , "盥洗室"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("廁所") , keywords : & ["廁所" , "盥洗室"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("WC") , keywords : & ["WC" , "廁所" , "洗手間"] , } , crate :: Annotation { lang : "zu" , tts : Some ("indawo yamanzi") , keywords : & ["amanzi" , "indawo yamanzi" , "indlu yangasese"] , }] , } ;
+pub const WATER_CLOSET: crate::Emoji = crate::Emoji {
+    glyph: "🚾",
+    codepoint: "1F6BE",
+    status: crate::Status::FullyQualified,
+    introduction_version: 0.6f32,
+    name: "water closet",
+    group: "Symbols",
+    subgroup: "transport-sign",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("WC"),
+            keywords: &["WC", "kleedkamer", "toilet", "water"],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("ባኞ ቤት"),
+            keywords: &["መጸዳጃ", "ቁም ሣጥን", "ባኞ ቤት", "ውሃ", "ደብልዩ ሲ"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("حمام"),
+            keywords: &["حمام", "مرحاض"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("প\u{9be}নীৰ সংযোগ থক\u{9be} শৌচ\u{9be}গ\u{9be}ৰ"),
+            keywords: &[
+                "ক\u{9cd}লজেট",
+                "ডব\u{9cd}লিউচি",
+                "প\u{9be}নী",
+                "প\u{9be}নীৰ সংযোগ থক\u{9be} শৌচ\u{9be}গ\u{9be}ৰ",
+                "শৌচ\u{9be}গ\u{9be}ৰ",
+                "ৰেষ\u{9cd}টৰ\u{9c1}ম",
+            ],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("wc"),
+            keywords: &["ayaqyolu", "su", "tualet", "wc"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("туалет"),
+            keywords: &["грамадская", "прыбіральня", "туалет"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("тоалетна"),
+            keywords: &["WC", "тоалетна"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("ব\u{9be}থর\u{9c1}ম"),
+            keywords: &["জল", "ব\u{9be}থর\u{9c1}ম", "রেস\u{9cd}টর\u{9c1}ম"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("WC"),
+            keywords: &["WC", "golcʼhiri", "privezioù"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("toalet"),
+            keywords: &["klozet", "toalet", "voda", "wc", "zahod"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("vàter"),
+            keywords: &["bany", "lavabo", "servei", "vàter", "wc"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎧᏅᏑᎸᎢ"),
+            keywords: &["wc", "ᎠᎹ", "ᎡᏓᏍᏗ", "ᎧᏅᏑᎸᎢ", "ᏙᏱ ᎤᎾᏨᏍᏗ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("záchod"),
+            keywords: &["toaleta", "voda", "wc", "záchod"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("tŷ bach"),
+            keywords: &["dŵr", "toiled", "tŷ bach", "tŷbach"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("wc"),
+            keywords: &["toilet", "wc"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("WC"),
+            keywords: &["Toilette", "WC"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("WC"),
+            keywords: &["WC", "τουαλέτα", "τουαλέτες"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("water closet"),
+            keywords: &["closet", "lavatory", "restroom", "water", "wc"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("WC"),
+            keywords: &[
+                "WC",
+                "amenities",
+                "bathroom",
+                "restroom",
+                "toilet",
+                "water closet",
+                "wc",
+            ],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("aseos"),
+            keywords: &["WC", "aseos", "lavabo", "servicios"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("servicios"),
+            keywords: &["baño", "servicios", "señal"],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["agua", "baño", "sanitarios", "servicios", "wc"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("WC"),
+            keywords: &["WC", "tualett", "vesi", "wc"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("komunak"),
+            keywords: &["komun", "komunak", "ur", "wc"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("سرویس بهداشتی"),
+            keywords: &["توالت", "سرویس بهداشتی"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("vessa"),
+            keywords: &["huussi", "käymälä", "vessa", "wc"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("comfort room"),
+            keywords: &[
+                "aparador",
+                "banyo",
+                "comfort room",
+                "kubeta",
+                "palikuran",
+                "tubig",
+            ],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("wc symbol"),
+            keywords: &["ves", "vesi", "wc", "wc symbol"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("WC"),
+            keywords: &["WC", "toilettes"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("symbole Toilettes"),
+            keywords: &["symbole Toilettes", "toilettes"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("na leithris"),
+            keywords: &["leithreas", "na leithris"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("clòsaid-uisge"),
+            keywords: &["clòsaid", "clòsaid-uisge", "taigh-beag", "uisge", "wc"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("sinal de aseo"),
+            keywords: &["aseo", "baños", "sinal de aseo", "váter"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("વૉટર ક\u{acd}લોઝ\u{ac7}ટ"),
+            keywords: &[
+                "wc",
+                "ર\u{ac7}સ\u{acd}ટર\u{ac2}મ",
+                "વૉટર ક\u{acd}લોઝ\u{ac7}ટ",
+                "શૌચાલય",
+            ],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("babban ɗaki"),
+            keywords: &[
+                "babban ɗaki",
+                "bayan gida",
+                "mai rufewa",
+                "makewayi",
+                "ruwa",
+                "wc",
+            ],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("שלט WC"),
+            keywords: &["ציבוריים", "שירותים", "שלט WC"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("वॉटर क\u{94d}लोस\u{947}ट"),
+            keywords: &[
+                "WC",
+                "लावाटोरी",
+                "वॉटर क\u{94d}लोस\u{947}ट",
+                "स\u{941}विधाघर",
+            ],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("nužnik"),
+            keywords: &["nužnik", "toalet", "wc", "zahod"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("toalett"),
+            keywords: &["WC", "mellékhelyiség", "mosdó", "toalett", "vécé"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("զուգարան"),
+            keywords: &["wc", "զուգարան", "ջուր"],
+        },
+        crate::Annotation {
+            lang: "ia",
+            tts: Some("water-closet"),
+            keywords: &[
+                "aqua",
+                "cabinetto",
+                "lavatorio",
+                "toilette",
+                "water-closet",
+                "wc",
+            ],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("kloset air"),
+            keywords: &["air", "kamar kecil", "kloset", "toilet", "wc"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("nchekwa mmiri"),
+            keywords: &["mmiri", "nchekwa", "wc", "ụlọ maamịrị", "ụlọ mpochi"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("salerni"),
+            keywords: &["WC", "klósett", "salerni", "snyrting"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("simbolo del WC"),
+            keywords: &["WC", "bagno", "gabinetto", "simbolo del WC"],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("WC"),
+            keywords: &["WC", "お手洗い", "トイレ", "化粧室"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("wese"),
+            keywords: &["banyu", "jedhing", "jumbleng", "pakiwan", "wese"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("საპირფარეშო ოთახი"),
+            keywords: &[
+                "საპირფარეშო",
+                "საპირფარეშო ოთახი",
+                "საჭირო ოთახი",
+                "ტუალეტი",
+                "წყალი",
+            ],
+        },
+        crate::Annotation {
+            lang: "kab",
+            tts: Some("taslalayt"),
+            keywords: &["taslalayt"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("ватерклозет"),
+            keywords: &["ватерклозет", "дәретхана", "су", "шкаф", "әжетхана"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("wc"),
+            keywords: &["toilet", "wc"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("សញ\u{17d2}ញាបង\u{17d2}គន\u{17cb}"),
+            keywords: &[
+                "WC",
+                "បង\u{17d2}គន\u{17cb}",
+                "សញ\u{17d2}ញា",
+                "សញ\u{17d2}ញាបង\u{17d2}គន\u{17cb}",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ವಾಟರ\u{ccd} ಕ\u{ccd}ಲಾಸ\u{cc6}ಟ\u{ccd}"),
+            keywords: &[
+                "ಡಬ\u{ccd}ಲ\u{ccd}ಯ\u{cc2}ಸ\u{cbf}",
+                "ರ\u{cc6}ಸ\u{ccd}ಟ\u{ccd} ರ\u{cc2}ಂ",
+                "ವಾಟರ\u{ccd} ಕ\u{ccd}ಲಾಸ\u{cc6}ಟ\u{ccd}",
+                "ಶ\u{ccc}ಚಾಲಯದ",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("더블유씨"),
+            keywords: &["공중화장실", "더블유씨", "화장실"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("उदकाचो नळ"),
+            keywords: &[
+                "उदकाचो नळ",
+                "टॉयल\u{947}ट",
+                "म\u{941}तरी",
+                "र\u{947}स\u{94d}टर\u{942}म",
+                "वॉशर\u{942}म",
+            ],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("даараткана белгиси"),
+            keywords: &["даараткана", "даараткана белгиси", "суу"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("WC-Zeechen"),
+            keywords: &["Toilett", "Toiletten", "WC", "WC-Zeechen", "Waasser"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ປ\u{ec9}າຍຫ\u{ec9}ອງນ\u{ecd}\u{ec9}າ"),
+            keywords: &[
+                "ປ\u{ec9}າຍ",
+                "ປ\u{ec9}າຍຫ\u{ec9}ອງນ\u{ecd}\u{ec9}າ",
+                "ຫ\u{ec9}ອງນ\u{ecd}\u{ec9}າ",
+                "ຫ\u{ec9}ອງສ\u{eb8}ຂາ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("tualeto patalpa"),
+            keywords: &["tualetas", "tualeto patalpa", "vanduo", "wc"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("ateja"),
+            keywords: &["WC", "ateja", "tualete"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("wharepaku"),
+            keywords: &["heketua", "rūma whakatā", "taiwhanga", "wai", "wharepaku"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("вц"),
+            keywords: &["вц", "тоалет"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("വ\u{d3e}ട\u{d4d}ടർ ക\u{d4d}ലോസറ\u{d4d}റ\u{d4d}"),
+            keywords: &[
+                "ക\u{d4d}ലോസറ\u{d4d}റ\u{d4d}",
+                "റെസ\u{d4d}റ\u{d4d}റ\u{d4d} റ\u{d42}ം",
+                "വ\u{d3e}ട\u{d4d}ടർ ക\u{d4d}ലോസറ\u{d4d}റ\u{d4d}",
+                "വെള\u{d4d}ളം",
+                "ശ\u{d41}ചിമ\u{d41}റി",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("жорлонгийн суултуур"),
+            keywords: &[
+                "00",
+                "бие засах газар",
+                "жорлон",
+                "жорлонгийн суултуур",
+                "ус",
+            ],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("प\u{94d}रसाधनग\u{943}ह"),
+            keywords: &[
+                "डब\u{94d}ल\u{94d}य\u{942}सी",
+                "पाणी",
+                "प\u{94d}रसाधनग\u{943}ह",
+                "विश\u{94d}रा\u{902}तीग\u{943}ह",
+            ],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("tandas pam"),
+            keywords: &["air", "bilik", "tandas pam", "wc"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("wc"),
+            keywords: &["ilma", "kmajra", "latrina", "toilet", "wc"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some("ရေအ\u{102d}မ\u{103a}"),
+            keywords: &[
+                "ရေအ\u{102d}မ\u{103a}",
+                "ရေအ\u{102d}မ\u{103a} သင\u{103a}\u{1039}ကေတ",
+                "သန\u{1037}\u{103a}စင\u{103a}ခန\u{103a}း",
+                "အ\u{102d}မ\u{103a}သာ",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("do"),
+            keywords: &["WC", "do", "toalett"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("पानी पाइन\u{947} ठाउ\u{901}"),
+            keywords: &[
+                "कोठा",
+                "पानी",
+                "पानी पाइन\u{947} ठाउ\u{901}",
+                "शौ\u{902}चालय",
+            ],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("wc"),
+            keywords: &["toilet", "wasgelegenheid", "water", "wc"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("do"),
+            keywords: &["WC", "do", "toalett"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ଶୌଚ\u{b3e}ଳୟ"),
+            keywords: &[
+                "wc",
+                "ଆର\u{b3e}ମକକ\u{b4d}ଷ",
+                "ଜଳ",
+                "ପ\u{b3e}ଇଖ\u{b3e}ନ\u{b3e}",
+                "ଶୌଚ\u{b3e}ଳୟ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਪਾਣੀ ਦਾ ਟ\u{a48}\u{a02}ਕੀ"),
+            keywords: &[
+                "WC",
+                "ਟਾਇਲਟ",
+                "ਟ\u{a48}\u{a02}ਕੀ",
+                "ਪਾਣੀ ਦਾ ਟ\u{a48}\u{a02}ਕੀ",
+                "ਫਲ\u{a71}ਸ\u{a3c}",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("پانی آلا بیت الخلاء"),
+            keywords: &[
+                "wc",
+                "خلوت خانہ",
+                "غسل خانہ",
+                "لیٹرین",
+                "پانی",
+                "پانی آلا بیت الخلاء",
+            ],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Wọ\u{301}tá Kọnténa"),
+            keywords: &[
+                "Lávétri",
+                "Rẹ\u{301}strum",
+                "WC",
+                "Wọ\u{301}ta",
+                "Wọ\u{301}tá Kọnténa",
+            ],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("WC"),
+            keywords: &["WC", "szalet", "toaleta", "ubikacja", "ustęp", "wc"],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د تشناب د اوبو لوښی"),
+            keywords: &[
+                "اوبه",
+                "تشناب",
+                "د آرام خونه",
+                "د اوبو لوښی",
+                "د تشناب د اوبو لوښی",
+                "ډبليو سي",
+            ],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("WC"),
+            keywords: &["WC", "latrina", "lavabo", "toalete"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("WC"),
+            keywords: &["WC", "casa de banho", "wc"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("inodoro"),
+            keywords: &["baño nisqa", "baños", "inodoro", "wc", "yaku"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("wc"),
+            keywords: &["bărbați", "closet", "toaletă", "wc"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-978"),
+            keywords: &["E10-978"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("туалет"),
+            keywords: &[
+                "WC",
+                "женский туалет",
+                "мужской туалет",
+                "общественный туалет",
+                "туалет",
+                "уборная",
+                "унитаз",
+            ],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("wese"),
+            keywords: &["aho bisukurira", "aho bituma", "ubwiherero", "wc", "wese"],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("پاڻي جو هبار"),
+            keywords: &[
+                "آرام جو ڪمرو",
+                "الماري",
+                "غسل خانو",
+                "پاڻي",
+                "پاڻي جو هبار",
+                "ڊبليوسي",
+            ],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some(
+                "ජල ම\u{dd4}ද\u{dca}\u{200d}ර\u{dd2}ත වැස\u{dd2}ක\u{dd2}ළ\u{dd2} කට\u{dca}ටලය",
+            ),
+            keywords: &[
+                "wc",
+                "ජල ම\u{dd4}ද\u{dca}\u{200d}ර\u{dd2}ත",
+                "ජල ම\u{dd4}ද\u{dca}\u{200d}ර\u{dd2}ත වැස\u{dd2}ක\u{dd2}ළ\u{dd2} කට\u{dca}ටලය",
+                "ජලය",
+                "වැස\u{dd2}ක\u{dd2}ළ\u{dd2}ය",
+                "ව\u{dd2}වේක ක\u{dcf}මරය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("splachovací záchod"),
+            keywords: &["splachovací záchod", "toaleta", "voda", "wc", "záchod"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("wc"),
+            keywords: &["stranišče", "voda", "wc"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("qolka biyaha"),
+            keywords: &[
+                "biyo",
+                "musqul",
+                "qolka biyaha",
+                "qolka kaydinta",
+                "suuli",
+                "wc",
+            ],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("banjë"),
+            keywords: &["banjë", "tualet", "ujë", "wc"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("ве-це"),
+            keywords: &["ве-це", "нужник", "тoaлeт"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("ve-ce"),
+            keywords: &["nužnik", "toalet", "ve-ce"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("WC"),
+            keywords: &["WC", "toalett", "uthus", "wc"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("msala"),
+            keywords: &["choo", "maji", "maliwato", "msala"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("வ\u{bbe}ட\u{bcd}டர\u{bcd} குளோசட\u{bcd}"),
+            keywords: &[
+                "சிறுந\u{bc0}ர\u{bcd} கழிப\u{bcd}பிடம\u{bcd}",
+                "வ\u{bbe}ட\u{bcd}டர\u{bcd} குளோசட\u{bcd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("వ\u{c3e}టర\u{c4d} క\u{c4d}ల\u{c4b}స\u{c46}ట\u{c4d}"),
+            keywords: &[
+                "గదుల\u{c4d}ల\u{c4b} అంతర\u{c4d}గతంగ\u{c3e} న\u{c40}ట\u{c3f} ప\u{c48}పుల స\u{c4c}లభ\u{c4d}యం",
+                "వ\u{c3e}టర\u{c4d} క\u{c4d}ల\u{c4b}స\u{c46}ట\u{c4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("мабраз"),
+            keywords: &["мабраз", "об", "обхона", "ташноб", "ҳоҷатхона"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ป\u{e49}ายห\u{e49}องน\u{e49}ำ"),
+            keywords: &["ป\u{e49}ายห\u{e49}องน\u{e49}ำ", "ห\u{e49}องน\u{e49}ำ"],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("መዕቆሪ ማይ"),
+            keywords: &["wc", "መዕቆሪ", "ማይ", "ሽቃቅ", "ናይ ክዳውንቲ መሕጸቢ ኣቕሓ"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("unitaz"),
+            keywords: &["dynç otagy", "hajathana", "suw", "tualet", "unitaz"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("toileti"),
+            keywords: &["fale mālōlō", "toileti"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("wc"),
+            keywords: &["WC", "lavabo", "tuvalet", "wc"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("سۇخانا"),
+            keywords: &["تازىلىق ئۆيى", "سۇ", "سۇخانا", "ھاجەتخانا"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("символ убиральні [WC]"),
+            keywords: &[
+                "ванна",
+                "вбиральня",
+                "знак убиральні WC",
+                "кімната",
+                "символ убиральні WC",
+                "символ убиральні [WC]",
+            ],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("واش روم"),
+            keywords: &["واش روم", "ٹوائلٹ", "کمرہ"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("hojatxona"),
+            keywords: &["hojatxona", "suv"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("WC"),
+            keywords: &["WC", "nhà vệ sinh", "nước", "phòng vệ sinh", "wc"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("tuurukaayu ndox"),
+            keywords: &[
+                "duus",
+                "ndox",
+                "noppalukaay",
+                "tuurukaayu ndox",
+                "wanag",
+                "wc",
+            ],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ithoyilethi egungxulwayo"),
+            keywords: &[
+                "amanzi",
+                "i-wc",
+                "igumbi lokuphumla",
+                "indlu yangasese",
+                "ithoyilethi egungxulwayo",
+            ],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("iléìyàgbẹ\u{301} olomi"),
+            keywords: &[
+                "ilé ìgbọ\u{300}nṣẹ\u{300}",
+                "ilé ìgbọ\u{300}nṣẹ\u{300} olómi",
+                "iléìyàgbẹ\u{301} olomi",
+                "omi",
+                "ìyàrá ìsinmi",
+                "ìyẹ\u{300}wù",
+            ],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("衛生間"),
+            keywords: &["廁所", "水", "洗手間", "衛生間"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("卫生间"),
+            keywords: &["卫生间", "厕所", "水", "洗手间"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("厕所"),
+            keywords: &["卫生间", "厕所", "洗手间", "盥洗室"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("廁所"),
+            keywords: &["廁所", "盥洗室"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("WC"),
+            keywords: &["WC", "廁所", "洗手間"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("indawo yamanzi"),
+            keywords: &["amanzi", "indawo yamanzi", "indlu yangasese"],
+        },
+    ],
+};
 #[doc = "🛂"]
-pub const PASSPORT_CONTROL : crate :: Emoji = crate :: Emoji { glyph : "🛂" , codepoint : "1F6C2" , status : crate :: Status :: FullyQualified , introduction_version : 1f32 , name : "passport control" , group : "Symbols" , subgroup : "transport-sign" , is_variant : false , variants : & [] , annotations : & [crate :: Annotation { lang : "af" , tts : Some ("paspoortkontrole") , keywords : & ["beheer" , "kontrole" , "paspoort" , "paspoortbeheer" , "paspoortkontrole"] , } , crate :: Annotation { lang : "am" , tts : Some ("የፖስፖርት መቆጣጠሪያ") , keywords : & ["መቆጣጠሪያ" , "የፖስፖርት መቆጣጠሪያ" , "ፖስፖርት"] , } , crate :: Annotation { lang : "ar" , tts : Some ("مراقبة جوازات السفر") , keywords : & ["جواز سفر" , "مراقبة" , "مراقبة جوازات السفر"] , } , crate :: Annotation { lang : "as" , tts : Some ("প\u{9be}ৰপত\u{9cd}ৰ নিয\u{9bc}ন\u{9cd}ত\u{9cd}ৰণ") , keywords : & ["নিয\u{9bc}ন\u{9cd}ত\u{9cd}ৰণ" , "প\u{9be}ৰপত\u{9cd}ৰ"] , } , crate :: Annotation { lang : "az" , tts : Some ("pasport yoxlaması") , keywords : & ["idarə" , "pasport" , "pasport yoxlaması"] , } , crate :: Annotation { lang : "be" , tts : Some ("пашпартны кантроль") , keywords : & ["кантроль" , "пашпарт" , "пашпартны кантроль" , "праверка"] , } , crate :: Annotation { lang : "bg" , tts : Some ("паспортен контрол") , keywords : & ["контрол" , "паспорт" , "паспортен контрол"] , } , crate :: Annotation { lang : "bn" , tts : Some ("প\u{9be}সপোর\u{9cd}ট নিয\u{9bc}ন\u{9cd}ত\u{9cd}রণ") , keywords : & ["নিয\u{9bc}ন\u{9cd}ত\u{9cd}রণ" , "প\u{9be}সপোর\u{9cd}ট"] , } , crate :: Annotation { lang : "br" , tts : Some ("kontroll paseporzhioù") , keywords : & ["kontroll" , "kontroll paseporzhioù" , "paseporzh"] , } , crate :: Annotation { lang : "bs" , tts : Some ("pasoška kontrola") , keywords : & ["kontrola" , "pasoš" , "pasoška kontrola"] , } , crate :: Annotation { lang : "ca" , tts : Some ("control de passaports") , keywords : & ["control" , "control de passaports" , "passaport"] , } , crate :: Annotation { lang : "chr" , tts : Some ("ᎦᎶᎯᏍᏙᏗ ᏗᎫᎩᏗᏍᎩ") , keywords : & ["ᎦᎶᎯᏍᏙᏗ" , "ᏗᎫᎩᏗᏍᎩ"] , } , crate :: Annotation { lang : "cs" , tts : Some ("pasová kontrola") , keywords : & ["kontrola" , "pas" , "pasová kontrola"] , } , crate :: Annotation { lang : "cy" , tts : Some ("arolygaeth pasbort") , keywords : & ["arolygaeth" , "pasbort"] , } , crate :: Annotation { lang : "da" , tts : Some ("paskontrol") , keywords : & ["pas" , "paskontrol"] , } , crate :: Annotation { lang : "de" , tts : Some ("Passkontrolle") , keywords : & ["Pass" , "Passkontrolle"] , } , crate :: Annotation { lang : "el" , tts : Some ("έλεγχος διαβατηρίων") , keywords : & ["έλεγχος" , "έλεγχος διαβατηρίων" , "διαβατήριο"] , } , crate :: Annotation { lang : "en" , tts : Some ("passport control") , keywords : & ["control" , "passport"] , } , crate :: Annotation { lang : "en_AU" , tts : Some ("border security") , keywords : & ["border" , "control" , "passport" , "security"] , } , crate :: Annotation { lang : "en_CA" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_GB" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "en_IN" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es" , tts : Some ("control de pasaportes") , keywords : & ["control" , "control de pasaportes" , "pasaportes"] , } , crate :: Annotation { lang : "es_419" , tts : Some ("inspección de pasaportes") , keywords : & ["control" , "control de pasaportes" , "inspección de pasaportes" , "pasaportes"] , } , crate :: Annotation { lang : "es_MX" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "es_US" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "et" , tts : Some ("passikontroll") , keywords : & ["kontroll" , "pass" , "passikontroll"] , } , crate :: Annotation { lang : "eu" , tts : Some ("pasaporte-kontrola") , keywords : & ["kontrol" , "pasaporte" , "pasaporte-kontrola"] , } , crate :: Annotation { lang : "fa" , tts : Some ("کنترل گذرنامه") , keywords : & ["کنترل" , "گذرنامه"] , } , crate :: Annotation { lang : "fi" , tts : Some ("passintarkastus") , keywords : & ["passi" , "passintarkastus" , "tarkastus"] , } , crate :: Annotation { lang : "fil" , tts : Some ("passport control") , keywords : & ["kontrol" , "pasaporte" , "passport control"] , } , crate :: Annotation { lang : "fo" , tts : Some ("passeftirlit") , keywords : & ["eftirlit" , "landamark" , "pass" , "passeftirlit"] , } , crate :: Annotation { lang : "fr" , tts : Some ("contrôle des passeports") , keywords : & ["contrôle" , "contrôle des passeports" , "passeport"] , } , crate :: Annotation { lang : "fr_CA" , tts : Some ("↑↑↑") , keywords : & ["contrôle" , "contrôle des passeports" , "douane" , "passeport"] , } , crate :: Annotation { lang : "ga" , tts : Some ("rialú pasanna") , keywords : & ["pas" , "rialú" , "rialú pasanna"] , } , crate :: Annotation { lang : "gd" , tts : Some ("sgrùdadh nam pas") , keywords : & ["cead-siubhail" , "pas" , "sgrùdadh" , "sgrùdadh nam pas"] , } , crate :: Annotation { lang : "gl" , tts : Some ("sinal de control de pasaportes") , keywords : & ["control" , "pasaporte" , "sinal de control de pasaportes"] , } , crate :: Annotation { lang : "gu" , tts : Some ("પાસપોર\u{acd}ટ કન\u{acd}ટ\u{acd}રોલ") , keywords : & ["કન\u{acd}ટ\u{acd}રોલ" , "પાસપોર\u{acd}ટ"] , } , crate :: Annotation { lang : "ha" , tts : Some ("mai dubawa fasfo") , keywords : & ["dubawa" , "fasfo" , "mai dubawa fasfo"] , } , crate :: Annotation { lang : "he" , tts : Some ("שלט עמדת דרכונים") , keywords : & ["דרכון" , "דרכונים" , "שלט עמדת דרכונים"] , } , crate :: Annotation { lang : "hi" , tts : Some ("पासपोर\u{94d}ट निय\u{902}त\u{94d}रण") , keywords : & ["निय\u{902}त\u{94d}रण" , "पासपोर\u{94d}ट"] , } , crate :: Annotation { lang : "hr" , tts : Some ("kontrola putovnica") , keywords : & ["kontrola" , "putovnica"] , } , crate :: Annotation { lang : "hu" , tts : Some ("útlevél-ellenőrzés") , keywords : & ["ellenőrzés" , "útlevél" , "útlevél-ellenőrzés"] , } , crate :: Annotation { lang : "hy" , tts : Some ("անձնագրային ստուգում") , keywords : & ["անձնագիր" , "անձնագրային ստուգում" , "անձնագրի ստուգում" , "ստուգում"] , } , crate :: Annotation { lang : "ia" , tts : Some ("controlo de passaportos") , keywords : & ["controlo" , "controlo de passaportos" , "passaporto"] , } , crate :: Annotation { lang : "id" , tts : Some ("kontrol paspor") , keywords : & ["kontrol" , "paspor"] , } , crate :: Annotation { lang : "ig" , tts : Some ("njizi passpọtụ") , keywords : & ["njizi" , "passpọtụ"] , } , crate :: Annotation { lang : "is" , tts : Some ("vegabréfaeftirlit") , keywords : & ["eftirlit" , "vegabréf" , "vegabréfaeftirlit"] , } , crate :: Annotation { lang : "it" , tts : Some ("simbolo del controllo passaporti") , keywords : & ["controllo" , "dogana" , "passaporti" , "simbolo del controllo passaporti"] , } , crate :: Annotation { lang : "ja" , tts : Some ("出入国審査") , keywords : & ["パスポートコントロール" , "入出国" , "出入国" , "出入国審査"] , } , crate :: Annotation { lang : "jv" , tts : Some ("priksa paspor") , keywords : & ["pamriksan" , "paspor" , "priksa paspor"] , } , crate :: Annotation { lang : "ka" , tts : Some ("საპასპორტო კონტროლი") , keywords : & ["კონტროლი" , "პასპორტი" , "საპასპორტო კონტროლი"] , } , crate :: Annotation { lang : "kk" , tts : Some ("құжаттарды тексеру") , keywords : & ["бақылау" , "төлқұжат" , "құжаттарды тексеру"] , } , crate :: Annotation { lang : "kl" , tts : Some ("paskontrol") , keywords : & ["pas" , "paskontrol"] , } , crate :: Annotation { lang : "km" , tts : Some ("សញ\u{17d2}ញាព\u{17b7}ន\u{17b7}ត\u{17d2}យល\u{17b7}ខ\u{17b7}តឆ\u{17d2}លងដែន") , keywords : & ["ល\u{17b7}ខ\u{17b7}តឆ\u{17d2}លងដែន" , "សញ\u{17d2}ញា" , "សញ\u{17d2}ញាព\u{17b7}ន\u{17b7}ត\u{17d2}យល\u{17b7}ខ\u{17b7}តឆ\u{17d2}លងដែន"] , } , crate :: Annotation { lang : "kn" , tts : Some ("ಪಾಸ\u{ccd}\u{200c}ಪೋರ\u{ccd}ಟ\u{ccd} ನ\u{cbf}ಯಂತ\u{ccd}ರಣ") , keywords : & ["ನ\u{cbf}ಯಂತ\u{ccd}ರಣ" , "ಪಾಸ\u{ccd}\u{200c}ಪೋರ\u{ccd}ಟ\u{ccd}"] , } , crate :: Annotation { lang : "ko" , tts : Some ("출입국 심사") , keywords : & ["여권" , "출입국 심사"] , } , crate :: Annotation { lang : "kok" , tts : Some ("पारपत\u{94d}र निय\u{902}त\u{94d}रण") , keywords : & ["निय\u{902}त\u{94d}रण" , "पारपत\u{94d}र"] , } , crate :: Annotation { lang : "ky" , tts : Some ("паспортту текшерүү") , keywords : & ["паспорт" , "паспортту текшерүү" , "текшерүү"] , } , crate :: Annotation { lang : "lb" , tts : Some ("Passkontroll") , keywords : & ["Kontroll" , "Pass" , "Passkontroll"] , } , crate :: Annotation { lang : "lo" , tts : Some ("ການຄວບຄ\u{eb8}ມໜ\u{eb1}ງສ\u{eb7}ຜ\u{ec8}ານແດນ") , keywords : & ["ການຄວບຄ\u{eb8}ມ" , "ການຄວບຄ\u{eb8}ມໜ\u{eb1}ງສ\u{eb7}ຜ\u{ec8}ານແດນ" , "ໜ\u{eb1}ງສ\u{eb7}ຜ\u{ec8}ານແດນ"] , } , crate :: Annotation { lang : "lt" , tts : Some ("pasų kontrolė") , keywords : & ["kontrolė" , "pasas" , "pasų kontrolė"] , } , crate :: Annotation { lang : "lv" , tts : Some ("pasu kontrole") , keywords : & ["kontrole" , "pase" , "pasu kontrole"] , } , crate :: Annotation { lang : "mi" , tts : Some ("mana uruwhenua") , keywords : & ["mana" , "uruwhenua"] , } , crate :: Annotation { lang : "mk" , tts : Some ("пасошка контрола") , keywords : & ["контрола" , "пасош" , "пасошка контрола"] , } , crate :: Annotation { lang : "ml" , tts : Some ("പ\u{d3e}സ\u{d4d}\u{200c}പോർട\u{d4d}ട\u{d4d} കൺട\u{d4d}രോൾ") , keywords : & ["കൺട\u{d4d}രോൾ" , "പ\u{d3e}സ\u{d4d}\u{200c}പോർട\u{d4d}ട\u{d4d}"] , } , crate :: Annotation { lang : "mn" , tts : Some ("паспортын шалгалт") , keywords : & ["паспортын шалгалт" , "пасспорт" , "шалгалт"] , } , crate :: Annotation { lang : "mr" , tts : Some ("पासपोर\u{94d}ट निय\u{902}त\u{94d}रण") , keywords : & ["निय\u{902}त\u{94d}रण" , "पासपोर\u{94d}ट"] , } , crate :: Annotation { lang : "ms" , tts : Some ("kawalan pasport") , keywords : & ["kawalan" , "pasport"] , } , crate :: Annotation { lang : "mt" , tts : Some ("kontroll tal-passaport") , keywords : & ["kontroll" , "kontroll tal-passaport" , "passaport"] , } , crate :: Annotation { lang : "my" , tts : Some ("န\u{102d}\u{102f}င\u{103a}င\u{1036}က\u{1030}းလက\u{103a}မ\u{103e}တ\u{103a} စစ\u{103a}ဆေးရေးဌာန") , keywords : & ["န\u{102d}\u{102f}င\u{103a}င\u{1036}က\u{1030}းလက\u{103a}မ\u{103e}တ\u{103a}" , "န\u{102d}\u{102f}င\u{103a}င\u{1036}က\u{1030}းလက\u{103a}မ\u{103e}တ\u{103a} စစ\u{103a}ဆေးရေးဌာန"] , } , crate :: Annotation { lang : "nb" , tts : Some ("passkontroll") , keywords : & ["kontroll" , "pass" , "passkontroll"] , } , crate :: Annotation { lang : "ne" , tts : Some ("पासपोर\u{94d}ट च\u{947}कजा\u{901}च") , keywords : & ["च\u{947}कजा\u{901}च" , "पासपोर\u{94d}ट"] , } , crate :: Annotation { lang : "nl" , tts : Some ("paspoortcontrole") , keywords : & ["controle" , "paspoort" , "paspoortcontrole"] , } , crate :: Annotation { lang : "nn" , tts : Some ("passkontroll") , keywords : & ["kontroll" , "pass" , "passkontroll"] , } , crate :: Annotation { lang : "or" , tts : Some ("ପ\u{b3e}ସ\u{b4d}\u{200c}ପୋର\u{b4d}ଟ ନ\u{b3f}ୟନ\u{b4d}ତ\u{b4d}ରଣ") , keywords : & ["ନ\u{b3f}ୟନ\u{b4d}ତ\u{b4d}ରଣ" , "ପ\u{b3e}ସ\u{b4d}\u{200c}ପୋର\u{b4d}ଟ"] , } , crate :: Annotation { lang : "pa" , tts : Some ("ਪਾਸਪ\u{a4b}ਰਟ ਕ\u{a70}ਟਰ\u{a4b}ਲ") , keywords : & ["ਕ\u{a70}ਟਰ\u{a4b}ਲ" , "ਪਾਸਪ\u{a4b}ਰਟ"] , } , crate :: Annotation { lang : "pa_Arab" , tts : Some ("پاسپورٹ کنٹرول") , keywords : & ["پاس پورٹ" , "پاسپورٹ کنٹرول" , "کنٹرول کرنا"] , } , crate :: Annotation { lang : "pcm" , tts : Some ("Páspọ\u{301}t Kọntrol") , keywords : & ["Kọntrol" , "Páspọt" , "Páspọ\u{301}t Kọntrol"] , } , crate :: Annotation { lang : "pl" , tts : Some ("kontrola paszportowa") , keywords : & ["granica" , "graniczna" , "kontrola" , "kontrola paszportowa" , "paszport"] , } , crate :: Annotation { lang : "ps" , tts : Some ("د پاسپورت کنټرول") , keywords : & ["د پاسپورت کنټرول" , "پاسپورټ" , "کنټرول"] , } , crate :: Annotation { lang : "pt" , tts : Some ("controle de passaportes") , keywords : & ["controle" , "controle de passaportes" , "passaporte"] , } , crate :: Annotation { lang : "pt_PT" , tts : Some ("controlo de passaportes") , keywords : & ["controlo" , "controlo de passaportes" , "passaporte"] , } , crate :: Annotation { lang : "qu" , tts : Some ("pasaporte chiqaqchaynin") , keywords : & ["chiqaqchayninpaq" , "pasaporte" , "pasaporte chiqaqchaynin"] , } , crate :: Annotation { lang : "ro" , tts : Some ("control pașapoarte") , keywords : & ["control" , "control pașapoarte" , "pașaport"] , } , crate :: Annotation { lang : "root" , tts : Some ("E10-982") , keywords : & ["E10-982"] , } , crate :: Annotation { lang : "ru" , tts : Some ("паспортный контроль") , keywords : & ["контроль" , "паспортный" , "печать" , "проверка"] , } , crate :: Annotation { lang : "rw" , tts : Some ("ahagenzurirwa pasiporo") , keywords : & ["ahagenzurirwa pasiporo" , "igenzura" , "urwandiko rw’abajya mu mahanga"] , } , crate :: Annotation { lang : "sd" , tts : Some ("پاسپورٽ ڪنٽرول") , keywords : & ["پاسپورٽ" , "ڪنٽرول"] , } , crate :: Annotation { lang : "si" , tts : Some ("ගමන\u{dca} බලපත\u{dca}\u{200d}ර ප\u{dcf}ලනය") , keywords : & ["ගමන\u{dca} බලපත\u{dca}\u{200d}ර ප\u{dcf}ලනය" , "ගමන\u{dca} බලපත\u{dca}\u{200d}රය" , "ප\u{dcf}ලනය"] , } , crate :: Annotation { lang : "sk" , tts : Some ("pasová kontrola") , keywords : & ["hranica" , "kontrola" , "pas" , "pasová kontrola"] , } , crate :: Annotation { lang : "sl" , tts : Some ("pregled dokumentov") , keywords : & ["nadzor" , "potni list" , "pregled dokumentov"] , } , crate :: Annotation { lang : "so" , tts : Some ("xakamaynta baasaboorka") , keywords : & ["baasaboor" , "xakamaynta baasaboorka" , "xukun"] , } , crate :: Annotation { lang : "sq" , tts : Some ("kontrolli i pasaportave") , keywords : & ["kontroll" , "kontrolli i pasaportave" , "pasaportë"] , } , crate :: Annotation { lang : "sr" , tts : Some ("контрола пасоша") , keywords : & ["кoнтрoлa" , "контрола пасоша" , "пасош"] , } , crate :: Annotation { lang : "sr_Cyrl_BA" , tts : Some ("↑↑↑") , keywords : & ["контрола пасоша"] , } , crate :: Annotation { lang : "sr_Latn" , tts : Some ("kontrola pasoša") , keywords : & ["kontrola" , "kontrola pasoša" , "pasoš"] , } , crate :: Annotation { lang : "sr_Latn_BA" , tts : None , keywords : & ["kontrola pasoša"] , } , crate :: Annotation { lang : "sv" , tts : Some ("passkontroll") , keywords : & ["kontroll" , "pass" , "passkontroll"] , } , crate :: Annotation { lang : "sw" , tts : Some ("udhibiti wa pasipoti") , keywords : & ["pasipoti" , "udhibiti" , "udhibiti wa pasipoti"] , } , crate :: Annotation { lang : "sw_KE" , tts : Some ("↑↑↑") , keywords : & ["↑↑↑"] , } , crate :: Annotation { lang : "ta" , tts : Some ("ப\u{bbe}ஸ\u{bcd}போர\u{bcd}ட\u{bcd} கட\u{bcd}டுப\u{bcd}ப\u{bbe}டு") , keywords : & ["ப\u{bbe}ஸ\u{bcd}போர\u{bcd}ட\u{bcd}" , "ப\u{bbe}ஸ\u{bcd}போர\u{bcd}ட\u{bcd} கட\u{bcd}டுப\u{bcd}ப\u{bbe}டு"] , } , crate :: Annotation { lang : "te" , tts : Some ("ప\u{c3e}స\u{c4d}\u{200c}ప\u{c4b}ర\u{c4d}ట\u{c4d} తన\u{c3f}ఖ\u{c40}") , keywords : & ["తన\u{c3f}ఖ\u{c40}" , "ప\u{c3e}స\u{c4d}\u{200c}ప\u{c4b}ర\u{c4d}ట\u{c4d}" , "ప\u{c4d}రయ\u{c3e}ణం"] , } , crate :: Annotation { lang : "tg" , tts : Some ("назорати шиносномаҳо") , keywords : & ["назорат" , "назорати шиносномаҳо" , "шиноснома"] , } , crate :: Annotation { lang : "th" , tts : Some ("ตรวจพาสปอร\u{e4c}ต") , keywords : & ["ตรวจพาสปอร\u{e4c}ต" , "พาสปอร\u{e4c}ต"] , } , crate :: Annotation { lang : "ti" , tts : Some ("ናይ ፓስስፖርት ቁጽጽር") , keywords : & ["ቁጽጽር" , "ናይ ፓስስፖርት ቁጽጽር" , "ፓስፖርት"] , } , crate :: Annotation { lang : "tk" , tts : Some ("pasport barlagy") , keywords : & ["barlag" , "pasport" , "pasport barlagy"] , } , crate :: Annotation { lang : "to" , tts : Some ("ʻofisa tohifolau") , keywords : & ["ʻofisa tohifolau"] , } , crate :: Annotation { lang : "tr" , tts : Some ("pasaport kontrolü") , keywords : & ["kontrol" , "pasaport" , "pasaport kontrolü"] , } , crate :: Annotation { lang : "ug" , tts : Some ("پارول تىزگىنى") , keywords : & ["تىزگىن" , "پارول" , "پارول تىزگىنى"] , } , crate :: Annotation { lang : "uk" , tts : Some ("паспортний контроль") , keywords : & ["контроль" , "паспортний"] , } , crate :: Annotation { lang : "ur" , tts : Some ("پاسپورٹ کنٹرول") , keywords : & ["پاسپورٹ" , "کنٹرول"] , } , crate :: Annotation { lang : "uz" , tts : Some ("pasport nazorati") , keywords : & ["nazorat" , "pasport" , "pasport nazorati"] , } , crate :: Annotation { lang : "vi" , tts : Some ("kiểm soát hộ chiếu") , keywords : & ["hộ chiếu" , "kiểm soát" , "kiểm soát hộ chiếu"] , } , crate :: Annotation { lang : "wo" , tts : Some ("xool sa paaspoor") , keywords : & ["paaspoor" , "xool" , "xool sa paaspoor"] , } , crate :: Annotation { lang : "xh" , tts : Some ("ulawulo lwephaspoti") , keywords : & ["iphaspoti" , "ulawulo" , "ulawulo lwephaspoti"] , } , crate :: Annotation { lang : "yo" , tts : Some ("iṣakoso aworan ori") , keywords : & ["darí" , "iṣakoso aworan ori" , "ìwé ìrìnnà"] , } , crate :: Annotation { lang : "yue" , tts : Some ("護照檢查") , keywords : & ["檢查" , "護照" , "護照檢查"] , } , crate :: Annotation { lang : "yue_Hans" , tts : Some ("护照检查") , keywords : & ["护照" , "护照检查" , "检查"] , } , crate :: Annotation { lang : "zh" , tts : Some ("护照检查") , keywords : & ["安检" , "护照检查" , "检查" , "通行证"] , } , crate :: Annotation { lang : "zh_Hant" , tts : Some ("護照查驗") , keywords : & ["護照" , "護照查驗"] , } , crate :: Annotation { lang : "zh_Hant_HK" , tts : Some ("通關檢查") , keywords : & ["通關檢查"] , } , crate :: Annotation { lang : "zu" , tts : Some ("ukulawula iphasiphothi") , keywords : & ["iphasiphothi" , "ukulawula"] , }] , } ;
+pub const PASSPORT_CONTROL: crate::Emoji = crate::Emoji {
+    glyph: "🛂",
+    codepoint: "1F6C2",
+    status: crate::Status::FullyQualified,
+    introduction_version: 1f32,
+    name: "passport control",
+    group: "Symbols",
+    subgroup: "transport-sign",
+    is_variant: false,
+    variants: &[],
+    annotations: &[
+        crate::Annotation {
+            lang: "af",
+            tts: Some("paspoortkontrole"),
+            keywords: &[
+                "beheer",
+                "kontrole",
+                "paspoort",
+                "paspoortbeheer",
+                "paspoortkontrole",
+            ],
+        },
+        crate::Annotation {
+            lang: "am",
+            tts: Some("የፖስፖርት መቆጣጠሪያ"),
+            keywords: &["መቆጣጠሪያ", "የፖስፖርት መቆጣጠሪያ", "ፖስፖርት"],
+        },
+        crate::Annotation {
+            lang: "ar",
+            tts: Some("مراقبة جوازات السفر"),
+            keywords: &["جواز سفر", "مراقبة", "مراقبة جوازات السفر"],
+        },
+        crate::Annotation {
+            lang: "as",
+            tts: Some("প\u{9be}ৰপত\u{9cd}ৰ নিয\u{9bc}ন\u{9cd}ত\u{9cd}ৰণ"),
+            keywords: &["নিয\u{9bc}ন\u{9cd}ত\u{9cd}ৰণ", "প\u{9be}ৰপত\u{9cd}ৰ"],
+        },
+        crate::Annotation {
+            lang: "az",
+            tts: Some("pasport yoxlaması"),
+            keywords: &["idarə", "pasport", "pasport yoxlaması"],
+        },
+        crate::Annotation {
+            lang: "be",
+            tts: Some("пашпартны кантроль"),
+            keywords: &["кантроль", "пашпарт", "пашпартны кантроль", "праверка"],
+        },
+        crate::Annotation {
+            lang: "bg",
+            tts: Some("паспортен контрол"),
+            keywords: &["контрол", "паспорт", "паспортен контрол"],
+        },
+        crate::Annotation {
+            lang: "bn",
+            tts: Some("প\u{9be}সপোর\u{9cd}ট নিয\u{9bc}ন\u{9cd}ত\u{9cd}রণ"),
+            keywords: &["নিয\u{9bc}ন\u{9cd}ত\u{9cd}রণ", "প\u{9be}সপোর\u{9cd}ট"],
+        },
+        crate::Annotation {
+            lang: "br",
+            tts: Some("kontroll paseporzhioù"),
+            keywords: &["kontroll", "kontroll paseporzhioù", "paseporzh"],
+        },
+        crate::Annotation {
+            lang: "bs",
+            tts: Some("pasoška kontrola"),
+            keywords: &["kontrola", "pasoš", "pasoška kontrola"],
+        },
+        crate::Annotation {
+            lang: "ca",
+            tts: Some("control de passaports"),
+            keywords: &["control", "control de passaports", "passaport"],
+        },
+        crate::Annotation {
+            lang: "chr",
+            tts: Some("ᎦᎶᎯᏍᏙᏗ ᏗᎫᎩᏗᏍᎩ"),
+            keywords: &["ᎦᎶᎯᏍᏙᏗ", "ᏗᎫᎩᏗᏍᎩ"],
+        },
+        crate::Annotation {
+            lang: "cs",
+            tts: Some("pasová kontrola"),
+            keywords: &["kontrola", "pas", "pasová kontrola"],
+        },
+        crate::Annotation {
+            lang: "cy",
+            tts: Some("arolygaeth pasbort"),
+            keywords: &["arolygaeth", "pasbort"],
+        },
+        crate::Annotation {
+            lang: "da",
+            tts: Some("paskontrol"),
+            keywords: &["pas", "paskontrol"],
+        },
+        crate::Annotation {
+            lang: "de",
+            tts: Some("Passkontrolle"),
+            keywords: &["Pass", "Passkontrolle"],
+        },
+        crate::Annotation {
+            lang: "el",
+            tts: Some("έλεγχος διαβατηρίων"),
+            keywords: &["έλεγχος", "έλεγχος διαβατηρίων", "διαβατήριο"],
+        },
+        crate::Annotation {
+            lang: "en",
+            tts: Some("passport control"),
+            keywords: &["control", "passport"],
+        },
+        crate::Annotation {
+            lang: "en_AU",
+            tts: Some("border security"),
+            keywords: &["border", "control", "passport", "security"],
+        },
+        crate::Annotation {
+            lang: "en_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_GB",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "en_IN",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es",
+            tts: Some("control de pasaportes"),
+            keywords: &["control", "control de pasaportes", "pasaportes"],
+        },
+        crate::Annotation {
+            lang: "es_419",
+            tts: Some("inspección de pasaportes"),
+            keywords: &[
+                "control",
+                "control de pasaportes",
+                "inspección de pasaportes",
+                "pasaportes",
+            ],
+        },
+        crate::Annotation {
+            lang: "es_MX",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "es_US",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "et",
+            tts: Some("passikontroll"),
+            keywords: &["kontroll", "pass", "passikontroll"],
+        },
+        crate::Annotation {
+            lang: "eu",
+            tts: Some("pasaporte-kontrola"),
+            keywords: &["kontrol", "pasaporte", "pasaporte-kontrola"],
+        },
+        crate::Annotation {
+            lang: "fa",
+            tts: Some("کنترل گذرنامه"),
+            keywords: &["کنترل", "گذرنامه"],
+        },
+        crate::Annotation {
+            lang: "fi",
+            tts: Some("passintarkastus"),
+            keywords: &["passi", "passintarkastus", "tarkastus"],
+        },
+        crate::Annotation {
+            lang: "fil",
+            tts: Some("passport control"),
+            keywords: &["kontrol", "pasaporte", "passport control"],
+        },
+        crate::Annotation {
+            lang: "fo",
+            tts: Some("passeftirlit"),
+            keywords: &["eftirlit", "landamark", "pass", "passeftirlit"],
+        },
+        crate::Annotation {
+            lang: "fr",
+            tts: Some("contrôle des passeports"),
+            keywords: &["contrôle", "contrôle des passeports", "passeport"],
+        },
+        crate::Annotation {
+            lang: "fr_CA",
+            tts: Some("↑↑↑"),
+            keywords: &["contrôle", "contrôle des passeports", "douane", "passeport"],
+        },
+        crate::Annotation {
+            lang: "ga",
+            tts: Some("rialú pasanna"),
+            keywords: &["pas", "rialú", "rialú pasanna"],
+        },
+        crate::Annotation {
+            lang: "gd",
+            tts: Some("sgrùdadh nam pas"),
+            keywords: &["cead-siubhail", "pas", "sgrùdadh", "sgrùdadh nam pas"],
+        },
+        crate::Annotation {
+            lang: "gl",
+            tts: Some("sinal de control de pasaportes"),
+            keywords: &["control", "pasaporte", "sinal de control de pasaportes"],
+        },
+        crate::Annotation {
+            lang: "gu",
+            tts: Some("પાસપોર\u{acd}ટ કન\u{acd}ટ\u{acd}રોલ"),
+            keywords: &["કન\u{acd}ટ\u{acd}રોલ", "પાસપોર\u{acd}ટ"],
+        },
+        crate::Annotation {
+            lang: "ha",
+            tts: Some("mai dubawa fasfo"),
+            keywords: &["dubawa", "fasfo", "mai dubawa fasfo"],
+        },
+        crate::Annotation {
+            lang: "he",
+            tts: Some("שלט עמדת דרכונים"),
+            keywords: &["דרכון", "דרכונים", "שלט עמדת דרכונים"],
+        },
+        crate::Annotation {
+            lang: "hi",
+            tts: Some("पासपोर\u{94d}ट निय\u{902}त\u{94d}रण"),
+            keywords: &["निय\u{902}त\u{94d}रण", "पासपोर\u{94d}ट"],
+        },
+        crate::Annotation {
+            lang: "hr",
+            tts: Some("kontrola putovnica"),
+            keywords: &["kontrola", "putovnica"],
+        },
+        crate::Annotation {
+            lang: "hu",
+            tts: Some("útlevél-ellenőrzés"),
+            keywords: &["ellenőrzés", "útlevél", "útlevél-ellenőrzés"],
+        },
+        crate::Annotation {
+            lang: "hy",
+            tts: Some("անձնագրային ստուգում"),
+            keywords: &[
+                "անձնագիր",
+                "անձնագրային ստուգում",
+                "անձնագրի ստուգում",
+                "ստուգում",
+            ],
+        },
+        crate::Annotation {
+            lang: "ia",
+            tts: Some("controlo de passaportos"),
+            keywords: &["controlo", "controlo de passaportos", "passaporto"],
+        },
+        crate::Annotation {
+            lang: "id",
+            tts: Some("kontrol paspor"),
+            keywords: &["kontrol", "paspor"],
+        },
+        crate::Annotation {
+            lang: "ig",
+            tts: Some("njizi passpọtụ"),
+            keywords: &["njizi", "passpọtụ"],
+        },
+        crate::Annotation {
+            lang: "is",
+            tts: Some("vegabréfaeftirlit"),
+            keywords: &["eftirlit", "vegabréf", "vegabréfaeftirlit"],
+        },
+        crate::Annotation {
+            lang: "it",
+            tts: Some("simbolo del controllo passaporti"),
+            keywords: &[
+                "controllo",
+                "dogana",
+                "passaporti",
+                "simbolo del controllo passaporti",
+            ],
+        },
+        crate::Annotation {
+            lang: "ja",
+            tts: Some("出入国審査"),
+            keywords: &["パスポートコントロール", "入出国", "出入国", "出入国審査"],
+        },
+        crate::Annotation {
+            lang: "jv",
+            tts: Some("priksa paspor"),
+            keywords: &["pamriksan", "paspor", "priksa paspor"],
+        },
+        crate::Annotation {
+            lang: "ka",
+            tts: Some("საპასპორტო კონტროლი"),
+            keywords: &["კონტროლი", "პასპორტი", "საპასპორტო კონტროლი"],
+        },
+        crate::Annotation {
+            lang: "kk",
+            tts: Some("құжаттарды тексеру"),
+            keywords: &["бақылау", "төлқұжат", "құжаттарды тексеру"],
+        },
+        crate::Annotation {
+            lang: "kl",
+            tts: Some("paskontrol"),
+            keywords: &["pas", "paskontrol"],
+        },
+        crate::Annotation {
+            lang: "km",
+            tts: Some("សញ\u{17d2}ញាព\u{17b7}ន\u{17b7}ត\u{17d2}យល\u{17b7}ខ\u{17b7}តឆ\u{17d2}លងដែន"),
+            keywords: &[
+                "ល\u{17b7}ខ\u{17b7}តឆ\u{17d2}លងដែន",
+                "សញ\u{17d2}ញា",
+                "សញ\u{17d2}ញាព\u{17b7}ន\u{17b7}ត\u{17d2}យល\u{17b7}ខ\u{17b7}តឆ\u{17d2}លងដែន",
+            ],
+        },
+        crate::Annotation {
+            lang: "kn",
+            tts: Some("ಪಾಸ\u{ccd}\u{200c}ಪೋರ\u{ccd}ಟ\u{ccd} ನ\u{cbf}ಯಂತ\u{ccd}ರಣ"),
+            keywords: &[
+                "ನ\u{cbf}ಯಂತ\u{ccd}ರಣ",
+                "ಪಾಸ\u{ccd}\u{200c}ಪೋರ\u{ccd}ಟ\u{ccd}",
+            ],
+        },
+        crate::Annotation {
+            lang: "ko",
+            tts: Some("출입국 심사"),
+            keywords: &["여권", "출입국 심사"],
+        },
+        crate::Annotation {
+            lang: "kok",
+            tts: Some("पारपत\u{94d}र निय\u{902}त\u{94d}रण"),
+            keywords: &["निय\u{902}त\u{94d}रण", "पारपत\u{94d}र"],
+        },
+        crate::Annotation {
+            lang: "ky",
+            tts: Some("паспортту текшерүү"),
+            keywords: &["паспорт", "паспортту текшерүү", "текшерүү"],
+        },
+        crate::Annotation {
+            lang: "lb",
+            tts: Some("Passkontroll"),
+            keywords: &["Kontroll", "Pass", "Passkontroll"],
+        },
+        crate::Annotation {
+            lang: "lo",
+            tts: Some("ການຄວບຄ\u{eb8}ມໜ\u{eb1}ງສ\u{eb7}ຜ\u{ec8}ານແດນ"),
+            keywords: &[
+                "ການຄວບຄ\u{eb8}ມ",
+                "ການຄວບຄ\u{eb8}ມໜ\u{eb1}ງສ\u{eb7}ຜ\u{ec8}ານແດນ",
+                "ໜ\u{eb1}ງສ\u{eb7}ຜ\u{ec8}ານແດນ",
+            ],
+        },
+        crate::Annotation {
+            lang: "lt",
+            tts: Some("pasų kontrolė"),
+            keywords: &["kontrolė", "pasas", "pasų kontrolė"],
+        },
+        crate::Annotation {
+            lang: "lv",
+            tts: Some("pasu kontrole"),
+            keywords: &["kontrole", "pase", "pasu kontrole"],
+        },
+        crate::Annotation {
+            lang: "mi",
+            tts: Some("mana uruwhenua"),
+            keywords: &["mana", "uruwhenua"],
+        },
+        crate::Annotation {
+            lang: "mk",
+            tts: Some("пасошка контрола"),
+            keywords: &["контрола", "пасош", "пасошка контрола"],
+        },
+        crate::Annotation {
+            lang: "ml",
+            tts: Some("പ\u{d3e}സ\u{d4d}\u{200c}പോർട\u{d4d}ട\u{d4d} കൺട\u{d4d}രോൾ"),
+            keywords: &[
+                "കൺട\u{d4d}രോൾ",
+                "പ\u{d3e}സ\u{d4d}\u{200c}പോർട\u{d4d}ട\u{d4d}",
+            ],
+        },
+        crate::Annotation {
+            lang: "mn",
+            tts: Some("паспортын шалгалт"),
+            keywords: &["паспортын шалгалт", "пасспорт", "шалгалт"],
+        },
+        crate::Annotation {
+            lang: "mr",
+            tts: Some("पासपोर\u{94d}ट निय\u{902}त\u{94d}रण"),
+            keywords: &["निय\u{902}त\u{94d}रण", "पासपोर\u{94d}ट"],
+        },
+        crate::Annotation {
+            lang: "ms",
+            tts: Some("kawalan pasport"),
+            keywords: &["kawalan", "pasport"],
+        },
+        crate::Annotation {
+            lang: "mt",
+            tts: Some("kontroll tal-passaport"),
+            keywords: &["kontroll", "kontroll tal-passaport", "passaport"],
+        },
+        crate::Annotation {
+            lang: "my",
+            tts: Some(
+                "န\u{102d}\u{102f}င\u{103a}င\u{1036}က\u{1030}းလက\u{103a}မ\u{103e}တ\u{103a} စစ\u{103a}ဆေးရေးဌာန",
+            ),
+            keywords: &[
+                "န\u{102d}\u{102f}င\u{103a}င\u{1036}က\u{1030}းလက\u{103a}မ\u{103e}တ\u{103a}",
+                "န\u{102d}\u{102f}င\u{103a}င\u{1036}က\u{1030}းလက\u{103a}မ\u{103e}တ\u{103a} စစ\u{103a}ဆေးရေးဌာန",
+            ],
+        },
+        crate::Annotation {
+            lang: "nb",
+            tts: Some("passkontroll"),
+            keywords: &["kontroll", "pass", "passkontroll"],
+        },
+        crate::Annotation {
+            lang: "ne",
+            tts: Some("पासपोर\u{94d}ट च\u{947}कजा\u{901}च"),
+            keywords: &["च\u{947}कजा\u{901}च", "पासपोर\u{94d}ट"],
+        },
+        crate::Annotation {
+            lang: "nl",
+            tts: Some("paspoortcontrole"),
+            keywords: &["controle", "paspoort", "paspoortcontrole"],
+        },
+        crate::Annotation {
+            lang: "nn",
+            tts: Some("passkontroll"),
+            keywords: &["kontroll", "pass", "passkontroll"],
+        },
+        crate::Annotation {
+            lang: "or",
+            tts: Some("ପ\u{b3e}ସ\u{b4d}\u{200c}ପୋର\u{b4d}ଟ ନ\u{b3f}ୟନ\u{b4d}ତ\u{b4d}ରଣ"),
+            keywords: &[
+                "ନ\u{b3f}ୟନ\u{b4d}ତ\u{b4d}ରଣ",
+                "ପ\u{b3e}ସ\u{b4d}\u{200c}ପୋର\u{b4d}ଟ",
+            ],
+        },
+        crate::Annotation {
+            lang: "pa",
+            tts: Some("ਪਾਸਪ\u{a4b}ਰਟ ਕ\u{a70}ਟਰ\u{a4b}ਲ"),
+            keywords: &["ਕ\u{a70}ਟਰ\u{a4b}ਲ", "ਪਾਸਪ\u{a4b}ਰਟ"],
+        },
+        crate::Annotation {
+            lang: "pa_Arab",
+            tts: Some("پاسپورٹ کنٹرول"),
+            keywords: &["پاس پورٹ", "پاسپورٹ کنٹرول", "کنٹرول کرنا"],
+        },
+        crate::Annotation {
+            lang: "pcm",
+            tts: Some("Páspọ\u{301}t Kọntrol"),
+            keywords: &["Kọntrol", "Páspọt", "Páspọ\u{301}t Kọntrol"],
+        },
+        crate::Annotation {
+            lang: "pl",
+            tts: Some("kontrola paszportowa"),
+            keywords: &[
+                "granica",
+                "graniczna",
+                "kontrola",
+                "kontrola paszportowa",
+                "paszport",
+            ],
+        },
+        crate::Annotation {
+            lang: "ps",
+            tts: Some("د پاسپورت کنټرول"),
+            keywords: &["د پاسپورت کنټرول", "پاسپورټ", "کنټرول"],
+        },
+        crate::Annotation {
+            lang: "pt",
+            tts: Some("controle de passaportes"),
+            keywords: &["controle", "controle de passaportes", "passaporte"],
+        },
+        crate::Annotation {
+            lang: "pt_PT",
+            tts: Some("controlo de passaportes"),
+            keywords: &["controlo", "controlo de passaportes", "passaporte"],
+        },
+        crate::Annotation {
+            lang: "qu",
+            tts: Some("pasaporte chiqaqchaynin"),
+            keywords: &["chiqaqchayninpaq", "pasaporte", "pasaporte chiqaqchaynin"],
+        },
+        crate::Annotation {
+            lang: "ro",
+            tts: Some("control pașapoarte"),
+            keywords: &["control", "control pașapoarte", "pașaport"],
+        },
+        crate::Annotation {
+            lang: "root",
+            tts: Some("E10-982"),
+            keywords: &["E10-982"],
+        },
+        crate::Annotation {
+            lang: "ru",
+            tts: Some("паспортный контроль"),
+            keywords: &["контроль", "паспортный", "печать", "проверка"],
+        },
+        crate::Annotation {
+            lang: "rw",
+            tts: Some("ahagenzurirwa pasiporo"),
+            keywords: &[
+                "ahagenzurirwa pasiporo",
+                "igenzura",
+                "urwandiko rw’abajya mu mahanga",
+            ],
+        },
+        crate::Annotation {
+            lang: "sd",
+            tts: Some("پاسپورٽ ڪنٽرول"),
+            keywords: &["پاسپورٽ", "ڪنٽرول"],
+        },
+        crate::Annotation {
+            lang: "si",
+            tts: Some("ගමන\u{dca} බලපත\u{dca}\u{200d}ර ප\u{dcf}ලනය"),
+            keywords: &[
+                "ගමන\u{dca} බලපත\u{dca}\u{200d}ර ප\u{dcf}ලනය",
+                "ගමන\u{dca} බලපත\u{dca}\u{200d}රය",
+                "ප\u{dcf}ලනය",
+            ],
+        },
+        crate::Annotation {
+            lang: "sk",
+            tts: Some("pasová kontrola"),
+            keywords: &["hranica", "kontrola", "pas", "pasová kontrola"],
+        },
+        crate::Annotation {
+            lang: "sl",
+            tts: Some("pregled dokumentov"),
+            keywords: &["nadzor", "potni list", "pregled dokumentov"],
+        },
+        crate::Annotation {
+            lang: "so",
+            tts: Some("xakamaynta baasaboorka"),
+            keywords: &["baasaboor", "xakamaynta baasaboorka", "xukun"],
+        },
+        crate::Annotation {
+            lang: "sq",
+            tts: Some("kontrolli i pasaportave"),
+            keywords: &["kontroll", "kontrolli i pasaportave", "pasaportë"],
+        },
+        crate::Annotation {
+            lang: "sr",
+            tts: Some("контрола пасоша"),
+            keywords: &["кoнтрoлa", "контрола пасоша", "пасош"],
+        },
+        crate::Annotation {
+            lang: "sr_Cyrl_BA",
+            tts: Some("↑↑↑"),
+            keywords: &["контрола пасоша"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn",
+            tts: Some("kontrola pasoša"),
+            keywords: &["kontrola", "kontrola pasoša", "pasoš"],
+        },
+        crate::Annotation {
+            lang: "sr_Latn_BA",
+            tts: None,
+            keywords: &["kontrola pasoša"],
+        },
+        crate::Annotation {
+            lang: "sv",
+            tts: Some("passkontroll"),
+            keywords: &["kontroll", "pass", "passkontroll"],
+        },
+        crate::Annotation {
+            lang: "sw",
+            tts: Some("udhibiti wa pasipoti"),
+            keywords: &["pasipoti", "udhibiti", "udhibiti wa pasipoti"],
+        },
+        crate::Annotation {
+            lang: "sw_KE",
+            tts: Some("↑↑↑"),
+            keywords: &["↑↑↑"],
+        },
+        crate::Annotation {
+            lang: "ta",
+            tts: Some("ப\u{bbe}ஸ\u{bcd}போர\u{bcd}ட\u{bcd} கட\u{bcd}டுப\u{bcd}ப\u{bbe}டு"),
+            keywords: &[
+                "ப\u{bbe}ஸ\u{bcd}போர\u{bcd}ட\u{bcd}",
+                "ப\u{bbe}ஸ\u{bcd}போர\u{bcd}ட\u{bcd} கட\u{bcd}டுப\u{bcd}ப\u{bbe}டு",
+            ],
+        },
+        crate::Annotation {
+            lang: "te",
+            tts: Some("ప\u{c3e}స\u{c4d}\u{200c}ప\u{c4b}ర\u{c4d}ట\u{c4d} తన\u{c3f}ఖ\u{c40}"),
+            keywords: &[
+                "తన\u{c3f}ఖ\u{c40}",
+                "ప\u{c3e}స\u{c4d}\u{200c}ప\u{c4b}ర\u{c4d}ట\u{c4d}",
+                "ప\u{c4d}రయ\u{c3e}ణం",
+            ],
+        },
+        crate::Annotation {
+            lang: "tg",
+            tts: Some("назорати шиносномаҳо"),
+            keywords: &["назорат", "назорати шиносномаҳо", "шиноснома"],
+        },
+        crate::Annotation {
+            lang: "th",
+            tts: Some("ตรวจพาสปอร\u{e4c}ต"),
+            keywords: &["ตรวจพาสปอร\u{e4c}ต", "พาสปอร\u{e4c}ต"],
+        },
+        crate::Annotation {
+            lang: "ti",
+            tts: Some("ናይ ፓስስፖርት ቁጽጽር"),
+            keywords: &["ቁጽጽር", "ናይ ፓስስፖርት ቁጽጽር", "ፓስፖርት"],
+        },
+        crate::Annotation {
+            lang: "tk",
+            tts: Some("pasport barlagy"),
+            keywords: &["barlag", "pasport", "pasport barlagy"],
+        },
+        crate::Annotation {
+            lang: "to",
+            tts: Some("ʻofisa tohifolau"),
+            keywords: &["ʻofisa tohifolau"],
+        },
+        crate::Annotation {
+            lang: "tr",
+            tts: Some("pasaport kontrolü"),
+            keywords: &["kontrol", "pasaport", "pasaport kontrolü"],
+        },
+        crate::Annotation {
+            lang: "ug",
+            tts: Some("پارول تىزگىنى"),
+            keywords: &["تىزگىن", "پارول", "پارول تىزگىنى"],
+        },
+        crate::Annotation {
+            lang: "uk",
+            tts: Some("паспортний контроль"),
+            keywords: &["контроль", "паспортний"],
+        },
+        crate::Annotation {
+            lang: "ur",
+            tts: Some("پاسپورٹ کنٹرول"),
+            keywords: &["پاسپورٹ", "کنٹرول"],
+        },
+        crate::Annotation {
+            lang: "uz",
+            tts: Some("pasport nazorati"),
+            keywords: &["nazorat", "pasport", "pasport nazorati"],
+        },
+        crate::Annotation {
+            lang: "vi",
+            tts: Some("kiểm soát hộ chiếu"),
+            keywords: &["hộ chiếu", "kiểm soát", "kiểm soát hộ chiếu"],
+        },
+        crate::Annotation {
+            lang: "wo",
+            tts: Some("xool sa paaspoor"),
+            keywords: &["paaspoor", "xool", "xool sa paaspoor"],
+        },
+        crate::Annotation {
+            lang: "xh",
+            tts: Some("ulawulo lwephaspoti"),
+            keywords: &["iphaspoti", "ulawulo", "ulawulo lwephaspoti"],
+        },
+        crate::Annotation {
+            lang: "yo",
+            tts: Some("iṣakoso aworan ori"),
+            keywords: &["darí", "iṣakoso aworan ori", "ìwé ìrìnnà"],
+        },
+        crate::Annotation {
+            lang: "yue",
+            tts: Some("護照檢查"),
+            keywords: &["檢查", "護照", "護照檢查"],
+        },
+        crate::Annotation {
+            lang: "yue_Hans",
+            tts: Some("护照检查"),
+            keywords: &["护照", "护照检查", "检查"],
+        },
+        crate::Annotation {
+            lang: "zh",
+            tts: Some("护照检查"),
+            keywords: &["安检", "护照检查", "检查", "通行证"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant",
+            tts: Some("護照查驗"),
+            keywords: &["護照", "護照查驗"],
+        },
+        crate::Annotation {
+            lang: "zh_Hant_HK",
+            tts: Some("通關檢查"),
+            keywords: &["通關檢查"],
+        },
+        crate::Annotation {
+            lang: "zu",
+            tts: Some("ukulawula iphasiphothi"),
+            keywords: &["iphasiphothi", "ukulawula"],
+        },
+    ],
+};
 #[doc = "🛃"]
 pub const CUSTOMS: crate::Emoji = crate::Emoji {
     glyph: "🛃",
