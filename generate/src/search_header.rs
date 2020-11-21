@@ -74,10 +74,9 @@ pub fn search_annotation_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
     crate::lookup_by_name::iter_emoji()
         .filter_map(|e| {
 	    e.annotations.iter()
-		.map(|a|
-		     a.tts.iter().chain(a.keywords.iter())
-		     .map(|kwd| MATCHER.fuzzy_match(kwd, searchterm)))
+		.map(|a| a.tts.iter().chain(a.keywords.iter()))
 		.flatten()
+		.map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
 		.fold(None, |acc: Option<i64>, scoreopt|
 			   acc.map_or(scoreopt, |a| scoreopt.map(|b| a.max(b))))
                 .map(|score| (e, score))

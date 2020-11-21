@@ -38,7 +38,7 @@ pub fn search_tts(searchterm: &str, lang: &str) -> Vec<&'static crate::Emoji> {
         .collect::<Vec<_>>()
 }
 
-/// Searches by localized name in all languages (feature dependent)
+/// Fuzzy search by localized name in all languages (feature dependent)
 pub fn search_tts_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
     crate::lookup_by_name::iter_emoji()
         .filter_map(|e| {
@@ -57,7 +57,7 @@ pub fn search_tts_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
         .collect::<Vec<_>>()
 }
 
-/// Search by annotations. This includes localized names as well as keywords
+/// Fuzzy search by annotations. This includes localized names as well as localized keywords
 pub fn search_annotation(searchterm: &str, lang: &str) -> Vec<&'static crate::Emoji> {
     crate::lookup_by_name::iter_emoji()
         .filter_map(|e| {
@@ -82,19 +82,15 @@ pub fn search_annotation(searchterm: &str, lang: &str) -> Vec<&'static crate::Em
         .collect::<Vec<_>>()
 }
 
-/// Search by annotations in all languages (feature dependent)
+/// Fuzzy search by annotations in all languages (feature dependent)
 pub fn search_annotation_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
     crate::lookup_by_name::iter_emoji()
         .filter_map(|e| {
             e.annotations
                 .iter()
-                .map(|a| {
-                    a.tts
-                        .iter()
-                        .chain(a.keywords.iter())
-                        .map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
-                })
+                .map(|a| a.tts.iter().chain(a.keywords.iter()))
                 .flatten()
+                .map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
                 .fold(None, |acc: Option<i64>, scoreopt| {
                     acc.map_or(scoreopt, |a| scoreopt.map(|b| a.max(b)))
                 })
