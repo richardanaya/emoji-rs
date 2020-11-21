@@ -113,8 +113,7 @@ impl ToTokens for Emoji {
         (quote! {
             #[doc = #glyph]
             pub const #ident: crate::Emoji = #tokns;
-        })
-            .to_tokens(tokens);
+        }).to_tokens(tokens);
     }
 }
 #[derive(Debug, PartialEq)]
