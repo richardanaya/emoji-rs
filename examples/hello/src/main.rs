@@ -1,4 +1,5 @@
-
+//use fuzzy_matcher::skim::SkimMatcherV2;
+//use fuzzy_matcher::FuzzyMatcher;
 
 fn main() {
     println!(
@@ -9,14 +10,15 @@ fn main() {
         emoji::food_and_drink::food_marine::CRAB.status,
         emoji::food_and_drink::food_marine::CRAB.introduction_version
     );
-    println!("{}", emoji::lookup_by_glyph::lookup("🤳").unwrap().name);
     println!("{}", emoji::lookup_by_name::lookup("crab").unwrap().glyph);
 
-    println!("{:?}", emoji::ANNOTATION_LANGS);
-    println!("{:?}", emoji::food_and_drink::food_marine::CRAB.annotations.iter().find(
-	|a| a.lang == "en"
-    ).unwrap().keywords);
-    println!("{:?}", emoji::food_and_drink::food_marine::CRAB.annotations.iter().find(
-	|a| a.lang == "fi"
-    ).unwrap().keywords);
+    println!("{:?}", emoji::search::search_annotation_all("näyttävä").into_iter().map(|e| e.name).collect::<Vec<_>>()[0]);
+    
+
+    /*
+    for e in emoji::lookup_by_name::iter_emoji() {
+	if let Some(score) = matcher.fuzzy_match(e.name, searchterm) {
+	    println!("{}", score);
+	}
+    }*/
 }

@@ -10,6 +10,9 @@ build = "build.rs"
 
 [dependencies]
 phf = { version = "0.8.0", features = ["macros"] }
+fuzzy-matcher = "0.3.7"
+itertools = "0.9.0"
+lazy_static = "1.4.0"
 
 [features]
 default = ["en"]

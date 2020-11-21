@@ -48,3 +48,6 @@ pub mod lookup_by_glyph;
 
 /// Search for an emoji::Emoji by name. Yields exact matches only, but is extremely fast
 pub mod lookup_by_name;
+
+/// Fuzzy search algorithms for general purpose
+pub mod search;
