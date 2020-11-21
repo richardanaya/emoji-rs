@@ -9,3 +9,4 @@ repository = "https://github.com/richardanaya/emoji-rs"
 build = "build.rs"
 
 [dependencies]
+phf = { version = "0.8.0", features = ["macros"] }

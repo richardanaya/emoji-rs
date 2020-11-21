@@ -40,3 +40,8 @@ pub struct Annotation {
     pub tts: Option<&'static str>,
     pub keywords: &'static [&'static str],
 }
+
+
+/// " 🦀" goes in, `emoji::food_and_drink::food_marine::CRAB` goes out
+/// Also defines several other utility functions
+pub mod lookup_by_glyph;
