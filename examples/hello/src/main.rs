@@ -11,4 +11,12 @@ fn main() {
     );
     println!("{}", emoji::lookup_by_glyph::lookup("🤳").unwrap().name);
     println!("{}", emoji::lookup_by_name::lookup("crab").unwrap().glyph);
+
+    println!("{:?}", emoji::ANNOTATION_LANGS);
+    println!("{:?}", emoji::food_and_drink::food_marine::CRAB.annotations.iter().find(
+	|a| a.lang == "en"
+    ).unwrap().keywords);
+    println!("{:?}", emoji::food_and_drink::food_marine::CRAB.annotations.iter().find(
+	|a| a.lang == "fi"
+    ).unwrap().keywords);
 }

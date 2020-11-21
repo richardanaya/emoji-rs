@@ -186,6 +186,7 @@ impl ToTokens for Annotation {
         };
         let keywords = &self.keywords;
         (quote! {
+	    #[cfg(feature = #lang)]
             crate::Annotation {
 		lang: #lang,
 		tts: #tts,

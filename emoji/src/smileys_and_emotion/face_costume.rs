@@ -10,21 +10,25 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("mishoop"),
             keywords: &["gesig", "mis", "mishoop", "monster", "poef", "strokie"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የካካ ክምር"),
             keywords: &["አስቂኝ", "አዛባ", "የካካ ክምር", "ጭራቅ", "ፊት"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("فضلات"),
             keywords: &["روث", "فضلات", "كومة فضلات"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("প\u{9be}ইল অৱ প\u{9c1}"),
@@ -37,21 +41,25 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("pox"),
             keywords: &["kakaşka", "komik", "monstr", "peyin", "pox", "üz"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("какашка"),
             keywords: &["какашка", "камічны", "фекаліі", "фу"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("изпражнение"),
             keywords: &["изпражнение", "лице", "чудовище"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("প\u{9be}ইল অফ পো"),
@@ -65,26 +73,31 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("bern kaocʼh"),
             keywords: &["bern kaocʼh", "kaocʼh"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("kaka"),
             keywords: &["humor", "izmet", "kaka", "lice", "čudovište"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("caca"),
             keywords: &["caca", "cara", "còmic", "merda", "monstre"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎦᏒᏛ Ꮎ ᎢᎩᏏ"),
             keywords: &["ᎢᎩᏏ", "ᎤᎧᏛ", "ᎤᏍᏗ ᎢᎩᏏ", "ᎤᏔᎾ ᎢᎩᏏ", "ᎦᏂᏰᎩ", "ᎦᏒᏛ Ꮎ ᎢᎩᏏ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("hovínko"),
@@ -99,21 +112,25 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "výraz",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("pentwr o faw"),
             keywords: &["anghenfil", "baw", "cachu", "pentwr o faw", "wyneb"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("bæ"),
             keywords: &["bunke bæ", "bæ", "dynge lort", "lort"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Kothaufen"),
             keywords: &["Kot", "Kothaufen", "Mist"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("περιττώματα"),
@@ -127,46 +144,55 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "τέρας",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("pile of poo"),
             keywords: &["dung", "face", "monster", "pile of poo", "poo", "poop"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("caca con ojos"),
             keywords: &["caca", "caca con ojos", "cómic", "mierda", "mojón"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("caca"),
             keywords: &["caca", "cara", "estiércol", "gracioso"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("caca con ojos"),
             keywords: &["caca con ojos", "cara", "estiércol", "gracioso"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("caca con ojos"),
@@ -178,6 +204,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "montaña de caca",
             ],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("kakahunnik"),
@@ -191,6 +218,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "sõnnik",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("kaka-mokordoa"),
@@ -203,6 +231,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "monstruo",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("یه تپه\u{654} گه"),
@@ -216,6 +245,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "یه تپه\u{654} گه",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("kakkakasa"),
@@ -229,21 +259,25 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "sonta",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("tumpok ng tae"),
             keywords: &["dumi", "mukha", "poop", "tae", "tumpok ng tae"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("kukkur"),
             keywords: &["bros", "kukkur", "lortur", "smíl"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("tas de crotte"),
             keywords: &["caca", "crotte", "dessin", "tas de crotte", "visage"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
@@ -256,11 +290,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "visage",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("carn caca"),
             keywords: &["cac", "carn caca"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("càrn cac"),
@@ -274,16 +310,19 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "uilebheist",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("caca"),
             keywords: &["caca", "merda"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("છાણ"),
             keywords: &["ખ\u{ac2}\u{a82}ટો", "છાણ", "પ\u{ac2}પ"],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("tsibin kashi"),
@@ -297,11 +336,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "tsibin kashi",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("גוש קקי"),
             keywords: &["גוש קקי", "מגעיל", "מסריח", "צואה", "קקי"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("मल का ढ\u{947}र"),
@@ -313,16 +354,19 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "विष\u{94d}ठा",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("hrpica izmeta"),
             keywords: &["drek", "hrpica izmeta", "izmet", "lice", "čudovište"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("kakihalom"),
             keywords: &["kaka", "kaki", "kakiarc", "kakihalom", "képregény"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("կեղտի կույտ"),
@@ -337,11 +381,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "հրեշ",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("kotoran"),
             keywords: &["kotoran", "muka", "tahi", "tinja", "wajah"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ikpo nke nsi"),
@@ -355,26 +401,31 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ọchị",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("kúkur"),
             keywords: &["della", "kúkur", "skítur"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("cacca"),
             keywords: &["cacca", "popò", "pupù"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("うんち"),
             keywords: &["うんこ", "うんち", "顔"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("tai seunthuk"),
             keywords: &["monster", "rai", "tai", "tai seunthuk", "tembelek"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("განავლის გროვა"),
@@ -388,6 +439,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ყაყა",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("боқ"),
@@ -401,11 +453,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "құбыжық",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("bæ"),
             keywords: &["bunke bæ", "bæ"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("គ\u{17c6}នរអាចម\u{17cd}, គ\u{17c6}នរលាមក"),
@@ -415,16 +469,19 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "អាចម\u{17cd}",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಸಗಣ\u{cbf} ರಾಶ\u{cbf}"),
             keywords: &["ಸಗಣ\u{cbf}", "ಸಗಣ\u{cbf} ರಾಶ\u{cbf}"],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("똥"),
             keywords: &["똥", "똥무더기"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("ग\u{941}वाची रास"),
@@ -437,11 +494,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "श\u{947}ण",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("үйүлгөн заң"),
             keywords: &["бок", "заңдоо", "тамаша", "үйүл", "үйүлгөн заң"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Koup Schäiss"),
@@ -455,6 +514,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "witzeg",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ກອງອາຈ\u{ebb}ມ"),
@@ -465,6 +525,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ອ\u{eb6}",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("išmatų krūvelė"),
@@ -478,6 +539,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "veidas",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("ekskrementi"),
@@ -489,6 +551,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "smieklīgs",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("putunga tiko"),
@@ -502,11 +565,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "whakakata",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("куп измет"),
             keywords: &["измет", "кака", "куп измет", "лице", "стрип"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ച\u{d3e}ണക ക\u{d42}മ\u{d4d}പ\u{d3e}രം"),
@@ -520,11 +585,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "സരസമ\u{d3e}യ",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("овоолсон баас"),
             keywords: &["баас", "овоолсон"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("श\u{947}णाचा ढीग"),
@@ -537,6 +604,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "श\u{947}णाचा ढीग",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("selonggok najis"),
@@ -551,6 +619,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "tinja",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("munzell ħmieġ"),
@@ -564,6 +633,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ħmieġ",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("ချေးပ\u{102f}\u{1036}"),
@@ -574,11 +644,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "မျက\u{103a}န\u{103e}ာ",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("bæsj"),
             keywords: &["bæsj", "bæsjeklatt", "hundebæsj", "kuruke"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("प\u{941}को थ\u{941}प\u{94d}रो"),
@@ -592,16 +664,19 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "हास\u{94d}यप\u{94d}रद",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("drol"),
             keywords: &["drol", "grappig", "monster"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("bæsj"),
             keywords: &["bæsj", "bæsjeklatt", "hundebæsj", "kuruke"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଗ\u{b41}ହ ଗଦ\u{b3e}"),
@@ -615,6 +690,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ମ\u{b41}ହ\u{b01}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਗ\u{a70}ਦਗੀ ਦਾ ਢ\u{a47}ਰ"),
@@ -625,6 +701,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ਢ\u{a47}ਰ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("پو دا انبار"),
@@ -638,6 +715,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "گویا",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Bíg Shit"),
@@ -651,21 +729,25 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "Toílẹt",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("kupa"),
             keywords: &["gnój", "kupa", "obornik", "odchody", "potwór", "twarz"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("پو دا پخی"),
             keywords: &["پو دا پخی"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("cocô"),
             keywords: &["cocô", "estrume", "excremento", "fezes", "pilha de cocô"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("monte de cocó"),
@@ -678,26 +760,31 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "monte de cocó",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("aka"),
             keywords: &["achka aka", "aka", "kaka", "monstruo", "popo", "uya"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("răhățel"),
             keywords: &["caca", "comic", "față", "monstru", "răhățel"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-614"),
             keywords: &["E10-614"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("какашка"),
             keywords: &["какашка", "лицо", "смех", "фекалии", "шутка"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("icyuto"),
@@ -710,6 +797,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "isura",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("ڊڄارڻ جي شڪل جو انبار"),
@@ -723,6 +811,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ڪامڪ",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("අස\u{dd6}ච\u{dd2} ගොඩ"),
@@ -734,11 +823,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ම\u{dd4}හ\u{dd4}ණ",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("hovienko"),
             keywords: &["hnoj", "hovienko", "hovno", "tvár"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("kup kakca"),
@@ -752,6 +843,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "strip",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("raso saxaro ah"),
@@ -764,11 +856,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "waji",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("kakë"),
             keywords: &["fytyrë", "kakë", "mut", "vizatim komik"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("гомила каке"),
@@ -781,11 +875,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "чудoвиштe",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("gomila kake"),
@@ -798,21 +894,25 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "čudovište",
             ],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("bajshög"),
             keywords: &["avföring", "bajs", "bajshög"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("kinyesi"),
             keywords: &["kibonzo", "kinyesi", "mavi", "uso", "zimwi"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("ச\u{bbe}ணக\u{bcd} குவியல\u{bcd}"),
@@ -822,6 +922,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "விறகு அடுக\u{bcd}கு",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("ప\u{c46}ంటకుప\u{c4d}ప"),
@@ -832,6 +933,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ప\u{c47}డ",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("тӯдаи гуҳ"),
@@ -845,11 +947,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "тӯдаи гуҳ",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("อ\u{e38}นจ\u{e34}"),
             keywords: &["อ\u{e36}", "อ\u{e38}นจ\u{e34}"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("tezek"),
@@ -862,21 +966,25 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ýüz",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("tuʻunga meʻakovi"),
             keywords: &["tuʻunga meʻakovi"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("kaka"),
             keywords: &["kaka", "kaka yığını", "pislik", "yığın"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("پوق"),
             keywords: &["تېزەك", "كۈلكىلىك", "يالماۋۇز", "پوق", "چىراي", "چىچىش"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("усміхнена купа лайна"),
@@ -888,11 +996,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "усміхнена купа лайна",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("گندگی کا ڈھیر"),
             keywords: &["چہرہ", "ڈھیر", "گندگی", "گندگی کا ڈھیر"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("tezak uyumi"),
@@ -906,6 +1016,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "yuz",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("đống phân"),
@@ -918,11 +1029,13 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "đống phân",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("julu puup"),
             keywords: &["julu puup", "kanam", "neefere", "puup", "rab", "reelu"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("imfumba yelindle"),
@@ -935,6 +1048,7 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ulongwe",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Okiti Igbẹ"),
@@ -947,31 +1061,37 @@ pub const PILE_OF_POO: crate::Emoji = crate::Emoji {
                 "ògùn",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("一堆屎"),
             keywords: &["一堆屎", "屎", "怪物", "漫畫", "糞便", "臉", "臭"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("一堆屎"),
             keywords: &["一堆屎", "屎", "怪物", "漫画", "粪便", "脸", "臭"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("大便"),
             keywords: &["大便", "屎", "怪物", "粑粑", "脸"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("大便"),
             keywords: &["便便", "大便"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("屎"),
             keywords: &["便便", "大便", "屎"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("idende"),
@@ -991,176 +1111,211 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("hansworsgesig"),
             keywords: &["gesig", "hanswors", "hansworsgesig", "nar"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የአስቂኝ ተዋናይ ፊት"),
             keywords: &["አስቂኝ ተዋናይ", "የአስቂኝ ተዋናይ ፊት", "ፊት"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("وجه مهرج"),
             keywords: &["مهرج", "وجه"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("বিদ\u{9c2}ষকৰ চেহেৰ\u{9be}"),
             keywords: &["বিদ\u{9c2}ষক", "বিদ\u{9c2}ষকৰ চেহেৰ\u{9be}", "ম\u{9c1}খ"],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("kloun üzü"),
             keywords: &["kloun", "kloun üzü", "üz"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("твар клоуна"),
             keywords: &["клоун", "твар", "твар клоуна"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("клоунско лице"),
             keywords: &["клоун", "клоунско лице", "лице"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("জোক\u{9be}রের ম\u{9c1}খ"),
             keywords: &["জোক\u{9be}র", "জোক\u{9be}রের ম\u{9c1}খ", "ম\u{9c1}খ"],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("penn furlukin"),
             keywords: &["furlukin", "penn"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("klaun"),
             keywords: &["klaun", "lice"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("cara de pallasso"),
             keywords: &["cara", "cara de pallasso", "pallassa", "pallasso"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᏧᎦᎸᏓ ᎤᎧᏛ"),
             keywords: &["ᎤᎧᏛ", "ᏧᎦᎸᏓ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("klaunský obličej"),
             keywords: &["klaun", "klaunský obličej", "smajlík", "tvář", "výraz"],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("wyneb clown"),
             keywords: &["clown", "wyneb"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("klovneansigt"),
             keywords: &["ansigt", "klovn", "klovneansigt"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Clown-Gesicht"),
             keywords: &["Clown", "Clown-Gesicht", "Gesicht"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("αστεία φάτσα"),
             keywords: &["αστεία φάτσα", "κλόουν", "πρόσωπο"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("clown face"),
             keywords: &["clown", "face"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("cara de payaso"),
             keywords: &["cara", "cara de payaso", "payaso"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("klouninägu"),
             keywords: &["kloun", "klouninägu", "nägu"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("pailazo-aurpegia"),
             keywords: &["aurpegi", "pailazo", "pailazo-aurpegia"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("دلقک"),
             keywords: &["بی\u{200c}عرضه", "تلخک", "دلقک", "صورت", "لوده"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("pelle"),
             keywords: &["kasvot", "klovni", "pelle"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("payaso"),
             keywords: &["clown", "mukha", "mukha ng payaso", "payaso"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("klovn andlit"),
             keywords: &["andlit", "gekkur", "klovn"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("visage de clown"),
             keywords: &["clown", "visage", "visage de clown"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("visage de clown"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("fearr grinn"),
@@ -1172,16 +1327,19 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
                 "gáire",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("aodann tuaisteir"),
             keywords: &["aodann", "aodann tuaisteir", "tuaistear"],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("cara de pallaso"),
             keywords: &["cara", "cara de pallaso", "circo", "pallasa", "pallaso"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("વિદ\u{ac2}ષકવાળો ચહ\u{ac7}રો"),
@@ -1191,81 +1349,97 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
                 "વિદ\u{ac2}ષકવાળો ચહ\u{ac7}રો",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("fuskar cali-cali"),
             keywords: &["cali-cali", "fuska", "fuskar cali-cali"],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("פרצוף ליצן"),
             keywords: &["ליצן", "פרצוף"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("जोकर च\u{947}हरा"),
             keywords: &["च\u{947}हरा", "जोकर"],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("lice klauna"),
             keywords: &["klaun", "lice", "lice klauna"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("bohócfej"),
             keywords: &["bohóc", "bohócfej", "fej"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("ծաղրածուի դեմք"),
             keywords: &["դեմք", "ծաղրածու", "ծաղրածուի դեմք"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("badut"),
             keywords: &["badut", "konyol", "lucu", "muka", "wajah"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ihu njakịrị"),
             keywords: &["ihu", "njakịrị"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("trúður"),
             keywords: &["andlit", "trúður"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("faccina pagliaccio"),
             keywords: &["clown", "faccina", "pagliaccio"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ピエロの顔"),
             keywords: &["ピエロ", "ピエロの顔", "顔"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("rai badhut"),
             keywords: &["badhut", "rai"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ჯამბაზის სახე"),
             keywords: &["სახე", "ჯამბაზი", "ჯამბაზის სახე"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("клоун"),
             keywords: &["бет", "клоун"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("klovneansigt"),
             keywords: &["ansigt", "klovn", "klovneansigt"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ម\u{17bb}\u{17bb}ខថ\u{17d2}ល\u{17bb}ក"),
@@ -1276,31 +1450,37 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
                 "ម\u{17bb}\u{17bb}ខថ\u{17d2}ល\u{17bb}ក",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ವ\u{cbf}ದ\u{cc2}ಷಕ ಮುಖ"),
             keywords: &["ಮುಖ", "ವ\u{cbf}ದ\u{cc2}ಷಕ"],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("어릿광대 얼굴"),
             keywords: &["광대", "어릿광대", "얼굴"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("विद\u{942}षक च\u{947}रो"),
             keywords: &["च\u{947}रो", "विद\u{942}षक"],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("маскарапоздун бети"),
             keywords: &["бет", "маскарапоз", "маскарапоздун бети"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Clownegesiicht"),
             keywords: &["Clown", "Clownegesiicht", "Gesiicht"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ໜ\u{ec9}າຕ\u{ebb}ວຕະຫລ\u{ebb}ກ"),
@@ -1310,51 +1490,61 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
                 "ໜ\u{ec9}າຕ\u{ebb}ວຕະຫລ\u{ebb}ກ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("klouno veidas"),
             keywords: &["klounas", "klouno veidas", "veidas"],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("klauna seja"),
             keywords: &["klauna seja", "klauns", "seja"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("kanohi hangareka"),
             keywords: &["hangareka", "kanohi"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("кловн"),
             keywords: &["кловн", "лице"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("കോമ\u{d3e}ളി ഭ\u{d3e}വം"),
             keywords: &["കോമ\u{d3e}ളി", "ഭ\u{d3e}വം", "മ\u{d41}ഖം"],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("алиалагчийн царай"),
             keywords: &["алиалагч", "алиалагчийн царай", "царай"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("विद\u{941}षकाचा च\u{947}हरा"),
             keywords: &["च\u{947}हरा", "विद\u{941}षक", "विद\u{941}षकाचा च\u{947}हरा"],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("muka badut"),
             keywords: &["badut", "muka"],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("wiċċ ta’ buffu"),
             keywords: &["buffu", "wiċċ", "wiċċ ta’ buffu"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("လ\u{1030}ပြက\u{103a}ရ\u{102f}ပ\u{103a}"),
@@ -1364,11 +1554,13 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
                 "လ\u{1030}ပြက\u{103a}ရ\u{102f}ပ\u{103a}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("klovnefjes"),
             keywords: &["fjes", "klovn", "klovnefjes"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("हसाउ\u{901}न\u{947} मान\u{94d}छ\u{947}को अन\u{941}हार"),
@@ -1378,86 +1570,103 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
                 "हसाउ\u{901}न\u{947} मान\u{94d}छ\u{947}को अन\u{941}हार",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("clownsgezicht"),
             keywords: &["clown", "clownsgezicht", "gezicht"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("klovnefjes"),
             keywords: &["fjes", "klovn", "klovnefjes"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଜୋକର ମ\u{b41}ହ\u{b01}"),
             keywords: &["ଜୋକର", "ମ\u{b41}ହ\u{b01}"],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਜ\u{a4b}ਕਰ ਚਿਹਰਾ"),
             keywords: &["ਚਿਹਰਾ", "ਜ\u{a4b}ਕਰ"],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("مسخرے دی شکل"),
             keywords: &["دی شکل", "مسخرے", "مسخرے دی شکل"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Klaun Im Fes"),
             keywords: &["Fes", "Klaun", "Klaun Im Fes"],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("twarz klauna"),
             keywords: &["cyrk", "klown", "twarz klauna"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("ټوکي مخ"),
             keywords: &["مخ", "ټوکي"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("rosto de palhaço"),
             keywords: &["palhaço", "rosto", "rosto de palhaço"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("cara de palhaço"),
             keywords: &["cara de palhaço", "palhaço", "rosto", "rosto de palhaço"],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("pʼaqpaku uya"),
             keywords: &["pʼaqpaku uya"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("față de clovn"),
             keywords: &["arlechin", "clovn", "față", "față de clovn"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-1027"),
             keywords: &["E10-1027"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("клоун"),
             keywords: &["клоун", "лицо"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("isura ya jokeri"),
             keywords: &["isura", "isura ya jokeri", "ya jokeri"],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("جوڪر وارو چهرو"),
             keywords: &["جوڪر", "جوڪر وارو چهرو", "چهرو"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ව\u{dd2}කටය ම\u{dd4}හ\u{dd4}ණ"),
@@ -1467,76 +1676,91 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
                 "ව\u{dd2}කටය\u{dcf}",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("tvár klauna"),
             keywords: &["klaun", "tvár", "tvár klauna"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("klovnovski obraz"),
             keywords: &["klovn", "klovnesa", "klovnovski obraz"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("waji qosol leh"),
             keywords: &["shactiro", "waji", "waji qosol leh"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("fytyrë gaztori"),
             keywords: &["fytyrë", "fytyrë gaztori", "gaztor"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("лице кловна"),
             keywords: &["кловн", "лице", "лице кловна"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["лице кловна"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("lice klovna"),
             keywords: &["klovn", "lice", "lice klovna"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["lice klovna"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("clownansikte"),
             keywords: &["ansikte", "clown", "clownansikte", "pajas"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("katuni"),
             keywords: &["katuni", "uso"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("கோம\u{bbe}ளி முகம\u{bcd}"),
             keywords: &["கோம\u{bbe}ளி", "முகம\u{bcd}"],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("జ\u{c4b}కర\u{c4d} ముఖం"),
             keywords: &["జ\u{c4b}కర\u{c4d}", "ముఖం"],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("рӯи масхарабоз"),
             keywords: &["масхарабоз", "рӯи масхарабоз", "рӯй"],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("หน\u{e49}าตลก"),
@@ -1547,86 +1771,103 @@ pub const CLOWN_FACE: crate::Emoji = crate::Emoji {
                 "โจ\u{e4a}กเกอร\u{e4c}",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("masgarabaz ýüz"),
             keywords: &["masgarabaz", "ýüz"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("mata tokotaha-fieoli"),
             keywords: &["mata tokotaha-fieoli"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("palyaço yüzü"),
             keywords: &["palyaço", "palyaço yüzü", "yüz"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("سېرىكچى چىراي"),
             keywords: &["سېرىكچى", "چىراي"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("обличчя клоуна"),
             keywords: &["клоун", "обличчя", "обличчя клоуна"],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("جوکر چہرہ"),
             keywords: &["جوکر", "چہرہ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("masxaraboz"),
             keywords: &["masxaraboz", "yuz"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("mặt hề"),
             keywords: &["hề", "mặt"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("kanamu kluun"),
             keywords: &["kanam", "kanamu kluun", "kluun"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("ubuso bomhlekisi"),
             keywords: &["ubuso", "ubuso bomhlekisi", "umhlekisi"],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("ojú apanilẹrin"),
             keywords: &["apanilẹrin", "ojú"],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("小丑臉"),
             keywords: &["小丑", "小丑臉", "臉"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("小丑脸"),
             keywords: &["小丑", "小丑脸", "脸"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("小丑脸"),
             keywords: &["小丑", "小丑脸", "脸"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("小丑"),
             keywords: &["丑", "小", "小丑"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("umhlekisi"),
@@ -1646,6 +1887,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("mensvreter"),
@@ -1659,16 +1901,19 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "sprokie",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ጭራቅ"),
             keywords: &["ተረት ተረት", "የጃፓን", "ጭራቅ", "ፊት", "ፍጡር"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("غول"),
             keywords: &["جني", "حدوتة", "غول", "غول ياباني", "وجه", "وحش"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("দৈত\u{9cd}য"),
@@ -1681,6 +1926,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("div"),
@@ -1694,16 +1940,19 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "üz",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("людажэр"),
             keywords: &["казачны", "людажэр", "монстр", "стварэнне", "японскі"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("страшилище"),
             keywords: &["лице", "страшилище", "фантастичен", "чудовище", "японски"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("র\u{9be}ক\u{9cd}ষস"),
@@ -1715,11 +1964,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "র\u{9c2}পকথ\u{9be}",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("roñfl"),
             keywords: &["euzhvil", "roñfl"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("ljudožder"),
@@ -1732,16 +1983,19 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "čudovište",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("ogre"),
             keywords: &["cara", "conte", "criatura", "fantasia", "ogre"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᏴᏫ ᎢᏳᏍᏗ"),
             keywords: &["ᎠᏏᏴᏫ", "ᎤᎧᏛ", "ᎥᏓᏅᏖᏢᏍᎬ ᎰᏩᏂᎨᏒᎾ", "ᎦᏂᏰᎩ", "ᎰᏩᏂᎨᏒᎾ", "ᏴᏫ ᎢᏳᏍᏗ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("zlobr"),
@@ -1761,6 +2015,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "zlobr",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("anghenfil"),
@@ -1772,16 +2027,19 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "wyneb",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("trold"),
             keywords: &["japansk uhyre", "monster", "trold"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Ungeheuer"),
             keywords: &["Gesicht", "Japan", "Monster", "Märchen", "Ungeheuer"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("τέρας"),
@@ -1794,6 +2052,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "φαντασία",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("ogre"),
@@ -1806,26 +2065,31 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ogre",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("demonio japonés oni"),
@@ -1837,6 +2101,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "sonrisa",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("cara de ogro japonés"),
@@ -1850,16 +2115,19 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "oni",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("demonio japonés oni"),
             keywords: &["demonio japonés oni", "fantasía", "japonés", "ogro", "oni"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("demonio japonés oni"),
             keywords: &["demonio japonés oni", "fantasía", "japonés", "ogro", "oni"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("sookoll"),
@@ -1874,6 +2142,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "sookoll",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("ogroa"),
@@ -1887,11 +2156,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ogroa",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("دیو"),
             keywords: &["جانور", "جن و پری", "دیو", "صورت", "فانتزی", "هیولا"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("peikko"),
@@ -1905,6 +2176,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "satu",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("kapre"),
@@ -1919,26 +2191,31 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "nilalang",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("trøll"),
             keywords: &["andlit", "skrímsl", "trøll", "ævintýr"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("ogre"),
             keywords: &["japonais", "ogre"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("ogre"),
             keywords: &["créature", "fantastique", "monstre", "ogre", "visage"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("fathach"),
             keywords: &["aghaidh", "arrachtach", "fathach", "síscéal"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("diabhal Seapanach"),
@@ -1951,11 +2228,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "uilebheist",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("ogro xaponés"),
             keywords: &["cara", "ogro", "xaponés"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("દ\u{ac8}ત\u{acd}ય"),
@@ -1968,16 +2247,19 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "રાક\u{acd}ષસ",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("dodo"),
             keywords: &["dodo", "fuska", "halitta", "labarin aljana", "tatsuniya"],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("מפלצת"),
             keywords: &["אדום", "יצור", "מפחיד", "מפלצת", "עוג", "פרצוף", "קרניים"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("जापानी राक\u{94d}षस"),
@@ -1989,16 +2271,19 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "राक\u{94d}षस",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("japanski div"),
             keywords: &["bajka", "japanski div", "lice", "stvor", "čudovište"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("ogre"),
             keywords: &["arc", "japán", "lény", "mese", "ogre", "szörny", "óriás"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("մարդակեր հսկա"),
@@ -2012,31 +2297,37 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ֆանտազիա",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("wajah monster"),
             keywords: &["dongeng", "fantasi", "makhluk", "monster", "wajah"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ihe egwu"),
             keywords: &["akọrọakọ", "arọmarọ", "ihe egwu", "ihu", "okike"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("tröll"),
             keywords: &["andlit", "oni", "tröll", "vera", "ævintýri"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("orco"),
             keywords: &["faccina", "favola", "mostro", "orco", "orco giapponese"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("鬼"),
             keywords: &["お面", "なまはげ", "化け物", "鬼"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("buta ogre"),
@@ -2049,6 +2340,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "wewujudan",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("კაციჭამია-გოლიათი"),
@@ -2063,16 +2355,19 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ფანტასტიკა",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("құбыжық"),
             keywords: &["бет", "ертегі", "жалмауыз", "мақұлұқ", "қиял", "құбыжық"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("trold"),
             keywords: &["japansk uhyre", "monster", "trold"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ម\u{17bb}ខយក\u{17d2}ស"),
@@ -2084,6 +2379,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "អាក\u{17d2}រក\u{17cb}",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ರಾಕ\u{ccd}ಷಸ"),
@@ -2095,11 +2391,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ರಾಕ\u{ccd}ಷಸ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("도깨비 가면"),
             keywords: &["가면", "도깨비"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("राक\u{94d}षस"),
@@ -2112,11 +2410,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "लहर",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("дөө"),
             keywords: &["бет", "дөө", "желмогуз", "жомок", "фантастика"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Ongeheier"),
@@ -2129,6 +2429,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "Ongeheier",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຍ\u{eb1}ກກ\u{eb4}ນຄ\u{ebb}ນ"),
@@ -2139,6 +2440,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ໜ\u{ec9}າ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("pabaisa"),
@@ -2151,6 +2453,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "veidas",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("cilvēkēdājs"),
@@ -2163,6 +2466,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "seja",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("kaurehe"),
@@ -2175,6 +2479,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "taniwha",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("џиновско чудовиште"),
@@ -2187,6 +2492,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "џиновско чудовиште",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ര\u{d3e}ക\u{d4d}ഷസൻ"),
@@ -2200,11 +2506,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ര\u{d3e}ക\u{d4d}ഷസൻ",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("аварга махчин"),
             keywords: &["аварга", "махчин"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("काल\u{94d}पनिक राक\u{94d}षसाचा च\u{947}हरा"),
@@ -2217,6 +2525,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "राक\u{94d}षस",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("gergasi"),
@@ -2230,11 +2539,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "raksasa",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("orku"),
             keywords: &["fantasija", "kreatura", "mostru", "orku", "wiċċ", "ħrafa"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("ဘ\u{102e}လ\u{1030}း"),
@@ -2246,11 +2557,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "အကောင\u{103a}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("japansk troll"),
             keywords: &["eventyr", "japansk ogre", "japansk troll", "ogre"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("राक\u{94d}षस"),
@@ -2263,6 +2576,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "राक\u{94d}षस",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("trol"),
@@ -2270,11 +2584,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "fantasie", "gezicht", "monster", "sprookje", "trol", "wezen",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("japansk troll"),
             keywords: &["eventyr", "japansk ogre", "japansk troll", "ogre"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ର\u{b3e}କ\u{b4d}ଷସ"),
@@ -2287,6 +2603,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ର\u{b3e}କ\u{b4d}ଷସ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਦ\u{a48}\u{a02}ਤ"),
@@ -2298,11 +2615,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ਰਾਖਸ\u{a3c}",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("دیو"),
             keywords: &["تصور", "دی شکل", "دیو", "مخلوق", "پریاں دی کہانی"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Ọ\u{301}glí Wíkẹ\u{301}d Fes"),
@@ -2316,21 +2635,25 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "Ọ\u{301}glí Wíkẹ\u{301}d Fes",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("ogr"),
             keywords: &["maska", "ogr", "potwór"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("ديو"),
             keywords: &["بلا", "د ښاپېرو کيسه", "ديو", "مخ", "مخلوق"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("ogro"),
             keywords: &["conto de fadas", "monstro", "ogro", "ogro japonês", "oni"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("ogre"),
@@ -2344,6 +2667,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ogre",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("ogro"),
@@ -2356,16 +2680,19 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "uya",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("căpcăun"),
             keywords: &["basm", "creatură", "căpcăun", "monstru", "poveste"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-566"),
             keywords: &["E10-566"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("чудовище"),
@@ -2378,6 +2705,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "чудовище",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("igishitani"),
@@ -2390,11 +2718,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "umugani",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("آدمخور"),
             keywords: &["آدمخور", "تصور", "جادوئي قصو", "ديو", "مخلوق", "چهرو"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ම\u{dd2}න\u{dd3} කන යක\u{dca}ෂය\u{dcf}"),
@@ -2408,11 +2738,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ස\u{dd4}රංගන\u{dcf} කථ\u{dcf}ව",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("obluda"),
             keywords: &["netvor", "obluda", "rozprávka", "tvár"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("pošastni velikan"),
@@ -2426,6 +2758,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "pravljica",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("dad cun"),
@@ -2438,6 +2771,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "waji",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("ogër"),
@@ -2450,6 +2784,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "përrallë",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("чудовиште"),
@@ -2462,21 +2797,25 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "чудовиште",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["чудовиште"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("čudovište"),
             keywords: &["bajka", "japan", "lice", "stvorenje", "čudovište"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["čudovište"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("japanskt monster"),
@@ -2488,6 +2827,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "saga",
             ],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("zimwi"),
@@ -2500,11 +2840,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "zimwi",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("பயமுறுத\u{bcd}தும\u{bcd} முகம\u{bcd}"),
@@ -2516,6 +2858,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ர\u{bbe}ட\u{bcd}சசன\u{bcd}",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("జపన\u{c40}స\u{c4d} ఓగ\u{c4d}ర\u{c47}"),
@@ -2524,11 +2867,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "భయంకరమ\u{c48}న ముఖం",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("одамхӯр"),
             keywords: &["афсона", "аъҷуба", "махлуқ", "одамхӯр", "рӯй", "тахайюлот"],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ย\u{e31}กษ\u{e4c}ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น"),
@@ -2540,16 +2885,19 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "หน\u{e49}า",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("döw"),
             keywords: &["döw", "erteki", "hyýal", "mahluk", "nägehan", "ýüz"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("nifoloa"),
             keywords: &["nifoloa"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("dev"),
@@ -2562,11 +2910,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "yüz",
             ],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("دىۋە"),
             keywords: &["دىۋە", "فانتازىيە", "مەخلۇق", "يالماۋۇز", "چىراي", "چۆچەك"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("велетень-людожер"),
@@ -2579,11 +2929,13 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "фантазія",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("شیطانی جن"),
             keywords: &["افسانوی", "جاپانی", "جن", "شیطانی جن", "چہرہ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("yovuz maxluq"),
@@ -2597,6 +2949,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "yuz",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("mặt quỷ"),
@@ -2610,6 +2963,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "tưởng tượng",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("oogar"),
@@ -2622,6 +2976,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "rab-wu-gànde",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("izim"),
@@ -2634,6 +2989,7 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ubuso",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Omiran Ajẹniyan"),
@@ -2646,31 +3002,37 @@ pub const OGRE: crate::Emoji = crate::Emoji {
                 "ẹ\u{300}dá",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("怪物"),
             keywords: &["幻想", "怪物", "生物", "童話故事", "臉"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("怪物"),
             keywords: &["幻想", "怪物", "生物", "童话故事", "脸"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("食人魔"),
             keywords: &["妖怪", "幻想", "神话故事", "脸", "食人魔", "鬼"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("魔鬼"),
             keywords: &["妖怪", "惡鬼", "表情", "魔鬼"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["惡鬼", "日本怪物", "表情", "魔鬼"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("ogre"),
@@ -2690,6 +3052,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("tokkelos"),
@@ -2703,16 +3066,19 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "tokkelos",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ጆሮ ቆራጭ"),
             keywords: &["ተረት ተረት", "የጃፓን", "ጆሮ ቆራጭ", "ጭራቅ", "ፊት"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("عفريت"),
             keywords: &["حدوتة", "عفريت", "عفريت ياباني", "وجه", "وحش"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("পিশ\u{9be}চ"),
@@ -2725,6 +3091,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("qoblin"),
@@ -2738,16 +3105,19 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "üz",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("гоблін"),
             keywords: &["гоблін", "казачны", "монстр", "стварэнне", "японскі"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("гоблин"),
             keywords: &["гоблин", "лице", "фантастичен", "чудовище", "японски"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("অপদেবত\u{9be}"),
@@ -2761,11 +3131,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "র\u{9c2}পকথ\u{9be}",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("gobilin"),
             keywords: &["euzhvil", "gobilin"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("goblin"),
@@ -2779,16 +3151,19 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "čudovište",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("follet"),
             keywords: &["cara", "conte", "criatura", "fantasia", "follet"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎩᎦᎨ ᏴᏫ"),
             keywords: &["ᎠᏏᏴᏫ", "ᎤᎧᏛ", "ᎥᏓᏅᏖᏢᏍᎬ ᎰᏩᏂᎨᏒᎾ", "ᎦᏂᏰᎩ", "ᎩᎦᎨ ᏴᏫ", "ᎰᏩᏂᎨᏒᎾ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("šotek"),
@@ -2807,6 +3182,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "šotek",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("bwgan"),
@@ -2819,16 +3195,19 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "wyneb",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("ånd"),
             keywords: &["japansk ånd", "ånd"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Kobold"),
             keywords: &["Gesicht", "Japan", "Kobold", "Monster", "Märchen", "Tengu"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("καλικάντζαρος"),
@@ -2842,6 +3221,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "φαντασία",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("goblin"),
@@ -2854,26 +3234,31 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "monster",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("demonio japonés tengu"),
@@ -2886,6 +3271,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "tengu",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("cara de demonio japonés"),
@@ -2898,6 +3284,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "tengu",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
@@ -2910,11 +3297,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "tengu",
             ],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("demonio japonés tengu"),
             keywords: &["cara", "cuento", "demonio", "japonés", "tengu"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("mäekoll"),
@@ -2929,6 +3318,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "olend",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("iratxoa"),
@@ -2942,11 +3332,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "munstro",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("جن کوتوله"),
             keywords: &["جانور", "جن و پری", "جن کوتوله", "صورت", "فانتزی", "هیولا"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("hiisi"),
@@ -2961,6 +3353,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "satu",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("goblin"),
@@ -2974,26 +3367,31 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "nilalang",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("vættur"),
             keywords: &["andlit", "skrímsl", "trøll", "vættur", "ævintýr"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("monstre japonais"),
             keywords: &["japonais", "monstre"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("gobelin"),
             keywords: &["créature", "fantastique", "gobelin", "monstre", "visage"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("gruagach"),
             keywords: &["aghaidh", "arrachtach", "gruagach", "síscéal"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("bòcan Seapanach"),
@@ -3006,11 +3404,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "uilebheist",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("demo xaponés"),
             keywords: &["cara", "demo", "tengu", "xaponés"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("પ\u{acd}ર\u{ac7}ત"),
@@ -3023,6 +3423,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "રાક\u{acd}ષસ",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("dodanni"),
@@ -3035,6 +3436,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "tatsuniya",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("גובלין"),
@@ -3048,6 +3450,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "קרניים",
             ],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("जापानी पिशाच"),
@@ -3060,11 +3463,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "पिशाच",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("goblin"),
             keywords: &["bajka", "goblin", "lice", "stvor", "čudovište"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("kobold"),
@@ -3072,6 +3477,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "arc", "fantasy", "japán", "kobold", "lény", "mese", "szörny",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("չար ոգի"),
@@ -3085,6 +3491,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "ֆանտազիա",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("topeng hidung panjang"),
@@ -3097,26 +3504,31 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "wajah",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("gọblịn"),
             keywords: &["akọrọakọ", "arọmarọ", "gọblịn", "ihe egwu", "ihu", "okike"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("ári"),
             keywords: &["andlit", "púki", "tröll", "ári", "ævintýri"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("goblin"),
             keywords: &["elfo", "folletto", "goblin", "malefico", "mostro"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("天狗"),
             keywords: &["お面", "天狗"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("buta goblin"),
@@ -3129,6 +3541,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "wewujudan",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("გობლინი"),
@@ -3143,16 +3556,19 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "ფანტასტიკა",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("гоблин"),
             keywords: &["бет", "гоблин", "ертегі", "қиял", "құбыжық"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("ånd"),
             keywords: &["japansk ånd", "ånd"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ម\u{17bb}ខមន\u{17bb}ស\u{17d2}សអាក\u{17d2}រក\u{17cb}"),
@@ -3162,6 +3578,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "អាក\u{17d2}រក\u{17cb}",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಗಾಬ\u{ccd}ಲ\u{cbf}ನ\u{ccd}"),
@@ -3173,11 +3590,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "ಫ\u{ccd}ಯಾಂಟಸ\u{cbf}",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("코주부 도깨비 가면"),
             keywords: &["가면", "코주부 도깨비", "코주부 도깨비 가면"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("ता\u{902}बड\u{947}\u{902} पिशाच\u{94d}च"),
@@ -3191,11 +3610,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "लहर",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("гоблин"),
             keywords: &["бет", "гоблин", "желмогуз", "жомок", "фантастика"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Kobold"),
@@ -3208,11 +3629,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "Mäerchen",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຜ\u{eb5}ນ\u{ec9}ອຍ"),
             keywords: &["ຜ\u{eb5}", "ຜ\u{eb5}ນ\u{ec9}ອຍ", "ໜ\u{ec9}າ"],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("demonas"),
@@ -3225,6 +3648,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "veidas",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("goblins"),
@@ -3237,6 +3661,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "seja",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("taipō"),
@@ -3249,11 +3674,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "taniwha",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("гоблин"),
             keywords: &["гоблин", "сказна", "суштество", "фантазија", "чудовиште"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ക\u{d41}ട\u{d4d}ടിച\u{d4d}ച\u{d3e}ത\u{d4d}തൻ"),
@@ -3267,6 +3694,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "ര\u{d3e}ക\u{d4d}ഷസൻ",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("шүтээн, онгод"),
@@ -3279,6 +3707,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "япон",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("अक\u{94d}राळविक\u{94d}राळ भ\u{942}त"),
@@ -3291,6 +3720,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "राक\u{94d}षस",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("goblin"),
@@ -3304,11 +3734,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "raksasa",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("goblin"),
             keywords: &["fantasija", "goblin", "kreatura", "mostru", "wiċċ", "ħrafa"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("နတ\u{103a}ဆ\u{102d}\u{102f}းကလေး"),
@@ -3322,11 +3754,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "အကောင\u{103a}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("tengu"),
             keywords: &["ansikt", "eventyr", "japansk troll", "tengu"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("सानो भ\u{942}त"),
@@ -3339,6 +3773,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "सानो भ\u{942}त",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("kobold"),
@@ -3346,11 +3781,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "fantasie", "gezicht", "kobold", "monster", "sprookje", "wezen",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("tengu"),
             keywords: &["eventyr", "fjes", "japansk troll", "tengu"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଖର\u{b4d}ବକ\u{b3e}ୟ ଅସ\u{b41}ର"),
@@ -3363,6 +3800,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "ର\u{b3e}କ\u{b4d}ଷସ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਪ\u{a4d}ਰ\u{a47}ਤ"),
@@ -3375,11 +3813,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "ਭ\u{a42}ਤ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("آسیب"),
             keywords: &["آسیب", "تصور", "دی شکل", "دیو", "مخلوق", "پریاں دی کہانی"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Wíkẹ\u{301}d Bád Spírit"),
@@ -3393,16 +3833,19 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "Wíkẹ\u{301}d Bád Spírit",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("goblin"),
             keywords: &["diabeł", "goblin", "maska", "stwór"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("پېری"),
             keywords: &["بلا", "د ښاپېرو کيسه", "مخ", "مخلوق", "پېری"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("duende japonês"),
@@ -3414,6 +3857,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "tengu",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
@@ -3427,6 +3871,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "monstro",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("huchuy kuku"),
@@ -3440,16 +3885,19 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "uya",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("spiriduș"),
             keywords: &["basm", "creatură", "monstru", "poveste", "spiriduș"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-567"),
             keywords: &["E10-567"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("японский гоблин"),
@@ -3461,6 +3909,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "японский гоблин",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("ikigini"),
@@ -3473,11 +3922,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "umugani",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("بونو"),
             keywords: &["بونو", "تصور", "جادوئي قصو", "ديو", "مخلوق", "چهرو"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ගොබ\u{dca}ල\u{dd2}න\u{dca} යක\u{dca}ෂය\u{dcf}"),
@@ -3491,11 +3942,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "ස\u{dd4}රංගන\u{dcf} කථ\u{dcf}ව",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("škrat"),
             keywords: &["netvor", "obluda", "rozprávka", "tvár", "škrat"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("škratelj"),
@@ -3509,6 +3962,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "škratelj",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("noole foolxun"),
@@ -3521,36 +3975,43 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "waji",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("goblin"),
             keywords: &["fantazi", "goblin", "krijesë", "përbindësh"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("гоблин"),
             keywords: &["jaпaн", "бajкa", "гоблин", "лице", "ствoрење", "чудoвиштe"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["гоблин"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("goblin"),
             keywords: &["bajka", "goblin", "japan", "lice", "stvorenje", "čudovište"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["goblin"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("japanskt troll"),
             keywords: &["ansikte", "japanskt troll", "saga", "troll"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("afriti"),
@@ -3564,11 +4025,13 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "zimwi",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("ஜ\u{bbe}ப\u{bcd}பன\u{bc0}ஸ\u{bcd} பூதம\u{bcd}"),
@@ -3581,6 +4044,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "விசித\u{bcd}திரக\u{bcd} கதை",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("జపన\u{c40}స\u{c4d} గ\u{c4b}బ\u{c4d}ల\u{c3f}న\u{c4d}"),
@@ -3589,6 +4053,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "భయంకరమ\u{c48}న ముఖం",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("аҷинаи хона"),
@@ -3601,6 +4066,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "тахайюлот",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ป\u{e35}ศาจญ\u{e35}\u{e48}ป\u{e38}\u{e48}น"),
@@ -3611,16 +4077,19 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "หน\u{e49}า",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("goblin"),
             keywords: &["erteki", "goblin", "hyýal", "mahluk", "nägehan", "ýüz"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("pīnōnō"),
             keywords: &["pīnōnō"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("goblin"),
@@ -3633,16 +4102,19 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "yüz",
             ],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("جىن"),
             keywords: &["جىن", "فانتازىيە", "مەخلۇق", "يالماۋۇز", "چىراي", "چۆچەك"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("гоблін"),
             keywords: &["гоблін", "монстр", "обличчя", "створіння", "фантазія"],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("لمبی ناک اور مونچھوں والا دیو"),
@@ -3654,6 +4126,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "چہرہ",
             ],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("ajina"),
@@ -3667,6 +4140,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "yuz",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("yêu tinh"),
@@ -3679,6 +4153,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "yêu tinh",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("kus-kondoroŋ"),
@@ -3691,6 +4166,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "rab-wu-gànde",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("uthikoloshe"),
@@ -3703,6 +4179,7 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "uthikoloshe",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("abàmì aràrá"),
@@ -3715,31 +4192,37 @@ pub const GOBLIN: crate::Emoji = crate::Emoji {
                 "ẹ\u{300}dá",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("小妖精"),
             keywords: &["小妖精", "幻想", "怪物", "生物", "童話故事", "臉"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("小妖精"),
             keywords: &["小妖精", "幻想", "怪物", "生物", "童话故事", "脸"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("小妖精"),
             keywords: &["妖怪", "小妖精", "幻想", "神话故事", "脸"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("天狗"),
             keywords: &["天狗", "妖怪", "怪物"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("goblin"),
@@ -3759,6 +4242,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("spook"),
@@ -3766,16 +4250,19 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "fantasie", "gesig", "kreatuur", "monster", "spook", "sprokie",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የሙት መንፈስ"),
             keywords: &["ተረት ተረት", "የሙት መንፈስ", "ጭራቅ", "ፊት", "ፍጡር"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("شبح"),
             keywords: &["حدوتة", "شبح", "وجه"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("ভ\u{9c2}ত"),
@@ -3788,21 +4275,25 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("ruh"),
             keywords: &["fantastika", "monstr", "məxluq", "nağıl", "ruh", "üz"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("прывід"),
             keywords: &["бу", "казачны", "монстр", "прывід", "стварэнне"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("призрак"),
             keywords: &["лице", "призрак", "създание", "фантастичен", "чудовище"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("ভ\u{9c2}ত"),
@@ -3815,11 +4306,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "র\u{9c2}পকথ\u{9be}",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("tasmant"),
             keywords: &["euzhvil", "tasmant"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("duh"),
@@ -3832,16 +4325,19 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "čudovište",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("fantasma"),
             keywords: &["cara", "conte", "criatura", "fantasia", "fantasma"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎠᏥᏍᎩᎵ"),
             keywords: &["ᎠᏏᏴᏫ", "ᎠᏥᏍᎩᎵ", "ᎤᎧᏛ", "ᎥᏓᏅᏖᏢᏍᎬ ᎰᏩᏂᎨᏒᎾ", "ᎦᏂᏰᎩ", "ᎰᏩᏂᎨᏒᎾ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("duch"),
@@ -3857,11 +4353,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "výraz",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("ysbryd"),
             keywords: &["anghenfil", "creadur", "ffantasi", "wyneb", "ysbryd"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("spøgelse"),
@@ -3875,11 +4373,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "væsen",
             ],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Gespenst"),
             keywords: &["Fantasy", "Gesicht", "Gespenst", "Märchen"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("φάντασμα"),
@@ -3892,6 +4392,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "φαντασία",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("ghost"),
@@ -3904,6 +4405,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "monster",
             ],
         },
+        #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
             tts: None,
@@ -3917,46 +4419,55 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "spectre",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("fantasma"),
             keywords: &["cara", "criatura", "cuento", "fantasma", "monstruo"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["cuento", "fantasma", "fantasía", "monstruo"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("kummitus"),
@@ -3969,21 +4480,25 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "viirastus",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("mamua"),
             keywords: &["aurpegi", "fantasia", "ipuin", "izaki", "mamua", "munstro"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("روح"),
             keywords: &["جانور", "جن و پری", "روح", "صورت", "فانتزی", "هیولا"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("kummitus"),
             keywords: &["fantasia", "hirviö", "kummitus", "naama", "olio", "satu"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("multo"),
@@ -3997,26 +4512,31 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "nilalang",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("gálvandi spøkilsi"),
             keywords: &["gálva", "gálvandi spøkilsi", "spøkilsi", "ævintýr"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("fantôme"),
             keywords: &["créature", "fantastique", "fantôme", "monstre", "visage"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["créature", "fantastique", "fantôme", "monstre", "visage"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("taibhse"),
             keywords: &["aghaidh", "síscéal", "taibhse"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("taibhse"),
@@ -4029,16 +4549,19 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "uilebheist",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("pantasma"),
             keywords: &["fantasma", "pantasma", "susto"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ભ\u{ac2}ત"),
             keywords: &["ચહ\u{ac7}રો", "પરી કથા", "ભ\u{ac2}ત"],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("fatalwa"),
@@ -4051,31 +4574,37 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "tatsuniya",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("רוח רפאים"),
             keywords: &["יצור", "לשון", "מוות", "מחייך", "פרצוף", "רוח רפאים"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("भ\u{942}त"),
             keywords: &["च\u{947}हरा", "परी कथा", "प\u{94d}र\u{947}त", "भ\u{942}त"],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("duh"),
             keywords: &["bajka", "duh", "mašta", "stvor", "čudovište"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("szellem"),
             keywords: &["arc", "kísértet", "lény", "mese", "szellem", "szörny"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("ուրվական"),
             keywords: &["արարած", "դեմք", "հեքիաթ", "հրեշ", "ուրվական", "ֆանտազիա"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("hantu"),
@@ -4083,16 +4612,19 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "arwah", "dongeng", "fantasi", "hantu", "monster", "muka", "wajah",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("mmụọ"),
             keywords: &["akọrọakọ", "arọmarọ", "ihe egwu", "ihu", "mmụọ", "okike"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("draugur"),
             keywords: &["andlit", "draugur", "ævintýri"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("fantasma"),
@@ -4104,11 +4636,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "storie di fantasmi",
             ],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("お化け"),
             keywords: &["お化け", "ゴースト", "ユーレイ", "幽霊"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("pocongan"),
@@ -4121,6 +4655,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "wewujudan",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("მოჩვენება"),
@@ -4134,11 +4669,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "ფანტასტიკა",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("елес"),
             keywords: &["аруақ", "бет", "елес", "ертегі", "құбыжық"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("spøgelse"),
@@ -4152,11 +4689,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "væsen",
             ],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ខ\u{17d2}មោច"),
             keywords: &["ខោ\u{17d2}មចលង", "ខ\u{17d2}មោច", "លង"],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ದ\u{cc6}ವ\u{ccd}ವ"),
@@ -4168,11 +4707,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "ಫ\u{ccd}ಯಾಂಟಸ\u{cbf}",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("유령"),
             keywords: &["고스트", "귀신", "유령"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("भ\u{942}त"),
@@ -4185,11 +4726,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "लहर",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("арбак"),
             keywords: &["арбак", "бет", "желмогуз", "жомок", "фантастика"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Geescht"),
@@ -4202,11 +4745,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "Mäerchen",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຜ\u{eb5}"),
             keywords: &["ຜ\u{eb5}", "ຫ\u{ebc}ອກ"],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("vaiduoklis"),
@@ -4219,6 +4764,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "veidas",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("spoks"),
@@ -4231,6 +4777,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "spoks",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("kēhua"),
@@ -4243,11 +4790,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "taniwha",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("дух"),
             keywords: &["дух", "сказна", "суштество", "фантазија", "чудовиште"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ഭ\u{d42}തം"),
@@ -4260,11 +4809,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "ര\u{d3e}ക\u{d4d}ഷസൻ",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("сүнс"),
             keywords: &["аймшиг", "сүнс", "үхэл"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("भ\u{942}त"),
@@ -4277,6 +4828,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "राक\u{94d}षस",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("hantu"),
@@ -4289,11 +4841,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "raksasa",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("fatat"),
             keywords: &["fantasija", "fatat", "kreatura", "mostru", "wiċċ", "ħrafa"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("တစ\u{1039}ဆေ"),
@@ -4306,11 +4860,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "အကောင\u{103a}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("spøkelse"),
             keywords: &["eventyr", "fjes", "skapning", "spøkelse"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("भ\u{942}त"),
@@ -4323,6 +4879,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "राक\u{94d}षस",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("spook"),
@@ -4330,11 +4887,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "fantasie", "gezicht", "monster", "spook", "sprookje", "wezen",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("spøkelse"),
             keywords: &["eventyr", "fjes", "skapning", "spøkelse"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଭ\u{b42}ତ"),
@@ -4347,16 +4906,19 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "ର\u{b3e}କ\u{b4d}ଷସ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਭ\u{a42}ਤ"),
             keywords: &["ਚਿਹਰਾ", "ਦ\u{a48}\u{a02}ਤ", "ਪਰੀ ਕਹਾਣੀ", "ਭ\u{a42}ਤ"],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("بھوت"),
             keywords: &["بھوت", "تصور", "دی شکل", "دیو", "مخلوق", "پریاں دی کہانی"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Gost"),
@@ -4369,21 +4931,25 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "Wíkẹ\u{301}d Bád Spírit",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("duch"),
             keywords: &["duch", "duszek", "język", "wesoły duch"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("شيشکه"),
             keywords: &["بلا", "د ښاپيرو کيسه", "شيشکه", "مخ", "مخلوق"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("fantasma"),
             keywords: &["conto de fadas", "fantasma", "rosto"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
@@ -4396,6 +4962,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "monstro",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("kuku"),
@@ -4408,6 +4975,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "uya",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("fantomă"),
@@ -4421,16 +4989,19 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "stafie",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-568"),
             keywords: &["E10-568"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("привидение"),
             keywords: &["лицо", "привидение", "сказки", "страх", "существо"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("umweru baringa"),
@@ -4443,11 +5014,13 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "umweru baringa",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("ڀوت"),
             keywords: &["تصور", "جادوئي قصو", "ديو", "مخلوق", "ڀوت", "چهرو"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("හොල\u{dca}මන"),
@@ -4461,16 +5034,19 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "හොල\u{dca}මන",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("duch"),
             keywords: &["duch", "netvor", "rozprávka", "strašidlo", "tvár"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("duh"),
             keywords: &["bitje", "duh", "fantazija", "obraz", "pošast", "pravljica"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("reer-aakhiraad"),
@@ -4483,46 +5059,55 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "waji",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("fantazmë"),
             keywords: &["fantazi", "fantazmë", "fytyrë", "krijesë", "përbindësh"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("дух"),
             keywords: &["бajкa", "дух", "мaштa", "ствoрење", "чудoвиштe"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["дух"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("duh"),
             keywords: &["bajka", "duh", "mašta", "stvorenje", "čudovište"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["duh"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("spöke"),
             keywords: &["ansikte", "saga", "spöke"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("pepo"),
             keywords: &["kichimbakazi", "kiumbe", "njozi", "pepo", "uso", "zimwi"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("பேய\u{bcd}"),
@@ -4534,36 +5119,43 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "விசித\u{bcd}திரக\u{bcd} கதைகள\u{bcd}",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("భూతం"),
             keywords: &["దయ\u{c4d}యం", "భూతం"],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("руҳ"),
             keywords: &["афсона", "аъҷуба", "махлуқ", "руҳ", "рӯй", "тахайюлот"],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ผ\u{e35}"),
             keywords: &["ผ\u{e35}", "หลอก"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("arwah"),
             keywords: &["arwah", "erteki", "hyýal", "mahluk", "nägehan", "ýüz"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("fakapūloa"),
             keywords: &["fakapūloa"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("hayalet"),
             keywords: &["hayalet", "peri masalı", "yüz"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("ئالۋاستى"),
@@ -4576,6 +5168,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "چۆچەك",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("привид"),
@@ -4588,16 +5181,19 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "фантазія",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("بھوت"),
             keywords: &["افسانوی", "بھوت", "جن", "چہرہ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("arvoh"),
             keywords: &["arvoh", "ertak", "fantaziya", "maxluq", "maxluqot", "yuz"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("ma"),
@@ -4610,6 +5206,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "tưởng tượng",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("fàntom"),
@@ -4622,6 +5219,7 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "rab-wu-gànde",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("isiporho"),
@@ -4634,36 +5232,43 @@ pub const GHOST: crate::Emoji = crate::Emoji {
                 "ubuso",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("òkú"),
             keywords: &["abàmì", "ojú", "àlá", "ìtàn ọmọdé", "òkú", "ẹ\u{300}dá"],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("鬼"),
             keywords: &["幻想", "怪物", "生物", "童話故事", "臉", "鬼"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("鬼"),
             keywords: &["幻想", "怪物", "生物", "童话故事", "脸", "鬼"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("鬼"),
             keywords: &["妖怪", "幻想", "幽灵", "神话故事", "脸", "鬼"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("鬼"),
             keywords: &["幽靈", "鬼"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("isipoki"),
@@ -4683,6 +5288,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("buiteruimtelike wese"),
@@ -4698,16 +5304,19 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "vvv",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የሌላ ዓለም ፍጡር"),
             keywords: &["ምናባዊ", "የሌላ ዓለም ፍጡር", "ጭራቅ", "ፊት", "ፍጡር"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("كائن فضائي"),
             keywords: &["حدوتة", "كائن غريب", "كائن فضائي", "وجه"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("এলিয\u{9bc}েন"),
@@ -4720,21 +5329,25 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("yadplanetli"),
             keywords: &["fantastika", "kosmos", "monstr", "yadplanetli"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("іншапланецянін"),
             keywords: &["НЛА", "космас", "пазаземны", "стварэнне", "іншапланецянін"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("извънземно"),
             keywords: &["НЛО", "извънземно", "космос", "лице", "чудовище"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("ভীন গ\u{9cd}রহের প\u{9cd}র\u{9be}ণী"),
@@ -4747,11 +5360,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("ezdouarad"),
             keywords: &["euzhvil", "ezdouarad"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("vanzemaljac"),
@@ -4764,6 +5379,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "vanzemaljac",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("alienígena"),
@@ -4777,6 +5393,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ovni",
             ],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎢᎾ ᏂᏓᏳᎶᏒᎢ"),
@@ -4789,6 +5406,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ᎰᏩᏂᎨᏒᎾ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("mimozemšťan"),
@@ -4805,6 +5423,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "výraz",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("estron"),
@@ -4817,16 +5436,19 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "wyneb",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("rumvæsen"),
             keywords: &["alien", "rumvæsen", "ufo"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Außerirdischer"),
             keywords: &["Alien", "Außerirdischer", "Gesicht", "UFO"],
         },
+        #[cfg(feature = "de_CH")]
         crate::Annotation {
             lang: "de_CH",
             tts: Some("Ausserirdisches Wesen"),
@@ -4838,6 +5460,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "UFO",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("εξωγήινος"),
@@ -4852,6 +5475,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "φαντασία",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("alien"),
@@ -4864,26 +5488,31 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("alienígena"),
@@ -4896,6 +5525,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ovni",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("extraterrestre"),
@@ -4911,11 +5541,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "monstruo",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("alienígena"),
             keywords: &["alien", "alienígena", "cara", "extraterrestre", "ovni"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
@@ -4930,11 +5562,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "fantasía",
             ],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("tulnukas"),
             keywords: &["fantaasia", "maaväline", "nägu", "olend", "tulnukas"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("estralurtarra"),
@@ -4948,6 +5582,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ohe",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("موجود فضایی"),
@@ -4960,11 +5595,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "موجود فضایی",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("avaruusolio"),
             keywords: &["alien", "avaruusolio", "olio"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("alien"),
@@ -4976,16 +5613,19 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "nilalang",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("rúmdarvera"),
             keywords: &["alien", "andlit", "rúmdarvera", "ufo", "ævintýr"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("alien"),
             keywords: &["alien", "créature", "extraterrestre", "ovni", "visage"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("extraterrestre"),
@@ -4998,11 +5638,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "visage",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("eachtrán"),
             keywords: &["eachtardhomhandach", "eachtrán", "úfó"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("creutair neo-thalmhaidh"),
@@ -5017,11 +5659,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "uilebheist",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("extraterrestre"),
             keywords: &["espazo", "extraterrestre", "ovni"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("પરગ\u{acd}રહવાસી"),
@@ -5034,6 +5678,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "પ\u{ac3}થ\u{acd}વી બહારના\u{a82}",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("baƙon sararin sama"),
@@ -5048,11 +5693,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("חייזר"),
             keywords: &["חוצן", "חייזר", "חלל", "יצור", "עב״מ", "פרצוף"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("परग\u{94d}रह प\u{94d}राणी"),
@@ -5064,16 +5711,19 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "य\u{942}एफ\u{93c}ओ",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("izvanzemaljac"),
             keywords: &["izvanzemaljac", "lice", "mašta", "nlo", "stvor"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("földönkívüli"),
             keywords: &["földönkívüli", "idegen", "ufó", "űrlény"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("այլմոլորակային"),
@@ -5088,6 +5738,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ֆանտազիա",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("alien"),
@@ -5100,6 +5751,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "wajah",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ihe nsina mba ọzọ"),
@@ -5114,21 +5766,25 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("geimvera"),
             keywords: &["andlit", "geimskip", "geimvera", "skrímsli", "ævintýri"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("alieno"),
             keywords: &["UFO", "alieno", "extraterrestre", "faccina"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("エイリアン"),
             keywords: &["UFO", "エイリアン", "ユーフォー", "宇宙人", "異星人", "顔"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("wujud alien"),
@@ -5142,6 +5798,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "wujud alien",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("უცხოპლანეტელი"),
@@ -5157,16 +5814,19 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ფანტასტიკა",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("гуманоид"),
             keywords: &["аруақ", "бет", "гуманоид", "ертегі", "қиял"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("rumvæsen"),
             keywords: &["rumvæsen"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("មន\u{17bb}ស\u{17d2}សក\u{17d2}រៅភព, មន\u{17bb}ស\u{17d2}សចម\u{17d2}លែក"),
@@ -5176,16 +5836,19 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "មន\u{17bb}ស\u{17d2}សចម\u{17d2}លែក",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಏಲ\u{cbf}ಯನ\u{ccd}"),
             keywords: &["ಏಲ\u{cbf}ಯನ\u{ccd}", "ಯುಎಫ\u{ccd}ಒ"],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("외계인"),
             keywords: &["UFO", "에일리언", "왕눈이", "외계인"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("परग\u{94d}रही"),
@@ -5198,6 +5861,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "लहर",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("чоочун планетадан"),
@@ -5210,6 +5874,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "чоочун планетадан",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Alien"),
@@ -5224,6 +5889,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ausserierdesch",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ມະນ\u{eb8}ດຕ\u{ec8}າງດາວ"),
@@ -5236,6 +5902,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ໜ\u{ec9}າ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("ateivis"),
@@ -5247,11 +5914,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "veidas",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("citplanētietis"),
             keywords: &["NLO", "briesmonis", "citplanētietis", "kosmoss", "visums"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("manene aokē"),
@@ -5266,11 +5935,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("вонземјанин"),
             keywords: &["вонземјанин", "вселена", "нло", "суштество", "чудовиште"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("അന\u{d4d}യഗ\u{d4d}രഹജീവി"),
@@ -5284,6 +5955,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "മ\u{d41}ഖം",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("харь гаригийн амьтан"),
@@ -5297,6 +5969,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "үлгэр домог",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("परग\u{94d}रही"),
@@ -5310,6 +5983,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "राक\u{94d}षस",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("makhluk asing"),
@@ -5325,6 +5999,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ruang angkasa",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("aljen"),
@@ -5339,6 +6014,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ħrafa",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("ဂြ\u{102d}\u{102f}ဟ\u{103a}သား"),
@@ -5351,11 +6027,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "အခြားကမ\u{1039}ဘာန\u{103e}င\u{1037}\u{103a} ဆ\u{102d}\u{102f}င\u{103a}သော",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("romvesen"),
             keywords: &["UFO", "fjes", "romvesen", "sci-fi", "utenomjordisk"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("परद\u{947}शी"),
@@ -5370,6 +6048,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "परीको कथा",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("buitenaards wezen"),
@@ -5383,11 +6062,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "wezen",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("romvesen"),
             keywords: &["UFO", "fjes", "romvesen", "sci-fi", "ujordisk"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଅନ\u{b4d}ୟ ଗ\u{b4d}ରହର ଜୀବ ବ\u{b3e} ଏଲ\u{b3f}ଏନ\u{b4d}\u{200c}"),
@@ -5400,6 +6081,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ମ\u{b41}ହ\u{b01}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਏਲੀਅਨ"),
@@ -5412,6 +6094,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ਬਾਹਰੀ ਦ\u{a41}ਨੀਆ\u{a02} ਯ\u{a42} ਏਫ ਓ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("اجنبی"),
@@ -5426,6 +6109,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "پریاں دی کہانی",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Kríchọ Frọm Anọ\u{301}dá Wọld"),
@@ -5438,11 +6122,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "Éliẹn",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("ufoludek"),
             keywords: &["kosmita", "obcy", "pozaziemski", "twarz", "ufo", "ufoludek"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("پردیو"),
@@ -5456,11 +6142,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "پردیو",
             ],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("alienígena"),
             keywords: &["OVNI", "alienígena", "extraterrestre", "rosto"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("extraterrestre"),
@@ -5475,6 +6163,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ovni",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("alien"),
@@ -5487,6 +6176,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "uya",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("extraterestru"),
@@ -5499,11 +6189,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ozn",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-570"),
             keywords: &["E10-570"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("инопланетянин"),
@@ -5516,6 +6208,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "чужой",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("ikimanuka"),
@@ -5530,6 +6223,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "isura",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("خلائي مخلوق"),
@@ -5544,6 +6238,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "چهرو",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ප\u{dd2}ටසක\u{dca}වල ජ\u{dd3}ව\u{dd2}ය\u{dcf}"),
@@ -5556,11 +6251,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ස\u{dd4}රංගන\u{dcf} කථ\u{dcf}ව",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("mimozemšťan"),
             keywords: &["mimozemšťan", "tvár", "ufón", "vesmír"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("vesoljec"),
@@ -5574,6 +6271,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "vesoljec",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("shisheeye"),
@@ -5586,11 +6284,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "waji",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("alien"),
             keywords: &["UFO", "alien", "fantazi", "hapësirë", "jashtëtokësor"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("ванземаљац"),
@@ -5605,11 +6305,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "чудoвиштe",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["ванземаљац"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("vanzemaljac"),
@@ -5624,16 +6326,19 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "čudovište",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["vanzemaljac"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("utomjording"),
             keywords: &["alien", "rymdvarelse", "saga", "ufo", "utomjording"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("jitu geni"),
@@ -5646,11 +6351,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "zimwi",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("ஏலியன\u{bcd}"),
@@ -5662,6 +6369,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "வேற\u{bcd}றுகிரக வ\u{bbe}சி",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("గ\u{c4d}రహ\u{c3e}ంతరవ\u{c3e}స\u{c3f}"),
@@ -5670,6 +6378,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "గ\u{c4d}రహ\u{c3e}ంతరవ\u{c3e}స\u{c3f}",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("бегона"),
@@ -5684,6 +6393,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "тахайюлот",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("เอเล\u{e35}\u{e48}ยน"),
@@ -5695,6 +6405,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "แฟนตาซ\u{e35}",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("gelmişek"),
@@ -5708,16 +6419,19 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ýüz",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("meʻamoʻuikehe"),
             keywords: &["meʻamoʻuikehe"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("uzaylı"),
             keywords: &["UFO", "dünya dışı", "fantastik", "uzaylı", "yaratık", "yüz"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("تاشقى پىلانېتلىقلار"),
@@ -5732,16 +6446,19 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "چۆچەك",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("прибулець"),
             keywords: &["нло", "обличчя", "позаземний", "прибулець", "створіння"],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("خلائی مخلوق"),
             keywords: &["خلا", "خلائی مخلوق", "مخلوق", "چہرہ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("o‘zga sayyoralik"),
@@ -5754,6 +6471,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "yuz",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("người ngoài hành tinh"),
@@ -5766,6 +6484,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "đĩa bay",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("aliyeen"),
@@ -5780,6 +6499,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("engaqhelekanga"),
@@ -5794,6 +6514,7 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ubuso",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("àjòjì"),
@@ -5807,11 +6528,13 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "ẹ\u{300}dá",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("外星人"),
             keywords: &["外星人", "幻想", "童話故事", "臉", "飛碟"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("外星人"),
@@ -5826,21 +6549,25 @@ pub const ALIEN: crate::Emoji = crate::Emoji {
                 "飞碟",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("外星人"),
             keywords: &["ufo", "外星", "外星人", "太空", "幻想", "星际", "脸"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("外星人"),
             keywords: &["ET", "外星人"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("alien"),
@@ -5860,6 +6587,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("buiteruimtelike monster"),
@@ -5875,16 +6603,19 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "vvv",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የሌላ ዓለም ጭራቅ ፍጡር"),
             keywords: &["ምናባዊ", "የሌላ ዓለም ጭራቅ ፍጡር", "የሌላ ዓለም ፍጡር", "ጭራቅ", "ፊት", "ፍጡር"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("وحش غريب"),
             keywords: &["حدوتة", "كائن فضائي", "وجه", "وحش", "وحش غريب"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("এলিয\u{9bc}েন দৈত\u{9cd}য"),
@@ -5897,11 +6628,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("yadplanetli monstr"),
             keywords: &["fantastika", "kosmos", "monstr", "yadplanetli"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("монстр-іншапланецянін"),
@@ -5913,11 +6646,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "стварэнне",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("извънземно чудовище"),
             keywords: &["НЛО", "извънземно", "космос", "лице", "чудовище"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("এলিয\u{9bc}\u{9be}ন মনস\u{9cd}ট\u{9be}র"),
@@ -5934,11 +6669,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "র\u{9c2}পকথ\u{9be}",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("euzhvil an egor"),
             keywords: &["euzhvil", "euzhvil an egor"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("vanzemaljsko čudovište"),
@@ -5951,11 +6688,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "vanzemaljsko čudovište",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("monstre alienígena"),
             keywords: &["alienígena", "extraterrestre", "monstre", "ovni", "àlien"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎢᎾ ᏂᏓᏳᎶᏒᎢ ᎦᏂᏰᎩ"),
@@ -5969,6 +6708,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ᎪᏟᏍᏗ ᏂᎨᏒᎾ ᎦᏃᎯᎵᏙᎯ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("mimozemská příšera"),
@@ -5988,6 +6728,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "výraz",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("anghenfil estron"),
@@ -6000,16 +6741,19 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "peth hedegog anhysbys",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("alien-monster"),
             keywords: &["alien", "alien-monster", "rummet", "rumvæsen", "ufo"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Computerspiel-Monster"),
             keywords: &["Computerspiel-Monster", "Gesicht", "Monster", "UFO"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("εξωγήινο τέρας"),
@@ -6025,6 +6769,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "φαντασία",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("alien monster"),
@@ -6037,26 +6782,31 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("monstruo alienígena"),
@@ -6069,6 +6819,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ovni",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("monstruo extraterrestre"),
@@ -6084,11 +6835,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "monstruo",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("monstruo alienígena"),
             keywords: &["cara", "extraterrestre", "monstruo alienígena", "ovni"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
@@ -6102,6 +6855,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "monstruo",
             ],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("tulnukkoletis"),
@@ -6115,6 +6869,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("munstro estralurtarra"),
@@ -6129,6 +6884,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ohe",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("هیولای فضایی"),
@@ -6143,6 +6899,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "هیولای فضایی",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("avaruushirviö"),
@@ -6154,6 +6911,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "olio",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("halimaw na alien"),
@@ -6168,16 +6926,19 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("rúmdarvera skrímsl"),
             keywords: &["alien", "andlit", "rúmdarvera", "skrímsl", "ufo", "ævintýr"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("monstre de l’espace"),
             keywords: &["espace", "extraterrestre", "monstre", "monstre de l’espace"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
@@ -6191,11 +6952,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "visage",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("arracht eachtráin"),
             keywords: &["arracht eachtráin", "eachtrán arrachtaigh", "úfó"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("uilebheist neo-thalmhaidh"),
@@ -6210,11 +6973,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "uilebheist",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("monstro extraterrestre"),
             keywords: &["espazo", "extraterrestre", "monstro", "ovni"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("પરગ\u{acd}રહવાસી રાક\u{acd}ષસ"),
@@ -6227,6 +6992,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "રાક\u{acd}ષસ",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("dodon baƙon sararin sama"),
@@ -6242,11 +7008,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("מפלצת חייזרית"),
             keywords: &["חוצן", "חייזר", "חלל", "מפלצת חייזרית", "עב״ם"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("परग\u{94d}रह द\u{948}त\u{94d}य"),
@@ -6259,6 +7027,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "य\u{942}एफ\u{93c}ओ",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("izvanzemaljsko čudovište"),
@@ -6271,11 +7040,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "čudovište",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("földönkívüli szörny"),
             keywords: &["földönkívüli", "idegen", "szörny", "ufó", "űrlény"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("այլմոլորակային հրեշ"),
@@ -6290,6 +7061,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ֆանտազիա",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("monster alien"),
@@ -6302,6 +7074,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "wajah",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ihe egwu ihe nsina mba ọzọ"),
@@ -6316,6 +7089,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("geimveruskrímsli"),
@@ -6327,11 +7101,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ævintýri",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("mostro alieno"),
             keywords: &["UFO", "faccina", "favola", "mostro", "mostro alieno"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("インベーダー"),
@@ -6343,6 +7119,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "異星人",
             ],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("monster alien"),
@@ -6355,6 +7132,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "wewujudan",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("უცხოპლანეტელი მონსტრი"),
@@ -6370,6 +7148,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ფანტასტიკა",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("басқа планетадан келген құбыжық"),
@@ -6383,6 +7162,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "өзге әлемдік",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("alien-monster"),
@@ -6397,6 +7177,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ត\u{17bb}ក\u{17d2}កតាក\u{17d2}រៅភព"),
@@ -6406,6 +7187,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ត\u{17bb}ក\u{17d2}កតាក\u{17d2}រៅភព",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಏಲ\u{cbf}ಯನ\u{ccd} ಮಾನ\u{ccd}\u{200c}ಸ\u{ccd}ಟರ\u{ccd}"),
@@ -6415,6 +7197,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ದೈತ\u{ccd}ಯ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("에일리언"),
@@ -6427,6 +7210,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "우주생명체",
             ],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("परग\u{94d}रही राक\u{94d}षस"),
@@ -6439,6 +7223,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "राक\u{94d}षस",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("чоочун планеталык желмогуз"),
@@ -6451,6 +7236,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "чоочун планеталык желмогуз",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Alienmonster"),
@@ -6466,6 +7252,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ausserierdesch",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ປ\u{eb5}ສາດຕ\u{ec8}າງດາວ"),
@@ -6479,6 +7266,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ໜ\u{ec9}າ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("monstras ateivis"),
@@ -6492,6 +7280,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "veidas",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("citplanētiešu briesmonis"),
@@ -6504,6 +7293,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "visums",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("ngārara aokē"),
@@ -6518,6 +7308,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("вонземно чудовиште"),
@@ -6529,6 +7320,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "чудовиште",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("അന\u{d4d}യഗ\u{d4d}രഹ ഭീകരജീവി"),
@@ -6542,6 +7334,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "മ\u{d41}ഖം",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("харь гаригийн мангас"),
@@ -6555,6 +7348,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "үлгэр",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("परग\u{94d}रही राक\u{94d}षस"),
@@ -6568,6 +7362,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "राक\u{94d}षस",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("raksasa angkasa lepas"),
@@ -6580,6 +7375,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ruang angkasa",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("mostru aljen"),
@@ -6593,6 +7389,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ħrafa",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("မကောင\u{103a}းဆ\u{102d}\u{102f}းဝါး ဂြ\u{102d}\u{102f}ဟ\u{103a}သား"),
@@ -6606,11 +7403,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "အခြားကမ\u{1039}ဘာန\u{103e}င\u{1037}\u{103a} ဆ\u{102d}\u{102f}င\u{103a}သော",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("rommonster"),
             keywords: &["UFO", "fjes", "rommonster", "sci-fi", "utenomjordisk"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("परद\u{947}शी राक\u{94d}षस"),
@@ -6624,6 +7423,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "परद\u{947}शी राक\u{94d}षस",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("buitenaards monster"),
@@ -6638,11 +7438,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "wezen",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("rommonster"),
             keywords: &["UFO", "fjes", "rommonster", "sci-fi", "ujordisk"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଅନ\u{b4d}ୟ ଗ\u{b4d}ରହର ଦ\u{b3e}ନବ"),
@@ -6656,6 +7458,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ମ\u{b41}ହ\u{b01}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਏਲੀਅਨ ਰਾਖਸ\u{a3c}"),
@@ -6669,6 +7472,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ਯ\u{a42} ਏਫ ਓ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("بدصورت اجنبی"),
@@ -6684,6 +7488,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "پریاں دی کہانی",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Wíkẹ\u{301}d Kríchọ Frọm Anọ\u{301}dá Wọld"),
@@ -6697,6 +7502,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "Éliẹn",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("kosmiczny potwór"),
@@ -6710,16 +7516,19 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("ناشنا بلا"),
             keywords: &["اوفو", "بلا", "د بلې زمکې", "مخ", "مخلوق", "ناشنا"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("monstro alienígena"),
             keywords: &["OVNI", "monstro", "monstro alienígena", "rosto"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("monstro extraterrestre"),
@@ -6734,6 +7543,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ovni",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("pʼarqa alienígena"),
@@ -6747,6 +7557,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "uya",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("monstru extraterestru"),
@@ -6759,11 +7570,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ozn",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-571"),
             keywords: &["E10-571"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("космический монстр"),
@@ -6777,6 +7590,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "чужой",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("igikoko kidasanzwe"),
@@ -6791,6 +7605,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "isura",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("خلائي مخلوق حيوان"),
@@ -6806,6 +7621,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "چهرو",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ප\u{dd2}ටසක\u{dca}වල යක\u{dca}ෂය\u{dcf}"),
@@ -6819,6 +7635,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "යක\u{dca}ෂය\u{dcf}",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("mimozemská príšera"),
@@ -6831,6 +7648,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "votrelec",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("vesoljska pošast"),
@@ -6846,6 +7664,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "vesoljska pošast",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("shayddaan shisheeye ah"),
@@ -6859,6 +7678,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "waji",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("përbindësh alien"),
@@ -6871,6 +7691,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "përbindësh alien",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("ванземаљско чудовиште"),
@@ -6885,11 +7706,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "чудoвиштe",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["ванземаљско чудовиште"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("vanzemaljsko čudovište"),
@@ -6904,11 +7727,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "čudovište",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["vanzemaljsko čudovište"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("utomjordiskt monster"),
@@ -6921,6 +7746,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "utomjordiskt monster",
             ],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("dubwana geni"),
@@ -6934,11 +7760,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "zimwi",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("ஏலியன\u{bcd} ம\u{bbe}ன\u{bcd}ஸ\u{bcd}டர\u{bcd}"),
@@ -6952,6 +7780,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "வேற\u{bcd}றுகிரக வ\u{bbe}சி",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("గ\u{c4d}రహ\u{c3e}ంతర ర\u{c3e}క\u{c4d}షసుడు"),
@@ -6961,6 +7790,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ర\u{c3e}క\u{c4d}షసుడు",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("аъҷубаи бегона"),
@@ -6976,6 +7806,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "тахайюлот",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ส\u{e31}ตว\u{e4c}ประหลาดเอเล\u{e35}\u{e48}ยน"),
@@ -6989,6 +7820,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "เอเล\u{e35}\u{e48}ยน",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("gelmişek nägehan"),
@@ -7002,16 +7834,19 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ýüz",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("meʻamoʻuikehe fakamanavahē"),
             keywords: &["meʻamoʻuikehe fakamanavahē"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("uzaylı canavar"),
             keywords: &["UFO", "canavar", "dünya dışı", "uzaylı", "yaratık", "yüz"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("تاشقى پىلانېتلىق يالماۋۇز"),
@@ -7026,6 +7861,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "چۆچەك",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("іншопланетний монстр"),
@@ -7038,11 +7874,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "іншопланетний монстр",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("خلائی دیو"),
             keywords: &["خلا", "خلائی دیو", "دیو", "چہرہ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("o‘zga sayyoralik maxluq"),
@@ -7056,6 +7894,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "yuz",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("quái vật ngoài hành tinh"),
@@ -7069,6 +7908,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "đĩa bay",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("jiney aliyeen"),
@@ -7084,6 +7924,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ufo",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("irhamncwa elingaqhelekanga"),
@@ -7099,6 +7940,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ubuso",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Àjòjì Abami"),
@@ -7113,11 +7955,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "ẹ\u{300}dá",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("外星怪物"),
             keywords: &["外星人", "外星怪物", "怪物", "臉", "飛碟"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("外星怪物"),
@@ -7132,6 +7976,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "飞碟",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("外星怪物"),
@@ -7146,11 +7991,13 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "飞碟",
             ],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("怪物"),
             keywords: &["外星怪物", "怪物"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
@@ -7163,6 +8010,7 @@ pub const ALIEN_MONSTER: crate::Emoji = crate::Emoji {
                 "電玩怪物",
             ],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("isilwane esingaziwa"),
@@ -7186,66 +8034,79 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("robotgesig"),
             keywords: &["gesig", "monster", "robot", "robotgesig"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የሮቦት ፊት"),
             keywords: &["ሮቦት", "የሮቦት ፊት", "ጭራቅ", "ፊት"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("وجه روبوت"),
             keywords: &["إنسان آلي", "روبوت", "وجه"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("ৰবট"),
             keywords: &["দৈত\u{9cd}য", "ম\u{9c1}খমণ\u{9cd}ডল", "ৰবট"],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("robot üz"),
             keywords: &["monstr", "robot", "üz"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("робат"),
             keywords: &["монстр", "паўстанне машын", "робат"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Лице на робот"),
             keywords: &["Лице на робот", "лице", "робот", "чудовище"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("রোবোট"),
             keywords: &["দ\u{9be}নব", "ম\u{9c1}খ", "রোবোট"],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("robot"),
             keywords: &["euzhvil", "robot"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("robot"),
             keywords: &["lice", "robot", "čudovište"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("robot"),
             keywords: &["cara", "monstre", "robot"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᏔᎷᎩᏍᎩ ᏴᏫ ᎤᎧᏛ"),
             keywords: &["ᎤᎧᏛ", "ᎦᏂᏰᎩ", "ᏔᎷᎩᏍᎩ ᏴᏫ", "ᏔᎷᎩᏍᎩ ᏴᏫ ᎤᎧᏛ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("obličej robota"),
@@ -7258,101 +8119,121 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "výraz",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("wyneb robot"),
             keywords: &["anghenfil", "robot", "wyneb"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("robot"),
             keywords: &["ansigt", "monster", "robot", "robotansigt"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Roboter"),
             keywords: &["Gesicht", "Monster", "Roboter", "Roboterkopf"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("ρομπότ"),
             keywords: &["πρόσωπο", "ρομπότ", "τέρας"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("robot"),
             keywords: &["face", "monster", "robot"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("robot"),
             keywords: &["cara", "monstruo", "robot"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("robot"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("cara de robot"),
             keywords: &["cara", "cara de robot", "monstruo"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("robot"),
             keywords: &["koletis", "nägu", "robot", "roboti nägu"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("robot-aurpegia"),
             keywords: &["aurpegi", "munstro", "robot", "robot-aurpegia"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("روبات"),
             keywords: &["ربات", "روبات", "صورت", "هیولا"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("robotti"),
             keywords: &["hirviö", "naama", "robotti", "robottinaama"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("mukha ng robot"),
             keywords: &["mukha", "mukha ng robot", "robot"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("robottandlit"),
             keywords: &["andlit", "robottandlit", "robottur", "tólmenni"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("robot"),
@@ -7365,26 +8246,31 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "visage",
             ],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["monstre", "robot", "visage"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("róbat"),
             keywords: &["aghaidh", "arracht", "róbat"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("robotair"),
             keywords: &["aodann", "robotair", "uilebheist"],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("robot"),
             keywords: &["cara", "cara de robot", "robot"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("રોબોટ"),
@@ -7396,81 +8282,97 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "રોબોટનો ચહ\u{ac7}રો",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("fuskar Robot"),
             keywords: &["dodo", "fuska", "fuskar Robot", "robot"],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("רובוט"),
             keywords: &["פרצוף", "פרצוף של רובוט", "רובוט"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("रोबोट च\u{947}हरा"),
             keywords: &["च\u{947}हरा", "राक\u{94d}षस", "रोबोट"],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("robot"),
             keywords: &["lice", "robot", "čudovište"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("robot"),
             keywords: &["arc", "robot", "szörny"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("ռոբոտ"),
             keywords: &["դեմք", "հրեշ", "ռոբոտ"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("robot"),
             keywords: &["monster", "muka", "robot", "wajah"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ihu rọbọtụ"),
             keywords: &["ihe egwu", "ihu", "rọbọtụ"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("vélmennisandlit"),
             keywords: &["andlit", "skrímsli", "vélmenni", "vélmennisandlit"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("faccina di robot"),
             keywords: &["faccina", "faccina di robot", "robot"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ロボット"),
             keywords: &["ロボット", "顔"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("wujud robot"),
             keywords: &["monster", "rai", "robot", "wujud robot"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("რობოტის სახე"),
             keywords: &["მონსტრი", "რობოტი", "რობოტის სახე", "სახე"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("робот"),
             keywords: &["бет", "робот", "құбыжық"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("robotansigt"),
             keywords: &["ansigt", "monster", "robotansigt"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ម\u{17bb}ខមន\u{17bb}ស\u{17d2}សយន\u{17d2}ត"),
@@ -7480,31 +8382,37 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "ម\u{17bb}ខមន\u{17bb}ស\u{17d2}សយន\u{17d2}ត",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ರೋಬೋಟ\u{ccd}"),
             keywords: &["ರೋಬಾಟ\u{ccd} ಮುಖ", "ರೋಬೊ ಮುಖ", "ರೋಬೋಟ\u{ccd}"],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("로봇 얼굴"),
             keywords: &["로봇", "얼굴"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("रोबोट"),
             keywords: &["च\u{947}रो", "राक\u{94d}षस", "रोबोट"],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("робот"),
             keywords: &["бет", "желмогуз", "робот"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Roboter"),
             keywords: &["Gesiicht", "Monster", "Roboter"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຫ\u{eb8}\u{ec8}ນຍ\u{ebb}ນ"),
@@ -7514,26 +8422,31 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "ໜ\u{ec9}າຫ\u{eb8}\u{ec8}ນຍ\u{ebb}ນ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("roboto veidas"),
             keywords: &["monstras", "robotas", "roboto veidas", "veidas"],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("robots"),
             keywords: &["monstrs", "robots", "seja"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("kanohi karetao"),
             keywords: &["kanohi", "karetao", "taniwha"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("робот"),
             keywords: &["лице", "робот", "чудовиште"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("റോബോട\u{d4d}ടിന\u{d4d}റെ മ\u{d41}ഖം"),
@@ -7544,11 +8457,13 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "റോബോട\u{d4d}ട\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("робот царай"),
             keywords: &["робот", "царай"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("य\u{902}त\u{94d}रमानवाचा च\u{947}हरा"),
@@ -7558,16 +8473,19 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "राक\u{94d}षस",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("robot"),
             keywords: &["muka", "raksasa", "robot"],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("wiċċ ta’ robot"),
             keywords: &["mostru", "robot", "wiċċ", "wiċċ ta’ robot"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("စက\u{103a}ရ\u{102f}ပ\u{103a} မျက\u{103a}န\u{103e}ာ"),
@@ -7577,26 +8495,31 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "မျက\u{103a}န\u{103e}ာ",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("robot"),
             keywords: &["fjes", "monster", "robot"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("रोबोट अन\u{941}हार"),
             keywords: &["अन\u{941}हार", "राक\u{94d}षस", "रोबोट"],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("robot"),
             keywords: &["gezicht", "monster", "robot"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("robot"),
             keywords: &["fjes", "monster", "robot"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ରୋବୋଟ\u{b4d}"),
@@ -7605,6 +8528,7 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "ରୋବୋଟ\u{b4d}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਰ\u{a4b}ਬ\u{a4b}ਟ ਦਾ ਚਿਹਰਾ"),
@@ -7616,11 +8540,13 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "ਰ\u{a4b}ਬ\u{a4b}ਟ ਦਾ ਚਿਹਰਾ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("روبوٹ دی شکل"),
             keywords: &["دی شکل", "دیو", "روبوٹ دی شکل", "ر\u{64f}وبوٹ"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Mashin Wé Rizẹ\u{301}mbúl Húmánbin"),
@@ -7631,131 +8557,157 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "Rọ\u{301}bọt",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("głowa robota"),
             keywords: &["głowa robota", "monstrum", "robot", "twarz"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("روبوټ"),
             keywords: &["بلا", "روبوټ", "مخ"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("rosto de robô"),
             keywords: &["monstro", "robô", "rosto", "rosto de robô"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("robô"),
             keywords: &["cara", "monstro", "robô"],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("robot"),
             keywords: &["mostruo", "robot", "uya"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("robot"),
             keywords: &["față", "monstru", "robot"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-1016"),
             keywords: &["E10-1016"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("робот"),
             keywords: &["лицо", "монстр", "робот", "страх"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("isura y’irobo"),
             keywords: &["igikoko", "irobo", "isura", "isura y’irobo"],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("روبوٽ"),
             keywords: &["روبوٽ", "مونسٽر", "چهرو"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("රොබෝ ම\u{dd4}හ\u{dd4}ණ"),
             keywords: &["ම\u{dd4}හ\u{dd4}ණ", "යක\u{dca}ෂය\u{dcf}", "රොබෝ"],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("robot"),
             keywords: &["netvor", "robot", "tvár"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("robot"),
             keywords: &["obraz", "pošast", "robot"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("mashiin"),
             keywords: &["mashiin", "shaddaan", "waji"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("fytyrë roboti"),
             keywords: &["fytyrë", "fytyrë roboti", "përbindësh", "robot"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("роботско лице"),
             keywords: &["лице", "рoбoт", "роботско лице", "чудoвиштe"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["роботско лице"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("robotsko lice"),
             keywords: &["lice", "robot", "robotsko lice", "čudovište"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["robotsko lice"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("robotansikte"),
             keywords: &["ansikte", "robot", "robotansikte"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("roboti"),
             keywords: &["roboti", "uso", "zimwi"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("ரோபோ முகம\u{bcd}"),
             keywords: &["ரோபோ", "ரோபோ முகம\u{bcd}", "ரோபோட\u{bcd}"],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("ర\u{c4b}బ\u{c4b} ముఖం"),
             keywords: &["ముఖం", "ర\u{c4b}బ\u{c4b}"],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("рӯи робот"),
             keywords: &["аъҷуба", "робот", "рӯи робот", "рӯй"],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ห\u{e38}\u{e48}นยนต\u{e4c}"),
@@ -7765,86 +8717,103 @@ pub const ROBOT: crate::Emoji = crate::Emoji {
                 "ห\u{e38}\u{e48}นยนต\u{e4c}",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("robot"),
             keywords: &["nägehan", "robot", "ýüz"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("mata tangata-ukamea"),
             keywords: &["mata tangata-ukamea"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("robot"),
             keywords: &["canavar", "robot", "yüz"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("روبوت چىراي"),
             keywords: &["روبوت", "يالماۋۇز", "چىراي"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("робот"),
             keywords: &["голова", "монстр", "обличчя", "робот"],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("روبوٹ"),
             keywords: &["روبوٹ", "مونسٹر", "چہرہ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("robot qiyofa"),
             keywords: &["maxluq", "robot", "robot qiyofa", "yuz"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("mặt rô-bốt"),
             keywords: &["mặt", "quỷ", "rô-bốt"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("kanamu roboo"),
             keywords: &["kanam", "kanamu roboo", "rab-wu-gànde", "roboo"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("ubuso berobhothi"),
             keywords: &["irhamncwa", "irobhothi", "ubuso", "ubuso berobhothi"],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Oju Ṣigidi"),
             keywords: &["Oju Ṣigidi", "abàmì", "ojú", "ṣìgìdì"],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("機械人臉"),
             keywords: &["怪物", "機械人", "機械人臉", "臉"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("机械人脸"),
             keywords: &["怪物", "机械人", "机械人脸", "脸"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("机器人"),
             keywords: &["怪物", "机器人"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("機器人"),
             keywords: &["機器人"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("機械人"),
             keywords: &["機械人"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("ubuso berobhothi"),

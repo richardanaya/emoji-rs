@@ -10,6 +10,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("sien geen kwaad nie"),
@@ -24,16 +25,19 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "verbode",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ምንም ክፉ አላይም"),
             keywords: &["ማየት", "ምንም ክፉ አላይም", "ክፉ", "የተከለከለ", "ጦጣ", "ፊት"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("قرد يحجب عينيه"),
             keywords: &["قرد", "قرد يحجب عينيه"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("বেয\u{9bc}\u{9be} বস\u{9cd}ত\u{9c1} নোচোৱ\u{9be} ব\u{9be}ন\u{9cd}দৰ"),
@@ -46,21 +50,25 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("pisliyi görümürəm"),
             keywords: &["baxmaq", "jest", "meymun", "pisliyi görümürəm", "qadağa"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("нічога не бачу"),
             keywords: &["бачыць", "жэст", "забаронена", "малпа", "нічога не бачу"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("„не видях“"),
             keywords: &["видях", "жест", "лице", "маймуна", "„не видях“"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("কোনো খ\u{9be}র\u{9be}প জিনিস দেখব ন\u{9be}"),
@@ -72,16 +80,19 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("ne vidim"),
             keywords: &["lice", "majmun", "ne vidim", "zabranjeno", "zlo"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("mona que no mira"),
             keywords: &["mona", "mona que no mira", "ulls tapats"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("Ꮭ ᎾᎪᏫᏘᎲᎾ-ᎤᏁᎫᏥᏓ- ᎠᏓᎴᏍᎩᏱᏍᎩ"),
@@ -94,6 +105,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "Ꮭ ᎾᎪᏫᏘᎲᎾ-ᎤᏁᎫᏥᏓ- ᎠᏓᎴᏍᎩᏱᏍᎩ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("opička „nic nevidím“"),
@@ -111,6 +123,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zákaz",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("mwnci gweld dim drwg"),
@@ -124,11 +137,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "wyneb",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("ikke se"),
             keywords: &["ikke se", "tre vise aber"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("sich die Augen zuhaltendes Affengesicht"),
@@ -139,6 +154,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "verboten",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("κάνω πως δεν βλέπω"),
@@ -155,6 +171,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "όχι",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("see-no-evil monkey"),
@@ -167,26 +184,31 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "see-no-evil monkey",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("mono con los ojos tapados"),
@@ -198,6 +220,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "prohibido",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("mono con ojos tapados"),
@@ -211,16 +234,19 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ver",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("mono con los ojos tapados"),
             keywords: &["cara", "mono", "mono con los ojos tapados", "no ver"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("kaetud silmadega ahv"),
@@ -234,6 +260,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "vaatamine",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("gauza txarrik ikusi nahi ez duen tximua"),
@@ -247,6 +274,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "tximua",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("میمون شرنبین"),
@@ -261,11 +289,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "میمون شرنبین",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("en näe pahaa"),
             keywords: &["apina", "ei", "ele", "en näe pahaa", "kielletty"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("huwag tumingin sa masama"),
@@ -278,6 +308,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "unggoy",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("apuandlit við hondunum yvir eygunum"),
@@ -289,11 +320,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "hond",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("singe ne rien voir"),
             keywords: &["aveugle", "singe", "singe ne rien voir"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
@@ -306,6 +339,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "yeux couverts",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("moncaí nach bhfeiceann aon olc"),
@@ -315,6 +349,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ná feic aon olc",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("muncaidh nach fhaic olc"),
@@ -331,11 +366,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "àicheadh",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("mono cos ollos tapados"),
             keywords: &["cara", "mono", "mono cos ollos tapados", "ollos", "tapados"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ખરાબ જોશો નહી\u{a82}"),
@@ -345,6 +382,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "વા\u{a82}દરો",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("biri na kada a gan mamuganci"),
@@ -361,11 +399,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "mamuganci",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("לא ראיתי"),
             keywords: &["אסור", "לא ראיתי", "מכסה עיניים", "פרצוף", "קוף"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("ब\u{941}रा मत द\u{947}खो, गा\u{902}धी जी का बन\u{94d}दर"),
@@ -377,6 +417,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ब\u{941}रा मत द\u{947}खो, गा\u{902}धी जी का बन\u{94d}दर",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("majmun koji ne vidi ništa loše"),
@@ -389,6 +430,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zlo",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("nem láttam semmit"),
@@ -400,6 +442,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "tilos",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("ոչինչ չեմ տեսնում"),
@@ -413,6 +456,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "տեսնել",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("tidak melihat"),
@@ -426,6 +470,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "wajah",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ahụkwala-ènwè-ọjọọ"),
@@ -442,6 +487,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ịhụ ya",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("api heldur fyrir augu"),
@@ -453,16 +499,19 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "má ekki sjá",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("non vedo"),
             keywords: &["non vedo", "scimmietta", "scimmietta non vedo"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("見ざる"),
             keywords: &["三猿", "猿", "見ざる"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("munyuk aja ndelengake sing ala"),
@@ -476,6 +525,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "weruh",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("არდანახვა"),
@@ -491,6 +541,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ხედვა",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("көзін жауып тұрған маймыл"),
@@ -505,11 +556,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "қимыл",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("ikke se"),
             keywords: &["ikke se", "tre vise aber"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ស\u{17d2}វាយកដៃប\u{17b7}ទភ\u{17d2}នែកខ\u{17d2}ល\u{17bd}នឯង"),
@@ -519,6 +572,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ស\u{17d2}វាយកដៃប\u{17b7}ទភ\u{17d2}នែកខ\u{17d2}ល\u{17bd}នឯង",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಯಾವುದೇ ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ನೋಡಬೇಡ"),
@@ -527,6 +581,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ಯಾವುದೇ ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ನೋಡಬೇಡ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("눈을 가리고 있는 원숭이"),
@@ -536,6 +591,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "아무것도 안 보려는 원숭이",
             ],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("वायट पळोवच\u{947}\u{902} न\u{94d}हय सा\u{902}गपी माकोड"),
@@ -548,6 +604,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "वायट पळोवच\u{947}\u{902} न\u{94d}हय सा\u{902}गपी माकोड",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("көзүм жамандыкты көрбөсүн"),
@@ -559,6 +616,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "тыюу салынган",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Aen zouhalenden Af"),
@@ -575,11 +633,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zouhalen",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ລ\u{eb5}ງປ\u{eb4}ດຕາ"),
             keywords: &["ປ\u{eb4}ດຕາ", "ລ\u{eb5}ງ", "ລ\u{eb5}ງປ\u{eb4}ດຕາ"],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("užsidengusi akis beždžionė"),
@@ -593,6 +653,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "veidas",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("neko neredzu"),
@@ -608,6 +669,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "žests",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("makimaki kore-kite-kino"),
@@ -624,6 +686,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "whakakāhore",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("мајмун со покриени очи"),
@@ -635,6 +698,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "мајмун со покриени очи",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("മോശമ\u{d3e}യ ക\u{d3e}ര\u{d4d}യങ\u{d4d}ങൾ ക\u{d3e}ണര\u{d41}ത\u{d4d}"),
@@ -648,6 +712,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "വിലക\u{d4d}കപ\u{d4d}പെട\u{d4d}ടത\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("муу үйлийг харахгүй"),
@@ -664,6 +729,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "үйл",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("वाईट बघ\u{942} नय\u{947} सा\u{902}गणार\u{947} वानर"),
@@ -677,6 +743,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "वानर",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("monyet tutup mata"),
@@ -690,6 +757,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "terlarang",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("xadina li ma tara ebda ħażen"),
@@ -706,6 +774,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ħażen",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("မကောင\u{103a}းတာက\u{102d}\u{102f} မမြင\u{103a}လ\u{102d}\u{102f}"),
@@ -719,6 +788,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "မြင\u{103a}တ\u{103d}ေ\u{1037}ခြင\u{103a}း",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("ser ingenting ondt"),
@@ -731,6 +801,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ser ingenting ondt",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("क\u{941}न\u{948}-नचाहिन\u{947} क\u{941}रा-द\u{947}ख\u{94d}द\u{948}न"),
@@ -743,6 +814,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ह\u{947}र\u{94d}न\u{941}",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("geen kwaad zien"),
@@ -758,6 +830,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zien",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("ser ingenting vondt"),
@@ -770,6 +843,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ser ingenting vondt",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଖର\u{b3e}ପ ନ ଦେଖ\u{b41}ଥ\u{b3f}ବ\u{b3e} ମ\u{b3e}ଙ\u{b4d}କଡ\u{b3c}"),
@@ -783,6 +857,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ମ\u{b41}ହ\u{b01}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਬ\u{a41}ਰਾ ਨਾ ਵ\u{a47}ਖ\u{a4b}"),
@@ -792,6 +867,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ਬ\u{a41}ਰਾ ਨਾ ਵ\u{a47}ਖ\u{a4b} ਬਾ\u{a02}ਦਰ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("ویکھو-کوئی-شیطان باندر نہیں"),
@@ -807,6 +883,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ویکھو-کوئی-شیطان باندر نہیں",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Mọnkí Wé Nọ\u{301} Wán Sí Bád Tin"),
@@ -819,6 +896,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "Si",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("małpa zasłaniająca oczy"),
@@ -833,11 +911,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zakrywam oczy",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("وګورئ بریښنايي بندر"),
             keywords: &["وګورئ بریښنايي بندر"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("macaco que não vê nada"),
@@ -848,6 +928,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "olhos tapados",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("macaco com as mãos a tapar os olhos"),
@@ -859,6 +940,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "olhos tapados",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("kusillo mana saqrayuqwan rikuy"),
@@ -871,6 +953,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "uya",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("nu văd nimic rău"),
@@ -884,11 +967,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "văz",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-908"),
             keywords: &["E10-908"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("ничего не вижу"),
@@ -901,6 +986,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "обезьяна",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("inkende itareba"),
@@ -916,6 +1002,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "oya",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("ڪا-شيطاني-نه-ڏسو وارو ڀولڙو"),
@@ -930,6 +1017,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ڪا-شيطاني-نه-ڏسو وارو ڀولڙو",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("නරක දේවල\u{dca} නොබලන\u{dca}න"),
@@ -944,6 +1032,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "වඳ\u{dd4}ර\u{dcf}",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("nevidím zlo"),
@@ -957,6 +1046,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zlé",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("opica, ki ne vidi ničesar"),
@@ -971,6 +1061,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zlobno",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("aan arkeyn daanyeer xun"),
@@ -984,6 +1075,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "xumaan",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("mos shiko gjëra të këqija"),
@@ -995,6 +1087,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "të këqija",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("не види зло"),
@@ -1009,11 +1102,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ништa",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["не види зло"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("ne vidi zlo"),
@@ -1028,16 +1123,19 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zlo",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["ne vidi zlo"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("apa ser inget"),
             keywords: &["apa", "apa ser inget", "ser inget"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("nyani aliyefumba macho kwa mikono"),
@@ -1050,11 +1148,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "uso",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some(
@@ -1067,6 +1167,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "த\u{bc0}யவற\u{bcd}றைப\u{bcd} ப\u{bbe}ர\u{bcd}க\u{bcd}கக\u{bcd}கூட\u{bbe}து என\u{bcd}பதை உணர\u{bcd}த\u{bcd}தும\u{bcd} குரங\u{bcd}கு",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("చ\u{c46}డు చూడకు అన\u{c3f} సూచ\u{c3f}ంచ\u{c47} క\u{c4b}త\u{c3f}"),
@@ -1076,6 +1177,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "చ\u{c46}డు చూడకు అన\u{c3f} సూచ\u{c3f}ంచ\u{c47} క\u{c4b}త\u{c3f}",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("маймуне, ки бадиро намебинад"),
@@ -1091,11 +1193,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "рӯй",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ล\u{e34}งป\u{e34}ดตา"),
             keywords: &["ป\u{e34}ดตา", "ล\u{e34}ง", "ล\u{e34}งป\u{e34}ดตา"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("görmedim-bilmedim maýmyn"),
@@ -1108,16 +1212,19 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ýüz",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("ngeli ʻikai sio kovi"),
             keywords: &["ngeli ʻikai sio kovi"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("görmedim"),
             keywords: &["görmedim", "görmeyen maymun", "maymun"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("ياماننى كۆرمەس مايمۇن"),
@@ -1134,6 +1241,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "چەكلەنگەن",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("мавпа, що не бачить"),
@@ -1146,6 +1254,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "обличчя",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ہاتھ سے آنکھیں چھپائے بندر"),
@@ -1157,6 +1266,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ہاتھ سے آنکھیں چھپائے بندر",
             ],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("yomonlikni ko‘rmaydigan maymun"),
@@ -1170,6 +1280,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "yuz",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("khỉ không nhìn điều xấu"),
@@ -1182,6 +1293,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "điều xấu",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("golo budul gis lu bon"),
@@ -1198,6 +1310,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "luñ tere",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("inkawu evale amehlo"),
@@ -1213,6 +1326,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ubuso",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Ọbọ Mari Ibi"),
@@ -1227,11 +1341,13 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ọ\u{300}bọ",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("無眼睇嘅馬騮"),
             keywords: &["無眼睇嘅馬騮", "睇", "禁止", "邪惡", "馬騮"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("无眼睇嘅马骝"),
@@ -1248,16 +1364,19 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "马骝",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("非礼勿视"),
             keywords: &["脸", "蒙住眼睛", "蒙眼", "非礼勿视"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("非禮勿視"),
             keywords: &["不看", "遮眼", "非禮勿視"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("非禮勿視馬騮"),
@@ -1272,6 +1391,7 @@ pub const SEE_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "非禮勿視馬騮",
             ],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("ungakuboni okubi"),
@@ -1299,6 +1419,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("hoor geen kwaad nie"),
@@ -1313,16 +1434,19 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "verbode",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ምንም ክፉ አልሰማም"),
             keywords: &["ምንም ክፉ አልሰማም", "ክፉ", "የተከለከለ", "ጦጣ", "ፊት"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("قرد يحجب أذنيه"),
             keywords: &["قرد", "قرد يحجب أذنيه"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("বেয\u{9bc}\u{9be} কথ\u{9be} ন\u{9c1}শ\u{9c1}ন\u{9be} ব\u{9be}ন\u{9cd}দৰ"),
@@ -1335,21 +1459,25 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "শ\u{9c1}ন\u{9be}",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("pisliyi eşitmirəm"),
             keywords: &["eşitmək", "jest", "meymun", "pisliyi eşitmirəm", "qadağa"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("нічога не чую"),
             keywords: &["жэст", "забаронена", "малпа", "нічога не чую", "чуць"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("„не чух“"),
             keywords: &["жест", "лице", "маймуна", "чух", "„не чух“"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("কোনো খ\u{9be}র\u{9be}প কিছ\u{9c1} শ\u{9c1}নব ন\u{9be}"),
@@ -1361,16 +1489,19 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("ne čujem"),
             keywords: &["lice", "majmun", "ne čujem", "zabranjeno", "zlo"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("mona que no escolta"),
             keywords: &["mona", "mona que no escolta", "orelles tapades"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎠᏛᎩᏍᎩ-ᏂᎨᏒᎾ-ᎤᏲ ᎠᏓᎴᏍᎩᏱᏍᎩ"),
@@ -1383,6 +1514,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ᎤᎧᏛ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("opička „nic neslyším“"),
@@ -1400,6 +1532,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zákaz",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("clywed dim drwg"),
@@ -1412,11 +1545,13 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "wyneb",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("ikke høre"),
             keywords: &["ikke høre", "tre vise aber"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("sich die Ohren zuhaltendes Affengesicht"),
@@ -1427,6 +1562,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "verboten",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("κάνω πως δεν ακούω"),
@@ -1443,6 +1579,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "όχι",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("hear-no-evil monkey"),
@@ -1455,26 +1592,31 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "monkey",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("mono con los oídos tapados"),
@@ -1486,6 +1628,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "prohibido",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("mono con orejas tapadas"),
@@ -1499,16 +1642,19 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "tapadas",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("mono con los oídos tapados"),
             keywords: &["cara", "mono", "mono con los oídos tapados", "no oír"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("kaetud kõrvadega ahv"),
@@ -1522,6 +1668,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "nägu",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("gauza txarrik entzun nahi ez duen tximua"),
@@ -1535,6 +1682,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "tximua",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("میمون شرنشنو"),
@@ -1549,11 +1697,13 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "میمون شرنشنو",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("en kuule pahaa"),
             keywords: &["apina", "ei", "ele", "en kuule pahaa", "kielletty"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("huwag makinig sa masama"),
@@ -1566,6 +1716,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "unggoy",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("apuandlit við hondunum yvir oyrunum"),
@@ -1577,11 +1728,13 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "oyru",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("singe ne rien entendre"),
             keywords: &["singe", "singe ne rien entendre", "sourd"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
@@ -1594,6 +1747,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "visage",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("moncaí nach gcloiseann aon olc"),
@@ -1603,6 +1757,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ná clois aon olc",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("muncaidh nach cluinn olc"),
@@ -1619,6 +1774,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "àicheadh",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("mono coas orellas tapadas"),
@@ -1630,6 +1786,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "tapadas",
             ],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ખરાબ સા\u{a82}ભળશો નહી\u{a82}"),
@@ -1639,6 +1796,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "વા\u{a82}દરો",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("biri na kada a jin mamuganci"),
@@ -1655,11 +1813,13 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "mamuganci",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("לא שמעתי"),
             keywords: &["אסור", "לא שמעתי", "מכסה אוזניים", "פרצוף", "קוף"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("ब\u{941}रा मत स\u{941}नो, गा\u{902}धी जी का बन\u{94d}दर"),
@@ -1671,6 +1831,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ब\u{941}रा मत स\u{941}नो, गा\u{902}धी जी का बन\u{94d}दर",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("majmun koji ne čuje ništa loše"),
@@ -1683,6 +1844,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "čuti",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("nem hallottam semmit"),
@@ -1694,6 +1856,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "tilos",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("ոչինչ չեմ լսում"),
@@ -1707,6 +1870,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "չար",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("tidak mendengar"),
@@ -1720,6 +1884,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "wajah",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("anụkwala-ènwè-ọjọọ"),
@@ -1736,21 +1901,25 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ọjọọ",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("api heldur fyrir eyru"),
             keywords: &["api", "api heldur fyrir eyru", "illska", "má ekki heyra"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("non sento"),
             keywords: &["non sento", "scimmietta", "scimmietta non sento"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("聞かざる"),
             keywords: &["三猿", "猿", "聞かざる"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("munyuk aja ngrungokake sing ala"),
@@ -1764,6 +1933,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "rai",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("არმოსმენა"),
@@ -1779,6 +1949,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "სახე",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("құлағын жауып тұрған маймыл"),
@@ -1792,11 +1963,13 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "құлағын жауып тұрған маймыл",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("ikke høre"),
             keywords: &["ikke høre", "tre vise aber"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ស\u{17d2}វាយកដៃប\u{17b7}ទត\u{17d2}រចៀកខ\u{17d2}ល\u{17bd}នឯង"),
@@ -1806,6 +1979,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ស\u{17d2}វាយកដៃប\u{17b7}ទត\u{17d2}រចៀកខ\u{17d2}ល\u{17bd}នឯង",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಯಾವುದೇ ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಕೇಳಬೇಡ"),
@@ -1814,6 +1988,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ಯಾವುದೇ ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಕೇಳಬೇಡ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("귀를 막고 있는 원숭이"),
@@ -1823,6 +1998,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "아무것도 안 들리는 원숭이",
             ],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("वायट आयकच\u{947}\u{902} न\u{94d}हय माकोड"),
@@ -1835,6 +2011,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "वायट आयकच\u{947}\u{902} न\u{94d}हय माकोड",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("кулагым жамандыкты укпасын"),
@@ -1846,6 +2023,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "укпа",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Oueren zouhalenden Af"),
@@ -1862,6 +2040,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zouhalen",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ລ\u{eb4}ງປ\u{eb4}ດຫ\u{eb9}"),
@@ -1871,6 +2050,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ລ\u{eb5}ງ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("užsidengusi ausis beždžionė"),
@@ -1884,6 +2064,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "veidas",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("neko nedzirdu"),
@@ -1899,6 +2080,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "žests",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("makimaki kore-rongo-kino"),
@@ -1915,6 +2097,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "whakakāhore",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("мајмун со покриени уши"),
@@ -1926,6 +2109,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "не слуша",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("മോശമ\u{d3e}യ ക\u{d3e}ര\u{d4d}യങ\u{d4d}ങൾ കേൾക\u{d4d}കര\u{d41}ത\u{d4d}"),
@@ -1939,6 +2123,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "വിലക\u{d4d}കപ\u{d4d}പെട\u{d4d}ടത\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("муу үйлийг сонсохгүй"),
@@ -1953,6 +2138,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "үйл",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("वाईट ऐक\u{942} नय\u{947} सा\u{902}गणार\u{947} वानर"),
@@ -1966,6 +2152,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "वानर",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("monyet tutup telinga"),
@@ -1977,6 +2164,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "muka",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("xadina li ma tisma’ ebda ħażen"),
@@ -1993,6 +2181,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ħażen",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("မကောင\u{103a}းတာက\u{102d}\u{102f} မကြားလ\u{102d}\u{102f}"),
@@ -2006,6 +2195,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "မျောက\u{103a}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("hører ingenting ondt"),
@@ -2018,6 +2208,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ikke",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("क\u{941}न\u{948}-नचाहिन\u{947} क\u{941}रा-स\u{941}न\u{94d}द\u{948}न"),
@@ -2031,6 +2222,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "स\u{941}न\u{94d}न\u{941}",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("geen kwaad horen"),
@@ -2046,6 +2238,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "verboden",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("høyrer ingenting vondt"),
@@ -2058,6 +2251,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ikkje",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some(
@@ -2072,6 +2266,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ଶ\u{b41}ଣ\u{b3f}ବ\u{b3e}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਬ\u{a41}ਰਾ ਨਾ ਸ\u{a41}ਣ\u{a4b}"),
@@ -2081,6 +2276,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ਬ\u{a41}ਰਾ ਨਾ ਸ\u{a41}ਣ\u{a4b} ਬਾ\u{a02}ਦਰ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("سنو-کوئی-شیطان باندر نہیں"),
@@ -2096,6 +2292,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "نہیں",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Mọnkí Wé Nọ\u{301} Wán Hiá Bád Tin"),
@@ -2108,6 +2305,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "Mọnkí Wé Nọ\u{301} Wán Hiá Bád Tin",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("małpa zasłaniająca uszy"),
@@ -2122,11 +2320,13 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zakrywam uszy",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("اوریدل بریښنايي بندر"),
             keywords: &["اوریدل بریښنايي بندر"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("macaco que não ouve nada"),
@@ -2137,6 +2337,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ouvidos tapados",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("macaco com as mãos a tapar os ouvidos"),
@@ -2153,6 +2354,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "proibido",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("kusillo mana saqrayuqwan uyariy"),
@@ -2165,6 +2367,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "uyariy",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("nu aud nimic rău"),
@@ -2178,11 +2381,13 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "urechi acoperite",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-909"),
             keywords: &["E10-909"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("ничего не слышу"),
@@ -2196,6 +2401,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "уши",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("inkende itumva"),
@@ -2211,6 +2417,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "oya",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("ڪا-شيطاني-نه-ٻڌو وارو ڀولڙو"),
@@ -2225,6 +2432,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ڪا-شيطاني-نه-ٻڌو وارو ڀولڙو",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("නරක දේවල\u{dca} නොඅසන\u{dca}න"),
@@ -2239,6 +2447,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "සවන\u{dca} ද\u{dd3}ම",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("nepočujem zlo"),
@@ -2252,6 +2461,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zlé",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("opica, ki ne sliši ničesar"),
@@ -2266,6 +2476,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zlobno",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("aan-maqaleyn-daanyeer xun"),
@@ -2278,6 +2489,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "xumaan",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("mos dëgjo fjalët e këqija"),
@@ -2290,6 +2502,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "të këqija",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("не чује зло"),
@@ -2304,11 +2517,13 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "чути",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["не чује зло"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("ne čuje zlo"),
@@ -2323,16 +2538,19 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "čuti",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["ne čuje zlo"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("apa hör inget"),
             keywords: &["apa", "apa hör inget", "hör inget"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("nyani aliyefunika masikio kwa mikono"),
@@ -2345,11 +2563,13 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "uso",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some(
@@ -2362,6 +2582,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "த\u{bc0}யவற\u{bcd}றைக\u{bcd} கேட\u{bcd}கக\u{bcd}கூட\u{bbe}து என\u{bcd}பதை உணர\u{bcd}த\u{bcd}தும\u{bcd} குரங\u{bcd}கு",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("చ\u{c46}డు వ\u{c3f}నకు అన\u{c3f} సూచ\u{c3f}ంచ\u{c47} క\u{c4b}త\u{c3f}"),
@@ -2371,6 +2592,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "చ\u{c46}డు వ\u{c3f}నకు అన\u{c3f} సూచ\u{c3f}ంచ\u{c47} క\u{c4b}త\u{c3f}",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("маймуне, ки бадиро намешунавад"),
@@ -2386,6 +2608,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "шунидан",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ล\u{e34}งป\u{e34}ดห\u{e39}"),
@@ -2395,6 +2618,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ล\u{e34}งป\u{e34}ดห\u{e39}",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("eşitmedim-bilmedim maýmyn"),
@@ -2408,16 +2632,19 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ýüz",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("ngeli ʻikai fanongo kovi"),
             keywords: &["ngeli ʻikai fanongo kovi"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("duymadım"),
             keywords: &["duymadım", "duymayan maymun", "maymun"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("ياماننى ئاڭلىماس مايمۇن"),
@@ -2434,6 +2661,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "چەكلەنگەن",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("мавпа, що не чує"),
@@ -2446,6 +2674,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "чути",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("کانوں کو ہاتھ سے چھپائے بندر"),
@@ -2457,6 +2686,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "کانوں کو ہاتھ سے چھپائے بندر",
             ],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("yomonlikni eshitmaydigan maymun"),
@@ -2470,6 +2700,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "yo‘q",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("khỉ không nghe điều xấu"),
@@ -2482,6 +2713,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "điều xấu",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("golo budul dégg lu bon"),
@@ -2498,6 +2730,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "luñ tere",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("inkawu evale iindlebe"),
@@ -2514,6 +2747,7 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "umjekulo",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Ọbọ Magbọ Ibi"),
@@ -2527,11 +2761,13 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "Ọbọ Magbọ Ibi",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("無耳聽嘅馬騮"),
             keywords: &["唔聽野嘅馬騮", "無耳聽嘅馬騮", "禁止", "聽", "邪惡", "馬騮"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("无耳听嘅马骝"),
@@ -2548,21 +2784,25 @@ pub const HEAR_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "马骝",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("非礼勿听"),
             keywords: &["堵上耳朵", "堵耳", "脸", "非礼勿听"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("非禮勿聽"),
             keywords: &["不聽", "遮耳", "非禮勿聽"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("ukungezwa okubi"),
@@ -2590,6 +2830,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("praat geen kwaad nie"),
@@ -2604,16 +2845,19 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "verbode",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ምንም ክፉ አልናገርም"),
             keywords: &["መናገር", "ምንም ክፉ አልናገርም", "ክፉ", "የተከለከለ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("قرد يحجب الكلام"),
             keywords: &["قرد", "قرد يحجب الكلام", "قرد يحجب كلامه"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("বেয\u{9bc}\u{9be} কথ\u{9be} নোকোৱ\u{9be} ব\u{9be}ন\u{9cd}দৰ"),
@@ -2626,11 +2870,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("pis danışmıram"),
             keywords: &["danışmaq", "jest", "meymun", "pis danışmıram", "qadağa"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("нічога не скажу"),
@@ -2642,6 +2888,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "размаўляць",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("„не знам“"),
@@ -2655,6 +2902,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "„не знам“",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("কোনো খ\u{9be}র\u{9be}প কথ\u{9be} বলব ন\u{9be}"),
@@ -2666,16 +2914,19 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}খ",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("ne govorim"),
             keywords: &["lice", "majmun", "ne govorim", "zabranjeno", "zlo"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("mona que no parla"),
             keywords: &["boca tapada", "mona", "mona que no parla"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᏂᎦᏬᏂᏍᎬᎾ ᎤᏲ ᎠᏓᎴᏍᎩᏱᏍᎩ"),
@@ -2688,6 +2939,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ᏂᎦᏬᏂᏍᎬᎾ ᎤᏲ ᎠᏓᎴᏍᎩᏱᏍᎩ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("opička „nic nepovím“"),
@@ -2705,6 +2957,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zákaz",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("siarad dim drwg"),
@@ -2717,11 +2970,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "wyneb",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("ikke tale"),
             keywords: &["ikke tale", "tre vise aber"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("sich den Mund zuhaltendes Affengesicht"),
@@ -2732,6 +2987,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "verboten",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("κάνω πως δεν μιλώ"),
@@ -2748,6 +3004,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "όχι",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("speak-no-evil monkey"),
@@ -2760,26 +3017,31 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "speak-no-evil monkey",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("mono con la boca tapada"),
@@ -2791,6 +3053,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "prohibido",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("mono con boca tapada"),
@@ -2807,11 +3070,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "tapada",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("mono con la boca tapada"),
             keywords: &["cara", "mono", "mono con la boca tapada", "no hablar"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
@@ -2825,6 +3090,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "silencio",
             ],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("kaetud suuga ahv"),
@@ -2838,6 +3104,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "rääkimine",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("gauza txarrik esan nahi ez duen tximua"),
@@ -2851,6 +3118,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "tximua",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("میمون شرنگو"),
@@ -2864,11 +3132,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "میمون شرنگو",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("en puhu pahaa"),
             keywords: &["apina", "en puhu pahaa", "kielletty"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("huwag magsalita nang masama"),
@@ -2881,6 +3151,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "unggoy",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("apuandlit við hondunum yvir munninum"),
@@ -2892,11 +3163,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "munn",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("singe ne rien dire"),
             keywords: &["muet", "singe", "singe ne rien dire"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
@@ -2909,6 +3182,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "visage",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("moncaí nach ndeir aon olc"),
@@ -2919,6 +3193,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ná labhair faoin olc",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("muncaidh nach can olc"),
@@ -2935,11 +3210,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "àicheadh",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("mono coa boca tapada"),
             keywords: &["boca", "cara", "mono", "mono coa boca tapada", "tapada"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ખરાબ બોલશો નહી\u{a82}"),
@@ -2949,6 +3226,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "વા\u{a82}દરો",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("biri na kada a faɗi mamuganci"),
@@ -2965,11 +3243,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "mamuganci",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("לא דיברתי"),
             keywords: &["אסור", "לא דיברתי", "מכסה פה", "פרצוף", "קוף"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("ब\u{941}रा मत बोलो, गा\u{902}धी जी का बन\u{94d}दर"),
@@ -2981,6 +3261,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ब\u{941}रा मत बोलो, गा\u{902}धी जी का बन\u{94d}दर",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("majmun koji ne govori ništa loše"),
@@ -2993,6 +3274,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zlo",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("nem szólok semmit"),
@@ -3004,6 +3286,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "tilos",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("ոչինչ չեմ խոսում"),
@@ -3017,6 +3300,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "չար",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("tidak bicara"),
@@ -3030,6 +3314,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "wajah",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ekwukwala-ènwè-ọjọọ"),
@@ -3046,21 +3331,25 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ịkwu",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("api heldur fyrir munn"),
             keywords: &["api", "api heldur fyrir munn", "illska", "má ekki tala"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("non parlo"),
             keywords: &["non parlo", "scimmietta", "scimmietta non parlo"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("言わざる"),
             keywords: &["三猿", "猿", "言わざる"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("munyuk aja omong sing ala"),
@@ -3074,6 +3363,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "rai",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ართქმა"),
@@ -3089,6 +3379,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "სახე",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("аузын жауып тұрған маймыл"),
@@ -3102,11 +3393,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "сөйлеуге болмайды",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("ikke tale"),
             keywords: &["ikke tale", "tre vise aber"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ស\u{17d2}វាយកដៃខ\u{17d2}ទប\u{17cb}ច\u{17d2}រម\u{17bb}ះ"),
@@ -3116,6 +3409,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ស\u{17d2}វាយកដៃខ\u{17d2}ទប\u{17cb}ច\u{17d2}រម\u{17bb}ះ",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಯಾವುದೇ ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಮಾತನಾಡಬೇಡ"),
@@ -3124,6 +3418,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ಯಾವುದೇ ಕ\u{cc6}ಟ\u{ccd}ಟದ\u{ccd}ದನ\u{ccd}ನು ಮಾತನಾಡಬೇಡ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("입을 막고 있는 원숭이"),
@@ -3133,6 +3428,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "입을 막고 있는 원숭이",
             ],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("वायट उलोवच\u{947}\u{902} न\u{94d}हय माकोड"),
@@ -3145,6 +3441,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "वायट उलोवच\u{947}\u{902} न\u{94d}हय माकोड",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("оозуман жаман сөз чыкпасын"),
@@ -3155,6 +3452,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "тыюу салынган",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Mond zouhalenden Af"),
@@ -3171,11 +3469,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zouhalen",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ລ\u{eb5}ງປ\u{eb4}ດປາກ"),
             keywords: &["ປ\u{eb4}ດປາກ", "ລ\u{eb5}ງ", "ລ\u{eb5}ງປ\u{eb4}ດປາກ"],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("užsidengusi burną beždžionė"),
@@ -3187,6 +3487,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "veidas",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("neko nesaku"),
@@ -3202,6 +3503,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "žests",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("makimaki kore-kōrero-kino"),
@@ -3218,6 +3520,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "whakakāhore",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("мајмун со покриена уста"),
@@ -3229,6 +3532,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "не зборува",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("മോശമ\u{d3e}യ ക\u{d3e}ര\u{d4d}യങ\u{d4d}ങൾ പറയര\u{d41}ത\u{d4d}"),
@@ -3242,6 +3546,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "സംസ\u{d3e}രിക\u{d4d}ക\u{d41}ക",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("муу үйлийг хэлэхгүй"),
@@ -3256,6 +3561,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "үйл",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("वाईट बोल\u{942} नय\u{947} सा\u{902}गणार\u{947} वानर"),
@@ -3269,6 +3575,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "वाईट बोल\u{942} नय\u{947} सा\u{902}गणार\u{947} वानर",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("monyet tutup mulut"),
@@ -3281,6 +3588,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "tidak bercakap yang jahat",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("xadina li ma titkellem ebda ħażen"),
@@ -3297,6 +3605,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ħażen",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("မကောင\u{103a}းတာက\u{102d}\u{102f} မပြောလ\u{102d}\u{102f}"),
@@ -3310,6 +3619,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "မျောက\u{103a}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("sier ingenting ondt"),
@@ -3323,6 +3633,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "sier ingenting ondt",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("क\u{941}न\u{948}-नचाहिन\u{947} क\u{941}रा-बोल\u{94d}द\u{948}न"),
@@ -3336,6 +3647,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "बोल\u{94d}न\u{941}",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("geen kwaad spreken"),
@@ -3351,6 +3663,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "verboden",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("seier ingenting vondt"),
@@ -3364,6 +3677,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "seier ingenting vondt",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଖର\u{b3e}ପ କଥ\u{b3e} କହ\u{b41}ନଥ\u{b3f}ବ\u{b3e} ମ\u{b3e}ଙ\u{b4d}କଡ\u{b3c}"),
@@ -3376,6 +3690,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ମ\u{b41}ହ\u{b01}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਬ\u{a41}ਰਾ ਨਾ ਬ\u{a4b}ਲ\u{a4b}"),
@@ -3386,6 +3701,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ਬ\u{a41}\u{a41}ਰਾ ਨਾ ਬ\u{a4b}ਲ\u{a4b}",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("بولو-کوئی-شیطان-باندر نہیں"),
@@ -3401,6 +3717,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "نہیں",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Mọnkí Wé Nọ\u{301} Wán Tọ\u{301}k Bád Tin"),
@@ -3414,6 +3731,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "Mọnkí Wé Nọ\u{301} Wán Tọ\u{301}k Bád Tin",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("małpa zasłaniająca pyszczek"),
@@ -3429,11 +3747,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zakrywam usta",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("غږېدل بریښنايي بندر"),
             keywords: &["غږېدل بریښنايي بندر"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("macaco que não fala nada"),
@@ -3444,6 +3764,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "macaco que não fala nada",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("macaco com as mãos a tapar a boca"),
@@ -3460,6 +3781,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "proibido",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("kusillo mana saqrayuqwan parlay"),
@@ -3472,6 +3794,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "uya",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("nu spun nimic rău"),
@@ -3485,11 +3808,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "vorbit",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-910"),
             keywords: &["E10-910"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("ничего никому не скажу"),
@@ -3503,6 +3828,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "рот",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("inkende itavuga"),
@@ -3518,6 +3844,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "oya",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("ڪا-شيطاني-نه-ڳالهايو وارو ڀولڙو"),
@@ -3533,6 +3860,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ڳالهائڻ",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("නරක දේවල\u{dca} කථ\u{dcf} නොකරන\u{dca}න"),
@@ -3547,6 +3875,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "වඳ\u{dd4}\u{dd4}ර\u{dcf}",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("nehovorím zlo"),
@@ -3560,6 +3889,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zlé",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("opica, ki ničesar ne govori"),
@@ -3574,6 +3904,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zlobno",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("aan la hadleynin daanyeer xun"),
@@ -3587,6 +3918,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "xumaan",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("mos fol gjëra të këqija"),
@@ -3598,6 +3930,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "të këqija",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("не говори зло"),
@@ -3612,11 +3945,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ништa",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["не говори зло"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("ne govori zlo"),
@@ -3631,16 +3966,19 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "zlo",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["ne govori zlo"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("apa säger inget"),
             keywords: &["apa", "apa säger inget", "säger inget"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("nyani aliyefunika mdomo kwa mikono"),
@@ -3653,11 +3991,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "uso",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some(
@@ -3670,6 +4010,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "வ\u{bbe}யை மூடிக\u{bcd}கொண\u{bcd}ட குரங\u{bcd}கு",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some(
@@ -3681,6 +4022,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "చ\u{c46}డు మ\u{c3e}ట\u{c4d}ల\u{c3e}డకు అన\u{c3f} సూచ\u{c3f}ంచ\u{c47} క\u{c4b}త\u{c3f}",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("маймуне, ки гапи бад намезанад"),
@@ -3696,11 +4038,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "рӯй",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ล\u{e34}งป\u{e34}ดปาก"),
             keywords: &["ป\u{e34}ดปาก", "ล\u{e34}ง", "ล\u{e34}งป\u{e34}ดปาก"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("gürlemedim-bilmedim maýmyn"),
@@ -3713,16 +4057,19 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ýüz",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("ngeli ʻikai lea kovi"),
             keywords: &["ngeli ʻikai lea kovi"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("bilmiyorum"),
             keywords: &["bilmiyorum", "maymun", "söylemeyen maymun"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("يامان سۆزلىمەس مايمۇن"),
@@ -3739,6 +4086,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "چەكلەنگەن",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("мавпа, що не говорить"),
@@ -3751,6 +4099,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "обличчя",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("منہ کو ہاتھوں سے بند کیے بندر"),
@@ -3762,6 +4111,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "چہرہ",
             ],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("yomonlikni gapirmaydigan maymun"),
@@ -3775,6 +4125,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "yo‘q",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("khỉ không nói điều xấu"),
@@ -3787,6 +4138,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "điều xấu",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("golo budul wax lu bon"),
@@ -3803,6 +4155,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "wax",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("inkawu evale umlomo"),
@@ -3819,6 +4172,7 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "umjekulo",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Ọbọ Masọ ibi"),
@@ -3833,11 +4187,13 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "ọ\u{300}bọ",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("唔講野嘅馬騮"),
             keywords: &["唔講野嘅馬騮", "禁止", "講", "邪惡", "馬騮"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("唔讲野嘅马骝"),
@@ -3854,21 +4210,25 @@ pub const SPEAK_NO_EVIL_MONKEY: crate::Emoji = crate::Emoji {
                 "马骝",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("非礼勿言"),
             keywords: &["捂上嘴巴", "捂嘴", "脸", "非礼勿言"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("非禮勿言"),
             keywords: &["摀嘴", "非禮勿言"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["不想說", "掩住嘴巴", "掩嘴", "猴子", "非禮勿言"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("ukungakhulumi okubi"),

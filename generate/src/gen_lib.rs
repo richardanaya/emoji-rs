@@ -15,9 +15,11 @@ pub fn dump(groups: &Vec<Group>, annotation_langs: &Vec<&str>, version: f32, dat
     
     let dump = quote! {
 	#ts
-	/// The annotation languages this crate was compiled with
-	/// Defaults to `["en"]`. Enable the `lang_XX` features for each language to include annotations for another language. For example, to include Finnish annotations, use the `lang_fi` feature.
-	pub const ANNOTATION_LANGS: &'static [&'static str] = &[#(#annotation_langs),*];
+	/// The annotation languages this crate was compiled with  
+	/// Defaults to `["en"]`. Enable the `XX` features for each language to include annotations for another language. For example, to include Finnish annotations, use the `fi` feature.
+	pub const ANNOTATION_LANGS: &'static [&'static str] = &[
+	    #(#[cfg(feature = #annotation_langs)]#annotation_langs),*
+	];
 	/// The unicode release version that this crate is compiled against
 	pub const UNICODE_VERSION: f32 = #version;
 	/// The rfc3339 formatted time of the unicode release that this crate is compiled against

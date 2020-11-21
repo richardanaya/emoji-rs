@@ -10,41 +10,49 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("geldsak"),
             keywords: &["dollar", "geld", "geldsak", "sak"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የገንዘብ ከረጢት"),
             keywords: &["ቦርሳ", "የገንዘብ ከረጢት", "ዶላር", "ገንዘብ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("حقيبة نقود"),
             keywords: &["أموال", "حقيبة دولارات", "حقيبة نقود", "شنطة"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("ধনৰ মোন\u{9be}"),
             keywords: &["ডল\u{9be}ৰ", "ধন", "ধনৰ মোন\u{9be}", "মোন\u{9be}"],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("pul torbası"),
             keywords: &["dollar", "kisə", "pul", "pul torbası", "çanta"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("мяшок з грашыма"),
             keywords: &["грошы", "долар", "мяшок", "мяшок з грашыма"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Торба с пари"),
             keywords: &["Торба с пари", "долар", "пари", "торба"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("ট\u{9be}ক\u{9be}র ব\u{9cd}য\u{9be}গ"),
@@ -55,26 +63,31 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "ব\u{9cd}য\u{9be}গ",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("sacʼhad moneiz"),
             keywords: &["dollar", "moneiz", "sacʼh", "sacʼhad moneiz"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("vreća novca"),
             keywords: &["dolar", "novac", "vreća", "vreća novca"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("bossa de diners"),
             keywords: &["bossa", "bossa de diners", "diners"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎠᏕᎳ ᏕᎦᎶᏗ"),
             keywords: &["ᎠᏕᎳ", "ᎤᏃᏍᏓ", "ᏕᎦᎶᏗ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("pytel peněz"),
@@ -89,76 +102,91 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "zavazadlo",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("bag arian"),
             keywords: &["arian", "bag", "doler"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("pengepose"),
             keywords: &["dollar", "penge", "pengepose"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Geldsack"),
             keywords: &["Geld", "Geldsack", "Sack"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("σάκος με λεφτά"),
             keywords: &["δολάριο", "σάκος", "σάκος με λεφτά", "χρήματα"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("money bag"),
             keywords: &["bag", "dollar", "money", "moneybag"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("bolsa de dinero"),
             keywords: &["bolsa", "bolsa de dinero", "bolsa de dólares", "dinero"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["bolsa", "bolsa de dinero", "dinero", "dólares"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("rahapaun"),
             keywords: &["dollar", "kott", "raha", "rahakott", "rahapaun"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("poltsa bete diru"),
@@ -170,21 +198,25 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "poltsa bete diru",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("کیسه\u{654} پول"),
             keywords: &["دلار", "پول", "کیسه\u{654} پول", "کیف"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("rahasäkki"),
             keywords: &["raha", "rahapussi", "rahasäkki", "säkki"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("supot ng pera"),
             keywords: &["bag", "pera", "supot", "supot ng pera"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("pengasekkur"),
@@ -198,6 +230,7 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "sekkur",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("sac plein d’argent"),
@@ -209,26 +242,31 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "sac plein d’argent",
             ],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("mála airgead"),
             keywords: &["airgead", "dollar", "mála airgead", "mála airgid"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("mogan airgid"),
             keywords: &["airgead", "baga", "dolar", "mogan", "mogan airgid", "poca"],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("saco de diñeiro"),
             keywords: &["bolsa", "diñeiro", "dólares", "saco", "saco de diñeiro"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("પ\u{ac8}સાની થ\u{ac7}લી"),
@@ -239,16 +277,19 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "બ\u{ac5}ગ",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("jakar kuɗi"),
             keywords: &["dala", "jaka", "jakar kuɗi", "kuɗi"],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("שק כסף"),
             keywords: &["דולר", "כסף", "שק"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("धन वाला ब\u{948}ग"),
@@ -261,66 +302,79 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "प\u{948}सो\u{902} की थ\u{948}ली",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("vreća s novcem"),
             keywords: &["dolar", "novac", "vreća", "vreća s novcem"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("pénzeszsák"),
             keywords: &["dollár", "pénz", "pénzeszsák", "zsák"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("փողի պարկ"),
             keywords: &["դոլար", "պարկ", "փող", "փողի պարկ"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("kantung uang"),
             keywords: &["dolar", "kantong", "kantung uang", "uang"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("àkpà ego"),
             keywords: &["dọlla", "ego", "àkpà", "àkpàego"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("peningapoki"),
             keywords: &["peningapoki", "peningar", "poki"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("sacco di soldi"),
             keywords: &["denaro", "sacco", "sacco di soldi"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ドル袋"),
             keywords: &["お金", "ドル", "ドル袋", "賞金", "金袋"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("kanthong dhuwit"),
             keywords: &["dhuwit", "dolar", "kanthong"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ფულის ტომარა"),
             keywords: &["დოლარი", "ტომარა", "ფული", "ფულის ტომარა"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("ақша салынған қалта"),
             keywords: &["ақша", "ақша салынған қалта", "доллар", "сөмке", "әмиян"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("pengepose"),
             keywords: &["dollar", "penge", "pengepose"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ថង\u{17cb}ល\u{17bb}យ"),
@@ -331,56 +385,67 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "ល\u{17bb}យ",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಹಣದ ಚೀಲ"),
             keywords: &["ಚೀಲ", "ಡಾಲರ\u{ccd} ಚೀಲ", "ಹಣ", "ಹಣದ ಚೀಲ"],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("돈주머니"),
             keywords: &["돈가방", "돈주머니", "주머니"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("पयशा\u{902}ची ब\u{945}ग"),
             keywords: &["डॉलर", "पयशा\u{902}ची ब\u{945}ग", "पयश\u{947}", "ब\u{945}ग"],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("акча баштыгы"),
             keywords: &["акча", "акча баштыгы", "баштык", "доллар"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Geldsak"),
             keywords: &["Dollar", "Geld", "Geldsak", "Sak", "Suen"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຖ\u{ebb}ງເງ\u{eb4}ນ"),
             keywords: &["ຖ\u{ebb}ງ", "ຖ\u{ebb}ງເງ\u{eb4}ນ", "ເງ\u{eb4}ນ"],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("pinigų maišas"),
             keywords: &["doleris", "maišas", "pinigai", "pinigų maišas"],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("naudas maiss"),
             keywords: &["dolārs", "maiss", "nauda", "naudas maiss"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("pēke moni"),
             keywords: &["moni", "pēke", "tāra"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("вреќа со пари"),
             keywords: &["вреќа", "вреќа со пари", "долар", "пари"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("പണ ബ\u{d3e}ഗ\u{d4d}"),
@@ -391,11 +456,13 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "ര\u{d42}പ\u{d3e} ബ\u{d3e}ഗ\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("мөнгөтэй цүнх"),
             keywords: &["доллар", "мөнгө", "мөнгөтэй цүнх", "цүнх"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("प\u{948}शा\u{902}ची पिशवी"),
@@ -407,16 +474,19 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "ब\u{945}ग",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("karung duit"),
             keywords: &["beg", "dolar", "karung duit", "wang"],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("borża tal-flus"),
             keywords: &["borża", "borża tal-flus", "dollaru", "flus"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("င\u{103d}ေအ\u{102d}တ\u{103a}"),
@@ -427,11 +497,13 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "အ\u{102d}တ\u{103a}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("pengesekk"),
             keywords: &["dollar", "penger", "pengesekk", "sekk"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("प\u{948}साको झोला"),
@@ -443,16 +515,19 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "प\u{948}साको झोला",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("zak met geld"),
             keywords: &["dollar", "geld", "geldzak", "zak", "zak met geld"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("pengesekk"),
             keywords: &["dollar", "pengar", "pengesekk", "sekk"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଟଙ\u{b4d}କ\u{b3e} ଥଳ\u{b3f}"),
@@ -463,6 +538,7 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "ବ\u{b4d}ୟ\u{b3e}ଗ\u{b4d}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਪ\u{a48}ਸ\u{a47} ਵਾਲਾ ਬ\u{a48}ਗ"),
@@ -473,46 +549,55 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "ਬ\u{a48}ਗ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("پیسیاں آلا بستہ"),
             keywords: &["تھیلا", "پیسیاں آلا بستہ", "پیسے", "ڈالر"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Mọní Bag"),
             keywords: &["Bag", "Dọ\u{301}la", "Mọní", "MọníBag", "Naíra"],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("worek z pieniędzmi"),
             keywords: &["dolary", "pieniądze", "worek", "worek z pieniędzmi"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("د پيسو کڅوړه"),
             keywords: &["د پيسو کڅوړه", "پيسې", "ډالر", "کڅوړه"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("saco de dinheiro"),
             keywords: &["dinheiro", "saco", "saco de dinheiro"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["dinheiro", "dólar", "saco", "saco de dinheiro"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("sac cu bani"),
             keywords: &["bani", "dolar", "pungă cu bani", "sac cu bani"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-621"),
             keywords: &["E10-621"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("мешок денег"),
@@ -526,6 +611,7 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "много",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("agakapu k’amafaranga"),
@@ -537,16 +623,19 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "ifaranga",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("پئسن جي ڳوٿري"),
             keywords: &["رقم", "پئسن جي ڳوٿري", "پئسن واري ڳوٿري", "ڊالر", "ڳوٿري"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ම\u{dd4}දල\u{dca} බෑගය"),
             keywords: &["ඩොලර\u{dca}", "බෑගය", "ම\u{dd4}දල\u{dca}"],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("mešec peňazí"),
@@ -558,151 +647,181 @@ pub const MONEY_BAG: crate::Emoji = crate::Emoji {
                 "vrece na peniaze",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("vreča denarja"),
             keywords: &["denar", "dolar", "vreča", "vreča denarja"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("bac lacaga"),
             keywords: &["bac", "bac lacag ah", "bac lacaga", "doolar", "lacag"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("qese parash"),
             keywords: &["dollar", "para", "qese", "qese parash", "çantë"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("врећа новца"),
             keywords: &["врeћa", "врећа новца", "дoлaр", "нoвaц"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("vreća novca"),
             keywords: &["dolar", "novac", "vreća", "vreća novca"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("pengapåse"),
             keywords: &["pengapåse", "pengar", "säck"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("mfuko wa pesa"),
             keywords: &["dola", "mfuko", "mfuko wa pesa", "pesa"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("பணப\u{bcd}பை"),
             keywords: &["ட\u{bbe}லர\u{bcd}", "பணப\u{bcd}பை", "பணம\u{bcd}"],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("డబ\u{c4d}బు సంచ\u{c3f}"),
             keywords: &["డబ\u{c4d}బు సంచ\u{c3f}", "ధనం", "సంచ\u{c3f}"],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("халтаи пул"),
             keywords: &["доллар", "пул", "сумка", "халтаи пул"],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ถ\u{e38}งเง\u{e34}น"),
             keywords: &["ถ\u{e38}งเง\u{e34}น", "เง\u{e34}น"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("pully halta"),
             keywords: &["halta", "pul", "pul haltasy", "pully halta"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("tangai paʻanga"),
             keywords: &["tangai paʻanga"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("para torbası"),
             keywords: &["dolar çantası", "para", "para torbası", "çanta"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("پۇل خالتىسى"),
             keywords: &["خالتا", "دوللار", "پۇل", "پۇل خالتىسى", "ھەميان"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("мішок грошей"),
             keywords: &["гроші", "долар", "мішок", "мішок грошей"],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("پیسوں کا بیگ"),
             keywords: &["بیگ", "رقم", "پیسوں کا بیگ", "ڈالر"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("pul xalta"),
             keywords: &["dollar", "pul", "xalta"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("túi tiền"),
             keywords: &["tiền", "túi", "đô la"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("saagu xaalis"),
             keywords: &["dolaar", "saagu xaalis", "saak", "xaalis"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("ibhegi yemali"),
             keywords: &["i-dollar", "ibhegi", "ibhegi yemali", "imali"],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("apo owo"),
             keywords: &["apo owo", "dó\u{329}là", "owó", "àpò"],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("錢袋"),
             keywords: &["蚊", "袋", "錢", "錢袋"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("钱袋"),
             keywords: &["蚊", "袋", "钱", "钱袋"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("钱袋"),
             keywords: &["美元", "钱", "钱包", "钱袋"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("錢袋"),
             keywords: &["錢", "錢袋"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("一袋錢"),
             keywords: &["一袋錢", "一袋錢｜錢袋｜錢"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("isaka lemali"),
@@ -728,21 +847,25 @@ pub const COIN: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("muntstuk"),
             keywords: &["geld", "goud", "muntstuk", "silwer", "skat"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ሳንቲም"),
             keywords: &["ሳንቲም"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("عملة معدنية"),
             keywords: &["ذهب", "عملة معدنية", "فضة", "كنز", "مال", "معدن"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("ম\u{9c1}দ\u{9cd}ৰ\u{9be}"),
@@ -755,21 +878,25 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "ৰ\u{9c2}প",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("xırda pul"),
             keywords: &["gümüş", "metal", "pul", "qızıl", "xırda pul", "xəzinə"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("манета"),
             keywords: &["грошы", "золата", "манета", "метал", "скарб", "срэбра"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("монета"),
             keywords: &["злато", "метал", "монета", "пари", "сребро", "съкровище"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("কয\u{9bc}েন"),
@@ -782,21 +909,25 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "সোন\u{9be}",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("pezh moneiz"),
             keywords: &["aour", "arcʼhant", "moneiz", "pezh"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("novčić"),
             keywords: &["blago", "metal", "novac", "novčić", "srebro", "zlato"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("moneda"),
             keywords: &["metall", "moneda", "or", "plata", "tresor"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎢᏯᏓᏅᏖᏗ"),
@@ -809,111 +940,133 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "ᏧᎬᏩᎶᏗ ᎠᏍᏆᏂᎪᏛ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("mince"),
             keywords: &["kov", "mince", "peníze", "poklad", "stříbro", "zlato"],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("darn arian"),
             keywords: &["arian", "aur", "darn arian", "metel", "trysor"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("mønt"),
             keywords: &["guld", "metal", "mønt", "penge", "skat", "sølv"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Münze"),
             keywords: &["Geld", "Gold", "Metall", "Münze", "Schatz", "Silber"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("κέρμα"),
             keywords: &["ασήμι", "θησαυρός", "κέρμα", "μέταλλο", "χρήμα", "χρυσό"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("coin"),
             keywords: &["coin", "gold", "metal", "money", "silver", "treasure"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("moneda"),
             keywords: &["dinero", "metal", "moneda", "oro", "plata", "tesoro"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("moneda"),
             keywords: &["moneda"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("moneda"),
             keywords: &["moneda"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("münt"),
             keywords: &["hõbe", "kuld", "metall", "münt", "raha", "varandus"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("txanpon"),
             keywords: &["altxorra", "dirua", "metala", "txanpon", "urrea", "zilarra"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("سکه"),
             keywords: &["سکه", "طلا", "فلز", "نقره", "پول", "گنجینه"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("kolikko"),
             keywords: &["aarre", "hopea", "kolikko", "kulta", "metalli", "raha"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("barya"),
             keywords: &["bakal", "barya", "ginto", "kayamanan", "pera", "pilak"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("myntur"),
             keywords: &["gull", "myntur", "pengar", "pengi", "skattur"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("pièce"),
             keywords: &["argent", "métal", "or", "pièce", "trésor"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("pièce de monnaie"),
@@ -926,21 +1079,25 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "trésor",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("bonn"),
             keywords: &["airgead", "bonn", "miotal", "stórchiste", "ór"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("bonn"),
             keywords: &["airgead", "bonn", "meatailt", "ulaidh", "òr"],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("moeda"),
             keywords: &["cartos", "diñeiro", "moeda", "ouro", "prata", "tesouro"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("સિક\u{acd}કો"),
@@ -953,66 +1110,79 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "સોનાનો સિક\u{acd}કો",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("מטבע"),
             keywords: &["אוצר", "זהב", "כסף", "מטבע", "מטבעות"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("सिक\u{94d}का"),
             keywords: &["खजाना", "धन", "धात\u{941}", "रजत", "सिक\u{94d}का", "सोना"],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("kovanica"),
             keywords: &["blago", "kovanica", "metal", "novac", "srebro", "zlato"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("érme"),
             keywords: &["arany", "ezüst", "fém", "kincs", "pénz", "érme"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("մետաղադրամ"),
             keywords: &["արծաթ", "գանձ", "դրամ", "մետալ", "մետաղադրամ", "ոսկի"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("koin"),
             keywords: &["emas", "harta karun", "koin", "logam", "perak", "uang"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("mynt"),
             keywords: &["fjársjóður", "gull", "mynt", "málmur", "peningur", "silfur"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("moneta"),
             keywords: &["argento", "denaro", "metallo", "moneta", "oro", "tesoro"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("コイン"),
             keywords: &["お金", "コイン", "小銭", "硬貨", "金貨", "銀貨"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("koin"),
             keywords: &["bandha", "duwit", "emas", "koin", "logam", "perak"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("მონეტა"),
             keywords: &["ვერცხლი", "მეტალი", "მონეტა", "ოქრო", "ფული", "ხაზინა"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("тиын"),
             keywords: &["алтын", "ақша", "күміс", "металл", "тиын", "қазына"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("កាក\u{17cb}"),
@@ -1025,6 +1195,7 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "លោហៈ",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ನಾಣ\u{ccd}ಯ"),
@@ -1037,11 +1208,13 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "ಹಣ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("동전"),
             keywords: &["금", "금속", "돈", "동전", "보물", "은"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("नाण\u{947}"),
@@ -1054,11 +1227,13 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "र\u{941}प\u{947}\u{902}",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("тыйын"),
             keywords: &["тыйын"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຫ\u{ebc}ຽນ"),
@@ -1071,6 +1246,7 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "ໂລຫະເງ\u{eb4}ນ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("moneta"),
@@ -1078,16 +1254,19 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "auksas", "lobis", "metalas", "moneta", "pinigai", "sidabras",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("monēta"),
             keywords: &["bagātība", "metāls", "monēta", "nauda", "sudrabs", "zelts"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("паричка"),
             keywords: &["богатство", "злато", "метал", "пари", "паричка", "сребро"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ന\u{d3e}ണയം"),
@@ -1100,11 +1279,13 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "സ\u{d4d}വർണ\u{d4d}ണം",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("зоос"),
             keywords: &["алт", "зоос", "метал", "мөнгө", "эрдэнэс"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("नाण\u{947}"),
@@ -1117,11 +1298,13 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "सोन\u{947}",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("syiling"),
             keywords: &["duit", "emas", "harta karun", "logam", "perak", "syiling"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("အကြ\u{103d}ေစေ\u{1037}"),
@@ -1134,11 +1317,13 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "အကြ\u{103d}ေစေ\u{1037}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("mynt"),
             keywords: &["gull", "metall", "mynt", "penger", "skatt", "sølv"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("सिक\u{94d}का"),
@@ -1151,16 +1336,19 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "स\u{941}न",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("munt"),
             keywords: &["geld", "goud", "metaal", "munt", "schat", "zilver"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("mynt"),
             keywords: &["gull", "metall", "mynt", "pengar", "skatt", "sølv"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ମ\u{b41}ଦ\u{b4d}ର\u{b3e}"),
@@ -1173,6 +1361,7 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "ସ\u{b41}ନ\u{b3e}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਸਿ\u{a71}ਕਾ"),
@@ -1185,6 +1374,7 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "ਸ\u{a4b}ਨਾ",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Kọin"),
@@ -1197,6 +1387,7 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "Trẹ\u{301}zhọ",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("moneta"),
@@ -1209,41 +1400,49 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "złota",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("سکه"),
             keywords: &["خزانه", "سره زر", "سلور", "سکه", "فلز", "پېسې"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("moeda"),
             keywords: &["dinheiro", "metal", "moeda", "ouro", "prata", "tesouro"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("monedă"),
             keywords: &["argint", "aur", "bani", "comoară", "metal", "monedă"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E13-060"),
             keywords: &["E13-060"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("монета"),
             keywords: &["деньги", "золото", "казна", "металл", "монета", "серебро"],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("سڪو"),
             keywords: &["خزانو", "سون", "سڪو", "پئسو", "چاندي", "ڌاتو"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ක\u{dcf}ස\u{dd2}ය"),
@@ -1256,56 +1455,67 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "ලෝහ",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("minca"),
             keywords: &["minca", "peniaz", "peniaze", "poklad", "zlato"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("kovanec"),
             keywords: &["denar", "kovanec", "kovina", "srebro", "zaklad", "zlato"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("lacag bir ah"),
             keywords: &["bir", "dahab", "khasnad", "lacag", "lacag bir ah", "qalin"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("monedhë"),
             keywords: &["argjend", "metal", "monedhë", "para", "thesar"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("новчић"),
             keywords: &["благо", "злато", "метал", "новац", "новчић", "сребро"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("novčić"),
             keywords: &["blago", "metal", "novac", "novčić", "srebro", "zlato"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("mynt"),
             keywords: &["guld", "mynt", "pengar", "silver", "skatt"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("sarafu"),
             keywords: &["chuma", "dhahabu", "hazina", "pesa", "sarafu", "shaba"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("ந\u{bbe}ணயம\u{bcd}"),
@@ -1318,6 +1528,7 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "வெள\u{bcd}ளி",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("బ\u{c3f}ళ\u{c4d}ల"),
@@ -1330,6 +1541,7 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "వ\u{c46}ండ\u{c3f}",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("เหร\u{e35}ยญ"),
@@ -1342,16 +1554,19 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "โลหะ",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("şaýlyk"),
             keywords: &["altyn", "hazyna", "kümüş", "metal", "pul", "şaýlyk"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("paʻanga maka"),
             keywords: &["foʻi paʻanga", "paʻanga maka"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("bozuk para"),
@@ -1366,16 +1581,19 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "sikke",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("монета"),
             keywords: &["гроші", "золото", "метал", "монета", "скарб", "срібло"],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("سکہ"),
             keywords: &["خزانہ", "دھات", "رقم", "سونا", "سکہ", "چاندی"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("tanga"),
@@ -1383,36 +1601,43 @@ pub const COIN: crate::Emoji = crate::Emoji {
                 "kumush", "metall", "oltin", "pul", "tanga", "tilla", "xazina",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("đồng tiền"),
             keywords: &["bạc", "kho báu", "kim loại", "tiền", "vàng", "đồng tiền"],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("硬幣"),
             keywords: &["寶藏", "硬幣", "金", "金屬", "銀", "錢"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("硬币"),
             keywords: &["宝藏", "硬币", "金", "金属", "钱", "银"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("硬币"),
             keywords: &["硬币", "财富", "金", "金属", "钱", "银"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("硬幣"),
             keywords: &["寶藏", "硬幣", "金", "金屬", "銀", "錢"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("imali"),
@@ -1432,21 +1657,25 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("jenbanknoot"),
             keywords: &["bank", "banknoot", "geld", "jen", "jenbanknoot", "noot"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የን የወረቀት ገንዘብ"),
             keywords: &["መክፈያ", "ምንዛሬ", "የን የወረቀት ገንዘብ", "የወረቀት ገንዘብ", "ገንዘብ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("ورقة ين"),
             keywords: &["أموال", "بانكنوت", "ورقة ين", "ين"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("য\u{9bc}েন বেংকনোট"),
@@ -1460,6 +1689,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "য\u{9bc}েন",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("iena banknotu"),
@@ -1472,6 +1702,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen banknotu",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("банкнот іены"),
@@ -1484,6 +1715,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "іена",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Банкнота със знак за йена"),
@@ -1495,6 +1727,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "пари",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("ইয\u{9bc}েন ব\u{9cd}য\u{9be}ঙ\u{9cd}কনোট"),
@@ -1507,6 +1740,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}দ\u{9cd}র\u{9be}",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("bilhed e yenoù"),
@@ -1519,16 +1753,19 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("novčanica jena"),
             keywords: &["jen", "novac", "novčanica", "novčanica jena", "valuta"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("bitllets de ien"),
             keywords: &["bitllets", "bitllets de ien", "ien", "signe"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᏤᏈᏂᏏ ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ"),
@@ -1542,6 +1779,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ᏤᏈᏂᏏ ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("jenová bankovka"),
@@ -1554,6 +1792,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "peníze",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("papur arian yen"),
@@ -1565,46 +1804,55 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("yenseddel"),
             keywords: &["penge", "yen", "yenseddel"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Yen-Banknote"),
             keywords: &["Geld", "Geldschein", "Yen", "Yen-Banknote"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("χαρτονόμισμα γιεν"),
             keywords: &["γιεν", "νόμισμα", "χαρτονόμισμα", "χρήματα"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("yen banknote"),
             keywords: &["banknote", "bill", "currency", "money", "note", "yen"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("billete de yen"),
@@ -1616,21 +1864,25 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["billete", "billete de yen", "dinero", "yen"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("jeeni rahatäht"),
@@ -1643,46 +1895,55 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuuta",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("yen billetea"),
             keywords: &["billetea", "dirua", "moneta", "yen billetea", "yena"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("اسکناس ین"),
             keywords: &["ارز", "اسکناس", "بانک", "پول", "ین"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("yen-seteli"),
             keywords: &["pankki", "raha", "seteli", "valuutta", "yen", "yen-seteli"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("yen bill"),
             keywords: &["banknote", "bill", "note", "pera", "salapi", "yen"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("jenn pengaseðil"),
             keywords: &["gjaldoyra", "jenn", "jennur", "pengaseðil", "seðil"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("billet en yens"),
             keywords: &["billet", "billet en yens"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["billet", "billet en yens", "yen"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("nóta bainc yen"),
             keywords: &["airgead", "nóta bainc", "nóta bainc yen", "nóta yen", "yen"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("not Yen"),
@@ -1698,11 +1959,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("billete de ien"),
             keywords: &["banco", "billete", "billete de ien", "ien", "moeda"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ય\u{ac7}ન નોટ"),
@@ -1715,6 +1978,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ય\u{ac7}ન. પ\u{ac8}સા",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("takardar kuɗi na yen"),
@@ -1728,11 +1992,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("שטר ין"),
             keywords: &["ין", "כסף", "מטבע", "שטר"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("य\u{947}न नोट"),
@@ -1745,6 +2011,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "य\u{947}न नोट, ब\u{948}\u{902}कनोट",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("novčanica sa znakom jena"),
@@ -1757,6 +2024,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("jen bankjegy"),
@@ -1770,16 +2038,19 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "pénznem",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("իեն թղթադրամ"),
             keywords: &["բանկ", "թղթադրամ", "իեն", "տարադրամ", "փող"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("uang kertas yen"),
             keywords: &["mata uang", "uang", "uang kertas", "uang kertas yen", "yen"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("akwụkwọego yen"),
@@ -1793,21 +2064,25 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ụlọakụ",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("yenaseðill"),
             keywords: &["peningar", "peningaseðill", "seðill", "yen", "yenaseðill"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("banconota Yen"),
             keywords: &["Yen", "banconota", "denaro"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("円札"),
             keywords: &["お札", "お金", "円", "円札", "札束", "通貨"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("dhuwit kertas yen"),
@@ -1819,6 +2094,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("იენას ბანკნოტი"),
@@ -1832,6 +2108,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ფული",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("йена банкнотасы"),
@@ -1845,11 +2122,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "қағаз ақша",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("yenseddel"),
             keywords: &["penge", "yenseddel"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ល\u{17bb}យយេន"),
@@ -1862,6 +2141,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ល\u{17bb}យយេន",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಯ\u{cc6}ನ\u{ccd} ಬ\u{ccd}ಯಾಂಕ\u{ccd}\u{200c}ನೋಟ\u{ccd}"),
@@ -1873,11 +2153,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ಹಣ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("엔"),
             keywords: &["엔", "엔화", "일본 돈", "일본 화폐"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("य\u{947}न ब\u{901}कनोट"),
@@ -1890,6 +2172,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "य\u{947}न",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("иена банкнотасы"),
@@ -1902,6 +2185,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "эсеп",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Yen"),
@@ -1916,6 +2200,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "Yen",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ໃບເງ\u{eb4}ນເຢ\u{eb1}ນ"),
@@ -1927,6 +2212,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ໃບເງ\u{eb4}ນເຢ\u{eb1}ນ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("jenos banknotas"),
@@ -1939,11 +2225,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valiuta",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("jenas banknote"),
             keywords: &["banknote", "jena", "jenas banknote", "nauda"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("monipepa Yen"),
@@ -1958,11 +2246,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("банкнота на јен"),
             keywords: &["банкнота", "банкнота на јен", "пари", "јен"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("യെൻ ബ\u{d3e}ങ\u{d4d}ക\u{d4d} നോട\u{d4d}ട\u{d4d}"),
@@ -1974,6 +2264,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "യെൻ ബ\u{d3e}ങ\u{d4d}ക\u{d4d} നോട\u{d4d}ട\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("иений мөнгөн тэмдэгт"),
@@ -1987,6 +2278,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "тэмдэгт",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("य\u{947}न ब\u{945}\u{902}कनोट"),
@@ -1999,6 +2291,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "य\u{947}न ब\u{945}\u{902}कनोट",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("wang kertas yen"),
@@ -2011,6 +2304,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("karta tal-flus yen"),
@@ -2025,6 +2319,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("ယန\u{103a}း င\u{103d}ေစက\u{1039}က\u{1030}"),
@@ -2035,11 +2330,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ယန\u{103a}း င\u{103d}ေစက\u{1039}က\u{1030}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("yenseddel"),
             keywords: &["penger", "seddel", "yen", "yenseddel"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("य\u{947}न ब\u{948}\u{902}कनोट"),
@@ -2052,6 +2349,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "य\u{947}न",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("yenbiljet"),
@@ -2065,11 +2363,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yenbiljet",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("yensetel"),
             keywords: &["pengar", "setel", "yen", "yensetel"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ୟେନ\u{b4d}\u{200c} ବ\u{b4d}ୟ\u{b3e}ଙ\u{b4d}କନୋଟ\u{b4d}\u{200c}"),
@@ -2082,6 +2382,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "\u{200d}ମ\u{b41}ଦ\u{b4d}ର\u{b3e}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਯ\u{a47}ਨ ਬ\u{a48}\u{a02}ਕਨ\u{a4b}ਟ"),
@@ -2095,6 +2396,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ਯ\u{a47}ਨ ਬ\u{a48}\u{a02}ਕਨ\u{a4b}ਟ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("ین بینک نوٹ"),
@@ -2109,6 +2411,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ین بینک نوٹ",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Yẹn Pépá Mọní"),
@@ -2122,6 +2425,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "Yẹn Pépá Mọní",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("banknot jena"),
@@ -2134,11 +2438,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "waluta",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("ين بانک نوټ"),
             keywords: &["بل", "د بانک نوټ", "نوټ", "ين", "ين بانک نوټ", "پيسې"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("nota de iene"),
@@ -2151,21 +2457,25 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nota de iene",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["banco", "dinheiro", "iene", "moeda", "nota", "nota de iene"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("bancnotă yen"),
             keywords: &["bancnotă", "bani", "monedă", "valută", "yen"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-625"),
             keywords: &["E10-625"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("банкнота иены"),
@@ -2178,16 +2488,19 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "япония",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("iyeni"),
             keywords: &["banki", "idovize", "ifaranga", "inoti", "iyeni"],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("يين بئنڪ نوٽ"),
             keywords: &["بئنڪ", "بل", "سڪو", "نوٽ", "يين", "پئيسا"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("යෙන\u{dca} බැංක\u{dd4} නෝට\u{dca}ට\u{dd4}ව"),
@@ -2199,6 +2512,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "යෙන\u{dca} බැංක\u{dd4} නෝට\u{dca}ට\u{dd4}ව",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("jenová bankovka"),
@@ -2212,6 +2526,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "účet",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("bankovec za jen"),
@@ -2225,6 +2540,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("lacag yeen ah"),
@@ -2237,6 +2553,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yeen",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("kartëmonedhë jeni"),
@@ -2248,6 +2565,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valutë",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("новчаница са знаком јена"),
@@ -2259,11 +2577,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "јен",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["новчаница са знаком јена"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("novčanica sa znakom jena"),
@@ -2275,26 +2595,31 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["novčanica sa znakom jena"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("yensedel"),
             keywords: &["pengar", "sedel", "yen", "yensedel"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("noti ya yeni"),
             keywords: &["benki", "noti", "noti ya yeni", "pesa", "sarafu", "yeni"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("யென\u{bcd} நோட\u{bcd}டு"),
@@ -2307,6 +2632,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ரூப\u{bbe}ய\u{bcd} நோட\u{bcd}டுக\u{bcd} கட\u{bcd}டு",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some(
@@ -2319,6 +2645,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "య\u{c46}న\u{c4d} చ\u{c3f}హ\u{c4d}నం ఉన\u{c4d}న బ\u{c4d}య\u{c3e}ంకు న\u{c4b}టు",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("қоғази пули йен"),
@@ -2331,11 +2658,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "қоғази пули йен",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ธนบ\u{e31}ตรเยน"),
             keywords: &["ธนบ\u{e31}ตร", "ธนบ\u{e31}ตรเยน", "เยน"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("ýen banknot"),
@@ -2349,16 +2678,19 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ýena",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("laʻi paʻanga fakasiapani"),
             keywords: &["laʻi paʻanga fakasiapani"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("yen banknot"),
             keywords: &["banknot", "döviz", "para", "yen"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("يېن"),
@@ -2372,6 +2704,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "پۇل",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("єнові банкноти"),
@@ -2384,11 +2717,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "єнові банкноти",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ین بینک نوٹ"),
             keywords: &["بنک", "رقم", "نوٹ", "ین", "ین بینک نوٹ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("iyena banknotasi"),
@@ -2402,6 +2737,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("tiền giấy yên"),
@@ -2414,11 +2750,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yên",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("biye yen"),
             keywords: &["biye", "bànk", "koppar", "xaalis", "xaalisu këyit", "yen"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("imali eliphepha yase-yen"),
@@ -2432,6 +2770,7 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ityala",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("owo yen"),
@@ -2444,11 +2783,13 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ìwó iye owó",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("日圓紙幣"),
             keywords: &["日圓", "日圓紙幣", "紙幣", "貨幣", "銀紙", "錢"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("日圆纸币"),
@@ -2463,21 +2804,25 @@ pub const YEN_BANKNOTE: crate::Emoji = crate::Emoji {
                 "银行",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("日元"),
             keywords: &["日元", "现金", "货币", "钞票", "钱"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("日幣"),
             keywords: &["日幣", "貨幣", "鈔票", "錢"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("日元紙幣"),
             keywords: &["日元", "日元紙幣", "日本貨幣"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("imali eyiyeni"),
@@ -2504,6 +2849,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("dollarbanknoot"),
@@ -2516,6 +2862,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "noot",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ዶላር የወረቀት ገንዘብ"),
@@ -2528,11 +2875,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ገንዘብ",
             ],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("ورقة دولار"),
             keywords: &["أموال", "بنكنوت", "ورقة دولار"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("ডল\u{9be}ৰ বেংকনোট"),
@@ -2546,11 +2895,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}দ\u{9cd}ৰ\u{9be}",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("dollar əskinazı"),
             keywords: &["bank", "banknot", "dollar", "dollar əskinazı"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("банкнот долара"),
@@ -2565,6 +2916,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "купюра",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Банкнота със знак за долар"),
@@ -2576,6 +2928,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "пари",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("ডল\u{9be}র ব\u{9cd}য\u{9be}ঙ\u{9cd}কনোট"),
@@ -2588,6 +2941,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}দ\u{9cd}র\u{9be}",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("bilhed e dollaroù"),
@@ -2600,16 +2954,19 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "unanenn",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("novčanica dolara"),
             keywords: &["dolar", "novac", "novčanica", "novčanica dolara", "valuta"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("bitllets de dòlar"),
             keywords: &["bitllets", "bitllets de dòlar", "dòlar", "signe"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎤᏃᏍᏓ ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ"),
@@ -2623,6 +2980,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ᎪᏪᎵ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("dolarová bankovka"),
@@ -2635,6 +2993,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "peníze",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("papur arian doler"),
@@ -2646,16 +3005,19 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "papur arian doler",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("dollarseddel"),
             keywords: &["dollar", "dollarseddel", "penge"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Dollar-Banknote"),
             keywords: &["Dollar", "Dollar-Banknote", "Geld", "Geldschein"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("χαρτονόμισμα δολαρίου"),
@@ -2667,31 +3029,37 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "χρήματα",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("dollar banknote"),
             keywords: &["banknote", "bill", "currency", "dollar", "money", "note"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("billete de dólar"),
@@ -2703,21 +3071,25 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "dólar",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["billete", "billete de dólar", "dinero", "dólar"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("dollari rahatäht"),
@@ -2730,6 +3102,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuuta",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("dolar billetea"),
@@ -2742,11 +3115,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "moneta",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("اسکناس دلار"),
             keywords: &["ارز", "اسکناس", "بانک", "دلار", "پول"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("dollariseteli"),
@@ -2759,6 +3134,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuutta",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("dollar bill"),
@@ -2771,21 +3147,25 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "salapi",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("dollari pengaseðil"),
             keywords: &["dollarar", "dollari", "gjaldoyra", "pengaseðil", "seðil"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("billet en dollars"),
             keywords: &["billet", "billet en dollars"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["billet", "billet en dollars", "dollar"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("nóta bainc dollair"),
@@ -2797,6 +3177,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nóta dollair",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("not dolair"),
@@ -2812,16 +3193,19 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nòta-banca",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("billete de dólar"),
             keywords: &["banco", "billete", "billete de dólar", "dólar", "moeda"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ડૉલર નોટ"),
             keywords: &["ડૉલર", "નોટ", "પ\u{ac8}સા", "બિલ", "બ\u{ac7}\u{a82}કનોટ"],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("takardar kuɗi na dala"),
@@ -2835,11 +3219,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "takardar kuɗi na dala",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("שטר דולר"),
             keywords: &["דולר", "כסף", "מטבע", "שטר"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("डॉलर नोट, ब\u{948}\u{902}कनोट"),
@@ -2852,6 +3238,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ब\u{948}\u{902}कनोट",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("novčanica sa znakom dolara"),
@@ -2864,6 +3251,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("dollár bankjegy"),
@@ -2877,11 +3265,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "pénznem",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("դոլար թղթադրամ"),
             keywords: &["բանկ", "դոլար", "թղթադրամ", "տարադրամ", "փող"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("uang kertas dolar"),
@@ -2893,6 +3283,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "uang kertas dolar",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("akwụkwọego dọlla"),
@@ -2905,6 +3296,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ụlọakụ",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("dollaraseðill"),
@@ -2917,16 +3309,19 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "seðill",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("banconota Dollaro"),
             keywords: &["Dollaro", "banconota", "denaro"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ドル札"),
             keywords: &["お札", "お金", "ドル", "ドル札", "札束", "通貨"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("dhuwit kertas dolar"),
@@ -2938,11 +3333,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "mata uang",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("დოლარის ბანკნოტი"),
             keywords: &["ბანკნოტი", "დოლარი", "დოლარის ბანკნოტი", "ვალუტა", "ფული"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("доллар банкнотасы"),
@@ -2956,11 +3353,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "қағаз ақша",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("dollarseddel"),
             keywords: &["dollarseddel", "penge"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ល\u{17bb}\u{17bb}យដ\u{17bb}ល\u{17d2}លារ"),
@@ -2974,6 +3373,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ល\u{17bb}\u{17bb}យដ\u{17bb}ល\u{17d2}លារ",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಡಾಲರ\u{ccd} ಬ\u{ccd}ಯಾಂಕ\u{ccd}\u{200c}ನೋಟ\u{ccd}"),
@@ -2985,16 +3385,19 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ಹಣ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("달러"),
             keywords: &["달러", "달러화", "미국 돈", "미국 화폐"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("डॉलर"),
             keywords: &["चलन", "डॉलर", "नोट", "पयश\u{947}", "ब\u{901}कनोट", "बील"],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("доллар банкнотасы"),
@@ -3007,6 +3410,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "эсеп",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Dollar"),
@@ -3021,6 +3425,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "Währung",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ໃບເງ\u{eb4}ນໂດລາ"),
@@ -3032,6 +3437,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ໃບເງ\u{eb4}ນໂດລາ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("dolerio banknotas"),
@@ -3044,11 +3450,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valiuta",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("dolāra banknote"),
             keywords: &["banknote", "dolāra banknote", "dolārs", "nauda"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("monipepa tāra"),
@@ -3062,11 +3470,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "tāra",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("банкнота на долар"),
             keywords: &["банкнота", "банкнота на долар", "долар", "пари"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ഡോളർ ബ\u{d3e}ങ\u{d4d}ക\u{d4d} നോട\u{d4d}ട\u{d4d}"),
@@ -3079,6 +3489,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ബിൽ",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("долларын мөнгөн тэмдэгт"),
@@ -3092,6 +3503,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "тэмдэгт",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("डॉलर ब\u{945}\u{902}कनोट"),
@@ -3106,6 +3518,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "बिल",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("wang kertas dolar"),
@@ -3117,6 +3530,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "wang kertas dolar",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("karta tal-flus dollaru"),
@@ -3131,6 +3545,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nota",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("ဒေါ\u{103a}လာ င\u{103d}ေစက\u{1039}က\u{1030}"),
@@ -3141,11 +3556,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ဒေါ\u{103a}လာ",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("dollarseddel"),
             keywords: &["dollar", "dollarseddel", "penger", "seddel"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("डलर ब\u{948}\u{902}कनोट"),
@@ -3159,6 +3576,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "म\u{941}द\u{94d}रा",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("dollarbiljet"),
@@ -3172,11 +3590,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("dollarsetel"),
             keywords: &["dollar", "dollarsetel", "pengar", "setel"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଡଲ\u{b3e}ର\u{b4d}\u{200c} ବ\u{b4d}ୟ\u{b3e}ଙ\u{b4d}କନୋଟ\u{b4d}\u{200c}"),
@@ -3190,6 +3610,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "\u{200d}ମ\u{b41}ଦ\u{b4d}ର\u{b3e}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਡਾਲਰ ਬ\u{a48}\u{a02}ਕਨ\u{a4b}ਟ"),
@@ -3203,6 +3624,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ਬ\u{a48}\u{a71}ਕਨ\u{a4b}ਟ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("ڈالر بینک نوٹ"),
@@ -3217,6 +3639,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "کرنسی",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Dọ\u{301}la Pépá Mọní"),
@@ -3230,6 +3653,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "Not",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("banknot dolara"),
@@ -3242,11 +3666,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "waluta",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("ډالر بانک نوټ"),
             keywords: &["بل", "د بانک نوټ", "نوټ", "پيسې", "ډالر", "ډالر بانک نوټ"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("nota de dólar"),
@@ -3259,6 +3685,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nota de dólar",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
@@ -3271,16 +3698,19 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nota de dólar",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("bancnotă dolar"),
             keywords: &["bancnotă", "bani", "dolar", "monedă", "valută"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-626"),
             keywords: &["E10-626"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("банкнота доллара"),
@@ -3293,6 +3723,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "сша",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("idolari"),
@@ -3305,11 +3736,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "urupapuro mvunjwafaranga",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("ڊائر بئنڪ نوٽ"),
             keywords: &["بئنڪ", "بل", "رقم", "سڪو", "نوٽ", "ڊائر بئنڪ نوٽ", "ڊالر"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ඩොලර\u{dca} බැංක\u{dd4} නෝට\u{dca}ට\u{dd4}ව"),
@@ -3321,6 +3754,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ම\u{dd4}දල\u{dca} වර\u{dca}ගය",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("dolárová bankovka"),
@@ -3334,6 +3768,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "účet",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("dolarski bankovec"),
@@ -3347,6 +3782,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("lacag doolar ah"),
@@ -3359,6 +3795,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "warqad bangi",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("kartëmonedhë dollari"),
@@ -3370,6 +3807,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "monedhë",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("новчаница са знаком долара"),
@@ -3381,11 +3819,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "новчаница са знаком долара",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["новчаница са знаком долара"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("novčanica sa znakom dolara"),
@@ -3397,26 +3837,31 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["novčanica sa znakom dolara"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("dollarsedel"),
             keywords: &["dollar", "dollarsedel", "pengar", "sedel"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("noti ya dola"),
             keywords: &["benki", "dola", "noti", "noti ya dola", "pesa", "sarafu"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("ட\u{bbe}லர\u{bcd} நோட\u{bcd}டு"),
@@ -3429,6 +3874,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ரூப\u{bbe}ய\u{bcd} நோட\u{bcd}டுக\u{bcd} கட\u{bcd}டு",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some(
@@ -3441,6 +3887,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "బ\u{c4d}య\u{c3e}ంకు న\u{c4b}టు",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("қоғази пули доллар"),
@@ -3453,11 +3900,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "қоғази пули доллар",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ธนบ\u{e31}ตรดอลลาร\u{e4c}"),
             keywords: &["ดอลลาร\u{e4c}", "ธนบ\u{e31}ตรดอลลาร\u{e4c}", "เง\u{e34}น"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("dollar banknot"),
@@ -3470,16 +3919,19 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "pul birligi",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("laʻi paʻanga fakaʻamelika"),
             keywords: &["laʻi paʻanga fakaʻamelika"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("dolar banknot"),
             keywords: &["banknot", "dolar", "döviz", "para"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("دوللار"),
@@ -3493,6 +3945,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "پۇل",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("доларові банкноти"),
@@ -3505,11 +3958,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "купюра",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ڈالر بینک نوٹ"),
             keywords: &["بنک", "رقم", "نوٹ", "ڈالر", "ڈالر بینک نوٹ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("dollar banknotasi"),
@@ -3523,6 +3978,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valyuta",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("tiền giấy đô la"),
@@ -3535,6 +3991,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "đô la",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("biye dolaar"),
@@ -3548,6 +4005,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "xaalisu këyit",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("imali yephepha ye-dollar"),
@@ -3561,6 +4019,7 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ityala",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("owo dọla"),
@@ -3573,11 +4032,13 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ìwó iye owó",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("美元紙幣"),
             keywords: &["紙幣", "美元", "美元紙幣", "貨幣", "銀紙", "錢"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("美元纸币"),
@@ -3592,21 +4053,25 @@ pub const DOLLAR_BANKNOTE: crate::Emoji = crate::Emoji {
                 "银行",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("美元"),
             keywords: &["现金", "纸币", "美元", "货币", "钱"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("美金"),
             keywords: &["美金", "貨幣", "鈔票", "錢"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("美金紙幣"),
             keywords: &["美金", "美金紙幣", "貨幣", "鈔票", "錢"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("imali eyidola"),
@@ -3633,21 +4098,25 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("eurobanknoot"),
             keywords: &["bank", "banknoot", "euro", "eurobanknoot", "geld", "noot"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ዩሮ የወረቀት ገንዘብ"),
             keywords: &["መክፈያ", "ምንዛሬ", "ወረቀት ገንዘብ", "ዩሮ", "ዩሮ የወረቀት ገንዘብ", "ገንዘብ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("ورقة يورو"),
             keywords: &["أموال", "بانكنوت", "ورقة يورو", "يورو"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("ইউৰ’ বেংকনোট"),
@@ -3661,16 +4130,19 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}দ\u{9cd}ৰ\u{9be}",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("avro əskinazı"),
             keywords: &["avro", "avro əskinazı", "bank", "banknot"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("банкнот еўра"),
             keywords: &["банкнот еўра", "валюта", "грошы", "еўра", "купюра"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Банкнота със знак за евро"),
@@ -3682,6 +4154,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "пари",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("ইউরো ব\u{9cd}য\u{9be}ঙ\u{9cd}কনোট"),
@@ -3694,6 +4167,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}দ\u{9cd}র\u{9be}",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("bilhed en euroioù"),
@@ -3706,16 +4180,19 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "unanenn",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("novčanica eura"),
             keywords: &["euro", "novac", "novčanica", "novčanica eura", "valuta"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("bitllets d’euro"),
             keywords: &["bitllets", "bitllets d’euro", "euro", "signe"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᏳᎳᏈ ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ"),
@@ -3729,6 +4206,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ᏳᎳᏈ ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("eurobankovka"),
@@ -3742,6 +4220,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "peníze",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("papur arian ewro"),
@@ -3753,46 +4232,55 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "papur arian ewro",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("euroseddel"),
             keywords: &["euro", "euroseddel", "penge"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Euro-Banknote"),
             keywords: &["Euro", "Euro-Banknote", "Euroschein", "Geld", "Geldschein"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("χαρτονόμισμα ευρώ"),
             keywords: &["ευρώ", "νόμισμα", "χαρτονόμισμα", "χρήματα"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("euro banknote"),
             keywords: &["banknote", "bill", "currency", "euro", "money", "note"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("billete de euro"),
@@ -3804,26 +4292,31 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "euro",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["billete", "billete de euro", "dinero", "euro"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("euro rahatäht"),
             keywords: &["euro", "pank", "raha", "rahatäht", "valuuta"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("euro billetea"),
@@ -3836,36 +4329,43 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "moneta",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("اسکناس یورو"),
             keywords: &["ارز", "اسکناس", "بانک", "پول", "یورو"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("euroseteli"),
             keywords: &["euro", "euroseteli", "pankki", "raha", "seteli", "valuutta"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("euro bill"),
             keywords: &["banknote", "bill", "euro", "note", "pera", "salapi"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("evra pengaseðil"),
             keywords: &["evra", "evrur", "gjaldoyra", "pengaseðil", "seðil"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("billet en euros"),
             keywords: &["billet", "billet en euros"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["billet", "billet en euros", "euro"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("nóta bainc euro"),
@@ -3877,6 +4377,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nóta bainc euro",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("not Eòro"),
@@ -3892,11 +4393,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nòta-banca",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("billete de euro"),
             keywords: &["banco", "billete", "billete de euro", "euro", "moeda"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ય\u{ac1}રો નોટ"),
@@ -3908,6 +4411,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ય\u{ac1}રો",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("takardar kuɗi na euro"),
@@ -3921,11 +4425,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "takardar kuɗi na euro",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("שטר אירו"),
             keywords: &["אירו", "כסף", "מטבע", "שטר"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("य\u{942}रो नोट"),
@@ -3938,6 +4444,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "य\u{942}रो नोट, य\u{942}रो",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("novčanica sa znakom eura"),
@@ -3950,6 +4457,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("euró bankjegy"),
@@ -3963,11 +4471,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "pénznem",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("եվրո թղթադրամ"),
             keywords: &["բանկ", "եվրո", "թղթադրամ", "տարադրամ", "փող"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("uang kertas euro"),
@@ -3979,6 +4489,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "uang kertas euro",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("akwụkwọego euro"),
@@ -3991,31 +4502,37 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ụlọakụ",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("evruseðill"),
             keywords: &["evra", "evruseðill", "peningar", "peningaseðill", "seðill"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("banconota Euro"),
             keywords: &["Euro", "banconota", "denaro"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ユーロ札"),
             keywords: &["お札", "お金", "ユーロ", "ユーロ札", "札束", "通貨"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("dhuwit kertas euro"),
             keywords: &["dhuwit kertas", "dhuwit kertas euro", "euro", "mata uang"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ევროს ბანკნოტი"),
             keywords: &["ბანკნოტი", "ევრო", "ევროს ბანკნოტი", "ვალუტა", "ფული"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("еуро банкнотасы"),
@@ -4029,11 +4546,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "қағаз ақша",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("euroseddel"),
             keywords: &["euroseddel", "penge"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ល\u{17bb}យអ\u{17ba}រ\u{17bc}"),
@@ -4046,6 +4565,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "អ\u{17ba}រ\u{17c9}\u{17bc}",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಯುರೋ ಬ\u{ccd}ಯಾಂಕ\u{ccd}\u{200c}ನೋಟ\u{ccd}"),
@@ -4057,11 +4577,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ಹಣ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("유로"),
             keywords: &["유럽 돈", "유럽 화폐", "유로", "유로화"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("य\u{941}रो ब\u{902}\u{901}कनोट"),
@@ -4075,6 +4597,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "य\u{941}रो ब\u{902}\u{901}कनोट",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("евро банкнотасы"),
@@ -4087,6 +4610,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "эсеп",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Euro"),
@@ -4101,6 +4625,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "Währung",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ໃບເງ\u{eb4}ນເອ\u{eb5}ໂຣ"),
@@ -4112,6 +4637,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ໃບເງ\u{eb4}ນເອ\u{eb5}ໂຣ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("euro banknotas"),
@@ -4124,11 +4650,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valiuta",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("eiro banknote"),
             keywords: &["banknote", "eiro", "nauda"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("monipepa uro"),
@@ -4142,11 +4670,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "uro",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("банкнота на евро"),
             keywords: &["банкнота", "банкнота на евро", "евро", "пари"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("യ\u{d42}റോ ബ\u{d3e}ങ\u{d4d}ക\u{d4d} നോട\u{d4d}ട\u{d4d}"),
@@ -4159,6 +4689,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "യ\u{d42}റോ ബ\u{d3e}ങ\u{d4d}ക\u{d4d} നോട\u{d4d}ട\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("евроны мөнгөн тэмдэгт"),
@@ -4171,6 +4702,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "нэхэмжлэх",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("य\u{941}रो ब\u{945}\u{902}कनोट"),
@@ -4185,6 +4717,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "य\u{941}रो ब\u{945}\u{902}कनोट",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("wang kertas euro"),
@@ -4196,6 +4729,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "wang kertas euro",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("karta tal-flus ewro"),
@@ -4210,6 +4744,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nota",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("ယ\u{1030}ရ\u{102d}\u{102f} င\u{103e}စေက\u{103a}က\u{1030}"),
@@ -4221,11 +4756,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ယ\u{1030}ရ\u{102d}\u{102f} င\u{103e}စေက\u{103a}က\u{1030}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("euroseddel"),
             keywords: &["euro", "euroseddel", "penger", "seddel"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("य\u{942}रो ब\u{948}\u{902}कनोट"),
@@ -4237,6 +4774,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "य\u{942}रो",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("eurobiljet"),
@@ -4250,11 +4788,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("eurosetel"),
             keywords: &["euro", "eurosetel", "pengar", "setel"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ୟ\u{b41}ରୋ ବ\u{b4d}ୟ\u{b3e}ଙ\u{b4d}କନୋଟ\u{b4d}\u{200c}"),
@@ -4267,6 +4807,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "\u{200d}ମ\u{b41}ଦ\u{b4d}ର\u{b3e}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਯ\u{a42}ਰ\u{a4b} ਬ\u{a48}\u{a02}ਕਨ\u{a4b}ਟ"),
@@ -4280,6 +4821,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ਯ\u{a42}ਰ\u{a4b} ਬ\u{a48}\u{a02}ਕਨ\u{a4b}ਟ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("یورو بینک نوٹ"),
@@ -4294,6 +4836,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "یورو بینک نوٹ",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Yúro Pépá Mọní"),
@@ -4307,6 +4850,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "Yúro Pépá Mọní",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("banknot euro"),
@@ -4319,11 +4863,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "waluta",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("يورو بانک نوټ"),
             keywords: &["بل", "د بانک نوټ", "نوټ", "يورو", "يورو بانک نوټ", "پيسې"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("nota de euro"),
@@ -4336,26 +4882,31 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nota de euro",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["banco", "dinheiro", "euro", "moeda", "nota", "nota de euro"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("bancnotă euro"),
             keywords: &["bancnotă", "bani", "euro", "monedă", "valută"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-627"),
             keywords: &["E10-627"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("банкнота евро"),
             keywords: &["банкнота", "валюта", "деньги", "евро", "евросоюз"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("iyero"),
@@ -4368,11 +4919,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "urupapuro mvunjwafaranga",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("يورو بئنڪ نوٽ"),
             keywords: &["بئنڪ", "بل", "رقم", "سڪو", "نوٽ", "يورو"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ය\u{dd6}රෝ බැංක\u{dd4} නෝට\u{dca}ට\u{dd4}ව"),
@@ -4384,6 +4937,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ය\u{dd6}රෝ බැංක\u{dd4} නෝට\u{dca}ට\u{dd4}ව",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("eurová bankovka"),
@@ -4397,6 +4951,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "účet",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("evrski bankovec"),
@@ -4410,6 +4965,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("lacag yuuro ah"),
@@ -4422,6 +4978,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yuuro",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("kartëmonedhë euroje"),
@@ -4433,6 +4990,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "para",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("новчаница са знаком евра"),
@@ -4444,11 +5002,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "новчаница са знаком евра",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["новчаница са знаком евра"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("novčanica sa znakom evra"),
@@ -4460,26 +5020,31 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["novčanica sa znakom evra"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("eurosedel"),
             keywords: &["euro", "eurosedel", "pengar", "sedel"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("noti ya yuro"),
             keywords: &["benki", "noti", "noti ya yuro", "pesa", "sarafu", "yuro"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("யூரோ நோட\u{bcd}டு"),
@@ -4492,6 +5057,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ரூப\u{bbe}ய\u{bcd} நோட\u{bcd}டுக\u{bcd} கட\u{bcd}டு",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("యూర\u{c4b} చ\u{c3f}హ\u{c4d}నం ఉన\u{c4d}న బ\u{c4d}య\u{c3e}ంకు న\u{c4b}టు"),
@@ -4502,6 +5068,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "యూర\u{c4b} చ\u{c3f}హ\u{c4d}నం ఉన\u{c4d}న బ\u{c4d}య\u{c3e}ంకు న\u{c4b}టు",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("қоғази пули евро"),
@@ -4514,11 +5081,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "қоғази пули евро",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ธนบ\u{e31}ตรย\u{e39}โร"),
             keywords: &["ธนบ\u{e31}ตร", "ธนบ\u{e31}ตรย\u{e39}โร", "ย\u{e39}โร"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("ýewro banknot"),
@@ -4531,16 +5100,19 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ýewro",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("laʻi paʻanga fakaʻeulope"),
             keywords: &["laʻi paʻanga fakaʻeulope"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("euro banknot"),
             keywords: &["avro", "banknot", "döviz", "euro", "para"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("ياۋرو"),
@@ -4554,6 +5126,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "پۇل",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("єврові банкноти"),
@@ -4566,11 +5139,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "єврові банкноти",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("یورو بینک نوٹ"),
             keywords: &["بنک", "رقم", "نوٹ", "یورو", "یورو بینک نوٹ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("yevro banknotasi"),
@@ -4584,6 +5159,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "yevro banknotasi",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("tiền giấy euro"),
@@ -4596,11 +5172,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "tiền tệ",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("biye euro"),
             keywords: &["biye", "bànk", "euro", "koppar", "xaalis", "xaalisu këyit"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("imali eliphepha ye-euro"),
@@ -4614,6 +5192,7 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ityala",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("owo uro"),
@@ -4626,11 +5205,13 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "úrò",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("歐元紙幣"),
             keywords: &["歐元", "歐元紙幣", "紙幣", "貨幣", "銀紙", "錢"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("欧元纸币"),
@@ -4645,21 +5226,25 @@ pub const EURO_BANKNOTE: crate::Emoji = crate::Emoji {
                 "银行",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("欧元"),
             keywords: &["欧元", "现金", "货币", "钞票", "钱"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("歐元"),
             keywords: &["歐元", "貨幣", "鈔票", "錢"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("歐元紙幣"),
             keywords: &["歐元", "歐元紙幣", "貨幣", "鈔票", "錢"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("imali yase-euro"),
@@ -4686,21 +5271,25 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("pondbanknoot"),
             keywords: &["bank", "banknoot", "geld", "noot", "pond", "pondbanknoot"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ፓውንድ የወረቀት ገንዘብ"),
             keywords: &["መክፈያ", "ምንዛሬ", "የወረቀት ገንዘብ", "ገንዘብ", "ፓውንድ የወረቀት ገንዘብ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("ورقة جنيه"),
             keywords: &["أموال", "بانكنوت", "جنيه", "ورقة جنيه"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("প\u{9be}উণ\u{9cd}ড বেংকনোট"),
@@ -4714,11 +5303,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}দ\u{9cd}ৰ\u{9be}",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("funt əskinazı"),
             keywords: &["bank", "funt", "funt əskinazı", "əskinaz"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("банкнот фунта"),
@@ -4731,6 +5322,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "фунт",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Банкнота със знак за лира"),
@@ -4742,6 +5334,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "пари",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("প\u{9be}উন\u{9cd}ড ব\u{9cd}য\u{9be}ঙ\u{9cd}কনোট"),
@@ -4754,6 +5347,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ম\u{9c1}দ\u{9cd}র\u{9be}",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("bilhed e lurioù"),
@@ -4766,16 +5360,19 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "unanenn",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("novčanica funte"),
             keywords: &["funta", "novac", "novčanica", "novčanica funte", "valuta"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("bitllets de lliura"),
             keywords: &["bitllets", "bitllets de lliura", "lliura", "signe"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎩᎵᏏᏲ ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ"),
@@ -4789,6 +5386,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ᎪᏪᎵ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("librová bankovka"),
@@ -4801,6 +5399,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "peníze",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("papur arian punt"),
@@ -4812,16 +5411,19 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "punt",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("pundseddel"),
             keywords: &["penge", "pund", "pundseddel"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Pfund-Banknote"),
             keywords: &["Geld", "Geldschein", "Pfund", "Pfund-Banknote"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("χαρτονόμισμα λίρας"),
@@ -4833,11 +5435,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "χρήματα",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("pound banknote"),
             keywords: &["banknote", "bill", "currency", "money", "note", "pound"],
         },
+        #[cfg(feature = "en_001")]
         crate::Annotation {
             lang: "en_001",
             tts: None,
@@ -4845,46 +5449,55 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "bank", "banknote", "bill", "currency", "money", "note", "pound", "sterling",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("billete de libra"),
             keywords: &["billete de banco", "billete de libra", "dinero", "libra"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["billete", "billete de libra", "dinero", "libra"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("naela rahatäht"),
@@ -4897,6 +5510,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuuta",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("libera billetea"),
@@ -4910,11 +5524,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "moneta",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("اسکناس پوند"),
             keywords: &["ارز", "اسکناس", "بانک", "پول", "پوند"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("puntaseteli"),
@@ -4927,26 +5543,31 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuutta",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("pound bill"),
             keywords: &["banknote", "bill", "note", "pera", "pound", "salapi"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("pund pengaseðil"),
             keywords: &["gjaldoyra", "pengaseðil", "pund", "seðil"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("billet en livres"),
             keywords: &["billet", "billet en livres"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["billet", "billet en livres", "livre"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("nóta bainc puint"),
@@ -4958,6 +5579,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "punt",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("not Punnd"),
@@ -4973,11 +5595,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "punnd",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("billete de libra"),
             keywords: &["banco", "billete", "billete de libra", "libra", "moeda"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("પાઉન\u{acd}ડ નોટ"),
@@ -4988,6 +5612,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "બ\u{ac7}\u{a82}કનોટ",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("takardar kuɗi na fam"),
@@ -5001,11 +5626,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "takardar kuɗi na fam",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("שטר לירה שטרלינג"),
             keywords: &["כסף", "לירה שטרלינג", "מטבע", "שטר", "שטר לירה שטרלינג"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("पाउ\u{902}ड नोट"),
@@ -5017,6 +5644,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ब\u{948}\u{902}कनोट",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("novčanica sa znakom funte"),
@@ -5029,6 +5657,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("font bankjegy"),
@@ -5042,11 +5671,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "pénznem",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("ֆունտ թղթադրամ"),
             keywords: &["բանկ", "թղթադրամ", "տարադրամ", "փող", "ֆունտ"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("uang kertas pound"),
@@ -5058,6 +5689,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "uang kertas pound",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("akwụkwọego pound"),
@@ -5070,26 +5702,31 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ụlọakụ",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("pundaseðill"),
             keywords: &["peningar", "peningaseðill", "pund", "pundaseðill"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("banconota Sterlina"),
             keywords: &["Sterlina", "banconota", "denaro"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("ポンド札"),
             keywords: &["お札", "お金", "ポンド", "ポンド札", "札束", "通貨"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("dhuwit kertas ponsterling"),
             keywords: &["dhuwit", "kertas", "mata uang", "ponsterling"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("გირვანქა სტერლინგის ბანკნოტი"),
@@ -5103,6 +5740,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ფუნტი",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("фунт банкнотасы"),
@@ -5116,11 +5754,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "қағаз ақша",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("pundseddel"),
             keywords: &["penge", "pund", "pundseddel"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ល\u{17bb}យផោន"),
@@ -5133,6 +5773,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ល\u{17bb}យផោន",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಪ\u{ccc}ಂಡ\u{ccd} ಬ\u{ccd}ಯಾಂಕ\u{ccd}\u{200c}ನೋಟ\u{ccd}"),
@@ -5142,11 +5783,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ಹಣ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("파운드"),
             keywords: &["영국 돈", "영국 화폐", "파운드", "파운드화"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("पाव\u{902}ड ब\u{901}कनोट"),
@@ -5159,6 +5802,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "बील",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("фунт банкнотасы"),
@@ -5171,6 +5815,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "эсеп",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Pound"),
@@ -5185,6 +5830,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "Währung",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ໃບເງ\u{eb4}ນປອນ"),
@@ -5196,6 +5842,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ໃບເງ\u{eb4}ນປອນ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("svaro sterlingų banknotas"),
@@ -5208,6 +5855,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valiuta",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("sterliņu mārciņas banknote"),
@@ -5218,6 +5866,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "sterliņu mārciņas banknote",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("monipepa pauna"),
@@ -5231,11 +5880,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "pēke",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("банкнота на фунта"),
             keywords: &["банкнота", "банкнота на фунта", "пари", "фунта"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("പ\u{d57}ണ\u{d4d}ട\u{d4d} ബ\u{d3e}ങ\u{d4d}ക\u{d4d} നോട\u{d4d}ട\u{d4d}"),
@@ -5247,6 +5898,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ബ\u{d3e}ങ\u{d4d}ക\u{d4d} നോട\u{d4d}ട\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("фунтын мөнгөн тэмдэгт"),
@@ -5260,6 +5912,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "фунтын мөнгөн тэмдэгт",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("पाऊ\u{902}ड ब\u{945}\u{902}कनोट"),
@@ -5274,6 +5927,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "बिल",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("wang kertas paun"),
@@ -5285,6 +5939,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "wang kertas paun",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("karta tal-flus lira sterlina"),
@@ -5299,6 +5954,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nota",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("ပေါင\u{103a} င\u{103d}ေစက\u{1039}က\u{1030}"),
@@ -5309,11 +5965,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ပေါင\u{103a}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("pundseddel"),
             keywords: &["penger", "pund", "pundseddel", "seddel"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("पाउण\u{94d}ड ब\u{948}\u{902}कनोट"),
@@ -5327,6 +5985,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "म\u{941}द\u{94d}रा",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("pondbiljet"),
@@ -5340,11 +5999,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("pundsetel"),
             keywords: &["pengar", "pund", "pundsetel", "setel"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ପ\u{b3e}ଉଣ\u{b4d}ଡ ବ\u{b4d}ୟ\u{b3e}ଙ\u{b4d}କନୋଟ\u{b4d}\u{200c}"),
@@ -5357,6 +6018,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "\u{200d}ମ\u{b41}ଦ\u{b4d}ର\u{b3e}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਪ\u{a4c}\u{a02}ਡ ਬ\u{a48}\u{a02}ਕਨ\u{a4b}ਟ"),
@@ -5370,6 +6032,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ਬ\u{a48}\u{a71}ਕਨ\u{a4b}ਟ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("پاؤنڈ بینک نوٹ"),
@@ -5384,6 +6047,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "کرنسی",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Paund Pépá Mọní"),
@@ -5397,6 +6061,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "Paund Pépá Mọní",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("banknot funta"),
@@ -5409,11 +6074,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "waluta",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("پونډه بانک نوټ"),
             keywords: &["بل", "د بانک نوټ", "نوټ", "پونډ", "پونډه بانک نوټ", "پيسې"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("nota de libra"),
@@ -5426,6 +6093,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nota de libra",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
@@ -5438,6 +6106,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "nota de libra",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("bancnotă liră sterlină"),
@@ -5450,11 +6119,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valută",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-628"),
             keywords: &["E10-628"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("банкнота фунта"),
@@ -5467,6 +6138,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "фунт стерлингов",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("ipawundi"),
@@ -5479,11 +6151,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "urupapuro mvunjwafaranga",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("پائونڊ بئنڪ نوٽ"),
             keywords: &["بئنڪ", "بل", "سڪو", "نوٽ", "پئيسا", "پائونڊ"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("පව\u{dd4}ම\u{dca} බැංක\u{dd4} නෝට\u{dca}ට\u{dd4}ව"),
@@ -5495,6 +6169,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "බ\u{dd2}ල",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("librová bankovka"),
@@ -5508,6 +6183,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "účet",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("bankovec za funt"),
@@ -5521,6 +6197,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("lacag bownd ah"),
@@ -5533,11 +6210,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "warqad bangi",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("kartëmonedhë paundi"),
             keywords: &["kartëmonedhë paundi", "monedhë", "para", "paund", "valutë"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("новчаница са знаком фунте"),
@@ -5549,11 +6228,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "фунта",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["новчаница са знаком фунте"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("novčanica sa znakom funte"),
@@ -5565,26 +6246,31 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["novčanica sa znakom funte"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("pundsedel"),
             keywords: &["pengar", "pund", "pundsedel", "sedel"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("noti ya pauni"),
             keywords: &["benki", "noti", "noti ya pauni", "pauni", "pesa", "sarafu"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("பவுண\u{bcd}ட\u{bcd} நோட\u{bcd}டு"),
@@ -5597,6 +6283,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ரூப\u{bbe}ய\u{bcd} நோட\u{bcd}டுக\u{bcd} கட\u{bcd}டு",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some(
@@ -5609,6 +6296,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "బ\u{c4d}య\u{c3e}ంకు న\u{c4b}టు",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("қоғази пули фунт"),
@@ -5621,11 +6309,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "қоғази пули фунт",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ธนบ\u{e31}ตรปอนด\u{e4c}"),
             keywords: &["ธนบ\u{e31}ตร", "ธนบ\u{e31}ตรปอนด\u{e4c}", "เง\u{e34}น"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("funt sterling banknot"),
@@ -5639,16 +6329,19 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "pul birligi",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("laʻi paʻanga fakapilitania"),
             keywords: &["laʻi paʻanga fakapilitania"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("sterlin banknot"),
             keywords: &["banknot", "döviz", "para", "sterlin"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("پوندستېرلىڭ"),
@@ -5663,6 +6356,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "پۇل",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("фунтові банкноти"),
@@ -5675,11 +6369,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "фунтові банкноти",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("پاؤنڈ بینک نوٹ"),
             keywords: &["بنک", "رقم", "نوٹ", "پاؤنڈ", "پاؤنڈ بینک نوٹ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("funt sterling banknotasi"),
@@ -5692,6 +6388,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "valyuta",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("tiền giấy bảng"),
@@ -5704,6 +6401,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "tiền tệ",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("piye pound"),
@@ -5717,6 +6415,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "xaalisu këyit",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("imali eliphepha ye-pound"),
@@ -5730,6 +6429,7 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ityala",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("owo pọun"),
@@ -5742,11 +6442,13 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "ìwó iye owó",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("英鎊紙幣"),
             keywords: &["紙幣", "英鎊", "英鎊紙幣", "貨幣", "銀紙", "錢"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("英镑纸币"),
@@ -5761,21 +6463,25 @@ pub const POUND_BANKNOTE: crate::Emoji = crate::Emoji {
                 "银行",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("英镑"),
             keywords: &["现金", "英镑", "货币", "钞票", "钱"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("英鎊"),
             keywords: &["英鎊", "貨幣", "鈔票", "錢"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("英鎊紙幣"),
             keywords: &["英鎊", "英鎊紙幣", "貨幣", "鈔票", "錢"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("imali eyi-pound"),
@@ -5802,21 +6508,25 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("geld met vlerke"),
             keywords: &["banknoot", "geld", "geld met vlerke", "noot", "vlerke"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ክንፍ ያለው ገንዘብ"),
             keywords: &["መክፈያ", "ብረር", "ክንፍ ያለው ገንዘብ", "የወረቀት ገንዘብ", "ገንዘብ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("أموال تطير"),
             keywords: &["أموال", "أموال بأجنحة", "أموال تطير", "بانكنوت طائر"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("প\u{9be}খিয\u{9c1}ক\u{9cd}ত ধন"),
@@ -5829,6 +6539,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "বেংকনোট",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("qanadlı pullar"),
@@ -5841,6 +6552,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "əskinaz",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("грошы з крыламі"),
@@ -5853,11 +6565,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "палёт",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Пари с крила"),
             keywords: &["Пари с крила", "банкнота", "долар", "крила", "пари"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("ট\u{9be}ক\u{9be}র স\u{9be}থে প\u{9be}খ\u{9be}"),
@@ -5869,31 +6583,37 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "বিল",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("moneiz o nijal"),
             keywords: &["arcʼhant", "bilhed", "moneiz", "moneiz o nijal", "nij"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("novac sa krilima"),
             keywords: &["dolar", "krila", "novac", "novac sa krilima", "novčanica"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("diners amb ales"),
             keywords: &["ales", "diners", "diners amb ales"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎠᏕᎳ ᏗᎪᏯᏓ"),
             keywords: &["ᎠᏕᎳ", "ᎠᏕᎳ ᏗᎪᏯᏓ", "ᎠᏕᎳ ᏧᏂᏗᎢ ᎪᏪᎵ", "ᎤᏃᏍᏓ", "ᎦᏃᎯᎵᏙᎯ", "ᏗᎧᏃᎨᏂ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("okřídlené peníze"),
             keywords: &["banka", "bankovka", "dolar", "okřídlené peníze", "peníze"],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("arian gydag adenydd"),
@@ -5905,16 +6625,19 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "papur arian",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("flyvende penge"),
             keywords: &["flyvende penge", "forbrug", "penge", "penge med vinger"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Geldschein mit Flügeln"),
             keywords: &["Bank", "Geld", "Geldschein mit Flügeln"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("λεφτά με φτερά"),
@@ -5926,6 +6649,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "χρήματα",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("money with wings"),
@@ -5938,26 +6662,31 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "wings",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("billete con alas"),
@@ -5969,31 +6698,37 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "dinero con alas",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["alas", "billete con alas", "billetes", "dinero", "dólares"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("tiibadega raha"),
             keywords: &["dollar", "pank", "raha", "tiibadega raha", "tiivad"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("dirua hegoekin"),
             keywords: &["billetea", "dirua", "dirua hegoekin", "dolarra", "hegan"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("اسکناس بال\u{200c}دار"),
@@ -6006,6 +6741,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "پول",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("rahalla on siivet"),
@@ -6018,6 +6754,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "valuutta",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("perang may pakpak"),
@@ -6030,6 +6767,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "perang may pakpak",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("pengar við veingjum"),
@@ -6043,21 +6781,25 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "veingjar",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("billet avec des ailes"),
             keywords: &["billet", "billet avec des ailes"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("airgead ag eitilt"),
             keywords: &["airgead", "airgead ag eitilt", "dollar", "eitilt"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("airgead le sgiathan"),
@@ -6073,11 +6815,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "sgiathan",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("diñeiro voando"),
             keywords: &["alas", "billetes", "cartos", "diñeiro voando", "ás"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("પ\u{a82}ખ સાથ\u{ac7}ના\u{a82} પ\u{ac8}સા"),
@@ -6090,6 +6834,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "બ\u{ac7}\u{a82}ક",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("kuɗi mai fikafiki"),
@@ -6104,11 +6849,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "tashi",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("כסף עם כנפיים"),
             keywords: &["דולר", "כנפיים", "כסף", "כסף עם כנפיים", "עף"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("प\u{902}खो\u{902} वाला धन"),
@@ -6122,16 +6869,19 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ब\u{948}\u{902}क",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("novac s krilima"),
             keywords: &["krila", "letjeti", "novac", "novac s krilima", "novčanica"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("pénz szárnyakkal"),
             keywords: &["bankjegy", "dollár", "pénz", "pénz szárnyakkal", "szárnyak"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("փող թևերով"),
@@ -6145,11 +6895,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "փող թևերով",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("uang bersayap"),
             keywords: &["sayap", "terbang", "uang", "uang bersayap", "uang kertas"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ego nwere ǹkù"),
@@ -6164,6 +6916,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ụlọakụ",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("fljúgandi peningar"),
@@ -6175,6 +6928,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "seðill",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("soldi con le ali"),
@@ -6186,11 +6940,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "soldi con le ali",
             ],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("羽が生えたお金"),
             keywords: &["お札", "お金", "ドル", "札束", "羽が生えたお金"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("dhuwit nduwe swiwi"),
@@ -6202,6 +6958,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "swiwi",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ფული ფრთებით"),
@@ -6214,6 +6971,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ფული ფრთებით",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("қанаты бар ақша"),
@@ -6226,11 +6984,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ұшу",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("flyvende penge"),
             keywords: &["flyvende penge", "penge", "penge med vinger"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ល\u{17bb}យម\u{17bd}យបាច\u{17cb}មានដ\u{17bb}ះស\u{17d2}លាប"),
@@ -6243,6 +7003,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ហោះ",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ರ\u{cc6}ಕ\u{ccd}ಕ\u{cc6}ಗಳೊಂದ\u{cbf}ಗ\u{cc6} ಹಣ"),
@@ -6254,6 +7015,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ಹಾರಾಡುವ ಬ\u{ccd}ಯಾಂಕ\u{ccd}\u{200c}ನೋಟ\u{ccd}",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("날개 달린 돈"),
@@ -6266,6 +7028,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "지폐",
             ],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("पाखा\u{902} आसपी पयश\u{947}"),
@@ -6278,11 +7041,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "बील",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("канаты бар акча"),
             keywords: &["акча", "банкнота", "доллар", "канаты бар акча", "эсеп"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Geldschäiner mat Flilleken"),
@@ -6299,6 +7064,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "fléien",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ເງ\u{eb4}ນທ\u{eb5}\u{ec8}ມ\u{eb5}ປ\u{eb5}ກ"),
@@ -6309,6 +7075,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ເງ\u{eb4}ນທ\u{eb5}\u{ec8}ມ\u{eb5}ປ\u{eb5}ກ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("pinigai su sparnais"),
@@ -6320,6 +7087,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "pinigai su sparnais",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("banknote ar spārniem"),
@@ -6331,6 +7099,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "spārni",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("moni whai parirau"),
@@ -6346,11 +7115,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "tāra",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("пари со крилја"),
             keywords: &["банкнота", "долар", "крилја", "пари", "пари со крилја"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ചിറക\u{d41}ള\u{d4d}ള പണം"),
@@ -6363,6 +7134,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ബ\u{d3e}ങ\u{d4d}ക\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("далавчтай мөнгө"),
@@ -6375,6 +7147,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "нэхэмжлэх",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("प\u{902}ख असल\u{947}ला प\u{948}सा"),
@@ -6388,6 +7161,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "बिल",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("wang kertas bersayap"),
@@ -6400,6 +7174,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "wang kertas bersayap",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("flus bil-ġwienaħ"),
@@ -6415,6 +7190,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ġwienaħ",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("အတောင\u{103a}ပ\u{1036}ပါ င\u{103d}ေ"),
@@ -6426,6 +7202,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "အတောင\u{103a}ပ\u{1036}ဖြန\u{1037}\u{103a} ပျ\u{1036}နေသော င\u{103d}ေစက\u{1039}က\u{1030}ပ\u{102f}\u{1036}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("penger med vinger"),
@@ -6437,6 +7214,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "seddel",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("पख\u{947}टावाला प\u{948}सा"),
@@ -6449,6 +7227,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "\u{948}\u{902}कनोट",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("vliegend geld"),
@@ -6462,6 +7241,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "vliegend geld",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("pengar med vinger"),
@@ -6473,6 +7253,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "setel",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଡେଣ\u{b3e} ଥ\u{b3f}ବ\u{b3e} ଟଙ\u{b4d}କ\u{b3e}"),
@@ -6486,6 +7267,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ୱ\u{b3f}ଙ\u{b4d}ଗସ\u{b4d}\u{200c} ସହ\u{b3f}ତ ଟଙ\u{b4d}କ\u{b3e}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਖ\u{a70}ਬ ਲ\u{a71}ਗ\u{a47} ਪ\u{a48}ਸ\u{a47}"),
@@ -6500,6 +7282,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ਬ\u{a48}\u{a02}ਕਨ\u{a4b}ਟ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("پیسیاں نال پر"),
@@ -6515,6 +7298,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ڈالر",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Mọní Wé Gẹ\u{301}t Wing"),
@@ -6527,6 +7311,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "Wing",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("uskrzydlone pieniądze"),
@@ -6540,6 +7325,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "waluta",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("پیسې د وزرونو"),
@@ -6552,6 +7338,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "پیسې د وزرونو",
             ],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("dinheiro voando"),
@@ -6564,6 +7351,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "nota bancária voando",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("dinheiro com asas"),
@@ -6577,16 +7365,19 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "voar",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("bani înaripați"),
             keywords: &["aripi", "bancnotă", "bani", "bani înaripați", "zbor"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-629"),
             keywords: &["E10-629"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("банкнота с крылышками"),
@@ -6598,6 +7389,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "летающая банкнота",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("amafaranga afite amababa"),
@@ -6612,6 +7404,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "urupapuro mvunjwafaranga",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("پرن وارا پئسا"),
@@ -6626,6 +7419,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ڊالر",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ප\u{dd2}ය\u{dcf}පත\u{dca} ඇත\u{dd2} ම\u{dd4}දල\u{dca}"),
@@ -6637,6 +7431,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "බ\u{dd2}ල",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("peniaze s krídlami"),
@@ -6649,6 +7444,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "peniaze s krídlami",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("denar s krili"),
@@ -6664,6 +7460,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("lacag baalal leh"),
@@ -6676,31 +7473,37 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "warqad bangi",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("para me krahë"),
             keywords: &["fluturoj", "kartëmonedhë", "krahë", "para", "para me krahë"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("новац са крилима"),
             keywords: &["крилa", "лeтeњe", "нoвaц", "нoвчaницa", "новац са крилима"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("novac sa krilima"),
             keywords: &["krila", "letenje", "novac", "novac sa krilima", "novčanica"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("pengar med vingar"),
             keywords: &["flygande sedlar", "pengar", "pengar med vingar"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("pesa za noti zenye mabawa"),
@@ -6714,11 +7517,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "pesa za noti zenye mabawa",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("பறக\u{bcd}கும\u{bcd} பணம\u{bcd}"),
@@ -6730,6 +7535,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "வங\u{bcd}கி",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("ర\u{c46}క\u{c4d}కలు ఉన\u{c4d}న డబ\u{c4d}బు"),
@@ -6738,6 +7544,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ర\u{c46}క\u{c4d}కలు ఉన\u{c4d}న డబ\u{c4d}బు",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("пул бо қанотҳо"),
@@ -6750,26 +7557,31 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "қоғази пул",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("เง\u{e34}นบ\u{e34}น"),
             keywords: &["เง\u{e34}นบ\u{e34}น", "เง\u{e34}นม\u{e35}ป\u{e35}ก"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("ganatly pul"),
             keywords: &["bank", "banknot", "ganatlar", "ganatly pul", "pul", "uçmak"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("paʻanga moe kapakau"),
             keywords: &["paʻanga moe kapakau"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("kanatlı para"),
             keywords: &["banka", "banknot", "kanatlı para", "para", "uçan banknot"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("قاناتلىق پۇل"),
@@ -6785,6 +7597,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "پۇل",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("гроші з крилами"),
@@ -6799,11 +7612,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "літати",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("پروں والے نوٹ"),
             keywords: &["اڑنا", "بنک", "رقم", "نوٹ", "پر", "پروں والے نوٹ", "ڈالر"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("qanoti bor pul dastasi"),
@@ -6817,11 +7632,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "qanotli pul",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("tiền có cánh"),
             keywords: &["bay", "cánh", "tiền có cánh", "tiền giấy", "đô la"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("xaalis bu am ay laaf"),
@@ -6836,6 +7653,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "xaalisu këyit",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("imali eneempiko"),
@@ -6850,6 +7668,7 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ityala",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("owo pẹlu awọn iyẹ"),
@@ -6863,11 +7682,13 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "ìwó iye owó",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("有翼嘅錢"),
             keywords: &["有翼嘅錢", "紙幣", "翼", "銀紙", "飛"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("有翼嘅钱"),
@@ -6883,21 +7704,25 @@ pub const MONEY_WITH_WINGS: crate::Emoji = crate::Emoji {
                 "飞",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("长翅膀的钱"),
             keywords: &["纸币", "翅膀", "花钱", "钱", "长翅膀的钱"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("錢飛了"),
             keywords: &["沒錢了", "錢飛了"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("錢飛走"),
             keywords: &["冇錢", "錢飛走"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("imali enamaphiko"),
@@ -6925,21 +7750,25 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("kredietkaart"),
             keywords: &["bank", "geld", "kaart", "krediet", "kredietkaart"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ክሬዲት ካርድ"),
             keywords: &["ባንክ", "ካርታ", "ክሬዲት", "ክሬዲት ካርድ", "ገንዘብ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("بطاقة ائتمان"),
             keywords: &["بطاقة", "بطاقة ائتمان"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("ক\u{9cd}ৰেডিট ক\u{9be}ৰ\u{9cd}ড"),
@@ -6951,11 +7780,13 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "বেংক",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("kredit kartı"),
             keywords: &["bank", "kart", "kredit", "kredit kartı", "pul"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("крэдытная карта"),
@@ -6968,11 +7799,13 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "крэдытная карта",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Кредитна карта"),
             keywords: &["Кредитна карта", "банка", "карта", "кредитна", "пари"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("ক\u{9cd}রেডিট ক\u{9be}র\u{9cd}ড"),
@@ -6982,26 +7815,31 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ট\u{9be}ক\u{9be}",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("kartenn-vank"),
             keywords: &["arcʼhant", "bank", "kartenn", "kartenn-vank", "moneiz"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("kreditna kartica"),
             keywords: &["kartica", "kredit", "kreditna kartica", "pare"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("targeta de crèdit"),
             keywords: &["crèdit", "targeta", "targeta de crèdit"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎠᏓᏚᏍᎩ ᏆᏂᏲᏍᏗ"),
             keywords: &["ᎠᏓᏚᏍᎩ ᏆᏂᏲᏍᏗ", "ᎠᏕᎳ", "ᏗᎪᏯᏓ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("platební karta"),
@@ -7015,96 +7853,115 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "platební karta",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("cerdyn credyd"),
             keywords: &["arian", "banc", "card", "cerdyn credyd", "credyd"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("kreditkort"),
             keywords: &["bank", "kort", "kredit", "kreditkort", "penge"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Kreditkarte"),
             keywords: &["Guthaben", "Karte", "Kreditkarte"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("πιστωτική κάρτα"),
             keywords: &["κάρτα", "πιστωτική", "χρήματα"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("credit card"),
             keywords: &["card", "credit", "money"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("tarjeta de crédito"),
             keywords: &["crédito", "tarjeta", "tarjeta de crédito"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("krediitkaart"),
             keywords: &["kaart", "krediit", "krediitkaart", "pank", "raha"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("kreditu-txartela"),
             keywords: &["banku", "diru", "kreditu", "kreditu-txartela", "txartel"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("کارت اعتباری"),
             keywords: &["اعتبار", "بانک", "پول", "کارت", "کارت اعتباری"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("luottokortti"),
             keywords: &["kortti", "luotto", "luottokortti", "pankki", "raha"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("credit card"),
             keywords: &["card", "credit", "pera", "utang"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("kredittkort"),
@@ -7117,86 +7974,103 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "peningur",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("carte bancaire"),
             keywords: &["bancaire", "carte"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("carte de crédit"),
             keywords: &["argent", "carte", "carte de crédit", "crédit"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("cárta creidmheasa"),
             keywords: &["cárta", "cárta creidmheasa"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("cairt-chreideis"),
             keywords: &["airgead", "banca", "cairt", "cairt-chreideis", "creideas"],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("tarxeta de crédito"),
             keywords: &["banco", "diñeiro", "tarxeta", "tarxeta de crédito"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ક\u{acd}ર\u{ac7}ડિટ કાર\u{acd}ડ"),
             keywords: &["કાર\u{acd}ડ", "ક\u{acd}ર\u{ac7}ડિટ"],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("katin bashi"),
             keywords: &["banki", "bashi", "kati", "katin bashi", "kuɗi"],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("כרטיס אשראי"),
             keywords: &["אשראי", "כסף", "כרטיס"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("क\u{94d}र\u{947}डिट कार\u{94d}ड"),
             keywords: &["कार\u{94d}ड", "क\u{94d}र\u{947}डिट", "धन"],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("kreditna kartica"),
             keywords: &["kartica", "kredit", "kreditna kartica", "novac"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("hitelkártya"),
             keywords: &["bank", "bankkártya", "hitelkártya", "kártya"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("պլաստիկ քարտ"),
             keywords: &["բանկ", "պլաստիկ քարտ", "վարկ", "փող", "քարտ"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("kartu kredit"),
             keywords: &["kartu", "kredit", "uang"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("kaadị njiakwụụgwọ"),
             keywords: &["ego", "kaadị", "njiakwụụgwọ", "ụlọakụ"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("kreditkort"),
             keywords: &["greiðslukort", "kort", "kredit", "kreditkort"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("carta di credito"),
             keywords: &["carta", "carta di credito", "credito"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("クレジットカード"),
@@ -7208,26 +8082,31 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "銀行",
             ],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("kertu kredhit"),
             keywords: &["dhuwit", "kertu", "kredhit"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("საკრედიტო ბარათი"),
             keywords: &["საკრედიტო", "საკრედიტო ბარათი", "ფული"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("несие картасы"),
             keywords: &["ақша", "банк", "карта", "несие", "несие картасы"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("kreditkort"),
             keywords: &["bank", "kort", "kredit", "kreditkort", "penge"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("កាតឥនទាន"),
@@ -7239,31 +8118,37 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ឥណទាន",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಕ\u{ccd}ರ\u{cc6}ಡ\u{cbf}ಟ\u{ccd} ಕಾರ\u{ccd}ಡ\u{ccd}"),
             keywords: &["ಕಾರ\u{ccd}ಡ\u{ccd}", "ಕ\u{ccd}ರ\u{cc6}ಡ\u{cbf}ಟ\u{ccd}"],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("신용카드"),
             keywords: &["신용카드", "카드"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("क\u{94d}र\u{947}डिट कार\u{94d}ड"),
             keywords: &["कार\u{94d}ड", "क\u{94d}र\u{947}डिट", "पयश\u{947}"],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("насыя картасы"),
             keywords: &["акча", "банк", "карта", "насыя", "насыя картасы"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Kreditkaart"),
             keywords: &["Bank", "Geld", "Kaart", "Kredit", "Kreditkaart", "Suen"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ບ\u{eb1}ດເຄຣດ\u{eb4}ດ"),
@@ -7275,6 +8160,7 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ເງ\u{eb4}ນ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("kredito kortelė"),
@@ -7286,31 +8172,37 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "pinigai",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("kredītkarte"),
             keywords: &["kredītkarte", "nauda"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("kāri tāwere"),
             keywords: &["kāri", "moni", "pēke", "tāwere"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("кредитна картичка"),
             keywords: &["банка", "картичка", "кредитна", "пари"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ക\u{d4d}രെഡിറ\u{d4d}റ\u{d4d} ക\u{d3e}ർഡ\u{d4d}"),
             keywords: &["ക\u{d3e}ർഡ\u{d4d}", "ക\u{d4d}രെഡിറ\u{d4d}റ\u{d4d}"],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("кредит карт"),
             keywords: &["карт", "кредит", "мөнгө"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("क\u{94d}र\u{947}डिट कार\u{94d}ड"),
@@ -7321,16 +8213,19 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ब\u{901}क",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("kad kredit"),
             keywords: &["bank", "kad", "kredit", "wang"],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("karta tal-kreditu"),
             keywords: &["bank", "flus", "karta", "karta tal-kreditu", "kreditu"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("ခရက\u{103a}ဒစ\u{103a}ကတ\u{103a}"),
@@ -7341,6 +8236,7 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ဘဏ\u{103a}ကတ\u{103a}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("kredittkort"),
@@ -7353,6 +8249,7 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "visa",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("क\u{94d}र\u{947}डिट कार\u{94d}ड"),
@@ -7363,11 +8260,13 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ब\u{948}\u{902}क",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("creditcard"),
             keywords: &["creditcard", "geld", "kaart", "krediet"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("kredittkort"),
@@ -7380,6 +8279,7 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "visa",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("କ\u{b4d}ରେଡ\u{b3f}ଟ\u{b4d}\u{200c} କ\u{b3e}ର\u{b4d}ଡ\u{b4d}"),
@@ -7390,6 +8290,7 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ଟଙ\u{b4d}କ\u{b3e}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਕ\u{a4d}ਰ\u{a48}ਡਿਟ ਕਾਰਡ"),
@@ -7400,31 +8301,37 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ਬ\u{a48}\u{a02}ਕ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("کریڈٹ کارڈ"),
             keywords: &["ادھار", "بینک", "پیسے", "کارڈ", "کریڈٹ کارڈ"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Krẹ\u{301}dít Kad"),
             keywords: &["Kad", "Krẹ\u{301}dit", "Krẹ\u{301}dít Kad", "Mọní"],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("karta kredytowa"),
             keywords: &["bank", "karta", "karta kredytowa", "kredyt", "pieniądze"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("کریډیټ کارت"),
             keywords: &["پېسې", "کارت", "کریډیټ"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("cartão de crédito"),
             keywords: &["cartão", "cartão de crédito", "crédito", "dinheiro"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
@@ -7436,16 +8343,19 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "dinheiro",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("card de credit"),
             keywords: &["bani", "card", "card de credit", "credit", "plată"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-624"),
             keywords: &["E10-624"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("кредитная карта"),
@@ -7459,6 +8369,7 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "кредитная карточка",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("ikarita ya keredi"),
@@ -7470,11 +8381,13 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "inguzanyo",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("ڪريڊٽ ڊالر"),
             keywords: &["بئنڪ", "رقم", "ڪارڊ", "ڪريڊٽ", "ڪريڊٽ ڊالر"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ණය ක\u{dcf}ඩ\u{dca}පත"),
@@ -7486,6 +8399,7 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ම\u{dd4}දල\u{dca}",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("platobná karta"),
@@ -7498,61 +8412,73 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "platobná karta",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("kreditna kartica"),
             keywords: &["banka", "denar", "kartica", "kreditna kartica", "kreditno"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("kaarka deynta"),
             keywords: &["deyn", "kaar", "kaarka deynta", "lacag"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("kartë krediti"),
             keywords: &["bankë", "kartë", "kartë krediti", "kredit", "para"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("кредитна картица"),
             keywords: &["картица", "кредит", "кредитна картица", "новац"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["кредитна картица"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("kreditna kartica"),
             keywords: &["kartica", "kredit", "kreditna kartica", "novac"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["kreditna kartica"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("kreditkort"),
             keywords: &["betalkort", "kort", "kreditkort"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("kadi ya mkopo"),
             keywords: &["benki", "kadi", "kadi ya mkopo", "mkopo", "pesa"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("கிரெடிட\u{bcd} க\u{bbe}ர\u{bcd}டு"),
             keywords: &["க\u{bbe}ர\u{bcd}டு", "கிரெடிட\u{bcd}"],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("క\u{c4d}ర\u{c46}డ\u{c3f}ట\u{c4d} క\u{c3e}ర\u{c4d}డ\u{c4d}"),
@@ -7562,66 +8488,79 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ల\u{c3e}వ\u{c3e}ద\u{c47}వ\u{c40}",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("корти кредитӣ"),
             keywords: &["бонк", "корт", "корти кредитӣ", "пул", "қарз"],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("บ\u{e31}ตรเครด\u{e34}ต"),
             keywords: &["บ\u{e31}ตร", "บ\u{e31}ตรเครด\u{e34}ต"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("kredit karty"),
             keywords: &["karz", "kredit karty", "petek", "pul"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("kaati pangikē"),
             keywords: &["kaati pangikē"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("kredi kartı"),
             keywords: &["kart", "kredi", "kredi kartı"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("ئىناۋەتلىك كارتا"),
             keywords: &["ئىناۋەت", "ئىناۋەتلىك كارتا", "بانكا", "كارتا", "پۇل"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("кредитна картка"),
             keywords: &["банк", "гроші", "картка", "кредитна"],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("کریڈٹ کارڈ"),
             keywords: &["بنک", "رقم", "کارڈ", "کریڈٹ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("kredit karta"),
             keywords: &["karta", "kredit", "pul"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("thẻ tín dụng"),
             keywords: &["thẻ", "thẻ tín dụng", "tiền", "tín dụng"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("kàrtu keredi"),
             keywords: &["bànk", "keredi", "kàrt", "kàrtu keredi", "xaalis"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("ikhadi letyala"),
             keywords: &["ibhanki", "ikhadi", "ikhadi letyala", "ikhredithi", "imali"],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("káàdì ìsọdowó"),
@@ -7633,31 +8572,37 @@ pub const CREDIT_CARD: crate::Emoji = crate::Emoji {
                 "ààwìn",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("信用卡"),
             keywords: &["信用", "信用卡", "卡", "銀行", "錢"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("信用卡"),
             keywords: &["信用", "信用卡", "卡", "钱", "银行"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("信用卡"),
             keywords: &["信用卡", "借记卡", "刷卡", "卡", "贷记卡", "银行卡"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("信用卡"),
             keywords: &["信用卡", "刷卡"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["信用卡", "碌卡"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("ikhredithi khadi"),
@@ -7683,21 +8628,25 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("kwitansie"),
             keywords: &["bewys", "bewyse", "boekhou", "kwitansie", "rekeningkunde"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ደረሰኝ"),
             keywords: &["ሂሳብ አያያዝ", "ማረጋገጫ", "ማስረጃ", "የመዝገብ አያያዝ", "ደረሰኝ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("إيصال"),
             keywords: &["إيصال", "برهان", "حفظ الدفاتر", "دليل", "محاسبة"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("ৰচিদ"),
@@ -7709,21 +8658,25 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "ৰচিদ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("qəbz"),
             keywords: &["dəlil", "mühasibat", "mühasibatlıq", "qəbz", "sübut"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("чэк"),
             keywords: &["бухгалтэрыя", "доказ", "пацвярджэнне", "разлікі", "чэк"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("разписка"),
             keywords: &["доказателство", "разписка", "счетоводство"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("রসিদ"),
@@ -7735,11 +8688,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "হিস\u{9be}বরক\u{9cd}ষণ",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("skrid-degemer"),
             keywords: &["prouenn", "skrid-degemer"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("račun"),
@@ -7751,21 +8706,25 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "računovodstvo",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("rebut"),
             keywords: &["comptabilitat", "llibres", "prova", "rebut", "tiquet"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎢᎦᎢ ᎠᎫᏴᎲᎢ ᎪᏪᎳ"),
             keywords: &["ᎠᏕᎳ ᏗᏎᎯᎯ", "ᎢᎦᎢ ᎠᎫᏴᎲᎢ ᎪᏪᎳ", "ᎪᎯᏳᏔᏅᎯ", "ᎪᏪᎵ ᏗᎦᏘᏍᏗ", "ᏗᎳᏏᏙᏗ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("účtenka"),
             keywords: &["doklad", "potvrzení", "stvrzenka", "účetnictví", "účtenka"],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("derbynneb"),
@@ -7777,11 +8736,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "tystiolaeth",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("kvittering"),
             keywords: &["bevis", "bilag", "bogføring", "kvittering", "regnskab"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Beleg"),
@@ -7793,6 +8754,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "Rechnungslegung",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("απόδειξη"),
@@ -7804,31 +8766,37 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "λογιστική",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("receipt"),
             keywords: &["accounting", "bookkeeping", "evidence", "proof", "receipt"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("recibo"),
@@ -7840,36 +8808,43 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "testimonio",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["contabilidad", "contaduría", "evidencia", "recibo"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("kviitung"),
             keywords: &["arvepidamine", "kviitung", "raamatupidamine", "tõend"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("ordainagiri"),
             keywords: &["froga", "kontabilitate", "ordainagiri"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("رسید"),
             keywords: &["حسابداری", "دفترداری", "رسید", "مدرک", "گواه"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("kuitti"),
@@ -7882,6 +8857,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "tosite",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("resibo"),
@@ -7893,26 +8869,31 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "resibo",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("kvittan"),
             keywords: &["keyp", "kvittan", "prógv", "søla"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("reçu"),
             keywords: &["comptabilité", "justificatif", "preuve", "reçu"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("admháil"),
             keywords: &["admháil", "cuntasaíocht", "fianaise", "leabharchoiméad"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("cuidhteas"),
@@ -7927,6 +8908,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "leabhar-chunntas",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("recibo"),
@@ -7938,6 +8920,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "xustificante",
             ],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("રસીદ"),
@@ -7949,11 +8932,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "સાબિતી",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("קבלה"),
             keywords: &["הוכחה", "הנהלת חשבונות", "קבלה", "ראיית חשבון"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("रसीद"),
@@ -7965,26 +8950,31 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "साक\u{94d}ष\u{94d}य",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("račun"),
             keywords: &["dokaz", "dokaz o kupnji", "račun", "računovodstvo"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("nyugta"),
             keywords: &["bizonyíták", "könyvelés", "nyugta", "pénzügyek", "számla"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("անդորրագիր"),
             keywords: &["անդորրագիր", "ապացույց", "հաշվապահություն", "վկայություն"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("kuitansi"),
             keywords: &["akuntansi", "bukti", "kuitansi", "pembukuan"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("kvittun"),
@@ -7997,16 +8987,19 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "sönnunargagn",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("scontrino"),
             keywords: &["contabilità", "ricevuta di pagamento", "scontrino"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("レシート"),
             keywords: &["レシート", "会計", "簿記", "領収書"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("struk tetukon"),
@@ -8018,11 +9011,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "struk tetukon",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ქვითარი"),
             keywords: &["ბუღალტერია", "მტკიცებულება", "საბუთი", "ქვითარი"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("түбіртек"),
@@ -8034,6 +9029,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "түбіртек",
             ],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("បង\u{17d2}កាន\u{17cb}ដៃ"),
@@ -8045,6 +9041,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "ភស\u{17d2}ត\u{17bb}តាង",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ರಸೀದ\u{cbf}"),
@@ -8056,21 +9053,25 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "ರಸೀದ\u{cbf}",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("영수증"),
             keywords: &["기록", "영수증", "증빙", "회계"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("पावती"),
             keywords: &["गवाय", "पावती", "प\u{941}रावो", "हिशोब", "हिशोब बरोवप"],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("дүмүрчөк"),
             keywords: &["бухгалтерия", "далил", "документ", "дүмүрчөк", "эсеп-кысап"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ໃບຮ\u{eb1}ບເງ\u{eb4}ນ"),
@@ -8082,11 +9083,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "ໃບຮ\u{eb1}ບເງ\u{eb4}ນ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("čekis"),
             keywords: &["apskaita", "čekis", "įrodymai"],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("kvīts"),
@@ -8098,11 +9101,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "uzskaite",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("сметка"),
             keywords: &["доказ", "евиденција", "потврда", "сметка", "сметководство"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("രസീത\u{d4d}"),
@@ -8114,6 +9119,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "രസീത\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("төлбөрийн баримт"),
@@ -8125,6 +9131,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "төлбөрийн баримт",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("रीसिप\u{94d}ट"),
@@ -8136,11 +9143,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "ल\u{947}खा",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("resit"),
             keywords: &["bukti", "keterangan", "perakaunan", "resit", "simpan kira"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("ပြေစာ"),
@@ -8152,11 +9161,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "အထောက\u{103a}အထား",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("kvittering"),
             keywords: &["arkiv", "bilag", "dokumentasjon", "kvittering", "regnskap"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("भर\u{94d}पाई"),
@@ -8167,6 +9178,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "ल\u{947}खा",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("kassabon"),
@@ -8178,11 +9190,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "kwitantie",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("kvittering"),
             keywords: &["arkiv", "bilag", "dokumentasjon", "kvittering", "rekneskap"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ରସ\u{b3f}ଦ"),
@@ -8194,6 +9208,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "ସ\u{b41}ର\u{b3e}ଗ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਰਸੀਦ"),
@@ -8205,21 +9220,25 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "ਸਬ\u{a42}ਤ",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Risit"),
             keywords: &["Akaunt", "Bukkípin", "Pruv", "Risit"],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("paragon"),
             keywords: &["dowód", "księgowość", "paragon", "pokwitowanie"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("رسيد"),
             keywords: &["ثبوت", "حساب کتاب", "دليل", "رسيد", "کتاب ساتنه"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("recibo"),
@@ -8231,6 +9250,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "recibo",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
@@ -8242,26 +9262,31 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "tesouraria",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("chitanță"),
             keywords: &["chitanță", "contabilitate", "evidențe", "recipisă"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E11-072"),
             keywords: &["E11-072"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("чек"),
             keywords: &["бухгалтерия", "счет", "чек"],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("رسيد"),
             keywords: &["اڪائونٽنگ", "بڪ ڪيپنگ", "ثبوت", "رسيد"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ර\u{dd2}ස\u{dd2}ට\u{dca} පත"),
@@ -8272,11 +9297,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "ස\u{dcf}ක\u{dca}ෂ\u{dd2}",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("účtenka"),
             keywords: &["doklad", "potvrdenie", "účtenka", "účtovníctvo"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("račun"),
@@ -8288,6 +9315,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "računovodstvo",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("rasiidh"),
@@ -8299,11 +9327,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "xisaabinta",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("faturë"),
             keywords: &["bllok llogarie", "faturë", "kontabilitet"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("признаница"),
@@ -8315,11 +9345,13 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "рачуноводство",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("priznanica"),
@@ -8331,21 +9363,25 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "računovodstvo",
             ],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("kvitto"),
             keywords: &["belägg", "bevis", "bokföring", "kvitto", "redovisning"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("risiti"),
             keywords: &["rekodi", "risiti", "thibitisho", "uhasibu", "ushahidi"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("ரச\u{bc0}து"),
@@ -8357,6 +9393,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "வரவு செலவு",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("రస\u{c40}దు"),
@@ -8368,6 +9405,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "స\u{c3e}క\u{c4d}ష\u{c4d}యం",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ใบเสร\u{e47}จ"),
@@ -8378,6 +9416,7 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "ใบเสร\u{e47}จร\u{e31}บเง\u{e34}น",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("töleg haty"),
@@ -8390,16 +9429,19 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "töleg haty",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("lisiti"),
             keywords: &["lisiti"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("makbuz"),
             keywords: &["defter tutma", "kanıt", "kayıt", "makbuz", "muhasebe"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("квитанція"),
@@ -8412,16 +9454,19 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "інвойс",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("رسید"),
             keywords: &["اکاؤنٹنگ", "ثبوت", "حساب نویسی", "رسید", "شہادت"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("chek"),
             keywords: &["buxgalteriya", "chek", "cho‘t", "hisob", "hisobchilik"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("biên nhận"),
@@ -8433,31 +9478,37 @@ pub const RECEIPT: crate::Emoji = crate::Emoji {
                 "kế toán",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("收據"),
             keywords: &["收據", "會計", "簿記", "證據", "證明"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("收据"),
             keywords: &["会计", "收据", "簿记", "证据", "证明"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("收据"),
             keywords: &["凭据", "发票", "收据", "记账", "证明", "账单"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("收據"),
             keywords: &["收執聯", "收據", "發票", "紙本", "證明"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["收據", "會計", "記賬", "證據"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("receipt"),
@@ -8477,6 +9528,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("grafiek met stygende jen"),
@@ -8488,16 +9540,19 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "wisselkoers",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ከየን ጋር የሚጨምር ሰንጠረዥ"),
             keywords: &["ሰንጠረዥ", "ከየን ጋር የሚጨምር ሰንጠረዥ", "ዕድገት", "የን", "ገንዘብ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("\u{202b}مخطط لبيانات متزايدة مع الين"),
             keywords: &["أسهم مرتفعة", "سوق", "\u{202b}مخطط لبيانات متزايدة مع الين"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("য\u{9bc}েনৰ ঊৰ\u{9cd}ধম\u{9c1}খী লেখচিত\u{9cd}ৰ"),
@@ -8509,6 +9564,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "য\u{9bc}েনৰ ঊৰ\u{9cd}ধম\u{9c1}খী লেখচিত\u{9cd}ৰ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("ien ilə qalxan qrafik"),
@@ -8521,6 +9577,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ien ilə qalxan qrafik",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("дыяграма росту са знакам іены"),
@@ -8536,6 +9593,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "іена",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Диаграма с възходяща тенденция и знак за йена"),
@@ -8547,6 +9605,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ръст",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("ইয\u{9bc}েনের স\u{9be}থে ক\u{9cd}রমবর\u{9cd}ধম\u{9be}ন চ\u{9be}র\u{9cd}ট"),
@@ -8559,6 +9618,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ব\u{9c3}দ\u{9cd}ধি",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("krommenn kreskiñ ar yen"),
@@ -8571,6 +9631,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("grafikon sa jenom koji prikazuje rast"),
@@ -8582,6 +9643,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("gràfic d’augment amb el signe del ien"),
@@ -8594,6 +9656,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "signe",
             ],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎧᏃᎮᏓ ᏓᏟᎶᏍᏛ ᎧᏁᏉᎬᎢ ᏣᏩᏂᏏ ᎠᏕᎳ"),
@@ -8606,6 +9669,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ᏣᏩᏂᏏ ᎠᏕᎳ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("rostoucí graf se znakem jenu"),
@@ -8624,21 +9688,25 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "vzestupný",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("siart yn cynyddu â yen"),
             keywords: &["banc", "marchnad", "siart", "siart yn cynyddu â yen", "twf"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("stigende marked"),
             keywords: &["opadgående graf", "stigende marked"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("steigende Kurve mit Yen-Zeichen"),
             keywords: &["Diagramm", "Markt", "steigende Kurve mit Yen-Zeichen"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("ανοδικό γράφημα με γιεν"),
@@ -8651,6 +9719,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "τάση",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("chart increasing with yen"),
@@ -8663,6 +9732,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("graph increasing with yen"),
@@ -8676,21 +9746,25 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("mercado al alza"),
@@ -8702,6 +9776,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "tabla",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("mercado en alza"),
@@ -8714,11 +9789,13 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["gráfico", "mercado", "mercado en alza", "tendencia", "yen"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("gráfica de alza con yen"),
@@ -8731,6 +9808,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("tõusev graafik jeenisümboliga"),
@@ -8743,6 +9821,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "valuuta",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("diagrama gorakorra yen-ikurrarekin"),
@@ -8755,6 +9834,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yena",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("نمودار صعودی با ین"),
@@ -8768,6 +9848,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ین",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("yen ja nouseva käyrä"),
@@ -8783,6 +9864,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen ja nouseva käyrä",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("pataas na chart na may yen"),
@@ -8796,6 +9878,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("strikumynd við jenn tekni"),
@@ -8810,6 +9893,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "strikumynd við jenn tekni",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("courbe avec yen en hausse"),
@@ -8821,6 +9905,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "monnaie",
             ],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("courbe croissante précédée du symbole du yen"),
@@ -8833,6 +9918,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("margadh ag méadú le yen"),
@@ -8845,6 +9931,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "méadú",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("cairt a’ dol suas le Yen"),
@@ -8865,6 +9952,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "èirich",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("mercado de iens en alza"),
@@ -8876,6 +9964,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "tendencia",
             ],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ય\u{ac7}ન સાથ\u{ac7} ઉપર જતો ચાર\u{acd}ટ"),
@@ -8888,6 +9977,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ય\u{ac7}ન સાથ\u{ac7} ઉપર જતો ચાર\u{acd}ટ",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("zanen lissafi mai ƙaruwa da yen"),
@@ -8906,11 +9996,13 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ƙaruwa",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("גרף עולה עם סימן ין"),
             keywords: &["גרף", "גרף עולה עם סימן ין", "ין", "כסף", "צמיחה"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("य\u{947}न म\u{947}\u{902} बढ\u{93c}त का र\u{942}झान दिखाता चार\u{94d}ट"),
@@ -8924,6 +10016,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "य\u{947}न म\u{947}\u{902} बढ\u{93c}त का र\u{942}झान दिखाता चार\u{94d}ट",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("grafikon rastućeg trenda sa znakom jena"),
@@ -8937,6 +10030,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("növekvő jendiagram"),
@@ -8949,6 +10043,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "trend",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("աճող դիագրամ իենով"),
@@ -8967,6 +10062,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "փող",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("bagan meningkat dengan yen"),
@@ -8979,6 +10075,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("mmụba chaatị nwere yen"),
@@ -8996,6 +10093,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ụlọ akụ",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("markaður á uppleið"),
@@ -9007,16 +10105,19 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "á uppleið",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("grafico ascendente"),
             keywords: &["ascendente", "grafico", "mercato", "mercato in salita"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("為替"),
             keywords: &["グラフ", "チャート", "市場", "株", "株価", "為替"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("grafik mata uang yen mundhak"),
@@ -9028,6 +10129,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ზრდადი გრაფიკი იენათი"),
@@ -9045,6 +10147,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ფული",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("йена бағамы көтерілгенін көрсететін диаграмма"),
@@ -9057,11 +10160,13 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "өсім",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("stigende marked"),
             keywords: &["opadgående graf", "stigende marked"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("តារាងក\u{17c6}ណើនល\u{17bb}យយេន"),
@@ -9072,6 +10177,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ល\u{17bb}យយេន",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some(
@@ -9085,11 +10191,13 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ಯ\u{cc6}ನ\u{ccd} ನೊಂದ\u{cbf}ಗ\u{cc6} ಏರುತ\u{ccd}ತ\u{cbf}ರುವ ಚಾರ\u{ccd}ಟ\u{ccd}",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("엔화 관련 상승하는 그래프"),
             keywords: &["시장 호황", "엔화 관련 상승하는 그래프", "호황"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("य\u{947}न सयत वाडपी तकटो"),
@@ -9102,6 +10210,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "वाड",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("иена менен көтөрүлүп жаткан диаграмма"),
@@ -9113,6 +10222,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "көтөрүлүү",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("steigende Coursdiagramm mat Yen"),
@@ -9133,6 +10243,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "steigende Coursdiagramm mat Yen",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some(
@@ -9146,6 +10257,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ເສ\u{eb1}\u{ec9}ນສະແດງຄ\u{ec8}າເງ\u{eb4}ນເຢ\u{eb1}ນທ\u{eb5}\u{ec8}ເພ\u{eb5}\u{ec8}ມຂ\u{eb6}\u{ec9}ນ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("didėjimo diagrama su jenos simboliu"),
@@ -9158,6 +10270,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "valiuta",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("augšupejoša diagrammas līkne ar jenas simbolu"),
@@ -9170,6 +10283,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "tirgus",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("tūtohi aupiki me te yen"),
@@ -9188,6 +10302,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("растечки графикон на јенот"),
@@ -9200,6 +10315,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "јен",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("മ\u{d3e}ർക\u{d4d}കറ\u{d4d}റ\u{d4d} ഉയർച\u{d4d}ച"),
@@ -9211,6 +10327,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "മ\u{d41}കളിലേക\u{d4d}ക\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("иенийн өсч буй диаграм"),
@@ -9224,6 +10341,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "өсөлт",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("य\u{947}न सह वाढणारा चार\u{94d}ट"),
@@ -9236,6 +10354,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "य\u{947}न सह वाढणारा चार\u{94d}ट",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("carta yen meningkat"),
@@ -9249,6 +10368,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("ċart tiżdied bil-yen"),
@@ -9267,6 +10387,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "’l fuq",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some(
@@ -9281,6 +10402,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ယန\u{103a}းတန\u{103a}ဖ\u{102d}\u{102f}း မြင\u{1037}\u{103a}တက\u{103a}နေသည\u{1037}\u{103a} ဇယားပ\u{102f}\u{1036}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("stigende diagram med yen"),
@@ -9295,6 +10417,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("य\u{947}नस\u{901}ग\u{948} बढिरह\u{947}को चार\u{94d}ट"),
@@ -9307,6 +10430,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "व\u{943}द\u{94d}धि",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("stijgende grafiek met yenteken"),
@@ -9319,6 +10443,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("stigande diagram med yen"),
@@ -9333,6 +10458,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some(
@@ -9348,6 +10474,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ୟେନ\u{b4d}\u{200c} ସହ\u{b3f}ତ ବ\u{b43}ଦ\u{b4d}ଧ\u{b3f}ପ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଚ\u{b3e}ର\u{b4d}ଟ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਯ\u{a47}ਨ ਵਿ\u{a71}ਚ ਵਾਧਾ ਵਿਖਾਉਣ ਵਾਲਾ ਚਾਰਟ"),
@@ -9361,6 +10488,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ਵਾਧਾ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("ین نال ودھدا ہوئیا چارٹ"),
@@ -9379,11 +10507,13 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ین نال ودھدا ہوئیا چارٹ",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Graf Wé Shó Sé Yẹn De Gó Ọp"),
             keywords: &["Graf", "Graf Wé Shó Sé Yẹn De Gó Ọp", "Gro", "Mọní", "Yẹn"],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("wykres wzrostu z symbolem jena"),
@@ -9397,6 +10527,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "wzrost",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("چارټ د یین سره زیاتیږي"),
@@ -9409,6 +10540,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ګراف",
             ],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("gráfico subindo com iene"),
@@ -9421,6 +10553,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "iene em alta",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("gráfico a subir com iene"),
@@ -9438,6 +10571,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "tendência",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("grafic ascendent cu yen"),
@@ -9449,16 +10583,19 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-630"),
             keywords: &["E10-630"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("биржа"),
             keywords: &["биржа", "валюта", "деньги", "рост", "рынок", "тенденция"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("imbonerahamwe igaragaza iyeni rizamuka"),
@@ -9476,6 +10613,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ukwiyongera",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("يين سان گڏ وڌندڙ چارٽ"),
@@ -9494,6 +10632,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "گراف",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("යෙන\u{dca} සමග වැඩ\u{dd2}වන ප\u{dca}\u{200d}රස\u{dca}ත\u{dcf}රය"),
@@ -9505,6 +10644,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "වෙළඳපොළ",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("stúpajúci graf jenu"),
@@ -9518,6 +10658,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "trh",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("grafikon rasti za jen"),
@@ -9536,6 +10677,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "valuta",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("shaxan muujinaya yeen kordhaysa"),
@@ -9548,11 +10690,13 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yeen",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("grafik rritës me jenë"),
             keywords: &["grafik", "grafik rritës me jenë", "jen", "tendencë", "treg"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("графикон пораста са знаком јена"),
@@ -9564,11 +10708,13 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "јен",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["графикон пораста са знаком јена"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("grafikon porasta sa znakom jena"),
@@ -9580,11 +10726,13 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "rast",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["grafikon porasta sa znakom jena"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("stigande diagram med yen"),
@@ -9596,6 +10744,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "uppåtpekande",
             ],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("chati inayopanda yenye yeni"),
@@ -9609,6 +10758,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yeni",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("chati inayopanda yenye yeni"),
@@ -9627,6 +10777,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yeni",
             ],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("வளரும\u{bcd} பங\u{bcd}குச\u{bcd}சந\u{bcd}தை"),
@@ -9636,6 +10787,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "வளரும\u{bcd} பங\u{bcd}குச\u{bcd}சந\u{bcd}தை",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some(
@@ -9647,6 +10799,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "య\u{c46}న\u{c4d} చ\u{c3f}హ\u{c4d}నంత\u{c4b} ప\u{c48}క\u{c3f} చూపుతున\u{c4d}న చ\u{c3e}ర\u{c4d}ట\u{c4d}",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("диаграммаи афзоиш бо йен"),
@@ -9665,21 +10818,25 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "тамоюл",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ตลาดข\u{e36}\u{e49}น"),
             keywords: &["ตลาดข\u{e36}\u{e49}น", "ฟอเร\u{e47}กซ\u{e4c}"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("ýenli köpelýän grafik"),
             keywords: &["grafik", "pul", "ösüş", "ýen", "ýenli köpelýän grafik"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("siate tupulaki, paʻanga fakasiapani"),
             keywords: &["siate tupulaki, paʻanga fakasiapani"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("yen simgeli artış grafiği"),
@@ -9691,6 +10848,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yukarı yönlü",
             ],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("يېن ئاشما گىرافىكى"),
@@ -9709,6 +10867,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "گىرافىك",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("графік зростання і знак єни"),
@@ -9727,6 +10886,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "єна",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ین کے ساتھ صعودی چارٹ"),
@@ -9740,6 +10900,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ین کے ساتھ صعودی چارٹ",
             ],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("o‘sayotgan iyena diagrammasi"),
@@ -9753,11 +10914,13 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yen oʻsish diagrammasi",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("biểu đồ đồng yên tăng"),
             keywords: &["biểu đồ", "biểu đồ đồng yên tăng", "tiền", "tăng", "yên"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("grafiku yen buy yéeg"),
@@ -9776,6 +10939,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "yéeg",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("itshati iyanda nge-yen"),
@@ -9794,6 +10958,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ulwando",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("àtẹ n pọsi pẹlu yẹn"),
@@ -9811,11 +10976,13 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "ọjà",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("日元升值"),
             keywords: &["上升", "圖表", "增長", "日元", "日元升值", "貨幣"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("日元升值"),
@@ -9834,6 +11001,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "银行",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("趋势向上且带有日元符号的图表"),
@@ -9846,11 +11014,13 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "趋势向上且带有日元符号的图表",
             ],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("貨幣升值"),
             keywords: &["上揚", "圖表", "市場走向", "貨幣升值"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("有日元標誌嘅向上折線圖"),
@@ -9862,6 +11032,7 @@ pub const CHART_INCREASING_WITH_YEN: crate::Emoji = crate::Emoji {
                 "有日元標誌嘅向上折線圖",
             ],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("ishadi elivuza ukukhuphuka kweyeni"),

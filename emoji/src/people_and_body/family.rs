@@ -10,6 +10,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("mense wat hande vashou"),
@@ -21,11 +22,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "vashou",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ሰዎች እጅ ለእጅ ተያይዘው"),
             keywords: &["መያዝ", "ሰዎች እጅ ለእጅ ተያይዘው", "እጅ", "እጅ ለእጅ መያያዝ", "ጥንዶች"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("أشخاص يمسكون بأيدي بعضهم"),
@@ -39,6 +42,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "يدان",
             ],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("হ\u{9be}তে হ\u{9be}তে ধৰি থক\u{9be} ম\u{9be}ন\u{9c1}হৰ ছবি"),
@@ -51,6 +55,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "হ\u{9be}তে হ\u{9be}তে ধৰি থক\u{9be} ম\u{9be}ন\u{9c1}হৰ ছবি",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("əl-ələ tutan adamlar"),
@@ -62,6 +67,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "əl-ələ tutmaq",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("людзі трымаюцца за рукі"),
@@ -74,6 +80,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "чалавек",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("хора, които се държат за ръце"),
@@ -86,6 +93,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "човек",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("হ\u{9be}ত ধরে থ\u{9be}ক\u{9be} লোকের\u{9be}"),
@@ -97,11 +105,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "হ\u{9be}ত ধরে থ\u{9be}ক\u{9be} লোকের\u{9be}",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("ljudi se drže za ruke"),
             keywords: &["držanje za ruke", "ljudi se drže za ruke", "par", "ruka"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("persones que s’agafen de la mà"),
@@ -115,11 +125,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "persones que s’agafen de la mà",
             ],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎠᏂᏴᏫ ᏚᎾᏙᏯᏂᎠ"),
             keywords: &["ᎠᏂᏴᏫ ᏚᎾᏙᏯᏂᎠ", "ᎤᏂᏴᎢ", "ᎤᏬᏱ", "ᏗᎾᏤᎯ", "ᏚᎾᏙᏯᏂᎠ", "ᏴᏫ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("dva lidé držící se za ruce"),
@@ -133,6 +145,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "člověk",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("pobl yn dal dwylo"),
@@ -145,11 +158,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pobl yn dal dwylo",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("mennesker, der holder hånd"),
             keywords: &["mennesker, der holder hånd"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("sich an den Händen haltende Personen"),
@@ -160,6 +175,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "sich an den Händen haltende Personen",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("άτομα πιασμένα χέρι-χέρι"),
@@ -172,6 +188,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "χέρι",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("people holding hands"),
@@ -184,46 +201,55 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "person",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("dos personas de la mano"),
             keywords: &["dos personas de la mano", "mano", "pareja", "persona"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("personas que se toman de la mano"),
             keywords: &["personas que se toman de la mano"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("inimesed hoiavad käest kinni"),
@@ -236,6 +262,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "paar",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("bi pertsona elkarri eskua ematen"),
@@ -248,11 +275,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pertsona",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("اشخاصی دست در دست هم"),
             keywords: &["اشخاصی دست در دست هم", "دست", "دست در دست", "زوج", "شخص"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("ihmiset käsi kädessä"),
@@ -265,6 +294,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pitää toisiaan käsistä",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("mga taong magkahawak-kamay"),
@@ -278,11 +308,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tao",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("fólk leiðast"),
             keywords: &["fólk", "leiðast", "par"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("deux personnes se tenant la main"),
@@ -295,11 +327,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tenir la main",
             ],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("personnes se tenant par la main"),
             keywords: &["personnes se tenant par la main"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("daone a bhfuil greim láimhe acu ar a chéile"),
@@ -311,6 +345,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "lámh",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("daoine a’ glacadh air làmh a chèile"),
@@ -322,6 +357,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "làmh",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("persoas dándose a man"),
@@ -333,6 +369,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "persoas dándose a man",
             ],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("હાથ પકડ\u{ac7}લા લોકો"),
@@ -345,11 +382,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "હાથ પકડ\u{ac7}લા લોકો",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("אנשים מחזיקים ידיים"),
             keywords: &["אנשים מחזיקים ידיים", "זוג", "יד", "ידיים", "מחזיקים ידיים"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("हाथ पकड\u{93c}\u{947} ह\u{941}ए लोग"),
@@ -362,6 +401,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हाथ पकड\u{93c}\u{947} ह\u{941}ए लोग",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("osobe koje se drže za ruke"),
@@ -374,6 +414,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ruka",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("egymás kezét fogó emberek"),
@@ -385,16 +426,19 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pár",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("իրար ձեռք բռնած մարդիկ"),
             keywords: &["բռնել", "զույգ", "իրար ձեռք բռնած մարդիկ", "ձեռք"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("orang bergandengan"),
             keywords: &["bergandengan", "orang", "pasangan", "tangan"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("fólk að leiðast"),
@@ -407,6 +451,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "par",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("persone che si tengono per mano"),
@@ -418,6 +463,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tenersi per mano",
             ],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("手をつなぐ2人"),
@@ -431,6 +477,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "手をつなぐ2人",
             ],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("wong gandhengan tangan"),
@@ -442,6 +489,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "wong gandhengan tangan",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ხელჩაკიდებული ხალხი"),
@@ -453,6 +501,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ხელჩაკიდებული ხალხი",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("қолдарын көтеріп тұрған адамдар"),
@@ -465,6 +514,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ұстаған",
             ],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("មន\u{17bb}ស\u{17d2}សកាន\u{17cb}ដៃគ\u{17d2}នា"),
@@ -477,6 +527,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "មន\u{17bb}ស\u{17d2}សកាន\u{17cb}ដៃគ\u{17d2}នា",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಕೈಹ\u{cbf}ಡ\u{cbf}ದ\u{cbf}ರುವ ವ\u{ccd}ಯಕ\u{ccd}ತ\u{cbf}ಗಳು"),
@@ -489,11 +540,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ಹ\u{cbf}ಡ\u{cbf}ದುಕೊಂಡ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("손을 잡고 있는 두 명의 사람"),
             keywords: &["사람", "손", "손을 잡고 있는 두 명의 사람", "커플"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("एकम\u{947}का\u{902}च\u{947} हात धरिल\u{94d}ल\u{947} लोक"),
@@ -507,6 +560,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हात",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("кол кармашкан адамдар"),
@@ -518,6 +572,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "кол кармашуу",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຄ\u{ebb}ນຈ\u{eb1}ບມ\u{eb7}ກ\u{eb1}ນ"),
@@ -529,6 +584,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ມ\u{eb7}",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("rankomis susikibę žmonės"),
@@ -541,6 +597,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "susikibusios rankos",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("cilvēki sadevušies rokās"),
@@ -553,6 +610,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "satvēriens",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("луѓе се држат за раце"),
@@ -565,6 +623,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "рака",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some(
@@ -579,11 +638,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "വ\u{d4d}യക\u{d4d}തി",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("гар барилцаж буй хүмүүс"),
             keywords: &["барих", "гар", "гар барилцаж буй хүмүүс", "хосууд", "хүн"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("हात धरल\u{947}ल\u{947} लोक"),
@@ -595,6 +656,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हात धर\u{941}न ठ\u{947}वण\u{947}",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("orang berpegangan tangan"),
@@ -607,6 +669,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tangan",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("လက\u{103a}ချင\u{103a}းချ\u{102d}တ\u{103a}ထားသ\u{1030}များ"),
@@ -619,6 +682,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "လ\u{1030}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("personer som leier"),
@@ -630,6 +694,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "personer som leier",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("हात समातिरह\u{947}का मान\u{94d}छ\u{947}हर\u{942}"),
@@ -642,6 +707,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हात समातिरह\u{947}का मान\u{94d}छ\u{947}हर\u{942}",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("personen hand in hand"),
@@ -654,6 +720,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "vasthouden",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("personar som leiar"),
@@ -665,6 +732,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "personar som leiar",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଲୋକମ\u{b3e}ନେ ହ\u{b3e}ତ ଧର\u{b3e}ଧର\u{b3f} ହୋଇଛନ\u{b4d}ତ\u{b3f}"),
@@ -676,6 +744,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ହ\u{b3e}ତ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਹ\u{a71}ਥ ਫੜਦ\u{a47} ਹ\u{a4b}ਏ ਲ\u{a4b}ਕ"),
@@ -687,6 +756,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ਹ\u{a71}ਥ ਫੜਦ\u{a47} ਹ\u{a4b}ਏ ਲ\u{a4b}ਕ",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Pípul Wé Hól Hand"),
@@ -699,11 +769,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "Tú Pípul",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("osoby trzymające się za ręce"),
             keywords: &["osoby trzymające się za ręce", "para", "za ręce"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("خلکو لاسونه نيولي"),
@@ -716,6 +788,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "نيول",
             ],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("pessoas de mãos dadas"),
@@ -728,6 +801,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "segurando",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
@@ -739,6 +813,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pessoas de mãos dadas",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("runakuna iskay makikunawan"),
@@ -750,6 +825,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "runakuna iskay makikunawan",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("persoane ținându-se de mână"),
@@ -762,11 +838,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ținându-se de mână",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E12–099"),
             keywords: &["E12–099"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("люди, держащиеся за руки"),
@@ -778,11 +856,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "руки",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("هٿ جهليل ماڻهو"),
             keywords: &["جهليل هٿ", "جهلڻ", "جوڙو", "ماڻهو", "هٿ", "هٿ جهليل ماڻهو"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some(
@@ -796,16 +876,19 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ය\u{dd4}වල",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("ľudia držiaci sa za ruky"),
             keywords: &["držať", "pár", "ruka", "človek", "ľudia držiaci sa za ruky"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("osebi se držita za roke"),
             keywords: &["držati", "oseba", "osebi se držita za roke", "par", "roka"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("dad gacmaha is haysta"),
@@ -818,6 +901,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "qof",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("njerëz të kapur për duarsh"),
@@ -829,21 +913,25 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "çift",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("особе се држе за руке"),
             keywords: &["особе се држе за руке"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("osobe se drže za ruke"),
             keywords: &["osobe se drže za ruke"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("personer som håller hand"),
@@ -854,6 +942,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "personer som håller hand",
             ],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("watu walioshikana mikono"),
@@ -866,11 +955,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "watu walioshikana mikono",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("கை கோர\u{bcd}த\u{bcd}திருக\u{bcd}கும\u{bcd} மக\u{bcd}கள\u{bcd}"),
@@ -882,6 +973,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "நபர\u{bcd}",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("చ\u{c47}తులు పట\u{c4d}టుకున\u{c4d}న వ\u{c4d}యక\u{c4d}తులు"),
@@ -894,6 +986,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "వ\u{c4d}యక\u{c4d}త\u{c3f}",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("คนจ\u{e31}บม\u{e37}อก\u{e31}น"),
@@ -905,6 +998,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ม\u{e37}อ",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("el tutuşýan adamlar"),
@@ -917,11 +1011,13 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tutmak",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("kakai fetakinima"),
             keywords: &["kakai fetakinima"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("el ele tutuşan insanlar"),
@@ -935,6 +1031,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "çift",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("люди, що тримаються за руки"),
@@ -948,6 +1045,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "тримаються",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ہاتھ پکڑے ہوئے لوگ"),
@@ -960,6 +1058,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ہاتھ پکڑے ہوئے لوگ",
             ],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("qoʻl ushlashib turgan odamlar"),
@@ -971,6 +1070,7 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ushlab",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("hai người nắm tay"),
@@ -984,31 +1084,37 @@ pub const PEOPLE_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tay",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("拖住嘅人"),
             keywords: &["人", "情侶", "手", "拖住", "拖住嘅人", "拖住嘅手"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("拖住嘅人"),
             keywords: &["人", "情侣", "手", "拖住", "拖住嘅人", "拖住嘅手"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("手拉手的两个人"),
             keywords: &["人", "情侣", "手", "手拉手的两个人", "拉手", "握手"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("握手的人"),
             keywords: &["情侶", "握手", "握手的人", "牽手", "牽牽"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("拖手的人"),
             keywords: &["拖手的人"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("Abantu ababambene ngezandla"),
@@ -1369,6 +1475,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("twee vroue wat hande vashou"),
@@ -1380,11 +1487,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "vroue",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("እጅ ለእጅ የተያያዙ ሴቶች"),
             keywords: &["መያዝ", "ሴት", "እጅ", "እጅ ለእጅ የተያያዙ ሴቶች"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("\u{202b}امرأتان تمسكان بيد بعضهما"),
@@ -1395,6 +1504,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "\u{202b}امرأتان تمسكان بيد بعضهما",
             ],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("হ\u{9be}তে হ\u{9be}তে ধৰি থক\u{9be} মহিল\u{9be}ৰ ছবি"),
@@ -1406,11 +1516,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "হ\u{9be}তে হ\u{9be}তে ধৰি থক\u{9be} মহিল\u{9be}ৰ ছবি",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("əl-ələ tutan iki qadın"),
             keywords: &["cütlük", "qadın", "tutmaq", "əl", "əl-ələ tutan iki qadın"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("жанчыны трымаюцца за рукі"),
@@ -1422,6 +1534,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "трымаць",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Две жени, държащи се за ръце"),
@@ -1433,6 +1546,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ръка",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("দ\u{9c1}জন মহিল\u{9be} হ\u{9be}ত ধরে দ\u{9be}ড\u{9bc}িয\u{9bc}ে আছে"),
@@ -1444,11 +1558,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "হ\u{9be}ত",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("žene se drže za ruke"),
             keywords: &["držanje za ruke", "par", "žene", "žene se drže za ruke"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("dones que s’agafen de la mà"),
@@ -1459,11 +1575,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "parella de dones",
             ],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎠᏂᎨᏯ ᏚᎾᏙᏯᏂᎠ"),
             keywords: &["ᎠᏂᎨᏯ", "ᎤᏂᏴᎢ", "ᎤᏬᏱ", "ᏚᎾᏙᏯᏂᎠ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("dvě ženy držící se za ruce"),
@@ -1476,6 +1594,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "žena",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("dwy fenyw yn dal dwylo"),
@@ -1487,11 +1606,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pâr",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("to kvinder hånd i hånd"),
             keywords: &["par", "to kvinder hånd i hånd"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Händchen haltende Frauen"),
@@ -1503,6 +1624,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "Pärchen aus Frau und Frau",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("γυναίκες πιασμένες χέρι-χέρι"),
@@ -1514,6 +1636,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "χέρι",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("women holding hands"),
@@ -1525,11 +1648,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "women holding hands",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
@@ -1542,16 +1667,19 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "women holding hands",
             ],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("mujeres de la mano"),
@@ -1563,16 +1691,19 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pareja",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["amor", "gemelas", "mujeres", "mujeres de la mano", "pareja"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
@@ -1584,6 +1715,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tomándose de las manos",
             ],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("käest kinni hoidvad naised"),
@@ -1595,6 +1727,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "paar",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("bi emakume elkarri eskua ematen"),
@@ -1606,6 +1739,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "eskua",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("دو زن دست در دست"),
@@ -1618,6 +1752,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "همجنس\u{200c}گرا",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("kaksi naista käsi kädessä"),
@@ -1629,6 +1764,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pariskunta",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("dalawang babaeng magkahawak-kamay"),
@@ -1641,11 +1777,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "magkapareha",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("kvinnur leiðast"),
             keywords: &["konur", "kvinnur", "leiðast", "par"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("deux femmes se tenant la main"),
@@ -1657,6 +1795,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "main dans la main",
             ],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("deux femmes se tenant par la main"),
@@ -1672,6 +1811,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "union",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("beirt bhan le chéile"),
@@ -1683,6 +1823,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "mná",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("boireannaich a’ glacadh air làmh a chèile"),
@@ -1694,6 +1835,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "làmh",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("dúas mulleres collidas da man"),
@@ -1704,6 +1846,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "parella",
             ],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("એકબીજાના\u{a82} હાથ પકડ\u{ac7}લી બ\u{ac7} સ\u{acd}ત\u{acd}રીઓ"),
@@ -1716,6 +1859,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "હાથ પકડવા",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("mata biyu suna riƙewa hannuwa"),
@@ -1727,6 +1871,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "riƙe",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("שתי נשים מחזיקות ידיים"),
@@ -1738,6 +1883,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "שתי נשים מחזיקות ידיים",
             ],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("हाथ पकड\u{93c}\u{947} दो महिलाए\u{901}"),
@@ -1750,6 +1896,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हाथ पकड\u{93c}\u{947} दो महिलाए\u{901}",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("žene koje se drže za ruke"),
@@ -1761,11 +1908,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "žene koje se drže za ruke",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("kézen fogva álló nők"),
             keywords: &["kézen fogva", "kézen fogva álló nők", "nők", "pár"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("իրար ձեռք բռնած կանայք"),
@@ -1777,6 +1926,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ձեռք բռնել",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("dua wanita bergandengan"),
@@ -1790,6 +1940,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "wanita",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ụmụ nwanyị abụọ jikọtara aka"),
@@ -1801,11 +1952,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ụmụ nwanyị abụọ jikọtara aka",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("konur sem leiðast"),
             keywords: &["hendur", "konur", "konur sem leiðast", "leiðast", "par"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("due donne che si tengono per mano"),
@@ -1816,11 +1969,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tenersi per mano",
             ],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("手をつなぐ女性"),
             keywords: &["カップル", "友達", "同性", "女", "恋人", "手をつなぐ女性"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("wong wadon loro gandhengan tangan"),
@@ -1832,6 +1987,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "wong wadon loro gandhengan tangan",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ორი ხელჩაკიდებული ქალი"),
@@ -1843,6 +1999,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ხელი",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("қол ұстасып тұрған екі әйел"),
@@ -1854,11 +2011,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "әйел",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("to kvinder"),
             keywords: &["par", "to kvinder"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("នារ\u{17b8}ព\u{17b8}រនាក\u{17cb}កាន\u{17cb}ដៃគ\u{17d2}នា"),
@@ -1869,6 +2028,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ស\u{17d2}រ\u{17b8}",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಇಬ\u{ccd}ಬರು ಮಹ\u{cbf}ಳ\u{cc6}ಯರು ಕೈ ಹ\u{cbf}ಡ\u{cbf}ದ\u{cbf}ರುವುದು"),
@@ -1879,6 +2039,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ಮಹ\u{cbf}ಳ\u{cc6}",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("손을 잡고 있는 두 명의 여자"),
@@ -1890,6 +2051,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "친구들",
             ],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("एकम\u{947}का\u{902}चो हात धरिल\u{94d}ल\u{94d}यो बायलो"),
@@ -1902,16 +2064,19 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हात",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("кол кармашкан эки аял"),
             keywords: &["аял", "кол", "кол кармашкан эки аял", "түгөйлөр"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("zwou Fraen Hand an Hand"),
             keywords: &["Fra", "Hand", "Koppel", "halen", "zwou Fraen Hand an Hand"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ແມ\u{ec8}ຍ\u{eb4}ງຈ\u{eb1}ບມ\u{eb7}ກ\u{eb1}ນ"),
@@ -1924,6 +2089,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ແມ\u{ec8}ຍ\u{eb4}ງຈ\u{eb1}ບມ\u{eb7}ກ\u{eb1}ນ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("dvi moterys, susikibusios už rankų"),
@@ -1935,6 +2101,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ranka",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("sievietes sadevušās rokās"),
@@ -1946,6 +2113,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "sievietes sadevušās rokās",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("tokorua wāhine mau ringa"),
@@ -1957,6 +2125,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "wahine",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("две жени се држат за рака"),
@@ -1970,6 +2139,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "рака",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some(
@@ -1983,11 +2153,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "രണ\u{d4d}ട\u{d4d} സ\u{d4d}ത\u{d4d}രീകൾ കൈകോർത\u{d4d}ത\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("хөтлөлцсөн хоёр эмэгтэй"),
             keywords: &["гар", "хос", "хөтлөлцсөн хоёр эмэгтэй", "эмэгтэй"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("हातात हात धरणार\u{94d}\u{200d}या दोन महिला"),
@@ -1999,6 +2171,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हातात हात धरणार\u{94d}\u{200d}या दोन महिला",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("dua wanita berpegangan tangan"),
@@ -2010,6 +2183,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "wanita",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("żewġ nisa jżommu jdejhom"),
@@ -2021,6 +2195,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "żomm",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some(
@@ -2034,6 +2209,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "အမျ\u{102d}\u{102f}းသမ\u{102e}း",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("kvinner som leier"),
@@ -2045,6 +2221,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "par",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("हात समातिरह\u{947}का द\u{941}ई महिला"),
@@ -2056,6 +2233,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हात समातिरह\u{947}का द\u{941}ई महिला",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("vrouwen hand in hand"),
@@ -2067,6 +2245,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "vrouwen hand in hand",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("kinner som leiar"),
@@ -2079,6 +2258,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "par",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some(
@@ -2093,6 +2273,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ହ\u{b3e}ତ ଧର\u{b3e}ଧର\u{b3f} ହୋଇଥ\u{b3f}ବ\u{b3e} ମହ\u{b3f}ଳ\u{b3e}ମ\u{b3e}ନେ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਦ\u{a4b} ਔਰਤਾ\u{a02} ਨ\u{a47} ਹ\u{a71}ਥ ਫੜਿਆ ਹ\u{a4b}ਇਆ"),
@@ -2105,6 +2286,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ਹ\u{a71}ਥ ਫੜ\u{a47} ਹ\u{a4b}ਏ ਦ\u{a4b} ਜ\u{a3c}ਨਾਨੀਆ\u{a02}",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("ہتھ پھڑدیاں دو زنانیاں"),
@@ -2116,6 +2298,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ہتھ پھڑدیاں دو زنانیاں",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Wímẹn Wé Hól Hand"),
@@ -2127,6 +2310,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "Wímẹn Wé Hól Hand",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("kobiety trzymające się za ręce"),
@@ -2139,11 +2323,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zakochani",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("دوه ښځو لاسونه نيولي"),
             keywords: &["جوړه", "دوه ښځو لاسونه نيولي", "لاس", "لاسونه نيول", "ښځه"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("duas mulheres de mãos dadas"),
@@ -2156,6 +2342,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pessoas",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("mulheres de mãos dadas"),
@@ -2167,6 +2354,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "mãos dadas",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("warmi iskay makikunawan"),
@@ -2178,6 +2366,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "warmi iskay makikunawan",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("femei ținându-se de mână"),
@@ -2190,16 +2379,19 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ținându-se de mână",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-554"),
             keywords: &["E10-554"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("две женщины"),
             keywords: &["две женщины", "женщины", "пара", "руки", "сестры"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("abagore babiri bafatanye ibigaza"),
@@ -2211,11 +2403,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "umugore",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("هٿ جهليل عورتون"),
             keywords: &["جهليل هٿ", "جوڙو", "عورت", "هت", "هٿ جهليل عورتون"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some(
@@ -2229,11 +2423,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ජෝඩ\u{dd4}ව",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("ženy držiace sa za ruky"),
             keywords: &["držať", "pár", "ruka", "žena", "ženy držiace sa za ruky"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("ženski se držita za roke"),
@@ -2245,11 +2441,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ženski se držita za roke",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("haween haysta is gacmaha"),
             keywords: &["haween haysta is gacmaha", "lammaane"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("dy gra të kapura për duarsh"),
@@ -2261,6 +2459,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "çift",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("жене се држе за руке"),
@@ -2272,11 +2471,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "рука",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("žene se drže za ruke"),
@@ -2288,6 +2489,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "žene se drže za ruke",
             ],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("två kvinnor håller hand"),
@@ -2299,6 +2501,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "två kvinnor håller hand",
             ],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("wanawake walioshikana mikono"),
@@ -2310,11 +2513,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "wanawake wawili",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("கைகோர\u{bcd}த\u{bcd}த இரு பெண\u{bcd}கள\u{bcd}"),
@@ -2326,6 +2531,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "பெண\u{bcd}கள\u{bcd}",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some(
@@ -2337,6 +2543,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "స\u{c4d}త\u{c4d}ర\u{c40}లు",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("ду зане, ки дастҳои якдигарро дошта истодаанд"),
@@ -2348,6 +2555,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ҷуфт",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("หญ\u{e34}ง-หญ\u{e34}งจ\u{e31}บม\u{e37}อ"),
@@ -2359,6 +2567,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "หญ\u{e34}ง-หญ\u{e34}งจ\u{e31}บม\u{e37}อ",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("el tutuşan aýallar"),
@@ -2372,11 +2581,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zenanlar",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("ongo fafine fetakinima"),
             keywords: &["ongo fafine fetakinima"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("el ele tutuşan kadınlar"),
@@ -2388,11 +2599,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "çift",
             ],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("قول تۇتۇشقان ئاياللار"),
             keywords: &["ئايال", "تۇتۇش", "جۈپ", "قول", "قول تۇتۇشقان ئاياللار"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("жінки, що тримаються за руки"),
@@ -2404,11 +2617,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "тримаються за руки",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ہاتھ تھامے دو عورتیں"),
             keywords: &["تھامنا", "جوڑا", "عورتیں", "ہاتھ", "ہاتھ تھامے دو عورتیں"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("qoʻl ushlashgan ayollar"),
@@ -2420,11 +2635,13 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "qoʻl ushlashish",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("hai người phụ nữ nắm tay"),
             keywords: &["cặp đôi", "hai người phụ nữ nắm tay", "phụ nữ", "tay"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("ñaari jigéen yu jàppante loxo"),
@@ -2436,6 +2653,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ñaari jigéen yu jàppante loxo",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("amabhinqa amabini abambene ngezandla"),
@@ -2447,6 +2665,7 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "isibini",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Obinrin Meji Ti O Dọwọ Ara Wọn Mu"),
@@ -2458,31 +2677,37 @@ pub const WOMEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ọwọ\u{301}",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("兩個女人拖手"),
             keywords: &["兩個女人拖手", "夫婦", "女", "手", "拖"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("两个女人拖手"),
             keywords: &["两个女人拖手", "夫妇", "女", "手", "拖"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("手拉手的两个女人"),
             keywords: &["两个女人", "情侣", "手拉手", "手拉手的两个女人"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("兩個女人"),
             keywords: &["兩個女人", "兩個女人手拉手", "手拉手"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("兩個女人拖住手"),
             keywords: &["兩個女人拖住手", "女人拖住手", "拖手", "朋友"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("abasimame ababambene ngesandla"),
@@ -2837,6 +3062,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("man en vrou wat hande vashou"),
@@ -2850,16 +3076,19 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "vrou",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("እጅ ለእጅ የተያያዙ ወንድ እና ሴት"),
             keywords: &["ሴት", "እጅ", "እጅ ለእጅ የተያያዙ ወንድ እና ሴት", "ወንድ", "ጥንዶች"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("رجل وامرأة يمسكان بيد بعضهما"),
             keywords: &["أشخاص", "رجل وامرأة يمسكان بيد بعضهما", "زوج", "يد بيد"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some(
@@ -2875,6 +3104,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "হ\u{9be}তে হ\u{9be}তে ধৰি থক\u{9be} মহিল\u{9be} আৰ\u{9c1} প\u{9c1}ৰ\u{9c1}ষৰ ছবি",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("əl-ələ tutan kişi və qadın"),
@@ -2888,6 +3118,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "əl-ələ tutmaq",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("мужчына і жанчына трымаюцца за рукі"),
@@ -2899,6 +3130,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "рука",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Мъж и жена, държащи се за ръце"),
@@ -2910,6 +3142,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ръка",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some(
@@ -2924,6 +3157,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "হ\u{9be}ত",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("muškarac i žena se drže za ruke"),
@@ -2935,6 +3169,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "žena",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("home i dona que s’agafen de la mà"),
@@ -2946,6 +3181,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "parella",
             ],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎠᏍᎦᏯ ᎠᎴ ᎠᎨᏯ ᏚᎾᏙᏯᏂᎠ"),
@@ -2959,6 +3195,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ᏚᎾᏙᏯᏂᎠᎩ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("muž a žena držící se za ruce"),
@@ -2972,16 +3209,19 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "žena",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("dyn a menyw yn dal dwylo"),
             keywords: &["dal", "dwylo", "dyn a menyw yn dal dwylo", "pâr"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("mand og kvinde hånd i hånd"),
             keywords: &["mand og kvinde hånd i hånd", "par"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Mann und Frau halten Hände"),
@@ -2994,6 +3234,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "Pärchen aus Frau und Mann",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("γυναίκα και άντρας πιασμένοι χέρι-χέρι"),
@@ -3007,6 +3248,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "χέρι",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("woman and man holding hands"),
@@ -3020,21 +3262,25 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "woman and man holding hands",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
@@ -3048,6 +3294,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "woman and man holding hands",
             ],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("mujer y hombre de la mano"),
@@ -3060,21 +3307,25 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pareja",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("hombre y mujer de la mano"),
             keywords: &["hombre y mujer de la mano"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("mees ja naine hoiavad käest kinni"),
@@ -3086,6 +3337,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "paarike",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("gizon-emakumeak elkarri eskua ematen"),
@@ -3099,6 +3351,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "gizona",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("زن و مرد دست در\u{200c} دست"),
@@ -3111,6 +3364,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "مرد",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("mies ja nainen käsi kädessä"),
@@ -3123,6 +3377,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pariskunta",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("lalaki at babaeng magkahawak-kamay"),
@@ -3136,6 +3391,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "magkapareha",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("kvinna or maður leiðast"),
@@ -3148,6 +3404,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "par",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("femme et homme se tenant la main"),
@@ -3159,6 +3416,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "main dans la main",
             ],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("homme et femme se tenant par la main"),
@@ -3174,6 +3432,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "union",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("fear agus bean le chéile"),
@@ -3185,6 +3444,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "lámha le chéile",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("tè is fear a’ gabhail làmhan a chèile"),
@@ -3199,6 +3459,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tè is fear a’ gabhail làmhan a chèile",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("home e muller collidos da man"),
@@ -3210,6 +3471,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "parella",
             ],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some(
@@ -3225,6 +3487,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "સ\u{acd}ત\u{acd}રી",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("namiji da mata suna riƙewa hannuwa"),
@@ -3237,6 +3500,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "riƙe",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("איש ואישה מחזיקים ידיים"),
@@ -3249,6 +3513,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "מחזיקים ידיים",
             ],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("हाथ म\u{947}\u{902} हाथ लिए महिला–प\u{941}र\u{941}ष"),
@@ -3260,6 +3525,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हाथ म\u{947}\u{902} हाथ लिए महिला–प\u{941}र\u{941}ष",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("muškarac i žena koji se drže za ruke"),
@@ -3273,11 +3539,13 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "žena",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("kézen fogva álló férfi és nő"),
             keywords: &["kéz a kézben", "kézen fogva álló férfi és nő", "pár"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("իրար ձեռք բռնած կին ու տղամարդ"),
@@ -3291,6 +3559,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "տղամարդ",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("pria dan wanita bergandengan"),
@@ -3304,6 +3573,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "wanita",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("nwoke na nwaanyị jikọtara aka"),
@@ -3316,6 +3586,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "nwoke na nwaanyị jikọtara aka",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("karl og kona sem leiðast"),
@@ -3329,6 +3600,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "par",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("uomo e donna che si tengono per mano"),
@@ -3340,11 +3612,13 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "uomo e donna per mano",
             ],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("手をつなぐ男女"),
             keywords: &["カップル", "友達", "恋人", "手をつなぐ男女", "男女", "異性"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("wong lanang lan wadon gandhengan"),
@@ -3359,6 +3633,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "wong lanang lan wadon gandhengan tangan",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ხელჩაკიდებული კაცი და ქალი"),
@@ -3371,6 +3646,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ხელჩაკიდებული კაცი და ქალი",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("қол ұстасып тұрған еркек пен әйел"),
@@ -3383,11 +3659,13 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "әйел",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("man og kvinde"),
             keywords: &["man og kvinde", "par"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ប\u{17bb}រសន\u{17b7}ងនារ\u{17b8}កាន\u{17cb}ដៃគ\u{17d2}នា"),
@@ -3398,6 +3676,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ប\u{17bb}\u{17d2}រស\u{17d2}រ\u{17b8}",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಪುರುಷ ಮತ\u{ccd}ತು ಮಹ\u{cbf}ಳ\u{cc6} ಕೈ ಹ\u{cbf}ಡ\u{cbf}ದ\u{cbf}ರುವುದು"),
@@ -3407,11 +3686,13 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ಹ\u{cc6}ಂಗಸು ಮತ\u{ccd}ತು ಗಂಡಸು",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("손을 잡고 있는 남녀"),
             keywords: &["남녀 커플", "손을 잡고 있는 남녀", "연인", "커플"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("बायल आनी दादलो हात धर\u{942}न"),
@@ -3426,6 +3707,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हात",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("кол кармашкан эркек менен аял"),
@@ -3437,6 +3719,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "эркек",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Mann a Fra Hand an Hand"),
@@ -3449,6 +3732,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "halen",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຜ\u{eb9}\u{ec9}ຊາຍ ແລະແມ\u{ec8}ຍ\u{eb4}ງຈ\u{eb1}ບມ\u{eb7}ກ\u{eb1}ນ"),
@@ -3460,6 +3744,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ແມ\u{ec8}ຍ\u{eb4}ງ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("vyras ir moteris, susikibę už rankų"),
@@ -3472,6 +3757,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "vyras ir moteris, susikibę už rankų",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("sieviete un vīrietis sadevušies rokās"),
@@ -3484,6 +3770,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "vīrietis",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("tāne me te wahine mau ringa"),
@@ -3496,11 +3783,13 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "wahine",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("маж и жена се држат за рака"),
             keywords: &["жена", "маж", "маж и жена се држат за рака", "пар", "раце"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("കൈകോർത\u{d4d}ത\u{d4d} നിൽക\u{d4d}ക\u{d41}ന\u{d4d}ന ജോടി"),
@@ -3513,6 +3802,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "സ\u{d4d}\u{200c}ത\u{d4d}രീ",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("хөтлөлцсөн эрэгтэй эмэгтэй хос"),
@@ -3524,6 +3814,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "эрэгтэй",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("हातात हात धरणार\u{947} प\u{941}र\u{942}ष आणि महिला"),
@@ -3537,6 +3828,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हातात हात धरणार\u{947} प\u{941}र\u{942}ष आणि महिला",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("lelaki dan wanita berpegangan tangan"),
@@ -3550,6 +3842,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "wanita",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("raġel u mara jżommu jdejhom"),
@@ -3562,6 +3855,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "żomm",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some(
@@ -3576,6 +3870,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "အမျ\u{102d}\u{102f}းသား",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("mann og kvinne som leier"),
@@ -3588,6 +3883,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "par",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("हात समातिरह\u{947}का प\u{941}र\u{941}ष र महिला"),
@@ -3600,6 +3896,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हात समातिरह\u{947}का प\u{941}र\u{941}ष र महिला",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("man en vrouw hand in hand"),
@@ -3613,6 +3910,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "vrouw",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("mann og kvinne som leiar"),
@@ -3625,6 +3923,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "par",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some(
@@ -3641,6 +3940,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ହ\u{b3e}ତ ଧର\u{b3e}ଧର\u{b3f} ହୋଇଥ\u{b3f}ବ\u{b3e} ମହ\u{b3f}ଳ\u{b3e} ଏବଂ ପ\u{b41}ର\u{b41}ଷ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਆਦਮੀ ਅਤ\u{a47} ਔਰਤ ਨ\u{a47} ਹ\u{a71}ਥ ਫੜਿਆ ਹ\u{a4b}ਇਆ"),
@@ -3654,6 +3954,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ਹ\u{a71}ਥ ਫੜ\u{a47} ਹ\u{a4b}ਏ ਬ\u{a70}ਦਾ ਅਤ\u{a47} ਜ\u{a3c}ਨਾਨੀ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("ہتھ پھڑے ہوئے بندہ اتے زنانی"),
@@ -3666,6 +3967,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ہتھ پھڑے ہوئے بندہ اتے زنانی",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Wúman An Man Wé Hól Hand"),
@@ -3679,6 +3981,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "Wúman An Man Wé Hól Hand",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("mężczyzna i kobieta trzymający się za ręce"),
@@ -3690,6 +3993,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zakochani",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("سړی او ښځه لاس په لاس کې"),
@@ -3702,6 +4006,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ښځه",
             ],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("homem e mulher de mãos dadas"),
@@ -3713,6 +4018,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "mãos dadas",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("mulher e homem de mãos dadas"),
@@ -3725,6 +4031,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "mãos dadas",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("warmi chaymanta runa iskay makikunawan"),
@@ -3738,6 +4045,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "warmi chaymanta runa iskay makikunawan",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("bărbat și femeie ținându-se de mână"),
@@ -3751,16 +4059,19 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ținându-se de mână",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-552"),
             keywords: &["E10-552"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("мужчина и женщина"),
             keywords: &["женщина", "мужчина", "мужчина и женщина", "пара", "руки"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("umugabo n’umugore bafatanye ibiganza"),
@@ -3773,6 +4084,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "umugore",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("هٿ جهليندي مرد ۽ عورت"),
@@ -3785,6 +4097,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "هٿ جهليندي مرد ۽ عورت",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some(
@@ -3798,6 +4111,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ප\u{dd2}ර\u{dd2}ම\u{dd2}ය\u{dcf}",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("žena a muž držiaci sa za ruky"),
@@ -3810,6 +4124,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "žena a muž držiaci sa za ruky",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("moški in ženska se držita za roke"),
@@ -3822,6 +4137,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ženska",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("naag iyo nin gacmaha is haysta"),
@@ -3835,6 +4151,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "saaxiibo",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("burrë dhe grua që kapin duart"),
@@ -3846,6 +4163,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "çift",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("жена и мушкарац се држе за руке"),
@@ -3859,11 +4177,13 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "рукe",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("žena i muškarac se drže za ruke"),
@@ -3877,6 +4197,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "žena i muškarac se drže za ruke",
             ],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("man och kvinna håller hand"),
@@ -3887,6 +4208,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "par",
             ],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("mwanamke na mwanamume walioshikana mikono"),
@@ -3900,11 +4222,13 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "shikilia",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("கைகோர\u{bcd}த\u{bcd}த ஆணும\u{bcd} பெண\u{bcd}ணும\u{bcd}"),
@@ -3916,6 +4240,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "பெண\u{bcd}",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("చ\u{c47}తులు పట\u{c4d}టుకున\u{c3f} ఉన\u{c4d}న జంట"),
@@ -3925,6 +4250,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "జంట",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("мард ва зане, ки дастҳои якдигарро дошта истодаанд"),
@@ -3937,6 +4263,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ҷуфт",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ชาย-หญ\u{e34}งจ\u{e31}บม\u{e37}อ"),
@@ -3948,6 +4275,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "หญ\u{e34}ง",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("el tutuşan aýal bilen erkek"),
@@ -3962,11 +4290,13 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zenan",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("tangata mo fefine fetakinima"),
             keywords: &["tangata mo fefine fetakinima"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("el ele tutuşan erkek ve kadın"),
@@ -3978,6 +4308,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "çift",
             ],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("قول تۇتۇشقان ئەر-ئايال"),
@@ -3990,6 +4321,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "قول تۇتۇشقان ئەر-ئايال",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("жінка й чоловік, що тримаються за руки"),
@@ -4003,11 +4335,13 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "чоловік",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ہاتھ تھامے مرد اور عورت"),
             keywords: &["تھامنا", "جوڑا", "ہاتھ", "ہاتھ تھامے مرد اور عورت"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("qoʻl ushlashgan ayol va erkak"),
@@ -4020,6 +4354,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "qoʻl ushlashish",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("người đàn ông và phụ nữ nắm tay"),
@@ -4032,6 +4367,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "đàn ông",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("góor ak jigéen jàppante loxo"),
@@ -4044,6 +4380,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tëye",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("indoda nebhinqa abambe izandla"),
@@ -4056,6 +4393,7 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "isibini",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Ọkunrin Ati Obirin Ti O Dọwọ Ara Wọn Mu"),
@@ -4068,31 +4406,37 @@ pub const WOMAN_AND_MAN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ọwọ\u{301}",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("男女拖手"),
             keywords: &["夫婦", "女", "手", "拖", "男", "男女拖手"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("男女拖手"),
             keywords: &["夫妇", "女", "手", "拖", "男", "男女拖手"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("手拉手的一男一女"),
             keywords: &["一男一女", "情侣", "手拉手", "手拉手的一男一女"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("一男一女"),
             keywords: &["一男一女", "一男一女手拉手", "手拉手"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("一男一女拖住手"),
             keywords: &["一男一女拖住手", "情人", "情侶", "牽手", "牽手的男性和女性"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("owesilisa nowesifazane bebembene ngezandla"),
@@ -4462,6 +4806,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("twee mans wat hande vashou"),
@@ -4475,6 +4820,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "twee mans wat hande vashou",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("እጅ ለእጅ የተያያዙ ወንዶች"),
@@ -4488,11 +4834,13 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ጥንዶች",
             ],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("\u{202b}رجلان يمسكان بيد بعضهما"),
             keywords: &["أشخاص", "زوج", "يد بيد", "\u{202b}رجلان يمسكان بيد بعضهما"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("হ\u{9be}তে হ\u{9be}তে ধৰি থক\u{9be} প\u{9c1}ৰ\u{9c1}ষ"),
@@ -4507,6 +4855,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ৰ\u{9be}শিচক\u{9cd}ৰ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("əl-ələ tutan iki kişi"),
@@ -4520,6 +4869,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "əl-ələ tutmaq",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("мужчыны трымаюцца за рукі"),
@@ -4531,6 +4881,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "пара",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Двама мъже, държащи се за ръце"),
@@ -4542,6 +4893,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "мъж",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("দ\u{9c1}জন প\u{9c1}র\u{9c1}ষ হ\u{9be}র ধরে দ\u{9be}ড\u{9bc}িয\u{9bc}ে আছে"),
@@ -4556,6 +4908,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "হ\u{9be}ত ধরে থ\u{9be}ক\u{9be}",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("dva muškarca se drže za ruke"),
@@ -4568,6 +4921,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "par",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("homes que s’agafen de la mà"),
@@ -4581,6 +4935,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodíac",
             ],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎠᏂᏍᎦᏯ ᏚᎾᏙᏯᏂᎠᎩ"),
@@ -4594,6 +4949,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ᏚᎾᏙᏯᏂᎠᎩ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("dva muži držící se za ruce"),
@@ -4609,6 +4965,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zvěrokruh",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("dau ddyn yn dal dwylo"),
@@ -4623,6 +4980,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "yr Efeilliaid",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("to mænd hånd i hånd"),
@@ -4636,6 +4994,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tvillinger",
             ],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Händchen haltende Männer"),
@@ -4647,6 +5006,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "Pärchen aus Mann und Mann",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("άντρες πιασμένοι χέρι-χέρι"),
@@ -4659,6 +5019,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ζευγάρι",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("men holding hands"),
@@ -4673,11 +5034,13 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiac",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
@@ -4692,21 +5055,25 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiac",
             ],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("hombres de la mano"),
             keywords: &["gays", "hombres", "hombres de la mano", "novios", "pareja"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("dos hombres de la mano"),
@@ -4719,6 +5086,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pareja",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
@@ -4730,6 +5098,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pareja",
             ],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
@@ -4743,6 +5112,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tomándose de las manos",
             ],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("käest kinni hoidvad mehed"),
@@ -4755,6 +5125,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "paar",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("bi gizon elkarri eskua ematen"),
@@ -4768,6 +5139,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiakoa",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("دو مرد دست در دست"),
@@ -4781,6 +5153,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "زوج",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("kaksi miestä käsi kädessä"),
@@ -4791,6 +5164,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "miespari",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("dalawang lalaking magkahawak-kamay"),
@@ -4804,6 +5178,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiac",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("menn leiðast"),
@@ -4817,6 +5192,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tvíburar",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("deux hommes se tenant la main"),
@@ -4830,6 +5206,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiaque",
             ],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("deux hommes se tenant par la main"),
@@ -4847,6 +5224,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiaque",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("beirt fhear le chéile"),
@@ -4859,6 +5237,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "lámha le chéile",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("fireannaich a’ glacadh air làmh a chèile"),
@@ -4878,6 +5257,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "làmh",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("dous homes collidos da man"),
@@ -4889,6 +5269,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "xemelgos",
             ],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("એકબીજાના હાથ પકડ\u{ac7}લા બ\u{ac7} પ\u{ac1}ર\u{ac1}ષો"),
@@ -4902,6 +5283,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "હાથ પકડવા",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("maza biyu suna riƙewa hannuwa"),
@@ -4916,6 +5298,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiac",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("שני גברים מחזיקים ידיים"),
@@ -4927,6 +5310,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "שני גברים מחזיקים ידיים",
             ],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("हाथ पकड\u{93c}\u{947} दो प\u{941}र\u{941}ष"),
@@ -4939,6 +5323,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हाथ पकड\u{93c}\u{947} दो प\u{941}र\u{941}ष",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("muškarci koji se drže za ruke"),
@@ -4953,6 +5338,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "par",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("kézen fogva álló férfiak"),
@@ -4964,6 +5350,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "pár",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("իրար ձեռք բռնած տղամարդիկ"),
@@ -4977,6 +5364,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "տղամարդիկ",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("dua pria bergandengan"),
@@ -4993,6 +5381,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiak",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ụmụ nwoke abụọ jikọtara aka"),
@@ -5007,6 +5396,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ụmụ nwoke abụọ jikọtara aka",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("karlar sem leiðast"),
@@ -5020,6 +5410,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tvíburar",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("due uomini che si tengono per mano"),
@@ -5031,11 +5422,13 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tenersi per mano",
             ],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("手をつなぐ男性"),
             keywords: &["カップル", "友達", "同性", "恋人", "手をつなぐ男性", "男"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("wong lanang loro gandhengan tangan"),
@@ -5049,6 +5442,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "wong lanang loro gandhengan tangan",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ორი ხელჩაკიდებული კაცი"),
@@ -5063,6 +5457,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ჰოროსკოპი",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("қол ұстасып тұрған екі еркек"),
@@ -5075,11 +5470,13 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "қол ұстасып тұрған екі еркек",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("to mænd"),
             keywords: &["par", "to mænd"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ប\u{17bb}រសព\u{17b8}រនាក\u{17cb}កាន\u{17cb}ដៃគ\u{17d2}នា"),
@@ -5090,6 +5487,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ប\u{17bb}\u{17d2}រស",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಇಬ\u{ccd}ಬರು ಪುರುಷರು ಕೈಹ\u{cbf}ಡ\u{cbf}ದ\u{cbf}ರುವುದು"),
@@ -5099,6 +5497,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ಕೈ ಹ\u{cbf}ಡ\u{cbf}ದ\u{cbf}ರುವ ಇಬ\u{ccd}ಬರು ಪುರುಷರು",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("손을 잡고 있는 두 명의 남자"),
@@ -5110,6 +5509,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "친구들",
             ],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("दादल\u{947} एकम\u{947}का\u{902}च\u{947} हात धर\u{942}न"),
@@ -5122,6 +5522,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "रास",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("кол кармашкан эки киши"),
@@ -5133,6 +5534,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "эркек",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("zwee Männer Hand an Hand"),
@@ -5147,6 +5549,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zwee Männer Hand an Hand",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຜ\u{eb9}\u{ec9}ຊາຍຈ\u{eb1}ບມ\u{eb7}ກ\u{eb1}ນ"),
@@ -5157,6 +5560,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ຜ\u{eb9}\u{ec9}ຊາຍຈ\u{eb1}ບມ\u{eb7}ກ\u{eb1}ນ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("du vyrai, susikibę už rankų"),
@@ -5170,6 +5574,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiakas",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("vīrieši sadevušies rokās"),
@@ -5184,6 +5589,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiaks",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("tokorua tāne mau ringa"),
@@ -5198,6 +5604,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tāne",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("двајца мажи се држат за рака"),
@@ -5211,6 +5618,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "хороскоп",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some(
@@ -5224,6 +5632,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ര\u{d3e}ശിചക\u{d4d}രം",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("хөтлөлцсөн хоёр эрэгтэй"),
@@ -5235,6 +5644,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "хөтлөлцөх",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("हातात हात धरणार\u{947} दोन प\u{941}र\u{942}ष"),
@@ -5248,6 +5658,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हातात हात धरणार\u{947} दोन प\u{941}र\u{942}ष",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("dua lelaki berpegangan tangan"),
@@ -5262,6 +5673,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiak",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("żewġt irġiel iżommu jdejhom"),
@@ -5276,6 +5688,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "żomm",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some(
@@ -5291,6 +5704,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "အမြ\u{103d}\u{103e}ာပ\u{1030}း",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("menn som leier"),
@@ -5305,6 +5719,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tvillingene",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("हात समातिरह\u{947}का द\u{941}ई प\u{941}र\u{941}ष"),
@@ -5318,6 +5733,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "हात समातिरह\u{947}का द\u{941}ई प\u{941}र\u{941}ष",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("mannen hand in hand"),
@@ -5332,6 +5748,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tweeling",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("menn som leiar"),
@@ -5346,6 +5763,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "tvillingane",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ହ\u{b3e}ତ ଧର\u{b3e}ଧର\u{b3f} ହୋଇଥ\u{b3f}ବ\u{b3e} ପ\u{b41}ର\u{b41}ଷ"),
@@ -5361,6 +5779,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ହ\u{b3e}ତ ଧର\u{b3e}ଧର\u{b3f} ହୋଇଥ\u{b3f}ବ\u{b3e} ପ\u{b41}ର\u{b41}ଷ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਦ\u{a4b} ਆਦਮੀਆ\u{a02} ਨ\u{a47} ਹ\u{a71}ਥ ਫੜਿਆ ਹ\u{a4b}ਇਆ"),
@@ -5374,6 +5793,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ਹ\u{a71}ਥ ਫੜ\u{a47} ਹ\u{a4b}ਏ ਦ\u{a4b} ਬ\u{a70}ਦ\u{a47}",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("ہتھ پھڑدے دو بندے"),
@@ -5388,6 +5808,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ہتھ پھڑدے دو بندے",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Man-dẹm Wé Hól Han"),
@@ -5402,6 +5823,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "Tú Pípul",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("dwóch mężczyzn trzymających się za ręce"),
@@ -5413,6 +5835,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zakochani",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("دوه سړو لاسونه نيولي"),
@@ -5426,6 +5849,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "مرغومی",
             ],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("dois homens de mãos dadas"),
@@ -5438,6 +5862,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "mãos dadas",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("homens de mãos dadas"),
@@ -5452,6 +5877,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "signo",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("runa iskay makikunawan"),
@@ -5466,6 +5892,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiaco",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("bărbați ținându-se de mână"),
@@ -5479,11 +5906,13 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiac",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-553"),
             keywords: &["E10-553"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("двое мужчин"),
@@ -5496,6 +5925,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "пара",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("abagabo babiri bafatanye ibigaza"),
@@ -5510,6 +5940,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiyake",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("ٻه مرد هٿ جهليندي"),
@@ -5523,6 +5954,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ٻه مرد هٿ جهليندي",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some(
@@ -5536,6 +5968,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ර\u{dcf}ශ\u{dd2} චක\u{dca}\u{200d}රය",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("muži držiaci sa za ruky"),
@@ -5549,6 +5982,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ruka",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("moška se držita za roke"),
@@ -5560,6 +5994,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiak",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("laba nin oo gacmaha is haysta"),
@@ -5575,11 +6010,13 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiac",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("dy burra të kapur për duarsh"),
             keywords: &["binjakë", "dy burra të kapur për duarsh", "zodiak", "çift"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("мушкарци се држе за руке"),
@@ -5593,11 +6030,13 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "рукe",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("muškarci se drže za ruke"),
@@ -5611,6 +6050,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodijak",
             ],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("två män håller hand"),
@@ -5622,6 +6062,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "två män håller hand",
             ],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("wanaume walioshikana mikono"),
@@ -5635,11 +6076,13 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "zodiaki",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("கைகோர\u{bcd}த\u{bcd}த இரு ஆண\u{bcd}கள\u{bcd}"),
@@ -5651,6 +6094,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "நண\u{bcd}பர\u{bcd}கள\u{bcd}",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("చ\u{c47}తులు పట\u{c4d}టుకున\u{c3f} ఉన\u{c4d}న ఇద\u{c4d}దరు పురుషులు"),
@@ -5660,6 +6104,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "పురుషులు",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("ду марде, ки дастҳои якдигарро дошта истодаанд"),
@@ -5674,6 +6119,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ҷуфт",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ชาย-ชายจ\u{e31}บม\u{e37}อ"),
@@ -5686,6 +6132,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "แฝด",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("el tutuşan erkekler"),
@@ -5701,11 +6148,13 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "täleýnama",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("ongo tangata fetakinima"),
             keywords: &["ongo tangata fetakinima"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("el ele tutuşan erkekler"),
@@ -5719,6 +6168,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "çift",
             ],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("قول تۇتۇشقان ئەرلەر"),
@@ -5733,6 +6183,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "مۆچەل",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("чоловіки, що тримаються за руки"),
@@ -5747,6 +6198,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "чоловіки, що тримаються за руки",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ہاتھ تھامے دو مرد"),
@@ -5760,6 +6212,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ہاتھ تھامے دو مرد",
             ],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("qoʻl ushlashgan erkaklar"),
@@ -5773,6 +6226,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "qoʻl ushlashgan erkaklar",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("hai người đàn ông nắm tay"),
@@ -5786,6 +6240,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "song tử",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("ñaari góor yu jàppante loxo"),
@@ -5800,6 +6255,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ñaari góor yu jàppante loxo",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("amadoda amabini abambene ngezandla"),
@@ -5814,6 +6270,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "isibini",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Ọkunrin Meji Ti O Dọwọ Ara Wọn Mu"),
@@ -5828,11 +6285,13 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "ọwọ\u{301}",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("兩個男人拖手"),
             keywords: &["兩個男人拖手", "星座", "男", "雙子座", "雙胞胎"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("两个男人拖手"),
@@ -5847,6 +6306,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "男",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("手拉手的两个男人"),
@@ -5859,11 +6319,13 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "黄道十二宫",
             ],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("兩個男人"),
             keywords: &["兩個男人", "兩個男人手拉手", "手拉手"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("兩個男人拖住手"),
@@ -5876,6 +6338,7 @@ pub const MEN_HOLDING_HANDS: crate::Emoji = crate::Emoji {
                 "男朋友",
             ],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("amadoda amabili abambene ngesandla"),
@@ -6231,66 +6694,79 @@ pub const KISS: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("soen"),
             keywords: &["paartjie", "romanse", "soen"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("መሳም"),
             keywords: &["መሳም", "ጥንዶች", "ፍቅር"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("قبلة"),
             keywords: &["أشخاص", "تقبيل", "رومانسية", "قبلة"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("চ\u{9c1}ম\u{9be}"),
             keywords: &["চ\u{9c1}ম\u{9be}", "দম\u{9cd}পতি"],
         },
+        #[cfg(feature = "ast")]
         crate::Annotation {
             lang: "ast",
             tts: Some("besu"),
             keywords: &["besu"],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("öpüş"),
             keywords: &["cütlük", "romantika", "öpüş"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("пацалунак"),
             keywords: &["каханне", "пара", "пацалунак"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("целувка"),
             keywords: &["двойка", "романтика", "целувка"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("চ\u{9c1}ম\u{9cd}বন"),
             keywords: &["চ\u{9c1}ম\u{9cd}বন", "জোড\u{9bc}", "রোম\u{9be}ন\u{9cd}স"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("poljubac"),
             keywords: &["par", "poljubac"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("petó"),
             keywords: &["parella", "petó"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎠᏔᏪᏙᎢᏍᏗ"),
             keywords: &["ᎠᏔᏪᏙᎢᏍᏗ", "ᏗᎾᏤᎯ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("polibek"),
@@ -6303,56 +6779,67 @@ pub const KISS: crate::Emoji = crate::Emoji {
                 "romantika",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("cusan"),
             keywords: &["cusan", "pâr"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("kys"),
             keywords: &["kys", "kærlighed", "par med hjerte", "romantik"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("sich küssendes Paar"),
             keywords: &["Frau", "Herz", "Kuss", "Mann", "sich küssendes Paar"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("φιλί"),
             keywords: &["έρωτας", "ζευγάρι", "φιλί"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("kiss"),
             keywords: &["couple", "kiss"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("beso"),
             keywords: &["beso", "personas", "romance"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("pareja besándose"),
@@ -6365,36 +6852,43 @@ pub const KISS: crate::Emoji = crate::Emoji {
                 "romántico",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("beso"),
             keywords: &["beso"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("beso"),
             keywords: &["beso"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("musi"),
             keywords: &["musi", "suudlus"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("musu"),
             keywords: &["bikotea", "musu", "musua"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("بوسه"),
             keywords: &["بوسه", "داستان عاشقانه", "زوج", "عشق"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("pusu"),
             keywords: &["pariskunta", "pusu", "romantiikka"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("maghahalikan"),
@@ -6408,36 +6902,43 @@ pub const KISS: crate::Emoji = crate::Emoji {
                 "romansa",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("tvey íð mussast"),
             keywords: &["hjarta", "muss", "par", "tvey íð mussast"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("bisou"),
             keywords: &["baiser", "bisou", "couple"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["baiser", "bisou", "couple"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("póg"),
             keywords: &["grá", "póg", "pógadh"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("pòg"),
             keywords: &["càraid", "pòg"],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("parella bicándose"),
             keywords: &["bico", "parella", "parella bicándose"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ચ\u{ac1}\u{a82}બન"),
@@ -6448,51 +6949,61 @@ pub const KISS: crate::Emoji = crate::Emoji {
                 "લોકો",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("sumba"),
             keywords: &["miji da mata", "sumba"],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("נשיקה"),
             keywords: &["אהבה", "זוג", "לב", "נשיקה", "רומנטי", "רומנטיקה"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("च\u{941}\u{902}बन"),
             keywords: &["च\u{941}\u{902}बन", "च\u{942}मना", "प\u{94d}यार", "लोग"],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("poljubac"),
             keywords: &["par", "poljubac", "romantika"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("csók"),
             keywords: &["csók", "pár", "romantika"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("համբույր"),
             keywords: &["զույգ", "համբույր", "սիրավեպ"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("berciuman"),
             keywords: &["berciuman", "cium", "pasangan", "romantis"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("nsusò ọnụ"),
             keywords: &["di na nwunye", "nsusò ọnụ"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("koss"),
             keywords: &["fólk", "koss", "kyssast", "rómantík"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("bacio tra coppia"),
@@ -6504,86 +7015,103 @@ pub const KISS: crate::Emoji = crate::Emoji {
                 "persone",
             ],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("2人でキス"),
             keywords: &["2人でキス", "ちゅっ", "カップル", "キス", "ハート"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("ambung"),
             keywords: &["ambung", "pasangan"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("კოცნა"),
             keywords: &["კოცნა", "რომანტიკა", "წყვილი"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("өбіс"),
             keywords: &["жұбайлар", "романтика", "өбіс"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("kys"),
             keywords: &["kys", "kærlighed", "par med hjerte", "romantik"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ថើប"),
             keywords: &["គ\u{17bc}ស\u{17d2}នេហ\u{17cd}", "ថើប"],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಚುಂಬನ"),
             keywords: &["ಚುಂಬನ", "ಜೋಡ\u{cbf}"],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("키스"),
             keywords: &["사랑", "연애", "키스"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("उमो"),
             keywords: &["उमो", "जोडप\u{947}\u{902}"],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("өбүшүү"),
             keywords: &["романтика", "түгөйлөр", "өбүшүү"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Kuss"),
             keywords: &["Koppel", "Kuss"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຈ\u{eb9}ບ"),
             keywords: &["ຄວາມຮ\u{eb1}ກ", "ຄ\u{eb9}\u{ec8}ຮ\u{eb1}ກ", "ຈ\u{eb9}ບ"],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("bučinys"),
             keywords: &["bučinys", "pora"],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("skūpsts"),
             keywords: &["pāris", "romantika", "skūpsts"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("kihi"),
             keywords: &["kihi", "tokorua"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("бакнеж"),
             keywords: &["бакнеж", "пар", "романтика", "срце", "љубов"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ച\u{d41}ംബനം"),
@@ -6595,56 +7123,67 @@ pub const KISS: crate::Emoji = crate::Emoji {
                 "റൊമ\u{d3e}ൻസ\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("үнсэлт"),
             keywords: &["хос", "үнсэлт"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("च\u{941}\u{902}बन"),
             keywords: &["च\u{941}\u{902}बन", "जोडी"],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("cium"),
             keywords: &["cium", "pasangan"],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("bewsa"),
             keywords: &["bewsa", "koppja"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("အနမ\u{103a}း"),
             keywords: &["စ\u{102f}\u{1036}တ\u{103d}\u{1032}", "အနမ\u{103a}း"],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("kyss"),
             keywords: &["kyss", "kyssing", "mennesker", "romantikk"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("च\u{941}म\u{94d}बन"),
             keywords: &["च\u{941}म\u{94d}बन", "जोडी", "मनोरन\u{94d}जन"],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("kus"),
             keywords: &["kus", "stelletje"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("kyss"),
             keywords: &["kyss", "kyssing", "menneske", "romantikk"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଚ\u{b41}ମ\u{b4d}ବନ"),
             keywords: &["ଚ\u{b41}ମ\u{b4d}ବନ", "ପ\u{b4d}ରେମୀ ଯ\u{b41}ଗଳ"],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਚ\u{a41}\u{a70}ਮੀ"),
@@ -6655,126 +7194,151 @@ pub const KISS: crate::Emoji = crate::Emoji {
                 "ਲ\u{a4b}ਕ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("چومنا"),
             keywords: &["جوڑا", "چومنا"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Kis"),
             keywords: &["Kis", "Tú Pípol"],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("pocałunek"),
             keywords: &["miłość", "para", "pocałunek", "zakochani"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("مچول"),
             keywords: &["جوړه", "مچول"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("beijo"),
             keywords: &["beijar", "beijo", "casal"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["beijo", "casal", "romance"],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("much’a"),
             keywords: &["much’a", "pitu runakuna"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("sărut"),
             keywords: &["cuplu", "iubire", "sărut"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-588"),
             keywords: &["E10-588"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("поцелуй"),
             keywords: &["любовь", "пара", "поцелуй", "романтика", "чувства"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("gusomana"),
             keywords: &["abakundana", "gusomana"],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("چمي"),
             keywords: &["جوڙو", "چمي"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("හ\u{dcf}ද\u{dd4}ව"),
             keywords: &["ජෝඩ\u{dd4}ව", "ප\u{dca}\u{200d}රේමය", "හ\u{dcf}ද\u{dd4}ව"],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("bozk"),
             keywords: &["bozk", "pár", "romanca"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("poljub"),
             keywords: &["par", "poljub", "romanca"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("shumis"),
             keywords: &["lammaane", "shumis"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("puthje"),
             keywords: &["puthje", "romancë", "çift"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("пољубац"),
             keywords: &["пaр", "пољубац"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["пољубац"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("poljubac"),
             keywords: &["par", "poljubac"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["poljubac"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("puss"),
             keywords: &["kyssas", "kärlek", "människor", "puss"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("busu"),
             keywords: &["busu", "mapenzi", "mume na mke"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("முத\u{bcd}தமிடுதல\u{bcd}"),
@@ -6786,96 +7350,115 @@ pub const KISS: crate::Emoji = crate::Emoji {
                 "முத\u{bcd}தம\u{bcd}",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("ముద\u{c4d}దు"),
             keywords: &["ముద\u{c4d}దు", "శృంగ\u{c3e}రం"],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("бӯса"),
             keywords: &["бӯса", "ҷуфт"],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("จ\u{e39}บ"),
             keywords: &["ความร\u{e31}ก", "จ\u{e39}บ"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("posa"),
             keywords: &["jübüt", "posa"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("ʻuma"),
             keywords: &["ʻuma"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("öpücük"),
             keywords: &["kişiler", "romantizm", "öpücük", "öpüşme"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("سۆيۈش"),
             keywords: &["جۈپ", "سۆيۈش"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("чоловік і жінка, що цілуються"),
             keywords: &["закоханість", "пара", "чоловік і жінка, що цілуються"],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("بوسہ"),
             keywords: &["بوسہ", "جوڑا"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("bo‘sa olish"),
             keywords: &["bo‘sa olish", "juftlik", "romantika"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("nụ hôn"),
             keywords: &["cặp đôi", "nụ hôn"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("fóon"),
             keywords: &["fóon", "góor ak jigéen"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("phuza"),
             keywords: &["isibini", "phuza"],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Ifẹnuko"),
             keywords: &["Ifẹnuko", "tọkọtaya"],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("吻"),
             keywords: &["吻", "夫婦"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("吻"),
             keywords: &["吻", "夫妇"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("亲吻"),
             keywords: &["亲吻", "情侣", "接吻", "浪漫"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("親"),
             keywords: &["接吻", "親"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("錫緊嘅一男一女"),
@@ -6888,6 +7471,7 @@ pub const KISS: crate::Emoji = crate::Emoji {
                 "錫緊嘅一男一女",
             ],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("ukuqabula"),
@@ -9265,6 +9849,7 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("paartjie met hartjie"),
@@ -9276,16 +9861,19 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "romanse",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ልብ በመሃላቸው ያሉ ጥንዶች"),
             keywords: &["ልብ", "ልብ በመሃላቸው ያሉ ጥንዶች", "ጥንዶች", "ፍቅር"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("زوج وقلب"),
             keywords: &["أشخاص", "رومانسية", "زوج وقلب", "قلب"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("হ\u{9be}ৰ\u{9cd}টৰ সৈতে দম\u{9cd}পতি"),
@@ -9295,21 +9883,25 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "হ\u{9be}ৰ\u{9cd}টৰ সৈতে দম\u{9cd}পতি",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("ürəkli cütlük"),
             keywords: &["cütlük", "romantika", "sevgi", "ürək", "ürəkli cütlük"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("закаханая пара"),
             keywords: &["закаханая пара", "каханне", "пара", "сэрца"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("Двойка и сърце"),
             keywords: &["Двойка и сърце", "двойка", "любов", "романтика", "сърце"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("হ\u{9be}র\u{9cd}ট সহ দম\u{9cd}পতি"),
@@ -9321,21 +9913,25 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "হ\u{9be}র\u{9cd}ট সহ দম\u{9cd}পতি",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("par i srce"),
             keywords: &["ljubav", "par", "par i srce", "srce"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("parella amb un cor"),
             keywords: &["cor", "parella", "parella amb un cor"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᏗᎾᏤᎯ ᏧᏂᎿᏫ"),
             keywords: &["ᎠᏓᎨᏳᏗ", "ᏗᎾᏤᎯ", "ᏗᎾᏤᎯ ᏧᏂᎿᏫ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("pár se srdcem"),
@@ -9349,51 +9945,61 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "srdce",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("pâr a chalon"),
             keywords: &["calon", "cariad", "pâr", "pâr a chalon"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("par med hjerte"),
             keywords: &["kærlighed", "par med hjerte", "romantik"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Liebespaar"),
             keywords: &["Frau", "Herz", "Liebespaar", "Mann"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("ζευγάρι με καρδιά"),
             keywords: &["έρωτας", "αγάπη", "ζευγάρι", "ζευγάρι με καρδιά", "καρδιά"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("couple with heart"),
             keywords: &["couple", "couple with heart", "love"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("pareja enamorada"),
@@ -9406,26 +10012,31 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "personas",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("pareja enamorada"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("hombre y mujer enamorados"),
             keywords: &["hombre y mujer enamorados"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["amor", "corazón", "pareja", "pareja enamorada"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("paarike südamega"),
             keywords: &["armastus", "paarike südamega", "romantika", "süda"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("bihotza erdian duen bikotea"),
@@ -9436,11 +10047,13 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "maitasuna",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("زوج عاشق"),
             keywords: &["داستان عاشقانه", "زوج", "زوج عاشق", "عشق", "قلب"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("pariskunta ja sydän"),
@@ -9452,6 +10065,7 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "sydän",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("magkapareha na may puso"),
@@ -9465,36 +10079,43 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "romansa",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("par og hjarta"),
             keywords: &["hjarta", "kærleiki", "par", "par og hjarta"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("couple avec cœur"),
             keywords: &["amour", "couple", "couple avec cœur", "cœur"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["amour", "couple", "couple avec cœur", "cœur"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("lanúin le croí"),
             keywords: &["croí", "grá", "lanúin le croí", "lánúin"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("càraid le cridhe"),
             keywords: &["càraid", "càraid le cridhe", "gaol"],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("parella cun corazón"),
             keywords: &["corazón", "namorados", "parella", "parella cun corazón"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("દિલ સાથ\u{ac7}ન\u{ac1}\u{a82} ય\u{ac1}ગલ"),
@@ -9506,16 +10127,19 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "લોકો",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("miji da mata tare da zuciya"),
             keywords: &["miji da mata", "miji da mata tare da zuciya", "soyayya"],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("זוג עם לב"),
             keywords: &["אהבה", "זוג", "זוג עם לב", "לב", "רומנטי", "רומנטיקה"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("दिल वाली जोड\u{93c}ी"),
@@ -9527,21 +10151,25 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "लोग",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("par sa srcem"),
             keywords: &["ljubav", "par", "par sa srcem", "romantika", "srce"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("pár szívvel"),
             keywords: &["pár", "pár szívvel", "romantika", "szerelem", "szív"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("սրտիկով զույգ"),
             keywords: &["զույգ", "սեր", "սիրավեպ", "սիրտ", "սրտիկով զույգ"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("pasangan dengan hati"),
@@ -9553,46 +10181,55 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "romantis",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("di na nwunye nwere obi"),
             keywords: &["di na nwunye", "di na nwunye nwere obi", "ịhụnanya"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("par"),
             keywords: &["fólk", "hjarta", "par", "par með hjarta", "rómantík"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("coppia con cuore"),
             keywords: &["coppia con cuore", "cuore", "persone", "romanticismo"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("カップルとハート"),
             keywords: &["カップル", "カップルとハート", "ハート", "恋人", "熱々"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("pasangan lan tandha ati"),
             keywords: &["loro", "pasangan lan tandha ati", "tresna"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("წყვილი და გული"),
             keywords: &["გული", "რომანტიკა", "სიყვარული", "წყვილი", "წყვილი და გული"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("махаббат"),
             keywords: &["жүрек", "жұбайлар", "махаббат", "романтика"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("par med hjerte"),
             keywords: &["kærlighed", "par med hjerte", "romantik"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("បេះដ\u{17bc}ងនៅចន\u{17d2}លោះគ\u{17bc}ស\u{17d2}នេហ\u{17cd}"),
@@ -9603,21 +10240,25 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "ស\u{17d2}នេហា",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಹೃದಯದೊಂದ\u{cbf}ಗ\u{cc6} ಜೋಡ\u{cbf}"),
             keywords: &["ಪ\u{ccd}ರೀತ\u{cbf}", "ಹೃದಯದೊಂದ\u{cbf}ಗ\u{cc6} ಜೋಡ\u{cbf}"],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("연인"),
             keywords: &["사랑", "연애", "연애 중", "연인"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("काळीज आसपी जोडप\u{947}\u{902}"),
             keywords: &["काळीज आसपी जोडप\u{947}\u{902}", "जोडप\u{947}\u{902}", "मोग"],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("сүйүшкөн түгөйлөр"),
@@ -9629,11 +10270,13 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "түгөйлөр",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("verléift Koppel"),
             keywords: &["Koppel", "Léift", "verléift Koppel"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຄ\u{eb9}\u{ec8}ຮ\u{eb1}ກກ\u{eb1}ບຫ\u{ebb}ວໃຈ"),
@@ -9643,26 +10286,31 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "ຄ\u{eb9}\u{ec8}ຮ\u{eb1}ກກ\u{eb1}ບຫ\u{ebb}ວໃຈ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("pora su širdele"),
             keywords: &["meilė", "pora", "pora su širdele"],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("pāris ar sirdi"),
             keywords: &["mīlestība", "pāris", "pāris ar sirdi", "romantika", "sirds"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("tokorua me te manawa"),
             keywords: &["aroha", "tokorua", "tokorua me te manawa"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("пар со срце"),
             keywords: &["пар", "пар со срце", "романтика", "срце", "љубов"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("പ\u{d4d}രണയ ജോടി"),
@@ -9676,11 +10324,13 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "ഹ\u{d43}ദയചിഹ\u{d4d}നം",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("дундаа зүрхтэй хосууд"),
             keywords: &["дунд", "дундаа зүрхтэй хосууд", "зүрх", "хайр", "хос"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("मध\u{94d}यभागी ह\u{94d}रदय असल\u{947}ल\u{947} जोडप\u{947}"),
@@ -9691,6 +10341,7 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "मध\u{94d}यभागी ह\u{94d}रदय असल\u{947}ल\u{947} जोडप\u{947}",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("pasangan dengan simbol hati"),
@@ -9702,11 +10353,13 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "percintaan",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("koppja b’qalb"),
             keywords: &["imħabba", "koppja", "koppja b’qalb"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some(
@@ -9719,6 +10372,7 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "အချစ\u{103a}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("par med hjerte"),
@@ -9730,6 +10384,7 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "romantikk",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("म\u{941}ट\u{941}सहितको जोडी"),
@@ -9741,11 +10396,13 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "म\u{941}ट\u{941}सहितको जोडी",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("stel met hart"),
             keywords: &["liefde", "stel met hart", "stelletje"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("par med hjarte"),
@@ -9757,6 +10414,7 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "romantikk",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ହ\u{b43}ଦୟ ସହ\u{b3f}ତ ପ\u{b4d}ରେମୀ ଯ\u{b41}ଗଳ"),
@@ -9766,6 +10424,7 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "ହ\u{b43}ଦୟ ସହ\u{b3f}ତ ପ\u{b4d}ରେମୀ ଯ\u{b41}ଗଳ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਦਿਲ ਨਾਲ ਪ\u{a4d}ਰ\u{a47}ਮੀ ਜ\u{a4b}ੜਾ"),
@@ -9778,26 +10437,31 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "ਲ\u{a4b}ਕ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("دل نال جوڑا"),
             keywords: &["جوڑا", "دل نال جوڑا", "پریم"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Tú Pípol Wit Hat"),
             keywords: &["Lọv", "Tú Pípol Wit Hat", "Tú Pípul", "Tú Pípul Wit Hat"],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("para z sercem"),
             keywords: &["miłość", "para", "para z sercem", "pocałunek", "zakochani"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("د زړه سره جوړه"),
             keywords: &["جوړه", "د زړه سره جوړه", "مينه"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("casal apaixonado"),
@@ -9809,26 +10473,31 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "romance",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("casal com coração"),
             keywords: &["amor", "casal", "casal com coração", "coração", "romance"],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("pitu runakuna sunquwan"),
             keywords: &["munay", "pitu runakuna", "pitu runakuna sunquwan"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("cuplu cu inimă"),
             keywords: &["cuplu", "cuplu cu inimă", "dragoste", "iubire"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-590"),
             keywords: &["E10-590"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("влюбленная пара"),
@@ -9841,16 +10510,19 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "чувства",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("ikupule n’umutima"),
             keywords: &["abakundana", "ikupule n’umutima", "urukundo"],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("دل سان جوڙو"),
             keywords: &["جوڙو", "دل سان جوڙو", "پيار"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("හදවතක\u{dca} සමග\u{dd2}න\u{dca} ය\u{dd4}වල"),
@@ -9862,51 +10534,61 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "හදවතක\u{dca} සමග\u{dd2}න\u{dca} ය\u{dd4}වල",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("pár so srdcom"),
             keywords: &["láska", "pár", "pár so srdcom", "romanca", "srdce"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("par s srčkom"),
             keywords: &["ljubezen", "par", "par s srčkom", "romanca", "srce"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("lammaane is jecel"),
             keywords: &["Jaceyl", "lammaane", "lammaane is jecel"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("çift me zemër"),
             keywords: &["dashuri", "romancë", "zemër", "çift", "çift me zemër"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("пар са срцем"),
             keywords: &["пaр", "пар са срцем", "љубaв"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["пар са срцем"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("par sa srcem"),
             keywords: &["ljubav", "par", "par sa srcem"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["par sa srcem"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("par med hjärta"),
             keywords: &["hjärta", "kärlek", "människor", "par med hjärta"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("mume na mke na ishara ya moyo"),
@@ -9918,11 +10600,13 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "upendo",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("க\u{bbe}தலர\u{bcd}கள\u{bcd}"),
@@ -9933,6 +10617,7 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "ஜோடி",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("జంట మధ\u{c4d}య ప\u{c4d}ర\u{c47}మ చ\u{c3f}హ\u{c4d}నం"),
@@ -9942,11 +10627,13 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "ప\u{c4d}ర\u{c47}మ",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("ҷуфт бо дил"),
             keywords: &["муҳаббат", "ҷуфт", "ҷуфт бо дил"],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ค\u{e39}\u{e48}ร\u{e31}ก"),
@@ -9956,26 +10643,31 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "โรแมนต\u{e34}ก",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("ýürekli jübüt"),
             keywords: &["jübüt", "söýgi", "ýürekli jübüt"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("ongo tokoua moe mafu"),
             keywords: &["ongo tokoua moe mafu"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("kalpli çift"),
             keywords: &["kalp", "kalpli çift", "kişiler", "romantizm"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("يۈرەكلىك جۈپلەر"),
             keywords: &["جۈپ", "سۆيگۈ", "مۇھەببەت", "يۈرەكلىك جۈپلەر"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("чоловік і жінка із серцем між ними"),
@@ -9987,61 +10679,73 @@ pub const COUPLE_WITH_HEART: crate::Emoji = crate::Emoji {
                 "чоловік і жінка із серцем між ними",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("دل اور جوڑا"),
             keywords: &["جوڑا", "دل", "دل اور جوڑا", "رومانس"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("juftlik va yurak"),
             keywords: &["juftlik", "juftlik va yurak", "romantika", "sevgi", "yurak"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("cặp đôi với trái tim"),
             keywords: &["cặp đôi", "cặp đôi với trái tim", "yêu"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("xol ak ñaar ñu bëggante"),
             keywords: &["góor ak jigéen", "mbëggeel", "xol ak ñaar ñu bëggante"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("isibini esinentliziyo"),
             keywords: &["isibini", "isibini esinentliziyo", "uthando"],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Lọkọlaya Pẹlu ọkan"),
             keywords: &["Lọkọlaya Pẹlu ọkan", "tọkọtaya", "ìfẹ\u{301}"],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("夫婦同心"),
             keywords: &["夫婦同心", "夫婦｜愛"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("夫妇同心"),
             keywords: &["夫妇同心", "夫妇｜爱"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("情侣"),
             keywords: &["恋爱", "情侣", "浪漫", "红心"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("相愛"),
             keywords: &["一對", "男女", "相愛"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("戀愛中"),
             keywords: &["戀愛中", "男人和女人有個愛心"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("izithandani ezinenhliziyo"),
@@ -12490,331 +13194,397 @@ pub const FAMILY: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("gesin"),
             keywords: &["gesin", "kind", "moeder", "vader"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ቤተሰብ"),
             keywords: &["ልጅ", "ቤተሰብ", "አባት", "እናት"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("أسرة"),
             keywords: &["أب", "أسرة", "أشخاص", "أم", "طفل"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("পৰিয\u{9bc}\u{9be}ল"),
             keywords: &["পৰিয\u{9bc}\u{9be}ল"],
         },
+        #[cfg(feature = "ast")]
         crate::Annotation {
             lang: "ast",
             tts: Some("familia"),
             keywords: &["familia"],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("ailə"),
             keywords: &["ailə", "ana", "ata", "uşaq"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("сям’я"),
             keywords: &["сям’я"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("семейство"),
             keywords: &["баща", "дете", "майка", "семейство"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("পরিব\u{9be}র"),
             keywords: &["পরিব\u{9be}র", "ব\u{9be}ব\u{9be}", "ম\u{9be}", "শিশ\u{9c1}"],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("familh"),
             keywords: &["bugel", "familh", "mamm", "tad"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("porodica"),
             keywords: &["dijete", "majka", "otac", "porodica"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("família"),
             keywords: &["criatura", "família", "mare", "pare"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᏏᏓᏁᎸᎢ"),
             keywords: &["ᏏᏓᏁᎸᎢ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("rodina"),
             keywords: &["dítě", "matka", "otec", "rodina"],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("teulu"),
             keywords: &["mam", "plentyn", "tad", "teulu"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("familie"),
             keywords: &["barn", "familie", "far", "menneske", "mor"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Familie"),
             keywords: &["Familie", "Kind", "Mutter", "Vater"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("οικογένεια"),
             keywords: &["μητέρα", "οικογένεια", "παιδί", "πατέρας"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("family"),
             keywords: &["family"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("familia"),
             keywords: &["familia", "madre", "niño", "padre", "personas"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["familia", "hija", "hijo", "madre", "padre"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["familia", "hija", "hijo", "madre", "mamá", "padre", "papá"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("perekond"),
             keywords: &["ema", "isa", "laps", "perekond"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("familia"),
             keywords: &["aita", "ama", "familia", "haurra"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("خانواده"),
             keywords: &["خانه\u{200c}وار", "خانواده", "عائله", "فامیل"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("perhe"),
             keywords: &["isä", "lapsi", "perhe", "äiti"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("pamilya"),
             keywords: &["ama", "anak", "ina", "pamilya"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("familja"),
             keywords: &["barn", "familja", "foreldur"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("famille"),
             keywords: &["enfant", "famille", "mère", "père"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("teaghlach"),
             keywords: &["athair", "leanaí", "máthair", "páiste", "teaghlach"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("teaghlach"),
             keywords: &["teaghlach"],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("familia"),
             keywords: &["familia", "nai", "neno", "pai"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ક\u{ac1}ટ\u{ac1}\u{a82}બ"),
             keywords: &["ક\u{ac1}ટ\u{ac1}\u{a82}બ", "પિતા", "બાળક", "માતા", "લોકો"],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("iyali"),
             keywords: &["iyali"],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("משפחה"),
             keywords: &["אבא", "אמא", "הורים", "ילד", "ילדה", "משפחה"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("परिवार"),
             keywords: &["परिवार", "पिता", "बच\u{94d}चा", "माता", "लोग"],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("obitelj"),
             keywords: &["dijete", "majka", "obitelj", "otac"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("család"),
             keywords: &["anya", "anyuka", "apa", "apuka", "család", "gyermek"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("ընտանիք"),
             keywords: &["երեխա", "ընտանիք", "հայր", "մայր"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("keluarga"),
             keywords: &["anak", "ayah", "bapak", "ibu", "keluarga", "mama", "papa"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ezinaụlọ"),
             keywords: &["ezinaụlọ"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("fjölskylda"),
             keywords: &["barn", "faðir", "fjölskylda", "fólk", "móðir"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("famiglia"),
             keywords: &["bambino", "famiglia", "mamma", "papà", "persone"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("家族"),
             keywords: &["家族", "親子"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("kluwarga"),
             keywords: &["kluwarga"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("ოჯახი"),
             keywords: &["ბავშვი", "დედა", "მამა", "ოჯახი"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("отбасы"),
             keywords: &["ана", "бала", "отбасы", "әке"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("familie"),
             keywords: &["barn", "familie", "far", "menneske", "mor"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("គ\u{17d2}រ\u{17bd}សារ"),
             keywords: &["គ\u{17d2}រ\u{17bd}សារ"],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಕುಟುಂಬ"),
             keywords: &["ಕುಟುಂಬ", "ಕುಟುಂಬ ಸದಸ\u{ccd}ಯರು"],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("가족"),
             keywords: &["가족", "사람들", "아빠", "아이", "엄마"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("क\u{941}ट\u{941}\u{902}ब"),
             keywords: &["क\u{941}ट\u{941}\u{902}ब"],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("үй-бүлө"),
             keywords: &["ата", "бала", "эне", "үй-бүлө"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Famill"),
             keywords: &["Famill"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ຄອບຄ\u{ebb}ວ"),
             keywords: &["ຄອບຄ\u{ebb}ວ", "ຄ\u{ebb}ນ", "ພ\u{ecd}\u{ec8}", "ແມ\u{ec8}"],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("šeima"),
             keywords: &["mama", "tėvas", "vaikas", "šeima"],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("ģimene"),
             keywords: &["bērns", "māte", "sieviete", "tēvs", "vīrietis", "ģimene"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("whānau"),
             keywords: &["whānau"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("семејство"),
             keywords: &["дете", "мајка", "семејство", "татко", "фамилија"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ക\u{d41}ട\u{d41}ംബം"),
@@ -12827,71 +13597,85 @@ pub const FAMILY: crate::Emoji = crate::Emoji {
                 "ഫ\u{d3e}മിലി",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("гэр бүл"),
             keywords: &["аав", "гэр бүл", "хүү", "ээж"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("क\u{941}ट\u{941}\u{902}ब"),
             keywords: &["क\u{941}ट\u{941}\u{902}ब"],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("keluarga"),
             keywords: &["bapa", "ibu", "kanak-kanak", "keluarga"],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("familja"),
             keywords: &["familja"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("မ\u{102d}သားစ\u{102f}"),
             keywords: &["မ\u{102d}သားစ\u{102f}"],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("familie"),
             keywords: &["barn", "familie", "far", "mennesker", "mor"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("परिवार"),
             keywords: &["आमा", "परिवार", "बच\u{94d}चा", "ब\u{941}बा"],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("gezin"),
             keywords: &["gezin", "kind", "mensen", "moeder", "vader"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("familie"),
             keywords: &["barn", "familie", "far", "menneske", "mor"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ପର\u{b3f}ବ\u{b3e}ର"),
             keywords: &["ପର\u{b3f}ବ\u{b3e}ର"],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਪਰਿਵਾਰ"),
             keywords: &["ਪਰਿਵਾਰ", "ਪਿਓ", "ਬ\u{a71}ਚਾ", "ਮਾ\u{a02}", "ਲ\u{a4b}ਕ"],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("ٹب\u{651}ر"),
             keywords: &["ٹب\u{651}ر"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Fámíli"),
             keywords: &["Fámíli"],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("rodzina"),
@@ -12899,126 +13683,151 @@ pub const FAMILY: crate::Emoji = crate::Emoji {
                 "dziecko", "mama", "matka", "ojciec", "rodzice", "rodzina", "tata",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("کورنۍ"),
             keywords: &["کورنۍ"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("família"),
             keywords: &["família", "filho", "mãe", "pai", "pessoas"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["família"],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("kuraq ayllu"),
             keywords: &["kuraq ayllu"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("familie"),
             keywords: &["familie"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-551"),
             keywords: &["E10-551"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("семья"),
             keywords: &["мать", "отец", "пара", "ребенок", "семья"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("umuryango"),
             keywords: &["umuryango"],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("ڪٽنب"),
             keywords: &["ڪٽنب"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("පව\u{dd4}ල"),
             keywords: &["පව\u{dd4}ල", "ප\u{dd2}ය\u{dcf}", "මව", "ළමය\u{dcf}"],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("rodina"),
             keywords: &["dieťa", "matka", "otec", "rodina"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("družina"),
             keywords: &["družina", "mati", "otrok", "oče"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("Qooys caruur ah"),
             keywords: &["Qooys", "Qooys caruur ah"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("familje"),
             keywords: &["baba", "familje", "fëmijë", "mama", "nënë"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("породица"),
             keywords: &["породица"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["породица"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("porodica"),
             keywords: &["porodica"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["porodica"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("familj"),
             keywords: &["barn", "familj", "mamma", "människor", "pappa"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("familia"),
             keywords: &["baba", "familia", "mama", "mtoto"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("குடும\u{bcd}பம\u{bcd}"),
             keywords: &["குடும\u{bcd}பம\u{bcd}"],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("కుటుంబం"),
             keywords: &["కుటుంబ సభ\u{c4d}యులు", "కుటుంబం"],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("оила"),
             keywords: &["оила"],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ครอบคร\u{e31}ว"),
@@ -13030,86 +13839,103 @@ pub const FAMILY: crate::Emoji = crate::Emoji {
                 "แม\u{e48}",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("maşgala"),
             keywords: &["maşgala"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("fāmili"),
             keywords: &["fāmili"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("aile"),
             keywords: &["aile", "anne", "baba", "kişiler", "çocuk"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("ئائىلە"),
             keywords: &["ئائىلە"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("родина"),
             keywords: &["батько", "дитина", "мама", "матір", "родина", "тато"],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("خاندان"),
             keywords: &["باپ", "بچہ", "خاندان", "ماں"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("oila"),
             keywords: &["farzand", "oila", "ona", "ota"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("gia đình"),
             keywords: &["gia đình"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("bokk famiy"),
             keywords: &["bokk famiy"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("usapho"),
             keywords: &["usapho"],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Ẹbí"),
             keywords: &["Ẹbí"],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("家庭"),
             keywords: &["家庭"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("家庭"),
             keywords: &["家庭"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("家庭"),
             keywords: &["家庭"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("家庭"),
             keywords: &["家庭", "親子"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("umndeni"),

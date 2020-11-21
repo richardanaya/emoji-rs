@@ -10,6 +10,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("aardbol met europa-afrika"),
@@ -22,11 +23,13 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "wêreld",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("አውሮፓና አፍሪካ የሚያሳይ ሉል"),
             keywords: &["ሉል", "መሬት", "አውሮጳ", "አውሮፓና አፍሪካ የሚያሳይ ሉል", "አፍሪካ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("\u{202b}كرة أرضية تعرض أوروبا وإفريقيا"),
@@ -36,6 +39,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "\u{202b}كرة أرضية تعرض أوروبا وإفريقيا",
             ],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("গ\u{9cd}ল’বত ইউৰোপ-আফ\u{9cd}ৰিক\u{9be} দেখ\u{9c1}ৱ\u{9be}ইছে"),
@@ -48,6 +52,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "বিশ\u{9cd}ব",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("Avropa-Afrikanı göstərən qlobus"),
@@ -60,6 +65,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "yer kürəsi",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("зямны шар (еўропа і афрыка)"),
@@ -71,6 +77,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "свет",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("глобус с Европа и Африка"),
@@ -82,6 +89,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "земята",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("গ\u{9cd}লোব ইউরোপ আফ\u{9cd}রিক\u{9be} দেখ\u{9be}চ\u{9cd}ছে"),
@@ -94,6 +102,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "বিশ\u{9cd}ব",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("boul douar o tiskouez Europa hag Afrika"),
@@ -106,6 +115,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "douar",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("globus prikazuje Evropu i Afriku"),
@@ -117,6 +127,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "svijet",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("globus terraqüi amb Europa i Àfrica"),
@@ -127,6 +138,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "Àfrica",
             ],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎡᎶᎯ ᏗᏟᎶᏍᏔᏅ ᎬᏂᎨᏒ ᏂᎬᎾ ᏳᎳᏈ-ᎬᎿᎨᏍᏛ"),
@@ -139,6 +151,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ᏳᎳᏈ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("glóbus s Evropou a Afrikou"),
@@ -151,6 +164,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "zeměkoule",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("glôb yn dangos Ewrop-Affrica"),
@@ -162,11 +176,13 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "y ddaear",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("globus med Europa og Afrika"),
             keywords: &["Afrika", "Europa", "globus med Europa og Afrika", "jorden"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Globus mit Europa und Afrika"),
@@ -177,6 +193,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "Weltkugel",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("υδρόγειος με Ευρώπη και Αφρική"),
@@ -189,6 +206,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "υδρόγειος με Ευρώπη και Αφρική",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("globe showing Europe-Africa"),
@@ -201,26 +219,31 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "world",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("globo terráqueo mostrando Europa y África"),
@@ -233,6 +256,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "África",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("globo terráqueo Europa/África"),
@@ -245,16 +269,19 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "África",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["Europa", "globo", "globo terráqueo Europa/África", "África"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("Euroopa ja Aafrika gloobusel"),
@@ -267,6 +294,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "maailm",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("europa eta afrika ikusgai dituen lur-globoa"),
@@ -279,6 +307,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "mundu",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("نقشه\u{654} اروپا-افریقا روی کره"),
@@ -291,6 +320,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "کره\u{654} زمین",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("maapallo jossa näkyy Eurooppa ja Afrikka"),
@@ -302,6 +332,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "maapallo jossa näkyy Eurooppa ja Afrikka",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("globong nagpapakita sa europe at africa"),
@@ -313,6 +344,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "mundo",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("globus har Evropa og Afrika síggjast"),
@@ -326,6 +358,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "verðin",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("globe tourné sur l’Afrique et l’Europe"),
@@ -335,6 +368,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "globe tourné sur l’Afrique et l’Europe",
             ],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("globe qui montre l’Europe et l’Afrique"),
@@ -346,6 +380,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "monde",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("cruinneog ag taispeáint na hEorpa agus na hAfraice"),
@@ -358,6 +393,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "cruinneog ag taispeáint na hEorpa agus na hAfraice",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("cruinne leis an Roinn-Eòrpa ’s Afraga"),
@@ -373,6 +409,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "talamh",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("globo terráqueo Europa-África"),
@@ -384,6 +421,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "África",
             ],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ય\u{ac1}રોપ-આફ\u{acd}રિકા બતાવતો પ\u{ac3}થ\u{acd}વીનો ગોળો"),
@@ -397,6 +435,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ય\u{ac1}રોપ-આફ\u{acd}રિકા બતાવતો પ\u{ac3}થ\u{acd}વીનો ગોળો",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("gulob na duniya mai nunawa Turai-Afrika"),
@@ -408,6 +447,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "gulob na duniya mai nunawa Turai-Afrika",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("גלובוס עם אירופה ואפריקה"),
@@ -420,6 +460,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "עולם",
             ],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("य\u{942}रोप-अफ\u{93c}\u{94d}रीका दिखाता ग\u{94d}लोब"),
@@ -432,6 +473,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "य\u{942}रोप-अफ\u{93c}\u{94d}रीका दिखाता ग\u{94d}लोब",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("globus s prikazom Europe i Afrike"),
@@ -444,6 +486,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "svijet",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("Európát és Afrikát mutató földgömb"),
@@ -456,6 +499,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "világ",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("Եվրոպան և Աֆրիկան պատկերող գլոբուս"),
@@ -468,6 +512,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "երկիր",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("bola dunia Eropa-Afrika"),
@@ -480,6 +525,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "globe",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ụwa na-egosi Europe-Afrika"),
@@ -491,6 +537,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ụwa na-egosi Europe-Afrika",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("hnöttur sem sýnir Evrópu-Afríku"),
@@ -501,11 +548,13 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "jörðin",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("Europa e Africa"),
             keywords: &["Africa", "Europa", "Europa e Africa", "terra"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("地球（ヨーロッパとアフリカ）"),
@@ -516,6 +565,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "地球（ヨーロッパとアフリカ）",
             ],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("globe sing nuduhake benua Eropa-Afrika"),
@@ -528,6 +578,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "globe sing nuduhake benua Eropa-Afrika",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("გლობუსი, რომელზეც ჩანს ევროპა და აფრიკა"),
@@ -540,11 +591,13 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "მსოფლიო",
             ],
         },
+        #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
             tts: Some("amtiweg turuft tafriqt"),
             keywords: &["amtiweg turuft tafriqt"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("Еуропа мен Африка көрсетілген глобус"),
@@ -557,11 +610,13 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "әлем",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("globus med europa og afrika"),
             keywords: &["Afrika", "Europa", "globus med europa og afrika", "jorden"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some(
@@ -573,6 +628,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ព\u{17b7}ភពលោក",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some(
@@ -585,6 +641,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ಯ\u{cc2}ರೋಪ\u{ccd}-ಆಫ\u{ccd}ರ\u{cbf}ಕಾ ತೋರ\u{cbf}ಸುತ\u{ccd}ತ\u{cbf}ರುವ ಭ\u{cc2}ಗೋಳ",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("유럽과 아프리카가 보이는 지구"),
@@ -595,6 +652,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "지구본",
             ],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("य\u{941}रोप-आफ\u{94d}रिका दाखोवपी विश\u{94d}वगोल"),
@@ -606,6 +664,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "य\u{941}रोप-आफ\u{94d}रिका दाखोवपी विश\u{94d}वगोल",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("европа-африканы көрсөткөн глобус"),
@@ -617,6 +676,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "жер",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Globus (zentréiert op Europa an Afrika)"),
@@ -629,6 +689,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "Äerd",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ໜ\u{ec8}ວຍໂລກທ\u{eb5}\u{ec8}ສະແດງເອ\u{eb5}ຣ\u{ebb}ບ-ອາຝຣ\u{eb4}ກາ"),
@@ -639,6 +700,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ໜ\u{ec8}ວຍໂລກທ\u{eb5}\u{ec8}ສະແດງເອ\u{eb5}ຣ\u{ebb}ບ-ອາຝຣ\u{eb4}ກາ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("žemės rutulys su Europos ir Afrikos žemynais"),
@@ -651,6 +713,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "žemės rutulys su Europos ir Afrikos žemynais",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("globuss ar Eiropu un Āfriku"),
@@ -663,6 +726,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "Āfrika",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("ao whakakite Uropi-Āwherika"),
@@ -674,6 +738,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "Āwherika",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("глобус што ги покажува Европа и Африка"),
@@ -685,6 +750,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "земја",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some(
@@ -699,6 +765,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "യ\u{d42}റോപ\u{d4d}പ\u{d4d}-ആഫ\u{d4d}രിക\u{d4d}ക ക\u{d3e}ണിക\u{d4d}ക\u{d41}ന\u{d4d}ന ഭ\u{d42}ഗോളം",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("Европ-Африкийг харуулсан бөмбөрцөг"),
@@ -710,6 +777,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "дэлхий",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("य\u{941}रोप-आफ\u{94d}रिका दर\u{94d}शविणारा प\u{943}थ\u{94d}वीचा गोल"),
@@ -722,6 +790,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "य\u{941}रोप-आफ\u{94d}रिका दर\u{94d}शविणारा प\u{943}थ\u{94d}वीचा गोल",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("peta glob Eropah-Afrika"),
@@ -734,6 +803,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "peta glob Eropah-Afrika",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("globu juri l-Ewropa-Afrika"),
@@ -745,6 +815,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "l-Ewropa",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some(
@@ -759,6 +830,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ဥရောပန\u{103e}င\u{1037}\u{103a} အာဖရ\u{102d}ကက\u{102d}\u{102f} ပြသထားသည\u{1037}\u{103a} ကမ\u{1039}ဘာလ\u{102f}\u{1036}း",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("jordklode med Europa og Afrika"),
@@ -770,6 +842,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "verden",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("य\u{942}रोप-अफ\u{94d}रिका द\u{947}खाइएको विश\u{94d}वको मानचित\u{94d}र"),
@@ -782,6 +855,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "स\u{902}सार",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("wereldbol met Europa-Afrika"),
@@ -794,6 +868,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "wereldbol met Europa-Afrika",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("jordklode med Europa og Afrika"),
@@ -804,6 +879,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "jordklode med Europa og Afrika",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some(
@@ -817,6 +893,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ୟ\u{b41}ରୋପ\u{b4d}\u{200c}-ଆଫ\u{b4d}ର\u{b3f}କ\u{b3e} ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଗ\u{b4d}ଲୋବ\u{b4d}\u{200c}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਯ\u{a42}ਰਪ-ਅਫਰੀਕਾ ਵਿਖਾਉ\u{a02}ਦਾ ਗਲ\u{a4b}ਬ"),
@@ -828,6 +905,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ਸ\u{a70}ਸਾਰ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("گلوب یورپ ـ افریقہ وکھا رہیا اے"),
@@ -840,6 +918,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "یورپ",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Raúnd Wọ\u{301}ld Map Wẹ De Shó Yúrop-Áfrika"),
@@ -853,6 +932,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "Ẹt",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("kula ziemska przedstawiająca Europę i Afrykę"),
@@ -863,6 +943,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "kula ziemska przedstawiająca Europę i Afrykę",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("نړۍ ښيي اروپا-افریقا"),
@@ -875,6 +956,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "کره",
             ],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("globo mostrando Europa e África"),
@@ -885,6 +967,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "África",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("globo com a Europa e a África visíveis"),
@@ -897,6 +980,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "África",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("saywasiqʼi Europa, Africapas Qawachkan"),
@@ -908,6 +992,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "saywasiqʼi Europa, Africapas Qawachkan",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("Europa și Africa pe glob"),
@@ -920,11 +1005,13 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "lume",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-212"),
             keywords: &["E10-212"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("Европа и Африка на земном шаре"),
@@ -938,6 +1025,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "шар",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("umubumbe w’isi werekana Uburayi n’Afurika"),
@@ -949,6 +1037,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "umubumbe w’isi werekana Uburayi n’Afurika",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("گلوب يورپ ايشيا ڏيکاري پيو"),
@@ -957,6 +1046,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "گلوب يورپ ايشيا ڏيکاري پيو",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some(
@@ -971,6 +1061,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ලෝකය",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("zemeguľa s Európou a Afrikou"),
@@ -983,6 +1074,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "zemeguľa s Európou a Afrikou",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("globus z Evropo in Afriko"),
@@ -995,6 +1087,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "zemlja",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("adduunka muujinaya Yurub-Afrika"),
@@ -1007,6 +1100,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "dunida",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("globi që tregon Evropën dhe Afrikën"),
@@ -1018,6 +1112,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "globi që tregon Evropën dhe Afrikën",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("глобус са Европом и Африком"),
@@ -1030,11 +1125,13 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "свет",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["глобус са Европом и Африком"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("globus sa Evropom i Afrikom"),
@@ -1047,16 +1144,19 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "svet",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["globus sa Evropom i Afrikom"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("jordglob Europa–Afrika"),
             keywords: &["Afrika", "Europa", "jorden", "jordglob Europa–Afrika"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("tufe linaloonyesha ulaya-afrika"),
@@ -1069,11 +1169,13 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ulimwengu",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("ஐரோப\u{bcd}ப\u{bbe}-ஆப\u{bcd}பிரிக\u{bcd}க\u{bbe}"),
@@ -1085,6 +1187,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "பூமி",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some(
@@ -1098,6 +1201,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "యూరప\u{c4d}-ఆఫ\u{c4d}ర\u{c3f}క\u{c3e}ను చూప\u{c47} గ\u{c4d}ల\u{c4b}బ\u{c4d}",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("глобусе, ки Аврупо-Африкаро намоиш медиҳад"),
@@ -1110,6 +1214,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ҷаҳон",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ล\u{e39}กโลกแสดงทว\u{e35}ปย\u{e38}โรปและแอฟร\u{e34}กา"),
@@ -1120,6 +1225,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "แอฟร\u{e34}กา",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("Ýewropa-Afrikany görkezýän globus"),
@@ -1132,16 +1238,19 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "ýer togalagy",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("kolope ʻasi mai ʻEulope-ʻAfilika"),
             keywords: &["kolope ʻasi mai ʻEulope-ʻAfilika"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("yerkürede Avrupa-Afrika"),
             keywords: &["Afrika", "Avrupa", "dünya", "yerkürede Avrupa-Afrika"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("ياۋروپا-ئافرىقىنى كۆرسەتكەن گىلوبۇس"),
@@ -1154,6 +1263,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "گىلوبۇس",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("глобус, що показує Європу й Африку"),
@@ -1166,6 +1276,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "європа",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("یورپ اور افریقہ کو دکھاتا گلوب"),
@@ -1177,6 +1288,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "یورپ اور افریقہ کو دکھاتا گلوب",
             ],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("globusda yevropa va afrika qit’asi"),
@@ -1189,6 +1301,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "yevropa",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("địa cầu thể hiện Châu Âu-Châu Phi"),
@@ -1201,6 +1314,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "địa cầu thể hiện Châu Âu-Châu Phi",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("glob buy wane ërop ak afrik"),
@@ -1213,6 +1327,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "àdduna",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("iglobhu ebonisa iYurophu-Afrika"),
@@ -1225,6 +1340,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "umhlaba",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Gulobu To N Ṣafihan Uropu-Afirika"),
@@ -1237,6 +1353,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "írópù",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("顯示歐洲 - 非洲嘅地球儀"),
@@ -1249,6 +1366,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "顯示歐洲 - 非洲嘅地球儀",
             ],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("显示欧洲 - 非洲嘅地球仪"),
@@ -1261,16 +1379,19 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "非洲",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("地球上的欧洲非洲"),
             keywords: &["世界", "地球", "地球上的欧洲非洲", "欧洲", "非洲"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("歐洲及非洲"),
             keywords: &["地球", "歐洲及非洲"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("顯示歐洲同非洲嘅地球"),
@@ -1282,6 +1403,7 @@ pub const GLOBE_SHOWING_EUROPE_AFRICA: crate::Emoji = crate::Emoji {
                 "顯示歐洲和非洲的地球",
             ],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("igilobhu eliveza i-europe-afrika"),
@@ -1307,6 +1429,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("aardbol met amerikas"),
@@ -1318,6 +1441,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "wêreld",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ሰሜንና ደቡብ አሜሪካ የሚያሳይ ሉል"),
@@ -1329,11 +1453,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ዓለም",
             ],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("\u{202b}كرة أرضية تعرض الأمريكتين"),
             keywords: &["أمريكا", "\u{202b}كرة أرضية تعرض الأمريكتين"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("গ\u{9cd}ল’বত আমেৰিক\u{9be} দেখ\u{9c1}ৱ\u{9be}ইছে"),
@@ -1345,6 +1471,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "বিশ\u{9cd}ব",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("amerika-qitələrini göstərən qlobus"),
@@ -1356,6 +1483,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "yer kürəsi",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("зямны шар (паўночная і паўднёвая амерыкі)"),
@@ -1367,6 +1495,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "свет",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("глобус със Северна и Южна Америка"),
@@ -1378,6 +1507,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "южна америка",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("গ\u{9cd}লোব আমেরিক\u{9be} দেখ\u{9be}চ\u{9cd}ছে"),
@@ -1389,6 +1519,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "বিশ\u{9cd}ব",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("boul douar o tiskouez Amerika"),
@@ -1400,6 +1531,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "douar",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("globus prikazuje Sjevernu i Južnu Ameriku"),
@@ -1411,11 +1543,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "zemaljska kugla",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("globus terraqüi amb Amèrica"),
             keywords: &["Amèrica", "globus terraqüi amb Amèrica", "món"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎡᎶᎯ ᏗᏟᎶᏍᏔᏅ ᎬᏂᎨᏒ ᏂᎬᎾ ᎠᎹᏰᎵ"),
@@ -1427,6 +1561,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ᎧᎵ ᎡᎶᎯ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("glóbus se Severní a Jižní Amerikou"),
@@ -1438,11 +1573,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "zeměkoule",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("glôb yn dangos yr Americas"),
             keywords: &["Americas", "byd", "glôb yn dangos yr Americas", "y ddaear"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("globus med Nord- og Sydamerika"),
@@ -1453,6 +1590,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "jorden",
             ],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Globus mit Amerika"),
@@ -1463,6 +1601,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "Weltkugel",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("υδρόγειος με Βόρεια και Νότια Αμερική"),
@@ -1474,6 +1613,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "υδρόγειος με Βόρεια και Νότια Αμερική",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("globe showing Americas"),
@@ -1485,26 +1625,31 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "world",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("globo terráqueo mostrando América"),
@@ -1517,16 +1662,19 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "planeta",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("globo terráqueo América"),
             keywords: &["América", "globo", "mapa", "terráqueo"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
@@ -1539,6 +1687,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "tierra",
             ],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("Ameerika mandrid gloobusel"),
@@ -1550,6 +1699,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "maailm",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("america ikusgai duen lur-globoa"),
@@ -1561,6 +1711,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "mundu",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("نقشه\u{654} قاره\u{654} امریکا روی کره"),
@@ -1574,6 +1725,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "کره\u{654} زمین",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("maapallo jossa näkyy Amerikka"),
@@ -1584,6 +1736,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "maapallo jossa näkyy Amerikka",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("globong nagpapakita sa America"),
@@ -1596,6 +1749,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "mundo",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("globus har Amerika sæst"),
@@ -1608,16 +1762,19 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "verðin",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("globe tourné sur les Amériques"),
             keywords: &["amérique", "globe tourné sur les Amériques"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("globe qui montre l’Amérique"),
             keywords: &["Amérique", "globe", "globe qui montre l’Amérique", "monde"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("cruinneog ag taispeáint Chríocha Mheiriceá"),
@@ -1628,6 +1785,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "cruinneog ag taispeáint Chríocha Mheiriceá",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("cruinne le Aimeireaga"),
@@ -1641,11 +1799,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "talamh",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("globo terráqueo América"),
             keywords: &["América", "Terra", "globo terráqueo América", "mundo"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("અમ\u{ac7}રિકા બતાવતો પ\u{ac3}થ\u{acd}વીનો ગોળો"),
@@ -1658,6 +1818,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "પ\u{ac3}થ\u{acd}વી",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("gulob mai nunawa Ƙasashen Amurika"),
@@ -1668,11 +1829,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "Ƙasashen Amurka",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("גלובוס עם אמריקה"),
             keywords: &["אמריקה", "גלובוס", "גלובוס עם אמריקה", "כדור הארץ", "עולם"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("ग\u{94d}लोब, प\u{943}थ\u{94d}वी, अम\u{947}रिकाज\u{93c}, अम\u{947}रिका"),
@@ -1684,6 +1847,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "प\u{943}थ\u{94d}वी",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("globus s prikazom Amerika"),
@@ -1697,6 +1861,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "svijet",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("Amerikát mutató földgömb"),
@@ -1709,6 +1874,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "világ",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("Ամերիկաները պատկերող գլոբուս"),
@@ -1720,11 +1886,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "երկիր",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("bola dunia Amerika"),
             keywords: &["amerika", "bola dunia Amerika", "bumi", "dunia", "globe"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ụwa dum na-egosi Amerikansị"),
@@ -1735,6 +1903,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ụwa dum na-egosi Amerikansị",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("hnöttur sem sýnir Ameríku"),
@@ -1745,16 +1914,19 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "jörðin",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("America"),
             keywords: &["America", "Americhe", "terra"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("地球（アメリカ大陸）"),
             keywords: &["アメリカ", "アメリカ大陸", "地球", "地球（アメリカ大陸）"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("globe sing nuduhake benua Amerika"),
@@ -1766,6 +1938,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "globe sing nuduhake benua Amerika",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("გლობუსი, რომელზეც ჩანს ამერიკა"),
@@ -1777,11 +1950,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "მსოფლიო",
             ],
         },
+        #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
             tts: Some("amtiweg timrikin"),
             keywords: &["amtiweg timrikin"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("Екі Америка құрлығы көрсетілген глобус"),
@@ -1793,6 +1968,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "әлем",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("globus med nord- og sydamerika"),
@@ -1803,6 +1979,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "jorden",
             ],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ផែនដ\u{17b8}បង\u{17d2}ហាញទ\u{17d2}វ\u{17b8}បអាមេរ\u{17b7}ក"),
@@ -1812,6 +1989,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ព\u{17b7}ភពលោក",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಅಮ\u{cc6}ರ\u{cbf}ಕ ತೋರ\u{cbf}ಸುತ\u{ccd}ತ\u{cbf}ರುವ ಭ\u{cc2}ಗೋಳ"),
@@ -1822,11 +2000,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ಭ\u{cc2}ಮ\u{cbf}",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("미대륙이 보이는 지구"),
             keywords: &["미대륙", "미대륙이 보이는 지구", "미주", "세계", "지구본"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("अम\u{947}रीका दाखोवपी विश\u{94d}वगोल"),
@@ -1839,6 +2019,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "विश\u{94d}वगोल",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("американы көрсөткөн глобус"),
@@ -1850,6 +2031,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "жер",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Globus (zentréiert op Nord-/Südamerika)"),
@@ -1862,6 +2044,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "Äerd",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ໜ\u{ec8}ວຍໂລກທ\u{eb5}\u{ec8}ສະແດງອາເມລ\u{eb4}ກາ"),
@@ -1871,6 +2054,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ໜ\u{ec8}ວຍໂລກທ\u{eb5}\u{ec8}ສະແດງອາເມລ\u{eb4}ກາ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("žemės rutulys su Šiaurės ir Pietų Amerikos žemynais"),
@@ -1882,6 +2066,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "žemės rutulys su Šiaurės ir Pietų Amerikos žemynais",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("globuss ar Ameriku"),
@@ -1894,11 +2079,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "zemeslode",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("ao whakakite i ngā Amerika"),
             keywords: &["ao", "ao whakakite i ngā Amerika", "ngā Amerika", "whenua"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("глобус со Јужна и Северна Америка"),
@@ -1909,6 +2096,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "земја",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("അമേരിക\u{d4d}ക ക\u{d3e}ണിക\u{d4d}ക\u{d41}ന\u{d4d}ന ഭ\u{d42}ഗോളം"),
@@ -1921,6 +2109,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ഭ\u{d42}മി",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("Америкийг харуулсан бөмбөрцөг"),
@@ -1932,6 +2121,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "харуулах",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("अम\u{947}रिका दर\u{94d}शविणारा प\u{943}थ\u{94d}वीचा गोल"),
@@ -1943,16 +2133,19 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "प\u{943}थ\u{94d}वीचा गोल",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("peta glob Amerika"),
             keywords: &["amerika", "bumi", "dunia", "glob", "peta glob Amerika"],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("globu juri l-Ameriki"),
             keywords: &["dinja", "globu", "globu juri l-Ameriki", "l-Ameriki"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some(
@@ -1966,6 +2159,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "အမေရ\u{102d}ကတ\u{102d}\u{102f}က\u{103a}များက\u{102d}\u{102f} ပြသထားသည\u{1037}\u{103a} ကမ\u{1039}ဘာလ\u{102f}\u{1036}း",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("jordklode med Amerika"),
@@ -1977,6 +2171,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "verden",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("अम\u{947}रिका द\u{947}खाउन\u{947} विश\u{94d}वको मानचित\u{94d}र"),
@@ -1988,6 +2183,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "स\u{902}सार",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("wereldbol met Noord- en Zuid-Amerika"),
@@ -1999,11 +2195,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "wereldbol met Noord- en Zuid-Amerika",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("jordklode med Amerika"),
             keywords: &["Amerika", "USA", "jorda", "jordklode med Amerika"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଆମେର\u{b3f}କ\u{b3e} ଦେଖ\u{b3e}ଉଥ\u{b3f}ବ\u{b3e} ଗ\u{b4d}ଲୋବ\u{b4d}\u{200c}"),
@@ -2015,6 +2213,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ବ\u{b3f}ଶ\u{b4d}ଵ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਅਮਰੀਕਾ ਵਿਖਾਉ\u{a02}ਦਾ ਗਲ\u{a4b}ਬ"),
@@ -2025,6 +2224,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ਸ\u{a70}ਸਾਰ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("گلوب امریکہ یکھا رہیا اے"),
@@ -2036,6 +2236,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "گلوب امریکہ یکھا رہیا اے",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Raúnd Wọ\u{301}ld Map Wé De Shó Amẹ\u{301}ríkas"),
@@ -2050,6 +2251,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "Ẹt",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("kula ziemska przedstawiająca Ameryki"),
@@ -2060,11 +2262,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "kula ziemska przedstawiająca Ameryki",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("نړۍ ښيي امریکا"),
             keywords: &["امريکا", "زمکه", "نړۍ", "نړۍ ښيي امریکا"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("globo mostrando as Américas"),
@@ -2075,6 +2279,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "globo mostrando as Américas",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("globo com as Américas visíveis"),
@@ -2086,6 +2291,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "mundo",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("saywasiqʼi america qawachkan"),
@@ -2096,16 +2302,19 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "saywasiqʼi america qawachkan",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("Americile pe glob"),
             keywords: &["Americi", "Americile pe glob", "Pământ", "glob", "lume"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-213"),
             keywords: &["E10-213"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("Америка на земном шаре"),
@@ -2117,6 +2326,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "земной шар",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("umubumbe w’isi werekana Amerika zombi"),
@@ -2127,11 +2337,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "umubumbe w’isi werekana Amerika zombi",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("گلوب آمريڪا ڏيکاري پيو"),
             keywords: &["آمريڪا، زمين، گلوب، دنيا", "گلوب آمريڪا ڏيکاري پيو"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ඇමෙර\u{dd2}ක\u{dcf}ව පෙන\u{dca}වන ලෝක ගෝලය"),
@@ -2143,6 +2355,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ලෝකය",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("zemeguľa s\u{a0}Amerikou"),
@@ -2154,6 +2367,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "zemeguľa s\u{a0}Amerikou",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("globus s Severno in Južno Ameriko"),
@@ -2165,6 +2379,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "zemlja",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("adduunka oo muujinaya Ameerika"),
@@ -2177,6 +2392,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "dunida",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("globi që tregon Amerikat"),
@@ -2188,6 +2404,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "globi që tregon Amerikat",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("глобус са Америком"),
@@ -2200,11 +2417,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "свет",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["глобус са Америком"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("globus sa Amerikom"),
@@ -2217,11 +2436,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "svet",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["globus sa Amerikom"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("jordglob nord- och sydamerika"),
@@ -2232,6 +2453,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "nord- och sydamerika",
             ],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("tufe linaloonyesha amerika"),
@@ -2243,11 +2465,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ulimwengu",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("அமெரிக\u{bcd}க\u{bbe}"),
@@ -2259,6 +2483,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "வட அமெரிக\u{bcd}க\u{bbe}",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("అమ\u{c46}ర\u{c3f}క\u{c3e}ను చూప\u{c47} గ\u{c4d}ల\u{c4b}బ\u{c4d}"),
@@ -2270,6 +2495,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "భూమ\u{c3f}",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("глобусе, ки Америкаҳоро намоиш медиҳад"),
@@ -2281,6 +2507,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ҷаҳон",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ล\u{e39}กโลกแสดงทว\u{e35}ปอเมร\u{e34}กา"),
@@ -2290,6 +2517,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "อเมร\u{e34}กา",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("Amerikany görkezýän globus"),
@@ -2301,16 +2529,19 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "ýer togalagy",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("kolope ʻasi mai ongo ʻAmelika"),
             keywords: &["kolope ʻasi mai ongo ʻAmelika"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("yerkürede Amerika"),
             keywords: &["Amerika", "Amerika bölgeleri", "dünya", "yerkürede Amerika"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("ئىككى ئامېرىكىنى كۆرسەتكەن گىلوبۇس"),
@@ -2322,6 +2553,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "گىلوبۇس",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("глобус, що показує Америки"),
@@ -2333,11 +2565,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "світ",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("امریکہ کو دکھاتا گلوب"),
             keywords: &["امریکہ", "امریکہ کو دکھاتا گلوب", "دنیا", "زمین", "گلوب"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("globusda amerika qit’asi"),
@@ -2349,6 +2583,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "yer",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("địa cầu thể hiện Châu Mỹ"),
@@ -2360,11 +2595,13 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "địa cầu thể hiện Châu Mỹ",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("glob buy wane amerik"),
             keywords: &["Amerika", "glob", "glob buy wane amerik", "suuf", "àdduna"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("iglobhu ebonisa i-America"),
@@ -2376,6 +2613,7 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "umhlaba",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Gulobu To N Ṣafihan Amẹrika"),
@@ -2387,31 +2625,37 @@ pub const GLOBE_SHOWING_AMERICAS: crate::Emoji = crate::Emoji {
                 "àwọn amẹ\u{301}ríkà",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("顯示美洲嘅地球儀"),
             keywords: &["世界", "地球", "地球儀", "美洲", "顯示美洲嘅地球儀"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("显示美洲嘅地球仪"),
             keywords: &["世界", "地球", "地球仪", "显示美洲嘅地球仪", "美洲"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("地球上的美洲"),
             keywords: &["世界", "地球", "地球上的美洲", "美洲"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("美洲"),
             keywords: &["地球", "美洲"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("顯示美洲嘅地球"),
             keywords: &["地球", "美洲地球", "顯示美洲嘅地球", "顯示美洲的地球"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("igilobhu eliveza emelika"),
@@ -2431,6 +2675,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("aardbol met asië-australië"),
@@ -2443,16 +2688,19 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "wêreld",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("እስያና አውስትራሊያ የሚያሳይ ሉል"),
             keywords: &["ሉል", "መሬት", "አውስትራሊያ", "እስያ", "እስያና አውስትራሊያ የሚያሳይ ሉል"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("\u{202b}كرة أرضية تعرض آسيا وأستراليا"),
             keywords: &["آسيا", "أستراليا", "\u{202b}كرة أرضية تعرض آسيا وأستراليا"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some(
@@ -2467,6 +2715,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "বিশ\u{9cd}ব",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("asiya-avstraliya qitələrini göstərən qlobus"),
@@ -2479,6 +2728,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "yer kürəsi",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("зямны шар (аўстралія і азія)"),
@@ -2490,6 +2740,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "свет",
             ],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("глобус с Азия и Австралия"),
@@ -2501,6 +2752,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "земята",
             ],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some(
@@ -2515,6 +2767,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "বিশ\u{9cd}ব",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("boul douar o tiskouez Azia hag Aostralia"),
@@ -2527,6 +2780,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "douar",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("globus pokazuje Aziju i Australiju"),
@@ -2538,6 +2792,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "zemaljska kugla",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("globus terraqüi amb Àsia i Austràlia"),
@@ -2548,6 +2803,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "Àsia",
             ],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎡᎶᎯ ᏗᏟᎶᏍᏔᏅ ᎬᏂᎨᏒ ᏂᎬᎾ ᏓᎶᏂᎨ-ᎡᎳᏗ"),
@@ -2561,6 +2817,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ᏓᎶᏂᎨᏍᏛ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("glóbus s Asií a Austrálií"),
@@ -2573,6 +2830,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "zeměkoule",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("glôb yn dangos Asia-Awstralia"),
@@ -2584,6 +2842,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "y ddaear",
             ],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("globus med Asien og Australien"),
@@ -2594,6 +2853,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "jorden",
             ],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Globus mit Asien und Australien"),
@@ -2604,6 +2864,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "Weltkugel",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("υδρόγειος με Ασία και Αυστραλία"),
@@ -2616,6 +2877,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "υδρόγειος με Ασία και Αυστραλία",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("globe showing Asia-Australia"),
@@ -2628,26 +2890,31 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "world",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("globo terráqueo mostrando Asia y Australia"),
@@ -2660,6 +2927,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "planeta",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("globo terráqueo Asia/Oceanía"),
@@ -2673,16 +2941,19 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "terráqueo",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["Asia", "Australia", "globo", "globo terráqueo Asia/Oceanía"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("Aasia ja Austraalia gloobusel"),
@@ -2695,6 +2966,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "maailm",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("asia eta australia ikusgai dituen lur-globoa"),
@@ -2707,6 +2979,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "mundu",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("نقشه\u{654} آسیا-اقیانوسیه روی کره"),
@@ -2720,6 +2993,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "کره\u{654} زمین",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("maapallo jossa näkyy Aasia ja Australia"),
@@ -2731,6 +3005,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "maapallo jossa näkyy Aasia ja Australia",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("globong nagpapakita sa asia at australia"),
@@ -2742,6 +3017,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "mundo",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("globus har Asia og Avstralia síggjast"),
@@ -2755,6 +3031,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "verðin",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("globe tourné sur l’Asie et l’Australie"),
@@ -2764,6 +3041,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "globe tourné sur l’Asie et l’Australie",
             ],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("globe qui montre l’Asie et l’Australie"),
@@ -2775,6 +3053,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "monde",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("cruinneog ag taispeáint na hÁsie agus na hAstráile"),
@@ -2786,6 +3065,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "cruinneog ag taispeáint na hÁsie agus na hAstráile",
             ],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("cruinne le Àisia ’s Astràilia"),
@@ -2801,6 +3081,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "àisia",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("globo terráqueo Asia-Australia"),
@@ -2812,6 +3093,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "mundo",
             ],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("એશિયા-ઓસ\u{acd}ટ\u{acd}ર\u{ac7}લિયા બતાવતો પ\u{ac3}થ\u{acd}વીનો ગોળો"),
@@ -2825,6 +3107,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "પ\u{ac3}થ\u{acd}વી",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("gulob na duniya mai nunawa Asia-Australia"),
@@ -2836,6 +3119,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "gulob na duniya mai nunawa Asia-Australia",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("גלובוס עם אסיה ואוסטרליה"),
@@ -2847,6 +3131,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "כדור הארץ",
             ],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("ग\u{94d}लोब, प\u{943}थ\u{94d}वी, एशिया, ऑस\u{94d}ट\u{94d}र\u{947}लिया"),
@@ -2858,6 +3143,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "प\u{943}थ\u{94d}वी",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("globus s prikazom Azije i Australije"),
@@ -2870,6 +3156,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "svijet",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("Ázsiát és Ausztráliát mutató földgömb"),
@@ -2881,6 +3168,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "Ázsiát és Ausztráliát mutató földgömb",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("Ասիան և Ավստրալիան պատկերող գլոբուս"),
@@ -2893,6 +3181,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "երկիր",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("bola dunia Asia-Australia"),
@@ -2905,6 +3194,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "globe",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ụwa dum na-egosi Asia-Australia"),
@@ -2916,6 +3206,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ụwa dum na-egosi Asia-Australia",
             ],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("hnöttur sem sýnir Asíu-Ástralíu"),
@@ -2926,11 +3217,13 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "Ástralía",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("Asia e Australia"),
             keywords: &["Asia", "Asia e Australia", "Australia", "terra"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("地球（アジアとオーストラリア）"),
@@ -2941,6 +3234,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "地球（アジアとオーストラリア）",
             ],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("globe sing nuduhake benua Asia-Australia"),
@@ -2953,6 +3247,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "globe sing nuduhake benua Asia-Australia",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("გლობუსი, რომელზეც ჩანს აზია და ავსტრალია"),
@@ -2965,11 +3260,13 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "მსოფლიო",
             ],
         },
+        #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
             tts: Some("amtiweg asya ustralya"),
             keywords: &["amtiweg asya ustralya"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("Азия мен Австралия көрсетілген глобус"),
@@ -2982,6 +3279,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "әлем",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("globus med asien og australien"),
@@ -2992,6 +3290,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "jorden",
             ],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some(
@@ -3003,6 +3302,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ព\u{17b7}ភពលោក",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some(
@@ -3015,11 +3315,13 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ಭ\u{cc2}ಮ\u{cbf}",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("아시아와 호주가 보이는 지구"),
             keywords: &["아시아", "아시아와 호주가 보이는 지구", "지구본", "호주"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("आशिया-ऑस\u{94d}ट\u{94d}र\u{947}लिया दाखोवपी विश\u{94d}वगोल"),
@@ -3032,6 +3334,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "विश\u{94d}वगोल",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("азия-австралияны көрсөткөн глобус"),
@@ -3043,6 +3346,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "жер",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Globus (zentréiert op Asien an Australien)"),
@@ -3055,6 +3359,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "Äerd",
             ],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ໜ\u{ec8}ວຍໂລກທ\u{eb5}\u{ec8}ສະແດງອາຊ\u{eb5}-ອ\u{ebb}ດສະຕາລ\u{eb5}"),
@@ -3065,6 +3370,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ໜ\u{ec8}ວຍໂລກທ\u{eb5}\u{ec8}ສະແດງອາຊ\u{eb5}-ອ\u{ebb}ດສະຕາລ\u{eb5}",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("žemės rutulys su Azijos ir Australijos žemynais"),
@@ -3077,6 +3383,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "žemės rutulys su Azijos ir Australijos žemynais",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("globuss ar Āziju un Austrāliju"),
@@ -3089,6 +3396,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "Āzija",
             ],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("ao whakakite Āhia-Ahitereiria"),
@@ -3100,6 +3408,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "Āhia",
             ],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("глобус со Азија и Австралија"),
@@ -3112,6 +3421,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "свет",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some(
@@ -3128,6 +3438,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ഭ\u{d42}മി",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("Ази-Австралийг харуулсан бөмбөрцөг"),
@@ -3140,6 +3451,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "харуулах",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some(
@@ -3154,6 +3466,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "प\u{943}थ\u{94d}वीचा गोल",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("peta glob Asia-Australia"),
@@ -3166,6 +3479,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "peta glob Asia-Australia",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("globu juri l-Asja-Awstralja"),
@@ -3177,6 +3491,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "l-Awstralja",
             ],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some(
@@ -3192,6 +3507,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "အာရ\u{103e}−ဩစတြေးလျက\u{102d}\u{102f} ပြသထားသည\u{1037}\u{103a} ကမ\u{1039}ဘာလ\u{102f}\u{1036}း",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("jordklode med Asia og Australia"),
@@ -3203,6 +3519,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "verden",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some(
@@ -3217,6 +3534,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "स\u{902}सार",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("wereldbol met Azië-Australië"),
@@ -3229,6 +3547,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "wereldbol met Azië-Australië",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("jordklode med Asia og Australia"),
@@ -3239,6 +3558,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "jordklode med Asia og Australia",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some(
@@ -3252,6 +3572,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ବ\u{b3f}ଶ\u{b4d}ଵ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਏਸ\u{a3c}ੀਆ-ਆਸਟ\u{a4d}ਰ\u{a47}ਲੀਆ ਵਿਖਾਉ\u{a02}ਦਾ ਗਲ\u{a4b}ਬ"),
@@ -3263,6 +3584,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ਸ\u{a70}ਸਾਰ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("گلوب ایشیا ـ آسٹریلیا وکھا رہیا اے"),
@@ -3275,6 +3597,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "گلوب ایشیا ـ آسٹریلیا وکھا رہیا اے",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Raúnd Wọ\u{301}ld Map Wé De Shó Éshia-Ọstrélia"),
@@ -3288,6 +3611,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "Ọstrélia",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("kula ziemska przedstawiająca Azję i Australię"),
@@ -3298,11 +3622,13 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "kula ziemska przedstawiająca Azję i Australię",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("نړۍ ښيي آسیا - آسټرالیا"),
             keywords: &["آسيا", "آسټراليا", "نړۍ", "نړۍ ښيي آسیا - آسټرالیا", "ځمکه"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("globo mostrando Ásia e Oceania"),
@@ -3313,6 +3639,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "Ásia",
             ],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("globo a mostrar Ásia e Austrália"),
@@ -3326,6 +3653,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "Ásia",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("saywasiqʼi asia, austrakia qawachkan"),
@@ -3337,6 +3665,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "saywasiqʼi asia, austrakia qawachkan",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("Asia și Australia pe glob"),
@@ -3348,11 +3677,13 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "lume",
             ],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-214"),
             keywords: &["E10-214"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("Азия и Австралия на земном шаре"),
@@ -3366,6 +3697,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "шар",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("umubumbe w’isi werekana Aziya na Ositarariya"),
@@ -3377,6 +3709,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "umubumbe w’isi werekana Aziya na Ositarariya",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("گلوب ايشيا آسٽريليا ڏيکاري پيو"),
@@ -3385,6 +3718,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "گلوب ايشيا آسٽريليا ڏيکاري پيو",
             ],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some(
@@ -3399,6 +3733,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ලෝකය",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("zemeguľa s Áziou a Austráliou"),
@@ -3411,6 +3746,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ázia",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("globus z Azijo in Avstralijo"),
@@ -3423,6 +3759,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "zemlja",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("adduunka muujinaya Aasiya-Awstaraaliya"),
@@ -3435,6 +3772,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "dunida",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("globi që tregon Azinë dhe Australinë"),
@@ -3445,6 +3783,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "globi që tregon Azinë dhe Australinë",
             ],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("глобус са Азијом и Аустралијом"),
@@ -3457,11 +3796,13 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "свeт",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["глобус са Азијом и Аустралијом"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("globus sa Azijom i Australijom"),
@@ -3474,16 +3815,19 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "svet",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["globus sa Azijom i Australijom"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("jordglob Asien–Australien"),
             keywords: &["Asien", "Australien", "jorden", "jordglob Asien–Australien"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("tufe linaloonyesha asia-australia"),
@@ -3496,11 +3840,13 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ulimwengu",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("ஆசிய\u{bbe}-ஆஸ\u{bcd}திரேலிய\u{bbe}"),
@@ -3512,6 +3858,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "பூமி",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some(
@@ -3525,6 +3872,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "భూమ\u{c3f}",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("глобусе, ки Осиё-Австралияро намоиш медиҳад"),
@@ -3537,6 +3885,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ҷаҳон",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ล\u{e39}กโลกแสดงทว\u{e35}ปเอเช\u{e35}ยและออสเตรเล\u{e35}ย"),
@@ -3547,6 +3896,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "เอเช\u{e35}ย",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("Aziýa-Awstraliýany görkezýän globus"),
@@ -3559,16 +3909,19 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ýer togalagy",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("kolope ʻasi mai ʻĒsia-ʻAositelēlia"),
             keywords: &["kolope ʻasi mai ʻĒsia-ʻAositelēlia"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("yerkürede Asya-Avustralya"),
             keywords: &["Asya", "Avustralya", "dünya", "yerkürede Asya-Avustralya"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("ئاسىيا-ئاۋسترالىيەنى كۆرسەتكەن گىلوبۇس"),
@@ -3581,6 +3934,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "گىلوبۇس",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("глобус, що показує Азію і Австралію"),
@@ -3593,6 +3947,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "світ",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ایشیا اور آسٹریلیا کو دکھاتا گلوب"),
@@ -3604,6 +3959,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "گلوب",
             ],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("globusda osiyo va avstraliya qit’asi"),
@@ -3616,6 +3972,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "yer",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("địa cầu thể hiện Châu Á-Châu Úc"),
@@ -3628,6 +3985,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "địa cầu thể hiện Châu Á-Châu Úc",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("glob buy wane asi ak óstraali"),
@@ -3640,6 +3998,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "àdduna",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("iglobhu ebonisa i-Asia-Ostreliya"),
@@ -3652,6 +4011,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "umhlaba",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Gulobu To N Ṣafihan Aṣia-Ọsiteria"),
@@ -3664,6 +4024,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "ọsiteria",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("顯示亞洲 - 澳洲嘅地球儀"),
@@ -3676,6 +4037,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "顯示亞洲 - 澳洲嘅地球儀",
             ],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("显示亚洲 - 澳洲嘅地球仪"),
@@ -3688,16 +4050,19 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "澳洲",
             ],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("地球上的亚洲澳洲"),
             keywords: &["世界", "亚洲", "地球", "地球上的亚洲澳洲", "澳洲"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("亞洲及澳洲"),
             keywords: &["亞洲及澳洲", "地球"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("顯示亞洲和澳洲的地球"),
@@ -3709,6 +4074,7 @@ pub const GLOBE_SHOWING_ASIA_AUSTRALIA: crate::Emoji = crate::Emoji {
                 "顯示亞洲和澳洲的地球",
             ],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("igilobhu eliveza asia-australia"),
@@ -3734,6 +4100,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("aardbol met kringlyne"),
@@ -3746,16 +4113,19 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "wêreld",
             ],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ሜሪዲያኖች ያሉበት ሉል"),
             keywords: &["ሉል", "መሬት", "ሜሪዲያኖች", "ሜሪዲያኖች ያሉበት ሉል", "ዓለም"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("كرة أرضية بخطوط طول"),
             keywords: &["خطوط طول", "كرة أرضية بخطوط طول"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("মেৰিডিয\u{9bc}\u{9be}নৰ সৈতে গ\u{9cd}ল’ব"),
@@ -3767,6 +4137,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "মেৰিডিয\u{9bc}\u{9be}নৰ সৈতে গ\u{9cd}ল’ব",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("meridianları olan qlobus"),
@@ -3778,16 +4149,19 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "yer kürəsi",
             ],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("зямны шар з мерыдыянамі"),
             keywords: &["зямля", "зямны шар з мерыдыянамі", "мерыдыяны", "свет"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("глобус с меридиани"),
             keywords: &["глобус", "глобус с меридиани", "земята", "меридиани"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("গ\u{9cd}লোবে মেরিডিয\u{9bc}\u{9be}ন"),
@@ -3799,6 +4173,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "বিশ\u{9cd}ব",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("boul douar gant hedredennoù"),
@@ -3810,6 +4185,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "hedredennoù",
             ],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("globus s meridijanima"),
@@ -3821,11 +4197,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "zemaljska kugla",
             ],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("globus terraqüi amb meridians"),
             keywords: &["globus terraqüi amb meridians", "meridians", "món"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎡᎶᎯ ᏗᏟᎶᏍᏔᏅᎢ ᎬᏩᏠᏯᏍᏗ ᎹᎵᏗᏂᏱᏏ"),
@@ -3837,6 +4215,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "ᎹᎵᏗᏯᏂᎢ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("glóbus s poledníky a rovnoběžkami"),
@@ -3850,21 +4229,25 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "zeměpisná síť",
             ],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("glôb gyda meridianau"),
             keywords: &["byd", "glôb gyda meridianau", "y ddaear"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("globus med meridianer"),
             keywords: &["breddegrader", "globus med meridianer", "længdegrader"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Globus mit Meridianen"),
             keywords: &["Breitengrad", "Globus mit Meridianen", "Längengrad"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("υδρόγειος με μεσημβρινούς"),
@@ -3876,6 +4259,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "υδρόγειος με μεσημβρινούς",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("globe with meridians"),
@@ -3887,26 +4271,31 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "world",
             ],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("globo terráqueo con meridianos"),
@@ -3918,6 +4307,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "mundo",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
@@ -3931,6 +4321,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "terráqueo",
             ],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
@@ -3943,6 +4334,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "terráqueo",
             ],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
@@ -3955,6 +4347,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "terráqueo",
             ],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("meridiaanidega gloobus"),
@@ -3966,6 +4359,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "meridiaanidega gloobus",
             ],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("globoa eta meridianoak"),
@@ -3977,6 +4371,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "mundu",
             ],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("کره با نصف\u{200c}النهارها"),
@@ -3990,6 +4385,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "کره\u{654} زمین",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("maapallo jossa näkyy pituuspiirit"),
@@ -4000,6 +4396,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "pituuspiirit",
             ],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("globong may mga meridian"),
@@ -4011,6 +4408,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "mundo",
             ],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("globus við longdarstigum"),
@@ -4024,11 +4422,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "verðin",
             ],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("globe avec méridiens"),
             keywords: &["globe avec méridiens", "globe terrestre"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("globe qui montre les méridiens"),
@@ -4040,11 +4440,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "terre",
             ],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("cruinneog le fadlínte"),
             keywords: &["an domhan", "cruinneog", "cruinneog le fadlínte"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("cruinne le meadhan-loidhnichean"),
@@ -4059,6 +4461,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "talamh",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("globo terráqueo con meridianos"),
@@ -4070,6 +4473,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "mundo",
             ],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("યામ\u{acd}યોત\u{acd}તર વ\u{ac3}ત\u{acd}ત બતાવતો પ\u{ac3}થ\u{acd}વીનો ગોળો"),
@@ -4081,6 +4485,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "યામ\u{acd}યોત\u{acd}તર વ\u{ac3}ત\u{acd}ત બતાવતો પ\u{ac3}થ\u{acd}વીનો ગોળો",
             ],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("gulob na duniya mai nunawa layukan lokaci"),
@@ -4091,6 +4496,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "layukan lokaci",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("גלובוס עם קווי אורך ורוחב"),
@@ -4102,6 +4508,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "קווי רוחב",
             ],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("द\u{947}शा\u{902}तर र\u{947}खाओ\u{902} क\u{947} साथ ग\u{94d}लोब"),
@@ -4112,6 +4519,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "विश\u{94d}व र\u{947}खाए\u{902}",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("globus s meridijanima"),
@@ -4123,6 +4531,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "zemlja",
             ],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("földgömb délkörökkel"),
@@ -4135,6 +4544,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "világ",
             ],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("միջօրեականներով գլոբուս"),
@@ -4146,6 +4556,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "միջօրեականներով գլոբուս",
             ],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("bola dunia dengan garis meridian"),
@@ -4157,11 +4568,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "meridien",
             ],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("ụwa nwere meridiansị"),
             keywords: &["meridiansị", "ụwa", "ụwa dum", "ụwa nwere meridiansị"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("hnöttur sem sýnir lengdarbauga"),
@@ -4171,16 +4584,19 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "lengdargráður",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("globo con meridiani"),
             keywords: &["globo con meridiani", "meridiani"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("子午線のある地球"),
             keywords: &["地球", "子午線", "子午線のある地球"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("globe mawa garis meridian"),
@@ -4192,6 +4608,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "meridian",
             ],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("გლობუსი მერიდიანებით"),
@@ -4203,6 +4620,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "მსოფლიო",
             ],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("Меридиандары көрсетілген глобус"),
@@ -4214,11 +4632,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "әлем",
             ],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("globus med længdegrader"),
             keywords: &["globus med længdegrader", "meridianer"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ផែនដ\u{17b8}ផ\u{17d2}គ\u{17bb}\u{17c6}ដោយខ\u{17d2}សែវណ\u{17d2}ឌ"),
@@ -4228,6 +4648,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "ព\u{17b7}ភពលោក",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಮ\u{cc6}ರ\u{cbf}ಡ\u{cbf}ಯನ\u{ccd}\u{200c}ಗಳ\u{cbf}ರುವ ಭ\u{cc2}ಗೋಳ"),
@@ -4237,11 +4658,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "ಮ\u{cc6}ರ\u{cbf}ಡ\u{cbf}ಯನ\u{ccd}\u{200c}ಗಳೊಂದ\u{cbf}ಗ\u{cc6} ಜಗತ\u{ccd}ತು",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("자오선 지구"),
             keywords: &["경도", "위도", "자오선 지구", "지구"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("याम\u{947}यातर व\u{943}त\u{94d}त दाखोवपी विश\u{94d}वगोल"),
@@ -4253,6 +4676,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "विश\u{94d}वगोल",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("меридиан сызыктары менен глобус"),
@@ -4264,11 +4688,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "меридиандар",
             ],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Meridianglobus"),
             keywords: &["Globus", "Meridian", "Meridianglobus", "Welt", "Äerd"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ໜ\u{ec8}ວຍໂລກທ\u{eb5}\u{ec8}ມ\u{eb5}ເສ\u{eb1}\u{ec9}ນເມຣ\u{eb4}ດຽນ"),
@@ -4278,6 +4704,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "ໜ\u{ec8}ວຍໂລກທ\u{eb5}\u{ec8}ມ\u{eb5}ເສ\u{eb1}\u{ec9}ນເມຣ\u{eb4}ດຽນ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("žemės rutulys su dienovidiniais"),
@@ -4289,16 +4716,19 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "žemės rutulys su dienovidiniais",
             ],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("globuss ar meridiāniem"),
             keywords: &["globuss", "globuss ar meridiāniem", "meridiāni"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("ao whai poutūmārō"),
             keywords: &["ao", "ao whai poutūmārō", "ngā poutūmārō", "whenua"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("глобус со меридијаните"),
@@ -4310,6 +4740,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "свет",
             ],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ധ\u{d4d}ര\u{d41}വരേഖകള\u{d41}ള\u{d4d}ള ഭ\u{d42}ഗോളം"),
@@ -4320,6 +4751,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "ഭ\u{d42}ഗോളം",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("уртраг, өргөргийн зураастай бөмбөрцөг"),
@@ -4332,6 +4764,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "өргөрөг",
             ],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("र\u{947}खाव\u{943}त\u{94d}त असल\u{947}ला प\u{943}थ\u{94d}वीचा गोल"),
@@ -4343,6 +4776,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "र\u{947}खाव\u{943}त\u{94d}त असल\u{947}ला प\u{943}थ\u{94d}वीचा गोल",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("glob dengan garisan meridian"),
@@ -4354,11 +4788,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "meridian",
             ],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("globu bil-meridjani"),
             keywords: &["dinja", "globu", "globu bil-meridjani", "meridjani"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some(
@@ -4372,6 +4808,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "လောင\u{103a}ဂျ\u{102e}တ\u{103d}ဒ\u{103a}များပါသည\u{1037}\u{103a} ကမ\u{1039}ဘာလ\u{102f}\u{1036}း",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("jordklode med meridianer"),
@@ -4382,6 +4819,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "verden",
             ],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("भ\u{942}-मध\u{94d}य र\u{947}खासहितको विश\u{94d}व"),
@@ -4392,6 +4830,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "विश\u{94d}व",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("wereldbol met meridianen"),
@@ -4403,6 +4842,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "wereldbol met meridianen",
             ],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("jordklode med meridianar"),
@@ -4412,6 +4852,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "lengde- og breiddegrader",
             ],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some(
@@ -4423,6 +4864,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "ପ\u{b43}ଥ\u{b3f}ବୀ",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਮ\u{a48}ਰੀਡੀਅਨ ਨਾਲ ਗਲ\u{a4b}ਬ"),
@@ -4434,6 +4876,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "ਸ\u{a70}ਸਾਰ",
             ],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("طول البدل نال گلوب"),
@@ -4445,6 +4888,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "نصف النہار",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Raúnd Wọ\u{301}ld Map Wit Mẹrídían Lain-dẹm"),
@@ -4457,6 +4901,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "Ẹt",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("kula ziemska z południkami"),
@@ -4468,6 +4913,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "równoleżniki",
             ],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("نړۍ د نصف لنهارليکې سره"),
@@ -4480,11 +4926,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "کره",
             ],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("globo com meridianos"),
             keywords: &["globo com meridianos", "meridianos"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
@@ -4496,6 +4944,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "mundo",
             ],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("saywasiqʼi meridianoswan"),
@@ -4506,16 +4955,19 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "saywasiqʼi meridianoswan",
             ],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("glob cu meridiane"),
             keywords: &["Pământ", "glob", "glob cu meridiane", "lume", "meridiane"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-215"),
             keywords: &["E10-215"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("меридианы"),
@@ -4528,6 +4980,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "шар",
             ],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("umubumbe w’isi werekana imirongo miganda"),
@@ -4538,11 +4991,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "umubumbe w’isi werekana imirongo miganda",
             ],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("ميريڊيئن سان گلوب"),
             keywords: &["زمين، گلوب، ميريڊيئن، دنيا", "ميريڊيئن سان گلوب"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ධ\u{dca}\u{200d}රැවක රේඛ\u{dcf} සහ\u{dd2}ත ලෝක ගෝලය"),
@@ -4554,6 +5009,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "ලෝකය",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("zemeguľa s poludníkmi"),
@@ -4565,6 +5021,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "zemeguľa s poludníkmi",
             ],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("globus s poldnevniki"),
@@ -4576,6 +5033,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "zemlja",
             ],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("adduunka oo leh dhigo"),
@@ -4587,11 +5045,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "dunida",
             ],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("globi me meridianë"),
             keywords: &["Bota", "Globi", "Toka", "globi me meridianë", "meridianë"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("глобус са меридијанима"),
@@ -4603,11 +5063,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "свeт",
             ],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["глобус са меридијанима"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("globus sa meridijanima"),
@@ -4619,16 +5081,19 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "zemlja",
             ],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["globus sa meridijanima"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("jordglob med meridianer"),
             keywords: &["jordglob med meridianer", "meridianer"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("tufe lenye meridiani"),
@@ -4640,11 +5105,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "ulimwengu",
             ],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("த\u{bc0}ர\u{bcd}க\u{bcd}கரேகைகளுடன\u{bcd} உலக உருண\u{bcd}டை"),
@@ -4656,6 +5123,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "பூமி",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("మధ\u{c4d}య\u{c3e}హ\u{c4d}న ర\u{c47}ఖలత\u{c4b} గ\u{c4d}ల\u{c4b}బ\u{c4d}"),
@@ -4666,6 +5134,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "మధ\u{c4d}య\u{c3e}హ\u{c4d}న\u{c3e} ర\u{c47}ఖలు",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("глобус бо меридианаҳо"),
@@ -4677,6 +5146,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "ҷаҳон",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("ล\u{e39}กโลกแสดงเส\u{e49}นเมร\u{e34}เด\u{e35}ยน"),
@@ -4686,6 +5156,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "เส\u{e49}นเมร\u{e34}เด\u{e35}ยน",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("meridianly globus"),
@@ -4697,11 +5168,13 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "ýer togalagy",
             ],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("kolope moe ngaahi melitiane"),
             keywords: &["kolope moe ngaahi melitiane"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("meridyenli yerküre"),
@@ -4713,6 +5186,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "yerküre",
             ],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("مېردىيانلىق گىلوبۇس"),
@@ -4724,6 +5198,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "گىلوبۇس",
             ],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("земна куля з меридіанами"),
@@ -4735,6 +5210,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "світ",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("طول البلد کو دکھاتا گلوب"),
@@ -4746,6 +5222,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "گلوب",
             ],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("meridian chiziqli globus"),
@@ -4757,6 +5234,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "yer",
             ],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("địa cầu có đường kinh tuyến"),
@@ -4768,6 +5246,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "địa cầu có đường kinh tuyến",
             ],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("glob buy wane merijeŋ yi"),
@@ -4779,6 +5258,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "àdduna",
             ],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("iglobhu enemeridian"),
@@ -4790,6 +5270,7 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "umhlaba",
             ],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Gulobu Pẹlu Mẹridiani"),
@@ -4801,31 +5282,37 @@ pub const GLOBE_WITH_MERIDIANS: crate::Emoji = crate::Emoji {
                 "àgbáyé",
             ],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("有子午線嘅地球儀"),
             keywords: &["世界", "地球", "地球儀", "子午線", "有子午線嘅地球儀"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("有子午线嘅地球仪"),
             keywords: &["世界", "地球", "地球仪", "子午线", "有子午线嘅地球仪"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("带经纬线的地球"),
             keywords: &["世界", "地球", "子午线", "带经纬线的地球", "经纬"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("子午線"),
             keywords: &["地球", "子午線"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("帶有經緯嘅地球"),
             keywords: &["地球", "帶有經緯嘅地球", "經緯"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("igilobhu elinemeridians"),
@@ -4861,41 +5348,49 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
         annotations: &[],
     }],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("wêreldkaart"),
             keywords: &["kaart", "wêreld", "wêreldkaart"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የዓለም ካርታ"),
             keywords: &["ካርታ", "ዓለም", "የዓለም ካርታ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("خريطة العالم"),
             keywords: &["خريطة", "خريطة العالم", "عالم"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("বিশ\u{9cd}ব ম\u{9be}নচিত\u{9cd}ৰ"),
             keywords: &["বিশ\u{9cd}ব", "ম\u{9be}নচিত\u{9cd}ৰ"],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("dünya xəritəsi"),
             keywords: &["dünya", "dünya xəritəsi", "xəritə"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("карта свету"),
             keywords: &["карта", "карта свету", "мапа", "свет"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("карта на света"),
             keywords: &["карта", "карта на света", "свят"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("বিশ\u{9cd}বের ম\u{9be}নচিত\u{9cd}র"),
@@ -4905,171 +5400,205 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
                 "ম\u{9be}নচিত\u{9cd}র",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("kartenn ar bed"),
             keywords: &["bed", "kartenn", "kartenn ar bed"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("karta svijeta"),
             keywords: &["karta", "karta svijeta", "mapa", "svijet"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("mapa del món"),
             keywords: &["mapa", "mapa del món", "món"],
         },
+        #[cfg(feature = "ccp")]
         crate::Annotation {
             lang: "ccp",
             tts: Some("𑄛\u{11128}𑄖\u{11134}\u{11128}𑄟\u{11128} 𑄟\u{11133}𑄠𑄛\u{11134}"),
             keywords: &["𑄛\u{11128}𑄖\u{11134}\u{11128}𑄟\u{11128} 𑄟\u{11133}𑄠𑄛\u{11134}"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎧᎵ ᎡᎶᎯ ᎡᎶᎯ ᏓᏟᎶᏍᏛᎢ"),
             keywords: &["ᎡᎶᎯ ᏓᏟᎶᏍᏛᎢ", "ᎧᎵ ᎡᎶᎯ", "ᎧᎵ ᎡᎶᎯ ᎡᎶᎯ ᏓᏟᎶᏍᏛᎢ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("mapa světa"),
             keywords: &["mapa", "mapa světa", "svět"],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("map o’r byd"),
             keywords: &["byd", "map", "map o’r byd"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("verdenskort"),
             keywords: &["kort", "verden", "verdenskort"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Weltkarte"),
             keywords: &["Karte", "Welt", "Weltkarte"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("παγκόσμιος χάρτης"),
             keywords: &["κόσμος", "παγκόσμιος χάρτης", "χάρτης"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("world map"),
             keywords: &["map", "world"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("mapa mundial"),
             keywords: &["mapa", "mapa mundial", "mapamundi", "mundo"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("mapamundi"),
             keywords: &["mapa", "mapamundi", "mundo"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("maailmakaart"),
             keywords: &["kaart", "maailm", "maailmakaart"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("munduko mapa"),
             keywords: &["mapa", "mundu", "munduko mapa"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("نقشه\u{654} جهان"),
             keywords: &["دنیا", "نقشه", "نقشه\u{654} جهان"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("maailmankartta"),
             keywords: &["kartta", "maailma", "maailmankartta"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("mapa ng mundo"),
             keywords: &["mapa", "mapa ng mundo", "mundo"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("verðinskort"),
             keywords: &["heimurin", "jørðin", "kort", "verðin", "verðinskort"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("carte du monde"),
             keywords: &["carte", "carte du monde"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["carte", "carte du monde", "monde"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("léarscáil an domhain"),
             keywords: &["domhan", "léarscáil", "léarscáil an domhain"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("mapa an t-saoghail"),
             keywords: &["mapa", "mapa an t-saoghail", "saoghal"],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("mapa do mundo"),
             keywords: &["mapa", "mapa do mundo", "mapamundi", "mundo"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("વિશ\u{acd}વનો નકશો"),
             keywords: &["નકશો", "વિશ\u{acd}વ", "વિશ\u{acd}વનો નકશો"],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("taswirar duniya"),
             keywords: &["duniya", "taswira", "taswirar duniya"],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("מפת העולם"),
             keywords: &["מפה", "מפת העולם", "עולם"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("विश\u{94d}व मानचित\u{94d}र, विश\u{94d}व"),
@@ -5079,71 +5608,85 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
                 "विश\u{94d}व मानचित\u{94d}र, विश\u{94d}व",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("karta svijeta"),
             keywords: &["karta", "karta svijeta", "svijet"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("világtérkép"),
             keywords: &["föld", "térkép", "világ", "világtérkép"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("աշխարհի քարտեզ"),
             keywords: &["աշխարհ", "աշխարհի քարտեզ", "քարտեզ"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("peta dunia"),
             keywords: &["dunia", "peta"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("maapụ ụwa"),
             keywords: &["maapụ", "ụwa"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("heimskort"),
             keywords: &["heimskort", "heimur", "kort"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("mappa mondiale"),
             keywords: &["cartina", "mappa", "mappa mondiale", "mondo"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("世界地図"),
             keywords: &["世界", "世界地図", "地図"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("peta donya"),
             keywords: &["donya", "peta"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("მსოფლიო რუკა"),
             keywords: &["მსოფლიო", "რუკა"],
         },
+        #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
             tts: Some("takarḍa n umaḍal"),
             keywords: &["takarḍa n umaḍal"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("карта"),
             keywords: &["карта", "әлем"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("verdenskort"),
             keywords: &["kort", "verden", "verdenskort"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ផែនទ\u{17b8}ព\u{17b7}ភពលោក"),
@@ -5153,56 +5696,67 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
                 "ព\u{17b7}ភពលោក",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಪ\u{ccd}ರಪಂಚ ನಕ\u{ccd}ಷ\u{cc6}"),
             keywords: &["ನಕ\u{ccd}ಷ\u{cc6}", "ಪ\u{ccd}ರಪಂಚ"],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("세계 지도"),
             keywords: &["세계", "지도"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("जगातलो नकसो"),
             keywords: &["जग", "जगातलो नकसो", "नकसो"],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("дүйнө картасы"),
             keywords: &["дүйнө", "дүйнө картасы", "карта"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Weltkaart"),
             keywords: &["Kaart", "Welt", "Weltkaart"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ແຜນທ\u{eb5}\u{ec8}ໂລກ"),
             keywords: &["ແຜນທ\u{eb5}\u{ec8}", "ແຜນທ\u{eb5}\u{ec8}ໂລກ", "ໂລກ"],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("pasaulio žemėlapis"),
             keywords: &["pasaulio žemėlapis", "pasaulis", "žemėlapis"],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("pasaules karte"),
             keywords: &["karte", "pasaule", "pasaules karte"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("mahere ao"),
             keywords: &["ao", "mahere"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("карта на светот"),
             keywords: &["карта", "карта на светот", "свет"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ലോക മ\u{d3e}പ\u{d4d}പ\u{d4d}"),
@@ -5213,26 +5767,31 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
                 "വേൾഡ\u{d4d} മ\u{d3e}പ\u{d4d}പ\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("дэлхийн газрын зураг"),
             keywords: &["газрын зураг", "дэлхий", "дэлхийн газрын зураг"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("जगाचा नकाशा"),
             keywords: &["जग", "जगाचा नकाशा", "नकाशा"],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("peta dunia"),
             keywords: &["dunia", "peta"],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("mappa tad-dinjija"),
             keywords: &["dinja", "mappa", "mappa tad-dinjija"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("ကမ\u{1039}ဘာ\u{1037}မြေပ\u{102f}\u{1036}"),
@@ -5242,161 +5801,193 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
                 "မြေပ\u{102f}\u{1036}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("verdenskart"),
             keywords: &["kart", "verden", "verdenskart"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("विश\u{94d}वको नक\u{94d}सा"),
             keywords: &["नक\u{94d}सा", "विश\u{94d}व", "विश\u{94d}वको नक\u{94d}सा"],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("wereldkaart"),
             keywords: &["kaart", "wereld", "wereldkaart"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("verdskart"),
             keywords: &["kart", "verda", "verdskart"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ବ\u{b3f}ଶ\u{b4d}ୱ ମ\u{b3e}ନଚ\u{b3f}ତ\u{b4d}ର"),
             keywords: &["ବ\u{b3f}ଶ\u{b4d}ୱ", "ମ\u{b3e}ନଚ\u{b3f}ତ\u{b4d}ର"],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਸ\u{a70}ਸਾਰ ਦਾ ਨਕਸ\u{a3c}ਾ"),
             keywords: &["ਨਕਸ\u{a3c}ਾ", "ਸ\u{a70}ਸਾਰ", "ਸ\u{a70}ਸਾਰ ਦਾ ਨਕਸ\u{a3c}ਾ"],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("دنیا دا نقشہ"),
             keywords: &["دنیا", "دنیا دا نقشہ", "نقشہ"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Wọ\u{301}ld Map"),
             keywords: &["Map", "Wọld", "Wọ\u{301}ld Map"],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("mapa świata"),
             keywords: &["mapa", "mapa świata", "świat"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("د نړۍ نقشه"),
             keywords: &["د نړۍ نقشه", "نقشه", "نړۍ"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("mapa-múndi"),
             keywords: &["geografia", "mapa", "mapa-múndi", "mundo"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("mapa do mundo"),
             keywords: &["mapa", "mapa do mundo", "mundo"],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("pacha saywasiq’i"),
             keywords: &["pacha", "saywasiq’i"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("harta lumii"),
             keywords: &["harta lumii", "hartă", "lume"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-830"),
             keywords: &["E10-830"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("карта мира"),
             keywords: &["карта", "карта мира", "мир"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("Ikarita y’isi"),
             keywords: &["Ikarita y’isi", "ikarita", "isi"],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("دنيا جو نقشو"),
             keywords: &["دنيا جو نقشو", "نقشو، دنيا"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ලෝක ස\u{dd2}ත\u{dd2}යම"),
             keywords: &["ලෝක ස\u{dd2}ත\u{dd2}යම", "ලෝකය", "ස\u{dd2}ත\u{dd2}යම"],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("mapa sveta"),
             keywords: &["mapa", "mapa sveta", "svet"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("zemljevid sveta"),
             keywords: &["svet", "zemljevid", "zemljevid sveta"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("khariiradadda dunida"),
             keywords: &["dunida", "khariirad", "khariiradadda dunida"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("harta e botës"),
             keywords: &["botë", "harta e botës", "hartë"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("мапа света"),
             keywords: &["кaртa", "мапа", "мапа света", "свeт"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("мапа свијета"),
             keywords: &["мапа свијета"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("mapa sveta"),
             keywords: &["karta", "mapa", "mapa sveta", "svet"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: Some("mapa svijeta"),
             keywords: &["mapa svijeta"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("världskarta"),
             keywords: &["karta", "världen", "världskarta"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("ramani ya dunia"),
             keywords: &["dunia", "ramani", "ramani ya dunia"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("உலக வரைபடம\u{bcd}"),
             keywords: &["உலக வரைபடம\u{bcd}", "உலகம\u{bcd}", "வரைபடம\u{bcd}"],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("ప\u{c4d}రపంచపటం"),
@@ -5406,96 +5997,115 @@ pub const WORLD_MAP: crate::Emoji = crate::Emoji {
                 "మ\u{c4d}య\u{c3e}ప\u{c4d}",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("харитаи ҷаҳон"),
             keywords: &["харита", "харитаи ҷаҳон", "ҷаҳон"],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("แผนท\u{e35}\u{e48}โลก"),
             keywords: &["แผนท\u{e35}\u{e48}", "แผนท\u{e35}\u{e48}โลก", "โลก"],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("dünýä kartasy"),
             keywords: &["dünýä", "dünýä kartasy", "karta"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("mape ʻo māmani"),
             keywords: &["mape ʻo māmani"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("dünya haritası"),
             keywords: &["dünya", "dünya haritası", "harita"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("دۇنيا خەرىتىسى"),
             keywords: &["خەرىتە", "دۇنيا", "دۇنيا خەرىتىسى"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("карта світу"),
             keywords: &["карта", "карта світу", "світ"],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("دنیا کا نقشہ"),
             keywords: &["دنیا", "دنیا کا نقشہ", "نقشہ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("dunyo xaritasi"),
             keywords: &["dunyo", "dunyo xaritasi", "xarita"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("bản đồ thế giới"),
             keywords: &["bản đồ", "bản đồ thế giới", "thế giới"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("kàrtu àdduna"),
             keywords: &["kàrt", "kàrtu àdduna", "àdduna"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("imaphu yehlabathi"),
             keywords: &["ihlabathi", "imaphu", "imaphu yehlabathi"],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("máàpù àgbáyé"),
             keywords: &["máàpù", "àgbáyé"],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("世界地圖"),
             keywords: &["世界", "世界地圖", "地圖"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("世界地图"),
             keywords: &["世界", "世界地图", "地图"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("世界地图"),
             keywords: &["世界", "世界地图", "地图"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("世界地圖"),
             keywords: &["世界", "世界地圖", "地圖"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("世界"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("ibalazwe lomhlaba"),
@@ -5515,21 +6125,25 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("kaart van japan"),
             keywords: &["japan", "kaart", "kaart van japan"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("የጃፓን ካርታ"),
             keywords: &["ካርታ", "የጃፓን ካርታ", "ጃፓን"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("خريطة اليابان"),
             keywords: &["اليابان", "خريطة"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("জ\u{9be}প\u{9be}নৰ ম\u{9be}নচিত\u{9cd}ৰ"),
@@ -5539,21 +6153,25 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
                 "ম\u{9be}নচিত\u{9cd}ৰ",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("yaponiyanın xəritəsi"),
             keywords: &["xəritə", "yaponiya", "yaponiyanın xəritəsi"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("карта японіі"),
             keywords: &["карта", "карта японіі", "мапа", "японія"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("карта на Япония"),
             keywords: &["карта", "карта на Япония", "япония"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("জ\u{9be}প\u{9be}নের ম\u{9cd}য\u{9be}প"),
@@ -5563,241 +6181,289 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
                 "ম\u{9be}নচিত\u{9cd}র",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("kartenn Japan"),
             keywords: &["Japan", "kartenn"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("karta Japana"),
             keywords: &["Japan", "karta", "karta Japana"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("mapa del Japó"),
             keywords: &["Japó", "mapa", "mapa del Japó"],
         },
+        #[cfg(feature = "ccp")]
         crate::Annotation {
             lang: "ccp",
             tts: Some("𑄎𑄛𑄚\u{11127}𑄢\u{11134} 𑄟\u{11133}𑄠𑄛\u{11134}"),
             keywords: &["𑄎𑄛𑄚\u{11127}𑄢\u{11134} 𑄟\u{11133}𑄠𑄛\u{11134}"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎡᎶᎯ ᏓᏟᎶᏍᏛ ᎾᎿ ᏤᏇᎾ"),
             keywords: &["ᎡᎶᎯ ᏓᏟᎶᏍᏛ", "ᎡᎶᎯ ᏓᏟᎶᏍᏛ ᎾᎿ ᏤᏇᎾ", "ᏤᏇᎾ"],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("mapa Japonska"),
             keywords: &["japonsko", "mapa", "mapa Japonska"],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("map o Japan"),
             keywords: &["Japan", "map", "map o Japan"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("kort over Japan"),
             keywords: &["Japan", "kort", "kort over Japan"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Umriss von Japan"),
             keywords: &["Japan", "Karte", "Umriss von Japan"],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("χάρτης της Ιαπωνίας"),
             keywords: &["Ιαπωνία", "χάρτης", "χάρτης της Ιαπωνίας"],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("map of Japan"),
             keywords: &["Japan", "map", "map of Japan"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("mapa de Japón"),
             keywords: &["Japón", "mapa", "mapa de Japón", "mapa de japón"],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("↑↑↑"),
             keywords: &["japón", "mapa", "mapa de Japón", "mapa de japón"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("Jaapani kaart"),
             keywords: &["Jaapan", "Jaapani kaart", "kaart"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("japoniako mapa"),
             keywords: &["japonia", "japoniako mapa", "mapa"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("نقشه\u{654} ژاپن"),
             keywords: &["نقشه", "نقشه\u{654} ژاپن", "ژاپن"],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("Japanin kartta"),
             keywords: &["Japani", "Japanin kartta", "kartta"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("mapa ng japan"),
             keywords: &["japan", "mapa", "mapa ng japan"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("kort av Japan"),
             keywords: &["Japan", "kort", "kort av Japan"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("carte du Japon"),
             keywords: &["carte", "carte du Japon", "japon"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["Japon", "carte", "carte du Japon"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("léarscáil na Seapáine"),
             keywords: &["an tSeapáin", "léarscáil", "léarscáil na Seapáine"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("mapa dhen t-Seapan"),
             keywords: &["iapan", "mapa", "mapa dhen t-Seapan", "seapan"],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("mapa do Xapón"),
             keywords: &["O Xapón", "mapa", "mapa do Xapón"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("જાપાનનો નકશો"),
             keywords: &["જાપાન", "જાપાનનો નકશો", "નકશો"],
         },
+        #[cfg(feature = "ha")]
         crate::Annotation {
             lang: "ha",
             tts: Some("taswirar Japan"),
             keywords: &["Japan", "taswira", "taswirar Japan"],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("מפת יפן"),
             keywords: &["יפן", "מפה", "מפת יפן"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("जापान का नक\u{93c}\u{94d}शा"),
             keywords: &["जापान", "जापान का नक\u{93c}\u{94d}शा", "नक\u{93c}\u{94d}शा"],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("karta Japana"),
             keywords: &["japan", "karta", "karta Japana"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("Japán térképe"),
             keywords: &["Japán", "Japán térképe", "földrajz", "térkép"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("Ճապոնիայի քարտեզը"),
             keywords: &["Ճապոնիա", "Ճապոնիայի քարտեզը", "քարտեզ"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("peta Jepang"),
             keywords: &["jepang", "peta", "peta Jepang"],
         },
+        #[cfg(feature = "ig")]
         crate::Annotation {
             lang: "ig",
             tts: Some("mappụ nke Japan"),
             keywords: &["Japan", "maapụ\u{300}", "mappụ nke Japan"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("kort af Japan"),
             keywords: &["Japan", "kort", "kort af Japan"],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("mappa del Giappone"),
             keywords: &["Giappone", "mappa", "mappa del Giappone"],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("日本地図"),
             keywords: &["地図", "日本", "日本地図"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("peta Jepang"),
             keywords: &["Jepang", "peta"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("იაპონიის რუკა"),
             keywords: &["იაპონია", "იაპონიის რუკა", "რუკა"],
         },
+        #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
             tts: Some("takarḍa n Japun"),
             keywords: &["takarḍa n Japun"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("Жапония картасы"),
             keywords: &["Жапония картасы", "жапон", "карта"],
         },
+        #[cfg(feature = "kl")]
         crate::Annotation {
             lang: "kl",
             tts: Some("Japan"),
             keywords: &["Japan", "kort over Japan"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ផែនទ\u{17b8}ប\u{17d2}រទេសជប\u{17c9}\u{17bb}ន"),
@@ -5807,31 +6473,37 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
                 "ផែនទ\u{17b8}ប\u{17d2}រទេសជប\u{17c9}\u{17bb}ន",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ಜಪಾನ\u{ccd} ನಕ\u{ccd}ಷ\u{cc6}"),
             keywords: &["ಜಪಾನ\u{ccd} ನಕ\u{ccd}ಷ\u{cc6}", "ನಕ\u{ccd}ಷ\u{cc6}"],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("일본 지도"),
             keywords: &["일본", "지도"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("जपानचो नकसो"),
             keywords: &["जपान", "जपानचो नकसो", "नकसो"],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("жапония картасы"),
             keywords: &["жапония картасы", "жапончоия", "карта"],
         },
+        #[cfg(feature = "lb")]
         crate::Annotation {
             lang: "lb",
             tts: Some("Kaart vu Japan"),
             keywords: &["Japan", "Kaart", "Kaart vu Japan"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ແຜນທ\u{eb5}\u{ec8}ຍ\u{eb5}\u{ec8}ປ\u{eb8}ນ"),
@@ -5841,26 +6513,31 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
                 "ແຜນທ\u{eb5}\u{ec8}ຍ\u{eb5}\u{ec8}ປ\u{eb8}ນ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("Japonijos žemėlapis"),
             keywords: &["Japonijos", "žemėlapis"],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("Japānas karte"),
             keywords: &["Japāna", "Japānas karte", "karte"],
         },
+        #[cfg(feature = "mi")]
         crate::Annotation {
             lang: "mi",
             tts: Some("mahere o Hapani"),
             keywords: &["Hapani", "mahere", "mahere o Hapani"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("карта на Јапонија"),
             keywords: &["Јапонија", "карта", "карта на Јапонија"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("ജപ\u{d4d}പ\u{d3e}ന\u{d4d}റെ മ\u{d3e}പ\u{d4d}പ\u{d4d}"),
@@ -5870,26 +6547,31 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
                 "മ\u{d3e}പ\u{d4d}പ\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("Япон улсын газрын зураг"),
             keywords: &["Япон", "Япон улсын газрын зураг", "газрын зураг"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("जपानचा नकाशा"),
             keywords: &["जपान", "जपानचा नकाशा", "नकाशा"],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("peta Jepun"),
             keywords: &["jepun", "peta", "peta Jepun"],
         },
+        #[cfg(feature = "mt")]
         crate::Annotation {
             lang: "mt",
             tts: Some("mappa tal-Ġappun"),
             keywords: &["mappa", "mappa tal-Ġappun", "Ġappun"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("ဂျပန\u{103a}န\u{102d}\u{102f}င\u{103a}င\u{1036}မြေပ\u{102f}\u{1036}"),
@@ -5899,26 +6581,31 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
                 "မြေပ\u{102f}\u{1036}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("kart over Japan"),
             keywords: &["Japan", "kart", "kart over Japan"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("जापानको नक\u{94d}सा"),
             keywords: &["जापान", "जापानको नक\u{94d}सा", "नक\u{94d}सा"],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("kaart van Japan"),
             keywords: &["Japan", "kaart", "kaart van Japan"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("kart over Japan"),
             keywords: &["Japan", "kart", "kart over Japan"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("ଜ\u{b3e}ପ\u{b3e}ନର ମ\u{b3e}ନଚ\u{b3f}ତ\u{b4d}ର"),
@@ -5929,71 +6616,85 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
                 "ମ\u{b4d}ୟ\u{b3e}ପ\u{b4d} ଅଫ\u{b4d} ଜ\u{b3e}ପ\u{b3e}ନ\u{b4d}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਜਾਪਾਨ ਦਾ ਨਕਸ\u{a3c}ਾ"),
             keywords: &["ਜਾਪਾਨ", "ਜਾਪਾਨ ਦਾ ਨਕਸ\u{a3c}ਾ", "ਨਕਸ\u{a3c}ਾ"],
         },
+        #[cfg(feature = "pa_Arab")]
         crate::Annotation {
             lang: "pa_Arab",
             tts: Some("جاپان دا نقشہ"),
             keywords: &["جاپان", "جاپان دا نقشہ", "نقشہ"],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Japán Map"),
             keywords: &["Japan", "Japán Map", "Map"],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("mapa Japonii"),
             keywords: &["japonia", "mapa", "mapa Japonii"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("د جاپان نقشه"),
             keywords: &["جاپان", "د جاپان نقشه", "نقشه"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("mapa do Japão"),
             keywords: &["Japão", "mapa", "mapa do Japão"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("mapa do Japão"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "qu")]
         crate::Annotation {
             lang: "qu",
             tts: Some("Japñon Saywasiqʼi"),
             keywords: &["Japñon Saywasiqʼi", "Japón", "saywasiq’i"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("harta Japoniei"),
             keywords: &["Japonia", "harta Japoniei", "hartă"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E10-834"),
             keywords: &["E10-834"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("карта Японии"),
             keywords: &["Япония", "карта", "карта Японии"],
         },
+        #[cfg(feature = "rw")]
         crate::Annotation {
             lang: "rw",
             tts: Some("ikarita y’ubuyapani"),
             keywords: &["Ubuyapani", "ikarita", "ikarita y’ubuyapani"],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("جاپاني نقشو"),
             keywords: &["جاپان، نقشو", "جاپاني نقشو"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ජප\u{dcf}නයේ ස\u{dd2}ත\u{dd2}යම"),
@@ -6003,66 +6704,79 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
                 "ස\u{dd2}ත\u{dd2}යම",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("mapa Japonska"),
             keywords: &["japonsko", "mapa", "mapa Japonska"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("zemljevid Japonske"),
             keywords: &["Japonska", "zemljevid", "zemljevid Japonske"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("khariidadda Jabbaan"),
             keywords: &["Jabbaan", "khariidad", "khariidadda Jabbaan"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("harta e Japonisë"),
             keywords: &["harta e Japonisë", "hartë", "japoni"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("мапа Јапана"),
             keywords: &["Jaпaн", "мапа", "мапа Јапана"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["мапа Јапана"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("mapa Japana"),
             keywords: &["Japan", "mapa", "mapa Japana"],
         },
+        #[cfg(feature = "sr_Latn_BA")]
         crate::Annotation {
             lang: "sr_Latn_BA",
             tts: None,
             keywords: &["mapa Japana"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("karta över Japan"),
             keywords: &["Japan", "karta", "karta över Japan"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("ramani ya japani"),
             keywords: &["japani", "ramani", "ramani ya japani"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("ஜப\u{bcd}ப\u{bbe}ன\u{bcd} வரைபடம\u{bcd}"),
             keywords: &["ஜப\u{bcd}ப\u{bbe}ன\u{bcd}", "மேப\u{bcd}", "வரைபடம\u{bcd}"],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("జప\u{c3e}న\u{c4d} మ\u{c4d}య\u{c3e}ప\u{c4d}"),
@@ -6071,11 +6785,13 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
                 "జప\u{c3e}న\u{c4d} మ\u{c4d}య\u{c3e}ప\u{c4d}",
             ],
         },
+        #[cfg(feature = "tg")]
         crate::Annotation {
             lang: "tg",
             tts: Some("харитаи Ҷопон"),
             keywords: &["харита", "харитаи Ҷопон", "Ҷопон"],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("แผนท\u{e35}\u{e48}ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น"),
@@ -6084,86 +6800,103 @@ pub const MAP_OF_JAPAN: crate::Emoji = crate::Emoji {
                 "แผนท\u{e35}\u{e48}ญ\u{e35}\u{e48}ป\u{e38}\u{e48}น",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("Ýaponiýa kartasy"),
             keywords: &["karta", "Ýaponiýa", "Ýaponiýa kartasy"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("mape ʻoe Siapani"),
             keywords: &["mape ʻoe Siapani"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("Japonya haritası"),
             keywords: &["Japonya", "Japonya haritası", "harita"],
         },
+        #[cfg(feature = "ug")]
         crate::Annotation {
             lang: "ug",
             tts: Some("ياپونىيە خەرىتىسى"),
             keywords: &["خەرىتە", "ياپونىيە", "ياپونىيە خەرىتىسى"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("карта Японії"),
             keywords: &["карта", "карта Японії", "японія"],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("جاپان کا نقشہ"),
             keywords: &["جاپان", "جاپان کا نقشہ", "نقشہ"],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("yaponiya xaritasi"),
             keywords: &["xarita", "yapon", "yaponiya xaritasi"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("bản đồ Nhật Bản"),
             keywords: &["bản đồ", "bản đồ Nhật Bản", "nhật bản"],
         },
+        #[cfg(feature = "wo")]
         crate::Annotation {
             lang: "wo",
             tts: Some("kàrtu sapoŋ"),
             keywords: &["Sapoŋ", "kàrt", "kàrtu sapoŋ"],
         },
+        #[cfg(feature = "xh")]
         crate::Annotation {
             lang: "xh",
             tts: Some("imaphu yaseJapan"),
             keywords: &["I-Japan", "imaphu", "imaphu yaseJapan"],
         },
+        #[cfg(feature = "yo")]
         crate::Annotation {
             lang: "yo",
             tts: Some("Maapu Ti Japanu"),
             keywords: &["Maapu Ti Japanu", "jàpánù", "máàpù"],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("日本地圖"),
             keywords: &["地圖", "日本", "日本地圖"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("日本地图"),
             keywords: &["地图", "日本", "日本地图"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("日本地图"),
             keywords: &["地图", "日本", "日本地图"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("日本"),
             keywords: &["日本", "日本列島"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["日本", "日本地圖", "日本鳥瞰圖"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("ibalazwe lejapan"),
@@ -6183,21 +6916,25 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
     is_variant: false,
     variants: &[],
     annotations: &[
+        #[cfg(feature = "af")]
         crate::Annotation {
             lang: "af",
             tts: Some("kompas"),
             keywords: &["kompas", "magneties", "navigasie", "oriëntering"],
         },
+        #[cfg(feature = "am")]
         crate::Annotation {
             lang: "am",
             tts: Some("ኮምፓስ"),
             keywords: &["ማሰስ", "ማቅጠጥ", "ማግኔቲክ", "ኮምፓስ"],
         },
+        #[cfg(feature = "ar")]
         crate::Annotation {
             lang: "ar",
             tts: Some("بوصلة"),
             keywords: &["استرشاد بالبوصلة", "بوصلة", "تنقل", "مغناطيسي"],
         },
+        #[cfg(feature = "as")]
         crate::Annotation {
             lang: "as",
             tts: Some("কম\u{9cd}প\u{9be}ছ"),
@@ -6208,21 +6945,25 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "নেভিগেশ\u{9cd}বন",
             ],
         },
+        #[cfg(feature = "az")]
         crate::Annotation {
             lang: "az",
             tts: Some("kompas"),
             keywords: &["kompas", "maqnit", "naviqasiya", "orientasiya"],
         },
+        #[cfg(feature = "be")]
         crate::Annotation {
             lang: "be",
             tts: Some("компас"),
             keywords: &["арыентаванне", "компас", "магнетызм", "навігацыя"],
         },
+        #[cfg(feature = "bg")]
         crate::Annotation {
             lang: "bg",
             tts: Some("компас"),
             keywords: &["компас", "магнит", "навигация", "ориентиране", "север"],
         },
+        #[cfg(feature = "bn")]
         crate::Annotation {
             lang: "bn",
             tts: Some("কম\u{9cd}প\u{9be}স"),
@@ -6233,21 +6974,25 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "ন\u{9cd}য\u{9be}ভিগেশন",
             ],
         },
+        #[cfg(feature = "br")]
         crate::Annotation {
             lang: "br",
             tts: Some("nadoz-vor"),
             keywords: &["magnetek", "merdeiñ", "nadoz-vor"],
         },
+        #[cfg(feature = "bs")]
         crate::Annotation {
             lang: "bs",
             tts: Some("kompas"),
             keywords: &["kompas", "navigacija", "orijentacija"],
         },
+        #[cfg(feature = "ca")]
         crate::Annotation {
             lang: "ca",
             tts: Some("brúixola"),
             keywords: &["brúixola", "magnètic", "navegació", "orientació"],
         },
+        #[cfg(feature = "chr")]
         crate::Annotation {
             lang: "chr",
             tts: Some("ᎠᎳᏂ ᎠᎦᏙᏗ"),
@@ -6258,21 +7003,25 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "ᏔᎷᎩᏍᎩ ᎦᏌᏁᏍᎩ",
             ],
         },
+        #[cfg(feature = "cs")]
         crate::Annotation {
             lang: "cs",
             tts: Some("kompas"),
             keywords: &["kompas", "magnetický", "navigace", "orientace"],
         },
+        #[cfg(feature = "cy")]
         crate::Annotation {
             lang: "cy",
             tts: Some("cwmpawd"),
             keywords: &["cwmpawd", "cyfeiriadu", "llywio", "magnetig"],
         },
+        #[cfg(feature = "da")]
         crate::Annotation {
             lang: "da",
             tts: Some("kompas"),
             keywords: &["kompas", "magnetisk", "navigation", "verdenshjørne"],
         },
+        #[cfg(feature = "de")]
         crate::Annotation {
             lang: "de",
             tts: Some("Kompass"),
@@ -6285,6 +7034,7 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "magnetisch",
             ],
         },
+        #[cfg(feature = "el")]
         crate::Annotation {
             lang: "el",
             tts: Some("πυξίδα"),
@@ -6295,31 +7045,37 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "πυξίδα",
             ],
         },
+        #[cfg(feature = "en")]
         crate::Annotation {
             lang: "en",
             tts: Some("compass"),
             keywords: &["compass", "magnetic", "navigation", "orienteering"],
         },
+        #[cfg(feature = "en_AU")]
         crate::Annotation {
             lang: "en_AU",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_CA")]
         crate::Annotation {
             lang: "en_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_GB")]
         crate::Annotation {
             lang: "en_GB",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "en_IN")]
         crate::Annotation {
             lang: "en_IN",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es")]
         crate::Annotation {
             lang: "es",
             tts: Some("brújula"),
@@ -6331,11 +7087,13 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "orientación",
             ],
         },
+        #[cfg(feature = "es_419")]
         crate::Annotation {
             lang: "es_419",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "es_MX")]
         crate::Annotation {
             lang: "es_MX",
             tts: Some("brújula"),
@@ -6348,21 +7106,25 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "rumbo",
             ],
         },
+        #[cfg(feature = "es_US")]
         crate::Annotation {
             lang: "es_US",
             tts: Some("brújula"),
             keywords: &["brújula"],
         },
+        #[cfg(feature = "et")]
         crate::Annotation {
             lang: "et",
             tts: Some("kompass"),
             keywords: &["kompass", "magnetiline", "navigeerimine", "orienteerumine"],
         },
+        #[cfg(feature = "eu")]
         crate::Annotation {
             lang: "eu",
             tts: Some("iparrorratz"),
             keywords: &["iparrorratz", "magnetiko", "nabigazio", "orientazio"],
         },
+        #[cfg(feature = "fa")]
         crate::Annotation {
             lang: "fa",
             tts: Some("قطب\u{200c}نما"),
@@ -6375,36 +7137,43 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "مغناطیسی",
             ],
         },
+        #[cfg(feature = "fi")]
         crate::Annotation {
             lang: "fi",
             tts: Some("kompassi"),
             keywords: &["kompassi", "magneettinen", "navigointi", "suunnistus"],
         },
+        #[cfg(feature = "fil")]
         crate::Annotation {
             lang: "fil",
             tts: Some("compass"),
             keywords: &["compass", "direksyon", "magnetic", "nabigasyon"],
         },
+        #[cfg(feature = "fo")]
         crate::Annotation {
             lang: "fo",
             tts: Some("kumpass"),
             keywords: &["kumpass", "kós", "tól", "ætt"],
         },
+        #[cfg(feature = "fr")]
         crate::Annotation {
             lang: "fr",
             tts: Some("boussole"),
             keywords: &["boussole", "magnétique", "navigation", "orientation"],
         },
+        #[cfg(feature = "fr_CA")]
         crate::Annotation {
             lang: "fr_CA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ga")]
         crate::Annotation {
             lang: "ga",
             tts: Some("compás"),
             keywords: &["compás", "loingseoireacht", "maighnéadach", "treodóireacht"],
         },
+        #[cfg(feature = "gd")]
         crate::Annotation {
             lang: "gd",
             tts: Some("combaist"),
@@ -6418,11 +7187,13 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "stiùireadh",
             ],
         },
+        #[cfg(feature = "gl")]
         crate::Annotation {
             lang: "gl",
             tts: Some("compás"),
             keywords: &["compás", "magnético", "navegación", "orientación"],
         },
+        #[cfg(feature = "gu")]
         crate::Annotation {
             lang: "gu",
             tts: Some("ક\u{a82}પાસ"),
@@ -6433,11 +7204,13 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "ન\u{ac7}વિગ\u{ac7}શન",
             ],
         },
+        #[cfg(feature = "he")]
         crate::Annotation {
             lang: "he",
             tts: Some("מצפן"),
             keywords: &["התמצאות", "מגנטי", "מצפן", "ניווט", "צפון"],
         },
+        #[cfg(feature = "hi")]
         crate::Annotation {
             lang: "hi",
             tts: Some("दिशास\u{942}चक"),
@@ -6448,26 +7221,31 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "न\u{947}विग\u{947}शन",
             ],
         },
+        #[cfg(feature = "hr")]
         crate::Annotation {
             lang: "hr",
             tts: Some("kompas"),
             keywords: &["kompas", "magnetski", "navigacija", "orijentacija"],
         },
+        #[cfg(feature = "hu")]
         crate::Annotation {
             lang: "hu",
             tts: Some("iránytű"),
             keywords: &["iránytű", "mágneses", "navigáció", "tájékozódás"],
         },
+        #[cfg(feature = "hy")]
         crate::Annotation {
             lang: "hy",
             tts: Some("կողմնացույց"),
             keywords: &["կողմնացույց", "կողմնորոշում", "մագնիսային", "նավարկում"],
         },
+        #[cfg(feature = "id")]
         crate::Annotation {
             lang: "id",
             tts: Some("kompas"),
             keywords: &["kompas", "magnetis", "navigasi", "orientasi"],
         },
+        #[cfg(feature = "is")]
         crate::Annotation {
             lang: "is",
             tts: Some("áttaviti"),
@@ -6479,6 +7257,7 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "áttaviti",
             ],
         },
+        #[cfg(feature = "it")]
         crate::Annotation {
             lang: "it",
             tts: Some("bussola"),
@@ -6489,31 +7268,37 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "orientamento",
             ],
         },
+        #[cfg(feature = "ja")]
         crate::Annotation {
             lang: "ja",
             tts: Some("コンパス"),
             keywords: &["オリエンテーリング", "コンパス", "磁石", "航海", "航空"],
         },
+        #[cfg(feature = "jv")]
         crate::Annotation {
             lang: "jv",
             tts: Some("kompas"),
             keywords: &["kompas", "magnetik", "navigasi", "pangarahan"],
         },
+        #[cfg(feature = "ka")]
         crate::Annotation {
             lang: "ka",
             tts: Some("კომპასი"),
             keywords: &["კომპასი", "მაგნიტი", "ნავიგაცია", "ორიენტირება"],
         },
+        #[cfg(feature = "kab")]
         crate::Annotation {
             lang: "kab",
             tts: Some("tabusult"),
             keywords: &["tabusult"],
         },
+        #[cfg(feature = "kk")]
         crate::Annotation {
             lang: "kk",
             tts: Some("компас"),
             keywords: &["бағыт алу", "компас", "магнит", "навигация"],
         },
+        #[cfg(feature = "km")]
         crate::Annotation {
             lang: "km",
             tts: Some("ត\u{17d2}រ\u{17b8}វ\u{17b7}ស\u{17d0}យ"),
@@ -6524,6 +7309,7 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "ម\u{17c9}ាញេទ\u{17b7}ច",
             ],
         },
+        #[cfg(feature = "kn")]
         crate::Annotation {
             lang: "kn",
             tts: Some("ದ\u{cbf}ಕ\u{ccd}ಸ\u{cc2}ಚ\u{cbf}"),
@@ -6534,11 +7320,13 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "ಮ\u{ccd}ಯಾಗ\u{ccd}ನ\u{cc6}ಟ\u{cbf}ಕ\u{ccd}",
             ],
         },
+        #[cfg(feature = "ko")]
         crate::Annotation {
             lang: "ko",
             tts: Some("나침반"),
             keywords: &["나침반", "오리엔티어링", "자석"],
         },
+        #[cfg(feature = "kok")]
         crate::Annotation {
             lang: "kok",
             tts: Some("कम\u{94d}पास"),
@@ -6549,11 +7337,13 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "प\u{94d}रवास",
             ],
         },
+        #[cfg(feature = "ky")]
         crate::Annotation {
             lang: "ky",
             tts: Some("компас"),
             keywords: &["багыт алуу", "компас", "магниттик", "навигация"],
         },
+        #[cfg(feature = "lo")]
         crate::Annotation {
             lang: "lo",
             tts: Some("ເຂ\u{eb1}ມທ\u{eb4}ດ"),
@@ -6564,21 +7354,25 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "ເຂ\u{eb1}ມທ\u{eb4}ດ",
             ],
         },
+        #[cfg(feature = "lt")]
         crate::Annotation {
             lang: "lt",
             tts: Some("kompasas"),
             keywords: &["kompasas", "magnetinis", "navigacija", "orientacinis"],
         },
+        #[cfg(feature = "lv")]
         crate::Annotation {
             lang: "lv",
             tts: Some("kompass"),
             keywords: &["kompass", "magnētisks", "navigācija", "orientēšanās"],
         },
+        #[cfg(feature = "mk")]
         crate::Annotation {
             lang: "mk",
             tts: Some("компас"),
             keywords: &["компас", "магнетно", "навигација", "ориентирање"],
         },
+        #[cfg(feature = "ml")]
         crate::Annotation {
             lang: "ml",
             tts: Some("കോമ\u{d4d}പസ\u{d4d}സ\u{d4d}"),
@@ -6589,11 +7383,13 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "മ\u{d3e}ഗ\u{d4d}\u{200c}നെറ\u{d4d}റിക\u{d4d}",
             ],
         },
+        #[cfg(feature = "mn")]
         crate::Annotation {
             lang: "mn",
             tts: Some("луужин"),
             keywords: &["луужин", "навигаци", "соронз", "чиглүүлэх"],
         },
+        #[cfg(feature = "mr")]
         crate::Annotation {
             lang: "mr",
             tts: Some("होकाय\u{902}त\u{94d}र"),
@@ -6604,11 +7400,13 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "होकाय\u{902}त\u{94d}र",
             ],
         },
+        #[cfg(feature = "ms")]
         crate::Annotation {
             lang: "ms",
             tts: Some("kompas"),
             keywords: &["bermagnet", "kompas", "mengorientasi", "navigasi"],
         },
+        #[cfg(feature = "my")]
         crate::Annotation {
             lang: "my",
             tts: Some("သ\u{1036}လ\u{102d}\u{102f}က\u{103a}အ\u{102d}မ\u{103a}မြ\u{103e}ောင\u{103a}"),
@@ -6619,11 +7417,13 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "သ\u{1036}လ\u{102d}\u{102f}က\u{103a}အ\u{102d}မ\u{103a}မြ\u{103e}ောင\u{103a}",
             ],
         },
+        #[cfg(feature = "nb")]
         crate::Annotation {
             lang: "nb",
             tts: Some("kompass"),
             keywords: &["kompass", "magnetisk", "navigasjon", "orientering"],
         },
+        #[cfg(feature = "ne")]
         crate::Annotation {
             lang: "ne",
             tts: Some("कम\u{94d}पास"),
@@ -6634,16 +7434,19 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "न\u{947}भिग\u{947}सन",
             ],
         },
+        #[cfg(feature = "nl")]
         crate::Annotation {
             lang: "nl",
             tts: Some("kompas"),
             keywords: &["kompas", "magnetisch", "navigatie", "oriëntatielopen"],
         },
+        #[cfg(feature = "nn")]
         crate::Annotation {
             lang: "nn",
             tts: Some("kompass"),
             keywords: &["kompass", "magnetisk", "navigasjon", "orientering"],
         },
+        #[cfg(feature = "or")]
         crate::Annotation {
             lang: "or",
             tts: Some("କମ\u{b4d}ପ\u{b3e}ସ"),
@@ -6654,6 +7457,7 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "ନ\u{b3e}ଭ\u{b3f}ଗେସନ\u{b4d}\u{200c}",
             ],
         },
+        #[cfg(feature = "pa")]
         crate::Annotation {
             lang: "pa",
             tts: Some("ਕ\u{a70}ਪਾਸ"),
@@ -6664,6 +7468,7 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "ਨ\u{a47}ਵੀਗ\u{a47}ਸ\u{a3c}ਨ",
             ],
         },
+        #[cfg(feature = "pcm")]
         crate::Annotation {
             lang: "pcm",
             tts: Some("Kọ\u{301}mpas To Ték Nó Dairẹ\u{301}kshọn"),
@@ -6675,46 +7480,55 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "To Hól Kọ\u{301}mpas An Map To Ték Faínd Rod As Yu De Rọ\u{301}n Fọ Bush",
             ],
         },
+        #[cfg(feature = "pl")]
         crate::Annotation {
             lang: "pl",
             tts: Some("kompas"),
             keywords: &["kompas", "magnetyzm", "nawigacja", "orientacja w terenie"],
         },
+        #[cfg(feature = "ps")]
         crate::Annotation {
             lang: "ps",
             tts: Some("قطب نما"),
             keywords: &["اورنټيرينګ", "قطب نما", "مقناطيسي", "پلټنه"],
         },
+        #[cfg(feature = "pt")]
         crate::Annotation {
             lang: "pt",
             tts: Some("bússola"),
             keywords: &["bússola", "bússola magnética", "navegação", "orientação"],
         },
+        #[cfg(feature = "pt_PT")]
         crate::Annotation {
             lang: "pt_PT",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ro")]
         crate::Annotation {
             lang: "ro",
             tts: Some("busolă"),
             keywords: &["busolă", "magnetic", "navigație", "orientare"],
         },
+        #[cfg(feature = "root")]
         crate::Annotation {
             lang: "root",
             tts: Some("E11-055"),
             keywords: &["E11-055"],
         },
+        #[cfg(feature = "ru")]
         crate::Annotation {
             lang: "ru",
             tts: Some("компас"),
             keywords: &["компас", "прибор", "путешествие", "стороны света"],
         },
+        #[cfg(feature = "sd")]
         crate::Annotation {
             lang: "sd",
             tts: Some("ڪمپاس"),
             keywords: &["اوريئينٽيئرنگ", "ميگنيٽڪ", "نيويگيشن", "ڪمپاس"],
         },
+        #[cfg(feature = "si")]
         crate::Annotation {
             lang: "si",
             tts: Some("ම\u{dcf}ල\u{dd2}ම\u{dcf}ව"),
@@ -6725,56 +7539,67 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "ස\u{dd2}ත\u{dd2}යම\u{dca} බල\u{dcf} ගමන\u{dca} ක\u{dd2}ර\u{dd3}ම",
             ],
         },
+        #[cfg(feature = "sk")]
         crate::Annotation {
             lang: "sk",
             tts: Some("kompas"),
             keywords: &["buzola", "kompas", "magnet", "navigácia", "orientácia"],
         },
+        #[cfg(feature = "sl")]
         crate::Annotation {
             lang: "sl",
             tts: Some("kompas"),
             keywords: &["kompas", "magnet", "navigacija", "orientacija"],
         },
+        #[cfg(feature = "so")]
         crate::Annotation {
             lang: "so",
             tts: Some("jiheeye"),
             keywords: &["birlabeed", "haggaajinta", "jiheeye", "maaxid"],
         },
+        #[cfg(feature = "sq")]
         crate::Annotation {
             lang: "sq",
             tts: Some("busull"),
             keywords: &["busull", "fushë magnetike", "orientim"],
         },
+        #[cfg(feature = "sr")]
         crate::Annotation {
             lang: "sr",
             tts: Some("компас"),
             keywords: &["компас", "магнетни", "навигација", "оријентација"],
         },
+        #[cfg(feature = "sr_Cyrl_BA")]
         crate::Annotation {
             lang: "sr_Cyrl_BA",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "sr_Latn")]
         crate::Annotation {
             lang: "sr_Latn",
             tts: Some("kompas"),
             keywords: &["kompas", "magnetni", "navigacija", "orijentacija"],
         },
+        #[cfg(feature = "sv")]
         crate::Annotation {
             lang: "sv",
             tts: Some("kompass"),
             keywords: &["kompass", "magnetisk", "navigation", "orientering"],
         },
+        #[cfg(feature = "sw")]
         crate::Annotation {
             lang: "sw",
             tts: Some("dira"),
             keywords: &["dira", "maelekezo", "smaku", "usafiri"],
         },
+        #[cfg(feature = "sw_KE")]
         crate::Annotation {
             lang: "sw_KE",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "ta")]
         crate::Annotation {
             lang: "ta",
             tts: Some("க\u{bbe}ம\u{bcd}பஸ\u{bcd}"),
@@ -6785,6 +7610,7 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "மேக\u{bcd}னட\u{bcd}டிக\u{bcd}",
             ],
         },
+        #[cfg(feature = "te")]
         crate::Annotation {
             lang: "te",
             tts: Some("ద\u{c3f}క\u{c4d}సూచ\u{c3f}"),
@@ -6795,6 +7621,7 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "న\u{c3e}వ\u{c3f}గ\u{c47}షన\u{c4d}",
             ],
         },
+        #[cfg(feature = "th")]
         crate::Annotation {
             lang: "th",
             tts: Some("เข\u{e47}มท\u{e34}ศ"),
@@ -6805,21 +7632,25 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "โอเรนเท\u{e35}ยร\u{e34}\u{e48}ง",
             ],
         },
+        #[cfg(feature = "tk")]
         crate::Annotation {
             lang: "tk",
             tts: Some("kompas"),
             keywords: &["kompas", "magnit", "nawigasiýa", "ugur tapma"],
         },
+        #[cfg(feature = "to")]
         crate::Annotation {
             lang: "to",
             tts: Some("kāpasa"),
             keywords: &["kāpasa"],
         },
+        #[cfg(feature = "tr")]
         crate::Annotation {
             lang: "tr",
             tts: Some("pusula"),
             keywords: &["manyetik", "navigasyon", "orienteering", "pusula"],
         },
+        #[cfg(feature = "uk")]
         crate::Annotation {
             lang: "uk",
             tts: Some("компас"),
@@ -6832,6 +7663,7 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "сторони світу",
             ],
         },
+        #[cfg(feature = "ur")]
         crate::Annotation {
             lang: "ur",
             tts: Some("ق\u{64f}طب ن\u{64f}ما"),
@@ -6842,41 +7674,49 @@ pub const COMPASS: crate::Emoji = crate::Emoji {
                 "نیویگیشن",
             ],
         },
+        #[cfg(feature = "uz")]
         crate::Annotation {
             lang: "uz",
             tts: Some("kompas"),
             keywords: &["asbob", "dunyo tomonlari", "kompas", "magnitli", "sayohat"],
         },
+        #[cfg(feature = "vi")]
         crate::Annotation {
             lang: "vi",
             tts: Some("la bàn"),
             keywords: &["la bàn", "từ tính", "điều hướng", "định hướng"],
         },
+        #[cfg(feature = "yue")]
         crate::Annotation {
             lang: "yue",
             tts: Some("指南針"),
             keywords: &["導航", "指南針", "方位", "磁力"],
         },
+        #[cfg(feature = "yue_Hans")]
         crate::Annotation {
             lang: "yue_Hans",
             tts: Some("指南针"),
             keywords: &["导航", "指南针", "方位", "磁力"],
         },
+        #[cfg(feature = "zh")]
         crate::Annotation {
             lang: "zh",
             tts: Some("指南针"),
             keywords: &["定向", "导航", "指南针", "磁性"],
         },
+        #[cfg(feature = "zh_Hant")]
         crate::Annotation {
             lang: "zh_Hant",
             tts: Some("指南針"),
             keywords: &["定向", "導航", "指南針", "磁鐵"],
         },
+        #[cfg(feature = "zh_Hant_HK")]
         crate::Annotation {
             lang: "zh_Hant_HK",
             tts: Some("↑↑↑"),
             keywords: &["↑↑↑"],
         },
+        #[cfg(feature = "zu")]
         crate::Annotation {
             lang: "zu",
             tts: Some("i-compass"),
