@@ -42,6 +42,9 @@ pub struct Annotation {
 }
 
 
-/// " 🦀" goes in, `emoji::food_and_drink::food_marine::CRAB` goes out
+/// " 🦀" goes in, `emoji::food_and_drink::food_marine::CRAB` goes out  
 /// Also defines several other utility functions
 pub mod lookup_by_glyph;
+
+/// Search for an emoji::Emoji by name. Yields exact matches only, but is extremely fast
+pub mod lookup_by_name;

@@ -1,3 +1,5 @@
+
+
 fn main() {
     println!(
         "The {} emoji is at codepoint {}, called {}, is {}, and was introduced in unicode version {}",
@@ -8,43 +10,11 @@ fn main() {
         emoji::food_and_drink::food_marine::CRAB.introduction_version
     );
     println!("{:?}", emoji::lookup_by_glyph::lookup("🤳"));
-    println!(
-        "This emoji has the following annotations associated with it: {:?}",
-        emoji::food_and_drink::food_marine::CRAB
-            .annotations
-            .iter()
-            .find(|a| a.lang == "en")
-            .unwrap()
-            .keywords
-    );
-    println!(
-        "In Spanish, it's called {}",
-        emoji::food_and_drink::food_marine::CRAB
-            .annotations
-            .iter()
-            .find(|a| a.lang == "es")
-            .unwrap()
-            .tts
-            .unwrap()
-    );
-    println!(
-        "In Finnish, it's called {}",
-        emoji::food_and_drink::food_marine::CRAB
-            .annotations
-            .iter()
-            .find(|a| a.lang == "fi")
-            .unwrap()
-            .tts
-            .unwrap()
-    );
-    println!(
-        "In Turkic, it's called {}",
-        emoji::food_and_drink::food_marine::CRAB
-            .annotations
-            .iter()
-            .find(|a| a.lang == "uz")
-            .unwrap()
-            .tts
-            .unwrap()
-    );
+    let mut names: Vec<&emoji::Emoji> = emoji::lookup_by_glyph::iter_emoji().collect();
+    names.dedup();
+    for i in 1..names.len() {
+	if names[i-1] == names[i] {
+	    println!("{} is a dupe", names[i].name);
+	}
+    }
 }
