@@ -11,7 +11,8 @@ Some of the data includes:
 - Unicode Release Version  
 - Classification  
 - Variants  
-- Annotations in many languages  
+- Annotations in many languages
+
 This crate also provides functions for searching through emojis by 
 name and glyph, as well as several fuzzy search functions. 
 ## Quickstart  
