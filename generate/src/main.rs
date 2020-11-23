@@ -1,281 +1,41 @@
-use chrono::DateTime;
-use itertools::Itertools;
-use quote::{quote, ToTokens};
-use proc_macro2::{TokenStream, Span, Ident};
-use std::fs::File;
-use std::io::Write;
-use std::path::PathBuf;
-use unidecode::unidecode;
-use std::process::Command;
+mod sanitize;
+use sanitize::*;
+mod group_subgroup;
+mod emoji;
+use emoji::*;
+mod lookup_types;
+mod create_requests;
+use create_requests::*;
+mod gather_annotations;
+use gather_annotations::*;
+mod vectorize_test_data;
+use vectorize_test_data::*;
+mod lookup_by_glyph;
+mod lookup_by_name;
+mod gen_lib;
+mod search;
 
-fn sanitize(input: &String) -> String {
-    unidecode(&input
-	.replace(" ", "_")
-	.replace("&", "and")
-	.replace("#", "pound")
-	.replace("*", "asterisk")
-	.replace("1st", "first")
-	.replace("2nd", "second")
-	.replace("3rd", "third")
-	.replace("(","")
-	.replace(")","")
-	.replace(":","")
-	.replace(".","")
-	.replace(".","")
-	.replace("'","")
-	.replace("’","")
-	.replace(",","")
-	.replace(",","")
-	.replace(",","")
-	.replace("-","_")
-	.replace("-","_")
-	.replace("“","_")
-	.replace("”","_")
-	.replace("!",""))
-}
-
-struct Group {
-    name: String,
-    subgroups: Vec<Subgroup>,
-}
-impl Group {
-    pub fn new(name: String) -> Self {
-	Self{name, subgroups: vec![]}
-    }
-}
-impl ToTokens for Group {
-    fn to_tokens(&self, tokens: &mut TokenStream) {
-	let modname = Ident::new(&sanitize(&self.name).to_lowercase()
-				 , Span::call_site());
-	let subgroups = &self.subgroups;
-	(quote!{
-	    pub mod #modname {
-		#(#subgroups)*
-	    }
-	}).to_tokens(tokens);
-    }
-}
-struct Subgroup {
-    pub name: String,
-    pub emojis: Vec<Emoji>,
-}
-impl Subgroup {
-    pub fn new(name: String) -> Self {
-	Self{name, emojis: vec![]}
-    }
-}
-impl ToTokens for Subgroup {
-    fn to_tokens(&self, tokens: &mut TokenStream) {
-	let modname = Ident::new(&sanitize(&self.name).to_lowercase()
-				 , Span::call_site());
-	let path = format!("emoji_subgroup_{}.rs",
-		sanitize(&self.name).to_lowercase());
-	(quote!{
-	    #[path=#path]
-	    pub mod #modname;
-	}).to_tokens(tokens);
-    }
-}
-#[derive(Debug)]
-struct Emoji {
-    pub codepoint: String,
-    pub status: Status,
-    pub glyph: String,
-    pub introduction_version: f32,
-    pub name: String,
-    pub variants: Vec<Emoji>,
-}
-impl Emoji {
-    pub fn new(line: &str) -> Self {
-	let first_components: Vec<&str> = line.split(";").collect();
-	let reformed_first = first_components.iter().skip(1).join(";");
-	let codepoint = first_components[0].trim().to_owned();
-	let second_components: Vec<&str> = reformed_first.split("#").collect();
-	let status = Status::new(second_components[0].trim());
-	let reformed_second = second_components.iter().skip(1).join("#");
-	let third_components: Vec<&str> = reformed_second.trim().split("E").collect();
-	let glyph = third_components[0].trim().to_owned();
-	let reformed_third = third_components
-	    .iter().skip(1).join("E");
-	let introduction_version = reformed_third.split(" ").nth(0)
-	    .unwrap().parse::<f32>().unwrap();
-	let name = reformed_third.split(" ").skip(1).join(" ");
-	Self{codepoint, status, glyph, introduction_version, name, variants: vec![]}
-    }
-    pub fn ident(&self) -> String {
-	sanitize(&self.name).to_uppercase()
-    }
-    fn tokens_internal(&self) -> TokenStream {
-	let glyph = &self.glyph;
-	let codepoint = &self.codepoint;
-	let name = &self.name;
-	let status = Ident::new(&self.status.to_string(), Span::call_site());
-	let introduction_version = self.introduction_version;
-	let variants: Vec<TokenStream> = self.variants.iter()
-	    .map(|e| e.tokens_internal()).collect();
-	(quote!{
-		crate::Emoji{glyph: #glyph,
-			     codepoint: #codepoint,
-			     status: crate::Status::#status,
-			     introduction_version: #introduction_version,
-			     name: #name,
-			     variants: &[#(#variants),*]}
-	}).into()
-    }
-}
-impl ToTokens for Emoji {
-    fn to_tokens(&self, tokens: &mut TokenStream) {
-	let ident = Ident::new(&self.ident(), Span::call_site());
-	let tokns = self.tokens_internal();
-	let glyph = &self.glyph;
-	(quote!{
-	    #[doc = #glyph]
-	    pub const #ident: crate::Emoji = #tokns;
-	}).to_tokens(tokens);
-    }
-}
-#[derive(Debug, PartialEq)]
-enum Status {
-    Component,
-    FullyQualified,
-    MinimallyQualified,
-    Unqualified,
-}
-impl Status {
-    pub fn new(name: &str) -> Self {
-	use crate::Status::*;
-	match name {
-	    "component" => Component,
-	    "fully-qualified" => FullyQualified,
-	    "minimally-qualified" => MinimallyQualified,
-	    "unqualified" => Unqualified,
-	    unknown => panic!("Unknown qualifier {}", unknown),
-	}
-    }
-}
-impl std::fmt::Display for Status {
-    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
-	use Status::*;
-	write!(f, "{}", match self {
-	    Component => "Component",
-	    FullyQualified => "FullyQualified",
-	    MinimallyQualified => "MinimallyQualified",
-	    Unqualified => "Unqualified",
-	})
-    }
-}
-
-// This is using the `tokio` runtime. You'll need the following dependency:
-//
-// `tokio = { version = "0.2", features = ["macros"] }`
 #[cfg(not(target_arch = "wasm32"))]
 #[tokio::main]
 async fn main() -> Result<(), reqwest::Error> {
-    let mut date = "".to_owned();
-    let mut version = 0.0;
-    let mut groups: Vec<Group> = vec![];
+    println!("Make sure this is ran from workspace root");
+    let annotation_langs = vec!["af", "am", "ar", "ar_SA", "as", "ast", "az", "be", "bg", "bn", "br", "bs", "ca", "ccp", "ceb", "chr", "ckb", "cs", "cy", "da", "de", "de_CH", "doi", "el", "en", "en_001", "en_AU", "en_CA", "en_GB", "en_IN", "es", "es_419", "es_MX", "es_US", "et", "eu", "fa", "fi", "fil", "fo", "fr", "fr_CA", "ga", "gd", "gl", "gu", "ha", "ha_NE", "he", "hi", "hr", "hu", "hy", "ia", "id", "ig", "is", "it", "ja", "jv", "ka", "kab", "kk", "kl", "km", "kn", "ko", "kok", "ku", "ky", "lb", "lo", "lt", "lv", "mai", "mi", "mk", "ml", "mn", "mni", "mr", "ms", "mt", "my", "nb", "ne", "nl", "nn", "or", "pa", "pa_Arab", "pcm", "pl", "ps", "pt", "pt_PT", "qu", "rm", "ro", "root", "ru", "rw", "sa", "sat", "sd", "si", "sk", "sl", "so", "sq", "sr", "sr_Cyrl", "sr_Cyrl_BA", "sr_Latn", "sr_Latn_BA", "su", "sv", "sw", "sw_KE", "ta", "te", "tg", "th", "ti", "tk", "to", "tr", "tt", "ug", "uk", "ur", "uz", "vi", "wo", "xh", "yo", "yo_BJ", "yue", "yue_Hans", "zh", "zh_Hant", "zh_Hant_HK", "zu", ];
+    let client = reqwest::Client::new();
+    let annotation_text = create_requests(&client, &annotation_langs).await?;
+
+    let annotations = gather_annotations(&annotation_text, &annotation_langs);
+
+    println!("Annotation processing done. Compiling into emoji list");
+
+    let (date, version, groups) = vectorize_test_data(&client, &annotations).await?;
+
+    println!("Generating lookup tables.");
+    lookup_by_glyph::dump(&groups);
+    lookup_by_name::dump(&groups);
+    search::dump();
     
-    
-    //let res = reqwest::get("https://unicode.org/Public/cldr/38/cldr-tools-38.0.zip").await?;
-
-    
-    let res = reqwest::get("https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt").await?;
-
-    let body = res.text().await?;
-
-    for line in body.split("\n") {
-	if line.len() == 0 {
-	    continue;
-	}
-	if line.chars().nth(0) == Some('#') {
-	    // These lines are either comments or data related to one of:
-	    // - group
-	    // - subgroup
-	    // - Date published
-	    // - Publication Version
-	    if line.starts_with("# Date: ") {
-		date = DateTime::parse_from_str(
-		    &line.chars().skip("# Date: ".len()).collect::<String>()
-			.replace("GMT", "+0000"), "%F, %T %z")
-		    .unwrap().to_rfc3339();
-	    }
-	    if line.starts_with("# Version: ") {
-		version = line.chars().skip("# Version: ".len())
-		    .collect::<String>().parse::<f32>().unwrap();
-	    }
-	    if line.starts_with("# group: ") {
-		let groupname = line.chars().skip("# group: ".len())
-		    .collect::<String>();
-		groups.push(Group::new(groupname));
-	    }
-	    if line.starts_with("# subgroup: ") {
-		let subgroupname = line.chars().skip("# subgroup: ".len())
-		    .collect::<String>();
-		groups.last_mut().unwrap().subgroups.push(Subgroup::new(subgroupname));
-	    }
-	    continue;
-	}
-	let emoji_list = &mut groups.last_mut().unwrap().subgroups.last_mut()
-	    .unwrap().emojis;
-	let new_emoji = Emoji::new(line);
-	match &mut emoji_list.last_mut() {
-	    Some(old_emoji) if old_emoji.ident() == new_emoji.ident() => {
-		old_emoji.variants.push(new_emoji);
-	    },
-	    _ => {
-		emoji_list.push(new_emoji);
-	    },
-	}
-    }
-
-    if version == 0.0 {
-	panic!("No unicode version found while parsing emoji data");
-    }
-    if date == "" {
-	panic!("No release date found while parsing emoji data");
-    }
-
-    let dump = quote!{
-	/// The unicode release version that this crate is compiled against
-	pub const UNICODE_VERSION: f32 = #version;
-	/// The rfc3339 formatted time of the unicode release that this crate is compiled against
-	pub const UNICODE_RELEASE_TIME: &'static str = #date;
-	#(#groups)*
-    };
-
-    // skeleton; writes the module structure
-    let path = "emoji/src/emoji_data.rs";
-    let pb: PathBuf = path.clone().into();
-    File::create(pb).unwrap().write_all(format!("{}", dump).as_bytes()).unwrap();
-    Command::new("rustfmt")
-        .arg(path)
-        .output()
-        .expect("Failed to execute command");
-
-
-    for g in groups {
-	let dir = format!("emoji/src/{}",
-			  sanitize(&g.name).to_lowercase());
-	let pb: PathBuf = dir.clone().into();
-	if !pb.exists() {
-	    std::fs::create_dir(dir).unwrap();
-	}
-	for s in g.subgroups {
-	    let emojis = &s.emojis;
-	    let path = format!("emoji/src/{}/emoji_subgroup_{}.rs",
-			       sanitize(&g.name).to_lowercase(),
-			       sanitize(&s.name).to_lowercase());
-	    let pb: PathBuf = path.clone().into();
-	    let dump = quote!{
-		#(#emojis)*
-	    };
-	    File::create(pb).unwrap().write_all(format!("{}", dump).as_bytes()).unwrap();
-	    Command::new("rustfmt")
-		.arg(path)
-		.output()
-		.expect("Failed to execute command");
-	}
-    }
+    println!("Dumping emoji library.");
+    gen_lib::dump(&groups, &annotation_langs, version, date);
     
     Ok(())
 }

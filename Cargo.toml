@@ -3,4 +3,6 @@ members = [
         "generate",
         "emoji",
         "examples/hello",
+        "examples/lookup",
+        "examples/stats",
 ]
