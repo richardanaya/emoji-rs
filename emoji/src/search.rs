@@ -44,9 +44,9 @@ pub fn search_tts_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
         .filter_map(|e| {
             e.annotations
                 .iter()
-                .map(|a| a.tts.and_then(|tts| MATCHER.fuzzy_match(tts, searchterm)))
-                .fold(None, |acc: Option<i64>, scoreopt| {
-                    acc.map_or(scoreopt, |a| scoreopt.map(|b| a.max(b)))
+                .filter_map(|a| a.tts.and_then(|tts| MATCHER.fuzzy_match(tts, searchterm)))
+                .fold(None, |acc: Option<i64>, score| {
+                    Some(acc.map_or(score, |a| a.max(score)))
                 })
                 .map(|score| (e, score))
         })
@@ -68,17 +68,18 @@ pub fn search_annotation(searchterm: &str, lang: &str) -> Vec<&'static crate::Em
                     a.tts
                         .iter()
                         .chain(a.keywords.iter())
-                        .map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
-                        .fold(None, |acc: Option<i64>, scoreopt| {
-                            acc.map_or(scoreopt, |a| scoreopt.map(|b| a.max(b)))
+                        .filter_map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
+                        .fold(None, |acc: Option<i64>, score| {
+                            Some(acc.map_or(score, |a| a.max(score)))
                         })
+                        .map(|score| (a.tts.map(|tts| tts.len()).unwrap_or(e.name.len()), score))
                 })
-                .map(|score| (e, score))
+                .map(|(namelen, score)| (e, namelen, score))
         })
-        .sorted_by(|(e1, score1), (e2, score2)| {
-            Ord::cmp(&score2, &score1).then(Ord::cmp(&e1.name, &e2.name))
+        .sorted_by(|(_, namelen1, score1), (_, namelen2, score2)| {
+            Ord::cmp(&score2, &score1).then(Ord::cmp(&namelen1, &namelen2))
         })
-        .map(|(e, _)| e)
+        .map(|(e, _, _)| e)
         .collect::<Vec<_>>()
 }
 
@@ -90,9 +91,9 @@ pub fn search_annotation_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
                 .iter()
                 .map(|a| a.tts.iter().chain(a.keywords.iter()))
                 .flatten()
-                .map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
-                .fold(None, |acc: Option<i64>, scoreopt| {
-                    acc.map_or(scoreopt, |a| scoreopt.map(|b| a.max(b)))
+                .filter_map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
+                .fold(None, |acc: Option<i64>, score| {
+                    Some(acc.map_or(score, |a| a.max(score)))
                 })
                 .map(|score| (e, score))
         })

@@ -40,9 +40,9 @@ pub fn search_tts_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
     crate::lookup_by_name::iter_emoji()
         .filter_map(|e| {
 	    e.annotations.iter()
-		.map(|a| a.tts.and_then(|tts| MATCHER.fuzzy_match(tts, searchterm)))
-		.fold(None, |acc: Option<i64>, scoreopt|
-		      acc.map_or(scoreopt, |a| scoreopt.map(|b| a.max(b))))
+		.filter_map(|a| a.tts.and_then(|tts| MATCHER.fuzzy_match(tts, searchterm)))
+		.fold(None, |acc: Option<i64>, score|
+		      Some(acc.map_or(score, |a| a.max(score))))
                 .map(|score| (e, score))
         })
         .sorted_by(|(e1, score1), (e2, score2)| {
@@ -57,11 +57,12 @@ pub fn search_annotation(searchterm: &str, lang: &str) -> Vec<&'static crate::Em
         .filter_map(|e| {
 	    e.annotations.iter().find(|a| a.lang == lang)
 		.and_then(|a|
-		     a.tts.iter().chain(a.keywords.iter())
-		     .map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
-		     .fold(None, |acc: Option<i64>, scoreopt|
-			   acc.map_or(scoreopt, |a| scoreopt.map(|b| a.max(b))))
-			  .map(|score| (a.tts.len(), score))
+			  a.tts.iter().chain(a.keywords.iter())
+			  .filter_map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
+			  .fold(None, |acc: Option<i64>, score|
+				Some(acc.map_or(score, |a| a.max(score))))
+			  .map(|score| (a.tts.map(|tts| tts.len())
+					.unwrap_or(e.name.len()), score))
 		)
                 .map(|(namelen, score)| (e, namelen, score))
         })
@@ -78,9 +79,9 @@ pub fn search_annotation_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
 	    e.annotations.iter()
 		.map(|a| a.tts.iter().chain(a.keywords.iter()))
 		.flatten()
-		.map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
-		.fold(None, |acc: Option<i64>, scoreopt|
-			   acc.map_or(scoreopt, |a| scoreopt.map(|b| a.max(b))))
+		.filter_map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
+		.fold(None, |acc: Option<i64>, score|
+		      Some(acc.map_or(score, |a| a.max(score))))
                 .map(|score| (e, score))
         })
         .sorted_by(|(e1, score1), (e2, score2)| {

@@ -3,4 +3,5 @@ members = [
         "generate",
         "emoji",
         "examples/hello",
+        "examples/lookup",
 ]
