@@ -7,7 +7,8 @@
 //! - Unicode Release Version
 //! - Classification
 //! - Variants
-//! - Annotations in many languages  
+//! - Annotations in many languages
+//! 
 //! This crate also provides functions for searching through emojis by
 //! [name](lookup_by_name/index.html) and [glyph](lookup_by_glyph/index.html),
 //! as well as several [fuzzy search](search/index.html) functions.
