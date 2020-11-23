@@ -60,13 +60,15 @@ pub fn search_annotation(searchterm: &str, lang: &str) -> Vec<&'static crate::Em
 		     a.tts.iter().chain(a.keywords.iter())
 		     .map(|kwd| MATCHER.fuzzy_match(kwd, searchterm))
 		     .fold(None, |acc: Option<i64>, scoreopt|
-			   acc.map_or(scoreopt, |a| scoreopt.map(|b| a.max(b)))))
-                .map(|score| (e, score))
+			   acc.map_or(scoreopt, |a| scoreopt.map(|b| a.max(b))))
+			  .map(|score| (a.tts.len(), score))
+		)
+                .map(|(namelen, score)| (e, namelen, score))
         })
-        .sorted_by(|(e1, score1), (e2, score2)| {
-            Ord::cmp(&score2, &score1).then(Ord::cmp(&e1.name, &e2.name))
+        .sorted_by(|(_, namelen1, score1), (_, namelen2, score2)| {
+            Ord::cmp(&score2, &score1).then(Ord::cmp(&namelen1, &namelen2))
         })
-        .map(|(e, _)| e).collect::<Vec<_>>()
+        .map(|(e, _, _)| e).collect::<Vec<_>>()
 }
 
 /// Fuzzy search by annotations in all languages (feature dependent)
