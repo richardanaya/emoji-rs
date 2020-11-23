@@ -1,3 +1,31 @@
+//! ## Introduction  
+//! 3511 emojis and 4580 emoji variants with localization data in 143 languages  
+//! This crate contains a huge amount of data about every emoji ever.
+//! Some of the data includes:
+//! - Name
+//! - Glyph
+//! - Unicode Release Version
+//! - Classification
+//! - Variants
+//! - Annotations in many languages  
+//! This crate also provides functions for searching through emojis by
+//! [name](lookup_by_name/index.html) and [glyph](lookup_by_glyph/index.html),
+//! as well as several [fuzzy search](search/index.html) functions.
+//! ## Quickstart  
+//! ```rust
+//! fn main() {
+//!    println!("{}", emoji::food_and_drink::food_marine::CRAB.glyph);
+//! }
+//! ```
+//! See more examples [here](https://github.com/Shizcow/emoji-rs/tree/master/examples/).
+//! ## Languages  
+//! By default, only English annotations are compiled in.
+//! To enable other languages, use the feature corresponding to that languge. An exhaustive
+//! list of supported languages can be found
+//! [here](https://github.com/Shizcow/emoji-rs/blob/master/emoji/Cargo.toml).
+
+
+
 /// Emoji status qualifier  
 /// In nearly every case, MinimallyQualified or Unqualified will show up in emoji variants.
 /// A complete tool needs only to support all of the FullyQualified emojis.

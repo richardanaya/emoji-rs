@@ -1,3 +1,28 @@
+#![doc = " ## Introduction  "]
+#![doc = " 3511 emojis and 4580 emoji variants with localization data in 143 languages  "]
+#![doc = " This crate contains a huge amount of data about every emoji ever."]
+#![doc = " Some of the data includes:"]
+#![doc = " - Name"]
+#![doc = " - Glyph"]
+#![doc = " - Unicode Release Version"]
+#![doc = " - Classification"]
+#![doc = " - Variants"]
+#![doc = " - Annotations in many languages  "]
+#![doc = " This crate also provides functions for searching through emojis by"]
+#![doc = " [name](lookup_by_name/index.html) and [glyph](lookup_by_glyph/index.html),"]
+#![doc = " as well as several [fuzzy search](search/index.html) functions."]
+#![doc = " ## Quickstart  "]
+#![doc = " ```rust"]
+#![doc = " fn main() {"]
+#![doc = "    println!(\"{}\", emoji::food_and_drink::food_marine::CRAB.glyph);"]
+#![doc = " }"]
+#![doc = " ```"]
+#![doc = " See more examples [here](https://github.com/Shizcow/emoji-rs/tree/master/examples/)."]
+#![doc = " ## Languages  "]
+#![doc = " By default, only English annotations are compiled in."]
+#![doc = " To enable other languages, use the feature corresponding to that languge. An exhaustive"]
+#![doc = " list of supported languages can be found"]
+#![doc = " [here](https://github.com/Shizcow/emoji-rs/blob/master/emoji/Cargo.toml)."]
 #[doc = " Emoji status qualifier  "]
 #[doc = " In nearly every case, MinimallyQualified or Unqualified will show up in emoji variants."]
 #[doc = " A complete tool needs only to support all of the FullyQualified emojis."]
@@ -52,8 +77,8 @@ pub struct Emoji {
     #[doc = " Ex: `cat-face`"]
     pub subgroup: &'static str,
     #[doc = " All variants of an emoji. If two emojis share the same name, one is a variant."]
-    #[doc = " Variants are always less qualified than their parent. You can go from a variant to"]
-    #[doc = " the parent via [emoji::lookup_by_glyph::lookup](lookup_by_glyph/fn.lookup.html)"]
+    #[doc = " Variants are always less qualified than their parent. Parents can be found from a"]
+    #[doc = " variant via [emoji::lookup_by_glyph::lookup](lookup_by_glyph/fn.lookup.html)"]
     pub variants: &'static [Emoji],
     #[doc = " Is this emoji a variant?"]
     pub is_variant: bool,
@@ -83,14 +108,440 @@ pub mod lookup_by_name;
 #[doc = " Fuzzy search algorithms for general purpose searching"]
 pub mod search;
 #[doc = r" All annotation languages (feature independent)"]
-pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &["en", "fi"];
+pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
+    "af",
+    "am",
+    "ar",
+    "ar_SA",
+    "as",
+    "ast",
+    "az",
+    "be",
+    "bg",
+    "bn",
+    "br",
+    "bs",
+    "ca",
+    "ccp",
+    "ceb",
+    "chr",
+    "ckb",
+    "cs",
+    "cy",
+    "da",
+    "de",
+    "de_CH",
+    "doi",
+    "el",
+    "en",
+    "en_001",
+    "en_AU",
+    "en_CA",
+    "en_GB",
+    "en_IN",
+    "es",
+    "es_419",
+    "es_MX",
+    "es_US",
+    "et",
+    "eu",
+    "fa",
+    "fi",
+    "fil",
+    "fo",
+    "fr",
+    "fr_CA",
+    "ga",
+    "gd",
+    "gl",
+    "gu",
+    "ha",
+    "ha_NE",
+    "he",
+    "hi",
+    "hr",
+    "hu",
+    "hy",
+    "ia",
+    "id",
+    "ig",
+    "is",
+    "it",
+    "ja",
+    "jv",
+    "ka",
+    "kab",
+    "kk",
+    "kl",
+    "km",
+    "kn",
+    "ko",
+    "kok",
+    "ku",
+    "ky",
+    "lb",
+    "lo",
+    "lt",
+    "lv",
+    "mai",
+    "mi",
+    "mk",
+    "ml",
+    "mn",
+    "mni",
+    "mr",
+    "ms",
+    "mt",
+    "my",
+    "nb",
+    "ne",
+    "nl",
+    "nn",
+    "or",
+    "pa",
+    "pa_Arab",
+    "pcm",
+    "pl",
+    "ps",
+    "pt",
+    "pt_PT",
+    "qu",
+    "rm",
+    "ro",
+    "root",
+    "ru",
+    "rw",
+    "sa",
+    "sat",
+    "sd",
+    "si",
+    "sk",
+    "sl",
+    "so",
+    "sq",
+    "sr",
+    "sr_Cyrl",
+    "sr_Cyrl_BA",
+    "sr_Latn",
+    "sr_Latn_BA",
+    "su",
+    "sv",
+    "sw",
+    "sw_KE",
+    "ta",
+    "te",
+    "tg",
+    "th",
+    "ti",
+    "tk",
+    "to",
+    "tr",
+    "tt",
+    "ug",
+    "uk",
+    "ur",
+    "uz",
+    "vi",
+    "wo",
+    "xh",
+    "yo",
+    "yo_BJ",
+    "yue",
+    "yue_Hans",
+    "zh",
+    "zh_Hant",
+    "zh_Hant_HK",
+    "zu",
+];
 #[doc = r" Enabled annotation languages (feature dependent)  "]
 #[doc = r#" Defaults to `["en"]`. Enable the `XX` features for each language to include annotations for another language. For example, to include Finnish annotations, use the `fi` feature."#]
 pub const ANNOTATION_LANGS_AVAILABLE: &'static [&'static str] = &[
+    #[cfg(feature = "af")]
+    "af",
+    #[cfg(feature = "am")]
+    "am",
+    #[cfg(feature = "ar")]
+    "ar",
+    #[cfg(feature = "ar_SA")]
+    "ar_SA",
+    #[cfg(feature = "as")]
+    "as",
+    #[cfg(feature = "ast")]
+    "ast",
+    #[cfg(feature = "az")]
+    "az",
+    #[cfg(feature = "be")]
+    "be",
+    #[cfg(feature = "bg")]
+    "bg",
+    #[cfg(feature = "bn")]
+    "bn",
+    #[cfg(feature = "br")]
+    "br",
+    #[cfg(feature = "bs")]
+    "bs",
+    #[cfg(feature = "ca")]
+    "ca",
+    #[cfg(feature = "ccp")]
+    "ccp",
+    #[cfg(feature = "ceb")]
+    "ceb",
+    #[cfg(feature = "chr")]
+    "chr",
+    #[cfg(feature = "ckb")]
+    "ckb",
+    #[cfg(feature = "cs")]
+    "cs",
+    #[cfg(feature = "cy")]
+    "cy",
+    #[cfg(feature = "da")]
+    "da",
+    #[cfg(feature = "de")]
+    "de",
+    #[cfg(feature = "de_CH")]
+    "de_CH",
+    #[cfg(feature = "doi")]
+    "doi",
+    #[cfg(feature = "el")]
+    "el",
     #[cfg(feature = "en")]
     "en",
+    #[cfg(feature = "en_001")]
+    "en_001",
+    #[cfg(feature = "en_AU")]
+    "en_AU",
+    #[cfg(feature = "en_CA")]
+    "en_CA",
+    #[cfg(feature = "en_GB")]
+    "en_GB",
+    #[cfg(feature = "en_IN")]
+    "en_IN",
+    #[cfg(feature = "es")]
+    "es",
+    #[cfg(feature = "es_419")]
+    "es_419",
+    #[cfg(feature = "es_MX")]
+    "es_MX",
+    #[cfg(feature = "es_US")]
+    "es_US",
+    #[cfg(feature = "et")]
+    "et",
+    #[cfg(feature = "eu")]
+    "eu",
+    #[cfg(feature = "fa")]
+    "fa",
     #[cfg(feature = "fi")]
     "fi",
+    #[cfg(feature = "fil")]
+    "fil",
+    #[cfg(feature = "fo")]
+    "fo",
+    #[cfg(feature = "fr")]
+    "fr",
+    #[cfg(feature = "fr_CA")]
+    "fr_CA",
+    #[cfg(feature = "ga")]
+    "ga",
+    #[cfg(feature = "gd")]
+    "gd",
+    #[cfg(feature = "gl")]
+    "gl",
+    #[cfg(feature = "gu")]
+    "gu",
+    #[cfg(feature = "ha")]
+    "ha",
+    #[cfg(feature = "ha_NE")]
+    "ha_NE",
+    #[cfg(feature = "he")]
+    "he",
+    #[cfg(feature = "hi")]
+    "hi",
+    #[cfg(feature = "hr")]
+    "hr",
+    #[cfg(feature = "hu")]
+    "hu",
+    #[cfg(feature = "hy")]
+    "hy",
+    #[cfg(feature = "ia")]
+    "ia",
+    #[cfg(feature = "id")]
+    "id",
+    #[cfg(feature = "ig")]
+    "ig",
+    #[cfg(feature = "is")]
+    "is",
+    #[cfg(feature = "it")]
+    "it",
+    #[cfg(feature = "ja")]
+    "ja",
+    #[cfg(feature = "jv")]
+    "jv",
+    #[cfg(feature = "ka")]
+    "ka",
+    #[cfg(feature = "kab")]
+    "kab",
+    #[cfg(feature = "kk")]
+    "kk",
+    #[cfg(feature = "kl")]
+    "kl",
+    #[cfg(feature = "km")]
+    "km",
+    #[cfg(feature = "kn")]
+    "kn",
+    #[cfg(feature = "ko")]
+    "ko",
+    #[cfg(feature = "kok")]
+    "kok",
+    #[cfg(feature = "ku")]
+    "ku",
+    #[cfg(feature = "ky")]
+    "ky",
+    #[cfg(feature = "lb")]
+    "lb",
+    #[cfg(feature = "lo")]
+    "lo",
+    #[cfg(feature = "lt")]
+    "lt",
+    #[cfg(feature = "lv")]
+    "lv",
+    #[cfg(feature = "mai")]
+    "mai",
+    #[cfg(feature = "mi")]
+    "mi",
+    #[cfg(feature = "mk")]
+    "mk",
+    #[cfg(feature = "ml")]
+    "ml",
+    #[cfg(feature = "mn")]
+    "mn",
+    #[cfg(feature = "mni")]
+    "mni",
+    #[cfg(feature = "mr")]
+    "mr",
+    #[cfg(feature = "ms")]
+    "ms",
+    #[cfg(feature = "mt")]
+    "mt",
+    #[cfg(feature = "my")]
+    "my",
+    #[cfg(feature = "nb")]
+    "nb",
+    #[cfg(feature = "ne")]
+    "ne",
+    #[cfg(feature = "nl")]
+    "nl",
+    #[cfg(feature = "nn")]
+    "nn",
+    #[cfg(feature = "or")]
+    "or",
+    #[cfg(feature = "pa")]
+    "pa",
+    #[cfg(feature = "pa_Arab")]
+    "pa_Arab",
+    #[cfg(feature = "pcm")]
+    "pcm",
+    #[cfg(feature = "pl")]
+    "pl",
+    #[cfg(feature = "ps")]
+    "ps",
+    #[cfg(feature = "pt")]
+    "pt",
+    #[cfg(feature = "pt_PT")]
+    "pt_PT",
+    #[cfg(feature = "qu")]
+    "qu",
+    #[cfg(feature = "rm")]
+    "rm",
+    #[cfg(feature = "ro")]
+    "ro",
+    #[cfg(feature = "root")]
+    "root",
+    #[cfg(feature = "ru")]
+    "ru",
+    #[cfg(feature = "rw")]
+    "rw",
+    #[cfg(feature = "sa")]
+    "sa",
+    #[cfg(feature = "sat")]
+    "sat",
+    #[cfg(feature = "sd")]
+    "sd",
+    #[cfg(feature = "si")]
+    "si",
+    #[cfg(feature = "sk")]
+    "sk",
+    #[cfg(feature = "sl")]
+    "sl",
+    #[cfg(feature = "so")]
+    "so",
+    #[cfg(feature = "sq")]
+    "sq",
+    #[cfg(feature = "sr")]
+    "sr",
+    #[cfg(feature = "sr_Cyrl")]
+    "sr_Cyrl",
+    #[cfg(feature = "sr_Cyrl_BA")]
+    "sr_Cyrl_BA",
+    #[cfg(feature = "sr_Latn")]
+    "sr_Latn",
+    #[cfg(feature = "sr_Latn_BA")]
+    "sr_Latn_BA",
+    #[cfg(feature = "su")]
+    "su",
+    #[cfg(feature = "sv")]
+    "sv",
+    #[cfg(feature = "sw")]
+    "sw",
+    #[cfg(feature = "sw_KE")]
+    "sw_KE",
+    #[cfg(feature = "ta")]
+    "ta",
+    #[cfg(feature = "te")]
+    "te",
+    #[cfg(feature = "tg")]
+    "tg",
+    #[cfg(feature = "th")]
+    "th",
+    #[cfg(feature = "ti")]
+    "ti",
+    #[cfg(feature = "tk")]
+    "tk",
+    #[cfg(feature = "to")]
+    "to",
+    #[cfg(feature = "tr")]
+    "tr",
+    #[cfg(feature = "tt")]
+    "tt",
+    #[cfg(feature = "ug")]
+    "ug",
+    #[cfg(feature = "uk")]
+    "uk",
+    #[cfg(feature = "ur")]
+    "ur",
+    #[cfg(feature = "uz")]
+    "uz",
+    #[cfg(feature = "vi")]
+    "vi",
+    #[cfg(feature = "wo")]
+    "wo",
+    #[cfg(feature = "xh")]
+    "xh",
+    #[cfg(feature = "yo")]
+    "yo",
+    #[cfg(feature = "yo_BJ")]
+    "yo_BJ",
+    #[cfg(feature = "yue")]
+    "yue",
+    #[cfg(feature = "yue_Hans")]
+    "yue_Hans",
+    #[cfg(feature = "zh")]
+    "zh",
+    #[cfg(feature = "zh_Hant")]
+    "zh_Hant",
+    #[cfg(feature = "zh_Hant_HK")]
+    "zh_Hant_HK",
+    #[cfg(feature = "zu")]
+    "zu",
 ];
 #[doc = r" The unicode release version that this crate is compiled against"]
 pub const UNICODE_VERSION: f32 = 13.1f32;
