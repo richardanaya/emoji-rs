@@ -12,12 +12,16 @@ pub fn dump(groups: &Vec<Group>, annotation_langs: &Vec<&str>, version: f32, dat
     let mut f = File::open("generate/src/library_header.rs").unwrap();
     f.read_to_string(&mut fs).unwrap();
     let ts: TokenStream = fs.parse().unwrap();
-    
+    let langsize = annotation_langs.len();
     let dump = quote! {
 	#ts
-	/// The annotation languages this crate was compiled with  
+	/// All annotation languages
+	pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
+	    #(#annotation_langs),*
+	];
+	/// Enabled annotation languages (feature dependent)  
 	/// Defaults to `["en"]`. Enable the `XX` features for each language to include annotations for another language. For example, to include Finnish annotations, use the `fi` feature.
-	pub const ANNOTATION_LANGS: &'static [&'static str] = &[
+	pub const ANNOTATION_LANGS_AVAILABLE: &'static [&'static str] = &[
 	    #(#[cfg(feature = #annotation_langs)]#annotation_langs),*
 	];
 	/// The unicode release version that this crate is compiled against

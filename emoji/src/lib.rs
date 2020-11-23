@@ -46,7 +46,9 @@ pub mod lookup_by_glyph;
 pub mod lookup_by_name;
 #[doc = " Fuzzy search algorithms for general purpose"]
 pub mod search;
-#[doc = r" The annotation languages this crate was compiled with  "]
+#[doc = r" All annotation languages"]
+pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &["en", "fi"];
+#[doc = r" Enabled annotation languages (feature dependent)  "]
 #[doc = r#" Defaults to `["en"]`. Enable the `XX` features for each language to include annotations for another language. For example, to include Finnish annotations, use the `fi` feature."#]
 pub const ANNOTATION_LANGS: &'static [&'static str] = &[
     #[cfg(feature = "en")]
