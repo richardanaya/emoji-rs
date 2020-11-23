@@ -1,9 +1,16 @@
+#[doc = " Emoji status qualifier  "]
+#[doc = " In nearly every case, MinimallyQualified or Unqualified will show up in emoji variants."]
+#[doc = " A complete tool needs only to support all of the FullyQualified emojis."]
 #[derive(Debug, PartialEq)]
 pub enum Status {
-    Component,
+    #[doc = " A qualified emoji character, or an emoji sequence in which each emoji character is qualified. Most emojis fall into this category."]
     FullyQualified,
+    #[doc = " An emoji sequence in which the first character is qualified but the sequence is not fully qualified."]
     MinimallyQualified,
+    #[doc = " An emoji that is neither fully-qualified nor minimally qualified."]
     Unqualified,
+    #[doc = " Used for modifiers, such as skin tone modifiers."]
+    Component,
 }
 impl std::fmt::Display for Status {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
@@ -20,37 +27,66 @@ impl std::fmt::Display for Status {
         )
     }
 }
+#[doc = " Contains all information about an emoji  "]
+#[doc = " See the [CLDR](https://raw.githubusercontent.com/unicode-org/cldr/release-38/tools/java/org/unicode/cldr/util/data/emoji/emoji-test.txt) for specific examples of all fields except `variants`."]
 #[derive(Debug, PartialEq)]
 pub struct Emoji {
+    #[doc = " The ASCII-formatted string representation of this emoji's UTF8 codepoint value  "]
+    #[doc = " Ex: `1F441 200D 1F5E8 FE0F`"]
     pub codepoint: &'static str,
+    #[doc = " Qualification status"]
     pub status: Status,
+    #[doc = " The actual emoji text  "]
+    #[doc = " Ex: 😺"]
     pub glyph: &'static str,
+    #[doc = " The Unicode release version which this emoji was introduced in"]
     pub introduction_version: f32,
+    #[doc = " English [CLDR Short Name](https://unicode.org/emoji/format.html#col-name)"]
+    #[doc = " (canonical) name of this emoji  "]
+    #[doc = " Ex: `grinning cat`"]
     pub name: &'static str,
+    #[doc = " General classification this emoji belongs to  "]
+    #[doc = " Ex: `Smileys & Emotion`"]
     pub group: &'static str,
+    #[doc = " Specific classification this emoji belongs to  "]
+    #[doc = " Ex: `cat-face`"]
     pub subgroup: &'static str,
+    #[doc = " All variants of an emoji. If two emojis share the same name, one is a variant."]
+    #[doc = " Variants are always less qualified than their parent. You can go from a variant to"]
+    #[doc = " the parent via [emoji::lookup_by_glyph::lookup](lookup_by_glyph/fn.lookup.html)"]
     pub variants: &'static [Emoji],
-    pub annotations: &'static [Annotation],
+    #[doc = " Is this emoji a variant?"]
     pub is_variant: bool,
+    #[doc = " Localizatoin specific annotations"]
+    pub annotations: &'static [Annotation],
 }
+#[doc = " Annotation meta-data for each emoji"]
 #[derive(Debug, PartialEq)]
 pub struct Annotation {
+    #[doc = " Language code of the associated data. Guarenteed to be found in"]
+    #[doc = " [ANNOTATION_LANGS_AVAILABLE](constant.ANNOTATION_LANGS_AVAILABLE.html)"]
     pub lang: &'static str,
+    #[doc = " Localized name for an emoji  "]
+    #[doc = " Ex: `fried shrimp`"]
     pub tts: Option<&'static str>,
+    #[doc = " Keywords associated with an emoji, in the localized language  "]
+    #[doc = " Ex: `[\"fried shrimp\", \"shrimp\", \"prawn\"]`"]
     pub keywords: &'static [&'static str],
 }
-#[doc = " \" 🦀\" goes in, `emoji::food_and_drink::food_marine::CRAB` goes out  "]
-#[doc = " Also defines several other utility functions"]
+#[doc = " Defines functions for searching through and iterating over emojis by glyph  "]
+#[doc = " Includes variants"]
 pub mod lookup_by_glyph;
-#[doc = " Search for an emoji::Emoji by name. Yields exact matches only, but is extremely fast"]
+#[doc = " Defines functions for searching through and iterating over emojis by name  "]
+#[doc = " Yields exact matches only, but is extremely fast  "]
+#[doc = " Does not include variants"]
 pub mod lookup_by_name;
-#[doc = " Fuzzy search algorithms for general purpose"]
+#[doc = " Fuzzy search algorithms for general purpose searching"]
 pub mod search;
-#[doc = r" All annotation languages"]
+#[doc = r" All annotation languages (feature independent)"]
 pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &["en", "fi"];
 #[doc = r" Enabled annotation languages (feature dependent)  "]
 #[doc = r#" Defaults to `["en"]`. Enable the `XX` features for each language to include annotations for another language. For example, to include Finnish annotations, use the `fi` feature."#]
-pub const ANNOTATION_LANGS: &'static [&'static str] = &[
+pub const ANNOTATION_LANGS_AVAILABLE: &'static [&'static str] = &[
     #[cfg(feature = "en")]
     "en",
     #[cfg(feature = "fi")]

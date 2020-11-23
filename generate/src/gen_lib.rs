@@ -12,10 +12,9 @@ pub fn dump(groups: &Vec<Group>, annotation_langs: &Vec<&str>, version: f32, dat
     let mut f = File::open("generate/src/library_header.rs").unwrap();
     f.read_to_string(&mut fs).unwrap();
     let ts: TokenStream = fs.parse().unwrap();
-    let langsize = annotation_langs.len();
     let dump = quote! {
 	#ts
-	/// All annotation languages
+	/// All annotation languages (feature independent)
 	pub const ANNOTATION_LANGS_TOTAL: &'static [&'static str] = &[
 	    #(#annotation_langs),*
 	];

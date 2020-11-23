@@ -6,7 +6,8 @@ lazy_static::lazy_static! {
     static ref MATCHER: SkimMatcherV2 = SkimMatcherV2::default();
 }
 
-/// Fuzzy search by canonical (English) name
+/// Fuzzy search by canonical (English) name  
+/// Returns a [Emoji](../struct.Emoji.html) vector sorted with most relevant results first
 pub fn search_name(searchterm: &str) -> Vec<&'static crate::Emoji> {
     crate::lookup_by_name::iter_emoji()
         .filter_map(|e| {
@@ -21,7 +22,8 @@ pub fn search_name(searchterm: &str) -> Vec<&'static crate::Emoji> {
         .collect::<Vec<_>>()
 }
 
-/// Searches by localized name
+/// Searches by localized name in a given lanauge  
+/// Returns a [Emoji](../struct.Emoji.html) vector sorted with most relevant results first
 pub fn search_tts(searchterm: &str, lang: &str) -> Vec<&'static crate::Emoji> {
     crate::lookup_by_name::iter_emoji()
         .filter_map(|e| {
@@ -38,7 +40,8 @@ pub fn search_tts(searchterm: &str, lang: &str) -> Vec<&'static crate::Emoji> {
         .collect::<Vec<_>>()
 }
 
-/// Fuzzy search by localized name in all languages (feature dependent)
+/// Fuzzy search by localized name in available all languages (feature dependent)  
+/// Returns a [Emoji](../struct.Emoji.html) vector sorted with most relevant results first
 pub fn search_tts_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
     crate::lookup_by_name::iter_emoji()
         .filter_map(|e| {
@@ -57,7 +60,8 @@ pub fn search_tts_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
         .collect::<Vec<_>>()
 }
 
-/// Fuzzy search by annotations. This includes localized names as well as localized keywords
+/// Fuzzy search by annotations. This includes localized names as well as localized keywords  
+/// Returns a [Emoji](../struct.Emoji.html) vector sorted with most relevant results first
 pub fn search_annotation(searchterm: &str, lang: &str) -> Vec<&'static crate::Emoji> {
     crate::lookup_by_name::iter_emoji()
         .filter_map(|e| {
@@ -83,7 +87,8 @@ pub fn search_annotation(searchterm: &str, lang: &str) -> Vec<&'static crate::Em
         .collect::<Vec<_>>()
 }
 
-/// Fuzzy search by annotations in all languages (feature dependent)
+/// Fuzzy search by annotations in all languages (feature dependent)  
+/// Returns a [Emoji](../struct.Emoji.html) vector sorted with most relevant results first
 pub fn search_annotation_all(searchterm: &str) -> Vec<&'static crate::Emoji> {
     crate::lookup_by_name::iter_emoji()
         .filter_map(|e| {
