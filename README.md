@@ -2,13 +2,32 @@
 
 <a href="https://docs.rs/emoji"><img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square" alt="docs.rs docs" /></a>
 
-A library of emoji and metadata of emoji
+## Introduction  
+3511 emojis and 4580 emoji variants with localization data in 143 languages  
+This crate contains a huge amount of data about every emoji ever. 
+Some of the data includes:  
+- Name  
+- Glyph  
+- Unicode Release Version  
+- Classification  
+- Variants  
+- Annotations in many languages
 
+This crate also provides functions for searching through emojis by 
+name and glyph, as well as several fuzzy search functions. 
+## Quickstart  
 ```rust
 fn main() {
-    println!("hello {}", emoji::food_and_drink::food_marine::CRAB);
+ println!("{}", emoji::food_and_drink::food_marine::CRAB.glyph); 
 }
-```
+```  
+See more examples [here](https://github.com/Shizcow/emoji-rs/tree/master/examples/). 
+## Languages  
+By default, only English annotations are compiled in.  
+To enable other languages, use the feature corresponding to that languge. An exhaustive 
+list of supported languages can be found
+[here](https://github.com/Shizcow/emoji-rs/blob/master/emoji/Cargo.toml). 
+
 
 # License
 
