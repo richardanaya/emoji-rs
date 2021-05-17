@@ -1,6 +1,6 @@
 [package]
 name = "emoji"
-version = "1.0.0"
+version = "0.2.0"
 authors = ["Shizcow <pohl.devin@gmail.com>", "Richard Anaya"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
