@@ -1,11 +1,12 @@
 [package]
 name = "emoji"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Shizcow <pohl.devin@gmail.com>", "Richard Anaya"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
 description = "Every emoji, their metadata, and localized annotations"
 repository = "https://github.com/Shizcow/emoji-rs"
+readme = "../README.md"
 
 [dependencies]
 phf = { version = "0.8.0", features = ["macros"] }
